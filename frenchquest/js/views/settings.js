@@ -99,5 +99,5 @@ export default async function settings(params, root) {
 
   v.append(h('section', { class: 'settings-group' }, h('h2', 'About'),
     h('p', { class: 'small muted' }, 'FrenchQuest is a free, offline-capable course. Exam practice is unofficial and never predicts an official score. Always check current requirements on the IRCC website.'),
-    h('p', { class: 'small' }, h('a', { href: 'https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html', target: '_blank', rel: 'noopener' }, 'IRCC language test requirements'))));
+    h('p', { class: 'small' }, h('a', { href: 'https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html', target: '_blank', rel: 'noopener noreferrer' }, 'IRCC language test requirements'))));
 }
