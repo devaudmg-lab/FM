@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-06-05",
+  "level": "a2",
+  "unit": "a2-06",
+  "title": "Explain a health problem",
+  "goal": "Explain a health problem from start to finish: what happened, your symptoms, what you did, the advice you got and what happens next.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-histoire-sante", "kind": "grammar", "fr": "Je suis tombé… J'avais très mal… Je vais / J'irai…", "en": "telling a health story: past and future together",
+      "drills": [
+        { "type": "cloze", "text": "Samedi, je ___ tombée sur la glace. (tomber)", "answers": [["suis"]], "en": "On Saturday, I fell on the ice. (woman speaking)", "explain": "[[tomber]] takes être: [[je suis tombée]], with agreement." },
+        { "type": "cloze", "text": "Mon poignet ___ très enflé. (être, description)", "answers": [["était"]], "en": "My wrist was very swollen.", "explain": "A description in the past → imparfait: [[était]]." },
+        { "type": "cloze", "text": "Demain, j'___ à la clinique. (aller, futur simple)", "answers": [["irai"]], "en": "Tomorrow, I'll go to the clinic.", "explain": "aller → future stem ir-: [[j'irai]]." }
+      ] },
+    { "id": "g-conseils-review", "kind": "grammar", "fr": "il faut / vous devriez / il vaut mieux", "en": "advice: have to / should / it's better to",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ mettre de la glace sur votre cheville.", "answers": [["faut", "vaut mieux"]], "en": "You have to put ice on your ankle.", "explain": "[[il faut]] + infinitive (or [[il vaut mieux]] for the best option)." },
+        { "type": "translate", "prompt": "You should see a doctor today. (formal)", "accept": ["Vous devriez voir un médecin aujourd'hui.", "Vous devriez consulter un médecin aujourd'hui.", "Aujourd'hui, vous devriez voir un médecin."], "explain": "[[vous devriez]] + infinitive." },
+        { "type": "mcq", "prompt": "“It's better not to walk on it.”", "options": ["Il vaut mieux ne pas marcher dessus.", "Il vaut mieux de ne pas marcher dessus.", "Il ne vaut pas mieux marcher dessus."], "optionsFr": true, "answer": 0, "explain": "[[il vaut mieux]] + [[ne pas]] + infinitive, no [[de]]. ([[dessus]] = on it.)" }
+      ] },
+    { "id": "se-faire-mal", "kind": "phrase", "fr": "Je me suis fait mal au poignet.", "en": "I hurt my wrist.", "accept": ["Je me suis blessé au poignet.", "Je me suis blessée au poignet."], "note": "No agreement on [[fait]]: [[elle s'est fait mal]]." },
+    { "id": "tombe-glace", "kind": "phrase", "fr": "Je suis tombé sur la glace.", "en": "I fell on the ice.", "accept": ["Je suis tombée sur la glace."] },
+    { "id": "poignet", "kind": "vocab", "fr": "poignet", "article": "le", "gender": "m", "en": "wrist", "pos": "noun",
+      "example": { "fr": "J'ai mal au poignet gauche.", "en": "My left wrist hurts." } },
+    { "id": "cheville", "kind": "vocab", "fr": "cheville", "article": "la", "gender": "f", "en": "ankle", "pos": "noun",
+      "example": { "fr": "Elle s'est fait mal à la cheville en courant.", "en": "She hurt her ankle while running." } },
+    { "id": "enfle", "kind": "vocab", "fr": "enflé", "fem": "enflée", "en": "swollen", "pos": "adjective", "accept": ["enflée", "gonflé", "gonflée"],
+      "example": { "fr": "Ma cheville est enflée.", "en": "My ankle is swollen." } },
+    { "id": "douleur", "kind": "vocab", "fr": "douleur", "article": "la", "gender": "f", "en": "pain", "pos": "noun", "accept": ["une douleur"],
+      "example": { "fr": "La douleur est très forte le soir.", "en": "The pain is very strong in the evening." } },
+    { "id": "radiographie", "kind": "vocab", "fr": "radiographie", "article": "une", "gender": "f", "en": "X-ray", "pos": "noun", "accept": ["une radio", "la radiographie"],
+      "example": { "fr": "Le médecin m'a envoyé passer une radiographie.", "en": "The doctor sent me for an X-ray." } },
+    { "id": "quand-je-bouge", "kind": "phrase", "fr": "J'ai très mal quand je bouge.", "en": "It hurts a lot when I move.", "accept": ["Ça me fait très mal quand je bouge.", "Ça fait très mal quand je bouge."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "The mission: a bad fall",
+      "blocks": [
+        { "type": "explain", "title": "Your mission",
+          "body": "Nguyen lives in Gatineau. On Saturday, he went skating on the Rideau Canal in Ottawa, and he fell. In this checkpoint you will:\n\n- read his messages and listen to his calls to **811** and to the clinic\n- answer **10 graded questions** that mix the whole health unit with travel French and the past and future tenses\n- **call** to explain a health problem, then **write** a message about your absence\n\nAim for **80%**. Play each recording no more than twice." },
+        { "type": "text", "title": "Nguyen's message to his friend Olivier",
+          "context": "Sunday morning.",
+          "fr": "Salut Olivier ! Mauvaise nouvelle : hier, sur le canal, je suis tombé sur la glace. Je me suis fait mal au poignet droit. Sur le moment, ce n'était pas trop grave, alors j'ai continué à patiner. Mais hier soir, mon poignet était très enflé et j'avais très mal quand je bougeais la main. J'ai mis de la glace et j'ai pris de l'ibuprofène, mais ce matin, j'ai encore mal. Je ne pourrai pas venir au hockey ce soir, désolé ! Je vais appeler le 811 pour savoir quoi faire.",
+          "en": "Hi Olivier! Bad news: yesterday, on the canal, I fell on the ice. I hurt my right wrist. At the time, it wasn't too bad, so I kept skating. But last night my wrist was very swollen and it hurt a lot when I moved my hand. I put ice on it and took ibuprofen, but this morning it still hurts. I won't be able to come to hockey tonight, sorry! I'm going to call 811 to find out what to do." },
+        { "type": "listen", "title": "The call to 811 Info-Santé",
+          "context": "A nurse answers Nguyen. Listen to her advice.",
+          "fr": "D'accord, monsieur. Votre poignet est enflé et vous avez mal quand vous bougez la main. Ce n'est pas une urgence, mais il vaut mieux voir un médecin aujourd'hui : vous avez peut-être besoin d'une radiographie. Je vous conseille d'aller dans une clinique sans rendez-vous. En attendant, il ne faut pas utiliser cette main. Vous devriez continuer à mettre de la glace, quinze minutes à la fois. Si votre main devient froide ou bleue, allez tout de suite à l'urgence.",
+          "en": "OK, sir. Your wrist is swollen and it hurts when you move your hand. It's not an emergency, but it's better to see a doctor today: you may need an X-ray. I advise you to go to a walk-in clinic. In the meantime, you must not use that hand. You should keep putting ice on it, fifteen minutes at a time. If your hand becomes cold or blue, go to the emergency room right away." },
+        { "id": "d1", "type": "mcq", "prompt": "Why didn't Nguyen stop skating right after he fell?", "options": ["At first, it didn't seem too serious.", "His friends asked him to continue.", "He didn't feel any pain at all."], "answer": 0,
+          "explain": "[[Sur le moment, ce n'était pas trop grave, alors j'ai continué à patiner.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "What does the nurse tell Nguyen to do?", "options": ["See a doctor today at a walk-in clinic", "Call 911 right away", "Wait a week and then see his family doctor"], "answer": 0,
+          "explain": "[[il vaut mieux voir un médecin aujourd'hui]] + [[Je vous conseille d'aller dans une clinique sans rendez-vous]]. 911 / the ER only if his hand becomes cold or blue." }
+      ] },
+    { "type": "understand", "title": "Unit 6 at a glance",
+      "blocks": [
+        { "type": "table", "title": "1. Where it hurts and how you feel",
+          "head": ["Pattern", "Examples"],
+          "rows": [
+            ["avoir mal à la / au / à l' / aux", "J'ai mal à la tête, au dos, à l'oreille, aux dents."],
+            ["avoir + symptom", "J'ai de la fièvre, une toux, le rhume, la grippe, le nez bouché."],
+            ["être + state", "Je suis malade, fatigué, fatiguée. Ma cheville est enflée."],
+            ["se faire mal à", "Je me suis fait mal au poignet."]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "table", "title": "2. Telling the story",
+          "head": ["Tense", "Use", "Example"],
+          "rows": [
+            ["passé composé", "what happened, what you did", "Je suis tombé. J'ai pris de l'ibuprofène."],
+            ["imparfait", "how it was, how you felt", "Mon poignet était enflé. J'avais très mal."],
+            ["présent", "how it is now", "Ce matin, j'ai encore mal."],
+            ["futur proche / futur simple", "what you will do", "Je vais appeler le 811. J'irai à la clinique."]
+          ],
+          "frCols": [2], "sayCol": true },
+        { "type": "table", "title": "3. Advice",
+          "head": ["Structure", "Example"],
+          "rows": [
+            ["il faut / il ne faut pas + infinitif", "Il ne faut pas utiliser cette main."],
+            ["tu devrais / vous devriez + infinitif", "Vous devriez mettre de la glace."],
+            ["il vaut mieux + infinitif", "Il vaut mieux voir un médecin aujourd'hui."],
+            ["impératif", "Reposez-vous. Allez à l'urgence."]
+          ],
+          "frCols": [0, 1], "sayCol": true },
+        { "type": "table", "title": "4. On the phone",
+          "head": ["You want…", "Say…"],
+          "rows": [
+            ["to give the reason", "Je vous appelle pour prendre rendez-vous."],
+            ["a fast appointment", "Je voudrais un rendez-vous le plus tôt possible."],
+            ["to accept / refuse a time", "Ça me convient. / Ça ne me convient pas."],
+            ["to change it", "Est-ce que je peux déplacer mon rendez-vous ?"]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "deepdive", "kind": "mistakes", "title": "Six mistakes to avoid on this mission",
+          "body": "- [[J'ai mal à ma tête]] → [[J'ai mal à la tête]]\n- [[Je suis fièvre]] → [[J'ai de la fièvre]]\n- [[J'ai tombé]] → [[Je suis tombé]] / [[Je suis tombée]] (tomber takes être)\n- [[Elle s'est faite mal]] → [[Elle s'est fait mal]] (no agreement on fait here)\n- [[Il vaut mieux de rester]] → [[Il vaut mieux rester]]\n- [[faire un rendez-vous]] → [[prendre rendez-vous]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Living between Gatineau and Ottawa",
+          "body": "Many people live in Gatineau (Québec) and work or play in Ottawa (Ontario). Health coverage follows **where you live**: a Gatineau resident uses the **RAMQ** card and calls **811 Info-Santé**; an Ottawa resident uses **OHIP** and can call **Health811**. In an emergency, call 911 or go to the nearest hospital. Rules about coverage between provinces can be complicated, so ask your provincial health insurer before a planned visit.\n\nWinter tip: [[la glace]] is ice, and [[mettre de la glace]] is how you say *put ice on* an injury. On the sidewalk, Quebecers also talk about [[la glace noire]] (black ice) and [[la chaussée glissante]] (slippery road)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je suis tombé sur la glace.", "en": "I fell on the ice." },
+            { "fr": "Je me suis fait mal au poignet.", "en": "I hurt my wrist.", "tip": "poignet: *pwa-gné*, the gn sounds like *ny* in canyon." },
+            { "fr": "Mon poignet était très enflé.", "en": "My wrist was very swollen.", "tip": "enflé: *an-flé*, nasal an." },
+            { "fr": "J'ai très mal quand je bouge.", "en": "It hurts a lot when I move." },
+            { "fr": "Je voudrais un rendez-vous le plus tôt possible.", "en": "I'd like an appointment as soon as possible." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Vous devriez continuer à mettre de la glace, quinze minutes à la fois.", "en": "You should keep putting ice on it, fifteen minutes at a time.",
+          "prompt": "What should Nguyen keep doing?", "options": ["Put ice on it for 15 minutes at a time", "Put ice on it for 50 minutes", "Move his hand every 15 minutes"], "answer": 0,
+          "explain": "[[mettre de la glace]] = put ice; [[quinze minutes à la fois]] = 15 minutes at a time. Careful: [[quinze]] (15) vs [[cinquante]] (50)." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: from the fall to the follow-up",
+      "intro": "Ten questions in the order of Nguyen's weekend. They mix the whole unit with travel French and the tenses of units 1 to 4.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Samedi, Nguyen est ___ sur la glace et il s'est fait mal ___ poignet.", "answers": [["tombé"], ["au"]], "choices": ["tombé", "tombée", "au", "à la"], "en": "On Saturday, Nguyen fell on the ice and hurt his wrist.",
+          "explain": "[[tomber]] takes être, Nguyen is a man → [[tombé]]. [[le poignet]] → [[au]]." },
+        { "id": "r2", "type": "cloze", "text": "Le soir, son poignet ___ très enflé et il ___ très mal.", "answers": [["était"], ["avait"]], "choices": ["était", "a été", "avait", "a eu"], "en": "In the evening, his wrist was very swollen and it hurt a lot.",
+          "explain": "Descriptions and states → imparfait: [[était]], [[avait mal]]." },
+        { "id": "r3", "type": "listen-mcq", "fr": "Ce n'est pas une urgence, mais il vaut mieux voir un médecin aujourd'hui : vous avez peut-être besoin d'une radiographie.", "en": "It's not an emergency, but it's better to see a doctor today: you may need an X-ray.",
+          "prompt": "What does the nurse think?", "options": ["Not an emergency, but he should see a doctor today; maybe an X-ray", "It's an emergency: go to the hospital now", "It's nothing: rest for a week"], "answer": 0,
+          "explain": "[[Ce n'est pas une urgence]], [[il vaut mieux voir un médecin aujourd'hui]], [[peut-être besoin d'une radiographie]]." },
+        { "id": "r4", "type": "translate", "prompt": "You must not use this hand. (general rule)", "accept": ["Il ne faut pas utiliser cette main.", "Il ne faut pas se servir de cette main."],
+          "hint": "il ne faut pas + infinitive", "explain": "[[il ne faut pas]] = must not." },
+        { "id": "r5", "type": "listen-mcq", "fr": "Clinique sans rendez-vous de Gatineau, bonjour. Aujourd'hui, nous sommes complets pour le matin. Revenez à 13 h pour l'inscription de l'après-midi.", "en": "Gatineau walk-in clinic, hello. Today we're full for the morning. Come back at 1 p.m. to register for the afternoon.",
+          "prompt": "Nguyen calls the walk-in clinic. What should he do?", "options": ["Come back at 1 p.m. to register for the afternoon", "Come right now: there's no wait", "Come back tomorrow at 1 p.m."], "answer": 0,
+          "explain": "[[complets pour le matin]] = full for the morning; [[Revenez à 13 h pour l'inscription de l'après-midi]]." },
+        { "id": "r6", "type": "mcq", "prompt": "At the clinic reception, what will they ask Nguyen for first?", "options": ["Sa carte d'assurance maladie", "Son billet aller-retour", "Sa réservation d'hôtel", "Son ordonnance"], "optionsFr": true, "answer": 0,
+          "explain": "At every clinic, the first thing is [[la carte d'assurance maladie]] (RAMQ for Gatineau residents)." },
+        { "id": "r7", "type": "reorder", "prompt": "It hurts a lot when I move my hand.", "accept": ["J'ai très mal quand je bouge la main"], "extra": ["suis"],
+          "explain": "Pain takes avoir: [[j'ai très mal]], not [[je suis mal]]. With body parts, French usually uses [[la]]: [[je bouge la main]]." },
+        { "id": "r8", "type": "match", "prompt": "Match the French and the English.", "pairs": [["la cheville", "ankle"], ["le poignet", "wrist"], ["enflé", "swollen"], ["la radiographie", "X-ray"], ["la douleur", "pain"]] },
+        { "id": "r9", "type": "translate", "prompt": "I won't be able to work on Monday. I'll go back to the doctor on Wednesday.", "accept": ["Je ne pourrai pas travailler lundi. Je retournerai chez le médecin mercredi.", "Je ne pourrai pas travailler lundi. Je reverrai le médecin mercredi.", "Je ne pourrai pas travailler lundi. Je vais retourner chez le médecin mercredi.", "Lundi, je ne pourrai pas travailler. Mercredi, je retournerai chez le médecin.", "Je ne pourrai pas travailler lundi. Je retournerai voir le médecin mercredi.", "Je ne pourrai pas travailler lundi. J'irai voir le médecin mercredi.", "Je ne pourrai pas travailler lundi. Je retournerai chez le docteur mercredi.", "Je ne pourrai pas travailler lundi. Je vais retourner voir le médecin mercredi.", "Lundi, je ne pourrai pas travailler. Mercredi, je vais retourner chez le médecin.", "Lundi, je ne pourrai pas travailler. Mercredi, je retournerai voir le médecin."],
+          "hint": "pouvoir → pourr-; chez le médecin", "explain": "Futur simple: [[je ne pourrai pas]], [[je retournerai]]. Going to a doctor = [[chez le médecin]]." },
+        { "id": "r10", "type": "dictation", "fr": "Il vaut mieux ne pas bouger le poignet pendant quelques jours.", "accept": [],
+          "explain": "[[ne pas]] together before the infinitive [[bouger]]. ([[pendant quelques jours]] = for a few days.)" }
+      ] },
+    { "type": "apply", "title": "Your mission: explain and inform",
+      "intro": "Two final missions. Use the checklists, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        { "id": "s1", "type": "speak",
+          "prompt": "Call 811 or a clinic (60 seconds) about a health problem of your choice (a fall, a fever, a bad cough, a stomach problem…). Say what happened and when, describe your symptoms in the past and now, say what you already did, ask for advice, and ask for an appointment as soon as possible. Imagine the answers.",
+          "promptFr": "Vous téléphonez pour expliquer un problème de santé.",
+          "seconds": 60,
+          "checklist": [
+            "Bonjour + Je vous appelle parce que… / pour…",
+            "What happened (passé composé): Je suis tombé / tombée… J'ai eu…",
+            "How it was (imparfait): J'avais mal… C'était…",
+            "Now (present): Ce matin, j'ai encore mal à…",
+            "What you did: J'ai pris… J'ai mis de la glace…",
+            "Ask for advice: Qu'est-ce que je devrais faire ? Est-ce que c'est grave ?",
+            "An appointment: Je voudrais un rendez-vous le plus tôt possible.",
+            "Thanks: Merci beaucoup, bonne journée !"
+          ],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour, madame. Je vous appelle parce que je suis malade. Ça a commencé jeudi. J'avais mal à la gorge et j'étais très fatiguée. Vendredi, j'ai eu de la fièvre. J'ai pris de l'acétaminophène, mais ce matin, j'ai encore de la fièvre et je tousse beaucoup. Est-ce que c'est grave ? Qu'est-ce que je devrais faire ? … D'accord. Je voudrais un rendez-vous le plus tôt possible, s'il vous plaît. … Demain à 10 h ? Oui, ça me convient. Merci beaucoup, bonne journée !",
+              "en": "Hello, madam. I'm calling because I'm sick. It started on Thursday. I had a sore throat and I was very tired. On Friday, I got a fever. I took acetaminophen, but this morning I still have a fever and I'm coughing a lot. Is it serious? What should I do? … OK. I'd like an appointment as soon as possible, please. … Tomorrow at 10? Yes, that suits me. Thank you very much, have a good day! (The … mark the answers.)" },
+            { "label": "Stronger model answer", "fr": "Bonjour, monsieur. Excusez-moi de vous déranger un dimanche. Je vous appelle parce que je me suis fait mal à la cheville. Hier après-midi, je faisais une randonnée dans le parc de la Gatineau et je suis tombé dans un escalier. Sur le moment, ça allait, alors j'ai continué à marcher. Mais le soir, ma cheville était très enflée et j'avais très mal. J'ai mis de la glace et j'ai pris de l'ibuprofène. Ce matin, ça va un peu mieux, mais j'ai encore mal quand je marche. Est-ce que je devrais aller à l'urgence, ou il vaut mieux voir un médecin dans une clinique ? … D'accord, une clinique sans rendez-vous. Est-ce que je peux mettre mon soulier ? … Pas trop serré, c'est noté. Merci beaucoup pour vos conseils !",
+              "en": "Hello, sir. Sorry to bother you on a Sunday. I'm calling because I hurt my ankle. Yesterday afternoon, I was hiking in Gatineau Park and I fell on some stairs. At the time it was OK, so I kept walking. But in the evening, my ankle was very swollen and it hurt a lot. I put ice on it and took ibuprofen. This morning it's a bit better, but it still hurts when I walk. Should I go to the emergency room, or is it better to see a doctor at a clinic? … OK, a walk-in clinic. Can I put my shoe on? … Not too tight, got it. Thank you very much for your advice! ([[soulier]] = shoe, Québec; [[chaussure]] in France. The … mark the answers.)" }
+          ] },
+        { "id": "w1", "type": "write",
+          "prompt": "Write an email to your manager or teacher. Explain that you are sick or injured: what happened, your symptoms, what the doctor or nurse said (advice), and when you think you will come back. Ask about one practical thing (a meeting, an assignment, working from home).",
+          "promptFr": "Écrivez un courriel pour expliquer votre absence.",
+          "wordRange": [70, 120],
+          "checklist": [
+            "Objet : Absence + Bonjour + name,",
+            "What happened (passé composé + imparfait)",
+            "Symptoms now: J'ai mal à… / J'ai de la fièvre…",
+            "The advice: Le médecin m'a dit qu'il faut… / que je devrais…",
+            "When you'll come back (futur simple): Je reviendrai…",
+            "A polite question: Pourriez-vous… ? / Est-ce que je pourrais… ?",
+            "Merci de votre compréhension. Cordialement, + your name"
+          ],
+          "models": [
+            { "label": "Model answer", "fr": "Objet : Absence lundi et mardi\nBonjour Nadia,\nJe suis désolé, mais je ne pourrai pas venir au bureau lundi et mardi. Samedi, je suis tombé sur la glace et je me suis fait mal au poignet. Le soir, il était très enflé. Je suis allé dans une clinique sans rendez-vous et j'ai passé une radiographie. Ce n'est pas cassé, mais j'ai encore très mal. Le médecin dit que je dois me reposer et ne pas utiliser ma main droite pendant quelques jours. Je reviendrai mercredi. Pourriez-vous déplacer notre réunion de lundi ?\nMerci de votre compréhension.\nCordialement,\nNguyen",
+              "en": "Subject: Absence Monday and Tuesday. Hello Nadia, I'm sorry, but I won't be able to come to the office on Monday and Tuesday. On Saturday, I fell on the ice and hurt my wrist. In the evening, it was very swollen. I went to a walk-in clinic and had an X-ray. It isn't broken, but it still hurts a lot. The doctor says I have to rest and not use my right hand for a few days. I'll come back on Wednesday. Could you move our Monday meeting? Thank you for your understanding. Best regards, Nguyen" },
+            { "label": "Stronger model answer", "fr": "Objet : Absence cette semaine\nBonjour madame Tremblay,\nJe vous écris pour vous informer que je serai absente du cours jusqu'à jeudi. Dimanche soir, j'avais mal à la tête et j'étais très fatiguée. Lundi matin, j'ai eu 39 de fièvre et je toussais beaucoup, alors j'ai appelé le 811. L'infirmière m'a conseillé de consulter un médecin, et à la clinique, on m'a dit que c'était la grippe. Le médecin pense qu'il vaut mieux rester à la maison trois ou quatre jours pour ne pas contaminer les autres étudiants. Je reviendrai donc jeudi, si la fièvre a baissé. Est-ce que je pourrais vous envoyer mon devoir par courriel ? J'ai un billet médical si vous en avez besoin.\nMerci de votre compréhension.\nCordialement,\nSofia Reyes",
+              "en": "Subject: Absence this week. Hello Mrs. Tremblay, I'm writing to let you know that I will be absent from class until Thursday. On Sunday evening, I had a headache and I was very tired. On Monday morning, I had a fever of 39 and I was coughing a lot, so I called 811. The nurse advised me to see a doctor, and at the clinic they told me it was the flu. The doctor thinks it's better to stay at home for three or four days so as not to infect the other students. So I'll be back on Thursday, if the fever has gone down. Could I send you my homework by email? I have a doctor's note if you need it. Thank you for your understanding. Best regards, Sofia Reyes" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Tell a health story with the right tenses: [[Je suis tombé. Mon poignet était enflé. J'ai encore mal. J'irai à la clinique.]]\n- Describe pain and symptoms: [[avoir mal à]], [[de la fièvre]], [[enflé]], [[J'ai très mal quand je bouge.]]\n- Understand and give advice: [[il faut, vous devriez, il vaut mieux]]\n- Call 811 or a clinic, get an appointment, and explain an absence in writing",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "r7 no longer marks 'ma main' wrong by rule (distractor changed to 'suis', explanation softened); added 911 to the emergency line and corrected the ice/ice-pack claim. Widened r9 accept." }
+}

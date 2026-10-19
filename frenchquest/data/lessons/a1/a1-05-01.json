@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-05-01",
+  "level": "a1",
+  "unit": "a1-05",
+  "title": "My day",
+  "goal": "Describe what you do during the day with everyday -er verbs and time phrases like le matin and à 8 heures.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-er-present", "kind": "grammar", "fr": "je travaille, nous travaillons, ils travaillent", "en": "regular -er verbs: all six present-tense forms",
+      "drills": [
+        { "type": "cloze", "text": "Vous ___ à quelle heure ? (rentrer)", "answers": [["rentrez"]], "en": "What time do you get home?", "explain": "vous → -ez: vous rentrez." },
+        { "type": "cloze", "text": "Ils ___ la radio le soir. (écouter)", "answers": [["écoutent"]], "en": "They listen to the radio in the evening.", "explain": "ils → -ent, and the -ent is silent: ils écoutent." },
+        { "type": "cloze", "text": "Tu ___ le matin ? (travailler)", "answers": [["travailles"]], "en": "Do you work in the morning?", "explain": "tu → -es (silent): tu travailles." },
+        { "type": "translate", "prompt": "I'm watching TV.", "accept": ["Je regarde la télé.", "Je regarde la télévision."], "explain": "French has one present tense: je regarde = I watch / I'm watching." }
+      ] },
+    { "id": "g-ger-cer", "kind": "grammar", "fr": "nous mangeons, nous commençons", "en": "spelling change in the nous form of manger and commencer",
+      "drills": [
+        { "type": "cloze", "text": "Nous ___ à 9 heures. (commencer)", "answers": [["commençons"]], "en": "We start at 9 o'clock.", "explain": "Before -ons, c becomes ç to keep the soft s sound: commençons." },
+        { "type": "cloze", "text": "Nous ___ avec les enfants. (manger)", "answers": [["mangeons"]], "en": "We eat with the children.", "explain": "Before -ons, g needs an e to keep the soft j sound: mangeons." },
+        { "type": "mcq", "prompt": "Which spelling is correct?", "options": ["Nous commençons.", "Nous commencons.", "Nous commenceons."], "optionsFr": true, "answer": 0, "explain": "Verbs in -cer take ç before o: nous commençons." }
+      ] },
+    { "id": "travailler", "kind": "vocab", "fr": "travailler", "en": "to work", "pos": "verb",
+      "example": { "fr": "Je travaille à Ottawa.", "en": "I work in Ottawa." } },
+    { "id": "manger", "kind": "vocab", "fr": "manger", "en": "to eat", "pos": "verb",
+      "example": { "fr": "Nous mangeons à midi.", "en": "We eat at noon." }, "note": "nous mangeons (with an e)" },
+    { "id": "regarder", "kind": "vocab", "fr": "regarder", "en": "to watch, to look at", "pos": "verb",
+      "example": { "fr": "Le soir, on regarde la télé.", "en": "In the evening, we watch TV." }, "note": "No word for “at”: regarder la télé." },
+    { "id": "ecouter", "kind": "vocab", "fr": "écouter", "en": "to listen to", "pos": "verb",
+      "example": { "fr": "J'écoute la radio.", "en": "I listen to the radio." }, "note": "No word for “to”: écouter la radio." },
+    { "id": "commencer", "kind": "vocab", "fr": "commencer", "en": "to start, to begin", "pos": "verb",
+      "example": { "fr": "Je commence à 8 heures.", "en": "I start at 8 o'clock." }, "note": "nous commençons (with ç)" },
+    { "id": "terminer", "kind": "vocab", "fr": "terminer", "en": "to finish, to end (work, a class)", "pos": "verb", "accept": ["finir"],
+      "example": { "fr": "Elle termine à 17 heures.", "en": "She finishes at 5 p.m." } },
+    { "id": "rentrer", "kind": "vocab", "fr": "rentrer", "en": "to go home, to get home", "pos": "verb",
+      "example": { "fr": "Tu rentres à quelle heure ?", "en": "What time do you get home?" } },
+    { "id": "preparer", "kind": "vocab", "fr": "préparer", "en": "to prepare (a meal, a class)", "pos": "verb",
+      "example": { "fr": "Je prépare le repas.", "en": "I prepare the meal." } },
+    { "id": "cuisiner", "kind": "vocab", "fr": "cuisiner", "en": "to cook", "pos": "verb",
+      "example": { "fr": "Le soir, je cuisine avec ma femme.", "en": "In the evening, I cook with my wife." } },
+    { "id": "le-matin", "kind": "phrase", "fr": "le matin", "en": "in the morning (usually, every morning)" },
+    { "id": "l-apres-midi", "kind": "phrase", "fr": "l'après-midi", "en": "in the afternoon (usually, every afternoon)" },
+    { "id": "le-soir", "kind": "phrase", "fr": "le soir", "en": "in the evening (usually, every evening)" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Two neighbours, two schedules",
+      "blocks": [
+        { "type": "dialogue", "title": "Neighbours chatting in Gatineau",
+          "context": "Sofia meets her neighbour Karim outside their building.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Karim, tu travailles à Ottawa ?", "en": "Karim, do you work in Ottawa?" },
+            { "speaker": "Karim", "fr": "Oui. Je commence à 8 heures le matin et je termine à 16 heures.", "en": "Yes. I start at 8 in the morning and I finish at 4 p.m." },
+            { "speaker": "Sofia", "fr": "Et tu rentres à quelle heure ?", "en": "And what time do you get home?" },
+            { "speaker": "Karim", "fr": "Je rentre à 17 heures. Le soir, je cuisine avec ma femme.", "en": "I get home at 5. In the evening, I cook with my wife." },
+            { "speaker": "Sofia", "fr": "Vous mangez à quelle heure ?", "en": "What time do you (all) eat?" },
+            { "speaker": "Karim", "fr": "Nous mangeons à 18 heures avec les enfants. Et à 20 heures, on regarde la télé.", "en": "We eat at 6 with the children. And at 8, we watch TV." },
+            { "speaker": "Sofia", "fr": "Moi, je travaille l'après-midi. Je commence à 13 heures et je termine à 21 heures.", "en": "Me, I work in the afternoon. I start at 1 p.m. and I finish at 9 p.m." },
+            { "speaker": "Karim", "fr": "Et le soir ?", "en": "And in the evening?" },
+            { "speaker": "Sofia", "fr": "Je rentre, je mange et j'écoute la radio.", "en": "I go home, I eat and I listen to the radio." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen first. Notice how many verbs end in **-e** and sound almost the same: [[travaille, commence, termine, rentre, cuisine]]. Then tap a line to check the English." }
+      ] },
+    { "type": "understand", "title": "-er verbs for your whole day",
+      "blocks": [
+        { "type": "explain", "title": "You already know the pattern",
+          "body": "In Unit 2 you learned [[parler]] and [[habiter]]. Good news: almost every verb ending in **-er** works exactly the same way. Take off **-er** and add the ending for each person.\n\nFrench has **one** present tense. [[Je travaille]] means *I work* **and** *I'm working*. There is no extra word for *am* or *do*." },
+        { "type": "table", "title": "Travailler (to work) in the present",
+          "head": ["", "travailler", "English"],
+          "rows": [
+            ["je", "travaille", "I work / I'm working"],
+            ["tu", "travailles", "you work (one friend)"],
+            ["il / elle / on", "travaille", "he / she works, we work (informal)"],
+            ["nous", "travaillons", "we work"],
+            ["vous", "travaillez", "you work (formal, or more than one person)"],
+            ["ils / elles", "travaillent", "they work"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Four forms sound **exactly the same**: [[travaille, travailles, travaille, travaillent]]. The endings **-e, -es, -ent** are silent. Only [[-ons]] and [[-ez]] are heard." },
+        { "type": "table", "title": "Two verbs with a small spelling change",
+          "head": ["", "manger (to eat)", "commencer (to start)"],
+          "rows": [
+            ["je", "mange", "commence"],
+            ["tu", "manges", "commences"],
+            ["il / elle / on", "mange", "commence"],
+            ["nous", "mangeons", "commençons"],
+            ["vous", "mangez", "commencez"],
+            ["ils / elles", "mangent", "commencent"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Only the **nous** form changes. A *g* or *c* before *o* would sound hard (like *go*, *cot*), so French writes [[mangeons]] (soft *j* sound) and [[commençons]] (soft *s* sound)." },
+        { "type": "pattern", "title": "When? Time phrases",
+          "pattern": "verbe + le matin / l'après-midi / le soir / à 8 heures",
+          "note": "[[Le matin]], [[l'après-midi]] and [[le soir]] need **no preposition** and describe what you usually do. Use [[à]] + a clock time for an exact time. Time phrases can go at the start or the end of the sentence.",
+          "examples": [
+            { "fr": "Je travaille le matin.", "en": "I work in the morning(s)." },
+            { "fr": "L'après-midi, elle prépare ses cours.", "en": "In the afternoon, she prepares her classes." },
+            { "fr": "Le soir, nous cuisinons.", "en": "In the evening, we cook." },
+            { "fr": "Ils commencent à 8 heures et ils terminent à 17 heures.", "en": "They start at 8 and finish at 5 p.m." }
+          ] },
+        { "type": "vocab", "title": "New verbs", "itemIds": ["travailler", "manger", "regarder", "ecouter", "commencer", "terminer", "rentrer", "preparer", "cuisiner"] },
+        { "type": "vocab", "title": "Time phrases", "itemIds": ["le-matin", "l-apres-midi", "le-soir"] },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "Three sound rules make these verbs easy to say:\n\n- **Silent endings:** [[je mange]], [[tu manges]], [[ils mangent]] all sound like *mahnj*.\n- **Élision:** before a vowel, [[je]] becomes [[j']]: [[j'écoute]], [[j'habite]].\n- **Liaison:** [[nous]], [[vous]], [[ils]] and [[elles]] link with a *z* sound before a vowel: [[nous‿écoutons]], [[ils‿écoutent]]. That *z* is often the only way to hear that *they* is plural.",
+          "examples": [ { "fr": "il écoute — ils écoutent", "en": "he listens — they listen (hear the z)" }, { "fr": "j'écoute, j'habite", "en": "I listen, I live" } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **No “am” for -ing:** [[Je suis travaille]] is wrong. Say [[Je travaille]] (I'm working).\n- **No extra little words:** [[écouter la radio]] (listen **to**), [[regarder la télé]] (look **at**). Don't add [[à]].\n- **No preposition with le matin:** say [[le matin]], not [[dans le matin]].\n- **Spelling:** [[nous mangeons]], [[nous commençons]]; but [[je commence]] has no ç, because *c* before *e* is already soft." },
+        { "type": "deepdive", "kind": "canada", "title": "Déjeuner, dîner, souper",
+          "body": "The names of meals are different in Québec and in France, and they are also -er verbs:\n\n- **Québec:** [[le déjeuner]] (breakfast), [[le dîner]] (lunch), [[le souper]] (supper/dinner).\n- **France:** [[le petit-déjeuner]] (breakfast), [[le déjeuner]] (lunch), [[le dîner]] (dinner).\n\nSo a colleague in Montréal who says [[On dîne à midi ?]] means *lunch*. In France, [[dîner]] is the evening meal. When in doubt, say the time: [[On mange à midi ?]]",
+          "examples": [ { "fr": "Je soupe à 18 heures.", "en": "I have supper at 6 p.m. (Québec)" }, { "fr": "On dîne à midi ?", "en": "Shall we have lunch at noon? (Québec)" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud. Keep the silent endings silent.",
+          "lines": [
+            { "fr": "Je travaille le matin.", "en": "I work in the morning.", "tip": "travaille ends in a y sound: tra-vaï." },
+            { "fr": "Nous mangeons à midi.", "en": "We eat at noon.", "tip": "mangeons: the e is silent, it only changes the spelling." },
+            { "fr": "Ils écoutent la radio.", "en": "They listen to the radio.", "tip": "Link with z: il-z‿écoutent." },
+            { "fr": "Vous commencez à quelle heure ?", "en": "What time do you start?", "tip": "commencez ends in an é sound." },
+            { "fr": "Le soir, je cuisine.", "en": "In the evening, I cook." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils écoutent la radio le soir.", "en": "They listen to the radio in the evening.", "prompt": "How many people listen to the radio?", "options": ["More than one person", "One man", "One woman"], "answer": 0, "explain": "You hear a z sound before [[écoutent]]: [[ils‿écoutent]]. Without the z, it would be [[il écoute]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Nous commençons à 9 heures.", "en": "We start at 9 o'clock.", "prompt": "What time do the speakers start?", "options": ["At 9:00", "At 10:00", "At 2:00"], "answer": 0, "explain": "[[neuf heures]] = 9:00. Notice the v sound in the liaison: neu-v‿heures." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Mistakes now help you remember later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Nous ___ à midi. (manger)", "answers": [["mangeons"]], "choices": ["mangeons", "mangons", "mangez", "mangent"], "en": "We eat at noon.", "explain": "nous → -ons, and manger keeps its e: mangeons." },
+        { "id": "r2", "type": "cloze", "text": "Vous ___ à quelle heure ? (commencer)", "answers": [["commencez"]], "en": "What time do you start?", "explain": "vous → -ez. No ç here: c before e is already soft." },
+        { "id": "r3", "type": "mcq", "prompt": "Complete: “Mes enfants ___ la télé le soir.”", "options": ["regardent", "regardons", "regardez", "regarde"], "optionsFr": true, "answer": 0, "explain": "Mes enfants = ils → regardent.",
+          "optionFeedback": [null, "-ons goes with nous.", "-ez goes with vous.", "regarde is for one person (je, il, elle)."] },
+        { "id": "r4", "type": "translate", "prompt": "I work in the morning.", "accept": ["Je travaille le matin.", "Le matin, je travaille.", "Le matin je travaille."], "hint": "No word for “in”.", "explain": "[[le matin]] alone means *in the morning*; French has no -ing form, so [[je travaille]] covers it." },
+        { "id": "r5", "type": "translate", "prompt": "We start at 9 o'clock.", "accept": ["Nous commençons à 9 heures.", "Nous commençons à neuf heures.", "Nous commençons à 9 h.", "On commence à 9 heures.", "On commence à neuf heures.", "On commence à 9 h."], "hint": "nous + c → ç", "explain": "[[nous commençons]] takes ç before -ons. [[On commence]] is the everyday spoken version." },
+        { "id": "r6", "type": "reorder", "prompt": "In the evening, I cook with my husband.", "accept": ["Le soir, je cuisine avec mon mari.", "Je cuisine avec mon mari le soir.", "Je cuisine le soir avec mon mari."], "extra": ["dans"], "explain": "[[Le soir]] can start or end the sentence, with no preposition." },
+        { "id": "r7", "type": "match", "prompt": "Match each verb to its meaning.", "pairs": [["écouter", "to listen to"], ["regarder", "to watch"], ["rentrer", "to go home"], ["terminer", "to finish"], ["préparer", "to prepare"], ["cuisiner", "to cook"]] },
+        { "id": "r8", "type": "dictation", "fr": "Elle rentre à 18 heures.", "accept": ["Elle rentre à dix-huit heures.", "Elle rentre à 18 h.", "Elles rentrent à 18 heures.", "Elles rentrent à dix-huit heures.", "Elles rentrent à 18 h."], "explain": "[[rentre]] and [[rentrent]] sound the same, so both spellings are accepted." },
+        { "id": "r9", "type": "cloze", "text": "Ma sœur ___ à Toronto et elle ___ l'après-midi. (habiter, travailler)", "answers": [["habite"], ["travaille"]], "en": "My sister lives in Toronto and she works in the afternoon.", "explain": "Habiter and travailler are both regular -er verbs: elle → -e." },
+        { "id": "r10", "type": "mcq", "prompt": "How do you say “I'm listening to the radio”?", "options": ["J'écoute la radio.", "Je suis écoute la radio.", "J'écoute à la radio.", "Je écoute la radio."], "optionsFr": true, "answer": 0, "explain": "One verb, no “am”, no “to”, and je → j' before a vowel.",
+          "optionFeedback": [null, "Don't add être: j'écoute already means I'm listening.", "écouter takes no à.", "je becomes j' before a vowel."] }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new colleague asks about your day. Say when you start and finish work or classes, when you get home, and one thing you do in the evening.", "seconds": 30,
+          "checklist": ["Je commence à… / Je termine à…", "Je rentre à…", "Le soir, je… (cuisine, regarde, écoute…)", "One nous or on sentence"],
+          "models": [ { "label": "Model answer", "fr": "Je travaille à Vancouver. Je commence à 9 heures et je termine à 17 heures. Je rentre à 18 heures. Le soir, je cuisine et on mange à 19 heures. À 20 heures, on regarde la télé.", "en": "I work in Vancouver. I start at 9 and I finish at 5 p.m. I get home at 6. In the evening, I cook and we eat at 7. At 8, we watch TV." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write 4 or 5 sentences about your day: the morning, the afternoon and the evening. Use at least four different verbs from this lesson.", "wordRange": [30, 60],
+          "checklist": ["Use le matin, l'après-midi and le soir", "Give at least two exact times with à", "Use one nous form (nous mangeons, nous commençons…)", "Use four different -er verbs"],
+          "models": [ { "label": "Model answer", "fr": "Je m'appelle Raj. Le matin, je travaille dans une banque à Toronto. Je commence à 8 heures. L'après-midi, je termine à 16 heures et je rentre. Le soir, je prépare le repas avec ma femme. Nous mangeons à 19 heures et nous écoutons la radio.", "en": "My name is Raj. In the morning, I work in a bank in Toronto. I start at 8. In the afternoon, I finish at 4 p.m. and I go home. In the evening, I prepare the meal with my wife. We eat at 7 p.m. and we listen to the radio." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate any regular **-er** verb in the present: [[je travaille, tu travailles, il travaille, nous travaillons, vous travaillez, ils travaillent]]\n- Spell [[nous mangeons]] and [[nous commençons]] correctly\n- Say when you do things with [[le matin]], [[l'après-midi]], [[le soir]] and [[à 8 heures]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Clarified préparer (it does not mean “to get ready”), fixed the h2 prompt (audio is nous, not they), added missing accepted word orders/forms in r6 and r8." }
+}

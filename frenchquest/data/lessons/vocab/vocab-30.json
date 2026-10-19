@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-30",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Abstract nouns and idioms",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b2",
+  "theme": "abstract nouns for ideas, work, challenges and everyday idioms",
+  "goal": "Recognise and use 23 abstract nouns, several of them in common idioms.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "methode",
+      "kind": "vocab",
+      "fr": "méthode",
+      "article": "la",
+      "gender": "f",
+      "en": "method",
+      "pos": "noun",
+      "accept": [
+        "une méthode"
+      ],
+      "example": {
+        "fr": "Chaque prof a sa méthode pour enseigner la grammaire.",
+        "en": "Every teacher has their own method for teaching grammar."
+      }
+    },
+    {
+      "id": "concept",
+      "kind": "vocab",
+      "fr": "concept",
+      "article": "le",
+      "gender": "m",
+      "en": "concept",
+      "pos": "noun",
+      "accept": [
+        "un concept"
+      ],
+      "example": {
+        "fr": "Le concept du restaurant est simple : tout est local.",
+        "en": "The restaurant's concept is simple: everything is local."
+      }
+    },
+    {
+      "id": "capacite",
+      "kind": "vocab",
+      "fr": "capacité",
+      "article": "la",
+      "gender": "f",
+      "en": "ability, capacity",
+      "pos": "noun",
+      "accept": [
+        "une capacité"
+      ],
+      "example": {
+        "fr": "Elle a une grande capacité d'adaptation.",
+        "en": "She has a great ability to adapt."
+      }
+    },
+    {
+      "id": "apercu",
+      "kind": "vocab",
+      "fr": "aperçu",
+      "article": "l'",
+      "gender": "m",
+      "en": "overview, glimpse; preview",
+      "pos": "noun",
+      "accept": [
+        "un aperçu"
+      ],
+      "example": {
+        "fr": "Ce document donne un aperçu du projet.",
+        "en": "This document gives an overview of the project."
+      }
+    },
+    {
+      "id": "echantillon",
+      "kind": "vocab",
+      "fr": "échantillon",
+      "article": "l'",
+      "gender": "m",
+      "en": "sample",
+      "pos": "noun",
+      "accept": [
+        "un échantillon"
+      ],
+      "example": {
+        "fr": "La pharmacienne m'a donné un échantillon de crème.",
+        "en": "The pharmacist gave me a sample of cream."
+      }
+    },
+    {
+      "id": "fichier",
+      "kind": "vocab",
+      "fr": "fichier",
+      "article": "le",
+      "gender": "m",
+      "en": "file (computer)",
+      "pos": "noun",
+      "accept": [
+        "un fichier"
+      ],
+      "example": {
+        "fr": "Envoie-moi le fichier par courriel.",
+        "en": "Send me the file by email."
+      }
+    },
+    {
+      "id": "combinaison",
+      "kind": "vocab",
+      "fr": "combinaison",
+      "article": "la",
+      "gender": "f",
+      "en": "combination; overalls, snowsuit",
+      "pos": "noun",
+      "accept": [
+        "une combinaison"
+      ],
+      "example": {
+        "fr": "J'ai oublié la combinaison du cadenas.",
+        "en": "I forgot the combination for the padlock."
+      },
+      "note": "Québec: un habit de neige = snowsuit."
+    },
+    {
+      "id": "colonne",
+      "kind": "vocab",
+      "fr": "colonne",
+      "article": "la",
+      "gender": "f",
+      "en": "column",
+      "pos": "noun",
+      "accept": [
+        "une colonne"
+      ],
+      "example": {
+        "fr": "Remplissez la colonne de droite.",
+        "en": "Fill in the right-hand column."
+      }
+    },
+    {
+      "id": "rayon",
+      "kind": "vocab",
+      "fr": "rayon",
+      "article": "le",
+      "gender": "m",
+      "en": "department, aisle (store); ray",
+      "pos": "noun",
+      "accept": [
+        "un rayon"
+      ],
+      "example": {
+        "fr": "Les piles sont au rayon électronique.",
+        "en": "The batteries are in the electronics department."
+      }
+    },
+    {
+      "id": "cran",
+      "kind": "vocab",
+      "fr": "cran",
+      "article": "le",
+      "gender": "m",
+      "en": "guts, nerve (informal)",
+      "pos": "noun",
+      "accept": [
+        "un cran"
+      ],
+      "example": {
+        "fr": "Il faut du cran pour tout quitter et immigrer.",
+        "en": "It takes guts to leave everything and immigrate."
+      },
+      "note": "Informal. Avoir du cran = to have guts."
+    },
+    {
+      "id": "petrin",
+      "kind": "vocab",
+      "fr": "pétrin",
+      "article": "le",
+      "gender": "m",
+      "en": "a fix, trouble (informal)",
+      "pos": "noun",
+      "accept": [
+        "un pétrin"
+      ],
+      "example": {
+        "fr": "J'ai perdu mon passeport : je suis dans le pétrin !",
+        "en": "I've lost my passport: I'm in a real fix!"
+      },
+      "note": "Informal. Être dans le pétrin = to be in trouble."
+    },
+    {
+      "id": "fardeau",
+      "kind": "vocab",
+      "fr": "fardeau",
+      "article": "le",
+      "gender": "m",
+      "en": "burden",
+      "pos": "noun",
+      "accept": [
+        "un fardeau"
+      ],
+      "example": {
+        "fr": "Il ne veut pas être un fardeau pour ses enfants.",
+        "en": "He doesn't want to be a burden on his children."
+      }
+    },
+    {
+      "id": "sacrifice",
+      "kind": "vocab",
+      "fr": "sacrifice",
+      "article": "le",
+      "gender": "m",
+      "en": "sacrifice",
+      "pos": "noun",
+      "accept": [
+        "un sacrifice"
+      ],
+      "example": {
+        "fr": "Ses parents ont fait beaucoup de sacrifices pour elle.",
+        "en": "Her parents made a lot of sacrifices for her."
+      }
+    },
+    {
+      "id": "combat",
+      "kind": "vocab",
+      "fr": "combat",
+      "article": "le",
+      "gender": "m",
+      "en": "fight, struggle",
+      "pos": "noun",
+      "accept": [
+        "un combat"
+      ],
+      "example": {
+        "fr": "Son combat contre la maladie a duré deux ans.",
+        "en": "Her fight against the illness lasted two years."
+      }
+    },
+    {
+      "id": "chaos",
+      "kind": "vocab",
+      "fr": "chaos",
+      "article": "le",
+      "gender": "m",
+      "en": "chaos",
+      "pos": "noun",
+      "accept": [
+        "un chaos"
+      ],
+      "example": {
+        "fr": "Avec la tempête, c'était le chaos sur les routes.",
+        "en": "With the storm, it was chaos on the roads."
+      },
+      "note": "The ch is pronounced k."
+    },
+    {
+      "id": "gravite",
+      "kind": "vocab",
+      "fr": "gravité",
+      "article": "la",
+      "gender": "f",
+      "en": "seriousness; gravity",
+      "pos": "noun",
+      "accept": [
+        "une gravité"
+      ],
+      "example": {
+        "fr": "Il n'a pas compris la gravité de la situation.",
+        "en": "He didn't understand how serious the situation was."
+      }
+    },
+    {
+      "id": "bonte",
+      "kind": "vocab",
+      "fr": "bonté",
+      "article": "la",
+      "gender": "f",
+      "en": "kindness, goodness",
+      "pos": "noun",
+      "accept": [
+        "une bonté"
+      ],
+      "example": {
+        "fr": "Merci pour votre bonté.",
+        "en": "Thank you for your kindness."
+      }
+    },
+    {
+      "id": "apparence",
+      "kind": "vocab",
+      "fr": "apparence",
+      "article": "l'",
+      "gender": "f",
+      "en": "appearance, looks",
+      "pos": "noun",
+      "accept": [
+        "une apparence"
+      ],
+      "example": {
+        "fr": "Il ne faut pas juger les gens sur leur apparence.",
+        "en": "You shouldn't judge people by their appearance."
+      }
+    },
+    {
+      "id": "lecon",
+      "kind": "vocab",
+      "fr": "leçon",
+      "article": "la",
+      "gender": "f",
+      "en": "lesson",
+      "pos": "noun",
+      "accept": [
+        "une leçon"
+      ],
+      "example": {
+        "fr": "J'ai retenu la leçon : je ne prête plus d'argent.",
+        "en": "I've learned my lesson: I don't lend money any more."
+      }
+    },
+    {
+      "id": "miracle",
+      "kind": "vocab",
+      "fr": "miracle",
+      "article": "le",
+      "gender": "m",
+      "en": "miracle",
+      "pos": "noun",
+      "accept": [
+        "un miracle"
+      ],
+      "example": {
+        "fr": "C'est un miracle que personne n'ait été blessé.",
+        "en": "It's a miracle that nobody was hurt."
+      }
+    },
+    {
+      "id": "benediction",
+      "kind": "vocab",
+      "fr": "bénédiction",
+      "article": "la",
+      "gender": "f",
+      "en": "blessing",
+      "pos": "noun",
+      "accept": [
+        "une bénédiction"
+      ],
+      "example": {
+        "fr": "Ce nouveau travail est une vraie bénédiction.",
+        "en": "This new job is a real blessing."
+      }
+    },
+    {
+      "id": "descente",
+      "kind": "vocab",
+      "fr": "descente",
+      "article": "la",
+      "gender": "f",
+      "en": "way down, slope; descent",
+      "pos": "noun",
+      "accept": [
+        "une descente"
+      ],
+      "example": {
+        "fr": "Attention, la descente est glissante.",
+        "en": "Careful, the way down is slippery."
+      }
+    },
+    {
+      "id": "fleche",
+      "kind": "vocab",
+      "fr": "flèche",
+      "article": "la",
+      "gender": "f",
+      "en": "arrow",
+      "pos": "noun",
+      "accept": [
+        "une flèche"
+      ],
+      "example": {
+        "fr": "Suivez les flèches jusqu'au stationnement.",
+        "en": "Follow the arrows to the parking lot."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Ideas and ways of working",
+          "itemIds": [
+            "methode",
+            "concept",
+            "capacite",
+            "apercu",
+            "echantillon",
+            "fichier",
+            "combinaison",
+            "colonne",
+            "rayon"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Challenges and qualities",
+          "itemIds": [
+            "cran",
+            "petrin",
+            "fardeau",
+            "sacrifice",
+            "combat",
+            "chaos",
+            "gravite",
+            "bonte",
+            "apparence"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Lessons and luck",
+          "itemIds": [
+            "lecon",
+            "miracle",
+            "benediction",
+            "descente",
+            "fleche"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- Idioms: [[avoir du cran]] (to have guts), [[être dans le pétrin]] (to be in a fix), [[retenir la leçon]] (to learn your lesson).\n- [[Un rayon]] in a store is a department or aisle.\n- [[Le chaos]] is pronounced like *ka-o*.\n- [[Une combinaison]] can also be overalls, a jumpsuit or a ski suit (Québec: [[un habit de neige]] for a snowsuit)."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Chaque prof a sa méthode pour enseigner la grammaire.",
+              "en": "Every teacher has their own method for teaching grammar."
+            },
+            {
+              "fr": "Ce document donne un aperçu du projet.",
+              "en": "This document gives an overview of the project."
+            },
+            {
+              "fr": "Envoie-moi le fichier par courriel.",
+              "en": "Send me the file by email."
+            },
+            {
+              "fr": "Les piles sont au rayon électronique.",
+              "en": "The batteries are in the electronics department."
+            },
+            {
+              "fr": "Il faut du cran pour tout quitter et immigrer.",
+              "en": "It takes guts to leave everything and immigrate."
+            },
+            {
+              "fr": "J'ai perdu mon passeport : je suis dans le pétrin !",
+              "en": "I've lost my passport: I'm in a real fix!"
+            },
+            {
+              "fr": "Il ne veut pas être un fardeau pour ses enfants.",
+              "en": "He doesn't want to be a burden on his children."
+            },
+            {
+              "fr": "Merci pour votre bonté.",
+              "en": "Thank you for your kindness."
+            },
+            {
+              "fr": "J'ai retenu la leçon : je ne prête plus d'argent.",
+              "en": "I've learned my lesson: I don't lend money any more."
+            },
+            {
+              "fr": "Suivez les flèches jusqu'au stationnement.",
+              "en": "Follow the arrows to the parking lot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the nouns.",
+          "pairs": [
+            [
+              "la méthode",
+              "method"
+            ],
+            [
+              "l'échantillon",
+              "sample"
+            ],
+            [
+              "le fichier",
+              "file"
+            ],
+            [
+              "la colonne",
+              "column"
+            ],
+            [
+              "l'aperçu",
+              "overview"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the nouns.",
+          "pairs": [
+            [
+              "le fardeau",
+              "burden"
+            ],
+            [
+              "la bonté",
+              "kindness"
+            ],
+            [
+              "le combat",
+              "fight"
+            ],
+            [
+              "la bénédiction",
+              "blessing"
+            ],
+            [
+              "la flèche",
+              "arrow"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Amira lost her keys and her phone on the same day. She says:",
+          "options": [
+            "Je suis dans le pétrin !",
+            "Je suis dans le cran !",
+            "Je suis dans le rayon !",
+            "Je suis dans la bonté !"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Être dans le pétrin]] = to be in a fix."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Which sentence means “It takes guts to start a business”?",
+          "options": [
+            "Il faut du cran pour lancer une entreprise.",
+            "Il faut du chaos pour lancer une entreprise.",
+            "Il faut un fardeau pour lancer une entreprise.",
+            "Il faut une flèche pour lancer une entreprise."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Avoir du cran]] / [[il faut du cran]] = it takes guts."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "Send me the file by email. (to a friend)",
+          "accept": [
+            "Envoie-moi le fichier par courriel.",
+            "Envoie-moi le fichier par e-mail.",
+            "Envoie-moi le fichier par mail.",
+            "Envoie-moi le fichier par courriel !"
+          ],
+          "explain": "Imperative with tu: [[envoie-moi]]. Québec says [[courriel]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "I've learned my lesson.",
+          "accept": [
+            "J'ai retenu la leçon.",
+            "J'ai compris la leçon.",
+            "J'ai appris ma leçon.",
+            "J'ai retenu ma leçon."
+          ],
+          "explain": "[[Retenir la leçon]] is the usual idiom."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Les piles sont au ___ électronique.",
+          "answers": [
+            [
+              "rayon"
+            ]
+          ],
+          "choices": [
+            "rayon",
+            "fardeau",
+            "combat",
+            "concept"
+          ],
+          "en": "The batteries are in the electronics department.",
+          "explain": "[[Le rayon]] is a department or aisle in a store."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Il ne faut pas juger les gens sur leur ___.",
+          "answers": [
+            [
+              "apparence"
+            ]
+          ],
+          "en": "You shouldn't judge people by their appearance.",
+          "explain": "[[Apparence]] has a double p and ends in -ence."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "C'est un miracle que personne n'ait été blessé.",
+          "accept": [
+            "C’est un miracle que personne n’ait été blessé."
+          ],
+          "explain": "After [[c’est un miracle que]], the verb is in the subjunctive: [[n’ait été]]."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Avec la tempête, c'était le chaos sur les routes.",
+          "en": "With the storm, it was chaos on the roads.",
+          "prompt": "What were the roads like?",
+          "options": [
+            "Chaotic",
+            "Empty",
+            "Closed for repairs"
+          ],
+          "answer": 0,
+          "explain": "[[Le chaos]] = total disorder."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Use abstract nouns for work: [[méthode, concept, capacité, aperçu, fichier]]\n- Use idioms: [[avoir du cran]], [[être dans le pétrin]], [[retenir la leçon]]\n- Talk about challenges and luck: [[fardeau, combat, miracle, bénédiction]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Fixed the apparence spelling tip (double p); labelled cran and pétrin informal; corrected the combinaison tip; added an r6 variant."
+  }
+}

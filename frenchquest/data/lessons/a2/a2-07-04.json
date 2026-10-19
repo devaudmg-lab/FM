@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-07-04",
+  "level": "a2",
+  "unit": "a2-07",
+  "title": "Writing to a landlord",
+  "goal": "Write a clear, polite formal message to a landlord: subject line, greeting, the facts with dates, a request, your availability and a closing.",
+  "minutes": 15,
+  "items": [
+    { "id": "madame-monsieur", "kind": "phrase", "fr": "Madame, Monsieur,", "en": "Dear Sir or Madam, (formal opening)" },
+    { "id": "je-vous-ecris", "kind": "phrase", "fr": "Je vous écris au sujet de…", "en": "I'm writing to you about… (formal)", "note": "Learn it as a fixed chunk: vous (to you) goes before the verb. You'll study these pronouns later.", "accept": ["Je vous écris concernant…", "Je vous écris à propos de…"] },
+    { "id": "objet", "kind": "vocab", "fr": "objet", "article": "l'", "gender": "m", "en": "subject line (of an email or letter)", "pos": "noun", "accept": ["un objet"],
+      "example": { "fr": "Objet : fuite d'eau dans la cuisine", "en": "Subject: water leak in the kitchen" } },
+    { "id": "signaler", "kind": "vocab", "fr": "signaler", "en": "to report (a problem)", "pos": "verb",
+      "example": { "fr": "J'ai signalé le problème au concierge il y a une semaine.", "en": "I reported the problem to the concierge a week ago." } },
+    { "id": "reparation", "kind": "vocab", "fr": "réparation", "article": "la", "gender": "f", "en": "repair", "pos": "noun", "accept": ["une réparation"],
+      "example": { "fr": "La réparation est urgente.", "en": "The repair is urgent." } },
+    { "id": "preuve", "kind": "vocab", "fr": "preuve", "article": "une", "gender": "f", "en": "proof, evidence", "pos": "noun", "accept": ["la preuve"],
+      "example": { "fr": "Un courriel, c'est une preuve.", "en": "An email is proof." } },
+    { "id": "des-que-possible", "kind": "phrase", "fr": "dès que possible", "en": "as soon as possible", "accept": ["le plus tôt possible", "le plus vite possible"] },
+    { "id": "je-suis-disponible", "kind": "phrase", "fr": "Je suis disponible tous les jours après 17 h.", "en": "I'm available every day after 5 p.m.", "accept": ["Je suis disponible chaque jour après 17 h."] },
+    { "id": "merci-d-avance", "kind": "phrase", "fr": "Merci d'avance.", "en": "Thank you in advance.", "accept": ["Merci à l'avance.", "Je vous remercie d'avance."] },
+    { "id": "dans-l-attente", "kind": "phrase", "fr": "Dans l'attente de votre réponse,", "en": "I look forward to your reply, (formal, before the closing)" },
+    { "id": "cordialement", "kind": "phrase", "fr": "Cordialement,", "en": "Kind regards, (formal email closing)", "accept": ["Salutations distinguées,", "Bien cordialement,"] },
+    { "id": "g-pourriez-vous", "kind": "grammar", "fr": "Pourriez-vous + infinitif ?", "en": "polite formal request: could you + verb?",
+      "drills": [
+        { "type": "cloze", "text": "___-vous envoyer un plombier cette semaine ?", "answers": [["Pourriez"]], "en": "Could you send a plumber this week?", "explain": "[[Pourriez-vous]] (could you) is more polite than [[pouvez-vous]] (can you)." },
+        { "type": "translate", "prompt": "Could you fix the heating, please? (formal)", "accept": ["Pourriez-vous réparer le chauffage, s'il vous plaît ?", "Est-ce que vous pourriez réparer le chauffage, s'il vous plaît ?", "Vous pourriez réparer le chauffage, s'il vous plaît ?", "Pouvez-vous réparer le chauffage, s'il vous plaît ?", "Est-ce que vous pouvez réparer le chauffage, s'il vous plaît ?"], "explain": "[[Pourriez-vous]] + infinitive: the second verb stays in the infinitive, [[réparer]]." },
+        { "type": "mcq", "prompt": "Which request is the most polite?", "options": ["Pourriez-vous réparer le chauffage ?", "Réparez le chauffage !", "Tu peux réparer le chauffage ?"], "optionsFr": true, "answer": 0, "explain": "The conditional [[pourriez-vous]] + vous is the right tone for a landlord. An order or [[tu]] would sound rude." }
+      ] },
+    { "id": "g-formal-register", "kind": "grammar", "fr": "registre formel", "en": "formal register in writing (vous, full sentences, polite formulas)",
+      "drills": [
+        { "type": "mcq", "prompt": "You write to a landlord you have never met. How do you start?", "options": ["Madame, Monsieur,", "Salut !", "Cher ami,"], "optionsFr": true, "answer": 0, "explain": "[[Madame, Monsieur,]] is the standard opening when you don't know the person's name." },
+        { "type": "mcq", "prompt": "Which closing fits a formal email?", "options": ["Cordialement,", "Bises,", "À plus !"], "optionsFr": true, "answer": 0, "explain": "[[Cordialement]] is neutral and polite. [[Bises]] (kisses) and [[À plus]] are for friends." },
+        { "type": "cloze", "text": "Le chauffage ___ marche pas depuis lundi.", "answers": [["ne"]], "en": "The heating hasn't been working since Monday.", "explain": "In formal writing, always keep [[ne]]: [[ne marche pas]], never *marche pas*." }
+      ] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Amira writes to her landlord",
+      "intro": "The heating still doesn't work. Following her neighbour's advice, Amira writes an email to the landlord, Mr. Tremblay.",
+      "blocks": [
+        { "type": "text", "title": "Amira's email",
+          "fr": "Objet : Chauffage en panne – appartement 6, 2250, rue Masson\nMonsieur Tremblay,\nJe suis locataire de l'appartement 6 au 2250, rue Masson, depuis le 1er juillet. Je vous écris au sujet du chauffage de ma chambre : il ne marche pas depuis le samedi 1er novembre.\nJ'ai signalé le problème au concierge, M. Gagnon, il y a une semaine. Il a promis un plombier pour le lundi 3 novembre, mais personne n'est venu. Pendant la nuit, il fait seulement 15 degrés dans la chambre.\nPourriez-vous envoyer un plombier dès que possible ? Je suis disponible tous les jours après 17 h et toute la journée le samedi.\nMerci d'avance de votre aide.\nCordialement,\nAmira Benali\nAppartement 6, 2250, rue Masson, Montréal",
+          "en": "Subject: Heating out of order – apartment 6, 2250 Masson Street\nMr. Tremblay,\nI have been the tenant of apartment 6 at 2250 Masson Street since July 1. I'm writing to you about the heating in my bedroom: it hasn't been working since Saturday, November 1.\nI reported the problem to the concierge, Mr. Gagnon, a week ago. He promised a plumber for Monday, November 3, but nobody came. At night, it's only 15 degrees in the bedroom.\nCould you send a plumber as soon as possible? I'm available every day after 5 p.m. and all day on Saturdays.\nThank you in advance for your help.\nKind regards,\nAmira Benali\nApartment 6, 2250 Masson Street, Montréal" },
+        { "id": "d1", "type": "mcq", "prompt": "Why does Amira give dates (since November 1, a week ago, November 3)?", "options": ["So the email is precise and can serve as proof", "Because the landlord asked for a calendar", "Because formal emails must start with a date"], "answer": 0,
+          "explain": "Facts and dates make the message clear and give her a written record ([[une preuve]]) if the problem continues." },
+        { "type": "text", "title": "The same message… to a friend",
+          "context": "Here is how Amira tells her friend Lucie about it, by text. Same facts, very different register.",
+          "fr": "Salut Lucie ! Mon chauffage marche pas depuis une semaine, c'est vraiment poche. Le concierge a promis un plombier pour lundi, mais personne est venu ! J'ai écrit au proprio ce soir. Je gèle ! Bises !",
+          "en": "Hi Lucie! My heating hasn't been working for a week, it really sucks. The concierge promised a plumber for Monday, but nobody came! I wrote to the landlord tonight. I'm freezing. Love!" },
+        { "id": "d2", "type": "mcq", "prompt": "Which of these would be wrong in the email to Mr. Tremblay?", "options": ["c'est vraiment poche", "Je vous écris au sujet de…", "Cordialement,"], "optionsFr": true, "answer": 0,
+          "explain": "[[C'est poche]] is informal Québec slang (*it sucks*). Also notice the missing [[ne]] in [[marche pas]] and [[personne est venu]], [[proprio]] and [[Bises]]: all fine for a friend, not for a landlord." }
+      ] },
+    { "type": "understand", "title": "The formal message, step by step",
+      "blocks": [
+        { "type": "table", "title": "Seven parts of a formal message",
+          "head": ["Part", "What to write", "Example"],
+          "rows": [
+            ["1. Objet", "the problem + your apartment, in a few words", "Objet : Fuite d'eau – appartement 4"],
+            ["2. Salutation", "Madame, Monsieur, or the person's title and name", "Madame Roy,"],
+            ["3. Who you are", "tenant, address, since when", "Je suis locataire de l'appartement 4 depuis 2023."],
+            ["4. The facts", "what doesn't work, since when, what you already did", "L'évier fuit depuis lundi. J'ai appelé le concierge mardi."],
+            ["5. The request", "a clear, polite question", "Pourriez-vous envoyer un plombier dès que possible ?"],
+            ["6. Availability", "when someone can come in", "Je suis disponible le matin."],
+            ["7. Closing", "thanks + closing + full name and address", "Merci d'avance. Cordialement, Mei Chen"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "Short paragraphs, one idea each. A landlord should understand the problem in ten seconds." },
+        { "type": "table", "title": "Openings and closings",
+          "head": ["Situation", "Opening", "Closing"],
+          "rows": [
+            ["Formal, name unknown", "Madame, Monsieur,", "Cordialement,"],
+            ["Formal, name known", "Monsieur Tremblay, / Madame Roy,", "Cordialement, / Salutations distinguées,"],
+            ["Formal email, a bit warmer (common in Québec)", "Bonjour Monsieur Tremblay,", "Merci et bonne journée, / Cordialement,"],
+            ["Friend or family", "Salut Lucie ! / Coucou !", "Bises, / À bientôt !"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "In traditional letters, you'll see a long final sentence: [[Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.]] (roughly: *Yours faithfully*). Recognize it, but for emails **Cordialement** is enough." },
+        { "type": "pattern", "title": "Polite requests",
+          "pattern": "Pourriez-vous + infinitif ? · Je vous demande de + infinitif.",
+          "note": "[[Pourriez-vous]] is a polite question. [[Je vous demande de]] is firmer: use it if you've already asked once and nothing happened.",
+          "examples": [
+            { "fr": "Pourriez-vous envoyer un plombier dès que possible ?", "en": "Could you send a plumber as soon as possible?" },
+            { "fr": "Pourriez-vous me confirmer la date de la réparation ?", "en": "Could you confirm the date of the repair for me?" },
+            { "fr": "Je vous demande de réparer le chauffage cette semaine.", "en": "I am asking you to fix the heating this week." }
+          ] },
+        { "type": "vocab", "title": "Useful words and formulas", "itemIds": ["madame-monsieur", "je-vous-ecris", "objet", "signaler", "reparation", "preuve", "des-que-possible", "je-suis-disponible", "merci-d-avance", "dans-l-attente", "cordialement"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Not *Cher Monsieur* for a stranger:** with someone you don't know, write [[Madame, Monsieur,]]. [[Cher Monsieur Tremblay]] exists, but it sounds friendly.\n- **Abbreviations:** *Mr.* is English. In French, [[M.]] = Monsieur and [[Mme]] = Madame (no period). In the greeting itself, write the full word: [[Monsieur,]] not *M.,*\n- **Keep *ne*:** [[il ne marche pas]], not *il marche pas*.\n- **Never mix tu and vous** in the same message.\n- **No emojis, no slang:** [[poche]], [[proprio]], [[Bises]] stay in your texts to friends.\n- **Capital letter after the greeting:** [[Madame, Monsieur,]] then a new line starting with a capital: [[Je suis locataire…]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Keep a written trace",
+          "body": "- In Québec, a written message (email or letter) is the normal way to ask a landlord for a repair. Keep a copy, write the dates, and take photos of the problem.\n- If nothing happens, the next, more formal step is often [[une mise en demeure]] (a formal notice). If the problem is still not solved, tenants can turn to the **TAL** ([[Tribunal administratif du logement]]), which has information and forms on its website.\n- For an emergency (a big leak, no heat in winter), call right away **and** write the email afterwards.\n- Rules and steps can change: check [[tal.gouv.qc.ca]], or ask a local housing committee for free help. This lesson is about language, not legal advice." },
+        { "type": "deepdive", "kind": "why", "title": "Why so formal?",
+          "body": "French written registers are more distinct than English ones. A friendly English email (*Hi John, the heating's broken, can you send someone? Thanks!*) would feel too casual in French to many landlords. The formulas ([[Madame, Monsieur,]], [[Je vous écris au sujet de…]], [[Cordialement]]) signal respect and seriousness, and that makes it easier to get what you need." }
+      ] },
+    { "type": "hear", "title": "The landlord's reply",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat the key formulas",
+          "lines": [
+            { "fr": "Je vous écris au sujet du chauffage.", "en": "I'm writing to you about the heating.", "tip": "au sujet du: de + le = du." },
+            { "fr": "Pourriez-vous envoyer un plombier dès que possible ?", "en": "Could you send a plumber as soon as possible?", "tip": "dès que: the s of dès is silent." },
+            { "fr": "Je suis disponible tous les jours après 17 h.", "en": "I'm available every day after 5 p.m." },
+            { "fr": "Merci d'avance. Cordialement.", "en": "Thank you in advance. Kind regards." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bonjour, madame Benali. Ici Jean Tremblay. J'ai bien reçu votre courriel. Je suis désolé pour le chauffage. Un plombier va passer mercredi à 17 h 30. Si ce n'est pas possible, rappelez-moi, s'il vous plaît.",
+          "en": "Hello, Ms. Benali. This is Jean Tremblay. I received your email. I'm sorry about the heating. A plumber is going to come by on Wednesday at 5:30 p.m. If that's not possible, please call me back.",
+          "prompt": "When is the plumber coming?", "options": ["Wednesday at 5:30 p.m.", "Wednesday at 7:30 p.m.", "Monday at 5:30 p.m."], "answer": 0,
+          "explain": "[[mercredi à 17 h 30]] = dix-sept heures trente, 5:30 p.m. That fits Amira's availability: after 5 p.m." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'ai bien reçu votre courriel.", "en": "I did receive your email.",
+          "prompt": "What does “J'ai bien reçu votre courriel” mean?", "options": ["Your email arrived; I've read it.", "Your email was very good.", "Please send me an email."], "answer": 0,
+          "explain": "[[bien]] here confirms: *I did receive it*. It's a standard first line in replies." },
+        { "id": "h3", "type": "dictation", "fr": "Pourriez-vous envoyer un plombier dès que possible ?", "accept": ["Pourriez-vous envoyer un plombier dès que possible"],
+          "explain": "[[dès]] has a grave accent. [[Pourriez]] has two r's, like all conditional forms of [[pouvoir]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each part of the email to its example.", "pairs": [["Objet", "Fuite d'eau – appartement 4"], ["Salutation", "Madame, Monsieur,"], ["Les faits", "L'évier fuit depuis lundi."], ["La demande", "Pourriez-vous envoyer un plombier ?"], ["La formule finale", "Cordialement,"]] },
+        { "id": "r2", "type": "cloze", "text": "Je vous écris au ___ du chauffage de ma chambre.", "answers": [["sujet"]], "choices": ["sujet", "objet", "propos"], "en": "I'm writing to you about the heating in my bedroom.",
+          "explain": "[[au sujet de]] = about. ([[À propos de]] also works, but it needs [[à]]: [[à propos du chauffage]].)" },
+        { "id": "r3", "type": "mcq", "prompt": "Which sentence is right for a formal email?", "options": ["La toilette ne fonctionne pas depuis hier.", "La toilette marche pas depuis hier.", "Ta toilette est brisée depuis hier, c'est poche."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "In writing, keep [[ne]].", "[[Ta]] is a tu form, and [[c'est poche]] is slang."] },
+        { "id": "r4", "type": "translate", "prompt": "I'm available every morning. (formal email)", "accept": ["Je suis disponible tous les matins.", "Je suis disponible chaque matin.", "Je suis disponible le matin."],
+          "explain": "[[tous les matins]] = every morning. [[Disponible]] is the same for men and women." },
+        { "id": "r5", "type": "cloze", "text": "J'ai ___ le problème au concierge il y a deux semaines.", "answers": [["signalé"]], "choices": ["signalé", "signaler", "réparé"], "en": "I reported the problem to the concierge two weeks ago.",
+          "explain": "Passé composé: [[j'ai signalé]]. With [[il y a]], the action is finished." },
+        { "id": "r6", "type": "reorder", "prompt": "Could you send someone as soon as possible?", "accept": ["Pourriez-vous envoyer quelqu'un dès que possible ?"], "extra": ["pouvez"],
+          "explain": "[[Pourriez-vous]] + infinitive + [[dès que possible]]." },
+        { "id": "r7", "type": "translate", "prompt": "The tap has been leaking for three days.", "accept": ["Le robinet fuit depuis trois jours.", "Il y a une fuite depuis trois jours.", "Ça fait trois jours que le robinet fuit."],
+          "explain": "Still leaking → present + [[depuis]] (lesson 3)." },
+        { "id": "r8", "type": "mcq", "prompt": "You have already asked twice and nothing happened. Which request is firmer but still polite?", "options": ["Je vous demande de réparer la fuite cette semaine.", "Réparez la fuite tout de suite !", "Ce serait cool de réparer la fuite."], "optionsFr": true, "answer": 0,
+          "explain": "[[Je vous demande de]] + infinitive is firm and formal. An order with ! is aggressive; [[ce serait cool]] is too casual." },
+        { "id": "r9", "type": "cloze", "text": "Le plombier ___ mercredi à 17 h 30.", "answers": [["viendra", "va venir", "passera", "va passer"]], "en": "The plumber will come on Wednesday at 5:30 p.m.",
+          "explain": "Futur simple of [[venir]]: irregular stem [[viendr-]] → [[il viendra]]. [[Il va venir]] is also right." },
+        { "id": "r10", "type": "dictation", "fr": "Je suis locataire de l'appartement 6 depuis le 1er juillet.", "accept": ["Je suis locataire de l'appartement six depuis le premier juillet.", "Je suis locataire de l'appartement 6 depuis le premier juillet.", "Je suis locataire de l'appartement six depuis le 1er juillet."],
+          "explain": "[[depuis le 1er juillet]] + present: she still lives there. [[Locataire]] = tenant." }
+      ] },
+    { "type": "apply", "title": "Write it yourself",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a formal email to your landlord, Madame Roy. The kitchen sink has been leaking since last week; you told the concierge, but nothing happened. Give the facts with dates, make a polite request, and say when you are available.", "promptFr": "Écrivez un courriel à votre propriétaire, madame Roy, au sujet d'une fuite sous l'évier.", "wordRange": [60, 100],
+          "checklist": ["Objet with the problem and apartment number", "Madame Roy, (or Bonjour Madame Roy,)", "Who you are: Je suis locataire de… depuis…", "The problem with depuis + present", "What you did with il y a + passé composé", "Request: Pourriez-vous… ?", "Your availability", "Merci d'avance + Cordialement + full name", "No tu, no slang, ne kept"],
+          "models": [
+            { "label": "Model answer", "fr": "Objet : Fuite sous l'évier – appartement 4\nMadame Roy,\nJe suis locataire de l'appartement 4 au 815, rue Fleury, depuis deux ans. Je vous écris au sujet d'une fuite sous l'évier de la cuisine. Le problème dure depuis le lundi 10 mars.\nJ'ai signalé la fuite au concierge il y a une semaine, mais personne n'est venu.\nPourriez-vous envoyer un plombier dès que possible ? Je suis disponible tous les jours après 16 h.\nMerci d'avance.\nCordialement,\nRaj Patel",
+              "en": "Subject: Leak under the sink – apartment 4\nMs. Roy,\nI have been the tenant of apartment 4 at 815 Fleury Street for two years. I'm writing to you about a leak under the kitchen sink. The problem has been going on since Monday, March 10.\nI reported the leak to the concierge a week ago, but nobody came.\nCould you send a plumber as soon as possible? I'm available every day after 4 p.m.\nThank you in advance.\nKind regards,\nRaj Patel" }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Leave a voicemail for your landlord about the same problem: who you are, the problem and since when, what you did, your request and a number to call back.", "seconds": 40,
+          "checklist": ["Bonjour Madame Roy, ici…", "Apartment number", "The problem + depuis", "What you did + il y a", "Pourriez-vous… ?", "Rappelez-moi au… / Merci, bonne journée"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour, madame Roy. Ici Raj Patel, de l'appartement 4, rue Fleury. Je vous appelle au sujet d'une fuite sous l'évier de la cuisine. Elle dure depuis une semaine. J'ai parlé au concierge il y a six jours, mais personne n'est venu. Pourriez-vous envoyer un plombier dès que possible ? Vous pouvez me rappeler au 514 555-0193. Merci, bonne journée !",
+              "en": "Hello, Ms. Roy. This is Raj Patel, from apartment 4 on Fleury Street. I'm calling you about a leak under the kitchen sink. It's been going on for a week. I spoke to the concierge six days ago, but nobody came. Could you send a plumber as soon as possible? You can call me back at 514-555-0193. Thank you, have a good day!" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Build a formal message in seven parts: **objet, salutation, who you are, facts, request, availability, closing**\n- Use the right formulas: [[Madame, Monsieur,]], [[Je vous écris au sujet de…]], [[Pourriez-vous… ?]], [[Merci d'avance.]], [[Cordialement,]]\n- Give facts with [[depuis]] and [[il y a]], and keep a written trace of the problem",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced a drill that required the untaught pronoun me (me rappeler) with a pronoun-free request. Marked Je vous écris as a fixed chunk. Added accepted answers to r9 and r10." }
+}

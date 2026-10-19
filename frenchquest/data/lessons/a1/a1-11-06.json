@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-11-06",
+  "level": "a1",
+  "unit": "a1-11",
+  "title": "Workshop: Review and integration",
+  "goal": "Read a community newsletter, understand shop announcements and a registration voicemail, and write a notice for a community board.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "remplir",
+      "kind": "vocab",
+      "fr": "remplir",
+      "en": "to fill in, to fill out (a form)",
+      "pos": "verb",
+      "note": "Like finir: je remplis, nous remplissons, vous remplissez.",
+      "example": {
+        "fr": "Remplissez le formulaire, s'il vous plaît.",
+        "en": "Please fill in the form."
+      }
+    },
+    {
+      "id": "signature",
+      "kind": "vocab",
+      "fr": "signature",
+      "article": "la",
+      "gender": "f",
+      "en": "signature",
+      "pos": "noun",
+      "example": {
+        "fr": "Il n'y a pas de signature sur le formulaire.",
+        "en": "There's no signature on the form."
+      }
+    },
+    {
+      "id": "inscription",
+      "kind": "vocab",
+      "fr": "inscription",
+      "article": "l'",
+      "gender": "f",
+      "en": "registration, sign-up",
+      "pos": "noun",
+      "example": {
+        "fr": "Les inscriptions commencent lundi.",
+        "en": "Registration starts on Monday."
+      }
+    },
+    {
+      "id": "prix",
+      "kind": "vocab",
+      "fr": "prix",
+      "article": "le",
+      "gender": "m",
+      "en": "price",
+      "pos": "noun",
+      "note": "Same form in the plural: les prix.",
+      "example": {
+        "fr": "Prix : 10 $ par atelier.",
+        "en": "Price: $10 per workshop."
+      }
+    },
+    {
+      "id": "annonce",
+      "kind": "vocab",
+      "fr": "annonce",
+      "article": "l'",
+      "gender": "f",
+      "en": "ad, announcement",
+      "pos": "noun",
+      "note": "les petites annonces = classified ads.",
+      "example": {
+        "fr": "Je lis les petites annonces.",
+        "en": "I read the classified ads."
+      }
+    },
+    {
+      "id": "interdit",
+      "kind": "vocab",
+      "fr": "interdit",
+      "fem": "interdite",
+      "en": "forbidden, not allowed",
+      "pos": "adjective",
+      "accept": [
+        "interdite"
+      ],
+      "example": {
+        "fr": "Stationnement interdit le vendredi.",
+        "en": "No parking on Fridays."
+      }
+    },
+    {
+      "id": "sortie",
+      "kind": "vocab",
+      "fr": "sortie",
+      "article": "la",
+      "gender": "f",
+      "en": "exit, way out",
+      "pos": "noun",
+      "example": {
+        "fr": "La sortie est à droite.",
+        "en": "The exit is on the right."
+      }
+    },
+    {
+      "id": "rabais",
+      "kind": "vocab",
+      "fr": "rabais",
+      "article": "le",
+      "gender": "m",
+      "en": "discount (Québec)",
+      "pos": "noun",
+      "accept": [
+        "la réduction",
+        "une réduction"
+      ],
+      "note": "Very common in Québec stores. In France: une réduction, une remise.",
+      "example": {
+        "fr": "Il y a un rabais de 5 $ aujourd'hui.",
+        "en": "There's a $5 discount today."
+      }
+    },
+    {
+      "id": "complet",
+      "kind": "vocab",
+      "fr": "complet",
+      "fem": "complète",
+      "en": "full (no more places), sold out",
+      "pos": "adjective",
+      "accept": [
+        "complète"
+      ],
+      "example": {
+        "fr": "Désolé, le cours du soir est complet.",
+        "en": "Sorry, the evening class is full."
+      }
+    },
+    {
+      "id": "benevole",
+      "kind": "vocab",
+      "fr": "bénévole",
+      "article": "un",
+      "gender": "m",
+      "en": "volunteer (m or f)",
+      "pos": "noun",
+      "accept": [
+        "une bénévole",
+        "le bénévole",
+        "la bénévole"
+      ],
+      "note": "Same form for a woman: une bénévole.",
+      "example": {
+        "fr": "Lucie est bénévole au centre.",
+        "en": "Lucie is a volunteer at the centre."
+      }
+    },
+    {
+      "id": "atelier",
+      "kind": "vocab",
+      "fr": "atelier",
+      "article": "l'",
+      "gender": "m",
+      "en": "workshop (a short practical class)",
+      "pos": "noun",
+      "example": {
+        "fr": "J'aime l'atelier de cuisine.",
+        "en": "I like the cooking workshop."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A community newsletter",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "The October newsletter of a community centre in Verdun",
+          "fr": "BULLETIN DU CENTRE COMMUNAUTAIRE DE VERDUN — OCTOBRE\n\nBonjour à tous !\n\nBÉNÉVOLES : Le samedi 25 octobre, il y a une fête pour les enfants du quartier. Nous avons besoin de bénévoles, de 13 h à 17 h. Vous aimez les enfants ? Vous parlez français ou anglais ? Parlez à Lucie, au bureau d'accueil.\n\nNOUVEAUX ATELIERS\nAtelier de cuisine : le mardi et le jeudi, de 18 h à 20 h. Prix : 10 $ par atelier.\nAtelier CV : le jeudi, de 13 h à 15 h. C'est gratuit !\n\nCOURS DE FRANCISATION : Les inscriptions commencent le lundi 3 novembre. Remplissez le formulaire au bureau d'accueil et apportez votre passeport. Attention : le cours du soir est complet. Il y a encore de la place le matin.\n\nAVIS : Le stationnement derrière le centre est interdit le vendredi soir. Le jour de la fête, la sortie se fait par la porte de la rue Wellington.\n\nPETITES ANNONCES\nÀ vendre : table et quatre chaises, très bon état, 80 $. Appelez Karim le soir.\nJe cherche un partenaire pour parler espagnol le samedi. Je parle français et chinois. — Mei\n\nBon mois d'octobre !\nL'équipe du centre",
+          "en": "VERDUN COMMUNITY CENTRE NEWSLETTER — OCTOBER\n\nHello, everyone!\n\nVOLUNTEERS: On Saturday, October 25th, there's a party for the neighbourhood children. We need volunteers, from 1 to 5 p.m. Do you like children? Do you speak French or English? Talk to Lucie at the front desk.\n\nNEW WORKSHOPS\nCooking workshop: Tuesdays and Thursdays, 6 to 8 p.m. Price: $10 per workshop.\nRésumé workshop: Thursdays, 1 to 3 p.m. It's free!\n\nFRANCISATION CLASSES: Registration starts on Monday, November 3rd. Fill in the form at the front desk and bring your passport. Note: the evening class is full. There are still places in the morning.\n\nNOTICE: Parking behind the centre is not allowed on Friday evenings. On the day of the party, the exit is through the door on Rue Wellington.\n\nCLASSIFIED ADS\nFor sale: table and four chairs, very good condition, $80. Call Karim in the evening.\nI'm looking for a partner to speak Spanish on Saturdays. I speak French and Chinese. — Mei\n\nHave a good October!\nThe centre team"
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Use your reading strategies: look at the **headings** first, then find the **days, times and prices**. You don't need every word."
+        },
+        {
+          "id": "c1",
+          "type": "mcq",
+          "prompt": "What do you need to bring to register for francisation?",
+          "options": [
+            "Your passport",
+            "$10",
+            "A photo",
+            "A résumé"
+          ],
+          "answer": 0,
+          "explain": "[[Remplissez le formulaire… et apportez votre passeport.]]",
+          "optionFeedback": [
+            null,
+            "$10 is the price of one cooking workshop.",
+            "The newsletter doesn't ask for a photo.",
+            "The résumé (CV) is a workshop, not a requirement."
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "mcq",
+          "prompt": "Sofia works during the day. Can she take the evening francisation class?",
+          "options": [
+            "No, it's full.",
+            "Yes, it starts on November 3rd.",
+            "Yes, but only on Fridays."
+          ],
+          "answer": 0,
+          "explain": "[[le cours du soir est complet]] = the evening class is full. There are places in the morning ([[le matin]])."
+        },
+        {
+          "id": "c3",
+          "type": "mcq",
+          "prompt": "What is not allowed on Friday evenings?",
+          "options": [
+            "Parking behind the centre",
+            "Using the Rue Wellington door",
+            "Registering for classes"
+          ],
+          "answer": 0,
+          "explain": "[[Le stationnement derrière le centre est interdit le vendredi soir.]]"
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 11 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit at a glance",
+          "head": [
+            "To…",
+            "Look for / use"
+          ],
+          "rows": [
+            [
+              "read a sign or notice",
+              "ouvert, fermé, gratuit, à vendre, avis"
+            ],
+            [
+              "read numbers",
+              "18 h 30 · 5,50 $ · 514 555-0172"
+            ],
+            [
+              "fill in a form",
+              "Nom (family name) · Prénom · Date de naissance"
+            ],
+            [
+              "write a profile",
+              "Je m'appelle… J'habite… Je cherche…"
+            ],
+            [
+              "speak for a minute",
+              "Bonjour à tous ! … Voilà, c'est tout !"
+            ],
+            [
+              "connect ideas",
+              "et, mais, aussi, alors, parce que"
+            ]
+          ],
+          "frCols": [
+            1
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Remember",
+          "body": "- **Read for the task:** decide what you need (a day? a price?), then scan for it.\n- **Listen for key words:** numbers, days, places, and *pas* or *ne*.\n- **Capitals:** no capital for languages, nationalities, days or months: [[le lundi 3 novembre]], [[je parle anglais]]."
+        },
+        {
+          "type": "vocab",
+          "title": "New words: documents and community life",
+          "itemIds": [
+            "remplir",
+            "signature",
+            "inscription",
+            "prix",
+            "annonce",
+            "interdit",
+            "sortie",
+            "rabais",
+            "complet",
+            "benevole",
+            "atelier"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "body": "**Signs you will see in Québec.** Québec signs are in French first. Watch for:\n\n- [[Stationnement interdit]] (no parking), often with days and times underneath\n- [[Sortie]] (exit) and [[Entrée]] (entrance)\n- [[Rabais]] or [[Solde]] (discount, sale) in stores\n- [[Complet]] (full) on a class list or at a show\n\nYou will also hear [[Il n'y a plus de place]] (there's no more room) when a class is full.",
+          "examples": [
+            {
+              "fr": "Stationnement interdit — lundi de 8 h à 12 h",
+              "en": "No parking — Mondays from 8 a.m. to noon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listen for the key words",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "An announcement in a pharmacy",
+          "context": "Amira is shopping at a pharmacy in Gatineau. She hears this over the speakers.",
+          "fr": "Bonjour et bienvenue à la pharmacie du Parc ! Aujourd'hui seulement, il y a un rabais de cinq dollars sur les vitamines. Ce soir, la pharmacie est ouverte jusqu'à vingt et une heures. Vous avez une question ? La pharmacienne, madame Côté, est au comptoir. La sortie est à droite, à côté de la caisse. Merci et bonne soirée !",
+          "en": "Hello and welcome to Pharmacie du Parc! Today only, there's a five-dollar discount on vitamins. Tonight, the pharmacy is open until 9 p.m. Do you have a question? The pharmacist, Ms. Côté, is at the counter. The exit is on the right, next to the checkout. Thank you and have a good evening!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Aujourd'hui seulement, il y a un rabais de cinq dollars sur les vitamines.",
+          "en": "Today only, there's a five-dollar discount on vitamins.",
+          "prompt": "What is the discount?",
+          "options": [
+            "$5 off vitamins, today only",
+            "$15 off vitamins, all week",
+            "$5 off everything, today only"
+          ],
+          "answer": 0,
+          "explain": "[[un rabais de cinq dollars]] = $5 off; [[sur les vitamines]]; [[aujourd'hui seulement]] = today only."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Ce soir, la pharmacie est ouverte jusqu'à vingt et une heures.",
+          "en": "Tonight, the pharmacy is open until 9 p.m.",
+          "prompt": "Until what time is the pharmacy open tonight?",
+          "options": [
+            "9 p.m.",
+            "8 p.m.",
+            "11 p.m."
+          ],
+          "answer": 0,
+          "explain": "[[vingt et une heures]] = 21:00 = 9 p.m."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "La sortie est à droite, à côté de la caisse.",
+          "en": "The exit is on the right, next to the checkout.",
+          "prompt": "Where is the exit?",
+          "options": [
+            "On the right, next to the checkout",
+            "On the left, next to the counter",
+            "At the back of the store"
+          ],
+          "answer": 0,
+          "explain": "[[la sortie]] = the exit; [[à côté de la caisse]] = next to the checkout."
+        },
+        {
+          "type": "listen",
+          "title": "A voicemail about a registration",
+          "context": "Sofia registers for a workshop at the community centre. The next day, she gets this message.",
+          "fr": "Bonjour, madame Morales, c'est Julien, du centre communautaire de Verdun. C'est pour votre inscription. Sur votre formulaire, il n'y a pas de signature. Est-ce que vous pouvez passer au centre avant vendredi ? Le bureau est ouvert de neuf heures à dix-sept heures. Et désolé, l'atelier de cuisine du mardi est complet, mais il y a encore de la place le jeudi. Rappelez-moi tantôt, si c'est possible. Merci !",
+          "en": "Hello, Ms. Morales, it's Julien, from the Verdun community centre. It's about your registration. On your form, there's no signature. Can you come by the centre before Friday? The office is open from nine to five. And sorry, the Tuesday cooking workshop is full, but there are still places on Thursday. Call me back later today, if possible. Thank you!"
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "Sur votre formulaire, il n'y a pas de signature.",
+          "en": "On your form, there's no signature.",
+          "prompt": "What's the problem with Sofia's form?",
+          "options": [
+            "It has no signature.",
+            "It has no phone number.",
+            "It's late."
+          ],
+          "answer": 0,
+          "explain": "[[il n'y a pas de signature]] = there's no signature."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "L'atelier de cuisine du mardi est complet, mais il y a encore de la place le jeudi.",
+          "en": "The Tuesday cooking workshop is full, but there are still places on Thursday.",
+          "prompt": "What can Sofia do?",
+          "options": [
+            "Take the workshop on Thursday",
+            "Take the workshop on Tuesday",
+            "Take the workshop on Friday"
+          ],
+          "answer": 0,
+          "explain": "[[complet]] = full; [[encore de la place le jeudi]] = still room on Thursday."
+        },
+        {
+          "id": "h6",
+          "type": "dictation",
+          "fr": "Remplissez le formulaire et apportez votre passeport.",
+          "accept": [],
+          "explain": "[[remplir]] works like [[finir]]: [[vous remplissez]]. [[apportez]] has a double p."
+        },
+        {
+          "id": "h7",
+          "type": "dictation",
+          "fr": "Le cours du soir est complet.",
+          "accept": [],
+          "explain": "[[du soir]] = de + le soir. [[complet]]: the final t is silent."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions mixing documents, listening and A1 grammar from Units 2 to 10. Answer without scrolling back.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "A sign says: “STATIONNEMENT INTERDIT — LUNDI DE 8 H À 12 H”. What does it mean?",
+          "options": [
+            "No parking on Mondays from 8 a.m. to noon.",
+            "Free parking on Mondays from 8 a.m. to noon.",
+            "Parking only on Mondays from 8 a.m. to noon.",
+            "The parking lot opens at 8 a.m. on Mondays."
+          ],
+          "answer": 0,
+          "explain": "[[interdit]] = not allowed. [[12 h]] = noon.",
+          "optionFeedback": [
+            null,
+            "Free is gratuit, not interdit.",
+            "Interdit means you can't park there.",
+            "The sign is about when you can't park."
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "mcq",
+          "prompt": "On a form: “Nom : MORALES · Prénom : Sofia”. What is her family name?",
+          "options": [
+            "Morales",
+            "Sofia",
+            "Sofia Morales"
+          ],
+          "answer": 0,
+          "explain": "On Canadian forms, [[Nom]] = family name (often in capitals); [[Prénom]] = first name. So her family name is Morales."
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence is written correctly?",
+          "options": [
+            "Je parle anglais et espagnol. Mon cours est le lundi 3 novembre.",
+            "Je parle Anglais et Espagnol. Mon cours est le Lundi 3 Novembre.",
+            "Je parle anglais et espagnol. Mon cours est le Lundi 3 Novembre.",
+            "je parle anglais et espagnol. mon cours est le lundi 3 novembre."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "In French, languages, days and months take no capital letter. Sentences still start with a capital.",
+          "optionFeedback": [
+            null,
+            "No capitals for languages, days or months.",
+            "No capitals for days or months.",
+            "Each sentence still starts with a capital letter."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "listen-mcq",
+          "fr": "Le spécial du midi, c'est quatorze dollars cinquante.",
+          "en": "The lunch special is fourteen fifty.",
+          "prompt": "How much is the lunch special?",
+          "options": [
+            "$14.50",
+            "$4.50",
+            "$40.50"
+          ],
+          "answer": 0,
+          "explain": "[[quatorze]] = 14; [[cinquante]] = 50. Written: 14,50 $."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I like winter, but it's very cold.",
+          "accept": [
+            "J'aime l'hiver, mais il fait très froid.",
+            "J'aime l'hiver mais il fait très froid.",
+            "J'aime bien l'hiver, mais il fait très froid.",
+            "J'aime l'hiver, mais il fait vraiment froid."
+          ],
+          "explain": "[[aimer]] + [[le / l']]; weather uses [[il fait]]; [[mais]] links two opposite ideas."
+        },
+        {
+          "id": "r6",
+          "type": "cloze",
+          "text": "Est-ce que tu ___ des enfants ? — Oui, j'___ deux filles.",
+          "answers": [
+            [
+              "as"
+            ],
+            [
+              "ai"
+            ]
+          ],
+          "en": "Do you have children? — Yes, I have two daughters.",
+          "explain": "[[avoir]]: [[tu as]], [[j'ai]]."
+        },
+        {
+          "id": "r7",
+          "type": "reorder",
+          "prompt": "I'm looking for a partner to speak French with.",
+          "accept": [
+            "Je cherche un partenaire pour parler français."
+          ],
+          "extra": [
+            "de"
+          ],
+          "explain": "[[chercher]] takes no preposition: [[je cherche un partenaire]]; [[pour]] + infinitive."
+        },
+        {
+          "id": "r8",
+          "type": "match",
+          "prompt": "Match the new words.",
+          "pairs": [
+            [
+              "remplir",
+              "to fill in"
+            ],
+            [
+              "la signature",
+              "signature"
+            ],
+            [
+              "complet",
+              "full (no more places)"
+            ],
+            [
+              "le rabais",
+              "discount"
+            ],
+            [
+              "la sortie",
+              "exit"
+            ]
+          ]
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "Vous ___ le formulaire au bureau d'accueil. (remplir)",
+          "answers": [
+            [
+              "remplissez"
+            ]
+          ],
+          "choices": [
+            "remplissez",
+            "remplez",
+            "remplis",
+            "remplissons"
+          ],
+          "en": "You fill in the form at the front desk.",
+          "explain": "[[remplir]] is like [[finir]]: [[vous remplissez]], with -iss-."
+        },
+        {
+          "id": "r10",
+          "type": "translate",
+          "prompt": "Tomorrow, I'm going to get up early.",
+          "accept": [
+            "Demain, je vais me lever tôt.",
+            "Demain je vais me lever tôt.",
+            "Je vais me lever tôt demain."
+          ],
+          "explain": "Unit 10 + Unit 5: [[je vais]] + [[me lever]]: the reflexive pronoun goes with the infinitive."
+        },
+        {
+          "id": "r11",
+          "type": "cloze",
+          "text": "Bonjour, je ___ un café et un muffin, s'il vous plaît.",
+          "answers": [
+            [
+              "voudrais"
+            ]
+          ],
+          "choices": [
+            "voudrais",
+            "veux",
+            "voudrait",
+            "vais"
+          ],
+          "en": "Hello, I'd like a coffee and a muffin, please.",
+          "explain": "Unit 6: [[je voudrais]] is the polite way to order."
+        },
+        {
+          "id": "r12",
+          "type": "cloze",
+          "text": "Nous ___ canadiens, mais nous ___ deux passeports.",
+          "answers": [
+            [
+              "sommes"
+            ],
+            [
+              "avons"
+            ]
+          ],
+          "en": "We are Canadian, but we have two passports.",
+          "explain": "Units 2 and 3: nationality with [[être]] ([[nous sommes]]), possession with [[avoir]] ([[nous avons]])."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a notice for the community centre's board. Offer something (a conversation exchange, help with homework, a cooking class, something for sale…): say who you are, what you offer, when and where, the price (or that it's free), and how to contact you.",
+          "wordRange": [
+            40,
+            70
+          ],
+          "checklist": [
+            "A short heading in capitals",
+            "Who you are (name, one detail)",
+            "What you offer",
+            "Day, time and place",
+            "Price or gratuit",
+            "How to contact you"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "ÉCHANGE DE LANGUES\n\nBonjour ! Je m'appelle Raj et je suis indien. Je parle anglais et hindi. Je cherche un partenaire pour parler français. Le samedi matin, je suis au café en face du centre, de 10 h à 12 h. C'est gratuit ! Vous voulez parler anglais ? Appelez-moi au 613 555-0147.",
+              "en": "LANGUAGE EXCHANGE\n\nHello! My name is Raj and I'm Indian. I speak English and Hindi. I'm looking for a partner to speak French with. On Saturday mornings, I'm at the café opposite the centre, from 10 to 12. It's free! Do you want to speak English? Call me at 613-555-0147."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "AIDE AUX DEVOIRS\n\nBonjour à tous ! Je suis Amira, je suis marocaine et je suis professeure de mathématiques. J'aide les enfants avec les devoirs de maths, en français ou en arabe. Je suis disponible le mardi et le jeudi, de 16 h à 18 h, à la bibliothèque. Le prix : 10 $ par heure. Attention, le jeudi est presque complet ! Écrivez-moi : amira@exemple.ca",
+              "en": "HOMEWORK HELP\n\nHello, everyone! I'm Amira, I'm Moroccan and I'm a math teacher. I help children with math homework, in French or in Arabic. I'm available on Tuesdays and Thursdays, from 4 to 6 p.m., at the library. Price: $10 an hour. Note: Thursday is almost full! Write to me: amira@exemple.ca"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Call the community centre to register for a workshop and leave a voicemail. Give your name and spell your family name, say which workshop and which day you want, give your phone number slowly, and ask two questions (the price, what to bring).",
+          "seconds": 45,
+          "checklist": [
+            "Greeting and name, with your family name spelled",
+            "The workshop and the day",
+            "Your phone number, slowly",
+            "Two questions (est-ce que / c'est combien ?)",
+            "A polite closing: Merci, bonne journée !"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour, c'est Nguyen Linh. Mon nom, c'est N-G-U-Y-E-N. Je voudrais m'inscrire à l'atelier CV, le jeudi. C'est gratuit, c'est ça ? Et est-ce que je dois apporter un ordinateur ? Mon numéro, c'est le 514 555-0137. Je répète : 514 555-0137. Merci, bonne journée !",
+              "en": "Hello, it's Nguyen Linh. My family name is N-G-U-Y-E-N. I'd like to sign up for the résumé workshop, on Thursday. It's free, right? And do I need to bring a computer? My number is 514-555-0137. I repeat: 514-555-0137. Thank you, have a good day!"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour, ici Sofia Morales. Morales, ça s'écrit M-O-R-A-L-E-S. C'est pour l'atelier de cuisine. Le mardi est complet, alors je voudrais m'inscrire pour le jeudi, de dix-huit heures à vingt heures. J'ai deux questions : c'est combien, pour quatre ateliers ? Et qu'est-ce que je dois apporter ? Rappelez-moi au 819 555-0142, après seize heures. Merci beaucoup et bonne journée !",
+              "en": "Hello, this is Sofia Morales. Morales is spelled M-O-R-A-L-E-S. It's about the cooking workshop. Tuesday is full, so I'd like to sign up for Thursday, from 6 to 8 p.m. I have two questions: how much is it for four workshops? And what do I need to bring? Call me back at 819-555-0142, after 4 p.m. Thank you very much and have a good day!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Read a community newsletter and find days, times, prices and conditions\n- Understand a shop announcement and a voicemail about a registration\n- Use new words for documents and community life: [[l'inscription, remplir, la signature, complet, interdit, le rabais]]\n- Write a clear notice and leave a voicemail to register for an activity",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "'la sortie est par la porte' → 'la sortie se fait par la porte'; removed the Québec-specific claim about 'Il n'y a plus de place'; made the cooking workshop days consistent (Tuesday and Thursday) between the newsletter and the voicemail; fixed an odd mcq option and simplified an email address."
+  }
+}

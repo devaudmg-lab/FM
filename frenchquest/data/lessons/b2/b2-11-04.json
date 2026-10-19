@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-11-04",
+  "level": "b2",
+  "unit": "b2-11",
+  "title": "Recovering from mistakes",
+  "goal": "Repair your own slips in one second, talk around a word you can't find, and restart a sentence that went wrong, so that mistakes never stop you or make you lose confidence.",
+  "minutes": 13,
+  "items": [
+    { "id": "je-reprends", "kind": "phrase", "fr": "Pardon, je reprends.", "en": "Sorry, let me start that again.", "accept": ["Pardon, je recommence.", "Je reprends."] },
+    { "id": "je-veux-dire", "kind": "phrase", "fr": "Enfin, je veux dire…", "en": "Well, I mean… (correcting yourself)", "accept": ["Je veux dire…"] },
+    { "id": "ou-plutot", "kind": "phrase", "fr": "… ou plutôt…", "en": "… or rather…", "accept": ["ou plutôt"] },
+    { "id": "plus-exactement", "kind": "phrase", "fr": "Plus exactement, …", "en": "More precisely, …", "accept": ["Plus précisément, …"] },
+    { "id": "mal-exprime", "kind": "phrase", "fr": "Je me suis mal exprimé.", "en": "I put that badly.", "accept": ["Je me suis mal exprimée.", "Je me suis mal exprimé, je reprends."], "note": "A woman says [[Je me suis mal exprimée]]." },
+    { "id": "je-rectifie", "kind": "phrase", "fr": "Je rectifie : …", "en": "Let me correct that: …", "accept": ["Je corrige : …"] },
+    { "id": "mot-echappe", "kind": "phrase", "fr": "Le mot m'échappe.", "en": "The word escapes me.", "accept": ["Le mot m'échappe, mais…"] },
+    { "id": "comment-dire", "kind": "phrase", "fr": "Comment dire…", "en": "How can I put it…", "accept": ["Comment dirais-je…"] },
+    { "id": "sert-a", "kind": "phrase", "fr": "C'est un appareil qui sert à…", "en": "It's a device that is used for…", "accept": ["C'est un objet qui sert à…", "C'est une machine qui sert à…"] },
+    { "id": "au-temps-pour-moi", "kind": "phrase", "fr": "Au temps pour moi.", "en": "My mistake. / I stand corrected.", "accept": ["Autant pour moi."], "note": "Both spellings are common; [[au temps pour moi]] is the traditional one." },
+    { "id": "lapsus", "kind": "vocab", "fr": "lapsus", "article": "un", "gender": "m", "en": "slip of the tongue", "pos": "noun", "accept": ["le lapsus"],
+      "example": { "fr": "Pardon, c'est un lapsus : je voulais dire mardi.", "en": "Sorry, slip of the tongue: I meant Tuesday." } },
+    { "id": "g-paraphrase", "kind": "grammar", "fr": "C'est + nom général + qui / que / dont / où / avec lequel…", "en": "describing a word you can't find (circumlocution)",
+      "drills": [
+        { "type": "cloze", "text": "C'est l'endroit ___ on attend l'autobus.", "answers": [["où"]], "en": "It's the place where you wait for the bus.", "explain": "A place → [[où]]: [[l'endroit où…]]" },
+        { "type": "cloze", "text": "C'est un outil ___ on se sert pour couper le bois.", "answers": [["dont"]], "en": "It's a tool (that) you use to cut wood.", "explain": "[[se servir de quelque chose]] → [[dont]]." },
+        { "type": "cloze", "text": "C'est une personne ___ répare les toits.", "answers": [["qui"]], "en": "It's a person who repairs roofs.", "explain": "The person is the subject of [[répare]] → [[qui]]." },
+        { "type": "mcq", "prompt": "Choose the correct pronoun: « C'est la machine ___ on lave la vaisselle. »", "options": ["avec laquelle", "avec lequel", "dont", "que"], "optionsFr": true, "answer": 0, "explain": "[[laver avec une machine]] → [[avec laquelle]], feminine like [[machine]]." }
+      ] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Three slips, three repairs",
+      "intro": "Nguyen is telling his tutor Camille about a job interview. He makes mistakes, as everyone does. Watch what he does with them.",
+      "blocks": [
+        { "type": "dialogue", "title": "The story of an interview",
+          "context": "Camille has asked Nguyen to talk for two minutes about an important moment of the past year.",
+          "lines": [
+            { "speaker": "Nguyen", "fr": "L'année dernière, j'ai allé… pardon, je suis allé à Vancouver pour un entretien d'embauche. C'était en mars, ou plutôt début avril, je ne me souviens plus exactement.", "en": "Last year, I *have gone… sorry, I went to Vancouver for a job interview. It was in March, or rather early April, I don't remember exactly." },
+            { "speaker": "Nguyen", "fr": "L'entreprise fabrique des… comment dire… des machines qui servent à trier les déchets recyclables. Le mot m'échappe… Des trieuses, voilà !", "en": "The company makes… how can I put it… machines that are used to sort recyclable waste. The word escapes me… Sorters, that's it!" },
+            { "speaker": "Nguyen", "fr": "Pendant l'entretien, la directrice m'a demandé si je pouvais commencer tout de suite. Je lui ai dit que oui. Enfin, je veux dire, je lui ai dit que je pouvais commencer après un préavis de deux semaines.", "en": "During the interview, the director asked me whether I could start right away. I told her yes. Well, I mean, I told her I could start after two weeks' notice." },
+            { "speaker": "Nguyen", "fr": "Parce qu'il faut que je fais… que je fasse un préavis, c'est obligatoire chez mon employeur actuel.", "en": "Because I *have to gives… I have to give notice, it's compulsory at my current employer." },
+            { "speaker": "Camille", "fr": "Excellent ! Vous vous êtes corrigé quatre fois, et chaque fois en une seconde. Vous n'avez pas dit « Oh non, désolé, mon français est mauvais ». Vous avez réparé, puis vous avez continué. C'est exactement ce qu'un examinateur veut entendre.", "en": "Excellent! You corrected yourself four times, and each time in one second. You didn't say “Oh no, sorry, my French is bad.” You repaired, then you carried on. That's exactly what an examiner wants to hear." },
+            { "speaker": "Nguyen", "fr": "Et quand je ne me corrige pas ?", "en": "And when I don't correct myself?" },
+            { "speaker": "Camille", "fr": "Si l'erreur ne change pas le sens, laissez-la passer. On ne peut pas tout réparer, et ce n'est pas nécessaire. L'important, c'est de ne jamais s'arrêter.", "en": "If the mistake doesn't change the meaning, let it go. You can't fix everything, and you don't need to. What matters is never to stop." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "Which of Nguyen's corrections changes the meaning of what he said, not just the grammar?", "options": ["Commencer tout de suite → après un préavis de deux semaines", "J'ai allé → je suis allé", "Que je fais → que je fasse"], "answer": 0,
+          "explain": "The other two fix the grammar (auxiliary, subjonctif). The [[préavis]] correction changes the facts: that is the kind of correction you must always make." },
+        { "id": "d2", "type": "mcq", "prompt": "What does Nguyen do when he can't find the word « trieuse »?", "options": ["He describes what the machine does", "He says it in English", "He stops and asks Camille"], "answer": 0,
+          "explain": "[[des machines qui servent à trier les déchets]]: a description with [[qui sert à]] keeps the conversation going. The word comes back afterwards." },
+        { "id": "d3", "type": "mcq", "prompt": "According to Camille, what should you do with a small mistake that doesn't change the meaning?", "options": ["Let it go and keep speaking", "Always stop and correct it", "Apologize for your French"], "answer": 0,
+          "explain": "[[Si l'erreur ne change pas le sens, laissez-la passer.]] Fluency matters as much as accuracy." }
+      ] },
+    { "type": "understand", "title": "Repair, describe, restart",
+      "blocks": [
+        { "type": "table", "title": "Three problems, three tools",
+          "head": ["Problem", "Tool", "Phrases"],
+          "rows": [
+            ["A slip: wrong form, wrong word, wrong fact", "Repair it in one second", "Pardon, … / ou plutôt… / Enfin, je veux dire… / Je rectifie : … / Plus exactement, …"],
+            ["A missing word", "Describe it", "Comment dire… / Le mot m'échappe… / C'est un appareil qui sert à… / C'est l'endroit où…"],
+            ["A sentence that went wrong", "Restart it", "Pardon, je reprends. / Je me suis mal exprimé. / Ce que je veux dire, c'est que…"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "One repair phrase, then the right version, then **keep going**. Never more than one sentence of repair." },
+        { "type": "pattern", "title": "Talking around a word",
+          "pattern": "C'est + un objet / un appareil / une personne / un endroit / une sorte de… + qui / que / dont / où / avec lequel…",
+          "note": "Start with a **general noun**, then define it with a relative pronoun. [[Avec lequel / avec laquelle]] (with which) agrees with the noun. Add a detail if needed: [[un peu comme…]], [[en plus petit]], [[le contraire de…]].",
+          "examples": [
+            { "fr": "C'est un appareil qui sert à mesurer la température.", "en": "It's a device used to measure temperature. (un thermomètre)" },
+            { "fr": "C'est la personne dont on a besoin quand on achète une maison.", "en": "It's the person you need when you buy a house. (un notaire)" },
+            { "fr": "C'est l'endroit où on dépose ses bouteilles vides.", "en": "It's the place where you drop off your empty bottles. (un point de dépôt)" },
+            { "fr": "C'est une sorte de pelle avec laquelle on enlève la neige.", "en": "It's a kind of shovel you remove snow with." }
+          ] },
+        { "type": "table", "title": "What to fix, what to let go",
+          "head": ["Always fix", "Let it go"],
+          "rows": [
+            ["A wrong fact, number or date", "A small gender slip on a rare word"],
+            ["A missing or wrong negation", "A pronunciation that is a bit off but understandable"],
+            ["A tense that changes the meaning (past vs future)", "A missing liaison"],
+            ["A slip you notice at once on something you know well (j'ai allé, il faut que je fais)", "A mistake you only notice two sentences later"]
+          ],
+          "frCols": [], "sayCol": false,
+          "note": "Fixing a well-known structure shows the examiner that you **know** it and only slipped. Going back two sentences breaks your flow for very little gain." },
+        { "type": "vocab", "title": "Phrases for this lesson", "itemIds": ["je-reprends", "je-veux-dire", "ou-plutot", "plus-exactement", "mal-exprime", "je-rectifie", "mot-echappe", "comment-dire", "sert-a", "au-temps-pour-moi", "lapsus"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Recovery traps",
+          "body": "- **The apology spiral:** [[Oh non, pardon, je suis désolé, mon français est nul…]] It costs ten seconds and tells the examiner to look for mistakes. One word ([[Pardon]]) is enough.\n- **Switching to English:** [[Sorry, I mean…]] Even one English word breaks the French bubble. Have your French repair phrases ready.\n- **Freezing on a word:** describe it instead. A clear description is a sign of B2 range, not of weakness.\n- **Repeating the mistake in the correction:** say the right form slowly and clearly once.\n- **Correcting everything:** constant stopping hurts fluency more than the mistakes do.\n- **[[Autant pour moi]] vs [[au temps pour moi]]:** both are widely used and understood; [[au temps pour moi]] is the traditional spelling." },
+        { "type": "deepdive", "kind": "why", "title": "Why repairs earn points",
+          "body": "The CEFR descriptors for B2 speaking include being able to correct slips and errors when you notice them, and to use circumlocution when a word is missing. A candidate who says [[j'ai allé… je suis allé]] proves they know the rule. A candidate who freezes or switches to English proves nothing. Repairs are **evidence of control**." },
+        { "type": "deepdive", "kind": "canada", "title": "Informal fillers: patente, bidule, affaire",
+          "body": "In everyday Québec French, when a word is missing, people say [[une patente]] or [[une affaire]] (informal): [[Passe-moi la patente pour ouvrir les bouteilles.]] In France, you'll hear [[un truc]] or [[un bidule]]. All are **informal**: fine with friends, but in an exam or an interview, use [[un appareil qui sert à…]] or [[une sorte de…]]. Also common in Québec: [[C'est quoi le mot, donc ?]] (informal) when you're searching for a word." }
+      ] },
+    { "type": "hear", "title": "Hear the repairs",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Say the repair phrase lightly and quickly, then put a little stress on the corrected word.",
+          "lines": [
+            { "fr": "J'ai allé… pardon, je suis allé à Vancouver.", "en": "I *have gone… sorry, I went to Vancouver.", "tip": "Stress suis: that's the correction." },
+            { "fr": "C'était en mars, ou plutôt début avril.", "en": "It was in March, or rather early April." },
+            { "fr": "Je me suis mal exprimé. Ce que je veux dire, c'est que le délai est trop court.", "en": "I put that badly. What I mean is that the deadline is too short." },
+            { "fr": "Le mot m'échappe… c'est un appareil qui sert à mesurer la tension.", "en": "The word escapes me… it's a device used to measure blood pressure." },
+            { "fr": "Il faut que je fais… que je fasse une demande.", "en": "I *have to makes… I have to make an application.", "tip": "fasse: [fas], the subjonctif of faire." },
+            { "fr": "Au temps pour moi, c'était mardi, pas jeudi.", "en": "My mistake, it was Tuesday, not Thursday.", "tip": "au temps pour moi: [o.tɑ̃.puʁ.mwa]." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Le rendez-vous est à quinze heures, enfin, je veux dire, à seize heures. Ils ont changé l'horaire hier.", "en": "The appointment is at 3 p.m., well, I mean, at 4 p.m. They changed the schedule yesterday.", "prompt": "What time is the appointment?", "options": ["4 p.m.", "3 p.m.", "Yesterday"], "answer": 0,
+          "explain": "[[enfin, je veux dire, à seize heures]]: the information after the repair phrase replaces the first one." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il me faut le… comment dire… le papier qu'on signe avec le propriétaire quand on loue un appartement. Le mot m'échappe.", "en": "I need the… how can I put it… the paper you sign with the landlord when you rent an apartment. The word escapes me.", "prompt": "What word is the speaker looking for?", "options": ["Le bail (the lease)", "La facture (the bill)", "Le reçu (the receipt)"], "answer": 0,
+          "explain": "[[le papier qu'on signe avec le propriétaire quand on loue un appartement]] describes [[le bail]] (the lease)." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each phrase with its use.", "pairs": [["ou plutôt…", "Refine a detail"], ["Pardon, je reprends.", "Restart a sentence"], ["Le mot m'échappe…", "Signal a missing word"], ["Au temps pour moi.", "Admit you were wrong"], ["C'est un appareil qui sert à…", "Describe an object"]] },
+        { "id": "r2", "type": "cloze", "text": "Elle est arrivée lundi, ou ___ mardi matin.", "answers": [["plutôt"]], "en": "She arrived on Monday, or rather Tuesday morning.", "explain": "[[ou plutôt]] corrects a detail. Don't confuse it with [[plus tôt]] (earlier)." },
+        { "id": "r3", "type": "mcq", "prompt": "You say: « Je n'ai jamais travaillé dans ce domaine. » You realize you did, for a year. What's the best repair?", "options": ["Pardon, je rectifie : j'y ai travaillé un an, mais il y a longtemps.", "Oh non, je suis désolé, mon français est très mauvais…", "Sorry, I mean yes.", "Je continue sans corriger."], "optionsFr": true, "answer": 0,
+          "explain": "A wrong fact must be fixed, quickly and in French. [[Je rectifie]] + the right version.",
+          "optionFeedback": [null, "The apology spiral wastes time and draws attention to mistakes.", "Never switch to English: use a French repair phrase.", "This one changes the meaning (a negation and a fact): it must be fixed."] },
+        { "id": "r4", "type": "cloze", "text": "C'est la personne ___ on a besoin pour faire sa déclaration de revenus.", "answers": [["dont"]], "en": "It's the person you need to do your tax return.", "explain": "[[avoir besoin de]] → [[dont]]." },
+        { "id": "r5", "type": "translate", "prompt": "I put that badly. What I mean is that the price is too high. (man speaking)", "accept": ["Je me suis mal exprimé. Ce que je veux dire, c'est que le prix est trop élevé.", "Je me suis mal exprimé. Ce que je veux dire, c'est que le prix est trop haut.", "Je me suis mal exprimé, ce que je veux dire, c'est que le prix est trop élevé.", "Je me suis mal exprimé. Ce que je veux dire, c'est que c'est trop cher."], "explain": "[[s'exprimer]] takes [[être]] in the passé composé: [[je me suis mal exprimé]]." },
+        { "id": "r6", "type": "cloze", "text": "C'est une sorte de couteau avec ___ on coupe le pain.", "answers": [["lequel"]], "choices": ["lequel", "laquelle", "dont", "que"], "en": "It's a kind of knife you cut bread with.", "explain": "[[couper avec un couteau]] → [[avec lequel]], masculine like [[couteau]]." },
+        { "id": "r7", "type": "reorder", "prompt": "Sorry, let me start that again.", "accept": ["Pardon je reprends"], "extra": ["prends", "me"] },
+        { "id": "r8", "type": "dictation", "fr": "Il faut que je fais… pardon, il faut que je fasse une demande de permis.", "accept": ["Il faut que je fais, pardon, il faut que je fasse une demande de permis.", "Il faut que je fais… Pardon, il faut que je fasse une demande de permis."], "explain": "The repair turns the indicative [[fais]] into the subjonctif [[fasse]] after [[il faut que]]." },
+        { "id": "r9", "type": "translate", "prompt": "It's the place where you pay for parking.", "accept": ["C'est l'endroit où on paie le stationnement.", "C'est l'endroit où l'on paie le stationnement.", "C'est l'endroit où on paye le stationnement.", "C'est l'endroit où on paie le parking.", "C'est l'endroit où on paie pour le stationnement.", "C'est l'endroit où on paie son stationnement."], "explain": "A place → [[où]]. [[payer]] usually takes a direct object: [[payer le stationnement]]. ([[payer pour]] is common in speech, especially in Québec, but avoid it in an exam.)" }
+      ] },
+    { "type": "apply", "title": "Mistakes on purpose",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Two parts, about 2 minutes 30 in all.\n**Part 1 (90 seconds):** tell the story of a misunderstanding you had in French or in a new country. Plant at least three repairs on purpose: one slip you fix, one detail you refine with ou plutôt, and one missing word you describe.\n**Part 2 (60 seconds):** describe three things without saying their names, as if the word escaped you: a snow blower, a landlord, a laundromat.", "seconds": 150,
+          "checklist": ["At least three different repair phrases (pardon, ou plutôt, enfin je veux dire, je rectifie, je reprends)", "Each repair takes one second, then you continue", "No apology spiral and no English", "One correction of a well-known structure (auxiliary, subjonctif, gender)", "Part 2: a general noun + qui / que / dont / où / avec lequel each time", "Part 2: one extra detail (un peu comme…, en plus grand…)"],
+          "models": [
+            { "label": "Model answer", "fr": "Quand je suis arrivée à Québec, je voulais acheter des bottes. J'ai entré… pardon, je suis entrée dans un magasin, et le vendeur m'a demandé : « Vous magasinez pour l'hiver ? » Je n'ai pas compris, parce qu'en France on dit « faire du shopping ». J'ai répondu non… pardon, j'ai répondu « je ne sais pas ». Il a ri ! C'était en octobre, ou plutôt fin septembre. Ensuite, il m'a montré des… comment dire… des petites choses en métal qu'on met sous les bottes pour ne pas tomber sur la glace. Le mot m'échappe. Des crampons, voilà !\nPartie 2. Un : c'est une machine qui sert à enlever la neige devant la maison, un peu comme une grosse pelle avec un moteur. Deux : c'est la personne à qui on paie le loyer chaque mois. Trois : c'est l'endroit où on lave ses vêtements quand on n'a pas de laveuse à la maison.", "en": "When I arrived in Québec City, I wanted to buy boots. I *have entered… sorry, I went into a store, and the salesman asked me: “Are you shopping for winter?” (magasiner) I didn't understand, because in France we say “faire du shopping”. I answered no… sorry, I answered “I don't know”. He laughed! It was in October, or rather late September. Then he showed me some… how can I put it… little metal things you put under your boots so you don't fall on the ice. The word escapes me. Ice cleats, that's it! Part 2. One: it's a machine used to remove snow in front of the house, a bit like a big shovel with an engine. Two: it's the person you pay the rent to every month. Three: it's the place where you wash your clothes when you don't have a washer at home." },
+            { "label": "Stronger model answer", "fr": "Mon premier malentendu au Canada date de ma deuxième semaine à Moncton. Une collègue m'a invité à « dîner » le samedi. Je suis donc arrivé chez elle à dix-neuf heures… enfin, je veux dire, à dix-neuf heures trente, j'étais un peu en retard. Elle m'a regardé, très surprise : pour elle, le dîner, c'est le repas du midi ! Elle m'a attendu… pardon, elle m'avait attendu jusqu'à treize heures. J'étais tellement gêné que je me suis excusé trois fois… ou plutôt quatre. Heureusement, elle a trouvé ça drôle, et maintenant, c'est devenu une blague entre nous. Depuis, quand on m'invite, je demande toujours l'heure. Je me suis mal exprimé : je ne demande pas « à quelle heure », je demande « quel repas » !\nPartie 2. D'abord, c'est une machine avec laquelle on dégage l'entrée après une tempête : elle aspire la neige et la projette sur le côté. Ensuite, c'est la personne dont on dépend quand quelque chose se brise dans l'appartement, celle qui possède le logement et à qui on verse le loyer. Enfin, c'est un commerce où on paie pour utiliser des laveuses et des sécheuses, souvent avec des pièces de monnaie, quand on n'en a pas dans son immeuble.", "en": "My first misunderstanding in Canada goes back to my second week in Moncton. A colleague invited me to “dîner” on Saturday. So I arrived at her place at 7 p.m.… well, I mean, at 7:30, I was a bit late. She looked at me, very surprised: for her, “dîner” is the midday meal! She waited… sorry, she had waited for me until 1 p.m. I was so embarrassed that I apologized three times… or rather four. Luckily, she found it funny, and now it's become a joke between us. Since then, when I'm invited, I always ask the time. I put that badly: I don't ask “what time”, I ask “which meal”! Part 2. First, it's a machine you clear the driveway with after a storm: it sucks up the snow and throws it to the side. Next, it's the person you depend on when something breaks in the apartment, the one who owns the place and to whom you pay the rent. Finally, it's a business where you pay to use washers and dryers, often with coins, when you don't have any in your building." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Repair a slip in one second and keep going: [[Pardon, …]], [[ou plutôt…]], [[Enfin, je veux dire…]], [[Je rectifie : …]], [[Au temps pour moi.]]\n- Restart a sentence that went wrong: [[Pardon, je reprends.]], [[Je me suis mal exprimé.]]\n- Describe a missing word with a general noun + relative pronoun: [[C'est un appareil qui sert à…]], [[l'endroit où…]], [[la personne dont…]], [[une sorte de… avec laquelle…]]\n- Always fix wrong facts and negations; let small slips go",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Added a corrected well-known structure to both speaking models, as the checklist requires; made the h2 description point unambiguously to le bail; nuanced the payer pour note; attributed the B2 descriptors to the CEFR; un dépôt → un point de dépôt." }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-06-02",
+  "level": "b2",
+  "unit": "b2-06",
+  "title": "Subjonctif after emotions and wishes",
+  "goal": "Express wishes, feelings and doubts about other people's actions with vouloir que, souhaiter que, être content que, avoir peur que, douter que…, tell the subjonctif apart from the indicative (espérer que, penser que), and use de + infinitive when the subject is the same.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-subj-volonte", "kind": "grammar", "fr": "vouloir que / souhaiter que / aimer que + subjonctif", "en": "the subjonctif after wishes and requests",
+      "drills": [
+        { "type": "cloze", "text": "Je veux que tu ___ la vérité. (savoir)", "answers": [["saches"]], "en": "I want you to know the truth.", "explain": "English “I want you to…” = French [[je veux que tu]] + subjonctif. Never [[je veux toi savoir]]." },
+        { "type": "cloze", "text": "Ma directrice aimerait que nous ___ le rapport demain. (finir)", "answers": [["finissions"]], "en": "My director would like us to finish the report tomorrow.", "explain": "[[aimer que]] (even in the conditionnel) + subjonctif: [[que nous finissions]]." },
+        { "type": "mcq", "prompt": "“I want to leave early.” (same subject)", "options": ["Je veux partir tôt.", "Je veux que je parte tôt.", "Je veux que je pars tôt.", "Je veux de partir tôt."], "optionsFr": true, "answer": 0, "explain": "Same subject → infinitive directly after [[vouloir]]." }
+      ] },
+    { "id": "g-subj-emotion", "kind": "grammar", "fr": "être content que / avoir peur que / regretter que + subjonctif", "en": "the subjonctif after emotions",
+      "drills": [
+        { "type": "cloze", "text": "Je suis vraiment contente que tu ___ venir. (pouvoir)", "answers": [["puisses"]], "en": "I'm really happy that you can come.", "explain": "Emotion + [[que]] + subjonctif: [[que tu puisses]]." },
+        { "type": "cloze", "text": "Je suis contente d'___ ici. (same subject: être)", "answers": [["être"]], "en": "I'm happy to be here.", "explain": "Same subject → [[de]] + infinitive: [[je suis contente d'être ici]], not [[que je sois]]." },
+        { "type": "cloze", "text": "C'est dommage qu'il ___ si froid aujourd'hui. (faire)", "answers": [["fasse"]], "en": "It's a pity it's so cold today.", "explain": "[[c'est dommage que]] expresses a feeling → [[qu'il fasse]]." }
+      ] },
+    { "id": "g-subj-indicatif", "kind": "grammar", "fr": "espérer que + indicatif / souhaiter que + subjonctif; je pense que / je ne pense pas que", "en": "subjonctif or indicative? (hope, opinion, doubt)",
+      "drills": [
+        { "type": "cloze", "text": "J'espère que tu ___ un bon voyage. (avoir, present)", "answers": [["as"]], "en": "I hope you're having a good trip.", "explain": "[[espérer que]] takes the **indicative**: [[j'espère que tu as / auras…]]. It's the great exception." },
+        { "type": "cloze", "text": "Je ne pense pas qu'elle ___ raison. (avoir)", "answers": [["ait"]], "en": "I don't think she's right.", "explain": "A negative opinion expresses doubt → subjonctif: [[qu'elle ait]]. Affirmative: [[je pense qu'elle a raison]]." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Il est probable qu'il viendra.", "Il est probable qu'il vienne.", "Il est possible qu'il viendra.", "Je doute qu'il viendra."], "optionsFr": true, "answer": 0, "explain": "Probable = close to certain → indicative. [[possible]] and [[douter]] → subjonctif ([[qu'il vienne]])." }
+      ] },
+    { "id": "souhaiter-que", "kind": "phrase", "fr": "Je souhaite que…", "en": "I wish that…, I hope that… (+ subjonctif)", "example": { "fr": "Je souhaite que tu sois heureuse à Calgary.", "en": "I hope you'll be happy in Calgary." } },
+    { "id": "aimerais-que", "kind": "phrase", "fr": "J'aimerais que…", "en": "I'd like (someone) to… (+ subjonctif)", "accept": ["Je voudrais que…"], "example": { "fr": "J'aimerais que vous m'appeliez demain.", "en": "I'd like you to call me tomorrow." } },
+    { "id": "tenir-a-ce-que", "kind": "phrase", "fr": "tenir à ce que", "en": "to insist that (+ subjonctif)", "example": { "fr": "Je tiens à ce que tout le monde soit invité.", "en": "I insist that everyone be invited." } },
+    { "id": "ca-metonne", "kind": "phrase", "fr": "Ça m'étonne que…", "en": "I'm surprised that… (+ subjonctif)", "accept": ["Je suis surpris que…", "Je suis étonné que…", "Ça me surprend que…"] },
+    { "id": "cest-dommage-que", "kind": "phrase", "fr": "C'est dommage que…", "en": "It's a pity that… (+ subjonctif)", "accept": ["Dommage que…", "Il est dommage que…"] },
+    { "id": "avoir-peur-que", "kind": "phrase", "fr": "avoir peur que", "en": "to be afraid that (+ subjonctif)", "accept": ["craindre que"], "example": { "fr": "J'ai peur qu'il soit trop tard.", "en": "I'm afraid it's too late." } },
+    { "id": "regretter-que", "kind": "phrase", "fr": "regretter que", "en": "to be sorry that, to regret that (+ subjonctif)", "example": { "fr": "Je regrette que vous ne puissiez pas venir.", "en": "I'm sorry you can't come." } },
+    { "id": "etre-decu", "kind": "vocab", "fr": "déçu", "fem": "déçue", "en": "disappointed", "pos": "adjective", "accept": ["déçue"], "example": { "fr": "Elle est déçue qu'on ne l'ait pas choisie.", "en": "She's disappointed that she wasn't chosen." } },
+    { "id": "il-se-peut-que", "kind": "phrase", "fr": "Il se peut que…", "en": "It may be that…, … might (+ subjonctif)", "accept": ["Il est possible que…"], "example": { "fr": "Il se peut qu'il pleuve demain.", "en": "It might rain tomorrow." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Sofia's farewell",
+      "intro": "Sofia's engineering diploma has finally been recognized, and she's leaving the company for a job in Calgary. Listen to her colleagues at her farewell party, then read their card. Notice how many feelings and wishes are followed by **que + subjonctif**.",
+      "blocks": [
+        { "type": "dialogue", "title": "A farewell drink after work",
+          "context": "Camille, Karim and Sofia at a café near the office in Gatineau.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Sofia, je suis vraiment heureuse que tu puisses enfin travailler comme ingénieure. Mais je suis triste que tu partes si loin !", "en": "Sofia, I'm really happy you can finally work as an engineer. But I'm sad you're going so far away!" },
+            { "speaker": "Sofia", "fr": "Moi aussi, je suis triste de partir. Vous allez me manquer. Mais je suis tellement contente d'avoir ce poste !", "en": "I'm sad to leave too. I'm going to miss you. But I'm so happy to have this job!" },
+            { "speaker": "Karim", "fr": "Ça m'étonne que tu aies choisi Calgary, toi qui détestes le froid…", "en": "I'm surprised you chose Calgary, you who hate the cold…" },
+            { "speaker": "Sofia", "fr": "Je sais ! Mon mari a peur que l'hiver soit trop long. Mais les enfants sont ravis : ils veulent qu'on aille faire du ski dans les Rocheuses tous les week-ends.", "en": "I know! My husband is afraid the winter will be too long. But the kids are delighted: they want us to go skiing in the Rockies every weekend." },
+            { "speaker": "Camille", "fr": "Et en français ? Tu vas continuer à le pratiquer ?", "en": "And French? Are you going to keep practising it?" },
+            { "speaker": "Sofia", "fr": "Je l'espère. Il y a une communauté francophone là-bas. Je doute qu'elle soit aussi grande qu'ici, mais je vais la trouver !", "en": "I hope so. There's a French-speaking community there. I doubt it's as big as here, but I'll find it!" },
+            { "speaker": "Karim", "fr": "C'est dommage que tu ne restes pas jusqu'à la fête de Noël du bureau…", "en": "It's a pity you're not staying until the office Christmas party…" },
+            { "speaker": "Camille", "fr": "Justement, je tiens à ce que tu reviennes nous voir. Et j'aimerais que tu nous envoies des photos de ton premier projet !", "en": "Actually, I insist that you come back to see us. And I'd like you to send us pictures of your first project!" },
+            { "speaker": "Sofia", "fr": "Promis. Et j'espère que vous viendrez me voir aussi !", "en": "Promise. And I hope you'll come and see me too!" }
+          ] },
+        { "type": "text", "title": "The team's card",
+          "fr": "Chère Sofia,\n\nNous sommes tous très fiers que ton diplôme soit enfin reconnu, et nous regrettons sincèrement que tu doives nous quitter. Merci pour ta bonne humeur, ta patience et tes fameuses empanadas !\n\nNous souhaitons que cette nouvelle aventure soit à la hauteur de tes rêves, et que toute ta famille se plaise à Calgary. Il se peut que l'hiver te paraisse long, mais nous espérons que tu trouveras vite de nouveaux amis.\n\nNe nous oublie pas !\n\nToute l'équipe",
+          "en": "Dear Sofia,\n\nWe're all very proud that your diploma has finally been recognized, and we're sincerely sorry that you have to leave us. Thank you for your good mood, your patience and your famous empanadas!\n\nWe hope this new adventure lives up to your dreams, and that your whole family enjoys Calgary. Winter may seem long to you, but we hope you'll quickly find new friends.\n\nDon't forget us!\n\nThe whole team" },
+        { "id": "d1", "type": "mcq", "prompt": "Why does Sofia say “je suis triste de partir” but Camille says “je suis triste que tu partes”?", "options": ["Sofia is talking about herself (same subject); Camille about someone else", "Camille is more formal", "Sofia makes a mistake"], "answer": 0,
+          "explain": "Same subject → [[de]] + infinitive ([[je suis triste de partir]]). Different subjects → [[que]] + subjonctif ([[je suis triste que tu partes]])." },
+        { "id": "d2", "type": "mcq", "prompt": "In the card, why is it “nous espérons que tu trouveras” and not “que tu trouves”?", "options": ["Espérer que takes the indicative", "Because it's in the future", "It's a mistake"], "answer": 0,
+          "explain": "[[espérer que]] is followed by the indicative (often the future), unlike [[souhaiter que]] + subjonctif. Compare both in the card." }
+      ] },
+    { "type": "understand", "title": "Feelings, wishes and doubts",
+      "blocks": [
+        { "type": "explain", "title": "The logic",
+          "body": "The subjonctif appears when the first part of the sentence expresses a **subjective attitude** toward what follows: you want it, you feel something about it, or you doubt it. The second part is not presented as a plain fact; it's *coloured* by your attitude.\n\n- [[Elle part.]] = a fact.\n- [[Je veux qu'elle parte.]] / [[Je suis triste qu'elle parte.]] / [[Je doute qu'elle parte.]] = the same action, seen through a wish, a feeling, a doubt." },
+        { "type": "table", "title": "Triggers of the subjonctif",
+          "head": ["Family", "Triggers", "Example"],
+          "rows": [
+            ["Wish, will", "vouloir que, souhaiter que, aimer que, préférer que, tenir à ce que, demander que", "Je préfère que tu restes ici."],
+            ["Emotion", "être content / heureux / triste / déçu / surpris que, avoir peur que, regretter que", "Je suis déçue que le cours soit annulé."],
+            ["Impersonal feeling", "c'est dommage que, ça m'étonne que, ça me dérange que, c'est normal que", "Ça me dérange que tu fumes ici."],
+            ["Doubt, possibility", "douter que, il est possible que, il se peut que", "Il se peut que je sois en retard."],
+            ["Negative opinion", "je ne pense pas que, je ne crois pas que, je ne suis pas sûr que", "Je ne crois pas qu'il sache la réponse."]
+          ],
+          "frCols": [1, 2], "sayCol": false },
+        { "type": "table", "title": "Careful: these take the indicative",
+          "head": ["Indicative", "Why", "Compare with the subjonctif"],
+          "rows": [
+            ["J'espère que tu viendras.", "espérer = an expectation, close to the future", "Je souhaite que tu viennes."],
+            ["Je pense qu'il a raison.", "an affirmative opinion = presented as true", "Je ne pense pas qu'il ait raison."],
+            ["Je suis sûr qu'elle sait.", "certainty", "Je ne suis pas sûr qu'elle sache."],
+            ["Il est probable qu'il pleuvra.", "probable = almost certain", "Il est possible qu'il pleuve."],
+            ["Je sais que c'est difficile.", "knowledge = fact", "Je comprends que ce soit difficile."]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "In questions with inversion, both are possible: [[Pensez-vous qu'il ait raison ?]] (more doubt) or [[Pensez-vous qu'il a raison ?]] (more neutral)." },
+        { "type": "pattern", "title": "Same subject: de + infinitive",
+          "pattern": "émotion + de + infinitif · volonté + infinitif",
+          "note": "When the person who feels or wants is the same as the one who acts, there is no [[que]]: emotions take [[de]] + infinitive, verbs of will take the infinitive directly.",
+          "examples": [
+            { "fr": "Je suis contente d'être ici.", "en": "I'm happy to be here. (not: que je sois ici)" },
+            { "fr": "J'ai peur de me tromper.", "en": "I'm afraid of making a mistake." },
+            { "fr": "Il regrette de ne pas pouvoir venir.", "en": "He's sorry he can't come." },
+            { "fr": "Nous voulons acheter une maison.", "en": "We want to buy a house." },
+            { "fr": "Je préfère rester à la maison.", "en": "I prefer to stay home." }
+          ] },
+        { "type": "vocab", "title": "Triggers for this lesson", "itemIds": ["souhaiter-que", "aimerais-que", "tenir-a-ce-que", "ca-metonne", "cest-dommage-que", "avoir-peur-que", "regretter-que", "etre-decu", "il-se-peut-que"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "The classic subjonctif errors",
+          "body": "- **[[J'espère que tu viennes]]** ✗ → [[J'espère que tu viendras]] / [[que tu viens]] ✓. Remember: [[espérer]] = indicative, [[souhaiter]] = subjonctif.\n- **[[Je veux toi venir]]** ✗ / **[[Je veux que tu viens]]** ✗ → [[Je veux que tu viennes]] ✓. English “I want you to…” always becomes [[que]] + subjonctif.\n- **[[Je pense qu'il soit malade]]** ✗ → [[Je pense qu'il est malade]] ✓. Only the **negative** opinion takes the subjonctif.\n- **[[Je suis content que je sois là]]** ✗ → [[Je suis content d'être là]] ✓ (same subject).\n- **[[tenir que]]** ✗ → [[tenir à ce que]] ✓: [[Je tiens à ce que tu viennes.]]\n- **[[Il se peut qu'il va pleuvoir]]** ✗ → [[Il se peut qu'il pleuve]] ✓." },
+        { "type": "deepdive", "kind": "examples", "title": "Feelings about the past: the subjonctif passé",
+          "body": "When the action you feel something about is **already done**, French uses the subjonctif passé: [[avoir]] or [[être]] in the subjonctif + past participle. You'll hear it constantly, so learn to recognize it now. It follows the same rules as the passé composé (être verbs agree).",
+          "examples": [
+            { "fr": "Je suis content que tu sois venu.", "en": "I'm glad you came." },
+            { "fr": "Ça m'étonne que tu aies choisi Calgary.", "en": "I'm surprised you chose Calgary." },
+            { "fr": "Nous sommes fiers que tu aies réussi ton examen.", "en": "We're proud that you passed your exam." },
+            { "fr": "Je regrette qu'elle soit partie si vite.", "en": "I'm sorry she left so quickly." }
+          ] },
+        { "type": "deepdive", "kind": "why", "title": "Why does espérer take the indicative?",
+          "body": "It seems illogical: hoping is a wish, isn't it? Grammarians explain that [[espérer]] looks toward a future you **expect**, so French treats it like a prediction: [[J'espère qu'il fera beau]] is close to [[Je pense qu'il fera beau]]. [[Souhaiter]], on the other hand, expresses a pure desire, with no expectation. That's why the card says [[nous souhaitons que cette aventure soit…]] but [[nous espérons que tu trouveras…]]. If you don't remember the reason, just remember the pair: **espérer → indicatif, souhaiter → subjonctif**." },
+        { "type": "deepdive", "kind": "canada", "title": "Weekend, fin de semaine and wishes in Québec",
+          "body": "Sofia says [[tous les week-ends]]: that's standard everywhere, but in Québec you'll hear [[toutes les fins de semaine]] much more often. In cards and messages, typical Québec wishes are [[Je te souhaite bonne chance dans tes nouveaux défis !]] and [[Bonne continuation !]] For a wish with a full sentence, remember the subjonctif: [[Je souhaite que tout se passe bien pour toi]] is correct, but [[J'espère que tout va bien se passer]] is more common and avoids the subjonctif entirely: a handy trick when you're not sure." }
+      ] },
+    { "type": "hear", "title": "Hear feelings and wishes",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Emotions are carried by the voice: put a little warmth in the first part of the sentence.",
+          "lines": [
+            { "fr": "Je suis vraiment contente que tu sois là.", "en": "I'm really happy you're here." },
+            { "fr": "J'aimerais que vous m'appeliez demain matin.", "en": "I'd like you to call me tomorrow morning." },
+            { "fr": "C'est dommage qu'il fasse si froid.", "en": "It's a pity it's so cold." },
+            { "fr": "J'ai peur qu'il soit trop tard.", "en": "I'm afraid it's too late." },
+            { "fr": "Je ne pense pas qu'elle puisse venir.", "en": "I don't think she can come." },
+            { "fr": "J'espère que tu viendras me voir.", "en": "I hope you'll come and see me." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je suis un peu déçue que le cours de français du samedi soit annulé. Mais il se peut qu'on ouvre un nouveau groupe le mercredi soir.", "en": "I'm a little disappointed that the Saturday French class is cancelled. But they might open a new group on Wednesday evenings.", "prompt": "What might happen?", "options": ["A new Wednesday evening group", "The Saturday class will continue", "The teacher will change"], "answer": 0,
+          "explain": "[[il se peut qu'on ouvre un nouveau groupe le mercredi soir]]: a possibility, hence the subjonctif." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ma mère tient à ce que toute la famille soit là pour son anniversaire. Elle ne veut pas qu'on fasse de cadeaux, mais elle aimerait qu'on chante !", "en": "My mother insists the whole family be there for her birthday. She doesn't want us to give presents, but she'd like us to sing!", "prompt": "What does the mother want?", "options": ["The whole family there, and singing", "Lots of presents", "A small party with friends"], "answer": 0,
+          "explain": "[[tient à ce que toute la famille soit là]], [[ne veut pas qu'on fasse de cadeaux]], [[aimerait qu'on chante]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Subjonctif or indicative? Infinitive or que? Think about the trigger and the subjects.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je suis heureuse que vous ___ enfin un appartement. (avoir)", "answers": [["ayez"]], "choices": ["ayez", "avez", "aviez", "ayiez"], "en": "I'm happy you finally have an apartment.", "explain": "Emotion → subjonctif: avoir → [[que vous ayez]] (no i after y)." },
+        { "id": "r2", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["J'espère que tu vas mieux.", "J'espère que tu ailles mieux.", "Je souhaite que tu vas mieux.", "J'espère que tu sois mieux."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "[[espérer que]] takes the indicative.", "[[souhaiter que]] needs the subjonctif: [[que tu ailles mieux]].", "[[espérer]] + indicative, and we say [[aller mieux]]."] },
+        { "id": "r3", "type": "translate", "prompt": "I want you to call me tomorrow. (formal)", "accept": ["Je veux que vous m'appeliez demain.", "Je voudrais que vous m'appeliez demain.", "J'aimerais que vous m'appeliez demain.", "Je souhaite que vous m'appeliez demain.", "Je veux que vous me téléphoniez demain.", "J'aimerais que vous me téléphoniez demain."], "explain": "“I want you to…” → [[je veux que vous]] + subjonctif: nous appelons → [[que vous appeliez]]." },
+        { "id": "r4", "type": "cloze", "text": "Je ne pense pas qu'il ___ la réponse, mais je pense qu'il ___ la chercher. (savoir, pouvoir)", "answers": [["sache"], ["peut", "pourra", "pourrait"]], "en": "I don't think he knows the answer, but I think he can look for it.", "explain": "Negative opinion → subjonctif ([[sache]]); affirmative opinion → indicative ([[peut]])." },
+        { "id": "r5", "type": "match", "prompt": "Subjonctif or indicative? Match each beginning to the mood it needs.", "pairs": [["Je souhaite que…", "subjonctif (wish)"], ["J'espère que…", "indicative (expectation)"], ["Il est probable que…", "indicative (near certainty)"], ["Il se peut que…", "subjonctif (possibility)"], ["Je suis sûr que…", "indicative (certainty)"], ["Ça m'étonne que…", "subjonctif (emotion)"]] },
+        { "id": "r6", "type": "cloze", "text": "Il a peur de se ___, et sa femme a peur qu'il ___ trop fatigué. (tromper / être)", "answers": [["tromper"], ["soit"]], "en": "He's afraid of making a mistake, and his wife is afraid he's too tired.", "explain": "Same subject → [[de]] + infinitive; different subject → [[qu'il soit]]." },
+        { "id": "r7", "type": "reorder", "prompt": "It's a pity that you're leaving. (to a friend)", "accept": ["C'est dommage que tu partes"], "extra": ["pars", "de"], "explain": "[[c'est dommage que]] + subjonctif: [[que tu partes]], not [[tu pars]]." },
+        { "id": "r8", "type": "translate", "prompt": "I'm happy to be here.", "accept": ["Je suis content d'être ici.", "Je suis contente d'être ici.", "Je suis heureux d'être ici.", "Je suis heureuse d'être ici.", "Je suis content d'être là.", "Je suis contente d'être là.", "Je suis heureux d'être là.", "Je suis heureuse d'être là.", "Je suis ravi d'être ici.", "Je suis ravie d'être ici."], "explain": "Same subject → [[de]] + infinitive. [[Je suis content que je sois ici]] ✗." },
+        { "id": "r9", "type": "dictation", "fr": "Je tiens à ce que tout le monde soit invité.", "accept": [], "explain": "[[tenir à ce que]] + subjonctif: [[soit]] (être)." },
+        { "id": "r10", "type": "cloze", "text": "Ma gestionnaire aimerait que je ___ le compte rendu et que je le ___ à toute l'équipe. (rédiger, envoyer)", "answers": [["rédige"], ["transmette", "envoie"]], "en": "My manager would like me to write the minutes and send them to the whole team.", "explain": "[[aimerait que]] + two subjonctifs; unit 5 vocabulary: [[rédiger le compte rendu]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "A colleague or neighbour is leaving (new job, new city, retirement). Write a card: say how you feel about their departure, what you wish for them, a small worry, and a request. Use at least five subjonctifs and one espérer que + indicative.", "promptFr": "Écrivez une carte d'au revoir.",
+          "wordRange": [70, 120],
+          "checklist": ["Two emotions + que + subjonctif (heureux que, triste que, regretter que…)", "A wish: souhaiter que / j'aimerais que", "A worry or a possibility: avoir peur que / il se peut que", "J'espère que + indicative", "One same-subject infinitive (content de…, triste de…)"],
+          "models": [ { "label": "Model answer", "fr": "Chère Madame Lefebvre,\n\nToute la rue est triste que vous quittiez le quartier après trente ans ! Nous sommes quand même heureux que vous puissiez enfin vivre près de vos petits-enfants à Sherbrooke.\n\nNous regrettons que les enfants n'aient plus votre jardin pour cueillir des framboises. Il se peut qu'ils viennent sonner chez vous par habitude… Nous souhaitons que votre nouvelle maison soit aussi accueillante que celle-ci.\n\nJ'aimerais que vous nous donniez votre nouvelle adresse, pour que nous puissions vous écrire. Et nous espérons que vous reviendrez nous voir cet été.\n\nAvec toute notre amitié,\n\nAmira et Raj", "en": "Dear Mrs. Lefebvre,\n\nThe whole street is sad that you're leaving the neighbourhood after thirty years! We're still happy that you can finally live near your grandchildren in Sherbrooke.\n\nWe're sorry the children won't have your garden to pick raspberries any more. They might come and ring your bell out of habit… We hope your new house will be as welcoming as this one.\n\nI'd like you to give us your new address, so that we can write to you. And we hope you'll come back to see us this summer.\n\nWith all our friendship,\n\nAmira and Raj" } ] },
+        { "id": "s1", "type": "speak", "prompt": "React to three pieces of news from a friend: “J'ai eu ma résidence permanente !”, “Mon fils ne veut plus apprendre le français.”, “Je pense quitter mon travail.” For each one, express a feeling, and give a wish or a piece of advice with the subjonctif.", "seconds": 60,
+          "checklist": ["A positive emotion + subjonctif", "A negative emotion or worry + subjonctif", "A wish: je souhaite que / j'aimerais que", "A doubt: je ne pense pas que / je doute que", "Espérer + indicative at least once"],
+          "models": [ { "label": "Model answer", "fr": "Ta résidence permanente ? Je suis tellement content que tu l'aies enfin ! Ça fait deux ans que tu attends. Pour ton fils, c'est dommage qu'il ne veuille plus apprendre le français. Mais je ne pense pas que ce soit définitif : c'est l'adolescence ! J'aimerais que tu l'inscrives à un camp d'été en français, il se ferait peut-être des amis. Et ton travail… J'ai un peu peur que tu prennes une décision trop vite. Je souhaite que tu trouves quelque chose de mieux, bien sûr, mais j'espère que tu vas d'abord en parler avec ta gestionnaire.", "en": "Your permanent residence? I'm so happy you finally have it! You've been waiting for two years. As for your son, it's a pity he doesn't want to learn French any more. But I don't think it's final: it's adolescence! I'd like you to sign him up for a French summer camp, maybe he'd make friends. And your job… I'm a bit afraid you'll make a decision too quickly. I hope you find something better, of course, but I hope you'll talk to your manager about it first." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use the subjonctif after wishes ([[vouloir que]], [[souhaiter que]], [[j'aimerais que]], [[tenir à ce que]]), emotions ([[content que]], [[avoir peur que]], [[c'est dommage que]]) and doubt ([[douter que]], [[il se peut que]], [[je ne pense pas que]])\n- Keep the indicative after [[espérer que]], [[je pense que]], [[je suis sûr que]], [[il est probable que]]\n- With the same subject, use the infinitive: [[je suis content d'être ici]], [[je veux partir]]\n- Recognize the subjonctif passé: [[Je suis content que tu sois venu.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Rewrote r6 so it no longer requires the untaught past infinitive (s'être trompé); added the missing object in r4 (la chercher) and accepted pourrait; replaced the unnatural Je te souhaite que… example."}
+}

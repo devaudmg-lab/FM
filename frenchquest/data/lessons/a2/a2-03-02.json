@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-03-02",
+  "level": "a2",
+  "unit": "a2-03",
+  "title": "Describing the past",
+  "goal": "Describe a place, the weather and the atmosphere in the past with c'était, il y avait and il faisait.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-description", "kind": "grammar", "fr": "c'était / il y avait / il faisait", "en": "describing the past: it was / there was, there were / the weather was",
+      "drills": [
+        { "type": "cloze", "text": "Dans mon quartier, il y ___ beaucoup d'arbres.", "answers": [["avait"]], "en": "In my neighbourhood, there were a lot of trees.", "explain": "il y a → il y avait, always singular, even with a plural noun." },
+        { "type": "cloze", "text": "Il ___ froid et il neigeait.", "answers": [["faisait"]], "en": "It was cold and it was snowing.", "explain": "Weather uses faire: il fait froid → il faisait froid." },
+        { "type": "mcq", "prompt": "Talking about Québec City in general: “It was beautiful.”", "options": ["C'était beau.", "C'était belle.", "C'est était beau."], "optionsFr": true, "answer": 0, "explain": "After c'était, the adjective stays masculine: c'était beau." }
+      ] },
+    { "id": "g-negation-past", "kind": "grammar", "fr": "ce n'était pas / il n'y avait pas de", "en": "negative descriptions in the past",
+      "drills": [
+        { "type": "cloze", "text": "Il n'y ___ pas de neige.", "answers": [["avait"]], "en": "There was no snow.", "explain": "il n'y avait pas de + noun, like il n'y a pas de in the present." },
+        { "type": "translate", "prompt": "It wasn't expensive.", "accept": ["Ce n'était pas cher.", "C'était pas cher."], "explain": "ce n'était pas: ne… pas goes around était. In casual speech, people drop ne." },
+        { "type": "cloze", "text": "Il ne ___ pas chaud en hiver.", "answers": [["faisait"]], "en": "It wasn't hot in winter.", "explain": "ne… pas around faisait." }
+      ] },
+    { "id": "c-etait", "kind": "phrase", "fr": "C'était super.", "en": "It was great.", "accept": ["C'était génial."] },
+    { "id": "il-y-avait", "kind": "phrase", "fr": "Il y avait un marché.", "en": "There was a market." },
+    { "id": "il-faisait-chaud", "kind": "phrase", "fr": "Il faisait chaud.", "en": "It was hot (weather)." },
+    { "id": "il-pleuvait", "kind": "phrase", "fr": "Il pleuvait.", "en": "It was raining." },
+    { "id": "il-neigeait", "kind": "phrase", "fr": "Il neigeait.", "en": "It was snowing." },
+    { "id": "anime", "kind": "vocab", "fr": "animé", "fem": "animée", "en": "lively (a place)", "pos": "adjective", "accept": ["animée"],
+      "example": { "fr": "C'était un quartier très animé.", "en": "It was a very lively neighbourhood." } },
+    { "id": "bruyant", "kind": "vocab", "fr": "bruyant", "fem": "bruyante", "en": "noisy", "pos": "adjective", "accept": ["bruyante"] },
+    { "id": "calme", "kind": "vocab", "fr": "calme", "en": "quiet, calm", "pos": "adjective",
+      "example": { "fr": "Les rues étaient calmes.", "en": "The streets were quiet." } },
+    { "id": "bruit", "kind": "vocab", "fr": "bruit", "article": "le", "gender": "m", "en": "noise", "pos": "noun",
+      "example": { "fr": "Il y avait toujours du bruit.", "en": "There was always noise." } },
+    { "id": "cour", "kind": "vocab", "fr": "cour", "article": "la", "gender": "f", "en": "yard, courtyard", "pos": "noun" },
+    { "id": "arbre", "kind": "vocab", "fr": "arbre", "article": "l'", "gender": "m", "en": "tree", "pos": "noun", "accept": ["un arbre"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "The house of my childhood",
+      "blocks": [
+        { "type": "text", "title": "Sofia's text for her French class",
+          "context": "Sofia grew up in Mexico and now lives in Winnipeg. Her teacher asked: “Décrivez la maison de votre enfance.”",
+          "fr": "Quand j'étais petite, j'habitais à Guadalajara, au Mexique. Notre maison était dans un quartier très animé, près du marché. C'était une maison simple, avec une petite cour et un grand arbre.\nIl y avait toujours du bruit : les voisins parlaient fort, il y avait de la musique et les enfants jouaient dans la rue. Ce n'était pas calme, mais j'adorais ça !\nIl faisait chaud presque toute l'année. En été, il pleuvait souvent l'après-midi, mais ce n'était pas grave : la pluie était chaude.\nBien sûr, il n'y avait pas de neige. Alors, mon premier hiver à Winnipeg, c'était un choc ! Il faisait moins trente degrés, il neigeait et les rues étaient très calmes. C'était beau, mais j'avais froid tout le temps !",
+          "en": "When I was little, I lived in Guadalajara, Mexico. Our house was in a very lively neighbourhood, near the market. It was a simple house, with a small yard and a big tree.\nThere was always noise: the neighbours talked loudly, there was music and the children played in the street. It wasn't quiet, but I loved it!\nIt was hot almost all year. In summer, it often rained in the afternoon, but it didn't matter: the rain was warm.\nOf course, there was no snow. So my first winter in Winnipeg was a shock! It was minus thirty degrees, it was snowing and the streets were very quiet. It was beautiful, but I was cold all the time!" },
+        { "id": "d1", "type": "mcq", "prompt": "What was Sofia's neighbourhood in Guadalajara like?", "options": ["Lively and noisy", "Quiet and calm", "Cold and snowy"], "answer": 0,
+          "explain": "[[un quartier très animé]], [[il y avait toujours du bruit]], [[ce n'était pas calme]]." },
+        { "id": "d2", "type": "mcq", "prompt": "What did Sofia think of her first winter?", "options": ["It was beautiful, but very cold", "It was noisy and hot", "It wasn't a surprise"], "answer": 0,
+          "explain": "[[C'était un choc]], [[C'était beau, mais j'avais froid tout le temps]]." }
+      ] },
+    { "type": "understand", "title": "Three key chunks",
+      "blocks": [
+        { "type": "explain", "title": "Painting the picture",
+          "body": "When you describe a place or a moment in the past, three chunks do most of the work. They are just the imparfait of expressions you know from A1:\n\n- [[c'était]] (it was) comes from [[c'est]]\n- [[il y avait]] (there was / there were) comes from [[il y a]], with avoir\n- [[il faisait]] + weather (it was hot, cold, nice…) comes from [[il fait]], with faire\n\nDescriptions are background: they say what things were like, not what happened. That is exactly the job of the imparfait." },
+        { "type": "table", "title": "Present → imparfait",
+          "head": ["present", "imparfait", "English"],
+          "rows": [
+            ["c'est", "c'était", "it is → it was"],
+            ["ce n'est pas", "ce n'était pas", "it isn't → it wasn't"],
+            ["il y a", "il y avait", "there is / are → there was / were"],
+            ["il n'y a pas de", "il n'y avait pas de", "there is no → there was no"],
+            ["il fait chaud", "il faisait chaud", "it's hot → it was hot"],
+            ["il pleut", "il pleuvait", "it rains → it was raining"],
+            ["il neige", "il neigeait", "it snows → it was snowing"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[Il pleuvait]] comes from [[pleuvoir]] (to rain); [[il neigeait]] keeps the e of [[neiger]] before a, like [[mangeait]]." },
+        { "type": "pattern", "title": "c'était + adjective",
+          "pattern": "c'était + masculine adjective / c'était + un, une + noun",
+          "note": "After [[c'était]], the adjective is **always masculine singular**, whatever you are describing. With a noun, use an article: [[c'était une maison simple]].",
+          "examples": [
+            { "fr": "Québec en hiver ? C'était beau.", "en": "Québec City in winter? It was beautiful." },
+            { "fr": "Mon premier hiver, c'était difficile.", "en": "My first winter was hard." },
+            { "fr": "C'était un quartier très animé.", "en": "It was a very lively neighbourhood." },
+            { "fr": "Ce n'était pas grave.", "en": "It didn't matter. / It was no big deal." }
+          ] },
+        { "type": "vocab", "title": "Words to describe places", "itemIds": ["c-etait", "il-y-avait", "il-faisait-chaud", "il-pleuvait", "il-neigeait", "anime", "bruyant", "calme", "bruit", "cour", "arbre"] },
+        { "type": "deepdive", "kind": "why", "title": "C'était beau or elle était belle?",
+          "body": "Both exist, with a small difference:\n\n- [[Ma maison était petite.]] You describe **one specific noun**, so the verb is [[était]] with that noun (or il / elle), and the adjective agrees.\n- [[C'était beau.]] You give your **general impression** of a place, a moment or an experience. The adjective stays masculine.\n\nSo Sofia writes [[La pluie était chaude]] (the rain itself) but [[C'était beau]] (the whole experience of winter).",
+          "examples": [ { "fr": "La rue était bruyante.", "en": "The street was noisy." }, { "fr": "Montréal en hiver ? C'était magnifique !", "en": "Montréal in winter? It was magnificent!" } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Plural il y avait:** [[il y avaient des arbres]] → [[il y avait des arbres]]. It never changes.\n- **Weather with être:** [[il était froid]] → [[il faisait froid]]. Weather uses faire, like in the present.\n- **Agreement after c'était:** [[c'était belle]] → [[c'était beau]].\n- **Mixing two verbs:** [[c'est était]] → [[c'était]]. The imparfait replaces est.\n- **Partitive after a negative:** [[il n'y avait pas de la neige]] → [[il n'y avait pas de neige]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Talking about the weather in Canada",
+          "body": "Weather is a favourite topic in Canada, and you will hear some Québec words:\n\n- [[Il faisait frette !]] It was freezing! (informal Québec French; standard: [[il faisait très froid]])\n- [[une tempête de neige]] a snowstorm; [[la poudrerie]] blowing snow (Québec)\n- [[Il faisait moins trente.]] It was minus thirty. Canada uses degrees Celsius.\n\nComparing the climate of your home country with Canada is a classic topic in conversation and in exams." },
+        { "type": "note", "tone": "info", "body": "**A first look at unit 10:** Sofia could add an event: [[Il neigeait quand je suis arrivée.]] The imparfait gives the scene ([[il neigeait]]); the passé composé gives the event ([[je suis arrivée]]). Keep it in mind; you will practise this properly later." }
+      ] },
+    { "type": "hear", "title": "Hear the description",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "C'était un quartier très animé.", "en": "It was a very lively neighbourhood.", "tip": "c'était: two syllables, sé-tè." },
+            { "fr": "Il y avait toujours du bruit.", "en": "There was always noise.", "tip": "In fast speech: y avait, ya-vè." },
+            { "fr": "Il faisait chaud presque toute l'année.", "en": "It was hot almost all year.", "tip": "faisait sounds like fe-zè: the ai of fai is a light e." },
+            { "fr": "Il pleuvait souvent l'après-midi.", "en": "It often rained in the afternoon." },
+            { "fr": "Ce n'était pas grave.", "en": "It didn't matter." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Quand je suis arrivé à Halifax, il pleuvait et il faisait froid.", "en": "When I arrived in Halifax, it was raining and it was cold.",
+          "prompt": "What was the weather like when he arrived?", "options": ["Rainy and cold", "Snowy and cold", "Sunny and hot"], "answer": 0,
+          "explain": "[[il pleuvait]] = it was raining; [[il faisait froid]] = it was cold." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Dans mon village, il n'y avait pas de cinéma, mais il y avait un grand marché.", "en": "In my village, there was no cinema, but there was a big market.",
+          "prompt": "What was there in the speaker's village?", "options": ["A big market", "A cinema", "A cinema and a market"], "answer": 0,
+          "explain": "[[il n'y avait pas de cinéma]] = there was no cinema; [[mais il y avait un grand marché]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Mon école ? ___ grande et moderne.", "answers": [["Elle était"]], "choices": ["Elle était", "C'était", "Il y avait"], "en": "My school? It was big and modern.",
+          "explain": "You are describing one specific noun ([[l'école]], feminine), so use [[elle était]] and make the adjectives agree: [[grande]]. Keep [[c'était]] + masculine adjective for a general impression: [[Le voyage ? C'était super.]]" },
+        { "id": "r2", "type": "cloze", "text": "Il y ___ des enfants partout dans la rue.", "answers": [["avait"]], "choices": ["avait", "avaient", "était"], "en": "There were children everywhere in the street.",
+          "explain": "[[il y avait]] stays singular, even with a plural noun." },
+        { "id": "r3", "type": "mcq", "prompt": "“The street was noisy.” Which is correct?", "options": ["La rue était bruyante.", "La rue faisait bruyante.", "La rue était bruyant.", "La rue avait bruyante."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "faire is for the weather. Use être to describe a thing.", "rue is feminine, so the adjective agrees: bruyante.", "Description with an adjective uses être."] },
+        { "id": "r4", "type": "translate", "prompt": "It was snowing and it was very cold.", "accept": ["Il neigeait et il faisait très froid.", "Il neigeait et il faisait vraiment froid.", "Il neigeait et il faisait frette."],
+          "explain": "[[neigeait]] keeps the e; weather uses faire: [[il faisait froid]]." },
+        { "id": "r5", "type": "match", "prompt": "Match the present with the imparfait.", "pairs": [["c'est", "c'était"], ["il y a", "il y avait"], ["il fait", "il faisait"], ["il pleut", "il pleuvait"], ["il neige", "il neigeait"]] },
+        { "id": "r6", "type": "reorder", "prompt": "There was a big tree in the yard.", "accept": ["Il y avait un grand arbre dans la cour.", "Dans la cour, il y avait un grand arbre."], "extra": ["était"],
+          "explain": "[[grand]] goes before the noun. [[Il y avait]] introduces something that existed." },
+        { "id": "r7", "type": "translate", "prompt": "There was no metro in my city.", "accept": ["Il n'y avait pas de métro dans ma ville.", "Dans ma ville, il n'y avait pas de métro.", "Il y avait pas de métro dans ma ville."],
+          "explain": "After a negative, [[un]] becomes [[de]]: [[il n'y avait pas de métro]]." },
+        { "id": "r8", "type": "cloze", "text": "Les enfants ___ dans la rue. (jouer)", "answers": [["jouaient"]], "en": "The children used to play in the street.",
+          "explain": "From lesson 1: ils / elles → -aient." },
+        { "id": "r9", "type": "cloze", "text": "L'été dernier, nous ___ allés à Québec. Il ___ beau.", "answers": [["sommes"], ["faisait"]], "en": "Last summer, we went to Québec City. The weather was nice.",
+          "explain": "The trip is an event: passé composé with être ([[nous sommes allés]]). The weather is background: [[il faisait beau]]." },
+        { "id": "r10", "type": "dictation", "fr": "C'était un quartier très animé.", "accept": [],
+          "explain": "[[c'était]] with an apostrophe; [[animé]] agrees with [[quartier]] (masculine)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Describe the street or the home where you grew up, then compare it in one or two sentences with your first impression of Canada.", "promptFr": "Décrivez la rue ou la maison de votre enfance.",
+          "wordRange": [50, 90],
+          "checklist": ["c'était + adjective (masculine)", "il y avait… and il n'y avait pas de…", "The weather: il faisait…, il pleuvait…", "One adjective that agrees: la rue était bruyante", "A sentence about Canada: Mon premier hiver ici, c'était…"],
+          "models": [ { "label": "Model answer", "fr": "Quand j'étais petit, j'habitais à Casablanca, dans une rue bruyante près de la mer. Il y avait des cafés, des magasins et beaucoup de voitures. Notre appartement était petit, mais il y avait un grand balcon. Il faisait souvent beau et il ne faisait jamais très froid. Ici, à Gatineau, c'est très différent : mon premier hiver, c'était un choc !",
+            "en": "When I was little, I lived in Casablanca, on a noisy street near the sea. There were cafés, shops and lots of cars. Our apartment was small, but there was a big balcony. The weather was often nice and it was never very cold. Here in Gatineau, it's very different: my first winter was a shock!" } ] },
+        { "id": "s1", "type": "speak", "prompt": "Show a friend an old photo of your neighbourhood and describe it for 30 seconds: what there was, what it was like, and the weather.", "seconds": 30,
+          "checklist": ["Sur la photo, c'est…", "il y avait…", "c'était + adjective", "il faisait…"],
+          "models": [ { "label": "Model answer", "fr": "Regarde, c'est mon quartier à Shanghai. Il y avait beaucoup de petits restaurants et un parc. C'était très animé, surtout le soir. En été, il faisait très chaud et il pleuvait beaucoup. Il n'y avait pas de neige en hiver !",
+            "en": "Look, this is my neighbourhood in Shanghai. There were lots of small restaurants and a park. It was very lively, especially in the evening. In summer, it was very hot and it rained a lot. There was no snow in winter!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Describe a past place or moment with [[c'était]], [[il y avait]] and [[il faisait]]\n- Make them negative: [[ce n'était pas]], [[il n'y avait pas de]]\n- Talk about past weather: [[il pleuvait]], [[il neigeait]], [[il faisait froid]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Exercise r1 now uses 'Elle était grande et moderne' for a specific noun; pattern example changed to a general impression (Québec en hiver ? C'était beau.)." }
+}

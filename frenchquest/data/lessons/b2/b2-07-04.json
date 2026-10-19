@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-07-04",
+  "level": "b2",
+  "unit": "b2-07",
+  "title": "Connectors for complex ideas",
+  "goal": "Link complex ideas with formal connectors: or, ainsi, en revanche, dès lors, néanmoins, toutefois, d'ailleurs, par ailleurs, en effet and quant à.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-connecteurs", "kind": "grammar", "fr": "or, ainsi, en revanche, dès lors, néanmoins, toutefois, d'ailleurs, quant à", "en": "formal logical connectors and where to place them",
+      "drills": [
+        { "type": "cloze", "text": "Le gouvernement invoque la productivité. ___, les études montrent qu'elle n'a pas baissé.", "answers": [["Or"]], "choices": ["Or", "Ainsi", "Quant à"], "en": "The government cites productivity. Yet studies show it hasn't dropped.", "explain": "[[Or]] introduces a new fact that challenges the reasoning so far. It always starts the clause and is usually followed by a comma." },
+        { "type": "cloze", "text": "Le bureau favorise les échanges. Le télétravail, ___, permet de gagner du temps.", "answers": [["en revanche", "par contre"]], "choices": ["en revanche", "d'ailleurs", "dès lors"], "en": "The office encourages exchanges. Remote work, on the other hand, saves time.", "explain": "[[en revanche]] contrasts two different things (the office vs remote work). It can sit after the subject, between commas." },
+        { "type": "mcq", "prompt": "Which sentence uses “quant à” correctly?", "options": ["Quant aux commerces, ils souffrent de la situation.", "Quant à les commerces, ils souffrent de la situation.", "Les commerces, quant à, souffrent de la situation.", "Quant que les commerces souffrent, …"], "optionsFr": true, "answer": 0, "explain": "[[quant à]] + noun contracts like [[à]]: [[quant au]], [[quant aux]]. With a pronoun: [[quant à moi]], [[quant à eux]]." }
+      ] },
+    { "id": "or", "kind": "vocab", "fr": "or", "en": "yet, now (introduces a decisive new fact)", "pos": "conjunction",
+      "example": { "fr": "Il faut un diplôme canadien. Or, je n'en ai pas.", "en": "You need a Canadian degree. Now, I don't have one." }, "note": "Not [[ou]] (or), and not the noun [[l'or]] (gold)." },
+    { "id": "ainsi", "kind": "vocab", "fr": "ainsi", "en": "thus, in this way", "pos": "adverb", "accept": ["de cette façon", "par conséquent"],
+      "example": { "fr": "Le télétravail réduit les déplacements. Il diminue ainsi la pollution.", "en": "Remote work reduces commuting. It thus reduces pollution." } },
+    { "id": "en-revanche", "kind": "phrase", "fr": "en revanche", "en": "on the other hand (contrast)", "accept": ["par contre"],
+      "note": "[[par contre]] means the same and is very common, especially in speech. Some style guides prefer [[en revanche]] in formal writing." },
+    { "id": "des-lors", "kind": "phrase", "fr": "dès lors", "en": "consequently, from then on", "accept": ["par conséquent"],
+      "example": { "fr": "Les résultats sont bons. Dès lors, pourquoi changer ?", "en": "The results are good. So why change?" } },
+    { "id": "neanmoins", "kind": "vocab", "fr": "néanmoins", "en": "nevertheless", "pos": "adverb", "accept": ["toutefois", "cependant", "pourtant"] },
+    { "id": "toutefois", "kind": "vocab", "fr": "toutefois", "en": "however (formal)", "pos": "adverb", "accept": ["néanmoins", "cependant"] },
+    { "id": "d-ailleurs", "kind": "phrase", "fr": "d'ailleurs", "en": "besides, in fact (adds a supporting point)", "accept": ["du reste"],
+      "example": { "fr": "Ce quartier est calme. D'ailleurs, c'est pour ça que nous l'avons choisi.", "en": "This neighbourhood is quiet. In fact, that's why we chose it." } },
+    { "id": "par-ailleurs", "kind": "phrase", "fr": "par ailleurs", "en": "moreover, in another respect (adds a new point)", "accept": ["de plus", "en outre"] },
+    { "id": "en-effet", "kind": "phrase", "fr": "en effet", "en": "indeed (confirms and explains what was just said)",
+      "note": "Not “in effect”. [[En effet]] gives the reason or proof of the previous sentence." },
+    { "id": "quant-a", "kind": "phrase", "fr": "quant à", "en": "as for, as regards", "accept": ["en ce qui concerne", "pour ce qui est de"],
+      "example": { "fr": "Quant à moi, je préfère travailler de la maison.", "en": "As for me, I prefer working from home." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "An opinion piece with tight logic",
+      "intro": "In B1 you linked ideas with [[mais]], [[donc]], [[cependant]] and [[par conséquent]]. Formal French has a richer set. Read this opinion piece from a newsletter for public servants in Ottawa and Gatineau, and watch how each connector steers the argument.",
+      "blocks": [
+        { "type": "text", "title": "Retour au bureau : une fausse bonne idée ?",
+          "context": "Opinion piece by Amira Haddad, a policy analyst.",
+          "fr": "Depuis 2020, des milliers de fonctionnaires d'Ottawa et de Gatineau travaillent de la maison une partie de la semaine. L'employeur exige désormais trois jours de présence au bureau, au nom de la collaboration. Or, plusieurs études montrent que la productivité n'a pas baissé pendant le télétravail. Dès lors, on peut se demander si cette obligation est vraiment justifiée.\n\nCertes, le bureau favorise les échanges informels. Les jeunes employés, en effet, apprennent beaucoup en observant leurs collègues. Le télétravail, en revanche, permet de gagner jusqu'à deux heures par jour en transport. Il réduit ainsi le stress et la pollution. D'ailleurs, selon plusieurs sondages, les employés qui travaillent de la maison sont plus satisfaits de leur emploi.\n\nQuant aux commerces du centre-ville, ils affirment souffrir de l'absence des fonctionnaires. Leur inquiétude est compréhensible ; toutefois, est-ce vraiment aux employés de soutenir l'économie du centre-ville ? Par ailleurs, l'obligation de présence pose un problème concret : les bureaux ne comptent plus assez de postes de travail pour tout le monde.\n\nLe télétravail n'est pas parfait. Il reste néanmoins possible de trouver un équilibre : deux jours au bureau, choisis par chaque équipe selon ses besoins.",
+          "en": "Since 2020, thousands of public servants in Ottawa and Gatineau have been working from home part of the week. The employer now requires three days of presence at the office, in the name of collaboration. Yet several studies show that productivity didn't drop during remote work. Consequently, one may wonder whether this requirement is really justified.\n\nAdmittedly, the office encourages informal exchanges. Young employees, indeed, learn a lot by watching their colleagues. Remote work, on the other hand, saves up to two hours a day in commuting. It thus reduces stress and pollution. In fact, according to several surveys, employees who work from home are more satisfied with their jobs.\n\nAs for downtown businesses, they say they're suffering from the absence of public servants. Their concern is understandable; however, is it really up to employees to support the downtown economy? Moreover, mandatory presence raises a practical problem: offices no longer have enough workstations for everyone.\n\nRemote work isn't perfect. It is nevertheless possible to find a balance: two days in the office, chosen by each team according to its needs." },
+        { "id": "d1", "type": "mcq", "prompt": "What is the role of “Or” in the first paragraph?", "options": ["It introduces a fact that undermines the employer's reason", "It offers a second option", "It concludes the paragraph"], "answer": 0,
+          "explain": "The employer says collaboration requires presence. [[Or]] brings in a fact (productivity didn't drop) that weakens that reasoning, and [[Dès lors]] draws the conclusion." },
+        { "id": "d2", "type": "mcq", "prompt": "In “Les jeunes employés, en effet, apprennent beaucoup…”, what does “en effet” do?", "options": ["It explains and supports the previous sentence", "It contradicts the previous sentence", "It means “in effect, in practice”"], "answer": 0,
+          "explain": "[[En effet]] gives the proof of what was just said: the office encourages exchanges → indeed, young employees learn by watching." }
+      ] },
+    { "type": "understand", "title": "The logic behind each connector",
+      "blocks": [
+        { "type": "table", "title": "Formal connectors by function",
+          "head": ["Function", "Connector", "Example"],
+          "rows": [
+            ["Introduce a decisive new fact", "or", "Il faut trois ans d'expérience. Or, j'en ai cinq."],
+            ["Consequence", "ainsi, dès lors", "Les études sont claires. Dès lors, pourquoi changer ?"],
+            ["Explain / confirm", "en effet", "Le projet a pris du retard. En effet, deux employés sont partis."],
+            ["Contrast two things", "en revanche (par contre)", "Le loyer est bas. En revanche, le quartier est loin."],
+            ["Concede, then restrict", "toutefois, néanmoins", "Le plan est bon ; il reste toutefois trop cher."],
+            ["Add a supporting point", "d'ailleurs", "Il parle bien français. D'ailleurs, il a étudié à Lyon."],
+            ["Add a new, separate point", "par ailleurs", "Par ailleurs, les bureaux manquent de place."],
+            ["Change topic to another subject", "quant à", "Quant aux enfants, ils adorent leur école."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "[[cependant]], [[pourtant]], [[donc]], [[de plus]] and [[par conséquent]] (B1) are still useful. These new ones let you show the exact logical link." },
+        { "type": "explain", "title": "Where do they go?",
+          "body": "- **[[or]]**: always at the very start of the clause, usually with a comma: [[Or, …]]. Never in the middle.\n- **[[ainsi]]**: at the start, or after the verb: [[Il réduit ainsi le stress.]] In very formal writing, [[ainsi]] at the start can trigger inversion: [[Ainsi peut-on conclure que…]] (optional; [[Ainsi, on peut conclure que…]] is fine).\n- **[[toutefois]], [[néanmoins]], [[en revanche]], [[en effet]]**: at the start with a comma, or after the verb / subject between commas. Moving them inside the sentence sounds more elegant: [[Il reste néanmoins possible de…]]\n- **[[quant à]]**: at the start of the sentence, followed by a noun or a stressed pronoun, then usually a pronoun repeats the subject: [[Quant aux commerces, **ils** affirment…]]\n- **[[dès lors]]**: at the start. Don't confuse it with **[[dès lors que]]** + clause, which means “since, as soon as”: [[Dès lors que vous signez, le contrat est valide.]]" },
+        { "type": "pattern", "title": "The “or” argument",
+          "pattern": "Règle générale. Or, fait particulier. Dès lors / Donc, conclusion.",
+          "note": "This three-step reasoning is classic in French essays, legal texts and debates. It's extremely persuasive when the second step is a solid fact.",
+          "examples": [
+            { "fr": "Les employeurs cherchent des candidats bilingues. Or, Karim parle français, anglais et arabe. Dès lors, il a toutes ses chances.", "en": "Employers are looking for bilingual candidates. Now, Karim speaks French, English and Arabic. So he has every chance." },
+            { "fr": "Le bail exige une réponse dans un mois. Or, la lettre est arrivée il y a six semaines. Le délai est donc dépassé.", "en": "The lease requires an answer within a month. Yet the letter arrived six weeks ago. The deadline has therefore passed." }
+          ] },
+        { "type": "vocab", "title": "Connectors for this lesson", "itemIds": ["or", "ainsi", "en-revanche", "des-lors", "neanmoins", "toutefois", "d-ailleurs", "par-ailleurs", "en-effet", "quant-a"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Confusing pairs",
+          "body": "- **[[or]] vs [[ou]]**: [[or]] = yet, now; [[ou]] = or. [[Tu viens or tu restes ?]] ✗\n- **[[d'ailleurs]] vs [[ailleurs]]**: [[ailleurs]] = elsewhere ([[Il habite ailleurs.]]). [[D'ailleurs]] = besides, in fact.\n- **[[d'ailleurs]] vs [[par ailleurs]]**: [[d'ailleurs]] supports the *same* point; [[par ailleurs]] opens a *new* point.\n- **[[en effet]] ≠ “in effect”**: it means *indeed* and introduces a justification. [[En effet, il a raison.]] = Indeed, he's right.\n- **[[en revanche]] for concession**: [[en revanche]] contrasts two things. To say “X is true, but…” about the same thing, use [[toutefois]] / [[néanmoins]]: [[Le plan est bon ; il est toutefois cher.]]\n- **[[quant à les]]** ✗ → [[quant aux]] ✓; [[quant à le]] ✗ → [[quant au]] ✓.\n- **[[ainsi que]] ≠ [[ainsi]]**: [[ainsi que]] = as well as ([[Karim ainsi que Mei]])." },
+        { "type": "deepdive", "kind": "why", "title": "Why not just use “mais” and “donc”?",
+          "body": "[[Mais]] and [[donc]] are fine, but they're blunt: they say *that* two ideas are related, not *how*. [[Or]] says “here's the fact that changes everything”, [[en revanche]] says “now compare with this”, [[d'ailleurs]] says “and here's extra proof”. Readers follow your reasoning without effort, and TEF/TCF graders explicitly reward this *cohérence et cohésion*." },
+        { "type": "deepdive", "kind": "canada", "title": "Connectors in Québec speech",
+          "body": "In formal Québec French (news, government, universities) you'll hear exactly the connectors in this lesson. In everyday conversation, people simplify: [[mais]], [[pis]] (= [[puis]], and then), [[fait que]] (= so, often said [[faque]]), [[par contre]], [[en tout cas]] (anyway). [[Fait que]] plays roughly the role of France's spoken [[du coup]]. Recognize them, but keep them out of formal writing." }
+      ] },
+    { "type": "hear", "title": "Hear the logic",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Connectors are usually followed by a tiny pause. Use that pause to show your listener a new step in your reasoning.",
+          "lines": [
+            { "fr": "Or, la productivité n'a pas baissé.", "en": "Yet productivity didn't drop.", "tip": "Pronounce the r of [[or]] clearly, then pause." },
+            { "fr": "Dès lors, pourquoi changer ?", "en": "So why change?" },
+            { "fr": "Le loyer est bas. En revanche, le quartier est loin.", "en": "The rent is low. On the other hand, the neighbourhood is far." },
+            { "fr": "Il reste néanmoins possible de trouver un équilibre.", "en": "It is nevertheless possible to find a balance." },
+            { "fr": "Quant à moi, je préfère travailler de la maison.", "en": "As for me, I prefer working from home." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Pour obtenir ce poste, il faut une expérience au Canada. Or, Mei vient d'arriver. Elle a toutefois travaillé dix ans pour une entreprise canadienne à Shanghai.", "en": "To get this job, you need Canadian experience. Yet Mei has just arrived. She has, however, worked ten years for a Canadian company in Shanghai.", "prompt": "Why might Mei still get the job?", "options": ["She worked ten years for a Canadian company abroad", "She has worked in Canada for ten years", "The job doesn't require any experience"], "answer": 0,
+          "explain": "[[Or]] presents the obstacle (she just arrived); [[toutefois]] restricts it: she has relevant Canadian-company experience." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le centre-ville est bien desservi par le métro. Les banlieues, en revanche, dépendent encore beaucoup de la voiture. D'ailleurs, la moitié des familles y possèdent deux véhicules.", "en": "Downtown is well served by the metro. The suburbs, on the other hand, still depend a lot on the car. In fact, half the families there own two vehicles.", "prompt": "What does the last sentence do?", "options": ["It gives extra evidence that the suburbs depend on cars", "It contradicts the idea that the suburbs depend on cars", "It talks about downtown"], "answer": 0,
+          "explain": "[[D'ailleurs]] adds a supporting fact to the same point (car dependence in the suburbs)." },
+        { "id": "h3", "type": "dictation", "fr": "Quant aux commerces, ils affirment souffrir de l'absence des fonctionnaires.", "accept": [], "explain": "[[quant aux]] = quant à + les. The subject is picked up again by [[ils]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back concession (bien que, certes) and precise verbs.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each connector with its function.", "pairs": [["or", "a decisive new fact"], ["en effet", "confirms and explains"], ["en revanche", "contrasts two things"], ["par ailleurs", "opens a new point"], ["quant à", "switches to another subject"]] },
+        { "id": "r2", "type": "cloze", "text": "Il faut parler français pour ce poste. ___, Raj le parle couramment. ___, il a toutes ses chances.", "answers": [["Or"], ["Dès lors", "Ainsi", "Donc", "Par conséquent"]], "choices": ["Or", "Dès lors", "Quant à", "D'ailleurs"], "en": "You need to speak French for this job. Now, Raj speaks it fluently. So he has every chance.", "explain": "Rule → [[Or]], fact → [[Dès lors]], conclusion." },
+        { "id": "r3", "type": "translate", "prompt": "As for me, I prefer working from home.", "accept": ["Quant à moi, je préfère travailler de la maison.", "Quant à moi, je préfère travailler à la maison.", "Quant à moi, je préfère le télétravail.", "Quant à moi, je préfère travailler de chez moi.", "Pour ma part, je préfère travailler de la maison."], "explain": "[[quant à]] + stressed pronoun [[moi]]." },
+        { "id": "r4", "type": "mcq", "prompt": "“Le plan est ambitieux ; il est ___ trop cher pour la Ville.” Which connector fits?", "options": ["toutefois", "en effet", "d'ailleurs", "or"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "[[en effet]] would confirm, not restrict.", "[[d'ailleurs]] would add a supporting point, not a restriction.", "[[or]] must start the clause; it can't sit after the verb."] },
+        { "id": "r5", "type": "cloze", "text": "Ce quartier est calme. ___, c'est pour cette raison que nous l'avons choisi. Il est ___ un peu loin du centre.", "answers": [["D'ailleurs", "En effet"], ["néanmoins", "toutefois", "cependant", "en revanche", "par contre"]], "choices": ["D'ailleurs", "Ailleurs", "néanmoins", "ainsi"], "en": "This neighbourhood is quiet. In fact, that's why we chose it. It is nevertheless a bit far from downtown.", "explain": "[[D'ailleurs]] supports the point; [[ailleurs]] alone means “elsewhere”. [[néanmoins]] restricts." },
+        { "id": "r6", "type": "reorder", "prompt": "It thus reduces stress.", "accept": ["Il réduit ainsi le stress", "Ainsi il réduit le stress"], "extra": ["or", "quant"], "explain": "[[ainsi]] can follow the verb: [[Il réduit ainsi…]] sounds natural and formal." },
+        { "id": "r7", "type": "translate", "prompt": "Although the office encourages exchanges, remote work saves time.", "accept": ["Bien que le bureau favorise les échanges, le télétravail permet de gagner du temps.", "Même si le bureau favorise les échanges, le télétravail permet de gagner du temps.", "Bien que le bureau favorise les échanges, le télétravail fait gagner du temps.", "Même si le bureau favorise les échanges, le télétravail fait gagner du temps.", "Bien que le bureau encourage les échanges, le télétravail permet de gagner du temps.", "Même si le bureau encourage les échanges, le télétravail permet de gagner du temps."], "explain": "[[bien que]] + subjunctive ([[favorise]] looks the same as the indicative here), or [[même si]] + indicative (Unit 01)." },
+        { "id": "r8", "type": "cloze", "text": "Le formulaire ___ trois sections. Par ___, il doit être signé par deux personnes.", "answers": [["comporte", "comprend", "compte"], ["ailleurs"]], "en": "The form has three sections. Moreover, it must be signed by two people.", "explain": "[[comporter]] (lesson 3) replaces [[il y a]]. [[Par ailleurs]] adds a separate point." },
+        { "id": "r9", "type": "dictation", "fr": "Le loyer est raisonnable. En revanche, le quartier est mal desservi.", "accept": [], "explain": "[[en revanche]] contrasts two different aspects. [[mal desservi]] = poorly served (by transit)." },
+        { "id": "r10", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Quant aux enfants, ils adorent leur nouvelle école.", "Quant à les enfants, ils adorent leur nouvelle école.", "Or les enfants adorent quant à leur nouvelle école.", "Les enfants, d'ailleurs que, adorent leur nouvelle école."], "optionsFr": true, "answer": 0,
+          "explain": "[[quant à + les]] contracts to [[quant aux]], and a pronoun ([[ils]]) picks up the subject." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a short opinion paragraph on a debate in your city (a new tramway, a ban on cars downtown, a four-day school week, rent control…). Build a logical chain with at least six connectors from this lesson.", "promptFr": "Rédigez un paragraphe d'opinion sur un débat local.",
+          "wordRange": [120, 170],
+          "checklist": ["A clear position", "An Or, … Dès lors, … reasoning", "en effet to justify", "en revanche to contrast", "toutefois or néanmoins to restrict", "d'ailleurs or par ailleurs to add", "quant à to switch subject", "One concession from Unit 01 (certes / bien que)"],
+          "models": [
+            { "label": "Model answer", "fr": "La Ville de Québec veut construire un tramway. Certes, le projet coûte cher : plusieurs milliards de dollars. Or, la population de la région augmente chaque année, et les routes sont déjà saturées aux heures de pointe. Dès lors, ne rien faire coûterait encore plus cher. Le tramway permettra en effet de transporter des milliers de personnes sans ajouter de voitures. Il réduira ainsi les embouteillages et la pollution. Les automobilistes, en revanche, perdront certaines voies pendant les travaux, ce qui est désagréable, mais temporaire. Quant aux commerçants, ils craignent une baisse de clientèle. Leur inquiétude est légitime ; toutefois, dans d'autres villes, les commerces situés près des stations ont vu leur clientèle augmenter. D'ailleurs, de nombreuses villes européennes de taille comparable possèdent un tramway depuis des années. Le projet n'est pas parfait ; il reste néanmoins nécessaire.", "en": "Québec City wants to build a tramway. Admittedly, the project is expensive: several billion dollars. Yet the region's population grows every year, and the roads are already saturated at rush hour. Consequently, doing nothing would cost even more. The tramway will indeed carry thousands of people without adding cars. It will thus reduce traffic jams and pollution. Drivers, on the other hand, will lose some lanes during construction, which is unpleasant but temporary. As for shopkeepers, they fear a drop in customers. Their concern is legitimate; however, in other cities, businesses near the stations have seen their customers increase. In fact, many European cities of comparable size have had a tramway for years. The project isn't perfect; it is nevertheless necessary." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "In a meeting, someone says: “We should stop all remote work.” Answer in about a minute with a structured counterargument using or, en effet, en revanche, toutefois and quant à.", "seconds": 60,
+          "checklist": ["Acknowledge the other view (Je comprends, certes…)", "Or, … (a decisive fact)", "En effet, … (a justification)", "En revanche / toutefois", "Quant à… (another group affected)", "A proposal to close"],
+          "models": [ { "label": "Model answer", "fr": "Je comprends votre inquiétude. Certes, on se voit moins souvent. Or, nos résultats n'ont jamais été aussi bons que depuis deux ans. En effet, l'équipe a terminé tous ses projets à temps. Le bureau, en revanche, est trop petit pour accueillir tout le monde cinq jours par semaine. Quant aux employés qui habitent loin, ils perdraient deux heures par jour dans le transport. Je propose toutefois une solution : une journée d'équipe obligatoire chaque semaine.", "en": "I understand your concern. Admittedly, we see each other less often. Yet our results have never been as good as in the last two years. Indeed, the team finished all its projects on time. The office, on the other hand, is too small to hold everyone five days a week. As for the employees who live far away, they'd lose two hours a day commuting. I do, however, propose a solution: one mandatory team day each week." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Build tight reasoning: rule → [[Or, …]] → [[Dès lors, …]]\n- Justify with [[en effet]], contrast with [[en revanche]], restrict with [[toutefois]] / [[néanmoins]]\n- Add a supporting point with [[d'ailleurs]], a new one with [[par ailleurs]], switch subject with [[quant à]] ([[quant aux commerces, ils…]])\n- Place connectors well: [[or]] at the start, [[toutefois]] / [[néanmoins]] / [[ainsi]] also after the verb",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed \"dès lors que\" from dès lors accepts (different meaning), removed a non-homophone dictation accept, fixed an illogical phrase in the model, softened the fait que / du coup claim." }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "frenchquest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A structured French course from A1 to B2 with spaced review and TEF/TCF Canada practice. No build step, no dependencies.",
+  "scripts": {
+    "start": "python -m http.server 8080",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node tools/validate.mjs",
+    "build": "node tools/validate.mjs && node tools/build-course.mjs && node tools/build-sw-manifest.mjs"
+  }
+}

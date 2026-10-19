@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-24",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Society, law and institutions",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b2",
+  "theme": "public life, justice, institutions and values",
+  "goal": "Recognise and use 22 words for public life, justice, institutions and shared values.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "republique",
+      "kind": "vocab",
+      "fr": "république",
+      "article": "la",
+      "gender": "f",
+      "en": "republic",
+      "pos": "noun",
+      "accept": [
+        "une république"
+      ],
+      "example": {
+        "fr": "La France est une république ; le Canada est une monarchie constitutionnelle.",
+        "en": "France is a republic; Canada is a constitutional monarchy."
+      }
+    },
+    {
+      "id": "federal",
+      "kind": "vocab",
+      "fr": "fédéral",
+      "fem": "fédérale",
+      "en": "federal",
+      "pos": "adjective",
+      "accept": [
+        "fédérale"
+      ],
+      "example": {
+        "fr": "La santé relève des provinces, pas du gouvernement fédéral.",
+        "en": "Health is a provincial matter, not a federal one."
+      }
+    },
+    {
+      "id": "mondial",
+      "kind": "vocab",
+      "fr": "mondial",
+      "fem": "mondiale",
+      "en": "global, world (adj.)",
+      "pos": "adjective",
+      "accept": [
+        "mondiale"
+      ],
+      "example": {
+        "fr": "Le réchauffement climatique est un problème mondial.",
+        "en": "Global warming is a worldwide problem."
+      }
+    },
+    {
+      "id": "ambassade",
+      "kind": "vocab",
+      "fr": "ambassade",
+      "article": "l'",
+      "gender": "f",
+      "en": "embassy",
+      "pos": "noun",
+      "accept": [
+        "une ambassade"
+      ],
+      "example": {
+        "fr": "Il faut prendre rendez-vous à l'ambassade pour le visa.",
+        "en": "You have to make an appointment at the embassy for the visa."
+      }
+    },
+    {
+      "id": "institut",
+      "kind": "vocab",
+      "fr": "institut",
+      "article": "l'",
+      "gender": "m",
+      "en": "institute",
+      "pos": "noun",
+      "accept": [
+        "un institut"
+      ],
+      "example": {
+        "fr": "Elle fait de la recherche dans un institut de cardiologie.",
+        "en": "She does research at a heart institute."
+      }
+    },
+    {
+      "id": "protocole",
+      "kind": "vocab",
+      "fr": "protocole",
+      "article": "le",
+      "gender": "m",
+      "en": "protocol, procedure",
+      "pos": "noun",
+      "accept": [
+        "un protocole"
+      ],
+      "example": {
+        "fr": "L'hôpital a un protocole strict en cas d'incendie.",
+        "en": "The hospital has a strict procedure in case of fire."
+      }
+    },
+    {
+      "id": "requete",
+      "kind": "vocab",
+      "fr": "requête",
+      "article": "la",
+      "gender": "f",
+      "en": "request (formal); search query",
+      "pos": "noun",
+      "accept": [
+        "une requête"
+      ],
+      "example": {
+        "fr": "Votre requête a bien été reçue.",
+        "en": "Your request has been received."
+      }
+    },
+    {
+      "id": "judiciaire",
+      "kind": "vocab",
+      "fr": "judiciaire",
+      "en": "judicial, legal (relating to courts)",
+      "pos": "adjective",
+      "example": {
+        "fr": "Il a un casier judiciaire vierge.",
+        "en": "He has a clean criminal record."
+      }
+    },
+    {
+      "id": "legal",
+      "kind": "vocab",
+      "fr": "légal",
+      "fem": "légale",
+      "en": "legal, lawful",
+      "pos": "adjective",
+      "accept": [
+        "légale"
+      ],
+      "example": {
+        "fr": "Est-ce que c'est légal de stationner ici ?",
+        "en": "Is it legal to park here?"
+      }
+    },
+    {
+      "id": "poursuites",
+      "kind": "vocab",
+      "fr": "poursuites",
+      "article": "les",
+      "gender": "f",
+      "en": "legal action, lawsuit",
+      "pos": "noun",
+      "accept": [
+        "des poursuites",
+        "la poursuite",
+        "une poursuite"
+      ],
+      "example": {
+        "fr": "L'entreprise a engagé des poursuites contre lui.",
+        "en": "The company took legal action against him."
+      },
+      "note": "Engager des poursuites (judiciaires) = to take legal action (used everywhere). In Québec, une poursuite = a lawsuit. La poursuite can also mean a chase."
+    },
+    {
+      "id": "enqueter",
+      "kind": "vocab",
+      "fr": "enquêter",
+      "en": "to investigate",
+      "pos": "verb",
+      "example": {
+        "fr": "Un journaliste enquête sur la corruption à la mairie.",
+        "en": "A journalist is investigating corruption at city hall."
+      },
+      "note": "enquêter sur quelque chose"
+    },
+    {
+      "id": "detention",
+      "kind": "vocab",
+      "fr": "détention",
+      "article": "la",
+      "gender": "f",
+      "en": "detention, custody",
+      "pos": "noun",
+      "accept": [
+        "une détention"
+      ],
+      "example": {
+        "fr": "Il est resté en détention pendant deux jours.",
+        "en": "He was kept in custody for two days."
+      }
+    },
+    {
+      "id": "allie",
+      "kind": "vocab",
+      "fr": "allié",
+      "fem": "alliée",
+      "article": "l'",
+      "gender": "m",
+      "en": "ally",
+      "pos": "noun",
+      "accept": [
+        "un allié",
+        "alliée",
+        "l'alliée",
+        "une alliée"
+      ],
+      "example": {
+        "fr": "Le Canada travaille avec ses alliés européens.",
+        "en": "Canada works with its European allies."
+      }
+    },
+    {
+      "id": "menace",
+      "kind": "vocab",
+      "fr": "menace",
+      "article": "la",
+      "gender": "f",
+      "en": "threat",
+      "pos": "noun",
+      "accept": [
+        "une menace"
+      ],
+      "example": {
+        "fr": "Les incendies de forêt sont une menace pour la région.",
+        "en": "Forest fires are a threat to the region."
+      }
+    },
+    {
+      "id": "resistance",
+      "kind": "vocab",
+      "fr": "résistance",
+      "article": "la",
+      "gender": "f",
+      "en": "resistance; endurance",
+      "pos": "noun",
+      "accept": [
+        "une résistance"
+      ],
+      "example": {
+        "fr": "Il y a beaucoup de résistance au projet dans le quartier.",
+        "en": "There's a lot of resistance to the project in the neighbourhood."
+      }
+    },
+    {
+      "id": "liberation",
+      "kind": "vocab",
+      "fr": "libération",
+      "article": "la",
+      "gender": "f",
+      "en": "release; liberation",
+      "pos": "noun",
+      "accept": [
+        "une libération"
+      ],
+      "example": {
+        "fr": "Sa libération est prévue pour le mois prochain.",
+        "en": "His release is planned for next month."
+      }
+    },
+    {
+      "id": "sauvetage",
+      "kind": "vocab",
+      "fr": "sauvetage",
+      "article": "le",
+      "gender": "m",
+      "en": "rescue",
+      "pos": "noun",
+      "accept": [
+        "un sauvetage"
+      ],
+      "example": {
+        "fr": "Les secouristes ont mené le sauvetage en pleine tempête.",
+        "en": "The rescuers carried out the rescue in the middle of a storm."
+      }
+    },
+    {
+      "id": "dette",
+      "kind": "vocab",
+      "fr": "dette",
+      "article": "la",
+      "gender": "f",
+      "en": "debt",
+      "pos": "noun",
+      "accept": [
+        "une dette"
+      ],
+      "example": {
+        "fr": "Ils ont enfin remboursé toutes leurs dettes.",
+        "en": "They have finally paid back all their debts."
+      }
+    },
+    {
+      "id": "charite",
+      "kind": "vocab",
+      "fr": "charité",
+      "article": "la",
+      "gender": "f",
+      "en": "charity",
+      "pos": "noun",
+      "accept": [
+        "une charité"
+      ],
+      "example": {
+        "fr": "Il donne de l'argent à des œuvres de charité.",
+        "en": "He gives money to charities."
+      }
+    },
+    {
+      "id": "principe",
+      "kind": "vocab",
+      "fr": "principe",
+      "article": "le",
+      "gender": "m",
+      "en": "principle",
+      "pos": "noun",
+      "accept": [
+        "un principe"
+      ],
+      "example": {
+        "fr": "En principe, le bureau ferme à 17 h.",
+        "en": "In principle, the office closes at 5 p.m."
+      }
+    },
+    {
+      "id": "loyaute",
+      "kind": "vocab",
+      "fr": "loyauté",
+      "article": "la",
+      "gender": "f",
+      "en": "loyalty",
+      "pos": "noun",
+      "accept": [
+        "une loyauté"
+      ],
+      "example": {
+        "fr": "Elle a montré une grande loyauté envers son équipe.",
+        "en": "She showed great loyalty to her team."
+      }
+    },
+    {
+      "id": "excellence",
+      "kind": "vocab",
+      "fr": "excellence",
+      "article": "l'",
+      "gender": "f",
+      "en": "excellence",
+      "pos": "noun",
+      "accept": [
+        "une excellence"
+      ],
+      "example": {
+        "fr": "Cette école est reconnue pour son excellence.",
+        "en": "This school is known for its excellence."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "State and institutions",
+          "itemIds": [
+            "republique",
+            "federal",
+            "mondial",
+            "ambassade",
+            "institut",
+            "protocole",
+            "requete"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Justice and conflict",
+          "itemIds": [
+            "judiciaire",
+            "legal",
+            "poursuites",
+            "enqueter",
+            "detention",
+            "allie",
+            "menace",
+            "resistance",
+            "liberation",
+            "sauvetage"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Money and values",
+          "itemIds": [
+            "dette",
+            "charite",
+            "principe",
+            "loyaute",
+            "excellence"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[En principe]] = normally, in theory (but maybe not in practice).\n- [[Un casier judiciaire]] = a criminal record.\n- [[Poursuivre quelqu'un (en justice)]] = to sue someone; in Québec, [[une poursuite]] = a lawsuit.\n- [[Mondial]] makes [[mondiaux]] in the masculine plural, like [[fédéral → fédéraux]]."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "La santé relève des provinces, pas du gouvernement fédéral.",
+              "en": "Health is a provincial matter, not a federal one."
+            },
+            {
+              "fr": "Il faut prendre rendez-vous à l'ambassade pour le visa.",
+              "en": "You have to make an appointment at the embassy for the visa."
+            },
+            {
+              "fr": "Votre requête a bien été reçue.",
+              "en": "Your request has been received."
+            },
+            {
+              "fr": "Est-ce que c'est légal de stationner ici ?",
+              "en": "Is it legal to park here?"
+            },
+            {
+              "fr": "L'entreprise a engagé des poursuites contre lui.",
+              "en": "The company took legal action against him."
+            },
+            {
+              "fr": "Un journaliste enquête sur la corruption à la mairie.",
+              "en": "A journalist is investigating corruption at city hall."
+            },
+            {
+              "fr": "Les incendies de forêt sont une menace pour la région.",
+              "en": "Forest fires are a threat to the region."
+            },
+            {
+              "fr": "Ils ont enfin remboursé toutes leurs dettes.",
+              "en": "They have finally paid back all their debts."
+            },
+            {
+              "fr": "En principe, le bureau ferme à 17 h.",
+              "en": "In principle, the office closes at 5 p.m."
+            },
+            {
+              "fr": "Elle a montré une grande loyauté envers son équipe.",
+              "en": "She showed great loyalty to her team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the institutions.",
+          "pairs": [
+            [
+              "la république",
+              "republic"
+            ],
+            [
+              "l'ambassade",
+              "embassy"
+            ],
+            [
+              "l'institut",
+              "institute"
+            ],
+            [
+              "le protocole",
+              "procedure"
+            ],
+            [
+              "la requête",
+              "request"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the words about justice and values.",
+          "pairs": [
+            [
+              "la menace",
+              "threat"
+            ],
+            [
+              "le sauvetage",
+              "rescue"
+            ],
+            [
+              "la dette",
+              "debt"
+            ],
+            [
+              "la loyauté",
+              "loyalty"
+            ],
+            [
+              "l'allié",
+              "ally"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence means “In theory, the store opens at 9”?",
+          "options": [
+            "En principe, le magasin ouvre à 9 h.",
+            "En protocole, le magasin ouvre à 9 h.",
+            "En requête, le magasin ouvre à 9 h.",
+            "En excellence, le magasin ouvre à 9 h."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[En principe]] = in theory, normally."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "A neighbour damaged your house and refuses to pay. In Québec you might…",
+          "options": [
+            "intenter une poursuite",
+            "faire un sauvetage",
+            "payer une dette",
+            "écrire une requête de charité"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Intenter une poursuite]] = to file a lawsuit."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "Is it legal to park here?",
+          "accept": [
+            "Est-ce que c'est légal de stationner ici ?",
+            "C'est légal de stationner ici ?",
+            "Est-ce légal de stationner ici ?",
+            "Est-ce que c'est légal de se garer ici ?",
+            "C'est légal de se garer ici ?",
+            "Est-il légal de stationner ici ?",
+            "Est-il légal de se garer ici ?",
+            "Est-ce légal de se garer ici ?"
+          ],
+          "explain": "[[Stationner]] (Québec, also France) or [[se garer]] (France)."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "The police are investigating the accident.",
+          "accept": [
+            "La police enquête sur l'accident.",
+            "La police fait une enquête sur l'accident."
+          ],
+          "hint": "la police is singular in French",
+          "explain": "[[Enquêter sur]] + noun; [[la police]] takes a singular verb."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Les feux de forêt sont une ___ pour la région.",
+          "answers": [
+            [
+              "menace"
+            ]
+          ],
+          "choices": [
+            "menace",
+            "loyauté",
+            "requête",
+            "charité"
+          ],
+          "en": "Forest fires are a threat to the region.",
+          "explain": "[[Une menace pour]] = a threat to."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Les programmes ___ sont gérés par Ottawa. (fédéral)",
+          "answers": [
+            [
+              "fédéraux"
+            ]
+          ],
+          "en": "Federal programs are managed by Ottawa.",
+          "explain": "Adjectives in -al make -aux in the masculine plural: [[fédéraux]]."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Ils ont enfin remboursé toutes leurs dettes.",
+          "accept": [],
+          "explain": "[[Dette]] has a double t; [[toutes]] agrees with the feminine plural."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Il a un casier judiciaire vierge.",
+          "en": "He has a clean criminal record.",
+          "prompt": "What do we learn about him?",
+          "options": [
+            "He has never been convicted",
+            "He is a judge",
+            "He is in custody"
+          ],
+          "answer": 0,
+          "explain": "[[Un casier judiciaire vierge]] = a clean record."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Talk about institutions: [[république, fédéral, ambassade, institut]]\n- Understand justice vocabulary: [[poursuites, enquêter, détention, casier judiciaire]]\n- Discuss values and money: [[dette, charité, principe, loyauté]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Rewrote the poursuite note and tip (poursuites judiciaires everywhere, une poursuite = lawsuit in Québec); replaced the customer-loyalty example (fidélité is the usual word there); added se garer variants to r5."
+  }
+}

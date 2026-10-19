@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-04-02",
+  "level": "a2",
+  "unit": "a2-04",
+  "title": "The futur simple",
+  "goal": "Form the futur simple of regular verbs and use it for plans, schedules and promises, for example about a new job.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-futur-simple", "kind": "grammar", "fr": "parler → je parlerai", "en": "futur simple of regular verbs: infinitive + -ai, -as, -a, -ons, -ez, -ont",
+      "drills": [
+        { "type": "cloze", "text": "Vous ___ le lundi 3 mars. (commencer)", "answers": [["commencerez"]], "en": "You will start on Monday, March 3.", "explain": "commencer + -ez = vous commencerez." },
+        { "type": "cloze", "text": "Je ___ du lundi au vendredi. (travailler)", "answers": [["travaillerai"]], "en": "I will work from Monday to Friday.", "explain": "travailler + -ai = je travaillerai." },
+        { "type": "cloze", "text": "Nous ___ la semaine par un dîner d'équipe. (finir)", "answers": [["finirons"]], "en": "We will end the week with a team lunch.", "explain": "finir + -ons = nous finirons." },
+        { "type": "translate", "prompt": "They will choose a date. (ils)", "accept": ["Ils choisiront une date."], "explain": "choisir + -ont = ils choisiront." }
+      ] },
+    { "id": "g-futur-re", "kind": "grammar", "fr": "prendre → je prendrai", "en": "futur simple of -re verbs: drop the final e",
+      "drills": [
+        { "type": "cloze", "text": "Tu ___ le métro ? (prendre)", "answers": [["prendras"]], "en": "Will you take the metro?", "explain": "prendre − e = prendr- + -as = tu prendras." },
+        { "type": "cloze", "text": "Elle ___ ses collègues lundi. (attendre)", "answers": [["attendra"]], "en": "She will wait for her colleagues on Monday.", "explain": "attendre − e = attendr- + -a." },
+        { "type": "mcq", "prompt": "“I will learn quickly.”", "options": ["J'apprendrai vite.", "J'apprenderai vite.", "J'apprendreai vite."], "optionsFr": true, "answer": 0, "explain": "apprendre → drop the e → apprendr- + -ai." }
+      ] },
+    { "id": "g-proche-ou-simple", "kind": "grammar", "fr": "je vais commencer / je commencerai", "en": "futur proche or futur simple?",
+      "drills": [
+        { "type": "mcq", "prompt": "In a formal email from Human Resources, which is most typical?", "options": ["Vous commencerez le 3 mars.", "Tu vas commencer le 3 mars.", "Vous commenciez le 3 mars."], "optionsFr": true, "answer": 0, "explain": "Written, formal schedules usually use the futur simple. Commenciez is the imparfait." },
+        { "type": "mcq", "prompt": "Which one is the futur simple?", "options": ["je parlerai", "je parlais", "je vais parler"], "optionsFr": true, "answer": 0, "explain": "-rai = futur simple. -ais = imparfait. vais + infinitive = futur proche." }
+      ] },
+    { "id": "emploi", "kind": "vocab", "fr": "emploi", "article": "un", "gender": "m", "en": "job, employment", "pos": "noun", "accept": ["l'emploi", "un travail", "un poste"],
+      "example": { "fr": "Karim a trouvé un nouvel emploi.", "en": "Karim found a new job." }, "note": "nouveau → nouvel before a vowel: un nouvel emploi." },
+    { "id": "equipe", "kind": "vocab", "fr": "équipe", "article": "l'", "gender": "f", "en": "team", "pos": "noun", "accept": ["une équipe"] },
+    { "id": "formation", "kind": "vocab", "fr": "formation", "article": "la", "gender": "f", "en": "training", "pos": "noun", "accept": ["une formation"],
+      "example": { "fr": "Vous suivrez une formation de trois jours.", "en": "You will take a three-day training course." } },
+    { "id": "superviseur", "kind": "vocab", "fr": "superviseur", "fem": "superviseure", "article": "le", "gender": "m", "en": "supervisor", "pos": "noun", "accept": ["la superviseure"],
+      "note": "In Québec the feminine is superviseure." },
+    { "id": "pause", "kind": "vocab", "fr": "pause", "article": "la", "gender": "f", "en": "break (at work)", "pos": "noun", "accept": ["une pause"] },
+    { "id": "premiere-journee", "kind": "phrase", "fr": "la première journée", "en": "the first day (at work)", "accept": ["le premier jour"] },
+    { "id": "en-retard", "kind": "phrase", "fr": "arriver en retard", "en": "to arrive late" },
+    { "id": "feter", "kind": "vocab", "fr": "fêter", "en": "to celebrate", "pos": "verb",
+      "example": { "fr": "On fêtera ça vendredi !", "en": "We'll celebrate on Friday!" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A new job",
+      "blocks": [
+        { "type": "text", "title": "An email from Human Resources",
+          "context": "Karim has a new job in a distribution centre in Laval. He receives this email.",
+          "fr": "Objet : Votre première semaine\nBonjour Karim,\nBienvenue dans l'équipe ! Voici quelques informations pour votre première semaine.\nVous commencerez le lundi 3 mars à 8 h 30. Vous travaillerez du lundi au vendredi, de 8 h 30 à 16 h 30.\nLe premier jour, vous rencontrerez votre superviseure, Mme Tremblay, et toute l'équipe. Ensuite, vous suivrez une formation de trois jours.\nVous prendrez votre pause du midi à 12 h. Vendredi, nous finirons la semaine par un dîner d'équipe.\nN'oubliez pas d'apporter une pièce d'identité.\nÀ lundi !\nJulie Bérubé, Ressources humaines",
+          "en": "Subject: Your first week\nHello Karim,\nWelcome to the team! Here is some information for your first week.\nYou will start on Monday, March 3, at 8:30 a.m. You will work Monday to Friday, from 8:30 a.m. to 4:30 p.m.\nOn the first day, you will meet your supervisor, Ms. Tremblay, and the whole team. Then you will take a three-day training course.\nYou will take your lunch break at noon. On Friday, we will end the week with a team lunch.\nDon't forget to bring a piece of ID.\nSee you Monday!\nJulie Bérubé, Human Resources" },
+        { "type": "dialogue", "title": "That evening, Karim calls Raj",
+          "lines": [
+            { "speaker": "Raj", "fr": "Alors, tu commences quand ?", "en": "So, when do you start?" },
+            { "speaker": "Karim", "fr": "Lundi ! Je commencerai à huit heures et demie.", "en": "On Monday! I'll start at half past eight." },
+            { "speaker": "Raj", "fr": "Tu prendras le métro ?", "en": "Will you take the metro?" },
+            { "speaker": "Karim", "fr": "Oui, et je partirai tôt. Je ne veux pas arriver en retard le premier jour !", "en": "Yes, and I'll leave early. I don't want to arrive late on the first day!" },
+            { "speaker": "Raj", "fr": "Bonne idée. Et vendredi soir, on fêtera ça ensemble !", "en": "Good idea. And on Friday evening, we'll celebrate together!" },
+            { "speaker": "Karim", "fr": "Promis ! J'arriverai au café à six heures.", "en": "Promise! I'll be at the café at six." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What will Karim do after meeting the team?", "options": ["A three-day training course", "A team lunch", "Bring his ID to Human Resources"], "answer": 0,
+          "explain": "[[Ensuite, vous suivrez une formation de trois jours.]] The team lunch is on Friday." }
+      ] },
+    { "type": "understand", "title": "The futur simple",
+      "blocks": [
+        { "type": "explain", "title": "One verb, one word",
+          "body": "The **futur simple** is a one-word future: [[je travaillerai]] (I will work). It is common in **writing**, in **formal** language (emails, letters, instructions, schedules), for **promises** and for **predictions**. In conversation, people use it too, especially for things further away or less certain.\n\nThe good news: for regular verbs, you already know the base. It is the **infinitive**." },
+        { "type": "pattern", "title": "How to form it",
+          "pattern": "infinitive (−e for -re verbs) + -ai, -as, -a, -ons, -ez, -ont",
+          "note": "The endings are the present tense of **avoir** without the av- of nous and vous: [[ai, as, a, (av)ons, (av)ez, ont]]. Every future stem ends in **r**.",
+          "examples": [
+            { "fr": "parler → je parlerai", "en": "I will speak" },
+            { "fr": "finir → nous finirons", "en": "we will finish" },
+            { "fr": "prendre → tu prendras", "en": "you will take" },
+            { "fr": "partir → ils partiront", "en": "they will leave" }
+          ] },
+        { "type": "table", "title": "Three regular verbs",
+          "head": ["", "travailler", "finir", "prendre"],
+          "rows": [
+            ["je / j'", "travaillerai", "finirai", "prendrai"],
+            ["tu", "travailleras", "finiras", "prendras"],
+            ["il / elle / on", "travaillera", "finira", "prendra"],
+            ["nous", "travaillerons", "finirons", "prendrons"],
+            ["vous", "travaillerez", "finirez", "prendrez"],
+            ["ils / elles", "travailleront", "finiront", "prendront"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": true,
+          "note": "Listen for the **r** before the ending: it is the sound of the future. [[je travaillerai]] ends like *é*; [[ils travailleront]] ends with the nasal *on*." },
+        { "type": "table", "title": "Futur proche or futur simple?",
+          "head": ["futur proche", "futur simple"],
+          "rows": [
+            ["Je vais commencer lundi.", "Je commencerai lundi."],
+            ["More spoken, everyday", "More written, formal, or for promises"],
+            ["Near, already decided", "Further away, a prediction, a schedule"],
+            ["Tu vas voir !", "Vous trouverez le formulaire en ligne."]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "Often both are possible and mean almost the same thing. Don't worry about choosing wrongly: you will be understood either way." },
+        { "type": "explain", "title": "Spelling notes",
+          "body": "- **-re verbs** drop the final **e**: [[prendre → prendr-]], [[attendre → attendr-]], [[apprendre → apprendr-]].\n- **-er verbs** keep the whole infinitive, even if the e is barely pronounced: [[je travaillerai]], [[j'étudierai]], [[je jouerai]].\n- A few -er verbs change their stem, as in the present: [[acheter → j'achèterai]], [[appeler → j'appellerai]]. Learn these two for now; you'll meet others later." },
+        { "type": "vocab", "title": "Words for a new job", "itemIds": ["emploi", "equipe", "formation", "superviseur", "pause", "premiere-journee", "en-retard", "feter"] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Future, imparfait or present?",
+          "body": "Three forms of the same verb can sound close. Listen for the **r** and the final vowel:\n\n- [[je parle]]: ends in *l*, present\n- [[je parlais]]: ends in an open *è*, imparfait\n- [[je parlerai]]: has an **r** and ends in a closed *é*, future\n\nIn everyday speech, the e in the middle often disappears: [[je travaillerai]] sounds like *travaille-ré*, [[nous parlerons]] like *parl-rons*.",
+          "examples": [ { "fr": "je parle, je parlais, je parlerai", "en": "I speak, I used to speak, I will speak" } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Adding an e to -re verbs:** [[je prenderai]] → [[je prendrai]]; [[j'attenderai]] → [[j'attendrai]].\n- **Dropping the infinitive:** [[je parlai]] is a different (literary) tense. The future is [[je parlerai]].\n- **Changing -ir verbs:** [[je finerai]] → [[je finirai]]. Keep the whole infinitive.\n- **Will = vouloir?** No: *I will work* is [[je travaillerai]], not [[je veux travailler]] (I want to work).\n- **-ont vs -ons:** [[ils travailleront]] (they), [[nous travaillerons]] (we)." },
+        { "type": "deepdive", "kind": "canada", "title": "Work words in Québec",
+          "body": "- [[le dîner]] = lunch in Québec, so [[un dîner d'équipe]] is a team **lunch**, and [[la pause du midi]] is the lunch break.\n- [[un emploi]] is the neutral word for a job. In informal Québec French, people say [[une job]], and it is feminine: [[J'ai une nouvelle job !]] In France, it is [[un job]] (and the standard word is [[un travail]] or [[un poste]]).\n- Québec uses feminine job titles widely: [[une superviseure]], [[une ingénieure]], [[une professeure]]." }
+      ] },
+    { "type": "hear", "title": "Hear the future",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Vous commencerez le lundi 3 mars.", "en": "You will start on Monday, March 3." },
+            { "fr": "Je travaillerai du lundi au vendredi.", "en": "I will work from Monday to Friday.", "tip": "travaillerai: tra-vaille-ré, three quick syllables." },
+            { "fr": "Tu prendras le métro ?", "en": "Will you take the metro?" },
+            { "fr": "Nous finirons la semaine par un dîner d'équipe.", "en": "We will end the week with a team lunch." },
+            { "fr": "On fêtera ça vendredi !", "en": "We'll celebrate on Friday!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je travaillerai à Laval.", "en": "I will work in Laval.", "prompt": "When is this?", "options": ["The future", "The past (a habit)", "Now"], "answer": 0,
+          "explain": "You hear an **r** before the final *é*: [[travaillerai]], future." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je travaillais à Laval.", "en": "I used to work in Laval.", "prompt": "When is this?", "options": ["The past (a habit)", "The future", "Now"], "answer": 0,
+          "explain": "No r, and an open *è* at the end: [[travaillais]], imparfait." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Demain, je ___ Mme Tremblay. (rencontrer)", "answers": [["rencontrerai"]], "en": "Tomorrow I will meet Ms. Tremblay.",
+          "explain": "Infinitive + -ai: [[je rencontrerai]]." },
+        { "id": "r2", "type": "cloze", "text": "Vous ___ votre pause à midi. (prendre)", "answers": [["prendrez"]], "choices": ["prendrez", "prenderez", "prenez", "preniez"], "en": "You will take your break at noon.",
+          "explain": "prendre drops its e: [[prendr-]] + -ez. [[prenez]] is the present, [[preniez]] the imparfait." },
+        { "id": "r3", "type": "mcq", "prompt": "Which form is the futur simple of finir with nous?", "options": ["nous finirons", "nous finissons", "nous finissions", "nous finerons"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "That is the present.", "That is the imparfait.", "Keep the whole infinitive: finir-."] },
+        { "id": "r4", "type": "translate", "prompt": "I will leave early on Monday.", "accept": ["Je partirai tôt lundi.", "Lundi, je partirai tôt.", "Je vais partir tôt lundi.", "Lundi, je vais partir tôt."],
+          "explain": "partir + -ai = [[je partirai]]." },
+        { "id": "r5", "type": "match", "prompt": "Match each form to its tense.", "pairs": [["je travaille", "present"], ["je travaillais", "imparfait"], ["je travaillerai", "futur simple"], ["je vais travailler", "futur proche"], ["j'ai travaillé", "passé composé"]] },
+        { "id": "r6", "type": "cloze", "text": "Ils ___ la nouvelle employée à l'équipe. (présenter)", "answers": [["présenteront"]], "en": "They will introduce the new employee to the team.",
+          "explain": "ils → -ont: [[ils présenteront]]." },
+        { "id": "r7", "type": "translate", "prompt": "We will celebrate on Friday. (use on)", "accept": ["On fêtera ça vendredi.", "On fêtera vendredi.", "Vendredi, on fêtera ça.", "Vendredi, on fêtera.", "On va fêter ça vendredi."],
+          "explain": "on takes the il form: [[on fêtera]]." },
+        { "id": "r8", "type": "reorder", "prompt": "You will start on Monday at nine o'clock. (formal)", "accept": ["Vous commencerez lundi à neuf heures.", "Lundi, vous commencerez à neuf heures."], "extra": ["commenciez"],
+          "explain": "[[commencerez]] = futur simple; [[commenciez]] is the imparfait." },
+        { "id": "r9", "type": "cloze", "text": "Avant, je ___ dans une banque. L'année prochaine, je travaillerai dans un hôpital. (travailler)", "answers": [["travaillais"]], "en": "Before, I worked in a bank. Next year, I will work in a hospital.",
+          "explain": "From unit 3: [[avant]] + imparfait. Then the future for next year." },
+        { "id": "r10", "type": "dictation", "fr": "Nous finirons la semaine par un dîner d'équipe.", "accept": [],
+          "explain": "[[finirons]] keeps the whole infinitive [[finir]] + -ons." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "You are the new employee's buddy at work. Write a short, friendly message to welcome them and explain their first day: when they will start, who they will meet, where they will take their break, and one promise.", "promptFr": "Écrivez un message de bienvenue à un nouveau collègue.",
+          "wordRange": [40, 80],
+          "checklist": ["Bienvenue dans l'équipe !", "At least four verbs in the futur simple", "One -re verb: prendre, attendre…", "Times written like 8 h 30", "A promise: Je passerai à ton bureau… / On mangera ensemble…"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour Amira, bienvenue dans l'équipe ! Lundi, tu commenceras à 9 h. Le matin, tu rencontreras notre superviseur, M. Gagnon, et tu visiteras le bureau. Nous prendrons la pause du midi ensemble à la cafétéria. L'après-midi, tu commenceras ta formation. Tu finiras à 16 h 30. Je passerai à ton bureau à 10 h pour un café. À lundi ! Lucie",
+            "en": "Hello Amira, welcome to the team! On Monday, you'll start at 9 a.m. In the morning, you'll meet our supervisor, Mr. Gagnon, and you'll visit the office. We'll take our lunch break together in the cafeteria. In the afternoon, you'll start your training. You'll finish at 4:30 p.m. I'll come by your desk at 10 for a coffee. See you Monday! Lucie" } ] },
+        { "id": "s1", "type": "speak", "prompt": "Make three promises to yourself for your new job or your studies, in about 30 seconds. Use the futur simple.", "seconds": 30,
+          "checklist": ["Three verbs in the futur simple", "A time marker: chaque jour, le lundi, l'année prochaine", "A negative: je n'arriverai pas en retard"],
+          "models": [ { "label": "Model answer", "fr": "Au travail, je n'arriverai jamais en retard. Je parlerai français avec mes collègues tous les jours. Et le vendredi, je prendrai le temps de manger avec l'équipe.",
+            "en": "At work, I will never arrive late. I will speak French with my colleagues every day. And on Fridays, I will take the time to eat with the team." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form the **futur simple** of regular verbs: infinitive + [[-ai, -as, -a, -ons, -ez, -ont]]; -re verbs drop the e ([[je prendrai]])\n- Recognize it by the **r** before the ending: [[je parlerai]] vs [[je parlais]]\n- Use it for schedules, formal messages and promises: [[Vous commencerez lundi.]] [[On fêtera ça !]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed 'le lundi' (every Monday) from a one-off translation and added futur proche/word-order variants." }
+}

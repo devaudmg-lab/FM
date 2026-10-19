@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-07-05",
+  "level": "a1",
+  "unit": "a1-07",
+  "title": "Getting around",
+  "goal": "Say how you get around town, buy a metro ticket, and describe your neighbourhood and the way from your home to a place.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-prendre", "kind": "grammar", "fr": "je prends, tu prends, vous prenez", "en": "prendre (to take) with transport",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ le métro le matin.", "answers": [["prends"]], "en": "I take the metro in the morning.", "explain": "je → [[prends]] (the d and s are silent)." },
+        { "type": "cloze", "text": "Vous ___ l'autobus ?", "answers": [["prenez"]], "en": "Do you take the bus?", "explain": "vous → [[prenez]]." },
+        { "type": "cloze", "text": "Tu ___ le train pour aller à Québec ?", "answers": [["prends"]], "en": "Are you taking the train to go to Québec City?", "explain": "tu → [[prends]], same sound as je." },
+        { "type": "mcq", "prompt": "“She takes the bus.” Which is correct?", "options": ["Elle prend l'autobus.", "Elle prends l'autobus.", "Elle prenez l'autobus."], "optionsFr": true, "answer": 0, "explain": "il / elle → [[prend]], with no s." }
+      ] },
+    { "id": "en-bus", "kind": "phrase", "fr": "en bus", "en": "by bus", "accept": ["en autobus"],
+      "note": "In Québec, [[en autobus]] is very common." },
+    { "id": "en-metro", "kind": "phrase", "fr": "en métro", "en": "by metro / by subway" },
+    { "id": "en-voiture", "kind": "phrase", "fr": "en voiture", "en": "by car", "accept": ["en auto"] },
+    { "id": "en-train", "kind": "phrase", "fr": "en train", "en": "by train" },
+    { "id": "a-pied", "kind": "phrase", "fr": "à pied", "en": "on foot" },
+    { "id": "a-velo", "kind": "phrase", "fr": "à vélo", "en": "by bike", "accept": ["en vélo"] },
+    { "id": "billet", "kind": "vocab", "fr": "billet", "article": "le", "gender": "m", "en": "ticket (bus, metro, train)", "pos": "noun", "accept": ["un billet", "le billet", "un ticket", "ticket"] },
+    { "id": "station", "kind": "vocab", "fr": "station de métro", "article": "la", "gender": "f", "en": "metro station / subway station", "pos": "noun", "accept": ["une station de métro", "la station de métro", "la station", "une station"] },
+    { "id": "quartier", "kind": "vocab", "fr": "quartier", "article": "le", "gender": "m", "en": "neighbourhood", "pos": "noun", "accept": ["un quartier", "le quartier"],
+      "example": { "fr": "J'aime beaucoup mon quartier.", "en": "I really like my neighbourhood." } },
+    { "id": "prends-metro", "kind": "phrase", "fr": "Je prends le métro pour aller au travail.", "en": "I take the metro to get to work.", "accept": ["Je vais au travail en métro.", "Je prends le métro pour aller travailler."] },
+    { "id": "voudrais-billet", "kind": "phrase", "fr": "Je voudrais un billet, s'il vous plaît.", "en": "I'd like a ticket, please.", "accept": ["Un billet, s'il vous plaît.", "Je voudrais un billet s'il vous plaît"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "In the Montréal metro",
+      "blocks": [
+        { "type": "dialogue", "title": "At the ticket counter, Berri-UQAM station",
+          "context": "Mei wants to go to the Jean-Talon market. She talks to the agent at the metro station. (The price in this dialogue is an example, not the current fare.)",
+          "lines": [
+            { "speaker": "Mei", "fr": "Bonjour ! Je voudrais un billet, s'il vous plaît.", "en": "Hello! I'd like a ticket, please." },
+            { "speaker": "Agent", "fr": "Bonjour. Un passage ou deux passages ?", "en": "Hello. One trip or two trips?" },
+            { "speaker": "Mei", "fr": "Un passage. C'est combien ?", "en": "One trip. How much is it?" },
+            { "speaker": "Agent", "fr": "Trois dollars soixante-quinze. Vous avez une carte OPUS ?", "en": "Three seventy-five. Do you have an OPUS card?" },
+            { "speaker": "Mei", "fr": "Non, je n'ai pas de carte.", "en": "No, I don't have a card." },
+            { "speaker": "Agent", "fr": "Pas de problème. Voilà votre billet.", "en": "No problem. Here's your ticket." },
+            { "speaker": "Mei", "fr": "Merci. Pour aller à la station Jean-Talon, je prends quelle ligne ?", "en": "Thank you. To get to Jean-Talon station, which line do I take?" },
+            { "speaker": "Agent", "fr": "Prenez la ligne orange, direction Côte-Vertu. C'est à dix minutes.", "en": "Take the orange line, towards Côte-Vertu. It's ten minutes away." },
+            { "speaker": "Mei", "fr": "Merci beaucoup ! Bonne journée !", "en": "Thanks a lot! Have a good day!" }
+          ] },
+        { "type": "dialogue", "title": "Later, a text conversation",
+          "context": "Mei chats with her colleague Alex.",
+          "lines": [
+            { "speaker": "Alex", "fr": "Tu prends le métro ou l'autobus pour aller au travail ?", "en": "Do you take the metro or the bus to get to work?" },
+            { "speaker": "Mei", "fr": "Je prends le métro. Et toi ?", "en": "I take the metro. And you?" },
+            { "speaker": "Alex", "fr": "Moi, je vais au travail à vélo. En janvier, je prends l'autobus !", "en": "I go to work by bike. In January, I take the bus!" }
+          ] },
+        { "type": "text", "title": "How Karim's family gets around",
+          "fr": "Moi, je prends le métro pour aller au travail. Ma femme va au travail en voiture. Les enfants vont à l'école à pied : l'école est près de la maison. Le samedi, nous allons au parc à vélo.",
+          "en": "I take the metro to go to work. My wife goes to work by car. The children walk to school: the school is near the house. On Saturdays, we go to the park by bike." },
+        { "type": "note", "tone": "info", "body": "New words: [[un passage]] (one trip, on a Montréal ticket), [[la ligne]] (the metro line), [[direction…]] (towards…, the last station of the line), [[votre]] (your, formal). The fare in this lesson is an example for number practice: real STM prices change, so check the STM website or the machines in the station." }
+      ] },
+    { "type": "understand", "title": "Transport and prendre",
+      "blocks": [
+        { "type": "explain", "title": "En or à?",
+          "body": "Use **[[en]]** for transport you get **inside**: [[en bus]], [[en métro]], [[en voiture]], [[en train]].\n\nUse **[[à]]** when you are **on** it or use your own body: [[à pied]] (on foot), [[à vélo]] (by bike).\n\nYou'll also hear [[en vélo]] in everyday speech. But [[à pied]] is always [[à]]: never [[en pied]]." },
+        { "type": "vocab", "title": "Getting around", "itemIds": ["en-bus", "en-metro", "en-voiture", "en-train", "a-pied", "a-velo", "billet", "station", "quartier"] },
+        { "type": "table", "title": "Prendre (to take)",
+          "head": ["", "prendre", "English"],
+          "rows": [
+            ["je", "prends", "I take"],
+            ["tu", "prends", "you take (one friend)"],
+            ["il / elle / on", "prend", "he / she takes, we take (informal)"],
+            ["vous", "prenez", "you take (formal or plural)"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[prends]] and [[prend]] sound exactly the same: “prahn”. You'll learn the full verb, with [[nous]] and [[ils]], in Unit 8." },
+        { "type": "pattern", "title": "Two ways to say it",
+          "pattern": "prendre + le / la / l' + transport = aller + en / à + transport",
+          "note": "With [[prendre]], use an article: [[je prends le bus]]. With [[aller]], use [[en]] or [[à]] with no article: [[je vais au travail en bus]].",
+          "examples": [
+            { "fr": "Je prends le métro.", "en": "I take the metro." },
+            { "fr": "Je vais au travail en métro.", "en": "I go to work by metro." },
+            { "fr": "Vous prenez le train pour aller à Ottawa ?", "en": "Are you taking the train to go to Ottawa?" },
+            { "fr": "Les enfants vont à l'école à pied.", "en": "The children walk to school." }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Getting around in Québec",
+          "body": "- **The Montréal metro** has four lines named by colour: [[la ligne verte]], [[la ligne orange]], [[la ligne jaune]], [[la ligne bleue]]. Each direction is named after the last station: [[direction Côte-Vertu]]. Regular riders use a [[carte OPUS]], a rechargeable travel card.\n- **[[L'autobus]]:** Quebecers often say [[l'autobus]] or [[le bus]]; in France [[le bus]] is the everyday word.\n- **[[Le char]]:** in casual Québec speech, a car is often [[un char]]. Understand it, but say [[une voiture]] or [[une auto]] yourself.\n- **[[Le stationnement]] vs [[le parking]]:** in Québec, signs say [[Stationnement]] (parking); in France people say [[le parking]].",
+          "examples": [
+            { "fr": "Je prends la ligne verte.", "en": "I take the green line." },
+            { "fr": "Il n'y a pas de stationnement devant l'épicerie.", "en": "There's no parking in front of the grocery store." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Unit 7 checkpoint: common slips",
+          "body": "- [[à le]] → [[au]]; [[à les]] → [[aux]]; [[de le]] → [[du]]; [[de les]] → [[des]].\n- [[Il y a]] never changes: [[il y a deux stations]].\n- After a negative: [[il n'y a pas de métro]].\n- [[tout droit]] (straight ahead) ≠ [[à droite]] (right).\n- [[Je prends le bus]] (with [[le]]) but [[je vais en bus]] (no article)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Je prends le métro.", "en": "I take the metro.", "tip": "[[prends]] = “prahn”: the d and s are silent." },
+            { "fr": "Vous prenez l'autobus ?", "en": "Do you take the bus?", "tip": "[[prenez]] = “pruh-nay”." },
+            { "fr": "Je vais au travail à pied.", "en": "I walk to work.", "tip": "[[pied]] = “pyay”; the d is silent." },
+            { "fr": "Je vais à l'école à vélo.", "en": "I go to school by bike." },
+            { "fr": "Je voudrais un billet, s'il vous plaît.", "en": "I'd like a ticket, please.", "tip": "[[billet]] = “bee-yay”: the ll sounds like y." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ma fille va à l'école en autobus.", "en": "My daughter goes to school by bus.", "prompt": "How does the daughter go to school?", "options": ["By bus", "On foot", "By car"], "answer": 0, "explain": "[[en autobus]] = by bus." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Un billet, c'est trois dollars soixante-quinze.", "en": "A ticket is three seventy-five.", "prompt": "How much is a ticket in this example?", "options": ["$3.75", "$3.15", "$4.75"], "answer": 0, "explain": "[[soixante-quinze]] = 60 + 15 = 75." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Je prends le train pour aller à Toronto.", "en": "I take the train to go to Toronto.", "prompt": "What does the speaker take?", "options": ["The train", "The metro", "The bus"], "answer": 0, "explain": "[[le train]] sounds almost like English, with a nasal end." }
+      ] },
+    { "type": "recall", "title": "Unit 7 checkpoint",
+      "intro": "This mix covers the whole unit and some older material. Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ___ le métro pour aller au travail.", "answers": [["prends"]], "choices": ["prends", "prend", "prenez", "prendre"], "en": "I take the metro to get to work.", "explain": "je → [[prends]], with -s." },
+        { "id": "r2", "type": "cloze", "text": "Mes enfants vont à l'école ___. (on foot)", "answers": [["à pied"]], "choices": ["à pied", "en pied", "au pied", "en voiture"], "en": "My children walk to school.", "explain": "On foot is always [[à pied]]." },
+        { "id": "r3", "type": "reorder", "prompt": "I'd like a ticket, please.", "accept": ["Je voudrais un billet, s'il vous plaît.", "S'il vous plaît, je voudrais un billet."], "extra": ["une"], "explain": "[[Je voudrais]] is the polite way to ask for something; [[billet]] is masculine: [[un billet]]." },
+        { "id": "r4", "type": "translate", "prompt": "Do you take the bus? (formal)", "accept": ["Vous prenez le bus ?", "Vous prenez l'autobus ?", "Est-ce que vous prenez le bus ?", "Est-ce que vous prenez l'autobus ?", "Prenez-vous le bus ?", "Prenez-vous l'autobus ?"], "explain": "vous → [[prenez]]; with [[prendre]], keep the article: [[le bus]] / [[l'autobus]]." },
+        { "id": "r5", "type": "listen-mcq", "fr": "Tournez à gauche au coin de la rue.", "en": "Turn left at the corner of the street.", "prompt": "What should you do?", "options": ["Turn left at the corner", "Turn right at the corner", "Go straight ahead at the lights"], "answer": 0, "explain": "[[à gauche]] = left; [[au coin de la rue]] = at the corner." },
+        { "id": "r6", "type": "cloze", "text": "Le samedi, je vais ___ bibliothèque à vélo.", "answers": [["à la"]], "choices": ["à la", "au", "aux", "de la"], "en": "On Saturdays, I go to the library by bike.", "explain": "[[bibliothèque]] is feminine: [[à la bibliothèque]]." },
+        { "id": "r7", "type": "translate", "prompt": "There's a metro station near my apartment.", "accept": ["Il y a une station de métro près de mon appartement.", "Près de mon appartement, il y a une station de métro."], "hint": "il y a… près de…", "explain": "[[Il y a]] + [[une station de métro]] + [[près de mon appartement]]." },
+        { "id": "r8", "type": "match", "prompt": "Match the ways of getting around.", "pairs": [["en métro", "by metro"], ["à pied", "on foot"], ["en voiture", "by car"], ["à vélo", "by bike"], ["en train", "by train"]] },
+        { "id": "r9", "type": "dictation", "fr": "Je me lève à sept heures et je prends l'autobus.", "accept": ["Je me lève à 7 heures et je prends l'autobus.", "Je me lève à 7 h et je prends l'autobus."], "explain": "Reflexive [[je me lève]] from Unit 5; [[prends]] ends in -ds." },
+        { "id": "r10", "type": "mcq", "prompt": "“My sister goes to work by bike.” Which is correct?", "options": ["Ma sœur va au travail à vélo.", "Ma sœur va à le travail à vélo.", "Mon sœur va au travail à vélo.", "Ma sœur va au travail en pied."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "À + le always becomes au.", "Sœur is feminine: ma sœur.", "On foot is à pied, and this sentence needs à vélo."] }
+      ] },
+    { "type": "apply", "title": "Unit 7 mission",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new colleague wants to visit a place you like (a library, a park, a café…). Explain how to get there from your home: the transport, the directions, and how long it takes.", "seconds": 60,
+          "checklist": ["Name the place", "Transport: je prends… / en bus / à pied", "At least three directions (allez, tournez, prenez…)", "A landmark with a preposition (en face de, à côté de…)", "How long: c'est à … minutes"],
+          "models": [ { "label": "Model answer", "fr": "Pour aller à la bibliothèque, c'est simple. De mon appartement, allez tout droit jusqu'au feu. Tournez à gauche et prenez la deuxième rue à droite. L'arrêt d'autobus est en face de la banque. Prenez l'autobus 45. La bibliothèque est à côté de la gare. En autobus, c'est à vingt minutes. À pied, c'est loin !", "en": "To get to the library, it's simple. From my apartment, go straight ahead as far as the lights. Turn left and take the second street on the right. The bus stop is opposite the bank. Take bus 45. The library is next to the train station. By bus, it's twenty minutes. On foot, it's far!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Describe your neighbourhood for a newcomer's blog: where you live, what there is near your home and where it is, and how you get around.", "wordRange": [60, 80],
+          "checklist": ["Your city and neighbourhood", "Three or more places with il y a", "Where two places are (près de, à côté de, au coin de la rue…)", "How you get around (je prends…, à pied, en bus…)", "What you do there and when (le samedi, je vais au…)"],
+          "models": [ { "label": "Model answer", "fr": "J'habite dans le quartier Rosemont, à Montréal. C'est un quartier calme et agréable. Près de mon appartement, il y a une boulangerie, une pharmacie et un grand parc. Le dépanneur est au coin de la rue, à côté de l'arrêt d'autobus. La station de métro est à dix minutes à pied. Je prends le métro pour aller au travail. Le samedi, je vais au parc à vélo avec mes enfants. J'aime beaucoup mon quartier !", "en": "I live in the Rosemont neighbourhood, in Montréal. It's a quiet, pleasant neighbourhood. Near my apartment there's a bakery, a pharmacy and a big park. The corner store is at the corner of the street, next to the bus stop. The metro station is a ten-minute walk away. I take the metro to get to work. On Saturdays, I go to the park by bike with my children. I really like my neighbourhood!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Say how you travel: [[en bus, en métro, en voiture, en train, à pied, à vélo]]\n- Use [[je prends, tu prends, vous prenez]] with transport\n- Buy a ticket and ask which line to take in the Montréal metro\n- Describe your neighbourhood and explain the way from your home to a place",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Marked the STM fare as an example in the dialogue context, the note and the listening question (no claim about the current price); changed the Berri-UQAM to Jean-Talon trip time to ten minutes. Removed \"le bus\" from the dictation accept list (the audio says l'autobus) and added word-order variants to r3 and r7." }
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-06-01",
+  "level": "b1",
+  "unit": "b1-06",
+  "title": "The conditionnel présent",
+  "goal": "Form the conditionnel présent of regular and irregular verbs, tell it apart from the futur, and recognize its main uses: politeness, wishes, imagined situations and unconfirmed news.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-cond-formation", "kind": "grammar", "fr": "radical du futur + -ais, -ais, -ait, -ions, -iez, -aient", "en": "conditionnel présent: formation",
+      "drills": [
+        { "type": "cloze", "text": "J'___ (aimer) visiter la Gaspésie.", "answers": [["aimerais"]], "en": "I would like to visit the Gaspé Peninsula.", "explain": "Infinitive [[aimer]] + [[-ais]]: [[j'aimerais]]." },
+        { "type": "cloze", "text": "Nous ___ (finir) plus tôt le vendredi.", "answers": [["finirions"]], "en": "We would finish earlier on Fridays.", "explain": "[[finir]] + [[-ions]]: [[nous finirions]]. Don't confuse it with the imparfait [[nous finissions]]." },
+        { "type": "cloze", "text": "Ils ___ (prendre) le train, c'est plus écologique.", "answers": [["prendraient"]], "en": "They would take the train; it's greener.", "explain": "-re verbs drop the final e: [[prendr-]] + [[-aient]]." }
+      ] },
+    { "id": "g-cond-irregular", "kind": "grammar", "fr": "serait, aurait, irait, ferait, pourrait, voudrait, devrait, viendrait", "en": "conditionnel présent: irregular stems",
+      "drills": [
+        { "type": "cloze", "text": "Ce ___ (être) génial !", "answers": [["serait"]], "en": "That would be great!", "explain": "[[être]] → stem [[ser-]], like the futur: [[ce serait]]." },
+        { "type": "cloze", "text": "Tu ___ (pouvoir) m'aider ?", "answers": [["pourrais"]], "en": "Could you help me?", "explain": "[[pouvoir]] → [[pourr-]], with two r's: [[tu pourrais]]." },
+        { "type": "mcq", "prompt": "faire → je…", "options": ["ferais", "fairais", "faisais", "ferai"], "optionsFr": true, "answer": 0, "explain": "Stem [[fer-]] + [[-ais]]. [[faisais]] is the imparfait; [[ferai]] is the futur." }
+      ] },
+    { "id": "g-cond-futur", "kind": "grammar", "fr": "je ferai (futur) / je ferais (conditionnel)", "en": "futur simple vs conditionnel",
+      "drills": [
+        { "type": "cloze", "text": "Demain, j'___ (aller) chez le dentiste. C'est confirmé.", "answers": [["irai"]], "en": "Tomorrow I'll go to the dentist. It's confirmed.", "explain": "A real, certain plan → futur: [[j'irai]]. The conditionnel would be [[j'irais]]." },
+        { "type": "cloze", "text": "Avec plus d'argent, j'___ (acheter) une maison.", "answers": [["achèterais"]], "en": "With more money, I would buy a house.", "explain": "An imagined situation → conditionnel. [[acheter]] takes è in the stem: [[j'achèterais]]." },
+        { "type": "mcq", "prompt": "Which form is the conditionnel?", "options": ["nous parlerions", "nous parlerons", "nous parlions"], "optionsFr": true, "answer": 0, "explain": "Conditionnel = **r** + imparfait ending: [[parler-ions]]. [[parlerons]] is the futur, [[parlions]] the imparfait." }
+      ] },
+    { "id": "g-cond-uses", "kind": "grammar", "fr": "Je voudrais… / J'aimerais… / Il y aurait…", "en": "uses of the conditionnel",
+      "drills": [
+        { "type": "mcq", "prompt": "“Selon la police, il y aurait trois blessés.” What does the conditionnel show?", "options": ["The information is not yet confirmed.", "The injuries will happen later.", "The police are asking politely."], "answer": 0, "explain": "In the news, the conditionnel marks **unconfirmed** information: *reportedly, apparently*." },
+        { "type": "mcq", "prompt": "“Vous pourriez fermer la fenêtre ?” Why the conditionnel?", "options": ["To be polite", "To talk about the future", "To show doubt"], "answer": 0, "explain": "[[Vous pourriez…]] is softer and more polite than [[Vous pouvez…]]." }
+      ] },
+    { "id": "ce-serait", "kind": "phrase", "fr": "Ce serait génial !", "en": "That would be great!", "accept": ["Ça serait génial !", "Ce serait super !", "Ça serait super !"] },
+    { "id": "il-y-aurait", "kind": "phrase", "fr": "Il y aurait trois blessés.", "en": "Three people have reportedly been injured. (news)", "accept": ["Il y aurait 3 blessés."] },
+    { "id": "je-pourrais", "kind": "phrase", "fr": "je pourrais", "en": "I could (I would be able to)" },
+    { "id": "je-devrais", "kind": "phrase", "fr": "je devrais", "en": "I should" },
+    { "id": "il-faudrait", "kind": "phrase", "fr": "il faudrait", "en": "we would need to, it would be necessary to", "accept": ["Il faudrait"],
+      "note": "From [[falloir]]: [[Il faudrait partir plus tôt.]] = We'd need to leave earlier." },
+    { "id": "rever-de", "kind": "vocab", "fr": "rêver de", "en": "to dream of (doing something)", "pos": "verb",
+      "example": { "fr": "Je rêve d'ouvrir un restaurant.", "en": "I dream of opening a restaurant." } },
+    { "id": "dans-lideal", "kind": "phrase", "fr": "Dans l'idéal, …", "en": "Ideally, …", "accept": ["Idéalement, …"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Your ideal life",
+      "intro": "In English, *would* does the job. In French, the verb itself changes. Listen to Mei and Olivier, and notice the verbs that end in **-rais** and **-rait**.",
+      "blocks": [
+        { "type": "dialogue", "title": "Lunch break in Vancouver",
+          "context": "Mei and Olivier, two colleagues, fill in a magazine quiz together.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Mei, j'ai trouvé un petit questionnaire dans le magazine : « Votre vie idéale ». On le fait ?", "en": "Mei, I found a little quiz in the magazine: “Your ideal life”. Shall we do it?" },
+            { "speaker": "Mei", "fr": "D'accord ! Première question ?", "en": "OK! First question?" },
+            { "speaker": "Olivier", "fr": "« Où est-ce que vous habiteriez ? » Moi, j'habiterais au bord de la mer, en Gaspésie. Je me lèverais tôt et je ferais du kayak tous les matins.", "en": "“Where would you live?” I'd live by the sea, in the Gaspé. I'd get up early and I'd go kayaking every morning." },
+            { "speaker": "Mei", "fr": "Ce serait génial… Mais tu t'ennuierais un peu en hiver, non ?", "en": "That would be great… But you'd get a bit bored in winter, wouldn't you?" },
+            { "speaker": "Olivier", "fr": "Peut-être. Et toi ?", "en": "Maybe. And you?" },
+            { "speaker": "Mei", "fr": "Moi, je resterais à Vancouver, mais je travaillerais seulement quatre jours par semaine. Le vendredi, j'irais à la montagne avec mes amis.", "en": "I'd stay in Vancouver, but I'd work only four days a week. On Fridays, I'd go to the mountains with my friends." },
+            { "speaker": "Olivier", "fr": "Deuxième question : « Quel métier est-ce que vous choisiriez ? »", "en": "Second question: “Which job would you choose?”" },
+            { "speaker": "Mei", "fr": "Je serais cheffe cuisinière. J'ouvrirais un petit restaurant, et nous servirions des plats chinois et québécois.", "en": "I'd be a chef. I'd open a little restaurant, and we'd serve Chinese and Québec dishes." },
+            { "speaker": "Olivier", "fr": "Je viendrais manger chez toi tous les jours ! Bon, en attendant… tu pourrais me passer le sel ?", "en": "I'd come and eat at your place every day! Well, in the meantime… could you pass me the salt?" },
+            { "speaker": "Mei", "fr": "Tiens. Et tu devrais finir ton sandwich : la pause se termine dans cinq minutes !", "en": "Here. And you should finish your sandwich: the break ends in five minutes!" }
+          ] },
+        { "type": "text", "title": "Meanwhile, on the radio",
+          "context": "A short news flash.",
+          "fr": "Un incendie s'est déclaré cet après-midi dans un entrepôt de Laval. Selon les premières informations, il y aurait deux blessés. Le feu serait d'origine électrique, mais les pompiers n'ont pas encore confirmé cette information.",
+          "en": "A fire broke out this afternoon in a warehouse in Laval. According to initial reports, two people have reportedly been injured. The fire is thought to be electrical, but the firefighters have not yet confirmed this information." },
+        { "id": "d1", "type": "mcq", "prompt": "Does Olivier really live in the Gaspé?", "options": ["No, he's imagining his ideal life.", "Yes, he moved there last year.", "Yes, he's moving there next month."], "answer": 0,
+          "explain": "[[J'habiterais]] = I would live. The conditionnel describes an **imagined** situation, not a real plan." },
+        { "id": "d2", "type": "mcq", "prompt": "“Tu pourrais me passer le sel ?” Here, the conditionnel is used…", "options": ["to make a polite request", "to talk about the future", "to describe the past"], "answer": 0,
+          "explain": "[[Tu pourrais…?]] is softer than [[Tu peux…?]]. Lesson 2 is all about this." },
+        { "id": "d3", "type": "mcq", "prompt": "On the radio: “il y aurait deux blessés”. What do we know?", "options": ["Probably two people injured, not confirmed yet", "Exactly two people will be injured", "Two people were injured last year"], "answer": 0,
+          "explain": "Journalists use the conditionnel for **unconfirmed** information. The last sentence says it: [[les pompiers n'ont pas encore confirmé]]." }
+      ] },
+    { "type": "understand", "title": "How the conditionnel works",
+      "blocks": [
+        { "type": "pattern", "title": "One rule for every verb",
+          "pattern": "radical du futur + -ais, -ais, -ait, -ions, -iez, -aient",
+          "note": "Take the **stem of the futur** (you know it from A2: usually the infinitive, -re verbs drop the e) and add the **endings of the imparfait**. Every form has an **r** before the ending.",
+          "examples": [
+            { "fr": "parler → je parlerais", "en": "to speak → I would speak" },
+            { "fr": "finir → tu finirais", "en": "to finish → you would finish" },
+            { "fr": "prendre → elle prendrait", "en": "to take → she would take" },
+            { "fr": "être → nous serions", "en": "to be → we would be" }
+          ] },
+        { "type": "table", "title": "Four verbs in full",
+          "head": ["", "aimer", "finir", "prendre", "être"],
+          "rows": [
+            ["je / j'", "aimerais", "finirais", "prendrais", "serais"],
+            ["tu", "aimerais", "finirais", "prendrais", "serais"],
+            ["il / elle / on", "aimerait", "finirait", "prendrait", "serait"],
+            ["nous", "aimerions", "finirions", "prendrions", "serions"],
+            ["vous", "aimeriez", "finiriez", "prendriez", "seriez"],
+            ["ils / elles", "aimeraient", "finiraient", "prendraient", "seraient"]
+          ],
+          "frCols": [0, 1, 2, 3, 4], "sayCol": true,
+          "note": "[[-ais]], [[-ait]] and [[-aient]] all sound the same: [ɛ]." },
+        { "type": "table", "title": "Irregular stems (the same as the futur)",
+          "head": ["Infinitive", "Stem", "je…", "il…"],
+          "rows": [
+            ["être", "ser-", "je serais", "il serait"],
+            ["avoir", "aur-", "j'aurais", "il aurait"],
+            ["aller", "ir-", "j'irais", "il irait"],
+            ["faire", "fer-", "je ferais", "il ferait"],
+            ["pouvoir", "pourr-", "je pourrais", "il pourrait"],
+            ["vouloir", "voudr-", "je voudrais", "il voudrait"],
+            ["devoir", "devr-", "je devrais", "il devrait"],
+            ["venir", "viendr-", "je viendrais", "il viendrait"],
+            ["voir", "verr-", "je verrais", "il verrait"],
+            ["savoir", "saur-", "je saurais", "il saurait"],
+            ["envoyer", "enverr-", "j'enverrais", "il enverrait"],
+            ["falloir", "faudr-", "—", "il faudrait"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": false,
+          "note": "Spelling-change verbs keep their futur stem too: [[acheter → j'achèterais]], [[appeler → j'appellerais]], [[payer → je paierais]] (or [[payerais]])." },
+        { "type": "table", "title": "Futur or conditionnel?",
+          "head": ["", "futur (will)", "conditionnel (would)"],
+          "rows": [
+            ["je", "je parlerai", "je parlerais"],
+            ["tu", "tu parleras", "tu parlerais"],
+            ["il / elle", "il parlera", "il parlerait"],
+            ["nous", "nous parlerons", "nous parlerions"],
+            ["vous", "vous parlerez", "vous parleriez"],
+            ["ils / elles", "ils parleront", "ils parleraient"]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "Same stem, different endings. With **je**, the only written difference is the final **s**: [[je parlerai]] (a fact) vs [[je parlerais]] (an imagined situation). In speech, many people pronounce them almost the same, so context does the work." },
+        { "type": "table", "title": "What is the conditionnel for?",
+          "head": ["Use", "Example", "English"],
+          "rows": [
+            ["Politeness", "Je voudrais un café. Vous pourriez m'aider ?", "I'd like a coffee. Could you help me?"],
+            ["Wishes and dreams", "J'aimerais voyager. J'adorerais vivre à Paris.", "I'd like to travel. I'd love to live in Paris."],
+            ["Imagined situations", "Dans l'idéal, j'habiterais au bord de la mer.", "Ideally, I'd live by the sea."],
+            ["Advice", "Tu devrais te reposer.", "You should rest."],
+            ["Suggestions", "On pourrait aller au cinéma.", "We could go to the movies."],
+            ["Unconfirmed news", "Selon la police, il y aurait trois blessés.", "According to police, three people were reportedly injured."]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "Lesson 2: polite requests and wishes. Lesson 3: [[si + imparfait → conditionnel]]. Lesson 4: advice." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Conditionnel traps",
+          "body": "- **Futur instead of conditionnel:** [[Je voudrai un café]] → [[Je voudrais un café]]. In writing, that final **s** matters.\n- **Imparfait instead of conditionnel:** [[nous parlions]] (we were speaking) → [[nous parlerions]] (we would speak). Look for the **r**.\n- **Wrong person ending:** [[il serais]] → [[il serait]]; [[ils seraient]] has **-aient**.\n- **Building the stem from the present:** [[je fairais]] → [[je ferais]]; [[j'allerais]] → [[j'irais]]; [[je pouvrais]] → [[je pourrais]]; [[je venirais]] → [[je viendrais]].\n- **One r or two?** [[pourrais]], [[verrais]], [[enverrais]] have **two**; [[serais]], [[ferais]], [[aurais]] have **one**." },
+        { "type": "deepdive", "kind": "why", "title": "Why future stem + imparfait endings?",
+          "body": "The conditionnel is historically a **future seen from the past**. That's why it mixes a future stem with a past ending. You still use it that way in reported speech:\n\n- [[Elle dit : « Je viendrai. »]] → [[Elle a dit qu'elle viendrait.]] (She said she **would** come.)\n- [[Il a promis qu'il appellerait.]] (He promised he **would** call.)\n\nSo when you report someone's future plans in the past (unit 2), the futur becomes the conditionnel. English does exactly the same: *will → would*." },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Saying it fast",
+          "body": "- The **e** before the r often disappears in speech: [[je parlerais]] → *je parl'rais*; [[nous aimerions]] → *nous aim'rions*.\n- [[-ions]] and [[-iez]] are said in one syllable with the r: [[nous serions]] *seu-ryon*, [[vous seriez]] *seu-ryé*.\n- [[je serais]] is often *j'srais* in casual speech.\n- [[j'aurais]] vs [[j'aurai]]: in careful speech, *-rais* ends with an open è and *-rai* with a closed é. Many speakers, especially in Québec, keep this difference; many others don't." },
+        { "type": "deepdive", "kind": "canada", "title": "Ça serait, and the news",
+          "body": "- In everyday Canadian French, [[ça serait]] is far more common than [[ce serait]]: [[Ça serait le fun !]] (informal Québec: *That would be fun!*). In writing, prefer [[ce serait]].\n- Québec news reports use the conditionnel constantly for unconfirmed facts: [[Le suspect serait âgé d'une trentaine d'années.]] (The suspect is believed to be in his thirties.) When you hear it, think *reportedly*, *allegedly*." }
+      ] },
+    { "type": "hear", "title": "Hear the conditionnel",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Keep the r clear: it's the sound that carries the conditionnel.",
+          "lines": [
+            { "fr": "J'habiterais au bord de la mer.", "en": "I would live by the sea.", "tip": "ha-bi-te-rè, or ha-bit'rè in fast speech." },
+            { "fr": "Ce serait génial !", "en": "That would be great!" },
+            { "fr": "Nous servirions des plats chinois et québécois.", "en": "We would serve Chinese and Québec dishes.", "tip": "ser-vi-ryon: -rions in one syllable." },
+            { "fr": "Tu pourrais me passer le sel ?", "en": "Could you pass me the salt?", "tip": "pourrais: the r is a little longer, but don't say it twice." },
+            { "fr": "Selon les premières informations, il y aurait deux blessés.", "en": "According to initial reports, two people have reportedly been injured.", "tip": "il y aurait: il-yo-rè." },
+            { "fr": "Ils voudraient habiter à Québec.", "en": "They would like to live in Québec City.", "tip": "voudraient‿habiter: link with a t sound." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Selon la police, le conducteur roulerait trop vite.", "en": "According to the police, the driver was reportedly going too fast.", "prompt": "Is the information certain?", "options": ["No, it's not confirmed.", "Yes, it's a proven fact.", "It's a polite request."], "answer": 0,
+          "explain": "[[roulerait]] (conditionnel) after [[selon la police]]: the journalist is reporting a claim that isn't confirmed." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Nous aimerions visiter la ville de Québec cet été.", "en": "We would like to visit Québec City this summer.", "prompt": "Who would like to visit Québec City?", "options": ["We", "They", "You (formal)"], "answer": 0,
+          "explain": "[[nous aimerions]]: you hear *-rions*. [[ils aimeraient]] would end in *-rè*, [[vous aimeriez]] in *-ryé*." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Stems, endings and uses. If you hesitate on a stem, think of the futur first.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Dans l'idéal, j'___ (habiter) au bord de la mer.", "answers": [["habiterais"]], "en": "Ideally, I'd live by the sea.",
+          "explain": "[[habiter]] + [[-ais]]. Imagined situation → conditionnel." },
+        { "id": "r2", "type": "cloze", "text": "Nous ___ (prendre) le train : c'est plus écologique.", "answers": [["prendrions"]], "en": "We would take the train: it's greener.",
+          "explain": "[[prendre]] → [[prendr-]] + [[-ions]]." },
+        { "id": "r3", "type": "match", "prompt": "Match each infinitive with its conditionnel form.", "pairs": [["être", "je serais"], ["avoir", "j'aurais"], ["aller", "j'irais"], ["venir", "je viendrais"], ["pouvoir", "je pourrais"], ["savoir", "je saurais"]] },
+        { "id": "r4", "type": "mcq", "prompt": "vouloir → ils…", "options": ["voudraient", "voulaient", "voudront", "vouleraient"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "That's the imparfait (no r before the ending).", "That's the futur.", "The stem is irregular: voudr-, as in the futur."] },
+        { "id": "r5", "type": "translate", "prompt": "It would be great!", "accept": ["Ce serait génial !", "Ça serait génial !", "Ce serait super !", "Ça serait super !", "Ce serait formidable !", "Ce serait excellent !"],
+          "explain": "[[être]] → [[ce serait]] (or [[ça serait]] in speech)." },
+        { "id": "r6", "type": "translate", "prompt": "According to the police, two people have reportedly been injured.", "accept": ["Selon la police, il y aurait deux blessés.", "D'après la police, il y aurait deux blessés.", "Selon la police, il y aurait 2 blessés.", "D'après la police, il y aurait 2 blessés.", "Selon la police, deux personnes seraient blessées.", "D'après la police, deux personnes seraient blessées.", "Selon la police, deux personnes auraient été blessées.", "D'après la police, deux personnes auraient été blessées."],
+          "explain": "*Reportedly* = conditionnel in French news: [[il y aurait]]." },
+        { "id": "r7", "type": "cloze", "text": "Demain, j'___ (aller) chez le dentiste à 9 h. C'est confirmé.", "answers": [["irai"]], "choices": ["irai", "irais", "allais"], "en": "Tomorrow I'll go to the dentist at 9. It's confirmed.",
+          "explain": "A real, confirmed plan → futur [[j'irai]], not the conditionnel." },
+        { "id": "r8", "type": "cloze", "text": "Elle a dit qu'elle ___ (venir) à la réunion.", "answers": [["viendrait"]], "en": "She said she would come to the meeting.",
+          "explain": "Future in reported past speech → conditionnel: [[« Je viendrai » → elle a dit qu'elle viendrait]]." },
+        { "id": "r9", "type": "dictation", "fr": "Vous pourriez fermer la porte, s'il vous plaît ?", "accept": [], "explain": "[[pourriez]]: two r's, ending [[-iez]] for vous." },
+        { "id": "r10", "type": "reorder", "prompt": "They (men, or a mixed group) would like to live in Québec City.", "accept": ["Ils voudraient habiter à Québec"], "extra": ["voudront", "vouloir"],
+          "explain": "[[vouloir]] → [[ils voudraient]] + infinitive." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Answer the magazine quiz out loud: Where would you live? What job would you do? What would you do on a typical day? Who would you live with?", "seconds": 60,
+          "checklist": ["At least six verbs in the conditionnel", "At least three irregular ones (serais, irais, ferais, aurais…)", "Dans l'idéal… to start", "A reaction: Ce serait génial !"],
+          "models": [ { "label": "Model answer", "fr": "Dans l'idéal, j'habiterais à Québec, dans une vieille maison près du fleuve. Je serais traductrice et je travaillerais à la maison trois jours par semaine. Le matin, je ferais une promenade sur les plaines d'Abraham, et l'après-midi, j'irais au café avec mes amies. Ma famille viendrait me voir souvent. Ce serait génial !", "en": "Ideally, I'd live in Québec City, in an old house near the river. I'd be a translator and I'd work from home three days a week. In the morning, I'd go for a walk on the Plains of Abraham, and in the afternoon, I'd go to a café with my friends. My family would come and see me often. That would be great!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short paragraph for the magazine: “Ma vie idéale”. Where would you live, what would you do, who would be with you, and what would you change compared with your life today?",
+          "promptFr": "Décrivez votre vie idéale.",
+          "wordRange": [60, 100],
+          "checklist": ["At least eight verbs in the conditionnel", "Irregular stems: serais, aurais, irais, ferais, pourrais…", "One comparison with your real life (Aujourd'hui, je… mais dans l'idéal, je…)", "Connectors: et, mais, parce que, le matin…"],
+          "models": [
+            { "label": "Model answer", "fr": "Aujourd'hui, j'habite dans un petit appartement à Toronto et je travaille beaucoup. Dans l'idéal, j'habiterais à la campagne, dans une maison avec un grand jardin. Je serais toujours ingénieur, mais je travaillerais à distance. J'aurais un chien et je ferais du vélo tous les matins. Mes parents viendraient vivre près de chez moi, et nous mangerions ensemble le dimanche. Le soir, je pourrais lire ou apprendre la guitare. Je serais moins stressé, et ma vie serait plus simple !", "en": "Today, I live in a small apartment in Toronto and I work a lot. Ideally, I'd live in the countryside, in a house with a big garden. I'd still be an engineer, but I'd work remotely. I'd have a dog and I'd go cycling every morning. My parents would come and live near me, and we'd eat together on Sundays. In the evening, I could read or learn the guitar. I'd be less stressed, and my life would be simpler!" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form the **conditionnel présent**: futur stem + imparfait endings ([[je parlerais, nous serions, ils pourraient]])\n- Tell it apart from the futur ([[je ferai / je ferais]]) and the imparfait ([[nous parlions / nous parlerions]])\n- Recognize its uses: politeness, wishes, imagined situations, advice and **unconfirmed news** ([[il y aurait trois blessés]])",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Disambiguated \"I could\", added the conditionnel passé variant to the unconfirmed-news translation." }
+}

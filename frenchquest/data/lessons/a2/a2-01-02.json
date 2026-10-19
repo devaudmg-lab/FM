@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-01-02",
+  "level": "a2",
+  "unit": "a2-01",
+  "title": "Irregular past participles",
+  "goal": "Use the participles of -ir and -re verbs and the key irregular ones (fait, pris, vu, eu, été, bu, lu, mis, dit, écrit, ouvert) to tell what you did.",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "g-pp-ir-re",
+      "kind": "grammar",
+      "fr": "finir → fini, attendre → attendu",
+      "en": "past participles of regular -ir and -re verbs",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "J'ai ___ mon rapport à minuit. (finir)",
+          "answers": [
+            [
+              "fini"
+            ]
+          ],
+          "en": "I finished my report at midnight.",
+          "explain": "-ir → -i: finir → fini."
+        },
+        {
+          "type": "cloze",
+          "text": "Nous avons ___ le bus vingt minutes. (attendre)",
+          "answers": [
+            [
+              "attendu"
+            ]
+          ],
+          "en": "We waited for the bus for twenty minutes.",
+          "explain": "-re → -u: attendre → attendu."
+        },
+        {
+          "type": "cloze",
+          "text": "Tu as ___ à son courriel ? (répondre)",
+          "answers": [
+            [
+              "répondu"
+            ]
+          ],
+          "en": "Did you answer her email?",
+          "explain": "répondre → répondu."
+        }
+      ]
+    },
+    {
+      "id": "g-pp-irreg",
+      "kind": "grammar",
+      "fr": "fait, pris, vu, eu, été, bu, lu, mis, dit, écrit, ouvert",
+      "en": "irregular past participles",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Samedi, j'ai ___ une randonnée. (faire)",
+          "answers": [
+            [
+              "fait"
+            ]
+          ],
+          "en": "On Saturday I went hiking.",
+          "explain": "faire → fait, with a silent t."
+        },
+        {
+          "type": "cloze",
+          "text": "Elle a ___ le métro. (prendre)",
+          "answers": [
+            [
+              "pris"
+            ]
+          ],
+          "en": "She took the metro.",
+          "explain": "prendre → pris (also appris, compris)."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “I saw Camille”?",
+          "options": [
+            "J'ai vu Camille.",
+            "J'ai voi Camille.",
+            "J'ai voyé Camille."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "voir → vu."
+        },
+        {
+          "type": "translate",
+          "prompt": "I had a meeting.",
+          "accept": [
+            "J'ai eu une réunion.",
+            "J'ai eu un meeting."
+          ],
+          "explain": "avoir → eu: [[j'ai eu]] = I had. The u sounds like the French u in tu."
+        }
+      ]
+    },
+    {
+      "id": "j-ai-fait",
+      "kind": "phrase",
+      "fr": "J'ai fait une randonnée au mont Royal.",
+      "en": "I went hiking on Mount Royal.",
+      "accept": [
+        "J'ai fait une randonnée au mont Royal.",
+        "J'ai fait une randonnée sur le mont Royal.",
+        "J'ai fait de la randonnée au mont Royal.",
+        "J'ai fait de la randonnée sur le mont Royal."
+      ]
+    },
+    {
+      "id": "j-ai-pris",
+      "kind": "phrase",
+      "fr": "J'ai pris le métro.",
+      "en": "I took the metro."
+    },
+    {
+      "id": "j-ai-vu",
+      "kind": "phrase",
+      "fr": "J'ai vu un bon film.",
+      "en": "I saw a good movie."
+    },
+    {
+      "id": "j-ai-eu",
+      "kind": "phrase",
+      "fr": "J'ai eu une longue journée.",
+      "en": "I had a long day."
+    },
+    {
+      "id": "j-ai-ete",
+      "kind": "phrase",
+      "fr": "J'ai été malade.",
+      "en": "I was sick.",
+      "note": "été (been) is the participle of être."
+    },
+    {
+      "id": "on-a-bu",
+      "kind": "phrase",
+      "fr": "On a bu un chocolat chaud.",
+      "en": "We drank a hot chocolate.",
+      "accept": [
+        "Nous avons bu un chocolat chaud.",
+        "On a bu du chocolat chaud.",
+        "Nous avons bu du chocolat chaud."
+      ]
+    },
+    {
+      "id": "j-ai-lu",
+      "kind": "phrase",
+      "fr": "J'ai lu un roman.",
+      "en": "I read a novel. (past)"
+    },
+    {
+      "id": "j-ai-mis",
+      "kind": "phrase",
+      "fr": "J'ai mis mon manteau.",
+      "en": "I put on my coat.",
+      "accept": [
+        "J'ai mis mon manteau.",
+        "J'ai mis mon manteau d'hiver."
+      ]
+    },
+    {
+      "id": "j-ai-ecrit",
+      "kind": "phrase",
+      "fr": "J'ai écrit un courriel.",
+      "en": "I wrote an email.",
+      "accept": [
+        "J'ai écrit un courriel.",
+        "J'ai écrit un e-mail.",
+        "J'ai écrit un mail.",
+        "J'ai écrit un message."
+      ]
+    },
+    {
+      "id": "j-ai-attendu",
+      "kind": "phrase",
+      "fr": "J'ai attendu l'autobus.",
+      "en": "I waited for the bus.",
+      "accept": [
+        "J'ai attendu le bus.",
+        "J'ai attendu l'autobus."
+      ],
+      "note": "No “for” in French: attendre quelqu'un / quelque chose."
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Lunch break",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "In the office kitchen, at lunchtime",
+          "context": "Mei and Olivier eat lunch together on Monday. In Québec, lunch is often called le dîner.",
+          "lines": [
+            {
+              "speaker": "Olivier",
+              "fr": "Mei, tu as l'air fatiguée ! Ça a été, ta fin de semaine ?",
+              "en": "Mei, you look tired! How did your weekend go?"
+            },
+            {
+              "speaker": "Mei",
+              "fr": "Oui, mais j'ai été très occupée. Vendredi soir, j'ai fini mon rapport à minuit ! Après, j'ai pris un bain et j'ai lu un peu.",
+              "en": "Yes, but I was very busy. On Friday evening, I finished my report at midnight! Afterwards I took a bath and read a bit."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Pauvre toi ! Moi, samedi, j'ai vu le nouveau film de Denis Villeneuve avec ma blonde.",
+              "en": "Poor you! On Saturday, I saw the new Denis Villeneuve film with my girlfriend."
+            },
+            {
+              "speaker": "Mei",
+              "fr": "Et dimanche ?",
+              "en": "And on Sunday?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Dimanche, il a fait beau, alors on a fait une randonnée au mont Royal. Après, on a bu un chocolat chaud et on a mis les photos sur Instagram.",
+              "en": "On Sunday the weather was nice, so we went hiking on Mount Royal. Afterwards we had a hot chocolate and put the photos on Instagram."
+            },
+            {
+              "speaker": "Mei",
+              "fr": "Moi, dimanche, j'ai eu un appel vidéo avec ma famille à Shanghai. Ma mère a dit : « Tu as écrit à ta grand-mère ? » Alors, j'ai écrit une longue lettre.",
+              "en": "On Sunday, I had a video call with my family in Shanghai. My mother said: “Have you written to your grandmother?” So I wrote a long letter."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "C'est gentil. Bon, tu as fini ? On a une réunion à 13 h.",
+              "en": "That's sweet. Right, have you finished? We have a meeting at 1 p.m."
+            }
+          ]
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "Why is Mei tired?",
+          "options": [
+            "She finished a report at midnight on Friday.",
+            "She went hiking on Sunday.",
+            "She saw a late movie on Saturday."
+          ],
+          "answer": 0,
+          "explain": "[[J'ai fini mon rapport à minuit]]. Olivier is the one who went hiking and saw a movie."
+        },
+        {
+          "id": "d2",
+          "type": "mcq",
+          "prompt": "What does Olivier mean by “Ça a été, ta fin de semaine ?”",
+          "options": [
+            "How did your weekend go?",
+            "Was it your weekend?",
+            "Where was your weekend?"
+          ],
+          "answer": 0,
+          "explain": "[[Ça a été ?]] is an everyday way to ask *How did it go?* [[été]] is the participle of être."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Participles you must know",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "Same structure, different participles",
+          "body": "The structure does not change: **avoir + participle**. What changes is the participle. There are two regular patterns besides **-er → -é**, and then a short list of irregular participles that you simply learn by heart. Good news: they are among the most used words in French, so you will hear them every day."
+        },
+        {
+          "type": "table",
+          "title": "The three regular patterns",
+          "head": [
+            "Infinitive ends in",
+            "Participle",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "-er",
+              "-é",
+              "parler → parlé, manger → mangé"
+            ],
+            [
+              "-ir (like finir)",
+              "-i",
+              "finir → fini, choisir → choisi, dormir → dormi"
+            ],
+            [
+              "-re (like attendre)",
+              "-u",
+              "attendre → attendu, répondre → répondu, vendre → vendu, entendre → entendu"
+            ]
+          ],
+          "frCols": [
+            2
+          ],
+          "sayCol": false,
+          "note": "Remember [[J'ai attendu le bus]]: no word for *for*. And [[répondre à]]: [[J'ai répondu à Raj]]."
+        },
+        {
+          "type": "table",
+          "title": "The key irregular participles",
+          "head": [
+            "Infinitive",
+            "Participle",
+            "Example",
+            "English"
+          ],
+          "rows": [
+            [
+              "faire",
+              "fait",
+              "J'ai fait du vélo.",
+              "I went cycling."
+            ],
+            [
+              "prendre",
+              "pris",
+              "J'ai pris le métro.",
+              "I took the metro."
+            ],
+            [
+              "voir",
+              "vu",
+              "J'ai vu un film.",
+              "I saw a movie."
+            ],
+            [
+              "avoir",
+              "eu",
+              "J'ai eu une réunion.",
+              "I had a meeting."
+            ],
+            [
+              "être",
+              "été",
+              "J'ai été malade.",
+              "I was sick."
+            ],
+            [
+              "boire",
+              "bu",
+              "J'ai bu un café.",
+              "I drank a coffee."
+            ],
+            [
+              "lire",
+              "lu",
+              "J'ai lu le journal.",
+              "I read the paper."
+            ],
+            [
+              "mettre",
+              "mis",
+              "J'ai mis mon manteau.",
+              "I put on my coat."
+            ],
+            [
+              "dire",
+              "dit",
+              "Il a dit bonjour.",
+              "He said hello."
+            ],
+            [
+              "écrire",
+              "écrit",
+              "J'ai écrit un courriel.",
+              "I wrote an email."
+            ],
+            [
+              "ouvrir",
+              "ouvert",
+              "J'ai ouvert la fenêtre.",
+              "I opened the window."
+            ]
+          ],
+          "frCols": [
+            0,
+            1,
+            2
+          ],
+          "sayCol": true,
+          "note": "Families help: [[prendre → pris]], so [[apprendre → appris]] and [[comprendre → compris]]. [[mettre → mis]], [[écrire → écrit]], [[dire → dit]]: the final s or t is **silent**."
+        },
+        {
+          "type": "pattern",
+          "title": "Group them by sound",
+          "pattern": "-u: eu, bu, lu, vu · -is: pris, mis · -it: dit, écrit · -ait: fait",
+          "note": "Learning them in sound groups is easier than one long list. Say them out loud: *u, bu, lu, vu*; *pri, mi*; *di, é-kri*; and *fè*.",
+          "examples": [
+            {
+              "fr": "On a bu un thé et on a lu le journal.",
+              "en": "We drank a tea and read the paper."
+            },
+            {
+              "fr": "Tu as compris la question ?",
+              "en": "Did you understand the question?"
+            },
+            {
+              "fr": "Karim a appris le français à Montréal.",
+              "en": "Karim learned French in Montréal."
+            },
+            {
+              "fr": "Dimanche, il a fait très froid.",
+              "en": "On Sunday it was very cold."
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "pronunciation",
+          "title": "The tricky one: j'ai eu",
+          "body": "[[eu]] is pronounced like the French **u** in [[tu]]: just one sound, *ü*. So [[j'ai eu]] sounds like *zhay-ü*.\n\nCompare:\n\n- [[J'ai eu]] (I had) ≠ [[J'ai vu]] (I saw) ≠ [[J'ai bu]] (I drank) ≠ [[J'ai lu]] (I read). Only the consonant changes, so listen carefully.\n- [[fait]] rhymes with [[mais]]: *fè*. The t is silent.",
+          "examples": [
+            {
+              "fr": "J'ai eu, j'ai vu, j'ai bu, j'ai lu.",
+              "en": "I had, I saw, I drank, I read."
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Regularizing:** [[j'ai prendu]], [[j'ai faisé]], [[j'ai buvé]], [[j'ai lisé]], [[j'ai mettu]] do not exist. Say [[pris, fait, bu, lu, mis]].\n- **Spelling the silent letter:** [[fait]] with a t, [[pris]] with an s, [[dit]] and [[écrit]] with a t. A trick for later: the feminine makes the letter heard ([[une lettre écrite]]).\n- **Eu or été?** [[j'ai eu]] = I had; [[j'ai été]] = I was / I have been.\n- **Fait for weather:** past weather uses [[il a fait]]: [[il a fait beau]] (it was nice), [[il a fait froid]] (it was cold)."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Québec words in this dialogue",
+          "body": "- [[ma blonde]] = my girlfriend; [[mon chum]] = my boyfriend (or *my buddy*). Very common in Québec, informal. In France: [[ma copine]], [[mon copain]].\n- [[le dîner]] = lunch in Québec (and Belgium, Switzerland). In France, [[le déjeuner]] is lunch and [[le dîner]] is dinner. In Québec, dinner is [[le souper]].\n- [[Ça a été ?]] (How did it go?) is used everywhere. In Québec you will also hear [[J'ai été au cinéma]] for *I went to the movies*. This is informal speech; the standard form, [[je suis allé]], is in Unit 2."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear the difference",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Short participles are easy to miss. Exaggerate the first consonant.",
+          "lines": [
+            {
+              "fr": "J'ai eu une longue journée.",
+              "en": "I had a long day.",
+              "tip": "eu = one sound, like tu without the t."
+            },
+            {
+              "fr": "J'ai vu un bon film.",
+              "en": "I saw a good movie.",
+              "tip": "vu, then un: vu-un, two separate vowels."
+            },
+            {
+              "fr": "On a bu un chocolat chaud.",
+              "en": "We drank a hot chocolate."
+            },
+            {
+              "fr": "Il a fait beau dimanche.",
+              "en": "The weather was nice on Sunday.",
+              "tip": "fait = fè, silent t."
+            },
+            {
+              "fr": "Tu as pris le métro ?",
+              "en": "Did you take the metro?",
+              "tip": "pris = pri, silent s."
+            },
+            {
+              "fr": "Elle a écrit à sa grand-mère.",
+              "en": "She wrote to her grandmother.",
+              "tip": "Link: e-la-é-kri."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "J'ai bu un café avec Sofia.",
+          "en": "I drank a coffee with Sofia.",
+          "prompt": "What did the speaker do?",
+          "options": [
+            "Drank a coffee with Sofia",
+            "Saw Sofia at a café",
+            "Read with Sofia at a café"
+          ],
+          "answer": 0,
+          "explain": "[[bu]] (boire) = drank. *Saw* would be [[vu]], *read* would be [[lu]]."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Nous avons eu une réunion à 10 h.",
+          "en": "We had a meeting at 10 a.m.",
+          "prompt": "What happened at 10?",
+          "options": [
+            "They had a meeting.",
+            "They saw a meeting room.",
+            "They were in a meeting all day."
+          ],
+          "answer": 0,
+          "explain": "[[avons eu]] = had (avoir). Listen for the *z* link: nou-za-vonz-ü."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Regular or irregular? Think of the infinitive first, then the participle.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match each infinitive with its participle.",
+          "pairs": [
+            [
+              "prendre",
+              "pris"
+            ],
+            [
+              "voir",
+              "vu"
+            ],
+            [
+              "mettre",
+              "mis"
+            ],
+            [
+              "boire",
+              "bu"
+            ],
+            [
+              "faire",
+              "fait"
+            ],
+            [
+              "ouvrir",
+              "ouvert"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Hier soir, j'ai ___ un livre et j'ai ___ un thé. (lire, boire)",
+          "answers": [
+            [
+              "lu"
+            ],
+            [
+              "bu"
+            ]
+          ],
+          "en": "Last night I read a book and drank a tea.",
+          "explain": "lire → lu, boire → bu."
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence means “It was cold on Saturday”?",
+          "options": [
+            "Samedi, il a fait froid.",
+            "Samedi, il a été froid.",
+            "Samedi, il fait froid.",
+            "Samedi, il a eu froid."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "Weather uses faire, not être: il a fait froid.",
+            "That is the present: it is cold.",
+            "il a eu froid = he felt cold (a person)."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "We took the metro and we waited for the bus. (use nous)",
+          "accept": [
+            "Nous avons pris le métro et nous avons attendu le bus.",
+            "Nous avons pris le métro et nous avons attendu l'autobus.",
+            "Nous avons pris le métro et attendu le bus.",
+            "Nous avons pris le métro et attendu l'autobus."
+          ],
+          "hint": "prendre → pris, attendre → attendu",
+          "explain": "pris is irregular; attendu follows the -re pattern. No word for *for* after attendre."
+        },
+        {
+          "id": "r5",
+          "type": "cloze",
+          "text": "Tu as ___ ta place pour le spectacle ? (choisir)",
+          "answers": [
+            [
+              "choisi"
+            ]
+          ],
+          "en": "Did you choose your seat for the show?",
+          "explain": "-ir → -i: choisir → choisi."
+        },
+        {
+          "id": "r6",
+          "type": "cloze",
+          "text": "Ma mère a ___ : « Tu as ___ à ta grand-mère ? » (dire, écrire)",
+          "answers": [
+            [
+              "dit"
+            ],
+            [
+              "écrit"
+            ]
+          ],
+          "en": "My mother said: “Have you written to your grandmother?”",
+          "explain": "dire → dit, écrire → écrit: both end in a silent t."
+        },
+        {
+          "id": "r7",
+          "type": "translate",
+          "prompt": "I had a long day and I was sick.",
+          "accept": [
+            "J'ai eu une longue journée et j'ai été malade."
+          ],
+          "explain": "[[eu]] = had (avoir), [[été]] = was (être). Don't mix them up."
+        },
+        {
+          "id": "r8",
+          "type": "reorder",
+          "prompt": "They (men) learned French in Montréal.",
+          "accept": [
+            "Ils ont appris le français à Montréal.",
+            "À Montréal, ils ont appris le français."
+          ],
+          "extra": [
+            "apprendu"
+          ],
+          "explain": "apprendre is in the prendre family: appris."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Vous avez vu le match hier ?",
+          "accept": [],
+          "explain": "[[vous avez vu]]: voir → vu. [[hier]] = yesterday."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "Il fait chaud ! J'___ ___ la fenêtre. (ouvrir)",
+          "answers": [
+            [
+              "ai"
+            ],
+            [
+              "ouvert"
+            ]
+          ],
+          "en": "It's hot! I opened the window.",
+          "explain": "ouvrir → ouvert: irregular, ends in a pronounced *r* sound + silent t."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Tell a colleague about yesterday evening or last Sunday. Use at least four different participles from this lesson.",
+          "seconds": 35,
+          "checklist": [
+            "At least four irregular or -ir/-re participles",
+            "One weather sentence: il a fait…",
+            "One drink or meal: j'ai bu / j'ai pris…",
+            "One thing you read, watched or wrote"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Dimanche, il a fait froid, alors j'ai passé la journée à la maison. J'ai lu un roman, j'ai bu beaucoup de thé et j'ai écrit à mes parents. Le soir, j'ai vu un film avec ma coloc. Et toi, tu as fait quoi ?",
+              "en": "On Sunday it was cold, so I spent the day at home. I read a novel, drank lots of tea and wrote to my parents. In the evening, I watched a movie with my roommate. And you, what did you do?"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a short text message to a friend about your Saturday: what the weather was like, how you got around, and three things you did.",
+          "wordRange": [
+            25,
+            55
+          ],
+          "checklist": [
+            "Weather: il a fait…",
+            "Transport: j'ai pris…",
+            "Three different participles, at least two irregular",
+            "A question at the end"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Lucie ! Samedi, il a fait super beau. J'ai pris mon vélo et j'ai fait le tour du parc La Fontaine. Après, j'ai bu un café et j'ai lu le journal sur une terrasse. Et toi, tu as vu le spectacle ?",
+              "en": "Hi Lucie! On Saturday the weather was great. I took my bike and rode around La Fontaine Park. Afterwards I had a coffee and read the paper on a patio. And you, did you see the show?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Make participles of **-ir** verbs ([[fini]]) and **-re** verbs ([[attendu]])\n- Use the key irregular participles: [[fait, pris, vu, eu, été, bu, lu, mis, dit, écrit, ouvert]]\n- Talk about past weather: [[il a fait beau, il a fait froid]]\n- Ask [[Ça a été ?]] (How did it go?)",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Removed plural accepts (des chocolats chauds) for “a hot chocolate”. Fixed the sound grouping: fait is pronounced fè, not -it. Added the fronted order to reorder r8."
+  }
+}

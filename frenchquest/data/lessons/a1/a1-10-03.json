@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-10-03",
+  "level": "a1",
+  "unit": "a1-10",
+  "title": "What I'm going to do",
+  "goal": "Talk about your plans with aller + infinitive, say when, and say what you're not going to do.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-futur-proche", "kind": "grammar", "fr": "aller + infinitif", "en": "the near future: going to + verb",
+      "drills": [
+        { "type": "cloze", "text": "Demain, nous ___ visiter Québec.", "answers": [["allons"]], "en": "Tomorrow we're going to visit Québec City.", "explain": "nous → allons, then the infinitive visiter." },
+        { "type": "cloze", "text": "Ce soir, ils ___ regarder un film.", "answers": [["vont"]], "en": "Tonight they're going to watch a movie.", "explain": "ils → vont (not font!)." },
+        { "type": "translate", "prompt": "She's going to work on Saturday.", "accept": ["Elle va travailler samedi.", "Samedi, elle va travailler.", "Samedi elle va travailler."], "explain": "elle va + infinitive travailler." }
+      ] },
+    { "id": "g-futur-proche-neg", "kind": "grammar", "fr": "ne + aller + pas + infinitif", "en": "the negative near future: not going to + verb",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ vais ___ travailler demain.", "answers": [["ne"], ["pas"]], "en": "I'm not going to work tomorrow.", "explain": "ne… pas goes around the form of aller." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Je ne vais pas travailler.", "Je vais ne pas travailler.", "Je ne vais travailler pas.", "Je ne pas vais travailler."], "optionsFr": true, "answer": 0, "explain": "ne + vais + pas, then the infinitive." },
+        { "type": "translate", "prompt": "We're not going to eat at home tonight.", "accept": ["Nous n'allons pas manger à la maison ce soir.", "On ne va pas manger à la maison ce soir.", "Ce soir, nous n'allons pas manger à la maison.", "Ce soir, on ne va pas manger à la maison.", "Ce soir nous n'allons pas manger à la maison.", "Ce soir on ne va pas manger à la maison."], "explain": "ne becomes n' before allons: nous n'allons pas." }
+      ] },
+    { "id": "ce-soir", "kind": "phrase", "fr": "ce soir", "en": "tonight, this evening" },
+    { "id": "ce-week-end", "kind": "phrase", "fr": "ce week-end", "en": "this weekend", "accept": ["cette fin de semaine"], "note": "In Québec: cette fin de semaine." },
+    { "id": "semaine-prochaine", "kind": "phrase", "fr": "la semaine prochaine", "en": "next week" },
+    { "id": "mois-prochain", "kind": "phrase", "fr": "le mois prochain", "en": "next month" },
+    { "id": "annee-prochaine", "kind": "phrase", "fr": "l'année prochaine", "en": "next year" },
+    { "id": "bientot", "kind": "vocab", "fr": "bientôt", "en": "soon", "pos": "adverb",
+      "example": { "fr": "Je vais bientôt commencer un nouveau travail.", "en": "I'm soon going to start a new job." } },
+    { "id": "qu-est-ce-que-tu-vas-faire", "kind": "phrase", "fr": "Qu'est-ce que tu vas faire ?", "en": "What are you going to do? (to a friend)",
+      "accept": ["Tu vas faire quoi ?", "Que vas-tu faire ?"] },
+    { "id": "se-reposer", "kind": "vocab", "fr": "se reposer", "en": "to rest", "pos": "verb",
+      "example": { "fr": "Dimanche, je vais me reposer.", "en": "On Sunday, I'm going to rest." } },
+    { "id": "faire-le-menage", "kind": "phrase", "fr": "faire le ménage", "en": "to clean the house, to do the housework" },
+    { "id": "felicitations", "kind": "phrase", "fr": "Félicitations !", "en": "Congratulations!" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Weekend plans",
+      "blocks": [
+        { "type": "dialogue", "title": "Friday afternoon at work in Ottawa",
+          "context": "Mei and Olivier talk about their plans before the weekend.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Alors, Mei, qu'est-ce que tu vas faire ce week-end ?", "en": "So, Mei, what are you going to do this weekend?" },
+            { "speaker": "Mei", "fr": "Samedi, je vais faire du ski avec mes enfants. Il va faire beau !", "en": "On Saturday, I'm going to go skiing with my kids. The weather's going to be nice!" },
+            { "speaker": "Olivier", "fr": "Super ! Et dimanche ?", "en": "Great! And Sunday?" },
+            { "speaker": "Mei", "fr": "Dimanche, je vais rester à la maison. Je vais faire le ménage, et après, je vais me reposer. Et toi ?", "en": "On Sunday, I'm going to stay home. I'm going to clean the house, and after that I'm going to rest. And you?" },
+            { "speaker": "Olivier", "fr": "Moi, je vais aller à Montréal. Mon frère va fêter ses quarante ans.", "en": "I'm going to go to Montréal. My brother is going to celebrate his fortieth birthday." },
+            { "speaker": "Mei", "fr": "Ah, c'est bien ! Tu vas prendre le train ?", "en": "Oh, that's nice! Are you going to take the train?" },
+            { "speaker": "Olivier", "fr": "Non, nous allons prendre la voiture. Et la semaine prochaine, je vais commencer un nouveau travail !", "en": "No, we're going to take the car. And next week, I'm going to start a new job!" },
+            { "speaker": "Mei", "fr": "C'est vrai ? Félicitations ! Tu vas travailler où ?", "en": "Really? Congratulations! Where are you going to work?" },
+            { "speaker": "Olivier", "fr": "À Gatineau, dans une école. Mais je ne vais pas changer d'appartement : je vais rester à Ottawa.", "en": "In Gatineau, in a school. But I'm not going to change apartments: I'm going to stay in Ottawa." },
+            { "speaker": "Mei", "fr": "Bonne fin de semaine, Olivier !", "en": "Have a good weekend, Olivier!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for [[vais]], [[va]], [[allons]] followed by a second verb. Each one is a plan." }
+      ] },
+    { "type": "understand", "title": "The near future",
+      "blocks": [
+        { "type": "explain", "title": "Aller + infinitive = going to",
+          "body": "You already know [[aller]] (to go). Put an **infinitive** after it and you get the near future, exactly like English “going to”: [[Je vais travailler.]] = I'm going to work.\n\nFrench speakers use it all the time for plans and for things that are about to happen. In conversation it is far more common than the “real” future tense, so you can already talk about the future with one verb you know." },
+        { "type": "table", "title": "Aller + travailler",
+          "head": ["", "aller + infinitive", "English"],
+          "rows": [
+            ["je", "vais travailler", "I'm going to work"],
+            ["tu", "vas travailler", "you're going to work (friend)"],
+            ["il / elle / on", "va travailler", "he / she is going to work (on: we're going to work)"],
+            ["nous", "allons travailler", "we're going to work"],
+            ["vous", "allez travailler", "you're going to work (formal or plural)"],
+            ["ils / elles", "vont travailler", "they're going to work"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Only [[aller]] changes. The second verb stays in the infinitive. You can even say [[je vais aller]] (I'm going to go)." },
+        { "type": "pattern", "title": "Saying when",
+          "pattern": "time marker + sujet + aller + infinitif",
+          "note": "Put the time marker at the **start** or at the **end**: [[Ce soir, je vais cuisiner.]] = [[Je vais cuisiner ce soir.]]\n\nUseful markers: [[ce soir]], [[demain]], [[demain matin]], [[ce week-end]], [[la semaine prochaine]], [[le mois prochain]], [[l'année prochaine]], [[bientôt]].",
+          "examples": [
+            { "fr": "Demain matin, je vais faire du sport.", "en": "Tomorrow morning, I'm going to exercise." },
+            { "fr": "Nous allons visiter Vancouver l'année prochaine.", "en": "We're going to visit Vancouver next year." },
+            { "fr": "Il va neiger ce week-end.", "en": "It's going to snow this weekend." },
+            { "fr": "Tu vas te coucher tôt ce soir ?", "en": "Are you going to go to bed early tonight?" }
+          ] },
+        { "type": "explain", "title": "Negatives and questions",
+          "body": "**Negative:** [[ne… pas]] goes around the form of *aller*: [[Je ne vais pas travailler.]] [[Nous n'allons pas sortir.]] (We're not going to go out. *ne* → *n'* before a vowel.)\n\n**Questions**, in three registers, as in lesson 1:\n\n- [[Tu vas faire quoi ce soir ?]] (informal)\n- [[Qu'est-ce que tu vas faire ce soir ?]] (neutral)\n- [[Que vas-tu faire ce soir ?]] (formal)\n\n**Reflexive verbs:** the little pronoun matches the subject and sits right before the infinitive: [[je vais me reposer]], [[tu vas te reposer]], [[elle va se reposer]]." },
+        { "type": "vocab", "title": "Words and phrases in this lesson", "itemIds": ["ce-soir", "ce-week-end", "semaine-prochaine", "mois-prochain", "annee-prochaine", "bientot", "qu-est-ce-que-tu-vas-faire", "se-reposer", "faire-le-menage", "felicitations"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Infinitive, not a conjugated verb:** [[Je vais travailler]], not *je vais travaille*.\n- **No preposition:** not *je vais à travailler*.\n- **Negation around aller:** [[Je ne vais pas manger]], not *je vais ne pas manger*.\n- **ils vont, not ils font:** [[Ils vont jouer]] (they're going to play) ≠ [[Ils font du sport]] (they do sports).\n- **Prochain agrees:** [[le mois prochain]], but [[la semaine prochaine]] and [[l'année prochaine]] (feminine).\n- **demain matin**, with no article: not *demain le matin*." },
+        { "type": "deepdive", "kind": "examples", "title": "The weather forecast",
+          "body": "Weather forecasts use the near future all the time. Combine it with the weather phrases you know:",
+          "examples": [
+            { "fr": "Demain, il va faire froid.", "en": "Tomorrow it's going to be cold." },
+            { "fr": "Il va pleuvoir ce soir.", "en": "It's going to rain tonight." },
+            { "fr": "Ce week-end, il va faire beau et chaud.", "en": "This weekend it's going to be nice and warm." }
+          ] },
+        { "type": "deepdive", "kind": "canada",
+          "body": "- In Québec, **the weekend** is usually [[la fin de semaine]]: [[Qu'est-ce que tu vas faire en fin de semaine ?]] and on Friday everyone says [[Bonne fin de semaine !]]\n- [[Tantôt]] in Québec means **a little later today** (or a little earlier today, depending on the verb tense): [[Je vais faire le ménage tantôt.]] = I'm going to clean later.\n- In relaxed Québec speech you'll hear [[à soir]] for *ce soir*: [[On va au cinéma à soir ?]] Recognize it, but write [[ce soir]].",
+          "examples": [ { "fr": "Je vais faire l'épicerie tantôt.", "en": "I'm going to do the grocery shopping later today. (Québec)" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Je vais travailler.", "en": "I'm going to work.", "tip": "vais sounds like the è in très." },
+            { "fr": "Tu vas faire quoi ce soir ?", "en": "What are you going to do tonight?" },
+            { "fr": "Nous allons prendre la voiture.", "en": "We're going to take the car.", "tip": "nous‿allons: link with a z sound." },
+            { "fr": "Ils vont se reposer.", "en": "They're going to rest.", "tip": "vont starts with v; font starts with f." },
+            { "fr": "Je ne vais pas travailler demain.", "en": "I'm not going to work tomorrow." },
+            { "fr": "Il va faire beau ce week-end.", "en": "The weather's going to be nice this weekend." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils vont faire du vélo.", "en": "They're going to go cycling.", "prompt": "What do you hear?", "options": ["They're going to go cycling", "They go cycling", "They don't go cycling"], "answer": 0, "explain": "[[vont]] (v) + infinitive = a plan. [[Ils font du vélo]] (f) would be the present." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je ne vais pas travailler demain. Je vais me reposer.", "en": "I'm not going to work tomorrow. I'm going to rest.", "prompt": "What is the speaker's plan for tomorrow?", "options": ["To rest", "To work", "To clean the house"], "answer": 0, "explain": "[[je ne vais pas travailler]] = not going to work; [[je vais me reposer]] = going to rest." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Ce week-end, je ___ faire du ski.", "answers": [["vais"]], "choices": ["vais", "va", "vas", "allons"], "en": "This weekend I'm going to go skiing.", "explain": "je → vais." },
+        { "id": "r2", "type": "cloze", "text": "Mes parents ___ visiter Toronto le mois prochain.", "answers": [["vont"]], "choices": ["vont", "font", "va", "allez"], "en": "My parents are going to visit Toronto next month.", "explain": "mes parents = ils → vont." },
+        { "id": "r3", "type": "translate", "prompt": "I'm going to work tomorrow.", "accept": ["Je vais travailler demain.", "Demain, je vais travailler.", "Demain je vais travailler."], "explain": "je vais + infinitive travailler." },
+        { "id": "r4", "type": "translate", "prompt": "We're not going to eat at the restaurant tonight.", "accept": ["Nous n'allons pas manger au restaurant ce soir.", "On ne va pas manger au restaurant ce soir.", "Ce soir, nous n'allons pas manger au restaurant.", "Ce soir, on ne va pas manger au restaurant.", "Ce soir nous n'allons pas manger au restaurant.", "Ce soir on ne va pas manger au restaurant."], "hint": "ne… pas around aller", "explain": "nous n'allons pas / on ne va pas + manger. à + le restaurant = au restaurant." },
+        { "id": "r5", "type": "reorder", "prompt": "She's going to rest this weekend.", "accept": ["Elle va se reposer ce week-end", "Ce week-end elle va se reposer"], "extra": ["vont", "te"], "explain": "elle va + se reposer: the pronoun se matches elle." },
+        { "id": "r6", "type": "match", "prompt": "Match the time markers.", "pairs": [["ce soir", "tonight"], ["demain matin", "tomorrow morning"], ["la semaine prochaine", "next week"], ["l'année prochaine", "next year"], ["bientôt", "soon"]] },
+        { "id": "r7", "type": "mcq", "prompt": "A friend asks “Tu vas faire quoi samedi ?” Which answer fits?", "options": ["Je vais faire le ménage.", "Je fais le ménage hier.", "Je vais le ménage.", "Je vais à faire le ménage."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "hier (yesterday) doesn't fit a plan for Saturday.", "A verb is missing after vais: faire.", "No à between aller and the infinitive."] },
+        { "id": "r8", "type": "listen-mcq", "fr": "La semaine prochaine, je vais commencer un nouveau travail.", "en": "Next week I'm going to start a new job.", "prompt": "When does the new job start?", "options": ["Next week", "Next month", "Tomorrow"], "answer": 0, "explain": "[[la semaine prochaine]] = next week." },
+        { "id": "r9", "type": "cloze", "text": "Demain, je vais ___ lever à six heures.", "answers": [["me"]], "choices": ["me", "se", "te"], "en": "Tomorrow I'm going to get up at six.", "explain": "The reflexive pronoun matches je: je vais me lever." },
+        { "id": "r10", "type": "dictation", "fr": "Qu'est-ce que tu vas faire ce soir ?", "accept": [], "explain": "qu'est-ce que + tu vas + faire." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Talk about your plans: tonight, this weekend, next week and next year. Say one thing you are NOT going to do.", "seconds": 40,
+          "checklist": ["Four time markers", "aller + infinitive in each sentence", "One sentence with ne… pas", "A question at the end: Et toi ?"],
+          "models": [ { "label": "Model answer", "fr": "Ce soir, je vais cuisiner et je vais regarder un film. Ce week-end, je ne vais pas travailler : je vais faire du vélo avec ma fille. La semaine prochaine, je vais commencer un cours de français. Et l'année prochaine, nous allons visiter Québec. Et toi, qu'est-ce que tu vas faire ce week-end ?", "en": "Tonight I'm going to cook and watch a movie. This weekend I'm not going to work: I'm going to go cycling with my daughter. Next week I'm going to start a French class. And next year we're going to visit Québec City. And you, what are you going to do this weekend?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a message to a friend about your plans for the weekend: two things you're going to do, one thing you're not going to do, and a question about their plans.", "wordRange": [20, 50],
+          "checklist": ["Two plans with aller + infinitive", "One plan with ne… pas", "A time marker", "A question for your friend"],
+          "models": [ { "label": "Model answer", "fr": "Salut Amira ! Samedi matin, je vais faire le ménage. Samedi soir, je vais manger au restaurant avec mon mari. Dimanche, je ne vais pas sortir : je vais me reposer ! Et toi, tu vas faire quoi en fin de semaine ?", "en": "Hi Amira! On Saturday morning I'm going to clean the house. On Saturday evening I'm going to eat at a restaurant with my husband. On Sunday I'm not going to go out: I'm going to rest! And you, what are you going to do this weekend?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Talk about plans with [[aller + infinitif]]: [[je vais travailler, nous allons visiter Québec]]\n- Say when: [[ce soir, demain, ce week-end, la semaine prochaine, l'année prochaine]]\n- Say what you're not going to do: [[Je ne vais pas travailler.]] and ask [[Qu'est-ce que tu vas faire ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the English glosses in the aller table (il/elle/on row; vous = formal or plural). Added no-comma variants to one drill's accept list. Grammar otherwise correct." }
+}

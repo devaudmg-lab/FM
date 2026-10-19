@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-01-01",
+  "level": "a1",
+  "unit": "a1-01",
+  "title": "Bonjour! Greetings and politeness",
+  "goal": "Greet people at any time of day, ask how they are, say please and thank you, and choose between tu and vous.",
+  "minutes": 11,
+  "items": [
+    { "id": "bonjour", "kind": "vocab", "fr": "bonjour", "en": "hello (polite, during the day)", "pos": "interjection",
+      "example": { "fr": "Bonjour, madame !", "en": "Hello, madam!" },
+      "note": "The safe greeting for everyone, from morning until early evening." },
+    { "id": "bonsoir", "kind": "vocab", "fr": "bonsoir", "en": "good evening (as a greeting)", "pos": "interjection",
+      "example": { "fr": "Bonsoir, monsieur.", "en": "Good evening, sir." },
+      "note": "Use it when you arrive somewhere in the evening, from about 6 p.m." },
+    { "id": "salut", "kind": "vocab", "fr": "salut", "en": "hi / bye (informal)", "pos": "interjection",
+      "example": { "fr": "Salut, Alex !", "en": "Hi, Alex!" },
+      "note": "Only with friends, family and people your age. The t is silent." },
+    { "id": "au-revoir", "kind": "phrase", "fr": "au revoir", "en": "goodbye",
+      "example": { "fr": "Au revoir, madame.", "en": "Goodbye, madam." } },
+    { "id": "a-bientot", "kind": "phrase", "fr": "à bientôt", "en": "see you soon",
+      "example": { "fr": "Merci ! À bientôt !", "en": "Thanks! See you soon!" } },
+    { "id": "merci", "kind": "vocab", "fr": "merci", "en": "thank you / thanks", "pos": "interjection",
+      "example": { "fr": "Merci, monsieur.", "en": "Thank you, sir." } },
+    { "id": "svp", "kind": "phrase", "fr": "s'il vous plaît", "en": "please (formal, or to several people)",
+      "example": { "fr": "Un café, s'il vous plaît.", "en": "A coffee, please." } },
+    { "id": "stp", "kind": "phrase", "fr": "s'il te plaît", "en": "please (to a friend)",
+      "example": { "fr": "Sofia, s'il te plaît !", "en": "Sofia, please!" } },
+    { "id": "ca-va", "kind": "phrase", "fr": "Ça va ?", "en": "How are you? / How's it going? (informal)", "accept": ["Ça va", "Comment ça va ?"],
+      "note": "The answer uses the same words: Ça va ! (I'm fine!)" },
+    { "id": "comment-allez-vous", "kind": "phrase", "fr": "Comment allez-vous ?", "en": "How are you? (formal)", "accept": ["Comment allez-vous"],
+      "note": "Polite: for people you don't know well, at work, or for more than one person." },
+    { "id": "tres-bien-merci", "kind": "phrase", "fr": "Très bien, merci.", "en": "Very well, thank you.", "accept": ["Merci, très bien.", "Très bien merci", "Ça va très bien, merci."] },
+    { "id": "et-vous", "kind": "phrase", "fr": "Et vous ?", "en": "And you? (formal)" },
+    { "id": "et-toi", "kind": "phrase", "fr": "Et toi ?", "en": "And you? (to a friend)" },
+    { "id": "g-tu-vous", "kind": "grammar", "fr": "tu / vous", "en": "two ways to say “you”: tu (friend) and vous (polite or plural)",
+      "drills": [
+        { "type": "mcq", "prompt": "You meet your new landlord for the first time. How do you ask how he is?", "options": ["Comment allez-vous ?", "Salut ! Ça va ?", "Et toi ?"], "optionsFr": true, "answer": 0, "explain": "A landlord is not a friend: use the polite vous form." },
+        { "type": "mcq", "prompt": "You are talking to two friends at the same time. How do you say “And you?”", "options": ["Et vous ?", "Et toi ?", "Et tu ?"], "optionsFr": true, "answer": 0, "explain": "Vous is always used for more than one person, even friends." },
+        { "type": "cloze", "text": "Merci, madame. S'il ___ plaît.", "answers": [["vous"]], "choices": ["vous", "te", "tu"], "en": "Thank you, madam. Please.", "explain": "With madame (polite), say s'il vous plaît." }
+      ] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Your first hellos",
+      "blocks": [
+        { "type": "dialogue", "title": "Morning, at a community centre in Montréal",
+          "context": "Raj, a newcomer, arrives at the front desk. Lucie works there.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Bonjour, monsieur !", "en": "Hello, sir!" },
+            { "speaker": "Raj", "fr": "Bonjour, madame. Comment allez-vous ?", "en": "Hello, madam. How are you?" },
+            { "speaker": "Lucie", "fr": "Très bien, merci. Et vous ?", "en": "Very well, thank you. And you?" },
+            { "speaker": "Raj", "fr": "Très bien, merci.", "en": "Very well, thank you." }
+          ] },
+        { "type": "dialogue", "title": "Evening, two friends at a café",
+          "context": "Alex and Sofia are friends.",
+          "lines": [
+            { "speaker": "Alex", "fr": "Salut, Sofia ! Ça va ?", "en": "Hi, Sofia! How's it going?" },
+            { "speaker": "Sofia", "fr": "Ça va bien, merci. Et toi ?", "en": "I'm good, thanks. And you?" },
+            { "speaker": "Alex", "fr": "Ça va !", "en": "I'm fine!" },
+            { "speaker": "Sofia", "fr": "Bon, au revoir, Alex ! À bientôt !", "en": "Well, goodbye, Alex! See you soon!" },
+            { "speaker": "Alex", "fr": "Salut !", "en": "Bye!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Play each line and listen first. Notice: Raj and Lucie are polite (**vous**), Alex and Sofia are friends (**toi**)." }
+      ] },
+    { "type": "understand", "title": "Hello, goodbye, please, thank you",
+      "blocks": [
+        { "type": "explain", "title": "Greetings change with the time and the person",
+          "body": "- [[Bonjour]] is your all-day greeting. It works with everyone: a bus driver, a doctor, a friend.\n- [[Bonsoir]] replaces bonjour when you **arrive** somewhere in the evening (from about 6 p.m.).\n- [[Salut]] means both *hi* and *bye*, but **only with friends**.\n- [[Au revoir]] is *goodbye*; [[À bientôt]] is *see you soon*.\n\nAdd [[monsieur]] (sir) or [[madame]] (madam) to sound polite: [[Bonjour, madame.]] This is very normal in French, not old-fashioned." },
+        { "type": "table", "title": "Your survival kit",
+          "head": ["French", "English", "Use it with"],
+          "rows": [
+            ["bonjour", "hello", "everyone, during the day"],
+            ["bonsoir", "good evening", "everyone, in the evening"],
+            ["salut", "hi / bye", "friends only"],
+            ["au revoir", "goodbye", "everyone"],
+            ["à bientôt", "see you soon", "everyone"],
+            ["merci", "thank you", "everyone"],
+            ["s'il vous plaît", "please", "polite, or several people"],
+            ["s'il te plaît", "please", "one friend"]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "explain", "title": "Tu or vous? Two ways to say “you”",
+          "body": "English has one *you*. French has two:\n\n- **tu**: one person you know well: a friend, a family member, a child.\n- **vous**: one person you don't know well (a shop clerk, your boss, an older stranger), **or** any group of two or more people.\n\nThe little words around them change too: [[s'il te plaît]] / [[s'il vous plaît]], [[Et toi ?]] / [[Et vous ?]].\n\n**Tip:** when you are not sure, choose **vous**. It is never rude. People will tell you if they want **tu**." },
+        { "type": "pattern", "title": "Asking how someone is",
+          "pattern": "Ça va ? → Ça va ! · Comment allez-vous ? → Très bien, merci. Et vous ?",
+          "note": "[[Ça va ?]] is relaxed: with a rising voice it is a question, with a falling voice it is the answer. [[Comment allez-vous ?]] is polite.",
+          "examples": [
+            { "fr": "Ça va ? — Ça va, merci. Et toi ?", "en": "How's it going? — Fine, thanks. And you?" },
+            { "fr": "Comment allez-vous ? — Très bien, merci. Et vous ?", "en": "How are you? — Very well, thank you. And you?" }
+          ] },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["bonjour", "bonsoir", "salut", "au-revoir", "a-bientot", "merci", "svp", "stp", "ca-va", "comment-allez-vous", "tres-bien-merci", "et-vous", "et-toi"] },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "- [[bonjour]]: the *on* is a **nasal vowel**: say “oh” and let air go through your nose. Don't pronounce an n. The *j* sounds like the *s* in “measure”.\n- The French **r** is made at the back of the throat, like a soft gargle: [[bonsoir]], [[merci]], [[au revoir]].\n- [[merci]] sounds like “mair-see”, not “mur-see”.\n- [[s'il vous plaît]] sounds like “seel voo pleh”: the *s* of vous and the *t* of plaît are **silent**.\n- [[salut]]: the *t* is silent too. You will practise the *u* sound in lesson 3.\n- [[ça]]: the little hook under the c (ç) makes it sound like *s*.",
+          "examples": [ { "fr": "Bonjour", "en": "Hello" }, { "fr": "S'il vous plaît", "en": "Please (formal)" } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Bonne nuit** means *good night* only when someone goes to bed. Don't use it as a greeting in the evening: say [[Bonsoir]].\n- **Salut with a stranger** sounds too casual. With your boss or a clerk, say [[Bonjour]].\n- **“Et tu ?”** is wrong. After *et*, say [[Et toi ?]] (or [[Et vous ?]]).\n- **“I'm good”**: don't translate word for word. Answer [[Ça va !]] or [[Très bien, merci.]]" },
+        { "type": "deepdive", "kind": "culture",
+          "body": "In French-speaking places, **saying hello is not optional.** Before you ask anything (in a shop, at a counter, on the bus), start with [[Bonjour]] or [[Bonjour, madame / monsieur]]. Asking a question without it can sound rude.\n\nFriends often greet each other with *la bise* (a light kiss on each cheek), in France and in Québec. With new people and at work, a handshake is normal." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "A few things you will hear in Québec and other French-speaking parts of Canada:\n\n- You'll often hear [[Bonjour !]] as a **goodbye** too, when you leave a shop: there it means “have a good day”. This varies from person to person.\n- [[Bonne journée !]] (have a nice day) and [[Bonne soirée !]] (have a nice evening) are very common goodbyes.\n- [[Allô !]] is how people answer the phone, and also a friendly *hi*.\n- When you say [[merci]], you will often hear [[Bienvenue !]], which here means **you're welcome**. [[De rien.]] is also common, and it is what people usually say in France.\n- In Montréal shops you may hear [[Bonjour, hi !]]: the clerk lets you choose French or English. Answer [[Bonjour !]] and you will get French.\n- **Tu** is used more often and more quickly in Québec than in France, even at work. Still, start with **vous** with strangers and older people.",
+          "examples": [ { "fr": "Merci ! — Bienvenue !", "en": "Thank you! — You're welcome! (Québec)" }, { "fr": "Bonne journée !", "en": "Have a nice day!" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud. Record yourself and compare with the model.",
+          "lines": [
+            { "fr": "Bonjour !", "en": "Hello!", "tip": "No n sound at the end of bon-: it's a nasal vowel." },
+            { "fr": "Bonsoir !", "en": "Good evening!", "tip": "soir sounds like “swahr”, with a soft throat r." },
+            { "fr": "Salut !", "en": "Hi! / Bye!", "tip": "The t is silent." },
+            { "fr": "Merci !", "en": "Thank you!", "tip": "“mair-see”." },
+            { "fr": "S'il vous plaît.", "en": "Please. (formal)", "tip": "“seel voo pleh”." },
+            { "fr": "Comment allez-vous ?", "en": "How are you? (formal)", "tip": "The t of comment links to allez: “ko-man-ta-lay-voo”." },
+            { "fr": "Ça va ?", "en": "How's it going?", "tip": "Make your voice go up for the question." },
+            { "fr": "Au revoir ! À bientôt !", "en": "Goodbye! See you soon!", "tip": "au = “oh”. bientôt = “byan-toh”, with no n sound." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bonsoir, madame.", "en": "Good evening, madam.", "prompt": "What time of day is it probably?", "options": ["Evening", "Morning", "Bedtime"], "answer": 0, "explain": "[[Bonsoir]] is the evening greeting. At bedtime you would hear bonne nuit." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Salut ! Ça va ?", "en": "Hi! How's it going?", "prompt": "Who is probably talking?", "options": ["Two friends", "A client and a bank employee", "Two strangers on the street"], "answer": 0, "explain": "[[Salut]] and [[Ça va ?]] are informal: friends talk like this." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Merci, à bientôt !", "en": "Thanks, see you soon!", "prompt": "What does the speaker say?", "options": ["Thanks, see you soon!", "Please, see you soon!", "Thanks, good evening!"], "answer": 0, "explain": "[[merci]] = thanks, [[à bientôt]] = see you soon." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Mistakes now help you remember later.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "It's 8 p.m. You walk into a restaurant and greet the waitress. You say…", "options": ["Bonsoir, madame.", "Bonne nuit, madame.", "Salut, madame."], "optionsFr": true, "answer": 0,
+          "explain": "When you arrive in the evening, use bonsoir. Add madame to be polite.",
+          "optionFeedback": [null, "Bonne nuit is only for bedtime.", "Salut is for friends, and it doesn't go with madame."] },
+        { "id": "r2", "type": "cloze", "text": "Comment allez-___ ?", "answers": [["vous"]], "choices": ["vous", "tu", "toi"], "en": "How are you? (formal)", "explain": "The polite question is Comment allez-vous ?" },
+        { "id": "r3", "type": "translate", "prompt": "Thank you, madam.", "accept": ["Merci, madame.", "Merci madame"], "explain": "merci = thank you; madame = madam (no capital letter)." },
+        { "id": "r4", "type": "match", "prompt": "Match the French and the English.", "pairs": [["bonjour", "hello"], ["bonsoir", "good evening"], ["salut", "hi / bye (friends)"], ["au revoir", "goodbye"], ["à bientôt", "see you soon"]] },
+        { "id": "r5", "type": "translate", "prompt": "Please (to a friend).", "accept": ["S'il te plaît.", "S'il te plait"], "hint": "With a friend, use te.", "explain": "To one friend: s'il te plaît. To a stranger or a group: s'il vous plaît." },
+        { "id": "r6", "type": "reorder", "prompt": "Very well, thank you. And you? (formal)", "accept": ["Très bien, merci. Et vous ?", "Merci, très bien. Et vous ?"], "extra": ["toi"], "explain": "Formal → Et vous ? (Et toi ? is for a friend.)" },
+        { "id": "r7", "type": "cloze", "text": "Salut, Karim ! Ça ___ ?", "answers": [["va"]], "choices": ["va", "vous", "bien"], "en": "Hi, Karim! How's it going?", "explain": "Ça va ? is the informal “how are you?”." },
+        { "id": "r8", "type": "dictation", "fr": "Bonsoir, monsieur.", "accept": ["Bonsoir monsieur"], "explain": "[[monsieur]] is spelled with -sieur, but sounds like “muh-syuh”." },
+        { "id": "r9", "type": "dictation", "fr": "À bientôt !", "accept": [], "explain": "[[à]] has a grave accent, [[bientôt]] has a circumflex on the o." },
+        { "id": "r10", "type": "listen-mcq", "fr": "Comment allez-vous ?", "en": "How are you? (formal)", "prompt": "Who is the speaker probably talking to?", "options": ["Someone they don't know well", "A close friend", "Their little brother"], "answer": 0, "explain": "[[Comment allez-vous ?]] uses vous: it is the polite question." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "It's morning. You arrive at the front desk of a community centre. Greet the receptionist politely, ask how she is, answer her, thank her and say goodbye.", "seconds": 30,
+          "checklist": ["Bonjour + madame", "Comment allez-vous ?", "Très bien, merci.", "Merci + a goodbye (Au revoir / À bientôt / Bonne journée)"],
+          "models": [
+            { "label": "Model answer (polite)", "fr": "Bonjour, madame ! Comment allez-vous ? … Très bien, merci. … Merci, madame. Au revoir, bonne journée !", "en": "Hello, madam! How are you? … Very well, thank you. … Thank you, madam. Goodbye, have a nice day!" },
+            { "label": "Same thing with a friend", "fr": "Salut, Sofia ! Ça va ? … Ça va bien, merci. Et toi ? … Salut, à bientôt !", "en": "Hi, Sofia! How's it going? … I'm good, thanks. And you? … Bye, see you soon!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write two tiny exchanges of 2–3 lines each: one with a neighbour you don't know well (vous), and one with a friend (tu).", "wordRange": [8, 30],
+          "checklist": ["A polite greeting with madame or monsieur", "Comment allez-vous ? or Et vous ?", "A friendly greeting with salut", "Ça va ? or Et toi ?"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, monsieur. Comment allez-vous ? — Très bien, merci. Et vous ?\nSalut, Mei ! Ça va ? — Ça va, merci. Et toi ?", "en": "Hello, sir. How are you? — Very well, thank you. And you?\nHi, Mei! How's it going? — Fine, thanks. And you?" } ] }
+      ] }
+  ],
+  "summary": "- Greet people with [[bonjour]], [[bonsoir]] or [[salut]], and leave with [[au revoir]] or [[à bientôt]]\n- Say [[merci]] and [[s'il vous plaît]] / [[s'il te plaît]]\n- Ask [[Ça va ?]] or [[Comment allez-vous ?]] and answer [[Très bien, merci. Et vous ?]]\n- Choose **tu** for a friend and **vous** for politeness or a group",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Hedged the Québec claims (Bonjour as a goodbye, Bienvenue vs De rien). Clarified the bientôt pronunciation tip. No answer-key errors found."}
+}

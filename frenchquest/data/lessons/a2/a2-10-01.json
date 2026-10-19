@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-10-01",
+  "level": "a2",
+  "unit": "a2-10",
+  "title": "Passé composé or imparfait?",
+  "goal": "Choose between the passé composé and the imparfait: events and completed actions in the passé composé, background, ongoing actions and habits in the imparfait.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-event-background", "kind": "grammar", "fr": "passé composé / imparfait", "en": "event (passé composé) vs background (imparfait)",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ (neiger) quand je suis sortie de l'avion.", "answers": [["neigeait"]], "en": "It was snowing when I got off the plane.", "explain": "The snow is the **background**, already going on → imparfait [[neigeait]]. Getting off the plane is the **event** → passé composé." },
+        { "type": "cloze", "text": "Je regardais la télé quand le téléphone ___ (sonner).", "answers": [["a sonné"]], "en": "I was watching TV when the phone rang.", "explain": "The phone ringing interrupts the background action → passé composé [[a sonné]]." },
+        { "type": "mcq", "prompt": "“Yesterday, I visited the Biodôme.”", "options": ["Hier, j'ai visité le Biodôme.", "Hier, je visitais le Biodôme.", "Hier, je visite le Biodôme."], "optionsFr": true, "answer": 0, "explain": "One completed action, at a precise moment → passé composé." },
+        { "type": "translate", "prompt": "I was tired, so I went to bed. (woman speaking)", "accept": ["J'étais fatiguée, alors je me suis couchée.", "J'étais fatiguée, donc je me suis couchée.", "J'étais fatiguée alors je me suis couchée.", "J'étais fatiguée, alors je suis allée me coucher.", "J'étais fatiguée, donc je suis allée me coucher."], "explain": "State → imparfait [[j'étais]]; the action that follows → passé composé [[je me suis couchée]]." }
+      ] },
+    { "id": "g-habit-once", "kind": "grammar", "fr": "je jouais / j'ai joué", "en": "habit in the past (imparfait) vs one time (passé composé)",
+      "drills": [
+        { "type": "cloze", "text": "Quand j'étais petit, je ___ (jouer) au soccer tous les samedis.", "answers": [["jouais"]], "en": "When I was little, I played soccer every Saturday.", "explain": "A habit (*tous les samedis*) → imparfait [[jouais]]." },
+        { "type": "cloze", "text": "Samedi dernier, j'___ (jouer) au soccer avec mes collègues.", "answers": [["ai joué"]], "en": "Last Saturday, I played soccer with my colleagues.", "explain": "One specific time (*samedi dernier*) → passé composé [[ai joué]]." },
+        { "type": "mcq", "prompt": "“I lived in Lyon for three years (then I moved).”", "options": ["J'ai habité à Lyon pendant trois ans.", "J'habitais à Lyon pendant trois ans.", "J'habite à Lyon pendant trois ans."], "optionsFr": true, "answer": 0, "explain": "A **limited, finished** period (*pendant trois ans*) → passé composé." }
+      ] },
+    { "id": "quand-je-suis-arrive", "kind": "phrase", "fr": "Quand je suis arrivé, il neigeait.", "en": "When I arrived, it was snowing.", "accept": ["Quand je suis arrivée, il neigeait.", "Il neigeait quand je suis arrivé.", "Il neigeait quand je suis arrivée."] },
+    { "id": "je-regardais-quand", "kind": "phrase", "fr": "Je dormais quand tu as appelé.", "en": "I was sleeping when you called. (to a friend)", "accept": ["Je dormais quand tu m'as appelé.", "Je dormais quand tu m'as appelée.", "Je dormais quand tu as téléphoné."] },
+    { "id": "un-jour", "kind": "phrase", "fr": "un jour", "en": "one day" },
+    { "id": "ce-jour-la", "kind": "phrase", "fr": "ce jour-là", "en": "that day" },
+    { "id": "tous-les-etes", "kind": "phrase", "fr": "tous les étés", "en": "every summer", "accept": ["chaque été"] },
+    { "id": "une-fois", "kind": "phrase", "fr": "une fois", "en": "once, one time" },
+    { "id": "premiere-fois", "kind": "phrase", "fr": "pour la première fois", "en": "for the first time" },
+    { "id": "j-ai-eu-peur", "kind": "phrase", "fr": "J'ai eu peur.", "en": "I got scared. (a sudden reaction)" },
+    { "id": "j-avais-peur", "kind": "phrase", "fr": "J'avais peur.", "en": "I was scared. (a state, over time)" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Amira's first night in Montréal",
+      "blocks": [
+        { "type": "text", "title": "Mon premier soir au Canada",
+          "context": "Amira writes about the day she arrived from Casablanca.",
+          "fr": "C'était le 3 janvier. Il faisait moins vingt degrés et il neigeait. J'étais fatiguée et un peu stressée. Mon frère m'attendait à l'aéroport.\nQuand je suis sortie de l'avion, j'ai vu la neige pour la première fois ! J'ai pris une photo et j'ai appelé ma mère.\nEnsuite, mon frère et moi, nous avons pris un taxi. Dans le taxi, il faisait chaud, il y avait de la musique québécoise à la radio et le chauffeur parlait très vite. Je ne comprenais rien !\nNous sommes arrivés chez mon frère à minuit. J'ai mangé une soupe et je me suis couchée tout de suite.",
+          "en": "It was January 3rd. It was minus twenty degrees and it was snowing. I was tired and a bit stressed. My brother was waiting for me at the airport. When I got off the plane, I saw snow for the first time! I took a photo and I called my mother. Then my brother and I took a taxi. In the taxi it was warm, there was Québec music on the radio and the driver was talking very fast. I didn't understand anything! We got to my brother's at midnight. I ate some soup and went to bed right away." },
+        { "id": "d1", "type": "mcq", "prompt": "Look at the first paragraph (Il faisait… il neigeait… j'étais… m'attendait). What does it do?", "options": ["It sets the scene: weather, feelings, what was going on", "It lists the things Amira did, one after the other", "It talks about Amira's plans"], "answer": 0,
+          "explain": "Every verb is in the **imparfait**: it's the **background**, like the opening shot of a film." },
+        { "id": "d2", "type": "mcq", "prompt": "And “je suis sortie, j'ai vu, j'ai pris, j'ai appelé”?", "options": ["Events: things that happened, one after another", "Habits: things she did every day", "Descriptions of the airport"], "answer": 0,
+          "explain": "These are in the **passé composé**: each one is a completed event that moves the story forward." }
+      ] },
+    { "type": "understand", "title": "Two past tenses, two jobs",
+      "blocks": [
+        { "type": "explain", "title": "Think of a film",
+          "body": "You know how to **form** both tenses. The question now is **which one** to use. In a story, they do different jobs:\n\n- **The imparfait is the set and the background.** What was it like? What was going on? Weather, time, place, people, feelings, actions in progress, habits. Nothing moves forward.\n- **The passé composé is the action.** What happened? Each verb is a **completed event**, and the story moves one step forward.\n\nAsk yourself: *Is this a description of the situation, or is it something that happened?*" },
+        { "type": "table", "title": "Amira's story on a timeline",
+          "head": ["When", "Background: imparfait (what was going on)", "Events: passé composé (what happened)"],
+          "rows": [
+            ["Before", "Il faisait moins vingt. Il neigeait. Mon frère m'attendait.", "—"],
+            ["11 p.m.", "J'étais fatiguée.", "Je suis sortie de l'avion. J'ai vu la neige."],
+            ["11:05 p.m.", "—", "J'ai pris une photo. J'ai appelé ma mère."],
+            ["11:30 p.m.", "Il faisait chaud. Le chauffeur parlait vite. Je ne comprenais rien.", "Nous avons pris un taxi."],
+            ["Midnight", "—", "Nous sommes arrivés. J'ai mangé une soupe. Je me suis couchée."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "Read the right-hand column alone: you get the **plot**, a list of events in order. Read the middle column alone: you get the **atmosphere**, but nothing happens. A good story needs both." },
+        { "type": "table", "title": "Which tense? The main uses",
+          "head": ["Imparfait", "Example", "Passé composé", "Example"],
+          "rows": [
+            ["description, scene", "Il faisait beau. La rue était calme.", "a completed event", "J'ai vu un accident."],
+            ["action in progress (was …-ing)", "Je dormais.", "an action that interrupts", "Le téléphone a sonné."],
+            ["habit (used to, would)", "Je jouais au hockey tous les hivers.", "one time, or a counted number of times", "J'ai joué au hockey une fois / trois fois."],
+            ["state, feeling", "J'étais content. J'avais peur.", "a change, a reaction", "J'ai eu peur. J'ai compris."],
+            ["no clear limit", "J'habitais à Rabat.", "a limited, finished period", "J'ai habité à Rabat pendant deux ans."],
+            ["time, age, weather", "Il était minuit. J'avais dix ans.", "a sequence of actions", "Je suis entré, j'ai enlevé mon manteau et je me suis assis."]
+          ],
+          "frCols": [1, 3], "sayCol": false },
+        { "type": "table", "title": "Contrasting pairs: same verb, different message",
+          "head": ["Imparfait", "Passé composé", "The difference"],
+          "rows": [
+            ["Je mangeais quand Karim est arrivé.", "J'ai mangé, puis Karim est arrivé.", "eating in progress vs. finished before he came"],
+            ["Quand j'étais petit, je nageais tous les jours.", "Hier, j'ai nagé une heure.", "habit vs. one time"],
+            ["Il pleuvait quand je suis sorti.", "Il a plu toute la journée.", "background vs. the whole (finished) day"],
+            ["J'avais peur des chiens.", "J'ai eu peur quand le chien a aboyé.", "a lasting state vs. a sudden reaction"],
+            ["Elle habitait à Gatineau.", "Elle a habité à Gatineau de 2015 à 2020.", "background information vs. a closed period"],
+            ["On allait souvent à la plage.", "On est allés à la plage samedi.", "often (habit) vs. last Saturday (once)"],
+            ["Je savais la vérité.", "J'ai su la vérité le lendemain.", "I knew (a state) vs. I found out (the next day)"],
+            ["Le film était long.", "Le film a duré trois heures.", "description vs. a measured, finished duration"]
+          ],
+          "frCols": [0, 1], "sayCol": true },
+        { "type": "table", "title": "Clue words",
+          "head": ["Often with the imparfait", "Often with the passé composé"],
+          "rows": [
+            ["d'habitude, souvent, toujours", "hier, la semaine dernière, un jour"],
+            ["tous les jours, chaque été, le lundi", "ce jour-là, à 8 h, soudain, tout à coup"],
+            ["quand j'étais petit, à l'époque, avant", "une fois, deux fois, pour la première fois"],
+            ["pendant que…", "pendant deux heures, de 2015 à 2020"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "Clue words help, but the **meaning** decides. [[Hier, il faisait beau]] is correct: *hier* is a past-tense clue, but the weather is still a description." },
+        { "type": "deepdive", "kind": "why", "title": "Why English speakers find this hard",
+          "body": "English often uses one form, the simple past, for both jobs: *I lived in Lyon* can be background (**j'habitais**) or a closed period (**j'ai habité**). So translate the **idea**, not the words. Two quick tests:\n\n- If you can say *was / were …-ing* in English, use the **imparfait**: *I was sleeping* → [[je dormais]].\n- If you can say *used to* or *would* (for a habit), use the **imparfait**: *We would go to the lake every summer* → [[On allait au lac tous les étés]].\n\nIf the action is a **step in the story** (*and then…*), use the **passé composé**.",
+          "examples": [
+            { "fr": "Je travaillais dans un restaurant quand j'ai rencontré ma femme.", "en": "I was working in a restaurant when I met my wife." },
+            { "fr": "Le dimanche, on mangeait chez ma grand-mère.", "en": "On Sundays, we would eat at my grandmother's." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Being and having are usually background.** *Quand j'ai été petit* → [[Quand j'étais petit]]. *J'ai eu dix ans* (only if you mean the birthday!) → [[J'avais dix ans]].\n- **The weather as decor:** *Quand je suis arrivé, il a fait froid* → [[Quand je suis arrivé, il faisait froid]].\n- **A single event in the imparfait:** *Hier, j'allais au cinéma* → [[Hier, je suis allé au cinéma]].\n- **Limited durations take the passé composé:** *J'attendais pendant deux heures* → [[J'ai attendu pendant deux heures]].\n- **Don't switch for no reason.** A list of actions one after the other stays in the passé composé: [[Je me suis levé, j'ai pris une douche et je suis parti.]]" },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Hear the difference",
+          "body": "With -er verbs, [[je parlais]] (imparfait) and [[j'ai parlé]] (passé composé) can sound close. Listen for two clues:\n\n- the **[[ai]]** of avoir before the participle: [[j'ai parlé]] has an extra *é* sound at the start: *jé-par-lé*.\n- the final vowel: [[-ais]] is more open (*è*, like *bet*), [[-é]] is closed (*é*, like *café*).\n\nMany Québec speakers tend to keep the two vowels quite distinct, while in much of France they are often very close or even identical. This varies from speaker to speaker, so the safest clue is the start of the verb: [[je mangeais]] vs [[j'ai mangé]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat the contrasts",
+          "note": "Say each pair slowly, then faster. Feel the extra *ai* at the start of the passé composé.",
+          "lines": [
+            { "fr": "Je parlais. J'ai parlé.", "en": "I was talking. I talked.", "tip": "je par-lè / jé par-lé" },
+            { "fr": "Je mangeais quand Karim est arrivé.", "en": "I was eating when Karim arrived." },
+            { "fr": "Quand j'étais petite, je nageais tous les jours.", "en": "When I was little, I swam every day. (woman speaking)" },
+            { "fr": "Il pleuvait quand je suis sorti.", "en": "It was raining when I went out." },
+            { "fr": "J'ai eu peur quand le chien a aboyé.", "en": "I got scared when the dog barked." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "J'ai travaillé dans un café.", "en": "I worked in a café.", "prompt": "Which tense did you hear?", "options": ["Passé composé (j'ai travaillé)", "Imparfait (je travaillais)", "Present (je travaille)"], "answer": 0,
+          "explain": "You heard [[j'ai]] before the participle: passé composé. A completed fact." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je travaillais dans un café quand j'ai rencontré Lucie.", "en": "I was working in a café when I met Lucie.",
+          "prompt": "What is the background, and what is the event?", "options": ["Background: working in a café. Event: meeting Lucie.", "Background: meeting Lucie. Event: working in a café.", "Both are events, one after the other."], "answer": 0,
+          "explain": "[[je travaillais]] (imparfait) = the situation at the time; [[j'ai rencontré]] (passé composé) = what happened." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "For each verb, ask: background or event? habit or one time?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Quand je suis arrivé au bureau, Camille ___ (téléphoner).", "answers": [["téléphonait"]], "choices": ["téléphonait", "a téléphoné", "téléphone"], "en": "When I got to the office, Camille was on the phone.",
+          "explain": "She was already on the phone when I arrived: an action in progress → imparfait." },
+        { "id": "r2", "type": "cloze", "text": "Quand je suis arrivé au bureau, Camille m'___ (dire) bonjour.", "answers": [["a dit"]], "choices": ["a dit", "disait", "dit"], "en": "When I got to the office, Camille said hello to me.",
+          "explain": "She reacted to my arrival: a new event → passé composé [[a dit]]." },
+        { "id": "r3", "type": "mcq", "prompt": "“When I was a child, I lived in Hanoi.”", "optionsFr": true,
+          "options": ["Quand j'étais enfant, j'habitais à Hanoï.", "Quand j'ai été enfant, j'ai habité à Hanoï.", "Quand j'ai été enfant, j'habitais à Hanoï."], "answer": 0,
+          "optionFeedback": [null, "Childhood is a background state: j'étais, j'habitais.", "Being a child is a state, not an event: quand j'étais enfant."] },
+        { "id": "r4", "type": "match", "prompt": "Imparfait or passé composé? Match each idea with the right form.", "pairs": [["was sleeping", "je dormais"], ["fell asleep", "je me suis endormi"], ["used to go", "j'allais"], ["went (once)", "je suis allé"], ["was scared", "j'avais peur"], ["got scared", "j'ai eu peur"]] },
+        { "id": "r5", "type": "translate", "prompt": "It was snowing when I left. (man speaking)", "accept": ["Il neigeait quand je suis parti.", "Quand je suis parti, il neigeait.", "Il neigeait quand je suis sorti.", "Quand je suis sorti, il neigeait."], "hint": "neiger → il neigeait; partir takes être",
+          "explain": "Snow = background (imparfait); leaving = event (passé composé)." },
+        { "id": "r6", "type": "cloze", "text": "L'été dernier, nous ___ (rester) à Tadoussac pendant une semaine.", "answers": [["sommes restés", "sommes restées"]], "en": "Last summer, we stayed in Tadoussac for a week.",
+          "explain": "A limited, finished period → passé composé. [[rester]] takes être: [[nous sommes restés]]." },
+        { "id": "r7", "type": "cloze", "text": "Avant, je ___ (prendre) le bus tous les matins. Mais un jour, j'___ (acheter) un vélo.", "answers": [["prenais"], ["ai acheté"]], "en": "Before, I took the bus every morning. But one day, I bought a bike.",
+          "explain": "Habit ([[tous les matins]]) → [[prenais]]; one event ([[un jour]]) → [[ai acheté]]." },
+        { "id": "r8", "type": "reorder", "prompt": "I was watching TV when the phone rang.", "accept": ["Je regardais la télé quand le téléphone a sonné"], "extra": ["sonnait"],
+          "explain": "Background action in progress + interrupting event." },
+        { "id": "r9", "type": "translate", "prompt": "We would go to the lake every summer.", "accept": ["On allait au lac tous les étés.", "Nous allions au lac tous les étés.", "On allait au lac chaque été.", "Nous allions au lac chaque été.", "Tous les étés, on allait au lac.", "Tous les étés, nous allions au lac."], "hint": "a habit: would = imparfait",
+          "explain": "*Would* for a past habit = imparfait: [[on allait]]." },
+        { "id": "r10", "type": "dictation", "fr": "J'étais fatigué, alors je me suis couché tôt.", "accept": ["J'étais fatiguée, alors je me suis couchée tôt."],
+          "explain": "State → [[j'étais]]; the action that follows → [[je me suis couché]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Talk about your first day in Canada or in a new city (or another important first day). First describe the scene: date, weather, how you felt, who was there. Then say three things that happened, in order.", "seconds": 45,
+          "checklist": ["Scene in the imparfait: C'était…, il faisait…, j'étais…", "Something in progress: … m'attendait / … parlait", "Three events in the passé composé", "A connector: quand, ensuite, puis"],
+          "models": [ { "label": "Model answer", "fr": "C'était en août. Il faisait chaud et il y avait beaucoup de monde à l'aéroport de Toronto. J'étais très content, mais un peu nerveux. Mon ami Raj m'attendait à la sortie. Quand je l'ai vu, je l'ai pris dans mes bras. Ensuite, nous avons pris le train pour aller au centre-ville, et le soir, nous avons mangé dans un petit restaurant indien.", "en": "It was in August. It was hot and there were lots of people at Toronto airport. I was very happy, but a bit nervous. My friend Raj was waiting for me at the exit. When I saw him, I gave him a hug. Then we took the train downtown, and in the evening we ate in a little Indian restaurant." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write two short paragraphs. 1) A habit from your childhood: what you used to do every summer or every weekend (imparfait). 2) One time when something different happened (passé composé, with an imparfait background).", "promptFr": "Une habitude d'enfance, et une fois où quelque chose de différent s'est passé.", "wordRange": [40, 80],
+          "checklist": ["Paragraph 1: Quand j'étais petit / petite… + habits in the imparfait", "A habit clue: tous les étés, le dimanche, souvent", "Paragraph 2: Un jour / Une fois… + events in the passé composé", "At least one background verb in paragraph 2"],
+          "models": [ { "label": "Model answer", "fr": "Quand j'étais petite, j'habitais à Hué. Tous les étés, on allait chez mes grands-parents à la campagne. Je jouais dehors toute la journée avec mes cousins.\nUn jour, il faisait très chaud et nous nous baignions dans la rivière. Tout à coup, mon petit frère a disparu ! J'ai eu très peur. Finalement, nous l'avons trouvé : il dormait sous un arbre !", "en": "When I was little, I lived in Hué. Every summer, we used to go to my grandparents' in the countryside. I played outside all day with my cousins. One day, it was very hot and we were swimming in the river. Suddenly, my little brother disappeared! I got very scared. In the end, we found him: he was sleeping under a tree!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use the **imparfait** for the background: description, weather, feelings, actions in progress and habits\n- Use the **passé composé** for events: completed actions, interruptions, single or counted occurrences, limited periods\n- Test the English: *was …-ing*, *used to* or *would* → imparfait; *and then…* → passé composé",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Hedged the Québec -ais/-é vowel claim as a tendency. Replaced the defensible r3 distractor (j'étais enfant, j'ai habité) and the calque 'la radio jouait de la musique'. Trimmed r8 to 9 tiles and added accepted answers to the fatigue translation drill." }
+}

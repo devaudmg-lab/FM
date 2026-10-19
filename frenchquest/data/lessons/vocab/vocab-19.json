@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-19",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Feelings and inner states",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "emotions, moods and states of mind",
+  "goal": "Recognise and use 24 words for feelings, moods and states of mind.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "chagrin",
+      "kind": "vocab",
+      "fr": "chagrin",
+      "article": "le",
+      "gender": "m",
+      "en": "grief, deep sadness",
+      "pos": "noun",
+      "accept": [
+        "un chagrin"
+      ],
+      "example": {
+        "fr": "Elle a eu beaucoup de chagrin après le départ de son ami.",
+        "en": "She felt a lot of grief after her friend left."
+      }
+    },
+    {
+      "id": "jalousie",
+      "kind": "vocab",
+      "fr": "jalousie",
+      "article": "la",
+      "gender": "f",
+      "en": "jealousy",
+      "pos": "noun",
+      "accept": [
+        "une jalousie"
+      ],
+      "example": {
+        "fr": "La jalousie peut détruire un couple.",
+        "en": "Jealousy can destroy a relationship."
+      }
+    },
+    {
+      "id": "detresse",
+      "kind": "vocab",
+      "fr": "détresse",
+      "article": "la",
+      "gender": "f",
+      "en": "distress",
+      "pos": "noun",
+      "accept": [
+        "une détresse"
+      ],
+      "example": {
+        "fr": "Il a appelé le 911 parce qu'il était en détresse.",
+        "en": "He called 911 because he was in distress."
+      }
+    },
+    {
+      "id": "terreur",
+      "kind": "vocab",
+      "fr": "terreur",
+      "article": "la",
+      "gender": "f",
+      "en": "terror",
+      "pos": "noun",
+      "accept": [
+        "une terreur"
+      ],
+      "example": {
+        "fr": "Les enfants regardaient le film avec terreur.",
+        "en": "The children were watching the film in terror."
+      }
+    },
+    {
+      "id": "trouille",
+      "kind": "vocab",
+      "fr": "trouille",
+      "article": "la",
+      "gender": "f",
+      "en": "fear, the jitters (informal)",
+      "pos": "noun",
+      "accept": [
+        "une trouille"
+      ],
+      "example": {
+        "fr": "J'ai eu la trouille avant mon entrevue !",
+        "en": "I had the jitters before my interview!"
+      },
+      "note": "Informal. Avoir la trouille = to be scared."
+    },
+    {
+      "id": "depression",
+      "kind": "vocab",
+      "fr": "dépression",
+      "article": "la",
+      "gender": "f",
+      "en": "depression (illness)",
+      "pos": "noun",
+      "accept": [
+        "une dépression"
+      ],
+      "example": {
+        "fr": "Après son divorce, il a fait une dépression.",
+        "en": "After his divorce, he went through a depression."
+      }
+    },
+    {
+      "id": "soupir",
+      "kind": "vocab",
+      "fr": "soupir",
+      "article": "le",
+      "gender": "m",
+      "en": "sigh",
+      "pos": "noun",
+      "accept": [
+        "un soupir"
+      ],
+      "example": {
+        "fr": "Elle a poussé un long soupir.",
+        "en": "She let out a long sigh."
+      }
+    },
+    {
+      "id": "desir",
+      "kind": "vocab",
+      "fr": "désir",
+      "article": "le",
+      "gender": "m",
+      "en": "desire, wish",
+      "pos": "noun",
+      "accept": [
+        "un désir"
+      ],
+      "example": {
+        "fr": "Il a un grand désir de voyager.",
+        "en": "He has a strong desire to travel."
+      }
+    },
+    {
+      "id": "compassion",
+      "kind": "vocab",
+      "fr": "compassion",
+      "article": "la",
+      "gender": "f",
+      "en": "compassion",
+      "pos": "noun",
+      "accept": [
+        "une compassion"
+      ],
+      "example": {
+        "fr": "L'infirmière parle aux patients avec compassion.",
+        "en": "The nurse speaks to patients with compassion."
+      }
+    },
+    {
+      "id": "sagesse",
+      "kind": "vocab",
+      "fr": "sagesse",
+      "article": "la",
+      "gender": "f",
+      "en": "wisdom",
+      "pos": "noun",
+      "accept": [
+        "une sagesse"
+      ],
+      "example": {
+        "fr": "Ma grand-mère est pleine de sagesse.",
+        "en": "My grandmother is full of wisdom."
+      }
+    },
+    {
+      "id": "intuition",
+      "kind": "vocab",
+      "fr": "intuition",
+      "article": "l'",
+      "gender": "f",
+      "en": "intuition, gut feeling",
+      "pos": "noun",
+      "accept": [
+        "une intuition"
+      ],
+      "example": {
+        "fr": "J'ai suivi mon intuition et j'ai accepté le poste.",
+        "en": "I followed my gut feeling and took the job."
+      }
+    },
+    {
+      "id": "inspiration",
+      "kind": "vocab",
+      "fr": "inspiration",
+      "article": "l'",
+      "gender": "f",
+      "en": "inspiration",
+      "pos": "noun",
+      "accept": [
+        "une inspiration"
+      ],
+      "example": {
+        "fr": "Mei trouve son inspiration dans la nature.",
+        "en": "Mei finds her inspiration in nature."
+      }
+    },
+    {
+      "id": "dignite",
+      "kind": "vocab",
+      "fr": "dignité",
+      "article": "la",
+      "gender": "f",
+      "en": "dignity",
+      "pos": "noun",
+      "accept": [
+        "une dignité"
+      ],
+      "example": {
+        "fr": "Tout le monde mérite d'être traité avec dignité.",
+        "en": "Everyone deserves to be treated with dignity."
+      }
+    },
+    {
+      "id": "sensation",
+      "kind": "vocab",
+      "fr": "sensation",
+      "article": "la",
+      "gender": "f",
+      "en": "feeling, sensation (physical)",
+      "pos": "noun",
+      "accept": [
+        "une sensation"
+      ],
+      "example": {
+        "fr": "J'ai une sensation de froid dans les mains.",
+        "en": "I have a cold feeling in my hands."
+      }
+    },
+    {
+      "id": "betise",
+      "kind": "vocab",
+      "fr": "bêtise",
+      "article": "la",
+      "gender": "f",
+      "en": "silly mistake, foolish thing",
+      "pos": "noun",
+      "accept": [
+        "une bêtise"
+      ],
+      "example": {
+        "fr": "J'ai fait une bêtise : j'ai oublié mes clés dans l'auto.",
+        "en": "I did something silly: I forgot my keys in the car."
+      }
+    },
+    {
+      "id": "se-soucier-de",
+      "kind": "vocab",
+      "fr": "se soucier de",
+      "en": "to care about, to worry about",
+      "pos": "verb",
+      "accept": [
+        "se soucier"
+      ],
+      "example": {
+        "fr": "Il ne se soucie pas de l'opinion des autres.",
+        "en": "He doesn't care about other people's opinion."
+      }
+    },
+    {
+      "id": "desespere",
+      "kind": "vocab",
+      "fr": "désespéré",
+      "fem": "désespérée",
+      "en": "desperate, hopeless",
+      "pos": "adjective",
+      "accept": [
+        "désespérée"
+      ],
+      "example": {
+        "fr": "Sans travail depuis six mois, Karim était désespéré.",
+        "en": "Out of work for six months, Karim was desperate."
+      }
+    },
+    {
+      "id": "sincere",
+      "kind": "vocab",
+      "fr": "sincère",
+      "en": "sincere",
+      "pos": "adjective",
+      "example": {
+        "fr": "Merci pour tes excuses sincères.",
+        "en": "Thank you for your sincere apology."
+      }
+    },
+    {
+      "id": "conscient",
+      "kind": "vocab",
+      "fr": "conscient",
+      "fem": "consciente",
+      "en": "aware, conscious",
+      "pos": "adjective",
+      "accept": [
+        "consciente"
+      ],
+      "example": {
+        "fr": "Je suis conscient du problème.",
+        "en": "I am aware of the problem."
+      }
+    },
+    {
+      "id": "inconscient",
+      "kind": "vocab",
+      "fr": "inconscient",
+      "fem": "inconsciente",
+      "en": "unconscious; reckless",
+      "pos": "adjective",
+      "accept": [
+        "inconsciente"
+      ],
+      "example": {
+        "fr": "Le cycliste est resté inconscient quelques minutes.",
+        "en": "The cyclist stayed unconscious for a few minutes."
+      }
+    },
+    {
+      "id": "confus",
+      "kind": "vocab",
+      "fr": "confus",
+      "fem": "confuse",
+      "en": "confused; embarrassed",
+      "pos": "adjective",
+      "accept": [
+        "confuse"
+      ],
+      "example": {
+        "fr": "Je suis confus, je ne comprends plus rien.",
+        "en": "I'm confused, I don't understand anything any more."
+      }
+    },
+    {
+      "id": "obsede",
+      "kind": "vocab",
+      "fr": "obsédé",
+      "fem": "obsédée",
+      "en": "obsessed",
+      "pos": "adjective",
+      "accept": [
+        "obsédée"
+      ],
+      "example": {
+        "fr": "Raj est obsédé par son téléphone.",
+        "en": "Raj is obsessed with his phone."
+      }
+    },
+    {
+      "id": "solitaire",
+      "kind": "vocab",
+      "fr": "solitaire",
+      "en": "solitary (likes being alone)",
+      "pos": "adjective",
+      "example": {
+        "fr": "C'est un homme solitaire qui vit à la campagne.",
+        "en": "He's a solitary man who lives in the country."
+      }
+    },
+    {
+      "id": "fascinant",
+      "kind": "vocab",
+      "fr": "fascinant",
+      "fem": "fascinante",
+      "en": "fascinating",
+      "pos": "adjective",
+      "accept": [
+        "fascinante"
+      ],
+      "example": {
+        "fr": "Ce documentaire sur l'Arctique est fascinant.",
+        "en": "This documentary about the Arctic is fascinating."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Strong feelings",
+          "itemIds": [
+            "chagrin",
+            "jalousie",
+            "detresse",
+            "terreur",
+            "trouille",
+            "depression",
+            "soupir",
+            "desir"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Qualities and inner life",
+          "itemIds": [
+            "compassion",
+            "sagesse",
+            "intuition",
+            "inspiration",
+            "dignite",
+            "sensation",
+            "betise",
+            "se-soucier-de"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Describing a state of mind",
+          "itemIds": [
+            "desespere",
+            "sincere",
+            "conscient",
+            "inconscient",
+            "confus",
+            "obsede",
+            "solitaire",
+            "fascinant"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[Avoir la trouille]] is informal; in formal speech say [[avoir peur]].\n- **False friend:** [[confus]] often means *embarrassed* ([[Je suis confus]] = I'm so sorry).\n- [[Conscient de]] = aware of; [[inconscient]] can also mean reckless.\n- [[Faire une dépression]] = to go through depression."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Elle a eu beaucoup de chagrin après le départ de son ami.",
+              "en": "She felt a lot of grief after her friend left."
+            },
+            {
+              "fr": "J'ai eu la trouille avant mon entrevue !",
+              "en": "I had the jitters before my interview!"
+            },
+            {
+              "fr": "Elle a poussé un long soupir.",
+              "en": "She let out a long sigh."
+            },
+            {
+              "fr": "Ma grand-mère est pleine de sagesse.",
+              "en": "My grandmother is full of wisdom."
+            },
+            {
+              "fr": "J'ai suivi mon intuition et j'ai accepté le poste.",
+              "en": "I followed my gut feeling and took the job."
+            },
+            {
+              "fr": "J'ai fait une bêtise : j'ai oublié mes clés dans l'auto.",
+              "en": "I did something silly: I forgot my keys in the car."
+            },
+            {
+              "fr": "Il ne se soucie pas de l'opinion des autres.",
+              "en": "He doesn't care about other people's opinion."
+            },
+            {
+              "fr": "Je suis conscient du problème.",
+              "en": "I am aware of the problem."
+            },
+            {
+              "fr": "Raj est obsédé par son téléphone.",
+              "en": "Raj is obsessed with his phone."
+            },
+            {
+              "fr": "Ce documentaire sur l'Arctique est fascinant.",
+              "en": "This documentary about the Arctic is fascinating."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match each feeling to its meaning.",
+          "pairs": [
+            [
+              "le chagrin",
+              "grief"
+            ],
+            [
+              "la jalousie",
+              "jealousy"
+            ],
+            [
+              "la terreur",
+              "terror"
+            ],
+            [
+              "le soupir",
+              "sigh"
+            ],
+            [
+              "le désir",
+              "desire"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match each adjective to its meaning.",
+          "pairs": [
+            [
+              "désespéré",
+              "desperate"
+            ],
+            [
+              "sincère",
+              "sincere"
+            ],
+            [
+              "conscient",
+              "aware"
+            ],
+            [
+              "obsédé",
+              "obsessed"
+            ],
+            [
+              "fascinant",
+              "fascinating"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Olivier spilled coffee on his boss. He says: « Je suis vraiment ___. » Which word fits best?",
+          "options": [
+            "confus",
+            "fascinant",
+            "solitaire",
+            "sincère"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Je suis confus]] is a polite way to say you are embarrassed and sorry."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Which sentence means “I followed my gut feeling”?",
+          "options": [
+            "J'ai suivi mon intuition.",
+            "J'ai suivi ma sagesse.",
+            "J'ai suivi ma sensation.",
+            "J'ai suivi mon soupir."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[L’intuition]] is the gut feeling that guides a decision."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I am aware of the problem. (man speaking)",
+          "accept": [
+            "Je suis conscient du problème.",
+            "J'ai conscience du problème."
+          ],
+          "hint": "conscient de + le = conscient du",
+          "explain": "[[Conscient de]] + [[le problème]] contracts to [[du problème]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "She is obsessed with her phone.",
+          "accept": [
+            "Elle est obsédée par son téléphone.",
+            "Elle est obsédée par son cellulaire.",
+            "Elle est obsédée par son portable."
+          ],
+          "explain": "Use [[obsédé par]], with the feminine ending -e for elle."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "J'ai eu la ___ avant mon examen !",
+          "answers": [
+            [
+              "trouille"
+            ]
+          ],
+          "choices": [
+            "trouille",
+            "sagesse",
+            "dignité",
+            "compassion"
+          ],
+          "en": "I had the jitters before my exam!",
+          "explain": "[[Avoir la trouille]] is the informal way to say you were scared."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Il ne se ___ pas de ce que pensent les autres.",
+          "answers": [
+            [
+              "soucie"
+            ]
+          ],
+          "en": "He doesn't care about what other people think.",
+          "explain": "[[Se soucier de]] is a regular -er verb: il se soucie."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Ma grand-mère est pleine de sagesse.",
+          "accept": [],
+          "explain": "[[Sagesse]] is spelled with a double s, so it sounds like s, not z."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Elle a poussé un long soupir.",
+          "en": "She let out a long sigh.",
+          "prompt": "What did she do?",
+          "options": [
+            "She sighed",
+            "She shouted",
+            "She smiled"
+          ],
+          "answer": 0,
+          "explain": "[[Pousser un soupir]] = to let out a sigh."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Name strong feelings: [[chagrin, jalousie, détresse, terreur, trouille]]\n- Talk about inner qualities: [[sagesse, intuition, dignité, compassion]]\n- Describe a state of mind: [[conscient, confus, désespéré, obsédé]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Clarified the English for solitaire; added accepted answers to r5 and r6."
+  }
+}

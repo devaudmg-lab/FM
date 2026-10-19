@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-08-03",
+  "level": "a1",
+  "unit": "a1-08",
+  "title": "-ir and -re verbs",
+  "goal": "Use finir and choisir, prendre, comprendre and apprendre, and attendre, répondre and vendre in the present to talk about work and classes.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-finir", "kind": "grammar", "fr": "finir, choisir (je finis, nous finissons)", "en": "-ir verbs like finir in the present",
+      "drills": [
+        { "type": "cloze", "text": "Le cours ___ à neuf heures.", "answers": [["finit"]], "en": "The class finishes at nine.", "explain": "il / elle / le cours → finit (the t is silent)." },
+        { "type": "cloze", "text": "Nous ___ un cours de français.", "answers": [["choisissons"]], "en": "We choose a French course.", "explain": "In the plural, -ir verbs like choisir add -iss-: nous choisissons." },
+        { "type": "cloze", "text": "Elles ___ à cinq heures.", "answers": [["finissent"]], "en": "They finish at five.", "explain": "ils / elles → finissent: you hear the ss." }
+      ] },
+    { "id": "g-prendre", "kind": "grammar", "fr": "prendre, comprendre, apprendre (je prends, nous prenons, ils prennent)", "en": "prendre and its family in the present",
+      "drills": [
+        { "type": "cloze", "text": "Ils ___ le métro.", "answers": [["prennent"]], "en": "They take the metro.", "explain": "ils → prennent, with a double n." },
+        { "type": "cloze", "text": "Nous ___ le français.", "answers": [["apprenons"]], "en": "We are learning French.", "explain": "apprendre works like prendre: nous apprenons (one n)." },
+        { "type": "translate", "prompt": "I understand.", "accept": ["Je comprends."], "explain": "comprendre → je comprends, like je prends." }
+      ] },
+    { "id": "g-attendre", "kind": "grammar", "fr": "attendre, répondre, vendre (j'attends, il attend, ils attendent)", "en": "regular -re verbs in the present",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ des voitures.", "answers": [["vend"]], "en": "He sells cars.", "explain": "il → vend: just the stem, no ending." },
+        { "type": "cloze", "text": "Vous ___ au téléphone ?", "answers": [["répondez"]], "en": "Do you answer the phone?", "explain": "vous → répondez." },
+        { "type": "mcq", "prompt": "“I'm waiting for the bus.”", "options": ["J'attends le bus.", "J'attends pour le bus.", "J'attend le bus."], "optionsFr": true, "answer": 0, "explain": "attendre already means *wait for*: no pour. And je → attends, with an s." }
+      ] },
+    { "id": "finir", "kind": "vocab", "fr": "finir", "en": "to finish, to end", "pos": "verb", "example": { "fr": "Je finis à dix-sept heures.", "en": "I finish at 5 p.m." } },
+    { "id": "choisir", "kind": "vocab", "fr": "choisir", "en": "to choose", "pos": "verb", "example": { "fr": "Tu choisis un cours ?", "en": "Are you choosing a course?" } },
+    { "id": "prendre", "kind": "vocab", "fr": "prendre", "en": "to take", "pos": "verb", "example": { "fr": "Je prends l'autobus.", "en": "I take the bus." } },
+    { "id": "comprendre", "kind": "vocab", "fr": "comprendre", "en": "to understand", "pos": "verb", "example": { "fr": "Vous comprenez la question ?", "en": "Do you understand the question?" } },
+    { "id": "apprendre", "kind": "vocab", "fr": "apprendre", "en": "to learn", "pos": "verb","example": { "fr": "Nous apprenons le français.", "en": "We are learning French." } },
+    { "id": "attendre", "kind": "vocab", "fr": "attendre", "en": "to wait (for)", "pos": "verb", "example": { "fr": "J'attends le métro.", "en": "I'm waiting for the metro." }, "note": "No pour: attendre quelqu'un, attendre le bus." },
+    { "id": "repondre", "kind": "vocab", "fr": "répondre", "en": "to answer, to reply", "pos": "verb", "example": { "fr": "Je réponds à Lucie.", "en": "I'm answering Lucie." }, "note": "répondre à: répondre à la question, au téléphone." },
+    { "id": "vendre", "kind": "vocab", "fr": "vendre", "en": "to sell", "pos": "verb", "example": { "fr": "Nguyen vend des téléphones.", "en": "Nguyen sells phones." } },
+    { "id": "j-apprends-le-francais", "kind": "phrase", "fr": "J'apprends le français.", "en": "I'm learning French.", "accept": ["J'étudie le français."] },
+    { "id": "vous-comprenez", "kind": "phrase", "fr": "Vous comprenez ?", "en": "Do you understand? (formal)", "accept": ["Est-ce que vous comprenez ?", "Comprenez-vous ?"] },
+    { "id": "repondre-courriels", "kind": "phrase", "fr": "Je réponds aux courriels.", "en": "I answer emails.", "accept": ["Je réponds aux e-mails.", "Je réponds aux emails.", "Je réponds aux mails."], "note": "In Canada, an email is un courriel." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "At work and in class",
+      "blocks": [
+        { "type": "dialogue", "title": "An evening French class in Montréal",
+          "context": "Camille, the teacher, talks with Karim and Amira at the end of the class.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Vous comprenez la question, Karim ?", "en": "Do you understand the question, Karim?" },
+            { "speaker": "Karim", "fr": "Oui, je comprends. Mais je réponds en anglais ou en français ?", "en": "Yes, I understand. But do I answer in English or in French?" },
+            { "speaker": "Camille", "fr": "En français, s'il vous plaît ! Ici, nous apprenons le français.", "en": "In French, please! Here, we're learning French." },
+            { "speaker": "Amira", "fr": "Madame, à quelle heure est-ce que le cours finit ?", "en": "Ma'am, what time does the class finish?" },
+            { "speaker": "Camille", "fr": "Il finit à neuf heures. Et ce soir, vous choisissez un thème pour votre présentation.", "en": "It finishes at nine. And tonight, you choose a topic for your presentation." },
+            { "speaker": "Karim", "fr": "Moi, je choisis le thème du travail !", "en": "I'm choosing the topic of work!" },
+            { "speaker": "Amira", "fr": "Après le cours, je prends le métro. Tu prends le métro aussi, Karim ?", "en": "After class, I take the metro. Do you take the metro too, Karim?" },
+            { "speaker": "Karim", "fr": "Non, j'attends l'autobus. Ma femme et mes enfants attendent à la maison !", "en": "No, I wait for the bus. My wife and children are waiting at home!" }
+          ] },
+        { "type": "text", "title": "Nguyen at work",
+          "fr": "Nguyen est vendeur dans un magasin d'électronique à Toronto. Il vend des téléphones et des ordinateurs. Il répond aux questions des clients et aux courriels. Il finit à dix-huit heures, mais ses collègues finissent à vingt heures. Le soir, il apprend le français.",
+          "en": "Nguyen is a salesperson in an electronics store in Toronto. He sells phones and computers. He answers customers' questions and emails. He finishes at 6 p.m., but his colleagues finish at 8 p.m. In the evening, he learns French." }
+      ] },
+    { "type": "understand", "title": "Three verb families",
+      "blocks": [
+        { "type": "explain", "title": "Not every verb ends in -er",
+          "body": "You already know many **-er** verbs ([[parler]], [[travailler]]). Today, three new families. Learn one model verb for each, and the others follow the same pattern:\n\n- **finir** → [[choisir]]\n- **prendre** → [[comprendre]], [[apprendre]]\n- **attendre** → [[répondre]], [[vendre]]\n\nGood news: in all three families, **je, tu, il / elle** sound the same. The difference is in the plural." },
+        { "type": "table", "title": "Finir and choisir",
+          "head": ["", "finir", "choisir"],
+          "rows": [
+            ["je", "finis", "choisis"],
+            ["tu", "finis", "choisis"],
+            ["il / elle / on", "finit", "choisit"],
+            ["nous", "finissons", "choisissons"],
+            ["vous", "finissez", "choisissez"],
+            ["ils / elles", "finissent", "choisissent"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "The plural adds **-iss-**: [[nous finissons]], [[ils finissent]]. The final s and t of [[finis]], [[finit]] are silent." },
+        { "type": "table", "title": "Prendre, comprendre, apprendre",
+          "head": ["", "prendre", "comprendre", "apprendre"],
+          "rows": [
+            ["je / j'", "prends", "comprends", "apprends"],
+            ["tu", "prends", "comprends", "apprends"],
+            ["il / elle / on", "prend", "comprend", "apprend"],
+            ["nous", "prenons", "comprenons", "apprenons"],
+            ["vous", "prenez", "comprenez", "apprenez"],
+            ["ils / elles", "prennent", "comprennent", "apprennent"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": true,
+          "note": "The d disappears in the plural. Watch the n: **one n** with nous and vous ([[prenons]], [[prenez]]), **two n** with ils ([[prennent]]). You already know [[je vais prendre…]] from the café; now you have the whole verb." },
+        { "type": "table", "title": "Attendre, répondre, vendre",
+          "head": ["", "attendre", "répondre", "vendre"],
+          "rows": [
+            ["je / j'", "attends", "réponds", "vends"],
+            ["tu", "attends", "réponds", "vends"],
+            ["il / elle / on", "attend", "répond", "vend"],
+            ["nous", "attendons", "répondons", "vendons"],
+            ["vous", "attendez", "répondez", "vendez"],
+            ["ils / elles", "attendent", "répondent", "vendent"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": true,
+          "note": "Remove **-re** to get the stem ([[attend-]]), then add **-s, -s, nothing, -ons, -ez, -ent**. With il / elle, there is **no t**: [[il attend]], [[elle vend]]." },
+        { "type": "vocab", "title": "Verbs and phrases in this lesson", "itemIds": ["finir", "choisir", "prendre", "comprendre", "apprendre", "attendre", "repondre", "vendre", "j-apprends-le-francais", "vous-comprenez", "repondre-courriels"] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Hear one or many",
+          "body": "Because [[il finit]] and [[ils finissent]] are spelled differently but [[il]] and [[ils]] sound the same, the **verb** tells you how many people:\n\n- [[il finit]] (*fi-ni*) / [[ils finissent]] (*fi-niss*)\n- [[elle prend]] (*pran*) / [[elles prennent]] (*prenn*)\n- [[il attend]] (*a-tan*) / [[ils attendent]] (*a-tand*)\n\nIn the plural you hear an extra consonant at the end. The verb ending **-ent** is always silent.",
+          "examples": [ { "fr": "Il répond. / Ils répondent.", "en": "He answers. / They answer." }, { "fr": "Elle choisit. / Elles choisissent.", "en": "She chooses. / They choose." } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- [[J'attends pour le bus]] → [[J'attends le bus]]. Attendre already contains *for*.\n- [[Je réponds la question]] → [[Je réponds à la question]]. Répondre needs **à**: [[répondre au téléphone]], [[répondre aux courriels]].\n- [[Ils prendent]] → [[Ils prennent]]. And [[nous prennons]] → [[nous prenons]].\n- [[Nous finons]] → [[Nous finissons]]. Don't forget **-iss-**.\n- [[Il attendt]] → [[Il attend]]. No ending at all with il / elle." },
+        { "type": "deepdive", "kind": "canada", "title": "Courriel, the Canadian word for email",
+          "body": "In Canada, an email is [[un courriel]], a blend of *courrier électronique* (electronic mail). The word was popularized and recommended by the Office québécois de la langue française in the late 1990s, and it is now the normal word in Québec, in Canadian government services and at work: [[Je réponds aux courriels]], [[Envoyez-moi un courriel]]. In France, people mostly say [[un mail]] or [[un e-mail]].\n\nAlso notice Karim's [[l'autobus]]: in Québec, a city bus is often [[l'autobus]] (or [[le bus]] in conversation)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Pay attention to the extra sound in the plural.",
+          "lines": [
+            { "fr": "Il finit. Ils finissent.", "en": "He finishes. They finish.", "tip": "fi-ni / fi-niss: the -ent is silent." },
+            { "fr": "Elle prend le métro. Elles prennent le métro.", "en": "She takes the metro. They take the metro.", "tip": "pran / prenn." },
+            { "fr": "J'attends l'autobus.", "en": "I'm waiting for the bus.", "tip": "j'attends sounds like zha-tan." },
+            { "fr": "Je ne comprends pas.", "en": "I don't understand.", "tip": "A phrase you have known since unit 1, now with the whole verb behind it." },
+            { "fr": "Nous apprenons le français.", "en": "We are learning French.", "tip": "Link: nou-z‿apprenons." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils finissent à cinq heures.", "en": "They finish at five.", "prompt": "How many people finish at five?", "options": ["More than one", "One", "You can't tell"], "answer": 0, "explain": "You hear *fi-niss*: [[finissent]], so it's [[ils]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il répond au téléphone.", "en": "He answers the phone.", "prompt": "How many people answer the phone?", "options": ["One", "More than one", "You can't tell"], "answer": 0, "explain": "*ré-pon*, with no d sound: [[il répond]]. The plural would be *ré-pond*: [[ils répondent]]." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Elles prennent une pause.", "en": "They're taking a break.", "prompt": "What do you hear?", "options": ["They're taking a break.", "She's taking a break.", "They're finishing work."], "answer": 0, "explain": "*prenn* = [[prennent]], plural." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le cours ___ à midi. (finir)", "answers": [["finit"]], "en": "The class finishes at noon.", "explain": "le cours = il → finit." },
+        { "id": "r2", "type": "cloze", "text": "Nous ___ un nouveau cours. (choisir)", "answers": [["choisissons"]], "en": "We are choosing a new course.", "explain": "nous → choisissons, with -iss-." },
+        { "id": "r3", "type": "cloze", "text": "Raj et Mei ___ le métro. (prendre)", "answers": [["prennent"]], "choices": ["prennent", "prendent", "prenent", "prenons"], "en": "Raj and Mei take the metro.", "explain": "Two people = ils → prennent, with two n." },
+        { "id": "r4", "type": "translate", "prompt": "I'm learning French.", "accept": ["J'apprends le français.", "J'étudie le français."], "hint": "apprendre works like prendre.", "explain": "je → apprends; j' because apprends starts with a vowel." },
+        { "id": "r5", "type": "translate", "prompt": "Do you understand? (formal)", "accept": ["Vous comprenez ?", "Est-ce que vous comprenez ?", "Comprenez-vous ?"], "explain": "vous → comprenez. Intonation, est-ce que or inversion are all correct." },
+        { "id": "r6", "type": "mcq", "prompt": "“I'm waiting for Lucie.”", "options": ["J'attends Lucie.", "J'attends pour Lucie.", "J'attend Lucie.", "Je attends Lucie."], "optionsFr": true, "answer": 0,
+          "explain": "attendre = to wait for; no pour.",
+          "optionFeedback": [null, "attendre already means *wait for*: no pour.", "With je, add -s: j'attends.", "Before a vowel, je becomes j'."] },
+        { "id": "r7", "type": "match", "prompt": "Match each verb to its meaning.", "pairs": [["vendre", "to sell"], ["répondre", "to answer"], ["attendre", "to wait (for)"], ["choisir", "to choose"], ["apprendre", "to learn"], ["comprendre", "to understand"]] },
+        { "id": "r8", "type": "translate", "prompt": "She answers emails.", "accept": ["Elle répond aux courriels.", "Elle répond aux e-mails.", "Elle répond aux emails.", "Elle répond aux mails."], "hint": "répondre à + les = aux", "explain": "elle → répond (no t); répondre à + les courriels → aux courriels." },
+        { "id": "r9", "type": "dictation", "fr": "Vous finissez à quelle heure ?", "accept": [], "explain": "vous → [[finissez]], with -iss-. A relaxed way to ask *What time do you finish?*" },
+        { "id": "r10", "type": "reorder", "prompt": "They sell bread and croissants.", "accept": ["Ils vendent du pain et des croissants.", "Ils vendent des croissants et du pain."], "extra": ["vendons"], "explain": "ils → vendent; du pain, des croissants (partitive and plural)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Describe a normal day at work or school using at least four of today's verbs: how you get there (prendre), what you learn or sell, who or what you answer, when you finish.", "seconds": 40,
+          "checklist": ["prendre + transport", "apprendre or vendre", "répondre à… or attendre…", "finir à + time"],
+          "models": [ { "label": "Model answer", "fr": "Le matin, je prends l'autobus. Je suis vendeuse : je vends des vêtements et je réponds aux questions des clients. Je finis à dix-sept heures. Le soir, j'apprends le français. Je comprends beaucoup de mots maintenant !", "en": "In the morning, I take the bus. I'm a salesperson: I sell clothes and I answer customers' questions. I finish at 5 p.m. In the evening, I learn French. I understand a lot of words now!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write 4 or 5 sentences about your job or your French class. Use at least four different verbs from this lesson, including one in the plural (nous or ils / elles).", "wordRange": [25, 60],
+          "checklist": ["At least four verbs from today", "One plural form (nous / ils / elles)", "A time with finir à", "One sentence about learning or understanding"],
+          "models": [ { "label": "Model answer", "fr": "Je suis étudiant à Gatineau. Le cours commence à neuf heures et il finit à midi. Nous apprenons le français et nous répondons aux questions de la professeure. Mes amis et moi, nous prenons l'autobus ensemble. Je comprends bien la professeure !", "en": "I'm a student in Gatineau. The class starts at nine and finishes at noon. We learn French and we answer the teacher's questions. My friends and I take the bus together. I understand the teacher well!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate **finir / choisir**: [[je finis, nous finissons, ils finissent]]\n- Conjugate **prendre / comprendre / apprendre**: [[je prends, nous prenons, ils prennent]]\n- Conjugate **attendre / répondre / vendre**: [[j'attends, il attend, ils attendent]]\n- Say [[J'attends le bus]] (no pour) and [[Je réponds aux courriels]] (with à)",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Courriel origin rephrased (popularized and recommended by the OQLF in the late 1990s, no creation claim). Removed étudier as an accepted answer for “to learn”; r10 accepts the swapped order; minor wording fixes." }
+}

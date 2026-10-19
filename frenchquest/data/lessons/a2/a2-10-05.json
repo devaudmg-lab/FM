@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-10-05",
+  "level": "a2",
+  "unit": "a2-10",
+  "title": "Tell a story from your life",
+  "goal": "Tell and write a complete story from your life, with a clear scene, events in order, connectors, and the right choice between the passé composé and the imparfait.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "il-y-a-deux-ans", "kind": "phrase", "fr": "C'était il y a deux ans.", "en": "It was two years ago." },
+    { "id": "a-l-epoque", "kind": "phrase", "fr": "à l'époque", "en": "at the time, back then" },
+    { "id": "premiere-fois-que", "kind": "phrase", "fr": "C'était la première fois que je parlais français.", "en": "It was the first time I was speaking French.", "accept": ["C'était la première fois que je parlais en français."] },
+    { "id": "je-me-souviens", "kind": "phrase", "fr": "Je me souviens très bien de ce jour.", "en": "I remember that day very well.", "accept": ["Je me souviens très bien de ce jour-là."] },
+    { "id": "j-ai-compris", "kind": "phrase", "fr": "Ce jour-là, j'ai compris une chose.", "en": "That day, I understood one thing." },
+    { "id": "ca-m-a-marque", "kind": "phrase", "fr": "Ça m'a beaucoup marqué.", "en": "It made a big impression on me.", "accept": ["Ça m'a beaucoup marquée."] },
+    { "id": "jamais-oublier", "kind": "phrase", "fr": "Je n'oublierai jamais ce jour.", "en": "I'll never forget that day.", "accept": ["Je n'oublierai jamais ce jour-là."] },
+    { "id": "oser", "kind": "vocab", "fr": "oser", "en": "to dare", "pos": "verb",
+      "example": { "fr": "Il faut oser parler !", "en": "You have to dare to speak!" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Raj's first real conversation",
+      "intro": "Raj wrote this for the newsletter of his French class. It uses everything from the unit. Read it once for the story, then once for the tenses and connectors.",
+      "blocks": [
+        { "type": "text", "title": "Ma première vraie conversation en français",
+          "fr": "C'était il y a deux ans, en octobre. J'habitais à Montréal depuis trois semaines. À l'époque, je ne parlais pas bien français et j'étais assez timide.\nUn samedi matin, il faisait beau, alors je suis allé au marché Jean-Talon. Il y avait beaucoup de monde et ça sentait bon les pommes.\nD'abord, j'ai fait le tour du marché. Ensuite, je me suis arrêté devant un stand de fromages. Pendant que je regardais les fromages, le vendeur m'a demandé : « Je peux vous aider ? » J'ai eu peur ! Je ne comprenais pas tout. Alors, j'ai respiré et je lui ai répondu : « Je voudrais… du fromage, s'il vous plaît. » Il a souri : « Lequel ? On en a cinquante ! »\nSoudain, ma peur a disparu. Nous avons parlé pendant dix minutes. Il m'a fait goûter trois fromages du Québec et il m'a expliqué leur histoire. Finalement, j'en ai acheté deux.\nDepuis, j'y retourne tous les samedis, et le vendeur, Luc, est devenu un ami. Bref, ce jour-là, j'ai compris une chose : il faut oser parler !",
+          "en": "It was two years ago, in October. I had been living in Montréal for three weeks. At the time, I didn't speak French well and I was quite shy. One Saturday morning, the weather was nice, so I went to the Jean-Talon market. There were lots of people and it smelled of apples. First, I walked around the market. Then I stopped in front of a cheese stand. While I was looking at the cheeses, the seller asked me: “Can I help you?” I got scared! I didn't understand everything. So I took a breath and answered him: “I'd like… some cheese, please.” He smiled: “Which one? We have fifty!” Suddenly, my fear disappeared. We talked for ten minutes. He let me taste three Québec cheeses and told me their story. In the end, I bought two. Since then, I go back there every Saturday, and the seller, Luc, has become a friend. Anyway, that day I understood one thing: you have to dare to speak!" },
+        { "id": "d1", "type": "mcq", "prompt": "“J'habitais à Montréal depuis trois semaines.” Why the imparfait?", "options": ["It's background: the situation at that time", "It's a sudden event", "It's a habit Raj had every week"], "answer": 0,
+          "explain": "It describes the situation at the time of the story. [[Depuis]] + imparfait = *had been (living) for*." },
+        { "id": "d2", "type": "mcq", "prompt": "In “j'en ai acheté deux” and “j'y retourne”, what do en and y replace?", "options": ["en = des fromages; y = au marché", "en = au marché; y = des fromages", "en = le vendeur; y = les pommes"], "answer": 0,
+          "explain": "[[en]] replaces a quantity (two cheeses); [[y]] replaces a place (the market). Unit 9 is back!" }
+      ] },
+    { "type": "understand", "title": "Your story planner",
+      "intro": "Use this page to plan your own story.",
+      "blocks": [
+        { "type": "table", "title": "1. Plan your story",
+          "head": ["Step", "Tense", "Connectors and phrases", "In Raj's story"],
+          "rows": [
+            ["When and where", "imparfait", "C'était il y a… / À l'époque, … / J'habitais…", "C'était il y a deux ans… J'habitais à Montréal…"],
+            ["The scene", "imparfait", "Il faisait… / Il y avait… / J'étais…", "Il faisait beau. Il y avait beaucoup de monde."],
+            ["First events", "passé composé", "Un jour, … / D'abord, … / Ensuite, …", "Je suis allé au marché. Je me suis arrêté…"],
+            ["The key moment", "imparfait + passé composé", "Pendant que… / Quand… / Soudain, … / Et là, …", "Pendant que je regardais, le vendeur m'a demandé…"],
+            ["What happened next", "passé composé", "Alors, … / Après, …", "Nous avons parlé… Il m'a expliqué…"],
+            ["The ending", "passé composé", "Finalement, … / Heureusement, …", "Finalement, j'en ai acheté deux."],
+            ["Why it matters", "present / passé composé", "Depuis, … / Ce jour-là, j'ai compris… / Je n'oublierai jamais…", "Depuis, j'y retourne… Il faut oser parler !"]
+          ],
+          "frCols": [2, 3], "sayCol": false },
+        { "type": "table", "title": "2. The tense choice in one table",
+          "head": ["Imparfait: the background", "Passé composé: the events"],
+          "rows": [
+            ["Il faisait beau.", "Je suis allé au marché."],
+            ["Il y avait beaucoup de monde.", "Je me suis arrêté devant un stand."],
+            ["Je regardais les fromages…", "… quand le vendeur m'a parlé."],
+            ["J'étais timide. Je ne comprenais pas tout.", "J'ai eu peur. Ma peur a disparu."],
+            ["J'habitais à Montréal depuis trois semaines.", "Nous avons parlé pendant dix minutes."],
+            ["Le samedi, j'allais souvent au marché. (habit)", "Ce samedi-là, j'ai acheté deux fromages. (once)"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Left column: *what was it like? what was going on?* Right column: *what happened? and then?*" },
+        { "type": "deepdive", "kind": "mistakes", "title": "Final check before you tell your story",
+          "body": "- **Être and avoir as background:** [[j'étais]], [[j'avais]], [[c'était]], [[il y avait]] — not *j'ai été*, *ça a été*, *il y a eu* for descriptions.\n- **Être verbs in the passé composé agree:** [[elle est arrivée]], [[nous sommes partis]], [[je me suis levée]] (woman).\n- **Pendant que + imparfait; soudain / tout à coup + passé composé.**\n- **A limited duration takes the passé composé:** [[Nous avons parlé pendant dix minutes.]]\n- **Depuis + imparfait** in the past (*had been … for*), **depuis + present** for now: [[J'habitais ici depuis trois semaines]] vs [[J'habite ici depuis deux ans]].\n- **Don't repeat names:** use [[lui]], [[leur]], [[le / la]], [[y]], [[en]]." },
+        { "type": "deepdive", "kind": "culture", "title": "Why stories matter in Canada",
+          "body": "Telling a short story about yourself is useful far beyond the classroom: in a job interview (*Parlez-moi d'une situation difficile…*), at a 5 à 7 with colleagues, or in the speaking part of the TEF and TCF Canada, where you're often asked to describe an experience. A clear structure (scene → events → ending → what you learned) and a confident choice of tenses will make you sound much more fluent than complicated vocabulary." }
+      ] },
+    { "type": "hear", "title": "Hear a story",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat Raj's key sentences",
+          "lines": [
+            { "fr": "C'était il y a deux ans, en octobre.", "en": "It was two years ago, in October." },
+            { "fr": "Pendant que je regardais les fromages, le vendeur m'a demandé…", "en": "While I was looking at the cheeses, the seller asked me…" },
+            { "fr": "Soudain, ma peur a disparu.", "en": "Suddenly, my fear disappeared." },
+            { "fr": "Finalement, j'en ai acheté deux.", "en": "In the end, I bought two." },
+            { "fr": "Depuis, j'y retourne tous les samedis.", "en": "Since then, I go back every Saturday." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "C'était mon premier jour de travail à Ottawa. J'étais très stressée. Quand je suis arrivée, ma patronne m'attendait devant la porte avec un café. Elle m'a dit : « Bienvenue dans l'équipe ! » Ça m'a beaucoup touchée.",
+          "en": "It was my first day at work in Ottawa. I was very stressed. When I arrived, my boss was waiting for me in front of the door with a coffee. She said to me: “Welcome to the team!” It really touched me.",
+          "prompt": "What happened when the speaker arrived?", "options": ["Her boss was waiting for her with a coffee and welcomed her.", "Her boss arrived late with a coffee.", "Nobody was there, so she bought a coffee."], "answer": 0,
+          "explain": "[[ma patronne m'attendait]] (imparfait: already waiting) + [[elle m'a dit]] (event)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Quand j'étais étudiant, je travaillais dans un restaurant le soir. Un soir, un client célèbre est entré : c'était un joueur des Canadiens !",
+          "en": "When I was a student, I worked in a restaurant in the evenings. One evening, a famous customer came in: it was a Canadiens player!",
+          "prompt": "Which part is a habit, and which part is the event?", "options": ["Habit: working evenings. Event: a famous player came in.", "Habit: the famous player came in. Event: working evenings.", "Both are habits."], "answer": 0,
+          "explain": "[[je travaillais… le soir]] = habit (imparfait); [[un soir, un client est entré]] = one event (passé composé)." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Ten questions from this unit and earlier ones. Answer without looking back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Il ___ (faire) froid et il ___ (neiger) quand nous sommes sortis.", "answers": [["faisait"], ["neigeait"]], "en": "It was cold and it was snowing when we went out.",
+          "explain": "Weather = background → imparfait." },
+        { "id": "r2", "type": "cloze", "text": "Pendant que Mei ___ (cuisiner), son téléphone ___ (sonner).", "answers": [["cuisinait"], ["a sonné"]], "en": "While Mei was cooking, her phone rang.",
+          "explain": "[[pendant que]] + action in progress (imparfait); the interruption (passé composé)." },
+        { "id": "r3", "type": "mcq", "prompt": "“We talked for ten minutes.”", "optionsFr": true,
+          "options": ["Nous avons parlé pendant dix minutes.", "Nous parlions pendant dix minutes.", "Nous avons parlé pendant que dix minutes."], "answer": 0,
+          "optionFeedback": [null, "A limited, finished duration → passé composé.", "pendant que needs a verb; with a duration, use pendant."] },
+        { "id": "r4", "type": "translate", "prompt": "When I was a child, I lived in Bogotá.", "accept": ["Quand j'étais enfant, j'habitais à Bogotá.", "Quand j'étais petit, j'habitais à Bogotá.", "Quand j'étais petite, j'habitais à Bogotá.", "Quand j'étais enfant, je vivais à Bogotá.", "Quand j'étais petit, je vivais à Bogotá.", "Quand j'étais petite, je vivais à Bogotá.", "J'habitais à Bogotá quand j'étais enfant.", "J'habitais à Bogotá quand j'étais petit.", "J'habitais à Bogotá quand j'étais petite."],
+          "explain": "Childhood and where you lived = background → imparfait for both verbs." },
+        { "id": "r5", "type": "match", "prompt": "Match each connector with the tense it usually takes in a story.", "pairs": [["pendant que…", "imparfait (in progress)"], ["tout à coup…", "passé composé (sudden)"], ["tous les étés…", "imparfait (habit)"], ["d'abord… ensuite…", "passé composé (sequence)"], ["à l'époque…", "imparfait (situation then)"]] },
+        { "id": "r6", "type": "cloze", "text": "Ce matin-là, Lucie ___ ___ levée très tôt.", "answers": [["s'"], ["est"]], "en": "That morning, Lucie got up very early.",
+          "explain": "Reflexive verb → être, with agreement: [[elle s'est levée]]." },
+        { "id": "r7", "type": "reorder", "prompt": "Suddenly, the bus stopped.", "accept": ["Soudain l'autobus s'est arrêté"], "extra": ["arrêtait"],
+          "explain": "[[soudain]] + passé composé. [[s'arrêter]] is reflexive → être." },
+        { "id": "r8", "type": "cloze", "text": "Le vendeur ? Je ___ ai répondu en français. Des fromages ? J'___ ai acheté deux.", "answers": [["lui"], ["en"]], "en": "The seller? I answered him in French. Cheeses? I bought two.",
+          "explain": "Review unit 9: [[répondre à]] → [[lui]]; a quantity → [[en]]." },
+        { "id": "r9", "type": "translate", "prompt": "Since then, I go back there every Saturday.", "accept": ["Depuis, j'y retourne tous les samedis.", "Depuis, j'y vais tous les samedis.", "Depuis ce jour-là, j'y retourne tous les samedis.", "Depuis, j'y retourne chaque samedi.", "Depuis, j'y vais chaque samedi."], "hint": "y = there",
+          "explain": "[[Depuis]] + present (still true now); [[y]] = there, before the verb." },
+        { "id": "r10", "type": "dictation", "fr": "Quand je suis arrivée, tout le monde dormait.", "accept": ["Quand je suis arrivé, tout le monde dormait."],
+          "explain": "The arrival = event (passé composé); the sleeping = background (imparfait)." }
+      ] },
+    { "type": "apply", "title": "Mission: tell a story from your life",
+      "intro": "Choose a real moment: your arrival in Canada, a first day at work, a funny mistake in French, a meeting that changed something. Plan it with the story planner, then speak and write. Compare with the two models.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Tell your story out loud (about 90 seconds) to a new colleague at a 5 à 7. Start with a hook, set the scene, tell what happened in order, and finish with what you learned or what changed after.", "promptFr": "Racontez un moment important de votre vie.", "seconds": 90,
+          "checklist": ["A hook: Je vais te raconter… / Tu sais ce qui m'est arrivé…?", "When and where: C'était il y a… / À l'époque…", "A scene in the imparfait (weather, place, people, feelings)", "At least four events in the passé composé, in order", "Pendant que / quand / soudain at the key moment", "At least four connectors", "An ending: Finalement… / Depuis… / Ce jour-là, j'ai compris…"],
+          "models": [
+            { "label": "Model answer", "fr": "Tu sais ce qui m'est arrivé à mon premier jour au Canada ? C'était il y a trois ans, en décembre. Il faisait très froid et je n'avais pas de bottes. D'abord, je suis allé à la banque pour ouvrir un compte. Ensuite, j'ai pris l'autobus pour aller à mon appartement. Pendant que j'attendais à l'arrêt, une dame m'a parlé. Elle m'a demandé : « Vous n'avez pas froid ? » Je lui ai expliqué : « J'arrive du Mexique ! » Alors, elle m'a donné son foulard ! Finalement, nous sommes devenus amis. Depuis, je lui rends visite tous les mois.",
+              "en": "Guess what happened to me on my first day in Canada? It was three years ago, in December. It was very cold and I didn't have boots. First, I went to the bank to open an account. Then I took the bus to go to my apartment. While I was waiting at the stop, a lady spoke to me. She asked me: “Aren't you cold?” I explained: “I've just arrived from Mexico!” So she gave me her scarf! In the end, we became friends. Since then, I visit her every month." },
+            { "label": "Stronger model answer", "fr": "Je vais te raconter ma première semaine de travail à Gatineau. C'était il y a deux ans. À l'époque, je parlais un peu français, mais j'avais très peur de faire des erreurs. Le premier jour, tout allait bien : mes collègues étaient gentils et ils parlaient lentement avec moi. Mais mercredi, ma patronne m'a demandé de présenter un projet devant toute l'équipe… en français ! Pendant que je préparais ma présentation, mes mains tremblaient. Et là, mon collègue Olivier est venu me voir. Il m'a aidée à corriger mes diapositives et il m'a dit : « Parle lentement et souris ! » Finalement, la présentation s'est très bien passée et l'équipe a applaudi. Ce jour-là, j'ai compris une chose : les gens n'attendent pas un français parfait, ils attendent un effort. Je n'oublierai jamais ce mercredi !",
+              "en": "Let me tell you about my first week at work in Gatineau. It was two years ago. At the time, I spoke a little French, but I was very afraid of making mistakes. On the first day, everything was going well: my colleagues were kind and spoke slowly with me. But on Wednesday, my boss asked me to present a project in front of the whole team… in French! While I was preparing my presentation, my hands were shaking. And then my colleague Olivier came to see me. He helped me correct my slides and said: “Speak slowly and smile!” In the end, the presentation went very well and the team applauded. That day, I understood one thing: people don't expect perfect French, they expect an effort. I'll never forget that Wednesday! (In m'a aidée, the extra -e agrees with me, a woman: that agreement rule comes at a later level.)" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write your story for your French class newsletter (80–140 words). Give it a title. Set the scene, tell the events in order, and end with what you learned or what changed.", "promptFr": "Écrivez votre histoire pour le bulletin de votre cours de français.", "wordRange": [80, 140],
+          "checklist": ["A title", "When and where: C'était il y a… / J'habitais…", "A scene with at least four imparfait verbs", "Events in the passé composé, in order", "At least five connectors (d'abord, ensuite, pendant que, soudain, finalement…)", "One être verb with agreement (je suis arrivé / arrivée…)", "One pronoun to avoid repetition (lui, leur, y, en)", "An ending: Depuis… / Ce jour-là, j'ai compris…", "Final check: ne… pas, accents, agreement"],
+          "models": [
+            { "label": "Model answer", "fr": "Mon premier hiver\nC'était il y a deux ans, en janvier. J'habitais à Québec depuis un mois. Un dimanche, il faisait moins vingt, mais le ciel était bleu et il n'y avait pas de vent. D'abord, je suis allée faire du patin sur les plaines d'Abraham avec ma voisine. Je ne savais pas patiner ! Au début, je tombais tout le temps. Ensuite, ma voisine m'a donné la main et nous avons patiné ensemble. Soudain, j'ai réussi à patiner seule ! Finalement, nous sommes allées boire un chocolat chaud. Depuis, j'adore l'hiver.",
+              "en": "My first winter. It was two years ago, in January. I had been living in Québec City for a month. One Sunday, it was minus twenty, but the sky was blue and there was no wind. First, I went skating on the Plains of Abraham with my neighbour. I didn't know how to skate! At first, I kept falling. Then my neighbour held my hand and we skated together. Suddenly, I managed to skate alone! In the end, we went for a hot chocolate. Since then, I love winter." },
+            { "label": "Stronger model answer", "fr": "Le jour du grand malentendu\nC'était il y a un an, à Moncton. À l'époque, je travaillais dans une épicerie et je ne connaissais pas encore bien le français de tous les jours. Un matin, il pleuvait et il n'y avait presque personne dans le magasin. Pendant que je rangeais les boîtes de soupe, un vieux monsieur m'a demandé des « patates ». Je ne connaissais pas ce mot, alors je lui ai apporté… des pâtes ! Il m'a regardé, puis tout à coup, il a commencé à rire. Il m'a expliqué que « patates », ça voulait dire « pommes de terre ». Finalement, je lui ai donné un sac de patates, et nous avons parlé pendant vingt minutes. Depuis, il vient me voir chaque semaine et il m'apprend un nouveau mot. Ce jour-là, j'ai compris qu'une erreur peut commencer une amitié.",
+              "en": "The day of the big misunderstanding. It was a year ago, in Moncton. At the time, I worked in a grocery store and I didn't know much everyday French yet. One morning, it was raining and there was almost nobody in the store. While I was putting away cans of soup, an old man asked me for “patates”. I didn't know that word, so I brought him… pasta! He looked at me, then all of a sudden he started laughing. He explained that “patates” meant “pommes de terre” (potatoes). In the end, I gave him a bag of potatoes, and we talked for twenty minutes. Since then, he comes to see me every week and teaches me a new word. That day, I understood that a mistake can start a friendship. (Patates is the everyday word for potatoes in Canada, and it's common in informal French in France too; pommes de terre is the standard word.)" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Plan a story: when and where, scene, events, key moment, ending, why it matters\n- Choose the tense with confidence: imparfait for background, states and habits; passé composé for events, reactions and limited periods\n- Tell and write a complete personal story with connectors and pronouns, ready for a 5 à 7, a job interview or an exam",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed the Acadian-accent framing from the Moncton story and added a neutral gloss for patates. Replaced le lundi / le mercredi (which read as a habit) with le premier jour / mercredi, and glossed m'a aidée (agreement above level, not tested)." }
+}

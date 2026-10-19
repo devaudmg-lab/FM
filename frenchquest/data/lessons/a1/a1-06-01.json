@@ -1,0 +1,890 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-06-01",
+  "level": "a1",
+  "unit": "a1-06",
+  "title": "Food and drinks",
+  "goal": "Name common foods, drinks and meals with their gender, and say what you like and don't like.",
+  "minutes": 13,
+  "items": [
+    {
+      "id": "g-aimer",
+      "kind": "grammar",
+      "fr": "j'aime / je n'aime pas + le, la, l', les",
+      "en": "saying what you like and don't like (with le, la, l', les)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "J'aime ___ pâtes.",
+          "answers": [
+            [
+              "les"
+            ]
+          ],
+          "en": "I like pasta.",
+          "explain": "[[pâtes]] is feminine plural, so the article is [[les]]."
+        },
+        {
+          "type": "cloze",
+          "text": "Je n'aime pas ___ viande.",
+          "answers": [
+            [
+              "la"
+            ]
+          ],
+          "en": "I don't like meat.",
+          "explain": "[[viande]] is feminine: [[la viande]]. With aimer, the article stays after ne… pas."
+        },
+        {
+          "type": "translate",
+          "prompt": "I don't like fish.",
+          "accept": [
+            "Je n'aime pas le poisson."
+          ],
+          "explain": "ne + aime + pas, then the definite article: [[le poisson]]."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “I like water”?",
+          "options": [
+            "J'aime l'eau.",
+            "J'aime eau.",
+            "J'aime le eau."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "French needs an article, and le/la become [[l']] before a vowel: [[l'eau]]."
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "kind": "vocab",
+      "fr": "pain",
+      "article": "le",
+      "gender": "m",
+      "en": "bread",
+      "pos": "noun",
+      "accept": [
+        "pain"
+      ],
+      "example": {
+        "fr": "J'aime le pain.",
+        "en": "I like bread."
+      }
+    },
+    {
+      "id": "fromage",
+      "kind": "vocab",
+      "fr": "fromage",
+      "article": "le",
+      "gender": "m",
+      "en": "cheese",
+      "pos": "noun",
+      "accept": [
+        "fromage"
+      ],
+      "example": {
+        "fr": "Mei aime le fromage.",
+        "en": "Mei likes cheese."
+      }
+    },
+    {
+      "id": "viande",
+      "kind": "vocab",
+      "fr": "viande",
+      "article": "la",
+      "gender": "f",
+      "en": "meat",
+      "pos": "noun",
+      "accept": [
+        "viande"
+      ],
+      "example": {
+        "fr": "Je n'aime pas la viande.",
+        "en": "I don't like meat."
+      }
+    },
+    {
+      "id": "poulet",
+      "kind": "vocab",
+      "fr": "poulet",
+      "article": "le",
+      "gender": "m",
+      "en": "chicken",
+      "pos": "noun",
+      "accept": [
+        "poulet"
+      ],
+      "example": {
+        "fr": "Raj aime le poulet.",
+        "en": "Raj likes chicken."
+      }
+    },
+    {
+      "id": "poisson",
+      "kind": "vocab",
+      "fr": "poisson",
+      "article": "le",
+      "gender": "m",
+      "en": "fish",
+      "pos": "noun",
+      "accept": [
+        "poisson"
+      ],
+      "note": "Double s = an s sound. [[poison]] (one s, z sound) means poison!",
+      "example": {
+        "fr": "Tu aimes le poisson ?",
+        "en": "Do you like fish?"
+      }
+    },
+    {
+      "id": "legumes",
+      "kind": "vocab",
+      "fr": "légumes",
+      "article": "les",
+      "gender": "m",
+      "en": "vegetables",
+      "pos": "noun",
+      "accept": [
+        "légumes"
+      ],
+      "note": "Masculine, even though it ends in -e: [[un légume]].",
+      "example": {
+        "fr": "J'aime les légumes.",
+        "en": "I like vegetables."
+      }
+    },
+    {
+      "id": "fruits",
+      "kind": "vocab",
+      "fr": "fruits",
+      "article": "les",
+      "gender": "m",
+      "en": "fruit (in general, plural in French)",
+      "pos": "noun",
+      "accept": [
+        "fruits"
+      ],
+      "note": "English says “fruit”; French usually says [[les fruits]] in the plural.",
+      "example": {
+        "fr": "Mei aime les fruits.",
+        "en": "Mei likes fruit."
+      }
+    },
+    {
+      "id": "pates",
+      "kind": "vocab",
+      "fr": "pâtes",
+      "article": "les",
+      "gender": "f",
+      "en": "pasta",
+      "pos": "noun",
+      "accept": [
+        "pâtes"
+      ],
+      "note": "Always plural and feminine: [[les pâtes]].",
+      "example": {
+        "fr": "Les enfants aiment les pâtes.",
+        "en": "The children like pasta."
+      }
+    },
+    {
+      "id": "eau",
+      "kind": "vocab",
+      "fr": "eau",
+      "article": "l'",
+      "gender": "f",
+      "en": "water",
+      "pos": "noun",
+      "accept": [
+        "eau"
+      ],
+      "note": "Feminine. Sounds like the letter “o”: [[l'eau]] = “lo”.",
+      "example": {
+        "fr": "J'aime beaucoup l'eau.",
+        "en": "I really like water."
+      }
+    },
+    {
+      "id": "cafe",
+      "kind": "vocab",
+      "fr": "café",
+      "article": "le",
+      "gender": "m",
+      "en": "coffee",
+      "pos": "noun",
+      "accept": [
+        "café"
+      ],
+      "note": "[[le café]] is also the place: a café.",
+      "example": {
+        "fr": "Tu aimes le café ?",
+        "en": "Do you like coffee?"
+      }
+    },
+    {
+      "id": "petit-dejeuner",
+      "kind": "vocab",
+      "fr": "petit-déjeuner",
+      "article": "le",
+      "gender": "m",
+      "en": "breakfast (in France)",
+      "pos": "noun",
+      "accept": [
+        "petit-déjeuner",
+        "le petit déjeuner",
+        "petit déjeuner"
+      ],
+      "note": "In France: [[le petit-déjeuner]]. In Québec, breakfast is usually [[le déjeuner]].",
+      "example": {
+        "fr": "Le petit-déjeuner, c'est à sept heures.",
+        "en": "Breakfast is at seven o'clock. (France)"
+      }
+    },
+    {
+      "id": "dejeuner",
+      "kind": "vocab",
+      "fr": "déjeuner",
+      "article": "le",
+      "gender": "m",
+      "en": "lunch (in France)",
+      "pos": "noun",
+      "accept": [
+        "déjeuner"
+      ],
+      "note": "In Québec, [[le déjeuner]] is breakfast, and lunch is [[le dîner]].",
+      "example": {
+        "fr": "Le déjeuner, c'est à midi.",
+        "en": "Lunch is at noon. (France)"
+      }
+    },
+    {
+      "id": "diner",
+      "kind": "vocab",
+      "fr": "dîner",
+      "article": "le",
+      "gender": "m",
+      "en": "dinner, the evening meal (in France)",
+      "pos": "noun",
+      "accept": [
+        "dîner"
+      ],
+      "note": "In Québec, the evening meal is [[le souper]], and [[le dîner]] is lunch.",
+      "example": {
+        "fr": "Le dîner, c'est à vingt heures.",
+        "en": "Dinner is at 8 p.m. (France)"
+      }
+    },
+    {
+      "id": "souper",
+      "kind": "vocab",
+      "fr": "souper",
+      "article": "le",
+      "gender": "m",
+      "en": "dinner, the evening meal (in Québec)",
+      "pos": "noun",
+      "accept": [
+        "souper"
+      ],
+      "note": "In France, the evening meal is [[le dîner]]. In Québec, [[le dîner]] is lunch.",
+      "example": {
+        "fr": "Le souper, c'est à dix-huit heures.",
+        "en": "Dinner is at 6 p.m. (Québec)"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "What do you like?",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "Planning a welcome lunch in Gatineau",
+          "context": "Lucie, a volunteer, asks Raj and Mei what they like, to plan Friday's lunch for newcomers.",
+          "lines": [
+            {
+              "speaker": "Lucie",
+              "fr": "Bonjour ! Pour le dîner de vendredi, à midi, j'ai une question. Qu'est-ce que vous aimez ?",
+              "en": "Hello! For Friday's lunch (le dîner, in Québec), at noon, I have a question. What do you like?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Moi, j'aime le poulet et le riz. Mais je n'aime pas le poisson.",
+              "en": "I like chicken and rice. But I don't like fish."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "D'accord. Et toi, Mei ?",
+              "en": "OK. And you, Mei?"
+            },
+            {
+              "speaker": "Mei",
+              "fr": "J'aime beaucoup les légumes et les fruits. Je n'aime pas la viande : je suis végétarienne.",
+              "en": "I really like vegetables and fruit. I don't like meat: I'm vegetarian."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Et le fromage ? Tu aimes le fromage ?",
+              "en": "And cheese? Do you like cheese?"
+            },
+            {
+              "speaker": "Mei",
+              "fr": "Oui ! J'aime le fromage et le pain.",
+              "en": "Yes! I like cheese and bread."
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Et moi, j'aime le café, mais pas le thé.",
+              "en": "And I like coffee, but not tea."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Parfait ! Merci, Raj. Merci, Mei !",
+              "en": "Perfect! Thank you, Raj. Thank you, Mei!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Three meals a day (in France)",
+          "fr": "Le matin, à sept heures, c'est le petit-déjeuner.\nÀ midi, c'est le déjeuner.\nLe soir, à vingt heures, c'est le dîner.",
+          "en": "In the morning, at seven o'clock, it's breakfast.\nAt noon, it's lunch.\nIn the evening, at 8 p.m., it's dinner."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Listen first and spot the food words. Notice that every food word comes with a little word in front of it: [[le]], [[la]], [[l']] or [[les]].\n\nDid you notice? Lucie says [[le dîner]]… [[à midi]]. In Québec, [[le dîner]] is **lunch**. More on that below."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Food words and liking",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "Every food has a gender",
+          "body": "You already know that French nouns are **masculine** or **feminine**. Food is no exception, and there is usually no logic to it: [[le fromage]] is masculine, [[la viande]] is feminine.\n\nSo always learn a food word **with its article**: not just *pain*, but [[le pain]]. Remember: [[le]] and [[la]] become [[l']] before a vowel ([[l'eau]]), and [[les]] is the plural for both genders."
+        },
+        {
+          "type": "table",
+          "title": "Food and drinks",
+          "head": [
+            "French",
+            "gender",
+            "English"
+          ],
+          "rows": [
+            [
+              "le pain",
+              "m.",
+              "bread"
+            ],
+            [
+              "le fromage",
+              "m.",
+              "cheese"
+            ],
+            [
+              "la viande",
+              "f.",
+              "meat"
+            ],
+            [
+              "le poulet",
+              "m.",
+              "chicken"
+            ],
+            [
+              "le poisson",
+              "m.",
+              "fish"
+            ],
+            [
+              "le riz",
+              "m.",
+              "rice"
+            ],
+            [
+              "la pomme",
+              "f.",
+              "apple"
+            ],
+            [
+              "les légumes",
+              "m. pl.",
+              "vegetables"
+            ],
+            [
+              "les fruits",
+              "m. pl.",
+              "fruit"
+            ],
+            [
+              "les pâtes",
+              "f. pl.",
+              "pasta"
+            ],
+            [
+              "l'eau",
+              "f.",
+              "water"
+            ],
+            [
+              "le café",
+              "m.",
+              "coffee"
+            ],
+            [
+              "le thé",
+              "m.",
+              "tea"
+            ],
+            [
+              "le lait",
+              "m.",
+              "milk"
+            ],
+            [
+              "le jus d'orange",
+              "m.",
+              "orange juice"
+            ]
+          ],
+          "frCols": [
+            0
+          ],
+          "sayCol": true,
+          "note": "Watch out: [[l'eau]] is feminine, [[les légumes]] is masculine, and [[les pâtes]] is feminine and always plural. You will practise [[le riz]], [[la pomme]], [[le thé]], [[le lait]] and [[le jus d'orange]] again in the next lesson."
+        },
+        {
+          "type": "pattern",
+          "title": "Saying what you like",
+          "pattern": "j'aime / je n'aime pas + le / la / l' / les + food",
+          "note": "English says “I like cheese” with no article. French **always** puts the definite article after [[aimer]]: [[J'aime le fromage]]. Here [[le]] means “cheese in general”.\n\nTo say you don't like something, wrap the verb in **ne … pas**: [[je n'aime pas]]. The [[ne]] becomes [[n']] before a vowel. The article after it does **not** change.",
+          "examples": [
+            {
+              "fr": "J'aime le pain.",
+              "en": "I like bread."
+            },
+            {
+              "fr": "Je n'aime pas la viande.",
+              "en": "I don't like meat."
+            },
+            {
+              "fr": "Tu aimes les pâtes ?",
+              "en": "Do you like pasta? (to a friend)"
+            },
+            {
+              "fr": "Vous aimez le thé ?",
+              "en": "Do you like tea? (formal)"
+            },
+            {
+              "fr": "Karim aime beaucoup le café.",
+              "en": "Karim really likes coffee."
+            },
+            {
+              "fr": "J'aime le café, mais pas le thé.",
+              "en": "I like coffee, but not tea."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Meals",
+          "head": [
+            "France",
+            "Québec",
+            "English"
+          ],
+          "rows": [
+            [
+              "le petit-déjeuner",
+              "le déjeuner",
+              "breakfast"
+            ],
+            [
+              "le déjeuner",
+              "le dîner",
+              "lunch"
+            ],
+            [
+              "le dîner",
+              "le souper",
+              "dinner (evening meal)"
+            ]
+          ],
+          "frCols": [
+            0,
+            1
+          ],
+          "sayCol": true,
+          "note": "Same words, different meals! Read the deep dive below."
+        },
+        {
+          "type": "vocab",
+          "title": "Words to learn",
+          "itemIds": [
+            "pain",
+            "fromage",
+            "viande",
+            "poulet",
+            "poisson",
+            "legumes",
+            "fruits",
+            "pates",
+            "eau",
+            "cafe",
+            "petit-dejeuner",
+            "dejeuner",
+            "diner",
+            "souper"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Déjeuner, dîner, souper in Québec",
+          "body": "In Québec (and in much of French-speaking Canada, Belgium and Switzerland), the meal names keep their older meaning:\n\n- [[le déjeuner]] = breakfast\n- [[le dîner]] = lunch, around noon\n- [[le souper]] = dinner, the evening meal\n\nIn France, it is [[le petit-déjeuner]], [[le déjeuner]] and [[le dîner]]. Everyone understands [[le petit-déjeuner]], but if a colleague in Montréal says “On dîne à midi ?”, they mean **lunch**.\n\nYou will also hear [[un breuvage]] in Québec for “a drink”: restaurant menus often have a *Breuvages* section. In France, the word is [[une boisson]].",
+          "examples": [
+            {
+              "fr": "Le dîner, c'est à midi.",
+              "en": "Lunch is at noon. (Québec)"
+            },
+            {
+              "fr": "Le souper, c'est à dix-huit heures.",
+              "en": "Dinner is at 6 p.m. (Québec)"
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **No article:** [[J'aime fromage]] is wrong. Say [[J'aime le fromage]].\n- **Countable things go plural:** for things you count, like apples, use the plural to talk about them in general: [[J'aime les pommes]] (I like apples).\n- **Wrong gender after a vowel:** you cannot hear the gender in [[l'eau]], so learn it: [[l'eau]] is feminine ([[une eau minérale]], a mineral water).\n- **Forgetting ne:** in writing, [[je n'aime pas]] needs both parts. In fast speech, people often drop the [[ne]] ([[j'aime pas]]), but write it."
+        },
+        {
+          "type": "deepdive",
+          "kind": "pronunciation",
+          "body": "Lots of food words end in a **silent letter**:\n\n- [[le riz]]: the z is silent, say “ree”.\n- [[le lait]]: the t is silent, it rhymes with *est*.\n- [[le poulet]]: “poo-leh”, no t.\n- [[l'eau]]: just the sound “o”, with an l in front.\n\nAnd [[le pain]] ends in a **nasal vowel**: let the air go through your nose and don't pronounce the n.",
+          "examples": [
+            {
+              "fr": "le riz, le lait, le poulet",
+              "en": "rice, milk, chicken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Say each line out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "le pain, le fromage, le poulet",
+              "en": "bread, cheese, chicken",
+              "tip": "pain is nasal: no n sound at the end."
+            },
+            {
+              "fr": "la viande, les légumes, les fruits",
+              "en": "meat, vegetables, fruit",
+              "tip": "The s of légumes and fruits is silent."
+            },
+            {
+              "fr": "J'aime les pâtes.",
+              "en": "I like pasta.",
+              "tip": "j'aime is one sound: “zhem”."
+            },
+            {
+              "fr": "Je n'aime pas le poisson.",
+              "en": "I don't like fish.",
+              "tip": "poisson has a hard s sound, like “pwa-SSON”."
+            },
+            {
+              "fr": "Tu aimes l'eau ?",
+              "en": "Do you like water?",
+              "tip": "l'eau sounds like “lo”."
+            },
+            {
+              "fr": "le petit-déjeuner",
+              "en": "breakfast",
+              "tip": "pti-dé-jeu-né: the first e of petit is often swallowed."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Je n'aime pas le poisson.",
+          "en": "I don't like fish.",
+          "prompt": "What does the speaker NOT like?",
+          "options": [
+            "Fish",
+            "Chicken",
+            "Bread"
+          ],
+          "answer": 0,
+          "explain": "[[Je n'aime pas]] = I don't like; [[le poisson]] = fish."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Le déjeuner, c'est à midi.",
+          "en": "Lunch is at noon.",
+          "prompt": "Which meal is the speaker talking about (in France)?",
+          "options": [
+            "Lunch",
+            "Breakfast",
+            "Dinner"
+          ],
+          "answer": 0,
+          "explain": "In France, [[le déjeuner]] is the meal at noon. (In Québec, that's [[le dîner]].)"
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Elle aime les pâtes et le fromage.",
+          "en": "She likes pasta and cheese.",
+          "prompt": "What does she like?",
+          "options": [
+            "Pasta and cheese",
+            "Bread and cheese",
+            "Pasta and fish"
+          ],
+          "answer": 0,
+          "explain": "[[les pâtes]] = pasta; [[le fromage]] = cheese."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Mistakes now help you remember later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the food words.",
+          "pairs": [
+            [
+              "le pain",
+              "bread"
+            ],
+            [
+              "la viande",
+              "meat"
+            ],
+            [
+              "le poisson",
+              "fish"
+            ],
+            [
+              "les légumes",
+              "vegetables"
+            ],
+            [
+              "l'eau",
+              "water"
+            ],
+            [
+              "les pâtes",
+              "pasta"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "J'aime ___ fromage.",
+          "answers": [
+            [
+              "le"
+            ]
+          ],
+          "choices": [
+            "le",
+            "la",
+            "les",
+            "l'"
+          ],
+          "en": "I like cheese.",
+          "explain": "[[fromage]] is masculine singular: [[le fromage]]."
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "Mei aime ___ légumes, mais elle n'aime pas ___ viande.",
+          "answers": [
+            [
+              "les"
+            ],
+            [
+              "la"
+            ]
+          ],
+          "en": "Mei likes vegetables, but she doesn't like meat.",
+          "explain": "[[les légumes]] (plural), [[la viande]] (feminine). The article stays the same after ne… pas."
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "I don't like fish.",
+          "accept": [
+            "Je n'aime pas le poisson."
+          ],
+          "hint": "ne + aime + pas, then le.",
+          "explain": "[[Je n'aime pas]]: ne becomes n' before the vowel of aime. Keep the article: [[le poisson]]."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "Do you like coffee? (to a friend)",
+          "accept": [
+            "Tu aimes le café ?",
+            "Est-ce que tu aimes le café ?",
+            "Aimes-tu le café ?"
+          ],
+          "explain": "[[tu aimes]] + [[le café]]. Raising your voice at the end makes it a question."
+        },
+        {
+          "id": "r6",
+          "type": "mcq",
+          "prompt": "Which sentence means “I like apples”?",
+          "options": [
+            "J'aime les pommes.",
+            "J'aime pommes.",
+            "J'aime la pommes.",
+            "J'aime le pomme."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "In general, with countable things, use the plural: [[les pommes]].",
+          "optionFeedback": [
+            null,
+            "French needs an article after aimer.",
+            "la is singular; pommes is plural.",
+            "pomme is feminine: la pomme, and here we want the plural."
+          ]
+        },
+        {
+          "id": "r7",
+          "type": "reorder",
+          "prompt": "I like chicken and rice.",
+          "accept": [
+            "J'aime le poulet et le riz.",
+            "J'aime le riz et le poulet."
+          ],
+          "extra": [
+            "la"
+          ],
+          "explain": "Each food gets its own article: [[le poulet]] et [[le riz]]."
+        },
+        {
+          "id": "r8",
+          "type": "mcq",
+          "prompt": "A colleague in Montréal says: “On dîne à midi ?” What is she suggesting?",
+          "options": [
+            "Having lunch at noon",
+            "Having dinner at noon",
+            "Having breakfast at noon"
+          ],
+          "answer": 0,
+          "explain": "In Québec, [[dîner]] is the noon meal: lunch. In France, it would be the evening meal."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Je n'aime pas la viande.",
+          "accept": [],
+          "explain": "Remember the apostrophe in [[n'aime]] and the feminine article [[la viande]]."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "Le dîner, c'est à ___ heures. (19 h)",
+          "answers": [
+            [
+              "dix-neuf",
+              "19"
+            ]
+          ],
+          "en": "Dinner (in France) is at 7 p.m.",
+          "explain": "19 h = [[dix-neuf heures]]. French uses the 24-hour clock for times like this. In Québec, the evening meal would be [[le souper]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Lucie asks you what you like for the welcome lunch. Say two foods you like, one food you don't like, and a drink you like. Then ask her a question.",
+          "seconds": 30,
+          "checklist": [
+            "J'aime + le/la/les + two foods",
+            "Je n'aime pas + one food",
+            "One drink",
+            "A question: Et toi ? / Tu aimes… ?"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Moi, j'aime le poulet et les légumes. Je n'aime pas le fromage. J'aime beaucoup le thé. Et toi, Lucie, tu aimes le thé ?",
+              "en": "I like chicken and vegetables. I don't like cheese. I really like tea. And you, Lucie, do you like tea?"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a short message to Lucie for the welcome lunch: what you like, what you don't like, and what time you have lunch.",
+          "wordRange": [
+            15,
+            40
+          ],
+          "checklist": [
+            "Greet Lucie",
+            "Two or three foods you like, with the right article",
+            "One thing you don't like (ne… pas)",
+            "The time of your lunch"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour Lucie ! J'aime le poisson, le riz et les fruits. Je n'aime pas les pâtes. J'aime le café, mais pas le thé. Je mange à midi et demi. Merci !",
+              "en": "Hi Lucie! I like fish, rice and fruit. I don't like pasta. I like coffee, but not tea. I eat at half past twelve. Thanks!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Name common foods and drinks **with their article**: [[le pain, la viande, l'eau, les légumes]]…\n- Say what you like and don't like: [[J'aime le fromage. Je n'aime pas le poisson.]]\n- Name the meals in France ([[le petit-déjeuner, le déjeuner, le dîner]]) and in Québec ([[le déjeuner, le dîner, le souper]])",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Labelled every meal word and example as France or Québec, added a souper item, and removed Québec alternates from France-labelled cards. Removed singular accepts from plural vegetables/fruit cards."
+  }
+}

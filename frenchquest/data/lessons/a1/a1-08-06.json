@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-08-06",
+  "level": "a1",
+  "unit": "a1-08",
+  "title": "Workshop: Work and study",
+  "goal": "Get through a simple job interview, understand messages about schedules and exams, and apply for a job in a short email.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "entreprise",
+      "kind": "vocab",
+      "fr": "entreprise",
+      "article": "l'",
+      "gender": "f",
+      "en": "company, business",
+      "pos": "noun",
+      "example": {
+        "fr": "Raj travaille dans une grande entreprise.",
+        "en": "Raj works for a big company."
+      }
+    },
+    {
+      "id": "client",
+      "kind": "vocab",
+      "fr": "client",
+      "article": "le",
+      "gender": "m",
+      "en": "customer, client (m)",
+      "pos": "noun",
+      "accept": [
+        "la cliente",
+        "cliente",
+        "client"
+      ],
+      "note": "Feminine: la cliente.",
+      "example": {
+        "fr": "Les clients parlent anglais et français.",
+        "en": "The customers speak English and French."
+      }
+    },
+    {
+      "id": "patron",
+      "kind": "vocab",
+      "fr": "patron",
+      "article": "le",
+      "gender": "m",
+      "en": "boss (m)",
+      "pos": "noun",
+      "accept": [
+        "la patronne",
+        "patronne",
+        "patron"
+      ],
+      "note": "Feminine: la patronne. A little informal; at work you also hear le gestionnaire.",
+      "example": {
+        "fr": "Ma patronne est très gentille.",
+        "en": "My boss is very nice."
+      }
+    },
+    {
+      "id": "salaire",
+      "kind": "vocab",
+      "fr": "salaire",
+      "article": "le",
+      "gender": "m",
+      "en": "salary, pay",
+      "pos": "noun",
+      "example": {
+        "fr": "Le salaire, c'est 21 $ de l'heure.",
+        "en": "The pay is $21 an hour."
+      }
+    },
+    {
+      "id": "emploi",
+      "kind": "vocab",
+      "fr": "emploi",
+      "article": "l'",
+      "gender": "m",
+      "en": "job, position (in ads and forms)",
+      "pos": "noun",
+      "note": "Un emploi is a paid job; le travail is work in general.",
+      "example": {
+        "fr": "Je cherche un emploi à temps plein.",
+        "en": "I'm looking for a full-time job."
+      }
+    },
+    {
+      "id": "entrevue",
+      "kind": "vocab",
+      "fr": "entrevue",
+      "article": "l'",
+      "gender": "f",
+      "en": "job interview (Québec)",
+      "pos": "noun",
+      "accept": [
+        "l'entretien",
+        "un entretien",
+        "une entrevue"
+      ],
+      "note": "In France: un entretien (d'embauche).",
+      "example": {
+        "fr": "J'ai une entrevue lundi à dix heures.",
+        "en": "I have a job interview on Monday at ten."
+      }
+    },
+    {
+      "id": "cv",
+      "kind": "vocab",
+      "fr": "CV",
+      "article": "le",
+      "gender": "m",
+      "en": "résumé, CV",
+      "pos": "noun",
+      "note": "Say it like the letters: “say-vay”.",
+      "example": {
+        "fr": "Merci pour votre CV.",
+        "en": "Thank you for your résumé."
+      }
+    },
+    {
+      "id": "stage",
+      "kind": "vocab",
+      "fr": "stage",
+      "article": "le",
+      "gender": "m",
+      "en": "internship, work placement",
+      "pos": "noun",
+      "note": "A false friend: it is not a theatre stage.",
+      "example": {
+        "fr": "Mei fait un stage dans une entreprise.",
+        "en": "Mei is doing an internship at a company."
+      }
+    },
+    {
+      "id": "examen",
+      "kind": "vocab",
+      "fr": "examen",
+      "article": "l'",
+      "gender": "m",
+      "en": "exam, test",
+      "pos": "noun",
+      "example": {
+        "fr": "L'examen commence à neuf heures.",
+        "en": "The exam starts at nine."
+      }
+    },
+    {
+      "id": "devoirs",
+      "kind": "vocab",
+      "fr": "devoirs",
+      "article": "les",
+      "gender": "m",
+      "en": "homework",
+      "pos": "noun",
+      "note": "Usually plural: faire ses devoirs.",
+      "example": {
+        "fr": "Le soir, je fais mes devoirs de français.",
+        "en": "In the evening, I do my French homework."
+      }
+    },
+    {
+      "id": "universite",
+      "kind": "vocab",
+      "fr": "université",
+      "article": "l'",
+      "gender": "f",
+      "en": "university",
+      "pos": "noun",
+      "example": {
+        "fr": "Nguyen étudie à l'université.",
+        "en": "Nguyen studies at university."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A job interview",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "An interview at a restaurant in Laval",
+          "context": "Karim is a cook. He has a job interview (une entrevue) with Nadia Roy, the owner of a restaurant.",
+          "lines": [
+            {
+              "speaker": "Mme Roy",
+              "fr": "Bonjour, Karim ! Je suis Nadia Roy, la patronne du restaurant. Merci pour votre CV.",
+              "en": "Hello, Karim! I'm Nadia Roy, the owner of the restaurant. Thank you for your résumé."
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Bonjour, madame. Enchanté.",
+              "en": "Hello, madam. Nice to meet you."
+            },
+            {
+              "speaker": "Mme Roy",
+              "fr": "Alors, qu'est-ce que vous faites maintenant ?",
+              "en": "So, what do you do now?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Je suis cuisinier à la cafétéria de l'université. Je travaille à temps partiel, du lundi au mercredi.",
+              "en": "I'm a cook at the university cafeteria. I work part-time, from Monday to Wednesday."
+            },
+            {
+              "speaker": "Mme Roy",
+              "fr": "Et vous cherchez un emploi à temps plein ?",
+              "en": "And you're looking for a full-time job?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Oui, près de chez moi. J'habite à Laval, à côté du métro Montmorency.",
+              "en": "Yes, near my home. I live in Laval, next to Montmorency metro station."
+            },
+            {
+              "speaker": "Mme Roy",
+              "fr": "Parfait. Parlez-vous anglais ? Ici, beaucoup de clients parlent anglais.",
+              "en": "Perfect. Do you speak English? Here, a lot of customers speak English."
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Oui, je parle arabe, anglais et un peu français. J'apprends le français le soir, et je comprends bien les clients.",
+              "en": "Yes, I speak Arabic, English and a little French. I'm learning French in the evenings, and I understand the customers well."
+            },
+            {
+              "speaker": "Mme Roy",
+              "fr": "Très bien. Voici l'horaire : du mardi au samedi, de onze heures à dix-neuf heures. La pause est à quinze heures.",
+              "en": "Very good. Here's the schedule: Tuesday to Saturday, from 11 a.m. to 7 p.m. The break is at 3 p.m."
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Et le dimanche et le lundi ?",
+              "en": "And Sundays and Mondays?"
+            },
+            {
+              "speaker": "Mme Roy",
+              "fr": "Ce sont vos jours de congé.",
+              "en": "Those are your days off."
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Super. Et le salaire ?",
+              "en": "Great. And the pay?"
+            },
+            {
+              "speaker": "Mme Roy",
+              "fr": "C'est 21 $ de l'heure. Vous finissez à la cafétéria quel jour ?",
+              "en": "It's $21 an hour. Which day do you finish at the cafeteria?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Le vendredi 30 mai.",
+              "en": "On Friday, May 30th."
+            },
+            {
+              "speaker": "Mme Roy",
+              "fr": "Alors, vous commencez ici le mardi 3 juin, à onze heures. Bienvenue dans l'équipe, Karim !",
+              "en": "Then you start here on Tuesday, June 3rd, at eleven. Welcome to the team, Karim!"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Merci beaucoup, madame Roy !",
+              "en": "Thank you very much, Mrs. Roy!"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Listen once and try to catch three things: Karim's job now, his new schedule and his start date. Then check the questions below."
+        },
+        {
+          "id": "c1",
+          "type": "mcq",
+          "prompt": "What does Karim do now?",
+          "options": [
+            "He's a part-time cook at a university cafeteria.",
+            "He's a full-time cook in a restaurant.",
+            "He's a student at the university."
+          ],
+          "answer": 0,
+          "explain": "[[Je suis cuisinier à la cafétéria de l'université. Je travaille à temps partiel.]]"
+        },
+        {
+          "id": "c2",
+          "type": "mcq",
+          "prompt": "Which days will Karim work at the restaurant?",
+          "options": [
+            "Tuesday to Saturday",
+            "Monday to Wednesday",
+            "Monday to Friday",
+            "Sunday and Monday"
+          ],
+          "answer": 0,
+          "explain": "[[du mardi au samedi]]. Sunday and Monday are his days off ([[jours de congé]]).",
+          "optionFeedback": [
+            null,
+            "That's his schedule at the cafeteria now.",
+            "Listen again: du mardi au samedi.",
+            "Those are his days off."
+          ]
+        },
+        {
+          "id": "c3",
+          "type": "mcq",
+          "prompt": "When does he start at the restaurant?",
+          "options": [
+            "Tuesday, June 3rd, at 11",
+            "Friday, May 30th, at 11",
+            "Tuesday, June 3rd, at 3 p.m."
+          ],
+          "answer": 0,
+          "explain": "[[le mardi 3 juin, à onze heures]]. May 30th is his last day at the cafeteria."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 8 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit at a glance",
+          "head": [
+            "To…",
+            "French"
+          ],
+          "rows": [
+            [
+              "say your job",
+              "être + job (no article)"
+            ],
+            [
+              "describe someone",
+              "c'est un / une + job"
+            ],
+            [
+              "ask yes/no",
+              "intonation / est-ce que / inversion"
+            ],
+            [
+              "ask “what?”",
+              "qu'est-ce que…"
+            ],
+            [
+              "-ir / -re verbs",
+              "je finis, nous finissons / je prends, ils prennent"
+            ],
+            [
+              "give a schedule",
+              "du lundi au vendredi, de 9 h à 17 h"
+            ]
+          ],
+          "frCols": [
+            1
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Keep in mind",
+          "body": "- No article after **être**: [[Il est médecin]], but [[C'est un médecin]].\n- Feminine jobs: [[vendeur → vendeuse]], [[infirmier → infirmière]], [[ingénieur → ingénieure]].\n- [[Le lundi]] = every Monday; [[lundi]] = this Monday.\n- [[Est-ce que]] asks yes/no; [[qu'est-ce que]] asks *what*."
+        },
+        {
+          "type": "vocab",
+          "title": "New words: jobs, school and job hunting",
+          "itemIds": [
+            "entreprise",
+            "client",
+            "patron",
+            "salaire",
+            "emploi",
+            "entrevue",
+            "cv",
+            "stage",
+            "examen",
+            "devoirs",
+            "universite"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "body": "Job-hunting words differ between Canada and France. In Québec you go to [[une entrevue]]; in France it is [[un entretien d'embauche]]. Pay is often given by the hour: you will often hear [[21 $ de l'heure]] in Canada, and also [[21 $ l'heure]]. Both are understood. In Canada, people also say [[un CV]], and job ads often ask: [[Êtes-vous disponible la fin de semaine ?]] (Are you available on weekends?)."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Messages about work and school",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A voicemail from the language centre",
+          "context": "Sofia gets a voicemail about her French exam.",
+          "fr": "Bonjour Sofia, c'est Julie Tremblay, du Centre de francisation Saint-Laurent. Votre examen de français est le jeudi 12 juin, à neuf heures, dans la salle 204. L'examen finit à midi. Prenez votre passeport, s'il vous plaît. Merci et bonne journée !",
+          "en": "Hello Sofia, it's Julie Tremblay, from the Saint-Laurent francisation centre. Your French exam is on Thursday, June 12th, at nine o'clock, in room 204. The exam ends at noon. Please take your passport. Thank you and have a good day!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Votre examen de français est le jeudi 12 juin, à neuf heures.",
+          "en": "Your French exam is on Thursday, June 12th, at nine.",
+          "prompt": "When is the exam?",
+          "options": [
+            "Thursday, June 12th, at 9",
+            "Tuesday, June 12th, at 9",
+            "Thursday, June 2nd, at 9"
+          ],
+          "answer": 0,
+          "explain": "[[jeudi]] = Thursday ([[mardi]] = Tuesday); [[douze]] = 12."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "L'examen est dans la salle 204. Il finit à midi.",
+          "en": "The exam is in room 204. It ends at noon.",
+          "prompt": "When does the exam end?",
+          "options": [
+            "At noon",
+            "At midnight",
+            "At 2 p.m."
+          ],
+          "answer": 0,
+          "explain": "[[midi]] = noon; midnight is [[minuit]]."
+        },
+        {
+          "type": "listen",
+          "title": "A message for the team",
+          "context": "Olivier, a manager in Montréal, speaks to his team on Monday morning.",
+          "fr": "Bonjour à toute l'équipe ! Cette semaine, l'horaire change un peu. Mardi, la réunion commence à huit heures trente, pas à neuf heures. Mercredi, nous avons deux nouveaux employés : Sofia, une développeuse, et Raj, un ingénieur. Ils finissent la formation vendredi. Et jeudi, la pause du dîner est à treize heures, pas à midi. Merci et bonne semaine !",
+          "en": "Hello, everyone on the team! This week, the schedule changes a little. On Tuesday, the meeting starts at eight thirty, not at nine. On Wednesday, we have two new employees: Sofia, a developer, and Raj, an engineer. They finish their training on Friday. And on Thursday, the lunch break is at one o'clock, not at noon. Thank you and have a good week!"
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Mardi, la réunion commence à huit heures trente, pas à neuf heures.",
+          "en": "On Tuesday, the meeting starts at eight thirty, not at nine.",
+          "prompt": "What time is Tuesday's meeting?",
+          "options": [
+            "8:30",
+            "9:00",
+            "9:30"
+          ],
+          "answer": 0,
+          "explain": "[[huit heures trente]] = 8:30. Nine o'clock is the old time ([[pas à neuf heures]])."
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "Mercredi, nous avons deux nouveaux employés : Sofia, une développeuse, et Raj, un ingénieur.",
+          "en": "On Wednesday, we have two new employees: Sofia, a developer, and Raj, an engineer.",
+          "prompt": "What is Raj's job?",
+          "options": [
+            "Engineer",
+            "Developer",
+            "Manager"
+          ],
+          "answer": 0,
+          "explain": "[[Raj, un ingénieur]]. Sofia is the developer: [[une développeuse]]."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "Jeudi, la pause du dîner est à treize heures, pas à midi.",
+          "en": "On Thursday, the lunch break is at one o'clock, not at noon.",
+          "prompt": "When is the lunch break on Thursday?",
+          "options": [
+            "1 p.m.",
+            "Noon",
+            "3 p.m."
+          ],
+          "answer": 0,
+          "explain": "[[treize heures]] = 1 p.m. In Québec, [[le dîner]] is lunch."
+        },
+        {
+          "id": "h6",
+          "type": "dictation",
+          "fr": "Ils finissent la formation vendredi.",
+          "accept": [],
+          "explain": "Plural [[ils finissent]]: you hear the double s. [[Vendredi]] without le = this Friday."
+        },
+        {
+          "id": "h7",
+          "type": "dictation",
+          "fr": "La réunion commence à huit heures trente.",
+          "accept": [
+            "La réunion commence à 8 h 30.",
+            "La réunion commence à 8 heures 30.",
+            "La réunion commence à 8h30."
+          ],
+          "explain": "[[réunion]] has an é; [[commence]] has two m's: c-o-m-m-e-n-c-e."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most are about this unit, some bring back Units 3 to 7. Answer without scrolling back.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Ma sœur est ___. (vendeur)",
+          "answers": [
+            [
+              "vendeuse"
+            ]
+          ],
+          "en": "My sister is a salesperson.",
+          "explain": "Job titles in [[-eur]] that come from a verb ([[vendre]] → [[vendeur]]) take [[-euse]] for a woman: [[vendeuse]]."
+        },
+        {
+          "id": "r2",
+          "type": "mcq",
+          "prompt": "“She's an engineer.” Which is correct?",
+          "options": [
+            "Elle est ingénieure.",
+            "Elle est une ingénieure.",
+            "C'est ingénieure.",
+            "Elle a ingénieure."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "After [[être]], no article: [[Elle est ingénieure]]. With [[c'est]], you need one: [[C'est une ingénieure]].",
+          "optionFeedback": [
+            null,
+            "No un/une after il est / elle est + job.",
+            "After c'est, add un/une: c'est une ingénieure.",
+            "Jobs use être, not avoir."
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "Nous ___ le travail à dix-sept heures. (finir)",
+          "answers": [
+            [
+              "finissons"
+            ]
+          ],
+          "choices": [
+            "finissons",
+            "finons",
+            "finissez",
+            "finis"
+          ],
+          "en": "We finish work at 5 p.m.",
+          "explain": "Plural forms of [[finir]] add [[-iss-]]: [[nous finissons]]."
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "Do you understand the question? (formal)",
+          "accept": [
+            "Vous comprenez la question ?",
+            "Est-ce que vous comprenez la question ?",
+            "Comprenez-vous la question ?"
+          ],
+          "explain": "vous → [[comprenez]]. All three registers are correct: intonation, [[est-ce que]] or inversion."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "What do you do for a living? (formal)",
+          "accept": [
+            "Qu'est-ce que vous faites dans la vie ?"
+          ],
+          "extra": [
+            "est"
+          ],
+          "explain": "[[Qu'est-ce que]] asks *what*; [[faire]] → [[vous faites]]."
+        },
+        {
+          "id": "r6",
+          "type": "match",
+          "prompt": "Match the new words.",
+          "pairs": [
+            [
+              "le salaire",
+              "pay"
+            ],
+            [
+              "l'entrevue",
+              "job interview"
+            ],
+            [
+              "le stage",
+              "internship"
+            ],
+            [
+              "les devoirs",
+              "homework"
+            ],
+            [
+              "la patronne",
+              "boss (f)"
+            ]
+          ]
+        },
+        {
+          "id": "r7",
+          "type": "listen-mcq",
+          "fr": "Je travaille à temps partiel, le lundi et le jeudi.",
+          "en": "I work part-time, on Mondays and Thursdays.",
+          "prompt": "When does the speaker work?",
+          "options": [
+            "Part-time, Mondays and Thursdays",
+            "Full-time, Monday to Thursday",
+            "Part-time, Tuesdays and Thursdays"
+          ],
+          "answer": 0,
+          "explain": "[[à temps partiel]] = part-time; [[le lundi et le jeudi]] = Mondays and Thursdays (not [[du lundi au jeudi]])."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "Les clients attendent devant le magasin.",
+          "accept": [],
+          "explain": "[[ils attendent]]: the -ent is silent. [[magasin]] = store."
+        },
+        {
+          "id": "r9",
+          "type": "translate",
+          "prompt": "I take the metro to go to the university.",
+          "accept": [
+            "Je prends le métro pour aller à l'université."
+          ],
+          "explain": "Unit 7: [[je prends le métro]] + [[pour aller à]] + [[l'université]]."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "J'___ trente-quatre ans et je suis comptable.",
+          "answers": [
+            [
+              "ai"
+            ]
+          ],
+          "choices": [
+            "ai",
+            "suis",
+            "a",
+            "es"
+          ],
+          "en": "I'm thirty-four and I'm an accountant.",
+          "explain": "Unit 3: age uses [[avoir]]: [[j'ai… ans]]."
+        },
+        {
+          "id": "r11",
+          "type": "cloze",
+          "text": "Lucie est infirmière. ___ mari est médecin.",
+          "answers": [
+            [
+              "Son"
+            ]
+          ],
+          "choices": [
+            "Son",
+            "Sa",
+            "Ses",
+            "Mon"
+          ],
+          "en": "Lucie is a nurse. Her husband is a doctor.",
+          "explain": "Unit 4: [[mari]] is masculine, so [[son mari]], even for Lucie's husband."
+        },
+        {
+          "id": "r12",
+          "type": "cloze",
+          "text": "Le matin, je ___ à six heures et je prends l'autobus.",
+          "answers": [
+            [
+              "me lève"
+            ]
+          ],
+          "choices": [
+            "me lève",
+            "lève",
+            "se lève",
+            "me lever"
+          ],
+          "en": "In the morning, I get up at six and I take the bus.",
+          "explain": "Unit 5: with [[je]], the reflexive pronoun is [[me]]: [[je me lève]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "You see a job ad: “Pharmacie du Parc cherche un vendeur ou une vendeuse.” Write a short email to apply: say hello, who you are and what you do now, your languages, where you live and how you get to work, when you can work (days and times), and ask one question.",
+          "promptFr": "Écrivez un courriel pour répondre à une offre d'emploi.",
+          "wordRange": [
+            40,
+            70
+          ],
+          "checklist": [
+            "A formal greeting (Bonjour, madame / monsieur)",
+            "Your job now, without an article",
+            "Your languages",
+            "Where you live and your transport",
+            "Your availability (du… au…, de… à…)",
+            "One question (est-ce que, inversion or quel…)",
+            "A formal closing"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour, madame,\n\nJe m'appelle Sofia Morales. Je suis vendeuse dans un magasin de sport. Je parle espagnol, anglais et un peu français. J'habite à Gatineau et je prends l'autobus. Je cherche un emploi à temps partiel, du lundi au jeudi, de 9 h à 17 h. Quel est le salaire ?\n\nMerci,\nSofia Morales",
+              "en": "Hello, madam,\n\nMy name is Sofia Morales. I'm a salesperson in a sports store. I speak Spanish, English and a little French. I live in Gatineau and I take the bus. I'm looking for a part-time job, Monday to Thursday, from 9 a.m. to 5 p.m. What is the pay?\n\nThank you,\nSofia Morales"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour, monsieur,\n\nJe suis Raj Patel. Je suis étudiant en chimie à l'Université d'Ottawa et je cherche un emploi à temps partiel. Je parle hindi, anglais et français. J'habite près de la pharmacie : c'est à cinq minutes à pied. Je finis mes cours à quinze heures, du lundi au vendredi. Est-ce qu'il y a du travail la fin de semaine ?\n\nMerci,\nRaj Patel",
+              "en": "Hello, sir,\n\nI'm Raj Patel. I'm a chemistry student at the University of Ottawa and I'm looking for a part-time job. I speak Hindi, English and French. I live near the pharmacy: it's five minutes on foot. I finish my classes at 3 p.m., Monday to Friday. Is there any work on weekends?\n\nThank you,\nRaj Patel"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "You are at a job interview. Answer the boss's question “Parlez-moi de vous” (Tell me about yourself) for about a minute: your name, your job or studies now, your languages, where you live and how you come, when you are available. End with two questions for the boss (the pay, the schedule or the start date).",
+          "seconds": 60,
+          "checklist": [
+            "Name and job or studies (no article after je suis)",
+            "Languages",
+            "Where you live and how you come",
+            "Availability with du… au… / de… à…",
+            "Two polite questions (est-ce que, inversion or quel…)"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour, madame. Je m'appelle Amira. Je suis infirmière, mais ici, au Québec, je suis en francisation. Je parle arabe, français et un peu anglais. J'habite à Rosemont et je prends le métro. Je suis disponible du lundi au vendredi, de huit heures à seize heures. Le samedi, j'ai mes cours de français. Est-ce que c'est un emploi à temps plein ? Et quel est le salaire ?",
+              "en": "Hello, madam. My name is Amira. I'm a nurse, but here in Québec, I'm taking francisation classes. I speak Arabic, French and a little English. I live in Rosemont and I take the metro. I'm available Monday to Friday, from 8 a.m. to 4 p.m. On Saturdays, I have my French classes. Is it a full-time job? And what is the pay?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour, monsieur. Je m'appelle Nguyen Van Minh. Je suis vietnamien et j'habite à Toronto, près de la gare. Maintenant, je suis vendeur dans un magasin d'électronique, à temps partiel. Je vends des téléphones et je réponds aux questions des clients. Je parle vietnamien, anglais et français. J'apprends le français le soir, à l'université. Je suis disponible le lundi, le mercredi et la fin de semaine. Quel est l'horaire ? Et je commence quel jour ?",
+              "en": "Hello, sir. My name is Nguyen Van Minh. I'm Vietnamese and I live in Toronto, near the train station. Right now, I'm a part-time salesperson in an electronics store. I sell phones and I answer customers' questions. I speak Vietnamese, English and French. I'm learning French in the evenings, at the university. I'm available on Mondays, Wednesdays and weekends. What is the schedule? And which day do I start?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Answer and ask questions at a simple job interview: job, languages, schedule, pay\n- Understand voicemails and team messages about exams, meetings and breaks\n- Use new work and school words: [[l'emploi, l'entrevue, le CV, le salaire, le stage, l'examen]]\n- Write a short email to apply for a job",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Hedged the '21 $ de l'heure' note, made a vocab example more natural (mes devoirs), added the 8h30 dictation variant and aligned the mission checklists with the model questions (quel…)."
+  }
+}

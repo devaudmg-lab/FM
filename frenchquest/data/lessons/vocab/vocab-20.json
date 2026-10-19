@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-20",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Love, family and loss",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "relationships, family life, mourning and faith",
+  "goal": "Recognise and use 23 words for couples, family, mourning and religious life.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "epoux",
+      "kind": "vocab",
+      "fr": "époux",
+      "fem": "épouse",
+      "article": "l'",
+      "gender": "m",
+      "en": "spouse (formal)",
+      "pos": "noun",
+      "accept": [
+        "un époux",
+        "épouse",
+        "l'épouse",
+        "une épouse"
+      ],
+      "example": {
+        "fr": "Les époux doivent signer le contrat de mariage.",
+        "en": "The spouses must sign the marriage contract."
+      }
+    },
+    {
+      "id": "fiancailles",
+      "kind": "vocab",
+      "fr": "fiançailles",
+      "article": "les",
+      "gender": "f",
+      "en": "engagement (before marriage)",
+      "pos": "noun",
+      "accept": [
+        "des fiançailles"
+      ],
+      "example": {
+        "fr": "Ils ont fêté leurs fiançailles au restaurant.",
+        "en": "They celebrated their engagement at a restaurant."
+      }
+    },
+    {
+      "id": "demoiselle-honneur",
+      "kind": "vocab",
+      "fr": "demoiselle d’honneur",
+      "article": "la",
+      "gender": "f",
+      "en": "bridesmaid",
+      "pos": "noun",
+      "accept": [
+        "une demoiselle d’honneur",
+        "demoiselle d'honneur",
+        "la demoiselle d'honneur",
+        "une demoiselle d'honneur"
+      ],
+      "example": {
+        "fr": "Sofia sera ma demoiselle d'honneur.",
+        "en": "Sofia will be my bridesmaid."
+      }
+    },
+    {
+      "id": "rupture",
+      "kind": "vocab",
+      "fr": "rupture",
+      "article": "la",
+      "gender": "f",
+      "en": "break-up",
+      "pos": "noun",
+      "accept": [
+        "une rupture"
+      ],
+      "example": {
+        "fr": "Après la rupture, il a déménagé à Toronto.",
+        "en": "After the break-up, he moved to Toronto."
+      }
+    },
+    {
+      "id": "divorcer",
+      "kind": "vocab",
+      "fr": "divorcer",
+      "en": "to get divorced",
+      "pos": "verb",
+      "example": {
+        "fr": "Mes parents ont divorcé quand j'avais dix ans.",
+        "en": "My parents got divorced when I was ten."
+      }
+    },
+    {
+      "id": "calin",
+      "kind": "vocab",
+      "fr": "câlin",
+      "article": "le",
+      "gender": "m",
+      "en": "hug, cuddle",
+      "pos": "noun",
+      "accept": [
+        "un câlin"
+      ],
+      "example": {
+        "fr": "Viens, je te fais un câlin.",
+        "en": "Come here, I'll give you a hug."
+      },
+      "note": "Faire un câlin à quelqu’un = to hug someone."
+    },
+    {
+      "id": "intimite",
+      "kind": "vocab",
+      "fr": "intimité",
+      "article": "l'",
+      "gender": "f",
+      "en": "privacy; intimacy",
+      "pos": "noun",
+      "accept": [
+        "une intimité"
+      ],
+      "example": {
+        "fr": "Il faut respecter l'intimité de vos enfants.",
+        "en": "You need to respect your children's privacy."
+      }
+    },
+    {
+      "id": "surnom",
+      "kind": "vocab",
+      "fr": "surnom",
+      "article": "le",
+      "gender": "m",
+      "en": "nickname",
+      "pos": "noun",
+      "accept": [
+        "un surnom"
+      ],
+      "example": {
+        "fr": "Mon surnom à l'école, c'était « Coco ».",
+        "en": "My nickname at school was “Coco”."
+      }
+    },
+    {
+      "id": "petit-fils",
+      "kind": "vocab",
+      "fr": "petit-fils",
+      "fem": "petite-fille",
+      "article": "le",
+      "gender": "m",
+      "en": "grandson",
+      "pos": "noun",
+      "accept": [
+        "un petit-fils"
+      ],
+      "example": {
+        "fr": "Mon petit-fils a commencé l'école cette année.",
+        "en": "My grandson started school this year."
+      },
+      "note": "Granddaughter: la petite-fille."
+    },
+    {
+      "id": "fillette",
+      "kind": "vocab",
+      "fr": "fillette",
+      "article": "la",
+      "gender": "f",
+      "en": "little girl",
+      "pos": "noun",
+      "accept": [
+        "une fillette"
+      ],
+      "example": {
+        "fr": "Une fillette jouait seule dans le parc.",
+        "en": "A little girl was playing alone in the park."
+      }
+    },
+    {
+      "id": "ancetre",
+      "kind": "vocab",
+      "fr": "ancêtre",
+      "article": "l'",
+      "gender": "m",
+      "en": "ancestor",
+      "pos": "noun",
+      "accept": [
+        "un ancêtre",
+        "une ancêtre"
+      ],
+      "example": {
+        "fr": "Mes ancêtres sont venus de Bretagne au 17e siècle.",
+        "en": "My ancestors came from Brittany in the 17th century."
+      }
+    },
+    {
+      "id": "reunir",
+      "kind": "vocab",
+      "fr": "réunir",
+      "en": "to bring together, to gather",
+      "pos": "verb",
+      "example": {
+        "fr": "Noël réunit toute la famille.",
+        "en": "Christmas brings the whole family together."
+      }
+    },
+    {
+      "id": "veuve",
+      "kind": "vocab",
+      "fr": "veuve",
+      "article": "la",
+      "gender": "f",
+      "en": "widow",
+      "pos": "noun",
+      "accept": [
+        "une veuve"
+      ],
+      "example": {
+        "fr": "Depuis la mort de son mari, elle est veuve.",
+        "en": "Since her husband died, she has been a widow."
+      },
+      "note": "Man: un veuf (widower)."
+    },
+    {
+      "id": "mourant",
+      "kind": "vocab",
+      "fr": "mourant",
+      "fem": "mourante",
+      "en": "dying",
+      "pos": "adjective",
+      "accept": [
+        "mourante"
+      ],
+      "example": {
+        "fr": "Il est allé voir son père mourant à l'hôpital.",
+        "en": "He went to see his dying father in hospital."
+      }
+    },
+    {
+      "id": "deuil",
+      "kind": "vocab",
+      "fr": "deuil",
+      "article": "le",
+      "gender": "m",
+      "en": "mourning, bereavement",
+      "pos": "noun",
+      "accept": [
+        "un deuil"
+      ],
+      "example": {
+        "fr": "Elle est en deuil depuis la mort de sa mère.",
+        "en": "She has been in mourning since her mother died."
+      }
+    },
+    {
+      "id": "funerailles",
+      "kind": "vocab",
+      "fr": "funérailles",
+      "article": "les",
+      "gender": "f",
+      "en": "funeral",
+      "pos": "noun",
+      "accept": [
+        "des funérailles",
+        "les obsèques",
+        "l'enterrement"
+      ],
+      "example": {
+        "fr": "Les funérailles auront lieu samedi.",
+        "en": "The funeral will take place on Saturday."
+      }
+    },
+    {
+      "id": "condoleances",
+      "kind": "vocab",
+      "fr": "condoléances",
+      "article": "les",
+      "gender": "f",
+      "en": "condolences",
+      "pos": "noun",
+      "accept": [
+        "des condoléances"
+      ],
+      "example": {
+        "fr": "Toutes mes condoléances pour ta grand-mère.",
+        "en": "My condolences about your grandmother."
+      }
+    },
+    {
+      "id": "cercueil",
+      "kind": "vocab",
+      "fr": "cercueil",
+      "article": "le",
+      "gender": "m",
+      "en": "coffin, casket",
+      "pos": "noun",
+      "accept": [
+        "un cercueil"
+      ],
+      "example": {
+        "fr": "Le cercueil était couvert de fleurs.",
+        "en": "The coffin was covered with flowers."
+      }
+    },
+    {
+      "id": "tombe",
+      "kind": "vocab",
+      "fr": "tombe",
+      "article": "la",
+      "gender": "f",
+      "en": "grave",
+      "pos": "noun",
+      "accept": [
+        "une tombe"
+      ],
+      "example": {
+        "fr": "Chaque année, il met des fleurs sur la tombe de sa mère.",
+        "en": "Every year, he puts flowers on his mother's grave."
+      }
+    },
+    {
+      "id": "testament",
+      "kind": "vocab",
+      "fr": "testament",
+      "article": "le",
+      "gender": "m",
+      "en": "will (legal document)",
+      "pos": "noun",
+      "accept": [
+        "un testament"
+      ],
+      "example": {
+        "fr": "Mon grand-père a laissé un testament chez le notaire.",
+        "en": "My grandfather left a will with the notary."
+      }
+    },
+    {
+      "id": "priere",
+      "kind": "vocab",
+      "fr": "prière",
+      "article": "la",
+      "gender": "f",
+      "en": "prayer",
+      "pos": "noun",
+      "accept": [
+        "une prière"
+      ],
+      "example": {
+        "fr": "Elle dit une prière avant de dormir.",
+        "en": "She says a prayer before going to sleep."
+      }
+    },
+    {
+      "id": "catholique",
+      "kind": "vocab",
+      "fr": "catholique",
+      "en": "Catholic",
+      "pos": "adjective",
+      "example": {
+        "fr": "Au Québec, beaucoup d'églises catholiques deviennent des centres communautaires.",
+        "en": "In Québec, many Catholic churches are becoming community centres."
+      }
+    },
+    {
+      "id": "benir",
+      "kind": "vocab",
+      "fr": "bénir",
+      "en": "to bless",
+      "pos": "verb",
+      "example": {
+        "fr": "Le prêtre a béni les nouveaux mariés.",
+        "en": "The priest blessed the newlyweds."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Couples and family",
+          "itemIds": [
+            "epoux",
+            "fiancailles",
+            "demoiselle-honneur",
+            "rupture",
+            "divorcer",
+            "calin",
+            "intimite",
+            "surnom",
+            "petit-fils",
+            "fillette",
+            "ancetre",
+            "reunir"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Death and mourning",
+          "itemIds": [
+            "veuve",
+            "mourant",
+            "deuil",
+            "funerailles",
+            "condoleances",
+            "cercueil",
+            "tombe",
+            "testament"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Faith",
+          "itemIds": [
+            "priere",
+            "catholique",
+            "benir"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[Les fiançailles]], [[les funérailles]] and [[les condoléances]] are always plural.\n- [[Les funérailles]] is common in Québec; in France people usually say [[l'enterrement]] or, formally, [[les obsèques]].\n- [[Le testament]] is a legal will, not a religious text.\n- Québec: say [[Mes sympathies]] as well as [[Mes condoléances]]."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Ils ont fêté leurs fiançailles au restaurant.",
+              "en": "They celebrated their engagement at a restaurant."
+            },
+            {
+              "fr": "Après la rupture, il a déménagé à Toronto.",
+              "en": "After the break-up, he moved to Toronto."
+            },
+            {
+              "fr": "Viens, je te fais un câlin.",
+              "en": "Come here, I'll give you a hug."
+            },
+            {
+              "fr": "Mon surnom à l'école, c'était « Coco ».",
+              "en": "My nickname at school was “Coco”."
+            },
+            {
+              "fr": "Noël réunit toute la famille.",
+              "en": "Christmas brings the whole family together."
+            },
+            {
+              "fr": "Mon petit-fils a commencé l'école cette année.",
+              "en": "My grandson started school this year."
+            },
+            {
+              "fr": "Elle est en deuil depuis la mort de sa mère.",
+              "en": "She has been in mourning since her mother died."
+            },
+            {
+              "fr": "Toutes mes condoléances pour ta grand-mère.",
+              "en": "My condolences about your grandmother."
+            },
+            {
+              "fr": "Chaque année, il met des fleurs sur la tombe de sa mère.",
+              "en": "Every year, he puts flowers on his mother's grave."
+            },
+            {
+              "fr": "Elle dit une prière avant de dormir.",
+              "en": "She says a prayer before going to sleep."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the family words.",
+          "pairs": [
+            [
+              "le petit-fils",
+              "grandson"
+            ],
+            [
+              "la fillette",
+              "little girl"
+            ],
+            [
+              "l'ancêtre",
+              "ancestor"
+            ],
+            [
+              "la veuve",
+              "widow"
+            ],
+            [
+              "le surnom",
+              "nickname"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the words about loss.",
+          "pairs": [
+            [
+              "le deuil",
+              "mourning"
+            ],
+            [
+              "le cercueil",
+              "coffin"
+            ],
+            [
+              "la tombe",
+              "grave"
+            ],
+            [
+              "le testament",
+              "will"
+            ],
+            [
+              "les funérailles",
+              "funeral"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "A colleague's father has died. What do you say?",
+          "options": [
+            "Toutes mes condoléances.",
+            "Toutes mes fiançailles.",
+            "Tous mes câlins.",
+            "Toute ma rupture."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Toutes mes condoléances]] is the standard way to express sympathy."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Which word fits? « Après la ___, Lucie a pleuré pendant des semaines. »",
+          "options": [
+            "rupture",
+            "prière",
+            "fillette",
+            "surnom"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[La rupture]] is the end of a relationship."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "My parents got divorced.",
+          "accept": [
+            "Mes parents ont divorcé.",
+            "Mes parents sont divorcés."
+          ],
+          "explain": "[[Divorcer]] takes avoir in the passé composé: [[ils ont divorcé]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "My granddaughter is five years old.",
+          "accept": [
+            "Ma petite-fille a cinq ans."
+          ],
+          "hint": "Use avoir for age.",
+          "explain": "[[Petit-fils]] → [[petite-fille]] for a girl; age uses [[avoir]]."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Viens, je te fais un ___ !",
+          "answers": [
+            [
+              "câlin",
+              "calin"
+            ]
+          ],
+          "choices": [
+            "câlin",
+            "deuil",
+            "cercueil",
+            "testament"
+          ],
+          "en": "Come here, I'll give you a hug!",
+          "explain": "[[Faire un câlin]] = to give a hug."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Noël ___ toute la famille.",
+          "answers": [
+            [
+              "réunit"
+            ]
+          ],
+          "en": "Christmas brings the whole family together.",
+          "explain": "[[Réunir]] is conjugated like [[finir]]: il réunit."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Ils ont fêté leurs fiançailles au restaurant.",
+          "accept": [],
+          "explain": "[[Fiançailles]] has a ç and is plural."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Elle est en deuil depuis la mort de sa mère.",
+          "en": "She has been in mourning since her mother died.",
+          "prompt": "How is she?",
+          "options": [
+            "She is grieving",
+            "She is engaged",
+            "She is getting divorced"
+          ],
+          "answer": 0,
+          "explain": "[[Être en deuil]] = to be in mourning."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Talk about couples and family: [[époux, fiançailles, rupture, divorcer, petit-fils]]\n- Speak about death politely: [[Toutes mes condoléances]], [[être en deuil]], [[les funérailles]]\n- Recognise words of faith: [[prière, bénir, catholique]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Removed wrong-gender accepts (petite-fille for grandson, veuf for widow); made époux \"spouse (formal)\" with a more natural example; corrected the funérailles/obsèques tip."
+  }
+}

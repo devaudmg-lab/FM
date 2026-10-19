@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "ability": "ee",
+  "tasks": [
+    {
+      "id": "tcf-ee-4-t1",
+      "section": "T1",
+      "title": "Advice for a winter visit",
+      "level": "b1",
+      "prompt": "Votre ami(e) va venir vous rendre visite au Canada en février. Écrivez-lui un message pour lui donner des conseils : quels vêtements apporter, ce que vous pourrez faire ensemble pendant son séjour et comment venir de l'aéroport jusque chez vous. (60 mots minimum, 120 mots maximum)",
+      "promptEn": "Your friend is coming to visit you in Canada in February. Write them a message giving advice: what clothes to bring, what you will be able to do together during their stay, and how to get from the airport to your home. (60 to 120 words)",
+      "minWords": 60,
+      "maxWords": 120,
+      "minutes": 15,
+      "checklist": [
+        "Opens and closes the message in a friendly register (Salut…, À bientôt…) and uses tu throughout",
+        "Gives concrete clothing advice suited to a Canadian winter",
+        "Proposes at least two activities for the stay",
+        "Explains clearly how to get from the airport to your home (transport, duration, meeting point)",
+        "Uses the imperative and/or il faut / je te conseille de to give advice",
+        "Stays within 60–120 words"
+      ],
+      "tips": [
+        "The instruction has three parts (clothes, activities, airport): give each one its own short paragraph so none is forgotten.",
+        "Vary the ways of advising: the imperative (apporte, prends), je te conseille de + infinitive, n'oublie pas de…, inutile de…",
+        "Use Canadian winter vocabulary naturally: une tuque, des mitaines, des bottes d'hiver, faire de la raquette.",
+        "Keep the airport directions short and precise: one means of transport, one duration, one meeting point."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Salut Hugo,\n\nJe suis vraiment content que tu viennes me voir en février ! Mais attention, il fait très froid ici, parfois moins vingt degrés. Apporte un bon manteau, des bottes chaudes, une tuque et des gants. Ce n'est pas utile de prendre beaucoup de vêtements légers.\n\nPendant ton séjour, on peut faire du patin sur le canal, de la raquette dans un parc et visiter un musée. Le soir, on va rester au chaud et regarder un match de hockey à la télé.\n\nPour venir chez moi, prends la navette de l'aéroport jusqu'au centre-ville. Le trajet dure trente minutes. Je vais t'attendre au terminus.\n\nÀ bientôt,\nSamir"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Salut Hugo,\n\nQuelle bonne nouvelle ! J'ai hâte de te faire découvrir l'hiver canadien, mais prépare-toi : en février, le thermomètre descend souvent sous la barre des moins vingt. Le secret, c'est de s'habiller en plusieurs couches. Prévois un manteau bien chaud, des bottes imperméables, une tuque et des mitaines ; inutile, en revanche, d'apporter tes chaussures de ville.\n\nJ'ai déjà quelques idées pour ton séjour : patiner sur le canal, faire une randonnée en raquettes et, si tu es partant, goûter à la tire d'érable.\n\nÀ ton arrivée, prends la navette jusqu'au centre-ville ; le trajet dure environ trente minutes. Je t'attendrai au terminus.\n\nConfirme-moi ton heure d'arrivée dès que possible !\nSamir"
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-4-t2",
+      "section": "T2",
+      "title": "Account: my first job interview in Canada",
+      "level": "b1",
+      "prompt": "Le bulletin d'une association d'aide aux nouveaux arrivants publie des témoignages. Racontez votre premier entretien d'embauche au Canada : comment vous l'avez préparé, comment il s'est déroulé et ce que vous en avez appris. (120 mots minimum, 150 mots maximum)",
+      "promptEn": "The newsletter of an association that helps newcomers publishes testimonials. Tell the story of your first job interview in Canada: how you prepared for it, how it went and what you learned from it. (120 to 150 words)",
+      "minWords": 120,
+      "maxWords": 150,
+      "minutes": 20,
+      "checklist": [
+        "Has a short title suited to a newsletter testimonial",
+        "Covers all three points: the preparation, the interview itself, the lesson learned",
+        "Narrates in the past, with passé composé for events and imparfait for feelings and background",
+        "Gives concrete details (type of job, who interviewed you, a question you were asked)",
+        "Organizes the account with time markers (il y a…, le jour de…, une semaine plus tard…)",
+        "Ends with a lesson or advice useful to other newcomers",
+        "Stays within 120–150 words"
+      ],
+      "tips": [
+        "Readers of the newsletter are other newcomers: a final piece of advice (Mon conseil : …) fits the genre perfectly.",
+        "Report a question you were asked using direct speech in « guillemets » or indirect speech (ils m'ont demandé de…): both show range.",
+        "Use the plus-que-parfait once or twice to show what had happened earlier (j'avais préparé cette question).",
+        "Feelings bring the account to life: j'étais stressé(e), je me suis calmé(e), j'ai été soulagé(e)."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Mon premier entretien d'embauche au Canada\n\nIl y a six mois, j'ai obtenu mon premier entretien au Canada, pour un poste de technicienne de laboratoire. J'étais stressée, parce que je ne connaissais pas les habitudes d'ici.\n\nPour me préparer, j'ai consulté le site de l'entreprise et j'ai répété mes réponses avec une conseillère de l'association. Elle m'a expliqué qu'au Canada, il faut donner des exemples concrets de son expérience.\n\nLe jour de l'entretien, deux personnes m'ont posé des questions pendant quarante-cinq minutes. Au début, je parlais trop vite, mais ensuite, je me suis calmée. On m'a demandé de raconter un problème que j'avais résolu au travail et, heureusement, j'avais préparé cette question.\n\nUne semaine plus tard, ils m'ont appelée : j'avais le poste ! J'ai appris qu'une bonne préparation change tout."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Mon premier entretien : ce que j'aurais aimé savoir\n\nLorsque j'ai décroché mon premier entretien au Canada, pour un poste d'analyste financier, j'étais à la fois ravi et terrifié. Dans mon pays, un entretien se résume souvent à présenter ses diplômes ; ici, j'ai vite compris que cela ne suffirait pas.\n\nGrâce à une conseillère de l'association, j'ai découvert les questions comportementales, du type « Parlez-moi d'une fois où vous avez dû gérer un conflit ». J'ai donc préparé cinq anecdotes précises, que j'ai répétées pendant une semaine.\n\nLe jour venu, malgré un problème de connexion en pleine visioconférence, j'ai su garder mon calme et illustrer chaque réponse par un exemple chiffré.\n\nJe n'ai pas obtenu le poste, mais j'en ai tiré une leçon précieuse : au Canada, on recrute une personne autant qu'un diplôme."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-4-t3",
+      "section": "T3",
+      "title": "Should tipping be abolished?",
+      "level": "b2",
+      "prompt": "Faut-il supprimer le pourboire au restaurant ? Lisez les deux documents ci-dessous. Présentez les deux points de vue, puis donnez votre opinion en la justifiant. (120 mots minimum, 180 mots maximum)",
+      "promptEn": "Should tipping in restaurants be abolished? Read the two documents below. Present both points of view, then give your own opinion and justify it. (120 to 180 words)",
+      "document": "Document 1\nAu Canada, le pourboire est devenu un casse-tête. Aujourd'hui, le terminal de paiement propose 18, 20 ou 25 %, même au comptoir d'un café où l'on se sert soi-même ! Les clients se sentent obligés de payer plus, sans savoir où va cet argent. Je préférerais que les restaurants affichent des prix complets et paient correctement leurs employés. Le service serait compris, comme dans de nombreux pays.\n— Julien, client\n\nDocument 2\nJe suis serveuse depuis huit ans et les pourboires représentent plus de la moitié de mon revenu. Sans eux, je ne pourrais pas payer mon loyer. Ce système récompense aussi les efforts : quand je suis attentive et souriante, les clients me le montrent. Si on supprimait le pourboire, les prix des menus augmenteraient de toute façon, et les employés perdraient leur motivation à bien servir.\n— Amélie, serveuse",
+      "minWords": 120,
+      "maxWords": 180,
+      "minutes": 25,
+      "checklist": [
+        "Introduces the debate in one sentence",
+        "Summarizes Julien's view accurately and neutrally, in your own words",
+        "Summarizes Amélie's view accurately and neutrally, in your own words",
+        "Links the two views with contrast connectors (au contraire, en revanche, par contre…)",
+        "States a clear personal position in a separate paragraph",
+        "Supports the position with at least one argument and a concrete example",
+        "Stays within 120–180 words and does not copy whole sentences from the documents"
+      ],
+      "tips": [
+        "Reformulate the key words: casse-tête → problème, prix complets → prix tout compris, revenu → salaire. Copying whole sentences is penalized.",
+        "Use reporting verbs to present each author: Julien dénonce / critique…, Amélie rappelle / défend / souligne…",
+        "Acknowledging the other side before rejecting it (Je comprends que…, mais…) makes your opinion more convincing.",
+        "Budget about 80 words for the two summaries and 70 for your opinion, then check the total."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Le pourboire au restaurant est un sujet qui divise beaucoup de Canadiens. Dans le premier document, Julien, un client, critique ce système. Il trouve que les pourcentages proposés sont trop élevés, même dans les endroits où il n'y a presque pas de service. Il voudrait que les prix soient complets et que les employés aient un meilleur salaire. Au contraire, Amélie, une serveuse, défend le pourboire. Pour elle, c'est une grande partie de son salaire et une façon de récompenser un bon service. Elle pense aussi que les prix augmenteraient sans pourboire.\n\nÀ mon avis, Julien a raison. Quand je vais dans un café, je dois choisir un pourboire avant même de recevoir ma boisson, et je trouve ça gênant. Je comprends la situation des serveurs, mais ce n'est pas aux clients de payer leur salaire. Je pense que les restaurants devraient augmenter un peu leurs prix et mieux payer leurs employés. Comme ça, tout le monde saurait exactement combien il va payer."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Faut-il en finir avec le pourboire ? Les deux documents défendent des positions opposées. Julien, un client, dénonce une pratique devenue envahissante : les terminaux de paiement suggèrent des pourcentages toujours plus élevés, y compris là où le service est quasi inexistant. Il plaide donc pour des prix tout compris et des salaires décents. Amélie, serveuse depuis huit ans, rappelle au contraire que les pourboires constituent la majeure partie de ses revenus et qu'ils récompensent la qualité du service ; leur suppression, selon elle, ferait grimper les prix et démotiverait le personnel.\n\nPour ma part, je rejoins plutôt Julien, sans pour autant ignorer l'inquiétude d'Amélie. Il est paradoxal qu'un client doive compléter le salaire d'un employé, alors que c'est la responsabilité de l'employeur. Lors d'un séjour au Japon, j'ai d'ailleurs constaté qu'un service irréprochable pouvait exister sans pourboire. Une transition progressive vers des salaires plus justes me semble donc la solution la plus équitable."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-5-t1",
+      "section": "T1",
+      "title": "Absence from French class",
+      "level": "b1",
+      "prompt": "Vous suivez un cours de français le soir dans un centre communautaire. Vous allez devoir vous absenter pendant deux semaines. Écrivez un message à votre professeur(e) pour l'informer de votre absence, en expliquer la raison et demander comment rattraper les cours manqués. (60 mots minimum, 120 mots maximum)",
+      "promptEn": "You take an evening French class at a community centre. You will have to be absent for two weeks. Write a message to your teacher to inform them of your absence, explain the reason and ask how to catch up on the classes you miss. (60 to 120 words)",
+      "minWords": 60,
+      "maxWords": 120,
+      "minutes": 15,
+      "checklist": [
+        "Uses a polite, formal register (Bonjour Madame / Monsieur…, vous, Cordialement)",
+        "Gives the exact dates of the absence",
+        "Explains the reason clearly in one or two sentences",
+        "Asks a precise question about how to catch up (exercises, notes, pages to study)",
+        "Expresses regret and thanks the teacher",
+        "Stays within 60–120 words"
+      ],
+      "tips": [
+        "This is a message to a teacher: use vous and a formal closing, and never switch to tu.",
+        "The conditional softens requests: Pourriez-vous m'indiquer… ? / Serait-il possible de… ?",
+        "Use the futur simple for the absence (je serai absent(e), je devrai partir) and the present for your request.",
+        "A short offer of a solution (je peux demander les notes à…) shows initiative and fills the task naturally."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Bonjour Madame Gagnon,\n\nJe vous écris pour vous informer que je serai absent du cours de français du 3 au 14 mars. Mon père doit se faire opérer et je vais partir au Maroc pour aider ma mère à s'occuper de lui pendant sa convalescence.\n\nJe suis désolé de manquer deux semaines, car j'aime beaucoup votre cours. Est-ce que vous pourriez me dire quels exercices je dois faire pendant mon absence ? Je peux aussi demander les notes à une autre étudiante, si vous êtes d'accord.\n\nJe vous remercie d'avance pour votre compréhension.\n\nCordialement,\nYoussef Amrani"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour Madame Gagnon,\n\nJe me permets de vous écrire pour vous prévenir que je devrai m'absenter du 3 au 14 mars. Mon entreprise m'envoie en effet à Vancouver pour former une nouvelle équipe, et il m'a été impossible de reporter ce déplacement.\n\nJe regrette sincèrement de manquer quatre séances, d'autant plus que nous allons aborder le subjonctif, qui me pose encore des difficultés. Pourriez-vous m'indiquer les pages du manuel à étudier et, si possible, m'envoyer les exercices par courriel ? Je les ferais le soir et vous les remettrais à mon retour.\n\nEn vous remerciant de votre compréhension, je vous adresse mes salutations distinguées.\n\nDaniel Okafor"
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-5-t2",
+      "section": "T2",
+      "title": "Blog post: a canoe-camping weekend",
+      "level": "b1",
+      "prompt": "Vous avez participé à une sortie de camping en canot organisée par un club de plein air. Écrivez un article pour le blogue du club : racontez comment s'est déroulée la fin de semaine, ce qui vous a plu ou déplu, et dites si vous recommandez cette expérience. (120 mots minimum, 150 mots maximum)",
+      "promptEn": "You took part in a canoe-camping trip organized by an outdoor club. Write an article for the club's blog: tell how the weekend went, what you liked or disliked, and say whether you recommend the experience. (120 to 150 words)",
+      "minWords": 120,
+      "maxWords": 150,
+      "minutes": 20,
+      "checklist": [
+        "Has a short, engaging title for a blog article",
+        "Tells the weekend in chronological order with concrete details (place, activities, people)",
+        "Mentions at least one positive and one negative aspect",
+        "Gives a clear recommendation, ideally with a condition or a piece of advice",
+        "Uses passé composé and imparfait correctly to narrate and describe",
+        "Stays within 120–150 words"
+      ],
+      "tips": [
+        "Follow the timeline (le samedi matin…, le soir…, le dimanche…): it gives the account a clear structure.",
+        "Describe the scenery and your feelings with the imparfait (le lac était calme, j'avais mal aux bras).",
+        "Nature vocabulary makes the text vivid: pagayer, un portage, un orignal, un huard, monter la tente, un feu de camp.",
+        "Address the readers in your last line (Je vous la recommande, mais…) to fit the blog genre."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Ma première fin de semaine en canot-camping\n\nLe mois dernier, j'ai participé à ma première sortie en canot-camping avec le club. Nous étions dix personnes et deux guides.\n\nLe samedi matin, nous sommes partis vers un parc à trois heures de la ville. Ensuite, nous avons pagayé pendant quatre heures sur un grand lac. C'était difficile pour mes bras, mais le paysage était magnifique : des forêts, des îles et même un orignal au bord de l'eau !\n\nLe soir, nous avons monté les tentes et préparé le repas sur un feu de camp. Malheureusement, il y avait beaucoup de moustiques et j'ai mal dormi.\n\nLe dimanche, nous sommes rentrés fatigués mais très contents. Je recommande cette expérience à tous les membres, mais n'oubliez pas votre chasse-moustiques !"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Trois jours sur l'eau : mon baptême du canot-camping\n\nQuand le club a proposé une sortie en canot-camping pour la longue fin de semaine d'août, j'ai hésité : je n'avais jamais tenu une pagaie de ma vie. Je ne regrette pourtant pas de m'être lancé.\n\nDès le premier matin, les guides nous ont appris les gestes de base. Ensuite, traversée d'un premier lac, puis portage de huit cents mètres, canot sur les épaules. Épuisant, mais étrangement gratifiant ! Le soir, autour du feu, la fatigue laissait place aux fous rires et au chant des huards.\n\nSeul bémol : une pluie diluvienne le deuxième jour, qui a transformé notre campement en marécage. Heureusement, l'équipement fourni par le club était impeccable.\n\nJe recommande vivement cette sortie, à condition d'être en forme et de ne pas craindre un peu d'inconfort."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-5-t3",
+      "section": "T3",
+      "title": "Compulsory French until the end of high school?",
+      "level": "b2",
+      "prompt": "Faut-il rendre l'apprentissage du français obligatoire jusqu'à la fin du secondaire partout au Canada ? Lisez les deux documents ci-dessous. Présentez les deux points de vue, puis donnez votre opinion en la justifiant. (120 mots minimum, 180 mots maximum)",
+      "promptEn": "Should learning French be compulsory until the end of high school everywhere in Canada? Read the two documents below. Present both points of view, then give your own opinion and justify it. (120 to 180 words)",
+      "document": "Document 1\nLe Canada est un pays officiellement bilingue, mais la majorité des jeunes hors du Québec terminent l'école sans pouvoir tenir une conversation en français. C'est dommage, car le bilinguisme ouvre les portes de nombreux emplois, notamment dans la fonction publique fédérale. Si le français était obligatoire jusqu'à la fin du secondaire, nos enfants auraient plus de chances de réussir et de comprendre la culture de leurs compatriotes.\n— Sophie, enseignante à Winnipeg\n\nDocument 2\nJe ne suis pas contre le français, mais l'imposer à tous les élèves n'est pas réaliste. Dans ma province, on manque déjà d'enseignants qualifiés. De plus, beaucoup de familles parlent une autre langue à la maison : leurs enfants devraient pouvoir choisir l'espagnol, le mandarin ou une langue autochtone. Une langue apprise par obligation est souvent vite oubliée ; mieux vaut motiver que contraindre.\n— Raj, père de deux enfants à Calgary",
+      "minWords": 120,
+      "maxWords": 180,
+      "minutes": 25,
+      "checklist": [
+        "Introduces the debate in one sentence",
+        "Summarizes Sophie's arguments (bilingualism, jobs, national culture) in your own words",
+        "Summarizes Raj's arguments (teacher shortage, freedom of choice, motivation) in your own words",
+        "Uses contrast connectors to link the two views",
+        "States a clear personal position in a separate paragraph",
+        "Supports it with a reasoned argument and a personal example",
+        "Stays within 120–180 words without copying the documents"
+      ],
+      "tips": [
+        "Each document contains two or three arguments: list them in your notes before writing, then rephrase them.",
+        "Use the conditional to report hypotheses (selon Sophie, les jeunes auraient plus de chances…).",
+        "Your own experience as a French learner is a strong, credible example for this topic.",
+        "A position with a condition (oui, mais à condition de former plus d'enseignants) counts as a clear opinion if you state it firmly."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "L'apprentissage obligatoire du français dans tout le Canada est une question importante. Dans le premier document, Sophie, une enseignante, explique que beaucoup de jeunes ne parlent pas français à la fin de l'école, même si le pays est bilingue. Pour elle, le français aide à trouver un emploi et à mieux connaître les autres Canadiens. Par contre, Raj, un père de famille, pense que cette obligation n'est pas réaliste, parce qu'il n'y a pas assez de professeurs. Il ajoute que les élèves devraient pouvoir choisir une autre langue et qu'on oublie vite une langue apprise par obligation.\n\nPersonnellement, je suis plutôt d'accord avec Sophie. J'habite en Ontario et je vois que les offres d'emploi bilingues sont souvent mieux payées. Mes enfants apprennent le français à l'école et ils sont fiers de pouvoir parler avec nos voisins francophones. Mais je pense aussi qu'il faut former plus d'enseignants avant de rendre le français obligatoire partout."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Le français devrait-il être imposé jusqu'à la fin du secondaire d'un océan à l'autre ? Sophie, enseignante à Winnipeg, en est convaincue : elle déplore que la plupart des jeunes hors Québec quittent l'école sans maîtriser l'autre langue officielle, alors que le bilinguisme constitue un atout professionnel majeur et un pont entre les communautés. Raj, père de famille à Calgary, juge au contraire cette mesure irréaliste, compte tenu de la pénurie d'enseignants. Il estime en outre que les élèves devraient pouvoir étudier une autre langue, et qu'une langue imposée s'oublie rapidement.\n\nÀ mon sens, ces deux positions ne sont pas incompatibles. Rendre le français obligatoire sans moyens serait contre-productif, et Raj a raison sur ce point. Néanmoins, renoncer à cet objectif reviendrait à accepter que le bilinguisme reste un privilège. J'ai moi-même appris le français à l'âge adulte, et je mesure chaque jour les possibilités qu'il m'a offertes. Il faudrait donc d'abord investir dans la formation des enseignants, puis étendre progressivement l'obligation."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-6-t1",
+      "section": "T1",
+      "title": "Replying to a used-bike ad",
+      "level": "b1",
+      "prompt": "Vous avez vu sur un site de petites annonces qu'une personne vend un vélo d'occasion. Écrivez-lui un message : présentez-vous, posez des questions sur le vélo (état, âge, prix…) et proposez un moment pour aller le voir. (60 mots minimum, 120 mots maximum)",
+      "promptEn": "You saw on a classified-ads website that someone is selling a used bike. Write them a message: introduce yourself, ask questions about the bike (condition, age, price…) and suggest a time to go and see it. (60 to 120 words)",
+      "minWords": 60,
+      "maxWords": 120,
+      "minutes": 15,
+      "checklist": [
+        "Refers to the ad and says why you are interested",
+        "Introduces yourself briefly (name, why you need a bike)",
+        "Asks at least three different questions about the bike",
+        "Proposes a specific day and time to see the bike and asks if it suits the seller",
+        "Uses a polite register with vous, suited to writing to a stranger",
+        "Stays within 60–120 words"
+      ],
+      "tips": [
+        "You are writing to a stranger: vous, Bonjour and a polite closing (Merci d'avance, Au plaisir de vous lire).",
+        "Vary your question forms: inversion (A-t-il… ?), est-ce que…, interrogative words (depuis combien de temps, pourquoi).",
+        "Make the meeting proposal concrete (samedi vers 10 h) and leave the seller a choice.",
+        "Asking about negotiation is natural on a classified ad: Le prix est-il négociable ?"
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Bonjour,\n\nJ'ai vu votre annonce pour le vélo de route rouge et il m'intéresse beaucoup. Je m'appelle Lina et j'habite dans le même quartier que vous. Je cherche un vélo pour aller au travail cet été.\n\nJ'ai quelques questions. Quel âge a le vélo ? Est-ce qu'il est en bon état ? Les freins et les pneus sont-ils neufs ? Et est-ce que le prix de 300 dollars est négociable ?\n\nSi le vélo est encore disponible, je pourrais venir le voir samedi matin, vers dix heures. Est-ce que ça vous convient ?\n\nMerci d'avance pour votre réponse.\nLina"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour,\n\nVotre annonce pour le vélo hybride a retenu toute mon attention. Je m'appelle Lina, j'habite à deux rues de chez vous et je cherche justement un vélo fiable pour me rendre au travail dès le printemps.\n\nAvant de me déplacer, j'aimerais toutefois en savoir un peu plus. Depuis combien de temps l'avez-vous et pourquoi le vendez-vous ? A-t-il été entretenu récemment, notamment les freins et la chaîne ? Enfin, accepteriez-vous de baisser légèrement le prix si je vous paie comptant ?\n\nSi le vélo est toujours disponible, je pourrais passer l'essayer samedi en fin de matinée ou dimanche après-midi, selon vos disponibilités.\n\nAu plaisir de vous lire,\nLina"
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-6-t2",
+      "section": "T2",
+      "title": "Article: my first hockey game",
+      "level": "b1",
+      "prompt": "Le journal interne de votre entreprise invite les employés à raconter une expérience typiquement canadienne. Racontez la première fois que vous avez assisté à un match de hockey : avec qui vous y êtes allé(e), comment cela s'est passé et ce que vous avez ressenti. (120 mots minimum, 150 mots maximum)",
+      "promptEn": "Your company's internal newsletter invites employees to tell about a typically Canadian experience. Tell about the first time you went to a hockey game: who you went with, how it went and how you felt. (120 to 150 words)",
+      "minWords": 120,
+      "maxWords": 150,
+      "minutes": 20,
+      "checklist": [
+        "Has a short title suited to a newsletter article",
+        "Says when and with whom you went to the game",
+        "Describes the atmosphere and at least one key moment of the game",
+        "Expresses feelings and how they changed (surprise, confusion, excitement…)",
+        "Narrates with passé composé and imparfait used correctly",
+        "Ends with what the experience meant to you or changed for you",
+        "Stays within 120–150 words"
+      ],
+      "tips": [
+        "Contrast before and after: what you thought of hockey before the game, and what you think now.",
+        "A few sport words are enough: l'aréna, la patinoire, la rondelle, un but, une période, les partisans.",
+        "Use the imparfait for the atmosphere (la foule chantait) and the passé composé for the key moment (notre équipe a marqué).",
+        "Colleagues will read this: a light, personal tone with one touch of humour works well."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Mon premier match de hockey\n\nL'hiver dernier, mon collègue Mathieu m'a invité à mon premier match de hockey. Je ne connaissais pas du tout ce sport, parce que dans mon pays, on joue surtout au football.\n\nL'aréna était plein et l'ambiance était incroyable. Tout le monde portait le chandail de l'équipe et chantait. Au début, je ne comprenais rien : les joueurs allaient très vite et je ne voyais pas la rondelle ! Heureusement, Mathieu m'a expliqué les règles pendant la première période.\n\nAu deuxième but, je criais déjà avec les autres spectateurs. Notre équipe a gagné quatre à deux, et nous avons fêté la victoire dans un petit restaurant.\n\nDepuis ce soir-là, je regarde les matchs à la télévision avec mon fils. Le hockey m'a aidé à me sentir un peu plus canadien."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Comment je suis devenue amatrice de hockey\n\nJe l'avoue : avant mon arrivée ici, je croyais que le hockey se résumait à des bagarres sur la glace. C'est donc avec un certain scepticisme que j'ai accepté l'invitation de ma collègue Geneviève, l'automne dernier.\n\nDès notre entrée dans l'aréna, j'ai été frappée par la ferveur des partisans : des familles entières, maquillées aux couleurs de l'équipe, entonnaient des chants que je ne connaissais pas. Pendant la première période, je cherchais désespérément la rondelle des yeux ; Geneviève, patiente, me commentait chaque action.\n\nPuis, à quelques secondes de la fin, notre équipe a marqué le but égalisateur. La foule s'est levée d'un bond, et je me suis surprise à hurler avec elle !\n\nCe soir-là, j'ai compris que le hockey, ici, est bien plus qu'un sport : c'est un véritable ciment social."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-6-t3",
+      "section": "T3",
+      "title": "Limiting visitors in national parks?",
+      "level": "b2",
+      "prompt": "Faut-il limiter le nombre de visiteurs dans les parcs nationaux ? Lisez les deux documents ci-dessous. Présentez les deux points de vue, puis donnez votre opinion en la justifiant. (120 mots minimum, 180 mots maximum)",
+      "promptEn": "Should the number of visitors to national parks be limited? Read the two documents below. Present both points of view, then give your own opinion and justify it. (120 to 180 words)",
+      "document": "Document 1\nChaque été, certains sentiers de nos parcs nationaux ressemblent à des rues du centre-ville. Les stationnements débordent, les déchets s'accumulent et les animaux sauvages fuient leur habitat. Pour protéger ces milieux fragiles, il faut instaurer un système de réservation et fixer un nombre maximal de visiteurs par jour. C'est déjà le cas sur certains sites très populaires, et la nature s'en porte mieux.\n— Élise, biologiste\n\nDocument 2\nLes parcs nationaux appartiennent à tous les Canadiens. Avec un système de réservation, ce sont ceux qui ont du temps libre et une bonne connexion Internet qui obtiendront les places. Les familles qui ne peuvent pas planifier leurs vacances des mois à l'avance seront exclues. Plutôt que de limiter l'accès, investissons dans plus de navettes, de sentiers et de gardes pour mieux accueillir les visiteurs.\n— Patrick, guide de randonnée",
+      "minWords": 120,
+      "maxWords": 180,
+      "minutes": 25,
+      "checklist": [
+        "Introduces the debate in one sentence",
+        "Summarizes Élise's position (overcrowding, damage, reservation quotas) in your own words",
+        "Summarizes Patrick's position (fair access, alternative investments) in your own words",
+        "Uses contrast connectors and reporting verbs to present the two authors",
+        "States a clear personal position in a separate paragraph",
+        "Justifies it with an argument and a concrete example",
+        "Stays within 120–180 words without copying the documents"
+      ],
+      "tips": [
+        "Find synonyms before writing: limiter → restreindre, plafonner; débordent → sont saturés; exclues → laissées de côté.",
+        "Show that you understood the logic, not just the words: Élise wants to protect nature, Patrick wants to protect fair access.",
+        "A compromise solution is welcome if it answers both authors' concerns and is clearly stated.",
+        "Name each author with their role once (Élise, biologiste, …), then use pronouns to save words."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Le nombre de visiteurs dans les parcs nationaux est un sujet de débat. Élise, une biologiste, pense qu'il y a trop de monde dans certains parcs en été. Selon elle, la foule produit beaucoup de déchets et fait peur aux animaux. C'est pourquoi elle propose d'obliger les visiteurs à réserver et de limiter leur nombre chaque jour. En revanche, Patrick, un guide de randonnée, n'est pas d'accord. Il explique que la réservation est injuste pour les familles qui ne peuvent pas organiser leurs vacances longtemps à l'avance. Il préfère créer plus de sentiers et de navettes.\n\nÀ mon avis, il faut limiter le nombre de visiteurs, mais seulement dans les endroits les plus populaires. L'été dernier, je suis allé dans un parc des Rocheuses et il y avait tellement de monde au bord du lac qu'on ne pouvait même pas prendre une photo. Ce n'était pas agréable. Cependant, il faudrait garder des places sans réservation pour les gens qui décident à la dernière minute."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Faut-il restreindre l'accès aux parcs nationaux pour mieux les protéger ? Biologiste, Élise dresse un constat alarmant : la surfréquentation estivale engorge les sentiers, multiplie les déchets et chasse la faune de son habitat. Elle préconise donc un système de réservation assorti d'un plafond quotidien de visiteurs, mesure qui a déjà fait ses preuves sur certains sites. Patrick, guide de randonnée, y voit au contraire une atteinte à l'accessibilité : les quotas avantageraient ceux qui disposent de temps et d'une bonne connexion, au détriment des familles qui planifient tard. Il propose plutôt d'investir dans les infrastructures d'accueil.\n\nPour ma part, je penche du côté d'Élise, tout en reconnaissant la pertinence de l'objection de Patrick. Multiplier les navettes ne ferait qu'attirer davantage de monde dans des écosystèmes déjà saturés. En revanche, rien n'empêche de réserver une partie des places aux visiteurs de dernière minute ou de proposer des tarifs réduits aux familles modestes. Protéger la nature et garantir un accès équitable ne sont pas des objectifs incompatibles."
+        }
+      ]
+    }
+  ]
+}

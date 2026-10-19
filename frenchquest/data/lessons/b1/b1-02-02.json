@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-02-02",
+  "level": "b1",
+  "unit": "b1-02",
+  "title": "Narrative tenses together",
+  "goal": "Tell a story with three past tenses: passé composé for events, imparfait for background and plus-que-parfait for what had happened before.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-trois-temps", "kind": "grammar", "fr": "passé composé / imparfait / plus-que-parfait", "en": "choosing the past tense in a story",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ nuit et il neigeait. (faire)", "answers": [["faisait"]], "en": "It was night and it was snowing.", "explain": "Background and weather → imparfait: [[il faisait nuit]]." },
+        { "type": "cloze", "text": "Tout à coup, il y ___ ___ une panne de courant. (avoir)", "answers": [["a"], ["eu"]], "en": "Suddenly, the power went out.", "explain": "A sudden event that moves the story forward → passé composé." },
+        { "type": "cloze", "text": "J'ai perdu mon travail parce que je n'___ pas ___. (sauvegarder)", "answers": [["avais"], ["sauvegardé"]], "en": "I lost my work because I hadn't saved it.", "explain": "Not saving happened before losing the work → plus-que-parfait." },
+        { "type": "mcq", "prompt": "“She had got lost.” Which form?", "options": ["Elle s'était perdue.", "Elle s'est perdue.", "Elle se perdait.", "Elle avait perdue."], "optionsFr": true, "answer": 0, "explain": "Had + participle = plus-que-parfait; reflexive → être, feminine agreement: [[elle s'était perdue]]." }
+      ] },
+    { "id": "g-interruption", "kind": "grammar", "fr": "je travaillais quand… / pendant que…", "en": "an ongoing action (imparfait) interrupted by an event (passé composé)",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ des fraises quand j'ai vu le chien. (choisir)", "answers": [["choisissais"]], "en": "I was choosing strawberries when I saw the dog.", "explain": "The action in progress → imparfait: [[je choisissais]]." },
+        { "type": "cloze", "text": "On a joué aux cartes pendant que la neige ___ . (tomber)", "answers": [["tombait"]], "en": "We played cards while the snow was falling.", "explain": "After [[pendant que]], the background action is usually in the imparfait." },
+        { "type": "translate", "prompt": "I was working when the phone rang.", "accept": ["Je travaillais quand le téléphone a sonné.", "Je travaillais lorsque le téléphone a sonné."], "explain": "Ongoing action → imparfait; the interruption → passé composé." }
+      ] },
+    { "id": "panne", "kind": "vocab", "fr": "panne de courant", "article": "une", "gender": "f", "en": "power outage", "pos": "noun", "accept": ["la panne de courant", "une panne d'électricité", "la panne d'électricité"],
+      "example": { "fr": "Il y a eu une panne de courant hier soir.", "en": "There was a power outage last night." } },
+    { "id": "bougie", "kind": "vocab", "fr": "bougie", "article": "une", "gender": "f", "en": "candle", "pos": "noun", "accept": ["la bougie"] },
+    { "id": "lampe-de-poche", "kind": "vocab", "fr": "lampe de poche", "article": "une", "gender": "f", "en": "flashlight", "pos": "noun", "accept": ["la lampe de poche"] },
+    { "id": "sauvegarder", "kind": "vocab", "fr": "sauvegarder", "en": "to save (a computer file)", "pos": "verb",
+      "example": { "fr": "Je n'avais pas sauvegardé mon document.", "en": "I hadn't saved my document." } },
+    { "id": "verglas", "kind": "vocab", "fr": "verglas", "article": "le", "gender": "m", "en": "freezing rain, black ice", "pos": "noun", "accept": ["du verglas"] },
+    { "id": "se-perdre", "kind": "vocab", "fr": "se perdre", "en": "to get lost", "pos": "verb",
+      "example": { "fr": "Ma fille s'était perdue entre les stands.", "en": "My daughter had got lost among the stalls." } },
+    { "id": "qu-est-ce-qui-s-est-passe", "kind": "phrase", "fr": "Qu'est-ce qui s'est passé ?", "en": "What happened?", "accept": ["Qu'est-ce qui est arrivé ?", "Que s'est-il passé ?"] },
+    { "id": "le-courant-est-revenu", "kind": "phrase", "fr": "Le courant est revenu vers minuit.", "en": "The power came back around midnight.", "accept": ["L'électricité est revenue vers minuit."] },
+    { "id": "pas-de-chance", "kind": "phrase", "fr": "Ce n'est pas de chance !", "en": "That's bad luck!", "accept": ["C'est pas de chance !", "Pas de chance !"], "note": "In speech, people often drop ne: C'est pas de chance !" },
+    { "id": "depuis-ce-jour", "kind": "phrase", "fr": "Depuis ce jour…", "en": "Since that day…", "accept": ["Depuis ce jour-là…"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Stories with three layers",
+      "intro": "As you read, notice three kinds of past: the **scene** (what it was like), the **events** (what happened) and the **backstory** (what had happened before).",
+      "blocks": [
+        { "type": "dialogue", "title": "At work, the morning after a storm in Montréal",
+          "context": "Camille notices that her colleague Raj looks tired.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Raj, tu as l'air fatigué. Qu'est-ce qui s'est passé ?", "en": "Raj, you look tired. What happened?" },
+            { "speaker": "Raj", "fr": "Ah, ne m'en parle pas ! Hier soir, je travaillais sur mon ordinateur quand, tout à coup, il y a eu une panne de courant.", "en": "Oh, don't get me started! Last night I was working on my computer when suddenly the power went out." },
+            { "speaker": "Camille", "fr": "Ah oui, la tempête ! Il y avait un vent incroyable.", "en": "Oh yes, the storm! There was an incredible wind." },
+            { "speaker": "Raj", "fr": "Exactement. Il faisait noir, il faisait froid, et je n'avais pas chargé mon téléphone.", "en": "Exactly. It was dark, it was cold, and I hadn't charged my phone." },
+            { "speaker": "Camille", "fr": "Oh non ! Et ton travail ?", "en": "Oh no! And your work?" },
+            { "speaker": "Raj", "fr": "C'est ça, le pire : je n'avais pas sauvegardé mon document. J'ai perdu trois heures de travail.", "en": "That's the worst part: I hadn't saved my document. I lost three hours of work." },
+            { "speaker": "Camille", "fr": "Ouf… Et qu'est-ce que tu as fait, ensuite ?", "en": "Phew… And what did you do next?" },
+            { "speaker": "Raj", "fr": "J'ai cherché des bougies, mais j'avais donné toutes mes bougies à ma sœur le mois dernier.", "en": "I looked for candles, but I had given all my candles to my sister last month." },
+            { "speaker": "Camille", "fr": "Ce n'est pas de chance !", "en": "That's bad luck!" },
+            { "speaker": "Raj", "fr": "Alors je suis allé chez mon voisin, monsieur Tremblay. Lui, il avait déjà préparé une lampe de poche et un thermos de chocolat chaud. Il avait connu la grande tempête de verglas de 1998 !", "en": "So I went to my neighbour's, Mr. Tremblay. He had already got a flashlight and a thermos of hot chocolate ready. He had lived through the big ice storm of 1998!" },
+            { "speaker": "Camille", "fr": "Ha ! Il était prêt, lui.", "en": "Ha! He was ready, at least." },
+            { "speaker": "Raj", "fr": "On a joué aux cartes pendant que la neige tombait dehors. Le courant est revenu vers minuit.", "en": "We played cards while the snow was falling outside. The power came back around midnight." },
+            { "speaker": "Camille", "fr": "Finalement, c'était une belle soirée, non ?", "en": "In the end it was a nice evening, wasn't it?" },
+            { "speaker": "Raj", "fr": "Oui ! Mais ce matin, avant le travail, j'ai acheté des bougies et une batterie externe.", "en": "Yes! But this morning, before work, I bought candles and a power bank." }
+          ] },
+        { "type": "text", "title": "Amira's story: a scary Saturday",
+          "context": "Amira posted this on a parents' forum.",
+          "fr": "C'était un samedi matin de juillet. Il faisait beau et le marché Jean-Talon était plein de monde. J'étais venue avec ma fille Yasmine, qui avait quatre ans à l'époque.\nJe choisissais des fraises quand, soudain, j'ai remarqué que Yasmine n'était plus à côté de moi. J'ai eu très peur. J'ai crié son nom et j'ai cherché partout, mais je ne la voyais pas.\nUn vendeur avait entendu mes cris. Il est venu m'aider et il a prévenu les autres marchands. Dix minutes plus tard, une dame est arrivée avec Yasmine dans les bras. Ma fille avait suivi un petit chien et elle s'était perdue entre les stands.\nEt vous savez quoi ? Elle ne pleurait pas du tout ! Un marchand lui avait offert un morceau de melon, et elle le mangeait tranquillement.\nDepuis ce jour, quand nous allons au marché, je lui tiens toujours la main.",
+          "en": "It was a Saturday morning in July. The weather was nice and the Jean-Talon market was full of people. I had come with my daughter Yasmine, who was four at the time. I was choosing strawberries when suddenly I noticed that Yasmine wasn't next to me anymore. I was very scared. I shouted her name and looked everywhere, but I couldn't see her. A vendor had heard my shouts. He came to help me and warned the other merchants. Ten minutes later, a woman arrived with Yasmine in her arms. My daughter had followed a little dog and had got lost among the stalls. And you know what? She wasn't crying at all! A merchant had given her a piece of melon, and she was calmly eating it. Since that day, when we go to the market, I always hold her hand." },
+        { "id": "d1", "type": "mcq", "prompt": "In Raj's story, which sentence is **background**, not an event?", "options": ["Il faisait noir.", "Il y a eu une panne de courant.", "Je suis allé chez mon voisin.", "J'ai perdu trois heures de travail."], "optionsFr": true, "answer": 0,
+          "explain": "[[Il faisait noir]] describes the scene (imparfait). The others are events that move the story forward (passé composé)." },
+        { "id": "d2", "type": "mcq", "prompt": "Why was Yasmine lost?", "options": ["She had followed a little dog.", "A vendor had taken her.", "She wanted some melon.", "Her mother had left the market."], "answer": 0,
+          "explain": "[[Ma fille avait suivi un petit chien]]: the plus-que-parfait explains what had happened before." }
+      ] },
+    { "type": "understand", "title": "Three tenses, three jobs",
+      "blocks": [
+        { "type": "explain", "title": "Think of a film",
+          "body": "A story in French works like a film:\n\n- The **imparfait** is the **set**: weather, time, places, people, feelings, actions in progress. *What was it like? What was going on?*\n- The **passé composé** is the **action**: the events, one after another, that move the story forward. *What happened next?*\n- The **plus-que-parfait** is the **flashback**: something that had happened before the scene. *What had happened before?*\n\nMost good stories start with the imparfait, switch to the passé composé with a trigger word like [[soudain]], and use the plus-que-parfait to explain." },
+        { "type": "table", "title": "Which tense?",
+          "head": ["Question", "Tense", "Example"],
+          "rows": [
+            ["What was the situation? (weather, time, age, feelings)", "imparfait", "Il faisait froid et j'étais fatigué."],
+            ["What was going on when…?", "imparfait", "Je travaillais sur mon ordinateur…"],
+            ["What happened? What happened next?", "passé composé", "…quand il y a eu une panne de courant."],
+            ["What had happened before?", "plus-que-parfait", "Je n'avais pas sauvegardé mon document."]
+          ],
+          "frCols": [2], "sayCol": false },
+        { "type": "table", "title": "Words that point to a tense",
+          "head": ["Usually imparfait", "Usually passé composé", "Usually plus-que-parfait"],
+          "rows": [
+            ["pendant que", "soudain, tout à coup", "déjà"],
+            ["d'habitude, souvent", "d'abord, ensuite, puis, enfin", "avant, la veille"],
+            ["à l'époque, quand j'étais petit", "un jour, ce matin-là", "plus tôt, quelques heures avant"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": false,
+          "note": "These are tendencies, not rules. [[Souvent]] can go with the passé composé when you count: [[Je suis souvent allé à Québec cette année-là]]. [[La veille]] = the day before." },
+        { "type": "pattern", "title": "The classic combination",
+          "pattern": "imparfait (en cours) + quand + passé composé (interruption)",
+          "note": "Reverse it with [[pendant que]]: [[Pendant que je dormais, il a neigé 30 centimètres.]] Add a flashback with the plus-que-parfait to explain.",
+          "examples": [
+            { "fr": "Je choisissais des fraises quand j'ai remarqué que ma fille n'était plus là.", "en": "I was choosing strawberries when I noticed my daughter wasn't there anymore." },
+            { "fr": "Pendant que nous jouions aux cartes, le courant est revenu.", "en": "While we were playing cards, the power came back." },
+            { "fr": "Elle ne pleurait pas : un marchand lui avait offert du melon.", "en": "She wasn't crying: a merchant had given her some melon." }
+          ] },
+        { "type": "vocab", "title": "Useful words", "itemIds": ["panne", "bougie", "lampe-de-poche", "sauvegarder", "verglas", "se-perdre"] },
+        { "type": "deepdive", "kind": "examples", "title": "One event, three tenses",
+          "body": "Watch how the meaning changes:\n\n- [[Quand Raj est arrivé, monsieur Tremblay préparait du chocolat chaud.]] → he was in the middle of making it.\n- [[Quand Raj est arrivé, monsieur Tremblay a préparé du chocolat chaud.]] → he made it after Raj arrived.\n- [[Quand Raj est arrivé, monsieur Tremblay avait préparé du chocolat chaud.]] → it was already ready.\n\nSame words, three different films. Choosing the tense is choosing the order of events." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Everything in the passé composé:** [[Il a fait froid et j'ai été fatigué]] sounds like a list of events. For the scene, use the imparfait: [[Il faisait froid et j'étais fatigué]].\n- **Feelings that change at a precise moment** are events: [[J'ai eu très peur]] (I got a fright, at that moment) vs [[J'avais peur du noir]] (a state).\n- **Forgetting the flashback:** [[J'ai perdu mon travail parce que je n'ai pas sauvegardé]] → [[…parce que je n'avais pas sauvegardé]].\n- **Switching to the present by accident** in the middle of a story. It is possible in lively speech, but in writing, stay in the past.\n- **[[Il y avait]] vs [[il y a eu]]:** [[il y avait du vent]] (the scene) but [[il y a eu une panne]] (an event)." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "In January 1998, **la crise du verglas** (the ice storm) left more than a million homes in Québec and Ontario without power, some for weeks. Many older Quebecers still tell stories about it, so you will hear [[le verglas]] (freezing rain or black ice) and [[une panne de courant]] / [[une panne d'électricité]] (in Québec also simply [[une panne]]) every winter. Power in Québec comes from **Hydro-Québec**, and people say [[le courant est revenu]] when the power comes back." }
+      ] },
+    { "type": "hear", "title": "Listen for the tense",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "The difference between [[j'ai]] (é) and [[j'avais]] (è + v) is small but important. Exaggerate it at first.",
+          "lines": [
+            { "fr": "Il faisait noir et il faisait froid.", "en": "It was dark and it was cold." },
+            { "fr": "Tout à coup, il y a eu une panne de courant.", "en": "Suddenly, the power went out.", "tip": "tout à coup: tou-ta-kou." },
+            { "fr": "Je n'avais pas sauvegardé mon document.", "en": "I hadn't saved my document." },
+            { "fr": "On a joué aux cartes pendant que la neige tombait.", "en": "We played cards while the snow was falling." },
+            { "fr": "Ma fille s'était perdue entre les stands.", "en": "My daughter had got lost among the stalls." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Quand je suis rentré, ma femme préparait le souper.", "en": "When I got home, my wife was making supper.", "prompt": "What was his wife doing?", "options": ["She was in the middle of making supper.", "She started making supper after he arrived.", "Supper was already ready."], "answer": 0,
+          "explain": "[[préparait]] is imparfait: an action in progress when he arrived." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Quand je suis rentré, ma femme avait préparé le souper.", "en": "When I got home, my wife had made supper.", "prompt": "And now?", "options": ["Supper was already ready.", "She was in the middle of making supper.", "She started making supper after he arrived."], "answer": 0,
+          "explain": "[[avait préparé]] is plus-que-parfait: it was finished before he arrived." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "For each verb, ask: scene, event or flashback?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Il ___ beau et le marché ___ plein de monde. (faire, être)", "answers": [["faisait"], ["était"]], "choices": ["faisait", "a fait", "était", "a été"], "en": "The weather was nice and the market was full of people.",
+          "explain": "Both describe the scene → imparfait." },
+        { "id": "r2", "type": "cloze", "text": "Je lisais quand le téléphone ___ ___. (sonner)", "answers": [["a"], ["sonné"]], "en": "I was reading when the phone rang.",
+          "explain": "The phone ringing interrupts the action in progress → passé composé." },
+        { "id": "r3", "type": "mcq", "prompt": "“When we arrived, the guests had already left.”", "options": ["Quand nous sommes arrivés, les invités étaient déjà partis.", "Quand nous sommes arrivés, les invités sont déjà partis.", "Quand nous arrivions, les invités partaient déjà.", "Quand nous sommes arrivés, les invités avaient déjà partis."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "They left before you arrived: use the plus-que-parfait.", "This means they were leaving as you were arriving, as a habit or in progress.", "partir takes être, not avoir."] },
+        { "id": "r4", "type": "translate", "prompt": "It was snowing when the power went out.", "accept": ["Il neigeait quand il y a eu une panne de courant.", "Il neigeait quand il y a eu une panne d'électricité.", "Il neigeait lorsqu'il y a eu une panne de courant.", "Il neigeait lorsqu'il y a eu une panne d'électricité.", "Il neigeait quand il y a eu une panne.", "Il neigeait quand le courant a été coupé.", "Il neigeait quand l'électricité a été coupée."],
+          "hint": "Background + quand + event.", "explain": "[[Il neigeait]] sets the scene; the outage is the event → passé composé." },
+        { "id": "r5", "type": "cloze", "text": "J'étais en retard parce que je ___ ___ de bus. (se tromper)", "answers": [["m'étais"], ["trompé", "trompée"]], "en": "I was late because I had taken the wrong bus.",
+          "explain": "The mistake happened before being late → plus-que-parfait with être: [[je m'étais trompé]] (or [[trompée]] for a woman)." },
+        { "id": "r6", "type": "match", "prompt": "Match each sentence with its role in a story.", "pairs": [["Il faisait nuit.", "the scene"], ["Soudain, j'ai entendu un bruit.", "an event"], ["Quelqu'un avait laissé la porte ouverte.", "a flashback"], ["Je dormais.", "an action in progress"]] },
+        { "id": "r7", "type": "reorder", "prompt": "We played cards while the snow was falling.", "accept": ["On a joué aux cartes pendant que la neige tombait", "Pendant que la neige tombait on a joué aux cartes"], "extra": ["tombé"],
+          "explain": "The game is the event (passé composé); the snow falling is the background (imparfait)." },
+        { "id": "r8", "type": "translate", "prompt": "She wasn't crying, because a vendor had given her a piece of melon.", "accept": ["Elle ne pleurait pas, parce qu'un vendeur lui avait donné un morceau de melon.", "Elle ne pleurait pas parce qu'un vendeur lui avait donné un morceau de melon.", "Elle ne pleurait pas, parce qu'un vendeur lui avait offert un morceau de melon.", "Elle ne pleurait pas parce qu'un vendeur lui avait offert un morceau de melon.", "Elle ne pleurait pas, car un vendeur lui avait donné un morceau de melon.", "Elle ne pleurait pas, car un vendeur lui avait offert un morceau de melon."],
+          "hint": "lui = to her.", "explain": "State → imparfait ([[ne pleurait pas]]); the earlier gift → plus-que-parfait ([[lui avait donné]])." },
+        { "id": "r9", "type": "dictation", "fr": "Pendant que je dormais, il a neigé toute la nuit.", "accept": [], "explain": "[[dormais]] (imparfait, -ais) for the background; [[a neigé]] for the event." },
+        { "id": "r10", "type": "cloze", "text": "Ce soir-là, il y ___ une grosse panne. (avoir)", "answers": [["a eu"]], "choices": ["a eu", "avait", "a", "avait eu"], "en": "That evening, there was a big power outage.",
+          "explain": "The outage is an event in the story: [[il y a eu]]. [[Il y avait]] would describe a situation." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Tell a colleague about a small adventure: a power outage, a storm, getting lost, losing something. Set the scene, tell what happened, and explain what had happened before.", "seconds": 90,
+          "checklist": ["Start with the scene (imparfait): when, where, weather, what you were doing", "A trigger: soudain / tout à coup + passé composé", "At least two events in order (d'abord, ensuite, finalement)", "A flashback with the plus-que-parfait", "How it ended and how you felt"],
+          "models": [ { "label": "Model answer", "fr": "L'hiver dernier, je rentrais du travail à pied. Il faisait très froid et il y avait du verglas partout. Tout à coup, j'ai glissé et je suis tombé devant une épicerie. Le matin, j'avais mis mes vieilles bottes, parce que je n'avais pas encore acheté de nouvelles bottes. Un employé est sorti et il m'a aidé à me relever. Heureusement, je n'avais rien de grave. Le lendemain, j'ai acheté de très bonnes bottes d'hiver !", "en": "Last winter I was walking home from work. It was very cold and there was black ice everywhere. Suddenly I slipped and fell in front of a grocery store. In the morning I had put on my old boots, because I hadn't bought new boots yet. An employee came out and helped me get up. Luckily, it was nothing serious. The next day I bought very good winter boots!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write your story for a community forum like Amira did: a moment when you were scared, surprised or lost.", "promptFr": "Racontez un moment où vous avez eu peur ou une surprise.",
+          "wordRange": [80, 140],
+          "checklist": ["Imparfait for the scene and actions in progress", "Passé composé for the events", "At least two verbs in the plus-que-parfait", "Connectors: quand, soudain, ensuite, finalement, depuis ce jour", "An ending: what you learned or how you feel now"],
+          "models": [ { "label": "Model answer", "fr": "C'était un dimanche d'octobre. Nous faisions une randonnée au mont Tremblant avec des amis. Il faisait beau, mais il commençait à faire nuit. Soudain, nous avons compris que nous nous étions trompés de sentier. Nous n'avions pas apporté de lampe de poche et mon téléphone n'avait plus de batterie. J'avais un peu peur. Heureusement, Mei avait téléchargé une carte de la région. Après une heure de marche, nous avons enfin retrouvé le stationnement. Depuis ce jour, je vérifie toujours mon équipement avant une randonnée.", "en": "It was a Sunday in October. We were hiking at Mont Tremblant with friends. The weather was nice, but it was starting to get dark. Suddenly, we realized we had taken the wrong trail. We hadn't brought a flashlight and my phone had no battery left. I was a bit scared. Luckily, Mei had downloaded a map of the area. After an hour of walking, we finally found the parking lot. Since that day, I always check my gear before a hike." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use the **imparfait** for the scene, the **passé composé** for events and the **plus-que-parfait** for flashbacks\n- Combine them: [[Je travaillais quand il y a eu une panne de courant : je n'avais pas sauvegardé.]]\n- Use story signals: [[soudain]], [[pendant que]], [[ensuite]], [[déjà]], [[depuis ce jour]]",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed colloquial accepts (l'électricité / le courant a coupé) from a translation and added standard variants with lorsque. Tense explanations and the 1998 ice storm facts checked."}
+}

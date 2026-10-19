@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-02",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Everyday verbs (1)",
+  "band": "Everyday words 1–2000",
+  "cefr": "a2",
+  "theme": "common verbs for beliefs, feelings and everyday actions",
+  "goal": "Recognise and use 20 high-frequency verbs and expressions for believing, hoping, remembering and everyday actions.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "croire",
+      "kind": "vocab",
+      "fr": "croire",
+      "en": "to believe",
+      "pos": "verb",
+      "example": {
+        "fr": "Je ne te crois pas.",
+        "en": "I don't believe you."
+      },
+      "note": "Present: *je crois, tu crois, il croit, nous croyons, vous croyez, ils croient*. Past participle: *cru*. *Je crois que…* also means “I think that…”."
+    },
+    {
+      "id": "esperer",
+      "kind": "vocab",
+      "fr": "espérer",
+      "en": "to hope",
+      "pos": "verb",
+      "example": {
+        "fr": "J'espère que tu vas bien.",
+        "en": "I hope you're well."
+      },
+      "note": "The accent changes: *j'espère, nous espérons*."
+    },
+    {
+      "id": "jurer",
+      "kind": "vocab",
+      "fr": "jurer",
+      "en": "to swear (to promise)",
+      "pos": "verb",
+      "example": {
+        "fr": "Je te jure que c'est vrai.",
+        "en": "I swear it's true."
+      },
+      "note": "*Jurer* can also mean to curse. In Québec, cursing is usually *sacrer*."
+    },
+    {
+      "id": "se-rappeler",
+      "kind": "vocab",
+      "fr": "se rappeler",
+      "en": "to remember, to recall",
+      "pos": "verb",
+      "accept": [
+        "se souvenir de"
+      ],
+      "example": {
+        "fr": "Tu te rappelles notre premier hiver à Québec ?",
+        "en": "Do you remember our first winter in Québec City?"
+      },
+      "note": "Double l when the ending is silent: *je me rappelle*, but *nous nous rappelons*. Same meaning as *se souvenir de*."
+    },
+    {
+      "id": "ressentir",
+      "kind": "vocab",
+      "fr": "ressentir",
+      "en": "to feel (an emotion or a pain)",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai ressenti une grande joie.",
+        "en": "I felt great joy."
+      },
+      "note": "False friend: it does **not** mean “to resent”. Present: *je ressens, nous ressentons*."
+    },
+    {
+      "id": "parier",
+      "kind": "vocab",
+      "fr": "parier",
+      "en": "to bet",
+      "pos": "verb",
+      "example": {
+        "fr": "Je parie qu'il va encore être en retard.",
+        "en": "I bet he's going to be late again."
+      }
+    },
+    {
+      "id": "s-asseoir",
+      "kind": "vocab",
+      "fr": "s'asseoir",
+      "en": "to sit down",
+      "pos": "verb",
+      "example": {
+        "fr": "Asseyez-vous, je vous en prie.",
+        "en": "Please, have a seat."
+      },
+      "note": "Commands: *Assieds-toi !* (friend), *Asseyez-vous !* (formal). Being seated is *être assis*."
+    },
+    {
+      "id": "se-taire",
+      "kind": "vocab",
+      "fr": "se taire",
+      "en": "to be quiet, to stop talking",
+      "pos": "verb",
+      "example": {
+        "fr": "Tais-toi, j'écoute les nouvelles !",
+        "en": "Be quiet, I'm listening to the news!"
+      },
+      "note": "*Tais-toi !* is blunt. *Taisez-vous !* is the plural or formal form. A softer option: *Chut !*"
+    },
+    {
+      "id": "embrasser",
+      "kind": "vocab",
+      "fr": "embrasser",
+      "en": "to kiss; to hug",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle embrasse ses enfants avant de partir.",
+        "en": "She kisses her children before leaving."
+      },
+      "note": "*Je t'embrasse* at the end of a message = love, hugs. Never use the verb *baiser* for “to kiss”: it is vulgar."
+    },
+    {
+      "id": "epouser",
+      "kind": "vocab",
+      "fr": "épouser",
+      "en": "to marry (someone)",
+      "pos": "verb",
+      "example": {
+        "fr": "Raj a épousé une Montréalaise.",
+        "en": "Raj married a woman from Montréal."
+      },
+      "note": "*Épouser quelqu'un* = *se marier avec quelqu'un*."
+    },
+    {
+      "id": "jeter",
+      "kind": "vocab",
+      "fr": "jeter",
+      "en": "to throw (away)",
+      "pos": "verb",
+      "example": {
+        "fr": "Ne jette pas ça, c'est recyclable !",
+        "en": "Don't throw that away, it's recyclable!"
+      },
+      "note": "Double t when the ending is silent: *je jette*, but *nous jetons*."
+    },
+    {
+      "id": "arranger",
+      "kind": "vocab",
+      "fr": "arranger",
+      "en": "to sort out, to fix (a situation)",
+      "pos": "verb",
+      "example": {
+        "fr": "Ne t'inquiète pas, on va arranger ça.",
+        "en": "Don't worry, we'll sort it out."
+      }
+    },
+    {
+      "id": "ca-m-arrange",
+      "kind": "phrase",
+      "fr": "Ça m'arrange.",
+      "en": "That suits me. / That works for me.",
+      "accept": [
+        "Ça m'arrange bien.",
+        "Ça m'arrange"
+      ],
+      "example": {
+        "fr": "Mardi à dix heures ? Oui, ça m'arrange.",
+        "en": "Tuesday at ten? Yes, that works for me."
+      }
+    },
+    {
+      "id": "battre",
+      "kind": "vocab",
+      "fr": "battre",
+      "en": "to beat (win against; hit)",
+      "pos": "verb",
+      "example": {
+        "fr": "Le Canada a battu la Suède trois à un.",
+        "en": "Canada beat Sweden three to one."
+      },
+      "note": "Present: *je bats, nous battons*. *Se battre* = to fight."
+    },
+    {
+      "id": "detruire",
+      "kind": "vocab",
+      "fr": "détruire",
+      "en": "to destroy",
+      "pos": "verb",
+      "example": {
+        "fr": "La tempête a détruit le vieux pont.",
+        "en": "The storm destroyed the old bridge."
+      },
+      "note": "Past participle: *détruit*."
+    },
+    {
+      "id": "s-echapper",
+      "kind": "vocab",
+      "fr": "s'échapper",
+      "en": "to escape, to get out",
+      "pos": "verb",
+      "example": {
+        "fr": "Le chien s'est échappé du jardin.",
+        "en": "The dog got out of the yard."
+      }
+    },
+    {
+      "id": "tuer",
+      "kind": "vocab",
+      "fr": "tuer",
+      "en": "to kill",
+      "pos": "verb",
+      "example": {
+        "fr": "Cette chaleur me tue !",
+        "en": "This heat is killing me!"
+      },
+      "note": "Mostly figurative in everyday speech: *tuer le temps* (to kill time), *Ça me tue !* (That kills me!)."
+    },
+    {
+      "id": "allons-y",
+      "kind": "phrase",
+      "fr": "Allons-y !",
+      "en": "Let's go! (let's do it)",
+      "accept": [
+        "On y va !",
+        "Allons-y"
+      ],
+      "example": {
+        "fr": "Tout le monde est prêt ? Allons-y !",
+        "en": "Is everyone ready? Let's go!"
+      },
+      "note": "In everyday speech, *On y va !* is just as common."
+    },
+    {
+      "id": "avoir-des-ennuis",
+      "kind": "phrase",
+      "fr": "avoir des ennuis",
+      "en": "to be in trouble, to have problems",
+      "accept": [
+        "avoir des problèmes"
+      ],
+      "example": {
+        "fr": "Si tu arrives encore en retard, tu vas avoir des ennuis.",
+        "en": "If you're late again, you'll be in trouble."
+      },
+      "note": "*Des ennuis* = trouble. *L'ennui* (singular) usually means boredom."
+    },
+    {
+      "id": "pas-mes-yeux",
+      "kind": "phrase",
+      "fr": "Je n'en crois pas mes yeux.",
+      "en": "I can't believe my eyes.",
+      "accept": [
+        "J'en crois pas mes yeux."
+      ],
+      "example": {
+        "fr": "Un orignal dans la rue ? Je n'en crois pas mes yeux !",
+        "en": "A moose in the street? I can't believe my eyes!"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Believing, hoping, feeling",
+          "itemIds": [
+            "croire",
+            "esperer",
+            "jurer",
+            "se-rappeler",
+            "ressentir",
+            "parier",
+            "pas-mes-yeux"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "People and everyday actions",
+          "itemIds": [
+            "s-asseoir",
+            "se-taire",
+            "embrasser",
+            "epouser",
+            "jeter",
+            "arranger",
+            "ca-m-arrange",
+            "allons-y"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Winning, losing, escaping",
+          "itemIds": [
+            "battre",
+            "detruire",
+            "s-echapper",
+            "tuer",
+            "avoir-des-ennuis"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Tips",
+          "body": "[[Ressentir]] is a false friend: it means *to feel*, not *to resent*. [[Se rappeler]] and [[se souvenir de]] both mean *to remember*. [[Espérer]] and [[jeter]] change spelling: [[j'espère]], [[je jette]]. Two blunt commands: [[Tais-toi !]] and [[Assieds-toi !]]; with strangers say [[Asseyez-vous]]. Never use *baiser* as a verb for *kiss*."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Je ne te crois pas.",
+              "en": "I don't believe you.",
+              "tip": "crois sounds like “krwa”."
+            },
+            {
+              "fr": "J'espère que tu vas bien.",
+              "en": "I hope you're well."
+            },
+            {
+              "fr": "Je te jure que c'est vrai.",
+              "en": "I swear it's true."
+            },
+            {
+              "fr": "Tu te rappelles notre premier hiver à Québec ?",
+              "en": "Do you remember our first winter in Québec City?"
+            },
+            {
+              "fr": "Asseyez-vous, je vous en prie.",
+              "en": "Please, have a seat.",
+              "tip": "Asseyez: a-sé-yé."
+            },
+            {
+              "fr": "Ne jette pas ça, c'est recyclable !",
+              "en": "Don't throw that away, it's recyclable!"
+            },
+            {
+              "fr": "Mardi à dix heures ? Oui, ça m'arrange.",
+              "en": "Tuesday at ten? Yes, that works for me."
+            },
+            {
+              "fr": "Tout le monde est prêt ? Allons-y !",
+              "en": "Is everyone ready? Let's go!",
+              "tip": "Link the words: allon-z‿y."
+            },
+            {
+              "fr": "Cette chaleur me tue !",
+              "en": "This heat is killing me!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the verbs.",
+          "pairs": [
+            [
+              "croire",
+              "to believe"
+            ],
+            [
+              "espérer",
+              "to hope"
+            ],
+            [
+              "parier",
+              "to bet"
+            ],
+            [
+              "jurer",
+              "to swear"
+            ],
+            [
+              "ressentir",
+              "to feel (an emotion)"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the actions.",
+          "pairs": [
+            [
+              "jeter",
+              "to throw away"
+            ],
+            [
+              "épouser",
+              "to marry"
+            ],
+            [
+              "embrasser",
+              "to kiss"
+            ],
+            [
+              "s'asseoir",
+              "to sit down"
+            ],
+            [
+              "détruire",
+              "to destroy"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Your manager proposes a meeting on Thursday and Thursday is perfect for you. What do you say?",
+          "options": [
+            "Jeudi, ça m'arrange.",
+            "Jeudi, je me tais.",
+            "Jeudi, je parie.",
+            "Jeudi, je m'échappe."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Ça m'arrange]] = that suits me.",
+          "optionFeedback": [
+            null,
+            "Je me tais = I'm keeping quiet.",
+            "Je parie = I bet.",
+            "Je m'échappe = I'm escaping."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "A visitor arrives at your office. How do you politely invite her to sit down?",
+          "options": [
+            "Asseyez-vous, je vous en prie.",
+            "Assieds-toi !",
+            "Taisez-vous, je vous en prie."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "With someone you don't know, use the vous form: [[Asseyez-vous]].",
+          "optionFeedback": [
+            null,
+            "That's the tu form, for friends and family.",
+            "Taisez-vous means “be quiet”."
+          ]
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I hope that you are well. (to a friend)",
+          "accept": [
+            "J'espère que tu vas bien.",
+            "J'espère que ça va bien.",
+            "J'espère que tu te portes bien."
+          ],
+          "hint": "espérer: watch the accent.",
+          "explain": "[[J'espère]] has a grave accent (è) because the ending is silent."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "I don't believe you. (to a friend)",
+          "accept": [
+            "Je ne te crois pas.",
+            "Je te crois pas."
+          ],
+          "explain": "[[croire]] → [[je crois]]; the object pronoun [[te]] comes before the verb."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Ne ___ pas ce papier, c'est important !",
+          "answers": [
+            [
+              "jette"
+            ]
+          ],
+          "choices": [
+            "jette",
+            "jete",
+            "jetes"
+          ],
+          "en": "Don't throw away that paper, it's important!",
+          "explain": "Double t when the ending is silent: [[je jette, tu jettes]]."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Le chat s'est ___ par la fenêtre.",
+          "answers": [
+            [
+              "échappé",
+              "sauvé"
+            ]
+          ],
+          "choices": [
+            "échappé",
+            "assis",
+            "tu"
+          ],
+          "en": "The cat got out through the window.",
+          "explain": "[[S'échapper]] = to escape, to get out."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Tu te rappelles notre premier hiver ?",
+          "accept": [
+            "Tu te rappelles notre premier hiver?"
+          ],
+          "explain": "[[rappelles]] has a double p and a double l."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Si tu arrives encore en retard, tu vas avoir des ennuis.",
+          "en": "If you're late again, you'll be in trouble.",
+          "prompt": "What is the speaker warning about?",
+          "options": [
+            "Getting into trouble",
+            "Getting bored",
+            "Getting lost"
+          ],
+          "answer": 0,
+          "explain": "[[Avoir des ennuis]] = to be in trouble."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Talk about beliefs and feelings: [[croire, espérer, jurer, se rappeler, ressentir]]\n- Use everyday action verbs: [[s'asseoir, se taire, jeter, embrasser, épouser]]\n- Say [[Ça m'arrange]], [[Allons-y !]] and [[avoir des ennuis]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Checked all items; baiser only appears in warnings and tuer only figuratively. Added accept variants to r5 and r8."
+  }
+}

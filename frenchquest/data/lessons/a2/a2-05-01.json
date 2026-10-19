@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-05-01",
+  "level": "a2",
+  "unit": "a2-05",
+  "title": "Buying tickets",
+  "goal": "Buy a train, bus or metro ticket: ask for a one-way or round trip, departure and arrival times, prices and discounts.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-partir", "kind": "grammar", "fr": "partir", "en": "to leave (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Le train ___ à 15 h 30.", "answers": [["part"]], "en": "The train leaves at 3:30 p.m.", "explain": "il / elle → part. The t is silent." },
+        { "type": "cloze", "text": "Nous ___ vendredi matin.", "answers": [["partons"]], "en": "We're leaving on Friday morning.", "explain": "nous → partons: the t comes back in the plural forms." },
+        { "type": "mcq", "prompt": "“I'm leaving tomorrow.”", "options": ["Je pars demain.", "Je part demain.", "Je partis demain."], "optionsFr": true, "answer": 0, "explain": "je → pars, with an s, like tu pars." }
+      ] },
+    { "id": "g-de-a-pour", "kind": "grammar", "fr": "un billet pour… / de… à…", "en": "ticket to a place, from … to …",
+      "drills": [
+        { "type": "cloze", "text": "Je voudrais un aller simple ___ Ottawa.", "answers": [["pour"]], "en": "I'd like a one-way ticket to Ottawa.", "explain": "A ticket *to* a city is [[un billet pour]] + city, not [[à]]." },
+        { "type": "cloze", "text": "Le bus va ___ Québec ___ Rimouski.", "answers": [["de"], ["à"]], "en": "The bus goes from Québec City to Rimouski.", "explain": "from … to … = [[de… à…]]." },
+        { "type": "translate", "prompt": "a round-trip ticket to Toronto", "accept": ["un aller-retour pour Toronto", "un billet aller-retour pour Toronto"], "explain": "[[un aller-retour pour]] + city." }
+      ] },
+    { "id": "billet", "kind": "vocab", "fr": "billet", "article": "le", "gender": "m", "en": "ticket", "pos": "noun", "accept": ["un billet", "le ticket", "un ticket"],
+      "example": { "fr": "J'ai acheté mon billet en ligne.", "en": "I bought my ticket online." }, "note": "In France, a metro ticket is often [[un ticket]]." },
+    { "id": "aller-simple", "kind": "vocab", "fr": "aller simple", "article": "un", "gender": "m", "en": "one-way ticket", "pos": "noun", "accept": ["un aller simple", "un billet aller simple"],
+      "example": { "fr": "Un aller simple pour Gatineau, s'il vous plaît.", "en": "A one-way ticket to Gatineau, please." } },
+    { "id": "aller-retour", "kind": "vocab", "fr": "aller-retour", "article": "un", "gender": "m", "en": "round-trip ticket", "pos": "noun", "accept": ["un aller-retour", "un billet aller-retour"],
+      "example": { "fr": "Un aller-retour coûte moins cher.", "en": "A round-trip ticket costs less." } },
+    { "id": "depart", "kind": "vocab", "fr": "départ", "article": "le", "gender": "m", "en": "departure", "pos": "noun",
+      "example": { "fr": "Le départ est à 9 h 15.", "en": "Departure is at 9:15." } },
+    { "id": "arrivee", "kind": "vocab", "fr": "arrivée", "article": "l'", "gender": "f", "en": "arrival", "pos": "noun",
+      "example": { "fr": "L'arrivée à Québec est prévue à 18 h 50.", "en": "Arrival in Québec City is scheduled for 6:50 p.m." } },
+    { "id": "reduction", "kind": "vocab", "fr": "réduction", "article": "la", "gender": "f", "en": "discount", "pos": "noun", "accept": ["une réduction", "le rabais", "un rabais"],
+      "example": { "fr": "Il y a une réduction pour les étudiants.", "en": "There's a discount for students." }, "note": "In Québec you also hear [[un rabais]]." },
+    { "id": "horaire", "kind": "vocab", "fr": "horaire", "article": "l'", "gender": "m", "en": "schedule (timetable)", "pos": "noun", "accept": ["les horaires", "un horaire"],
+      "example": { "fr": "Je regarde l'horaire des trains.", "en": "I'm looking at the train schedule." } },
+    { "id": "prochain-train", "kind": "phrase", "fr": "le prochain train pour Québec", "en": "the next train to Québec City" },
+    { "id": "voudrais-ar", "kind": "phrase", "fr": "Je voudrais un aller-retour pour Québec, s'il vous plaît.", "en": "I'd like a round-trip ticket to Québec City, please.", "accept": ["Je voudrais un billet aller-retour pour Québec, s'il vous plaît."] },
+    { "id": "quelle-heure-part", "kind": "phrase", "fr": "À quelle heure part le train ?", "en": "What time does the train leave?", "accept": ["Le train part à quelle heure ?", "À quelle heure est-ce que le train part ?"] },
+    { "id": "payer-carte", "kind": "phrase", "fr": "Est-ce que je peux payer par carte ?", "en": "Can I pay by card?", "accept": ["Je peux payer par carte ?", "Puis-je payer par carte ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "At the station",
+      "intro": "Raj wants to spend a weekend in Québec City. Read the conversation at the ticket counter, then the metro scene.",
+      "blocks": [
+        { "type": "dialogue", "title": "At the VIA Rail counter, Gare Centrale in Montréal",
+          "context": "Raj buys a train ticket from an agent.",
+          "lines": [
+            { "speaker": "Agente", "fr": "Bonjour ! Je peux vous aider ?", "en": "Hello! Can I help you?" },
+            { "speaker": "Raj", "fr": "Bonjour, madame. Je voudrais un billet de train pour Québec, s'il vous plaît.", "en": "Hello. I'd like a train ticket to Québec City, please." },
+            { "speaker": "Agente", "fr": "Un aller simple ou un aller-retour ?", "en": "One-way or round trip?" },
+            { "speaker": "Raj", "fr": "Un aller-retour. Je pars vendredi et je reviens dimanche soir.", "en": "Round trip. I'm leaving on Friday and coming back on Sunday evening." },
+            { "speaker": "Agente", "fr": "Alors, vendredi, il y a un train à 9 h 15 et un autre à 15 h 30.", "en": "So, on Friday there's a train at 9:15 and another one at 3:30 p.m." },
+            { "speaker": "Raj", "fr": "Le train de 15 h 30, il arrive à quelle heure ?", "en": "The 3:30 train, what time does it arrive?" },
+            { "speaker": "Agente", "fr": "L'arrivée à Québec est prévue à 18 h 50. Et pour le retour, dimanche, le dernier départ est à 17 h.", "en": "Arrival in Québec City is scheduled for 6:50 p.m. And for the return, on Sunday, the last departure is at 5 p.m." },
+            { "speaker": "Raj", "fr": "Parfait. Ça fait combien ?", "en": "Perfect. How much is that?" },
+            { "speaker": "Agente", "fr": "En classe économie, c'est 112 $ aller-retour. Vous êtes étudiant ? Il y a une réduction pour les étudiants.", "en": "In economy class, it's $112 round trip. Are you a student? There's a discount for students." },
+            { "speaker": "Raj", "fr": "Non, malheureusement ! Est-ce que je peux payer par carte ?", "en": "No, unfortunately! Can I pay by card?" },
+            { "speaker": "Agente", "fr": "Bien sûr. Voici votre billet. Regardez l'écran des départs trente minutes avant le départ. Bon voyage !", "en": "Of course. Here's your ticket. Check the departures screen thirty minutes before departure. Have a good trip!" }
+          ] },
+        { "type": "dialogue", "title": "At a metro station in Montréal",
+          "context": "Mei has just arrived. Her friend Lucie helps her at the STM ticket machine.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Lucie, j'ai besoin d'un ticket pour le métro. Je fais comment ?", "en": "Lucie, I need a metro ticket. How do I do it?" },
+            { "speaker": "Lucie", "fr": "Ici, on dit plutôt un passage. Un passage coûte 3,75 $, et c'est valide aussi dans l'autobus.", "en": "Here we usually say “un passage” (one fare). One fare costs $3.75 (example price), and it's also valid on the bus." },
+            { "speaker": "Mei", "fr": "Et si je prends le métro toute la journée ?", "en": "And if I take the metro all day?" },
+            { "speaker": "Lucie", "fr": "Alors, prends le titre 24 heures : c'est moins cher. Tu choisis ici, puis tu paies par carte.", "en": "Then get the 24-hour pass: it's cheaper. You choose here, then you pay by card." },
+            { "speaker": "Mei", "fr": "Super. Hier, j'ai payé trois passages… Je ne savais pas !", "en": "Great. Yesterday I paid for three fares… I didn't know!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Prices and schedules in this course are examples. They change often, so always check the transit company's website before you travel." }
+      ] },
+    { "type": "understand", "title": "Asking for a ticket",
+      "blocks": [
+        { "type": "pattern", "title": "The ticket request",
+          "pattern": "Je voudrais + un aller simple / un aller-retour + pour + ville",
+          "note": "[[Je voudrais]] (I would like) is the polite ordering chunk from A1. Then say **what** (one-way or return) and **where to** with [[pour]].",
+          "examples": [
+            { "fr": "Je voudrais un aller simple pour Ottawa, s'il vous plaît.", "en": "I'd like a one-way ticket to Ottawa, please." },
+            { "fr": "Un aller-retour Montréal-Québec, s'il vous plaît.", "en": "A Montréal–Québec City return, please." },
+            { "fr": "Deux billets pour Rimouski, pour samedi matin.", "en": "Two tickets to Rimouski, for Saturday morning." }
+          ] },
+        { "type": "table", "title": "Questions you will need",
+          "head": ["French", "English"],
+          "rows": [
+            ["À quelle heure part le prochain train ?", "What time does the next train leave?"],
+            ["Il arrive à quelle heure à Québec ?", "What time does it arrive in Québec City?"],
+            ["C'est direct ?", "Is it direct?"],
+            ["Ça fait combien ? / C'est combien ?", "How much is it?"],
+            ["Il y a une réduction pour les étudiants ?", "Is there a student discount?"],
+            ["Est-ce que je peux payer par carte ?", "Can I pay by card?"]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "table", "title": "Partir in the present",
+          "head": ["", "partir", "English"],
+          "rows": [
+            ["je", "pars", "I leave"],
+            ["tu", "pars", "you leave"],
+            ["il / elle / on", "part", "he / she leaves, we leave"],
+            ["nous", "partons", "we leave"],
+            ["vous", "partez", "you leave (formal or plural)"],
+            ["ils / elles", "partent", "they leave"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "The singular forms drop the **t** of the stem: [[je pars, il part]]. The plural forms keep it: [[nous partons]]. [[Sortir]] (to go out) and [[dormir]] (to sleep) work the same way: [[je sors, je dors]]. You already know the past ([[je suis parti]]) and the future ([[je partirai]])." },
+        { "type": "vocab", "title": "Ticket words", "itemIds": ["billet", "aller-simple", "aller-retour", "depart", "arrivee", "reduction", "horaire"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **To a city:** [[un billet à Québec]] → [[un billet pour Québec]].\n- **Leaving a place:** [[partir]] needs [[de]]: [[Je pars de Montréal.]] If you want a direct object, use [[quitter]]: [[Je quitte Montréal à 15 h.]] Never [[je pars Montréal]].\n- **Arriving:** [[arriver à]] + city: [[Le train arrive à Québec à 18 h 50.]]\n- **The 24-hour clock:** in timetables and at counters, people say [[quinze heures trente]], not *three thirty*. Convert in your head: 15 h 30 = 3:30 p.m." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec or le Québec?",
+          "body": "- [[Québec]] with no article is the **city**: [[Je vais à Québec.]] (Québec City)\n- [[le Québec]] is the **province**: [[J'habite au Québec.]]\n\nTransport words you will hear in Canada:\n\n- [[un passage]]: one fare on the STM (Montréal metro and bus). Fares are loaded onto a reusable card or bought at the machine.\n- [[l'autobus]] or [[le bus]]: both are normal in Québec; [[le car]] (France) is rare.\n- [[l'horaire]] (singular) is common in Canada for a schedule; France usually says [[les horaires]].\n- In Ottawa, OC Transpo announces stops in both English and French, and in Gatineau the STO works mainly in French, so the region is a great place to practise listening." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "[[aller-retour]]: link the two words smoothly, *a-lé-re-tour*, and make the final **r** a soft French r at the back of the throat (not rolled). The **r** of aller is silent, both in [[aller-retour]] and in [[aller simple]]: *a-lé*.",
+          "examples": [ { "fr": "un aller simple", "en": "a one-way ticket" }, { "fr": "un aller-retour", "en": "a round-trip ticket" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je voudrais un aller-retour pour Québec, s'il vous plaît.", "en": "I'd like a round-trip ticket to Québec City, please." },
+            { "fr": "À quelle heure part le prochain train ?", "en": "What time does the next train leave?", "tip": "part: the t is silent." },
+            { "fr": "Nous partons vendredi et nous revenons dimanche.", "en": "We leave on Friday and come back on Sunday.", "tip": "Now you hear the t: par-ton." },
+            { "fr": "Est-ce que je peux payer par carte ?", "en": "Can I pay by card?" }
+          ] },
+        { "type": "listen", "title": "At the bus station in Québec City",
+          "context": "Amira asks about a bus to the Gaspésie. Listen once without the transcript.",
+          "fr": "Pour Rimouski, il y a trois départs par jour : à 7 h 45, à 12 h 30 et à 17 h 15. Le trajet dure environ quatre heures. Un aller simple coûte 76 $, et l'aller-retour, 128 $.",
+          "en": "For Rimouski, there are three departures a day: at 7:45, 12:30 and 5:15 p.m. The trip takes about four hours. A one-way ticket costs $76, and the round trip $128." },
+        { "id": "h1", "type": "listen-mcq", "fr": "Pour Rimouski, il y a trois départs par jour : à 7 h 45, à 12 h 30 et à 17 h 15.", "en": "For Rimouski, there are three departures a day: at 7:45, 12:30 and 5:15 p.m.",
+          "prompt": "Amira wants to leave in the afternoon. Which bus can she take?", "options": ["5:15 p.m.", "7:15 p.m.", "12:15 p.m."], "answer": 0,
+          "explain": "[[dix-sept heures quinze]] = 17 h 15 = 5:15 p.m. The midday bus is at [[douze heures trente]], 12:30." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Un aller simple coûte 76 $, et l'aller-retour, 128 $.", "en": "A one-way ticket costs $76, and the round trip $128.",
+          "prompt": "How much is the round trip?", "options": ["$128", "$76", "$148"], "answer": 0,
+          "explain": "[[cent vingt-huit]] = 128. [[soixante-seize]] (76) is the one-way price." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je voudrais un ___ pour Ottawa : je ne reviens pas.", "answers": [["aller simple"]], "choices": ["aller simple", "aller-retour", "départ"], "en": "I'd like a one-way ticket to Ottawa: I'm not coming back.",
+          "explain": "You're not coming back, so you need [[un aller simple]]." },
+        { "id": "r2", "type": "mcq", "prompt": "You want to know when the next train leaves. What do you ask?", "options": ["À quelle heure part le prochain train ?", "À quelle heure arrive le dernier train ?", "Combien coûte le prochain train ?", "Où est le prochain train ?"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "This asks when the last train arrives.", "This asks about the price.", "This asks where the train is."] },
+        { "id": "r3", "type": "cloze", "text": "Le bus ___ de Québec à 7 h 45, et nous ___ à 12 h 30.", "answers": [["part"], ["partons"]], "choices": ["part", "pars", "partons", "partent"], "en": "The bus leaves Québec City at 7:45, and we leave at 12:30.",
+          "explain": "il / le bus → [[part]]; nous → [[partons]]." },
+        { "id": "r4", "type": "translate", "prompt": "I'd like a round-trip ticket to Québec City, please.", "accept": ["Je voudrais un aller-retour pour Québec, s'il vous plaît.", "Je voudrais un billet aller-retour pour Québec, s'il vous plaît.", "Je voudrais un aller-retour pour la ville de Québec, s'il vous plaît.", "Un aller-retour pour Québec, s'il vous plaît."],
+          "hint": "Je voudrais + ticket type + pour…", "explain": "[[un aller-retour]] + [[pour]] + city. Québec with no article is the city." },
+        { "id": "r5", "type": "match", "prompt": "Match the French and the English.", "pairs": [["le départ", "departure"], ["l'arrivée", "arrival"], ["la réduction", "discount"], ["l'horaire", "schedule"], ["le retour", "return trip"]] },
+        { "id": "r6", "type": "reorder", "prompt": "Can I pay by card?", "accept": ["Est-ce que je peux payer par carte ?"], "extra": ["avec"],
+          "explain": "“By card” is [[par carte]]. [[Avec]] is the English trap." },
+        { "id": "r7", "type": "translate", "prompt": "I left Montréal yesterday and I'll arrive in Gaspé tomorrow.", "accept": ["Je suis parti de Montréal hier et j'arriverai à Gaspé demain.", "Je suis partie de Montréal hier et j'arriverai à Gaspé demain.", "J'ai quitté Montréal hier et j'arriverai à Gaspé demain.", "Je suis parti de Montréal hier et je vais arriver à Gaspé demain.", "Je suis partie de Montréal hier et je vais arriver à Gaspé demain.", "J'ai quitté Montréal hier et je vais arriver à Gaspé demain.", "Hier, je suis parti de Montréal et demain, j'arriverai à Gaspé.", "Hier, je suis partie de Montréal et demain, j'arriverai à Gaspé.", "Hier, j'ai quitté Montréal et demain, j'arriverai à Gaspé.", "Hier, je suis parti de Montréal et demain, je vais arriver à Gaspé.", "Hier, je suis partie de Montréal et demain, je vais arriver à Gaspé.", "Hier, j'ai quitté Montréal et demain, je vais arriver à Gaspé."],
+          "hint": "partir uses être in the passé composé.", "explain": "Past: [[je suis parti de]] or [[je suis partie de]] (être!) or [[j'ai quitté]]. Future: [[j'arriverai]] or [[je vais arriver]]." },
+        { "id": "r8", "type": "listen-mcq", "fr": "Le train de 9 h 15 pour Québec est complet. Il reste des places dans le train de 15 h 30.", "en": "The 9:15 train to Québec City is full. There are seats left on the 3:30 p.m. train.",
+          "prompt": "What does the agent tell you?", "options": ["The 9:15 train is full; the 3:30 p.m. train has seats.", "The 3:30 p.m. train is full; the 9:15 train has seats.", "Both trains are cancelled."], "answer": 0,
+          "explain": "[[complet]] = full (no seats left). [[Il reste des places]] = there are seats left." },
+        { "id": "r9", "type": "dictation", "fr": "Nous partons vendredi et nous revenons dimanche soir.", "accept": [],
+          "explain": "[[partons]] and [[revenons]]: the nous forms end in -ons." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You are at the bus station in Montréal. Buy a ticket to a city of your choice: say one-way or round trip, the day you leave (and come back), ask the departure and arrival times, ask the price and whether there is a discount, and ask to pay by card.", "seconds": 45,
+          "checklist": ["Bonjour + Je voudrais un aller simple / un aller-retour pour…", "Your travel days: Je pars… et je reviens…", "À quelle heure part… ? Il arrive à quelle heure ?", "Ça fait combien ? Il y a une réduction… ?", "Est-ce que je peux payer par carte ?", "Merci, bonne journée !"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, monsieur. Je voudrais deux allers-retours pour Sherbrooke, s'il vous plaît, pour moi et mon père. Nous partons samedi matin et nous revenons dimanche après-midi. À quelle heure part le premier autobus samedi ? … Et il arrive à quelle heure à Sherbrooke ? … D'accord. Ça fait combien ? Il y a une réduction pour les aînés ? Mon père a soixante-dix ans. … Parfait. Est-ce que je peux payer par carte ? Merci beaucoup, bonne journée !", "en": "Hello, sir. I'd like two round-trip tickets to Sherbrooke, please, for me and my father. We're leaving on Saturday morning and coming back on Sunday afternoon. What time does the first bus leave on Saturday? … And what time does it arrive in Sherbrooke? … OK. How much is it? Is there a discount for seniors? My father is seventy. … Perfect. Can I pay by card? Thank you very much, have a good day! (The … mark the agent's answers.)" } ] },
+        { "id": "w1", "type": "write", "prompt": "Text a friend about the ticket you bought: where you are going, one-way or round trip, when you leave and arrive, and the price. Use the future (futur simple or aller + infinitive) for your trip.", "wordRange": [25, 50],
+          "checklist": ["Salut + name", "J'ai acheté un aller simple / un aller-retour pour…", "Je pars… / Le train part à…", "J'arriverai… / Je vais arriver…", "The price: Ça m'a coûté…", "A friendly closing"],
+          "models": [ { "label": "Model answer", "fr": "Salut Karim ! J'ai acheté mon billet pour Québec : un aller-retour en train. Je pars vendredi à 15 h 30 et j'arriverai à 18 h 50. Ça m'a coûté 112 $. Tu viendras me chercher à la gare ? À vendredi ! Raj", "en": "Hi Karim! I bought my ticket to Québec City: a round trip by train. I'm leaving on Friday at 3:30 p.m. and I'll arrive at 6:50 p.m. It cost me $112. Will you come and pick me up at the station? See you Friday! Raj" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Buy a ticket: [[Je voudrais un aller simple / un aller-retour pour…]]\n- Ask about times, prices and discounts: [[À quelle heure part le prochain train ?]] [[Il y a une réduction ?]]\n- Conjugate **partir** in the present: [[je pars, il part, nous partons]]\n- Tell [[Québec]] (the city) from [[le Québec]] (the province)",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Marked the STM fare as an example, corrected the OC Transpo/STO claim and the r pronunciation tip, made the speaking model consistent (two tickets for the senior discount), and widened r7 accept." }
+}

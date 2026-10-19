@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-09-05",
+  "level": "a1",
+  "unit": "a1-09",
+  "checkpoint": true,
+  "title": "Say what you like and why",
+  "goal": "Write and speak about your free time and preferences, with reasons, using everything from units 1 to 9.",
+  "minutes": 15,
+  "items": [
+    { "id": "passe-temps", "kind": "vocab", "fr": "passe-temps", "article": "le", "gender": "m", "en": "hobby, pastime", "pos": "noun",
+      "example": { "fr": "Mon passe-temps préféré, c'est la musique.", "en": "My favourite hobby is music." },
+      "note": "The plural is the same: les passe-temps." },
+    { "id": "prefere", "kind": "vocab", "fr": "préféré", "fem": "préférée", "en": "favourite", "pos": "adjective", "accept": ["préférée"],
+      "example": { "fr": "Ma saison préférée, c'est l'été.", "en": "My favourite season is summer." },
+      "note": "It goes after the noun and agrees: mon film préféré, ma saison préférée." },
+    { "id": "temps-libre", "kind": "vocab", "fr": "temps libre", "article": "le", "gender": "m", "en": "free time", "pos": "noun",
+      "example": { "fr": "Je n'ai pas beaucoup de temps libre.", "en": "I don't have much free time." } },
+    { "id": "fin-de-semaine", "kind": "vocab", "fr": "fin de semaine", "article": "la", "gender": "f", "en": "weekend (common in Québec)", "pos": "noun", "accept": ["le week-end", "week-end"],
+      "example": { "fr": "La fin de semaine, je fais du vélo.", "en": "On weekends, I go cycling." },
+      "note": "In France: le week-end." },
+    { "id": "nature", "kind": "vocab", "fr": "nature", "article": "la", "gender": "f", "en": "nature", "pos": "noun",
+      "example": { "fr": "J'aime la nature.", "en": "I like nature." } },
+    { "id": "par-contre", "kind": "phrase", "fr": "par contre", "en": "on the other hand, however",
+      "example": { "fr": "J'aime l'été. Par contre, je déteste l'hiver.", "en": "I like summer. On the other hand, I hate winter." } },
+    { "id": "alors", "kind": "vocab", "fr": "alors", "en": "so (as a result)", "pos": "adverb",
+      "example": { "fr": "Il pleut, alors on joue aux cartes.", "en": "It's raining, so we're playing cards." } },
+    { "id": "mon-passe-temps-prefere", "kind": "phrase", "fr": "Mon passe-temps préféré, c'est…", "en": "My favourite hobby is…", "accept": ["Mon passe-temps préféré est…"] },
+    { "id": "et-vous-aimez-faire", "kind": "phrase", "fr": "Et vous, qu'est-ce que vous aimez faire ?", "en": "And you, what do you like doing? (formal or to a group)", "accept": ["Et vous, qu'est-ce que vous aimez faire"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Amira's post",
+      "blocks": [
+        { "type": "text", "title": "A post on a newcomers' forum in Gatineau",
+          "fr": "Bonjour à tous ! Je m'appelle Amira. Je suis marocaine et j'habite à Gatineau avec mon mari et mes deux enfants. Je suis infirmière.\nDu lundi au vendredi, je travaille beaucoup et je n'ai pas beaucoup de temps libre. Alors, la fin de semaine, j'adore cuisiner pour ma famille. Mon passe-temps préféré, c'est la randonnée, parce que j'aime la nature et c'est relaxant. En été, nous faisons aussi du vélo au parc de la Gatineau.\nPar contre, je n'aime pas beaucoup l'hiver : il fait très froid et je déteste la neige ! Mais mes enfants adorent ça : ils jouent au hockey et ils font du patin.\nJe ne regarde jamais la télé : je préfère lire. Et vous, qu'est-ce que vous aimez faire ?",
+          "en": "Hello everyone! My name is Amira. I'm Moroccan and I live in Gatineau with my husband and my two children. I'm a nurse.\nFrom Monday to Friday, I work a lot and I don't have much free time. So on weekends, I love cooking for my family. My favourite hobby is hiking, because I like nature and it's relaxing. In summer, we also go cycling in Gatineau Park.\nOn the other hand, I don't really like winter: it's very cold and I hate snow! But my children love it: they play hockey and they go skating.\nI never watch TV: I prefer reading. And you, what do you like doing?" },
+        { "type": "note", "tone": "info", "body": "Read it twice. The first time, find **what Amira likes**. The second time, find **her reasons**: look for [[parce que]], [[alors]] and the colon (:)." }
+      ] },
+    { "type": "understand", "title": "Your toolkit",
+      "blocks": [
+        { "type": "table", "title": "Everything from this unit",
+          "head": ["to…", "use", "example"],
+          "rows": [
+            ["like, love, hate", "aimer (bien, beaucoup), adorer, détester", "J'adore la musique."],
+            ["talk about an activity", "+ infinitive", "J'aime lire."],
+            ["say what you don't do", "ne… pas, ne… jamais, ne… plus", "Je ne regarde jamais la télé."],
+            ["say “no / not any”", "pas de, jamais de, plus de", "Je n'ai pas de voiture."],
+            ["prefer", "préférer, aimer mieux, plutôt", "Je préfère le thé au café."],
+            ["give a reason", "parce que, parce qu'", "parce que c'est relaxant"],
+            ["talk about hobbies", "faire du / de la, jouer au / du", "Je fais de la natation. Je joue au soccer."],
+            ["talk about the weather", "il fait…, il pleut, il neige", "En hiver, il fait froid."]
+          ],
+          "frCols": [1, 2], "sayCol": true },
+        { "type": "explain", "title": "Build a paragraph in four moves",
+          "body": "A good short text about your free time follows a simple plan:\n\n- **1. Introduce yourself** in one or two sentences: name, nationality, city, job.\n- **2. What you like, with a reason:** [[Mon passe-temps préféré, c'est… parce que…]]\n- **3. What you don't like, with a reason:** [[Par contre, je n'aime pas… parce que…]]\n- **4. A season or the weather, then a question:** [[En été, je… Et vous, qu'est-ce que vous aimez faire ?]]\n\nLink your ideas with [[et]], [[mais]], [[aussi]], [[par contre]] and [[alors]]. Short sentences are perfect at this level: clear beats long." },
+        { "type": "pattern", "title": "My favourite…",
+          "pattern": "mon / ma + nom + préféré(e), c'est + le / la / l' + nom",
+          "note": "[[Préféré]] comes **after** the noun and agrees with it, like other adjectives you learned in unit 4.",
+          "examples": [
+            { "fr": "Mon passe-temps préféré, c'est la randonnée.", "en": "My favourite hobby is hiking." },
+            { "fr": "Ma saison préférée, c'est l'automne.", "en": "My favourite season is autumn." },
+            { "fr": "Mon sport préféré, c'est le hockey.", "en": "My favourite sport is hockey." }
+          ] },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["passe-temps", "prefere", "temps-libre", "fin-de-semaine", "nature", "par-contre", "alors", "mon-passe-temps-prefere", "et-vous-aimez-faire"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Check your text before you send it",
+          "body": "- **Article after aimer / adorer / détester / préférer:** [[J'aime le cinéma]], never [[J'aime cinéma]] or [[J'aime du cinéma]].\n- **One conjugated verb:** [[J'adore voyager]], not [[J'adore je voyage]].\n- **Negation sandwich, with ne:** [[Je n'aime pas]], [[Je ne me lève pas]].\n- **pas de:** [[Je ne fais pas de sport]], but [[Je n'aime pas le sport]].\n- **Accents on préférer:** [[je préfère]], [[nous préférons]].\n- **faire du / jouer au / jouer du:** [[Je fais du vélo]], [[Je joue au soccer]], [[Je joue du piano]].\n- **Weather with il fait:** [[Il fait froid]], not [[Il est froid]].\n- **c'est + masculine adjective:** [[parce que c'est beau]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Fin de semaine and temps libres",
+          "body": "In Québec, [[la fin de semaine]] is the usual word for the weekend; in France, people say [[le week-end]]. Both are understood everywhere in Canada.\n\nYou will often hear [[dans mes temps libres]] (in my free time), in the plural, in Québec. In France, people say [[pendant mon temps libre]]. Recognize both. In your own texts, a simple start like [[La fin de semaine, je…]] works perfectly." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam tip: always say why",
+          "body": "In the TEF and TCF Canada speaking and writing tasks, a list of likes is not enough: examiners reward **reasons and links**. Train the habit now. After every like or dislike, add [[parce que…]]. After every reason, try [[alors…]] to give a result.",
+          "examples": [
+            { "fr": "J'aime la randonnée parce que c'est relaxant.", "en": "I like hiking because it's relaxing." },
+            { "fr": "Il pleut, alors je préfère lire à la maison.", "en": "It's raining, so I prefer reading at home." }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "These are good “building blocks” for your speaking mission.",
+          "lines": [
+            { "fr": "Mon passe-temps préféré, c'est la randonnée.", "en": "My favourite hobby is hiking.", "tip": "Pause briefly at the comma, then say [[c'est la randonnée]] in one go." },
+            { "fr": "La fin de semaine, j'adore cuisiner.", "en": "On weekends, I love cooking.", "tip": "[[fin]] has a nasal vowel: no n sound." },
+            { "fr": "Par contre, je n'aime pas l'hiver.", "en": "On the other hand, I don't like winter.", "tip": "[[par contre]]: “par-kontr”." },
+            { "fr": "Je ne regarde jamais la télé : je préfère lire.", "en": "I never watch TV: I prefer reading." },
+            { "fr": "Et vous, qu'est-ce que vous aimez faire ?", "en": "And you, what do you like doing?", "tip": "Liaison: vou-z‿aimez." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Mon passe-temps préféré, c'est la natation, parce que c'est relaxant.", "en": "My favourite hobby is swimming, because it's relaxing.", "prompt": "Why does the speaker like swimming?", "options": ["It's relaxing.", "It's fun.", "It's not expensive."], "answer": 0, "explain": "The reason comes after [[parce que]]: [[c'est relaxant]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je n'aime pas l'été parce qu'il fait très chaud.", "en": "I don't like summer because it's very hot.", "prompt": "Why doesn't the speaker like summer?", "options": ["It's very hot.", "It rains a lot.", "It's boring."], "answer": 0, "explain": "[[parce qu'il fait très chaud]]: because it's very hot. Note [[parce qu']] before [[il]]." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: units 1 to 9",
+      "intro": "This mix brings back older units too. Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ___ canadienne et j'adore ___ hockey.", "answers": [["suis"], ["le"]], "en": "I'm Canadian and I love hockey.", "explain": "Nationality uses être (je suis). After adorer, use the definite article: le hockey." },
+        { "id": "r2", "type": "cloze", "text": "Ma saison ___, c'est l'automne.", "answers": [["préférée"]], "choices": ["préférée", "préféré", "préférés"], "en": "My favourite season is autumn.", "explain": "saison is feminine (ma saison), so the adjective takes -e: préférée." },
+        { "id": "r3", "type": "mcq", "prompt": "“I don't eat meat, but I like fish.” Which sentence is correct?", "options": ["Je ne mange pas de viande, mais j'aime le poisson.", "Je ne mange pas la viande, mais j'aime du poisson.", "Je mange pas de viande, mais j'aime poisson."], "optionsFr": true, "answer": 0,
+          "explain": "After ne… pas with manger, use de. After aimer, use the definite article le.",
+          "optionFeedback": [null, "The articles are swapped: pas de viande (none), and le poisson (in general) after aimer.", "In writing, keep ne, and aimer needs an article: j'aime le poisson."] },
+        { "id": "r4", "type": "translate", "prompt": "My son plays hockey on Saturdays.", "accept": ["Mon fils joue au hockey le samedi.", "Le samedi, mon fils joue au hockey."], "hint": "on Saturdays = le samedi", "explain": "mon fils (unit 4), jouer au hockey, and le samedi for a habit (unit 8)." },
+        { "id": "r5", "type": "cloze", "text": "Le dimanche, nous ___ au cinéma. (aller)", "answers": [["allons"]], "choices": ["allons", "allez", "vont", "aller"], "en": "On Sundays, we go to the movies.", "explain": "aller is irregular: nous allons. And à + le cinéma = au cinéma." },
+        { "id": "r6", "type": "translate", "prompt": "We prefer to travel in summer.", "accept": ["Nous préférons voyager en été.", "On préfère voyager en été.", "Nous préférons voyager l'été.", "On préfère voyager l'été.", "En été, nous préférons voyager.", "En été, on préfère voyager.", "Nous aimons mieux voyager en été.", "On aime mieux voyager en été."], "explain": "nous préférons (two é) + infinitive, and en été." },
+        { "id": "r7", "type": "reorder", "prompt": "What do you like doing on weekends? (formal)", "accept": ["Qu'est-ce que vous aimez faire la fin de semaine ?", "La fin de semaine qu'est-ce que vous aimez faire ?"], "extra": ["tu"], "explain": "Qu'est-ce que + vous aimez + infinitive. La fin de semaine at the end." },
+        { "id": "r8", "type": "match", "prompt": "Match the French and the English.", "pairs": [["Il fait froid.", "It's cold."], ["Je suis infirmière.", "I'm a nurse."], ["Je prends le bus.", "I take the bus."], ["Il y a deux chambres.", "There are two bedrooms."], ["J'ai trente ans.", "I'm thirty years old."]] },
+        { "id": "r9", "type": "mcq", "prompt": "A colleague asks: “Tu aimes le hockey ?” You like watching it a lot, but you don't play. Which answer is correct?", "options": ["Oui, j'aime beaucoup le hockey, mais je ne joue pas.", "Oui, j'aime beaucoup de hockey, mais je ne joue pas.", "Oui, j'aime beaucoup le hockey, mais je ne pas joue."], "optionsFr": true, "answer": 0,
+          "explain": "aimer + le hockey; ne… pas around the verb joue.",
+          "optionFeedback": [null, "After aimer beaucoup, keep the definite article: le hockey.", "pas goes after the verb: je ne joue pas."] },
+        { "id": "r10", "type": "dictation", "fr": "Mon passe-temps préféré, c'est la randonnée.", "accept": ["Mon passe-temps préféré c'est la randonnée."], "explain": "[[passe-temps]] has a hyphen, and [[préféré]] has two é." }
+      ] },
+    { "type": "apply", "title": "Mission: your free time",
+      "intro": "This is the unit mission. Use the four-move plan and the checklist.",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Reply to Amira's post on the newcomers' forum. Introduce yourself, then write about your free time and your preferences: what you like, what you don't like, a season you prefer, and why. Finish with a question.", "promptFr": "Répondez au message d'Amira. Présentez-vous, puis parlez de votre temps libre et de vos préférences, avec des raisons.", "wordRange": [60, 90],
+          "checklist": ["Introduce yourself (name, nationality or city, job)", "Two likes with parce que", "One dislike with a negation (je n'aime pas / je ne… jamais)", "One activity with faire du / de la or jouer au / du", "A season and the weather", "Use par contre, mais or alors", "End with a question"],
+          "models": [
+            { "label": "Model answer (Raj)", "fr": "Je m'appelle Raj et j'habite à Toronto. Mon passe-temps préféré, c'est le vélo : la fin de semaine, je fais du vélo avec mes amis parce que c'est relaxant. J'aime aussi lire le soir. Par contre, je n'aime pas beaucoup le sport à la télé, parce que c'est ennuyeux. Ma saison préférée, c'est l'été, parce qu'il fait beau et chaud. En hiver, il fait très froid, alors je préfère jouer de la guitare à la maison. Et vous, qu'est-ce que vous aimez faire ?", "en": "My name is Raj and I live in Toronto. My favourite hobby is cycling: on weekends, I go cycling with my friends because it's relaxing. I also like reading in the evening. On the other hand, I don't really like sport on TV, because it's boring. My favourite season is summer, because the weather is nice and warm. In winter, it's very cold, so I prefer playing the guitar at home. And you, what do you like doing?" },
+            { "label": "Model answer (Sofia)", "fr": "Bonjour Amira ! Je m'appelle Sofia. Je suis mexicaine et j'habite à Montréal. Le week-end, j'adore cuisiner pour mes amis parce que c'est amusant. J'aime aussi faire de la natation. Je ne regarde jamais la télé : je préfère lire. Je n'aime pas l'hiver parce qu'il neige beaucoup, et je déteste le froid ! Je préfère le printemps et l'été. Et toi, qu'est-ce que tu aimes faire ?", "en": "Hello Amira! My name is Sofia. I'm Mexican and I live in Montréal. On weekends, I love cooking for my friends because it's fun. I also like swimming. I never watch TV: I prefer reading. I don't like winter because it snows a lot, and I hate the cold! I prefer spring and summer. And you, what do you like doing?" }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "At a welcome evening, a volunteer asks: “Qu'est-ce que vous aimez faire pendant votre temps libre ?” Speak for about 45 seconds: introduce yourself, say what you like and don't like with reasons, talk about a season, and ask a question back.", "seconds": 45,
+          "checklist": ["Name, nationality, city", "Mon passe-temps préféré, c'est… parce que…", "Je n'aime pas… parce que…", "A hobby with faire or jouer", "A season and the weather", "A question back: Et vous ?"],
+          "models": [ { "label": "Model answer (Nguyen)", "fr": "Bonsoir ! Je m'appelle Nguyen. Je suis vietnamien et j'habite à Vancouver. La fin de semaine, j'adore aller au cinéma parce que j'aime beaucoup les films français. Je fais aussi du vélo. Par contre, je ne fais pas de natation : je n'aime pas ça ! Mon passe-temps préféré, c'est la musique : je joue de la guitare. Ma saison préférée, c'est l'automne, parce qu'il fait frais et c'est beau. Et vous, qu'est-ce que vous aimez faire ?", "en": "Good evening! My name is Nguyen. I'm Vietnamese and I live in Vancouver. On weekends, I love going to the movies because I really like French films. I also go cycling. On the other hand, I don't swim: I don't like it! My favourite hobby is music: I play the guitar. My favourite season is autumn, because it's cool and beautiful. And you, what do you like doing?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Write 60–90 words about your free time with likes, dislikes and reasons: [[Mon passe-temps préféré, c'est… parce que…]]\n- Link ideas with [[et, mais, aussi, par contre, alors]]\n- Combine negation, préférer, faire du / jouer au and the weather in one text\n- Speak for 45 seconds about your preferences and ask [[Et vous, qu'est-ce que vous aimez faire ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Added the fronted word order to the reorder answer key. Checked the Québec notes (fin de semaine, dans mes temps libres): accurate and labelled." }
+}

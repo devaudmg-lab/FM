@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-02-02",
+  "level": "b2",
+  "unit": "b2-02",
+  "title": "Convincing a friend",
+  "goal": "Convince a reluctant friend in a friendly tu register: present a document, adapt your arguments to the person, turn each objection around and close the deal, as in TEF speaking section B.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-imperatif-pronoms", "kind": "grammar", "fr": "fais-moi confiance, ne t'inquiète pas, laisse-toi tenter", "en": "the tu imperative with pronouns",
+      "drills": [
+        { "type": "cloze", "text": "Fais-___ confiance, tu vas adorer !", "answers": [["moi"]], "en": "Trust me, you're going to love it!", "explain": "In a positive imperative, [[me]] becomes [[moi]] and goes after the verb, with a hyphen." },
+        { "type": "cloze", "text": "Ne ___ inquiète pas, je m'occupe de tout.", "answers": [["t'"]], "choices": ["t'", "toi", "te", "tu"], "en": "Don't worry, I'll take care of everything.", "explain": "In a negative imperative, the pronoun stays **before** the verb: [[ne t'inquiète pas]]." },
+        { "type": "translate", "prompt": "Let yourself be tempted! (to a friend)", "accept": ["Laisse-toi tenter !"], "explain": "[[laisser]] + [[toi]] (positive imperative) + infinitive." }
+      ] },
+    { "id": "allez-viens", "kind": "phrase", "fr": "Allez, viens !", "en": "Come on, come along! (to a friend)", "accept": ["Allez, viens avec moi !"], "note": "[[Allez]] here is an interjection (*come on*), even when you say [[tu]]." },
+    { "id": "fais-moi-confiance", "kind": "phrase", "fr": "Fais-moi confiance.", "en": "Trust me. (to a friend)" },
+    { "id": "tinquiete", "kind": "phrase", "fr": "T'inquiète !", "en": "Don't worry! (very informal)", "accept": ["Ne t'inquiète pas !", "T'inquiète pas !"], "note": "Very informal short form of [[ne t'inquiète pas]]. Fine with friends, never in a formal setting." },
+    { "id": "au-pire", "kind": "phrase", "fr": "Au pire, …", "en": "At worst, …, worst case, …", "example": { "fr": "Au pire, on rentre plus tôt.", "en": "Worst case, we come home earlier." } },
+    { "id": "quest-ce-que-tu-risques", "kind": "phrase", "fr": "Qu'est-ce que tu risques ?", "en": "What have you got to lose? (to a friend)", "accept": ["Tu risques quoi ?"] },
+    { "id": "changer-les-idees", "kind": "phrase", "fr": "Ça va te changer les idées.", "en": "It'll take your mind off things. (to a friend)", "accept": ["Ça te changera les idées."] },
+    { "id": "tu-ne-le-regretteras-pas", "kind": "phrase", "fr": "Tu ne le regretteras pas.", "en": "You won't regret it. (to a friend)", "accept": ["Tu vas pas le regretter.", "Tu ne vas pas le regretter."] },
+    { "id": "avoue-que", "kind": "phrase", "fr": "Avoue que…", "en": "Admit that… (to a friend)", "example": { "fr": "Avoue que ça te tente un peu !", "en": "Admit that you're a little tempted!" } },
+    { "id": "loccasion-ou-jamais", "kind": "phrase", "fr": "C'est l'occasion ou jamais.", "en": "It's now or never, it's the perfect opportunity.", "accept": ["C'est maintenant ou jamais."] },
+    { "id": "tu-as-gagne", "kind": "phrase", "fr": "Bon, d'accord, tu as gagné.", "en": "OK, fine, you win.", "accept": ["Bon, d'accord, t'as gagné.", "Bon, OK, tu as gagné."] },
+    { "id": "canot", "kind": "vocab", "fr": "canot", "article": "un", "gender": "m", "en": "canoe", "pos": "noun", "accept": ["le canot"], "note": "In Québec, [[un canot]] = a canoe. In France, people say [[un canoë]] (and [[un canot]] is any small boat)." },
+    { "id": "maringouin", "kind": "vocab", "fr": "maringouin", "article": "un", "gender": "m", "en": "mosquito (Québec)", "pos": "noun", "accept": ["un moustique", "le maringouin"], "note": "Québec word. Standard French: [[un moustique]]." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A weekend in the wild",
+      "intro": "You already practised TEF speaking B at B1. At B2, the examiner expects more: arguments **tailored** to your friend, objections turned into reasons, a natural and lively tu register. Listen to Amira, who is very good at it.",
+      "blocks": [
+        { "type": "text", "title": "The ad",
+          "context": "Amira found this ad on a community board in Montréal.",
+          "fr": "Fin de semaine canot-camping en Mauricie\nDeux nuits sous la tente, au cœur du parc national.\n180 $ par personne, tout compris : canot, équipement, repas et transport.\nGuide certifié. Débutants bienvenus !\nDépart de Montréal le vendredi à 17 h, retour le dimanche à 18 h.\nPlaces limitées : inscription avant le 1er juin.",
+          "en": "Canoe-camping weekend in Mauricie\nTwo nights in a tent, in the heart of the national park.\n$180 per person, all included: canoe, equipment, meals and transport.\nCertified guide. Beginners welcome!\nDeparture from Montréal on Friday at 5 p.m., return on Sunday at 6 p.m.\nLimited spots: register before June 1st." },
+        { "type": "dialogue", "title": "Amira convinces Camille",
+          "context": "Amira wants her friend Camille, who has been working too much lately, to come with her. They're having coffee.",
+          "lines": [
+            { "speaker": "Amira", "fr": "Camille, regarde ça ! Une fin de semaine de canot-camping en Mauricie. J'ai tout de suite pensé à toi.", "en": "Camille, look at this! A canoe-camping weekend in Mauricie. I immediately thought of you." },
+            { "speaker": "Camille", "fr": "À moi ? Je n'ai jamais fait de canot de ma vie. Je vais nous faire chavirer au bout de cinq minutes !", "en": "Me? I've never been in a canoe in my life. I'll capsize us within five minutes!" },
+            { "speaker": "Amira", "fr": "T'inquiète, c'est écrit : « Débutants bienvenus ». Il y a un guide certifié qui explique tout au départ. Et moi, j'en ai fait l'été dernier, je serai à l'arrière.", "en": "Don't worry, it says: “Beginners welcome”. There's a certified guide who explains everything at the start. And I did it last summer, I'll be at the back." },
+            { "speaker": "Camille", "fr": "Hmm. Et 180 $, c'est pas donné.", "en": "Hmm. And $180 isn't exactly cheap." },
+            { "speaker": "Amira", "fr": "C'est vrai, mais regarde : c'est tout compris. Le transport, le canot, la tente, les repas… Si tu louais tout ça toi-même, tu paierais le double.", "en": "True, but look: it's all included. Transport, the canoe, the tent, meals… If you rented all that yourself, you'd pay double." },
+            { "speaker": "Camille", "fr": "Peut-être, mais franchement, je suis épuisée. J'ai travaillé tous les soirs ce mois-ci. Je rêve de dormir toute la fin de semaine.", "en": "Maybe, but honestly, I'm exhausted. I've worked every evening this month. I dream of sleeping all weekend." },
+            { "speaker": "Amira", "fr": "Justement ! Je te connais : si tu restes chez toi, tu vas ouvrir ton ordi et répondre à tes courriels. Là-bas, il n'y a même pas de réseau. Ça va te changer les idées, crois-moi.", "en": "Exactly! I know you: if you stay home, you'll open your laptop and answer your emails. Out there, there isn't even any signal. It'll take your mind off things, believe me." },
+            { "speaker": "Camille", "fr": "Pas de réseau ? Ça, c'est presque un argument… Mais les maringouins ! Tu sais que je me fais toujours piquer.", "en": "No signal? That's almost an argument… But the mosquitoes! You know I always get bitten." },
+            { "speaker": "Amira", "fr": "En juin, il y en a, je ne vais pas te mentir. Mais j'ai un chasse-moustiques génial et des vêtements longs à te prêter. Au pire, tu te caches sous la moustiquaire de la tente !", "en": "In June there are some, I won't lie to you. But I have a great bug repellent and long clothes to lend you. Worst case, you hide under the tent's mosquito net!" },
+            { "speaker": "Camille", "fr": "Tu as réponse à tout, toi.", "en": "You've got an answer for everything." },
+            { "speaker": "Amira", "fr": "Parce que j'ai raison ! Imagine : le lac au lever du soleil, le silence, un feu de camp le soir… Avoue que ça te tente un peu.", "en": "Because I'm right! Imagine: the lake at sunrise, the silence, a campfire in the evening… Admit you're a little tempted." },
+            { "speaker": "Camille", "fr": "Un peu… Mais si je déteste ça ?", "en": "A little… But what if I hate it?" },
+            { "speaker": "Amira", "fr": "Qu'est-ce que tu risques ? Au pire, tu auras une bonne histoire à raconter au bureau. Et les places sont limitées : c'est l'occasion ou jamais.", "en": "What have you got to lose? Worst case, you'll have a good story to tell at the office. And spots are limited: it's now or never." },
+            { "speaker": "Camille", "fr": "Bon, d'accord, tu as gagné. Mais c'est toi qui pagaies !", "en": "OK, fine, you win. But you're the one paddling!" },
+            { "speaker": "Amira", "fr": "Marché conclu ! Fais-moi confiance, tu ne le regretteras pas.", "en": "Deal! Trust me, you won't regret it." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "How does Amira answer “Je suis épuisée”?", "options": ["She turns it into a reason to go: no signal, no work, a real break", "She agrees and gives up", "She says Camille is lazy", "She offers to pay"], "answer": 0,
+          "explain": "[[Justement !]] + a personal argument ([[Je te connais : …]]). The objection becomes the best reason to go." },
+        { "id": "d2", "type": "mcq", "prompt": "What does Amira do about the mosquitoes?", "options": ["She admits the problem honestly and offers a practical solution", "She says there are none", "She ignores the objection", "She suggests going in winter"], "answer": 0,
+          "explain": "[[je ne vais pas te mentir]] (honesty) + [[j'ai un chasse-moustiques… à te prêter]] (solution) + [[Au pire…]] (humour)." }
+      ] },
+    { "type": "understand", "title": "How to convince a friend",
+      "intro": "With a friend, convincing is less about logic and more about **knowing the person**, **reassuring** and **making them want it**.",
+      "blocks": [
+        { "type": "table", "title": "Five objection-busting techniques",
+          "head": ["Technique", "Example from the dialogue", "Other phrases"],
+          "rows": [
+            ["Reassure with a fact from the document", "T'inquiète, c'est écrit : « Débutants bienvenus ».", "Regarde, c'est marqué ici… / Ne t'inquiète pas, …"],
+            ["Concede, then reframe", "C'est vrai, mais regarde : c'est tout compris.", "D'accord, mais… / Je sais, mais pense à…"],
+            ["Turn it around", "Justement ! Je te connais : …", "C'est justement pour ça que… / Raison de plus !"],
+            ["Offer a solution", "J'ai un chasse-moustiques à te prêter.", "Si tu veux, je peux… / Je m'occupe de…"],
+            ["Minimize the risk", "Au pire, tu auras une bonne histoire à raconter.", "Qu'est-ce que tu risques ? / On peut toujours…"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "Finish by making them **feel** it ([[Imagine : le lac au lever du soleil…]]) and by creating a little urgency ([[C'est l'occasion ou jamais]])." },
+        { "type": "explain", "title": "Tailor your arguments to your friend",
+          "body": "The strongest arguments are **personal**. Ask your friend (the examiner) about their tastes and habits, and use what you learn:\n\n- [[Je te connais : …]] (I know you: …)\n- [[Toi qui adores…, tu vas être servi !]] (You who love…, you'll be spoiled!)\n- [[Tu m'as dit que tu voulais…]] (You told me you wanted…)\n- [[Ça te ferait du bien de…]] (It would do you good to…)\n\nAnd **ask questions** to find new arguments: [[Qu'est-ce qui te fait peur, exactement ?]], [[Qu'est-ce qui te ferait changer d'avis ?]]" },
+        { "type": "pattern", "title": "The tu imperative with pronouns",
+          "pattern": "positive: verb-moi / verb-toi — negative: ne + me / te + verb + pas",
+          "note": "In speech, the [[ne]] is often dropped: [[T'inquiète pas]]. That's normal with friends, but keep it in writing.",
+          "examples": [
+            { "fr": "Fais-moi confiance.", "en": "Trust me." },
+            { "fr": "Laisse-toi tenter !", "en": "Let yourself be tempted!" },
+            { "fr": "Dis-moi oui !", "en": "Say yes to me!" },
+            { "fr": "Ne t'inquiète pas.", "en": "Don't worry." },
+            { "fr": "Ne me dis pas que tu as peur !", "en": "Don't tell me you're scared!" }
+          ] },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["allez-viens", "fais-moi-confiance", "tinquiete", "au-pire", "quest-ce-que-tu-risques", "changer-les-idees", "tu-ne-le-regretteras-pas", "avoue-que", "loccasion-ou-jamais", "tu-as-gagne", "canot", "maringouin"] },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: TEF speaking section B at B2",
+          "body": "A description and a practice prompt, not a real exam item.\n\nIn TEF Canada speaking section B (about 10 minutes), you read a short document (an ad, a flyer) and must convince a friend, played by the examiner, to take part. The examiner raises objections and resists. To reach B2 and above:\n\n- **Present the document** clearly at the start: what, where, when, how much ([[J'ai vu une annonce pour…]]).\n- **Give at least five or six different arguments** over the conversation, not the same one repeated.\n- **React to each objection** with a different technique (reassure, reframe, turn around, offer a solution, minimize the risk).\n- **Keep the tu register** natural: [[franchement]], [[tu vas voir]], [[t'inquiète]], but stay grammatically correct.\n- **Interact:** ask questions, react to what the examiner says, use humour.\n- **Don't give up**, and don't let the examiner say yes too early: keep arguing until time is up.\n\n**Practise now:** an ad for « Chorale du quartier : chanter pour le plaisir, aucune expérience requise, mardi soir, 40 $ par session ». Your friend objects: [[Je chante faux.]] [[Je ne connais personne.]] [[Le mardi, je suis fatigué.]] [[40 $, c'est cher pour chanter.]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Québec words for the great outdoors",
+          "body": "Québec French has its own outdoor vocabulary, which you'll hear in ads and with friends:\n\n- [[un maringouin]] (mosquito; France: [[un moustique]]), [[une mouche noire]] (blackfly)\n- [[un canot]] (canoe), [[faire du canot-camping]]\n- [[un chalet]] (cottage), [[aller au chalet]]\n- [[la fin de semaine]] (weekend; France: [[le week-end]])\n- [[C'est pas donné]] (it's not cheap) and [[Ben voyons !]] (come on! / you can't be serious!) are common in informal speech.\n\nExaminers generally accept Québec vocabulary, as long as you're understood and your register stays consistent." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common mistakes when convincing",
+          "body": "- **Switching between tu and vous.** With a friend, stay in [[tu]] the whole time, including imperatives: [[Fais-moi confiance]], not [[Faites-moi confiance]].\n- [[Fais-me confiance]] ✗ → [[Fais-moi confiance]] ✓\n- [[Ne t'inquiète]] ✗ → [[Ne t'inquiète pas]] ✓ (or the informal [[T'inquiète]])\n- **Ignoring the objection** and just repeating [[Mais c'est super !]]\n- **Being too pushy:** [[Tu dois venir !]] sounds like an order. [[Ça te ferait du bien]] persuades better.\n- **Lying about the document.** The examiner has it too: if the ad says 180 $, don't say it's free!" }
+      ] },
+    { "type": "hear", "title": "Friendly and convincing",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "With a friend, your voice should sound warm and enthusiastic: wider intonation, a smile in your voice.",
+          "lines": [
+            { "fr": "Allez, viens ! J'ai tout de suite pensé à toi.", "en": "Come on, come along! I immediately thought of you." },
+            { "fr": "T'inquiète, c'est écrit : débutants bienvenus.", "en": "Don't worry, it says: beginners welcome.", "tip": "[[T'inquiète]] [tɛ̃.kjɛt]." },
+            { "fr": "Justement ! Ça va te changer les idées.", "en": "Exactly! It'll take your mind off things." },
+            { "fr": "Au pire, tu auras une bonne histoire à raconter.", "en": "Worst case, you'll have a good story to tell." },
+            { "fr": "Avoue que ça te tente un peu !", "en": "Admit you're a little tempted!" },
+            { "fr": "Fais-moi confiance, tu ne le regretteras pas.", "en": "Trust me, you won't regret it." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Tu as peur de ne connaître personne ? Raison de plus ! C'est la meilleure façon de rencontrer du monde.", "en": "You're afraid you won't know anyone? All the more reason! It's the best way to meet people.", "prompt": "Which technique is the speaker using?", "options": ["Turning the objection around", "Offering to pay", "Minimizing the price", "Changing the subject"], "answer": 0,
+          "explain": "[[Raison de plus !]] works like [[Justement !]]: the objection becomes a reason." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Si tu n'as pas de voiture, ce n'est pas grave : je passe te prendre à six heures et je te ramène après.", "en": "If you don't have a car, it doesn't matter: I'll pick you up at six and drive you back afterwards.", "prompt": "What is the friend's objection, probably?", "options": ["Transport", "The price", "The schedule at work", "Not liking the activity"], "answer": 0,
+          "explain": "The speaker offers a practical solution to a transport problem: [[je passe te prendre]] (I'll pick you up)." }
+      ] },
+    { "type": "recall", "title": "Convince from memory",
+      "intro": "Eight questions, with some earlier material mixed in.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Ne ___ inquiète pas, et fais-___ confiance !", "answers": [["t'"], ["moi"]], "en": "Don't worry, and trust me!",
+          "explain": "Negative imperative: pronoun before ([[ne t'inquiète pas]]). Positive: after, and [[me]] → [[moi]]." },
+        { "id": "r2", "type": "translate", "prompt": "Worst case, we'll come back earlier.", "accept": ["Au pire, on rentrera plus tôt.", "Au pire, on reviendra plus tôt.", "Au pire, nous rentrerons plus tôt.", "Au pire, nous reviendrons plus tôt.", "Au pire, on rentre plus tôt.", "Au pire, on revient plus tôt.", "Au pire, on va rentrer plus tôt.", "Au pire, on va revenir plus tôt."],
+          "explain": "[[Au pire]] minimizes the risk; the present or future both work in speech." },
+        { "id": "r3", "type": "mcq", "prompt": "Your friend says: “Je suis trop stressé pour partir.” Best answer?", "options": ["Justement ! Ça va te changer les idées.", "Tant pis pour toi.", "Faites-moi confiance.", "Tu dois venir."], "optionsFr": true, "answer": 0,
+          "explain": "[[Justement !]] turns the objection around.",
+          "optionFeedback": [null, "You give up: no persuasion.", "Vous with a friend: wrong register.", "An order, not persuasion."] },
+        { "id": "r4", "type": "match", "prompt": "Match each objection with the best answer.", "pairs": [["Je n'ai jamais fait ça.", "Débutants bienvenus, c'est écrit !"], ["C'est trop cher.", "Oui, mais c'est tout compris."], ["Je n'ai pas de voiture.", "Je passe te prendre."], ["Et si je n'aime pas ça ?", "Qu'est-ce que tu risques ?"], ["Il y aura des maringouins.", "J'ai un chasse-moustiques à te prêter."]] },
+        { "id": "r5", "type": "translate", "prompt": "Admit that you're a little tempted! (to a friend)", "accept": ["Avoue que ça te tente un peu !", "Avoue que tu es un peu tenté !", "Avoue que tu es un peu tentée !", "Avoue que ça te tente !"],
+          "explain": "[[Avoue que…]] + indicative. [[Ça me tente]] is very common in Québec for *I feel like it*." },
+        { "id": "r6", "type": "reorder", "prompt": "Trust me, you won't regret it.", "accept": ["Fais-moi confiance tu ne le regretteras pas"], "extra": ["faites-moi", "me"],
+          "explain": "[[Fais-moi confiance]] (tu imperative) + futur simple [[tu ne le regretteras pas]]." },
+        { "id": "r7", "type": "cloze", "text": "Si tu ___ (louer) tout ça toi-même, tu ___ (payer) le double.", "answers": [["louais"], ["paierais", "payerais"]], "en": "If you rented all that yourself, you'd pay double.",
+          "explain": "B1 si-clause: [[si + imparfait → conditionnel]]. Both [[paierais]] and [[payerais]] are correct." },
+        { "id": "r8", "type": "dictation", "fr": "Qu'est-ce que tu risques ? C'est l'occasion ou jamais.", "accept": [], "explain": "Two classic closers: minimize the risk, then create urgency." }
+      ] },
+    { "type": "apply", "title": "Your turn: TEF speaking B",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "TEF speaking B style. You saw this ad: “Cours d'improvisation théâtrale pour adultes — 8 mardis soir, 19 h à 21 h, 120 $, aucune expérience requise, spectacle de fin de session.” Convince a friend to sign up with you. Your friend will object: shy, no time, too expensive, afraid of looking ridiculous. Speak for about three minutes, imagining the friend's lines.", "promptFr": "Convainquez votre ami(e) de s'inscrire avec vous à un cours d'improvisation théâtrale.", "seconds": 180,
+          "checklist": ["Present the document: what, when, how much", "At least five different arguments", "Answer each of the four objections with a different technique", "Personal arguments (Je te connais… / Tu m'as dit que…)", "Natural tu register, consistent from start to finish", "Ask your friend at least two questions", "A closing: urgency or a final promise"],
+          "models": [
+            { "label": "Model answer", "fr": "— Salut ! Écoute, j'ai vu une annonce pour un cours d'improvisation pour adultes. C'est huit mardis soir, de 19 h à 21 h, et ça coûte 120 $. On s'inscrit ensemble ?\n— (Moi ? Je suis trop timide !)\n— Justement ! L'impro, c'est parfait pour prendre confiance. Et c'est écrit : aucune expérience requise.\n— (Je n'ai pas le temps.)\n— C'est seulement deux heures par semaine. Tu m'as dit que tu voulais sortir plus le soir, non ?\n— (120 $, c'est cher.)\n— C'est vrai, mais ça fait 15 $ par cours. Une soirée au cinéma avec du popcorn, ça coûte presque pareil !\n— (Et si j'ai l'air ridicule ?)\n— T'inquiète, tout le monde a l'air ridicule en impro, c'est ça qui est drôle ! Au pire, on rira ensemble. Allez, fais-moi confiance, tu ne le regretteras pas !", "en": "— Hi! Listen, I saw an ad for an improv class for adults. It's eight Tuesday evenings, from 7 to 9 p.m., and it costs $120. Shall we sign up together?\n— (Me? I'm too shy!)\n— Exactly! Improv is perfect for gaining confidence. And it says: no experience required.\n— (I don't have time.)\n— It's only two hours a week. You told me you wanted to go out more in the evenings, right?\n— ($120 is expensive.)\n— True, but that's $15 a class. A movie with popcorn costs almost the same!\n— (And what if I look ridiculous?)\n— Don't worry, everybody looks ridiculous in improv, that's what's funny! Worst case, we'll laugh together. Come on, trust me, you won't regret it!" },
+            { "label": "Stronger model answer", "fr": "— Dis donc, tu fais quelque chose le mardi soir cet automne ? J'ai trouvé une annonce qui est faite pour nous : un cours d'impro pour adultes, huit séances de 19 h à 21 h, 120 $, et un petit spectacle à la fin.\n— (Un spectacle ? Tu sais bien que je suis timide…)\n— Je sais, et c'est justement pour ça que j'ai pensé à toi. Tu m'as dit l'autre jour que tu stressais avant tes présentations au travail. L'impro, c'est l'entraînement idéal : on apprend à parler sans préparer, à rebondir. Ton patron va te trouver transformé !\n— (Oui, mais le mardi, je finis tard.)\n— À quelle heure, exactement ? Six heures ? Parfait, ça te laisse une heure. Je passe te prendre au bureau et on mange une bouchée en chemin.\n— (Et 120 $…)\n— Fais le calcul : 15 $ la soirée, pour deux heures de fous rires. Et si on s'inscrit avant la fin du mois, on a peut-être un rabais, je peux demander.\n— (J'ai peur d'avoir l'air ridicule devant des inconnus.)\n— Personne ne connaît personne au début, c'est le principe ! Et puis, avoue que ça te tente un peu de faire quelque chose de complètement différent. Qu'est-ce que tu risques ? Au pire, tu auras des anecdotes pour toute l'année.\n— (Bon… je vais y penser.)\n— Penser, penser… Les places partent vite. Allez, dis oui, et je t'offre la première bière après le cours !", "en": "— Hey, are you doing anything on Tuesday evenings this fall? I found an ad that's made for us: an improv class for adults, eight sessions from 7 to 9 p.m., $120, and a little show at the end.\n— (A show? You know I'm shy…)\n— I know, and that's exactly why I thought of you. You told me the other day you got stressed before your presentations at work. Improv is the ideal training: you learn to speak without preparing, to bounce back. Your boss will find you transformed!\n— (Yes, but on Tuesdays I finish late.)\n— What time, exactly? Six? Perfect, that gives you an hour. I'll pick you up at the office and we'll grab a bite on the way.\n— (And $120…)\n— Do the math: $15 an evening for two hours of laughing fits. And if we sign up before the end of the month, we might get a discount, I can ask.\n— (I'm afraid of looking ridiculous in front of strangers.)\n— Nobody knows anybody at first, that's the whole point! And admit it, you're a little tempted to do something completely different. What have you got to lose? Worst case, you'll have stories for the whole year.\n— (Well… I'll think about it.)\n— Think, think… Spots go fast. Come on, say yes, and I'll buy you the first beer after class!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a message to a friend who hesitates to come with you to a free French conversation evening at the library. Answer the two objections they gave you: “Mon français n'est pas assez bon” and “Je ne connais personne”.", "promptFr": "Écrivez un message à un(e) ami(e) pour le/la convaincre de venir à une soirée de conversation en français.",
+          "wordRange": [80, 130],
+          "checklist": ["Friendly tu register throughout", "Answer both objections", "At least one Justement / Raison de plus", "A tu imperative with a pronoun", "A closing phrase (Allez… / Tu ne le regretteras pas)"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Raj !\n\nJ'ai bien réfléchi à ce que tu m'as dit hier. Tu trouves que ton français n'est pas assez bon ? Justement, c'est fait pour ça ! Personne ne parle parfaitement, et les animateurs sont super patients. La dernière fois, il y avait des gens qui venaient d'arriver et qui parlaient beaucoup moins bien que toi.\n\nTu ne connais personne ? Raison de plus ! Moi, j'y ai rencontré deux amis. Et puis, tu me connais, moi, non ?\n\nC'est jeudi à 18 h 30, et c'est gratuit. Qu'est-ce que tu risques ? Allez, laisse-toi tenter, je t'attends devant la bibliothèque. Tu ne le regretteras pas !\n\nAmira", "en": "Hi Raj!\n\nI thought a lot about what you told me yesterday. You think your French isn't good enough? Exactly, that's what it's for! Nobody speaks perfectly, and the hosts are really patient. Last time, there were people who had just arrived and who spoke much less well than you.\n\nYou don't know anyone? All the more reason! I met two friends there. And besides, you know me, right?\n\nIt's Thursday at 6:30 p.m., and it's free. What have you got to lose? Come on, let yourself be tempted, I'll wait for you in front of the library. You won't regret it!\n\nAmira" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Convince a friend in a natural tu register: [[Allez, viens !]], [[Fais-moi confiance]], [[T'inquiète]]\n- Answer objections five ways: reassure, concede and reframe, turn around ([[Justement !]], [[Raison de plus !]]), offer a solution, minimize the risk ([[Au pire…]], [[Qu'est-ce que tu risques ?]])\n- Make it personal ([[Je te connais…]]) and create urgency ([[C'est l'occasion ou jamais]])\n- Handle the full TEF speaking B task: present the document, argue, interact, close",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed a vous form from a tu-only item, deleted an unsupported claim about the TEF examiner describing the friend, and hedged the claim about Québec forms being accepted. Small wording fixes." }
+}

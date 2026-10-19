@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-04-04",
+  "level": "b2",
+  "unit": "b2-04",
+  "title": "Reported speech in depth",
+  "goal": "Report what someone said in the past with every tense and time shift, and choose a precise reporting verb (affirmer, prétendre, admettre, nier, reconnaître) to show how the words were said.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-concordance", "kind": "grammar", "fr": "présent → imparfait ; passé composé → plus-que-parfait ; futur → conditionnel", "en": "tense shifts in reported speech after a past reporting verb",
+      "drills": [
+        { "type": "cloze", "text": "« Nous avons reçu le rapport. » → Elle a dit que la Ville ___ ___ le rapport.", "answers": [["avait"], ["reçu"]], "en": "She said the City had received the report.", "explain": "Passé composé → plus-que-parfait: [[avait reçu]]." },
+        { "type": "cloze", "text": "« Les travaux commenceront en mai. » → Il a assuré que les travaux ___ en mai.", "answers": [["commenceraient"]], "en": "He assured that the work would begin in May.", "explain": "Futur simple → conditionnel présent: [[commenceraient]]." },
+        { "type": "cloze", "text": "« Nous aurons terminé avant l'hiver. » → Elle a promis qu'ils ___ ___ avant l'hiver.", "answers": [["auraient"], ["terminé"]], "en": "She promised they would have finished before winter.", "explain": "Futur antérieur → conditionnel passé: [[auraient terminé]]." },
+        { "type": "mcq", "prompt": "« Je ne savais pas. » → Il a admis qu'il…", "options": ["ne savait pas.", "n'avait pas su.", "ne saurait pas.", "ne sait pas."], "optionsFr": true, "answer": 0, "explain": "The imparfait doesn't change: [[il ne savait pas]]." }
+      ] },
+    { "id": "g-temps-lieu", "kind": "grammar", "fr": "hier → la veille ; demain → le lendemain ; la semaine prochaine → la semaine suivante", "en": "time expressions shift in reported speech",
+      "drills": [
+        { "type": "cloze", "text": "« Je vous répondrai demain. » → Il a dit qu'il nous répondrait le ___.", "answers": [["lendemain"]], "en": "He said he would answer us the next day.", "explain": "[[demain]] → [[le lendemain]] when the day is in the past." },
+        { "type": "cloze", "text": "« J'ai lu le rapport hier. » → Elle a affirmé qu'elle avait lu le rapport la ___.", "answers": [["veille"]], "en": "She stated she had read the report the day before.", "explain": "[[hier]] → [[la veille]]." }
+      ] },
+    { "id": "g-verbes-introducteurs", "kind": "grammar", "fr": "nier / reconnaître / admettre + infinitif passé ; prétendre + infinitif", "en": "reporting verbs followed by an infinitive (deny having done, admit having done, claim to be)",
+      "drills": [
+        { "type": "cloze", "text": "Le conseiller a nié ___ reçu de l'argent.", "answers": [["avoir"]], "en": "The councillor denied having received money.", "explain": "Same subject → [[nier]] + past infinitive: [[avoir reçu]]." },
+        { "type": "translate", "prompt": "She admitted she had made a mistake.", "accept": ["Elle a admis qu'elle avait fait une erreur.", "Elle a admis avoir fait une erreur.", "Elle a reconnu qu'elle avait fait une erreur.", "Elle a reconnu avoir fait une erreur.", "Elle a admis qu'elle s'était trompée.", "Elle a reconnu qu'elle s'était trompée.", "Elle a admis s'être trompée.", "Elle a reconnu s'être trompée."], "explain": "[[admettre / reconnaître que]] + plus-que-parfait, or + past infinitive [[avoir fait]]." }
+      ] },
+    { "id": "affirmer", "kind": "vocab", "fr": "affirmer", "en": "to state firmly, to assert", "pos": "verb", "accept": ["affirmer que"] },
+    { "id": "pretendre", "kind": "vocab", "fr": "prétendre", "en": "to claim (with doubt; not “to pretend”)", "pos": "verb", "accept": ["prétendre que"],
+      "note": "False friend. “To pretend” = faire semblant." },
+    { "id": "admettre", "kind": "vocab", "fr": "admettre", "en": "to admit (reluctantly)", "pos": "verb", "accept": ["admettre que"] },
+    { "id": "nier", "kind": "vocab", "fr": "nier", "en": "to deny", "pos": "verb", "accept": ["démentir"] },
+    { "id": "reconnaitre", "kind": "vocab", "fr": "reconnaître", "en": "to acknowledge, to admit (a fact or a mistake)", "pos": "verb", "accept": ["reconnaître que"] },
+    { "id": "dementir", "kind": "vocab", "fr": "démentir", "en": "to officially deny (a rumour, a report)", "pos": "verb", "accept": ["démentir une rumeur"] },
+    { "id": "s-engager", "kind": "phrase", "fr": "s'engager à", "en": "to commit to (doing something)", "accept": ["promettre de"] },
+    { "id": "lendemain", "kind": "vocab", "fr": "lendemain", "article": "le", "gender": "m", "en": "the next day, the day after", "pos": "noun", "accept": ["le jour suivant"] },
+    { "id": "veille", "kind": "vocab", "fr": "veille", "article": "la", "gender": "f", "en": "the day before, the previous day", "pos": "noun", "accept": ["le jour précédent"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "From a press conference to the news",
+      "intro": "First listen to what the mayor actually said. Then read how the journalist reported it, and compare the verbs and the time words.",
+      "blocks": [
+        { "type": "dialogue", "title": "Press conference at city hall",
+          "context": "Wednesday morning in the (fictional) city of Saint-Aurèle. Mayor Hélène Dufour answers journalists about the delayed tramway project.",
+          "lines": [
+            { "speaker": "Mairesse", "fr": "Je veux être claire : le projet de tramway n'est pas abandonné. Nous avons reçu le rapport des ingénieurs hier, et les travaux commenceront l'an prochain.", "en": "I want to be clear: the tramway project has not been abandoned. We received the engineers' report yesterday, and construction will begin next year." },
+            { "speaker": "Journaliste", "fr": "Madame la mairesse, en campagne, vous aviez promis une mise en service en 2028. Est-ce que cette date tient toujours ?", "en": "Madam Mayor, during the campaign you had promised the service would open in 2028. Does that date still hold?" },
+            { "speaker": "Mairesse", "fr": "Je n'ai jamais promis une date précise. J'ai parlé d'un objectif. Cela dit, je reconnais que nous aurions dû mieux communiquer avec la population.", "en": "I never promised a precise date. I talked about a goal. That said, I acknowledge that we should have communicated better with the public." },
+            { "speaker": "Journaliste", "fr": "Selon l'opposition, les coûts auraient doublé. Le saviez-vous ?", "en": "According to the opposition, costs have reportedly doubled. Did you know?" },
+            { "speaker": "Mairesse", "fr": "C'est faux, les coûts n'ont pas doublé. Ils ont augmenté, comme partout, mais nous publierons tous les chiffres la semaine prochaine. Je n'avais pas encore lu la version finale du rapport lundi, je l'admets.", "en": "That's false, costs haven't doubled. They have risen, as everywhere, but we'll publish all the figures next week. I hadn't yet read the final version of the report on Monday, I admit." },
+            { "speaker": "Journaliste", "fr": "Un dernier mot pour les citoyens inquiets ?", "en": "One last word for worried citizens?" },
+            { "speaker": "Mairesse", "fr": "Faites-nous confiance. Nous aurons terminé la première phase avant la fin de mon mandat.", "en": "Trust us. We will have finished the first phase before the end of my term." }
+          ] },
+        { "type": "text", "title": "The news report, the next day",
+          "context": "An original, fictional article published on Thursday.",
+          "fr": "Tramway : la mairesse affirme que le projet n'est pas abandonné\nEn conférence de presse mercredi, la mairesse Hélène Dufour a affirmé que le projet de tramway n'était pas abandonné. Elle a précisé que la Ville avait reçu le rapport des ingénieurs la veille et a assuré que les travaux commenceraient l'année suivante.\nInterrogée sur sa promesse électorale d'une mise en service en 2028, la mairesse a nié avoir promis une date précise. Elle a toutefois reconnu que la Ville aurait dû mieux communiquer avec la population.\nMme Dufour a démenti l'information selon laquelle les coûts auraient doublé. Elle a admis qu'ils avaient augmenté et s'est engagée à publier tous les chiffres la semaine suivante. Elle a aussi admis qu'elle n'avait pas encore lu la version finale du rapport le lundi.\nEn conclusion, elle a demandé aux citoyens de faire confiance à son équipe et a promis que la Ville aurait terminé la première phase avant la fin de son mandat.\nDe son côté, le chef de l'opposition, Raj Patel, prétend que l'administration cache les vrais coûts. Il demande que le rapport soit rendu public dès maintenant.",
+          "en": "Tramway: the mayor states the project is not abandoned. At a press conference on Wednesday, Mayor Hélène Dufour stated that the tramway project had not been abandoned. She specified that the City had received the engineers' report the day before and assured that construction would begin the following year. Asked about her election promise of opening the service in 2028, the mayor denied having promised a precise date. She did, however, acknowledge that the City should have communicated better with the public. Ms. Dufour denied the report that costs had doubled. She admitted that they had increased and committed to publishing all the figures the following week. She also admitted that she had not yet read the final version of the report on the Monday. In conclusion, she asked citizens to trust her team and promised that the City would have finished the first phase before the end of her term. For his part, the leader of the opposition, Raj Patel, claims the administration is hiding the real costs. He is asking for the report to be made public right away." },
+        { "id": "d1", "type": "mcq", "prompt": "Why does the journalist write “la veille” and not “hier”?", "options": ["Because the article is published later: the mayor's “yesterday” is no longer yesterday.", "Because “hier” is informal.", "Because the mayor said “la veille”.", "Because “hier” cannot follow que."], "answer": 0,
+          "explain": "Time words are relative to the moment of speaking. When reported later, [[hier]] → [[la veille]], [[l'an prochain]] → [[l'année suivante]]." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does the article use “prétend” for the opposition leader?", "options": ["It reports a claim without confirming it.", "It means he is pretending.", "It shows the journalist agrees with him.", "It's the only verb possible after que."], "answer": 0,
+          "explain": "[[prétendre]] = to claim. It keeps a distance: the journalist doesn't vouch for the claim." }
+      ] },
+    { "type": "understand", "title": "Reported speech: the full system",
+      "intro": "You learned the basics at B1 ([[il a dit que…]], [[elle m'a demandé si…]]). Here is the complete system, plus the verbs that make your reporting precise.",
+      "blocks": [
+        { "type": "table", "title": "Tense shifts after a past reporting verb",
+          "head": ["Direct speech", "Reported speech", "Example"],
+          "rows": [
+            ["présent", "imparfait", "« Le projet n'est pas abandonné. » → qu'il n'était pas abandonné"],
+            ["passé composé", "plus-que-parfait", "« Nous avons reçu le rapport. » → qu'ils avaient reçu le rapport"],
+            ["futur simple", "conditionnel présent", "« Les travaux commenceront. » → qu'ils commenceraient"],
+            ["futur proche (va + inf.)", "allait + inf.", "« Nous allons publier. » → qu'ils allaient publier"],
+            ["futur antérieur", "conditionnel passé", "« Nous aurons terminé. » → qu'ils auraient terminé"],
+            ["impératif", "de + infinitif", "« Faites-nous confiance. » → de leur faire confiance"],
+            ["imparfait, plus-que-parfait, conditionnel", "no change", "« Je n'avais pas lu… » → qu'elle n'avait pas lu…"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "**No shift** when the reporting verb is in the present ([[Il prétend que l'administration cache…]]). The shift is also optional for something that is **still true now**: [[Elle a rappelé que Montréal est une île]]." },
+        { "type": "table", "title": "Time and place words",
+          "head": ["Direct speech", "Reported later"],
+          "rows": [
+            ["aujourd'hui", "ce jour-là"],
+            ["hier", "la veille"],
+            ["demain", "le lendemain"],
+            ["avant-hier / après-demain", "l'avant-veille / le surlendemain"],
+            ["la semaine prochaine", "la semaine suivante"],
+            ["l'an dernier", "l'année précédente"],
+            ["maintenant", "alors, à ce moment-là"],
+            ["il y a deux jours / dans deux jours", "deux jours plus tôt / deux jours plus tard"],
+            ["ici", "là"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Pronouns and possessives change too: [[« Faites-nous confiance »]] → [[elle a demandé aux citoyens de faire confiance à son équipe]]." },
+        { "type": "table", "title": "Choosing the reporting verb",
+          "head": ["Verb", "Nuance", "Constructions"],
+          "rows": [
+            ["affirmer, déclarer, assurer", "states firmly", "que + indicatif"],
+            ["préciser, ajouter, expliquer", "adds detail", "que + indicatif"],
+            ["reconnaître, admettre", "admits a fact or a mistake (reluctantly)", "que + indicatif / + infinitif passé"],
+            ["nier", "denies", "+ infinitif passé ; que + subjonctif (formal)"],
+            ["démentir", "officially denies a report", "+ nom (démentir une rumeur) ; que + subjonctif or indicatif"],
+            ["prétendre", "claims (the reporter keeps a distance)", "que + indicatif / + infinitif"],
+            ["promettre, s'engager", "commits", "de / à + infinitif ; que + conditionnel"],
+            ["demander, ordonner, conseiller", "asks, orders, advises", "à quelqu'un de + infinitif"]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "The verb you choose is itself a judgment. [[Il a affirmé]] is neutral-strong; [[il a prétendu]] suggests doubt; [[il a admis]] suggests he didn't want to say it." },
+        { "type": "pattern", "title": "Infinitive constructions (same subject)",
+          "pattern": "nier / reconnaître / admettre + avoir, être + participe passé  ·  prétendre + infinitif",
+          "note": "When the subject doesn't change, an infinitive is shorter and very common in news style.",
+          "examples": [
+            { "fr": "La mairesse a nié avoir promis une date précise.", "en": "The mayor denied having promised a precise date." },
+            { "fr": "Il a reconnu s'être trompé.", "en": "He acknowledged he had been wrong." },
+            { "fr": "Elle prétend être la seule à avoir lu le rapport.", "en": "She claims to be the only one who read the report." },
+            { "fr": "Le ministre s'est engagé à publier les chiffres.", "en": "The minister committed to publishing the figures." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **prétendre = to pretend?** No. [[Il prétend être malade]] = he claims to be sick (maybe not true). *To pretend* = [[faire semblant de]].\n- **Forgetting the shift:** [[Elle a dit que les travaux commenceront]] → [[commenceraient]].\n- **Shifting the imparfait:** [[Il a dit qu'il n'avait pas su]] for « Je ne savais pas » → keep [[qu'il ne savait pas]].\n- **Imperative with que:** [[Elle a demandé que nous lui faisons confiance]] → [[Elle nous a demandé de lui faire confiance]].\n- **nier + que + indicative in formal writing:** prefer [[Il nie avoir menti]] or [[Il nie que ce soit vrai]] (subjunctive).\n- **hier in a past report:** [[Il a dit qu'il était arrivé hier]] is fine only if you report it on the same day it was said. Reported on a later day, use [[la veille]]." },
+        { "type": "deepdive", "kind": "why", "title": "Why shift the tenses?",
+          "body": "Reported speech moves everything one step **back in time**, because you are now looking at the words from a later point. What was *present* for the speaker is *past* for you (→ imparfait); what was *already done* for the speaker is *further back* (→ plus-que-parfait); what was *future* for the speaker is a *future seen from the past* (→ conditionnel). English does the same: *“I will come” → he said he would come.*" }
+      ] },
+    { "type": "hear", "title": "Hear the shift",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Elle a affirmé que le projet n'était pas abandonné.", "en": "She stated the project hadn't been abandoned." },
+            { "fr": "Il a assuré que les travaux commenceraient le lendemain.", "en": "He assured that the work would begin the next day.", "tip": "commenceraient: [kɔmɑ̃sʁɛ], the e in the middle is almost silent." },
+            { "fr": "La mairesse a nié avoir promis une date précise.", "en": "The mayor denied having promised a precise date." },
+            { "fr": "Elle a reconnu que la Ville aurait dû mieux communiquer.", "en": "She acknowledged that the City should have communicated better." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Le ministre a admis qu'il n'avait pas lu le rapport avant la réunion.", "en": "The minister admitted that he had not read the report before the meeting.", "prompt": "What did the minister originally say?", "options": ["« Je n'ai pas lu le rapport avant la réunion. »", "« Je ne lis pas le rapport. »", "« Je lirai le rapport après la réunion. »", "« Lisez le rapport avant la réunion. »"], "optionsFr": true, "answer": 0,
+          "explain": "[[n'avait pas lu]] (plus-que-parfait) comes from a passé composé: [[Je n'ai pas lu]]. [[admettre]] shows he admitted it reluctantly." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Selon le syndicat, la direction prétend que l'usine ne fermera pas.", "en": "According to the union, management claims the factory won't close.", "prompt": "What is the union's attitude toward management's statement?", "options": ["Doubtful", "Fully confident", "Enthusiastic", "Indifferent"], "answer": 0,
+          "explain": "[[prétend]] signals doubt about the claim. The reporting verb is in the present, so no tense shift: [[ne fermera pas]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Report each sentence as if you were writing a few days later. Some items bring back lessons 1 to 3.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "« Je vais démissionner. » → Le directeur a annoncé qu'il ___ démissionner.", "answers": [["allait"]], "en": "The director announced he was going to resign.", "explain": "Futur proche → [[allait]] + infinitive." },
+        { "id": "r2", "type": "cloze", "text": "« Rappelez-moi demain. » → Elle m'a demandé ___ la rappeler le ___.", "answers": [["de"], ["lendemain"]], "en": "She asked me to call her back the next day.", "explain": "Imperative → [[de]] + infinitive; [[demain]] → [[le lendemain]]." },
+        { "id": "r3", "type": "mcq", "prompt": "« Je n'ai jamais reçu cet argent. » The councillor denies it. Choose the best report.", "options": ["Le conseiller a nié avoir reçu cet argent.", "Le conseiller a nié de recevoir cet argent.", "Le conseiller a prétendu avoir reçu cet argent.", "Le conseiller a admis avoir reçu cet argent."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "nier takes no de: nier avoir reçu.", "prétendre would mean he claims he received it: the opposite.", "admettre means he admits it: the opposite."] },
+        { "id": "r4", "type": "translate", "prompt": "She said the figures would be published the following week.", "accept": ["Elle a dit que les chiffres seraient publiés la semaine suivante.", "Elle a affirmé que les chiffres seraient publiés la semaine suivante.", "Elle a déclaré que les chiffres seraient publiés la semaine suivante.", "Elle a dit que les chiffres seraient publiés la semaine d'après.", "Elle a dit que les chiffres allaient être publiés la semaine suivante.", "Elle a dit que les chiffres seraient rendus publics la semaine suivante.", "Elle a affirmé que les chiffres allaient être publiés la semaine suivante."], "explain": "Futur ([[seront]]) → conditionnel [[seraient]]; [[la semaine prochaine]] → [[la semaine suivante]]." },
+        { "id": "r5", "type": "match", "prompt": "Match each reporting verb with its nuance.", "pairs": [["prétendre", "to claim (with doubt)"], ["admettre", "to admit reluctantly"], ["nier", "to deny"], ["affirmer", "to state firmly"], ["démentir", "to officially deny a report"]] },
+        { "id": "r6", "type": "cloze", "text": "« Nous aurons fini en juin. » → L'entrepreneur a promis qu'ils ___ ___ en juin.", "answers": [["auraient"], ["fini"]], "en": "The contractor promised they would have finished in June.", "explain": "Futur antérieur → conditionnel passé." },
+        { "id": "r7", "type": "reorder", "prompt": "He acknowledged he had been wrong.", "accept": ["Il a reconnu s'être trompé"], "extra": ["avoir"], "explain": "[[reconnaître]] + past infinitive [[s'être trompé]]." },
+        { "id": "r8", "type": "cloze", "text": "Selon l'opposition, les coûts ___ ___. (doubler, unconfirmed past)", "answers": [["auraient"], ["doublé"]], "en": "According to the opposition, the costs have reportedly doubled.", "explain": "Lesson 1: unconfirmed past → conditionnel passé." },
+        { "id": "r9", "type": "dictation", "fr": "Elle a reconnu que la Ville aurait dû mieux communiquer avec la population.", "accept": [], "explain": "[[aurait dû]]: past conditional of [[devoir]], unchanged in reported speech; [[dû]] has a circumflex." },
+        { "id": "r10", "type": "translate", "prompt": "He claims he never saw the report.", "accept": ["Il prétend n'avoir jamais vu le rapport.", "Il prétend qu'il n'a jamais vu le rapport.", "Il affirme n'avoir jamais vu le rapport.", "Il affirme qu'il n'a jamais vu le rapport.", "Il prétend ne jamais avoir vu le rapport.", "Il affirme ne jamais avoir vu le rapport."], "hint": "Present reporting verb: no tense shift.", "explain": "[[prétendre]] + negative past infinitive: [[n'avoir jamais vu]] or [[ne jamais avoir vu]] (both correct)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Think of a recent conversation (with a landlord, a manager, a teacher, a customer service agent). In about 90 seconds, tell a friend what was said, using at least five different reporting verbs and the right tense shifts.", "seconds": 90,
+          "checklist": ["At least five different reporting verbs (affirmer, admettre, nier, promettre, demander…)", "Present → imparfait and passé composé → plus-que-parfait", "Future → conditionnel", "One imperative reported with de + infinitive", "At least one time word shifted (la veille, le lendemain, la semaine suivante)"],
+          "models": [
+            { "label": "Model answer", "fr": "La semaine dernière, j'ai appelé mon propriétaire parce que le chauffage ne marchait pas. Il m'a d'abord affirmé que personne d'autre ne s'était plaint. Puis il a admis qu'un technicien était déjà venu le mois précédent. Il a promis qu'il enverrait quelqu'un le lendemain. Il m'a demandé d'être à la maison le matin. Finalement, le technicien est venu trois jours plus tard. Quand je lui ai écrit, mon propriétaire a nié avoir promis une date !", "en": "Last week, I called my landlord because the heating wasn't working. He first stated that nobody else had complained. Then he admitted that a technician had already come the previous month. He promised he would send someone the next day. He asked me to be home in the morning. In the end, the technician came three days later. When I wrote to him, my landlord denied having promised a date!" },
+            { "label": "Stronger model answer", "fr": "Je te raconte mon entretien d'évaluation de la semaine dernière. Ma gestionnaire a commencé par affirmer qu'elle était très satisfaite de mon travail et que l'équipe appréciait beaucoup mes initiatives. Je lui ai demandé si une promotion était possible. Elle a reconnu que j'avais les compétences nécessaires, mais elle a précisé que le budget avait été gelé l'année précédente. Elle a ajouté que la situation changerait sans doute au printemps. Évidemment, je lui ai fait remarquer qu'on m'avait dit exactement la même chose un an plus tôt ! Elle a admis qu'elle n'était pas au courant de cette conversation. Avant la fin de la rencontre, elle s'est engagée à défendre mon dossier auprès de la direction et m'a conseillé de préparer une liste de mes réalisations. Elle a même promis qu'elle me donnerait une réponse avant la fin du mois suivant. On verra bien !", "en": "Let me tell you about my performance review last week. My manager began by stating that she was very satisfied with my work and that the team really appreciated my initiatives. I asked her whether a promotion was possible. She acknowledged that I had the necessary skills, but she specified that the budget had been frozen the previous year. She added that the situation would probably change in the spring. Of course, I pointed out that I had been told exactly the same thing a year earlier! She admitted she wasn't aware of that conversation. Before the end of the meeting, she committed to defending my case with management and advised me to prepare a list of my achievements. She even promised she would give me an answer before the end of the following month. We'll see!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Turn these quotes from a (fictional) company spokesperson into a short news report (85–140 words), written a week later. Use at least five different reporting verbs and all the necessary shifts: « L'usine ne fermera pas. » « Nous avons perdu un gros client l'an dernier, je le reconnais. » « Nous n'avons jamais caché nos difficultés. » « Nous allons présenter un plan demain. » « Restez calmes et faites-nous confiance. »",
+          "wordRange": [85, 140],
+          "checklist": ["Neutral news style, third person", "At least five reporting verbs with the right nuance", "Futur → conditionnel; passé composé → plus-que-parfait; futur proche → allait", "Imperative → de + infinitif", "l'an dernier → l'année précédente; demain → le lendemain", "One nier + infinitif passé"],
+          "models": [
+            { "label": "Model answer", "fr": "Lundi dernier, la porte-parole de l'entreprise Lavoie Métal a affirmé que l'usine de Drummondville ne fermerait pas. Elle a reconnu que l'entreprise avait perdu un gros client l'année précédente. Elle a toutefois nié avoir caché les difficultés de l'entreprise aux employés. Elle a annoncé que la direction allait présenter un plan le lendemain. Enfin, elle a demandé aux employés de rester calmes et de faire confiance à la direction. Le plan a bien été présenté mardi, mais le syndicat prétend qu'il ne protège pas assez les emplois.", "en": "Last Monday, the spokesperson for the company Lavoie Métal stated that the Drummondville plant would not close. She acknowledged that the company had lost a big client the previous year. She did, however, deny having hidden the company's difficulties from employees. She announced that management was going to present a plan the next day. Finally, she asked employees to stay calm and to trust management. The plan was indeed presented on Tuesday, but the union claims it doesn't protect jobs enough." },
+            { "label": "Stronger model answer", "fr": "Lavoie Métal : la direction se veut rassurante\nLors d'un point de presse tenu lundi dernier, la porte-parole de Lavoie Métal, Sofia Martins, a affirmé que l'usine de Drummondville ne fermerait pas, malgré les rumeurs. Elle a reconnu que l'entreprise avait perdu un client important l'année précédente, une perte qui expliquerait, selon plusieurs employés, les récentes réductions d'horaires. Mme Martins a cependant nié avoir caché ces difficultés au personnel. Elle a annoncé que la direction allait présenter un plan de relance dès le lendemain et a invité les employés à rester calmes et à faire confiance à l'équipe de direction.\nLe plan a effectivement été dévoilé mardi. Le syndicat, qui prétend que la direction était au courant des problèmes depuis des mois, a demandé que des garanties d'emploi soient ajoutées au document.", "en": "Lavoie Métal: management tries to reassure. At a press briefing held last Monday, Lavoie Métal spokesperson Sofia Martins stated that the Drummondville plant would not close, despite rumours. She acknowledged that the company had lost an important client the previous year, a loss that reportedly explains, according to several employees, the recent cuts in hours. Ms. Martins nevertheless denied having hidden these difficulties from staff. She announced that management was going to present a recovery plan as early as the next day and invited employees to stay calm and to trust the management team. The plan was indeed unveiled on Tuesday. The union, which claims management had known about the problems for months, asked for job guarantees to be added to the document." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Shift every tense after a past reporting verb: present → imparfait, passé composé → plus-que-parfait, futur → conditionnel, futur antérieur → conditionnel passé, imperative → [[de]] + infinitive\n- Shift time words: [[la veille]], [[le lendemain]], [[la semaine suivante]], [[l'année précédente]]\n- Choose a precise reporting verb: [[affirmer]], [[prétendre]], [[admettre]], [[reconnaître]], [[nier avoir…]], [[démentir]], [[s'engager à]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed a false rule (hier is fine in a report made the same day, not the next day), corrected the r10 explanation (ne jamais avoir vu is also correct) and made démentir que more accurate. Removed a repetition in the article; added accepted variants to r4 and r10." }
+}

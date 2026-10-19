@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-09-06",
+  "level": "a1",
+  "unit": "a1-09",
+  "title": "Workshop: Likes and preferences",
+  "goal": "Talk about your tastes and habits in a roommate interview, understand a weather forecast and an activities announcement, and present your hobbies with reasons.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "patin",
+      "kind": "vocab",
+      "fr": "patin",
+      "article": "le",
+      "gender": "m",
+      "en": "skating (the activity, Québec)",
+      "pos": "noun",
+      "accept": [
+        "le patinage",
+        "patinage"
+      ],
+      "note": "faire du patin = to go skating. In France: faire du patin à glace / du patinage.",
+      "example": {
+        "fr": "En hiver, mes enfants font du patin.",
+        "en": "In winter, my children go skating."
+      }
+    },
+    {
+      "id": "ski",
+      "kind": "vocab",
+      "fr": "ski",
+      "article": "le",
+      "gender": "m",
+      "en": "skiing",
+      "pos": "noun",
+      "example": {
+        "fr": "Je fais du ski en février.",
+        "en": "I go skiing in February."
+      }
+    },
+    {
+      "id": "peche",
+      "kind": "vocab",
+      "fr": "pêche",
+      "article": "la",
+      "gender": "f",
+      "en": "fishing",
+      "pos": "noun",
+      "note": "faire de la pêche = to go fishing. (Une pêche is also a peach!)",
+      "example": {
+        "fr": "Mon père adore la pêche.",
+        "en": "My father loves fishing."
+      }
+    },
+    {
+      "id": "camping",
+      "kind": "vocab",
+      "fr": "camping",
+      "article": "le",
+      "gender": "m",
+      "en": "camping",
+      "pos": "noun",
+      "example": {
+        "fr": "En été, nous faisons du camping.",
+        "en": "In summer, we go camping."
+      }
+    },
+    {
+      "id": "jeu-video",
+      "kind": "vocab",
+      "fr": "jeu vidéo",
+      "article": "le",
+      "gender": "m",
+      "en": "video game",
+      "pos": "noun",
+      "note": "Plural: les jeux vidéo. jouer aux jeux vidéo = to play video games.",
+      "example": {
+        "fr": "Je joue aux jeux vidéo le soir.",
+        "en": "I play video games in the evening."
+      }
+    },
+    {
+      "id": "spectacle",
+      "kind": "vocab",
+      "fr": "spectacle",
+      "article": "le",
+      "gender": "m",
+      "en": "show, live performance",
+      "pos": "noun",
+      "example": {
+        "fr": "J'adore les spectacles de musique.",
+        "en": "I love music shows."
+      }
+    },
+    {
+      "id": "plage",
+      "kind": "vocab",
+      "fr": "plage",
+      "article": "la",
+      "gender": "f",
+      "en": "beach",
+      "pos": "noun",
+      "example": {
+        "fr": "Je préfère la plage à la montagne.",
+        "en": "I prefer the beach to the mountains."
+      }
+    },
+    {
+      "id": "soleil",
+      "kind": "vocab",
+      "fr": "soleil",
+      "article": "le",
+      "gender": "m",
+      "en": "sun",
+      "pos": "noun",
+      "note": "Il y a du soleil. = It's sunny.",
+      "example": {
+        "fr": "Aujourd'hui, il y a du soleil.",
+        "en": "Today it's sunny."
+      }
+    },
+    {
+      "id": "vacances",
+      "kind": "vocab",
+      "fr": "vacances",
+      "article": "les",
+      "gender": "f",
+      "en": "vacation, holidays",
+      "pos": "noun",
+      "note": "Always plural: les vacances, en vacances.",
+      "example": {
+        "fr": "En vacances, je ne travaille pas !",
+        "en": "On vacation, I don't work!"
+      }
+    },
+    {
+      "id": "il-fait-chaud",
+      "kind": "phrase",
+      "fr": "Il fait chaud.",
+      "en": "It's hot (weather).",
+      "note": "For a person, use avoir: j'ai chaud."
+    },
+    {
+      "id": "cest-genial",
+      "kind": "phrase",
+      "fr": "C'est génial !",
+      "en": "It's great! / It's awesome!",
+      "accept": [
+        "Génial !"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Looking for a roommate",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "A roommate interview in Sherbrooke",
+          "context": "Lucie has a big apartment and is looking for a roommate. Nguyen visits and they talk about their habits and tastes.",
+          "lines": [
+            {
+              "speaker": "Lucie",
+              "fr": "Alors, Nguyen, quelques questions ! Tu aimes cuisiner ?",
+              "en": "So, Nguyen, a few questions! Do you like cooking?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Oui, j'adore ça ! Je cuisine souvent des plats vietnamiens. Et toi ?",
+              "en": "Yes, I love it! I often cook Vietnamese dishes. And you?"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Moi, je déteste cuisiner, mais j'aime beaucoup manger !",
+              "en": "Me, I hate cooking, but I really like eating!"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Parfait ! Et la musique, tu aimes ça ?",
+              "en": "Perfect! And music, do you like it?"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Oui, mais le soir, je préfère le silence, parce que je travaille tôt le matin. Tu joues d'un instrument ?",
+              "en": "Yes, but in the evening I prefer silence, because I work early in the morning. Do you play an instrument?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Je joue de la guitare, mais je ne joue jamais le soir.",
+              "en": "I play the guitar, but I never play in the evening."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Super. Et tu regardes la télé ?",
+              "en": "Great. And do you watch TV?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Non, je ne regarde plus la télé. Je préfère les jeux vidéo.",
+              "en": "No, I don't watch TV anymore. I prefer video games."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Ah, moi, je n'aime pas du tout les jeux vidéo. C'est ennuyeux !",
+              "en": "Oh, I don't like video games at all. They're boring!"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Pas de problème, je joue dans ma chambre !",
+              "en": "No problem, I play in my room!"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Et la fin de semaine, qu'est-ce que tu fais ?",
+              "en": "And on weekends, what do you do?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "En été, je fais du camping et de la pêche. J'adore la nature. En hiver, je fais du ski.",
+              "en": "In summer, I go camping and fishing. I love nature. In winter, I go skiing."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Moi, j'aime bien le ski, mais je préfère le patin, parce que c'est relaxant.",
+              "en": "I quite like skiing, but I prefer skating, because it's relaxing."
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Et tu préfères l'été ou l'hiver ?",
+              "en": "And do you prefer summer or winter?"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "L'été ! Il fait chaud, il y a du soleil et je vais à la plage. Par contre, je déteste l'automne : il pleut beaucoup.",
+              "en": "Summer! It's hot, it's sunny and I go to the beach. On the other hand, I hate autumn: it rains a lot."
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Moi aussi ! Je déteste la pluie.",
+              "en": "Me too! I hate the rain."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Bon, tu es le colocataire parfait ! Bienvenue chez nous !",
+              "en": "Well, you're the perfect roommate! Welcome to our place!"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "C'est génial ! Merci, Lucie !",
+              "en": "That's great! Thanks, Lucie!"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Listen first. A useful new word: [[un colocataire]] = a roommate (someone you share an apartment with)."
+        },
+        {
+          "id": "c1",
+          "type": "mcq",
+          "prompt": "What does Lucie hate?",
+          "options": [
+            "Cooking",
+            "Eating",
+            "Skating",
+            "Summer"
+          ],
+          "answer": 0,
+          "explain": "[[Je déteste cuisiner, mais j'aime beaucoup manger.]]",
+          "optionFeedback": [
+            null,
+            "She loves eating: j'aime beaucoup manger.",
+            "She prefers skating: je préfère le patin.",
+            "Summer is her favourite season."
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "mcq",
+          "prompt": "When does Nguyen play the guitar?",
+          "options": [
+            "Never in the evening",
+            "Only in the evening",
+            "Every morning"
+          ],
+          "answer": 0,
+          "explain": "[[Je ne joue jamais le soir]] = I never play in the evening."
+        },
+        {
+          "id": "c3",
+          "type": "mcq",
+          "prompt": "Why does Nguyen say “Moi aussi” and not “Moi non plus” at the end?",
+          "options": [
+            "Lucie's sentence is positive: je déteste l'automne.",
+            "Lucie's sentence is negative.",
+            "Because he loves autumn."
+          ],
+          "answer": 0,
+          "explain": "[[Je déteste]] has no [[ne… pas]], so you agree with [[moi aussi]]. [[Moi non plus]] answers a negative sentence like [[je n'aime pas…]]."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 9 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit at a glance",
+          "head": [
+            "To…",
+            "French"
+          ],
+          "rows": [
+            [
+              "say what you like",
+              "aimer / adorer / détester + le, la, les"
+            ],
+            [
+              "…or what you like doing",
+              "aimer + infinitive"
+            ],
+            [
+              "say no",
+              "ne… pas / jamais / plus"
+            ],
+            [
+              "prefer and explain",
+              "préférer… parce que…"
+            ],
+            [
+              "talk about activities",
+              "faire du / de la · jouer au / de la"
+            ],
+            [
+              "talk about the weather",
+              "il fait beau / chaud / froid, il pleut"
+            ]
+          ],
+          "frCols": [
+            1
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Remember",
+          "body": "- After **aimer, adorer, détester, préférer**: **le / la / les**, not *du*.\n- After a negation, **du / de la** become **de**: [[pas de ski]].\n- **jouer au** + sport, **jouer de la / du** + instrument.\n- **moi aussi** answers a positive sentence, **moi non plus** a negative one."
+        },
+        {
+          "type": "vocab",
+          "title": "New words: free time and weather",
+          "itemIds": [
+            "patin",
+            "ski",
+            "peche",
+            "camping",
+            "jeu-video",
+            "spectacle",
+            "plage",
+            "soleil",
+            "vacances",
+            "il-fait-chaud",
+            "cest-genial"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Il fait chaud / j'ai chaud:** the weather uses [[faire]]; your body uses [[avoir]]. Don't say [[je suis chaud]] for this: it's slang with other meanings.\n- **Les vacances** is always plural: [[les vacances sont super]].\n- **Faire du ski / jouer au soccer:** you *do* skiing and skating, you *play* sports with a ball and games: [[jouer aux jeux vidéo]]."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listen: weather and activities",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "The weekend forecast on the radio",
+          "context": "A radio host in Québec City gives the weather for the weekend.",
+          "fr": "Bonjour à tous ! Voici la météo pour la fin de semaine à Québec. Samedi, il fait beau et chaud : vingt-huit degrés, avec beaucoup de soleil. C'est parfait pour la plage ou le camping ! Dimanche, par contre, il pleut le matin, et l'après-midi, il y a du vent. Il fait frais : seulement seize degrés. Bonne fin de semaine !",
+          "en": "Hello, everyone! Here is the weather for the weekend in Québec City. On Saturday, it's nice and hot: twenty-eight degrees, with lots of sun. It's perfect for the beach or camping! On Sunday, on the other hand, it rains in the morning, and in the afternoon it's windy. It's cool: only sixteen degrees. Have a good weekend!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Samedi, il fait beau et chaud : vingt-huit degrés, avec beaucoup de soleil.",
+          "en": "On Saturday, it's nice and hot: twenty-eight degrees, with lots of sun.",
+          "prompt": "What's the weather on Saturday?",
+          "options": [
+            "Hot and sunny, 28 degrees",
+            "Hot and windy, 22 degrees",
+            "Cool and rainy, 16 degrees"
+          ],
+          "answer": 0,
+          "explain": "[[il fait chaud]] + [[beaucoup de soleil]]; [[vingt-huit]] = 28."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Dimanche, il pleut le matin, et l'après-midi, il y a du vent.",
+          "en": "On Sunday, it rains in the morning, and in the afternoon it's windy.",
+          "prompt": "What happens on Sunday afternoon?",
+          "options": [
+            "It's windy.",
+            "It rains.",
+            "It snows."
+          ],
+          "answer": 0,
+          "explain": "[[l'après-midi, il y a du vent]]. The rain is in the morning ([[le matin]])."
+        },
+        {
+          "type": "listen",
+          "title": "Winter activities at the community centre",
+          "context": "A recorded message on the phone line of a community centre in Montréal.",
+          "fr": "Bonjour et bienvenue au centre communautaire du Plateau ! Cet hiver, il y a des activités pour toute la famille. Le samedi matin, les enfants font du patin au parc, de neuf heures à onze heures. Le mardi soir, il y a un cours de guitare pour les adultes. Et le dimanche, à quatorze heures, il y a un spectacle de musique québécoise. Vous aimez le ski ? Le centre organise aussi une sortie au mont Tremblant en février. Merci et à bientôt !",
+          "en": "Hello and welcome to the Plateau community centre! This winter, there are activities for the whole family. On Saturday mornings, children go skating at the park, from nine to eleven. On Tuesday evenings, there's a guitar class for adults. And on Sundays, at 2 p.m., there's a show of Québec music. Do you like skiing? The centre also organizes a trip to Mont Tremblant in February. Thank you and see you soon!"
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Le samedi matin, les enfants font du patin au parc, de neuf heures à onze heures.",
+          "en": "On Saturday mornings, children go skating at the park, from nine to eleven.",
+          "prompt": "What do the children do on Saturday mornings?",
+          "options": [
+            "They go skating.",
+            "They go skiing.",
+            "They play the guitar."
+          ],
+          "answer": 0,
+          "explain": "[[faire du patin]] = to go skating."
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "Le mardi soir, il y a un cours de guitare pour les adultes.",
+          "en": "On Tuesday evenings, there's a guitar class for adults.",
+          "prompt": "When is the guitar class?",
+          "options": [
+            "Tuesday evenings",
+            "Thursday evenings",
+            "Tuesday mornings"
+          ],
+          "answer": 0,
+          "explain": "[[le mardi soir]] = on Tuesday evenings. Thursday is [[jeudi]]."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "Le dimanche, à quatorze heures, il y a un spectacle de musique québécoise.",
+          "en": "On Sundays, at 2 p.m., there's a show of Québec music.",
+          "prompt": "What time is the show?",
+          "options": [
+            "2 p.m.",
+            "4 p.m.",
+            "2 a.m."
+          ],
+          "answer": 0,
+          "explain": "[[quatorze heures]] = 14:00 = 2 p.m."
+        },
+        {
+          "id": "h6",
+          "type": "dictation",
+          "fr": "Je ne fais jamais de ski.",
+          "accept": [],
+          "explain": "After [[ne… jamais]], [[du]] becomes [[de]]: [[jamais de ski]]."
+        },
+        {
+          "id": "h7",
+          "type": "dictation",
+          "fr": "Il fait chaud et il y a du soleil.",
+          "accept": [],
+          "explain": "[[chaud]] ends in a silent d; [[soleil]] ends in the “ay” sound spelled -eil."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most are about this unit, some bring back Units 5 to 8. Answer without scrolling back.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "J'adore ___ musique québécoise.",
+          "answers": [
+            [
+              "la"
+            ]
+          ],
+          "choices": [
+            "la",
+            "de la",
+            "une",
+            "du"
+          ],
+          "en": "I love Québec music.",
+          "explain": "After [[adorer]], use the definite article: [[la musique]]."
+        },
+        {
+          "id": "r2",
+          "type": "mcq",
+          "prompt": "“I don't eat fish.” Which is correct?",
+          "options": [
+            "Je ne mange pas de poisson.",
+            "Je ne mange pas du poisson.",
+            "Je mange ne pas de poisson.",
+            "Je ne mange de poisson pas."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[ne… pas]] goes around the verb, and [[du]] becomes [[de]] after a negation.",
+          "optionFeedback": [
+            null,
+            "After a negation, du becomes de.",
+            "Ne goes before the verb, pas after it.",
+            "Pas comes right after the verb."
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "Nous ___ la plage à la montagne. (préférer)",
+          "answers": [
+            [
+              "préférons"
+            ]
+          ],
+          "choices": [
+            "préférons",
+            "préfèrons",
+            "préfèrent",
+            "préférez"
+          ],
+          "en": "We prefer the beach to the mountains.",
+          "explain": "With [[nous]] and [[vous]], keep [[é]]: [[préférons]]. The [[è]] is only for je, tu, il/elle, ils/elles."
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "I don't watch TV anymore.",
+          "accept": [
+            "Je ne regarde plus la télé.",
+            "Je ne regarde plus la télévision."
+          ],
+          "explain": "[[ne… plus]] = not anymore, around the verb: [[je ne regarde plus]]. The article [[la]] stays: you don't change le/la/les after a negation."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "I prefer tea because it's relaxing.",
+          "accept": [
+            "Je préfère le thé parce que c'est relaxant."
+          ],
+          "extra": [
+            "du"
+          ],
+          "explain": "[[préférer]] + [[le]] (never du), then [[parce que]] + a reason."
+        },
+        {
+          "id": "r6",
+          "type": "match",
+          "prompt": "Match the free-time words.",
+          "pairs": [
+            [
+              "le patin",
+              "skating"
+            ],
+            [
+              "la pêche",
+              "fishing"
+            ],
+            [
+              "la plage",
+              "beach"
+            ],
+            [
+              "le spectacle",
+              "show"
+            ],
+            [
+              "les vacances",
+              "vacation"
+            ]
+          ]
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Le samedi, je joue ___ soccer et ma fille joue ___ piano.",
+          "answers": [
+            [
+              "au"
+            ],
+            [
+              "du"
+            ]
+          ],
+          "en": "On Saturdays, I play soccer and my daughter plays the piano.",
+          "explain": "[[jouer à]] + sport ([[à + le = au]]); [[jouer de]] + instrument ([[de + le = du]])."
+        },
+        {
+          "id": "r8",
+          "type": "listen-mcq",
+          "fr": "Il fait froid et il neige, alors je reste à la maison.",
+          "en": "It's cold and it's snowing, so I'm staying home.",
+          "prompt": "Why does the speaker stay home?",
+          "options": [
+            "It's cold and snowing.",
+            "It's hot and sunny.",
+            "It's raining and windy."
+          ],
+          "answer": 0,
+          "explain": "[[il fait froid]] = it's cold; [[il neige]] = it's snowing."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Le dimanche, je me lève tard et je fais du sport.",
+          "accept": [],
+          "explain": "Unit 5: [[je me lève]] (reflexive) and [[tard]] (late, silent d); Unit 9: [[faire du sport]]."
+        },
+        {
+          "id": "r10",
+          "type": "translate",
+          "prompt": "My brother is a cook and he loves his job.",
+          "accept": [
+            "Mon frère est cuisinier et il adore son travail.",
+            "Mon frère est cuisinier et il aime son travail.",
+            "Mon frère est cuisinier et il adore son emploi.",
+            "Mon frère est cuisinier et il aime beaucoup son travail.",
+            "Mon frère est cuisinier et il aime son emploi.",
+            "Mon frère est cuisinier et il aime beaucoup son emploi."
+          ],
+          "explain": "Unit 8: no article after [[est]] + job. [[travail]] is masculine: [[son travail]]."
+        },
+        {
+          "id": "r11",
+          "type": "mcq",
+          "prompt": "“The park is next to the library.” Which is correct?",
+          "options": [
+            "Le parc est à côté de la bibliothèque.",
+            "Le parc est à côté du bibliothèque.",
+            "Le parc est à côté la bibliothèque.",
+            "Le parc est côté de la bibliothèque."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Unit 7: [[à côté de]] + [[la bibliothèque]]; de + la does not contract.",
+          "optionFeedback": [
+            null,
+            "Bibliothèque is feminine: de la, not du.",
+            "Don't drop de: à côté de.",
+            "Don't drop à: à côté de."
+          ]
+        },
+        {
+          "id": "r12",
+          "type": "cloze",
+          "text": "Le matin, je mange ___ pain avec du fromage.",
+          "answers": [
+            [
+              "du"
+            ]
+          ],
+          "choices": [
+            "du",
+            "de la",
+            "des",
+            "de"
+          ],
+          "en": "In the morning, I eat bread with cheese.",
+          "explain": "Unit 6: “some” bread = [[du pain]] (pain is masculine)."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "You want to join an outdoor club (un club de plein air). Write your profile for the club's website: your name and city, two activities you love and one you don't do, your favourite season and the weather you like, with reasons.",
+          "wordRange": [
+            40,
+            70
+          ],
+          "checklist": [
+            "Name and city",
+            "Two activities with faire du / de la or jouer",
+            "One negation (ne… pas / jamais / plus) with de",
+            "A preference with préférer or aimer mieux",
+            "Weather: il fait…",
+            "At least two reasons with parce que"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour ! Je m'appelle Sofia et j'habite à Gatineau. J'adore la randonnée et le camping, parce que j'aime la nature. Je ne fais pas de ski : c'est cher ! Je préfère l'été, parce qu'il fait chaud et il y a du soleil. Le samedi, je fais du vélo avec mon mari. Et vous, qu'est-ce que vous aimez faire ?",
+              "en": "Hello! My name is Sofia and I live in Gatineau. I love hiking and camping, because I like nature. I don't ski: it's expensive! I prefer summer, because it's hot and sunny. On Saturdays, I go cycling with my husband. And you, what do you like doing?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Salut tout le monde ! Moi, c'est Raj, j'habite à Ottawa. En hiver, je fais du patin sur le canal Rideau et du ski près de Gatineau. C'est génial ! Par contre, je ne fais jamais de pêche : c'est ennuyeux pour moi. Je préfère l'automne à l'été, parce qu'il fait frais et la nature est belle. Le soir, au camping, je joue de la guitare !",
+              "en": "Hi, everyone! I'm Raj, I live in Ottawa. In winter, I go skating on the Rideau Canal and skiing near Gatineau. It's awesome! On the other hand, I never go fishing: it's boring for me. I prefer autumn to summer, because it's cool and nature is beautiful. In the evening, when we camp, I play the guitar!"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Now you are looking for a room. Lucie asks you: “Parle-moi de toi : qu'est-ce que tu aimes ? Qu'est-ce que tu détestes ?” Speak for about a minute: cooking, music or TV, your hobbies, your habits in the evening, your favourite season. Use at least one ne… jamais or ne… plus.",
+          "seconds": 60,
+          "checklist": [
+            "Two things you like or love, one you hate",
+            "A hobby with faire or jouer",
+            "A habit with ne… jamais or ne… plus",
+            "A preference with parce que",
+            "A season and its weather",
+            "A question back: Et toi ?"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Alors, moi, j'aime beaucoup cuisiner, surtout la cuisine indienne. J'aime la musique, mais je n'aime pas la télé. Le soir, j'aime lire ou faire du yoga. Je ne fais jamais de bruit après vingt-deux heures ! Je préfère l'hiver, parce que j'adore la neige et le patin. Par contre, je déteste la pluie. Et toi, tu aimes l'hiver ?",
+              "en": "So, me, I really like cooking, especially Indian food. I like music, but I don't like TV. In the evening, I like reading or doing yoga. I never make noise after 10 p.m.! I prefer winter, because I love snow and skating. On the other hand, I hate the rain. And you, do you like winter?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bon, je suis une personne assez calme. Je n'aime pas beaucoup cuisiner, mais j'adore manger ! Je ne regarde plus la télé : je préfère lire ou jouer aux jeux vidéo, avec un casque, bien sûr. La fin de semaine, je fais de la randonnée ou du vélo. Mon passe-temps préféré, c'est la photo. J'aime mieux l'été parce qu'il fait chaud et je vais souvent à la plage. Et toi, qu'est-ce que tu fais le week-end ?",
+              "en": "Well, I'm quite a calm person. I don't really like cooking, but I love eating! I don't watch TV anymore: I prefer reading or playing video games, with headphones, of course. On weekends, I go hiking or cycling. My favourite hobby is photography. I like summer better because it's hot and I often go to the beach. And you, what do you do on weekends?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Talk about your tastes and habits with [[aimer, adorer, détester, préférer]] and give reasons with [[parce que]]\n- Say what you never do or don't do anymore: [[je ne fais jamais de ski]]\n- Understand a radio weather forecast and an activities message\n- Use new free-time words: [[le patin, le ski, la pêche, le camping, la plage, les vacances]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Kept the 'je suis chaud' warning brief and neutral, added accepted variants (aime son emploi) and made a model's ski location accurate (près de Gatineau)."
+  }
+}

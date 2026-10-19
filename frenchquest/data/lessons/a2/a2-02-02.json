@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-02-02",
+  "level": "a2",
+  "unit": "a2-02",
+  "title": "Agreement with être",
+  "goal": "Make the participle agree with the subject after être (elle est allée, ils sont partis) and tell the story of a move to Canada.",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "g-agreement-etre",
+      "kind": "grammar",
+      "fr": "elle est allée, ils sont partis",
+      "en": "participle agreement with être (+e, +s, +es)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Ma mère est ___ en juillet. (venir)",
+          "answers": [
+            [
+              "venue"
+            ]
+          ],
+          "en": "My mother came in July.",
+          "explain": "Feminine singular subject → add -e: venue."
+        },
+        {
+          "type": "cloze",
+          "text": "Mes filles sont ___ à l'école à pied. (aller)",
+          "answers": [
+            [
+              "allées"
+            ]
+          ],
+          "en": "My daughters went to school on foot.",
+          "explain": "Feminine plural → add -es: allées."
+        },
+        {
+          "type": "cloze",
+          "text": "Diego et Sofia sont ___ à Toronto. (arriver)",
+          "answers": [
+            [
+              "arrivés"
+            ]
+          ],
+          "en": "Diego and Sofia arrived in Toronto.",
+          "explain": "A man and a woman → masculine plural: arrivés."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Amira is speaking. Which is correct?",
+          "options": [
+            "Je suis née à Casablanca.",
+            "Je suis né à Casablanca.",
+            "J'ai née à Casablanca."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "je = Amira, a woman → née. naître uses être."
+        }
+      ]
+    },
+    {
+      "id": "elle-est-allee",
+      "kind": "phrase",
+      "fr": "Elle est allée à Toronto.",
+      "en": "She went to Toronto."
+    },
+    {
+      "id": "ils-sont-partis",
+      "kind": "phrase",
+      "fr": "Ils sont partis en juillet.",
+      "en": "They left in July. (men, or a mixed group)",
+      "accept": [
+        "En juillet, ils sont partis."
+      ]
+    },
+    {
+      "id": "nous-sommes-arrivees",
+      "kind": "phrase",
+      "fr": "Nous sommes arrivées en 2021.",
+      "en": "We arrived in 2021. (two women speaking)",
+      "accept": [
+        "On est arrivées en 2021.",
+        "En 2021, nous sommes arrivées."
+      ]
+    },
+    {
+      "id": "je-suis-nee",
+      "kind": "phrase",
+      "fr": "Je suis née au Mexique.",
+      "en": "I was born in Mexico. (woman speaking)"
+    },
+    {
+      "id": "elle-est-devenue",
+      "kind": "phrase",
+      "fr": "Elle est devenue gestionnaire de projet.",
+      "en": "She became a project manager."
+    },
+    {
+      "id": "retourner",
+      "kind": "vocab",
+      "fr": "retourner",
+      "en": "to go back, to return (to a place)",
+      "pos": "verb",
+      "example": {
+        "fr": "Je suis retournée à l'université.",
+        "en": "I went back to university. (woman speaking)"
+      }
+    },
+    {
+      "id": "repartir",
+      "kind": "vocab",
+      "fr": "repartir",
+      "en": "to leave again, to go back home",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle est repartie au Mexique.",
+        "en": "She went back to Mexico."
+      }
+    },
+    {
+      "id": "valise",
+      "kind": "vocab",
+      "fr": "valise",
+      "article": "la",
+      "gender": "f",
+      "en": "suitcase",
+      "pos": "noun",
+      "example": {
+        "fr": "Ma valise est arrivée en retard.",
+        "en": "My suitcase arrived late."
+      }
+    },
+    {
+      "id": "sirop-erable",
+      "kind": "vocab",
+      "fr": "sirop d'érable",
+      "article": "le",
+      "gender": "m",
+      "en": "maple syrup",
+      "pos": "noun"
+    },
+    {
+      "id": "premier",
+      "kind": "phrase",
+      "fr": "Il est parti le premier.",
+      "en": "He left first.",
+      "accept": [
+        "Il est parti en premier."
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Our move to Canada",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "“My arrival in Canada”: the newcomers' newsletter",
+          "context": "Sofia, a colleague from Mexico, writes about her family's move for the company newsletter.",
+          "fr": "Je suis née à Guadalajara, au Mexique. Mon mari, Diego, est parti le premier : il est arrivé à Toronto en janvier 2021 pour un nouveau travail.\nMoi, je suis restée au Mexique avec nos deux filles. Elles sont allées à l'école là-bas jusqu'en juin. En juillet, nous sommes parties toutes les trois, et nous sommes arrivées à Toronto par 35 degrés !\nUn an plus tard, nous sommes venus à Montréal tous les quatre. Diego est devenu gestionnaire de projet, et moi, je suis retournée à l'université pour apprendre le français.\nL'été dernier, ma mère est venue nous voir. Elle est restée un mois, et elle est repartie au Mexique avec trois bouteilles de sirop d'érable dans sa valise !",
+          "en": "I was born in Guadalajara, in Mexico. My husband, Diego, left first: he arrived in Toronto in January 2021 for a new job. I stayed in Mexico with our two daughters. They went to school there until June. In July, the three of us left, and we arrived in Toronto in 35-degree heat! A year later, the four of us came to Montréal. Diego became a project manager, and I went back to university to learn French. Last summer my mother came to see us. She stayed a month, and she went back to Mexico with three bottles of maple syrup in her suitcase!"
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "Who arrived in Toronto first?",
+          "options": [
+            "Diego, alone",
+            "Sofia and her daughters",
+            "The whole family together"
+          ],
+          "answer": 0,
+          "explain": "[[Mon mari, Diego, est parti le premier : il est arrivé à Toronto en janvier 2021.]]"
+        },
+        {
+          "id": "d2",
+          "type": "mcq",
+          "prompt": "Why does Sofia write “nous sommes parties” but later “nous sommes venus”?",
+          "options": [
+            "First it is three women; later the group includes Diego.",
+            "Because partir and venir are different verbs.",
+            "It is a spelling mistake."
+          ],
+          "answer": 0,
+          "explain": "Sofia and her two daughters = all women → [[parties]]. Later, [[tous les quatre]] includes Diego → masculine plural [[venus]]."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "The participle agrees with the subject",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "With être, the participle works like an adjective",
+          "body": "You already make adjectives agree: [[il est grand]], [[elle est grande]], [[ils sont grands]]. With **être** in the passé composé, the participle does exactly the same thing: it agrees with the **subject** in gender and number.\n\nWith **avoir**, the participle does **not** agree with the subject: [[elle a mangé]], [[elles ont travaillé]]."
+        },
+        {
+          "type": "table",
+          "title": "The four endings",
+          "head": [
+            "Subject",
+            "Ending",
+            "Example"
+          ],
+          "rows": [
+            [
+              "masculine singular",
+              "—",
+              "Diego est arrivé."
+            ],
+            [
+              "feminine singular",
+              "+ e",
+              "Sofia est arrivée."
+            ],
+            [
+              "masculine plural (or mixed)",
+              "+ s",
+              "Diego et Sofia sont arrivés."
+            ],
+            [
+              "feminine plural",
+              "+ es",
+              "Les filles sont arrivées."
+            ]
+          ],
+          "frCols": [
+            2
+          ],
+          "sayCol": true,
+          "note": "A mixed group, even one man and ten women, takes the **masculine plural**: [[Sofia, ses filles et Diego sont venus]]."
+        },
+        {
+          "type": "table",
+          "title": "Partir: who is speaking?",
+          "head": [
+            "Subject",
+            "man / men",
+            "woman / women"
+          ],
+          "rows": [
+            [
+              "je",
+              "je suis parti",
+              "je suis partie"
+            ],
+            [
+              "tu",
+              "tu es parti",
+              "tu es partie"
+            ],
+            [
+              "il / elle",
+              "il est parti",
+              "elle est partie"
+            ],
+            [
+              "nous",
+              "nous sommes partis",
+              "nous sommes parties"
+            ],
+            [
+              "vous (one person, formal)",
+              "vous êtes parti",
+              "vous êtes partie"
+            ],
+            [
+              "vous (plural)",
+              "vous êtes partis",
+              "vous êtes parties"
+            ],
+            [
+              "ils / elles",
+              "ils sont partis",
+              "elles sont parties"
+            ]
+          ],
+          "frCols": [
+            1,
+            2
+          ],
+          "sayCol": true,
+          "note": "For [[je]] and [[tu]], the ending depends on **who** is speaking or listening. A woman writes [[je suis partie]]. Formal [[vous]] to one man: [[vous êtes parti]]; to one woman: [[vous êtes partie]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "pronunciation",
+          "title": "You can't hear it (usually)",
+          "body": "Good news for speaking: [[allé, allée, allés, allées]] all sound the same. So do [[parti / partie]], [[venu / venue]], [[né / née]]. Agreement with être is mostly a **writing** skill.\n\nOne exception you can hear: [[mort]] → [[morte]]. The t is silent in [[il est mort]] but heard in [[elle est morte]].",
+          "examples": [
+            {
+              "fr": "Il est mort en 2019. Elle est morte en 2020.",
+              "en": "He died in 2019. She died in 2020."
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Agreeing with avoir:** [[Elle a mangée]] → [[Elle a mangé]]. With avoir, no agreement with the subject.\n- **Forgetting the -e as a woman:** if you are a woman, write [[je suis allée]], [[je suis née]]. Many learners forget this in emails.\n- **Mixed group:** [[Mes parents sont arrivées]] → [[Mes parents sont arrivés]]. Parents (mother + father) = masculine plural.\n- **Double -ée:** [[née]] has two e's (né + e); don't write a third one.\n- **Venu, not venue for a man:** [[Diego est venu]]; [[Sofia est venue]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "why",
+          "title": "What about on?",
+          "body": "When [[on]] means *we*, which is very common in speech, the participle usually agrees with the real people: [[On est arrivés à 22 h]] (we, a group), [[On est parties tôt]] (we, all women). Writing [[on est arrivé]] with no agreement is also accepted. When [[on]] means *people in general*, the participle stays masculine singular.\n\nThe verb stays singular ([[est]]), only the participle can change."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "body": "In Québec, people talk about their move with [[immigrer]] (to immigrate) and [[arriver au Québec]]: [[Je suis arrivée au Québec en 2021]]. [[Immigrer]] uses **avoir**: [[Nous avons immigré en 2019]] (it is not on the être list). Newcomers often meet first at an [[organisme d'accueil]], a settlement organization."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listen and spell",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "These pairs sound the same. Say them, then imagine the spelling.",
+          "lines": [
+            {
+              "fr": "Diego est arrivé. Sofia est arrivée.",
+              "en": "Diego arrived. Sofia arrived."
+            },
+            {
+              "fr": "Mes filles sont allées à l'école.",
+              "en": "My daughters went to school.",
+              "tip": "sont allées: son-ta-lé."
+            },
+            {
+              "fr": "Nous sommes venus tous les quatre.",
+              "en": "The four of us came."
+            },
+            {
+              "fr": "Elle est morte en 2020.",
+              "en": "She died in 2020.",
+              "tip": "morte: you hear the t."
+            },
+            {
+              "fr": "Ma mère est repartie avec du sirop d'érable.",
+              "en": "My mother left again with maple syrup."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Mes parents sont venus à Noël.",
+          "en": "My parents came at Christmas.",
+          "prompt": "How do you spell the participle you heard?",
+          "options": [
+            "venus",
+            "venues",
+            "venu"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[parents]] = mother + father → masculine plural: [[venus]]."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Sa grand-mère est morte l'année dernière.",
+          "en": "His (or her) grandmother died last year.",
+          "prompt": "What did you hear?",
+          "options": [
+            "est morte (a woman died)",
+            "est mort (a man died)"
+          ],
+          "answer": 0,
+          "explain": "The final t is pronounced: [[morte]], feminine. Also [[grand-mère]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Find the subject first. Is it a man, a woman, or a group?",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Les filles de Sofia sont ___ au Mexique. (rester)",
+          "answers": [
+            [
+              "restées"
+            ]
+          ],
+          "en": "Sofia's daughters stayed in Mexico.",
+          "explain": "Feminine plural → -es: restées."
+        },
+        {
+          "id": "r2",
+          "type": "translate",
+          "prompt": "I arrived in Canada in 2021. (woman speaking)",
+          "accept": [
+            "Je suis arrivée au Canada en 2021.",
+            "En 2021, je suis arrivée au Canada."
+          ],
+          "hint": "arriver uses être; add -e",
+          "explain": "The speaker is a woman → [[arrivée]]. Country: [[au Canada]]."
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "Elle a acheté une valise et elle est partie.",
+            "Elle a achetée une valise et elle est partie.",
+            "Elle a acheté une valise et elle est parti.",
+            "Elle est achetée une valise et elle a partie."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "With avoir, no agreement with the subject: a acheté.",
+            "With être, the participle agrees: elle est partie.",
+            "acheter uses avoir; partir uses être."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Diego et ses filles sont ___ à Montréal en 2022. (venir)",
+          "answers": [
+            [
+              "venus"
+            ]
+          ],
+          "choices": [
+            "venus",
+            "venues",
+            "venu",
+            "venue"
+          ],
+          "en": "Diego and his daughters came to Montréal in 2022.",
+          "explain": "One man in the group → masculine plural: venus."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "My mother went back to Mexico.",
+          "accept": [
+            "Ma mère est repartie au Mexique.",
+            "Ma mère est retournée au Mexique.",
+            "Ma mère est rentrée au Mexique."
+          ],
+          "explain": "mère is feminine → [[repartie]] or [[retournée]], with -e."
+        },
+        {
+          "id": "r6",
+          "type": "reorder",
+          "prompt": "She was born in Guadalajara.",
+          "accept": [
+            "Elle est née à Guadalajara."
+          ],
+          "extra": [
+            "né",
+            "a"
+          ],
+          "explain": "naître uses être; elle → née."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Madame Roy, vous êtes ___ hier ? (arriver)",
+          "answers": [
+            [
+              "arrivée"
+            ]
+          ],
+          "en": "Mrs. Roy, did you arrive yesterday?",
+          "explain": "Formal vous to one woman → singular feminine: arrivée."
+        },
+        {
+          "id": "r8",
+          "type": "translate",
+          "prompt": "We (two women) left first. (use nous)",
+          "accept": [
+            "Nous sommes parties les premières.",
+            "Nous sommes parties en premier.",
+            "Nous sommes parties d'abord."
+          ],
+          "explain": "nous = two women → [[parties]]. [[les premières]] also agrees."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Elles sont allées au cinéma.",
+          "accept": [],
+          "explain": "elles (women) → allées, with -es. You can't hear it, so think about the subject."
+        },
+        {
+          "id": "r10",
+          "type": "match",
+          "prompt": "Who is it? Match each sentence to its subject.",
+          "pairs": [
+            [
+              "Il est venu.",
+              "one man"
+            ],
+            [
+              "Elle est venue.",
+              "one woman"
+            ],
+            [
+              "Ils sont venus.",
+              "men, or a mixed group"
+            ],
+            [
+              "Elles sont venues.",
+              "only women"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write your own “My arrival” text for the newsletter (or invent one): where you were born, who left first, when you arrived, and one family member who came to visit. Check every être participle.",
+          "wordRange": [
+            35,
+            70
+          ],
+          "checklist": [
+            "je suis né / née…",
+            "Someone else with il est… / elle est…",
+            "A plural subject: nous sommes… / ils sont…",
+            "At least one avoir verb (no agreement)",
+            "Check: -e for women, -s for plural"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Je suis né à Lyon, en France. Ma femme, Claire, est partie la première : elle est arrivée à Montréal en 2020 pour ses études. Moi, je suis venu six mois plus tard. Nous avons trouvé un appartement à Rosemont. L'hiver dernier, mes parents sont venus nous voir. Ils sont restés trois semaines, et ils ont adoré la neige !",
+              "en": "(A man writing.) I was born in Lyon, in France. My wife, Claire, left first: she arrived in Montréal in 2020 for her studies. I came six months later. We found an apartment in Rosemont. Last winter my parents came to see us. They stayed three weeks, and they loved the snow!"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "A colleague asks: « Vous êtes arrivé ou arrivée quand au Canada ? » Answer in 30 seconds: when you arrived, with whom, and where you went first.",
+          "seconds": 30,
+          "checklist": [
+            "je suis arrivé / arrivée + date",
+            "avec + person",
+            "je suis allé / allée d'abord à…",
+            "one avoir verb"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Je suis arrivée au Canada il y a deux ans, avec mon fils. D'abord, nous sommes allés à Moncton, chez ma cousine. Nous sommes restés un an là-bas. Ensuite, j'ai trouvé un travail à Montréal.",
+              "en": "(A woman speaking.) I arrived in Canada two years ago, with my son. First we went to Moncton, to my cousin's place. We stayed there a year. Then I found a job in Montréal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Make the participle agree after **être**: [[il est arrivé, elle est arrivée, ils sont arrivés, elles sont arrivées]]\n- Use the masculine plural for a mixed group, and the right ending for **je** and **vous** depending on who is speaking\n- Don't make avoir participles agree with the subject: [[elle a mangé]]\n- Tell the story of a move: [[je suis né / née…, je suis arrivé / arrivée au Canada en…]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Agreement rules and the on est arrivé(s) note checked: accurate. Only change: “sa grand-mère” translated as his (or her)."
+  }
+}

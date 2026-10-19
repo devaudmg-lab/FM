@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-12-06",
+  "level": "b1",
+  "unit": "b1-12",
+  "title": "Workshop: B1 mastery checkpoint",
+  "goal": "Review the whole B1 level in new contexts: read and hear longer texts, mix the grammar of every unit, and finish with exam-style reading, listening, writing and speaking tasks.",
+  "minutes": 20,
+  "items": [
+    { "id": "s-adapter", "kind": "vocab", "fr": "s'adapter à", "en": "to adapt to, to get used to", "pos": "verb",
+      "example": { "fr": "Elle s'est vite adaptée à sa nouvelle vie.", "en": "She quickly adapted to her new life." },
+      "note": "Passé composé with être: je me suis adapté, elle s'est adaptée." },
+    { "id": "faire-face", "kind": "phrase", "fr": "faire face à", "en": "to face, to cope with (a difficulty)",
+      "example": { "fr": "Nous avons dû faire face à plusieurs obstacles.", "en": "We had to face several obstacles." },
+      "note": "à + le → au: faire face au froid." },
+    { "id": "echec", "kind": "vocab", "fr": "échec", "article": "un", "gender": "m", "en": "a failure, a setback", "pos": "noun",
+      "accept": ["l'échec"],
+      "example": { "fr": "Un échec n'est pas la fin du monde.", "en": "A failure isn't the end of the world." },
+      "note": "Les échecs (plural) is also the game of chess." },
+    { "id": "perseverer", "kind": "vocab", "fr": "persévérer", "en": "to persevere, to keep going", "pos": "verb",
+      "example": { "fr": "Elle a persévéré malgré les difficultés.", "en": "She persevered despite the difficulties." },
+      "note": "Je persévère, nous persévérons: è before a silent ending." },
+    { "id": "tournant", "kind": "vocab", "fr": "tournant", "article": "un", "gender": "m", "en": "a turning point", "pos": "noun",
+      "accept": ["le tournant"],
+      "example": { "fr": "Ce nouvel emploi a été un tournant dans ma vie.", "en": "This new job was a turning point in my life." } },
+    { "id": "au-fil-des-annees", "kind": "phrase", "fr": "au fil des années", "en": "over the years",
+      "accept": ["au fil des ans"],
+      "example": { "fr": "Au fil des années, j'ai pris confiance en moi.", "en": "Over the years, I gained self-confidence." } },
+    { "id": "atteindre", "kind": "vocab", "fr": "atteindre", "en": "to reach, to achieve (a goal, a level)", "pos": "verb",
+      "example": { "fr": "J'ai atteint mon objectif en compréhension orale.", "en": "I reached my goal in listening." },
+      "note": "Irregular: j'atteins, nous atteignons; past participle atteint." },
+    { "id": "se-fixer-objectif", "kind": "phrase", "fr": "se fixer un objectif", "en": "to set yourself a goal",
+      "example": { "fr": "Je me suis fixé un objectif : passer le TEF en juin.", "en": "I set myself a goal: to take the TEF in June." } },
+    { "id": "faire-le-bilan", "kind": "phrase", "fr": "faire le bilan", "en": "to take stock, to review how things went",
+      "example": { "fr": "À la fin de l'année, je fais le bilan de mes progrès.", "en": "At the end of the year, I take stock of my progress." } },
+    { "id": "des-le-debut", "kind": "phrase", "fr": "dès le début", "en": "from the very start",
+      "example": { "fr": "Dès le début, j'ai parlé français au travail.", "en": "From the very start, I spoke French at work." } }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A portrait",
+      "intro": "This magazine portrait uses the whole B1 level: **narrative tenses**, **the passive**, **relative pronouns**, **opinions with nuance**, the **gerund** and the **conditionnel**. Read it, then answer exam-style questions in French.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "Portrait : Daniela Ortiz, « Le français m'a ouvert toutes les portes »",
+          "fr": "Quand Daniela Ortiz est arrivée à Moncton en janvier 2019, il faisait moins vingt-cinq degrés. « J'avais vu des photos de la neige, raconte-t-elle en riant, mais personne ne m'avait parlé du vent ! » Après dix ans comme infirmière en Colombie, elle pensait trouver un emploi rapidement. Ce n'était pas si simple.\nDès le début, elle a dû faire face à deux obstacles : la langue et la reconnaissance de son diplôme. Son dossier a été refusé une première fois, parce qu'il manquait un document. « Ça a été mon premier échec, et j'ai voulu tout abandonner », avoue-t-elle. Elle a pourtant persévéré. Après avoir suivi des cours de français le soir pendant deux ans, elle a passé le TEF Canada, puis elle a obtenu son permis d'exercer.\nLe vrai tournant, c'est le jour où une amie acadienne lui a proposé de faire du bénévolat à l'hôpital. « C'est en parlant avec les patients que j'ai vraiment appris le français, explique-t-elle. Ce qui me plaît à Moncton, c'est qu'on passe du français à l'anglais dans la même phrase. Au début, je m'y perdais complètement ! »\nAu fil des années, Daniela s'est adaptée à sa nouvelle vie. Elle travaille aujourd'hui au service des urgences, où elle est responsable d'une équipe de six infirmières. Ses collègues la décrivent comme une personne calme et débrouillarde, dont les patients apprécient la patience.\nQuand on lui demande de faire le bilan, elle reste nuancée. « Je ne dirais pas que tout est parfait. L'hiver est toujours aussi long, et ma famille me manque beaucoup. Cependant, je suis fière de ce que j'ai atteint. » Son conseil aux nouveaux arrivants ? « Fixez-vous un objectif réaliste, et ne restez pas seuls avec vos livres. Sortez, parlez, faites des erreurs ! Si je devais recommencer, je ferais exactement la même chose, mais j'aurais moins peur. »",
+          "en": "When Daniela Ortiz arrived in Moncton in January 2019, it was minus twenty-five degrees. “I had seen photos of the snow,” she says, laughing, “but nobody had told me about the wind!” After ten years as a nurse in Colombia, she thought she would find a job quickly. It wasn't that simple.\nFrom the very start, she had to face two obstacles: the language and the recognition of her diploma. Her file was refused the first time, because a document was missing. “That was my first setback, and I wanted to give up on everything,” she admits. Yet she persevered. After taking evening French classes for two years, she took the TEF Canada, then got her licence to practise.\nThe real turning point was the day an Acadian friend suggested she volunteer at the hospital. “It was by talking with patients that I really learned French,” she explains. “What I like in Moncton is that people switch from French to English in the same sentence. At first, I got completely lost!”\nOver the years, Daniela has adapted to her new life. Today she works in the emergency department, where she's in charge of a team of six nurses. Her colleagues describe her as a calm, resourceful person whose patience the patients appreciate.\nWhen asked to take stock, she stays nuanced. “I wouldn't say everything is perfect. Winter is still just as long, and I miss my family a lot. However, I'm proud of what I've achieved.” Her advice to newcomers? “Set yourselves a realistic goal, and don't stay alone with your books. Go out, talk, make mistakes! If I had to start again, I'd do exactly the same thing, but I'd be less afraid.”"
+        },
+        {
+          "id": "d1", "type": "mcq",
+          "prompt": "Pourquoi le dossier de Daniela a-t-il été refusé la première fois ?",
+          "options": ["Il était incomplet.", "Son diplôme n'était pas valable au Canada.", "Son niveau de français était trop faible.", "Elle l'avait envoyé trop tard."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[il manquait un document]] is paraphrased as [[Il était incomplet]].",
+          "optionFeedback": [null, "Too strong: the recognition was an obstacle, but the reason given is a missing document.", "True as a general difficulty, but not the reason for the refusal.", "Not in the text."]
+        },
+        {
+          "id": "d2", "type": "mcq",
+          "prompt": "Selon Daniela, comment a-t-elle surtout appris le français ?",
+          "options": ["Grâce au contact avec les patients.", "Grâce aux cours du soir.", "En regardant la télévision.", "En lisant beaucoup de livres."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[C'est en parlant avec les patients que j'ai vraiment appris le français]]: the gerund shows how.",
+          "optionFeedback": [null, "She took classes, but she says she *really* learned by talking with patients.", "Not in the text.", "She advises the opposite: don't stay alone with your books."]
+        },
+        {
+          "id": "d3", "type": "mcq",
+          "prompt": "Quand elle fait le bilan, Daniela est…",
+          "options": ["satisfaite, mais lucide sur les difficultés.", "complètement déçue de son expérience.", "enthousiaste et sans aucune critique.", "indifférente."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Je ne dirais pas que tout est parfait… Cependant, je suis fière…]]: a positive but nuanced view.",
+          "optionFeedback": [null, "Too strong: she's proud of what she's achieved.", "Too strong: she mentions winter and missing her family.", "She clearly has feelings about it."]
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "B1 at a glance, and new words",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The B1 level at a glance",
+          "head": ["Units", "Key tools", "Example"],
+          "rows": [
+            ["1 Opinions", "à mon avis, plutôt, puisque", "À mon avis, c'est plutôt une bonne idée."],
+            ["2 Narration", "plus-que-parfait, il a dit que…", "J'avais vu des photos."],
+            ["3–4 Work, processes", "en + -ant, après avoir…", "C'est en parlant que j'ai appris."],
+            ["5 News", "the passive", "Son dossier a été refusé."],
+            ["6 Hypotheses", "si + imparfait → conditionnel", "Si je devais recommencer, je ferais pareil."],
+            ["7 Description", "qui, que, où, dont, ce qui", "une personne dont on apprécie la patience"],
+            ["8–10 Problems, texts, talks", "Serait-il possible… ? cependant, quant à", "Cependant, je suis fière."],
+            ["11 Exams", "paraphrase, plan, corrections", "il manquait un document = incomplet"]
+          ],
+          "frCols": [1, 2],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "What B1 means",
+          "body": "At B1, you can **tell a connected story** (imparfait for the scene, passé composé for events, plus-que-parfait for what came before), **explain and nuance an opinion**, **describe in detail** with relative clauses, and **deal with real situations**: a complaint, an information call, a formal letter, a two-minute talk.\n\nThe portrait shows all of it in one text. In the exam, the same tools help you **recognize paraphrase** when you read and listen, and **organize** what you write and say."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for talking about your journey",
+          "itemIds": ["s-adapter", "faire-face", "echec", "perseverer", "tournant", "au-fil-des-annees", "atteindre", "se-fixer-objectif", "faire-le-bilan", "des-le-debut"]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listening practice",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A podcast for newcomers",
+          "context": "Mélanie, an employment counsellor in Halifax, answers a listener's question on her podcast.",
+          "fr": "Cette semaine, Karim nous écrit : « Je suis ingénieur, mais au Canada, je travaille dans un entrepôt. Qu'est-ce que vous feriez à ma place ? » Alors, Karim, d'abord, je vous comprends : beaucoup de nouveaux arrivants vivent cette situation, et ce n'est pas un échec. À votre place, je contacterais d'abord l'ordre des ingénieurs de votre province, pour savoir exactement quels documents sont nécessaires. Ensuite, je me fixerais un objectif réaliste, par exemple six mois pour préparer votre dossier. En attendant, ne quittez pas votre emploi : il vous permet de payer vos factures. Enfin, si j'étais vous, je ferais du bénévolat dans une association d'ingénieurs. C'est souvent en rencontrant des gens du milieu qu'on trouve un premier poste.",
+          "en": "This week, Karim writes to us: “I'm an engineer, but in Canada I work in a warehouse. What would you do in my place?” So, Karim, first of all, I understand you: many newcomers go through this, and it's not a failure. In your place, I'd first contact the engineers' regulatory body in your province, to find out exactly which documents are needed. Next, I'd set myself a realistic goal, for example six months to prepare your file. In the meantime, don't leave your job: it allows you to pay your bills. Finally, if I were you, I'd volunteer in an engineers' association. It's often by meeting people in the field that you find a first position."
+        },
+        {
+          "id": "h1", "type": "listen-mcq",
+          "fr": "À votre place, je contacterais d'abord l'ordre des ingénieurs de votre province, pour savoir exactement quels documents sont nécessaires.",
+          "en": "In your place, I'd first contact the engineers' regulatory body in your province, to find out exactly which documents are needed.",
+          "prompt": "Quel est le premier conseil de Mélanie ?",
+          "options": ["Se renseigner sur les documents à fournir.", "Quitter son emploi à l'entrepôt.", "Changer de province.", "Reprendre ses études d'ingénieur."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[pour savoir exactement quels documents sont nécessaires]] = se renseigner sur les documents à fournir.",
+          "optionFeedback": [null, "The opposite: ne quittez pas votre emploi.", "Word-match trap: province is mentioned, but not moving.", "Not mentioned."]
+        },
+        {
+          "id": "h2", "type": "listen-mcq",
+          "fr": "En attendant, ne quittez pas votre emploi : il vous permet de payer vos factures.",
+          "en": "In the meantime, don't leave your job: it allows you to pay your bills.",
+          "prompt": "Que pense Mélanie de l'emploi actuel de Karim ?",
+          "options": ["Il faut le garder pour l'instant.", "Il doit le quitter tout de suite.", "C'est un échec.", "Il devrait demander une augmentation."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[En attendant, ne quittez pas votre emploi]] = keep it for now. She also said [[ce n'est pas un échec]]."
+        },
+        {
+          "id": "h3", "type": "listen-mcq",
+          "fr": "C'est souvent en rencontrant des gens du milieu qu'on trouve un premier poste.",
+          "en": "It's often by meeting people in the field that you find a first position.",
+          "prompt": "Selon Mélanie, comment trouve-t-on souvent un premier poste ?",
+          "options": ["Grâce à son réseau professionnel.", "En envoyant beaucoup de CV.", "Grâce aux annonces en ligne.", "En passant un examen."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[en rencontrant des gens du milieu]] (gerund) = through your professional network."
+        },
+        {
+          "type": "listen",
+          "title": "Local news on the radio",
+          "context": "A news bulletin on a radio station in Gatineau.",
+          "fr": "Voici les nouvelles locales. Hier soir, vers 22 h, un incendie s'est déclaré dans un restaurant de la rue Principale. Les pompiers sont arrivés en quelques minutes, mais le feu avait déjà atteint le deuxième étage. Une dizaine de personnes ont été évacuées, et heureusement, personne n'a été blessé. Selon les premiers témoins, le feu a probablement commencé dans la cuisine, mais une enquête est en cours. La rue Principale restera fermée à la circulation jusqu'à demain midi, et non jusqu'à ce soir, comme on l'avait d'abord annoncé. Les automobilistes sont invités à prendre le boulevard Saint-Joseph.",
+          "en": "Here is the local news. Last night, around 10 p.m., a fire broke out in a restaurant on Principale Street. The firefighters arrived within minutes, but the fire had already reached the second floor. About ten people were evacuated, and fortunately, nobody was injured. According to the first witnesses, the fire probably started in the kitchen, but an investigation is under way. Principale Street will remain closed to traffic until noon tomorrow, and not until this evening, as was first announced. Drivers are asked to take Saint-Joseph Boulevard."
+        },
+        {
+          "id": "h4", "type": "listen-mcq",
+          "fr": "Une dizaine de personnes ont été évacuées, et heureusement, personne n'a été blessé.",
+          "en": "About ten people were evacuated, and fortunately, nobody was injured.",
+          "prompt": "Qu'est-ce qui est arrivé aux personnes présentes ?",
+          "options": ["Elles ont dû sortir, mais elles vont bien.", "Une dizaine de personnes ont été blessées.", "Elles sont restées à l'intérieur.", "Les pompiers les ont transportées à l'hôpital."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[ont été évacuées]] (passive) = they had to leave; [[personne n'a été blessé]] = they're fine.",
+          "optionFeedback": [null, "Trap: une dizaine goes with évacuées, not blessées.", "évacuées means they left the building.", "Not in the bulletin."]
+        },
+        {
+          "id": "h5", "type": "listen-mcq",
+          "fr": "La rue Principale restera fermée à la circulation jusqu'à demain midi, et non jusqu'à ce soir, comme on l'avait d'abord annoncé.",
+          "en": "Principale Street will remain closed to traffic until noon tomorrow, and not until this evening, as was first announced.",
+          "prompt": "Jusqu'à quand la rue sera-t-elle fermée ?",
+          "options": ["Jusqu'à demain midi", "Jusqu'à ce soir", "Jusqu'à demain soir", "Pendant une semaine"],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Keep the correction: [[jusqu'à demain midi, et non jusqu'à ce soir]]."
+        },
+        {
+          "id": "h6", "type": "dictation",
+          "fr": "Les pompiers sont arrivés en quelques minutes, mais le feu avait déjà atteint le deuxième étage.",
+          "accept": ["Les pompiers sont arrivés en quelques minutes mais le feu avait déjà atteint le deuxième étage."],
+          "explain": "Passé composé for the event ([[sont arrivés]]), plus-que-parfait for what had already happened ([[avait déjà atteint]])."
+        },
+        {
+          "id": "h7", "type": "dictation",
+          "fr": "À votre place, je me fixerais un objectif réaliste.",
+          "accept": ["À votre place je me fixerais un objectif réaliste.", "A votre place, je me fixerais un objectif réaliste."],
+          "explain": "Advice with the conditionnel: [[À votre place, je…]] + [[se fixer un objectif]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "B1 level review",
+      "intro": "Twelve questions that travel through the whole B1 level, unit by unit. The last three are **exam-style** (TEF / TCF Canada). Answer without looking back.",
+      "blocks": [
+        {
+          "id": "r1", "type": "mcq",
+          "prompt": "Unit 1: which sentence gives a **nuanced** opinion?",
+          "options": ["À mon avis, c'est plutôt une bonne idée, mais pas pour tout le monde.", "C'est la meilleure idée du monde.", "C'est nul.", "Je suis d'accord à cent pour cent."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[plutôt]] and a restriction ([[mais pas pour tout le monde]]) add nuance.",
+          "optionFeedback": [null, "Very strong, no nuance.", "Very strong and familiar.", "Total agreement, no nuance."]
+        },
+        {
+          "id": "r2", "type": "translate",
+          "prompt": "Unit 2: She asked me if I had found a job.",
+          "accept": ["Elle m'a demandé si j'avais trouvé un emploi.", "Elle m'a demandé si j'avais trouvé du travail.", "Elle m'a demandé si j'avais trouvé un travail.", "Elle m'a demandé si j'avais trouvé un poste."],
+          "hint": "Reported question in the past: passé composé → plus-que-parfait",
+          "explain": "[[Tu as trouvé un emploi ?]] becomes [[Elle m'a demandé si j'avais trouvé un emploi.]]"
+        },
+        {
+          "id": "r3", "type": "cloze",
+          "text": "Unit 2: Après ___ terminé mes études, je suis ___ au Canada.",
+          "answers": [["avoir"], ["venu", "venue", "arrivé", "arrivée"]],
+          "en": "After finishing my studies, I came to Canada.",
+          "explain": "[[après avoir]] + past participle; then [[venir]] (or [[arriver]]) takes être in the passé composé, with agreement for a woman: [[venue]]."
+        },
+        {
+          "id": "r4", "type": "cloze",
+          "text": "Unit 4: J'ai fait beaucoup de progrès ___ (écouter) la radio tous les matins.",
+          "answers": [["en écoutant"]],
+          "en": "I made a lot of progress by listening to the radio every morning.",
+          "explain": "The gerund [[en]] + [[-ant]] says *how*: [[en écoutant]]."
+        },
+        {
+          "id": "r5", "type": "translate",
+          "prompt": "Unit 5: The road was closed by the police.",
+          "accept": ["La route a été fermée par la police.", "La rue a été fermée par la police."],
+          "explain": "Passive: [[a été]] + past participle agreeing with [[la route]] → [[fermée]], then [[par]] + agent."
+        },
+        {
+          "id": "r6", "type": "cloze",
+          "text": "Unit 6: Si j'___ plus de temps, je ___ du bénévolat.",
+          "answers": [["avais"], ["ferais"]],
+          "en": "If I had more time, I'd volunteer.",
+          "explain": "[[si]] + imparfait ([[avais]]) → conditionnel ([[ferais]])."
+        },
+        {
+          "id": "r7", "type": "cloze",
+          "text": "Unit 7: C'est l'hôpital ___ je travaille et l'équipe ___ je suis responsable.",
+          "answers": [["où"], ["dont"]],
+          "choices": ["où", "dont", "que", "qui"],
+          "en": "It's the hospital where I work and the team I'm in charge of.",
+          "explain": "A place → [[où]]; [[être responsable **de**]] → [[dont]]."
+        },
+        {
+          "id": "r8", "type": "reorder",
+          "prompt": "Unit 8: Would it be possible to change the date? (formal)",
+          "accept": ["Serait-il possible de changer la date"],
+          "extra": ["est-ce", "pour"],
+          "explain": "[[Serait-il possible de]] + infinitive: the polite way to ask or insist."
+        },
+        {
+          "id": "r9", "type": "match",
+          "prompt": "Units 9 and 10: match each phrase with its function.",
+          "pairs": [["cependant", "contrast"], ["en effet", "explanation"], ["par conséquent", "consequence"], ["Passons maintenant à…", "moving to the next point"], ["Si je comprends bien, …", "reformulating a question"]]
+        },
+        {
+          "type": "note", "tone": "info",
+          "body": "**Exam-style questions.** Read or listen once, look for the **paraphrase**, and watch the small words."
+        },
+        {
+          "id": "r10", "type": "mcq",
+          "prompt": "Document (TEF-style reading): « AVIS AUX LOCATAIRES — En raison de travaux, l'ascenseur sera hors service du 3 au 7 mars. Les résidents à mobilité réduite peuvent contacter la gérance afin d'obtenir de l'aide. » — Quel est le but de ce document ?",
+          "options": ["Informer d'une interruption temporaire et proposer de l'aide.", "Annoncer l'installation d'un nouvel ascenseur.", "Demander aux locataires de payer les travaux.", "Interdire l'ascenseur aux personnes à mobilité réduite."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[hors service du 3 au 7 mars]] = temporary interruption; [[contacter la gérance afin d'obtenir de l'aide]] = help is offered.",
+          "optionFeedback": [null, "Word-match trap: travaux doesn't mean a new elevator.", "Not in the notice.", "The opposite: these residents can get help."]
+        },
+        {
+          "id": "r11", "type": "listen-mcq",
+          "fr": "Bonjour madame Ortiz, c'est la clinique Beauséjour. Votre rendez-vous de jeudi est annulé, parce que le docteur Léger sera absent. On vous propose lundi prochain, à 10 h 15. Si ça ne vous convient pas, rappelez-nous avant vendredi.",
+          "en": "Hello Ms. Ortiz, this is the Beauséjour clinic. Your Thursday appointment is cancelled, because Dr. Léger will be away. We're offering you next Monday at 10:15. If that doesn't suit you, call us back before Friday.",
+          "prompt": "TEF-style listening: pourquoi la clinique appelle-t-elle ?",
+          "options": ["Pour proposer un nouveau rendez-vous.", "Pour confirmer le rendez-vous de jeudi.", "Pour annoncer le départ du docteur Léger.", "Pour demander à Mme Ortiz de venir vendredi."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "The appointment is cancelled and a new one is offered: [[On vous propose lundi prochain]].",
+          "optionFeedback": [null, "Trap: Thursday is cancelled.", "Too strong: he will only be away (sera absent).", "Friday is the deadline to call back, not an appointment."]
+        },
+        {
+          "id": "r12", "type": "mcq",
+          "prompt": "TCF-style reading: « Contrairement à ce que pensent beaucoup de parents, les écrans ne sont pas toujours négatifs pour les enfants : tout dépend de l'usage qu'on en fait. » — Quelle est l'opinion de l'auteur ?",
+          "options": ["L'effet des écrans dépend de la façon de les utiliser.", "Les écrans sont toujours mauvais pour les enfants.", "Les parents ont raison d'interdire les écrans.", "Les écrans sont toujours bons pour les enfants."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[tout dépend de l'usage qu'on en fait]] = the effect depends on how they are used.",
+          "optionFeedback": [null, "That's what many parents think, not the author.", "The author disagrees with these parents (Contrairement à…).", "Too strong: pas toujours négatifs ≠ toujours bons."]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Exam-style tasks",
+      "intro": "Like the TCF Canada, task 3: present **both points of view**, then **give yours**. Plan for 5 minutes before writing. Then speak.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "Exam-style task (like TCF Canada, task 3): A local website publishes two opinions on this question: « Les écoles devraient-elles remplacer les manuels papier par des tablettes ? » Opinion 1 (Lucie, teacher): « Les tablettes motivent les élèves et coûtent moins cher à long terme. » Opinion 2 (Olivier, father): « Les enfants passent déjà trop de temps devant les écrans. » Write an article: sum up both opinions, then give your own, with arguments and an example.",
+          "promptFr": "Présentez les deux points de vue, puis donnez votre opinion de façon argumentée. (120 à 180 mots)",
+          "wordRange": [120, 180],
+          "checklist": [
+            "An introduction that presents the question",
+            "Opinion 1 summarized in your own words (selon…, d'après…)",
+            "Opinion 2 summarized in your own words, with a contrast connector",
+            "Your position, with at least two arguments and an example",
+            "A concession (certes… mais, il est vrai que…)",
+            "A conclusion",
+            "Varied B1 grammar: a relative clause, a si clause, a gerund or a passive"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Faut-il remplacer les manuels papier par des tablettes à l'école ? Cette question divise les parents et les enseignants.\nSelon Lucie, une enseignante, les tablettes motivent les élèves, et elles coûtent moins cher à long terme. En revanche, Olivier, un père de famille, pense que les enfants passent déjà trop de temps devant les écrans.\nÀ mon avis, les deux ont en partie raison. Il est vrai que les tablettes sont pratiques : on peut y trouver des vidéos et des exercices qui rendent les cours plus vivants. Cependant, je pense qu'il ne faut pas supprimer complètement le papier. En effet, quand ma fille lit un livre, elle se concentre mieux que devant un écran.\nEn somme, je serais pour un mélange des deux : des tablettes pour certaines activités, et des livres pour la lecture.",
+              "en": "Should paper textbooks be replaced by tablets at school? This question divides parents and teachers. According to Lucie, a teacher, tablets motivate students, and they cost less in the long term. On the other hand, Olivier, a father, thinks children already spend too much time in front of screens. In my opinion, both are partly right. It's true that tablets are practical: you can find videos and exercises on them that make lessons livelier. However, I think we shouldn't completely get rid of paper. Indeed, when my daughter reads a book, she concentrates better than in front of a screen. All in all, I'd be in favour of a mix of both: tablets for some activities, and books for reading."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Tablettes ou manuels : faut-il vraiment choisir ?\nLe débat sur les tablettes à l'école revient souvent. D'après Lucie, enseignante, ces outils motivent davantage les élèves et permettent aux écoles de faire des économies à long terme. Olivier, père de deux enfants, voit au contraire un danger : selon lui, les jeunes passent déjà beaucoup trop de temps devant les écrans.\nEn ce qui me concerne, je partage plutôt l'avis d'Olivier, même si les arguments de Lucie me semblent sérieux. Certes, une tablette peut rendre un cours plus interactif. Pourtant, plusieurs enseignants que je connais ont constaté que les élèves se laissent facilement distraire par les jeux et les notifications. De plus, c'est en écrivant à la main qu'on retient le mieux, ce qui est essentiel pour apprendre.\nSi j'étais directeur d'école, je garderais donc les manuels papier, et j'utiliserais les tablettes seulement pour certains projets. En fin de compte, l'outil compte moins que la façon dont on l'utilise.",
+              "en": "Tablets or textbooks: do we really have to choose? The debate about tablets at school comes up often. According to Lucie, a teacher, these tools motivate students more and allow schools to save money in the long term. Olivier, a father of two, on the contrary sees a danger: according to him, young people already spend far too much time in front of screens. As far as I'm concerned, I rather share Olivier's view, even if Lucie's arguments seem serious to me. Admittedly, a tablet can make a lesson more interactive. And yet several teachers I know have noticed that students are easily distracted by games and notifications. What's more, it's by writing by hand that we remember best, which is essential for learning. If I were a school principal, I would therefore keep paper textbooks, and use tablets only for certain projects. Ultimately, the tool matters less than the way it's used."
+            }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "Exam-style task (like TCF Canada, task 3): « Est-il nécessaire de parler la langue du pays où l'on vit pour s'y sentir chez soi ? » Give and justify your opinion for about three minutes: announce your position, develop two or three arguments with personal examples, include a concession, and conclude.",
+          "seconds": 180,
+          "checklist": [
+            "An introduction that reformulates the question and gives your position",
+            "Two or three arguments, each with a personal example",
+            "Narrative tenses in at least one example (imparfait, passé composé, plus-que-parfait)",
+            "A concession: Certes… / Il est vrai que… cependant…",
+            "Signposts and natural fillers (d'abord, passons à, en fait, disons)",
+            "A conclusion, possibly with a hypothesis (si + imparfait → conditionnel)"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Alors, la question est de savoir si on doit parler la langue d'un pays pour s'y sentir chez soi. À mon avis, oui, c'est très important. D'abord, la langue permet de comprendre les gens et la culture. Par exemple, quand je suis arrivé à Montréal, je ne comprenais pas les blagues de mes collègues, et je me sentais seul. Ensuite, la langue aide à trouver un bon emploi. C'est en parlant français que j'ai obtenu mon poste actuel. Certes, on peut vivre ici en anglais, surtout à Montréal. Cependant, on reste un peu à l'extérieur. Pour conclure, je dirais que la langue est une clé. Si je ne parlais pas français, je ne me sentirais pas vraiment chez moi.",
+              "en": "So, the question is whether you need to speak a country's language to feel at home there. In my opinion, yes, it's very important. First, language allows you to understand people and the culture. For example, when I arrived in Montréal, I didn't understand my colleagues' jokes, and I felt lonely. Next, language helps you find a good job. It was by speaking French that I got my current position. Admittedly, you can live here in English, especially in Montréal. However, you stay a little on the outside. To conclude, I'd say language is a key. If I didn't speak French, I wouldn't really feel at home."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "C'est une question que je me pose souvent, parce qu'elle correspond exactement à mon parcours. Pour moi, parler la langue n'est pas la seule condition pour se sentir chez soi, mais c'est, disons, la condition la plus importante. Je voudrais l'expliquer en deux points. D'abord, la langue crée des liens. Quand je suis arrivée à Moncton, je ne parlais presque pas français. Je saluais mes voisins, mais la conversation s'arrêtait là. Un jour, une voisine m'a invitée à un souper, et j'ai compris, euh, peut-être la moitié de ce qu'on disait. Pourtant, c'est ce soir-là que j'ai décidé de m'inscrire à des cours. Un an plus tard, je participais aux discussions, et je me sentais enfin membre du quartier. Passons maintenant à mon deuxième point : le travail. En fait, au Canada, beaucoup de postes exigent les deux langues officielles. Sans le français, je ne serais pas responsable d'une équipe aujourd'hui. Il est vrai, cependant, que la langue ne suffit pas. Certains de mes amis parlent très bien français, mais leur famille leur manque tellement qu'ils ne se sentent pas chez eux. Bref, pour résumer : la langue ouvre la porte, mais c'est à nous de faire le reste. Si je devais donner un seul conseil, je dirais : parlez, même avec des erreurs, dès le début.",
+              "en": "It's a question I often ask myself, because it matches my own journey exactly. For me, speaking the language isn't the only condition for feeling at home, but it is, let's say, the most important one. I'd like to explain this in two points. First, language creates bonds. When I arrived in Moncton, I hardly spoke any French. I said hello to my neighbours, but the conversation stopped there. One day, a neighbour invited me to a supper, and I understood, uh, maybe half of what people were saying. And yet it was that evening that I decided to sign up for classes. A year later, I was taking part in the discussions, and I finally felt like a member of the neighbourhood. Let's now move on to my second point: work. Actually, in Canada, many positions require both official languages. Without French, I wouldn't be in charge of a team today. It's true, however, that language isn't enough. Some of my friends speak French very well, but they miss their family so much that they don't feel at home. In short, to sum up: language opens the door, but it's up to us to do the rest. If I had to give just one piece of advice, I'd say: speak, even with mistakes, from the very start."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Read a long portrait and follow a podcast and a news bulletin that combine the whole B1 level\n- Mix the grammar of every B1 unit: narrative tenses, reported speech, the gerund, the passive, **si + imparfait → conditionnel**, relative pronouns, polite requests and connectors\n- Handle exam-style reading, listening, writing (TCF task 3) and speaking tasks, and talk about your journey: [[faire face à]], [[persévérer]], [[un tournant]], [[au fil des années]], [[faire le bilan]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Changed ça me perdait complètement to je m’y perdais complètement and une collègue to une amie (she wasn’t yet working). Removed wrong cloze answers (parti, allé) and replaced the niveau 7 example." }
+}

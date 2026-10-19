@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-06-02",
+  "level": "a2",
+  "unit": "a2-06",
+  "title": "At the doctor's",
+  "goal": "Get through a medical visit: check in at a clinic, explain what happened, answer the doctor's questions and follow instructions.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-imperatif-vous", "kind": "grammar", "fr": "Ouvrez la bouche. Allongez-vous.", "en": "the doctor's instructions (vous imperative)",
+      "drills": [
+        { "type": "cloze", "text": "___ profondément, s'il vous plaît. (respirer)", "answers": [["Respirez"]], "en": "Breathe deeply, please.", "explain": "The vous imperative is the vous form without [[vous]]: [[vous respirez → Respirez]]." },
+        { "type": "cloze", "text": "Allongez-___ sur la table. (s'allonger)", "answers": [["vous"]], "en": "Lie down on the table.", "explain": "With a reflexive verb, the pronoun comes after, with a hyphen: [[Allongez-vous]]." },
+        { "type": "mcq", "prompt": "“Don't drink alcohol.” (formal)", "options": ["Ne buvez pas d'alcool.", "Buvez pas d'alcool.", "Ne buvez pas de l'alcool."], "optionsFr": true, "answer": 0, "explain": "Negative imperative: [[ne]] + verb + [[pas]]; after a negative, [[de l']] → [[d']]." }
+      ] },
+    { "id": "g-histoire-symptomes", "kind": "grammar", "fr": "J'avais de la fièvre, alors j'ai pris…", "en": "telling your symptoms: imparfait and passé composé",
+      "drills": [
+        { "type": "cloze", "text": "Lundi soir, j'___ mal à la gorge. (avoir, state)", "answers": [["avais"]], "en": "On Monday evening, I had a sore throat.", "explain": "A state or background in the past → imparfait: [[j'avais]]." },
+        { "type": "cloze", "text": "Alors, j'___ de l'acétaminophène. (prendre, action)", "answers": [["ai pris"]], "en": "So I took some acetaminophen.", "explain": "A completed action → passé composé: [[j'ai pris]]." },
+        { "type": "translate", "prompt": "It started on Monday.", "accept": ["Ça a commencé lundi.", "Cela a commencé lundi."], "explain": "[[Ça a commencé]]: commencer takes avoir. No preposition before a day ([[le lundi]] would mean *on Mondays*)." }
+      ] },
+    { "id": "medecin", "kind": "vocab", "fr": "médecin", "article": "le", "gender": "m", "en": "doctor", "pos": "noun", "accept": ["un médecin", "la médecin", "le docteur", "la docteure"],
+      "example": { "fr": "Je dois voir un médecin.", "en": "I need to see a doctor." }, "note": "For a woman: [[la médecin]] or [[une médecin]]. Title: [[docteure]] (Québec) / [[docteur]]." },
+    { "id": "ordonnance", "kind": "vocab", "fr": "ordonnance", "article": "l'", "gender": "f", "en": "prescription", "pos": "noun", "accept": ["une ordonnance"],
+      "example": { "fr": "Voici votre ordonnance pour la pharmacie.", "en": "Here's your prescription for the pharmacy." } },
+    { "id": "medicament", "kind": "vocab", "fr": "médicament", "article": "le", "gender": "m", "en": "medication (medicine)", "pos": "noun", "accept": ["un médicament", "les médicaments"],
+      "example": { "fr": "Vous prenez des médicaments ?", "en": "Do you take any medication?" } },
+    { "id": "comprime", "kind": "vocab", "fr": "comprimé", "article": "le", "gender": "m", "en": "tablet (pill)", "pos": "noun", "accept": ["un comprimé", "la pilule", "une pilule"],
+      "example": { "fr": "Prenez un comprimé trois fois par jour.", "en": "Take one tablet three times a day." } },
+    { "id": "allergique", "kind": "vocab", "fr": "allergique", "en": "allergic", "pos": "adjective",
+      "example": { "fr": "Je suis allergique à la pénicilline.", "en": "I'm allergic to penicillin." } },
+    { "id": "respirer", "kind": "vocab", "fr": "respirer", "en": "to breathe", "pos": "verb",
+      "example": { "fr": "J'ai du mal à respirer.", "en": "I'm having trouble breathing." } },
+    { "id": "carte-assurance", "kind": "vocab", "fr": "carte d'assurance maladie", "article": "la", "gender": "f", "en": "health insurance card", "pos": "noun", "accept": ["une carte d'assurance maladie", "la carte d'assurance-maladie"],
+      "example": { "fr": "Votre carte d'assurance maladie, s'il vous plaît.", "en": "Your health insurance card, please." } },
+    { "id": "salle-attente", "kind": "vocab", "fr": "salle d'attente", "article": "la", "gender": "f", "en": "waiting room", "pos": "noun", "accept": ["une salle d'attente"],
+      "example": { "fr": "Attendez dans la salle d'attente, on va vous appeler.", "en": "Wait in the waiting room, we'll call you." } },
+    { "id": "vous-amene", "kind": "phrase", "fr": "Qu'est-ce qui vous amène aujourd'hui ?", "en": "What brings you here today? (doctor speaking)", "accept": ["Qu'est-ce qui vous amène ?"] },
+    { "id": "c-est-grave", "kind": "phrase", "fr": "Est-ce que c'est grave ?", "en": "Is it serious?", "accept": ["C'est grave ?"] },
+    { "id": "trois-fois", "kind": "phrase", "fr": "trois fois par jour", "en": "three times a day" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "At the walk-in clinic",
+      "intro": "Two days later, Sofia still has a fever. She goes to a walk-in clinic (clinique sans rendez-vous) near her home in Montréal.",
+      "blocks": [
+        { "type": "dialogue", "title": "At the reception desk",
+          "context": "Sofia arrives at the clinic at 8 a.m.",
+          "lines": [
+            { "speaker": "Réceptionniste", "fr": "Bonjour ! Votre carte d'assurance maladie, s'il vous plaît.", "en": "Hello! Your health insurance card, please." },
+            { "speaker": "Sofia", "fr": "Voilà. C'est ma première visite ici.", "en": "Here you go. It's my first visit here." },
+            { "speaker": "Réceptionniste", "fr": "Pas de problème. Remplissez ce formulaire, puis attendez dans la salle d'attente. Le médecin va vous appeler.", "en": "No problem. Fill in this form, then wait in the waiting room. The doctor will call you." },
+            { "speaker": "Sofia", "fr": "Il y a beaucoup d'attente ?", "en": "Is there a long wait?" },
+            { "speaker": "Réceptionniste", "fr": "Environ une heure, ce matin.", "en": "About an hour this morning." }
+          ] },
+        { "type": "dialogue", "title": "In the doctor's office",
+          "context": "Dr. Lavoie sees Sofia.",
+          "lines": [
+            { "speaker": "Dre Lavoie", "fr": "Bonjour, madame Reyes. Asseyez-vous. Qu'est-ce qui vous amène aujourd'hui ?", "en": "Hello, Ms. Reyes. Have a seat. What brings you here today?" },
+            { "speaker": "Sofia", "fr": "Ça a commencé lundi soir. J'avais mal à la gorge et j'étais très fatiguée. Puis, mardi, j'ai eu de la fièvre.", "en": "It started on Monday evening. I had a sore throat and I was very tired. Then, on Tuesday, I got a fever." },
+            { "speaker": "Dre Lavoie", "fr": "Vous avez pris quelque chose ?", "en": "Did you take anything?" },
+            { "speaker": "Sofia", "fr": "Oui, j'ai pris de l'acétaminophène. Ça m'a aidée un peu, mais la fièvre est revenue.", "en": "Yes, I took some acetaminophen. It helped me a bit, but the fever came back." },
+            { "speaker": "Dre Lavoie", "fr": "Vous êtes allergique à des médicaments ?", "en": "Are you allergic to any medications?" },
+            { "speaker": "Sofia", "fr": "Non, je n'ai pas d'allergies.", "en": "No, I don't have any allergies." },
+            { "speaker": "Dre Lavoie", "fr": "D'accord. Je vais vous examiner. Ouvrez la bouche… Dites « ah ». Bien. Maintenant, respirez profondément… Encore une fois. Toussez, s'il vous plaît.", "en": "OK. I'm going to examine you. Open your mouth… Say “ah”. Good. Now breathe deeply… Once more. Cough, please." },
+            { "speaker": "Sofia", "fr": "Est-ce que c'est grave ?", "en": "Is it serious?" },
+            { "speaker": "Dre Lavoie", "fr": "Non, ce n'est pas grave. Vos poumons sont normaux. C'est un virus, probablement la grippe. Les antibiotiques ne marchent pas contre les virus, alors reposez-vous et buvez beaucoup d'eau. Vous pouvez continuer l'acétaminophène pour la fièvre.", "en": "No, it's not serious. Your lungs are normal. It's a virus, probably the flu. Antibiotics don't work against viruses, so rest and drink lots of water. You can keep taking acetaminophen for the fever." },
+            { "speaker": "Sofia", "fr": "Et pour mon travail ? Mon employeur demande un billet médical.", "en": "And for my work? My employer is asking for a doctor's note." },
+            { "speaker": "Dre Lavoie", "fr": "Je vous fais un billet pour trois jours. Si la fièvre ne baisse pas, revenez ou appelez le 811. Et si vous avez du mal à respirer, allez à l'urgence ou appelez le 911.", "en": "I'll write you a note for three days. If the fever doesn't go down, come back or call 811. And if you have trouble breathing, go to the emergency room or call 911." }
+          ] },
+        { "type": "text", "title": "A prescription label",
+          "context": "The next week, Karim's doctor prescribes him something for an ear infection. Here is the label from the pharmacy.",
+          "fr": "Patient : Karim Haddad\nPrendre 1 comprimé 3 fois par jour, avec un repas.\nDurée du traitement : 7 jours.\nNe pas boire d'alcool.\nNe pas arrêter le traitement avant la fin, même si vous allez mieux.",
+          "en": "Patient: Karim Haddad. Take 1 tablet 3 times a day, with a meal. Length of treatment: 7 days. Do not drink alcohol. Do not stop the treatment before the end, even if you feel better." }
+      ] },
+    { "type": "understand", "title": "The consultation",
+      "blocks": [
+        { "type": "table", "title": "What the doctor asks",
+          "head": ["Question", "English", "Answer with…"],
+          "rows": [
+            ["Qu'est-ce qui vous amène ?", "What brings you here?", "J'ai mal à… / Je tousse…"],
+            ["Où avez-vous mal ?", "Where does it hurt?", "J'ai mal ici, au ventre."],
+            ["Ça a commencé quand ?", "When did it start?", "Ça a commencé lundi / hier soir."],
+            ["Vous avez de la fièvre ?", "Do you have a fever?", "Oui, 38,5 hier soir."],
+            ["Vous prenez des médicaments ?", "Do you take any medication?", "Oui, je prends… / Non, aucun."],
+            ["Vous êtes allergique à quelque chose ?", "Are you allergic to anything?", "Je suis allergique à la pénicilline."]
+          ],
+          "frCols": [0, 2], "sayCol": true },
+        { "type": "table", "title": "The doctor's instructions: the vous imperative",
+          "head": ["Verb", "Instruction", "English"],
+          "rows": [
+            ["ouvrir", "Ouvrez la bouche.", "Open your mouth."],
+            ["respirer", "Respirez profondément.", "Breathe deeply."],
+            ["tousser", "Toussez.", "Cough."],
+            ["s'allonger", "Allongez-vous ici.", "Lie down here."],
+            ["s'asseoir", "Asseyez-vous.", "Sit down."],
+            ["se reposer", "Reposez-vous.", "Rest."],
+            ["boire", "Buvez beaucoup d'eau.", "Drink lots of water."],
+            ["revenir", "Revenez dans une semaine.", "Come back in a week."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Take the [[vous]] form of the present and drop [[vous]]: [[vous toussez → Toussez]]. With reflexive verbs, the pronoun moves to the end: [[Reposez-vous]]. Negative: [[Ne buvez pas d'alcool.]] Labels often use the infinitive instead: [[Prendre 1 comprimé]], [[Ne pas boire d'alcool]]." },
+        { "type": "pattern", "title": "Telling your story",
+          "pattern": "imparfait (how you felt) + passé composé (what happened, what you did)",
+          "note": "Doctors want a short story. Use **ça a commencé** + when, then the imparfait for states and the passé composé for events and actions.",
+          "examples": [
+            { "fr": "Ça a commencé dimanche. J'avais mal au ventre.", "en": "It started on Sunday. I had a stomach ache." },
+            { "fr": "Lundi, j'ai vomi deux fois et j'ai eu de la fièvre.", "en": "On Monday, I threw up twice and I had a fever." },
+            { "fr": "J'ai pris de l'ibuprofène, mais ça n'a pas marché.", "en": "I took ibuprofen, but it didn't work." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["medecin", "ordonnance", "medicament", "comprime", "allergique", "respirer", "carte-assurance", "salle-attente"] },
+        { "type": "deepdive", "kind": "canada", "title": "Seeing a doctor in Canada",
+          "body": "- **Health card:** each province has its own public health insurance. In Québec, it's the **RAMQ** card ([[la carte d'assurance maladie]], still often called [[la carte soleil]]). In Ontario, it's the **OHIP** card. Bring it to every visit. Eligibility rules depend on your immigration status, so check with your province.\n- **Family doctor:** [[un médecin de famille]] follows you over time. Many people are on a waiting list for one. In Québec, you can register through the province's family doctor access service.\n- **Walk-in clinic:** [[une clinique sans rendez-vous]] sees patients without a regular doctor. Arrive early: places can fill up fast.\n- **Doctor's note:** in Québec, people often say [[un billet médical]] or [[un billet du médecin]].\n- **Acetaminophen:** Canada says [[l'acétaminophène]]; France says [[le paracétamol]]. Same medicine.\n- **Emergencies:** for a serious problem (chest pain, trouble breathing, a bad injury), call **911** or go to [[l'urgence]] (Québec) / [[les urgences]] (France)." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Médecin or docteur?** [[le médecin]] is the profession ([[Je vais chez le médecin]]); [[docteur / docteure]] is the title ([[Bonjour, docteure Lavoie]]).\n- **Chez le médecin:** you go *to the doctor's* = [[chez le médecin]], not [[au médecin]]. But [[à la clinique]], [[à l'hôpital]], [[à la pharmacie]].\n- **Allergic to:** [[allergique à]]: [[Je suis allergique aux arachides]] (to peanuts, Québec) / [[aux cacahuètes]] (France).\n- **Prendre for medicine:** [[prendre un médicament]] = take medicine. Not [[boire]] for pills." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Ça a commencé lundi soir.", "en": "It started on Monday evening.", "tip": "Ça a: two a sounds in a row, keep them both." },
+            { "fr": "J'avais mal à la gorge et j'étais très fatiguée.", "en": "I had a sore throat and I was very tired." },
+            { "fr": "Je suis allergique à la pénicilline.", "en": "I'm allergic to penicillin." },
+            { "fr": "Est-ce que c'est grave ?", "en": "Is it serious?" },
+            { "fr": "Respirez profondément.", "en": "Breathe deeply.", "tip": "profondément: *pro-fon-dé-man*." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Allongez-vous sur la table, s'il vous plaît. Je vais regarder votre ventre.", "en": "Lie down on the table, please. I'm going to look at your stomach.",
+          "prompt": "What does the doctor want you to do?", "options": ["Lie down on the table", "Sit on the chair", "Open your mouth"], "answer": 0,
+          "explain": "[[Allongez-vous]] = lie down. [[Asseyez-vous]] would be sit down." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Prenez deux comprimés le matin et un comprimé le soir, pendant cinq jours.", "en": "Take two tablets in the morning and one tablet in the evening, for five days.",
+          "prompt": "How many tablets do you take each day?", "options": ["Three", "Two", "Five"], "answer": 0,
+          "explain": "[[deux comprimés le matin]] + [[un comprimé le soir]] = three a day. Five is the number of days." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "The doctor asks “Qu'est-ce qui vous amène ?” What is the best answer?", "options": ["J'ai mal au ventre et j'ai de la fièvre.", "Je suis venu en autobus.", "Je m'appelle Raj.", "Oui, merci."], "optionsFr": true, "answer": 0,
+          "explain": "[[Qu'est-ce qui vous amène ?]] means *what brings you here?*, i.e. what's the problem.",
+          "optionFeedback": [null, "That answers how you came, not why.", "That's your name, not the problem.", "This isn't a yes/no question."] },
+        { "id": "r2", "type": "cloze", "text": "Lundi, j'___ très fatigué, et mardi, j'___ de la fièvre.", "answers": [["étais"], ["ai eu"]], "choices": ["étais", "suis", "avais", "ai eu"], "en": "On Monday, I was very tired, and on Tuesday, I got a fever.",
+          "explain": "A state → imparfait [[j'étais]]; the fever appeared → passé composé [[j'ai eu]]." },
+        { "id": "r3", "type": "cloze", "text": "___ la bouche et ___ « ah ».", "answers": [["Ouvrez"], ["dites"]], "choices": ["Ouvrez", "Ouvrir", "dites", "disez"], "en": "Open your mouth and say “ah”.",
+          "explain": "Vous imperative: [[Ouvrez]], [[dites]] (irregular: [[vous dites]])." },
+        { "id": "r4", "type": "translate", "prompt": "I'm allergic to penicillin.", "accept": ["Je suis allergique à la pénicilline."],
+          "explain": "[[être allergique à]] + article: [[à la pénicilline]]." },
+        { "id": "r5", "type": "match", "prompt": "Match the French and the English.", "pairs": [["l'ordonnance", "prescription"], ["le comprimé", "tablet"], ["la salle d'attente", "waiting room"], ["le médicament", "medication"], ["le billet médical", "doctor's note"]] },
+        { "id": "r6", "type": "listen-mcq", "fr": "Votre carte d'assurance maladie est expirée. Vous devez la renouveler, mais je peux quand même vous inscrire aujourd'hui.", "en": "Your health insurance card has expired. You need to renew it, but I can still register you today.",
+          "prompt": "What's the problem at reception?", "options": ["The health card has expired, but you can still see the doctor today.", "You have no appointment, so you must come back tomorrow.", "The clinic is full today."], "answer": 0,
+          "explain": "[[expirée]] = expired; [[je peux quand même vous inscrire]] = I can still register you." },
+        { "id": "r7", "type": "reorder", "prompt": "Take one tablet three times a day. (formal)", "accept": ["Prenez un comprimé trois fois par jour"], "extra": ["Prends"],
+          "explain": "[[Prenez]] is the vous imperative; [[Prends]] is the tu form. [[trois fois par jour]] = three times a day." },
+        { "id": "r8", "type": "translate", "prompt": "It started yesterday evening. I took some acetaminophen.", "accept": ["Ça a commencé hier soir. J'ai pris de l'acétaminophène.", "Cela a commencé hier soir. J'ai pris de l'acétaminophène.", "Ça a commencé hier soir. J'ai pris du paracétamol.", "Ça a commencé hier soir et j'ai pris de l'acétaminophène."],
+          "explain": "Two completed events → passé composé. [[de l'acétaminophène]]: partitive before a vowel. (In France: [[du paracétamol]].)" },
+        { "id": "r9", "type": "dictation", "fr": "Reposez-vous et buvez beaucoup d'eau.", "accept": [],
+          "explain": "Reflexive imperative [[Reposez-vous]] (with a hyphen); [[buvez]] from boire." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You are at a walk-in clinic. Answer the doctor: say what brings you here, when it started, your symptoms (imparfait and passé composé), what you took, whether you have allergies, and ask if it's serious.", "seconds": 50,
+          "checklist": ["Bonjour, docteur / docteure.", "Ça a commencé… (when)", "States in the imparfait: J'avais mal à… / J'étais…", "Events in the passé composé: J'ai eu de la fièvre / J'ai vomi…", "What you took: J'ai pris…", "Allergies: Je suis allergique à… / Je n'ai pas d'allergies.", "Est-ce que c'est grave ?"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, docteur. J'ai mal à l'oreille droite. Ça a commencé samedi. J'avais un rhume, puis dimanche, j'ai eu très mal à l'oreille et j'ai eu un peu de fièvre. J'ai pris de l'ibuprofène, mais j'ai encore mal. Je ne prends pas d'autres médicaments, et je n'ai pas d'allergies. Est-ce que c'est grave ?", "en": "Hello, doctor. My right ear hurts. It started on Saturday. I had a cold, then on Sunday my ear hurt a lot and I had a bit of a fever. I took ibuprofen, but it still hurts. I don't take any other medication, and I don't have any allergies. Is it serious?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Fill in the clinic's form in short sentences: the reason for your visit, when it started, your symptoms, the medication you take, and your allergies.", "promptFr": "Raison de la visite, début des symptômes, symptômes, médicaments, allergies.", "wordRange": [25, 50],
+          "checklist": ["Raison de la visite : J'ai mal à…", "Début : Ça a commencé…", "Symptômes : fièvre, toux… (past tenses)", "Médicaments : Je prends… / aucun", "Allergies : Je suis allergique à… / aucune"],
+          "models": [ { "label": "Model answer", "fr": "Raison de la visite : J'ai mal à la gorge et je tousse beaucoup.\nDébut : Ça a commencé jeudi.\nSymptômes : Jeudi, j'étais fatiguée. Vendredi, j'ai eu de la fièvre, 38,9.\nMédicaments : J'ai pris de l'acétaminophène vendredi et samedi.\nAllergies : Je suis allergique aux arachides.", "en": "Reason for visit: I have a sore throat and I'm coughing a lot. Start: It started on Thursday. Symptoms: On Thursday, I was tired. On Friday, I had a fever, 38.9. Medication: I took acetaminophen on Friday and Saturday. Allergies: I'm allergic to peanuts." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Check in at a clinic: [[Votre carte d'assurance maladie, s'il vous plaît.]]\n- Tell the doctor your story: [[Ça a commencé lundi. J'avais mal à la gorge, puis j'ai eu de la fièvre.]]\n- Understand instructions in the vous imperative: [[Ouvrez la bouche. Respirez. Reposez-vous.]]\n- Know your Canadian health basics: RAMQ / OHIP card, walk-in clinic, 811, 911",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Trouble breathing now sends the patient to the ER / 911, not 811. Removed wrong accepts ('le lundi' = on Mondays, 'C'est arrivé' for 'started') and the defensible distractor 'ai été' in r2." }
+}

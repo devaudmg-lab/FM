@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "name": "TEF Canada",
+  "provider": "Le français des affaires (CCI Paris Île-de-France)",
+  "verifiedOn": "2026-10-17",
+  "sourceUrl": "https://www.lefrancaisdesaffaires.fr/tests-diplomes/test-evaluation-francais-tef/tef-canada/",
+  "notes": [
+    "All four tests must be taken on the same day for the certificate to be recognized.",
+    "Results are valid for 2 years.",
+    "Results show a score out of 699 and an “équivalence ancien score”; IRCC uses the équivalence ancien score for each ability."
+  ],
+  "abilities": {
+    "ce": { "name": "Compréhension de l’écrit", "en": "Reading", "minutes": 60, "items": 40, "format": "Multiple choice, 1 point per correct answer, no penalty for wrong answers.",
+      "strategy": ["Answer every question — a blank scores the same as a wrong answer.", "Read the question before the document, then scan for the answer.", "Correct options usually paraphrase the text instead of copying its words.", "About 90 seconds per question: do not get stuck; mark it and move on."] },
+    "co": { "name": "Compréhension de l’oral", "en": "Listening", "minutes": 40, "items": 40, "format": "Multiple choice on recorded documents, 1 point per correct answer.", "maxPlays": 1,
+      "strategy": ["Read the question and options before the audio starts.", "Listen for the speaker’s intention and attitude, not only facts.", "Numbers, dates and times are frequent targets — note them as you hear them.", "Each recording is usually played only once: choose and move on."] },
+    "ee": { "name": "Expression écrite", "en": "Writing", "minutes": 60, "sections": [
+      { "id": "A", "title": "Écrire la suite d’un article", "en": "Continue a news article", "minutes": 25, "minWords": 80, "maxWords": 120 },
+      { "id": "B", "title": "Exprimer et justifier un point de vue", "en": "Express and justify a point of view", "minutes": 35, "minWords": 200, "maxWords": 250 }
+    ], "strategy": ["Section A: keep the article’s journalistic, factual style and tense consistent (passé composé / imparfait); answer who, what, where, when, why.", "Section B: state your position clearly, give at least three developed arguments with examples, and use connectors.", "Spend 3–5 minutes planning and 3 minutes rereading for agreement and accents."] },
+    "eo": { "name": "Expression orale", "en": "Speaking", "minutes": 15, "sections": [
+      { "id": "A", "title": "Obtenir des renseignements", "en": "Obtain information", "minutes": 5 },
+      { "id": "B", "title": "Argumenter pour convaincre", "en": "Argue to convince", "minutes": 10 }
+    ], "strategy": ["Section A: you call or meet someone about a document (an ad, a flyer). Ask around 10 varied, polite questions using vous.", "Section B: you try to convince a friend to do something presented in a document. Use several arguments, answer objections and stay friendly (tu).", "Fill silences with natural connectors and reformulate if you lose a word."] }
+  }
+}

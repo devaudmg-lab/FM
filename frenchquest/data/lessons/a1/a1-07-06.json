@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-07-06",
+  "level": "a1",
+  "unit": "a1-07",
+  "title": "Workshop: Home and city",
+  "goal": "Visit an apartment for rent, understand a landlord's message and a mall announcement, and describe a building and the way to your door.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "loyer",
+      "kind": "vocab",
+      "fr": "loyer",
+      "article": "le",
+      "gender": "m",
+      "en": "rent (money paid for a home)",
+      "pos": "noun",
+      "example": {
+        "fr": "Le loyer, c'est 950 $ par mois.",
+        "en": "The rent is $950 a month."
+      }
+    },
+    {
+      "id": "proprietaire",
+      "kind": "vocab",
+      "fr": "propriétaire",
+      "article": "le",
+      "gender": "m",
+      "en": "landlord, owner (m)",
+      "pos": "noun",
+      "accept": [
+        "la propriétaire",
+        "propriétaire"
+      ],
+      "note": "Same word for a woman: la propriétaire.",
+      "example": {
+        "fr": "Le propriétaire habite au premier étage.",
+        "en": "The landlord lives on the first floor."
+      }
+    },
+    {
+      "id": "immeuble",
+      "kind": "vocab",
+      "fr": "immeuble",
+      "article": "l'",
+      "gender": "m",
+      "en": "apartment building",
+      "pos": "noun",
+      "example": {
+        "fr": "Mon immeuble est en face du parc.",
+        "en": "My building is opposite the park."
+      }
+    },
+    {
+      "id": "etage",
+      "kind": "vocab",
+      "fr": "étage",
+      "article": "l'",
+      "gender": "m",
+      "en": "floor, storey (of a building)",
+      "pos": "noun",
+      "note": "au deuxième étage = on the second floor",
+      "example": {
+        "fr": "J'habite au troisième étage.",
+        "en": "I live on the third floor."
+      }
+    },
+    {
+      "id": "ascenseur",
+      "kind": "vocab",
+      "fr": "ascenseur",
+      "article": "l'",
+      "gender": "m",
+      "en": "elevator",
+      "pos": "noun",
+      "example": {
+        "fr": "Il n'y a pas d'ascenseur.",
+        "en": "There's no elevator."
+      }
+    },
+    {
+      "id": "escalier",
+      "kind": "vocab",
+      "fr": "escalier",
+      "article": "l'",
+      "gender": "m",
+      "en": "stairs, staircase",
+      "pos": "noun",
+      "note": "French usually says it in the singular: on prend l'escalier.",
+      "example": {
+        "fr": "Prenez l'escalier, à droite.",
+        "en": "Take the stairs, on the right."
+      }
+    },
+    {
+      "id": "fenetre",
+      "kind": "vocab",
+      "fr": "fenêtre",
+      "article": "la",
+      "gender": "f",
+      "en": "window",
+      "pos": "noun",
+      "example": {
+        "fr": "Il y a une grande fenêtre dans le salon.",
+        "en": "There's a big window in the living room."
+      }
+    },
+    {
+      "id": "porte",
+      "kind": "vocab",
+      "fr": "porte",
+      "article": "la",
+      "gender": "f",
+      "en": "door",
+      "pos": "noun",
+      "example": {
+        "fr": "L'arrêt d'autobus est devant la porte.",
+        "en": "The bus stop is in front of the door."
+      }
+    },
+    {
+      "id": "stationnement",
+      "kind": "vocab",
+      "fr": "stationnement",
+      "article": "le",
+      "gender": "m",
+      "en": "parking, parking lot (Canada)",
+      "pos": "noun",
+      "note": "In France: le parking.",
+      "accept": [
+        "parking",
+        "le parking"
+      ],
+      "example": {
+        "fr": "Le stationnement est derrière l'immeuble.",
+        "en": "The parking lot is behind the building."
+      }
+    },
+    {
+      "id": "centre-commercial",
+      "kind": "vocab",
+      "fr": "centre commercial",
+      "article": "le",
+      "gender": "m",
+      "en": "shopping mall, shopping centre",
+      "pos": "noun",
+      "example": {
+        "fr": "Le centre commercial est loin d'ici.",
+        "en": "The mall is far from here."
+      }
+    },
+    {
+      "id": "calme",
+      "kind": "vocab",
+      "fr": "calme",
+      "en": "quiet, calm (place or person)",
+      "pos": "adjective",
+      "note": "Same form for masculine and feminine.",
+      "example": {
+        "fr": "La chambre est petite, mais calme.",
+        "en": "The bedroom is small but quiet."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Visiting an apartment",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "An apartment for rent in Québec City",
+          "context": "Alex is moving to Québec City for a new job. He visits an apartment with the landlord, Paul Bouchard.",
+          "lines": [
+            {
+              "speaker": "M. Bouchard",
+              "fr": "Bonjour, monsieur ! Je suis Paul Bouchard, le propriétaire. Bienvenue !",
+              "en": "Hello, sir! I'm Paul Bouchard, the landlord. Welcome!"
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Bonjour ! Enchanté. L'appartement est à quel étage ?",
+              "en": "Hello! Nice to meet you. Which floor is the apartment on?"
+            },
+            {
+              "speaker": "M. Bouchard",
+              "fr": "Au troisième étage. Il n'y a pas d'ascenseur, désolé. On prend l'escalier.",
+              "en": "On the third floor. There's no elevator, sorry. We take the stairs."
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Pas de problème… Oh, c'est grand ! Il y a combien de pièces ?",
+              "en": "No problem… Oh, it's big! How many rooms are there?"
+            },
+            {
+              "speaker": "M. Bouchard",
+              "fr": "C'est un trois et demie : il y a un salon, une cuisine, une chambre et une salle de bains.",
+              "en": "It's a three and a half: there's a living room, a kitchen, a bedroom and a bathroom."
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Il y a une grande fenêtre dans le salon. C'est très beau !",
+              "en": "There's a big window in the living room. It's really nice!"
+            },
+            {
+              "speaker": "M. Bouchard",
+              "fr": "Oui, et devant la fenêtre, il y a un petit balcon. La cuisine est à côté du salon, et la chambre est à droite de la salle de bains.",
+              "en": "Yes, and in front of the window there's a small balcony. The kitchen is next to the living room, and the bedroom is to the right of the bathroom."
+            },
+            {
+              "speaker": "Alex",
+              "fr": "La chambre est petite, mais elle est calme. Et le loyer, c'est combien ?",
+              "en": "The bedroom is small, but it's quiet. And how much is the rent?"
+            },
+            {
+              "speaker": "M. Bouchard",
+              "fr": "C'est 950 $ par mois. Vous avez une voiture ? Il y a un stationnement derrière l'immeuble.",
+              "en": "It's $950 a month. Do you have a car? There's a parking lot behind the building."
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Non, je n'ai pas de voiture. Je vais au travail à vélo ! Il y a une épicerie près d'ici ?",
+              "en": "No, I don't have a car. I go to work by bike! Is there a grocery store near here?"
+            },
+            {
+              "speaker": "M. Bouchard",
+              "fr": "Oui, il y a une épicerie au coin de la rue et une pharmacie en face de l'immeuble. Le centre commercial est loin, mais l'arrêt d'autobus est devant la porte.",
+              "en": "Yes, there's a grocery store at the corner of the street and a pharmacy opposite the building. The mall is far, but the bus stop is in front of the door."
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Super. Et pour aller à l'université ?",
+              "en": "Great. And to get to the university?"
+            },
+            {
+              "speaker": "M. Bouchard",
+              "fr": "C'est facile. Prenez la rue des Érables, allez tout droit et tournez à gauche au deuxième feu. À vélo, c'est à vingt minutes.",
+              "en": "It's easy. Take Rue des Érables, go straight ahead and turn left at the second set of lights. By bike, it's twenty minutes."
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Parfait ! J'aime beaucoup l'appartement. Merci, monsieur Bouchard.",
+              "en": "Perfect! I really like the apartment. Thank you, Mr. Bouchard."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Listen to the whole visit once without the English. Then read it and check the questions below."
+        },
+        {
+          "id": "c1",
+          "type": "mcq",
+          "prompt": "Why does Alex take the stairs?",
+          "options": [
+            "There's no elevator.",
+            "The elevator is far.",
+            "He lives on the first floor."
+          ],
+          "answer": 0,
+          "explain": "[[Il n'y a pas d'ascenseur]]: there is no elevator, so [[on prend l'escalier]]."
+        },
+        {
+          "id": "c2",
+          "type": "mcq",
+          "prompt": "What is opposite the building?",
+          "options": [
+            "A pharmacy",
+            "A grocery store",
+            "The mall",
+            "The parking lot"
+          ],
+          "answer": 0,
+          "explain": "[[une pharmacie en face de l'immeuble]]. The grocery store is at the corner, the parking lot is behind, and the mall is far.",
+          "optionFeedback": [
+            null,
+            "The grocery store is au coin de la rue (at the corner).",
+            "Le centre commercial est loin: it's far away.",
+            "The parking lot is derrière l'immeuble (behind)."
+          ]
+        },
+        {
+          "id": "c3",
+          "type": "mcq",
+          "prompt": "How does Alex get to work?",
+          "options": [
+            "By bike",
+            "By car",
+            "By bus",
+            "On foot"
+          ],
+          "answer": 0,
+          "explain": "[[Je vais au travail à vélo]]. He says he has no car: [[je n'ai pas de voiture]]."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 7 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit at a glance",
+          "head": [
+            "To…",
+            "French"
+          ],
+          "rows": [
+            [
+              "say what there is / isn't",
+              "il y a un / il n'y a pas de"
+            ],
+            [
+              "say where",
+              "sur, sous, devant, derrière, à côté de…"
+            ],
+            [
+              "say where you go",
+              "au, à la, à l', aux"
+            ],
+            [
+              "give directions",
+              "tournez, allez, prenez, traversez"
+            ],
+            [
+              "say how you travel",
+              "en bus, en métro, à pied, à vélo"
+            ]
+          ],
+          "frCols": [
+            1
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Keep in mind",
+          "body": "- **de + le = du**, **à + le = au** (plural: **des**, **aux**): [[en face du parc]], [[au coin]].\n- After **il n'y a pas**, use **de / d'**: [[pas d'ascenseur]].\n- **en** for vehicles you sit inside ([[en métro]]); **à** for [[à vélo]] and [[à pied]]."
+        },
+        {
+          "type": "vocab",
+          "title": "New words: buildings and the city",
+          "itemIds": [
+            "loyer",
+            "proprietaire",
+            "immeuble",
+            "etage",
+            "ascenseur",
+            "escalier",
+            "fenetre",
+            "porte",
+            "stationnement",
+            "centre-commercial",
+            "calme"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "body": "In Canada, [[le stationnement]] is the usual word for parking; in France you will hear [[le parking]].\n\nFloors can be confusing. In France, the ground floor is [[le rez-de-chaussée]] and [[le premier étage]] is one floor up. In Québec, you may hear [[le premier étage]] for the ground floor (as in English Canada), but many people also say [[le rez-de-chaussée]]. If it matters, just ask: [[C'est à quel étage ?]]"
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listen in new places",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A voicemail from the landlord",
+          "context": "The next day, Paul Bouchard leaves a message for Alex.",
+          "fr": "Bonjour Alex, c'est Paul Bouchard, le propriétaire de l'appartement de la rue des Érables. Bonne nouvelle : le premier juillet, l'appartement est à vous ! Le loyer, c'est neuf cent cinquante dollars par mois. La clé est chez ma voisine, madame Gagnon. Elle habite au premier étage, à côté de l'escalier. Merci et bonne soirée !",
+          "en": "Hello Alex, it's Paul Bouchard, the landlord of the apartment on Rue des Érables. Good news: on July 1st, the apartment is yours! The rent is nine hundred and fifty dollars a month. The key is at my neighbour's, Mrs. Gagnon. She lives on the first floor, next to the stairs. Thank you and have a good evening!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Bonne nouvelle : le premier juillet, l'appartement est à vous !",
+          "en": "Good news: on July 1st, the apartment is yours!",
+          "prompt": "When is the apartment Alex's?",
+          "options": [
+            "On July 1st",
+            "On June 1st",
+            "On January 1st"
+          ],
+          "answer": 0,
+          "explain": "[[juillet]] = July. In Québec, many leases start on July 1st."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "La clé est chez ma voisine, madame Gagnon. Elle habite au premier étage, à côté de l'escalier.",
+          "en": "The key is at my neighbour's, Mrs. Gagnon. She lives on the first floor, next to the stairs.",
+          "prompt": "Where is the key?",
+          "options": [
+            "At the neighbour's, on the first floor",
+            "At the neighbour's, on the third floor",
+            "At the landlord's, on the third floor"
+          ],
+          "answer": 0,
+          "explain": "[[chez ma voisine]] = at my neighbour's place; [[au premier étage]] = on the first floor."
+        },
+        {
+          "type": "listen",
+          "title": "An announcement at the mall",
+          "context": "Alex goes to a shopping mall to buy things for his new apartment. He hears an announcement.",
+          "fr": "Mesdames et messieurs, bonjour et bienvenue au centre commercial du Parc ! Le stationnement est derrière le centre commercial. Les toilettes sont au deuxième étage, à côté de l'ascenseur. Le café est entre la boulangerie et le supermarché. Et pour prendre l'autobus, l'arrêt est devant la porte numéro deux. Bonne journée !",
+          "en": "Ladies and gentlemen, hello and welcome to the Parc shopping mall! The parking lot is behind the mall. The washrooms are on the second floor, next to the elevator. The café is between the bakery and the supermarket. And to take the bus, the stop is in front of door number two. Have a good day!"
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Les toilettes sont au deuxième étage, à côté de l'ascenseur.",
+          "en": "The washrooms are on the second floor, next to the elevator.",
+          "prompt": "Where are the washrooms?",
+          "options": [
+            "Second floor, next to the elevator",
+            "Second floor, behind the stairs",
+            "First floor, next to the café"
+          ],
+          "answer": 0,
+          "explain": "[[au deuxième étage]] = on the second floor; [[à côté de l'ascenseur]] = next to the elevator."
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "Le café est entre la boulangerie et le supermarché.",
+          "en": "The café is between the bakery and the supermarket.",
+          "prompt": "Where is the café?",
+          "options": [
+            "Between the bakery and the supermarket",
+            "Opposite the bakery",
+            "Behind the supermarket"
+          ],
+          "answer": 0,
+          "explain": "[[entre… et…]] = between… and…"
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "Pour prendre l'autobus, l'arrêt est devant la porte numéro deux.",
+          "en": "To take the bus, the stop is in front of door number two.",
+          "prompt": "Where is the bus stop?",
+          "options": [
+            "In front of door 2",
+            "Behind door 2",
+            "In front of door 12"
+          ],
+          "answer": 0,
+          "explain": "[[devant]] = in front of; [[deux]] = 2 (12 is [[douze]])."
+        },
+        {
+          "id": "h6",
+          "type": "dictation",
+          "fr": "Le stationnement est derrière l'immeuble.",
+          "accept": [],
+          "explain": "[[derrière]] has a grave accent: è. [[immeuble]] has a double m."
+        },
+        {
+          "id": "h7",
+          "type": "dictation",
+          "fr": "Prenez l'escalier, à côté de la pharmacie.",
+          "accept": [
+            "Prenez l'escalier à côté de la pharmacie."
+          ],
+          "explain": "[[Prenez]] is the vous imperative of prendre. Watch the accents in [[à côté de]]: à (grave), côté (circumflex on o, acute on e)."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most are about this unit, some bring back Units 3 to 6. Answer without scrolling back.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Il n'y a pas ___ stationnement derrière l'immeuble.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "choices": [
+            "de",
+            "du",
+            "le",
+            "un"
+          ],
+          "en": "There's no parking lot behind the building.",
+          "explain": "After [[il n'y a pas]], [[un / une / des]] becomes [[de]]."
+        },
+        {
+          "id": "r2",
+          "type": "mcq",
+          "prompt": "“The bank is opposite the park.” Which is correct?",
+          "options": [
+            "La banque est en face du parc.",
+            "La banque est en face de le parc.",
+            "La banque est en face le parc.",
+            "La banque est en face des parc."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[en face de]] + [[le parc]] → [[en face du parc]].",
+          "optionFeedback": [
+            null,
+            "De + le always contracts to du.",
+            "En face needs de: en face de.",
+            "Des is for plural nouns: des parcs."
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "translate",
+          "prompt": "There's no elevator, so I take the stairs.",
+          "accept": [
+            "Il n'y a pas d'ascenseur, alors je prends l'escalier.",
+            "Il n'y a pas d'ascenseur alors je prends l'escalier.",
+            "Il n'y a pas d'ascenseur, donc je prends l'escalier.",
+            "Il n'y a pas d'ascenseur donc je prends l'escalier.",
+            "Il n'y a pas d'ascenseur, alors je prends les escaliers.",
+            "Il n'y a pas d'ascenseur alors je prends les escaliers.",
+            "Il n'y a pas d'ascenseur, donc je prends les escaliers.",
+            "Il n'y a pas d'ascenseur donc je prends les escaliers."
+          ],
+          "hint": "il n'y a pas d'… / je prends…",
+          "explain": "[[pas de]] becomes [[pas d']] before a vowel: [[pas d'ascenseur]]. Use [[prendre]] for stairs, like for the bus."
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "___ la rue et tournez à droite. (Cross — to a stranger)",
+          "answers": [
+            [
+              "Traversez"
+            ]
+          ],
+          "choices": [
+            "Traversez",
+            "Traverse",
+            "Traverser",
+            "Tournez"
+          ],
+          "en": "Cross the street and turn right.",
+          "explain": "With a stranger, use the vous imperative: [[traversez]], without [[vous]]."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "The pharmacy is opposite the building.",
+          "accept": [
+            "La pharmacie est en face de l'immeuble."
+          ],
+          "extra": [
+            "du"
+          ],
+          "explain": "[[immeuble]] starts with a vowel, so [[de + l'immeuble]] does not change."
+        },
+        {
+          "id": "r6",
+          "type": "match",
+          "prompt": "Match the building words.",
+          "pairs": [
+            [
+              "le loyer",
+              "rent"
+            ],
+            [
+              "l'ascenseur",
+              "elevator"
+            ],
+            [
+              "l'escalier",
+              "stairs"
+            ],
+            [
+              "la fenêtre",
+              "window"
+            ],
+            [
+              "le stationnement",
+              "parking lot"
+            ]
+          ]
+        },
+        {
+          "id": "r7",
+          "type": "listen-mcq",
+          "fr": "Prenez l'ascenseur et allez au quatrième étage.",
+          "en": "Take the elevator and go to the fourth floor.",
+          "prompt": "Which floor?",
+          "options": [
+            "The 4th floor",
+            "The 3rd floor",
+            "The 14th floor"
+          ],
+          "answer": 0,
+          "explain": "[[quatrième]] = fourth (14th would be [[quatorzième]])."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "Le centre commercial est près de la station de métro.",
+          "accept": [],
+          "explain": "[[près de]] = near; [[la station]] is feminine, so no contraction: [[près de la station]]."
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "___ parents habitent dans un grand immeuble à Toronto.",
+          "answers": [
+            [
+              "Mes"
+            ]
+          ],
+          "choices": [
+            "Mes",
+            "Ma",
+            "Mon",
+            "Me"
+          ],
+          "en": "My parents live in a big apartment building in Toronto.",
+          "explain": "Unit 4: [[parents]] is plural, so [[mes]]."
+        },
+        {
+          "id": "r10",
+          "type": "translate",
+          "prompt": "I get up at seven and I walk to work.",
+          "accept": [
+            "Je me lève à sept heures et je vais au travail à pied.",
+            "Je me lève à 7 heures et je vais au travail à pied.",
+            "Je me lève à 7 h et je vais au travail à pied.",
+            "Je me lève à sept heures et je vais à pied au travail.",
+            "Je me lève à 7h et je vais au travail à pied.",
+            "Je me lève à 7 heures et je vais à pied au travail.",
+            "Je me lève à 7 h et je vais à pied au travail.",
+            "Je me lève à 7h et je vais à pied au travail."
+          ],
+          "hint": "se lever… aller au travail à pied",
+          "explain": "Unit 5: [[je me lève]] keeps the reflexive [[me]]. “Walk to work” = [[aller au travail à pied]]."
+        },
+        {
+          "id": "r11",
+          "type": "mcq",
+          "prompt": "“In the kitchen, there's bread but there's no milk.” Which is correct?",
+          "options": [
+            "Dans la cuisine, il y a du pain, mais il n'y a pas de lait.",
+            "Dans la cuisine, il y a du pain, mais il n'y a pas du lait.",
+            "Dans la cuisine, il y a le pain, mais il n'y a pas de lait.",
+            "Dans la cuisine, il y a de pain, mais il n'y a pas de lait."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Unit 6: some bread = [[du pain]]; after a negation, [[du]] becomes [[de]]: [[pas de lait]].",
+          "optionFeedback": [
+            null,
+            "After a negation, du becomes de: pas de lait.",
+            "For “some” bread, use du, not le.",
+            "In a positive sentence, “some bread” is du pain."
+          ]
+        },
+        {
+          "id": "r12",
+          "type": "cloze",
+          "text": "Nous ___ un appartement au troisième étage, avec deux chambres.",
+          "answers": [
+            [
+              "avons"
+            ]
+          ],
+          "choices": [
+            "avons",
+            "sommes",
+            "avez",
+            "ont"
+          ],
+          "en": "We have an apartment on the third floor, with two bedrooms.",
+          "explain": "Unit 3: nous → [[avons]] (to have). [[Sommes]] is être."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "You are renting out your apartment for the summer. Write an ad for a newcomers' notice board: the type of home and the floor, the rooms, one or two details about the building, what there is in the neighbourhood, how to get around, and the rent.",
+          "wordRange": [
+            40,
+            70
+          ],
+          "checklist": [
+            "Type of home and floor (au deuxième étage…)",
+            "The rooms with il y a",
+            "The building: ascenseur, escalier, stationnement…",
+            "Two places nearby with a preposition",
+            "Transport (en métro, à pied…)",
+            "The rent: le loyer, c'est… par mois"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Appartement à Rosemont, pour l'été. C'est un quatre et demie au deuxième étage. Il y a deux chambres, un salon, une cuisine et une salle de bains. Il y a un ascenseur. Près de l'immeuble, il y a une épicerie et un parc. La station de métro est à cinq minutes à pied. Le loyer, c'est 1 200 $ par mois.",
+              "en": "Apartment in Rosemont, for the summer. It's a four and a half on the second floor. There are two bedrooms, a living room, a kitchen and a bathroom. There's an elevator. Near the building there's a grocery store and a park. The metro station is five minutes away on foot. The rent is $1,200 a month."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Joli trois et demie à Gatineau, pour juillet et août. L'appartement est au troisième étage. Il n'y a pas d'ascenseur. La chambre est calme et le salon a une grande fenêtre. Il y a un stationnement derrière l'immeuble. La boulangerie est en face, et l'arrêt d'autobus est au coin de la rue. Le loyer, c'est 1 100 $ par mois.",
+              "en": "Lovely three and a half in Gatineau, for July and August. The apartment is on the third floor. There's no elevator. The bedroom is quiet and the living room has a big window. There's a parking lot behind the building. The bakery is opposite, and the bus stop is at the corner of the street. The rent is $1,100 a month."
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "A friend is coming to your place for the first time. On the phone, explain how to get there from the nearest bus stop or metro station, then how to find your apartment in the building (floor, elevator or stairs, door).",
+          "seconds": 60,
+          "checklist": [
+            "Start from a bus stop or metro station",
+            "At least three directions (allez, tournez, prenez, traversez)",
+            "A landmark with a preposition (en face de, à côté de…)",
+            "The building and the floor",
+            "Elevator or stairs, and the door"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut ! Alors, prends le métro, ligne verte, jusqu'à la station Verdun. Va tout droit dans la rue de l'Église. Au feu, tourne à droite. Mon immeuble est en face de la pharmacie. J'habite au deuxième étage. Il y a un ascenseur, à côté de la porte. Mon appartement, c'est le numéro huit. C'est à cinq minutes à pied. À bientôt !",
+              "en": "Hi! So, take the metro, green line, as far as Verdun station. Go straight ahead on Rue de l'Église. At the lights, turn right. My building is opposite the pharmacy. I live on the second floor. There's an elevator next to the door. My apartment is number eight. It's five minutes on foot. See you soon!"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour ! C'est facile. Prends l'autobus 45 jusqu'à l'arrêt Saint-Joseph, devant la bibliothèque. Traverse la rue et va tout droit. Prends la première rue à gauche. Au coin de la rue, il y a une petite boulangerie : mon immeuble est à côté. Il n'y a pas d'ascenseur, alors prends l'escalier. J'habite au troisième étage, la porte à droite. Il n'y a pas de stationnement, mais l'autobus, c'est parfait !",
+              "en": "Hello! It's easy. Take bus 45 as far as the Saint-Joseph stop, in front of the library. Cross the street and go straight ahead. Take the first street on the left. At the corner, there's a small bakery: my building is next to it. There's no elevator, so take the stairs. I live on the third floor, the door on the right. There's no parking, but the bus is perfect!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Visit an apartment and ask about the floor, the rooms and [[le loyer]]\n- Name the parts of a building: [[l'étage, l'ascenseur, l'escalier, la porte, la fenêtre, le stationnement]]\n- Understand a landlord's voicemail and a mall announcement\n- Explain the way to your door, from the bus stop to your floor",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Hedged the Québec 'premier étage' claim (both usages exist). Added accepted variants (les escaliers, donc, 7h) and replaced a weak listening distractor; fixed the accent explanation in a dictation."
+  }
+}

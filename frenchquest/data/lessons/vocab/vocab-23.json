@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-23",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Describing words and -ment adverbs",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "adjectives for impressions and states; adverbs of manner and frequency",
+  "goal": "Recognise and use 23 adjectives and adverbs that add colour and precision to what you say.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "splendide",
+      "kind": "vocab",
+      "fr": "splendide",
+      "en": "splendid, gorgeous",
+      "pos": "adjective",
+      "example": {
+        "fr": "Il fait un temps splendide aujourd'hui.",
+        "en": "The weather is gorgeous today."
+      }
+    },
+    {
+      "id": "fabuleux",
+      "kind": "vocab",
+      "fr": "fabuleux",
+      "fem": "fabuleuse",
+      "en": "fabulous",
+      "pos": "adjective",
+      "accept": [
+        "fabuleuse"
+      ],
+      "example": {
+        "fr": "On a passé une soirée fabuleuse.",
+        "en": "We had a fabulous evening."
+      }
+    },
+    {
+      "id": "divin",
+      "kind": "vocab",
+      "fr": "divin",
+      "fem": "divine",
+      "en": "divine, heavenly",
+      "pos": "adjective",
+      "accept": [
+        "divine"
+      ],
+      "example": {
+        "fr": "Ce gâteau au chocolat est divin !",
+        "en": "This chocolate cake is heavenly!"
+      }
+    },
+    {
+      "id": "eternel",
+      "kind": "vocab",
+      "fr": "éternel",
+      "fem": "éternelle",
+      "en": "eternal, never-ending",
+      "pos": "adjective",
+      "accept": [
+        "éternelle"
+      ],
+      "example": {
+        "fr": "Avec lui, c'est l'éternel problème du retard.",
+        "en": "With him, it's the never-ending problem of being late."
+      }
+    },
+    {
+      "id": "ultime",
+      "kind": "vocab",
+      "fr": "ultime",
+      "en": "ultimate, final",
+      "pos": "adjective",
+      "example": {
+        "fr": "C'est notre ultime chance de gagner.",
+        "en": "It's our final chance to win."
+      }
+    },
+    {
+      "id": "tragique",
+      "kind": "vocab",
+      "fr": "tragique",
+      "en": "tragic",
+      "pos": "adjective",
+      "example": {
+        "fr": "Il est mort dans un accident tragique.",
+        "en": "He died in a tragic accident."
+      }
+    },
+    {
+      "id": "insense",
+      "kind": "vocab",
+      "fr": "insensé",
+      "fem": "insensée",
+      "en": "crazy, senseless",
+      "pos": "adjective",
+      "accept": [
+        "insensée"
+      ],
+      "example": {
+        "fr": "Payer 3000 $ pour un sac, c'est insensé !",
+        "en": "Paying $3,000 for a bag is crazy!"
+      }
+    },
+    {
+      "id": "inhabituel",
+      "kind": "vocab",
+      "fr": "inhabituel",
+      "fem": "inhabituelle",
+      "en": "unusual",
+      "pos": "adjective",
+      "accept": [
+        "inhabituelle"
+      ],
+      "example": {
+        "fr": "Il fait une chaleur inhabituelle pour octobre.",
+        "en": "It's unusually hot for October."
+      }
+    },
+    {
+      "id": "quelconque",
+      "kind": "vocab",
+      "fr": "quelconque",
+      "en": "ordinary, nothing special; some … or other",
+      "pos": "adjective",
+      "example": {
+        "fr": "C'est un restaurant très quelconque.",
+        "en": "It's a very ordinary restaurant."
+      }
+    },
+    {
+      "id": "cache",
+      "kind": "vocab",
+      "fr": "caché",
+      "fem": "cachée",
+      "en": "hidden",
+      "pos": "adjective",
+      "accept": [
+        "cachée"
+      ],
+      "example": {
+        "fr": "J'ai trouvé une lettre cachée dans un livre.",
+        "en": "I found a letter hidden in a book."
+      }
+    },
+    {
+      "id": "disparu",
+      "kind": "vocab",
+      "fr": "disparu",
+      "fem": "disparue",
+      "en": "missing, gone",
+      "pos": "adjective",
+      "accept": [
+        "disparue"
+      ],
+      "example": {
+        "fr": "La police cherche une adolescente disparue.",
+        "en": "The police are looking for a missing teenager."
+      },
+      "note": "Also: porté disparu = reported missing."
+    },
+    {
+      "id": "coince",
+      "kind": "vocab",
+      "fr": "coincé",
+      "fem": "coincée",
+      "en": "stuck; uptight",
+      "pos": "adjective",
+      "accept": [
+        "coincée"
+      ],
+      "example": {
+        "fr": "Je suis coincé dans le trafic.",
+        "en": "I'm stuck in traffic."
+      }
+    },
+    {
+      "id": "sec",
+      "kind": "vocab",
+      "fr": "sec",
+      "fem": "sèche",
+      "en": "dry",
+      "pos": "adjective",
+      "accept": [
+        "sèche"
+      ],
+      "example": {
+        "fr": "J'ai la peau très sèche en hiver.",
+        "en": "My skin is very dry in winter."
+      }
+    },
+    {
+      "id": "gras",
+      "kind": "vocab",
+      "fr": "gras",
+      "fem": "grasse",
+      "en": "fatty, greasy",
+      "pos": "adjective",
+      "accept": [
+        "grasse"
+      ],
+      "example": {
+        "fr": "Évite les aliments trop gras.",
+        "en": "Avoid food that is too fatty."
+      }
+    },
+    {
+      "id": "techniquement",
+      "kind": "vocab",
+      "fr": "techniquement",
+      "en": "technically",
+      "pos": "adverb",
+      "example": {
+        "fr": "Techniquement, c'est possible, mais c'est cher.",
+        "en": "Technically, it's possible, but it's expensive."
+      }
+    },
+    {
+      "id": "surement",
+      "kind": "vocab",
+      "fr": "sûrement",
+      "en": "surely, probably",
+      "pos": "adverb",
+      "example": {
+        "fr": "Il est sûrement encore au bureau.",
+        "en": "He's probably still at the office."
+      }
+    },
+    {
+      "id": "dernierement",
+      "kind": "vocab",
+      "fr": "dernièrement",
+      "en": "lately, recently",
+      "pos": "adverb",
+      "example": {
+        "fr": "Dernièrement, je dors mal.",
+        "en": "Lately, I haven't been sleeping well."
+      }
+    },
+    {
+      "id": "litteralement",
+      "kind": "vocab",
+      "fr": "littéralement",
+      "en": "literally",
+      "pos": "adverb",
+      "example": {
+        "fr": "J'étais littéralement mort de fatigue.",
+        "en": "I was literally dead tired."
+      }
+    },
+    {
+      "id": "terriblement",
+      "kind": "vocab",
+      "fr": "terriblement",
+      "en": "terribly, awfully",
+      "pos": "adverb",
+      "example": {
+        "fr": "Je suis terriblement désolé.",
+        "en": "I'm terribly sorry."
+      }
+    },
+    {
+      "id": "soudainement",
+      "kind": "vocab",
+      "fr": "soudainement",
+      "en": "suddenly",
+      "pos": "adverb",
+      "example": {
+        "fr": "Soudainement, toutes les lumières se sont éteintes.",
+        "en": "Suddenly, all the lights went out."
+      }
+    },
+    {
+      "id": "constamment",
+      "kind": "vocab",
+      "fr": "constamment",
+      "en": "constantly",
+      "pos": "adverb",
+      "example": {
+        "fr": "Mon téléphone sonne constamment.",
+        "en": "My phone rings constantly."
+      }
+    },
+    {
+      "id": "incroyablement",
+      "kind": "vocab",
+      "fr": "incroyablement",
+      "en": "incredibly",
+      "pos": "adverb",
+      "example": {
+        "fr": "Ce film est incroyablement long.",
+        "en": "This film is incredibly long."
+      }
+    },
+    {
+      "id": "specialement",
+      "kind": "vocab",
+      "fr": "spécialement",
+      "en": "specially, especially",
+      "pos": "adverb",
+      "example": {
+        "fr": "J'ai fait ce gâteau spécialement pour toi.",
+        "en": "I made this cake specially for you."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Strong impressions",
+          "itemIds": [
+            "splendide",
+            "fabuleux",
+            "divin",
+            "eternel",
+            "ultime",
+            "tragique",
+            "insense"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "States and qualities",
+          "itemIds": [
+            "inhabituel",
+            "quelconque",
+            "cache",
+            "disparu",
+            "coince",
+            "sec",
+            "gras"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Adverbs in -ment",
+          "itemIds": [
+            "techniquement",
+            "surement",
+            "dernierement",
+            "litteralement",
+            "terriblement",
+            "soudainement",
+            "constamment",
+            "incroyablement",
+            "specialement"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[Sûrement]] usually means *probably*, not *certainly*.\n- [[Constant]] → [[constamment]]: adjectives in -ant/-ent make -amment/-emment.\n- [[Quelconque]] after a noun means ordinary: [[un film quelconque]].\n- Irregular feminines: [[sec → sèche]], [[gras → grasse]].\n- Québec (informal): [[être pogné]] = *être coincé*."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Il fait un temps splendide aujourd'hui.",
+              "en": "The weather is gorgeous today."
+            },
+            {
+              "fr": "Ce gâteau au chocolat est divin !",
+              "en": "This chocolate cake is heavenly!"
+            },
+            {
+              "fr": "Payer 3000 $ pour un sac, c'est insensé !",
+              "en": "Paying $3,000 for a bag is crazy!"
+            },
+            {
+              "fr": "Je suis coincé dans le trafic.",
+              "en": "I'm stuck in traffic."
+            },
+            {
+              "fr": "J'ai la peau très sèche en hiver.",
+              "en": "My skin is very dry in winter."
+            },
+            {
+              "fr": "Il est sûrement encore au bureau.",
+              "en": "He's probably still at the office."
+            },
+            {
+              "fr": "Dernièrement, je dors mal.",
+              "en": "Lately, I haven't been sleeping well."
+            },
+            {
+              "fr": "Je suis terriblement désolé.",
+              "en": "I'm terribly sorry."
+            },
+            {
+              "fr": "Mon téléphone sonne constamment.",
+              "en": "My phone rings constantly."
+            },
+            {
+              "fr": "J'ai fait ce gâteau spécialement pour toi.",
+              "en": "I made this cake specially for you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the adjectives.",
+          "pairs": [
+            [
+              "splendide",
+              "gorgeous"
+            ],
+            [
+              "inhabituel",
+              "unusual"
+            ],
+            [
+              "caché",
+              "hidden"
+            ],
+            [
+              "coincé",
+              "stuck"
+            ],
+            [
+              "gras",
+              "greasy"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the adverbs.",
+          "pairs": [
+            [
+              "dernièrement",
+              "lately"
+            ],
+            [
+              "soudainement",
+              "suddenly"
+            ],
+            [
+              "constamment",
+              "constantly"
+            ],
+            [
+              "littéralement",
+              "literally"
+            ],
+            [
+              "techniquement",
+              "technically"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "You don't know where Karim is, but it's 4 p.m. on a weekday. What do you say?",
+          "options": [
+            "Il est sûrement au bureau.",
+            "Il est littéralement au bureau.",
+            "Il est éternellement au bureau.",
+            "Il est techniquement le bureau."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Sûrement]] expresses a strong guess: probably."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "What is the feminine of « sec »?",
+          "options": [
+            "sèche",
+            "secte",
+            "sece",
+            "sêche"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Sec]] has an irregular feminine: [[sèche]], as in [[la peau sèche]]."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I'm stuck in traffic. (woman speaking)",
+          "accept": [
+            "Je suis coincée dans le trafic.",
+            "Je suis coincée dans la circulation.",
+            "Je suis coincée dans les bouchons."
+          ],
+          "explain": "A woman says [[coincée]], with -e."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "I'm terribly sorry. (man speaking)",
+          "accept": [
+            "Je suis terriblement désolé."
+          ],
+          "explain": "[[Terriblement]] goes before the adjective it strengthens."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "J'ai fait ce gâteau ___ pour toi.",
+          "answers": [
+            [
+              "spécialement"
+            ]
+          ],
+          "choices": [
+            "spécialement",
+            "soudainement",
+            "dernièrement",
+            "constamment"
+          ],
+          "en": "I made this cake specially for you.",
+          "explain": "[[Spécialement pour]] = specially for."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Mon fils joue ___ aux jeux vidéo. (constant)",
+          "answers": [
+            [
+              "constamment"
+            ]
+          ],
+          "en": "My son constantly plays video games.",
+          "explain": "[[Constant]] → [[constamment]]: -ant becomes -amment."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Il fait une chaleur inhabituelle pour octobre.",
+          "accept": [],
+          "explain": "[[Inhabituelle]] is feminine (une chaleur) so it doubles the l and adds -e."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Soudainement, toutes les lumières se sont éteintes.",
+          "en": "Suddenly, all the lights went out.",
+          "prompt": "What happened?",
+          "options": [
+            "The lights went out suddenly",
+            "The lights came on slowly",
+            "The lights were always off"
+          ],
+          "answer": 0,
+          "explain": "[[Soudainement]] = suddenly; [[s’éteindre]] = to go out (light)."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Give strong impressions: [[splendide, fabuleux, divin, insensé]]\n- Describe states: [[caché, disparu, coincé, sec, gras]]\n- Use -ment adverbs: [[sûrement, dernièrement, constamment, soudainement]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Labelled Québec \"pogné\" as informal; \"joue à des jeux vidéo\" → \"joue aux jeux vidéo\" in r8."
+  }
+}

@@ -1,0 +1,1584 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "ability": "ce",
+  "sets": [
+    {
+      "id": "tcf-ce-m1",
+      "title": "Test blanc 1 — Compréhension écrite",
+      "level": "a1-c2",
+      "mock": true,
+      "minutes": 60,
+      "docs": [
+        {
+          "id": "m1-d01",
+          "type": "affiche",
+          "title": "Boulangerie du Moulin",
+          "fr": "BOULANGERIE DU MOULIN\nPain, croissants et gâteaux.\nOuvert du mardi au dimanche, de 7 h à 19 h.\nFermé le lundi.\nMerci et à bientôt !"
+        },
+        {
+          "id": "m1-d02",
+          "type": "lettre",
+          "title": "Mot de Julie",
+          "fr": "Karim,\nJe suis au parc avec Nina. Ton sandwich est dans le frigo.\nJe rentre à 16 h. Ce soir, on mange au restaurant avec papa !\nJulie"
+        },
+        {
+          "id": "m1-d03",
+          "type": "affiche",
+          "title": "Musée de Saint-Aubin",
+          "fr": "MUSÉE DE SAINT-AUBIN\nPhotos sans flash : oui.\nInterdit dans les salles :\n– toucher les œuvres ;\n– manger et boire ;\n– téléphoner.\nBonne visite !"
+        },
+        {
+          "id": "m1-d04",
+          "type": "annonce",
+          "title": "Appartement à louer",
+          "fr": "À LOUER — Sherbrooke, centre-ville\nAppartement avec 1 chambre et cuisine équipée.\n950 $ par mois.\nLibre le 1er juillet.\nContact : Marc, après 17 h."
+        },
+        {
+          "id": "m1-d05",
+          "type": "courriel",
+          "title": "Réunion déplacée",
+          "fr": "Objet : Réunion de l’équipe\nBonjour Martine,\nAttention : la réunion de l’équipe n’a pas lieu mercredi à 14 h. Elle est déplacée à jeudi, à 10 h, dans la salle B.\nPeux-tu prévenir Paul ? Il n’a pas d’ordinateur cette semaine.\nMerci et bonne journée,\nHélène"
+        },
+        {
+          "id": "m1-d06",
+          "type": "horaire",
+          "title": "Ligne 12",
+          "fr": "LIGNE 12 — Gare centrale ↔ Université\nDu lundi au vendredi : un bus toutes les 15 minutes, de 6 h à 21 h.\nLe samedi : un bus toutes les 30 minutes, de 8 h à 20 h.\nLe dimanche et les jours fériés : pas de service."
+        },
+        {
+          "id": "m1-d07",
+          "type": "publicité",
+          "title": "Pizzeria Chez Tonio",
+          "fr": "PIZZERIA CHEZ TONIO\nPizzas cuites au feu de bois, pâte maison.\nLivraison gratuite à partir de 25 € de commande (sinon : 3 €).\nLE MARDI : pour 2 pizzas achetées, la 3e est offerte !\nOuvert tous les soirs de 18 h à 23 h. Commandes sur notre site ou sur place."
+        },
+        {
+          "id": "m1-d08",
+          "type": "annonce",
+          "title": "Club de lecture",
+          "fr": "BIBLIOTHÈQUE DE RIVIÈRE-AUX-PINS\nClub de lecture pour adultes\nVous aimez lire et discuter ? Rejoignez-nous le premier mercredi du mois, à 19 h, dans la salle Hébert.\nCe mois-ci : un roman policier québécois.\nActivité gratuite. Places limitées à 15 personnes : inscription obligatoire au comptoir de prêt."
+        },
+        {
+          "id": "m1-d09",
+          "type": "courriel",
+          "title": "Coupure d’eau",
+          "fr": "Objet : Coupure d’eau le mardi 8 avril\nChers locataires,\nDes travaux de plomberie auront lieu dans l’immeuble le mardi 8 avril. L’eau sera coupée dans tous les appartements de 9 h à 15 h environ. Nous vous conseillons de prévoir quelques bouteilles d’eau la veille.\nPar ailleurs, les plombiers devront entrer dans les appartements du 3e étage pour vérifier les tuyaux des salles de bain. Si vous habitez à cet étage et que vous serez absent ce jour-là, merci de laisser une clé au concierge avant le lundi soir.\nNous nous excusons pour ce dérangement.\nLa gestion — Immeubles Bellerive"
+        },
+        {
+          "id": "m1-d10",
+          "type": "article",
+          "title": "Des outils à emprunter",
+          "fr": "À Saint-Julien-des-Prés, la médiathèque ne prête plus seulement des livres. Depuis janvier, les habitants peuvent aussi emprunter des perceuses, des échelles, des tentes de camping ou des machines à coudre. « L’idée vient des usagers eux-mêmes, explique la responsable, Claire Dumas. Beaucoup nous disaient qu’ils ne voulaient pas acheter un objet qui sert deux fois par an. »\nLe fonctionnement est simple : il suffit de présenter sa carte d’abonné, gratuite pour les résidents de la commune. Chaque objet peut être gardé une semaine au maximum, et un chèque de caution est demandé pour les appareils les plus chers.\nEn trois mois, plus de 400 prêts ont été enregistrés. La médiathèque souhaite maintenant proposer des ateliers pour apprendre à utiliser et à réparer les outils."
+        },
+        {
+          "id": "m1-d11",
+          "type": "annonce",
+          "title": "Camp de jour Les Écureuils",
+          "fr": "LE CAMP DE JOUR LES ÉCUREUILS RECRUTE !\nNous cherchons des moniteurs et monitrices pour l’été, du 23 juin au 15 août, à Gatineau.\nVotre profil :\n• avoir 17 ans ou plus au début du camp (obligatoire) ;\n• aimer le plein air et le travail d’équipe ;\n• une expérience avec les enfants est appréciée, mais pas exigée ;\n• parler anglais est un atout.\nNous offrons : un horaire de jour, du lundi au vendredi, une formation en premiers soins payée par le camp et une ambiance dynamique !\nEnvoyez votre CV avant le 31 mars."
+        },
+        {
+          "id": "m1-d12",
+          "type": "lettre",
+          "title": "Réponse de la mairie",
+          "fr": "Mairie de Valbrune — Service des espaces verts\nObjet : votre demande de parcelle au jardin partagé\nMadame Lemaire,\nNous avons bien reçu votre demande du 2 mars et nous vous remercions de votre intérêt pour le jardin partagé du quartier des Tilleuls.\nMalheureusement, toutes les parcelles ont déjà été attribuées pour la saison. Votre nom a donc été inscrit sur notre liste d’attente, en douzième position. Nous vous contacterons dès qu’une parcelle se libérera.\nEn attendant, nous vous invitons à participer aux ateliers de jardinage organisés chaque samedi matin au jardin. Ils sont gratuits et ouverts à tous.\nVeuillez agréer, Madame, nos salutations distinguées."
+        },
+        {
+          "id": "m1-d13",
+          "type": "article",
+          "title": "Quatre jours, et après ?",
+          "fr": "Il y a un an, Logiciels Boréal, une entreprise de Québec qui compte une soixantaine d’employés, adoptait la semaine de quatre jours, sans baisse de salaire. Les employés travaillent désormais 32 heures, du lundi au jeudi. Le bilan, présenté la semaine dernière, est globalement positif : les absences pour maladie ont diminué d’un tiers et l’entreprise n’a perdu aucun client. Surtout, elle n’a plus de mal à recruter : une offre d’emploi publiée en mars a reçu trois fois plus de candidatures que d’habitude.\nTout n’est pas rose pour autant. Pour tenir les délais, les équipes ont dû réduire le nombre de réunions et apprendre à dire non aux demandes de dernière minute. Plusieurs employés reconnaissent que leurs journées sont devenues plus intenses. « Le vendredi libre, c’est formidable, mais le jeudi soir, je suis épuisée », confie une programmeuse.\nLa direction, elle, ne compte pas revenir en arrière. Elle prévient toutefois que le modèle n’est pas transposable partout : « Chez nous, le travail se mesure en projets livrés, pas en heures de présence. Dans un commerce ou un hôpital, il faudrait embaucher davantage, et la question serait bien différente. »"
+        },
+        {
+          "id": "m1-d14",
+          "type": "article",
+          "title": "Critique — Le Silence des glaces",
+          "fr": "Après deux recueils de nouvelles remarqués, Anaïs Rouleau signe avec Le Silence des glaces son premier roman. Nous sommes en 1950, dans un village de la Côte-Nord où une institutrice venue de Montréal tente de se faire accepter par une communauté qui se méfie des étrangers.\nLe début est saisissant. Rouleau excelle à rendre le froid, la lumière basse de l’hiver, les silences lourds des repas de famille ; certaines pages ont la précision d’une photographie. Les dialogues, écrits dans une langue orale savoureuse, sonnent juste.\nOn regrette d’autant plus que la seconde moitié du livre s’essouffle. L’intrigue amoureuse qui s’installe, trop attendue, prend le pas sur la peinture du village, et les personnages secondaires, si vivants au départ, se réduisent peu à peu à des silhouettes. La fin, précipitée, laisse une impression d’inachevé.\nReste une voix singulière, que l’on suivra avec intérêt. Mais l’autrice semble encore plus à l’aise dans la forme courte, où sa justesse d’observation fait merveille sans avoir à porter le poids d’une longue construction."
+        },
+        {
+          "id": "m1-d15",
+          "type": "forum",
+          "title": "Quitter la ville pour la campagne ?",
+          "fr": "Sujet : Quitter la ville pour la campagne… bonne idée ?\nCamille_69 : Bonjour à tous. Avec mon conjoint, nous travaillons tous les deux à distance quatre jours sur cinq. Nous payons un loyer énorme à Lyon pour un trois-pièces sans balcon et nous rêvons d’une maison avec jardin dans la Drôme. Mais j’ai peur de regretter : pas de cinéma, des amis loin… Est-ce que certains d’entre vous ont fait le saut ? Qu’est-ce que vous auriez aimé savoir avant ?\nBenoît26 : Nous l’avons fait il y a trois ans et je ne reviendrais pour rien au monde. Mais vérifiez deux choses avant de signer quoi que ce soit : la qualité de la connexion Internet (dans notre premier village, c’était catastrophique) et la distance jusqu’à la gare, puisque vous devrez encore vous rendre au bureau une fois par semaine. Pour la vie sociale, ne vous inquiétez pas trop : les associations du village nous ont permis de rencontrer plus de monde qu’en dix ans de ville.\nSoléa : Petit bémol de mon côté. La maison avec jardin, c’est aussi du travail : la tonte, le chauffage au bois, les réparations… Et sans voiture, rien n’est possible. Je ne dis pas qu’il ne faut pas partir, mais louez d’abord un an avant d’acheter. C’est ce que nous aurions dû faire."
+        },
+        {
+          "id": "m1-d16",
+          "type": "article",
+          "title": "Pourquoi les villes ont plus chaud",
+          "fr": "Par une nuit d’été, il peut faire plusieurs degrés de plus au centre d’une grande ville que dans la campagne voisine. Les spécialistes parlent d’« îlot de chaleur urbain ». Le phénomène s’explique d’abord par les matériaux : l’asphalte et le béton absorbent la chaleur du soleil pendant la journée, puis la restituent lentement la nuit. À cela s’ajoutent la chaleur produite par les voitures et les climatiseurs, ainsi que la forme même des rues : entre de hauts immeubles, l’air circule mal.\nPour rafraîchir les villes, la solution la plus citée est la végétation. Un arbre ne se contente pas de faire de l’ombre : il rejette de la vapeur d’eau par ses feuilles, ce qui refroidit l’air autour de lui. Encore faut-il qu’il ait de l’eau à sa disposition. Lors des sécheresses, les arbres qui souffrent ferment leurs pores et cessent de jouer ce rôle de climatiseur naturel.\nC’est pourquoi les urbanistes s’intéressent désormais autant aux sols qu’aux plantations : remplacer une partie du bitume par des surfaces perméables permet à la pluie de s’infiltrer et de constituer des réserves pour les racines."
+        },
+        {
+          "id": "m1-d17",
+          "type": "article",
+          "title": "Éditorial — Transports gratuits : une fausse bonne idée ?",
+          "fr": "Chaque campagne municipale voit ressurgir la même promesse : rendre les transports en commun gratuits. L’idée a tout pour séduire. Elle parle au portefeuille des ménages, se présente comme un geste écologique et offre l’image d’une ville généreuse. Il serait pourtant imprudent de l’adopter sans en mesurer les effets.\nPremier constat : là où elle a été tentée, la gratuité semble attirer surtout des piétons et des cyclistes, beaucoup plus rarement des automobilistes. Autrement dit, elle remplit les autobus sans vider les routes. Or l’enjeu, pour le climat comme pour la congestion, est bien de convaincre ceux qui prennent leur voiture. Ceux-là ne renoncent pas au volant à cause du prix du billet, mais parce que l’autobus passe trop rarement, s’arrête trop loin de chez eux ou met deux fois plus de temps.\nSecond constat : rien n’est jamais gratuit. Les recettes des billets, qui disparaissent, devront être compensées par l’impôt, au moment même où les réseaux auraient besoin d’investissements pour augmenter leur fréquence et étendre leurs lignes. Une municipalité qui renonce à ces recettes se prive d’une partie des moyens qui rendraient ses transports réellement attractifs.\nIl ne s’agit pas de défendre le statu quo. Des tarifs fortement réduits pour les étudiants, les aînés et les ménages modestes répondraient à l’objectif de justice sociale à un coût bien moindre. Le reste devrait aller là où il fait la différence : des autobus plus fréquents, des voies réservées, des horaires fiables. Un service gratuit mais médiocre ne convaincra personne ; un service excellent, même payant, finira par convaincre."
+        },
+        {
+          "id": "m1-d18",
+          "type": "article",
+          "title": "Ce que le cerveau fait pendant que nous dormons",
+          "fr": "On a longtemps considéré le sommeil comme une simple mise en veille de l’organisme. Les recherches menées depuis quelques décennies dressent un tableau bien différent : loin d’être inactif, le cerveau endormi trie, consolide et réorganise ce qu’il a appris pendant la journée.\nDes expériences menées sur des rongeurs ont montré que certains groupes de neurones, activés lorsqu’un animal explore un labyrinthe, se « rejouent » pendant son sommeil, dans le même ordre mais en accéléré. Tout se passe comme si le cerveau répétait la leçon du jour. Chez l’humain, des volontaires qui dorment après avoir appris une liste de mots ou un enchaînement de gestes obtiennent généralement de meilleurs résultats, le lendemain, que ceux qui sont restés éveillés pendant une durée équivalente.\nMais consolider ne signifie pas tout conserver. Plusieurs chercheurs pensent que le sommeil sert aussi à alléger la mémoire, en affaiblissant les connexions jugées secondaires pour laisser de la place aux nouveaux apprentissages. L’oubli, dans cette perspective, ne serait pas une défaillance mais une fonction.\nCes travaux invitent à revoir certaines habitudes. L’étudiant qui sacrifie sa nuit pour réviser fait un pari risqué : il gagne quelques heures d’étude, mais il prive son cerveau du moment même où ces connaissances auraient été fixées."
+        },
+        {
+          "id": "m1-d19",
+          "type": "article",
+          "title": "Essai — Éloge de l’ennui",
+          "fr": "Il est devenu presque impossible de s’ennuyer. Dans la file d’attente, à l’arrêt d’autobus, entre deux rendez-vous, le téléphone vient combler le moindre interstice de la journée. On s’en félicite volontiers : le temps « mort » serait du temps perdu, et l’on aurait enfin trouvé le moyen de ne plus le perdre.\nC’est oublier ce que l’ennui rendait possible. L’esprit qui n’est sollicité par rien finit par se tourner vers lui-même ; il vagabonde, rapproche des idées sans rapport apparent, revient sur un souvenir, ébauche un projet. Bien des inventeurs et des écrivains ont raconté que leurs meilleures idées leur étaient venues non pas à leur bureau, mais en marchant, en se rasant ou en regardant tomber la pluie. L’ennui n’est pas le contraire de la pensée : il en est souvent l’antichambre.\nCe qui disparaît avec lui, ce n’est donc pas seulement un désagrément, mais une certaine disponibilité intérieure. En remplissant chaque minute, nous ne nous privons pas de rien : nous nous privons de ce qui aurait pu surgir de ce rien.\nFaut-il pour autant jeter nos téléphones ? Ce serait confondre l’outil et l’usage. Il s’agirait plutôt de réapprendre à tolérer quelques minutes de vide sans chercher aussitôt à les remplir, comme on réapprend à marcher après avoir trop longtemps pris l’ascenseur. Rien d’héroïque là-dedans : seulement le choix, de temps à autre, de laisser son esprit sans surveillance."
+        },
+        {
+          "id": "m1-d20",
+          "type": "article",
+          "title": "Extrait de roman — La maison du lac",
+          "fr": "Ma tante Odile avait cette manière de recevoir qui tenait moins de l’hospitalité que de l’inspection. Elle ouvrait la porte avant même qu’on ait sonné, comme si elle avait guetté notre voiture depuis la fenêtre du salon — ce qu’elle avait fait, évidemment —, et son premier regard n’était pas pour nos visages mais pour nos chaussures.\n« Vous avez trouvé facilement ? » demandait-elle chaque année, alors que nous venions chaque année, par la même route, à la même maison au bord du même lac. Mon père répondait que oui, très facilement, et ma tante hochait la tête avec l’air de quelqu’un qui prend note d’un mensonge sans vouloir en faire une affaire.\nIl y avait sur la table du salon une coupe de bonbons que personne n’avait jamais vue diminuer. Enfant, j’avais cru qu’ils étaient interdits ; plus tard, j’avais compris qu’ils étaient faits pour être offerts, non pour être pris, et que la politesse consistait précisément à ne pas y toucher. Toute la maison était ainsi : un ensemble d’invitations qu’il eût été grossier d’accepter.\nCe n’est que bien des années après sa mort, en vidant ses armoires, que j’ai trouvé, soigneusement rangés dans une boîte à chaussures, tous les dessins que je lui avais envoyés, chacun daté de sa petite écriture penchée."
+        },
+        {
+          "id": "m1-d21",
+          "type": "article",
+          "title": "Essai — Le droit à l’effacement",
+          "fr": "Pendant des millénaires, la mémoire humaine a été rare et coûteuse. Graver, copier, archiver exigeait du temps, de la matière, des institutions ; l’oubli, à l’inverse, était la règle, et il ne coûtait rien. Il se produisait de lui-même, par l’usure des supports, la dispersion des papiers, la mort des témoins. Ce partage tacite structurait notre rapport au passé : seul subsistait ce qu’une société avait jugé digne d’être conservé, au prix d’un effort.\nL’ère numérique a inversé cette économie. Enregistrer ne coûte presque plus rien ; c’est l’effacement qui demande désormais une décision, une démarche, parfois un procès. La photo d’une soirée, le commentaire écrit à dix-neuf ans, la page d’un journal local relatant une condamnation ancienne demeurent accessibles, indexés, prêts à resurgir au premier moteur de recherche. Le passé ne s’éloigne plus : il reste à la même distance, indéfiniment.\nOn aurait tort d’y voir un simple triomphe de la mémoire. Une mémoire qui ne hiérarchise pas n’est guère qu’un entassement. Se souvenir, pour un individu comme pour une collectivité, c’est aussi choisir ce qu’on laisse s’estomper — et c’est à cette condition qu’une personne peut changer, qu’une faute peut être dépassée, qu’un récit commun peut se recomposer. Le pardon lui-même suppose une forme d’oubli : non pas l’ignorance de ce qui a eu lieu, mais le renoncement à le tenir pour toujours présent.\nLa question n’est donc pas de savoir si nous devons tout garder ou tout effacer, mais qui, désormais, aura le pouvoir de décider de ce qui s’estompe."
+        }
+      ],
+      "items": [
+        {
+          "id": "tcf-ce-m1-001",
+          "docId": "m1-d01",
+          "prompt": "Quel jour la boulangerie est-elle fermée ?",
+          "options": [
+            "Le lundi.",
+            "Le mardi.",
+            "Le samedi.",
+            "Le dimanche."
+          ],
+          "answer": 0,
+          "explain": "\"Fermé le lundi.\" It is open \"du mardi au dimanche\".",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-002",
+          "docId": "m1-d02",
+          "prompt": "D’après son mot, où est Julie en ce moment ?",
+          "options": [
+            "À la maison.",
+            "Au restaurant.",
+            "Au parc.",
+            "Au travail."
+          ],
+          "answer": 2,
+          "explain": "\"Je suis au parc avec Nina.\" The restaurant is for this evening (\"Ce soir, on mange au restaurant\").",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-003",
+          "docId": "m1-d03",
+          "prompt": "Dans les salles du musée, on peut…",
+          "options": [
+            "toucher les sculptures.",
+            "photographier sans flash.",
+            "boire un petit café.",
+            "téléphoner à un ami."
+          ],
+          "answer": 1,
+          "explain": "\"Photos sans flash : oui.\" Touching, eating/drinking and phoning are listed under \"Interdit\".",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-004",
+          "docId": "m1-d04",
+          "prompt": "Combien coûte l’appartement ?",
+          "options": [
+            "590 $ par mois.",
+            "1 950 $ par mois.",
+            "950 $ par mois.",
+            "905 $ par mois."
+          ],
+          "answer": 2,
+          "explain": "\"950 $ par mois.\"",
+          "microSkills": [
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-005",
+          "docId": "m1-d05",
+          "prompt": "Quand la réunion aura-t-elle lieu ?",
+          "options": [
+            "Mercredi à 14 h.",
+            "Jeudi à 14 h.",
+            "Mercredi à 10 h.",
+            "Jeudi à 10 h."
+          ],
+          "answer": 3,
+          "explain": "\"Elle est déplacée à jeudi, à 10 h\" — it is no longer \"mercredi à 14 h\".",
+          "microSkills": [
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-006",
+          "docId": "m1-d05",
+          "prompt": "Que demande Hélène à Martine ?",
+          "options": [
+            "D’informer un collègue.",
+            "De réserver la salle B.",
+            "D’apporter un ordinateur.",
+            "D’annuler la réunion."
+          ],
+          "answer": 0,
+          "explain": "\"Peux-tu prévenir Paul ?\" — \"prévenir\" = to let someone know.",
+          "microSkills": [
+            "intention",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-007",
+          "docId": "m1-d06",
+          "prompt": "Que peut-on dire de la ligne 12 le dimanche ?",
+          "options": [
+            "Aucun bus ne circule.",
+            "Un bus passe toutes les 30 minutes.",
+            "Le premier bus part à 8 h.",
+            "Les bus circulent jusqu’à 21 h."
+          ],
+          "answer": 0,
+          "explain": "\"Le dimanche et les jours fériés : pas de service.\" The 30-minute frequency and 8 h start are for Saturday.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-008",
+          "docId": "m1-d07",
+          "prompt": "Quelle offre la pizzeria propose-t-elle le mardi ?",
+          "options": [
+            "La livraison gratuite pour toutes les commandes.",
+            "Une réduction de 3 € sur chaque pizza.",
+            "Une ouverture dès midi.",
+            "Une pizza gratuite pour deux pizzas achetées."
+          ],
+          "answer": 3,
+          "explain": "\"LE MARDI : pour 2 pizzas achetées, la 3e est offerte !\" — \"offerte\" = free.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-009",
+          "docId": "m1-d07",
+          "prompt": "Un client commande des pizzas pour 20 € et se fait livrer. Combien paie-t-il pour la livraison ?",
+          "options": [
+            "3 €.",
+            "Rien, la livraison est gratuite.",
+            "5 €.",
+            "25 €."
+          ],
+          "answer": 0,
+          "explain": "\"Livraison gratuite à partir de 25 € de commande (sinon : 3 €).\" 20 € is below 25 €, so delivery costs 3 €.",
+          "microSkills": [
+            "numbers-dates",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-010",
+          "docId": "m1-d08",
+          "prompt": "Que faut-il faire pour participer au club de lecture ?",
+          "options": [
+            "Payer une cotisation chaque mois.",
+            "Réserver sa place à la bibliothèque.",
+            "Écrire un court roman policier.",
+            "Venir avec un ami déjà inscrit."
+          ],
+          "answer": 1,
+          "explain": "\"Inscription obligatoire au comptoir de prêt.\" The activity is \"gratuite\", so there is no fee.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-011",
+          "docId": "m1-d09",
+          "prompt": "Quel est le but principal de ce courriel ?",
+          "options": [
+            "Annoncer aux locataires une hausse du loyer.",
+            "Prévenir les locataires d’une interruption de service.",
+            "Inviter les locataires à une réunion de l’immeuble.",
+            "Signaler une fuite d’eau dans un appartement du 3e."
+          ],
+          "answer": 1,
+          "explain": "\"L’eau sera coupée dans tous les appartements de 9 h à 15 h environ\" — the message announces a planned water cut.",
+          "microSkills": [
+            "intention",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-012",
+          "docId": "m1-d09",
+          "prompt": "Que doivent faire les locataires du 3e étage qui seront absents le 8 avril ?",
+          "options": [
+            "Confier une clé au concierge.",
+            "Laisser leur porte ouverte.",
+            "Rester chez eux jusqu’à 15 h.",
+            "Appeler eux-mêmes un plombier."
+          ],
+          "answer": 0,
+          "explain": "\"Si vous habitez à cet étage et que vous serez absent ce jour-là, merci de laisser une clé au concierge avant le lundi soir.\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-013",
+          "docId": "m1-d10",
+          "prompt": "D’après l’article, qui a eu l’idée de ce service ?",
+          "options": [
+            "Les élus de la mairie de la commune.",
+            "Un magasin de bricolage du quartier.",
+            "Les usagers de la médiathèque.",
+            "La responsable de la médiathèque."
+          ],
+          "answer": 2,
+          "explain": "\"L’idée vient des usagers eux-mêmes, explique la responsable, Claire Dumas.\" She reports the idea; she did not have it herself.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-014",
+          "docId": "m1-d10",
+          "prompt": "Combien de temps peut-on garder un objet emprunté ?",
+          "options": [
+            "Sept jours au plus.",
+            "Deux semaines au plus.",
+            "Un mois au maximum.",
+            "Trois mois au maximum."
+          ],
+          "answer": 0,
+          "explain": "\"Chaque objet peut être gardé une semaine au maximum.\" \"Trois mois\" is how long the service has existed.",
+          "microSkills": [
+            "numbers-dates",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-015",
+          "docId": "m1-d11",
+          "prompt": "Quelle condition est indispensable pour être embauché ?",
+          "options": [
+            "Avoir déjà travaillé avec des enfants.",
+            "Parler anglais.",
+            "Posséder un certificat de premiers soins.",
+            "Avoir au moins 17 ans."
+          ],
+          "answer": 3,
+          "explain": "\"Avoir 17 ans ou plus au début du camp (obligatoire)\". Experience is \"appréciée, mais pas exigée\"; English is only \"un atout\".",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-016",
+          "docId": "m1-d11",
+          "prompt": "Qu’est-ce que le camp offre à ses moniteurs ?",
+          "options": [
+            "Un logement sur place pendant tout l’été.",
+            "Un horaire de soirée, du lundi au vendredi.",
+            "Un emploi à temps plein pour toute l’année.",
+            "Une formation gratuite en premiers soins."
+          ],
+          "answer": 3,
+          "explain": "\"Une formation en premiers soins payée par le camp\" — so it costs the instructors nothing. The schedule is \"un horaire de jour\".",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-017",
+          "docId": "m1-d12",
+          "prompt": "Quelle réponse la mairie donne-t-elle à Mme Lemaire ?",
+          "options": [
+            "Elle lui attribue la douzième parcelle du jardin partagé.",
+            "Elle refuse définitivement de lui attribuer une parcelle.",
+            "Elle ne peut pas lui attribuer de parcelle pour le moment.",
+            "Elle lui demande de compléter son dossier de demande."
+          ],
+          "answer": 2,
+          "explain": "\"Toutes les parcelles ont déjà été attribuées […] Votre nom a donc été inscrit sur notre liste d’attente\" — not a final refusal; \"douzième\" is her waiting-list position.",
+          "microSkills": [
+            "main-idea",
+            "intention"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-018",
+          "docId": "m1-d12",
+          "prompt": "Que propose la mairie en attendant ?",
+          "options": [
+            "Une parcelle dans un autre quartier.",
+            "Une réduction pour la saison suivante.",
+            "Des ateliers gratuits le samedi matin.",
+            "Un rendez-vous avec le service des espaces verts."
+          ],
+          "answer": 2,
+          "explain": "\"Nous vous invitons à participer aux ateliers de jardinage organisés chaque samedi matin […] Ils sont gratuits.\"",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-019",
+          "docId": "m1-d13",
+          "prompt": "Selon l’article, quel avantage la semaine de quatre jours a-t-elle apporté à l’entreprise ?",
+          "options": [
+            "Elle a gagné de nombreux nouveaux clients cette année.",
+            "Elle attire plus facilement de nouveaux employés.",
+            "Elle a pu réduire les salaires de ses employés.",
+            "Elle organise davantage de réunions d’équipe."
+          ],
+          "answer": 1,
+          "explain": "\"Elle n’a plus de mal à recruter : une offre d’emploi […] a reçu trois fois plus de candidatures.\" It only \"n’a perdu aucun client\"; meetings were reduced.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-020",
+          "docId": "m1-d13",
+          "prompt": "Que pense la direction de l’application de ce modèle à d’autres secteurs ?",
+          "options": [
+            "Elle estime qu’il ne conviendrait pas à toutes les activités.",
+            "Elle le recommande à tous les hôpitaux.",
+            "Elle pense qu’il serait facile à appliquer dans les commerces.",
+            "Elle juge qu’il devrait être imposé par la loi."
+          ],
+          "answer": 0,
+          "explain": "\"Le modèle n’est pas transposable partout […] Dans un commerce ou un hôpital, il faudrait embaucher davantage, et la question serait bien différente.\"",
+          "microSkills": [
+            "opinion-fact",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-021",
+          "docId": "m1-d14",
+          "prompt": "Quel est le jugement global du critique sur ce roman ?",
+          "options": [
+            "Entièrement enthousiaste.",
+            "Très négatif : le roman est sans intérêt.",
+            "Neutre : il se contente de résumer l’intrigue du roman.",
+            "Mitigé : de vraies qualités, mais un livre inégal."
+          ],
+          "answer": 3,
+          "explain": "He praises the start (\"Le début est saisissant\") but says \"la seconde moitié du livre s’essouffle\", while concluding \"Reste une voix singulière\".",
+          "microSkills": [
+            "opinion-fact",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-022",
+          "docId": "m1-d14",
+          "prompt": "Que reproche le critique à la seconde partie du roman ?",
+          "options": [
+            "Les descriptions de l’hiver sont trop longues.",
+            "Les dialogues sont difficiles à comprendre.",
+            "L’histoire d’amour, prévisible, prend trop de place.",
+            "Les personnages secondaires deviennent trop nombreux."
+          ],
+          "answer": 2,
+          "explain": "\"L’intrigue amoureuse qui s’installe, trop attendue, prend le pas sur la peinture du village.\" Secondary characters become \"des silhouettes\", not more numerous.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-023",
+          "docId": "m1-d15",
+          "prompt": "Que demande Camille dans son message ?",
+          "options": [
+            "L’adresse d’une maison à louer avec jardin dans la Drôme.",
+            "Le témoignage de personnes qui ont vécu la même expérience.",
+            "Des idées de sorties culturelles à faire à Lyon le week-end.",
+            "L’avis d’un spécialiste sur le travail à distance."
+          ],
+          "answer": 1,
+          "explain": "\"Est-ce que certains d’entre vous ont fait le saut ? Qu’est-ce que vous auriez aimé savoir avant ?\"",
+          "microSkills": [
+            "intention"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-024",
+          "docId": "m1-d15",
+          "prompt": "Pourquoi Benoît recommande-t-il de vérifier la distance jusqu’à la gare ?",
+          "options": [
+            "Parce que le couple devra encore aller au bureau chaque semaine.",
+            "Parce que les trains sont souvent supprimés à la campagne.",
+            "Parce que la connexion Internet est meilleure dans les gares.",
+            "Parce qu’il n’y a pas de cinéma dans les villages."
+          ],
+          "answer": 0,
+          "explain": "\"La distance jusqu’à la gare, puisque vous devrez encore vous rendre au bureau une fois par semaine.\"",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-025",
+          "docId": "m1-d15",
+          "prompt": "Quelle est la position de Soléa ?",
+          "options": [
+            "Elle déconseille fermement à Camille de quitter la ville.",
+            "Elle conseille de tester la vie rurale avant d’acheter.",
+            "Elle regrette d’avoir acheté une voiture.",
+            "Elle pense que la vie sociale est impossible à la campagne."
+          ],
+          "answer": 1,
+          "explain": "\"Je ne dis pas qu’il ne faut pas partir, mais louez d’abord un an avant d’acheter.\" She does not advise against leaving.",
+          "microSkills": [
+            "opinion-fact",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-026",
+          "docId": "m1-d16",
+          "prompt": "Selon le texte, pourquoi les villes restent-elles chaudes la nuit ?",
+          "options": [
+            "Les arbres rejettent de la chaleur après le coucher du soleil.",
+            "Les matériaux libèrent la nuit la chaleur stockée le jour.",
+            "Le vent souffle plus fort en ville qu’à la campagne.",
+            "Les nuits sont plus courtes dans les grandes villes."
+          ],
+          "answer": 1,
+          "explain": "\"L’asphalte et le béton absorbent la chaleur du soleil pendant la journée, puis la restituent lentement la nuit.\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-027",
+          "docId": "m1-d16",
+          "prompt": "Pourquoi les urbanistes s’intéressent-ils désormais aux sols ?",
+          "options": [
+            "Pour remplacer peu à peu les arbres par des surfaces plus fraîches.",
+            "Pour réduire le nombre de climatiseurs utilisés dans les immeubles.",
+            "Pour que les arbres aient de l’eau et continuent à rafraîchir l’air.",
+            "Pour faciliter la circulation des voitures dans les rues étroites."
+          ],
+          "answer": 2,
+          "explain": "Trees cool the air only if \"il ait de l’eau à sa disposition\"; permeable surfaces let rain \"constituer des réserves pour les racines\".",
+          "microSkills": [
+            "inference",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-028",
+          "docId": "m1-d17",
+          "prompt": "Quelle est la thèse principale de l’éditorialiste ?",
+          "options": [
+            "La gratuité des transports est la mesure écologique la plus efficace qui soit.",
+            "Un service de qualité attire plus les automobilistes que la gratuité.",
+            "Les transports en commun devraient être réservés aux ménages les plus modestes.",
+            "Il faut augmenter le prix des billets pour financer l’extension du réseau."
+          ],
+          "answer": 1,
+          "explain": "\"Un service gratuit mais médiocre ne convaincra personne ; un service excellent, même payant, finira par convaincre.\"",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-029",
+          "docId": "m1-d17",
+          "prompt": "Selon l’auteur, quel est le principal effet observé de la gratuité ?",
+          "options": [
+            "Elle réduit fortement le nombre de voitures sur les routes.",
+            "Elle permet à la ville de faire baisser les impôts locaux.",
+            "Elle attire surtout ceux qui se passaient déjà de voiture.",
+            "Elle entraîne la suppression de nombreuses lignes d’autobus."
+          ],
+          "answer": 2,
+          "explain": "\"La gratuité attire surtout des piétons et des cyclistes, beaucoup plus rarement des automobilistes […] elle remplit les autobus sans vider les routes.\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-030",
+          "docId": "m1-d17",
+          "prompt": "Que propose l’auteur pour répondre à l’objectif de justice sociale ?",
+          "options": [
+            "La gratuité totale du réseau, mais seulement le week-end.",
+            "Le maintien des tarifs actuels, sans aucun changement.",
+            "Une taxe spéciale payée par les automobilistes.",
+            "Des réductions tarifaires ciblées pour certains publics."
+          ],
+          "answer": 3,
+          "explain": "\"Des tarifs fortement réduits pour les étudiants, les aînés et les ménages modestes répondraient à l’objectif de justice sociale.\" He rejects \"le statu quo\".",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-031",
+          "docId": "m1-d18",
+          "prompt": "Que suggèrent les expériences menées sur les rongeurs ?",
+          "options": [
+            "Les rongeurs dorment plus longtemps après avoir exploré un labyrinthe.",
+            "Les animaux oublient pendant la nuit tout ce qu’ils ont appris le jour.",
+            "Le cerveau endormi reproduit ce que l’animal a vécu éveillé.",
+            "Le sommeil ralentit l’activité de l’ensemble des neurones du cerveau."
+          ],
+          "answer": 2,
+          "explain": "Neurons \"activés lorsqu’un animal explore un labyrinthe, se « rejouent » pendant son sommeil […] comme si le cerveau répétait la leçon du jour\": the sleeping brain replays what was lived awake.",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-032",
+          "docId": "m1-d18",
+          "prompt": "Quel rôle certains chercheurs attribuent-ils à l’oubli pendant le sommeil ?",
+          "options": [
+            "Il serait le signe d’un manque de sommeil.",
+            "Il libérerait de la place pour de nouveaux apprentissages.",
+            "Il toucherait surtout les souvenirs les plus importants.",
+            "Il empêcherait le cerveau de consolider la mémoire."
+          ],
+          "answer": 1,
+          "explain": "\"En affaiblissant les connexions jugées secondaires pour laisser de la place aux nouveaux apprentissages. L’oubli […] ne serait pas une défaillance mais une fonction.\"",
+          "microSkills": [
+            "detail",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-033",
+          "docId": "m1-d19",
+          "prompt": "Quelle est l’idée centrale de cet essai ?",
+          "options": [
+            "L’ennui favorise une activité mentale libre et créatrice.",
+            "L’ennui est une perte de temps qu’il vaut mieux éviter.",
+            "Les téléphones rendent les gens plus créatifs au quotidien.",
+            "Les inventeurs ont leurs meilleures idées à leur bureau."
+          ],
+          "answer": 0,
+          "explain": "\"L’ennui n’est pas le contraire de la pensée : il en est souvent l’antichambre.\" The mind \"vagabonde, rapproche des idées […] ébauche un projet\".",
+          "microSkills": [
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-034",
+          "docId": "m1-d19",
+          "prompt": "Dans le texte, que signifie l’idée que l’ennui est « l’antichambre » de la pensée ?",
+          "options": [
+            "Il empêche de réfléchir.",
+            "Il précède et prépare la réflexion.",
+            "Il oblige à travailler en silence.",
+            "Il est l’aboutissement d’une longue réflexion."
+          ],
+          "answer": 1,
+          "explain": "An \"antichambre\" is the room you pass through before the main one: boredom comes before thought and makes room for it (\"Ce qui aurait pu surgir de ce rien\").",
+          "microSkills": [
+            "vocabulary",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-035",
+          "docId": "m1-d19",
+          "prompt": "Quelle attitude l’auteur recommande-t-il face aux téléphones ?",
+          "options": [
+            "Se débarrasser définitivement de son téléphone portable.",
+            "Utiliser son téléphone pour noter les idées qui surgissent.",
+            "Accepter de temps en temps des moments de vide sans les combler.",
+            "Réserver l’usage du téléphone aux trajets et aux files d’attente."
+          ],
+          "answer": 2,
+          "explain": "\"Faut-il pour autant jeter nos téléphones ? Ce serait confondre l’outil et l’usage. Il s’agirait plutôt de réapprendre à tolérer quelques minutes de vide.\"",
+          "microSkills": [
+            "intention",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-036",
+          "docId": "m1-d20",
+          "prompt": "Que révèle le passage sur la coupe de bonbons ?",
+          "options": [
+            "La tante n’avait pas les moyens d’acheter de nouveaux bonbons.",
+            "Les enfants prenaient des bonbons en cachette de leur tante.",
+            "La tante changeait les bonbons de la coupe chaque année.",
+            "Les gestes d’accueil de la tante obéissaient à un code implicite."
+          ],
+          "answer": 3,
+          "explain": "The sweets were \"faits pour être offerts, non pour être pris […] la politesse consistait précisément à ne pas y toucher\" — \"un ensemble d’invitations qu’il eût été grossier d’accepter\".",
+          "microSkills": [
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-037",
+          "docId": "m1-d20",
+          "prompt": "Quel effet produit la découverte finale des dessins ?",
+          "options": [
+            "Elle révèle chez la tante une affection qu’elle ne montrait pas.",
+            "Elle confirme que la tante était restée indifférente au narrateur.",
+            "Elle montre que la tante rêvait de devenir artiste.",
+            "Elle prouve que la tante avait menti sur la route."
+          ],
+          "answer": 0,
+          "explain": "After a portrait of a cold, inspecting aunt, she kept \"soigneusement rangés […] tous les dessins que je lui avais envoyés, chacun daté\" — hidden tenderness.",
+          "microSkills": [
+            "inference",
+            "intention"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-038",
+          "docId": "m1-d21",
+          "prompt": "Selon l’auteur, qu’est-ce que l’ère numérique a « inversé » ?",
+          "options": [
+            "Autrefois, on archivait tout ; aujourd’hui, on n’archive plus rien.",
+            "Autrefois, l’oubli était coûteux ; aujourd’hui, c’est la mémoire qui l’est devenue.",
+            "Autrefois, les individus effaçaient le passé ; aujourd’hui, les institutions le conservent.",
+            "Autrefois, conserver demandait un effort ; aujourd’hui, c’est effacer qui en demande."
+          ],
+          "answer": 3,
+          "explain": "Before, memory was \"rare et coûteuse\" and \"l’oubli […] ne coûtait rien\"; now \"Enregistrer ne coûte presque plus rien ; c’est l’effacement qui demande désormais une décision\".",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m1-039",
+          "docId": "m1-d21",
+          "prompt": "Pourquoi l’auteur affirme-t-il qu’une mémoire « qui ne hiérarchise pas n’est guère qu’un entassement » ?",
+          "options": [
+            "Parce que les moteurs de recherche classent mal les informations qu’ils trouvent.",
+            "Parce que les souvenirs anciens sont toujours moins fiables que les récents.",
+            "Parce qu’il faudrait effacer l’ensemble des données personnelles en ligne.",
+            "Parce que se souvenir vraiment suppose de laisser certaines choses s’estomper."
+          ],
+          "answer": 3,
+          "explain": "\"Se souvenir […] c’est aussi choisir ce qu’on laisse s’estomper.\" He also rejects the choice between \"tout garder ou tout effacer\".",
+          "microSkills": [
+            "inference",
+            "opinion-fact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tcf-ce-m2",
+      "title": "Test blanc 2 — Compréhension écrite",
+      "level": "a1-c2",
+      "mock": true,
+      "minutes": 60,
+      "docs": [
+        {
+          "id": "m2-d01",
+          "type": "affiche",
+          "title": "Pharmacie des Érables",
+          "fr": "PHARMACIE DES ÉRABLES\nAujourd’hui, samedi : fermeture exceptionnelle à 13 h.\nRéouverture demain, dimanche, à 9 h.\nEn cas d’urgence : Pharmacie du Centre, 12 rue Royale.\nMerci de votre compréhension."
+        },
+        {
+          "id": "m2-d02",
+          "type": "lettre",
+          "title": "Mot de Lucas",
+          "fr": "Maman,\nJe suis chez Théo. On fait nos devoirs de maths ensemble.\nSon père me ramène à la maison à 18 h.\nJ’ai pris mon manteau !\nBisous,\nLucas"
+        },
+        {
+          "id": "m2-d03",
+          "type": "affiche",
+          "title": "Ascenseur en panne",
+          "fr": "AVIS AUX RÉSIDENTS\nL’ascenseur est en panne.\nMerci d’utiliser l’escalier B, à côté de la porte principale.\nLa réparation est prévue vendredi.\nNous nous excusons pour ce problème."
+        },
+        {
+          "id": "m2-d04",
+          "type": "annonce",
+          "title": "Petite annonce",
+          "fr": "PERDU — Chat gris aux yeux verts. Il s’appelle Pacha.\nQuartier Saint-Roch, à Québec, depuis lundi.\nSi vous le voyez, appelez Inès au 418 555-0142.\nMerci beaucoup !"
+        },
+        {
+          "id": "m2-d05",
+          "type": "courriel",
+          "title": "Invitation",
+          "fr": "Objet : Mon anniversaire samedi !\nSalut tout le monde,\nPour mes 30 ans, je vous invite à un pique-nique samedi prochain, à partir de midi, au parc des Glycines, près du grand lac. J’apporte les boissons et le gâteau. Vous, apportez seulement quelque chose à manger à partager (salade, quiche, chips…).\nS’il pleut, pas de panique : on fera la fête chez moi, 12 rue des Lilas.\nRépondez-moi avant jeudi, s’il vous plaît !\nAmélie"
+        },
+        {
+          "id": "m2-d06",
+          "type": "horaire",
+          "title": "Musée de la Mer",
+          "fr": "MUSÉE DE LA MER — Horaires et tarifs\nOuvert du mercredi au dimanche, de 10 h à 18 h.\nAdultes : 12 € ; étudiants : 8 € ; moins de 18 ans : gratuit.\nLe premier dimanche du mois : entrée gratuite pour tous.\nDernière entrée : 17 h 15."
+        },
+        {
+          "id": "m2-d07",
+          "type": "publicité",
+          "title": "Gym Altitude",
+          "fr": "GYM ALTITUDE — Laval\nOuvert 24 heures sur 24, 7 jours sur 7 !\nEn septembre : frais d’inscription offerts.\nAbonnement : 29 $ par mois, cours de groupe compris (yoga, vélo, boxe).\nServiette et cadenas : à apporter.\nPremière séance d’essai gratuite."
+        },
+        {
+          "id": "m2-d08",
+          "type": "annonce",
+          "title": "Gardienne disponible",
+          "fr": "Étudiante de 19 ans, sérieuse et patiente, cherche à garder des enfants le soir et la fin de semaine, dans le quartier Rosemont, à Montréal. J’ai réussi un cours de gardiennage et de premiers soins. J’aide aussi aux devoirs (français et anglais). 15 $ de l’heure.\nÉcrivez-moi : Maude."
+        },
+        {
+          "id": "m2-d09",
+          "type": "courriel",
+          "title": "Sortie scolaire",
+          "fr": "Objet : Sortie au parc régional du Mont-Clair — classe de 5e année\nChers parents,\nLe jeudi 15 mai, la classe de Mme Gagnon se rendra au parc régional du Mont-Clair pour une journée d’observation de la nature. Le départ en autobus aura lieu à 8 h 15 devant l’école ; le retour est prévu vers 15 h 30.\nVotre enfant doit apporter un lunch froid (il n’y aura pas de micro-ondes sur place), une bouteille d’eau, des vêtements adaptés à la météo et de bonnes chaussures de marche. La sortie coûte 12 $, transport compris.\nPour que votre enfant puisse participer, vous devez signer le formulaire d’autorisation ci-joint et le remettre à l’enseignante, avec le paiement, au plus tard le vendredi 9 mai.\nNous cherchons aussi deux parents accompagnateurs. Si vous êtes disponible, faites-le savoir à Mme Gagnon.\nLa direction"
+        },
+        {
+          "id": "m2-d10",
+          "type": "article",
+          "title": "Un frigo pour tous",
+          "fr": "Depuis le mois d’octobre, un réfrigérateur un peu particulier est installé devant le centre social du quartier des Capucins, à Villefranche-les-Vignes. Il n’appartient à personne et tout le monde peut s’en servir : on y dépose les aliments qu’on ne consommera pas, et chacun peut se servir librement, sans avoir à se justifier.\nL’initiative a été lancée par trois voisines qui ne supportaient plus de jeter de la nourriture. « Au début, les gens étaient méfiants, raconte l’une d’elles, Fatima. Maintenant, la boulangerie d’en face y laisse ses invendus tous les soirs. »\nQuelques règles sont affichées sur la porte : pas d’alcool, pas de viande crue, et les plats faits maison doivent porter une étiquette indiquant la date de préparation. Des bénévoles vérifient le contenu deux fois par jour.\nFort de ce succès, le centre social envisage d’installer un deuxième frigo dans un autre quartier."
+        },
+        {
+          "id": "m2-d11",
+          "type": "affiche",
+          "title": "Patinoire du parc des Bouleaux",
+          "fr": "PATINOIRE EXTÉRIEURE DU PARC DES BOULEAUX — RÈGLEMENTS\n• Heures d’ouverture : de 9 h à 22 h, si la météo le permet. Consultez la page de la Ville avant de vous déplacer.\n• De 9 h à 17 h : patinage libre seulement. Le hockey est permis à partir de 17 h, sur la grande patinoire uniquement.\n• Le casque est obligatoire pour les enfants de moins de 12 ans et fortement recommandé pour tous.\n• La patinoire peut être fermée sans préavis pour l’entretien de la glace.\n• Le chalet chauffé est ouvert aux mêmes heures que la patinoire. Les animaux n’y sont pas admis."
+        },
+        {
+          "id": "m2-d12",
+          "type": "lettre",
+          "title": "Lettre des Éditions du Phare",
+          "fr": "Éditions du Phare — Service des ressources humaines\nMadame Nguyen,\nÀ la suite de notre entretien du 3 février, j’ai le plaisir de vous confirmer que votre candidature au stage d’assistante en communication a été retenue. Le stage se déroulera du 7 avril au 27 juin dans nos bureaux de Nantes, à raison de 35 heures par semaine.\nAvant le début du stage, la convention de stage devra être signée par vous-même, par votre université et par notre entreprise. Je vous remercie de nous la faire parvenir, déjà signée par vous et par votre université, au plus tard le 15 mars, afin que nous puissions la signer à notre tour.\nLe premier jour, merci de vous présenter à 9 h à l’accueil, munie d’une pièce d’identité : un badge d’accès vous sera remis.\nDans l’attente de vous accueillir, je vous prie d’agréer, Madame, mes salutations distinguées.\nJulien Morel, responsable des ressources humaines"
+        },
+        {
+          "id": "m2-d13",
+          "type": "article",
+          "title": "Le collège qui a rangé les téléphones",
+          "fr": "Depuis la rentrée de septembre, les 600 élèves du collège Les Hauts-Prés, à Arbonne-sur-Lot, déposent leur téléphone dans un casier fermé à clé dès leur arrivée le matin et ne le récupèrent qu’à la sortie. La mesure, décidée par le conseil d’administration après une consultation des familles, a d’abord provoqué des protestations. Six mois plus tard, le principal, Antoine Lefèvre, dresse un bilan qu’il juge encourageant : « La cour est redevenue bruyante. Les élèves jouent, discutent, se disputent parfois, mais ils se parlent. »\nLes enseignants signalent également moins de conflits liés aux réseaux sociaux pendant la journée et une meilleure concentration en début de cours. Ces constats restent toutefois à manier avec prudence : aucune étude rigoureuse n’a encore été menée, et l’amélioration des résultats scolaires évoquée par certains parents n’a pas été mesurée.\nDu côté des élèves, l’accueil est plus partagé. Si beaucoup avouent ne plus y penser, d’autres regrettent de ne pas pouvoir prévenir leurs parents en cas d’imprévu. Le collège a répondu en mettant un téléphone fixe à leur disposition au bureau de la vie scolaire. Quant au harcèlement en ligne, il n’a pas disparu : « Il a simplement lieu le soir », reconnaît le principal."
+        },
+        {
+          "id": "m2-d14",
+          "type": "article",
+          "title": "Critique — La Table de Margaux",
+          "fr": "On avait beaucoup entendu parler de La Table de Margaux, ouverte au printemps dans un ancien atelier du Mile-End. Le décor tient ses promesses : briques apparentes, grandes fenêtres, cuisine ouverte où l’on voit la jeune cheffe Margaux Bérubé et sa brigade s’activer sans un cri.\nDans l’assiette, le menu, qui change chaque semaine selon les arrivages des producteurs de la région, réserve de vraies réussites. Le tartare de truite aux pommes vertes est d’une fraîcheur remarquable, et le canard, servi avec une purée de courge et des champignons sauvages, justifie à lui seul le déplacement. Les desserts, plus sages, n’atteignent pas tout à fait ce niveau.\nLe bémol vient du service. Le soir de notre visite, il a fallu attendre près de quarante minutes entre l’entrée et le plat principal, sans un mot d’explication, et notre serveur, visiblement débordé, a oublié deux fois l’eau demandée. Rien de rédhibitoire, mais à 75 $ le menu de trois services, on attend davantage d’attention.\nUne adresse prometteuse, donc, qui gagnerait à étoffer son équipe en salle pour être à la hauteur de sa cuisine."
+        },
+        {
+          "id": "m2-d15",
+          "type": "forum",
+          "title": "Voiture électrique et hiver",
+          "fr": "Sujet : Voiture électrique en région, en hiver… vraiment une bonne idée ?\nJF_Saguenay : Bonjour. Je fais 90 km aller-retour pour le travail chaque jour et je pense passer à l’électrique. Mais mon beau-frère me répète qu’avec nos hivers, la batterie ne tiendra jamais. Des témoignages de gens qui vivent en région froide ?\nNathalie_R : J’ai une électrique depuis deux hivers en Abitibi. C’est vrai que l’autonomie baisse quand il fait très froid : avec ma voiture, je perds à peu près le tiers par –25 °C. Mais pour 90 km par jour, aucun problème, à condition de recharger chaque nuit à la maison. Mon vrai conseil : faites installer une borne chez vous avant de recevoir la voiture, car les délais peuvent être longs.\nMarco_Q : Je suis moins enthousiaste. La voiture elle-même est très bien, mais je vis en appartement et je n’ai pas de stationnement avec prise. Dépendre des bornes publiques l’hiver, c’est une autre histoire : files d’attente, bornes en panne… Si vous ne pouvez pas recharger chez vous, réfléchissez-y à deux fois.\nJF_Saguenay : Merci à vous deux ! J’ai un garage, donc je crois que je vais me lancer."
+        },
+        {
+          "id": "m2-d16",
+          "type": "article",
+          "title": "Des abeilles sur les toits",
+          "fr": "Sur les toits des hôtels, des banques ou des sièges sociaux, les ruches se sont multipliées ces dernières années dans de nombreuses grandes villes. Installer des abeilles est devenu un geste apprécié des entreprises, qui y voient une manière simple de montrer leur engagement en faveur de la nature.\nPourtant, plusieurs écologues invitent à la prudence. L’abeille domestique, celle qui produit le miel, n’est qu’une espèce parmi des centaines d’abeilles sauvages, souvent solitaires, qui jouent elles aussi un rôle essentiel dans la pollinisation. Or, lorsque les ruches deviennent trop nombreuses dans un même quartier, les abeilles domestiques, très efficaces pour exploiter les fleurs, peuvent entrer en concurrence avec ces espèces sauvages pour une nourriture limitée.\nAutrement dit, multiplier les ruches ne revient pas forcément à protéger les pollinisateurs. Pour les spécialistes, la priorité serait plutôt d’augmenter les ressources : planter des fleurs variées qui fleurissent à différents moments de l’année, laisser des coins de friche, limiter les pesticides dans les parcs et les jardins. Des mesures moins spectaculaires qu’une ruche sur un toit, mais qui profitent à toutes les espèces."
+        },
+        {
+          "id": "m2-d17",
+          "type": "article",
+          "title": "Éditorial — Réparer, un geste politique",
+          "fr": "Il fut un temps où l’on faisait ressemeler ses chaussures, recoudre ses vestes et réparer son poste de radio chez l’artisan du coin. Ce temps n’a pas disparu par hasard. Pendant des décennies, tout a concouru à rendre le remplacement plus simple que la réparation : des objets collés plutôt que vissés, des pièces détachées introuvables ou hors de prix, des notices muettes sur la manière de les démonter. Racheter n’est pas devenu un réflexe parce que les consommateurs seraient devenus paresseux, mais parce qu’on leur a ôté, une à une, les autres options.\nOn présente volontiers la réparation comme une affaire de vertu individuelle, une petite discipline écologique à laquelle chacun serait libre de se plier. C’est faire peser sur le consommateur une responsabilité qui ne lui revient qu’en partie. Celui qui voudrait réparer son lave-linge se heurte moins à sa propre négligence qu’à la conception même de l’appareil.\nC’est donc en amont que se joue l’essentiel : dans les normes de fabrication, dans l’obligation de fournir des pièces pendant une durée raisonnable, dans l’accès des réparateurs indépendants aux outils et aux manuels. Ces règles relèvent de la décision collective, non de la bonne volonté de chacun.\nLes ateliers de réparation bénévoles qui fleurissent dans nos quartiers sont précieux ; ils transmettent des savoir-faire et créent du lien. Mais on ne saurait leur demander de compenser, à coups de tournevis, ce que l’industrie a organisé à grande échelle."
+        },
+        {
+          "id": "m2-d18",
+          "type": "article",
+          "title": "Le feu, allié inattendu de la forêt boréale",
+          "fr": "Pour le promeneur, une forêt incendiée offre un spectacle de désolation. Pour l’écologue, l’image est plus nuancée. Dans la forêt boréale, le feu n’est pas seulement une catastrophe : il fait partie du cycle naturel par lequel la forêt se renouvelle.\nCertaines espèces y sont même adaptées de façon étonnante. Le pin gris, par exemple, porte des cônes scellés par une résine qui ne fond qu’à forte chaleur. Tant qu’aucun incendie ne survient, une grande partie de ses graines reste enfermée sur l’arbre ; après le passage des flammes, les cônes s’ouvrent et libèrent leurs graines sur un sol dégagé, enrichi par les cendres, où la lumière abonde.\nCet équilibre suppose toutefois un certain rythme. Un jeune pin doit atteindre un âge suffisant avant de produire des cônes en quantité. Si deux incendies se succèdent à quelques années d’intervalle, les arbres repoussés après le premier n’ont pas encore eu le temps de constituer cette réserve de graines, et la forêt peut céder la place à des landes ou à des peuplements clairsemés. C’est précisément ce qui inquiète les chercheurs : avec le réchauffement du climat, les saisons des feux tendent à s’allonger et les incendies à se rapprocher.\nLe paradoxe n’est donc qu’apparent. Ce n’est pas le feu en lui-même qui menace la forêt boréale, mais la modification du rythme auquel elle s’était adaptée."
+        },
+        {
+          "id": "m2-d19",
+          "type": "article",
+          "title": "Essai — Traduire, c’est trahir ?",
+          "fr": "« Traduire, c’est trahir », répète-t-on depuis des siècles, et le proverbe a la force des formules qui semblent aller de soi. Toute traduction, en effet, perd quelque chose : un jeu de mots, une sonorité, une allusion que le lecteur d’origine saisissait sans effort. Le traducteur serait donc, au mieux, un passeur maladroit, au pire un faussaire.\nCette vision repose pourtant sur une illusion : celle d’un texte original dont le sens serait fixé une fois pour toutes, comme un objet qu’il suffirait de transporter intact d’une rive à l’autre. Or le lecteur d’origine lui-même ne lit jamais tout à fait le même texte que son voisin, et encore moins que celui qui le lira un siècle plus tard. Le sens d’une œuvre n’est pas un dépôt immobile ; il naît de la rencontre entre des mots et des lecteurs.\nDès lors, le traducteur n’est pas celui qui dégrade un original parfait, mais un lecteur particulièrement attentif, contraint de prendre des décisions que les autres lecteurs prennent sans s’en rendre compte. Là où il perd un jeu de mots, il en invente parfois un autre ; là où une allusion devient obscure, il cherche un équivalent qui produise sur son public un effet comparable.\nIl ne s’agit pas de nier les pertes, qui sont réelles. Mais réduire la traduction à une trahison, c’est oublier que bien des œuvres ne nous sont parvenues — et ne continuent de vivre — que grâce à elle."
+        },
+        {
+          "id": "m2-d20",
+          "type": "article",
+          "title": "Extrait de roman — L’horloge de la gare",
+          "fr": "Mon grand-père tenait l’horloge de la gare comme d’autres tiennent un journal intime. Chaque matin, à six heures moins dix, il montait sur l’escabeau, ouvrait le cadran vitré et, d’une pression du pouce sur l’aiguille des minutes, rectifiait l’écart de la nuit. L’horloge n’avançait ni ne retardait jamais de plus d’une minute ; il le savait, et il montait quand même.\nOn avait supprimé la ligne au printemps de mes douze ans. Les rails restèrent, que l’herbe avala en deux étés, et la gare devint une maison comme une autre, à ceci près que les voisins continuaient de l’appeler « la gare » et que mon grand-père continuait de monter sur son escabeau.\n« À quoi bon ? » lui demanda un jour ma mère, avec cette douceur exaspérée qu’on réserve aux gens qu’on aime et qu’on ne comprend plus. Il prit le temps de refermer le cadran, de descendre, de replier l’escabeau. Puis il répondit qu’une horloge juste ne servait pas qu’à attraper les trains.\nJe n’ai compris que bien plus tard qu’il ne parlait pas de l’horloge."
+        },
+        {
+          "id": "m2-d21",
+          "type": "article",
+          "title": "Essai — La science et le doute",
+          "fr": "On reproche volontiers aux scientifiques de changer d’avis. Hier, tel aliment était déconseillé, aujourd’hui on le recommande ; telle hypothèse, présentée comme solide, est abandonnée au profit d’une autre. Le public en conclut parfois que la science ne sait rien, ou qu’elle dit tout et son contraire. Le soupçon est compréhensible ; il repose pourtant sur un contresens.\nCe qui distingue la démarche scientifique n’est pas l’infaillibilité de ses conclusions, mais la manière dont elle les expose à la réfutation. Une théorie n’y est jamais tenue pour vraie au sens où le serait un dogme ; elle est tenue pour la meilleure explication disponible, jusqu’à preuve du contraire, et chacun est invité à fournir cette preuve. Que les connaissances se corrigent n’est donc pas l’aveu d’un échec : c’est le signe que le mécanisme fonctionne.\nLe malentendu tient en partie à la façon dont les résultats sont communiqués. Une étude isolée, préliminaire, est souvent présentée comme une découverte définitive, puis contredite par la suivante, également présentée comme définitive. Ce ne sont pas les chercheurs qui se contredisent, mais le récit qu’on fait de leurs travaux qui gomme les degrés de certitude.\nPeut-être faudrait-il réapprendre à entendre une phrase que l’on croit embarrassante : « Nous ne savons pas encore. » Loin d’être un aveu de faiblesse, elle est sans doute la plus scientifique de toutes. Ce qu’il faudrait craindre, au contraire, c’est un savoir qui ne se corrigerait jamais."
+        }
+      ],
+      "items": [
+        {
+          "id": "tcf-ce-m2-001",
+          "docId": "m2-d01",
+          "prompt": "Quand la pharmacie ouvre-t-elle à nouveau ?",
+          "options": [
+            "Dimanche à 9 h.",
+            "Samedi à 13 h.",
+            "Dimanche à 13 h.",
+            "Samedi à 9 h."
+          ],
+          "answer": 0,
+          "explain": "\"Réouverture demain, dimanche, à 9 h.\" 13 h is today’s closing time.",
+          "microSkills": [
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-002",
+          "docId": "m2-d02",
+          "prompt": "Que fait Lucas chez Théo ?",
+          "options": [
+            "Il joue au football.",
+            "Il regarde un film.",
+            "Il fait ses devoirs.",
+            "Il prépare le dîner."
+          ],
+          "answer": 2,
+          "explain": "\"On fait nos devoirs de maths ensemble.\"",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-003",
+          "docId": "m2-d03",
+          "prompt": "Pour aller aux étages, les résidents doivent…",
+          "options": [
+            "attendre jusqu’à vendredi.",
+            "appeler le réparateur.",
+            "prendre l’escalier B.",
+            "utiliser la porte principale."
+          ],
+          "answer": 2,
+          "explain": "\"Merci d’utiliser l’escalier B.\" The main door only tells you where the stairs are (\"à côté de la porte principale\").",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-004",
+          "docId": "m2-d04",
+          "prompt": "Que cherche Inès ?",
+          "options": [
+            "Son chien.",
+            "Son chat.",
+            "Son sac vert.",
+            "Ses clés."
+          ],
+          "answer": 1,
+          "explain": "\"PERDU — Chat gris aux yeux verts.\" \"Verts\" describes the cat’s eyes.",
+          "microSkills": [
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-005",
+          "docId": "m2-d05",
+          "prompt": "Qu’est-ce que les invités doivent apporter ?",
+          "options": [
+            "Un plat à partager.",
+            "Des boissons pour tous.",
+            "Le gâteau d’anniversaire.",
+            "Un cadeau pour Amélie."
+          ],
+          "answer": 0,
+          "explain": "\"Apportez seulement quelque chose à manger à partager.\" Amélie brings \"les boissons et le gâteau\".",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-006",
+          "docId": "m2-d05",
+          "prompt": "Que se passera-t-il s’il pleut ?",
+          "options": [
+            "Le pique-nique sera annulé.",
+            "La fête aura lieu chez Amélie.",
+            "La fête sera reportée à dimanche.",
+            "Les invités se retrouveront près du lac."
+          ],
+          "answer": 1,
+          "explain": "\"S’il pleut, pas de panique : on fera la fête chez moi.\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-007",
+          "docId": "m2-d06",
+          "prompt": "Un adulte veut visiter le musée sans payer. Quand doit-il venir ?",
+          "options": [
+            "N’importe quel mercredi.",
+            "N’importe quel jour avant 17 h 15.",
+            "Le premier dimanche du mois.",
+            "Le lundi."
+          ],
+          "answer": 2,
+          "explain": "\"Le premier dimanche du mois : entrée gratuite pour tous.\" Otherwise adults pay 12 €; the museum is closed on Mondays.",
+          "microSkills": [
+            "detail",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-008",
+          "docId": "m2-d07",
+          "prompt": "Que propose ce gym en septembre ?",
+          "options": [
+            "Un mois d’abonnement gratuit.",
+            "Des serviettes gratuites.",
+            "Des cours de groupe à moitié prix.",
+            "L’inscription sans frais."
+          ],
+          "answer": 3,
+          "explain": "\"En septembre : frais d’inscription offerts.\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-009",
+          "docId": "m2-d07",
+          "prompt": "Que doit-on apporter au gym ?",
+          "options": [
+            "Une serviette et un cadenas.",
+            "Un tapis de yoga et une bouteille.",
+            "Un vélo pour les cours de groupe.",
+            "Des gants pour les cours de boxe."
+          ],
+          "answer": 0,
+          "explain": "\"Serviette et cadenas : à apporter.\"",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-010",
+          "docId": "m2-d08",
+          "prompt": "Qu’est-ce que Maude propose en plus de la garde d’enfants ?",
+          "options": [
+            "La préparation des repas de la semaine.",
+            "Une aide aux devoirs.",
+            "Des cours de natation.",
+            "Une garde en journée, en semaine."
+          ],
+          "answer": 1,
+          "explain": "\"J’aide aussi aux devoirs (français et anglais).\" She babysits \"le soir et la fin de semaine\", not weekdays.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-011",
+          "docId": "m2-d09",
+          "prompt": "Pourquoi les élèves doivent-ils apporter un repas froid ?",
+          "options": [
+            "Parce qu’ils ne pourront pas le réchauffer.",
+            "Parce que la sortie se termine avant midi.",
+            "Parce que l’école ne fournit pas d’eau.",
+            "Parce que le repas est compris dans le prix."
+          ],
+          "answer": 0,
+          "explain": "\"Un lunch froid (il n’y aura pas de micro-ondes sur place).\"",
+          "microSkills": [
+            "detail",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-012",
+          "docId": "m2-d09",
+          "prompt": "Que doivent faire tous les parents avant le 9 mai ?",
+          "options": [
+            "Remettre l’autorisation signée et payer la sortie.",
+            "Accompagner la classe pendant toute la journée.",
+            "Téléphoner à la direction pour confirmer.",
+            "Inscrire leur enfant directement auprès du parc."
+          ],
+          "answer": 0,
+          "explain": "\"Vous devez signer le formulaire d’autorisation ci-joint et le remettre à l’enseignante, avec le paiement, au plus tard le vendredi 9 mai.\" Only two volunteer parents are needed to accompany.",
+          "microSkills": [
+            "detail",
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-013",
+          "docId": "m2-d10",
+          "prompt": "Pourquoi les trois voisines ont-elles créé ce frigo ?",
+          "options": [
+            "Pour vendre leurs plats faits maison.",
+            "Pour faire connaître la boulangerie d’en face.",
+            "Pour lutter contre le gaspillage de nourriture.",
+            "Pour remplacer le centre social."
+          ],
+          "answer": 2,
+          "explain": "\"Trois voisines qui ne supportaient plus de jeter de la nourriture.\"",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-014",
+          "docId": "m2-d10",
+          "prompt": "Que faut-il faire quand on dépose un plat préparé à la maison ?",
+          "options": [
+            "Le remettre en main propre à un bénévole.",
+            "Le déposer uniquement en fin de journée.",
+            "Écrire son nom et son adresse sur la porte.",
+            "Indiquer la date à laquelle il a été préparé."
+          ],
+          "answer": 3,
+          "explain": "\"Les plats faits maison doivent porter une étiquette indiquant la date de préparation.\"",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-015",
+          "docId": "m2-d11",
+          "prompt": "Des amis veulent jouer au hockey à 14 h. Que dit le règlement ?",
+          "options": [
+            "C’est permis sur la grande patinoire.",
+            "C’est permis si tout le monde porte un casque.",
+            "C’est interdit à cette heure-là.",
+            "C’est permis seulement en fin de semaine."
+          ],
+          "answer": 2,
+          "explain": "\"De 9 h à 17 h : patinage libre seulement. Le hockey est permis à partir de 17 h.\"",
+          "microSkills": [
+            "detail",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-016",
+          "docId": "m2-d11",
+          "prompt": "Pourquoi conseille-t-on de consulter la page de la Ville avant de venir ?",
+          "options": [
+            "Parce qu’il faut réserver sa place.",
+            "Parce que les tarifs changent chaque jour.",
+            "Parce que le chalet ferme plus tôt que la patinoire.",
+            "Parce que l’ouverture dépend de la météo."
+          ],
+          "answer": 3,
+          "explain": "\"De 9 h à 22 h, si la météo le permet. Consultez la page de la Ville avant de vous déplacer.\" The chalet has \"les mêmes heures que la patinoire\".",
+          "microSkills": [
+            "intention",
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-017",
+          "docId": "m2-d12",
+          "prompt": "Quel est l’objet principal de cette lettre ?",
+          "options": [
+            "Inviter Mme Nguyen à un entretien le 3 février.",
+            "Informer Mme Nguyen que sa candidature est refusée.",
+            "Confirmer à Mme Nguyen qu’elle est acceptée en stage.",
+            "Proposer à Mme Nguyen un emploi permanent à Nantes."
+          ],
+          "answer": 2,
+          "explain": "\"J’ai le plaisir de vous confirmer que votre candidature au stage […] a été retenue.\"",
+          "microSkills": [
+            "intention",
+            "document-type"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-018",
+          "docId": "m2-d12",
+          "prompt": "Que doit faire Mme Nguyen au plus tard le 15 mars ?",
+          "options": [
+            "Se présenter à l’accueil avec une pièce d’identité valide.",
+            "Renvoyer la convention signée par elle et son université.",
+            "Venir chercher son badge d’accès à l’accueil.",
+            "Passer un second entretien avec M. Morel."
+          ],
+          "answer": 1,
+          "explain": "\"Je vous remercie de nous la faire parvenir, déjà signée par vous et par votre université, au plus tard le 15 mars.\" The ID and badge are for the first day.",
+          "microSkills": [
+            "detail",
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-019",
+          "docId": "m2-d13",
+          "prompt": "Comment le principal juge-t-il les effets de la mesure ?",
+          "options": [
+            "Il les juge décevants.",
+            "Il les trouve plutôt positifs.",
+            "Il affirme qu’une étude les a démontrés.",
+            "Il pense qu’ils nuisent aux élèves."
+          ],
+          "answer": 1,
+          "explain": "\"Le principal […] dresse un bilan qu’il juge encourageant.\" The article notes that \"aucune étude rigoureuse n’a encore été menée\".",
+          "microSkills": [
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-020",
+          "docId": "m2-d13",
+          "prompt": "Que dit l’article à propos du harcèlement en ligne ?",
+          "options": [
+            "Il a complètement disparu depuis septembre.",
+            "Il a augmenté pendant les heures de cours.",
+            "Il touche désormais surtout les enseignants.",
+            "Il s’est déplacé en dehors des heures de classe."
+          ],
+          "answer": 3,
+          "explain": "\"Il n’a pas disparu : « Il a simplement lieu le soir ».\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-021",
+          "docId": "m2-d14",
+          "prompt": "Qu’est-ce que le critique apprécie le plus dans ce restaurant ?",
+          "options": [
+            "Les desserts, plus originaux que le reste.",
+            "La rapidité et l’attention du service.",
+            "Les prix modestes du menu de trois services.",
+            "La qualité de certains plats, dont le canard."
+          ],
+          "answer": 3,
+          "explain": "\"Le canard […] justifie à lui seul le déplacement\"; the desserts \"n’atteignent pas tout à fait ce niveau\" and the service is the \"bémol\".",
+          "microSkills": [
+            "opinion-fact",
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-022",
+          "docId": "m2-d14",
+          "prompt": "Que suggère le critique au restaurant ?",
+          "options": [
+            "Baisser le prix du menu de trois services.",
+            "Engager davantage de personnel en salle.",
+            "Changer le menu moins souvent.",
+            "Revoir la décoration de l’ancien atelier."
+          ],
+          "answer": 1,
+          "explain": "\"Une adresse prometteuse, donc, qui gagnerait à étoffer son équipe en salle\" — \"étoffer\" = to strengthen/enlarge.",
+          "microSkills": [
+            "vocabulary",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-023",
+          "docId": "m2-d15",
+          "prompt": "Quelle inquiétude JF exprime-t-il dans son premier message ?",
+          "options": [
+            "Que la voiture électrique coûte trop cher.",
+            "Que son trajet soit trop court pour une électrique.",
+            "Que le froid réduise trop l’autonomie de la batterie.",
+            "Qu’il n’existe aucune borne dans sa région."
+          ],
+          "answer": 2,
+          "explain": "\"Mon beau-frère me répète qu’avec nos hivers, la batterie ne tiendra jamais.\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-024",
+          "docId": "m2-d15",
+          "prompt": "Selon Nathalie, quelle précaution faut-il prendre ?",
+          "options": [
+            "Éviter d’utiliser la voiture lorsqu’il fait –25 °C ou moins.",
+            "Prévoir à l’avance l’installation d’une borne à domicile.",
+            "Recharger la voiture uniquement aux bornes publiques.",
+            "Choisir une voiture équipée d’une seconde batterie."
+          ],
+          "answer": 1,
+          "explain": "\"Faites installer une borne chez vous avant de recevoir la voiture, car les délais peuvent être longs.\"",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-025",
+          "docId": "m2-d15",
+          "prompt": "Pourquoi JF décide-t-il finalement de se lancer ?",
+          "options": [
+            "Parce qu’il pourra recharger sa voiture chez lui.",
+            "Parce que Marco l’a convaincu.",
+            "Parce que son trajet va diminuer.",
+            "Parce que les bornes publiques sont fiables en hiver."
+          ],
+          "answer": 0,
+          "explain": "\"J’ai un garage, donc je crois que je vais me lancer.\" Marco warned only those who cannot \"recharger chez vous\".",
+          "microSkills": [
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-026",
+          "docId": "m2-d16",
+          "prompt": "Quel risque les écologues signalent-ils ?",
+          "options": [
+            "Une forte baisse de la production de miel dans les grandes villes.",
+            "Des piqûres de plus en plus fréquentes chez les habitants.",
+            "La disparition progressive des abeilles domestiques sur les toits.",
+            "Une concurrence entre abeilles domestiques et sauvages."
+          ],
+          "answer": 3,
+          "explain": "\"Les abeilles domestiques […] peuvent entrer en concurrence avec ces espèces sauvages pour une nourriture limitée.\"",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-027",
+          "docId": "m2-d16",
+          "prompt": "Quelle est la principale recommandation des spécialistes ?",
+          "options": [
+            "Installer davantage de ruches sur les toits.",
+            "Remplacer les abeilles domestiques par des abeilles sauvages.",
+            "Augmenter et diversifier les ressources florales.",
+            "Réserver les ruches aux sièges sociaux."
+          ],
+          "answer": 2,
+          "explain": "\"La priorité serait plutôt d’augmenter les ressources : planter des fleurs variées qui fleurissent à différents moments de l’année.\"",
+          "microSkills": [
+            "main-idea",
+            "detail"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-028",
+          "docId": "m2-d17",
+          "prompt": "Selon l’éditorialiste, pourquoi remplace-t-on plutôt que de réparer ?",
+          "options": [
+            "Parce que la conception et la commercialisation des objets y ont poussé.",
+            "Parce que les consommateurs sont devenus trop paresseux pour réparer.",
+            "Parce que les artisans réparateurs demandent des prix trop élevés.",
+            "Parce que les objets neufs sont toujours plus respectueux de l’environnement."
+          ],
+          "answer": 0,
+          "explain": "\"Des objets collés plutôt que vissés, des pièces détachées introuvables […] Racheter n’est pas devenu un réflexe parce que les consommateurs seraient devenus paresseux.\"",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-029",
+          "docId": "m2-d17",
+          "prompt": "Quelle idée l’auteur conteste-t-il ?",
+          "options": [
+            "Que les ateliers bénévoles permettent de transmettre des savoir-faire.",
+            "Que l’industrie devrait fournir des pièces détachées assez longtemps.",
+            "Que réparer relève d’abord de la responsabilité individuelle.",
+            "Que les règles de fabrication relèvent d’une décision collective."
+          ],
+          "answer": 2,
+          "explain": "\"On présente volontiers la réparation comme une affaire de vertu individuelle […] C’est faire peser sur le consommateur une responsabilité qui ne lui revient qu’en partie.\" The other three are ideas he supports.",
+          "microSkills": [
+            "opinion-fact",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-030",
+          "docId": "m2-d17",
+          "prompt": "Que pense l’auteur des ateliers de réparation bénévoles ?",
+          "options": [
+            "Ils sont utiles mais ne peuvent pas remplacer des règles collectives.",
+            "Ils devraient remplacer à terme les réparateurs professionnels du quartier.",
+            "Ils représentent la principale solution au problème.",
+            "Ils font une concurrence déloyale aux artisans du quartier."
+          ],
+          "answer": 0,
+          "explain": "\"Sont précieux […] Mais on ne saurait leur demander de compenser, à coups de tournevis, ce que l’industrie a organisé à grande échelle.\"",
+          "microSkills": [
+            "opinion-fact",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-031",
+          "docId": "m2-d18",
+          "prompt": "Pourquoi les cônes du pin gris s’ouvrent-ils après un incendie ?",
+          "options": [
+            "Parce que les cendres tombées dessus les rendent plus lourds.",
+            "Parce que la lumière, plus abondante, les fait sécher.",
+            "Parce que l’arbre mort les laisse tomber sur le sol.",
+            "Parce que la chaleur fait fondre la résine qui les tient fermés."
+          ],
+          "answer": 3,
+          "explain": "\"Des cônes scellés par une résine qui ne fond qu’à forte chaleur.\"",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-032",
+          "docId": "m2-d18",
+          "prompt": "Selon le texte, qu’est-ce qui menace réellement la forêt boréale ?",
+          "options": [
+            "L’existence même des incendies de forêt.",
+            "Des incendies trop rapprochés dans le temps.",
+            "La disparition progressive du pin gris.",
+            "L’excès de lumière au sol après un feu."
+          ],
+          "answer": 1,
+          "explain": "\"Ce n’est pas le feu en lui-même qui menace la forêt boréale, mais la modification du rythme\" — \"Si deux incendies se succèdent à quelques années d’intervalle…\"",
+          "microSkills": [
+            "main-idea",
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-033",
+          "docId": "m2-d19",
+          "prompt": "Selon l’auteur, sur quelle illusion repose le proverbe « traduire, c’est trahir » ?",
+          "options": [
+            "L’idée que le sens d’un texte original serait fixé à jamais.",
+            "L’idée que les traducteurs seraient, par nature, de mauvais lecteurs.",
+            "L’idée que tous les jeux de mots pourraient se traduire sans perte.",
+            "L’idée que les lecteurs étrangers comprendraient mieux les œuvres."
+          ],
+          "answer": 0,
+          "explain": "\"Cette vision repose pourtant sur une illusion : celle d’un texte original dont le sens serait fixé une fois pour toutes.\"",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-034",
+          "docId": "m2-d19",
+          "prompt": "Comment l’auteur présente-t-il le traducteur ?",
+          "options": [
+            "Comme un faussaire qui déforme l’œuvre d’origine.",
+            "Comme un simple transporteur de mots d’une langue à l’autre.",
+            "Comme un auteur chargé d’améliorer le texte original.",
+            "Comme un lecteur attentif qui fait des choix conscients."
+          ],
+          "answer": 3,
+          "explain": "\"Un lecteur particulièrement attentif, contraint de prendre des décisions que les autres lecteurs prennent sans s’en rendre compte.\" \"Faussaire\" is the view he rejects.",
+          "microSkills": [
+            "detail",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-035",
+          "docId": "m2-d19",
+          "prompt": "Quelle est la position finale de l’auteur ?",
+          "options": [
+            "Il affirme que la traduction ne fait perdre aucun sens.",
+            "Il admet les pertes mais refuse d’y voir une simple trahison.",
+            "Il conseille de lire les œuvres uniquement dans leur langue d’origine.",
+            "Il considère que le proverbe est parfaitement juste."
+          ],
+          "answer": 1,
+          "explain": "\"Il ne s’agit pas de nier les pertes, qui sont réelles. Mais réduire la traduction à une trahison, c’est oublier que bien des œuvres ne nous sont parvenues […] que grâce à elle.\"",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-036",
+          "docId": "m2-d20",
+          "prompt": "Pourquoi le geste quotidien du grand-père paraît-il inutile à son entourage ?",
+          "options": [
+            "Parce qu’il règle toujours l’horloge de travers, avec son pouce.",
+            "Parce que l’horloge est déjà juste et que la ligne n’existe plus.",
+            "Parce qu’il monte sur l’escabeau en pleine nuit, sans lumière.",
+            "Parce que l’horloge de la gare ne fonctionne plus depuis longtemps."
+          ],
+          "answer": 1,
+          "explain": "\"L’horloge n’avançait ni ne retardait jamais de plus d’une minute ; il le savait, et il montait quand même\", and \"On avait supprimé la ligne\" — hence \"À quoi bon ?\"",
+          "microSkills": [
+            "inference"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-037",
+          "docId": "m2-d20",
+          "prompt": "Que suggère la dernière phrase du texte ?",
+          "options": [
+            "Les mots du grand-père visaient autre chose que l’horloge.",
+            "Le narrateur pense que son grand-père avait perdu la raison.",
+            "Le narrateur regrette de ne pas avoir aidé son grand-père.",
+            "L’horloge de la gare n’avait en fait jamais été juste."
+          ],
+          "answer": 0,
+          "explain": "\"Je n’ai compris que bien plus tard qu’il ne parlait pas de l’horloge\" — \"une horloge juste ne servait pas qu’à attraper les trains\" was about something larger than the clock itself.",
+          "microSkills": [
+            "inference",
+            "intention"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-038",
+          "docId": "m2-d21",
+          "prompt": "D’après l’auteur, que montre le fait que les connaissances scientifiques se corrigent ?",
+          "options": [
+            "Que la science ne sait finalement rien de sûr.",
+            "Que les chercheurs manquent de rigueur dans leurs travaux.",
+            "Que les théories anciennes n’étaient que des dogmes.",
+            "Que la démarche scientifique fonctionne comme elle le doit."
+          ],
+          "answer": 3,
+          "explain": "\"Que les connaissances se corrigent n’est donc pas l’aveu d’un échec : c’est le signe que le mécanisme fonctionne.\"",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tcf-ce-m2-039",
+          "docId": "m2-d21",
+          "prompt": "À quoi l’auteur attribue-t-il en partie le malentendu entre le public et la science ?",
+          "options": [
+            "À des chercheurs qui se contredisent d’une étude à l’autre.",
+            "À un public incapable de comprendre les études scientifiques.",
+            "À une façon de présenter les résultats qui efface les nuances.",
+            "À des théories scientifiques devenues de véritables dogmes."
+          ],
+          "answer": 2,
+          "explain": "\"Ce ne sont pas les chercheurs qui se contredisent, mais le récit qu’on fait de leurs travaux qui gomme les degrés de certitude.\"",
+          "microSkills": [
+            "inference",
+            "detail"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-08-01",
+  "level": "a1",
+  "unit": "a1-08",
+  "title": "Jobs",
+  "goal": "Say what you do for a living with the right masculine or feminine job title, and ask other people what they do.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-job-no-article", "kind": "grammar", "fr": "je suis infirmière / c'est une infirmière", "en": "jobs: no article after être, but un/une after c'est",
+      "drills": [
+        { "type": "mcq", "prompt": "How do you say “I'm a nurse” (woman speaking)?", "options": ["Je suis infirmière.", "Je suis une infirmière.", "J'ai infirmière."], "optionsFr": true, "answer": 0, "explain": "After je suis, il est, elle est, a job takes no article." },
+        { "type": "cloze", "text": "C'est ___ bon médecin.", "answers": [["un"]], "en": "He's a good doctor.", "explain": "After c'est, the article is required: c'est un / c'est une." },
+        { "type": "translate", "prompt": "He is an engineer.", "accept": ["Il est ingénieur.", "C'est un ingénieur."], "explain": "Il est + job, with no article. C'est un ingénieur is also correct." }
+      ] },
+    { "id": "g-job-feminine", "kind": "grammar", "fr": "infirmier → infirmière, vendeur → vendeuse", "en": "feminine forms of job titles",
+      "drills": [
+        { "type": "cloze", "text": "Elle est ___. (vendeur)", "answers": [["vendeuse"]], "en": "She's a salesperson.", "explain": "-eur becomes -euse when the job comes from a verb: vendre → vendeuse." },
+        { "type": "cloze", "text": "Ma sœur est ___. (cuisinier)", "answers": [["cuisinière"]], "en": "My sister is a cook.", "explain": "-ier becomes -ière, with a grave accent: cuisinière." },
+        { "type": "cloze", "text": "Lucie est ___. (ingénieur)", "answers": [["ingénieure"]], "en": "Lucie is an engineer.", "explain": "No verb behind ingénieur, so just add -e: ingénieure, the standard form in Canada." }
+      ] },
+    { "id": "infirmier", "kind": "vocab", "fr": "infirmier", "fem": "infirmière", "article": "un", "gender": "m", "pos": "noun", "en": "nurse (m)", "accept": ["infirmier"],
+      "example": { "fr": "Il est infirmier à Moncton.", "en": "He's a nurse in Moncton." }, "note": "Feminine: une infirmière." },
+    { "id": "ingenieur", "kind": "vocab", "fr": "ingénieur", "fem": "ingénieure", "article": "un", "gender": "m", "pos": "noun", "en": "engineer (m)", "accept": ["ingénieur"],
+      "example": { "fr": "Raj est ingénieur.", "en": "Raj is an engineer." }, "note": "Feminine: une ingénieure (standard in Canada). It sounds exactly the same." },
+    { "id": "developpeur", "kind": "vocab", "fr": "développeur", "fem": "développeuse", "article": "un", "gender": "m", "pos": "noun", "en": "developer, programmer (m)", "accept": ["développeur"],
+      "example": { "fr": "Mei est développeuse.", "en": "Mei is a developer." }, "note": "Feminine: une développeuse." },
+    { "id": "enseignant", "kind": "vocab", "fr": "enseignant", "fem": "enseignante", "article": "un", "gender": "m", "pos": "noun", "en": "teacher (m)", "accept": ["enseignant", "professeur", "un professeur", "prof", "un prof"],
+      "example": { "fr": "Elle est enseignante dans une école.", "en": "She's a teacher in a school." }, "note": "Feminine: une enseignante. The usual word for a school teacher." },
+    { "id": "professeur", "kind": "vocab", "fr": "professeur", "fem": "professeure", "article": "un", "gender": "m", "pos": "noun", "en": "professor (m)", "accept": ["professeur", "prof", "un prof"],
+      "example": { "fr": "Ma sœur est professeure à l'université.", "en": "My sister is a professor at the university." }, "note": "Feminine: une professeure (standard in Canada). Also used for school teachers. Informal: un prof, une prof." },
+    { "id": "vendeur", "kind": "vocab", "fr": "vendeur", "fem": "vendeuse", "article": "un", "gender": "m", "pos": "noun", "en": "salesperson (m)", "accept": ["vendeur"],
+      "example": { "fr": "Amira est vendeuse dans une pharmacie.", "en": "Amira is a salesperson in a pharmacy." }, "note": "Feminine: une vendeuse." },
+    { "id": "cuisinier", "kind": "vocab", "fr": "cuisinier", "fem": "cuisinière", "article": "un", "gender": "m", "pos": "noun", "en": "cook (m)", "accept": ["cuisinier"],
+      "example": { "fr": "Karim est cuisinier dans un restaurant.", "en": "Karim is a cook in a restaurant." }, "note": "Feminine: une cuisinière." },
+    { "id": "medecin", "kind": "vocab", "fr": "médecin", "article": "un", "gender": "m", "pos": "noun", "en": "doctor (m or f)", "accept": ["médecin", "une médecin"],
+      "example": { "fr": "Ma femme est médecin.", "en": "My wife is a doctor." }, "note": "Same form for a woman: elle est médecin, une médecin (normal in Québec)." },
+    { "id": "comptable", "kind": "vocab", "fr": "comptable", "article": "un", "gender": "m", "pos": "noun", "en": "accountant (m or f)", "accept": ["comptable", "une comptable"],
+      "example": { "fr": "Sofia est comptable.", "en": "Sofia is an accountant." }, "note": "Same form for a woman: une comptable." },
+    { "id": "etudiant", "kind": "vocab", "fr": "étudiant", "fem": "étudiante", "article": "un", "gender": "m", "pos": "noun", "en": "student (m)", "accept": ["étudiant"],
+      "example": { "fr": "Nguyen est étudiant à Montréal.", "en": "Nguyen is a student in Montréal." }, "note": "Feminine: une étudiante. You hear the t only in the feminine." },
+    { "id": "chauffeur", "kind": "vocab", "fr": "chauffeur", "fem": "chauffeuse", "article": "un", "gender": "m", "pos": "noun", "en": "driver (m)", "accept": ["chauffeur"],
+      "example": { "fr": "Mon frère est chauffeur d'autobus.", "en": "My brother is a bus driver." }, "note": "Feminine: une chauffeuse. In Canada: chauffeur d'autobus, chauffeur de taxi." },
+    { "id": "dans-la-vie", "kind": "phrase", "fr": "Qu'est-ce que vous faites dans la vie ?", "en": "What do you do for a living?",
+      "accept": ["Qu'est-ce que tu fais dans la vie ?", "Tu fais quoi dans la vie ?", "Vous faites quoi dans la vie ?", "Que faites-vous dans la vie ?", "Que fais-tu dans la vie ?"],
+      "note": "Informal, to a friend: Tu fais quoi dans la vie ?" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What do you do?",
+      "blocks": [
+        { "type": "dialogue", "title": "A networking breakfast for newcomers in Ottawa",
+          "context": "Lucie, a volunteer, chats with Raj, Mei and Karim.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Bonjour, Raj ! Qu'est-ce que vous faites dans la vie ?", "en": "Hello, Raj! What do you do for a living?" },
+            { "speaker": "Raj", "fr": "Je suis ingénieur. Je travaille dans une entreprise à Ottawa.", "en": "I'm an engineer. I work for a company in Ottawa." },
+            { "speaker": "Lucie", "fr": "Ah, ma sœur est ingénieure aussi ! Moi, je suis infirmière.", "en": "Oh, my sister is an engineer too! I'm a nurse." },
+            { "speaker": "Raj", "fr": "Ma femme est médecin. Elle travaille à l'hôpital.", "en": "My wife is a doctor. She works at the hospital." },
+            { "speaker": "Raj", "fr": "Et toi, Mei, tu fais quoi dans la vie ?", "en": "And you, Mei, what do you do?" },
+            { "speaker": "Mei", "fr": "Je suis étudiante. Je suis aussi développeuse, et je cherche du travail.", "en": "I'm a student. I'm also a developer, and I'm looking for work." },
+            { "speaker": "Karim", "fr": "Moi, je suis cuisinier. Je travaille dans un restaurant.", "en": "Me, I'm a cook. I work in a restaurant." },
+            { "speaker": "Raj", "fr": "Karim, c'est un très bon cuisinier !", "en": "Karim is a really good cook!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Notice: [[je suis infirmière]], [[ma femme est médecin]], with no word for *a*. But [[c'est un très bon cuisinier]] has [[un]]. You will see why in a moment." }
+      ] },
+    { "type": "understand", "title": "Talking about jobs",
+      "blocks": [
+        { "type": "explain", "title": "No article after être",
+          "body": "To say someone's job, French uses **être + job**, with **no article**:\n\n- [[Je suis infirmière.]] (I'm a nurse.)\n- [[Il est ingénieur.]] (He's an engineer.)\n- [[Ma femme est médecin.]] (My wife is a doctor.)\n\nEnglish says *a nurse*; French doesn't. The job works like a description of the person, a bit like a nationality: [[Je suis canadienne]], [[je suis infirmière]].\n\nBut after [[c'est]], you **need** [[un]] or [[une]]: [[C'est une infirmière.]] (She's a nurse.) And when you add an adjective, use [[c'est un / une]]: [[C'est un très bon cuisinier.]]" },
+        { "type": "pattern", "title": "Two ways to say someone's job",
+          "pattern": "il / elle est + métier   •   c'est un / une + métier",
+          "note": "[[Métier]] means *job, trade*. Both are correct; [[il est]] / [[elle est]] is the most common to simply state a job.",
+          "examples": [
+            { "fr": "Elle est comptable.", "en": "She's an accountant." },
+            { "fr": "C'est une comptable.", "en": "She's an accountant. / That's an accountant." },
+            { "fr": "C'est une très bonne comptable.", "en": "She's a very good accountant." },
+            { "fr": "Je travaille comme vendeur.", "en": "I work as a salesperson." }
+          ] },
+        { "type": "table", "title": "Masculine and feminine job titles",
+          "head": ["masculine", "feminine", "English", "how"],
+          "rows": [
+            ["infirmier", "infirmière", "nurse", "-ier → -ière"],
+            ["cuisinier", "cuisinière", "cook", "-ier → -ière"],
+            ["étudiant", "étudiante", "student", "add -e"],
+            ["enseignant", "enseignante", "teacher", "add -e"],
+            ["vendeur", "vendeuse", "salesperson", "-eur → -euse"],
+            ["développeur", "développeuse", "developer", "-eur → -euse"],
+            ["chauffeur", "chauffeuse", "driver", "-eur → -euse"],
+            ["ingénieur", "ingénieure", "engineer", "-eur → -eure"],
+            ["professeur", "professeure", "professor, teacher", "-eur → -eure"],
+            ["médecin", "médecin", "doctor", "same form"],
+            ["comptable", "comptable", "accountant", "same form"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "For the last two, only the article changes: [[un comptable]], [[une comptable]]." },
+        { "type": "vocab", "title": "Jobs in this lesson", "itemIds": ["infirmier", "ingenieur", "developpeur", "enseignant", "professeur", "vendeur", "cuisinier", "medecin", "comptable", "etudiant", "chauffeur", "dans-la-vie"] },
+        { "type": "explain", "title": "Asking about someone's job",
+          "body": "- [[Qu'est-ce que vous faites dans la vie ?]] Polite, to someone you say [[vous]] to. Literally *What do you do in life?*\n- [[Tu fais quoi dans la vie ?]] Relaxed, to a friend or a young person.\n\nBoth use [[faire]] (to do), which you already know. The answer uses [[je suis]] + job, or [[je travaille dans…]] (I work in…)." },
+        { "type": "deepdive", "kind": "canada", "title": "Feminine job titles in Canada",
+          "body": "In Québec, feminine job titles have been the norm since the late 1970s, when the Office québécois de la langue française recommended them. So in Montréal, Gatineau or Québec City you will read and hear [[ingénieure]], [[professeure]], [[auteure]] (author), [[docteure]], [[une médecin]] and [[une chauffeuse]] every day: on name badges, job ads and official letters.\n\nFrance was slower. The Académie française only accepted feminine titles in 2019, and you can still hear [[elle est professeur]] in Paris. France also tends to say [[autrice]] where Québec says [[auteure]].\n\nCanadian job ads often show both forms: [[infirmier ou infirmière]], or a short form like [[infirmier(ère)]]. When you talk about yourself, simply use the form that matches you.",
+          "examples": [ { "fr": "Elle est ingénieure à Montréal.", "en": "She's an engineer in Montréal." }, { "fr": "C'est une auteure québécoise.", "en": "She's a Québec author." } ] },
+        { "type": "deepdive", "kind": "why", "title": "-euse or -eure?",
+          "body": "Two kinds of *-eur* jobs:\n\n- If there is a **verb** behind the job, the feminine is usually **-euse**: [[vendre]] (to sell) → [[vendeuse]]; [[développer]] → [[développeuse]]; [[chauffer]] (to heat) → [[chauffeuse]]. (The first *chauffeurs* heated the engines of steam cars!)\n- If there is **no everyday verb** behind it, just add **-e**: [[ingénieure]], [[professeure]].\n\nYou will also meet **-teur → -trice**: [[directeur]] → [[directrice]] (director), [[acteur]] → [[actrice]]." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- [[Je suis une infirmière]] → say [[Je suis infirmière]]. No article after je suis / il est / elle est.\n- [[C'est infirmière]] → say [[C'est une infirmière]]. After c'est, the article is required.\n- [[Il est un bon médecin]] → say [[C'est un bon médecin]]. With an adjective, switch to c'est un / une.\n- [[Je travaille comme un vendeur]] → say [[Je travaille comme vendeur]]. No article after comme (as) either." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "Listen for the ending. It often tells you if the person is a man or a woman:\n\n- [[infirmier]] ends in an *é* sound (the r is silent); [[infirmière]] ends in *-ière*, and you hear the r.\n- [[étudiant]]: silent t. [[étudiante]]: you hear the t.\n- [[vendeur]] → [[vendeuse]]: a *z* sound appears.\n\nBut [[ingénieur]] / [[ingénieure]] and [[professeur]] / [[professeure]] sound **exactly the same**. Only the spelling (and [[un]] / [[une]]) shows the difference." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Je suis infirmière.", "en": "I'm a nurse. (woman)", "tip": "Hear the r at the end: in-fir-mi-ère." },
+            { "fr": "Il est infirmier.", "en": "He's a nurse.", "tip": "infirmier ends in an é sound; the r is silent." },
+            { "fr": "Elle est enseignante.", "en": "She's a teacher.", "tip": "gn sounds like the ny in canyon." },
+            { "fr": "C'est un très bon cuisinier.", "en": "He's a very good cook." },
+            { "fr": "Qu'est-ce que vous faites dans la vie ?", "en": "What do you do for a living?", "tip": "Qu'est-ce que sounds like kess-kuh." },
+            { "fr": "Tu fais quoi dans la vie ?", "en": "What do you do? (to a friend)", "tip": "Very common in everyday speech." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je suis étudiante.", "en": "I'm a student.", "prompt": "Who is speaking?", "options": ["A woman who is a student", "A man who is a student", "A woman who is a teacher"], "answer": 0, "explain": "You hear the t in [[étudiante]], so it's feminine." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Elle est vendeuse.", "en": "She's a salesperson.", "prompt": "What does she do?", "options": ["She's a salesperson.", "She's a nurse.", "She's a cook."], "answer": 0, "explain": "[[vendeuse]] comes from [[vendre]], to sell." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Mon père est chauffeur de taxi.", "en": "My father is a taxi driver.", "prompt": "What does the speaker's father do?", "options": ["He's a taxi driver.", "He's a cook.", "He's a doctor."], "answer": 0, "explain": "[[chauffeur]] = driver." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "How does Lucie say “I'm a nurse”?", "options": ["Je suis infirmière.", "Je suis une infirmière.", "J'ai infirmière.", "Je suis infirmier."], "optionsFr": true, "answer": 0,
+          "explain": "Être + job, with no article, and the feminine form for Lucie.",
+          "optionFeedback": [null, "No article after je suis: just Je suis infirmière.", "Use être for jobs, not avoir.", "infirmier is the masculine form; Lucie is a woman."] },
+        { "id": "r2", "type": "cloze", "text": "Elle est ___. (vendeur)", "answers": [["vendeuse"]], "en": "She's a salesperson.", "explain": "vendre → vendeur → vendeuse: -eur becomes -euse." },
+        { "id": "r3", "type": "cloze", "text": "Mei est ___. (développeur)", "answers": [["développeuse"]], "en": "Mei is a developer.", "explain": "développer → développeuse, like vendeuse." },
+        { "id": "r4", "type": "translate", "prompt": "He is an accountant.", "accept": ["Il est comptable.", "C'est un comptable."], "hint": "No article after il est.", "explain": "Il est comptable: no article after être. C'est un comptable is also correct." },
+        { "id": "r5", "type": "translate", "prompt": "My sister is an engineer.", "accept": ["Ma sœur est ingénieure.", "Ma soeur est ingénieure.", "Ma sœur est ingénieur.", "Ma soeur est ingénieur."], "hint": "ingénieur + e", "explain": "No article after est. The feminine ingénieure (same sound) is the standard form in Canada; ingénieur for a woman is still used in France." },
+        { "id": "r6", "type": "cloze", "text": "C'est ___ très bonne professeure.", "answers": [["une"]], "choices": ["une", "un", "la"], "en": "She's a very good professor.", "explain": "After c'est, you need an article; professeure is feminine, so une." },
+        { "id": "r7", "type": "match", "prompt": "Match each job to its meaning.", "pairs": [["infirmier", "nurse (m)"], ["cuisinière", "cook (f)"], ["enseignante", "teacher (f)"], ["chauffeur", "driver (m)"], ["médecin", "doctor"], ["étudiant", "student (m)"]] },
+        { "id": "r8", "type": "reorder", "prompt": "What do you do for a living? (formal)", "accept": ["Qu'est-ce que vous faites dans la vie ?"], "extra": ["fais"], "explain": "faire with vous → faites. Fais goes with je or tu." },
+        { "id": "r9", "type": "translate", "prompt": "What do you do for a living? (to a friend)", "accept": ["Tu fais quoi dans la vie ?", "Qu'est-ce que tu fais dans la vie ?", "Que fais-tu dans la vie ?"], "explain": "To a friend, use tu: Tu fais quoi dans la vie ? is the most natural." },
+        { "id": "r10", "type": "dictation", "fr": "Mon frère est chauffeur d'autobus.", "accept": ["Mon frère est chauffeur d'autobus"], "explain": "[[chauffeur]] ends in -eur; [[d'autobus]] is the usual Canadian word for a city bus." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "At the networking breakfast: say hello, give your name and your job (or say you're a student), say where you work or study, and ask someone what they do.", "seconds": 30,
+          "checklist": ["A greeting", "Je suis + your job, with no article", "Je travaille dans… or Je suis étudiant(e) à…", "A question: Qu'est-ce que vous faites dans la vie ? or Tu fais quoi dans la vie ?"],
+          "models": [
+            { "label": "Model answer (woman)", "fr": "Bonjour ! Je m'appelle Sofia. Je suis comptable. Je travaille dans une banque à Toronto. Et vous, qu'est-ce que vous faites dans la vie ?", "en": "Hello! My name is Sofia. I'm an accountant. I work in a bank in Toronto. And you, what do you do for a living?" },
+            { "label": "Model answer (man)", "fr": "Salut ! Moi, c'est Nguyen. Je suis étudiant à Montréal, et je suis aussi cuisinier dans un restaurant. Et toi, tu fais quoi dans la vie ?", "en": "Hi! I'm Nguyen. I'm a student in Montréal, and I'm also a cook in a restaurant. And you, what do you do?" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write 3 or 4 sentences about jobs in your family: your job, and the jobs of two or three family members. Use the right masculine or feminine forms.", "wordRange": [15, 45],
+          "checklist": ["Say your own job with je suis (no article)", "Give at least two family members' jobs", "Use at least one feminine job title", "Add one sentence with c'est un / une + adjective"],
+          "models": [ { "label": "Model answer", "fr": "Je suis infirmière à Ottawa. Mon mari est développeur. Ma sœur est professeure à l'université, et mon frère est chauffeur d'autobus. C'est un très bon chauffeur !", "en": "I'm a nurse in Ottawa. My husband is a developer. My sister is a professor at the university, and my brother is a bus driver. He's a very good driver!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Name common jobs in the masculine and feminine: [[infirmier / infirmière, vendeur / vendeuse, ingénieur / ingénieure]]\n- Say your job with **no article**: [[Je suis comptable.]], and use [[c'est un / une]] with an adjective\n- Ask [[Qu'est-ce que vous faites dans la vie ?]] or [[Tu fais quoi dans la vie ?]]\n- Know that feminine titles like [[ingénieure]] and [[professeure]] are standard in Canada",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "r5 now also accepts Ma sœur est ingénieur (still used in France), with a note that Canada uses ingénieure. professeur item narrowed to “professor (m)” so it no longer shares “teacher” with enseignant; -eure rule softened." }
+}

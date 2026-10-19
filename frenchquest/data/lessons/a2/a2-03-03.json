@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-03-03",
+  "level": "a2",
+  "unit": "a2-03",
+  "title": "Habits then and now",
+  "goal": "Compare your old habits with your life now, using avant + imparfait, maintenant + present, and d'habitude.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-avant-maintenant", "kind": "grammar", "fr": "avant + imparfait / maintenant + présent", "en": "comparing then and now",
+      "drills": [
+        { "type": "cloze", "text": "Avant, je ___ la moto. Maintenant, je prends le métro. (prendre)", "answers": [["prenais"]], "en": "Before, I used to ride a motorbike. Now I take the metro.", "explain": "avant → imparfait: nous prenons → pren- → je prenais." },
+        { "type": "cloze", "text": "Avant, nous habitions en Inde. Maintenant, nous ___ à Toronto. (habiter)", "answers": [["habitons"]], "en": "Before, we lived in India. Now we live in Toronto.", "explain": "maintenant → present: nous habitons." },
+        { "type": "translate", "prompt": "I don't work in a bank anymore.", "accept": ["Je ne travaille plus dans une banque.", "Je travaille plus dans une banque."], "explain": "ne… plus = not anymore. It's the natural partner of avant." }
+      ] },
+    { "id": "g-reflexive-imparfait", "kind": "grammar", "fr": "je me levais", "en": "reflexive verbs in the imparfait",
+      "drills": [
+        { "type": "cloze", "text": "D'habitude, je ___ levais à cinq heures et demie.", "answers": [["me"]], "en": "I usually got up at five thirty.", "explain": "The pronoun stays before the verb: je me levais." },
+        { "type": "cloze", "text": "Nous nous ___ tard le samedi. (coucher)", "answers": [["couchions"]], "en": "We used to go to bed late on Saturdays.", "explain": "nous nous couchions: pronoun + imparfait ending -ions." },
+        { "type": "mcq", "prompt": "“She used to get dressed quickly.”", "options": ["Elle s'habillait vite.", "Elle se habillait vite.", "Elle s'est habillée vite."], "optionsFr": true, "answer": 0, "explain": "se → s' before a vowel. The passé composé (s'est habillée) is one event, not a habit." }
+      ] },
+    { "id": "g-habit-markers", "kind": "grammar", "fr": "d'habitude, le dimanche, tous les jours", "en": "habit markers that call for the imparfait in the past",
+      "drills": [
+        { "type": "mcq", "prompt": "“On Sundays (every Sunday), we went to my parents'.”", "options": ["Le dimanche, nous allions chez mes parents.", "Dimanche, nous allions chez mes parents.", "Les dimanches nous sommes allés chez mes parents."], "optionsFr": true, "answer": 0, "explain": "le dimanche = every Sunday; a repeated habit → imparfait." },
+        { "type": "cloze", "text": "À l'époque, ma mère ___ toujours un grand repas. (préparer)", "answers": [["préparait"]], "en": "Back then, my mother always made a big meal.", "explain": "à l'époque + toujours = a habit → imparfait." }
+      ] },
+    { "id": "avant", "kind": "vocab", "fr": "avant", "en": "before, in the past (adverb)", "pos": "adverb",
+      "example": { "fr": "Avant, j'habitais à Hanoï.", "en": "Before, I lived in Hanoi." } },
+    { "id": "d-habitude", "kind": "vocab", "fr": "d'habitude", "en": "usually", "pos": "adverb", "accept": ["habituellement"],
+      "example": { "fr": "D'habitude, je prenais le bus.", "en": "I usually took the bus." } },
+    { "id": "a-l-epoque", "kind": "phrase", "fr": "à l'époque", "en": "back then, at the time" },
+    { "id": "le-dimanche", "kind": "phrase", "fr": "le dimanche", "en": "on Sundays (every Sunday)", "note": "Without le, dimanche means one particular Sunday." },
+    { "id": "ne-plus", "kind": "phrase", "fr": "Je ne fais plus ça.", "en": "I don't do that anymore.", "accept": ["Je fais plus ça."] },
+    { "id": "habitude", "kind": "vocab", "fr": "habitude", "article": "l'", "gender": "f", "en": "habit", "pos": "noun", "accept": ["une habitude"],
+      "example": { "fr": "J'ai de nouvelles habitudes ici.", "en": "I have new habits here." } },
+    { "id": "moto", "kind": "vocab", "fr": "moto", "article": "la", "gender": "f", "en": "motorbike", "pos": "noun",
+      "example": { "fr": "Avant, j'allais au travail en moto.", "en": "Before, I went to work by motorbike." } },
+    { "id": "tout-le-monde", "kind": "phrase", "fr": "tout le monde", "en": "everybody", "note": "Takes a singular verb: tout le monde prenait la moto." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Before and now",
+      "blocks": [
+        { "type": "dialogue", "title": "In a French class for newcomers in Montréal",
+          "context": "The teacher, Camille, asks Nguyen to compare his life in Vietnam with his life now.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Aujourd'hui, on parle de vos habitudes. Nguyen, comment c'était, ta vie au Vietnam ?", "en": "Today we're talking about your habits. Nguyen, what was your life like in Vietnam?" },
+            { "speaker": "Nguyen", "fr": "Avant, j'habitais à Hô Chi Minh-Ville. D'habitude, je me levais à cinq heures et demie, parce qu'il faisait déjà chaud.", "en": "Before, I lived in Ho Chi Minh City. I usually got up at five thirty, because it was already hot." },
+            { "speaker": "Camille", "fr": "Et tu allais au travail comment ?", "en": "And how did you get to work?" },
+            { "speaker": "Nguyen", "fr": "En moto, comme tout le monde ! À l'époque, je travaillais dans une banque. Le matin, je mangeais une soupe dans la rue avec mes collègues.", "en": "By motorbike, like everybody! Back then, I worked in a bank. In the morning, I ate a soup in the street with my colleagues." },
+            { "speaker": "Camille", "fr": "Une soupe au déjeuner ! Et maintenant ?", "en": "Soup for breakfast! And now?" },
+            { "speaker": "Nguyen", "fr": "Maintenant, je prends le métro et je mange des rôties avec du beurre d'arachide. Je ne prends plus la moto : en hiver, c'est impossible !", "en": "Now I take the metro and I eat toast with peanut butter. I don't ride a motorbike anymore: in winter, it's impossible!" },
+            { "speaker": "Camille", "fr": "Et le dimanche, qu'est-ce que vous faisiez en famille ?", "en": "And on Sundays, what did you do as a family?" },
+            { "speaker": "Nguyen", "fr": "Le dimanche, nous allions chez mes parents. Ma mère préparait un grand repas et nous restions tout l'après-midi. Maintenant, nous parlons en vidéo tous les dimanches.", "en": "On Sundays, we went to my parents' place. My mother made a big meal and we stayed all afternoon. Now we talk by video every Sunday." },
+            { "speaker": "Camille", "fr": "Et ici, tu as de nouvelles habitudes ?", "en": "And here, do you have new habits?" },
+            { "speaker": "Nguyen", "fr": "Oui ! Le samedi, je fais du patin avec des amis. Avant, je ne savais même pas patiner !", "en": "Yes! On Saturdays, I go skating with friends. Before, I didn't even know how to skate!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Notice the rhythm: **avant** + imparfait ([[je travaillais]], [[nous allions]]), then **maintenant** + present ([[je prends]], [[nous parlons]]). And [[je ne prends plus]]: not anymore." }
+      ] },
+    { "type": "understand", "title": "Then and now",
+      "blocks": [
+        { "type": "explain", "title": "Habits in the past = imparfait",
+          "body": "A habit is something you did **again and again**, with no clear start or end. In the past, habits go in the **imparfait**:\n\n- [[D'habitude, je me levais à cinq heures et demie.]] I usually got up at 5:30.\n- [[Le dimanche, nous allions chez mes parents.]] On Sundays, we went to my parents'.\n\nSome words are strong signals for a past habit: [[avant]], [[à l'époque]], [[d'habitude]], [[souvent]], [[toujours]], [[tous les jours]], [[chaque matin]], [[le lundi, le dimanche…]]" },
+        { "type": "table", "title": "Avant… maintenant…",
+          "head": ["Avant (imparfait)", "Maintenant (présent)"],
+          "rows": [
+            ["Avant, je prenais la moto.", "Maintenant, je prends le métro."],
+            ["À l'époque, je travaillais dans une banque.", "Maintenant, j'étudie le français."],
+            ["Le dimanche, nous mangions chez mes parents.", "Maintenant, nous parlons en vidéo."],
+            ["D'habitude, il faisait chaud.", "Ici, il fait froid en hiver."],
+            ["Avant, je mangeais une soupe le matin.", "Je ne mange plus de soupe le matin."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[Ne… plus]] (A1) is the perfect partner of [[avant]]: it says a habit has stopped. After it, [[du / de la / des]] become [[de]]: [[je ne mange plus de soupe]]." },
+        { "type": "table", "title": "Reflexive verbs in the imparfait: se lever",
+          "head": ["", "se lever"],
+          "rows": [
+            ["je", "me levais"],
+            ["tu", "te levais"],
+            ["il / elle / on", "se levait"],
+            ["nous", "nous levions"],
+            ["vous", "vous leviez"],
+            ["ils / elles", "se levaient"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Nothing new: the pronoun goes before the verb, as in the present. Before a vowel: [[je m'habillais]], [[elle s'habillait]]. In the negative: [[je ne me levais pas tôt]]." },
+        { "type": "pattern", "title": "Ne… plus: a habit that stopped",
+          "pattern": "sujet + ne + verbe (présent) + plus",
+          "examples": [
+            { "fr": "Je ne prends plus la moto.", "en": "I don't ride a motorbike anymore." },
+            { "fr": "Nous n'habitons plus à Hanoï.", "en": "We don't live in Hanoi anymore." },
+            { "fr": "Elle ne travaille plus le samedi.", "en": "She doesn't work on Saturdays anymore." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["avant", "d-habitude", "a-l-epoque", "le-dimanche", "ne-plus", "habitude", "moto", "tout-le-monde"] },
+        { "type": "deepdive", "kind": "why", "title": "Le dimanche or dimanche?",
+          "body": "The little word **le** changes the meaning:\n\n- [[le dimanche]] = every Sunday, a habit → imparfait in the past: [[Le dimanche, nous allions au parc.]]\n- [[dimanche]] = one particular Sunday, an event → passé composé: [[Dimanche, nous sommes allés au parc.]] (last Sunday)\n\nThis is a first taste of the big choice between imparfait and passé composé, which you will study in unit 10." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Passé composé for habits:** [[Avant, j'ai pris la moto tous les jours]] sounds wrong. A repeated habit is [[je prenais]].\n- **Élision:** [[je utilisais]] → [[j'utilisais]]; [[je me habillais]] → [[je m'habillais]].\n- **d'habitude, not d'habitude de:** [[D'habitude, je mangeais…]] Never add de after it.\n- **Avant de:** [[avant de]] + infinitive means *before doing* (you will see it later in the course). For *in the past*, just say [[avant]], with a comma.\n- **“Used to” is not a verb:** don't translate *used* with [[utiliser]]. The imparfait ending alone means *used to*." },
+        { "type": "deepdive", "kind": "canada", "title": "Breakfast, lunch and dinner in Québec",
+          "body": "Camille says [[une soupe au déjeuner]] because in Québec the meals are:\n\n- [[le déjeuner]] = breakfast (France: [[le petit-déjeuner]])\n- [[le dîner]] = lunch (France: [[le déjeuner]])\n- [[le souper]] = dinner, supper (France: [[le dîner]])\n\nNguyen also uses two Québec words: [[des rôties]] (toast; France: [[du pain grillé]]) and [[le beurre d'arachide]] (peanut butter; France: [[le beurre de cacahuète]]). His class is a [[cours de francisation]], the name of the French courses for newcomers in Québec." }
+      ] },
+    { "type": "hear", "title": "Hear then and now",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Avant, je prenais la moto.", "en": "Before, I used to ride a motorbike." },
+            { "fr": "Maintenant, je prends le métro.", "en": "Now I take the metro.", "tip": "prends ends in a nasal vowel; prenais ends in è." },
+            { "fr": "D'habitude, je me levais tôt.", "en": "I usually got up early.", "tip": "d'habitude: the h is silent, da-bi-tud, with the French u sound." },
+            { "fr": "Je ne prends plus la moto.", "en": "I don't ride a motorbike anymore.", "tip": "In ne… plus, the s of plus is silent." },
+            { "fr": "Le dimanche, nous allions chez mes parents.", "en": "On Sundays, we went to my parents'." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Avant, je travaillais le samedi. Maintenant, je ne travaille plus le samedi.", "en": "Before, I used to work on Saturdays. Now I don't work on Saturdays anymore.",
+          "prompt": "What does the speaker say about Saturdays?", "options": ["They worked on Saturdays before, but not now", "They work every Saturday now", "They never worked on Saturdays"], "answer": 0,
+          "explain": "[[je travaillais]] = past habit; [[je ne travaille plus]] = not anymore." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je prenais le bus.", "en": "I used to take the bus.", "prompt": "Present or past habit?", "options": ["Past habit", "Present habit"], "answer": 0,
+          "explain": "[[prenais]] ends in *è*: imparfait. The present is [[je prends]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Avant, nous ___ en Colombie. Maintenant, nous ___ à Calgary. (habiter)", "answers": [["habitions"], ["habitons"]], "en": "Before, we lived in Colombia. Now we live in Calgary.",
+          "explain": "avant → imparfait ([[habitions]]); maintenant → present ([[habitons]]). Only the i is different in writing, and the y sound in speech." },
+        { "id": "r2", "type": "mcq", "prompt": "“Every Saturday, I used to play soccer.”", "options": ["Le samedi, je jouais au soccer.", "Samedi, j'ai joué au soccer.", "Le samedi, j'ai joué au soccer."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "That is one Saturday, a single event (last Saturday).", "le samedi is a habit: use the imparfait."] },
+        { "id": "r3", "type": "cloze", "text": "D'habitude, elle ___ habillait en vitesse.", "answers": [["s'"]], "en": "She usually got dressed in a hurry.", "explain": "se → s' before a vowel: elle s'habillait." },
+        { "id": "r4", "type": "translate", "prompt": "I don't take the bus anymore.", "accept": ["Je ne prends plus le bus.", "Je ne prends plus l'autobus.", "Je prends plus le bus.", "Je prends plus l'autobus."],
+          "explain": "[[ne… plus]] around the verb. In Québec you will also hear [[l'autobus]]." },
+        { "id": "r5", "type": "match", "prompt": "Match each expression to its meaning.", "pairs": [["d'habitude", "usually"], ["à l'époque", "back then"], ["le dimanche", "on Sundays"], ["tout le monde", "everybody"], ["ne… plus", "not anymore"]] },
+        { "id": "r6", "type": "translate", "prompt": "Back then, my father worked in a factory.", "accept": ["À l'époque, mon père travaillait dans une usine.", "Mon père travaillait dans une usine à l'époque."], "hint": "a factory = une usine",
+          "explain": "A long past situation → imparfait: [[il travaillait]]." },
+        { "id": "r7", "type": "reorder", "prompt": "We usually went to bed early.", "accept": ["D'habitude, nous nous couchions tôt.", "Nous nous couchions tôt d'habitude."], "extra": ["sommes"],
+          "explain": "Reflexive in the imparfait: [[nous nous couchions]]. No être: this is not the passé composé." },
+        { "id": "r8", "type": "cloze", "text": "Avant, je ___ beaucoup de riz. Maintenant, je mange des rôties le matin. (manger)", "answers": [["mangeais"]], "en": "Before, I used to eat a lot of rice. Now I eat toast in the morning.",
+          "explain": "manger keeps its e before a: [[je mangeais]]." },
+        { "id": "r9", "type": "cloze", "text": "Hier, je me ___ levée à six heures.", "answers": [["suis"]], "choices": ["suis", "levais", "ai"], "en": "Yesterday, I got up at six.",
+          "explain": "From unit 2: [[hier]] is one event, so the passé composé. Reflexive verbs take être: [[je me suis levée]]." },
+        { "id": "r10", "type": "dictation", "fr": "Le dimanche, nous allions chez mes parents.", "accept": [],
+          "explain": "[[allions]] with two l's and -ions; [[le dimanche]] = every Sunday." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Your classmate asks: “Qu'est-ce qui a changé dans ta vie ?” (What has changed in your life?) Compare three habits, before and now, in about 40 seconds.", "seconds": 40,
+          "checklist": ["Avant / À l'époque + imparfait (three times)", "Maintenant + present", "At least one ne… plus", "One habit marker: d'habitude, le dimanche, tous les jours"],
+          "models": [ { "label": "Model answer", "fr": "Avant, j'habitais à Lima. D'habitude, je me levais à sept heures et j'allais au travail en bus. Le dimanche, nous mangions chez ma grand-mère. Maintenant, j'habite à Ottawa. Je me lève à six heures et je prends l'O-Train. Je ne mange plus chez ma grand-mère le dimanche, mais nous parlons au téléphone tous les dimanches.",
+            "en": "Before, I lived in Lima. I usually got up at seven and went to work by bus. On Sundays, we ate at my grandmother's. Now I live in Ottawa. I get up at six and I take the O-Train. I don't eat at my grandmother's on Sundays anymore, but we talk on the phone every Sunday." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short “before and now” text about your daily life: your mornings, how you got to work or school, and your weekends. Then and now, three contrasts.", "promptFr": "Avant et maintenant : votre vie quotidienne.",
+          "wordRange": [50, 90],
+          "checklist": ["Three habits in the imparfait", "The same topics in the present", "One reflexive verb: je me levais / je me lève", "ne… plus at least once", "Habit words: d'habitude, le samedi, à l'époque"],
+          "models": [ { "label": "Model answer", "fr": "À l'époque, j'habitais à Rabat avec mes parents. D'habitude, je me levais tard et je prenais le petit-déjeuner avec ma mère. J'allais à l'université à pied. Le vendredi, toute la famille mangeait ensemble. Maintenant, j'habite seule à Moncton. Je me lève tôt, je bois vite un café et je prends le bus. Je ne mange plus en famille le vendredi, mais le samedi, je cuisine avec des amis.",
+            "en": "Back then, I lived in Rabat with my parents. I usually got up late and had breakfast with my mother. I walked to university. On Fridays, the whole family ate together. Now I live alone in Moncton. I get up early, drink a coffee quickly and take the bus. I don't eat with my family on Fridays anymore, but on Saturdays I cook with friends." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Talk about past habits in the **imparfait**, with [[avant]], [[à l'époque]], [[d'habitude]], [[le dimanche]]\n- Contrast them with your life now: [[maintenant]] + present, and [[ne… plus]]\n- Use reflexive verbs in the imparfait: [[je me levais]], [[nous nous couchions]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed France equivalent of rôties (du pain grillé), a misleading pronunciation tip for d'habitude, a gendered listening option, and an unsure 'B1' reference." }
+}

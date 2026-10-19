@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-05-01",
+  "level": "b2",
+  "unit": "b2-05",
+  "title": "Formal correspondence",
+  "goal": "Write a clear professional email to a client or partner: a precise subject line, the right greeting and closing for Canada or France, and a standard formula for each paragraph.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-courriel-pro", "kind": "grammar", "fr": "objet → appel → contexte → demande → disponibilité → salutation", "en": "the structure of a professional email",
+      "drills": [
+        { "type": "cloze", "text": "___ faire suite à notre rencontre de mardi, je vous confirme la date de livraison.", "answers": [["Pour"]], "en": "Following up on our meeting on Tuesday, I'm confirming the delivery date.", "explain": "The first paragraph links the email to what came before: [[Pour faire suite à…]]." },
+        { "type": "mcq", "prompt": "Which sentence belongs in the last paragraph, just before the closing?", "options": ["Je reste à votre disposition pour tout renseignement complémentaire.", "Pour faire suite à votre appel, je vous écris.", "Objet : Livraison du 14 mars", "Bonjour Madame Gagnon,"], "optionsFr": true, "answer": 0, "explain": "Offering further help is the classic last sentence before [[Cordialement]] or [[Salutations]]." },
+        { "type": "cloze", "text": "Vous trouverez ___-joint le calendrier détaillé.", "answers": [["ci"]], "en": "Please find the detailed schedule attached.", "explain": "[[ci-joint]] = attached. It usually stays invariable here, before the noun it introduces and at the start of a sentence." }
+      ] },
+    { "id": "pour-faire-suite", "kind": "phrase", "fr": "Pour faire suite à notre échange, …", "en": "Following up on our conversation, … (email opening)", "accept": ["Suite à notre échange, …", "À la suite de notre échange, …"], "note": "[[Suite à]] is very common in emails, but careful writers prefer [[pour faire suite à]] or [[à la suite de]]." },
+    { "id": "relancer", "kind": "phrase", "fr": "Je me permets de vous relancer au sujet de…", "en": "I'm following up on… (polite reminder when there's no reply)", "accept": ["Je me permets de vous relancer concernant…", "Je vous relance au sujet de…"] },
+    { "id": "disposition", "kind": "phrase", "fr": "Je reste à votre disposition pour tout renseignement complémentaire.", "en": "I remain available should you need any further information.", "accept": ["Je reste à votre disposition.", "Je demeure à votre disposition pour tout renseignement complémentaire."] },
+    { "id": "accuser-reception", "kind": "phrase", "fr": "accuser réception de", "en": "to acknowledge receipt of", "example": { "fr": "J'accuse réception de votre courriel.", "en": "I acknowledge receipt of your email." } },
+    { "id": "sauf-erreur", "kind": "phrase", "fr": "sauf erreur de ma part", "en": "unless I'm mistaken (softens a reminder)", "accept": ["sauf erreur"] },
+    { "id": "dans-les-meilleurs-delais", "kind": "phrase", "fr": "dans les meilleurs délais", "en": "as soon as possible (formal)", "accept": ["dans les plus brefs délais", "le plus tôt possible"] },
+    { "id": "par-avance", "kind": "phrase", "fr": "Je vous remercie par avance de votre retour.", "en": "Thank you in advance for your reply. (formal)", "accept": ["Je vous remercie à l'avance de votre retour.", "Je vous remercie d'avance de votre retour.", "Merci par avance de votre retour."], "note": "In Québec you will often see [[à l'avance]]; in France, [[par avance]] or [[d'avance]]." },
+    { "id": "cordialement", "kind": "vocab", "fr": "Cordialement", "en": "Kind regards (standard email closing)", "pos": "adverb", "accept": ["Bien cordialement"] },
+    { "id": "salutations", "kind": "phrase", "fr": "Salutations distinguées", "en": "Yours sincerely (formal email closing)", "accept": ["Meilleures salutations", "Salutations"], "note": "Common in Québec emails, often shortened to [[Salutations]]." },
+    { "id": "mettre-en-copie", "kind": "phrase", "fr": "mettre quelqu'un en copie", "en": "to cc someone", "example": { "fr": "Je mets mon collègue Olivier en copie.", "en": "I'm copying my colleague Olivier." } },
+    { "id": "delai", "kind": "vocab", "fr": "délai", "article": "le", "gender": "m", "en": "deadline, time frame", "pos": "noun", "accept": ["un délai"],
+      "example": { "fr": "Afin de respecter ce délai, nous avons besoin de vos commentaires.", "en": "In order to meet this deadline, we need your comments." }, "note": "Not “delay”! A delay is [[un retard]]." },
+    { "id": "devis", "kind": "vocab", "fr": "devis", "article": "le", "gender": "m", "en": "quote, estimate (for a job)", "pos": "noun", "accept": ["un devis", "une soumission"],
+      "example": { "fr": "Pourriez-vous nous faire parvenir votre devis ?", "en": "Could you send us your quote?" }, "note": "In Québec, people also say [[une soumission]]." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Three emails, three registers",
+      "intro": "At B1 you wrote short emails to your team. Now Raj, who coordinates projects at a software company in Montréal, writes to people **outside** the company. Read his emails and notice what changes between Québec and France.",
+      "blocks": [
+        { "type": "text", "title": "1. To a client in Québec",
+          "context": "Raj confirms a delivery date to Nathalie Gagnon, a client at a credit union.",
+          "fr": "Objet : Suivi de notre rencontre – livraison de votre application le 14 mars\n\nBonjour Madame Gagnon,\n\nPour faire suite à notre rencontre de mardi, je vous confirme que la nouvelle version de votre application sera livrée le 14 mars, comme prévu. Vous trouverez ci-joint le calendrier détaillé ainsi que la liste des fonctionnalités incluses.\n\nAfin de respecter ce délai, nous aurions besoin de recevoir vos commentaires sur les maquettes au plus tard le 7 mars. Pourriez-vous les transmettre à mon collègue Olivier Roy, que je mets en copie ?\n\nJe reste à votre disposition pour tout renseignement complémentaire.\n\nMerci et bonne journée,\n\nRaj Patel\nCoordonnateur de projets, Logiciels Boréal",
+          "en": "Subject: Follow-up to our meeting – delivery of your app on March 14\n\nHello Ms. Gagnon,\n\nFollowing up on our meeting on Tuesday, I'm confirming that the new version of your app will be delivered on March 14, as planned. Please find attached the detailed schedule as well as the list of included features.\n\nIn order to meet this deadline, we would need to receive your comments on the mock-ups by March 7 at the latest. Could you send them to my colleague Olivier Roy, whom I'm copying?\n\nI remain available should you need any further information.\n\nThanks and have a good day,\n\nRaj Patel\nProject Coordinator, Logiciels Boréal" },
+        { "type": "text", "title": "2. The client's reply",
+          "fr": "Bonjour Monsieur Patel,\n\nJ'accuse réception du calendrier et je vous remercie de ces précisions. Nous vous enverrons nos commentaires d'ici le 6 mars.\n\nBien à vous,\n\nNathalie Gagnon",
+          "en": "Hello Mr. Patel,\n\nI acknowledge receipt of the schedule and thank you for these details. We will send you our comments by March 6.\n\nBest regards,\n\nNathalie Gagnon" },
+        { "type": "text", "title": "3. A reminder to a partner in France",
+          "context": "Two weeks ago, Raj asked a translation agency in Lyon for a quote. No answer yet.",
+          "fr": "Objet : Relance – devis pour la traduction du guide utilisateur\n\nMonsieur,\n\nJe me permets de vous relancer au sujet de notre demande de devis du 2 février concernant la traduction de notre guide utilisateur. Sauf erreur de ma part, nous n'avons pas encore reçu votre proposition.\n\nNotre client souhaite lancer la version européenne en avril ; nous devons donc choisir un prestataire dans les meilleurs délais. Pourriez-vous nous faire parvenir votre devis d'ici la fin de la semaine ?\n\nJe vous remercie par avance de votre retour.\n\nCordialement,\n\nRaj Patel",
+          "en": "Subject: Reminder – quote for the translation of the user guide\n\nDear Sir,\n\nI'm following up on our request for a quote of February 2 regarding the translation of our user guide. Unless I'm mistaken, we have not yet received your proposal.\n\nOur client wants to launch the European version in April; we therefore need to choose a supplier as soon as possible. Could you send us your quote by the end of the week?\n\nThank you in advance for your reply.\n\nKind regards,\n\nRaj Patel" },
+        { "id": "d1", "type": "mcq", "prompt": "Why does Raj write “Sauf erreur de ma part” in the third email?", "options": ["To make the reminder less accusing", "To apologize for a mistake he made", "To say the quote was wrong"], "answer": 0,
+          "explain": "[[Sauf erreur de ma part]] (unless I'm mistaken) leaves room for the possibility that the quote was sent: the reminder sounds polite, not accusing." },
+        { "id": "d2", "type": "mcq", "prompt": "What is different about the greeting in the email to France?", "options": ["It uses only “Monsieur,” without “Bonjour” or a name", "It uses the first name", "It uses “Cher ami,”"], "answer": 0,
+          "explain": "In France, the most formal greeting is just [[Monsieur,]] or [[Madame,]]. In Québec emails, [[Bonjour Madame Gagnon,]] with the surname is common and polite. These are tendencies, not strict rules." }
+      ] },
+    { "type": "understand", "title": "The professional email, part by part",
+      "blocks": [
+        { "type": "table", "title": "Anatomy of a professional email",
+          "head": ["Part", "What it does", "Example"],
+          "rows": [
+            ["Objet", "Says exactly what the email is about (topic + date or action)", "Objet : Relance – devis du 2 février"],
+            ["Formule d'appel", "Greets the reader at the right level", "Bonjour Madame Gagnon, / Madame,"],
+            ["1. Contexte", "Links to what came before", "Pour faire suite à notre rencontre de mardi, …"],
+            ["2. Message", "Gives the information, with attachments", "Je vous confirme que… Vous trouverez ci-joint…"],
+            ["3. Demande", "Asks for one clear action, with a date", "Pourriez-vous… d'ici le 7 mars ?"],
+            ["4. Ouverture", "Offers further help", "Je reste à votre disposition…"],
+            ["Salutation", "Closes at the same level as the greeting", "Cordialement, / Salutations, / Bien à vous,"],
+            ["Signature", "Name, job title, company", "Raj Patel, coordonnateur de projets"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "One idea per paragraph, short sentences, and the request **in its own paragraph** with a deadline. A busy reader should understand the email from the subject line and the first two lines." },
+        { "type": "table", "title": "Greetings: Québec and France",
+          "head": ["Situation", "In Québec / Canada", "In France"],
+          "rows": [
+            ["You know the person's name (formal)", "Bonjour Madame Gagnon,", "Madame, / Bonjour Madame,"],
+            ["You don't know who will read it", "Madame, Monsieur, / Bonjour,", "Madame, Monsieur,"],
+            ["A person with a title", "Madame la Directrice,", "Madame la Directrice,"],
+            ["A colleague or regular contact", "Bonjour Olivier,", "Bonjour Olivier,"],
+            ["A group", "Bonjour à tous, / Bonjour à toutes et à tous,", "Bonjour à tous,"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "In France, traditional usage avoids the surname after [[Madame]] or [[Monsieur]] ([[Bonjour Madame Dupont]] is spreading in emails, but many readers still find it less formal). In Québec emails, using the surname is common and polite. Treat both as tendencies: follow what your correspondent does." },
+        { "type": "table", "title": "Closings, from most to least formal",
+          "head": ["Closing", "When to use it"],
+          "rows": [
+            ["Veuillez agréer, Madame, mes salutations distinguées.", "Formal letters, official requests (B1)"],
+            ["Salutations distinguées, / Meilleures salutations,", "Formal emails, very common in Québec"],
+            ["Cordialement, / Bien cordialement,", "The standard professional email closing everywhere"],
+            ["Bien à vous,", "Professional but a little warmer"],
+            ["Merci et bonne journée, / Au plaisir,", "Regular contacts, very Québécois"],
+            ["Bonne journée ! / Merci !", "Colleagues and internal messages"]
+          ],
+          "frCols": [0], "sayCol": false,
+          "note": "Match the closing to the greeting: [[Madame,]] at the top and [[Merci !]] at the bottom don't go together." },
+        { "type": "pattern", "title": "One formula per paragraph",
+          "pattern": "contexte → message → demande → ouverture",
+          "note": "Learn one or two formulas for each slot and you can write almost any professional email.",
+          "examples": [
+            { "fr": "Pour faire suite à notre échange téléphonique, je vous envoie le contrat.", "en": "Following up on our phone conversation, I'm sending you the contract." },
+            { "fr": "Je me permets de vous relancer au sujet de ma demande du 2 février.", "en": "I'm following up on my request of February 2." },
+            { "fr": "Je vous confirme que la réunion aura lieu le jeudi 12 juin à 10 h.", "en": "I'm confirming that the meeting will take place on Thursday, June 12 at 10 a.m." },
+            { "fr": "Pourriez-vous nous faire parvenir votre devis dans les meilleurs délais ?", "en": "Could you send us your quote as soon as possible?" },
+            { "fr": "N'hésitez pas à me contacter si vous avez des questions.", "en": "Don't hesitate to contact me if you have any questions." }
+          ] },
+        { "type": "vocab", "title": "Formulas and words for this lesson", "itemIds": ["pour-faire-suite", "relancer", "disposition", "accuser-reception", "sauf-erreur", "dans-les-meilleurs-delais", "par-avance", "cordialement", "salutations", "mettre-en-copie", "delai", "devis"] },
+        { "type": "deepdive", "kind": "canada", "title": "Québec office French",
+          "body": "- **[[courriel]]** is the standard word in Canada (the Office québécois de la langue française recommends it). In France, people say [[mail]] or [[e-mail]] at work, and [[courriel]] in official texts. Spam is [[un pourriel]] in Québec.\n- **[[une rencontre]]** often means a work meeting in Québec ([[notre rencontre de mardi]]). In France, a work meeting is [[une réunion]]; [[une rencontre]] is more a meeting with someone.\n- **[[coordonnateur]]** is the usual Québec title; France says [[coordinateur]].\n- **[[c. c.]]** (copie conforme) is the Québec abbreviation for cc. [[Je vous mets en copie]] works everywhere.\n- **[[Au plaisir,]]** and **[[Merci et bonne journée,]]** are friendly closings you'll see constantly in Québec, even with clients you know a little.\n- Abbreviations: [[M.]] for Monsieur, [[Mme]] for Madame (no period). Never [[Mr]] in French. In the greeting itself, write [[Madame]] or [[Monsieur]] in full." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Traps in professional emails",
+          "body": "- **Calques from English:** [[J'espère que ce courriel vous trouve bien]] ✗ (from “I hope this email finds you well”). If you want a friendly opening, write [[J'espère que vous allez bien.]] Better still, go straight to the point.\n- **[[Cher Monsieur Gagnon]]** ✗ for a first contact. [[Cher / Chère]] suggests an existing relationship; with a stranger it sounds odd. Use [[Bonjour Monsieur Gagnon,]] (Québec) or [[Monsieur,]] (France).\n- **[[délai]] ≠ delay.** [[Le délai est le 7 mars]] = the deadline is March 7. A delay is [[un retard]].\n- **A vague subject line:** [[Objet : Question]] ✗ → [[Objet : Question sur la facture no 2541]] ✓\n- **[[Merci d'avance]] alone** can sound like pressure: the reader hasn't agreed yet. In formal emails, write the full sentence: [[Je vous remercie par avance de votre retour.]]\n- **Mixing registers:** [[Madame,]] at the top and [[À plus !]] at the bottom. Choose one level and keep it.\n- **[[Cordialement vôtre]]** is dated; just write [[Cordialement,]]." },
+        { "type": "deepdive", "kind": "why", "title": "Why so many formulas?",
+          "body": "French professional writing is more ritual than English. Readers expect certain formulas in certain places, and their absence feels abrupt, not efficient. A sentence like [[Pourriez-vous m'envoyer le devis ?]] is fine, but wrapped in [[Je me permets de…]] and [[Je vous remercie par avance…]], the same request reads as competent and respectful. The good news: because the formulas are fixed, you can learn them as blocks and reuse them for years." }
+      ] },
+    { "type": "hear", "title": "Hear the formulas",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "These formulas are also useful on the phone and in voicemails. Say them as one smooth block.",
+          "lines": [
+            { "fr": "Pour faire suite à notre échange, je vous envoie le contrat.", "en": "Following up on our conversation, I'm sending you the contract." },
+            { "fr": "Je me permets de vous relancer au sujet de ma demande.", "en": "I'm following up on my request." },
+            { "fr": "Sauf erreur de ma part, nous n'avons pas reçu votre réponse.", "en": "Unless I'm mistaken, we haven't received your answer." },
+            { "fr": "Je reste à votre disposition pour tout renseignement complémentaire.", "en": "I remain available should you need any further information." },
+            { "fr": "Je vous remercie par avance de votre retour.", "en": "Thank you in advance for your reply." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bonjour Monsieur Tremblay, ici Raj Patel, de Logiciels Boréal. Je me permets de vous rappeler au sujet du contrat. Sauf erreur de ma part, nous n'avons pas encore reçu la version signée. Pourriez-vous me rappeler dans les meilleurs délais ? Merci et bonne journée.", "en": "Hello Mr. Tremblay, this is Raj Patel from Logiciels Boréal. I'm calling you back about the contract. Unless I'm mistaken, we haven't received the signed version yet. Could you call me back as soon as possible? Thanks and have a good day.", "prompt": "What is Raj waiting for?", "options": ["The signed contract", "A quote for a translation", "The date of a meeting"], "answer": 0,
+          "explain": "[[nous n'avons pas encore reçu la version signée]]: the signed version of the contract." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je vous confirme que la formation aura lieu le jeudi 12 juin à 9 h 30. Vous trouverez le programme en pièce jointe. Je mets ma collègue Amira en copie.", "en": "I'm confirming that the training will take place on Thursday, June 12 at 9:30. You'll find the program attached. I'm copying my colleague Amira.", "prompt": "Who else receives the email?", "options": ["Amira, in cc", "Nobody", "The program's author"], "answer": 0,
+          "explain": "[[Je mets ma collègue Amira en copie]] = I'm cc'ing my colleague Amira." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back B1 formal letters and pronouns.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "You're writing for the first time to a client in Québec, Nathalie Gagnon. Which greeting is best?", "options": ["Bonjour Madame Gagnon,", "Salut Nathalie,", "Chère Nathalie Gagnon,", "Bonjour Mme Nathalie,"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Far too familiar for a first contact with a client.", "[[Chère]] implies an existing relationship, and the full name sounds odd.", "Write [[Madame]] in full, and use the surname, not the first name."] },
+        { "id": "r2", "type": "cloze", "text": "___ erreur de ma part, nous n'avons pas encore reçu votre ___.", "answers": [["Sauf"], ["devis", "soumission", "réponse", "proposition"]], "choices": ["Sauf", "Sans", "devis", "délai"], "en": "Unless I'm mistaken, we haven't received your quote yet.", "explain": "[[Sauf erreur de ma part]] softens a reminder. [[Le devis]] (or [[la soumission]] in Québec) is a quote." },
+        { "id": "r3", "type": "translate", "prompt": "Please find attached the detailed schedule. (formal email)", "accept": ["Vous trouverez ci-joint le calendrier détaillé.", "Veuillez trouver ci-joint le calendrier détaillé.", "Ci-joint, vous trouverez le calendrier détaillé.", "Vous trouverez en pièce jointe le calendrier détaillé.", "Veuillez trouver en pièce jointe le calendrier détaillé.", "Vous trouverez le calendrier détaillé en pièce jointe.", "Vous trouverez ci-joint l'échéancier détaillé."], "hint": "Vous trouverez…", "explain": "[[Vous trouverez ci-joint…]] is the most natural formula; [[en pièce jointe]] works too." },
+        { "id": "r4", "type": "match", "prompt": "Match each closing to the best situation.", "pairs": [["Veuillez agréer, Monsieur, mes salutations distinguées.", "official letter to a ministry"], ["Cordialement,", "standard email to a supplier"], ["Au plaisir,", "Québec client you know well"], ["Bonne journée !", "quick message to a teammate"]] },
+        { "id": "r5", "type": "cloze", "text": "Je reste à votre ___ pour tout renseignement ___.", "answers": [["disposition"], ["complémentaire"]], "en": "I remain available should you need any further information.", "explain": "A fixed formula: learn it as one block." },
+        { "id": "r6", "type": "reorder", "prompt": "I'm following up on my request. (formal)", "accept": ["Je vous relance concernant ma demande"], "extra": ["relancez", "votre"], "explain": "[[relancer quelqu'un]] = to remind or chase someone politely. The pronoun [[vous]] goes before the verb." },
+        { "id": "r7", "type": "translate", "prompt": "I acknowledge receipt of your email.", "accept": ["J'accuse réception de votre courriel.", "J'accuse réception de votre message.", "J'accuse réception de votre mail.", "J'accuse réception de votre e-mail.", "J'accuse réception de votre courrier."], "explain": "[[accuser réception de]] has nothing to do with accusing: it means to confirm you received something." },
+        { "id": "r8", "type": "cloze", "text": "Pourriez-vous ___ transmettre à Olivier, que je mets en ___ ?", "answers": [["les"], ["copie"]], "choices": ["les", "leur", "copie", "pièce"], "en": "Could you send them to Olivier, whom I'm copying?", "explain": "[[les]] replaces [[vos commentaires]] (A2 pronouns, before the infinitive). [[mettre en copie]] = to cc." },
+        { "id": "r9", "type": "dictation", "fr": "Je vous remercie par avance de votre retour.", "accept": [], "explain": "[[par avance]] (France) or [[à l'avance]] (Québec); [[votre retour]] = your reply or feedback." },
+        { "id": "r10", "type": "mcq", "prompt": "Which subject line is the most useful?", "options": ["Objet : Relance – facture no 2541 du 3 mars", "Objet : Question", "Objet : Bonjour", "Objet : URGENT !!!"], "optionsFr": true, "answer": 0, "explain": "A good [[objet]] gives the topic and a reference: the reader knows what to do before opening the email." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "You work for a company in Gatineau. Write to M. Alain Tremblay, a client: confirm the date and time of next week's meeting, say the agenda is attached, ask him to send a document before a date, and close politely. Use Québec conventions.", "promptFr": "Écrivez un courriel à M. Tremblay pour confirmer la rencontre.",
+          "wordRange": [80, 130],
+          "checklist": ["A precise objet", "Bonjour Monsieur Tremblay,", "A context opening (Pour faire suite à…)", "Vous trouverez ci-joint…", "One clear request with a date (Pourriez-vous… d'ici le… ?)", "Je reste à votre disposition…", "A closing that matches the greeting, and a signature"],
+          "models": [
+            { "label": "Model answer", "fr": "Objet : Confirmation – rencontre du mardi 18 novembre\n\nBonjour Monsieur Tremblay,\n\nPour faire suite à notre appel de ce matin, je vous confirme que notre rencontre aura lieu le mardi 18 novembre à 14 h, dans nos bureaux de Gatineau. Vous trouverez ci-joint l'ordre du jour.\n\nAfin de bien préparer cette rencontre, pourriez-vous nous faire parvenir le rapport financier de votre service d'ici le vendredi 14 novembre ?\n\nJe reste à votre disposition pour tout renseignement complémentaire.\n\nSalutations,\n\nKarim Benali\nConseiller principal, Groupe Outaouais Conseil", "en": "Subject: Confirmation – meeting on Tuesday, November 18\n\nHello Mr. Tremblay,\n\nFollowing up on our call this morning, I'm confirming that our meeting will take place on Tuesday, November 18 at 2 p.m., in our Gatineau offices. Please find the agenda attached.\n\nIn order to prepare this meeting well, could you send us your department's financial report by Friday, November 14?\n\nI remain available should you need any further information.\n\nRegards,\n\nKarim Benali\nSenior Advisor, Groupe Outaouais Conseil" }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Leave a professional voicemail for a supplier who hasn't sent a quote: say who you are and your company, the reason for your call, a softened reminder, a request with a deadline, and a polite closing.", "seconds": 40,
+          "checklist": ["Bonjour Madame / Monsieur…, ici…, de…", "Je me permets de vous rappeler au sujet de…", "Sauf erreur de ma part, …", "Pourriez-vous… d'ici… ?", "Merci et bonne journée."],
+          "models": [ { "label": "Model answer", "fr": "Bonjour Madame Lefebvre, ici Mei Chen, de la clinique Saint-Laurent. Je me permets de vous rappeler au sujet de notre demande de devis pour les nouveaux ordinateurs. Sauf erreur de ma part, nous n'avons pas encore reçu votre proposition. Pourriez-vous nous l'envoyer d'ici jeudi ? Vous pouvez me joindre au bureau toute la journée. Merci et bonne journée !", "en": "Hello Ms. Lefebvre, this is Mei Chen from the Saint-Laurent clinic. I'm calling you back about our request for a quote for the new computers. Unless I'm mistaken, we haven't received your proposal yet. Could you send it to us by Thursday? You can reach me at the office all day. Thanks and have a good day!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Build a professional email: precise [[objet]], greeting, context, message, request with a date, offer of help, closing\n- Choose the right greeting and closing for Québec ([[Bonjour Madame Gagnon,]] [[Salutations,]]) or France ([[Madame,]] [[Cordialement,]])\n- Use key formulas: [[Pour faire suite à…]], [[Je me permets de vous relancer…]], [[sauf erreur de ma part]], [[Je reste à votre disposition…]]\n- Avoid false friends and calques: [[délai]] = deadline, not *delay*",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Hedged the Québec/France greeting conventions as tendencies; corrected the ci-joint rule; removed a non-homophone dictation answer (à l'avance) and a reorder distractor that allowed a defensible alternative."}
+}

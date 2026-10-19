@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-12-03",
+  "level": "a2",
+  "unit": "a2-12",
+  "title": "A2 writing check",
+  "goal": "Show that you can write accurate sentences with A2 grammar, a friendly message that tells a story, and a clear formal email of 80–120 words.",
+  "minutes": 20,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-pc-imparfait", "kind": "grammar", "fr": "passé composé / imparfait", "en": "event in the past vs background",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ (regarder) la télé quand Karim ___ (arriver).", "answers": [["regardais"], ["est arrivé"]], "en": "I was watching TV when Karim arrived.", "explain": "Background (what was going on) → imparfait; the event that interrupts → passé composé, with être for arriver." },
+        { "type": "cloze", "text": "Quand nous ___ (arriver), il neigeait.", "answers": [["sommes arrivés", "sommes arrivées"]], "en": "When we arrived, it was snowing.", "explain": "Arriver takes être, and the participle agrees with nous." },
+        { "type": "mcq", "prompt": "“When I was little, I lived in Hanoi.”", "options": ["Quand j'étais petit, j'habitais à Hanoï.", "Quand j'ai été petit, j'ai habité à Hanoï.", "Quand je suis petit, j'habitais à Hanoï."], "optionsFr": true, "answer": 0, "explain": "A long-lasting state in the past → imparfait for both verbs." }
+      ] },
+    { "id": "g-pronoms", "kind": "grammar", "fr": "le, la, lui, leur, y, en", "en": "object pronouns and y / en",
+      "drills": [
+        { "type": "cloze", "text": "Tu as vu ce film ? — Oui, je l'___ vu samedi.", "answers": [["ai"]], "en": "Did you see this film? — Yes, I saw it on Saturday.", "explain": "The pronoun goes before the auxiliary: je l'ai vu." },
+        { "type": "cloze", "text": "J'ai téléphoné à mes parents et je ___ ai parlé de mon travail.", "answers": [["leur"]], "en": "I phoned my parents and talked to them about my job.", "explain": "Parler à quelqu'un; à mes parents (plural) → leur." },
+        { "type": "cloze", "text": "Tu vas à Québec demain ? — Oui, j'___ vais en train.", "answers": [["y"]], "en": "Are you going to Québec City tomorrow? — Yes, I'm going (there) by train.", "explain": "Y replaces a place introduced by à: à Québec → y." }
+      ] },
+    { "id": "epuise", "kind": "vocab", "fr": "épuisé", "fem": "épuisée", "en": "exhausted", "pos": "adjective", "accept": ["épuisée"],
+      "example": { "fr": "Le soir, j'étais épuisé, mais content.", "en": "In the evening, I was exhausted but happy." } },
+    { "id": "calorifere", "kind": "vocab", "fr": "calorifère", "article": "le", "gender": "m", "en": "radiator (Québec)", "pos": "noun", "accept": ["le radiateur"],
+      "note": "In France: le radiateur." },
+    { "id": "au-sujet-de", "kind": "phrase", "fr": "Je vous écris au sujet de mon chauffage.", "en": "I'm writing to you about my heating.", "accept": ["Je vous écris à propos de mon chauffage.", "Je vous écris au sujet du chauffage.", "Je vous écris à propos du chauffage."] },
+    { "id": "sans-reponse", "kind": "phrase", "fr": "malheureusement sans réponse", "en": "unfortunately with no reply" },
+    { "id": "montrerai", "kind": "phrase", "fr": "Je te montrerai mes photos.", "en": "I'll show you my photos. (to a friend)", "accept": ["Je vais te montrer mes photos."] },
+    { "id": "tu-as-passe", "kind": "phrase", "fr": "Tu as passé une bonne fin de semaine ?", "en": "Did you have a good weekend? (to a friend)", "accept": ["Tu as passé un bon week-end ?", "Est-ce que tu as passé une bonne fin de semaine ?", "As-tu passé une bonne fin de semaine ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What this check measures",
+      "blocks": [
+        { "type": "explain", "title": "A2 writing: what you can do",
+          "body": "At A2, a writer can produce **short, connected texts** about everyday life: a personal message that tells what happened and what is planned, and a **simple formal email** to ask for something, explain a problem or answer an ad. Sentences are linked with simple connectors ([[et]], [[mais]], [[parce que]], [[alors]], [[d'abord]], [[ensuite]]).\n\nThis check has two parts:\n\n- **Part 1 (graded):** 12 sentence items covering the core of A2: passé composé with avoir and être, imparfait, futur simple, pronouns, comparisons, depuis / il y a, advice and polite requests.\n- **Part 2 (self-checked):** two real messages, of **60–80** and **80–120 words**, the same lengths as exam tasks. Compare yours with the checklist and two models: an **A2 model** (a solid pass) and a **Strong A2 model** (ready for B1).\n\nAim for **80%** in Part 1 to pass the checkpoint." },
+        { "type": "note", "tone": "info",
+          "body": "**Reread every answer once** for the classic A2 slips: être or avoir in the passé composé, the agreement after être ([[elles sont allées]]), imparfait vs passé composé, the place of the pronoun ([[je l'ai vu]], [[je leur ai parlé]]) and the accents." }
+      ] },
+    { "type": "assess", "title": "Part 1: Sentence accuracy",
+      "intro": "Write each answer without looking back at earlier lessons.",
+      "blocks": [
+        { "id": "w1", "type": "cloze", "text": "Hier, Amira et sa sœur ___ ___ au cinéma.", "answers": [["sont"], ["allées"]], "en": "Yesterday, Amira and her sister went to the movies.",
+          "explain": "[[Aller]] takes **être**. The participle agrees with the subject: two women → [[allées]] (feminine plural)." },
+        { "id": "w2", "type": "cloze", "text": "Quand j'___ (être) petit, j'___ (habiter) à Hanoï.", "answers": [["étais"], ["habitais"]], "en": "When I was little, I lived in Hanoi.",
+          "explain": "Childhood, a long-lasting situation → **imparfait** for both verbs: [[j'étais]], [[j'habitais]]." },
+        { "id": "w3", "type": "cloze", "text": "Je ___ (dormir) quand le téléphone ___ (sonner).", "answers": [["dormais"], ["a sonné"]], "en": "I was sleeping when the phone rang.",
+          "explain": "What was going on → imparfait ([[je dormais]]); the event that happens → passé composé ([[a sonné]])." },
+        { "id": "w4", "type": "translate", "prompt": "Next year, I will work in Ottawa.",
+          "accept": ["L'année prochaine, je travaillerai à Ottawa.", "Je travaillerai à Ottawa l'année prochaine.", "L'an prochain, je travaillerai à Ottawa.", "Je travaillerai à Ottawa l'an prochain.", "L'année prochaine, je vais travailler à Ottawa.", "Je vais travailler à Ottawa l'année prochaine.", "L'an prochain, je vais travailler à Ottawa.", "Je vais travailler à Ottawa l'an prochain."],
+          "explain": "Futur simple of a regular -er verb: infinitive + ending → [[je travaillerai]]. The futur proche ([[je vais travailler]]) is also accepted." },
+        { "id": "w5", "type": "cloze", "text": "Tu as lu mon courriel ? — Oui, je ___ ai lu ce matin.", "answers": [["l'"]], "choices": ["l'", "le", "lui", "en"], "en": "Did you read my email? — Yes, I read it this morning.",
+          "explain": "[[Mon courriel]] is a direct object → [[le]], which becomes [[l']] before [[ai]]. The pronoun goes before the auxiliary." },
+        { "id": "w6", "type": "cloze", "text": "J'ai téléphoné à mes parents et je ___ ai parlé de mon nouveau travail.", "answers": [["leur"]], "choices": ["leur", "les", "lui", "y"], "en": "I phoned my parents and talked to them about my new job.",
+          "explain": "[[Parler à quelqu'un]]: [[à mes parents]] (plural) → indirect pronoun [[leur]]. [[Les]] is for a direct object." },
+        { "id": "w7", "type": "cloze", "text": "Des pommes ? Oui, j'___ ai acheté trois.", "answers": [["en"]], "choices": ["en", "y", "les", "leur"], "en": "Apples? Yes, I bought three (of them).",
+          "explain": "With a quantity ([[trois]]), use [[en]]: [[j'en ai acheté trois]]." },
+        { "id": "w8", "type": "translate", "prompt": "The metro is faster than the bus.",
+          "accept": ["Le métro est plus rapide que le bus.", "Le métro est plus rapide que l'autobus.", "Le métro va plus vite que le bus.", "Le métro va plus vite que l'autobus."],
+          "explain": "Comparison: [[plus + adjective + que]]. [[Rapide]] already ends in -e, so it's the same in the masculine and the feminine." },
+        { "id": "w9", "type": "cloze", "text": "J'apprends le français ___ deux ans, et je suis arrivé au Canada ___ un an.", "answers": [["depuis"], ["il y a"]], "choices": ["depuis", "il y a", "pendant"], "en": "I've been learning French for two years, and I arrived in Canada a year ago.",
+          "explain": "Still going on → present + [[depuis]]. A finished moment in the past → passé composé + [[il y a]] (ago)." },
+        { "id": "w10", "type": "translate", "prompt": "I'd like to know if the apartment is still available. (formal email)",
+          "accept": ["Je voudrais savoir si l'appartement est toujours disponible.", "Je voudrais savoir si l'appartement est encore disponible.", "J'aimerais savoir si l'appartement est toujours disponible.", "J'aimerais savoir si l'appartement est encore disponible."],
+          "explain": "Indirect question: [[je voudrais savoir si]] + normal word order. [[Toujours]] = still." },
+        { "id": "w11", "type": "reorder", "prompt": "I have never visited Vancouver.", "accept": ["Je n'ai jamais visité Vancouver"], "extra": ["pas", "suis"],
+          "explain": "In the passé composé, the negation goes around the auxiliary: [[je n'ai jamais visité]]. [[Visiter]] takes avoir." },
+        { "id": "w12", "type": "cloze", "text": "Tu es toujours fatigué ? Tu ___ te coucher plus tôt.", "answers": [["devrais"]], "choices": ["devrais", "dois de", "faut"], "en": "You're always tired? You should go to bed earlier.",
+          "explain": "Advice: [[tu devrais]] + infinitive (you should). [[Devoir]] takes no [[de]], and [[faut]] only works with [[il]]: [[il faut]]." }
+      ] },
+    { "type": "apply", "title": "Part 2: Write two messages",
+      "intro": "Write each message, then go through the checklist honestly. Compare with both models: the **A2 model** is a solid pass, the **Strong A2 model** shows the way to B1.",
+      "blocks": [
+        { "type": "text", "title": "Olivier's message (a friend from your French class)",
+          "fr": "Salut ! Alors, ta fin de semaine à Québec ? Raconte !\nOlivier",
+          "en": "Hi! So, how was your weekend in Québec City? Tell me everything! Olivier" },
+        { "id": "m1", "type": "write",
+          "prompt": "Reply to Olivier (60–80 words). Tell him about your weekend trip: when you left, who you were with, what you did, what the weather and the atmosphere were like, and how you felt. End with a plan or a question.",
+          "promptFr": "Répondez à Olivier : racontez votre fin de semaine à Québec.",
+          "wordRange": [60, 80],
+          "checklist": [
+            "Informal greeting and tu",
+            "At least four verbs in the passé composé, with avoir AND être (je suis allé, nous sommes rentrés)",
+            "At least two in the imparfait for the background: il faisait…, c'était…, il y avait…",
+            "Two or three connectors: d'abord, ensuite, puis, mais, alors",
+            "A plan in the future (futur simple or aller + infinitive) or a question",
+            "A friendly closing and your name"
+          ],
+          "models": [
+            { "label": "A2 model", "fr": "Salut Olivier !\nOui, je suis allé à Québec la fin de semaine dernière avec ma sœur. D'abord, nous avons visité le Vieux-Québec, ensuite nous avons mangé dans un petit restaurant. Il faisait froid, mais il y avait beaucoup de soleil. C'était magnifique ! Dimanche, nous sommes rentrés en train. L'été prochain, je retournerai à Québec avec mes parents. Tu viendras avec nous ?\nÀ bientôt,\nRaj",
+              "en": "Hi Olivier! Yes, I went to Québec City last weekend with my sister. First, we visited Old Québec, then we ate in a little restaurant. It was cold, but it was very sunny. It was magnificent! On Sunday, we came back by train. Next summer, I'll go back to Québec City with my parents. Will you come with us? See you soon, Raj" },
+            { "label": "Strong A2 model", "fr": "Salut Olivier !\nMon voyage à Québec ? Génial ! Quand nous sommes arrivés samedi matin, il neigeait et la vieille ville était toute blanche. D'abord, on s'est promenés pendant des heures sur la terrasse Dufferin, puis on a mangé une poutine dans un petit resto. Le soir, j'étais épuisé, mais très content. Je te montrerai mes photos jeudi au cours. Et toi, tu as passé une bonne fin de semaine ?\nRaj",
+              "en": "Hi Olivier! My trip to Québec City? Fantastic! When we arrived on Saturday morning, it was snowing and the old town was all white. First, we walked for hours on the Dufferin Terrace, then we ate a poutine in a little restaurant. In the evening, I was exhausted but very happy. I'll show you my photos on Thursday in class. And you, did you have a good weekend? Raj" }
+          ] },
+        { "id": "m2", "type": "write",
+          "prompt": "Write to your landlord, Monsieur Gagnon (80–120 words). The heating in your apartment has not worked since Monday. Explain the problem and its consequences, say what you already did, ask for a quick repair, give your availability, and ask one question.",
+          "promptFr": "Écrivez à votre propriétaire : le chauffage ne fonctionne pas depuis lundi.",
+          "wordRange": [80, 120],
+          "checklist": [
+            "Objet + Bonjour Monsieur Gagnon,",
+            "Why you write: Je vous écris parce que… / au sujet de…",
+            "The problem with depuis, and one consequence (il fait… degrés, les enfants ont froid…)",
+            "What you already did, in the passé composé",
+            "A polite request: Pourriez-vous… ?",
+            "Your availability, and one indirect question: Je voudrais savoir si…",
+            "Thanks, Cordialement or Salutations distinguées, full name; vous throughout"
+          ],
+          "models": [
+            { "label": "A2 model", "fr": "Objet : Chauffage en panne, appartement 6\n\nBonjour Monsieur Gagnon,\n\nJe vous écris parce que le chauffage ne fonctionne pas dans mon appartement depuis lundi soir. Il fait seulement 15 degrés dans le salon, et mes enfants ont froid. Je vous ai téléphoné mardi matin et j'ai laissé un message, mais je n'ai pas eu de réponse.\n\nPourriez-vous envoyer quelqu'un rapidement ? Je suis à la maison tous les jours après 16 h. Je voudrais aussi savoir si je peux utiliser un petit chauffage électrique pour le moment.\n\nMerci d'avance.\n\nCordialement,\nAmira Benali",
+              "en": "Subject: Heating broken, apartment 6. Hello Mr. Gagnon, I'm writing because the heating hasn't worked in my apartment since Monday evening. It's only 15 degrees in the living room, and my children are cold. I phoned you on Tuesday morning and left a message, but I didn't get a reply. Could you send someone quickly? I'm home every day after 4 p.m. I'd also like to know if I can use a small electric heater for now. Thanks in advance. Kind regards, Amira Benali" },
+            { "label": "Strong A2 model", "fr": "Objet : Problème de chauffage depuis lundi, appartement 6\n\nBonjour Monsieur Gagnon,\n\nJe vous écris au sujet du chauffage de mon appartement. Depuis lundi soir, les calorifères de la chambre et du salon restent froids. Ce matin, il faisait seulement 14 degrés, et ma fille de cinq ans a commencé à tousser. Mardi, je vous ai téléphoné deux fois et je vous ai laissé un message, malheureusement sans réponse.\n\nIl va faire moins vingt cette fin de semaine, alors la situation est urgente. Pourriez-vous envoyer un technicien d'ici jeudi ? Je serai à la maison mercredi et jeudi toute la journée.\n\nJe vous remercie de votre aide rapide.\n\nSalutations distinguées,\nAmira Benali\n514 555-0177",
+              "en": "Subject: Heating problem since Monday, apartment 6. Hello Mr. Gagnon, I'm writing to you about the heating in my apartment. Since Monday evening, the radiators (calorifères, Québec) in the bedroom and the living room have stayed cold. This morning it was only 14 degrees, and my five-year-old daughter started coughing. On Tuesday, I phoned you twice and left you a message, unfortunately with no reply. It's going to be minus twenty this weekend, so the situation is urgent. Could you send a technician by Thursday? I'll be home all day on Wednesday and Thursday. Thank you for your quick help. Yours faithfully, Amira Benali, 514-555-0177" }
+          ] },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam-style task (TCF Canada, writing task 1)",
+          "body": "Try this original practice task under exam conditions: **15 minutes**, no dictionary, **60 to 120 words**.\n\n[[Vous venez de déménager. Écrivez un message à vos amis pour les inviter à une petite fête chez vous. Décrivez votre nouveau logement et expliquez comment venir chez vous.]]\n\n*You have just moved. Write a message to your friends to invite them to a small party at your place. Describe your new home and explain how to get there.*\n\nWhat the examiner checks at this level: you do **every part** of the task (invitation, description, directions), you stay within the word range, the register fits (tu or vous to a group of friends: [[vous]] as a plural is normal here), and your sentences are linked and mostly correct." }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use the core A2 grammar accurately: passé composé with avoir and être, imparfait, futur simple, pronouns [[le, lui, leur, y, en]], comparisons, [[depuis / il y a]]\n- Write a 60–80 word message that tells a story with background and events, and ends with a plan\n- Write a clear 80–120 word formal email: problem, consequence, what you did, request, availability, polite closing",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Graded items checked: each has exactly one defensible answer. Added l'an prochain + futur proche variants to w4, corrected the rapide agreement explanation, and added connectors to the A2 model so it meets its own checklist." }
+}

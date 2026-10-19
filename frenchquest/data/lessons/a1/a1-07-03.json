@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-07-03",
+  "level": "a1",
+  "unit": "a1-07",
+  "title": "Around town",
+  "goal": "Name the main places in town, say where you go with au, à la, à l' and aux, and ask if there's a place nearby.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-a-contractions", "kind": "grammar", "fr": "à + le = au, à + les = aux", "en": "contractions of à with le and les (au parc, aux toilettes)",
+      "drills": [
+        { "type": "cloze", "text": "Je vais ___ supermarché.", "answers": [["au"]], "en": "I'm going to the supermarket.", "explain": "[[à + le supermarché]] → [[au supermarché]]." },
+        { "type": "cloze", "text": "Nous allons ___ banque.", "answers": [["à la"]], "en": "We're going to the bank.", "explain": "[[à + la]] does not change: [[à la banque]]." },
+        { "type": "cloze", "text": "Elle travaille ___. (hôpital)", "answers": [["à l'hôpital"]], "en": "She works at the hospital.", "explain": "Before a vowel or silent h: [[à l']]." },
+        { "type": "mcq", "prompt": "“My parents live in the United States.” Which is correct?", "options": ["Mes parents habitent aux États-Unis.", "Mes parents habitent à les États-Unis.", "Mes parents habitent au États-Unis."], "optionsFr": true, "answer": 0, "explain": "[[à + les]] → [[aux]]; the x links with a z sound: aux‿États-Unis." }
+      ] },
+    { "id": "pres-d-ici", "kind": "phrase", "fr": "Il y a une pharmacie près d'ici ?", "en": "Is there a pharmacy near here?", "accept": ["Est-ce qu'il y a une pharmacie près d'ici ?", "Y a-t-il une pharmacie près d'ici ?", "Il y a une pharmacie près d'ici"] },
+    { "id": "banque", "kind": "vocab", "fr": "banque", "article": "la", "gender": "f", "en": "bank", "pos": "noun", "accept": ["une banque", "la banque"] },
+    { "id": "pharmacie", "kind": "vocab", "fr": "pharmacie", "article": "la", "gender": "f", "en": "pharmacy / drugstore", "pos": "noun", "accept": ["une pharmacie", "la pharmacie"] },
+    { "id": "boulangerie", "kind": "vocab", "fr": "boulangerie", "article": "la", "gender": "f", "en": "bakery", "pos": "noun", "accept": ["une boulangerie", "la boulangerie"],
+      "note": "From [[le boulanger]], the baker." },
+    { "id": "epicerie", "kind": "vocab", "fr": "épicerie", "article": "l'", "gender": "f", "en": "grocery store", "pos": "noun", "accept": ["une épicerie", "l'épicerie"],
+      "note": "In Québec, [[l'épicerie]] is any grocery store, even a big one, and [[faire l'épicerie]] means to do the grocery shopping. In France, [[une épicerie]] is usually a small shop." },
+    { "id": "supermarche", "kind": "vocab", "fr": "supermarché", "article": "le", "gender": "m", "en": "supermarket", "pos": "noun", "accept": ["un supermarché", "le supermarché"] },
+    { "id": "poste", "kind": "vocab", "fr": "poste", "article": "la", "gender": "f", "en": "post office", "pos": "noun", "accept": ["la poste", "le bureau de poste", "bureau de poste", "un bureau de poste"],
+      "note": "[[la poste]] or [[le bureau de poste]]." },
+    { "id": "hopital", "kind": "vocab", "fr": "hôpital", "article": "l'", "gender": "m", "en": "hospital", "pos": "noun", "accept": ["un hôpital", "l'hôpital"],
+      "note": "The h is silent: [[l'hôpital]], [[à l'hôpital]]." },
+    { "id": "gare", "kind": "vocab", "fr": "gare", "article": "la", "gender": "f", "en": "train station", "pos": "noun", "accept": ["une gare", "la gare"],
+      "note": "Only for trains. A metro station is [[une station de métro]]." },
+    { "id": "arret-autobus", "kind": "vocab", "fr": "arrêt d'autobus", "article": "l'", "gender": "m", "en": "bus stop", "pos": "noun", "accept": ["l'arrêt d'autobus", "un arrêt d'autobus", "arrêt de bus", "l'arrêt de bus", "un arrêt de bus"],
+      "note": "Québec: [[l'arrêt d'autobus]]. France: [[l'arrêt de bus]]." },
+    { "id": "parc", "kind": "vocab", "fr": "parc", "article": "le", "gender": "m", "en": "park", "pos": "noun", "accept": ["un parc", "le parc"] },
+    { "id": "bibliotheque", "kind": "vocab", "fr": "bibliothèque", "article": "la", "gender": "f", "en": "library", "pos": "noun", "accept": ["une bibliothèque", "la bibliothèque"],
+      "note": "Not [[librairie]], which is a bookstore." },
+    { "id": "ecole", "kind": "vocab", "fr": "école", "article": "l'", "gender": "f", "en": "school", "pos": "noun", "accept": ["une école", "l'école"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "New in the neighbourhood",
+      "blocks": [
+        { "type": "dialogue", "title": "Meeting a neighbour in Montréal",
+          "context": "Raj has just moved to Rosemont, a neighbourhood in Montréal. He meets Lucie outside the building.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Bonjour, madame. Je m'appelle Raj. Je suis nouveau dans le quartier.", "en": "Hello, ma'am. My name is Raj. I'm new in the neighbourhood." },
+            { "speaker": "Lucie", "fr": "Bienvenue, Raj ! Moi, c'est Lucie.", "en": "Welcome, Raj! I'm Lucie." },
+            { "speaker": "Raj", "fr": "Enchanté. Il y a une pharmacie près d'ici ?", "en": "Nice to meet you. Is there a pharmacy near here?" },
+            { "speaker": "Lucie", "fr": "Oui, il y a une pharmacie à côté de la banque, en face du parc.", "en": "Yes, there's a pharmacy next to the bank, opposite the park." },
+            { "speaker": "Raj", "fr": "Super. Et une épicerie ?", "en": "Great. And a grocery store?" },
+            { "speaker": "Lucie", "fr": "Il y a un dépanneur juste là, à droite. Le supermarché est loin d'ici, mais il y a un arrêt d'autobus devant l'école.", "en": "There's a corner store right there, on the right. The supermarket is far from here, but there's a bus stop in front of the school." },
+            { "speaker": "Raj", "fr": "Et la bibliothèque ?", "en": "And the library?" },
+            { "speaker": "Lucie", "fr": "Elle est près de la gare. Moi, je vais à la bibliothèque le samedi.", "en": "It's near the train station. I go to the library on Saturdays." },
+            { "speaker": "Raj", "fr": "Et moi, je vais au supermarché le samedi ! Merci beaucoup, Lucie.", "en": "And I go to the supermarket on Saturdays! Thank you very much, Lucie." }
+          ] },
+        { "type": "note", "tone": "info", "body": "New words to understand: [[le quartier]] (the neighbourhood), [[Bienvenue !]] (Welcome!), [[juste là]] (right there), [[un dépanneur]] (a corner store in Québec; see the deep dive)." }
+      ] },
+    { "type": "understand", "title": "Places and à + article",
+      "blocks": [
+        { "type": "vocab", "title": "Shops and services", "itemIds": ["banque", "pharmacie", "boulangerie", "epicerie", "supermarche", "poste"] },
+        { "type": "vocab", "title": "Public places", "itemIds": ["hopital", "gare", "arret-autobus", "parc", "bibliotheque", "ecole"] },
+        { "type": "explain", "title": "Going to, being at: à",
+          "body": "You met [[aller au]] and [[aller à la]] in Unit 5. [[À]] means both **to** and **at**:\n\n- [[Je vais à la banque.]] = I'm going **to** the bank.\n- [[Je suis à la banque.]] = I'm **at** the bank.\n- [[Je travaille à l'hôpital.]] = I work **at** the hospital.\n\nJust like [[de]] in the last lesson, [[à]] combines with [[le]] and [[les]]." },
+        { "type": "table", "title": "À + the article",
+          "head": ["à + …", "becomes", "example"],
+          "rows": [
+            ["à + le", "au", "Je vais au parc."],
+            ["à + la", "à la", "Je vais à la pharmacie."],
+            ["à + l'", "à l'", "Je vais à l'école."],
+            ["à + les", "aux", "Je vais aux toilettes."]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Compare: [[à côté du parc]] (de + le = du) and [[je vais au parc]] (à + le = au). [[À le]] and [[à les]] never appear in French." },
+        { "type": "pattern", "title": "Is there… near here?",
+          "pattern": "Il y a + un / une + lieu + près d'ici ?",
+          "note": "[[Près d'ici]] = near here; [[loin d'ici]] = far from here. [[De]] becomes [[d']] before [[ici]].",
+          "examples": [
+            { "fr": "Il y a une boulangerie près d'ici ?", "en": "Is there a bakery near here?" },
+            { "fr": "Oui, il y a une boulangerie en face de la poste.", "en": "Yes, there's a bakery opposite the post office." },
+            { "fr": "Non, il n'y a pas de banque près d'ici.", "en": "No, there's no bank near here." },
+            { "fr": "L'hôpital est loin d'ici.", "en": "The hospital is far from here." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Library ≠ librairie:** [[la bibliothèque]] is a library (free books to borrow). [[La librairie]] is a **bookstore**. A classic false friend!\n- **Gare vs station:** [[la gare]] is for trains. For the metro, say [[la station de métro]].\n- **À le:** always [[au]]: [[au supermarché]], [[au parc]].\n- **Silent h:** [[l'hôpital]], [[à l'hôpital]], never [[le hôpital]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec neighbourhood words",
+          "body": "- [[le dépanneur]]: the corner store. It sells milk, bread, snacks, and in Québec also beer and wine. Many are open late.\n- [[l'autobus]]: in Québec, people often say [[l'autobus]] rather than [[le bus]], so [[l'arrêt d'autobus]] is the bus stop.\n- [[la caisse]] (or [[la caisse populaire]]): many Quebecers bank at a cooperative “caisse” rather than a [[banque]].\n- [[le bureau de poste]]: in Canada, many post office counters are inside a pharmacy or a store.\n- [[faire l'épicerie]]: to do the groceries. In France you'd say [[faire les courses]].",
+          "examples": [
+            { "fr": "Je vais au dépanneur.", "en": "I'm going to the corner store." },
+            { "fr": "Le samedi, je fais l'épicerie.", "en": "On Saturdays, I do the groceries." }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "la boulangerie", "en": "the bakery", "tip": "[[bou]] with ou, then [[lan]] is nasal; the e is silent: “boo-lahnzh-ree”." },
+            { "fr": "la bibliothèque", "en": "the library", "tip": "bee-blee-oh-tek; the h is silent." },
+            { "fr": "Je vais à l'hôpital.", "en": "I'm going to the hospital.", "tip": "No h sound: lo-pee-tal." },
+            { "fr": "Je vais au parc.", "en": "I'm going to the park.", "tip": "[[au]] sounds like “oh”." },
+            { "fr": "Mes parents habitent aux États-Unis.", "en": "My parents live in the United States.", "tip": "Liaison: aux‿États‿Unis sounds like “oh-zay-ta-zoo-nee” (with the French u)." },
+            { "fr": "Il y a une pharmacie près d'ici ?", "en": "Is there a pharmacy near here?", "tip": "Let your voice rise at the end." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je vais à la boulangerie.", "en": "I'm going to the bakery.", "prompt": "Where is the speaker going?", "options": ["To the bakery", "To the library", "To the bank"], "answer": 0, "explain": "[[boulangerie]] = bakery: think of [[le pain]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "La banque est en face de la gare.", "en": "The bank is opposite the train station.", "prompt": "Where is the bank?", "options": ["Opposite the train station", "Next to the train station", "Opposite the post office"], "answer": 0, "explain": "[[en face de la gare]] = opposite the train station." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Les enfants sont au parc.", "en": "The children are at the park.", "prompt": "Where are the children?", "options": ["At the park", "At school", "At the bus stop"], "answer": 0, "explain": "[[au parc]]: [[au]] sounds like “oh”." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Picture your own street as you go.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le dimanche, je vais ___ parc avec mes enfants.", "answers": [["au"]], "choices": ["au", "à le", "à la", "aux"], "en": "On Sundays, I go to the park with my children.", "explain": "[[parc]] is masculine: [[à + le]] → [[au]]." },
+        { "id": "r2", "type": "cloze", "text": "Karim travaille ___. (hôpital)", "answers": [["à l'hôpital"]], "en": "Karim works at the hospital.", "explain": "The h is silent, so [[à l']] + [[hôpital]]." },
+        { "id": "r3", "type": "mcq", "prompt": "“We're going to the library.” Which is correct?", "options": ["Nous allons à la bibliothèque.", "Nous allons au bibliothèque.", "Nous allons à la librairie.", "Nous allons à le bibliothèque."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Bibliothèque is feminine: à la.", "Une librairie is a bookstore, not a library.", "À la stays à la; à le doesn't exist."] },
+        { "id": "r4", "type": "translate", "prompt": "Is there a bakery near here?", "accept": ["Il y a une boulangerie près d'ici ?", "Est-ce qu'il y a une boulangerie près d'ici ?", "Y a-t-il une boulangerie près d'ici ?"], "explain": "[[Il y a]] + [[une boulangerie]] + [[près d'ici]], with a rising voice." },
+        { "id": "r5", "type": "match", "prompt": "Match the places.", "pairs": [["la gare", "train station"], ["l'épicerie", "grocery store"], ["la poste", "post office"], ["l'école", "school"], ["la banque", "bank"], ["l'arrêt d'autobus", "bus stop"]] },
+        { "id": "r6", "type": "translate", "prompt": "The bank is opposite the park.", "accept": ["La banque est en face du parc."], "hint": "de + le = ?", "explain": "[[en face de + le parc]] → [[en face du parc]]." },
+        { "id": "r7", "type": "cloze", "text": "Mes parents habitent ___ États-Unis.", "answers": [["aux"]], "choices": ["aux", "au", "à les", "en"], "en": "My parents live in the United States.", "explain": "[[les États-Unis]] is plural: [[à + les]] → [[aux]]." },
+        { "id": "r8", "type": "reorder", "prompt": "The children are at school.", "accept": ["Les enfants sont à l'école."], "extra": ["au"], "explain": "[[école]] starts with a vowel: [[à l'école]]." },
+        { "id": "r9", "type": "cloze", "text": "L'arrêt d'autobus est en face ___ supermarché.", "answers": [["du"]], "choices": ["du", "au", "de le", "à la"], "en": "The bus stop is opposite the supermarket.", "explain": "[[en face de]] + [[le]] → [[du]]. Careful: it's [[de]] here, not [[à]]." },
+        { "id": "r10", "type": "dictation", "fr": "La pharmacie est à côté de la banque.", "accept": ["La pharmacie est à côté de la banque"], "explain": "[[côté]] has an ô and an é." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new neighbour asks you about the area. Tell them about three places near your home and where they are. Then say where you go on Saturdays.", "seconds": 40,
+          "checklist": ["Three places with il y a", "Where they are (à côté de, en face de, près de…)", "Je vais au / à la / à l' / aux…", "A time word (le samedi, le matin…)"],
+          "models": [ { "label": "Model answer", "fr": "Près d'ici, il y a une boulangerie, une pharmacie et un parc. La boulangerie est en face de la banque. La pharmacie est à côté du supermarché. Le samedi, je vais au parc avec ma fille, et le soir, je vais à la bibliothèque.", "en": "Near here there's a bakery, a pharmacy and a park. The bakery is opposite the bank. The pharmacy is next to the supermarket. On Saturdays I go to the park with my daughter, and in the evening I go to the library." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short message to a friend who is moving to your city. Tell them what there is near your home and where you often go.", "wordRange": [30, 55],
+          "checklist": ["At least three places", "One place that isn't near (loin de / il n'y a pas de)", "Use au, à la, à l' or aux at least twice"],
+          "models": [ { "label": "Model answer", "fr": "Salut Olivier ! Mon quartier est super. Il y a une épicerie, une boulangerie et un parc près de mon appartement. L'arrêt d'autobus est devant l'école. L'hôpital est loin d'ici. Le matin, je vais à la boulangerie, et le samedi, je vais au parc. À bientôt ! Amira", "en": "Hi Olivier! My neighbourhood is great. There's a grocery store, a bakery and a park near my apartment. The bus stop is in front of the school. The hospital is far from here. In the morning I go to the bakery, and on Saturdays I go to the park. See you soon! Amira" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Name twelve common places in town, with their gender\n- Say where you go or are with [[au, à la, à l', aux]]\n- Ask [[Il y a une pharmacie près d'ici ?]] and understand the answer\n- Recognize Québec words like [[le dépanneur]] and [[l'autobus]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made the épicerie note accurate for Québec vs France and fixed two pronunciation tips (boulangerie, aux États-Unis). French and answer keys were otherwise correct." }
+}

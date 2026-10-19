@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-04-01",
+  "level": "b1",
+  "unit": "b1-04",
+  "title": "Explaining a process",
+  "goal": "Explain a process step by step with d'abord, ensuite, puis, une fois que and enfin, and say what is necessary with il faut, vous devez and n'oubliez pas de.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-sequencers", "kind": "grammar", "fr": "d'abord, ensuite, puis, une fois que, enfin", "en": "putting steps in order",
+      "drills": [
+        { "type": "cloze", "text": "___, tu choisis ton programme. Ensuite, tu crées ton compte.", "answers": [["D'abord", "Tout d'abord", "Premièrement"]], "en": "First, you choose your program. Then you create your account.", "explain": "The first step: [[d'abord]] (or [[tout d'abord]], [[premièrement]])." },
+        { "type": "cloze", "text": "Une fois que tu ___ rempli le formulaire, tu paies les frais.", "answers": [["as"]], "en": "Once you've filled out the form, you pay the fees.", "explain": "[[une fois que]] + a **completed** action: passé composé [[tu as rempli]], then the next step in the present." },
+        { "type": "mcq", "prompt": "Which word introduces the LAST step?", "options": ["enfin", "ensuite", "d'abord", "puis"], "optionsFr": true, "answer": 0, "explain": "[[enfin]] or [[pour finir]] = finally. [[ensuite]] and [[puis]] are for the middle steps." }
+      ] },
+    { "id": "g-necessity", "kind": "grammar", "fr": "il faut + infinitif / vous devez / n'oubliez pas de", "en": "saying what is necessary in a process",
+      "drills": [
+        { "type": "cloze", "text": "Pour s'inscrire, il ___ créer un compte.", "answers": [["faut"]], "en": "To register, you have to create an account.", "explain": "[[il faut]] + infinitive: an impersonal rule for everyone." },
+        { "type": "cloze", "text": "N'oubliez pas ___ joindre votre relevé de notes.", "answers": [["de"]], "en": "Don't forget to attach your transcript.", "explain": "[[oublier de]] + infinitive: [[N'oubliez pas de…]]" },
+        { "type": "translate", "prompt": "You must pay the fees before March 1. (formal)", "accept": ["Vous devez payer les frais avant le premier mars.", "Vous devez payer les frais avant le 1er mars.", "Il faut payer les frais avant le premier mars.", "Il faut payer les frais avant le 1er mars."], "explain": "[[vous devez]] + infinitive, or the impersonal [[il faut]] + infinitive." }
+      ] },
+    { "id": "etape", "kind": "vocab", "fr": "étape", "article": "une", "gender": "f", "en": "step (stage of a process)", "pos": "noun", "accept": ["l'étape"],
+      "example": { "fr": "La dernière étape, c'est le paiement.", "en": "The last step is the payment." } },
+    { "id": "s-inscrire", "kind": "vocab", "fr": "s'inscrire", "en": "to register (sign up, enrol)", "pos": "verb",
+      "example": { "fr": "Je me suis inscrite à un cours de français.", "en": "I signed up for a French class. (woman speaking)" }, "note": "Reflexive: [[je m'inscris]], [[nous nous inscrivons]]; passé composé with être." },
+    { "id": "formulaire", "kind": "vocab", "fr": "formulaire", "article": "un", "gender": "m", "en": "form (to fill out)", "pos": "noun", "accept": ["le formulaire"],
+      "example": { "fr": "Il faut remplir un formulaire en ligne.", "en": "You have to fill out an online form." } },
+    { "id": "remplir", "kind": "vocab", "fr": "remplir", "en": "to fill out (a form)", "pos": "verb",
+      "example": { "fr": "J'ai rempli le formulaire hier soir.", "en": "I filled out the form last night." } },
+    { "id": "compte", "kind": "vocab", "fr": "compte", "article": "un", "gender": "m", "en": "account (online)", "pos": "noun", "accept": ["le compte"],
+      "example": { "fr": "D'abord, créez votre compte.", "en": "First, create your account." } },
+    { "id": "mot-de-passe", "kind": "vocab", "fr": "mot de passe", "article": "le", "gender": "m", "en": "password", "pos": "noun", "accept": ["un mot de passe"],
+      "example": { "fr": "Choisissez un mot de passe de douze caractères.", "en": "Choose a twelve-character password." } },
+    { "id": "telecharger", "kind": "vocab", "fr": "télécharger", "en": "to download", "pos": "verb",
+      "example": { "fr": "Téléchargez le guide en format PDF.", "en": "Download the guide as a PDF." } },
+    { "id": "televerser", "kind": "vocab", "fr": "téléverser", "en": "to upload (Québec term)", "pos": "verb", "accept": ["mettre en ligne"],
+      "example": { "fr": "Téléversez votre relevé de notes.", "en": "Upload your transcript." }, "note": "Common in Québec. In France you will often see [[télécharger]] or [[importer]] for upload too." },
+    { "id": "date-limite", "kind": "vocab", "fr": "date limite", "article": "la", "gender": "f", "en": "deadline", "pos": "noun", "accept": ["une date limite"],
+      "example": { "fr": "La date limite est le premier mars.", "en": "The deadline is March 1." } },
+    { "id": "releve-notes", "kind": "vocab", "fr": "relevé de notes", "article": "le", "gender": "m", "en": "transcript (of grades)", "pos": "noun", "accept": ["un relevé de notes", "le bulletin"],
+      "example": { "fr": "Il faut joindre ton dernier relevé de notes.", "en": "You have to attach your latest transcript." } },
+    { "id": "une-fois-que", "kind": "phrase", "fr": "Une fois que tu as créé ton compte, tu remplis le formulaire.", "en": "Once you've created your account, you fill out the form. (to a friend)", "accept": ["Une fois que vous avez créé votre compte, vous remplissez le formulaire."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "How to apply to a cégep",
+      "intro": "Sofia's son, Mateo, wants to study at a cégep next fall. Sofia doesn't know the system, so she asks her friend Lucie. Read the conversation, then the online help page. Listen for the words that put the steps in order.",
+      "blocks": [
+        { "type": "dialogue", "title": "Comment on fait pour s'inscrire ?",
+          "context": "Sofia and Lucie talk in a café in Montréal.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Lucie, Mateo veut aller au cégep en septembre. Comment on fait pour s'inscrire ? Je n'y comprends rien !", "en": "Lucie, Mateo wants to go to cégep in September. How do you register? I don't understand a thing!" },
+            { "speaker": "Lucie", "fr": "Ne t'inquiète pas, ce n'est pas si compliqué. Il y a quatre ou cinq étapes. D'abord, Mateo doit choisir son programme et son cégep.", "en": "Don't worry, it's not that complicated. There are four or five steps. First, Mateo has to choose his program and his cégep." },
+            { "speaker": "Sofia", "fr": "D'accord. Et ensuite ?", "en": "OK. And then?" },
+            { "speaker": "Lucie", "fr": "Ensuite, il faut créer un compte sur le site du service régional d'admission. À Montréal, c'est un site pour presque tous les cégeps publics de la région.", "en": "Then you have to create an account on the regional admissions service website. In Montréal, it's one site for almost all the public cégeps in the region." },
+            { "speaker": "Sofia", "fr": "Et une fois que le compte est créé ?", "en": "And once the account is created?" },
+            { "speaker": "Lucie", "fr": "Une fois qu'il a créé son compte, il remplit le formulaire de demande d'admission. Puis il doit téléverser ses documents : son relevé de notes du secondaire et une preuve de statut au Canada. Comme vous êtes résidents permanents, il faut joindre une copie de sa carte.", "en": "Once he's created his account, he fills out the application form. Then he has to upload his documents: his high school transcript and proof of status in Canada. Since you're permanent residents, you have to attach a copy of his card." },
+            { "speaker": "Sofia", "fr": "Et il faut payer quelque chose ?", "en": "And do you have to pay something?" },
+            { "speaker": "Lucie", "fr": "Oui, des frais de demande, quelques dizaines de dollars. Et surtout, n'oubliez pas la date limite : pour l'automne, c'est en général le premier mars. Enfin, il n'y a plus qu'à attendre la réponse, normalement au printemps.", "en": "Yes, an application fee, a few tens of dollars. And above all, don't forget the deadline: for the fall, it's usually March 1. Finally, all that's left is to wait for the answer, normally in the spring." },
+            { "speaker": "Sofia", "fr": "Le premier mars ? Il faut commencer tout de suite, alors !", "en": "March 1? We have to start right away, then!" },
+            { "speaker": "Lucie", "fr": "Exactement. Pensez à préparer les documents avant de remplir le formulaire. Ça va beaucoup plus vite.", "en": "Exactly. Remember to prepare the documents before filling out the form. It goes much faster." }
+          ] },
+        { "type": "text", "title": "Aide en ligne : créer votre compte",
+          "context": "The help page of a fictional online learning platform for adult learners.",
+          "fr": "Créer votre compte en cinq étapes\n1. D'abord, cliquez sur « Créer un compte » en haut de la page.\n2. Ensuite, entrez votre adresse courriel et choisissez un mot de passe d'au moins douze caractères.\n3. Puis, ouvrez le courriel de confirmation et cliquez sur le lien. Attention : le lien est valide pendant vingt-quatre heures seulement.\n4. Une fois que votre adresse est confirmée, remplissez votre profil. Vous devez indiquer votre niveau de français.\n5. Enfin, choisissez vos cours et cliquez sur « Valider ».\nBesoin d'aide ? Il est possible de clavarder avec un conseiller du lundi au vendredi, de 9 h à 17 h.",
+          "en": "Create your account in five steps. 1. First, click “Create an account” at the top of the page. 2. Then, enter your email address and choose a password of at least twelve characters. 3. Next, open the confirmation email and click the link. Careful: the link is valid for twenty-four hours only. 4. Once your address is confirmed, fill out your profile. You must indicate your French level. 5. Finally, choose your courses and click “Confirm”. Need help? You can chat online with an advisor Monday to Friday, 9 a.m. to 5 p.m." },
+        { "id": "d1", "type": "mcq", "prompt": "What must Mateo do right after creating his account?", "options": ["Fill out the application form", "Pay the fees", "Wait for the answer", "Choose his program"], "answer": 0,
+          "explain": "[[Une fois qu'il a créé son compte, il remplit le formulaire de demande d'admission.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "What is Lucie's tip to save time?", "options": ["Prepare the documents before filling out the form.", "Apply after March 1.", "Choose three programs at once."], "answer": 0,
+          "explain": "[[Pensez à préparer les documents avant de remplir le formulaire.]] [[penser à]] + infinitive = remember to." }
+      ] },
+    { "type": "understand", "title": "Steps and obligations",
+      "blocks": [
+        { "type": "table", "title": "Putting steps in order",
+          "head": ["Position", "Connectors", "Example"],
+          "rows": [
+            ["First", "d'abord, tout d'abord, premièrement, pour commencer", "D'abord, choisissez votre programme."],
+            ["Middle", "ensuite, puis, après, après ça", "Ensuite, créez un compte. Puis, remplissez le formulaire."],
+            ["After a completed step", "une fois que + passé composé", "Une fois que vous avez payé, vous recevez un courriel."],
+            ["Before / after (unit 2)", "avant de + infinitif, après avoir / être + participe", "Après avoir payé, attendez la réponse."],
+            ["Last", "enfin, pour finir, finalement", "Enfin, cliquez sur « Valider »."]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "Don't use [[ensuite]] five times in a row: alternate [[ensuite]], [[puis]] and [[après ça]]. [[Puis]] is never used for the first step." },
+        { "type": "table", "title": "Saying what is necessary",
+          "head": ["Structure", "Tone", "Example"],
+          "rows": [
+            ["il faut + infinitif", "general rule, for everyone", "Il faut créer un compte."],
+            ["vous devez / tu dois + infinitif", "a direct obligation for this person", "Vous devez indiquer votre niveau."],
+            ["il est nécessaire de / il est obligatoire de + infinitif", "formal, written rules", "Il est obligatoire de joindre une preuve de statut."],
+            ["n'oubliez pas de / pensez à + infinitif", "a friendly reminder", "N'oubliez pas de payer les frais."],
+            ["impératif", "instructions, step by step", "Cliquez sur le lien. Choisissez un mot de passe."],
+            ["il suffit de + infinitif", "it's enough to, all you need is", "Il suffit de cliquer ici."]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "You will also hear [[il faut que]] + a special verb form: [[il faut que tu choisisses]]. That form is the **subjonctif**, studied at B2. For now, use **il faut + infinitive** or **tu dois + infinitive**: they say the same thing." },
+        { "type": "vocab", "title": "New words", "itemIds": ["etape", "s-inscrire", "formulaire", "remplir", "compte", "mot-de-passe", "telecharger", "televerser", "date-limite", "releve-notes"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Process mistakes",
+          "body": "- [[Une fois que tu remplis le formulaire]] is possible, but to show the step is **finished**, prefer [[Une fois que tu as rempli le formulaire]].\n- [[Il faut de créer un compte]] → [[Il faut créer un compte]]: no [[de]] after [[il faut]].\n- But [[il est nécessaire de]], [[n'oubliez pas de]] and [[il suffit de]] all need [[de]].\n- [[Penser à]], not [[penser de]], for *remember to*: [[Pensez à apporter vos documents.]]\n- [[Je me suis inscrit dans un cours]] → [[Je me suis inscrit à un cours]].\n- In everyday speech you [[remplis]] a form. [[Compléter un formulaire]] is also correct and common in official texts." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec tech words",
+          "body": "The Office québécois de la langue française proposes French words for many tech terms, and they're widely used in Québec:\n\n- [[un courriel]] (email) — France: [[un mail]]\n- [[clavarder]] (to chat online), [[le clavardage]]\n- [[téléverser]] (to upload) and [[télécharger]] (to download)\n- [[un balado]] (a podcast)\n- [[un pourriel]] (spam)\n- [[un mot-clic]] (a hashtag)\n\nIn most regions, a regional admissions service handles applications to public cégeps (for example the SRAM for the Montréal area and the SRACQ for the Québec City area). For the fall, the first-round deadline is generally March 1, the application fee is modest, and first-round answers usually come in the spring. Dates and fees can change each year, so always check official sources." },
+        { "type": "deepdive", "kind": "why", "title": "Why the passé composé after “une fois que”?",
+          "body": "[[Une fois que]] means *once (something is done)*. The first step must be **completed** before the next one starts, so French uses a completed form, the passé composé, for that step, and the present for the next.\n\nIt works like [[après avoir + participe]] from unit 2: [[Après avoir payé, attendez la réponse.]] = [[Une fois que vous avez payé, attendez la réponse.]]",
+          "examples": [ { "fr": "Une fois que tu as reçu le courriel, clique sur le lien.", "en": "Once you've received the email, click the link." } ] }
+      ] },
+    { "type": "hear", "title": "Hear the steps",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "When you explain a process, pause slightly after each connector: [[D'abord…]] (pause) [[tu choisis ton programme]].",
+          "lines": [
+            { "fr": "D'abord, choisissez votre programme.", "en": "First, choose your program." },
+            { "fr": "Ensuite, il faut créer un compte.", "en": "Then you have to create an account.", "tip": "il faut: say it as one word, il-fô." },
+            { "fr": "Une fois que vous avez rempli le formulaire, téléversez vos documents.", "en": "Once you've filled out the form, upload your documents.", "tip": "vous‿avez: z sound." },
+            { "fr": "N'oubliez pas la date limite.", "en": "Don't forget the deadline." },
+            { "fr": "Enfin, il n'y a plus qu'à attendre la réponse.", "en": "Finally, all that's left is to wait for the answer.", "tip": "In speech you'll often hear y a plus qu'à." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Pour emprunter un livre numérique, d'abord, connectez-vous à votre compte. Ensuite, cherchez le titre. Puis, cliquez sur « Emprunter ». Enfin, téléchargez l'application de lecture.", "en": "To borrow an e-book, first, log in to your account. Then, search for the title. Next, click “Borrow”. Finally, download the reading app.", "prompt": "What is the LAST step?", "options": ["Download the reading app", "Log in", "Search for the title", "Click “Borrow”"], "answer": 0,
+          "explain": "[[Enfin]] introduces the last step: [[téléchargez l'application de lecture]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il suffit de présenter une preuve d'adresse pour avoir une carte de bibliothèque.", "en": "All you need is proof of address to get a library card.", "prompt": "What do you need for a library card?", "options": ["Only proof of address", "A fee and a photo", "A transcript"], "answer": 0,
+          "explain": "[[Il suffit de]] = it's enough to: only one thing is needed." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match the French with the English.", "pairs": [["une étape", "a step"], ["la date limite", "the deadline"], ["remplir un formulaire", "to fill out a form"], ["téléverser", "to upload"], ["le mot de passe", "the password"]] },
+        { "id": "r2", "type": "cloze", "text": "___, créez votre compte. ___, remplissez le formulaire. ___, payez les frais.", "answers": [["D'abord", "Tout d'abord", "Premièrement"], ["Ensuite", "Puis", "Après"], ["Enfin", "Pour finir", "Finalement"]], "choices": ["D'abord", "Ensuite", "Enfin", "Puis"], "en": "First, create your account. Then, fill out the form. Finally, pay the fees.", "explain": "First → [[d'abord]]; middle → [[ensuite / puis]]; last → [[enfin]]." },
+        { "id": "r3", "type": "translate", "prompt": "Once you have paid, you receive an email. (formal)", "accept": ["Une fois que vous avez payé, vous recevez un courriel.", "Une fois que vous avez payé, vous recevez un mail.", "Une fois que vous avez payé, vous recevez un e-mail.", "Une fois que vous avez payé, vous allez recevoir un courriel."], "hint": "une fois que + passé composé",
+          "explain": "The finished step in the passé composé ([[vous avez payé]]), the next one in the present." },
+        { "id": "r4", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Il faut créer un compte.", "Il faut de créer un compte.", "Il faut à créer un compte.", "Il faut que créer un compte."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "No de after il faut.", "No à after il faut.", "il faut que needs a subject and a special verb form; use il faut + infinitive."] },
+        { "id": "r5", "type": "cloze", "text": "N'oubliez pas ___ joindre une photo, et pensez ___ vérifier votre adresse.", "answers": [["de"], ["à"]], "choices": ["de", "à", "pour"], "en": "Don't forget to attach a photo, and remember to check your address.", "explain": "[[oublier de]] + infinitive; [[penser à]] + infinitive." },
+        { "id": "r6", "type": "reorder", "prompt": "I signed up for a French class. (man speaking)", "accept": ["Je me suis inscrit à un cours de français"], "extra": ["dans"],
+          "explain": "[[s'inscrire à]]: reflexive, so passé composé with [[être]]." },
+        { "id": "r7", "type": "translate", "prompt": "After filling out the form, he paid the fees.", "accept": ["Après avoir rempli le formulaire, il a payé les frais.", "Une fois qu'il a rempli le formulaire, il a payé les frais.", "Une fois qu'il avait rempli le formulaire, il a payé les frais.", "Il a payé les frais après avoir rempli le formulaire.", "Une fois le formulaire rempli, il a payé les frais."], "hint": "Unit 2: après avoir + participe",
+          "explain": "[[après avoir rempli]]: same subject, earlier action." },
+        { "id": "r8", "type": "cloze", "text": "Pour avoir une carte de bibliothèque, il ___ de présenter une preuve d'adresse.", "answers": [["suffit"]], "choices": ["suffit", "faut", "doit"], "en": "To get a library card, all you need is to show proof of address.", "explain": "[[il suffit de]] + infinitive = all you need to do is. ([[il faut]] would not take [[de]].)" },
+        { "id": "r9", "type": "dictation", "fr": "Une fois que vous avez rempli le formulaire, téléversez vos documents.", "accept": [], "explain": "[[vous avez rempli]] (passé composé) then the imperative [[téléversez]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A newcomer friend asks you how to do something you know well: register for a class, get a library card, open a bank account, or cook a dish from your country. Explain the process in at least four steps.", "seconds": 60,
+          "checklist": ["Pour + infinitif, …", "D'abord… Ensuite… Puis… Enfin…", "Une fois que + passé composé", "il faut / tu dois + infinitive", "A tip: N'oublie pas de… / Pense à…"],
+          "models": [ { "label": "Model answer", "fr": "Pour avoir une carte de bibliothèque à Montréal, c'est très simple. D'abord, tu vas à la bibliothèque de ton quartier avec une pièce d'identité. Ensuite, il faut montrer une preuve d'adresse, par exemple une facture d'électricité. Puis, l'employé remplit un formulaire avec toi. Une fois que tu as reçu ta carte, tu peux emprunter des livres, et même des livres numériques sur le site. Enfin, pense à télécharger l'application : c'est super pratique. Et n'oublie pas : c'est gratuit pour les résidents !", "en": "To get a library card in Montréal, it's very simple. First, you go to your neighbourhood library with ID. Then you have to show proof of address, for example an electricity bill. Next, the employee fills out a form with you. Once you've received your card, you can borrow books, and even e-books on the website. Finally, remember to download the app: it's really handy. And don't forget: it's free for residents!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write an email to a friend explaining how to create an account on a website or app you use (a bank, a library, a transit card, a school platform). Give at least five steps and one warning.", "promptFr": "Expliquez à un ami comment créer un compte.",
+          "wordRange": [60, 110],
+          "checklist": ["Salut + name", "D'abord, ensuite, puis, une fois que, enfin", "il faut + infinitive (no de!)", "Imperative with tu: clique, choisis, remplis…", "A warning: Attention : … / N'oublie pas de…", "A friendly closing"],
+          "models": [ { "label": "Model answer", "fr": "Salut Karim,\nVoici comment créer ton compte pour la carte de transport. D'abord, va sur le site de la société de transport et clique sur « Créer un compte ». Ensuite, entre ton adresse courriel et choisis un mot de passe. Puis, ouvre le courriel de confirmation et clique sur le lien. Une fois que ton compte est activé, il faut ajouter le numéro de ta carte. Enfin, tu peux acheter tes titres en ligne. Attention : le lien de confirmation est valide seulement vingt-quatre heures !\nBonne chance,\nMei", "en": "Hi Karim, Here's how to create your account for the transit card. First, go to the transit company's website and click “Create an account”. Then, enter your email address and choose a password. Next, open the confirmation email and click the link. Once your account is activated, you have to add your card number. Finally, you can buy your fares online. Careful: the confirmation link is valid for only twenty-four hours! Good luck, Mei" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Put steps in order with [[d'abord]], [[ensuite]], [[puis]], [[une fois que + passé composé]] and [[enfin]]\n- Say what is necessary with [[il faut + infinitif]], [[vous devez]], [[il suffit de]], [[n'oubliez pas de]], [[pensez à]]\n- Use process vocabulary: [[s'inscrire]], [[remplir un formulaire]], [[créer un compte]], [[téléverser]], [[la date limite]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Softened the cégep answer date to 'au printemps' and made the regional admissions note accurate and hedged (SRAM/SRACQ, March 1 first round, check official sources). Clarified the remplir/compléter note; added one accepted answer." }
+}

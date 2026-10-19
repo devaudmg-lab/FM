@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-12-05",
+  "level": "b2",
+  "unit": "b2-12",
+  "title": "Final readiness review",
+  "goal": "Read your Exam Lab estimates honestly, build a final four-week plan, know your test-day strategy for each ability, book the real test with the right checks, and look back on the whole course in French.",
+  "minutes": 20,
+  "checkpoint": true,
+  "items": [
+    { "id": "fourchette", "kind": "vocab", "fr": "fourchette", "article": "une", "gender": "f", "en": "range (of values or scores)", "pos": "noun", "accept": ["la fourchette"],
+      "note": "Also “fork”. [[Une fourchette de prix]] = a price range.",
+      "example": { "fr": "L'appli m'indique une fourchette de NCLC 7 à 8.", "en": "The app gives me a range of NCLC 7 to 8." } },
+    { "id": "estimation", "kind": "vocab", "fr": "estimation", "article": "une", "gender": "f", "en": "estimate (approximate calculation)", "pos": "noun", "accept": ["l'estimation"],
+      "example": { "fr": "Ce n'est qu'une estimation, pas un résultat officiel.", "en": "It's only an estimate, not an official result." } },
+    { "id": "convocation", "kind": "vocab", "fr": "convocation", "article": "une", "gender": "f", "en": "notice to attend (an exam), admission letter", "pos": "noun", "accept": ["la convocation"],
+      "example": { "fr": "Lisez bien votre convocation avant le jour de l'examen.", "en": "Read your admission letter carefully before the day of the exam." } },
+    { "id": "piece-identite", "kind": "vocab", "fr": "pièce d'identité", "article": "une", "gender": "f", "en": "piece of ID, identity document", "pos": "noun", "accept": ["la pièce d'identité"] },
+    { "id": "parcours", "kind": "vocab", "fr": "parcours", "article": "le", "gender": "m", "en": "path, journey (of learning or a career)", "pos": "noun", "accept": ["un parcours"],
+      "example": { "fr": "Mon parcours en français a commencé il y a deux ans.", "en": "My journey in French started two years ago." } },
+    { "id": "viser", "kind": "vocab", "fr": "viser", "en": "to aim for (a target)", "pos": "verb",
+      "example": { "fr": "Je vise le NCLC 8 en lecture.", "en": "I'm aiming for NCLC 8 in reading." } },
+    { "id": "en-toute-honnetete", "kind": "phrase", "fr": "en toute honnêteté", "en": "in all honesty", "accept": ["en toute franchise", "honnêtement"] },
+    { "id": "faire-le-point", "kind": "phrase", "fr": "faire le point", "en": "to take stock, to review where you stand", "accept": ["faire un bilan"] },
+    { "id": "gerer-stress", "kind": "phrase", "fr": "gérer son stress", "en": "to manage one's stress", "accept": ["gérer le stress"] },
+    { "id": "chemin-parcouru", "kind": "phrase", "fr": "Je suis fière du chemin parcouru.", "en": "I'm proud of how far I've come. (woman speaking)", "accept": ["Je suis fier du chemin parcouru."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Where do I really stand?",
+      "blocks": [
+        { "type": "dialogue", "title": "Amira reads her results",
+          "context": "Amira has just finished the B2 mocks. She shows her Exam Lab summary to Lucie, her tutor.",
+          "lines": [
+            { "speaker": "Amira", "fr": "Regarde : en lecture, l'appli m'indique NCLC 7–8. Donc j'ai mon NCLC 8, non ?", "en": "Look: in reading, the app shows NCLC 7–8. So I have my NCLC 8, right?" },
+            { "speaker": "Lucie", "fr": "Pas si vite. Une fourchette, ce n'est pas une note. Et regarde la confiance : elle est seulement « moyenne », parce que tu n'as fait que trois séries de dix questions.", "en": "Not so fast. A range isn't a score. And look at the confidence: it's only “medium”, because you've only done three ten-question sets." },
+            { "speaker": "Amira", "fr": "D'accord… Et en écoute, c'est NCLC 6–7. Pourtant, mon programme exige le NCLC 7 partout.", "en": "OK… And in listening, it's NCLC 6–7. Yet my program requires NCLC 7 everywhere." },
+            { "speaker": "Lucie", "fr": "Alors, en toute honnêteté, c'est l'écoute qui doit être ta priorité. Base-toi toujours sur le bas de la fourchette, pas sur le haut.", "en": "Then, in all honesty, listening has to be your priority. Always go by the bottom of the range, not the top." },
+            { "speaker": "Amira", "fr": "Et à l'écrit ? Avec la grille, je me suis donné de bonnes notes…", "en": "And in writing? I gave myself good marks with the rating grid…" },
+            { "speaker": "Lucie", "fr": "C'est une auto-évaluation : c'est utile, mais c'est la moins fiable. Envoie-moi deux textes, je te donnerai un deuxième avis. Ensuite, on fera le point et on choisira ta date d'examen.", "en": "It's a self-assessment: useful, but the least reliable. Send me two texts and I'll give you a second opinion. Then we'll take stock and choose your exam date." }
+          ] },
+        { "type": "note", "tone": "info",
+          "body": "[[Pas si vite]] = not so fast. [[Une auto-évaluation]] = a self-assessment. [[Base-toi sur le bas de la fourchette]] = rely on the bottom of the range. [[Faire le point]] = to take stock." }
+      ] },
+    { "type": "understand", "title": "Read your estimates honestly, then plan four weeks",
+      "blocks": [
+        { "type": "explain", "title": "What an Exam Lab estimate is, and what it isn't",
+          "body": "Every Exam Lab result is an **unofficial, approximate estimate**. It never predicts an official result. Here is how to read it honestly.\n\n- **It's a range, not a score.** The app places your percentage on the official scale with a simple straight-line conversion (an approximation), adds a margin above and below, and shows the NCLC levels that margin covers, such as **NCLC 7–8**. The fewer questions behind the estimate, the wider the margin: after a single 10-question set, the range usually spans three to five levels.\n- **Look at the confidence label.** It goes from **low** to **medium** (at least 3 sessions in that ability in the last 30 days) to **higher** (at least 6 recent sessions). One good set is a good sign, not proof.\n- **The summary for each ability combines your last five sessions**, giving more weight to the most recent. Your progress shows up, and so does a bad day.\n- **Writing and speaking are self-assessed.** You rate your own text or recording on a five-criterion grid (task, organisation, vocabulary, grammar, register), so these estimates are the least reliable. If you can, ask a teacher or a strong French speaker for a second opinion.\n- **Plan from the bottom of the range.** If your program requires NCLC 7 and your range is 7–8, you're close, but not safe. If it's 6–7, you're not there yet.\n- **Real test conditions are harder.** New topics, unfamiliar voices, stress and a long day can lower your performance. Leave yourself a margin." },
+        { "type": "table", "title": "NCLC 7 and 8 in official scores",
+          "head": ["Ability", "TEF Canada NCLC 7", "TEF Canada NCLC 8", "TCF Canada NCLC 7", "TCF Canada NCLC 8"],
+          "rows": [
+            ["Listening", "249–279", "280–297", "458–502", "503–522"],
+            ["Reading", "207–232", "233–247", "453–498", "499–523"],
+            ["Writing", "310–348", "349–370", "10–11 / 20", "12–13 / 20"],
+            ["Speaking", "310–348", "349–370", "10–11 / 20", "12–13 / 20"]
+          ],
+          "frCols": [], "sayCol": false,
+          "note": "From the IRCC equivalency tables recorded in the app. For the TEF, IRCC uses the **équivalence ancien score** of each ability. For the TCF, listening and reading are scored out of 699, writing and speaking out of 20. Tables can change: check the IRCC page before you rely on them. The full NCLC 4–10 table is in the Exam Lab." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Three ways to fool yourself",
+          "body": "- **Quoting your best result.** Your best set shows what you *can* do on a good day. The exam is one day, chosen in advance. Look at your typical result.\n- **Retaking the same set.** The second time, you remember the answers. Your score rises, but your level doesn't. Use new sets for estimates, and old ones for study.\n- **Ignoring your weakest ability.** NCLC is checked ability by ability. A strong NCLC 9 in reading doesn't make up for NCLC 6 in listening if your program requires 7 in each." },
+        { "type": "table", "title": "Your final four weeks",
+          "head": ["Week", "Focus", "What to do"],
+          "rows": [
+            ["Week 1", "Diagnose", "One timed set in each ability, in the Exam Lab, using sets you haven't done before. Note your two weakest micro-skills (the results screen lists your biggest opportunities). One writing task and one speaking task, marked with the checklist."],
+            ["Week 2", "Target your weakest ability", "Focused practice every day on your weakest ability (30–40 minutes). Keep the others alive with one short set each. Two writing tasks and two speaking tasks, timed."],
+            ["Week 3", "Full mock", "Early in the week: a full mock in exam order, all four abilities on the same day, as on the real TEF day. Then analyse your errors and redo the tasks where you lost most points."],
+            ["Week 4", "Consolidate and rest", "Short timed sets only. Reread the models and your phrase tables. Check the logistics (address, time, documents). The day before: no new material, a short walk, an early night."]
+          ],
+          "frCols": [], "sayCol": false,
+          "note": "Keep your daily FrenchQuest review going the whole time: 15 minutes of vocabulary and grammar support every ability. If week 3 shows you're still below your target, it's better to move the test date than to take it unprepared." }
+      ] },
+    { "type": "understand", "title": "Test day and booking",
+      "blocks": [
+        { "type": "table", "title": "Test-day strategy, ability by ability",
+          "head": ["Ability", "Strategy"],
+          "rows": [
+            ["Reading", "Answer every question: a blank scores the same as a wrong answer, and on the TEF there's no penalty for wrong answers. Read the question before the document. The right option usually paraphrases the text. About 90 seconds per question: mark a hard one, guess and move on. On the TCF, difficulty rises through the test: keep time for the long texts at the end."],
+            ["Listening", "Read the question and options before the audio starts. Recordings are usually played once: choose and move on. Note numbers, dates and times as you hear them. Listen for intention and attitude, and past self-corrections and concessions. On the TCF, bank the easier points at the start."],
+            ["Writing", "Spend 3–5 minutes planning and 3 minutes rereading for agreement and accents. Respect every word range. TEF A: journalistic, factual, consistent past tenses. TEF B: clear position, three developed arguments, connectors. TCF T3: summarize both documents neutrally, then give your reasoned opinion."],
+            ["Speaking", "TEF A: about ten varied, polite questions with vous. TEF B: convince your friend with tu, answer objections, stay friendly. TCF T1: talk about yourself in detail. TCF T2: ask many varied questions and react. TCF T3: a clear opinion, two or three arguments and an example from your life. Fill silences with connectors; reformulate if you lose a word."]
+          ],
+          "frCols": [], "sayCol": false },
+        { "type": "deepdive", "kind": "examples", "title": "Managing stress on the day",
+          "body": "- **Arrive early**, with the documents your admission letter ([[la convocation]]) asks for, usually including valid ID. Check the exact list with your test centre.\n- **Before the speaking test**, warm up quietly in French: read a few lines of a text out loud, or describe what you see around you.\n- **If one task goes badly, close it mentally.** Each ability is scored separately: a difficult listening section doesn't decide your writing score.\n- **Breathe out slowly** when you notice stress: four seconds in, six seconds out, twice. It takes ten seconds and steadies your voice.",
+          "examples": [
+            { "fr": "Je n'ai pas bien saisi. Pourriez-vous reformuler la question ?", "en": "I didn't quite catch that. Could you rephrase the question?" },
+            { "fr": "Comment dire… Disons que c'est une solution temporaire.", "en": "How can I put it… Let's say it's a temporary solution." },
+            { "fr": "Pour reprendre ce que je disais, …", "en": "To go back to what I was saying, …" }
+          ] },
+        { "type": "explain", "title": "Booking the real test",
+          "body": "1. **Check your program's requirements on the IRCC website first:** which tests are accepted, and the minimum NCLC in each ability. Requirements differ between programs and can change.\n2. **Book only through the official channels.** TEF Canada is run by **Le français des affaires (CCI Paris Île-de-France)**; TCF Canada by **France Éducation international**. Their official sites list the approved test centres. Dates, fees and centre rules vary: check them with the centre.\n3. **Know the format rules.** For the **TEF Canada**, all four tests must be taken **on the same day** for the certificate to be recognized. The **TCF Canada** lasts about **2 h 47** in total.\n4. **Mind the validity.** Results are valid for **2 years** for IRCC purposes, so choose a test date that fits your application timeline. Check IRCC for the exact rule that applies to your program.\n5. **Book early, and leave room for a second attempt** before your application deadline. Popular centres can fill up weeks ahead. If you might need to retake, check the official rules on retaking before you plan." },
+        { "type": "deepdive", "kind": "canada", "title": "Official sources to check",
+          "body": "- **IRCC** (canada.ca): the language test page for your program, with the accepted tests and the NCLC equivalency tables.\n- **TEF Canada**: the official site of Le français des affaires.\n- **TCF Canada**: the official site of France Éducation international, including the candidate handbook (useful for the speaking task timings and preparation arrangements).\n\nFrenchQuest's format and score data were checked against these sources, but rules change. When the official source and this course differ, **the official source is right**." }
+      ] },
+    { "type": "recall", "title": "Check your readiness",
+      "intro": "Quick questions on reading your results and on the real tests.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "After three 10-question reading sets, the Exam Lab summary shows **NCLC 7–8**, medium confidence. Your target is NCLC 8. What is the honest conclusion?",
+          "options": ["You may be close, but plan from NCLC 7 and do more new sets before relying on it.", "You've reached NCLC 8: you can book the test.", "You're at NCLC 7, so NCLC 8 is impossible.", "The estimate is your official reading result."], "answer": 0,
+          "explain": "A range from three short sets, with medium confidence, is an encouraging sign, not a result. Plan from the bottom of the range (7) and confirm with more recent sets you haven't done before.",
+          "optionFeedback": [null, "That reads the top of the range as a result. Plan from the bottom.", "A range of 7–8 means NCLC 8 is within reach, not impossible.", "Exam Lab estimates are unofficial and never predict an official result."] },
+        { "id": "r2", "type": "mcq", "prompt": "Your program requires NCLC 7 in each ability. Your ranges: listening 6–7, reading 8–9, writing 7–8, speaking 7. What should week 2 of your plan focus on?",
+          "options": ["Listening", "Reading, to reach NCLC 9 or 10", "Writing and speaking equally", "Nothing: you're ready"], "answer": 0,
+          "explain": "Listening is the only ability whose range dips below the requirement. Each ability is checked separately, so it decides whether you reach your target." },
+        { "id": "r3", "type": "mcq", "prompt": "TEF Canada reading: two minutes left, five questions unanswered. What do you do?",
+          "options": ["Choose an answer for each one: a blank scores the same as a wrong answer.", "Leave them blank to avoid a penalty.", "Spend the two minutes on the first one only.", "Go back and check your earlier answers."], "answer": 0,
+          "explain": "On the TEF, there's no penalty for wrong answers, and a blank scores zero. A guess can only help.",
+          "optionFeedback": [null, "There's no penalty for wrong answers on the TEF reading test.", "You'd lose four possible points.", "Unanswered questions are worth more than rechecking."] },
+        { "id": "r4", "type": "mcq", "prompt": "On the TCF Canada, you get **12 out of 20** in writing. According to the IRCC table, which NCLC level is that?",
+          "options": ["NCLC 8", "NCLC 7", "NCLC 9", "NCLC 6"], "answer": 0,
+          "explain": "TCF writing: 10–11 = NCLC 7, 12–13 = NCLC 8, 14–15 = NCLC 9. Check the IRCC page for the current table." },
+        { "id": "r5", "type": "cloze", "text": "Avant de m'___ à l'examen, je vais ___ le point sur mes progrès avec ma tutrice.", "answers": [["inscrire"], ["faire"]], "choices": ["inscrire", "faire", "passer", "prendre"], "en": "Before registering for the exam, I'm going to take stock of my progress with my tutor.",
+          "explain": "[[s'inscrire à un examen]] = to register for it. [[faire le point sur]] = to take stock of." },
+        { "id": "r6", "type": "translate", "prompt": "In all honesty, my weak point is still listening.",
+          "accept": ["En toute honnêteté, mon point faible reste la compréhension orale.", "En toute honnêteté, mon point faible, c'est encore la compréhension orale.", "En toute honnêteté, mon point faible est encore la compréhension orale.", "En toute honnêteté, mon point faible reste l'écoute.", "En toute honnêteté, mon point faible, c'est encore l'écoute.", "En toute honnêteté, mon point faible est encore l'écoute.", "En toute honnêteté, mon point faible, c'est toujours la compréhension orale.", "En toute honnêteté, mon point faible est toujours la compréhension orale.", "En toute honnêteté, mon point faible reste la compréhension de l'oral.", "En toute honnêteté, mon point faible, c'est toujours l'écoute.", "En toute honnêteté, mon point faible est toujours l'écoute.", "En toute franchise, mon point faible reste la compréhension orale.", "En toute honnêteté, mon point faible demeure la compréhension orale.", "En toute honnêteté, mon point faible demeure l'écoute.", "Honnêtement, mon point faible reste la compréhension orale."],
+          "explain": "[[en toute honnêteté]] = in all honesty. [[rester]] is a natural way to say “to still be”: [[mon point faible reste…]]." },
+        { "id": "r7", "type": "match", "prompt": "Match the French and the English.",
+          "pairs": [["une fourchette", "a range"], ["une convocation", "an admission letter"], ["une pièce d'identité", "a piece of ID"], ["une estimation", "an estimate"], ["le parcours", "the journey"]] }
+      ] },
+    { "type": "apply", "title": "Look back, look ahead",
+      "blocks": [
+        { "id": "w1", "type": "write",
+          "prompt": "Write a reflective text in French (**150–220 words**), as a message to your tutor or to yourself. Look back on your journey through the course (where you started, what was hardest, what you're proud of), then look ahead: your Exam Lab ranges read honestly, your target, your four-week plan, and how you'll handle test day.",
+          "promptFr": "Faites le point sur votre parcours : d'où vous partiez, ce qui a été le plus difficile, ce dont vous êtes fier ou fière. Puis présentez votre objectif, votre plan des quatre dernières semaines et votre stratégie pour le jour de l'examen. (150 à 220 mots)",
+          "wordRange": [150, 220],
+          "checklist": ["Where you started, with a past tense (Quand j'ai commencé…, je ne savais pas…)", "What was hardest, and how you dealt with it", "What you're proud of (Je suis fier / fière de…)", "Your Exam Lab ranges, read honestly (the bottom of the range, the confidence)", "Your target and your test date", "Your four-week plan, with the futur simple", "One test-day strategy for your weakest ability", "At least one subjonctif (bien que, il faut que, pour que) and one si + imparfait → conditionnel"],
+          "models": [
+            { "label": "B2 model", "fr": "Quand j'ai commencé FrenchQuest, je savais à peine me présenter. Aujourd'hui, je peux lire un article de journal et donner mon opinion pendant plusieurs minutes. Le plus difficile, pour moi, a été la compréhension orale : les Québécois parlent vite, et au début, je ne comprenais presque rien. J'ai écouté la radio tous les jours, et petit à petit, c'est devenu plus facile.\n\nJe suis fière du chemin parcouru, mais je dois être honnête. Dans le Laboratoire d'examen, j'ai NCLC 7–8 en lecture et à l'écrit, mais seulement NCLC 6–7 en écoute. Mon programme exige le NCLC 7 partout, donc l'écoute reste ma priorité.\n\nPendant les quatre prochaines semaines, je ferai une série d'écoute chaque jour et un examen blanc complet pendant la troisième semaine. Si mes résultats étaient encore trop faibles, je changerais la date de l'examen.\n\nLe jour de l'examen, je lirai les questions avant chaque enregistrement, et je répondrai à toutes les questions, même si je ne suis pas sûre. Bien que je sois un peu stressée, je me sens prête à essayer.",
+              "en": "When I started FrenchQuest, I could barely introduce myself. Today, I can read a newspaper article and give my opinion for several minutes. The hardest thing for me was listening: Quebecers speak fast, and at the beginning I understood almost nothing. I listened to the radio every day, and little by little it got easier. I'm proud of how far I've come, but I have to be honest. In the Exam Lab, I have NCLC 7–8 in reading and writing, but only NCLC 6–7 in listening. My program requires NCLC 7 everywhere, so listening remains my priority. Over the next four weeks, I'll do a listening set every day and a full mock exam in the third week. If my results were still too low, I'd change the exam date. On exam day, I'll read the questions before each recording, and I'll answer every question, even if I'm not sure. Although I'm a bit stressed, I feel ready to try." },
+            { "label": "Strong B2 model", "fr": "Il y a un peu plus d'un an, je commandais mon café en anglais, faute d'oser essayer en français. Aujourd'hui, j'ai fait des examens blancs dans les quatre compétences et, surtout, je n'ai plus peur de prendre la parole. Ce qui m'a le plus coûté, c'est l'écrit : respecter un nombre de mots m'obligeait à choisir mes idées au lieu de tout dire.\n\nEn toute honnêteté, mes estimations sont encourageantes sans être rassurantes : NCLC 8–9 en lecture, 7–8 partout ailleurs, avec une confiance moyenne. Comme je vise le NCLC 8 pour obtenir davantage de points, je me fie au bas de la fourchette, ce qui signifie qu'il me reste du travail en écoute, à l'écrit et à l'oral.\n\nLa première semaine, je referai un diagnostic complet ; ensuite, je consacrerai deux semaines à l'oral, en m'enregistrant chaque jour, avant de passer un examen blanc en conditions réelles. Il faudra que je garde la dernière semaine pour me reposer : si j'arrivais épuisée, je perdrais des points.\n\nLe jour J, je m'accorderai trois minutes de relecture pour chaque texte, et si je bloque à l'oral, je reformulerai plutôt que de me taire. Quel que soit le résultat, je sais déjà d'où je viens.",
+              "en": "A little over a year ago, I ordered my coffee in English, for lack of daring to try in French. Today, I've done mock exams in all four abilities and, above all, I'm no longer afraid to speak up. What cost me the most was writing: respecting a word count forced me to choose my ideas instead of saying everything. In all honesty, my estimates are encouraging without being reassuring: NCLC 8–9 in reading, 7–8 everywhere else, with medium confidence. As I'm aiming for NCLC 8 to get more points, I rely on the bottom of the range, which means I still have work to do in listening, writing and speaking. In the first week, I'll redo a full diagnosis; then I'll spend two weeks on speaking, recording myself every day, before taking a mock exam in real conditions. I'll need to keep the last week to rest: if I arrived exhausted, I'd lose points. On the big day, I'll give myself three minutes to reread each text, and if I get stuck when speaking, I'll reformulate rather than fall silent. Whatever the result, I already know how far I've come." }
+          ] },
+        { "type": "explain", "title": "Félicitations ! You've finished FrenchQuest",
+          "body": "Take a moment to measure the distance. You started with [[Bonjour]] and [[Je m'appelle…]]. You now read opinion columns, follow one-play recordings with Québec speakers, write structured arguments to a word limit, and hold your position when an examiner pushes back. That is what **B2** looks like: the level of an independent user who can work, study and take part in public life in French.\n\nNo course can promise an exam result: your score on the day depends on your preparation and on the test itself. What you have now is the skills the TEF and TCF measure, and a way to check honestly where you stand. Whatever your test date, keep three habits:\n\n- **A little French every day**, even 15 minutes: your daily review, a podcast, the news.\n- **French with real people**: colleagues, neighbours, a conversation group, volunteering.\n- **Timed practice in the Exam Lab** until test day, then French for its own sake.\n\n[[Bravo, et bonne chance pour l'examen !]]" },
+        { "type": "note", "tone": "info",
+          "body": "**One last reminder:** Exam Lab estimates are unofficial and approximate. Only the official TEF Canada or TCF Canada result counts for IRCC. Check the official sites before you book, and check IRCC for your program's requirements." }
+      ] },
+    { "type": "review", "title": "Final mix: the whole course",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Read Exam Lab estimates honestly: a range, a confidence level, plan from the bottom, writing and speaking self-assessed\n- Follow a final four-week plan: diagnose, target the weakest ability, full mock, consolidate and rest\n- Apply a test-day strategy for each ability, and book the real test through official channels after checking IRCC\n- Look back on your journey and forward to the exam in B2 French: [[faire le point]], [[en toute honnêteté]], [[je suis fière du chemin parcouru]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Changed the Exam Lab explanation, dialogue and r1 to match exam.js: one 10-question set cannot give a two-level range, the confidence thresholds are 3 and 6 recent sessions, and writing and speaking use a five-criterion grid. Added an explicit 'no course can promise a result' line to the celebration and a si + imparfait to the strong model, which is still inside 150–220 words." }
+}

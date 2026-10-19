@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-09-02",
+  "level": "b2",
+  "unit": "b2-09",
+  "title": "Inference: reading between the lines",
+  "goal": "Understand what a text says without saying it: presuppositions (présupposés), implications (sous-entendus) and irony, and name the tone of a text as reading exams ask you to.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-implicite", "kind": "grammar", "fr": "présupposé (encore, enfin, arrêter de, même…) / sous-entendu / ironie", "en": "three kinds of implicit meaning and their signals",
+      "drills": [
+        { "type": "mcq", "prompt": "« Olivier a arrêté de fumer. » What is presupposed (taken for granted)?", "options": ["Olivier used to smoke.", "Olivier is ill.", "Olivier never smoked."], "answer": 0, "explain": "[[arrêter de]] presupposes the earlier situation. Even the negative [[Olivier n'a pas arrêté de fumer]] keeps that presupposition." },
+        { "type": "mcq", "prompt": "« Même Raj est venu à la fête. » What does même suggest?", "options": ["People didn't expect Raj to come.", "Raj organized the party.", "Raj came with a friend."], "answer": 0, "explain": "[[même]] presents Raj as the least expected person: a presupposition triggered by one small word." },
+        { "type": "cloze", "text": "Le patron a ___ répondu à mon courriel… après trois semaines.", "answers": [["enfin"]], "choices": ["enfin", "finalement", "déjà"], "en": "The boss finally answered my email… after three weeks.", "explain": "[[enfin]] presupposes a long, impatient wait. [[déjà]] would suggest the opposite: sooner than expected." }
+      ] },
+    { "id": "sous-entendu", "kind": "vocab", "fr": "sous-entendu", "article": "le", "gender": "m", "en": "implication, insinuation (meaning suggested by the context)", "pos": "noun", "accept": ["un sous-entendu"], "note": "Plural: [[des sous-entendus]]." },
+    { "id": "presuppose", "kind": "vocab", "fr": "présupposé", "article": "le", "gender": "m", "en": "presupposition (what a sentence takes for granted)", "pos": "noun", "accept": ["un présupposé"] },
+    { "id": "ironie", "kind": "vocab", "fr": "ironie", "article": "l'", "gender": "f", "en": "irony", "pos": "noun", "accept": ["une ironie"], "note": "Adjective: [[ironique]]. Biting irony is [[sarcastique]]." },
+    { "id": "laisser-entendre", "kind": "phrase", "fr": "laisser entendre que", "en": "to imply, to hint that", "accept": ["sous-entendre que", "suggérer que"], "example": { "fr": "L'auteur laisse entendre que la Ville est mal organisée.", "en": "The author implies that the city is badly organized." } },
+    { "id": "lire-entre-les-lignes", "kind": "phrase", "fr": "lire entre les lignes", "en": "to read between the lines" },
+    { "id": "premier-degre", "kind": "phrase", "fr": "prendre au premier degré", "en": "to take literally", "accept": ["prendre à la lettre", "prendre au pied de la lettre"], "note": "The opposite: [[C'est du second degré]] = it's ironic, not meant literally." },
+    { "id": "second-degre", "kind": "phrase", "fr": "au second degré", "en": "ironically, not to be taken literally", "accept": ["au deuxième degré"], "example": { "fr": "Tout l'article est écrit au second degré.", "en": "The whole article is written tongue-in-cheek." } },
+    { "id": "ton", "kind": "vocab", "fr": "ton", "article": "le", "gender": "m", "en": "tone (of a text or voice)", "pos": "noun", "accept": ["un ton"], "example": { "fr": "Le ton de la chronique est ironique.", "en": "The tone of the column is ironic." } },
+    { "id": "alarmiste", "kind": "vocab", "fr": "alarmiste", "en": "alarmist", "pos": "adjective", "example": { "fr": "Le reportage adopte un ton alarmiste.", "en": "The report takes an alarmist tone." } },
+    { "id": "ca-promet", "kind": "phrase", "fr": "Ça promet !", "en": "That bodes well! (usually ironic: things are going to go badly)", "note": "Informal. Almost always ironic: [[Il pleut le premier jour des vacances. Ça promet !]]" },
+    { "id": "chute", "kind": "vocab", "fr": "chute", "article": "la", "gender": "f", "en": "punchline, twist at the end (of a text)", "pos": "noun", "accept": ["une chute"], "note": "Its basic meaning is *a fall*." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Words that say more than they say",
+      "intro": "First a short scene at the office, then a humour column. In both, almost nothing important is said **directly**.",
+      "blocks": [
+        { "type": "dialogue", "title": "Monday, 10:40 a.m.",
+          "context": "Karim arrives at the office. Camille, his colleague, is already there.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Tiens, Karim ! Tu as bien dormi ?", "en": "Well, Karim! Did you sleep well?" },
+            { "speaker": "Karim", "fr": "Ne m'en parle pas. Encore les travaux sur la rue Saint-Denis…", "en": "Don't get me started. The roadwork on Saint-Denis Street again…" },
+            { "speaker": "Camille", "fr": "Ah, les fameux travaux. Au fait, la réunion de 9 h s'est très bien passée. Même Olivier est arrivé à l'heure.", "en": "Ah, the famous roadwork. By the way, the 9 o'clock meeting went very well. Even Olivier arrived on time." },
+            { "speaker": "Karim", "fr": "D'accord, d'accord, j'ai compris le message. Je vais lire le compte rendu.", "en": "OK, OK, I get the message. I'll read the minutes." },
+            { "speaker": "Camille", "fr": "Bonne idée. Lucie l'a envoyé… il y a une heure.", "en": "Good idea. Lucie sent it… an hour ago." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What is Camille really telling Karim?", "options": ["That he is late and missed the meeting", "That she is worried about his health", "That Olivier is often early"], "answer": 0,
+          "explain": "[[Tu as bien dormi ?]] is a **sous-entendu**: you're late. [[Même Olivier est arrivé à l'heure]] presupposes that Olivier is usually late, so Karim has no excuse. [[il y a une heure]] adds: you're *very* late." },
+        { "type": "text", "title": "Merci, chers cônes orange",
+          "context": "A humour column by Alex Tremblay in a Montréal neighbourhood newspaper.",
+          "fr": "Chaque printemps, les Montréalais attendent avec impatience le retour d'un symbole national : le cône orange. Cette année encore, la Ville ne nous a pas déçus. Sur ma rue, on en compte désormais quarante-trois, soit à peu près un par habitant. On n'est jamais trop prudent.\n\nLes travaux devaient officiellement durer six semaines. Nous en sommes à la quatorzième, mais je suis sûr que la Ville a d'excellentes raisons de prendre son temps. Après tout, refaire un trottoir, ce n'est pas comme construire une pyramide : c'est beaucoup plus compliqué.\n\nJ'ai voulu en savoir plus. Le service des communications m'a expliqué, avec un sourire admirable, que le chantier « avançait conformément à l'échéancier révisé ». J'ignorais qu'un échéancier pouvait être révisé quatre fois. J'ai beaucoup appris.\n\nPendant ce temps, les commerçants du quartier vivent une expérience enrichissante. Le fleuriste, par exemple, a enfin le temps de lire : ses clients ne peuvent plus atteindre sa porte. La boulangère, elle, a découvert les joies de la livraison, puisque personne ne trouve où se garer. Quant aux cyclistes, ils développent un sens de l'équilibre digne des meilleurs acrobates.\n\nJe tiens d'ailleurs à remercier l'équipe de nuit, qui a eu la délicatesse de commencer à casser le béton à six heures du matin pendant toute la canicule. Grâce à elle, mon quartier n'a jamais été aussi matinal.\n\nBien sûr, certains esprits chagrins diront qu'une meilleure planification aurait évité tout cela. Je leur réponds : soyez patients. Le maire a promis que la rue serait terminée avant l'hiver. Il n'a pas précisé lequel.",
+          "en": "Every spring, Montrealers eagerly await the return of a national symbol: the orange cone. Once again this year, the City did not disappoint us. On my street, there are now forty-three of them, roughly one per resident. You can never be too careful.\n\nThe work was officially supposed to last six weeks. We're now in week fourteen, but I'm sure the City has excellent reasons to take its time. After all, redoing a sidewalk is not like building a pyramid: it's much more complicated.\n\nI wanted to know more. The communications department explained to me, with an admirable smile, that the project “was progressing in accordance with the revised schedule”. I didn't know a schedule could be revised four times. I learned a lot.\n\nMeanwhile, local shopkeepers are having an enriching experience. The florist, for example, finally has time to read: his customers can no longer reach his door. The baker has discovered the joys of delivery, since nobody can find anywhere to park. As for cyclists, they're developing a sense of balance worthy of the best acrobats.\n\nI'd also like to thank the night crew, who were thoughtful enough to start breaking up concrete at six in the morning throughout the heat wave. Thanks to them, my neighbourhood has never been such an early riser.\n\nOf course, some grumblers will say that better planning would have avoided all this. My answer to them: be patient. The mayor promised the street would be finished before winter. He didn't say which one." },
+        { "id": "d2", "type": "mcq", "prompt": "Quel est le ton de cette chronique ?", "options": ["Ironique : l'auteur critique les travaux en faisant semblant de les approuver.", "Enthousiaste : l'auteur est ravi des travaux.", "Neutre : l'auteur informe les lecteurs sans donner son avis.", "Alarmiste : l'auteur annonce une catastrophe."], "optionsFr": true, "answer": 0,
+          "explain": "Praise for something obviously annoying ([[une expérience enrichissante]], [[la délicatesse de…]]) is **antiphrasis**: saying the opposite of what you mean. Option 2 is the literal (premier degré) reading." },
+        { "id": "d3", "type": "mcq", "prompt": "Que laisse entendre la dernière phrase ?", "options": ["Que les travaux pourraient encore durer très longtemps, peut-être plus d'un an.", "Que le maire ne connaît pas les saisons.", "Que la rue sera terminée en décembre.", "Que l'auteur fait confiance au maire."], "optionsFr": true, "answer": 0,
+          "explain": "[[Il n'a pas précisé lequel]] (*which winter*) is the **chute**, the punchline: the mayor did not necessarily mean the coming winter, so the work could drag on for another year or more." }
+      ] },
+    { "type": "understand", "title": "Three layers of implicit meaning",
+      "blocks": [
+        { "type": "explain", "title": "Posé, présupposé, sous-entendu",
+          "body": "A sentence can carry three kinds of information:\n\n- **Le posé**: what is said explicitly. [[Olivier est arrivé à l'heure.]]\n- **Le présupposé**: what the sentence **takes for granted**, built into the words themselves. [[Même Olivier est arrivé à l'heure]] → Olivier is usually late. A presupposition **survives negation and questions**: [[Est-ce que même Olivier est arrivé à l'heure ?]] still assumes he's usually late.\n- **Le sous-entendu**: what the speaker **suggests**, which you can only work out from the context. [[Tu as bien dormi ?]] means *you're late* only because it's 10:40 at the office. The speaker can always deny it: [[Mais je n'ai jamais dit ça !]]\n\nExam questions with [[L'auteur laisse entendre que…]], [[Que suggère…]], [[Que peut-on déduire…]] test exactly this." },
+        { "type": "table", "title": "Small words that trigger presuppositions",
+          "head": ["Trigger", "Example", "What is taken for granted"],
+          "rows": [
+            ["encore, de nouveau, re-", "Cette année encore, la Ville ne nous a pas déçus.", "It happens every year."],
+            ["enfin", "Le fleuriste a enfin le temps de lire.", "He wanted to for a long time (and is now idle)."],
+            ["même", "Même Olivier est arrivé à l'heure.", "Olivier is the least likely to be on time."],
+            ["ne… plus", "Ses clients ne peuvent plus atteindre sa porte.", "They could before."],
+            ["arrêter de, cesser de", "Il a cessé de répondre.", "He used to answer."],
+            ["regretter que, s'étonner que", "Je regrette que tu sois parti.", "You left."],
+            ["le retour de…", "le retour du cône orange", "The cone was here before and comes back."]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "table", "title": "How irony works on the page",
+          "head": ["Device", "Example from the column"],
+          "rows": [
+            ["Antiphrasis: saying the opposite", "les commerçants vivent une expérience enrichissante"],
+            ["Exaggeration", "quarante-trois cônes, soit à peu près un par habitant"],
+            ["Polite or formal words for something annoying", "l'équipe de nuit a eu la délicatesse de…"],
+            ["Quotation marks to keep a distance", "« avançait conformément à l'échéancier révisé »"],
+            ["Fake naivety", "je suis sûr que la Ville a d'excellentes raisons"],
+            ["Absurd logic", "refaire un trottoir, c'est plus compliqué qu'une pyramide"],
+            ["A punchline (la chute)", "Il n'a pas précisé lequel."]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "One device may be accidental. When **several** appear together, the text is written [[au second degré]]." },
+        { "type": "table", "title": "Naming the tone",
+          "head": ["Adjective", "The author…"],
+          "rows": [
+            ["ironique", "says the opposite of what they mean, with a light touch"],
+            ["sarcastique", "uses irony to hurt or mock"],
+            ["humoristique", "wants to make the reader laugh"],
+            ["indigné", "is outraged"],
+            ["alarmiste", "exaggerates dangers"],
+            ["nostalgique", "regrets the past"],
+            ["neutre / objectif", "informs without judging"],
+            ["polémique", "attacks a position aggressively"]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["sous-entendu", "presuppose", "ironie", "laisser-entendre", "lire-entre-les-lignes", "premier-degre", "second-degre", "ton", "alarmiste", "ca-promet", "chute"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Traps for English speakers",
+          "body": "- **Reading au premier degré.** In an ironic text, the literal meaning is the trap option. If a text “praises” traffic jams, the author is criticizing them.\n- **Ironic set phrases.** [[C'est malin !]] = *that was stupid*. [[Bravo !]] after a mistake = *well done… not*. [[Ça promet !]] = *this is going to go badly*. [[Elle est bonne, celle-là !]] = *that's a good one* (I don't believe you).\n- **[[enfin]] vs [[finalement]].** [[Il a enfin répondu]] carries impatience (*at last*). [[Il a finalement répondu]] just means *in the end*.\n- **[[sous-entendre]] vs [[sous-estimer]].** The first is *to imply*, the second *to underestimate*.\n- **Over-interpreting.** An inference must be supported by the text. If you can't point to the words that suggest it, it's probably not the answer." },
+        { "type": "deepdive", "kind": "canada", "title": "Irony, Québec style",
+          "body": "- Orange cones (**[[les cônes orange]]**) are a running joke in Montréal: the city's “unofficial symbol”. [[orange]] stays invariable here, like [[marron]].\n- **[[un échéancier]]** (a schedule, a timeline) is very common in Québec administrative French; in France you'll also see [[un calendrier]] or [[un planning]].\n- In casual Québec speech you'll hear ironic **[[C'est ben l'fun !]]** (*informal*: that's just great…) or **[[Ben voyons donc !]]** (*informal*: oh, come on, as if!). Recognize them, but don't use them in an exam." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: implicit-meaning questions",
+          "body": "TEF and TCF reading tests at B2–C1 ask questions such as [[Quel est le ton du texte ?]], [[Que sous-entend l'auteur quand il écrit… ?]], [[Que peut-on déduire de la phrase… ?]]\n\n**Method:**\n1. Find the exact sentence. Ask: is this meant literally? Look for two or more irony devices.\n2. For a presupposition, find the trigger word ([[encore]], [[enfin]], [[même]], [[ne… plus]]).\n3. Reject options that are **only** literal, and options that go beyond the text.\n\n**Practice (not an official item):** « *Le service client m'a rappelé, comme promis. Seulement neuf jours plus tard.* » What is the tone, and which words show it? (Answer: ironic; [[comme promis]] sounds positive, [[seulement]] + [[neuf jours]] says the opposite.)" }
+      ] },
+    { "type": "hear", "title": "Hear the irony",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Spoken irony often uses a flat, slightly slow voice, or exaggerated enthusiasm. Try both.",
+          "lines": [
+            { "fr": "Cette année encore, la Ville ne nous a pas déçus.", "en": "Once again this year, the City did not disappoint us." },
+            { "fr": "J'ignorais qu'un échéancier pouvait être révisé quatre fois.", "en": "I didn't know a schedule could be revised four times." },
+            { "fr": "Il pleut le premier jour des vacances. Ça promet !", "en": "It's raining on the first day of the holidays. That bodes well!", "tip": "Exaggerated, cheerful voice on Ça promet!" },
+            { "fr": "Le maire a promis que la rue serait terminée avant l'hiver. Il n'a pas précisé lequel.", "en": "The mayor promised the street would be finished before winter. He didn't say which one.", "tip": "A short pause before the punchline." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Super. Encore une réunion le vendredi à dix-sept heures. J'adore.", "en": "Great. Another meeting on Friday at 5 p.m. I love it.", "prompt": "How does the speaker feel about the meeting?", "options": ["Annoyed", "Delighted", "Indifferent"], "answer": 0,
+          "explain": "[[Super]] and [[J'adore]] are antiphrasis; [[Encore]] presupposes it has happened before, which makes it worse." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le propriétaire a enfin réparé le chauffage. Juste à temps pour le mois de mai.", "en": "The landlord finally fixed the heating. Just in time for May.", "prompt": "What does the speaker imply?", "options": ["The repair came far too late, after the cold season", "The landlord is very efficient", "It will be cold in May"], "answer": 0,
+          "explain": "[[enfin]] presupposes a long wait, and [[Juste à temps pour le mois de mai]] is ironic: winter is over." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. The last item brings back reported speech from unit 4.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "« Sofia ne travaille plus le samedi. » What does this sentence take for granted?", "options": ["Sofia used to work on Saturdays.", "Sofia has lost her job.", "Sofia works on Sundays."], "answer": 0, "explain": "[[ne… plus]] presupposes an earlier situation that has changed." },
+        { "id": "r2", "type": "match", "prompt": "Match each remark to what it implies.", "pairs": [["Tu as vu l'heure ?", "You're late."], ["C'est malin !", "That was a stupid thing to do."], ["Même le directeur est venu.", "Nobody expected the director."], ["Il a enfin rappelé.", "We waited a long time."], ["Ça promet !", "This is going to go badly."]] },
+        { "id": "r3", "type": "cloze", "text": "Dans sa chronique, l'auteur ___ entendre que la Ville planifie mal ses travaux.", "answers": [["laisse"]], "choices": ["laisse", "fait", "donne", "met"], "en": "In his column, the author implies that the City plans its roadwork badly.", "explain": "[[laisser entendre que]] = to imply. Its synonym is [[sous-entendre que]]." },
+        { "id": "r4", "type": "translate", "prompt": "One shouldn't take this article literally.", "accept": ["Il ne faut pas prendre cet article au premier degré.", "Il ne faut pas prendre cet article à la lettre.", "On ne doit pas prendre cet article au premier degré.", "Il ne faut pas prendre cet article au pied de la lettre.", "On ne doit pas prendre cet article à la lettre.", "On ne doit pas prendre cet article au pied de la lettre.", "Il ne faut pas prendre cet article au sens littéral."], "explain": "[[prendre au premier degré]] = to take literally; an ironic text is written [[au second degré]]." },
+        { "id": "r5", "type": "mcq", "prompt": "Un article annonce que « la ville sera bientôt paralysée » à cause de trois jours de neige. Quel est le ton ?", "options": ["alarmiste", "nostalgique", "neutre", "humoristique"], "optionsFr": true, "answer": 0, "explain": "Exaggerating a danger is [[alarmiste]]." },
+        { "id": "r6", "type": "mcq", "prompt": "« Le nouveau logiciel est formidable : il ne plante que trois fois par jour. » What is the writer doing?", "options": ["Criticizing the software ironically", "Praising the software sincerely", "Reporting a neutral fact", "Asking for advice"], "answer": 0, "explain": "[[formidable]] is contradicted by [[ne… que trois fois par jour]]: praise + a bad fact = irony. ([[planter]] = to crash, for software.)" },
+        { "id": "r7", "type": "reorder", "prompt": "You have to read between the lines.", "accept": ["Il faut lire entre les lignes"], "extra": ["sur", "des"], "explain": "[[lire entre les lignes]]: same image as in English." },
+        { "id": "r8", "type": "dictation", "fr": "Cette année encore, la Ville ne nous a pas déçus.", "accept": [], "explain": "[[déçus]] agrees with the direct object [[nous]] (the Montrealers), placed before [[avoir]]." },
+        { "id": "r9", "type": "cloze", "text": "Le maire a promis que la rue ___ terminée avant l'hiver. (être)", "answers": [["serait"]], "en": "The mayor promised that the street would be finished before winter.", "explain": "Reported speech in the past (unit 4): a future ([[sera]]) becomes the conditional: [[serait]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a short ironic paragraph for a neighbourhood blog about an everyday annoyance (a late bus, a noisy neighbour, a never-ending renovation, a customer service line). Use at least three irony devices and end with a punchline.", "promptFr": "Écrivez un court paragraphe ironique sur un petit problème du quotidien.",
+          "wordRange": [80, 130],
+          "checklist": ["Antiphrasis: praise for something annoying", "Exaggeration", "Fake politeness or fake naivety (je suis sûr que…, avoir la délicatesse de…)", "A presupposition trigger: encore, enfin, même, ne… plus", "A punchline (une chute)"],
+          "models": [ { "label": "Model answer", "fr": "Je tiens à remercier la société de transport pour l'autobus 55. Grâce à lui, j'ai enfin appris la patience. Ce matin encore, il avait vingt minutes de retard, ce qui m'a permis d'admirer longuement le lever du soleil par moins trente. Je suis sûre qu'il y a d'excellentes raisons à ces retards : la neige, sans doute, phénomène rarissime au Québec. Un employé m'a d'ailleurs assuré, très aimablement, que le service était « temporairement perturbé ». Depuis trois ans. Bref, je ne me plains pas : je vais au travail à pied, maintenant. C'est beaucoup plus rapide.", "en": "I'd like to thank the transit company for bus 55. Thanks to it, I've finally learned patience. Once again this morning, it was twenty minutes late, which allowed me to admire the sunrise at length at minus thirty. I'm sure there are excellent reasons for these delays: snow, no doubt, an extremely rare phenomenon in Québec. An employee very kindly assured me that service was “temporarily disrupted”. For three years. Anyway, I'm not complaining: I walk to work now. It's much faster." } ] },
+        { "id": "s1", "type": "speak", "prompt": "Explain the Alex Tremblay column to a friend who took it literally. Say what the author really thinks and point to three clues.", "seconds": 60,
+          "checklist": ["Ce n'est pas à prendre au premier degré", "L'auteur laisse entendre que…", "Three clues from the text", "The punchline and what it means"],
+          "models": [ { "label": "Model answer", "fr": "Non, attends, il ne faut pas prendre cette chronique au premier degré ! L'auteur ne remercie pas vraiment la Ville : il critique les travaux. Par exemple, il dit que les commerçants vivent une expérience enrichissante, alors qu'en fait, ils n'ont plus de clients. Il met aussi entre guillemets la phrase du service des communications, pour montrer qu'il n'y croit pas. Et la chute, c'est quand il dit que le maire n'a pas précisé quel hiver : il laisse entendre que les travaux vont durer encore très longtemps.", "en": "No, wait, you mustn't take this column literally! The author isn't really thanking the City: he's criticizing the roadwork. For example, he says shopkeepers are having an enriching experience, when in fact they have no more customers. He also puts the communications department's sentence in quotation marks, to show he doesn't believe it. And the punchline is when he says the mayor didn't say which winter: he's implying the work will go on for a very long time." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Tell apart what is said, what is **presupposed** ([[encore]], [[enfin]], [[même]], [[ne… plus]], [[arrêter de]]) and what is **implied** (a [[sous-entendu]])\n- Recognize irony: antiphrasis, exaggeration, distancing quotation marks, fake naivety, a [[chute]]\n- Name the tone: [[ironique]], [[sarcastique]], [[alarmiste]], [[indigné]], [[neutre]]…\n- Avoid the literal ([[premier degré]]) trap in exam questions",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed a timeline inconsistency in the dialogue (minutes sent before the 9 a.m. meeting ended): Karim now arrives at 10:40. Made the d3 answer clearly inferable; clarified one presupposition-trigger row; added accepted answers to r4." }
+}

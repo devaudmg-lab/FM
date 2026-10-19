@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-01-03",
+  "level": "a1",
+  "unit": "a1-01",
+  "title": "Key vowel sounds",
+  "goal": "Hear and say the French u and ou, é and è, and the three nasal vowels, so that tu and tout, vin and vent stop sounding the same.",
+  "minutes": 13,
+  "items": [
+    {
+      "id": "tout",
+      "kind": "vocab",
+      "fr": "tout",
+      "en": "all / everything",
+      "pos": "pronoun",
+      "example": {
+        "fr": "C'est tout, merci.",
+        "en": "That's all, thanks."
+      },
+      "note": "The ou sound, like English “too”. The t is silent."
+    },
+    {
+      "id": "rue",
+      "kind": "vocab",
+      "fr": "rue",
+      "article": "la",
+      "gender": "f",
+      "en": "street",
+      "pos": "noun",
+      "accept": [
+        "rue",
+        "une rue"
+      ],
+      "example": {
+        "fr": "la rue Sainte-Catherine",
+        "en": "Sainte-Catherine Street"
+      },
+      "note": "The French u sound. Don't say “roo”: that is roue (wheel)."
+    },
+    {
+      "id": "cafe",
+      "kind": "vocab",
+      "fr": "café",
+      "article": "le",
+      "gender": "m",
+      "en": "coffee; a café",
+      "pos": "noun",
+      "accept": [
+        "café",
+        "un café"
+      ],
+      "example": {
+        "fr": "Un café, s'il vous plaît.",
+        "en": "A coffee, please."
+      }
+    },
+    {
+      "id": "pere",
+      "kind": "vocab",
+      "fr": "père",
+      "article": "le",
+      "gender": "m",
+      "en": "father",
+      "pos": "noun",
+      "accept": [
+        "père",
+        "un père"
+      ]
+    },
+    {
+      "id": "mere",
+      "kind": "vocab",
+      "fr": "mère",
+      "article": "la",
+      "gender": "f",
+      "en": "mother",
+      "pos": "noun",
+      "accept": [
+        "mère",
+        "une mère"
+      ]
+    },
+    {
+      "id": "tres",
+      "kind": "vocab",
+      "fr": "très",
+      "en": "very",
+      "pos": "adverb",
+      "example": {
+        "fr": "Très bien, merci.",
+        "en": "Very well, thank you."
+      }
+    },
+    {
+      "id": "enfant",
+      "kind": "vocab",
+      "fr": "enfant",
+      "article": "l'",
+      "gender": "m",
+      "en": "child",
+      "pos": "noun",
+      "accept": [
+        "enfant",
+        "un enfant",
+        "une enfant"
+      ],
+      "note": "Both vowels are the an/en nasal sound. Un enfant (boy), une enfant (girl)."
+    },
+    {
+      "id": "pain",
+      "kind": "vocab",
+      "fr": "pain",
+      "article": "le",
+      "gender": "m",
+      "en": "bread",
+      "pos": "noun",
+      "accept": [
+        "pain",
+        "du pain"
+      ]
+    },
+    {
+      "id": "vin",
+      "kind": "vocab",
+      "fr": "vin",
+      "article": "le",
+      "gender": "m",
+      "en": "wine",
+      "pos": "noun",
+      "accept": [
+        "vin",
+        "du vin"
+      ]
+    },
+    {
+      "id": "bon",
+      "kind": "vocab",
+      "fr": "bon",
+      "fem": "bonne",
+      "en": "good (tasty, nice)",
+      "pos": "adjective",
+      "accept": [
+        "bonne"
+      ],
+      "example": {
+        "fr": "Le pain est très bon.",
+        "en": "The bread is very good."
+      },
+      "note": "bon has a nasal vowel; in bonne you hear the n."
+    },
+    {
+      "id": "oui",
+      "kind": "vocab",
+      "fr": "oui",
+      "en": "yes",
+      "pos": "adverb"
+    },
+    {
+      "id": "non",
+      "kind": "vocab",
+      "fr": "non",
+      "en": "no",
+      "pos": "adverb",
+      "example": {
+        "fr": "Non, merci.",
+        "en": "No, thank you."
+      }
+    },
+    {
+      "id": "g-vowels",
+      "kind": "grammar",
+      "fr": "u / ou · é / è · an, on, in",
+      "en": "key French vowel sounds and their spellings",
+      "drills": [
+        {
+          "type": "mcq",
+          "prompt": "Which word has the French u sound (say “ee”, then round your lips)?",
+          "options": [
+            "rue",
+            "roue",
+            "vous"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "The letter u alone makes the rounded “ee” sound. The spelling ou sounds like English “oo”."
+        },
+        {
+          "type": "mcq",
+          "prompt": "In which word is the n NOT pronounced?",
+          "options": [
+            "bon",
+            "bonne",
+            "une"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "In bon, on is a nasal vowel. When a vowel follows (bonne, une), you hear the n."
+        },
+        {
+          "type": "cloze",
+          "text": "Bonj___r !",
+          "answers": [
+            [
+              "ou"
+            ]
+          ],
+          "choices": [
+            "ou",
+            "u",
+            "o"
+          ],
+          "en": "Hello!",
+          "explain": "The “oo” sound is spelled ou."
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Listen for the vowels",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "At a café in Québec City",
+          "context": "Sofia and Raj order. Olivier is the waiter.",
+          "lines": [
+            {
+              "speaker": "Olivier",
+              "fr": "Bonjour ! Vous désirez ?",
+              "en": "Hello! What would you like?"
+            },
+            {
+              "speaker": "Sofia",
+              "fr": "Un café, s'il vous plaît.",
+              "en": "A coffee, please."
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Pour moi, un thé et du pain.",
+              "en": "For me, a tea and some bread."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Très bien. C'est tout ?",
+              "en": "Very good. Is that all?"
+            },
+            {
+              "speaker": "Sofia",
+              "fr": "Oui, c'est tout. Merci !",
+              "en": "Yes, that's all. Thank you!"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Bienvenue ! Bonne journée !",
+              "en": "You're welcome! Have a nice day!"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Listen again and hunt for the sounds of this lesson: **ou** in [[vous]], [[pour]], [[tout]]; **u** in [[du]]; **é** in [[désirez]], [[café]], [[thé]]; **è** in [[très]]; nasal vowels in [[bonjour]], [[un]], [[pain]]."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Five sound contrasts that matter",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "1. u and ou",
+          "body": "- **ou** sounds like the *oo* in English “too”: [[vous]], [[tout]], [[bonjour]].\n- **u** has no English equivalent. Say “ee”, keep your tongue exactly there, and **round your lips** as if to whistle. That is [[tu]], [[rue]], [[salut]].\n\nThis difference changes the meaning, so it is worth the effort: [[tu]] means *you*, [[tout]] means *all*."
+        },
+        {
+          "type": "table",
+          "title": "u or ou? Minimal pairs",
+          "head": [
+            "u",
+            "meaning",
+            "ou",
+            "meaning"
+          ],
+          "rows": [
+            [
+              "tu",
+              "you (friend)",
+              "tout",
+              "all"
+            ],
+            [
+              "vu",
+              "seen",
+              "vous",
+              "you (formal)"
+            ],
+            [
+              "rue",
+              "street",
+              "roue",
+              "wheel"
+            ],
+            [
+              "du",
+              "some",
+              "doux",
+              "soft"
+            ]
+          ],
+          "frCols": [
+            0,
+            2
+          ],
+          "sayCol": true,
+          "note": "Tap the speaker: you hear the u word, then the ou word."
+        },
+        {
+          "type": "explain",
+          "title": "2. é and è",
+          "body": "- **é** is a tight, smiling sound, like “ay” in *say* but shorter, with no glide at the end: [[café]], [[thé]] (tea), [[et]] (and). The ending **-er** often sounds the same, as in [[parler]] (to speak).\n- **è** is more open, like the *e* in *bet*: [[très]], [[mère]], [[père]]. The letters **ê** ([[fête]], party) and often **ai** ([[s'il vous plaît]]) make this sound too.\n\nA clear pair is [[les]] (the, plural) / [[lait]] (milk). You may also see [[et]] (and) / [[est]] (is): many speakers say et with é and est with è, but many others say them the same way. Speakers often blend é and è in some words, so don't worry too much; just make **é** clear and tight."
+        },
+        {
+          "type": "explain",
+          "title": "3. The nasal vowels",
+          "body": "A **nasal vowel** is a vowel said with air going through your nose. When a vowel is followed by **n** or **m** at the end of a word (or before another consonant), the n is **not pronounced**: it just makes the vowel nasal.\n\n- **an / en / am / em**: an open “ah” through the nose: [[enfant]] (child), [[France]], [[maman]] (mom).\n- **on / om**: an “oh” through the nose: [[bonjour]], [[non]], [[nom]].\n- **in / ain / un**: a flat “a” (as in *cat*) through the nose: [[vin]] (wine), [[pain]] (bread), [[bien]] (well), [[un]] (one, a). Many speakers in France say [[un]] exactly like [[in]]; in Québec, [[un]] usually keeps its own, rounder sound (see the Canada note).\n\nIf a vowel comes right after the n, or the n is doubled, the vowel is **not** nasal and you hear the n: [[bon]] → [[bonne]], [[un]] → [[une]]."
+        },
+        {
+          "type": "pattern",
+          "title": "Three nasal vowels side by side",
+          "pattern": "an/en · on · in/un",
+          "note": "Say each set slowly. Only the vowel changes; there is never an n sound at the end.",
+          "examples": [
+            {
+              "fr": "vent, vont, vin",
+              "en": "wind, (they) go, wine"
+            },
+            {
+              "fr": "an, on, un",
+              "en": "year, we (informal), one"
+            },
+            {
+              "fr": "bon, bonne",
+              "en": "good (m), good (f): the n appears in bonne"
+            },
+            {
+              "fr": "un, une",
+              "en": "a (m), a (f): the n appears in une"
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Words in this lesson",
+          "itemIds": [
+            "tout",
+            "rue",
+            "cafe",
+            "pere",
+            "mere",
+            "tres",
+            "enfant",
+            "pain",
+            "vin",
+            "bon",
+            "oui",
+            "non"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "pronunciation",
+          "title": "Mouth tricks",
+          "body": "- **French u:** whistle position. Say “eeee”, then slowly push your lips forward into a small circle without moving your tongue. If it starts to sound like “oo”, your tongue moved back.\n- **é:** smile slightly and keep your jaw still. English speakers add a little “y” at the end (“kaf-ay-ee”); stop the sound cleanly: [[café]].\n- **Nasals:** hold your nose gently and say [[bon]]. You should feel a buzz. Now say it again **without** touching the tongue to the roof of your mouth: that is the trick to avoid an English n.\n- **oui** is one quick syllable: “wee”.",
+          "examples": [
+            {
+              "fr": "tu, tout",
+              "en": "you, all"
+            },
+            {
+              "fr": "bon, bonne",
+              "en": "good (m), good (f)"
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Saying “oo” for u:** [[tu]] becomes [[tout]] and [[vu]] becomes [[vous]]. Keep the tongue forward for u.\n- **Adding an n:** [[bon]] is not “bone” or “bon-n”. Don't touch your tongue to your teeth.\n- **Mixing un and une:** [[un]] has a nasal vowel, [[une]] has the u sound plus a clear n. This tells the listener if a word is masculine or feminine.\n- **Pronouncing every letter:** in [[pain]], [[vin]], [[tout]], the final letters are silent. (More in lesson 4.)"
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "body": "Québec French has a few vowel habits that surprise newcomers:\n\n- Before **i** and **u**, the letters **t** and **d** often sound like *ts* and *dz*: [[tu]] sounds like “tsu”, [[du]] like “dzu”, [[lundi]] (Monday) like “lun-dzi”. This is normal and correct in Québec.\n- In Québec, [[un]] and [[in]] usually still sound different. In much of France, many people pronounce them the same way.\n- Some vowels are longer, and can “glide” a little, in words like [[père]] or [[fête]].\n\nYou don't need to copy these features, but knowing them will help you understand people around you.",
+          "examples": [
+            {
+              "fr": "Tu es là ?",
+              "en": "Are you there? (in Québec: “tsu”)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear the difference",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "u and ou",
+          "note": "Listen, then repeat each pair. Exaggerate the difference at first.",
+          "lines": [
+            {
+              "fr": "tu, tout",
+              "en": "you, all",
+              "tip": "tu: tongue forward, lips round. tout: tongue back."
+            },
+            {
+              "fr": "vu, vous",
+              "en": "seen, you (formal)"
+            },
+            {
+              "fr": "rue, roue",
+              "en": "street, wheel"
+            },
+            {
+              "fr": "Salut ! Bonjour !",
+              "en": "Hi! Hello!",
+              "tip": "salut has u, bonjour has ou."
+            }
+          ]
+        },
+        {
+          "type": "repeat",
+          "title": "é and è",
+          "lines": [
+            {
+              "fr": "café, thé",
+              "en": "coffee, tea",
+              "tip": "Tight smile, no glide at the end."
+            },
+            {
+              "fr": "très, mère, père",
+              "en": "very, mother, father",
+              "tip": "Open your mouth a little more."
+            },
+            {
+              "fr": "les, lait",
+              "en": "the (plural), milk",
+              "tip": "les: tight é. lait: open è."
+            }
+          ]
+        },
+        {
+          "type": "repeat",
+          "title": "Nasal vowels",
+          "lines": [
+            {
+              "fr": "vent, vont, vin",
+              "en": "wind, (they) go, wine",
+              "tip": "No n sound at the end of any of them."
+            },
+            {
+              "fr": "un, une",
+              "en": "a (m), a (f)",
+              "tip": "You hear the n only in une."
+            },
+            {
+              "fr": "bon, bonne",
+              "en": "good (m), good (f)"
+            },
+            {
+              "fr": "Un enfant, du pain, du vin.",
+              "en": "A child, some bread, some wine."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "vous",
+          "en": "you (formal)",
+          "prompt": "Which word do you hear?",
+          "options": [
+            "vous",
+            "vu",
+            "va"
+          ],
+          "answer": 0,
+          "explain": "[[vous]] has the ou sound, like English “too”."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "rue",
+          "en": "street",
+          "prompt": "Which word do you hear?",
+          "options": [
+            "rue (street)",
+            "roue (wheel)",
+            "riz (rice)"
+          ],
+          "answer": 0,
+          "explain": "[[rue]] has the rounded u sound: tongue forward."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "vin",
+          "en": "wine",
+          "prompt": "Which word do you hear?",
+          "options": [
+            "vin (wine)",
+            "vent (wind)",
+            "vont (go)"
+          ],
+          "answer": 0,
+          "explain": "[[vin]] has the flat in sound, like a nasal “a” in *cat*."
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "une",
+          "en": "a (feminine)",
+          "prompt": "Which word do you hear?",
+          "options": [
+            "une",
+            "un",
+            "on"
+          ],
+          "answer": 0,
+          "explain": "You hear a clear n at the end: [[une]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Listen carefully. Use headphones if you can.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "listen-mcq",
+          "fr": "tout",
+          "en": "all",
+          "prompt": "Which word do you hear?",
+          "options": [
+            "tout (all)",
+            "tu (you)",
+            "toi (you, after et)"
+          ],
+          "answer": 0,
+          "explain": "[[tout]] has the ou sound. [[tu]] has the rounded u."
+        },
+        {
+          "id": "r2",
+          "type": "listen-mcq",
+          "fr": "vent",
+          "en": "wind",
+          "prompt": "Which word do you hear?",
+          "options": [
+            "vent (wind)",
+            "vont (go)",
+            "vin (wine)"
+          ],
+          "answer": 0,
+          "explain": "[[vent]]: the open an/en nasal, like “ah” through the nose."
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "la r___e",
+          "answers": [
+            [
+              "u"
+            ]
+          ],
+          "choices": [
+            "u",
+            "ou"
+          ],
+          "en": "the street",
+          "explain": "rue (street) has the u sound; roue (wheel) has ou."
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Très bien, merci. Et v___s ?",
+          "answers": [
+            [
+              "ou"
+            ]
+          ],
+          "choices": [
+            "ou",
+            "u"
+          ],
+          "en": "Very well, thanks. And you? (formal)",
+          "explain": "vous is spelled with ou. vu (with u) means “seen”."
+        },
+        {
+          "id": "r5",
+          "type": "mcq",
+          "prompt": "In which word do you hear an n sound?",
+          "options": [
+            "une",
+            "un",
+            "bon",
+            "vin"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "The n is heard only when a vowel follows it: une. In un, bon and vin, the n just makes the vowel nasal."
+        },
+        {
+          "id": "r6",
+          "type": "match",
+          "prompt": "Match the French and the English.",
+          "pairs": [
+            [
+              "tu",
+              "you (friend)"
+            ],
+            [
+              "tout",
+              "all"
+            ],
+            [
+              "rue",
+              "street"
+            ],
+            [
+              "vin",
+              "wine"
+            ],
+            [
+              "pain",
+              "bread"
+            ],
+            [
+              "enfant",
+              "child"
+            ]
+          ]
+        },
+        {
+          "id": "r7",
+          "type": "dictation",
+          "fr": "Un café, s'il vous plaît.",
+          "accept": [
+            "Un café s'il vous plaît"
+          ],
+          "explain": "[[café]] ends with é; [[plaît]] has î and a silent t."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "Le père et la mère.",
+          "accept": [
+            "Le père et la mère"
+          ],
+          "explain": "[[père]] and [[mère]] have è (open sound); [[et]] has the tight é sound."
+        },
+        {
+          "id": "r9",
+          "type": "translate",
+          "prompt": "No, thank you.",
+          "accept": [
+            "Non, merci.",
+            "Non merci"
+          ],
+          "explain": "non: nasal on, no n sound at the end."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "bonne",
+          "en": "good (feminine)",
+          "prompt": "Which word do you hear?",
+          "options": [
+            "bonne",
+            "bon",
+            "bien"
+          ],
+          "answer": 0,
+          "explain": "You hear the n: [[bonne]]. In [[bon]], the n is silent."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "You are at a café. Greet the server and order a coffee and some bread, politely. When asked « C'est tout ? », say yes, that's all, and thank them. Focus on clear u, ou, é and nasal vowels.",
+          "seconds": 25,
+          "checklist": [
+            "Bonjour (nasal on, ou)",
+            "Un café (nasal un, tight é)",
+            "du pain (u, nasal ain)",
+            "s'il vous plaît (ou)",
+            "Oui, c'est tout. Merci !"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour ! Un café et du pain, s'il vous plaît. … Oui, c'est tout. Merci beaucoup !",
+              "en": "Hello! A coffee and some bread, please. … Yes, that's all. Thank you very much!"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Make your own sound map: write two words from this unit for each sound: u, ou, é, è, an/en, on, in/un.",
+          "wordRange": [
+            12,
+            40
+          ],
+          "checklist": [
+            "u and ou",
+            "é and è",
+            "an/en, on and in/un",
+            "Accents written correctly"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "u : tu, rue. ou : vous, bonjour. é : café, et. è : très, mère. an/en : enfant, vent. on : bon, non. in/un : vin, pain.",
+              "en": "u: you, street. ou: you (formal), hello. é: coffee, and. è: very, mother. an/en: child, wind. on: good, no. in/un: wine, bread."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Tell **u** ([[tu, rue]]) from **ou** ([[tout, vous]])\n- Make a tight **é** ([[café]]) and an open **è** ([[très, mère]])\n- Say the three nasal vowels without an n: [[vent, vont, vin]]\n- Hear when the n comes back: [[bon / bonne]], [[un / une]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Made les/lait the main é/è pair (also in the repeat drill) and hedged et/est. Added a hedge that un and in merge for many speakers in France but usually stay distinct in Québec."
+  }
+}

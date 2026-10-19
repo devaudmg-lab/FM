@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-10-06",
+  "level": "b1",
+  "unit": "b1-10",
+  "title": "Workshop: Speak at length",
+  "goal": "Get extra practice following and giving structured talks: announcing a plan, keeping going with natural fillers, describing a scene and handling follow-up questions, in new situations.",
+  "minutes": 20,
+  "items": [
+    { "id": "public", "kind": "vocab", "fr": "public", "article": "le", "gender": "m", "en": "the audience (people listening)", "pos": "noun",
+      "accept": ["un public"],
+      "example": { "fr": "Le public a posé beaucoup de questions.", "en": "The audience asked lots of questions." },
+      "note": "Singular in French: le public est nombreux (the audience is large)." },
+    { "id": "trac", "kind": "vocab", "fr": "trac", "article": "le", "gender": "m", "en": "stage fright, nerves (before speaking)", "pos": "noun",
+      "example": { "fr": "J'ai toujours le trac avant de parler en public.", "en": "I always get nervous before speaking in public." },
+      "note": "Avoir le trac = to have stage fright." },
+    { "id": "perdre-le-fil", "kind": "phrase", "fr": "perdre le fil", "en": "to lose your train of thought",
+      "example": { "fr": "Excusez-moi, j'ai perdu le fil.", "en": "Sorry, I've lost my train of thought." } },
+    { "id": "ou-en-etais-je", "kind": "phrase", "fr": "Où en étais-je ?", "en": "Where was I?",
+      "accept": ["J'en étais où ?"],
+      "example": { "fr": "Bon, où en étais-je ? Ah oui, le logement.", "en": "Right, where was I? Oh yes, housing." },
+      "note": "Formal inversion. In everyday speech: J'en étais où ?" },
+    { "id": "je-reviendrai", "kind": "phrase", "fr": "Je reviendrai là-dessus.", "en": "I'll come back to that.",
+      "example": { "fr": "C'est une bonne question, je reviendrai là-dessus à la fin.", "en": "That's a good question, I'll come back to it at the end." } },
+    { "id": "comme-vous-le-savez", "kind": "phrase", "fr": "Comme vous le savez, …", "en": "As you know, … (to a group or formal)",
+            "example": { "fr": "Comme vous le savez, l'hiver est long ici.", "en": "As you know, winter is long here." },
+      "note": "Keep the le: comme vous le savez (not comme vous savez)." },
+    { "id": "a-vrai-dire", "kind": "phrase", "fr": "à vrai dire", "en": "to tell the truth",
+      "example": { "fr": "À vrai dire, je n'étais pas prête.", "en": "To tell the truth, I wasn't ready. (woman speaking)" } },
+    { "id": "pour-ainsi-dire", "kind": "phrase", "fr": "pour ainsi dire", "en": "so to speak",
+      "example": { "fr": "C'était, pour ainsi dire, ma deuxième naissance.", "en": "It was, so to speak, my second birth." } },
+    { "id": "illustrer", "kind": "vocab", "fr": "illustrer", "en": "to illustrate (with an example)", "pos": "verb",
+      "example": { "fr": "Je vais illustrer cette idée avec un exemple.", "en": "I'm going to illustrate this idea with an example." } },
+    { "id": "improviser", "kind": "vocab", "fr": "improviser", "en": "to improvise, to speak without preparing", "pos": "verb",
+      "example": { "fr": "Je n'ai pas préparé de texte : je vais improviser.", "en": "I haven't prepared a text: I'm going to improvise." } },
+    { "id": "temoignage", "kind": "vocab", "fr": "témoignage", "article": "un", "gender": "m", "en": "a personal account, a testimony", "pos": "noun",
+      "accept": ["le témoignage"],
+      "example": { "fr": "Son témoignage a beaucoup touché le public.", "en": "Her personal account really moved the audience." } }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A talk at the library",
+      "intro": "At a library evening called « Parcours de nouveaux arrivants », Sofia gives a short talk, then answers questions. Notice her **plan**, her **fillers** (bon, en fait, disons) and how she **handles the questions**.",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "« Apprendre le français à quarante ans »",
+          "context": "Gabrielle Côté, a library staff member in Québec City, introduces Sofia, who has lived in Québec City for three years.",
+          "lines": [
+            { "speaker": "Gabrielle", "fr": "Bonsoir à tous. Ce soir, Sofia va nous présenter son témoignage. Sofia, à vous la parole !", "en": "Good evening, everyone. Tonight, Sofia is going to share her personal account with us. Sofia, over to you!" },
+            { "speaker": "Sofia", "fr": "Merci, Gabrielle. Bon, à vrai dire, j'ai un peu le trac ! Je vais vous parler de mon expérience : apprendre le français à quarante ans. Je voudrais aborder trois points : pourquoi j'ai commencé, ce qui a été difficile, et ce qui m'a aidée.", "en": "Thank you, Gabrielle. Well, to tell the truth, I'm a bit nervous! I'm going to talk to you about my experience: learning French at forty. I'd like to cover three points: why I started, what was difficult, and what helped me." },
+            { "speaker": "Sofia", "fr": "Je commencerai par mes raisons. Quand je suis arrivée de Guadalajara, je ne parlais pas un mot de français. Comme vous le savez, ici, sans le français, c'est très difficile de trouver un emploi dans son domaine.", "en": "I'll start with my reasons. When I arrived from Guadalajara, I didn't speak a word of French. As you know, here, without French, it's very hard to find a job in your field." },
+            { "speaker": "Sofia", "fr": "Passons maintenant aux difficultés. En fait, la grammaire, ce n'était pas le plus dur. Le plus dur, c'était, disons… comprendre les gens au téléphone. Je vais illustrer ça avec un exemple : la première fois que j'ai appelé la clinique, j'ai compris, euh… peut-être un mot sur dix !", "en": "Let's now move on to the difficulties. Actually, grammar wasn't the hardest part. The hardest part was, let's say… understanding people on the phone. I'll illustrate that with an example: the first time I called the clinic, I understood, uh… maybe one word in ten!" },
+            { "speaker": "Sofia", "fr": "J'en viens à mon dernier point : ce qui m'a aidée. Quant aux cours, ils étaient utiles, mais c'est surtout le bénévolat qui m'a fait progresser. Pour résumer : j'ai commencé par nécessité, j'ai eu des difficultés, mais aujourd'hui, le français est devenu, pour ainsi dire, ma deuxième maison. Merci de votre attention.", "en": "That brings me to my last point: what helped me. As for the classes, they were useful, but it's above all volunteering that made me progress. To sum up: I started out of necessity, I had difficulties, but today French has become, so to speak, my second home. Thank you for your attention." },
+            { "speaker": "Gabrielle", "fr": "Merci beaucoup, Sofia ! Le public a sûrement des questions. Oui, monsieur ?", "en": "Thank you very much, Sofia! The audience surely has questions. Yes, sir?" },
+            { "speaker": "Olivier", "fr": "Bonsoir. Vous avez parlé du bénévolat. Qu'est-ce que vous faisiez exactement ?", "en": "Good evening. You talked about volunteering. What exactly did you do?" },
+            { "speaker": "Sofia", "fr": "C'est une bonne question. Je servais des repas dans un centre communautaire, deux soirs par semaine. Ce que je veux dire, c'est que là-bas, j'étais obligée de parler français, et sans stress.", "en": "That's a good question. I served meals at a community centre, two evenings a week. What I mean is that there, I had to speak French, and without stress." },
+            { "speaker": "Amira", "fr": "Et vous pensez qu'on peut vraiment devenir bilingue quand on commence tard ?", "en": "And do you think you can really become bilingual when you start late?" },
+            { "speaker": "Sofia", "fr": "Si je comprends bien, vous voulez savoir si l'âge est un obstacle ? Euh… c'est une question difficile. Je n'y ai jamais vraiment pensé, mais je dirais que non. On garde peut-être un accent, mais ce n'est pas grave. Comme je l'ai dit tout à l'heure, l'important, c'est de pratiquer tous les jours.", "en": "If I understand correctly, you want to know if age is an obstacle? Uh… that's a difficult question. I've never really thought about it, but I'd say no. You may keep an accent, but that doesn't matter. As I said earlier, the important thing is to practise every day." }
+          ]
+        },
+        {
+          "id": "d1", "type": "mcq",
+          "prompt": "What are the three parts of Sofia's talk?",
+          "options": ["Her reasons, the difficulties, what helped her", "Her childhood, her job, her family", "Grammar, vocabulary, pronunciation", "Mexico, Québec, her future plans"],
+          "answer": 0,
+          "explain": "She announces them at the start: [[pourquoi j'ai commencé, ce qui a été difficile, et ce qui m'a aidée]]."
+        },
+        {
+          "id": "d2", "type": "mcq",
+          "prompt": "According to Sofia, what was the hardest part?",
+          "options": ["Understanding people on the phone", "Grammar", "Finding a French class", "Writing emails"],
+          "answer": 0,
+          "explain": "[[En fait, la grammaire, ce n'était pas le plus dur. Le plus dur, c'était… comprendre les gens au téléphone.]]"
+        },
+        {
+          "id": "d3", "type": "mcq",
+          "prompt": "What does Sofia do first when Amira asks her question?",
+          "options": ["She reformulates the question to check it.", "She asks Amira to repeat.", "She refuses to answer.", "She answers with a number."],
+          "answer": 0,
+          "explain": "[[Si je comprends bien, vous voulez savoir si…]]: she reformulates, buys time ([[Euh… c'est une question difficile]]), then answers."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit at a glance, and new words",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit 10 at a glance",
+          "head": ["Moment", "Key phrases"],
+          "rows": [
+            ["Announce the plan", "Je vais vous parler de… · Je voudrais aborder trois points."],
+            ["Move on", "Passons maintenant à… · J'en viens à… · Quant à…"],
+            ["Keep going", "bon · en fait · disons · comment dire · c'est-à-dire"],
+            ["Conclude", "Pour résumer, … · Merci de votre attention."],
+            ["Handle questions", "Si je comprends bien, vous voulez savoir si… · Qu'entendez-vous par… ?"],
+            ["Describe a scene", "Il s'agit de… · au premier plan · on dirait que…"]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "Why Sofia's talk is easy to follow",
+          "body": "She tells the audience **where she's going** (three points), **where she is** ([[Passons maintenant à…]], [[J'en viens à mon dernier point]]) and **where she's been** ([[Pour résumer]]). Each point has **one concrete example**.\n\nShe also sounds natural: one filler per idea ([[bon]], [[en fait]], [[disons]]), never a long silence. In the questions, she **reformulates** before answering and links back to her talk with [[Comme je l'ai dit tout à l'heure]]."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for speaking at length",
+          "itemIds": ["public", "trac", "perdre-le-fil", "ou-en-etais-je", "je-reviendrai", "comme-vous-le-savez", "a-vrai-dire", "pour-ainsi-dire", "illustrer", "improviser", "temoignage"]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listening practice",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A tour guide describes a painting",
+          "context": "At the Beaverbrook Art Gallery in Fredericton, a guide describes a winter painting to a group.",
+          "fr": "Alors, approchez-vous… Voilà. Il s'agit d'un tableau qui représente une scène d'hiver à la campagne, au début du vingtième siècle. Au premier plan, on voit deux enfants qui sont en train de glisser sur une petite colline. À l'arrière-plan, il y a une ferme, et de la fumée sort de la cheminée. Au centre, une femme marche avec un panier. Elle a l'air fatiguée, mais, comment dire… plutôt contente. On dirait qu'elle rentre du marché. Ce qui est intéressant, c'est la lumière : le soleil se couche, et la neige devient presque rose. Bon, si vous avez des questions, je reviendrai là-dessus à la fin de la visite.",
+          "en": "So, come closer… There. It's a painting that shows a winter scene in the countryside, at the beginning of the twentieth century. In the foreground, you can see two children who are sliding down a small hill. In the background, there's a farm, and smoke is coming out of the chimney. In the middle, a woman is walking with a basket. She looks tired but, how can I put it… rather happy. It looks like she's coming back from the market. What's interesting is the light: the sun is setting, and the snow is becoming almost pink. Right, if you have questions, I'll come back to that at the end of the tour."
+        },
+        {
+          "id": "h1", "type": "listen-mcq",
+          "fr": "Au premier plan, on voit deux enfants qui sont en train de glisser sur une petite colline.",
+          "en": "In the foreground, you can see two children who are sliding down a small hill.",
+          "prompt": "What is in the foreground?",
+          "options": ["Two children sliding down a hill", "A farm with smoke", "A woman with a basket", "A market"],
+          "answer": 0,
+          "explain": "[[Au premier plan]] = in the foreground; [[en train de glisser]] = in the middle of sliding."
+        },
+        {
+          "id": "h2", "type": "listen-mcq",
+          "fr": "Elle a l'air fatiguée, mais, comment dire… plutôt contente. On dirait qu'elle rentre du marché.",
+          "en": "She looks tired but, how can I put it… rather happy. It looks like she's coming back from the market.",
+          "prompt": "What does the guide guess about the woman?",
+          "options": ["She's probably coming back from the market.", "She's going to the farm to work.", "She's looking for the children.", "She's selling her basket."],
+          "answer": 0,
+          "explain": "[[On dirait que…]] introduces a careful guess: [[elle rentre du marché]]."
+        },
+        {
+          "id": "h3", "type": "listen-mcq",
+          "fr": "Bon, si vous avez des questions, je reviendrai là-dessus à la fin de la visite.",
+          "en": "Right, if you have questions, I'll come back to that at the end of the tour.",
+          "prompt": "When will the guide answer questions?",
+          "options": ["At the end of the tour", "Right now", "Tomorrow", "She won't answer questions."],
+          "answer": 0,
+          "explain": "[[Je reviendrai là-dessus]] = I'll come back to that; [[à la fin de la visite]] = at the end of the tour."
+        },
+        {
+          "type": "listen",
+          "title": "Advice before an oral exam",
+          "context": "Karim, a French teacher, gives advice to his class before the speaking test.",
+          "fr": "Bon, quelques conseils pour demain. Premièrement, si vous avez le trac, c'est normal : respirez et commencez par une phrase simple que vous connaissez bien. Deuxièmement, ne récitez pas un texte appris par cœur. L'examinateur le remarque tout de suite. Préparez des mots-clés, et improvisez à partir de ces mots. Troisièmement, si vous perdez le fil, ne restez pas silencieux. Dites simplement : « Excusez-moi, où en étais-je ? Ah oui… » et continuez. Enfin, si vous ne comprenez pas une question, demandez à l'examinateur de la reformuler. Ce n'est pas une faute, au contraire !",
+          "en": "Right, a few tips for tomorrow. Firstly, if you're nervous, that's normal: breathe and start with a simple sentence you know well. Secondly, don't recite a text learned by heart. The examiner notices right away. Prepare key words, and improvise from those words. Thirdly, if you lose your train of thought, don't stay silent. Just say: “Excuse me, where was I? Oh yes…” and carry on. Finally, if you don't understand a question, ask the examiner to rephrase it. It's not a mistake, quite the opposite!"
+        },
+        {
+          "id": "h4", "type": "listen-mcq",
+          "fr": "Deuxièmement, ne récitez pas un texte appris par cœur. L'examinateur le remarque tout de suite.",
+          "en": "Secondly, don't recite a text learned by heart. The examiner notices right away.",
+          "prompt": "What does Karim advise against?",
+          "options": ["Reciting a memorized text", "Using key words", "Asking for a question to be rephrased", "Starting with a simple sentence"],
+          "answer": 0,
+          "explain": "[[ne récitez pas un texte appris par cœur]] = don't recite a text learned by heart. Instead: key words, then improvise."
+        },
+        {
+          "id": "h5", "type": "listen-mcq",
+          "fr": "Troisièmement, si vous perdez le fil, ne restez pas silencieux. Dites simplement : « Excusez-moi, où en étais-je ? »",
+          "en": "Thirdly, if you lose your train of thought, don't stay silent. Just say: “Excuse me, where was I?”",
+          "prompt": "What should you do if you lose your train of thought?",
+          "options": ["Ask “Where was I?” and carry on", "Stop and wait in silence", "Start the talk again from the beginning", "Switch to English"],
+          "answer": 0,
+          "explain": "[[perdre le fil]] = to lose your train of thought; [[Où en étais-je ?]] lets you restart naturally."
+        },
+        {
+          "id": "h6", "type": "dictation",
+          "fr": "Il s'agit d'un tableau qui représente une scène d'hiver.",
+          "accept": ["Il s'agit d'un tableau qui représente une scène d'hiver"],
+          "explain": "[[Il s'agit de]] + noun introduces what the picture is; [[qui]] + verb adds a detail."
+        },
+        {
+          "id": "h7", "type": "dictation",
+          "fr": "Si vous perdez le fil, ne restez pas silencieux.",
+          "accept": ["Si vous perdez le fil ne restez pas silencieux."],
+          "explain": "[[perdre le fil]]; negative imperative: [[ne restez pas]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed recall",
+      "intro": "Twelve questions: most on speaking at length, some on earlier B1 units (connectors, relative pronouns, giving reasons). Answer without looking back.",
+      "blocks": [
+        {
+          "id": "r1", "type": "mcq",
+          "prompt": "You've finished your first point. Which phrase moves the listener on?",
+          "options": ["Passons maintenant au deuxième point.", "Merci de votre attention.", "Je vais vous parler de mon quartier.", "Pour résumer, …"],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Passons maintenant à…]] is a transition between points.",
+          "optionFeedback": [null, "That's the very last sentence of a talk.", "That's how you open a talk.", "That introduces the conclusion."]
+        },
+        {
+          "id": "r2", "type": "cloze",
+          "text": "Je voudrais aborder trois points. ___ commencerai par le logement, puis je parlerai du travail. J'en ___ à mon dernier point : l'hiver.",
+          "answers": [["Je"], ["viens"]],
+          "en": "I'd like to cover three points. I'll start with housing, then I'll talk about work. That brings me to my last point: winter.",
+          "explain": "[[Je commencerai par…]] announces the first point; [[J'en viens à…]] introduces the last one."
+        },
+        {
+          "id": "r3", "type": "cloze",
+          "text": "Les transports sont pratiques. ___ logement, il est très cher.",
+          "answers": [["Quant au"]],
+          "choices": ["Quant au", "Quant à le", "Quant à la", "Par contre le"],
+          "en": "Transit is convenient. As for housing, it's very expensive.",
+          "explain": "[[quant à]] + [[le]] → [[quant au]], like [[à + le = au]]."
+        },
+        {
+          "id": "r4", "type": "translate",
+          "prompt": "Sorry, I've lost my train of thought. Where was I?",
+          "accept": ["Excusez-moi, j'ai perdu le fil. Où en étais-je ?", "Excusez-moi, j'ai perdu le fil. J'en étais où ?", "Pardon, j'ai perdu le fil. Où en étais-je ?", "Pardon, j'ai perdu le fil. J'en étais où ?", "Excuse-moi, j'ai perdu le fil. Où en étais-je ?", "Excuse-moi, j'ai perdu le fil. J'en étais où ?", "Désolé, j'ai perdu le fil. Où en étais-je ?", "Désolé, j'ai perdu le fil. J'en étais où ?", "Désolée, j'ai perdu le fil. Où en étais-je ?", "Désolée, j'ai perdu le fil. J'en étais où ?"],
+          "explain": "[[perdre le fil]] in the passé composé, then the formal question [[Où en étais-je ?]]."
+        },
+        {
+          "id": "r5", "type": "match",
+          "prompt": "Match each phrase with what it does.",
+          "pairs": [["Si je comprends bien, …", "reformulate a question"], ["Qu'entendez-vous par… ?", "ask for clarification"], ["C'est une bonne question.", "buy time"], ["Je reviendrai là-dessus.", "postpone a point"], ["Pour résumer, …", "recap at the end"]]
+        },
+        {
+          "id": "r6", "type": "reorder",
+          "prompt": "You want to know why I'm here. (reformulating a question, formal)",
+          "accept": ["Vous voulez savoir pourquoi je suis ici"],
+          "extra": ["suis-je"],
+          "explain": "In an indirect question, no inversion: [[pourquoi je suis ici]], not *pourquoi suis-je ici*."
+        },
+        {
+          "id": "r7", "type": "cloze",
+          "text": "Au premier plan, une femme est en train ___ lire, et elle a ___ fatiguée.",
+          "answers": [["de"], ["l'air"]],
+          "en": "In the foreground, a woman is reading, and she looks tired.",
+          "explain": "[[être en train **de**]] + infinitive; [[avoir l'air]] + adjective."
+        },
+        {
+          "id": "r8", "type": "translate",
+          "prompt": "To tell the truth, I'm a bit nervous. (stage fright)",
+          "accept": ["À vrai dire, j'ai un peu le trac.", "A vrai dire, j'ai un peu le trac."],
+          "explain": "[[avoir le trac]] = to have stage fright; [[à vrai dire]] = to tell the truth."
+        },
+        {
+          "id": "r9", "type": "cloze",
+          "text": "Review (unit 9): Je voulais parler du logement. ___, c'est le problème principal ici.",
+          "answers": [["En effet"]],
+          "choices": ["En effet", "Cependant", "Car", "Pourtant"],
+          "en": "I wanted to talk about housing. Indeed, it's the main problem here.",
+          "explain": "[[En effet]] explains why; in careful French, [[car]] doesn't start a sentence."
+        },
+        {
+          "id": "r10", "type": "translate",
+          "prompt": "Review (unit 1): I think it's important because it helps newcomers.",
+          "accept": ["Je pense que c'est important parce que ça aide les nouveaux arrivants.", "Je pense que c'est important parce que cela aide les nouveaux arrivants.", "Je pense que c'est important car ça aide les nouveaux arrivants.", "Je pense que c'est important car cela aide les nouveaux arrivants.", "Je crois que c'est important parce que ça aide les nouveaux arrivants.", "Je crois que c'est important parce que cela aide les nouveaux arrivants.", "Je crois que c'est important car ça aide les nouveaux arrivants.", "Je crois que c'est important car cela aide les nouveaux arrivants.", "Je trouve que c'est important parce que ça aide les nouveaux arrivants.", "Je trouve que c'est important parce que cela aide les nouveaux arrivants.", "Je trouve que c'est important car ça aide les nouveaux arrivants.", "Je trouve que c'est important car cela aide les nouveaux arrivants."],
+          "explain": "[[Je pense que]] + indicative, then a reason with [[parce que]] or [[car]]."
+        },
+        {
+          "id": "r11", "type": "mcq",
+          "prompt": "Review (unit 7): « Le bénévolat, c'est ___ m'a le plus aidée. »",
+          "options": ["ce qui", "ce que", "ce dont", "qu'est-ce qui"],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "A verb follows ([[m'a aidée]]): the gap is the subject → [[ce qui]].",
+          "optionFeedback": [null, "ce que is for an object: a subject would follow.", "ce dont replaces de + noun.", "qu'est-ce qui only starts a direct question."]
+        },
+        {
+          "id": "r12", "type": "dictation",
+          "fr": "Comme je l'ai dit tout à l'heure, l'important, c'est de pratiquer.",
+          "accept": ["Comme je l'ai dit tout à l'heure, l'important c'est de pratiquer."],
+          "explain": "[[Comme je l'ai dit tout à l'heure]] links your answer back to your talk."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn: speak at length",
+      "intro": "Speak first this time, then write. Prepare key words, not full sentences.",
+      "blocks": [
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "Your community centre invites you to give a two-minute talk called « Un objet qui raconte mon histoire »: present an object that matters to you (a photo, a piece of jewellery, a book…), describe it, tell its story and say why it matters. Then imagine one follow-up question and answer it.",
+          "seconds": 150,
+          "checklist": [
+            "An introduction that announces two or three points",
+            "A description of the object (what it looks like, where it is)",
+            "Its story, with past tenses",
+            "Signposts: Passons maintenant à…, J'en viens à…, Quant à…",
+            "Two or three natural fillers (bon, en fait, disons)",
+            "A recap and Merci de votre attention",
+            "A follow-up question handled with reformulation or Comme je l'ai dit…"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonsoir à tous. Je vais vous parler d'un objet très simple : une vieille photo. Je voudrais aborder deux points : la photo elle-même, puis son histoire. D'abord, la photo. Il s'agit d'une photo en noir et blanc. Au premier plan, on voit ma grand-mère, qui est en train de rire. À l'arrière-plan, il y a sa maison, à Tunis. Passons maintenant à son histoire. Ma grand-mère me l'a donnée le jour où je suis parti au Canada. Elle m'a dit : « Comme ça, tu ne m'oublieras pas. » Bon, pour résumer : c'est une petite photo, mais pour moi, c'est un morceau de ma famille. Merci de votre attention. … Vous me demandez si je la regarde souvent ? Oui, en fait, elle est sur mon bureau, je la vois tous les jours.",
+              "en": "Good evening, everyone. I'm going to talk to you about a very simple object: an old photo. I'd like to cover two points: the photo itself, then its story. First, the photo. It's a black-and-white photo. In the foreground, you can see my grandmother, who is laughing. In the background, there's her house, in Tunis. Let's now move on to its story. My grandmother gave it to me the day I left for Canada. She said to me: “That way, you won't forget me.” Right, to sum up: it's a small photo, but for me it's a piece of my family. Thank you for your attention. … You're asking me if I look at it often? Yes, actually, it's on my desk, I see it every day."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonsoir. Alors, à vrai dire, j'ai un peu le trac, mais je vais essayer ! Je vais vous présenter un objet qui raconte une partie de ma vie : ce bracelet. Je voudrais aborder trois points : d'abord, à quoi il ressemble ; ensuite, d'où il vient ; et enfin, pourquoi je le porte encore aujourd'hui. Je commencerai par sa description. C'est un bracelet en argent, assez fin, avec une petite pierre verte au centre. Il a l'air ancien, et en effet, il a presque cent ans. Passons maintenant à son histoire. Il appartenait à mon arrière-grand-mère, en Inde. Elle l'a donné à ma grand-mère, qui l'a donné à ma mère, et ma mère me l'a offert, disons… la veille de mon départ pour Toronto. Elle m'a dit qu'il me porterait chance. J'en viens à mon dernier point. Pourquoi je le porte tous les jours ? En fait, c'est simple : quand j'ai des moments difficiles ici, ce bracelet me rappelle d'où je viens. Pour résumer : un petit objet, quatre générations de femmes, et pour ainsi dire, toute ma famille au poignet. Merci de votre attention. … Si je comprends bien, vous voulez savoir si je vais le donner à ma fille un jour ? Bien sûr ! Comme je l'ai dit tout à l'heure, c'est une tradition, et je vais la continuer.",
+              "en": "Good evening. So, to tell the truth, I'm a bit nervous, but I'll try! I'm going to present an object that tells part of my life: this bracelet. I'd like to cover three points: first, what it looks like; then, where it comes from; and finally, why I still wear it today. I'll start with its description. It's a silver bracelet, quite thin, with a small green stone in the middle. It looks old, and indeed, it's almost a hundred years old. Let's now move on to its story. It belonged to my great-grandmother, in India. She gave it to my grandmother, who gave it to my mother, and my mother gave it to me, let's say… the day before I left for Toronto. She told me it would bring me luck. That brings me to my last point. Why do I wear it every day? Actually, it's simple: when I have difficult moments here, this bracelet reminds me where I come from. To sum up: a small object, four generations of women, and, so to speak, my whole family on my wrist. Thank you for your attention. … If I understand correctly, you want to know if I'll give it to my daughter one day? Of course! As I said earlier, it's a tradition, and I'm going to continue it."
+            }
+          ]
+        },
+        {
+          "id": "w1", "type": "write",
+          "prompt": "After your talk, a member of the audience emails you: « Vous avez dit que vous aviez le trac. Comment faites-vous pour parler en public malgré tout ? » Reply by email: thank them, give three pieces of advice with examples from your experience, and close politely.",
+          "promptFr": "Répondez au courriel d'une personne du public : donnez trois conseils pour parler en public malgré le trac.",
+          "wordRange": [120, 180],
+          "checklist": [
+            "A greeting and thanks for the question",
+            "Three pieces of advice, clearly organized (premièrement, ensuite, enfin)",
+            "A personal example for at least two of them",
+            "At least one connector of cause or consequence (en effet, donc, c'est pourquoi)",
+            "Words from this workshop: le trac, perdre le fil, improviser…",
+            "A friendly, polite closing"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour Madame Lavoie,\nMerci beaucoup pour votre question, qui est très intéressante ! Moi aussi, j'ai souvent le trac, mais j'ai trouvé quelques solutions.\nPremièrement, je prépare des mots-clés, pas un texte complet. En effet, si j'apprends un texte par cœur et que j'oublie une phrase, je suis perdue.\nEnsuite, je commence toujours par une phrase simple que je connais bien, par exemple : « Je vais vous parler de… ». Après cette première phrase, le stress diminue.\nEnfin, si je perds le fil, je ne panique pas. Je dis simplement : « Où en étais-je ? », je regarde mes notes, et je continue. Le public ne le remarque presque jamais !\nJ'espère que ces conseils vous aideront. Bon courage pour votre premier exposé !\nCordialement,\nSofia",
+              "en": "Hello Mrs. Lavoie, Thank you very much for your question, which is very interesting! I often get nervous too, but I've found a few solutions. Firstly, I prepare key words, not a complete text. Indeed, if I learn a text by heart and forget a sentence, I'm lost. Next, I always start with a simple sentence I know well, for example: “I'm going to talk to you about…”. After that first sentence, the stress goes down. Finally, if I lose my train of thought, I don't panic. I simply say: “Where was I?”, I look at my notes, and I carry on. The audience almost never notices! I hope these tips will help you. Good luck with your first presentation! Kind regards, Sofia"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour Madame Lavoie,\nMerci pour votre message et pour votre question, que beaucoup de gens se posent ! À vrai dire, j'ai toujours le trac, même après plusieurs exposés. Cependant, j'ai appris à le gérer grâce à trois habitudes.\nPremièrement, je ne rédige jamais mon texte en entier. Je note seulement mon plan et quelques mots-clés : ainsi, je peux improviser un peu, et ma voix reste naturelle.\nEnsuite, je m'entraîne à voix haute, devant un miroir ou devant une amie. C'est pourquoi, le jour de l'exposé, les phrases viennent plus facilement.\nEnfin, j'accepte de ne pas être parfaite. Si je perds le fil, je respire, je dis « Bon, où en étais-je ? » et je reprends. Le public, en fin de compte, s'intéresse surtout à ce que vous racontez, pas à vos petites erreurs.\nJe vous souhaite beaucoup de succès pour votre prochaine présentation !\nCordialement,\nSofia Ramírez",
+              "en": "Hello Mrs. Lavoie, Thank you for your message and your question, which many people ask themselves! To tell the truth, I still get nervous, even after several talks. However, I've learned to manage it thanks to three habits. Firstly, I never write out my whole text. I only note my plan and a few key words: that way, I can improvise a little, and my voice stays natural. Next, I practise out loud, in front of a mirror or a friend. That's why, on the day of the talk, the sentences come more easily. Finally, I accept not being perfect. If I lose my train of thought, I breathe, I say “Right, where was I?” and I start again. The audience, in the end, is mostly interested in what you're telling them, not in your small mistakes. I wish you every success with your next presentation! Kind regards, Sofia Ramírez"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Follow a structured talk, its follow-up questions, a picture description and spoken advice\n- Reuse the unit's tools in new situations: an announced plan, signposts, natural fillers, reformulation, scene description\n- Manage nerves and gaps with new phrases: [[avoir le trac]], [[perdre le fil]], [[Où en étais-je ?]], [[Je reviendrai là-dessus.]], [[à vrai dire]], [[pour ainsi dire]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed the tu accept from a vous-specific item, made à vrai dire unambiguous, and changed à mon poignet to au poignet. Expanded accept lists (r4, r10), softened the car rule and fixed the recall intro." }
+}

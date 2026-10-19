@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "ability": "co",
+  "sets": [
+    {
+      "id": "tcf-co-s1",
+      "title": "Échanges du quotidien",
+      "level": "a2",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "s1-a1",
+          "context": "Annonce dans une gare",
+          "lines": [
+            { "speaker": "Voix", "fr": "Mesdames et messieurs, votre attention, s’il vous plaît. Le train numéro 17432 à destination de Rouen, prévu au départ à 14 h 10, partira avec un retard d’environ vingt minutes." },
+            { "speaker": "Voix", "fr": "Attention : ce train partira exceptionnellement de la voie 3, et non de la voie 5. Nous vous prions de nous excuser pour la gêne occasionnée." }
+          ]
+        },
+        {
+          "id": "s1-a2",
+          "context": "Deux amis au téléphone",
+          "lines": [
+            { "speaker": "Homme", "fr": "Salut Inès ! On va au cinéma ce soir ? Il y a le film dont tout le monde parle." },
+            { "speaker": "Inès", "fr": "Ce soir, je ne peux pas, j’ai mon cours de guitare jusqu’à neuf heures. Mais demain, je suis libre. Ça te va ?" },
+            { "speaker": "Homme", "fr": "Demain, parfait ! On se retrouve devant le cinéma à huit heures." }
+          ]
+        },
+        {
+          "id": "s1-a3",
+          "context": "À la boulangerie",
+          "lines": [
+            { "speaker": "Cliente", "fr": "Bonjour ! Je voudrais une baguette et deux croissants, s’il vous plaît." },
+            { "speaker": "Boulanger", "fr": "Voilà. Avec ceci ?" },
+            { "speaker": "Cliente", "fr": "Ce sera tout, merci." },
+            { "speaker": "Boulanger", "fr": "Alors, ça fait trois euros quarante." },
+            { "speaker": "Cliente", "fr": "Tenez, je vous donne un billet de cinq euros." }
+          ]
+        },
+        {
+          "id": "s1-a4",
+          "context": "Message d’accueil téléphonique, Québec",
+          "lines": [
+            { "speaker": "Voix", "fr": "Bonjour, vous avez joint la Clinique dentaire des Érables. Nos bureaux sont présentement fermés." },
+            { "speaker": "Voix", "fr": "Nous sommes ouverts du lundi au jeudi, de 8 h à 17 h, et le vendredi, de 8 h à midi." },
+            { "speaker": "Voix", "fr": "En cas d’urgence, veuillez composer le huit un neuf, cinq cinq cinq, zéro un quatre deux. Sinon, laissez-nous un message après le signal et nous vous rappellerons dès que possible." }
+          ]
+        },
+        {
+          "id": "s1-a5",
+          "context": "Annonce dans un supermarché",
+          "lines": [
+            { "speaker": "Voix", "fr": "Chers clients, votre magasin fermera ses portes dans quinze minutes." },
+            { "speaker": "Voix", "fr": "Nous vous invitons à vous diriger dès maintenant vers les caisses. Merci de votre visite et à bientôt !" }
+          ]
+        },
+        {
+          "id": "s1-a6",
+          "context": "Dans la rue",
+          "lines": [
+            { "speaker": "Homme", "fr": "Pardon, madame, la bibliothèque municipale, c’est loin d’ici ?" },
+            { "speaker": "Femme", "fr": "Non, pas du tout, c’est à cinq minutes à pied. Vous allez tout droit jusqu’au feu, puis vous prenez la deuxième rue à gauche. La bibliothèque est juste à côté de la poste." },
+            { "speaker": "Homme", "fr": "Merci beaucoup !" }
+          ]
+        },
+        {
+          "id": "s1-a7",
+          "context": "Message vocal, Québec",
+          "lines": [
+            { "speaker": "Mère", "fr": "Allô, Mathieu, c’est maman. Je vais finir plus tard au bureau ce soir." },
+            { "speaker": "Mère", "fr": "Peux-tu passer au dépanneur en revenant de l’école pour acheter du lait ? Il reste de l’argent dans le pot, sur le comptoir. Merci, mon grand !" }
+          ]
+        },
+        {
+          "id": "s1-a8",
+          "context": "Bulletin météo à la radio",
+          "lines": [
+            { "speaker": "Voix", "fr": "Voici la météo pour la région de Montréal." },
+            { "speaker": "Voix", "fr": "Ce matin, ciel nuageux, mais pas de précipitations. Cet après-midi, la neige commencera à tomber, avec environ cinq centimètres attendus en soirée. Maximum : moins quatre degrés." }
+          ]
+        }
+      ],
+      "items": [
+        { "id": "tcf-co-001", "audioId": "s1-a1", "prompt": "À quelle heure, environ, le train va-t-il partir ?",
+          "options": ["À 14 h 10.", "À 14 h 30.", "À 14 h 50.", "À 15 h 10."], "answer": 1,
+          "explain": "The train was \"prévu au départ à 14 h 10\" with \"un retard d’environ vingt minutes\", so it leaves around 14:30.", "microSkills": ["numbers-dates"] },
+        { "id": "tcf-co-002", "audioId": "s1-a1", "prompt": "Qu’est-ce qui change aussi pour ce train ?",
+          "options": ["Sa destination.", "Le nombre de voitures.", "Le prix des billets.", "L’endroit d’où il part."], "answer": 3,
+          "explain": "\"Ce train partira exceptionnellement de la voie 3, et non de la voie 5\": the departure track changes. The destination (Rouen) does not.", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-co-003", "audioId": "s1-a2", "prompt": "Que propose Inès ?",
+          "options": ["D’aller au cinéma le lendemain.", "De prendre un cours de guitare avec lui.", "De voir le film ce soir après neuf heures.", "De regarder un film chez elle."], "answer": 0,
+          "explain": "Inès says \"Ce soir, je ne peux pas… Mais demain, je suis libre. Ça te va ?\": she suggests going the next day.", "microSkills": ["intention"] },
+        { "id": "tcf-co-004", "audioId": "s1-a3", "prompt": "Combien d’argent le boulanger va-t-il rendre à la cliente ?",
+          "options": ["Un euro quarante.", "Deux euros soixante.", "Un euro soixante.", "Trois euros quarante."], "answer": 2,
+          "explain": "The total is \"trois euros quarante\" and she pays with \"un billet de cinq euros\": 5.00 − 3.40 = 1.60 in change.", "microSkills": ["numbers-dates", "inference"] },
+        { "id": "tcf-co-005", "audioId": "s1-a4", "prompt": "Quel jour la clinique ferme-t-elle plus tôt ?",
+          "options": ["Le lundi.", "Le vendredi.", "Le jeudi.", "Le mercredi."], "answer": 1,
+          "explain": "Monday to Thursday it is open until 17 h, but \"le vendredi, de 8 h à midi\".", "microSkills": ["detail", "numbers-dates"] },
+        { "id": "tcf-co-006", "audioId": "s1-a4", "prompt": "Que faut-il faire en cas d’urgence ?",
+          "options": ["Appeler un autre numéro.", "Laisser un message après le signal.", "Se présenter à la clinique le lendemain.", "Rappeler pendant les heures d’ouverture."], "answer": 0,
+          "explain": "\"En cas d’urgence, veuillez composer le huit un neuf, cinq cinq cinq…\": another number. Leaving a message is for non-urgent calls (\"Sinon…\").", "microSkills": ["detail"] },
+        { "id": "tcf-co-007", "audioId": "s1-a5", "prompt": "Que demande-t-on aux clients ?",
+          "options": ["De revenir demain matin.", "De sortir tout de suite par l’entrée principale.", "De profiter des promotions du jour.", "D’aller payer leurs achats."], "answer": 3,
+          "explain": "\"Nous vous invitons à vous diriger dès maintenant vers les caisses\": go to the checkout, i.e. pay for their shopping.", "microSkills": ["intention", "paraphrase"] },
+        { "id": "tcf-co-008", "audioId": "s1-a6", "prompt": "Où se trouve la bibliothèque ?",
+          "options": ["En face du feu.", "Dans la première rue à gauche.", "Près de la poste.", "À cinq minutes en voiture."], "answer": 2,
+          "explain": "\"La bibliothèque est juste à côté de la poste.\" It is the second street on the left, and five minutes \"à pied\".", "microSkills": ["detail"] },
+        { "id": "tcf-co-009", "audioId": "s1-a7", "prompt": "Qu’est-ce que la mère demande à Mathieu ?",
+          "options": ["De venir la chercher au bureau.", "De faire un achat en rentrant.", "De préparer le souper.", "De mettre de l’argent dans le pot."], "answer": 1,
+          "explain": "\"Peux-tu passer au dépanneur en revenant de l’école pour acheter du lait ?\": buy something on his way home.", "microSkills": ["intention", "paraphrase"] },
+        { "id": "tcf-co-010", "audioId": "s1-a8", "prompt": "Quel temps fera-t-il cet après-midi ?",
+          "options": ["Il neigera.", "Il fera beau et froid.", "Il pleuvra.", "Il y aura seulement des nuages."], "answer": 0,
+          "explain": "\"Cet après-midi, la neige commencera à tomber.\" The clouds without precipitation are for the morning.", "microSkills": ["detail"] }
+      ]
+    },
+    {
+      "id": "tcf-co-s2",
+      "title": "Services et vie pratique",
+      "level": "b1",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "s2-a1",
+          "context": "Appel au propriétaire, Montréal",
+          "lines": [
+            { "speaker": "Aïcha", "fr": "Bonjour, monsieur Tremblay, c’est Aïcha Benali, du 4B. Je vous appelle parce que le chauffage ne fonctionne plus depuis hier soir. Il fait vraiment froid dans l’appartement." },
+            { "speaker": "Propriétaire", "fr": "Ah, je suis désolé. Je peux vous envoyer un technicien demain matin, entre 9 h et midi. Est-ce que vous serez là ?" },
+            { "speaker": "Aïcha", "fr": "Malheureusement, non, je travaille. Mais ma voisine du 4A a un double de mes clés. Je vais la prévenir, elle pourra lui ouvrir." },
+            { "speaker": "Propriétaire", "fr": "Parfait. En attendant, je peux vous prêter une chaufferette électrique, si vous voulez." },
+            { "speaker": "Aïcha", "fr": "Oui, ce serait gentil, merci." }
+          ]
+        },
+        {
+          "id": "s2-a2",
+          "context": "À la banque",
+          "lines": [
+            { "speaker": "Conseiller", "fr": "Pour ouvrir un compte, j’ai besoin d’une pièce d’identité avec photo et d’une preuve de résidence." },
+            { "speaker": "Cliente", "fr": "J’ai mon passeport. Mais je viens d’arriver au Canada, je n’ai encore reçu aucune facture à mon nom." },
+            { "speaker": "Conseiller", "fr": "Ce n’est pas grave. Avez-vous signé un bail ?" },
+            { "speaker": "Cliente", "fr": "Oui, la semaine dernière." },
+            { "speaker": "Conseiller", "fr": "Alors une copie de votre bail fera l’affaire." }
+          ]
+        },
+        {
+          "id": "s2-a3",
+          "context": "À la pharmacie, Lyon",
+          "lines": [
+            { "speaker": "Pharmacien", "fr": "Alors, ces comprimés, vous en prenez un le matin et un le soir, au milieu du repas, jamais à jeun. Le traitement dure cinq jours, pas plus. Et si vous avez des maux d’estomac, vous arrêtez et vous rappelez votre médecin." },
+            { "speaker": "Cliente", "fr": "D’accord. Et je peux les prendre avec un café ?" },
+            { "speaker": "Pharmacien", "fr": "Plutôt avec de l’eau, c’est mieux." }
+          ]
+        },
+        {
+          "id": "s2-a4",
+          "context": "Message vocal d’une collègue",
+          "lines": [
+            { "speaker": "Julie", "fr": "Salut Karim, c’est Julie. Petit changement pour la réunion avec le client Bérard : elle n’aura pas lieu jeudi mais vendredi, toujours à 10 h." },
+            { "speaker": "Julie", "fr": "Par contre, on ne sera pas dans notre salle habituelle, mais au troisième étage, salle Atlas. Et pense à apporter les chiffres de ventes de septembre : c’est lui qui les a demandés. Merci, à plus !" }
+          ]
+        },
+        {
+          "id": "s2-a5",
+          "context": "Annonce dans le métro, Montréal",
+          "lines": [
+            { "speaker": "Voix", "fr": "Avis à notre clientèle. En raison de travaux majeurs, les stations Belvédère et Saint-Ours seront fermées samedi et dimanche prochains." },
+            { "speaker": "Voix", "fr": "Un service d’autobus gratuit remplacera le métro entre ces deux stations, avec un passage toutes les cinq minutes. Prévoyez un temps de déplacement supplémentaire d’environ quinze minutes." }
+          ]
+        },
+        {
+          "id": "s2-a6",
+          "context": "Au téléphone avec un centre communautaire",
+          "lines": [
+            { "speaker": "Homme", "fr": "Bonjour, j’aimerais inscrire ma fille au cours de natation pour la session d’hiver. C’est possible ?" },
+            { "speaker": "Employée", "fr": "Oui, les inscriptions commencent le 5 décembre. Mais attention : la première semaine, elles sont réservées aux résidents de l’arrondissement. Ensuite, c’est ouvert à tout le monde, s’il reste des places." },
+            { "speaker": "Homme", "fr": "Ah… Moi, j’habite à Laval." },
+            { "speaker": "Employée", "fr": "Alors vous pourrez inscrire votre fille à partir du 12 décembre." }
+          ]
+        },
+        {
+          "id": "s2-a7",
+          "context": "Réservation au restaurant, Paris",
+          "lines": [
+            { "speaker": "Serveur", "fr": "Le Comptoir des Halles, bonjour !" },
+            { "speaker": "Cliente", "fr": "Bonjour, je voudrais réserver une table pour six personnes samedi soir, vers 20 h." },
+            { "speaker": "Serveur", "fr": "Samedi à 20 h, je suis désolé, nous sommes complets. Je peux vous proposer 19 h, ou bien 21 h 30." },
+            { "speaker": "Cliente", "fr": "19 h, c’est trop tôt pour nous : deux de mes amis finissent de travailler à 20 h. On va prendre 21 h 30." },
+            { "speaker": "Serveur", "fr": "Très bien. C’est à quel nom ?" },
+            { "speaker": "Cliente", "fr": "Moreau." }
+          ]
+        }
+      ],
+      "items": [
+        { "id": "tcf-co-011", "audioId": "s2-a1", "prompt": "Pourquoi Aïcha appelle-t-elle son propriétaire ?",
+          "options": ["Pour annoncer qu’elle quitte l’appartement.", "Pour se plaindre de sa voisine.", "Pour signaler une panne.", "Pour demander un double des clés."], "answer": 2,
+          "explain": "\"Le chauffage ne fonctionne plus depuis hier soir\": she is reporting a breakdown.", "microSkills": ["intention"] },
+        { "id": "tcf-co-012", "audioId": "s2-a1", "prompt": "Comment le technicien pourra-t-il entrer dans l’appartement ?",
+          "options": ["Une autre personne lui ouvrira la porte.", "Aïcha rentrera du travail plus tôt.", "Le propriétaire viendra avec lui.", "Il trouvera une clé sous le paillasson."], "answer": 0,
+          "explain": "\"Ma voisine du 4A a un double de mes clés… elle pourra lui ouvrir.\"", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-co-013", "audioId": "s2-a2", "prompt": "Quel document va prouver l’adresse de la cliente ?",
+          "options": ["Son passeport.", "Une facture d’électricité.", "Une lettre de son employeur.", "Son contrat de location."], "answer": 3,
+          "explain": "She has no bill yet, so the adviser says \"une copie de votre bail fera l’affaire\". A \"bail\" is a lease (rental contract). The passport is her photo ID.", "microSkills": ["detail", "vocabulary"] },
+        { "id": "tcf-co-014", "audioId": "s2-a3", "prompt": "Comment la cliente doit-elle prendre ses comprimés ?",
+          "options": ["Une fois par jour, avant le petit-déjeuner.", "Deux fois par jour, en mangeant.", "Le soir seulement, avec un café.", "Pendant au moins cinq jours, l’estomac vide."], "answer": 1,
+          "explain": "\"Un le matin et un le soir, au milieu du repas, jamais à jeun\": twice a day, with food. The treatment lasts five days \"pas plus\".", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-co-015", "audioId": "s2-a4", "prompt": "Qu’est-ce qui change pour la réunion ?",
+          "options": ["L’heure et le client.", "Le jour et l’heure.", "Le jour et le lieu.", "Le lieu et l’heure."], "answer": 2,
+          "explain": "\"Pas jeudi mais vendredi, toujours à 10 h\" and \"pas dans notre salle habituelle, mais au troisième étage\": the day and the room change, the time stays the same.", "microSkills": ["detail"] },
+        { "id": "tcf-co-016", "audioId": "s2-a4", "prompt": "Que doit faire Karim ?",
+          "options": ["Réserver la salle Atlas.", "Rappeler le client.", "Préparer une présentation sur octobre.", "Apporter des résultats commerciaux."], "answer": 3,
+          "explain": "\"Pense à apporter les chiffres de ventes de septembre\": sales figures are commercial results.", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-co-017", "audioId": "s2-a5", "prompt": "Que propose la société de transport pendant les travaux ?",
+          "options": ["Des bus pour remplacer le métro.", "Des billets à moitié prix.", "Un métro toutes les cinq minutes.", "Un trajet quinze minutes plus court."], "answer": 0,
+          "explain": "\"Un service d’autobus gratuit remplacera le métro entre ces deux stations.\" The five minutes refer to the bus frequency, and trips will take about fifteen minutes longer.", "microSkills": ["main-idea"] },
+        { "id": "tcf-co-018", "audioId": "s2-a6", "prompt": "Pourquoi l’homme devra-t-il attendre avant d’inscrire sa fille ?",
+          "options": ["Le cours est déjà complet.", "Il n’habite pas dans le secteur.", "Sa fille est trop jeune.", "Les inscriptions se font seulement en personne."], "answer": 1,
+          "explain": "The first week is \"réservée aux résidents de l’arrondissement\" and he says \"j’habite à Laval\", so he must wait until December 12.", "microSkills": ["inference"] },
+        { "id": "tcf-co-019", "audioId": "s2-a7", "prompt": "Pour quelle heure la table est-elle réservée ?",
+          "options": ["19 h.", "20 h.", "21 h 30.", "22 h."], "answer": 2,
+          "explain": "20 h is full and 19 h is too early, so the customer says \"On va prendre 21 h 30.\"", "microSkills": ["numbers-dates"] },
+        { "id": "tcf-co-020", "audioId": "s2-a7", "prompt": "Pourquoi la cliente refuse-t-elle la première proposition ?",
+          "options": ["Le restaurant est trop loin.", "Elle préfère manger en terrasse.", "Ils seront plus de six.", "Certains invités ne seront pas disponibles."], "answer": 3,
+          "explain": "\"19 h, c’est trop tôt pour nous : deux de mes amis finissent de travailler à 20 h.\"", "microSkills": ["detail", "paraphrase"] }
+      ]
+    },
+    {
+      "id": "tcf-co-s3",
+      "title": "Entrevues et reportages",
+      "level": "b2",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "s3-a1",
+          "context": "Entrevue à la radio, Sherbrooke",
+          "lines": [
+            { "speaker": "Animateur", "fr": "Mélanie Gagnon, vous avez ouvert il y a deux ans une épicerie sans emballages au centre-ville de Sherbrooke. Qu’est-ce qui vous a donné envie de vous lancer ?" },
+            { "speaker": "Mélanie", "fr": "Honnêtement, c’est venu de mes poubelles ! Avec trois enfants, je sortais deux gros sacs par semaine, presque juste du plastique. Je me suis dit qu’il devait y avoir une autre façon de faire." },
+            { "speaker": "Animateur", "fr": "Et les débuts, ça a été facile ?" },
+            { "speaker": "Mélanie", "fr": "Pas du tout. Trouver des clients, finalement, ça s’est bien passé. Le vrai casse-tête, c’était les fournisseurs : beaucoup refusaient de livrer en gros contenants. J’ai dû en convaincre plusieurs un par un." },
+            { "speaker": "Animateur", "fr": "Et aujourd’hui, est-ce que l’entreprise est rentable ?" },
+            { "speaker": "Mélanie", "fr": "On commence à faire un petit profit. Je ne suis pas riche, mais je me verse enfin un salaire, ce qui n’était pas le cas la première année." }
+          ]
+        },
+        {
+          "id": "s3-a2",
+          "context": "Témoignage d’un nouvel arrivant, Montréal",
+          "lines": [
+            { "speaker": "Homme", "fr": "Quand je suis arrivé de Tunisie, j’avais quinze ans d’expérience comme ingénieur civil. Je pensais trouver du travail en quelques semaines." },
+            { "speaker": "Homme", "fr": "En réalité, pour avoir le droit d’exercer, j’ai dû faire reconnaître mon diplôme par l’ordre professionnel et repasser deux examens. Ça m’a pris presque deux ans." },
+            { "speaker": "Homme", "fr": "Pendant ce temps-là, j’ai travaillé comme technicien. C’était frustrant, mais je ne le regrette pas : j’ai appris les normes d’ici et le vocabulaire du métier." },
+            { "speaker": "Homme", "fr": "Ce qui a vraiment tout changé, c’est le programme de mentorat. Une ingénieure à la retraite m’a présenté à des gens, m’a aidé à refaire mon CV… Sans elle, je serais peut-être encore technicien." }
+          ]
+        },
+        {
+          "id": "s3-a3",
+          "context": "Chronique santé à la radio",
+          "lines": [
+            { "speaker": "Animatrice", "fr": "On entend souvent que la lumière bleue des écrans empêche de dormir. Docteure Lefebvre, est-ce que c’est vrai ?" },
+            { "speaker": "Docteure", "fr": "C’est en partie vrai, mais on a beaucoup exagéré cet effet. La lumière d’un téléphone reste assez faible. Le problème principal, c’est surtout ce qu’on fait avec : on lit ses courriels de travail, on regarde une vidéo qui en enchaîne une autre… Le cerveau reste en alerte." },
+            { "speaker": "Animatrice", "fr": "Donc les filtres anti-lumière bleue, ça ne sert à rien ?" },
+            { "speaker": "Docteure", "fr": "Ça ne fait pas de mal, mais ça ne règle pas le problème. Mon conseil : arrêtez les activités stimulantes une demi-heure avant le coucher, et laissez le téléphone hors de la chambre. Si vous voulez lire, prenez un livre papier." }
+          ]
+        },
+        {
+          "id": "s3-a4",
+          "context": "Reportage dans une petite ville de Bretagne",
+          "lines": [
+            { "speaker": "Journaliste", "fr": "Depuis le printemps, la rue principale de Plouvenec est fermée aux voitures tous les dimanches. Monsieur le maire, pourquoi cette décision ?" },
+            { "speaker": "Maire", "fr": "Nous voulions rendre le centre-ville aux habitants. Le dimanche, les familles se promènent, les enfants font du vélo en toute sécurité, il y a un marché…" },
+            { "speaker": "Journaliste", "fr": "Les commerçants étaient pourtant très inquiets au départ." },
+            { "speaker": "Maire", "fr": "C’est vrai, certains craignaient de perdre leurs clients. Nous avons donc fait un essai de trois mois avant de décider quoi que ce soit. Et finalement, la plupart ont vu leur chiffre d’affaires augmenter le dimanche. Le boulanger m’a même dit qu’il regrettait de ne pas l’avoir proposé lui-même !" }
+          ]
+        },
+        {
+          "id": "s3-a5",
+          "context": "Témoignage sur le télétravail, Québec",
+          "lines": [
+            { "speaker": "Femme", "fr": "Depuis trois ans, je travaille de la maison quatre jours sur cinq. Je ne retournerais pour rien au monde à l’ancien horaire : j’ai gagné presque deux heures de transport par jour." },
+            { "speaker": "Femme", "fr": "Cela dit, je ne vais pas vous mentir : les débuts ont été durs. Je me sentais isolée, et j’avais du mal à décrocher le soir. Aujourd’hui, je ferme l’ordinateur à 17 h pile, et le jeudi, je vais au bureau, surtout pour voir mes collègues." }
+          ]
+        }
+      ],
+      "items": [
+        { "id": "tcf-co-021", "audioId": "s3-a1", "prompt": "Qu’est-ce qui a poussé Mélanie à ouvrir son épicerie ?",
+          "options": ["Elle avait perdu son emploi.", "Ses enfants le lui ont suggéré.", "Elle voulait s’installer au centre-ville.", "La quantité de déchets produite par sa famille."], "answer": 3,
+          "explain": "\"C’est venu de mes poubelles ! … je sortais deux gros sacs par semaine, presque juste du plastique.\"", "microSkills": ["main-idea", "paraphrase"] },
+        { "id": "tcf-co-022", "audioId": "s3-a1", "prompt": "Selon Mélanie, quelle a été la principale difficulté au départ ?",
+          "options": ["Attirer une clientèle.", "Obtenir la collaboration des fournisseurs.", "Trouver un local au centre-ville.", "Fixer des prix raisonnables."], "answer": 1,
+          "explain": "\"Trouver des clients… ça s’est bien passé. Le vrai casse-tête, c’était les fournisseurs.\"", "microSkills": ["detail"] },
+        { "id": "tcf-co-023", "audioId": "s3-a1", "prompt": "Que dit-elle de la situation financière actuelle de son commerce ?",
+          "options": ["Elle peut maintenant se payer.", "Elle est devenue riche grâce à son commerce.", "Le commerce perd encore de l’argent.", "Elle a dû emprunter de nouveau."], "answer": 0,
+          "explain": "\"Je ne suis pas riche, mais je me verse enfin un salaire\": she can now pay herself.", "microSkills": ["paraphrase"] },
+        { "id": "tcf-co-024", "audioId": "s3-a2", "prompt": "Qu’est-ce qui a surpris cet homme à son arrivée ?",
+          "options": ["Le manque d’offres d’emploi dans son domaine.", "Le niveau de français exigé.", "Le temps nécessaire pour pouvoir exercer son métier.", "Le faible salaire des ingénieurs."], "answer": 2,
+          "explain": "He expected work \"en quelques semaines\", but getting the right to practise \"m’a pris presque deux ans\".", "microSkills": ["inference"] },
+        { "id": "tcf-co-025", "audioId": "s3-a2", "prompt": "Selon lui, qu’est-ce qui a été le plus déterminant dans son parcours ?",
+          "options": ["L’accompagnement d’une professionnelle expérimentée.", "Son expérience comme technicien.", "Les examens de l’ordre professionnel.", "Son expérience acquise en Tunisie."], "answer": 0,
+          "explain": "\"Ce qui a vraiment tout changé, c’est le programme de mentorat. Une ingénieure à la retraite…\" The technician job was useful, but not decisive.", "microSkills": ["main-idea", "paraphrase"] },
+        { "id": "tcf-co-026", "audioId": "s3-a3", "prompt": "Selon la docteure, pourquoi les écrans nuisent-ils surtout au sommeil ?",
+          "options": ["Leur lumière est trop intense.", "Ils émettent des ondes dangereuses.", "On les utilise trop tôt le matin.", "Les contenus maintiennent le cerveau éveillé."], "answer": 3,
+          "explain": "\"Le problème principal, c’est surtout ce qu’on fait avec… Le cerveau reste en alerte.\" She says the light \"reste assez faible\".", "microSkills": ["main-idea"] },
+        { "id": "tcf-co-027", "audioId": "s3-a3", "prompt": "Que pense-t-elle des filtres anti-lumière bleue ?",
+          "options": ["Ils sont dangereux pour les yeux.", "Ils sont inoffensifs mais insuffisants.", "Ils sont la meilleure solution.", "Ils empêchent de lire le soir."], "answer": 1,
+          "explain": "\"Ça ne fait pas de mal, mais ça ne règle pas le problème.\"", "microSkills": ["opinion-fact", "paraphrase"] },
+        { "id": "tcf-co-028", "audioId": "s3-a4", "prompt": "Comment la mairie a-t-elle répondu aux inquiétudes des commerçants ?",
+          "options": ["En leur versant une aide financière.", "En limitant la fermeture au matin.", "En testant la mesure avant de l’adopter.", "En créant un parking gratuit."], "answer": 2,
+          "explain": "\"Nous avons donc fait un essai de trois mois avant de décider quoi que ce soit.\"", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-co-029", "audioId": "s3-a4", "prompt": "Qu’apprend-on sur le boulanger ?",
+          "options": ["Il a fermé sa boutique le dimanche.", "Il est aujourd’hui favorable à la mesure.", "Il a proposé l’idée au maire.", "Il a perdu des clients."], "answer": 1,
+          "explain": "\"Il regrettait de ne pas l’avoir proposé lui-même\": he now supports the measure. He did not propose it, which is the trap.", "microSkills": ["inference"] },
+        { "id": "tcf-co-030", "audioId": "s3-a5", "prompt": "Quelle est l’attitude de cette femme envers le télétravail ?",
+          "options": ["Elle en est satisfaite, malgré des difficultés au début.", "Elle aimerait revenir au bureau à temps plein.", "Elle le trouve isolant et le subit encore.", "Elle y est indifférente."], "answer": 0,
+          "explain": "\"Je ne retournerais pour rien au monde à l’ancien horaire\", although \"les débuts ont été durs\". The isolation is in the past.", "microSkills": ["opinion-fact", "main-idea"] }
+      ]
+    },
+    {
+      "id": "tcf-co-s4",
+      "title": "Débats et analyses",
+      "level": "c1",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "s4-a1",
+          "context": "Débat à la radio, Québec",
+          "lines": [
+            { "speaker": "Animateur", "fr": "Faut-il limiter le nombre de touristes dans le Vieux-Québec ? Nous en débattons avec Hélène Roy, urbaniste, et Marc Dubé, de l’Association des commerçants." },
+            { "speaker": "Hélène Roy", "fr": "Je ne propose pas de fermer la ville, soyons clairs. Mais certains jours d’été, quand trois paquebots accostent en même temps, les rues deviennent impraticables pour les résidents. Il faudrait au minimum étaler les arrivées des croisières." },
+            { "speaker": "Marc Dubé", "fr": "Je comprends la frustration des résidents, je ne la nie pas. Mais ces visiteurs font vivre des centaines de commerces. Si on commence à imposer des quotas, les compagnies iront tout simplement ailleurs, et ce n’est pas le quartier qui en sortira gagnant." },
+            { "speaker": "Hélène Roy", "fr": "Mais personne ne parle de quotas ! Je parle d’organisation." }
+          ]
+        },
+        {
+          "id": "s4-a2",
+          "context": "Entretien avec une linguiste",
+          "lines": [
+            { "speaker": "Journaliste", "fr": "Les anglicismes menacent-ils le français au Québec ?" },
+            { "speaker": "Linguiste", "fr": "Vous savez, chaque génération a cru vivre la fin du français. On s’inquiétait déjà au dix-neuvième siècle de mots qu’on emploie aujourd’hui sans même y penser. L’emprunt est un phénomène normal : toutes les langues vivantes empruntent." },
+            { "speaker": "Linguiste", "fr": "Ce qui devrait nous préoccuper, ce n’est pas tant un mot anglais dans la bouche d’un adolescent. C’est plutôt quand des domaines entiers, comme la recherche scientifique ou l’informatique, se mettent à fonctionner uniquement en anglais. Là, on ne parle plus d’emprunt, mais d’abandon d’un territoire." }
+          ]
+        },
+        {
+          "id": "s4-a3",
+          "context": "Analyse économique à la radio",
+          "lines": [
+            { "speaker": "Économiste", "fr": "Les expériences menées un peu partout sur la semaine de quatre jours donnent des résultats encourageants : moins d’absentéisme, des employés plus satisfaits, et souvent une productivité stable." },
+            { "speaker": "Économiste", "fr": "Mais attention aux conclusions hâtives. Ces essais concernent surtout des entreprises volontaires, déjà convaincues, et le plus souvent des emplois de bureau. Dans un hôpital ou une usine qui tourne en continu, on ne peut pas simplement concentrer le travail sur quatre jours." },
+            { "speaker": "Économiste", "fr": "Autrement dit, la question n’est pas de savoir si la semaine de quatre jours fonctionne, mais pour qui, et à quelles conditions." }
+          ]
+        },
+        {
+          "id": "s4-a4",
+          "context": "Chronique littéraire à la radio",
+          "lines": [
+            { "speaker": "Animateur", "fr": "Et le nouveau roman de Lucie Varenne, alors ? On en parle partout." },
+            { "speaker": "Critique", "fr": "Ah, on en parle partout, c’est indéniable. La couverture est superbe, l’éditeur n’a pas lésiné sur la promotion… Les cinquante premières pages sont d’ailleurs très prenantes." },
+            { "speaker": "Animateur", "fr": "Et ensuite ?" },
+            { "speaker": "Critique", "fr": "Ensuite… disons que l’autrice a manifestement eu une excellente idée de départ. Elle aurait peut-être dû en avoir une deuxième. Les trois cents pages suivantes répètent la même scène sous des éclairages différents. Mais je suis sûr que le livre se vendra très bien." }
+          ]
+        },
+        {
+          "id": "s4-a5",
+          "context": "Conférence de vulgarisation scientifique",
+          "lines": [
+            { "speaker": "Chercheuse", "fr": "Quand on prépare un examen, le réflexe le plus répandu, c’est de relire ses notes, encore et encore. Le problème, c’est que cette méthode donne une illusion de maîtrise : le texte nous paraît familier, alors on croit le savoir." },
+            { "speaker": "Chercheuse", "fr": "Ce qui fonctionne beaucoup mieux, c’est de se tester : fermer le cahier et essayer de retrouver l’information de mémoire. C’est plus pénible, on se trompe souvent, mais c’est précisément cet effort qui consolide le souvenir." },
+            { "speaker": "Chercheuse", "fr": "Et un dernier point : mieux vaut trois séances courtes réparties sur une semaine qu’une seule longue soirée la veille." }
+          ]
+        }
+      ],
+      "items": [
+        { "id": "tcf-co-031", "audioId": "s4-a1", "prompt": "Que propose Hélène Roy ?",
+          "options": ["Mieux répartir dans le temps l’arrivée des navires.", "Interdire les croisières en été.", "Imposer un nombre maximal de visiteurs par jour.", "Réserver certaines rues aux résidents."], "answer": 0,
+          "explain": "\"Il faudrait au minimum étaler les arrivées des croisières\", and she insists \"personne ne parle de quotas\".", "microSkills": ["main-idea", "paraphrase"] },
+        { "id": "tcf-co-032", "audioId": "s4-a1", "prompt": "Sur quel point Marc Dubé rejoint-il son interlocutrice ?",
+          "options": ["Il faut limiter le nombre de paquebots.", "Les compagnies de croisière exagèrent.", "Les habitants ont des raisons d’être mécontents.", "Le quartier profite peu du tourisme."], "answer": 2,
+          "explain": "\"Je comprends la frustration des résidents, je ne la nie pas\": he concedes this point before disagreeing.", "microSkills": ["opinion-fact", "inference"] },
+        { "id": "tcf-co-033", "audioId": "s4-a2", "prompt": "Selon la linguiste, qu’est-ce qui est réellement inquiétant ?",
+          "options": ["L’emprunt de mots anglais par les jeunes.", "L’évolution rapide du vocabulaire.", "L’oubli de mots du XIXe siècle.", "Le recul du français dans des secteurs complets d’activité."], "answer": 3,
+          "explain": "\"Ce qui devrait nous préoccuper… c’est plutôt quand des domaines entiers… se mettent à fonctionner uniquement en anglais.\"", "microSkills": ["main-idea"] },
+        { "id": "tcf-co-034", "audioId": "s4-a2", "prompt": "Quelle attitude adopte-t-elle face aux discours alarmistes sur les anglicismes ?",
+          "options": ["Elle les partage entièrement.", "Elle les relativise en les replaçant dans l’histoire.", "Elle les juge dangereux pour la société.", "Elle refuse de se prononcer."], "answer": 1,
+          "explain": "\"Chaque génération a cru vivre la fin du français. On s’inquiétait déjà au dix-neuvième siècle…\": she puts the fears into historical perspective.", "microSkills": ["inference", "opinion-fact"] },
+        { "id": "tcf-co-035", "audioId": "s4-a3", "prompt": "Quelle réserve l’économiste exprime-t-il ?",
+          "options": ["La productivité baisse presque toujours.", "Les employés finissent par se lasser.", "Les essais ont duré trop peu de temps.", "Les résultats ne sont pas forcément généralisables."], "answer": 3,
+          "explain": "\"Attention aux conclusions hâtives. Ces essais concernent surtout des entreprises volontaires… dans un hôpital ou une usine… on ne peut pas.\"", "microSkills": ["inference"] },
+        { "id": "tcf-co-036", "audioId": "s4-a3", "prompt": "Quelle est la conclusion de l’économiste ?",
+          "options": ["La semaine de quatre jours est un échec.", "Il faut l’imposer à toutes les entreprises.", "Son efficacité dépend du contexte.", "Elle convient surtout aux hôpitaux."], "answer": 2,
+          "explain": "\"La question n’est pas de savoir si la semaine de quatre jours fonctionne, mais pour qui, et à quelles conditions.\"", "microSkills": ["main-idea"] },
+        { "id": "tcf-co-037", "audioId": "s4-a4", "prompt": "Que pense réellement le critique de ce roman ?",
+          "options": ["Malgré un bon début, le livre le déçoit.", "Il l’admire sans réserve.", "Il le trouve trop court.", "Il prévoit un échec commercial."], "answer": 0,
+          "explain": "He praises only the first fifty pages, then: \"Elle aurait peut-être dû en avoir une deuxième [idée]. Les trois cents pages suivantes répètent la même scène.\"", "microSkills": ["opinion-fact", "inference"] },
+        { "id": "tcf-co-038", "audioId": "s4-a4", "prompt": "Quand il dit « je suis sûr que le livre se vendra très bien », le critique sous-entend que…",
+          "options": ["le livre mérite son succès.", "le succès commercial ne garantit pas la qualité.", "l’éditeur a commis une erreur.", "il a lui-même acheté plusieurs exemplaires."], "answer": 1,
+          "explain": "Coming after his criticism and his remarks on the cover and \"la promotion\", the line is ironic: sales and quality are two different things.", "microSkills": ["inference", "intention"] },
+        { "id": "tcf-co-039", "audioId": "s4-a5", "prompt": "Pourquoi, selon la chercheuse, la relecture est-elle trompeuse ?",
+          "options": ["Elle demande trop de temps.", "Elle fatigue la mémoire.", "La familiarité avec le texte fait croire qu’on l’a appris.", "Les notes contiennent souvent des erreurs."], "answer": 2,
+          "explain": "\"Cette méthode donne une illusion de maîtrise : le texte nous paraît familier, alors on croit le savoir.\"", "microSkills": ["paraphrase"] },
+        { "id": "tcf-co-040", "audioId": "s4-a5", "prompt": "Quelle méthode recommande-t-elle ?",
+          "options": ["Relire ses notes la veille de l’examen.", "Étudier une seule fois, mais longtemps.", "Réviser lentement pour éviter les erreurs.", "S’interroger soi-même à plusieurs reprises dans la semaine."], "answer": 3,
+          "explain": "\"Se tester : fermer le cahier et essayer de retrouver l’information de mémoire\" plus \"trois séances courtes réparties sur une semaine\".", "microSkills": ["main-idea", "paraphrase"] }
+      ]
+    }
+  ]
+}

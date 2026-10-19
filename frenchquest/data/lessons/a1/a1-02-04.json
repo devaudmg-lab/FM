@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-02-04",
+  "level": "a1",
+  "unit": "a1-02",
+  "title": "Languages you speak",
+  "goal": "Say which languages you speak and how well, using the regular -er verb pattern.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-er", "kind": "grammar", "fr": "parler (verbes en -er)", "en": "regular -er verbs in the present",
+      "drills": [
+        { "type": "cloze", "text": "Nous ___ anglais et français.", "answers": [["parlons"]], "en": "We speak English and French.", "explain": "nous → -ons: parl + ons." },
+        { "type": "cloze", "text": "Vous ___ espagnol ?", "answers": [["parlez"]], "en": "Do you speak Spanish? (formal)", "explain": "vous → -ez: parl + ez." },
+        { "type": "cloze", "text": "Ils ___ le mandarin.", "answers": [["étudient"]], "en": "They study Mandarin.", "explain": "ils → -ent: étudi + ent. The -ent is silent." },
+        { "type": "mcq", "prompt": "Which is correct?", "options": ["Tu parles arabe ?", "Tu parle arabe ?", "Tu parlez arabe ?"], "optionsFr": true, "answer": 0, "explain": "tu → -es, even though you can't hear the -s." }
+      ] },
+    { "id": "parler", "kind": "vocab", "fr": "parler", "pos": "verb", "en": "to speak",
+      "example": { "fr": "Je parle français.", "en": "I speak French." } },
+    { "id": "etudier", "kind": "vocab", "fr": "étudier", "pos": "verb", "en": "to study",
+      "example": { "fr": "J'étudie le français.", "en": "I'm studying French." } },
+    { "id": "aimer", "kind": "vocab", "fr": "aimer", "pos": "verb", "en": "to like, to love",
+      "example": { "fr": "J'aime l'espagnol.", "en": "I like Spanish." } },
+    { "id": "le-francais", "kind": "vocab", "fr": "français", "article": "le", "gender": "m", "pos": "noun", "en": "French (the language)", "accept": ["français"] },
+    { "id": "l-anglais", "kind": "vocab", "fr": "anglais", "article": "l'", "gender": "m", "pos": "noun", "en": "English (the language)", "accept": ["anglais"] },
+    { "id": "l-espagnol", "kind": "vocab", "fr": "espagnol", "article": "l'", "gender": "m", "pos": "noun", "en": "Spanish (the language)", "accept": ["espagnol"] },
+    { "id": "l-arabe", "kind": "vocab", "fr": "arabe", "article": "l'", "gender": "m", "pos": "noun", "en": "Arabic (the language)", "accept": ["arabe"] },
+    { "id": "le-mandarin", "kind": "vocab", "fr": "mandarin", "article": "le", "gender": "m", "pos": "noun", "en": "Mandarin (the language)", "accept": ["mandarin"] },
+    { "id": "l-hindi", "kind": "vocab", "fr": "hindi", "article": "le", "gender": "m", "pos": "noun", "en": "Hindi (the language)", "accept": ["hindi", "l'hindi"], "note": "You will also see [[l'hindi]]; [[le hindi]] is the more standard form." },
+    { "id": "le-pendjabi", "kind": "vocab", "fr": "pendjabi", "article": "le", "gender": "m", "pos": "noun", "en": "Punjabi (the language)", "accept": ["pendjabi", "le panjabi", "panjabi"] },
+    { "id": "un-peu", "kind": "phrase", "fr": "Je parle un peu français.", "en": "I speak a little French.", "accept": ["Je parle un peu le français."] },
+    { "id": "couramment", "kind": "vocab", "fr": "couramment", "pos": "adverb", "en": "fluently",
+      "example": { "fr": "Raj parle couramment l'anglais.", "en": "Raj speaks English fluently." } },
+    { "id": "vous-parlez", "kind": "phrase", "fr": "Vous parlez anglais ?", "en": "Do you speak English? (formal)",
+      "accept": ["Parlez-vous anglais ?", "Est-ce que vous parlez anglais ?", "Vous parlez l'anglais ?", "Parlez-vous l'anglais ?", "Est-ce que vous parlez l'anglais ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Which languages?",
+      "blocks": [
+        { "type": "dialogue", "title": "At a job fair in Ottawa",
+          "context": "Amira talks to Alex, a recruiter at a bank stand.",
+          "lines": [
+            { "speaker": "Alex", "fr": "Bonjour, madame ! Vous parlez anglais ?", "en": "Hello, ma'am! Do you speak English?" },
+            { "speaker": "Amira", "fr": "Oui, je parle anglais et arabe. Et je parle un peu français.", "en": "Yes, I speak English and Arabic. And I speak a little French." },
+            { "speaker": "Alex", "fr": "Un peu ? Vous parlez bien français !", "en": "A little? You speak French well!" },
+            { "speaker": "Amira", "fr": "Merci ! J'étudie le français à Gatineau.", "en": "Thank you! I'm studying French in Gatineau." },
+            { "speaker": "Alex", "fr": "Ici, nous parlons français et anglais avec les clients.", "en": "Here, we speak French and English with the customers." },
+            { "speaker": "Amira", "fr": "Parfait ! J'aime le français.", "en": "Perfect! I like French." }
+          ] },
+        { "type": "dialogue", "title": "Later, at the coffee stand",
+          "context": "Raj and Mei, two job seekers, chat.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Tu parles hindi ?", "en": "Do you speak Hindi?" },
+            { "speaker": "Mei", "fr": "Non, je parle mandarin et anglais. Et toi ?", "en": "No, I speak Mandarin and English. And you?" },
+            { "speaker": "Raj", "fr": "Je parle hindi, pendjabi et anglais. À la maison, nous parlons pendjabi.", "en": "I speak Hindi, Punjabi and English. At home, we speak Punjabi." },
+            { "speaker": "Mei", "fr": "Et tu parles français couramment ?", "en": "And do you speak French fluently?" },
+            { "speaker": "Raj", "fr": "Pas encore ! J'étudie le français, comme toi.", "en": "Not yet! I'm studying French, like you." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen first. Notice the different endings: [[je parle]], [[tu parles]], [[nous parlons]], [[vous parlez]]." }
+      ] },
+    { "type": "understand", "title": "The -er pattern",
+      "blocks": [
+        { "type": "explain", "title": "One pattern, thousands of verbs",
+          "body": "Most French verbs end in **-er**: [[parler]], [[étudier]], [[aimer]], and [[habiter]] from the last lesson. They all work the same way:\n\n- remove **-er** → [[parl-]]\n- add the ending for each person: **-e, -es, -e, -ons, -ez, -ent**\n\nLearn this once and you can use almost every -er verb you meet." },
+        { "type": "table", "title": "Parler in the present",
+          "head": ["", "parler", "English"],
+          "rows": [
+            ["je", "parle", "I speak"],
+            ["tu", "parles", "you speak (one friend)"],
+            ["il / elle / on", "parle", "he / she speaks, we speak (informal)"],
+            ["nous", "parlons", "we speak"],
+            ["vous", "parlez", "you speak (formal, or more than one person)"],
+            ["ils / elles", "parlent", "they speak"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Four forms sound exactly the same: [[parle, parles, parle, parlent]] = *PARL*. Only [[parlons]] (*par-LON*) and [[parlez]] (*par-LÉ*) sound different." },
+        { "type": "table", "title": "Étudier and aimer: same endings",
+          "head": ["", "étudier", "aimer"],
+          "rows": [
+            ["j'", "étudie", "aime"],
+            ["tu", "étudies", "aimes"],
+            ["il / elle / on", "étudie", "aime"],
+            ["nous", "étudions", "aimons"],
+            ["vous", "étudiez", "aimez"],
+            ["ils / elles", "étudient", "aiment"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "These verbs start with a vowel, so [[je]] becomes [[j']]: [[j'étudie]], [[j'aime]]. You also hear a *z* liaison: [[nous‿étudions]], [[vous‿aimez]], [[ils‿aiment]]." },
+        { "type": "pattern", "title": "Parler + a language",
+          "pattern": "parler + language (usually no article) · étudier / aimer + le / l' + language",
+          "note": "Language names are **masculine** and take **no capital letter**. After [[parler]], people usually drop the article. After [[étudier]] and [[aimer]], keep it.",
+          "examples": [
+            { "fr": "Je parle français.", "en": "I speak French." },
+            { "fr": "Ils parlent arabe et anglais.", "en": "They speak Arabic and English." },
+            { "fr": "J'étudie le français.", "en": "I'm studying French." },
+            { "fr": "Tu aimes l'espagnol ?", "en": "Do you like Spanish?" }
+          ] },
+        { "type": "table", "title": "How well?",
+          "head": ["French", "English"],
+          "rows": [
+            ["Je parle un peu français.", "I speak a little French."],
+            ["Je parle bien français.", "I speak French well."],
+            ["Je parle très bien anglais.", "I speak English very well."],
+            ["Je parle anglais couramment.", "I speak English fluently."],
+            ["Je parle couramment l'anglais.", "I speak English fluently."]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "[[Un peu]], [[bien]] and [[très bien]] usually go **right after the verb**. [[Couramment]] often goes at the end. If you put it right after the verb, keep the article: [[Je parle couramment l'anglais.]]" },
+        { "type": "vocab", "title": "Languages and verbs", "itemIds": ["parler", "etudier", "aimer", "le-francais", "l-anglais", "l-espagnol", "l-arabe", "le-mandarin", "l-hindi", "le-pendjabi", "couramment"] },
+        { "type": "deepdive", "kind": "why", "title": "Language or nationality?",
+          "body": "Many language names are the same word as the **masculine** nationality: [[français]], [[anglais]], [[espagnol]], [[arabe]]. Context tells you which one:\n\n- [[Il est français.]] = He is French (nationality, with être).\n- [[Il parle français.]] = He speaks French (the language, with parler).\n\nFor Chinese, [[le chinois]] is the general word; [[le mandarin]] is more precise. For Hindi, you'll see both [[le hindi]] (more standard) and [[l'hindi]]. Punjabi is also spelled [[le panjabi]]." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Capital letters:** [[Je parle Anglais]] is wrong in French. Write [[Je parle anglais]].\n- **le + vowel:** [[le anglais]] → [[l'anglais]], [[le espagnol]] → [[l'espagnol]].\n- **être + verb:** English “I am speaking” is just [[je parle]] in French. Never [[je suis parle]].\n- **Pronouncing -ent:** in [[ils parlent]], the -ent is silent. Say *il PARL*, not *il par-LENT*." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "Canada has two official languages, [[le français]] and [[l'anglais]]. In job ads, [[bilingue]] almost always means **French and English**. In Québec, French is the official language of the province, so it is the normal language of work and public services.\n\nAfter English and French, languages like Punjabi, Mandarin, Arabic and Spanish are among the most common in Canada, so you'll often hear [[Tu parles pendjabi ?]] or [[Vous parlez arabe ?]]\n\nIn informal Québec speech you may hear [[Tu parles-tu français ?]] The second [[tu]] just marks a yes/no question. It is very casual: understand it, but don't copy it yet.",
+          "examples": [ { "fr": "Je suis bilingue : je parle français et anglais.", "en": "I'm bilingual: I speak French and English." } ] },
+        { "type": "deepdive", "kind": "examples", "title": "Preview: saying you don't speak a language",
+          "body": "You'll learn negation later. For now, you can use this as a chunk, like [[je ne comprends pas]] from unit 1: put [[ne]] before the verb and [[pas]] after it.",
+          "examples": [ { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Say each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Je parle un peu français.", "en": "I speak a little French.", "tip": "parle is one syllable: PARL." },
+            { "fr": "Vous parlez anglais ?", "en": "Do you speak English? (formal)", "tip": "parlez ends in an é sound: par-LÉ. Let your voice rise at the end to make it a question." },
+            { "fr": "Nous étudions le français.", "en": "We're studying French.", "tip": "Liaison: nou-z‿étudions." },
+            { "fr": "Ils aiment l'espagnol.", "en": "They like Spanish.", "tip": "The z sound in il-z‿aiment shows it's plural." },
+            { "fr": "Il parle couramment l'arabe.", "en": "He speaks Arabic fluently.", "tip": "couramment: koo-ra-MAN." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Elles aiment l'arabe.", "en": "They like Arabic.", "prompt": "Who likes Arabic?", "options": ["Several women", "One woman", "One man"], "answer": 0, "explain": "You hear a *z* in [[elles‿aiment]], so it's plural. [[Elle aime]] has no z." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je parle anglais couramment.", "en": "I speak English fluently.", "prompt": "How well does the speaker speak English?", "options": ["Fluently", "A little", "Well, but not fluently"], "answer": 0, "explain": "[[Couramment]] means fluently." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Nous ___ français et anglais.", "answers": [["parlons"]], "choices": ["parlons", "parlez", "parlent", "parle"], "en": "We speak French and English.", "explain": "nous → [[-ons]]: [[parlons]]." },
+        { "id": "r2", "type": "cloze", "text": "Mei et Raj ___ le français.", "answers": [["étudient"]], "choices": ["étudient", "étudiez", "étudie", "étudions"], "en": "Mei and Raj are studying French.", "explain": "Two people = ils → [[-ent]]: [[étudient]]." },
+        { "id": "r3", "type": "mcq", "prompt": "How do you say “I speak Spanish”?", "options": ["Je parle espagnol.", "Je parle Espagnol.", "Je suis parle espagnol.", "Je parle le espagnol."], "optionsFr": true, "answer": 0,
+          "explain": "[[parler]] + language, no capital letter.",
+          "optionFeedback": [null, "Language names take no capital letter in French.", "Don't add être: “I speak” is just je parle.", "le + a vowel becomes l', and with parler you usually drop the article anyway."] },
+        { "id": "r4", "type": "translate", "prompt": "Do you speak English? (formal)", "accept": ["Vous parlez anglais ?", "Parlez-vous anglais ?", "Est-ce que vous parlez anglais ?", "Vous parlez l'anglais ?", "Parlez-vous l'anglais ?", "Est-ce que vous parlez l'anglais ?"], "explain": "Formal → [[vous parlez]]. Rising intonation is enough to make it a question." },
+        { "id": "r5", "type": "match", "prompt": "Match the languages.", "pairs": [["l'arabe", "Arabic"], ["l'espagnol", "Spanish"], ["le mandarin", "Mandarin"], ["le hindi", "Hindi"], ["le pendjabi", "Punjabi"]] },
+        { "id": "r6", "type": "translate", "prompt": "I speak a little French.", "accept": ["Je parle un peu français.", "Je parle un peu le français."], "hint": "un peu goes right after the verb.", "explain": "[[Je parle un peu français.]] [[Un peu]] comes straight after [[parle]]." },
+        { "id": "r7", "type": "reorder", "prompt": "She speaks Arabic fluently.", "accept": ["Elle parle couramment l'arabe.", "Elle parle l'arabe couramment."], "extra": ["parlent"], "explain": "elle → [[parle]]. [[Couramment]] can go right after the verb or at the end." },
+        { "id": "r8", "type": "dictation", "fr": "Vous étudiez l'espagnol ?", "accept": [], "explain": "[[étudiez]] starts with é and ends in -ez; [[l'espagnol]] has an apostrophe." },
+        { "id": "r9", "type": "translate", "prompt": "My name is Mei, I'm Chinese and I speak Mandarin.", "accept": ["Je m'appelle Mei, je suis chinoise et je parle mandarin.", "Je m'appelle Mei. Je suis chinoise et je parle mandarin.", "Je m'appelle Mei, je suis chinoise et je parle le mandarin.", "Je m'appelle Mei. Je suis chinoise et je parle le mandarin.", "Moi, c'est Mei, je suis chinoise et je parle mandarin.", "Moi, c'est Mei, je suis chinoise et je parle le mandarin."], "hint": "Mei is a woman.", "explain": "Three verbs: [[je m'appelle]], [[je suis]] (+ feminine [[chinoise]]) and [[je parle]]." },
+        { "id": "r10", "type": "cloze", "text": "Tu ___ le français ?", "answers": [["aimes"]], "choices": ["aimes", "aime", "aimez", "aimons"], "en": "Do you like French? (to a friend)", "explain": "tu → [[-es]]: [[tu aimes]]. The -s is silent." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A recruiter asks about your languages. Say which languages you speak and how well, say what you are studying, and ask the recruiter one question with vous.", "seconds": 30,
+          "checklist": ["Je parle + 2 or 3 languages", "How well: un peu / bien / couramment", "J'étudie le français", "A question: Vous parlez… ?"],
+          "models": [ { "label": "Model answer", "fr": "Je parle espagnol et anglais. Je parle anglais couramment, et je parle un peu français. J'étudie le français à Montréal. Et vous, vous parlez espagnol ?", "en": "I speak Spanish and English. I speak English fluently, and I speak a little French. I'm studying French in Montréal. And you, do you speak Spanish?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Fill in the “Languages” section of your profile on a volunteer website. Write 3 or 4 sentences about the languages you speak, study or like.", "wordRange": [15, 40],
+          "checklist": ["Je parle… with at least two languages", "Say how well (un peu, bien, couramment)", "Use j'étudie or j'aime with le / l'", "No capital letters on language names"],
+          "models": [ { "label": "Model answer", "fr": "Je parle hindi et pendjabi. Je parle très bien anglais. J'étudie le français et je parle un peu français. J'aime aussi l'espagnol !", "en": "I speak Hindi and Punjabi. I speak English very well. I'm studying French and I speak a little French. I like Spanish too!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate regular **-er verbs**: [[je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent]]\n- Say which languages you speak: [[Je parle anglais et un peu français.]]\n- Use [[j'étudie le français]] and [[j'aime l'espagnol]], with the article\n- Ask [[Vous parlez anglais ?]] / [[Tu parles arabe ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made le hindi the main form (l'hindi accepted); removed chinois as an accepted answer for Mandarin; clarified that couramment right after the verb keeps the article; labelled Tu parles-tu as informal Québec speech and added missing accept variants." }
+}

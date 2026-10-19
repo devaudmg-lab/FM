@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-09-05",
+  "level": "a2",
+  "unit": "a2-09",
+  "title": "Organize an outing",
+  "goal": "Organize an outing or a potluck with friends or colleagues: invite, handle yes and no answers, share the tasks and use lui, leur, y and en naturally.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "repas-partage", "kind": "vocab", "fr": "repas-partage", "article": "un", "gender": "m", "en": "potluck", "pos": "noun", "accept": ["le repas-partage"], "note": "Québec. In France: une auberge espagnole.",
+      "example": { "fr": "Samedi, on fait un repas-partage chez Karim.", "en": "On Saturday, we're having a potluck at Karim's." } },
+    { "id": "apporter", "kind": "vocab", "fr": "apporter", "en": "to bring (something)", "pos": "verb",
+      "example": { "fr": "J'apporte une salade.", "en": "I'm bringing a salad." } },
+    { "id": "qui-apporte", "kind": "phrase", "fr": "Qui apporte quoi ?", "en": "Who's bringing what?" },
+    { "id": "je-m-occupe", "kind": "phrase", "fr": "Je m'occupe des boissons.", "en": "I'll take care of the drinks." },
+    { "id": "il-en-faut", "kind": "phrase", "fr": "Il en faut combien ?", "en": "How many do we need?", "accept": ["Combien est-ce qu'il en faut ?"] },
+    { "id": "au-courant", "kind": "phrase", "fr": "Elle est au courant ?", "en": "Does she know (about it)?", "accept": ["Est-ce qu'elle est au courant ?"] },
+    { "id": "tenir-au-courant", "kind": "phrase", "fr": "Je vous tiens au courant.", "en": "I'll keep you posted. (to a group)", "accept": ["Je vous tiens au courant !"] },
+    { "id": "j-y-serai", "kind": "phrase", "fr": "J'y serai !", "en": "I'll be there!" },
+    { "id": "partager-frais", "kind": "phrase", "fr": "On partage les frais.", "en": "We split the costs.", "accept": ["On partage les coûts."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A potluck for Sofia",
+      "intro": "This group chat uses everything from the unit. Read it once for the plan, then once to spot the pronouns.",
+      "blocks": [
+        { "type": "text", "title": "The team group chat",
+          "fr": "Karim : Salut tout le monde ! Samedi prochain, je fais un repas-partage chez moi pour fêter l'arrivée de Sofia dans l'équipe. Ça vous dit ? On commence vers 18 h.\nLucie : Super idée ! J'y serai. J'apporte une tourtière.\nRaj : Avec plaisir ! Moi, je m'occupe des boissons. Il en faut combien ?\nKarim : On va être douze, à peu près. Prends des jus et de l'eau pétillante, c'est parfait. On partage les frais, bien sûr.\nAmira : Désolée, samedi je ne peux pas : ma sœur arrive de Casablanca ce jour-là. Mais je vais faire un gâteau ! Lucie, tu peux passer chez moi vendredi pour le prendre ?\nLucie : Pas de problème !\nMei : Je viens aussi ! Qui apporte le dessert ? Il y en a déjà un ?\nKarim : Oui, il y en a un : le gâteau d'Amira ! Mei, tu pourrais apporter une salade ?\nMei : Ça marche. Et Sofia, elle est au courant ? Quelqu'un lui a parlé ?\nKarim : Oui, je lui ai téléphoné hier. Elle est très contente ! Mon adresse : 2150, rue Beaubien, appartement 4. Je vous tiens au courant !",
+          "en": "Karim: Hi everyone! Next Saturday, I'm having a potluck at my place to celebrate Sofia joining the team. Are you up for it? We start around 6 p.m. Lucie: Great idea! I'll be there. I'm bringing a tourtière (meat pie). Raj: I'd love to! I'll take care of the drinks. How many do we need? Karim: There'll be about twelve of us. Get juice and sparkling water, that's perfect. We'll split the costs, of course. Amira: Sorry, I can't on Saturday: my sister is arriving from Casablanca that day. But I'm going to make a cake! Lucie, can you come by my place on Friday to pick it up? Lucie: No problem! Mei: I'm coming too! Who's bringing dessert? Is there one already? Karim: Yes, there's one: Amira's cake! Mei, could you bring a salad? Mei: Sounds good. And Sofia, does she know? Has anyone talked to her? Karim: Yes, I called her yesterday. She's very happy! My address: 2150 Beaubien Street, apartment 4. I'll keep you posted!" },
+        { "id": "d1", "type": "mcq", "prompt": "Who can't come, and why?", "options": ["Amira: her sister is arriving that day.", "Raj: he has to work.", "Mei: she has to make a cake."], "answer": 0,
+          "explain": "[[Désolée, samedi je ne peux pas : ma sœur arrive de Casablanca]]. A polite refusal with a reason, and she still helps with a cake." },
+        { "id": "d2", "type": "mcq", "prompt": "In “Quelqu'un lui a parlé ?”, who is lui?", "options": ["Sofia", "Karim", "Amira's sister"], "answer": 0,
+          "explain": "Mei asks about Sofia: [[parler à Sofia]] → [[lui parler]]." }
+      ] },
+    { "type": "understand", "title": "Your unit toolkit",
+      "intro": "Everything from the unit on one page.",
+      "blocks": [
+        { "type": "table", "title": "1. Inviting and answering",
+          "head": ["Step", "With tu", "With vous"],
+          "rows": [
+            ["Check", "Tu es libre samedi ?", "Vous êtes libre samedi ?"],
+            ["Invite", "Ça te dit de venir ?", "Ça vous dirait de venir ?"],
+            ["Suggest", "Et si on allait au parc ?", "Nous pourrions aller au parc."],
+            ["Yes", "Avec plaisir ! / Ça marche !", "Avec plaisir ! / Volontiers !"],
+            ["Not sure", "Je te redis ça demain.", "Je vous confirme demain."],
+            ["No", "Désolé, je ne peux pas : je travaille.", "Merci, c'est gentil, mais malheureusement, je ne suis pas libre."]
+          ],
+          "frCols": [1, 2], "sayCol": true },
+        { "type": "table", "title": "2. Which pronoun?",
+          "head": ["What you replace", "Pronoun", "Example"],
+          "rows": [
+            ["a specific person or thing (no à)", "le, la, l', les", "Le gâteau ? Lucie va le prendre."],
+            ["à + one person", "lui", "Sofia ? Je lui ai téléphoné."],
+            ["à + several people", "leur", "Les voisins ? Je vais leur écrire."],
+            ["a place (à, au, chez, dans…)", "y", "Chez Karim ? On y va à 18 h."],
+            ["a quantity (du, des, un peu de, a number…)", "en", "Des chaises ? Il en faut douze."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "All of them go **before the verb they belong to**: [[je lui parle]], [[je vais y aller]], [[j'en ai acheté]], [[je ne l'ai pas vu]]." },
+        { "type": "table", "title": "3. Organizing an outing",
+          "head": ["To do this", "Say"],
+          "rows": [
+            ["Share the tasks", "Qui apporte quoi ? / Je m'occupe des boissons. / Tu pourrais apporter une salade ?"],
+            ["Count", "On va être combien ? / On va être douze. / Il en faut combien ?"],
+            ["Money", "On partage les frais. / Chacun paie sa part."],
+            ["Meeting point", "On se retrouve devant le métro à 9 h. / Je passe te prendre à 9 h."],
+            ["Follow-up", "Elle est au courant ? / Je vous tiens au courant. / J'y serai !"]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "deepdive", "kind": "mistakes", "title": "The unit's top mistakes",
+          "body": "- *Tu es gratuit ?* → [[Tu es libre ?]]\n- *Je ne veux pas* (as a refusal) → [[Je ne peux pas]]\n- *Je le téléphone* → [[Je lui téléphone]] (téléphoner **à**)\n- *Je leurs écris* → [[Je leur écris]] (no -s on the pronoun)\n- *J'ai lui parlé* → [[Je lui ai parlé]]\n- *Tu vas chez Karim ? — Oui, je vais.* → [[Oui, j'y vais.]]\n- *Tu as des chaises ? — Oui, j'ai quatre.* → [[Oui, j'en ai quatre.]]\n- *J'y vais aller* → [[Je vais y aller]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Going out, Québec style",
+          "body": "- **Le repas-partage** (potluck) is very common at work, in community centres and among neighbours. In France: [[une auberge espagnole]].\n- **Apportez votre vin:** some Québec restaurants don't sell alcohol but let you bring your own wine. Signs say [[Apportez votre vin]].\n- **La tourtière** is a traditional meat pie, especially at the holidays.\n- **Je passe te prendre** = I'll pick you up (by car). Carpooling is [[le covoiturage]].\n- Splitting the bill is normal among friends: [[On sépare la facture ?]] Servers in Québec often ask: [[Ensemble ou séparé ?]] (Together or separate?)" }
+      ] },
+    { "type": "hear", "title": "A voicemail and a conversation",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Ça vous dit ? On commence vers 18 h.", "en": "Are you up for it? We start around 6 p.m." },
+            { "fr": "Je m'occupe des boissons. Il en faut combien ?", "en": "I'll take care of the drinks. How many do we need?" },
+            { "fr": "Désolée, samedi je ne peux pas.", "en": "Sorry, I can't on Saturday. (woman speaking)" },
+            { "fr": "Je lui ai téléphoné hier.", "en": "I called him / her yesterday." },
+            { "fr": "J'y serai ! Je vous tiens au courant.", "en": "I'll be there! I'll keep you posted." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Salut Karim, c'est Olivier. Merci pour l'invitation ! Samedi, je travaille jusqu'à 19 h, mais si ça te va, je peux arriver vers 20 h. J'apporterai du fromage. Rappelle-moi !",
+          "en": "Hi Karim, it's Olivier. Thanks for the invitation! On Saturday I work until 7 p.m., but if that's OK with you, I can arrive around 8. I'll bring some cheese. Call me back!",
+          "prompt": "What is Olivier's answer?", "options": ["He'll come late, around 8 p.m., with cheese.", "He can't come at all.", "He'll come at 6 p.m. with a cake."], "answer": 0,
+          "explain": "[[je travaille jusqu'à 19 h]] (the problem), [[je peux arriver vers 20 h]] (the solution), [[J'apporterai du fromage]] (his contribution)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Des chaises ? J'en ai six chez moi. Je peux les apporter samedi matin, j'y vais en voiture.",
+          "en": "Chairs? I have six at home. I can bring them on Saturday morning, I'm going there by car.",
+          "prompt": "How will the chairs get to the party?", "options": ["The speaker will bring six chairs by car on Saturday morning.", "The speaker will buy six chairs on Saturday.", "Karim will pick up the chairs on Friday."], "answer": 0,
+          "explain": "[[J'en ai six]] = I have six (chairs); [[je peux les apporter]] = I can bring them; [[j'y vais en voiture]] = I'm going there by car." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Ten questions from the whole unit and earlier ones. Answer without looking at the toolkit.",
+      "blocks": [
+        { "id": "r1", "type": "translate", "prompt": "Do you feel like coming to my place on Saturday? (to a friend)", "accept": ["Ça te dit de venir chez moi samedi ?", "Ça te tente de venir chez moi samedi ?", "Tu veux venir chez moi samedi ?", "Est-ce que tu veux venir chez moi samedi ?", "Samedi, ça te dit de venir chez moi ?", "Ça te dirait de venir chez moi samedi ?"],
+          "explain": "[[Ça te dit de]] + infinitive; [[chez moi]] = at my place." },
+        { "id": "r2", "type": "mcq", "prompt": "Your neighbour invites you to a potluck, but you're working. What do you answer?", "optionsFr": true,
+          "options": ["Merci, c'est gentil ! Malheureusement, je travaille ce soir-là. Une autre fois ?", "Non, je ne veux pas.", "Je suis gratuit dimanche.", "Avec plaisir, je travaille."], "answer": 0,
+          "optionFeedback": [null, "Je ne veux pas sounds rude: use je ne peux pas + a reason.", "Gratuit = free of charge. Available = libre.", "Avec plaisir means yes: it contradicts the reason."] },
+        { "id": "r3", "type": "cloze", "text": "Sofia ? Oui, je ___ ai téléphoné hier.", "answers": [["lui"]], "choices": ["lui", "la", "leur", "y"], "en": "Sofia? Yes, I called her yesterday.",
+          "explain": "[[téléphoner à]] + one person → [[lui]], before [[ai]]." },
+        { "id": "r4", "type": "cloze", "text": "Des boissons ? Il ___ faut combien ?", "answers": [["en"]], "choices": ["en", "y", "les"], "en": "Drinks? How many do we need?",
+          "explain": "A quantity → [[en]]: [[il en faut combien ?]]" },
+        { "id": "r5", "type": "match", "prompt": "Which pronoun replaces each phrase?", "pairs": [["à Lucie", "lui"], ["aux voisins", "leur"], ["chez Karim", "y"], ["des chaises", "en"], ["le gâteau", "le"]] },
+        { "id": "r6", "type": "reorder", "prompt": "I'll take care of the drinks.", "accept": ["Je m'occupe des boissons"], "extra": ["de", "les"],
+          "explain": "[[s'occuper de]] + [[les boissons]] → [[des boissons]] (de + les = des)." },
+        { "id": "r7", "type": "translate", "prompt": "We're going to go there by car.", "accept": ["On va y aller en voiture.", "Nous allons y aller en voiture.", "On va y aller en auto.", "Nous allons y aller en auto."],
+          "explain": "[[y]] before the infinitive: [[on va y aller]]. [[en voiture]] is a preposition, not the pronoun en." },
+        { "id": "r8", "type": "cloze", "text": "Samedi, j'___ une salade. (apporter, futur simple)", "answers": [["apporterai"]], "en": "On Saturday, I'll bring a salad.",
+          "explain": "Review: futur simple = infinitive + [[-ai]]: [[j'apporterai]]." },
+        { "id": "r9", "type": "cloze", "text": "Un repas-partage, c'est ___ cher ___ le restaurant !", "answers": [["moins"], ["que"]], "choices": ["moins", "plus", "que", "de"], "en": "A potluck is cheaper than the restaurant!",
+          "explain": "Review: comparison [[moins… que]] = less… than." },
+        { "id": "r10", "type": "dictation", "fr": "Je ne leur ai pas encore écrit, mais je vous tiens au courant.", "accept": ["Je ne leur ai pas encore écrit mais je vous tiens au courant."],
+          "explain": "[[ne + leur + ai + pas]]; [[leur]] has no -s." }
+      ] },
+    { "type": "apply", "title": "Mission: organize the outing",
+      "intro": "Choose your outing: a 5 à 7, a potluck, or a day at the sugar shack. Use the checklists, then compare with the two models.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Call a friend to invite them to your outing (60 seconds). Say what it is, when and where; ask if they are free; ask them to bring something; then react to their answer: they can come, but will arrive late. Finish by agreeing on a meeting point.", "promptFr": "Vous téléphonez à un ami ou à une amie pour l'inviter.", "seconds": 60,
+          "checklist": ["Greeting and a check: Tu es libre samedi ?", "The invitation: Ça te dit de… ? / Et si… ?", "What, when, where", "A task: Tu pourrais apporter… ? / Il en faut…", "A reaction to the late arrival: Pas de problème ! / Ça marche !", "At least one lui / leur and one y or en", "A meeting point: On se retrouve… / Je passe te prendre…"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Raj ! Tu es libre dimanche ? Avec Lucie, on va à la cabane à sucre. Ça te dit de venir ? … Super ! On y va en voiture. Tu pourrais apporter des bouteilles d'eau ? Il en faut six. … Tu vas arriver un peu en retard ? Pas de problème ! On se retrouve devant chez Lucie à 10 h. Ça t'arrange ?",
+              "en": "Hi Raj! Are you free on Sunday? Lucie and I are going to the sugar shack. Do you feel like coming? … Great! We're going there by car. Could you bring some bottles of water? We need six. … You're going to arrive a bit late? No problem! Let's meet in front of Lucie's place at 10 a.m. Does that work for you?" },
+            { "label": "Stronger model answer", "fr": "Allô Amira ? C'est Karim ! Dis, tu fais quoi samedi soir ? Je fais un repas-partage chez moi pour l'arrivée de Sofia. Ça te dirait de venir ? … Tu travailles jusqu'à 19 h ? Ce n'est pas grave, viens quand tu veux, on va être là jusqu'à minuit ! Et si tu as le temps, tu pourrais apporter des baguettes ? Il en faut trois ou quatre. Ah, et Sofia ne sait pas encore qui vient, alors ne lui dis rien ! Tu n'as pas d'auto ? Pas de problème : Mei passe près de chez toi, je vais lui demander de passer te prendre. Je te tiens au courant !",
+              "en": "Hello Amira? It's Karim! Say, what are you doing on Saturday evening? I'm having a potluck at my place for Sofia's arrival. Would you like to come? … You work until 7 p.m.? That's OK, come whenever you want, we'll be there until midnight! And if you have time, could you bring some baguettes? We need three or four. Oh, and Sofia doesn't know who's coming yet, so don't tell her anything! You don't have a car? No problem: Mei goes past your place, I'm going to ask her to pick you up. I'll keep you posted!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a message to a group of friends or colleagues to organize your outing (60–110 words). Say what it is and why, give the date, time and place, share the tasks, mention one person who can't come or who doesn't know yet, and say how you'll meet or get there.", "promptFr": "Écrivez un message de groupe pour organiser une sortie.", "wordRange": [60, 110],
+          "checklist": ["A greeting for a group: Salut tout le monde ! / Bonjour à toutes et à tous,", "The invitation and the reason", "Date, time and place", "Tasks: qui apporte quoi, je m'occupe de…", "At least one lui or leur", "At least one y and one en", "How to get there or a meeting point", "A closing: Je vous tiens au courant ! / À samedi !"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut tout le monde ! Dimanche prochain, on va à la cabane à sucre Chez Ti-Paul pour fêter le printemps. Ça vous dit ? On y va en voiture, on part à 9 h 30 devant le métro Jean-Talon. Il faut réserver : on va être combien ? Lucie a déjà réservé six places, mais il en faut peut-être huit. Raj ne peut pas venir, il travaille. Je vais lui apporter de la tire ! Je vous tiens au courant. Mei",
+              "en": "Hi everyone! Next Sunday, we're going to the Chez Ti-Paul sugar shack to celebrate spring. Are you up for it? We're going there by car, we leave at 9:30 a.m. from in front of Jean-Talon metro. We need to book: how many of us will there be? Lucie has already booked six spots, but we may need eight. Raj can't come, he's working. I'm going to bring him some maple taffy! I'll keep you posted. Mei" },
+            { "label": "Stronger model answer", "fr": "Bonjour à toutes et à tous,\nVendredi, c'est le dernier jour de Nguyen avant son départ pour Vancouver. Pour lui dire au revoir, on organise un 5 à 7 au Bistro Saint-Denis, à partir de 17 h. On pourrait aussi lui offrir un beau livre sur Montréal. Je m'occupe de l'acheter, et on partage les frais. Attention, il n'est pas au courant, alors ne lui dites rien ! J'ai parlé aux collègues de Toronto : je leur ai envoyé le lien pour participer en ligne. Si vous n'y êtes jamais allés, le bistro est à cinq minutes du bureau. Je vous tiens au courant !\nCamille",
+              "en": "Hello everyone, Friday is Nguyen's last day before he leaves for Vancouver. To say goodbye to him, we're organizing after-work drinks at the Bistro Saint-Denis, from 5 p.m. We could also give him a nice book about Montréal. I'll take care of buying it, and we'll split the cost. Careful, he doesn't know, so don't tell him anything! I talked to the colleagues in Toronto: I sent them the link to join online. If you've never been there, the bistro is five minutes from the office. I'll keep you posted! Camille" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Organize an outing from start to finish: invite, answer, share tasks ([[Qui apporte quoi ?]] [[Je m'occupe de…]]) and set a meeting point\n- Accept, hesitate or refuse politely with a reason and a new suggestion\n- Avoid repetition with [[le / la / les]], [[lui / leur]], [[y]] and [[en]], placed before the verb, the infinitive or the auxiliary",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced leur referring to l'équipe (singular) in the stronger written model and softened the Apportez votre vin claim. Everything else checked and correct." }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-12-03",
+  "level": "a1",
+  "unit": "a1-12",
+  "title": "A1 writing check",
+  "goal": "Show that you can write correct simple sentences and two short practical messages: introducing yourself to a neighbour and replying to an invitation.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-negation", "kind": "grammar", "fr": "ne… pas / ne… jamais", "en": "negation: not / never",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ parle ___ russe.", "answers": [["ne"], ["pas"]], "en": "I don't speak Russian.", "explain": "The negation goes around the verb: ne + verb + pas." },
+        { "type": "translate", "prompt": "We never work on Sundays.", "accept": ["Nous ne travaillons jamais le dimanche.", "On ne travaille jamais le dimanche."], "explain": "ne… jamais = never; le dimanche = on Sundays (every Sunday)." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Je n'ai pas de voiture.", "Je n'ai pas une voiture.", "Je ne pas ai de voiture."], "optionsFr": true, "answer": 0, "explain": "After a negative verb, un/une/des become de: pas de voiture. And pas comes after the verb." }
+      ] },
+    { "id": "nouveau-quartier", "kind": "phrase", "fr": "Je suis nouveau dans le quartier.", "en": "I'm new in the neighbourhood (man speaking).", "accept": ["Je suis nouvelle dans le quartier."] },
+    { "id": "merci-invitation", "kind": "phrase", "fr": "Merci pour l'invitation !", "en": "Thanks for the invitation!", "accept": ["Merci beaucoup pour l'invitation !", "Merci de l'invitation !", "Merci pour ton invitation !", "Merci pour votre invitation !"] },
+    { "id": "avec-plaisir", "kind": "phrase", "fr": "Avec plaisir !", "en": "With pleasure! (accepting an invitation)" },
+    { "id": "desole", "kind": "phrase", "fr": "Je suis désolé.", "en": "I'm sorry (man speaking).", "accept": ["Je suis désolée.", "Désolé.", "Désolée."] },
+    { "id": "je-ne-peux-pas-venir", "kind": "phrase", "fr": "Je ne peux pas venir.", "en": "I can't come." },
+    { "id": "j-apporte", "kind": "phrase", "fr": "Je peux apporter un dessert ?", "en": "Can I bring a dessert? (offering)", "accept": ["Est-ce que je peux apporter un dessert ?", "J'apporte un dessert ?", "Est-ce que j'apporte un dessert ?"] },
+    { "id": "a-samedi", "kind": "phrase", "fr": "À samedi !", "en": "See you on Saturday!" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What this check measures",
+      "blocks": [
+        { "type": "explain", "title": "A1 writing: what you can do",
+          "body": "At A1, a writer can produce **simple, isolated sentences** about themselves and their daily life, fill in a form with personal details, and write a **short, simple message**: a note to a neighbour, a reply to an invitation, a postcard.\n\nThis check has two parts:\n\n- **Part 1 (graded):** 10 short items on sentence-level accuracy: verb forms, articles, agreement, negation, questions and the futur proche.\n- **Part 2 (self-checked):** two real messages. You write them, then compare with the checklist and the two model answers: an **A1 model** (a solid pass) and a **Strong A1 model** (ready for A2).\n\nAim for **80%** in Part 1 to pass the checkpoint." },
+        { "type": "note", "tone": "info",
+          "body": "**Before you check each answer, reread it once** for the classic A1 slips: the verb ending ([[nous allons]], [[ils vont]]), the agreement ([[elle est gentille]]), the accents ([[désolé]], [[à]]) and the two parts of the negation ([[ne… pas]])." }
+      ] },
+    { "type": "assess", "title": "Part 1: Sentence accuracy",
+      "intro": "Write each answer without looking back at earlier lessons.",
+      "blocks": [
+        { "id": "w1", "type": "cloze", "text": "Raj ___ trente-deux ans.", "answers": [["a"]], "choices": ["a", "est", "ai"], "en": "Raj is thirty-two.",
+          "explain": "Age uses **avoir** in French: [[il a 32 ans]]. [[Il est 32 ans]] is a typical English-speaker mistake." },
+        { "id": "w2", "type": "cloze", "text": "Mes enfants ___ à l'école à pied.", "answers": [["vont"]], "choices": ["vont", "sont", "font"], "en": "My children walk to school.",
+          "explain": "[[Aller]] is irregular: [[ils vont]]. [[Aller à pied]] = to go on foot." },
+        { "id": "w3", "type": "cloze", "text": "Le matin, je prends ___ café, mais je ne mange pas ___ pain.", "answers": [["du"], ["de"]], "en": "In the morning, I have (some) coffee, but I don't eat bread.",
+          "explain": "Some coffee = [[du café]] (de + le). After a negative verb, du/de la/des become **de**: [[pas de pain]]." },
+        { "id": "w4", "type": "translate", "prompt": "My wife is a nurse.", "accept": ["Ma femme est infirmière.", "Ma conjointe est infirmière."], "hint": "No article before a job after être.",
+          "explain": "With **être** + job, French uses no article: [[Elle est infirmière]], not [[une infirmière]]." },
+        { "id": "w5", "type": "cloze", "text": "Ma voisine est très ___. (gentil)", "answers": [["gentille"]], "en": "My neighbour (a woman) is very kind.",
+          "explain": "[[Voisine]] is feminine, so the adjective is feminine too: [[gentil]] → [[gentille]], with a double l." },
+        { "id": "w6", "type": "translate", "prompt": "We're going to visit Québec City on Saturday.",
+          "accept": ["Nous allons visiter Québec samedi.", "On va visiter Québec samedi.", "Nous allons visiter la ville de Québec samedi.", "On va visiter la ville de Québec samedi.", "Samedi, nous allons visiter Québec.", "Samedi, on va visiter Québec.", "Samedi, nous allons visiter la ville de Québec.", "Samedi, on va visiter la ville de Québec.", "Nous allons visiter Québec ce samedi.", "On va visiter Québec ce samedi.", "Nous allons visiter la ville de Québec ce samedi.", "On va visiter la ville de Québec ce samedi."],
+          "hint": "Futur proche: aller + infinitive.",
+          "explain": "Futur proche = **aller** in the present + infinitive: [[nous allons visiter]] or [[on va visiter]]. For “on Saturday”, just say [[samedi]], with no preposition." },
+        { "id": "w7", "type": "translate", "prompt": "Do you want to come to the café with me? (to a friend)",
+          "accept": ["Tu veux venir au café avec moi ?", "Est-ce que tu veux venir au café avec moi ?", "Veux-tu venir au café avec moi ?", "Tu veux aller au café avec moi ?", "Est-ce que tu veux aller au café avec moi ?", "Veux-tu aller au café avec moi ?", "Tu veux venir avec moi au café ?", "Est-ce que tu veux venir avec moi au café ?", "Tu veux aller avec moi au café ?", "Est-ce que tu veux aller avec moi au café ?"],
+          "explain": "[[Vouloir]] + infinitive: [[tu veux venir]]. [[Au café]] = à + le café. Intonation, est-ce que and inversion are all correct." },
+        { "id": "w8", "type": "reorder", "prompt": "Where do you live? (formal)", "accept": ["Où est-ce que vous habitez ?"], "extra": ["êtes"],
+          "explain": "Question word + [[est-ce que]] + subject + verb. [[Vous habitez où ?]] is also correct in speech." },
+        { "id": "w9", "type": "reorder", "prompt": "I don't like coffee.", "accept": ["Je n'aime pas le café."], "extra": ["du"],
+          "explain": "After [[aimer]], use the definite article: [[le café]], even in the negative. [[Pas de]] is for quantities, not for likes." },
+        { "id": "w10", "type": "cloze", "text": "Je ___ travaille ___ le dimanche.", "answers": [["ne"], ["jamais"]], "en": "I never work on Sundays.",
+          "explain": "[[ne… jamais]] = never. Like [[ne… pas]], it goes around the verb: [[je ne travaille jamais]]." }
+      ] },
+    { "type": "apply", "title": "Part 2: Write two messages",
+      "intro": "Write each message, then go through the checklist honestly. Compare with both models: the **A1 model** is a solid pass, the **Strong A1 model** shows where you are going.",
+      "blocks": [
+        { "id": "m1", "type": "write",
+          "prompt": "You have just moved into a new apartment. Write a short note for your neighbour (40–60 words): greet them, introduce yourself (name, where you are from, your apartment), give one or two details about your family, work or languages, and end with a friendly question or offer. You don't know this person yet, so use vous.",
+          "promptFr": "Vous êtes nouveau ou nouvelle dans l'immeuble. Écrivez un petit mot à votre voisin ou à votre voisine pour vous présenter.",
+          "wordRange": [40, 60],
+          "checklist": [
+            "A greeting: Bonjour ! or Bonjour, madame / monsieur",
+            "Your name (Je m'appelle…) and where you are from (Je suis… / Je viens de…)",
+            "Your apartment: J'habite dans l'appartement…",
+            "One or two details: family, work or languages",
+            "Vous throughout, because you don't know the neighbour yet",
+            "A question or an offer: Est-ce qu'il y a… ? / Vous avez… ?",
+            "A friendly closing and your name: À bientôt ! / Bonne journée !",
+            "Final check: verb endings, masculine/feminine agreement, accents"
+          ],
+          "models": [
+            { "label": "A1 model", "fr": "Bonjour ! Je m'appelle Mei Chen. Je suis chinoise et je suis nouvelle dans le quartier. J'habite dans l'appartement 5, à côté de chez vous. Je suis infirmière à l'hôpital. J'ai un fils, il a six ans. Je parle chinois, anglais et un peu français. Vous avez des enfants ? À bientôt ! Mei",
+              "en": "Hello! My name is Mei Chen. I'm Chinese and I'm new in the neighbourhood. I live in apartment 5, next door to you. I'm a nurse at the hospital. I have a son; he's six. I speak Chinese, English and a little French. Do you have children? See you soon! Mei" },
+            { "label": "Strong A1 model", "fr": "Bonjour ! Je m'appelle Karim Haddad. Je suis marocain et j'habite dans l'appartement 12 avec ma femme et nos deux enfants. Je travaille dans un restaurant, rue Saint-Denis. Nous sommes nouveaux dans le quartier : est-ce qu'il y a une bonne boulangerie près d'ici ? Samedi, nous allons prendre un café sur le balcon. Vous voulez venir ? Karim",
+              "en": "Hello! My name is Karim Haddad. I'm Moroccan and I live in apartment 12 with my wife and our two children. I work in a restaurant on Saint-Denis Street. We're new in the neighbourhood: is there a good bakery near here? On Saturday, we're going to have coffee on the balcony. Would you like to come? Karim" }
+          ] },
+        { "type": "text", "title": "Lucie's invitation (a friend from your French class)",
+          "fr": "Salut ! Samedi, c'est mon anniversaire. On fait un petit souper chez moi à 19 h. Tu veux venir ?\nLucie",
+          "en": "Hi! Saturday is my birthday. We're having a little supper at my place at 7 p.m. Do you want to come? Lucie (Québec: le souper = the evening meal; in France, le dîner.)" },
+        { "id": "m2", "type": "write",
+          "prompt": "Reply to Lucie (30–50 words). Accept or refuse, and give a reason or a detail. Thank her, ask a question or make an offer, and close in a friendly way. She is a friend, so use tu.",
+          "promptFr": "Répondez à Lucie : vous acceptez ou vous refusez l'invitation, et vous expliquez pourquoi.",
+          "wordRange": [30, 50],
+          "checklist": [
+            "A greeting with her name: Salut Lucie ! / Bonjour Lucie !",
+            "A thank-you: Merci pour l'invitation !",
+            "A clear answer: Oui, avec plaisir ! or Désolé(e), je ne peux pas venir…",
+            "A reason (je travaille…, parce que…) or a detail (the time, what you bring)",
+            "A question or an offer: Je peux apporter… ? / On peut… ?",
+            "Something for the occasion: Joyeux anniversaire !",
+            "Tu throughout, and a closing: À samedi ! / Bises, + your name",
+            "Final check: je ne peux pas + infinitive, accents on désolé(e) and à"
+          ],
+          "models": [
+            { "label": "A1 model", "fr": "Salut Lucie ! Merci beaucoup pour l'invitation. Oui, je viens avec plaisir samedi à 19 h ! Tu habites où exactement ? Je peux apporter un dessert ou des boissons. Joyeux anniversaire et à samedi ! Amira",
+              "en": "Hi Lucie! Thanks a lot for the invitation. Yes, I'd love to come on Saturday at 7 p.m.! Where exactly do you live? I can bring a dessert or some drinks. Happy birthday, and see you on Saturday! Amira" },
+            { "label": "Strong A1 model", "fr": "Salut Lucie ! Merci beaucoup pour ton invitation, c'est très gentil. Malheureusement, je ne peux pas venir samedi soir : je travaille au restaurant jusqu'à 23 h. Je suis vraiment désolé ! Est-ce qu'on peut prendre un café ensemble dimanche après-midi ? Je vais apporter un petit cadeau. Joyeux anniversaire ! Olivier",
+              "en": "Hi Lucie! Thanks a lot for your invitation, that's very kind. Unfortunately, I can't come on Saturday evening: I'm working at the restaurant until 11 p.m. I'm really sorry! Can we have a coffee together on Sunday afternoon? I'll bring a little present. Happy birthday! Olivier" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Write accurate A1 sentences: avoir for age, aller, partitives, agreement, negation, questions and the futur proche\n- Introduce yourself to a neighbour in a short, polite note with **vous**\n- Accept or refuse an invitation with a reason: [[Avec plaisir !]] / [[Désolé(e), je ne peux pas venir.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Clarified w3 English to '(some) coffee' so du is the one answer; added missing word-order variants to w6/w7; replaced 'Vous êtes les bienvenus !' (plural, ambiguous to one neighbour) with 'Vous voulez venir ?'; labelled souper as Québec usage." }
+}

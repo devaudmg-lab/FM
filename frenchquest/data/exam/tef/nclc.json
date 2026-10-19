@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "verifiedOn": "2026-10-17",
+  "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
+  "scoreBasis": "Équivalence ancien score (per ability), as required by IRCC",
+  "scale": { "eo": [0, 450], "co": [0, 360], "ce": [0, 300], "ee": [0, 450] },
+  "abilities": {
+    "eo": [ { "nclc": 10, "min": 393, "max": 450 }, { "nclc": 9, "min": 371, "max": 392 }, { "nclc": 8, "min": 349, "max": 370 }, { "nclc": 7, "min": 310, "max": 348 }, { "nclc": 6, "min": 271, "max": 309 }, { "nclc": 5, "min": 226, "max": 270 }, { "nclc": 4, "min": 181, "max": 225 } ],
+    "co": [ { "nclc": 10, "min": 316, "max": 360 }, { "nclc": 9, "min": 298, "max": 315 }, { "nclc": 8, "min": 280, "max": 297 }, { "nclc": 7, "min": 249, "max": 279 }, { "nclc": 6, "min": 217, "max": 248 }, { "nclc": 5, "min": 181, "max": 216 }, { "nclc": 4, "min": 145, "max": 180 } ],
+    "ce": [ { "nclc": 10, "min": 263, "max": 300 }, { "nclc": 9, "min": 248, "max": 262 }, { "nclc": 8, "min": 233, "max": 247 }, { "nclc": 7, "min": 207, "max": 232 }, { "nclc": 6, "min": 181, "max": 206 }, { "nclc": 5, "min": 151, "max": 180 }, { "nclc": 4, "min": 121, "max": 150 } ],
+    "ee": [ { "nclc": 10, "min": 393, "max": 450 }, { "nclc": 9, "min": 371, "max": 392 }, { "nclc": 8, "min": 349, "max": 370 }, { "nclc": 7, "min": 310, "max": 348 }, { "nclc": 6, "min": 271, "max": 309 }, { "nclc": 5, "min": 226, "max": 270 }, { "nclc": 4, "min": 181, "max": 225 } ]
+  }
+}

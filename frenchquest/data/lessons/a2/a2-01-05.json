@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-01-05",
+  "level": "a2",
+  "unit": "a2-01",
+  "title": "Tell me about your weekend",
+  "goal": "Tell someone about your weekend in connected sentences: what you did and didn't do, when, and how it went, using the passé composé with avoir.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    {
+      "id": "g-pc-avoir-all",
+      "kind": "grammar",
+      "fr": "j'ai fait, je n'ai pas vu, as-tu fini ?",
+      "en": "passé composé with avoir: forms, negatives and questions",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Dimanche, nous ___ ___ une randonnée. (faire)",
+          "answers": [
+            [
+              "avons"
+            ],
+            [
+              "fait"
+            ]
+          ],
+          "en": "On Sunday we went hiking.",
+          "explain": "nous avons + fait (irregular)."
+        },
+        {
+          "type": "cloze",
+          "text": "Je ___ ai ___ vu le film. (never)",
+          "answers": [
+            [
+              "n'"
+            ],
+            [
+              "jamais"
+            ]
+          ],
+          "en": "I've never seen the movie.",
+          "explain": "ne… jamais goes around avoir."
+        },
+        {
+          "type": "translate",
+          "prompt": "Did she answer? (with inversion)",
+          "accept": [
+            "A-t-elle répondu ?"
+          ],
+          "explain": "a + -t- + elle: A-t-elle répondu ?"
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which one is correct?",
+          "options": [
+            "Hier, j'ai bien dormi.",
+            "Hier, j'ai dormi bien.",
+            "J'ai hier bien dormi."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Time marker at the edge, short adverb between avoir and the participle."
+        }
+      ]
+    },
+    {
+      "id": "tranquille",
+      "kind": "vocab",
+      "fr": "tranquille",
+      "en": "quiet, relaxed",
+      "pos": "adjective",
+      "example": {
+        "fr": "J'ai passé une fin de semaine tranquille.",
+        "en": "I had a quiet weekend."
+      }
+    },
+    {
+      "id": "grasse-matinee",
+      "kind": "phrase",
+      "fr": "J'ai fait la grasse matinée.",
+      "en": "I slept in.",
+      "note": "Literally “I did the fat morning”."
+    },
+    {
+      "id": "faire-courses",
+      "kind": "phrase",
+      "fr": "J'ai fait l'épicerie.",
+      "en": "I did the grocery shopping.",
+      "accept": [
+        "J'ai fait les courses."
+      ],
+      "note": "Québec: faire l'épicerie. France: faire les courses."
+    },
+    {
+      "id": "faire-menage",
+      "kind": "phrase",
+      "fr": "J'ai fait le ménage.",
+      "en": "I cleaned the house.",
+      "accept": [
+        "J'ai fait le ménage chez moi.",
+        "J'ai nettoyé la maison."
+      ]
+    },
+    {
+      "id": "rien-special",
+      "kind": "phrase",
+      "fr": "Je n'ai rien fait de spécial.",
+      "en": "I didn't do anything special."
+    },
+    {
+      "id": "j-ai-adore",
+      "kind": "phrase",
+      "fr": "J'ai adoré !",
+      "en": "I loved it!",
+      "accept": [
+        "J'ai adoré ça !",
+        "J'ai vraiment adoré !"
+      ]
+    },
+    {
+      "id": "et-toi-ta-fds",
+      "kind": "phrase",
+      "fr": "Et toi, ta fin de semaine ?",
+      "en": "And you, how was your weekend? (to a friend)",
+      "accept": [
+        "Et toi, ton week-end ?",
+        "Et ta fin de semaine ?",
+        "Et ton week-end ?"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Monday stories",
+      "intro": "One text, one recording. Read and listen for the meaning first, then look for the passé composé.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "Team chat, Monday 8:45",
+          "fr": "Amira : Bon matin tout le monde ! Ma fin de semaine en trois photos !\nSamedi matin, j'ai fait la grasse matinée : je n'ai pas entendu mon réveil ! Après, j'ai pris le métro jusqu'au marché Jean-Talon et j'ai acheté des légumes et du fromage.\nSamedi soir, on a invité mes nouveaux voisins à souper. J'ai préparé un tajine. Ils ont mangé de la cuisine marocaine pour la première fois, et ils ont adoré !\nDimanche, il a plu toute la journée, alors je n'ai rien fait de spécial : j'ai lu, j'ai regardé une série et j'ai appelé ma mère à Rabat.\nEt vous ? Qu'est-ce que vous avez fait ?",
+          "en": "Amira: Good morning everyone! My weekend in three photos. On Saturday morning I slept in: I didn't hear my alarm! Afterwards, I took the metro to the Jean-Talon market and bought vegetables and cheese. On Saturday evening, we invited my new neighbours for dinner. I made a tagine. They ate Moroccan food for the first time, and they loved it! On Sunday, it rained all day, so I didn't do anything special: I read, watched a series and called my mother in Rabat. And you? What did you do?"
+        },
+        {
+          "type": "listen",
+          "title": "Raj's voice message",
+          "context": "Raj answers Amira with a voice message.",
+          "fr": "Salut Amira ! Moi, j'ai eu une fin de semaine très occupée. Samedi, j'ai aidé mon ami Karim : il a déménagé à Longueuil. On a porté des boîtes toute la journée ! Dimanche, je n'ai pas fait la grasse matinée : j'ai joué au soccer à neuf heures. On n'a pas gagné, mais ce n'est pas grave. Et le soir, j'ai enfin vu le film de Villeneuve. Ah, et tu as déjà essayé le restaurant libanais à côté du bureau ? On va dîner là-bas ce midi ?",
+          "en": "Hi Amira! I had a very busy weekend. On Saturday I helped my friend Karim: he moved to Longueuil. We carried boxes all day! On Sunday I didn't sleep in: I played soccer at nine. We didn't win, but it doesn't matter. And in the evening I finally saw the Villeneuve film. Oh, and have you ever tried the Lebanese restaurant next to the office? Shall we have lunch there today?"
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "[[Bon matin]] is a Québec greeting (good morning); in France you would just say [[Bonjour]]. [[Souper]] = to have dinner, and [[dîner]] = to have lunch, in Québec."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 1 in one page",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Participles of the unit",
+          "head": [
+            "Pattern",
+            "Participles"
+          ],
+          "rows": [
+            [
+              "-er → -é",
+              "parlé, mangé, travaillé, acheté, appelé, déménagé"
+            ],
+            [
+              "-ir → -i",
+              "fini, choisi, dormi"
+            ],
+            [
+              "-re → -u",
+              "attendu, répondu, vendu, entendu"
+            ],
+            [
+              "irregular -u",
+              "eu, bu, lu, vu, plu"
+            ],
+            [
+              "irregular -is / -it",
+              "pris, appris, compris, mis, dit, écrit, fait"
+            ],
+            [
+              "others",
+              "été, ouvert"
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": false
+        },
+        {
+          "type": "table",
+          "title": "Word order in the passé composé",
+          "head": [
+            "Type",
+            "Example"
+          ],
+          "rows": [
+            [
+              "affirmative",
+              "Hier, j'ai bien dormi."
+            ],
+            [
+              "negative",
+              "Je n'ai pas encore fini."
+            ],
+            [
+              "never / nothing",
+              "Il n'a jamais vu la mer. On n'a rien acheté."
+            ],
+            [
+              "intonation question",
+              "Tu as vu le match ?"
+            ],
+            [
+              "est-ce que",
+              "Est-ce que vous avez fini ?"
+            ],
+            [
+              "inversion",
+              "As-tu mangé ? A-t-elle répondu ?"
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": true,
+          "note": "Rule of thumb: **avoir** is the verb that moves and takes the negation; the **participle** stays at the end."
+        },
+        {
+          "type": "explain",
+          "title": "How to tell a good weekend story",
+          "body": "A list of verbs is a start. To sound natural at A2, add:\n\n- **time:** [[samedi matin, dimanche soir, toute la journée]]\n- **a reason or a result:** [[il a plu, alors je n'ai rien fait]]; [[je n'ai pas entendu mon réveil]]\n- **a reaction:** [[J'ai adoré !]] [[Ce n'est pas grave.]] [[C'est dommage !]]\n- **a question back:** [[Et toi, ta fin de semaine ?]]\n\nKeep a reaction in the present ([[c'est super]]) for now; describing *how it was* in the past ([[c'était super]]) is coming in Unit 3."
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "title": "Unit 1 checklist",
+          "body": "- Two parts every time: [[j'ai mangé]], not [[je mangé]].\n- After avoir, **-é**, not the infinitive: [[j'ai acheté]], not [[j'ai acheter]].\n- Irregulars: [[pris, fait, vu, bu, lu, mis, eu]], not *prendu, faisé, voyé, buvé*.\n- Negation around avoir: [[je n'ai pas vu]], not [[je n'ai vu pas]].\n- [[il y a deux jours]], not [[deux jours il y a]].\n- [[la semaine dernière]], not [[la dernière semaine]].\n- Past weather: [[il a fait beau]], [[il a plu]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Monday small talk in Québec",
+          "body": "Typical Monday questions in a Québec office: [[Pis, ta fin de semaine ?]] (informal), [[As-tu passé une belle fin de semaine ?]], [[Ça a été, ta fin de semaine ?]].\n\nTypical answers: [[Tranquille !]] (Quiet!), [[Pas pire !]] (Pretty good! Very Québec), [[J'ai rien fait de spécial]] (spoken, without *ne*).\n\n[[Pas pire]] literally means *not worse*, but it means *pretty good*. It is informal: understand it and use it with friends, but not in writing or in an exam."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listen closely",
+      "blocks": [
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Salut Amira ! Moi, j'ai eu une fin de semaine très occupée. Samedi, j'ai aidé mon ami Karim : il a déménagé à Longueuil. On a porté des boîtes toute la journée !",
+          "en": "Hi Amira! I had a very busy weekend. On Saturday I helped my friend Karim: he moved to Longueuil. We carried boxes all day!",
+          "prompt": "What did Raj do on Saturday?",
+          "options": [
+            "He helped Karim move.",
+            "He moved to Longueuil.",
+            "He bought boxes for his apartment."
+          ],
+          "answer": 0,
+          "explain": "[[j'ai aidé mon ami Karim : il a déménagé]]. It's Karim who moved, not Raj."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Dimanche, je n'ai pas fait la grasse matinée : j'ai joué au soccer à neuf heures. On n'a pas gagné, mais ce n'est pas grave.",
+          "en": "On Sunday I didn't sleep in: I played soccer at nine. We didn't win, but it doesn't matter.",
+          "prompt": "How did the soccer game go?",
+          "options": [
+            "Raj's team didn't win.",
+            "Raj's team won.",
+            "The game was cancelled."
+          ],
+          "answer": 0,
+          "explain": "[[On n'a pas gagné]] = we didn't win. In fast speech, [[on n'a]] and [[on a]] sound almost the same; [[pas]] is the key word."
+        },
+        {
+          "type": "repeat",
+          "title": "Say it smoothly",
+          "lines": [
+            {
+              "fr": "J'ai passé une fin de semaine tranquille.",
+              "en": "I had a quiet weekend."
+            },
+            {
+              "fr": "Je n'ai rien fait de spécial.",
+              "en": "I didn't do anything special."
+            },
+            {
+              "fr": "Il a plu, alors on a regardé une série.",
+              "en": "It rained, so we watched a series."
+            },
+            {
+              "fr": "Et toi, ta fin de semaine ?",
+              "en": "And you, how was your weekend?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Checkpoint: mixed practice",
+      "intro": "All of Unit 1, mixed with A1. Aim for 80%.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "In Amira's message, why did she sleep in on Saturday?",
+          "options": [
+            "She didn't hear her alarm.",
+            "It rained all day.",
+            "She worked late on Friday."
+          ],
+          "answer": 0,
+          "explain": "[[je n'ai pas entendu mon réveil]]: entendre → entendu. The rain was on Sunday."
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Samedi, j'___ ___ le métro et j'ai ___ du fromage. (prendre, acheter)",
+          "answers": [
+            [
+              "ai"
+            ],
+            [
+              "pris"
+            ],
+            [
+              "acheté"
+            ]
+          ],
+          "en": "On Saturday I took the metro and bought some cheese.",
+          "explain": "avoir + pris (irregular) + acheté (-er → -é). [[du fromage]]: an amount → partitive."
+        },
+        {
+          "id": "r3",
+          "type": "translate",
+          "prompt": "They (men) have never eaten Moroccan food.",
+          "accept": [
+            "Ils n'ont jamais mangé de cuisine marocaine.",
+            "Ils n'ont jamais mangé de nourriture marocaine."
+          ],
+          "hint": "ne… jamais around avoir; de la → de",
+          "explain": "[[n'ont jamais mangé]], and after the negative, [[de cuisine marocaine]]."
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Dimanche, il a ___ toute la journée. (pleuvoir)",
+          "answers": [
+            [
+              "plu"
+            ]
+          ],
+          "choices": [
+            "plu",
+            "pleuvé",
+            "pleut",
+            "fait"
+          ],
+          "en": "On Sunday it rained all day.",
+          "explain": "pleuvoir → plu. [[il pleut]] (present) → [[il a plu]] (past)."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "I didn't do anything special.",
+          "accept": [
+            "Je n'ai rien fait de spécial."
+          ],
+          "extra": [
+            "pas"
+          ],
+          "explain": "ne… rien around avoir; then [[de spécial]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "Did you see the movie last week? (to a friend)",
+          "accept": [
+            "Tu as vu le film la semaine dernière ?",
+            "Est-ce que tu as vu le film la semaine dernière ?",
+            "As-tu vu le film la semaine dernière ?",
+            "La semaine dernière, tu as vu le film ?",
+            "La semaine dernière, est-ce que tu as vu le film ?",
+            "La semaine dernière, as-tu vu le film ?",
+            "Tu as vu le film la semaine passée ?",
+            "Est-ce que tu as vu le film la semaine passée ?",
+            "As-tu vu le film la semaine passée ?",
+            "La semaine passée, tu as vu le film ?",
+            "La semaine passée, est-ce que tu as vu le film ?",
+            "La semaine passée, as-tu vu le film ?"
+          ],
+          "explain": "voir → vu. Three question styles are fine; the time marker goes at the edge."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Ce soir, nous ___ manger au restaurant. Hier, nous ___ mangé à la maison.",
+          "answers": [
+            [
+              "allons"
+            ],
+            [
+              "avons"
+            ]
+          ],
+          "choices": [
+            "allons",
+            "avons",
+            "sommes"
+          ],
+          "en": "Tonight we're going to eat at a restaurant. Yesterday we ate at home.",
+          "explain": "Future: [[aller]] + infinitive. Past: [[avoir]] + participle."
+        },
+        {
+          "id": "r8",
+          "type": "match",
+          "prompt": "Match each sentence to its meaning.",
+          "pairs": [
+            [
+              "J'ai fait la grasse matinée.",
+              "I slept in."
+            ],
+            [
+              "J'ai fait l'épicerie.",
+              "I did the grocery shopping."
+            ],
+            [
+              "J'ai fait le ménage.",
+              "I cleaned the house."
+            ],
+            [
+              "Je n'ai pas encore fini.",
+              "I haven't finished yet."
+            ],
+            [
+              "J'ai eu une longue journée.",
+              "I had a long day."
+            ]
+          ]
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Il y a deux jours, Karim a déménagé à Longueuil.",
+          "accept": [],
+          "explain": "[[il y a deux jours]] = two days ago; [[déménagé]] ends in é."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "Mon frère et ___ femme ont ___ un bébé le mois ___ ! (avoir, dernier)",
+          "answers": [
+            [
+              "sa"
+            ],
+            [
+              "eu"
+            ],
+            [
+              "dernier"
+            ]
+          ],
+          "en": "My brother and his wife had a baby last month!",
+          "explain": "A1 possessive: [[femme]] is feminine → [[sa]]. avoir → [[eu]]. [[mois]] is masculine → [[dernier]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Mission: your weekend",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "It's Monday at the coffee machine. A colleague asks: « Pis, ta fin de semaine ? » Tell them about your weekend for about a minute: Saturday and Sunday, at least one thing you didn't do, a reaction, and a question back.",
+          "promptFr": "Racontez votre fin de semaine à un ou une collègue.",
+          "seconds": 60,
+          "checklist": [
+            "A short first reaction: Tranquille ! / Très occupée !",
+            "Saturday and Sunday, with times of day (samedi matin, dimanche soir)",
+            "At least three irregular participles (fait, pris, vu, bu, lu, eu…)",
+            "A negative: je n'ai pas… / je n'ai jamais… / je n'ai rien…",
+            "A reason with alors: il a plu, alors…",
+            "A reaction: J'ai adoré ! / Ce n'est pas grave.",
+            "A question back: Et toi, ta fin de semaine ?"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Tranquille ! Samedi matin, j'ai fait l'épicerie et j'ai fait le ménage. L'après-midi, j'ai vu un film avec ma sœur. Dimanche, il a plu, alors je n'ai rien fait de spécial. J'ai lu et j'ai appelé mes parents. Et toi, ta fin de semaine ?",
+              "en": "Quiet! On Saturday morning I did the groceries and cleaned the house. In the afternoon I saw a movie with my sister. On Sunday it rained, so I didn't do anything special. I read and called my parents. And you, how was your weekend?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Très occupée, mais super ! Samedi, j'ai fait la grasse matinée, puis j'ai fait du vélo jusqu'au Vieux-Port avec mon chum. On a bu un café sur une terrasse et on a regardé les bateaux. Le soir, on a invité des amis à souper : j'ai préparé des empanadas, et ils ont adoré ! Dimanche, par contre, je n'ai pas eu le temps de me reposer : j'ai fini une présentation pour aujourd'hui. Je n'ai pas encore envoyé la présentation à Lucie… Et toi ? Tu as fait quelque chose de spécial ?",
+              "en": "(A woman speaking.) Very busy, but great! On Saturday I slept in, then I cycled to the Old Port with my boyfriend. We had a coffee on a patio and watched the boats. In the evening we invited friends for dinner: I made empanadas, and they loved them! On Sunday, on the other hand, I didn't have time to rest: I finished a presentation for today. I haven't sent the presentation to Lucie yet… And you? Did you do anything special?"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Reply to Amira in the team chat (50–80 words). Tell her about your weekend: what you did on Saturday and Sunday, one thing you didn't do or have never done, and when (time markers). End with a question.",
+          "promptFr": "Répondez au message d'Amira : racontez votre fin de semaine.",
+          "wordRange": [
+            50,
+            80
+          ],
+          "checklist": [
+            "A greeting: Bon matin ! / Salut Amira !",
+            "At least five verbs in the passé composé with avoir",
+            "At least three different irregular participles",
+            "Two time markers (samedi matin, hier soir, il y a…)",
+            "A short adverb inside: bien, beaucoup, déjà, enfin",
+            "A negative: je n'ai pas… / jamais / rien",
+            "A question to finish"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Amira ! Ton tajine, ça a l'air bon ! Moi, samedi, j'ai joué au tennis avec Mei et j'ai acheté un manteau au centre-ville. Le soir, j'ai regardé le match des Canadiens. Dimanche, j'ai fait le ménage et j'ai écrit à ma famille. Je n'ai pas fait la grasse matinée : mon réveil a sonné à six heures ! Et toi, tu as déjà visité le marché Atwater ?",
+              "en": "Hi Amira! Your tagine looks good! On Saturday I played tennis with Mei and bought a coat downtown. In the evening I watched the Canadiens game. On Sunday I cleaned the house and wrote to my family. I didn't sleep in: my alarm went off at six! And you, have you ever visited Atwater Market?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bon matin ! Bravo pour le tajine, j'ai faim maintenant ! Moi, j'ai enfin fait le tour du mont Royal à vélo samedi. Il a fait beau, alors j'ai pris beaucoup de photos. Le soir, j'ai bien mangé : on a essayé un restaurant vietnamien sur la rue Saint-Denis. Dimanche, je n'ai rien fait de spécial : j'ai lu et j'ai fini ma série. Par contre, je n'ai pas encore appelé ma mère… Amira, tu as déjà goûté le pho de ce restaurant ?",
+              "en": "Good morning! Well done on the tagine, I'm hungry now! I finally rode my bike around Mount Royal on Saturday. The weather was nice, so I took lots of photos. In the evening I ate well: we tried a Vietnamese restaurant on Saint-Denis Street. On Sunday I didn't do anything special: I read and finished my series. On the other hand, I haven't called my mother yet… Amira, have you ever tasted the pho at that restaurant?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Tell a weekend story with the passé composé with avoir: [[j'ai fait, j'ai pris, on a vu, il a plu]]\n- Say what you didn't do: [[je n'ai pas…, je n'ai jamais…, je n'ai rien fait de spécial]]\n- Place time markers and short adverbs correctly, and ask [[Et toi, ta fin de semaine ?]]\n- **Unit 1 complete.** Next: the verbs that use **être** in the past",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Rewrote an illogical line (“Ils n'ont jamais mangé… et ils ont adoré”, which needs the plus-que-parfait) with the passé composé. Removed an informal accept (no ne) and a dictation accept in a different word order. Labelled pas pire as informal."
+  }
+}

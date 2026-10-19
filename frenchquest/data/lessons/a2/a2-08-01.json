@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-08-01",
+  "level": "a2",
+  "unit": "a2-08",
+  "title": "Comparing things",
+  "goal": "Compare two things with plus… que, moins… que and aussi… que, and use meilleur and mieux correctly.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-comparatif", "kind": "grammar", "fr": "plus / moins / aussi + adjectif + que", "en": "comparing with adjectives: more… than, less… than, as… as",
+      "drills": [
+        { "type": "cloze", "text": "Le canapé gris est ___ grand ___ le canapé bleu.", "answers": [["plus"], ["que"]], "en": "The grey sofa is bigger than the blue sofa.", "explain": "[[plus]] + adjective + [[que]] = *-er than* / *more… than*." },
+        { "type": "translate", "prompt": "The blue sofa is less expensive than the grey sofa.", "accept": ["Le canapé bleu est moins cher que le canapé gris.", "Le canapé bleu est moins cher que le gris.", "Le divan bleu est moins cher que le divan gris.", "Le divan bleu est moins cher que le gris."], "explain": "[[moins]] + adjective + [[que]]. The adjective agrees with the first noun: [[cher]] (masculine)." },
+        { "type": "cloze", "text": "Ma chambre est ___ grande ___ ton salon.", "answers": [["aussi"], ["que"]], "en": "My bedroom is as big as your living room.", "explain": "*as… as* = [[aussi]] + adjective + [[que]]. [[grande]] agrees with [[ma chambre]]." }
+      ] },
+    { "id": "g-meilleur", "kind": "grammar", "fr": "bon → meilleur", "en": "better (adjective): bon → meilleur, meilleure",
+      "drills": [
+        { "type": "cloze", "text": "La qualité de ce canapé est ___.", "answers": [["meilleure"]], "en": "The quality of this sofa is better.", "explain": "[[bon]] → [[meilleur]], never *plus bon*. It agrees: [[la qualité]] → [[meilleure]]." },
+        { "type": "mcq", "prompt": "“This café is better than the other one.”", "options": ["Ce café est meilleur que l'autre.", "Ce café est plus bon que l'autre.", "Ce café est mieux que l'autre."], "optionsFr": true, "answer": 0, "explain": "With a noun and être, *better* = [[meilleur]]. [[Plus bon]] doesn't exist." },
+        { "type": "cloze", "text": "Ces chaussures sont ___ que les autres.", "answers": [["meilleures"]], "en": "These shoes are better than the others.", "explain": "[[les chaussures]]: feminine plural → [[meilleures]]." }
+      ] },
+    { "id": "g-mieux", "kind": "grammar", "fr": "bien → mieux", "en": "better (adverb, with a verb): bien → mieux",
+      "drills": [
+        { "type": "cloze", "text": "Avec le nouveau canapé, mon frère dort ___.", "answers": [["mieux"]], "en": "With the new sofa, my brother sleeps better.", "explain": "*Better* describes the verb [[dort]] → adverb [[mieux]] (from [[bien]])." },
+        { "type": "mcq", "prompt": "“Sofia speaks French better than me.”", "options": ["Sofia parle mieux français que moi.", "Sofia parle meilleur français que moi.", "Sofia parle plus bien français que moi."], "optionsFr": true, "answer": 0, "explain": "How she speaks → adverb → [[mieux]]. After [[que]], use [[moi, toi, lui, elle…]]." }
+      ] },
+    { "id": "cher", "kind": "vocab", "fr": "cher", "fem": "chère", "en": "expensive", "pos": "adjective", "accept": ["chère"],
+      "example": { "fr": "Cette table est trop chère.", "en": "This table is too expensive." } },
+    { "id": "confortable", "kind": "vocab", "fr": "confortable", "en": "comfortable", "pos": "adjective",
+      "example": { "fr": "Le canapé gris est plus confortable.", "en": "The grey sofa is more comfortable." } },
+    { "id": "solide", "kind": "vocab", "fr": "solide", "en": "sturdy, strong (well made)", "pos": "adjective",
+      "example": { "fr": "Cette chaise est très solide.", "en": "This chair is very sturdy." } },
+    { "id": "leger", "kind": "vocab", "fr": "léger", "fem": "légère", "en": "light (not heavy)", "pos": "adjective", "accept": ["légère"],
+      "example": { "fr": "La table est plus légère que le bureau.", "en": "The table is lighter than the desk." } },
+    { "id": "lourd", "kind": "vocab", "fr": "lourd", "fem": "lourde", "en": "heavy", "pos": "adjective", "accept": ["lourde"],
+      "example": { "fr": "Ce canapé est trop lourd pour l'escalier.", "en": "This sofa is too heavy for the stairs." } },
+    { "id": "livraison", "kind": "vocab", "fr": "livraison", "article": "la", "gender": "f", "en": "delivery", "pos": "noun", "accept": ["une livraison"],
+      "example": { "fr": "La livraison est gratuite.", "en": "Delivery is free." } },
+    { "id": "usage", "kind": "vocab", "fr": "usagé", "fem": "usagée", "en": "used, second-hand (Québec)", "pos": "adjective", "accept": ["usagée", "d'occasion"],
+      "note": "In France: d'occasion. Both are understood in Canada.",
+      "example": { "fr": "J'ai acheté un vélo usagé.", "en": "I bought a used bike." } },
+    { "id": "moins-cher", "kind": "phrase", "fr": "C'est moins cher.", "en": "It's cheaper.", "accept": ["C'est meilleur marché."] },
+    { "id": "tu-preferes", "kind": "phrase", "fr": "Tu préfères le gris ou le bleu ?", "en": "Do you prefer the grey one or the blue one? (to a friend)", "accept": ["Est-ce que tu préfères le gris ou le bleu ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Which sofa?",
+      "intro": "Raj has just moved into a 3 ½ in Montréal. He needs a sofa, so he goes to a furniture store with his friend Mei.",
+      "blocks": [
+        { "type": "dialogue", "title": "In a furniture store",
+          "context": "Raj and Mei use tu. Olivier, the salesperson, uses vous.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Regarde ces deux canapés, Mei. Le gris est vraiment beau, non ?", "en": "Look at these two sofas, Mei. The grey one is really nice, isn't it?" },
+            { "speaker": "Mei", "fr": "Oui, mais il est plus cher que le bleu : mille deux cents dollars ! Le bleu, c'est huit cent quatre-vingt-dix-neuf dollars.", "en": "Yes, but it's more expensive than the blue one: $1,200! The blue one is $899." },
+            { "speaker": "Raj", "fr": "C'est vrai. Mais le gris est plus grand et plus confortable. Viens essayer !", "en": "True. But the grey one is bigger and more comfortable. Come and try it!" },
+            { "speaker": "Mei", "fr": "Hum, oui, il est plus confortable. Mais ton salon est petit ! Le bleu est moins grand. Il est parfait pour un trois et demie.", "en": "Hmm, yes, it's more comfortable. But your living room is small! The blue one is smaller. It's perfect for a 3 ½." },
+            { "speaker": "Raj", "fr": "Excusez-moi, monsieur. Quelle est la différence de qualité entre les deux ?", "en": "Excuse me, sir. What's the difference in quality between the two?" },
+            { "speaker": "Olivier", "fr": "Le gris est de meilleure qualité : le tissu est plus solide et la structure est en bois. Le bleu est moins solide, mais il est aussi plus léger. C'est plus facile pour déménager !", "en": "The grey one is better quality: the fabric is sturdier and the frame is made of wood. The blue one is less sturdy, but it's also lighter. It's easier for moving!" },
+            { "speaker": "Raj", "fr": "Et la livraison ?", "en": "And delivery?" },
+            { "speaker": "Olivier", "fr": "En ce moment, la livraison est gratuite pour les deux.", "en": "Right now, delivery is free for both." },
+            { "speaker": "Mei", "fr": "Raj, tu sais, sur Marketplace, il y a des canapés usagés. C'est beaucoup moins cher, et la qualité est souvent aussi bonne.", "en": "Raj, you know, on Marketplace there are used sofas. It's a lot cheaper, and the quality is often just as good." },
+            { "speaker": "Raj", "fr": "Peut-être, mais quand mon frère vient de Toronto, il dort sur le canapé. Avec le gris, il va mieux dormir.", "en": "Maybe, but when my brother comes from Toronto, he sleeps on the sofa. With the grey one, he'll sleep better." },
+            { "speaker": "Mei", "fr": "Bon, d'accord. Le gris est plus cher, mais c'est un meilleur choix pour toi.", "en": "OK, fine. The grey one is more expensive, but it's a better choice for you." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What is better about the blue sofa?", "options": ["It's cheaper, smaller and lighter.", "It's more comfortable and sturdier.", "Its delivery is free and the grey one's isn't."], "answer": 0,
+          "explain": "The blue one is [[moins cher]], [[moins grand]] and [[plus léger]]. Delivery is free for both ([[pour les deux]])." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does Raj choose the grey sofa?", "options": ["His brother sleeps on it when he visits.", "It's cheaper than the blue one.", "Mei doesn't like the blue one."], "answer": 0,
+          "explain": "[[Quand mon frère vient de Toronto, il dort sur le canapé. Avec le gris, il va mieux dormir.]]" }
+      ] },
+    { "type": "understand", "title": "How to compare",
+      "blocks": [
+        { "type": "table", "title": "The three comparatives",
+          "head": ["", "Pattern", "Example", "English"],
+          "rows": [
+            ["+", "plus + adjectif + que", "Le gris est plus cher que le bleu.", "more expensive than"],
+            ["−", "moins + adjectif + que", "Le bleu est moins cher que le gris.", "less expensive than / cheaper than"],
+            ["=", "aussi + adjectif + que", "La qualité est aussi bonne qu'au magasin.", "as good as"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "The adjective still **agrees** with the noun it describes: [[La table est plus **chère** que la chaise.]] [[Les chaises sont moins **lourdes** que le canapé.]]" },
+        { "type": "explain", "title": "Better: meilleur or mieux?",
+          "body": "English has one word, *better*. French has two, because it separates **adjectives** and **adverbs**:\n\n- [[bon]] (good, adjective) → [[meilleur]] (better). It describes a **noun** and agrees: [[meilleur, meilleure, meilleurs, meilleures]]. [[Ce café est meilleur.]] [[La qualité est meilleure.]]\n- [[bien]] (well, adverb) → [[mieux]] (better). It describes a **verb** and never changes: [[Il dort mieux.]] [[Tu parles mieux français que moi.]]\n\n**Quick test:** can you say *good* in English (*a good sofa*)? → [[meilleur]]. Can you say *well* (*he sleeps well*)? → [[mieux]]." },
+        { "type": "table", "title": "Meilleur and mieux",
+          "head": ["Base", "Better", "Example"],
+          "rows": [
+            ["bon / bonne", "meilleur / meilleure", "Ce canapé est meilleur que l'autre."],
+            ["bien", "mieux", "Avec ce matelas, je dors mieux."],
+            ["c'est bien", "c'est mieux", "C'est mieux d'acheter usagé ? (Is it better to buy used?)"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": false,
+          "note": "[[Moins bon]] and [[aussi bon]] are fine: [[Le bleu est moins bon.]] Only *plus bon* is wrong." },
+        { "type": "pattern", "title": "Comparing quantities and actions",
+          "pattern": "plus de / moins de / autant de + nom + que · verbe + plus / moins / autant + que",
+          "note": "With a **noun**, add [[de]]: [[plus de place]]. With a **verb**, put [[plus / moins / autant]] after it. After [[que]], use [[moi, toi, lui, elle, nous, vous, eux]].",
+          "examples": [
+            { "fr": "Le gris prend plus de place que le bleu.", "en": "The grey one takes up more space than the blue one." },
+            { "fr": "Ici, il y a moins de choix qu'au centre-ville.", "en": "Here there's less choice than downtown." },
+            { "fr": "Raj dépense plus que moi.", "en": "Raj spends more than me." },
+            { "fr": "Mei travaille autant que toi.", "en": "Mei works as much as you." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["cher", "confortable", "solide", "leger", "lourd", "livraison", "usage", "moins-cher", "tu-preferes"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- [[plus bon]] → [[meilleur]]: [[Ce restaurant est meilleur.]]\n- [[plus bien]] → [[mieux]]: [[Je dors mieux.]]\n- [[Il parle meilleur]] → [[Il parle mieux]] (adverb with a verb).\n- **Agreement:** [[La robe est plus cher]] → [[La robe est plus chère]].\n- **Not *de* after plus + adjective:** [[plus cher de 1000 $]] is wrong; say [[plus cher que]]… (*plus de* is only for nouns and numbers: [[plus de 1000 $]] = more than $1,000).\n- *Cheaper* has no single word: [[moins cher]] (or [[meilleur marché]], a bit formal)." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "In comparisons with an adjective, the **s** of [[plus]] is silent before a consonant: [[plus grand]] sounds like *plu grand*. Before a vowel, it links with a **z** sound: [[plus intéressant]], [[plus élégant]].\n\n[[Moins]] works the same way: [[moins cher]] (silent s), [[moins utile]] (z sound).",
+          "examples": [ { "fr": "plus grand, plus intéressant", "en": "bigger, more interesting" }, { "fr": "moins cher, moins utile", "en": "cheaper, less useful" } ] },
+        { "type": "deepdive", "kind": "canada", "title": "Buying furniture in Canada",
+          "body": "- In Québec you'll hear [[un divan]] as well as [[un canapé]] (France and Canada). Both are fine.\n- **Used** is [[usagé]] in Québec: [[un vélo usagé]], [[des meubles usagés]]. In France: [[d'occasion]].\n- Many newcomers furnish their first apartment through Marketplace, Kijiji or thrift stores ([[une friperie]] for clothes, [[un comptoir familial]] or [[une ressourcerie]] for furniture).\n- Around July 1, lots of furniture appears on sidewalks in Montréal. Check it carefully before you take it home (bedbugs!)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Le gris est plus confortable que le bleu.", "en": "The grey one is more comfortable than the blue one." },
+            { "fr": "Le bleu est moins cher et plus léger.", "en": "The blue one is cheaper and lighter." },
+            { "fr": "La qualité est aussi bonne.", "en": "The quality is just as good." },
+            { "fr": "C'est un meilleur choix pour toi.", "en": "It's a better choice for you." },
+            { "fr": "Avec ce matelas, je dors mieux.", "en": "With this mattress, I sleep better.", "tip": "mieux: the same eu sound as in deux." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "La table en bois est plus belle, mais elle est beaucoup plus lourde que la table blanche.", "en": "The wooden table is nicer, but it's much heavier than the white table.",
+          "prompt": "What's the problem with the wooden table?", "options": ["It's heavier.", "It's more expensive.", "It's smaller."], "answer": 0,
+          "explain": "[[beaucoup plus lourde que]] = much heavier than. [[Beaucoup]] makes the comparison stronger." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Franchement, le nouveau café de la rue Masson est meilleur, et c'est aussi cher que l'autre.", "en": "Honestly, the new café on Masson Street is better, and it's as expensive as the other one.",
+          "prompt": "What does the speaker say about the prices?", "options": ["They're the same.", "The new café is cheaper.", "The new café is more expensive."], "answer": 0,
+          "explain": "[[aussi cher que]] = as expensive as: same price, but the new café is [[meilleur]]." },
+        { "id": "h3", "type": "dictation", "fr": "Ce canapé est moins confortable que l'autre.", "accept": [],
+          "explain": "[[moins]] + adjective + [[que]]. [[L'autre]] = the other one." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le 4 ½ de Villeray est ___ grand ___ le 3 ½ du Plateau.", "answers": [["plus"], ["que"]], "choices": ["plus", "moins", "que", "de"], "en": "The 4 ½ in Villeray is bigger than the 3 ½ in the Plateau.",
+          "explain": "A 4 ½ has more rooms → [[plus grand que]]." },
+        { "id": "r2", "type": "mcq", "prompt": "“This store is better.”", "options": ["Ce magasin est meilleur.", "Ce magasin est plus bon.", "Ce magasin est mieux bon."], "optionsFr": true, "answer": 0,
+          "explain": "[[bon]] → [[meilleur]], always." },
+        { "id": "r3", "type": "cloze", "text": "Mei parle ___ français que Raj, mais Raj comprend ___ le québécois.", "answers": [["mieux"], ["mieux"]], "choices": ["mieux", "meilleur", "plus bon"], "en": "Mei speaks French better than Raj, but Raj understands Québec French better.",
+          "explain": "Both describe how someone does something (a verb) → [[mieux]]." },
+        { "id": "r4", "type": "translate", "prompt": "The table is lighter than the desk.", "accept": ["La table est plus légère que le bureau.", "La table est moins lourde que le bureau."],
+          "explain": "[[léger]] → [[légère]] with [[la table]] (feminine)." },
+        { "id": "r5", "type": "match", "prompt": "Match the sentences.", "pairs": [["C'est aussi cher.", "It's just as expensive."], ["C'est moins cher.", "It's cheaper."], ["C'est plus cher.", "It's more expensive."], ["C'est meilleur.", "It's better (tastier, of better quality)."], ["C'est mieux.", "It's better (a better idea)."]] },
+        { "id": "r6", "type": "cloze", "text": "Ces chaises sont ___ que les chaises du magasin.", "answers": [["meilleures"]], "en": "These chairs are better than the store's chairs.",
+          "explain": "[[les chaises]]: feminine plural → [[meilleures]]." },
+        { "id": "r7", "type": "reorder", "prompt": "The quality is as good as in the store.", "accept": ["La qualité est aussi bonne qu'au magasin."], "extra": ["bon", "plus"],
+          "explain": "[[aussi]] + adjective + [[que]]; [[bonne]] agrees with [[la qualité]]; [[que + au]] → [[qu'au]]." },
+        { "id": "r8", "type": "translate", "prompt": "Before, I lived in a smaller apartment. (use the imparfait)", "accept": ["Avant, j'habitais dans un appartement plus petit.", "Avant, j'habitais un appartement plus petit.", "Avant, je vivais dans un appartement plus petit.", "Avant, j'habitais dans un plus petit appartement.", "Avant, j'habitais un plus petit appartement.", "Avant, je vivais dans un plus petit appartement."],
+          "explain": "A past situation → imparfait ([[j'habitais]]). [[Petit]] can go before or after the noun in a comparison: [[un appartement plus petit]] / [[un plus petit appartement]]." },
+        { "id": "r9", "type": "dictation", "fr": "Le canapé usagé est beaucoup moins cher.", "accept": [],
+          "explain": "[[usagé]] = used (Québec). [[Beaucoup moins cher]] = a lot cheaper." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Compare the two 4 ½ ads from unit 7 (Rosemont: chauffé, éclairé, 1450 $, 2nd floor; Villeray: n/c n/é, parking, 1250 $, ground floor) and say which one you prefer and why.", "seconds": 45,
+          "checklist": ["At least one plus… que", "At least one moins… que", "aussi… que, meilleur or mieux", "Your choice with parce que…"],
+          "models": [
+            { "label": "Model answer", "fr": "L'appartement de Villeray est moins cher que l'appartement de Rosemont, et il y a un stationnement. Mais à Rosemont, le chauffage et l'électricité sont inclus. En hiver, c'est important ! L'appartement de Villeray est aussi grand que l'appartement de Rosemont. Je préfère l'appartement de Rosemont, parce qu'il est plus près du métro, et c'est mieux pour aller au travail.",
+              "en": "The Villeray apartment is cheaper than the Rosemont apartment, and there's parking. But in Rosemont, heating and electricity are included. In winter, that's important! The Villeray apartment is as big as the Rosemont apartment. I prefer the Rosemont apartment, because it's closer to the metro, and that's better for getting to work." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "You're hesitating between two things to buy (two phones, two winter coats, two bikes…). Write a message to a friend comparing them and asking for their opinion.", "wordRange": [35, 70],
+          "checklist": ["Salut + name", "Name the two things", "Three comparisons: plus… que, moins… que, aussi… que", "meilleur or mieux at least once", "A question: Tu préfères… ?"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Camille ! J'ai besoin d'un vélo pour aller au travail. Il y a un vélo neuf à 650 $ et un vélo usagé à 250 $. Le vélo neuf est plus léger et sûrement plus solide, mais il est beaucoup plus cher. Le vélo usagé est aussi beau que le neuf, et pour la ville, c'est peut-être mieux. Tu préfères le neuf ou l'usagé ? Toi, tu connais mieux les vélos que moi !",
+              "en": "Hi Camille! I need a bike to get to work. There's a new bike at $650 and a used bike at $250. The new bike is lighter and probably sturdier, but it's a lot more expensive. The used bike is as nice as the new one, and for the city, it may be better. Do you prefer the new one or the used one? You know bikes better than me!" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Compare with adjectives: [[plus… que]], [[moins… que]], [[aussi… que]], with agreement: [[La table est plus chère.]]\n- Say *better* the right way: [[meilleur]] (adjective, agrees) vs [[mieux]] (adverb, with a verb)\n- Compare quantities and actions: [[plus de place]], [[Il dépense plus que moi.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Rewrote an ambiguous model sentence (Les deux appartements sont aussi grands) as a full aussi… que comparison. Added word-order variants to r8. Comparatives, meilleur/mieux and the plus bon warning checked and correct." }
+}

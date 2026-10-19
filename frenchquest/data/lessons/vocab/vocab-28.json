@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-28",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Action verbs: moving and handling",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "verbs for movement, handling objects and changes of state",
+  "goal": "Recognise and use 24 everyday verbs for moving, handling things and switching them off or on.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "bouger",
+      "kind": "vocab",
+      "fr": "bouger",
+      "en": "to move (oneself)",
+      "pos": "verb",
+      "example": {
+        "fr": "Ne bouge pas, je prends la photo !",
+        "en": "Don't move, I'm taking the picture!"
+      }
+    },
+    {
+      "id": "foncer",
+      "kind": "vocab",
+      "fr": "foncer",
+      "en": "to rush, to charge ahead",
+      "pos": "verb",
+      "example": {
+        "fr": "Il a foncé vers la sortie.",
+        "en": "He rushed towards the exit."
+      },
+      "note": "Informal: Fonce ! = Go for it!"
+    },
+    {
+      "id": "s-enfuir",
+      "kind": "vocab",
+      "fr": "s'enfuir",
+      "en": "to run away, to flee",
+      "pos": "verb",
+      "accept": [],
+      "example": {
+        "fr": "Le chien s'est enfui du jardin.",
+        "en": "The dog ran away from the garden."
+      }
+    },
+    {
+      "id": "poursuivre",
+      "kind": "vocab",
+      "fr": "poursuivre",
+      "en": "to chase; to continue; to sue",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle veut poursuivre ses études à Ottawa.",
+        "en": "She wants to continue her studies in Ottawa."
+      }
+    },
+    {
+      "id": "emporter",
+      "kind": "vocab",
+      "fr": "emporter",
+      "en": "to take away (with you)",
+      "pos": "verb",
+      "example": {
+        "fr": "N'oublie pas d'emporter un parapluie.",
+        "en": "Don't forget to take an umbrella."
+      }
+    },
+    {
+      "id": "renvoyer",
+      "kind": "vocab",
+      "fr": "renvoyer",
+      "en": "to send back; to fire (from a job)",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai renvoyé le colis au vendeur.",
+        "en": "I sent the parcel back to the seller."
+      }
+    },
+    {
+      "id": "retrouver",
+      "kind": "vocab",
+      "fr": "retrouver",
+      "en": "to find again; to meet up with",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai retrouvé mes clés sous le sofa.",
+        "en": "I found my keys under the sofa."
+      }
+    },
+    {
+      "id": "localiser",
+      "kind": "vocab",
+      "fr": "localiser",
+      "en": "to locate",
+      "pos": "verb",
+      "example": {
+        "fr": "L'application peut localiser ton téléphone.",
+        "en": "The app can locate your phone."
+      }
+    },
+    {
+      "id": "arracher",
+      "kind": "vocab",
+      "fr": "arracher",
+      "en": "to pull out, to tear off",
+      "pos": "verb",
+      "example": {
+        "fr": "Le dentiste m'a arraché une dent.",
+        "en": "The dentist pulled out one of my teeth."
+      }
+    },
+    {
+      "id": "accrocher",
+      "kind": "vocab",
+      "fr": "accrocher",
+      "en": "to hang (up)",
+      "pos": "verb",
+      "example": {
+        "fr": "Accroche ton manteau à l'entrée.",
+        "en": "Hang your coat up at the entrance."
+      }
+    },
+    {
+      "id": "coller",
+      "kind": "vocab",
+      "fr": "coller",
+      "en": "to stick, to glue",
+      "pos": "verb",
+      "example": {
+        "fr": "Colle la photo sur la carte.",
+        "en": "Stick the photo on the card."
+      }
+    },
+    {
+      "id": "coincer",
+      "kind": "vocab",
+      "fr": "coincer",
+      "en": "to jam, to wedge, to trap",
+      "pos": "verb",
+      "example": {
+        "fr": "Mon doigt s'est coincé dans la porte.",
+        "en": "My finger got caught in the door."
+      },
+      "note": "Se coincer = to get stuck."
+    },
+    {
+      "id": "peindre",
+      "kind": "vocab",
+      "fr": "peindre",
+      "en": "to paint",
+      "pos": "verb",
+      "example": {
+        "fr": "On va peindre la cuisine en jaune.",
+        "en": "We're going to paint the kitchen yellow."
+      }
+    },
+    {
+      "id": "effacer",
+      "kind": "vocab",
+      "fr": "effacer",
+      "en": "to erase, to delete",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai effacé le message par erreur.",
+        "en": "I deleted the message by mistake."
+      }
+    },
+    {
+      "id": "balancer",
+      "kind": "vocab",
+      "fr": "balancer",
+      "en": "to swing; to throw out (informal)",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle a balancé ses vieux vêtements.",
+        "en": "She threw out her old clothes."
+      },
+      "note": "Informal in the sense \"to throw out, to chuck\" (neutral: jeter)."
+    },
+    {
+      "id": "abattre",
+      "kind": "vocab",
+      "fr": "abattre",
+      "en": "to cut down (tree), to knock down",
+      "pos": "verb",
+      "example": {
+        "fr": "La ville a abattu les vieux arbres de la rue.",
+        "en": "The city cut down the old trees on the street."
+      }
+    },
+    {
+      "id": "baisser",
+      "kind": "vocab",
+      "fr": "baisser",
+      "en": "to lower, to turn down",
+      "pos": "verb",
+      "example": {
+        "fr": "Tu peux baisser le son, s'il te plaît ?",
+        "en": "Can you turn the sound down, please?"
+      }
+    },
+    {
+      "id": "eteindre",
+      "kind": "vocab",
+      "fr": "éteindre",
+      "en": "to turn off, to put out",
+      "pos": "verb",
+      "example": {
+        "fr": "Éteins la lumière en sortant.",
+        "en": "Turn off the light when you leave."
+      }
+    },
+    {
+      "id": "raccrocher",
+      "kind": "vocab",
+      "fr": "raccrocher",
+      "en": "to hang up (phone)",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle a raccroché sans dire au revoir.",
+        "en": "She hung up without saying goodbye."
+      }
+    },
+    {
+      "id": "enlever",
+      "kind": "vocab",
+      "fr": "enlever",
+      "en": "to take off, to remove",
+      "pos": "verb",
+      "example": {
+        "fr": "Enlève tes bottes avant d'entrer.",
+        "en": "Take off your boots before you come in."
+      }
+    },
+    {
+      "id": "eclater",
+      "kind": "vocab",
+      "fr": "éclater",
+      "en": "to burst; to break out",
+      "pos": "verb",
+      "example": {
+        "fr": "Le ballon a éclaté.",
+        "en": "The balloon burst."
+      },
+      "note": "éclater de rire = to burst out laughing"
+    },
+    {
+      "id": "craquer",
+      "kind": "vocab",
+      "fr": "craquer",
+      "en": "to crack; to give in, to break down",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai craqué et j'ai mangé tout le chocolat.",
+        "en": "I gave in and ate all the chocolate."
+      },
+      "note": "Informal in the sense \"to give in, to crack\": J’ai craqué ! Neutral sense: to crack, to creak."
+    },
+    {
+      "id": "se-noyer",
+      "kind": "vocab",
+      "fr": "se noyer",
+      "en": "to drown",
+      "pos": "verb",
+      "accept": [
+        "noyer"
+      ],
+      "example": {
+        "fr": "Il a failli se noyer dans le lac.",
+        "en": "He nearly drowned in the lake."
+      }
+    },
+    {
+      "id": "veiller",
+      "kind": "vocab",
+      "fr": "veiller",
+      "en": "to stay up; to watch over",
+      "pos": "verb",
+      "example": {
+        "fr": "On a veillé tard pour voir le match.",
+        "en": "We stayed up late to watch the game."
+      },
+      "note": "veiller sur quelqu’un = to look after someone"
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Moving and finding",
+          "itemIds": [
+            "bouger",
+            "foncer",
+            "s-enfuir",
+            "poursuivre",
+            "emporter",
+            "renvoyer",
+            "retrouver",
+            "localiser"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Using your hands",
+          "itemIds": [
+            "arracher",
+            "accrocher",
+            "coller",
+            "coincer",
+            "peindre",
+            "effacer",
+            "balancer",
+            "abattre"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Switching off and changes of state",
+          "itemIds": [
+            "baisser",
+            "eteindre",
+            "raccrocher",
+            "enlever",
+            "eclater",
+            "craquer",
+            "se-noyer",
+            "veiller"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[Éteindre]] and [[peindre]] share a pattern: [[j'éteins, il a éteint]] / [[je peins, il a peint]].\n- [[S'enfuir]] and [[se noyer]] take être: [[il s'est enfui]].\n- [[Renvoyer]] can also mean *to fire* someone.\n- [[Craquer]] (informal) = to give in to temptation."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Ne bouge pas, je prends la photo !",
+              "en": "Don't move, I'm taking the picture!"
+            },
+            {
+              "fr": "N'oublie pas d'emporter un parapluie.",
+              "en": "Don't forget to take an umbrella."
+            },
+            {
+              "fr": "J'ai retrouvé mes clés sous le sofa.",
+              "en": "I found my keys under the sofa."
+            },
+            {
+              "fr": "Accroche ton manteau à l'entrée.",
+              "en": "Hang your coat up at the entrance."
+            },
+            {
+              "fr": "On va peindre la cuisine en jaune.",
+              "en": "We're going to paint the kitchen yellow."
+            },
+            {
+              "fr": "J'ai effacé le message par erreur.",
+              "en": "I deleted the message by mistake."
+            },
+            {
+              "fr": "Tu peux baisser le son, s'il te plaît ?",
+              "en": "Can you turn the sound down, please?"
+            },
+            {
+              "fr": "Éteins la lumière en sortant.",
+              "en": "Turn off the light when you leave."
+            },
+            {
+              "fr": "Elle a raccroché sans dire au revoir.",
+              "en": "She hung up without saying goodbye."
+            },
+            {
+              "fr": "Enlève tes bottes avant d'entrer.",
+              "en": "Take off your boots before you come in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the verbs.",
+          "pairs": [
+            [
+              "bouger",
+              "to move"
+            ],
+            [
+              "s'enfuir",
+              "to run away"
+            ],
+            [
+              "emporter",
+              "to take away"
+            ],
+            [
+              "localiser",
+              "to locate"
+            ],
+            [
+              "retrouver",
+              "to find again"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the verbs.",
+          "pairs": [
+            [
+              "arracher",
+              "to pull out"
+            ],
+            [
+              "coller",
+              "to glue"
+            ],
+            [
+              "peindre",
+              "to paint"
+            ],
+            [
+              "effacer",
+              "to erase"
+            ],
+            [
+              "raccrocher",
+              "to hang up"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Your neighbour’s music is too loud. You ask:",
+          "options": [
+            "Vous pouvez baisser le son ?",
+            "Vous pouvez coller le son ?",
+            "Vous pouvez arracher le son ?",
+            "Vous pouvez peindre le son ?"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Baisser le son]] = to turn the sound down."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Which sentence is correct in the passé composé?",
+          "options": [
+            "Le chien s'est enfui.",
+            "Le chien a enfui.",
+            "Le chien s'a enfui.",
+            "Le chien est enfuit."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Reflexive verbs like [[s’enfuir]] use être: [[il s’est enfui]]."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "Turn off the light. (to a friend)",
+          "accept": [
+            "Éteins la lumière.",
+            "Ferme la lumière."
+          ],
+          "hint": "imperative of éteindre (tu)",
+          "explain": "[[Éteindre]] → [[éteins]] for tu. In Québec you also hear [[Ferme la lumière]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "Take off your boots. (to a friend)",
+          "accept": [
+            "Enlève tes bottes.",
+            "Enlève tes bottes !"
+          ],
+          "explain": "Imperative of [[enlever]] for tu: [[enlève]] (with è)."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Elle a ___ sans dire au revoir.",
+          "answers": [
+            [
+              "raccroché"
+            ]
+          ],
+          "choices": [
+            "raccroché",
+            "accroché",
+            "arraché",
+            "collé"
+          ],
+          "en": "She hung up without saying goodbye.",
+          "explain": "[[Raccrocher]] = to hang up the phone; [[accrocher]] = to hang something on a hook."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Ce week-end, nous ___ la chambre en bleu. (peindre, futur proche)",
+          "answers": [
+            [
+              "allons peindre"
+            ]
+          ],
+          "en": "This weekend, we're going to paint the bedroom blue.",
+          "explain": "Futur proche: [[aller]] + infinitive → [[nous allons peindre]]."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "J'ai effacé le message par erreur.",
+          "accept": [],
+          "explain": "[[Effacer]] has a double f."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "On a veillé tard pour voir le match.",
+          "en": "We stayed up late to watch the game.",
+          "prompt": "What did they do?",
+          "options": [
+            "They stayed up late",
+            "They woke up early",
+            "They left the game early"
+          ],
+          "answer": 0,
+          "explain": "[[Veiller tard]] = to stay up late."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Talk about moving and finding: [[bouger, s’enfuir, emporter, retrouver]]\n- Describe hands-on actions: [[accrocher, coller, peindre, effacer]]\n- Turn things down and off: [[baisser le son, éteindre la lumière, raccrocher]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Removed the non-word \"enfuir\" accept; clarified coincer; added informal notes for balancer and craquer."
+  }
+}

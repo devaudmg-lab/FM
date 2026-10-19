@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-08-02",
+  "level": "b2",
+  "unit": "b2-08",
+  "title": "Debates and overlapping speech",
+  "goal": "Follow a lively debate with interruptions: track who thinks what, spot partial agreement and nuance, and recognize the phrases speakers use to take, keep and give the floor.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-qui-pense-quoi", "kind": "grammar", "fr": "intervenant → position → argument → concession", "en": "tracking who thinks what in a debate",
+      "drills": [
+        { "type": "mcq", "prompt": "A speaker says: “Je ne dis pas que c'est une mauvaise idée, mais on va trop vite.” What is her position?", "options": ["Nuanced: not against the idea, but against the pace", "Fully in favour", "Totally against"], "answer": 0, "explain": "[[Je ne dis pas que… mais…]] concedes a point, then states a reservation: that's a nuanced position." },
+        { "type": "mcq", "prompt": "“Là-dessus, je rejoins Olivier.” What does the speaker do?", "options": ["She agrees with Olivier on this specific point", "She interrupts Olivier", "She asks Olivier to speak"], "answer": 0, "explain": "[[rejoindre quelqu'un sur un point]] = to agree with someone on that point. Often a partial agreement in an otherwise opposed view." },
+        { "type": "cloze", "text": "Laissez-moi ___, s'il vous plaît !", "answers": [["finir", "terminer"]], "en": "Let me finish, please!", "explain": "A speaker protects their turn: [[Laissez-moi finir]] / [[Vous me laissez terminer ?]]" }
+      ] },
+    { "id": "debat", "kind": "vocab", "fr": "débat", "article": "le", "gender": "m", "en": "debate", "pos": "noun", "accept": ["un débat"] },
+    { "id": "intervenant", "kind": "vocab", "fr": "intervenant", "fem": "intervenante", "article": "l'", "gender": "m", "en": "speaker, panellist (in a debate)", "pos": "noun", "accept": ["un intervenant", "l'intervenante", "une intervenante"] },
+    { "id": "interrompre", "kind": "vocab", "fr": "interrompre", "en": "to interrupt", "pos": "verb",
+      "example": { "fr": "Pardon de vous interrompre, mais c'est faux.", "en": "Sorry to interrupt you, but that's wrong." } },
+    { "id": "donner-la-parole", "kind": "phrase", "fr": "donner la parole à", "en": "to give the floor to", "accept": ["passer la parole à"],
+      "example": { "fr": "Je donne la parole à Amira.", "en": "I'll give the floor to Amira." } },
+    { "id": "si-je-peux-me-permettre", "kind": "phrase", "fr": "Si je peux me permettre, …", "en": "If I may, … (politely taking the floor)", "accept": ["Si vous me permettez, …", "Si vous me le permettez, …"] },
+    { "id": "laissez-moi-finir", "kind": "phrase", "fr": "Laissez-moi finir.", "en": "Let me finish.", "accept": ["Laissez-moi terminer.", "Vous me laissez terminer ?", "Je n'ai pas fini."] },
+    { "id": "je-vous-arrete", "kind": "phrase", "fr": "Je vous arrête tout de suite.", "en": "Let me stop you right there.", "accept": ["Je vous arrête."] },
+    { "id": "je-rebondis", "kind": "phrase", "fr": "Je rebondis sur ce que dit…", "en": "I'd like to pick up on what … is saying", "accept": ["Je reviens sur ce que dit…", "Pour rebondir sur ce que dit…"] },
+    { "id": "rejoindre", "kind": "phrase", "fr": "Je rejoins … sur ce point.", "en": "I agree with … on this point.", "accept": ["Je suis d'accord avec … sur ce point.", "Là-dessus, je rejoins …"] },
+    { "id": "caricaturer", "kind": "phrase", "fr": "Vous caricaturez ma position.", "en": "You're misrepresenting my position.", "accept": ["Ce n'est pas ce que j'ai dit.", "Vous déformez mes propos."] },
+    { "id": "je-nuancerais", "kind": "phrase", "fr": "Je nuancerais un peu.", "en": "I'd qualify that a little.", "accept": ["Je nuancerais.", "C'est plus nuancé que ça."] },
+    { "id": "point-de-vue", "kind": "vocab", "fr": "point de vue", "article": "le", "gender": "m", "en": "point of view", "pos": "noun", "accept": ["un point de vue"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A heated panel on the four-day week",
+      "intro": "In a debate, the hard part isn't the vocabulary: it's keeping track of **who** thinks **what**, when people interrupt, half-agree and change their minds. Take notes in a simple grid: name | position | main argument. Then answer.",
+      "blocks": [
+        { "type": "dialogue", "title": "La semaine de quatre jours : progrès ou illusion ?",
+          "context": "A fictional radio debate in Sherbrooke. Camille moderates. Olivier Roy represents a regional employers' association, Amira Haddad is a union representative, and Mei Chen is a researcher in workplace health who has studied companies that tried the four-day week.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Bonsoir à tous. Ce soir, une question qui divise : faut-il adopter la semaine de quatre jours ? Olivier Roy, je vous donne la parole en premier.", "en": "Good evening, everyone. Tonight, a question that divides: should we adopt the four-day week? Olivier Roy, I'll give you the floor first." },
+            { "speaker": "Olivier", "fr": "Merci. Écoutez, sur le papier, c'est séduisant. Mais concrètement, pour une PME de vingt employés, c'est impossible. Les clients, eux, veulent un service cinq jours par semaine. Qui va répondre le vendredi ?", "en": "Thank you. Look, on paper, it's attractive. But concretely, for a small business with twenty employees, it's impossible. Customers want service five days a week. Who's going to answer on Fridays?" },
+            { "speaker": "Amira", "fr": "Si je peux me permettre, personne ne parle de fermer le vendredi. On peut organiser des horaires en rotation.", "en": "If I may, nobody's talking about closing on Fridays. You can organize rotating schedules." },
+            { "speaker": "Olivier", "fr": "Laissez-moi finir. Des horaires en rotation, ça coûte cher, il faut embaucher…", "en": "Let me finish. Rotating schedules are expensive, you have to hire…" },
+            { "speaker": "Amira", "fr": "Je vous arrête tout de suite : dans les entreprises qui l'ont essayé, les congés de maladie ont baissé. Autrement dit, ça se paie en partie tout seul.", "en": "Let me stop you right there: in companies that tried it, sick leave went down. In other words, it partly pays for itself." },
+            { "speaker": "Camille", "fr": "Mei Chen, vous avez étudié ces entreprises. Qui a raison ?", "en": "Mei Chen, you've studied these companies. Who's right?" },
+            { "speaker": "Mei", "fr": "Je nuancerais un peu. Amira a raison sur la santé : la fatigue et l'absentéisme diminuent, c'est très net. En revanche, je rejoins Olivier sur un point : ça fonctionne beaucoup mieux dans les bureaux que dans les commerces ou les hôpitaux.", "en": "I'd qualify that a little. Amira is right about health: fatigue and absenteeism go down, that's very clear. On the other hand, I agree with Olivier on one point: it works much better in offices than in shops or hospitals." },
+            { "speaker": "Olivier", "fr": "Voilà, c'est exactement ce que je dis.", "en": "There you go, that's exactly what I'm saying." },
+            { "speaker": "Amira", "fr": "Non, vous dites que c'est impossible. Ce n'est pas la même chose.", "en": "No, you're saying it's impossible. That's not the same thing." },
+            { "speaker": "Olivier", "fr": "Vous caricaturez ma position. Je dis que ça ne peut pas être imposé à tout le monde.", "en": "You're misrepresenting my position. I'm saying it can't be imposed on everyone." },
+            { "speaker": "Mei", "fr": "Et là-dessus, je pense qu'on est tous d'accord, non ? Une expérience volontaire, secteur par secteur.", "en": "And on that, I think we all agree, right? A voluntary trial, sector by sector." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What is Olivier's final position?", "options": ["The four-day week shouldn't be imposed on everyone", "The four-day week is impossible everywhere", "He fully supports the four-day week"], "answer": 0,
+          "explain": "He corrects Amira: [[Vous caricaturez ma position. Je dis que ça ne peut pas être imposé à tout le monde.]] His position became more nuanced during the debate." },
+        { "id": "d2", "type": "mcq", "prompt": "On which point does Mei agree with Olivier?", "options": ["It works better in offices than in shops or hospitals", "It's too expensive for everyone", "It doesn't reduce sick leave"], "answer": 0,
+          "explain": "[[je rejoins Olivier sur un point : ça fonctionne beaucoup mieux dans les bureaux…]] Note that she agrees with Amira on health." },
+        { "id": "d3", "type": "mcq", "prompt": "What do all three panellists seem to accept at the end?", "options": ["A voluntary trial, sector by sector", "A law imposing the four-day week", "Closing all businesses on Fridays"], "answer": 0,
+          "explain": "[[là-dessus, je pense qu'on est tous d'accord : une expérience volontaire, secteur par secteur]]. Nobody objects." }
+      ] },
+    { "type": "understand", "title": "Tracking voices in a debate",
+      "blocks": [
+        { "type": "table", "title": "A note-taking grid for the debate",
+          "head": ["Speaker", "Position", "Main argument", "Concession or nuance"],
+          "rows": [
+            ["Olivier Roy", "against imposing it", "small businesses must serve clients five days a week; cost of hiring", "“sur le papier, c'est séduisant”"],
+            ["Amira Haddad", "for", "rotating schedules; less sick leave, so it partly pays for itself", "none"],
+            ["Mei Chen", "nuanced", "health benefits are clear; works better in offices", "agrees with each side on one point"]
+          ],
+          "frCols": [], "sayCol": false,
+          "note": "Write the grid **before** listening, with the names from the introduction. Then fill only key words. At the end, a summary practically writes itself." },
+        { "type": "table", "title": "Taking, keeping and giving the floor",
+          "head": ["Goal", "Phrases", "Tone"],
+          "rows": [
+            ["Take the floor politely", "Si je peux me permettre, … / Pardon de vous interrompre, mais…", "polite"],
+            ["Take the floor firmly", "Je vous arrête tout de suite. / Non, attendez…", "firm"],
+            ["Keep the floor", "Laissez-moi finir. / Vous me laissez terminer ?", "defensive"],
+            ["Link to someone's idea", "Je rebondis sur ce que dit Amira… / Pour revenir à ce que disait Olivier…", "collaborative"],
+            ["Give the floor (moderator)", "Je vous donne la parole. / Votre réaction ? / On vous écoute.", "neutral"],
+            ["Reject a distortion", "Vous caricaturez ma position. / Ce n'est pas ce que j'ai dit.", "defensive"]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "table", "title": "From full agreement to full disagreement",
+          "head": ["Phrase", "Meaning"],
+          "rows": [
+            ["C'est exactement ce que je dis. / Tout à fait.", "full agreement"],
+            ["Là-dessus, je rejoins… / Sur ce point, on est d'accord.", "agreement on one point only"],
+            ["Je nuancerais un peu. / C'est plus compliqué que ça.", "partial disagreement"],
+            ["Je ne dis pas que… mais… / Oui, mais…", "concession, then objection"],
+            ["Je ne partage pas du tout ce point de vue.", "clear disagreement"],
+            ["C'est faux. / Ce n'est pas sérieux.", "strong, even rude disagreement"]
+          ],
+          "frCols": [0], "sayCol": false,
+          "note": "In a debate, [[Oui, mais…]] usually means **no**. The real position comes after [[mais]]." },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["debat", "intervenant", "interrompre", "donner-la-parole", "si-je-peux-me-permettre", "laissez-moi-finir", "je-vous-arrete", "je-rebondis", "rejoindre", "caricaturer", "je-nuancerais", "point-de-vue"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Who said that?",
+          "body": "- **Attributing the moderator's questions to a panellist**: [[Qui a raison ?]] is Camille's question, not an opinion.\n- **Missing the change of position**: Olivier starts with [[c'est impossible]] and ends with [[ça ne peut pas être imposé à tout le monde]]. Exam questions love this kind of shift: always check the **last** thing a speaker says.\n- **Taking a concession for the position**: [[Sur le papier, c'est séduisant. Mais…]] → Olivier is not in favour. Wait for [[mais]].\n- **Confusing reported and own views**: [[Certains disent que…]] or [[Selon mon collègue…]] is not the speaker's opinion.\n- **When reporting**, attribute clearly: [[Selon Amira, …]] / [[Pour Olivier, …]] / [[Mei, quant à elle, estime que…]] (Unit 07: [[quant à]])." },
+        { "type": "deepdive", "kind": "canada", "title": "Debating, Québec style",
+          "body": "- Public debate on Québec TV and radio (for example the talk show *Tout le monde en parle* or panels on ICI Première) is lively, but people tend to soften disagreement: [[Je suis pas certain que…]], [[C'est pas fou, mais…]] (that's not a bad idea, but…).\n- **[[s'obstiner]]** in Québec means to argue back and forth stubbornly: [[On s'est obstinés pendant une heure.]] In France it means to persist.\n- **[[une chicane]]** = a quarrel, an argument; [[se chicaner]] = to argue (informal Québec).\n- **[[C'est sûr que…]]** often starts a concession in Québec speech: [[C'est sûr que ça coûte cher, mais…]] = Of course it's expensive, but…" }
+      ] },
+    { "type": "hear", "title": "For, against or nuanced?",
+      "intro": "Each recording is one speaker. Decide their position before looking at the options.",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat: turn-taking",
+          "note": "Firm but polite: a steady voice, no shouting. Stress the first word.",
+          "lines": [
+            { "fr": "Si je peux me permettre, ce n'est pas tout à fait exact.", "en": "If I may, that's not quite accurate." },
+            { "fr": "Laissez-moi finir, s'il vous plaît.", "en": "Let me finish, please." },
+            { "fr": "Je rebondis sur ce que dit Mei.", "en": "I'd like to pick up on what Mei is saying." },
+            { "fr": "Vous caricaturez ma position.", "en": "You're misrepresenting my position." },
+            { "fr": "Là-dessus, je pense qu'on est tous d'accord.", "en": "On that, I think we all agree." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Moi, je suis infirmière. Une semaine de quatre jours, à l'hôpital, ça voudrait dire des journées de dix heures. Franchement, on est déjà épuisées. Non, pour nous, ce n'est pas une solution.", "en": "Me, I'm a nurse. A four-day week, at the hospital, would mean ten-hour days. Frankly, we're already exhausted. No, for us, it's not a solution.", "prompt": "What is this speaker's position on the four-day week?", "options": ["Against, for hospitals", "For, everywhere", "Nuanced: for, if days are longer"], "answer": 0,
+          "explain": "[[pour nous, ce n'est pas une solution]]: ten-hour days would be too tiring for nurses." },
+        { "id": "h2", "type": "listen-mcq", "fr": "C'est sûr que ça ne marche pas partout. Mais dans mon entreprise, on l'a essayé pendant six mois, et honnêtement, personne ne veut revenir en arrière. Les employés sont plus motivés, et nos clients n'ont rien remarqué.", "en": "Of course it doesn't work everywhere. But in my company, we tried it for six months, and honestly, nobody wants to go back. Employees are more motivated, and our clients didn't notice anything.", "prompt": "What is this speaker's position?", "options": ["For, based on experience, while admitting it doesn't fit everywhere", "Against, because clients complained", "Undecided: he hasn't tried it"], "answer": 0,
+          "explain": "[[C'est sûr que ça ne marche pas partout. Mais…]]: a concession, then a strong argument for, based on six months of experience." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Je ne dis pas que c'est une mauvaise idée. Je dis qu'on manque de données. Avant de changer la loi, il faudrait mener des études sérieuses, sur plusieurs années.", "en": "I'm not saying it's a bad idea. I'm saying we lack data. Before changing the law, serious studies should be carried out, over several years.", "prompt": "What does this speaker want?", "options": ["More research before any law", "An immediate law", "To reject the idea completely"], "answer": 0,
+          "explain": "[[Je ne dis pas que… Je dis que…]] separates what he doesn't mean from what he does mean: [[il faudrait mener des études sérieuses]]." },
+        { "id": "h4", "type": "dictation", "fr": "Je rejoins Olivier sur ce point, mais je nuancerais un peu.", "accept": ["Je rejoins Olivier sur ce point mais je nuancerais un peu."], "explain": "[[rejoindre quelqu'un sur un point]] + [[je nuancerais]] (conditional, softening)." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Mostly listening. Some questions bring back reported speech and Unit 07 connectors.",
+      "blocks": [
+        { "id": "r1", "type": "listen-mcq", "fr": "Pardon de vous interrompre, mais les chiffres que vous donnez datent de 2015. Depuis, la situation a complètement changé.", "en": "Sorry to interrupt you, but the figures you're giving date from 2015. Since then, the situation has completely changed.", "prompt": "Why does the speaker interrupt?", "options": ["The other person's figures are out of date", "The other person is speaking too long", "She agrees and wants to add a point"], "answer": 0,
+          "explain": "[[les chiffres que vous donnez datent de 2015]]: she challenges the data." },
+        { "id": "r2", "type": "listen-mcq", "fr": "Oui, mais justement, si on laisse chaque entreprise décider, les petites entreprises ne le feront jamais. Il faut une règle commune.", "en": "Yes, but that's exactly the point: if we let each company decide, small businesses will never do it. We need a common rule.", "prompt": "What does this speaker think about a voluntary approach?", "options": ["It won't work; there should be a common rule", "It's the best solution", "Small businesses should decide alone"], "answer": 0,
+          "explain": "[[Oui, mais…]] = disagreement. [[Il faut une règle commune]] is the real position." },
+        { "id": "r3", "type": "match", "prompt": "Match each phrase with its purpose.", "pairs": [["Laissez-moi finir.", "keep the floor"], ["Je vous donne la parole.", "give the floor"], ["Vous caricaturez ma position.", "reject a distortion"], ["Je rebondis sur ce que dit Mei.", "link to another speaker"], ["Si je peux me permettre, …", "take the floor politely"]] },
+        { "id": "r4", "type": "cloze", "text": "Amira est pour. Olivier, ___, s'oppose à une loi. Mei estime ___ que l'expérience doit être volontaire.", "answers": [["en revanche", "quant à lui", "par contre", "lui"], ["toutefois", "néanmoins", "cependant", "pour sa part", "quant à elle"]], "choices": ["en revanche", "or", "toutefois", "d'ailleurs"], "en": "Amira is in favour. Olivier, on the other hand, opposes a law. Mei, however, believes the trial should be voluntary.", "explain": "Reporting a debate with Unit 07 connectors: contrast ([[en revanche]]) and restriction ([[toutefois]])." },
+        { "id": "r5", "type": "translate", "prompt": "I'd like to pick up on what Amira is saying.", "accept": ["Je rebondis sur ce que dit Amira.", "Je voudrais rebondir sur ce que dit Amira.", "J'aimerais rebondir sur ce que dit Amira.", "Je rebondis sur ce que dit Amira", "Je voudrais revenir sur ce que dit Amira.", "J'aimerais revenir sur ce que dit Amira."], "explain": "[[rebondir sur]] (literally “bounce off”) = to pick up on an idea." },
+        { "id": "r6", "type": "listen-mcq", "fr": "Bon, je résume. Pour vous, Monsieur Roy, la mesure est trop coûteuse. Pour vous, Madame Haddad, elle améliore la santé des travailleurs. Et Madame Chen nous dit que tout dépend du secteur.", "en": "OK, let me sum up. For you, Mr. Roy, the measure is too costly. For you, Ms. Haddad, it improves workers' health. And Ms. Chen tells us it all depends on the sector.", "prompt": "According to the moderator's summary, what does Ms. Chen think?", "options": ["It depends on the sector", "It's too costly", "It improves health everywhere"], "answer": 0,
+          "explain": "[[Madame Chen nous dit que tout dépend du secteur]]. The moderator's summary is a gift: listen for it!" },
+        { "id": "r7", "type": "mcq", "prompt": "In a debate, someone says: “Oui, mais…”. What usually follows?", "options": ["An objection", "Full agreement", "A change of topic"], "answer": 0,
+          "explain": "[[Oui, mais…]] concedes a little, then disagrees. The real opinion is after [[mais]]." },
+        { "id": "r8", "type": "cloze", "text": "Olivier a affirmé que la mesure ___ trop chère pour les PME.", "answers": [["était", "serait"]], "en": "Olivier stated that the measure was too expensive for small businesses.", "explain": "Reported speech in the past (B2-04): [[est → était]]; [[serait]] if he presented it as a prediction." },
+        { "id": "r9", "type": "dictation", "fr": "Je ne partage pas du tout ce point de vue.", "accept": [], "explain": "A clear but polite disagreement." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a short report (compte rendu) of the radio debate on the four-day week for a newsletter: the question, each speaker's position and main argument, the points of agreement, and the conclusion.", "promptFr": "Rédigez le compte rendu du débat sur la semaine de quatre jours.",
+          "wordRange": [120, 170],
+          "checklist": ["The question and context", "Each speaker's position, clearly attributed (selon…, pour…, quant à…)", "Reporting verbs: affirmer, souligner, estimer, reconnaître", "One point of partial agreement", "The final consensus", "Unit 07 connectors (en revanche, toutefois, par ailleurs)"],
+          "models": [ { "label": "Model answer", "fr": "Mardi soir, une radio de Sherbrooke a réuni trois intervenants autour d'une question qui divise : faut-il adopter la semaine de quatre jours ? Pour Olivier Roy, qui représente les employeurs de la région, la mesure est séduisante sur le papier, mais difficile à appliquer dans une PME, car les clients exigent un service cinq jours par semaine. Amira Haddad, représentante syndicale, a en revanche souligné que les horaires en rotation sont possibles et que les congés de maladie diminuent. La chercheuse Mei Chen a nuancé le débat : elle reconnaît les bienfaits pour la santé, mais estime que la formule fonctionne mieux dans les bureaux que dans les commerces ou les hôpitaux. Malgré leurs désaccords, les trois intervenants se sont finalement entendus sur une expérience volontaire, secteur par secteur.", "en": "On Tuesday evening, a Sherbrooke radio station brought together three panellists around a question that divides: should we adopt the four-day week? For Olivier Roy, who represents the region's employers, the measure is attractive on paper, but hard to apply in a small business, because clients demand service five days a week. Amira Haddad, a union representative, on the other hand stressed that rotating schedules are possible and that sick leave goes down. Researcher Mei Chen qualified the debate: she recognizes the health benefits, but believes the formula works better in offices than in shops or hospitals. Despite their disagreements, the three panellists finally agreed on a voluntary trial, sector by sector." } ] },
+        { "id": "s1", "type": "speak", "prompt": "You're on a panel about banning cars from downtown on weekends. Another panellist says: “C'est une idée ridicule, les commerces vont mourir.” Answer for about a minute: take the floor, keep it when interrupted, agree on one point and nuance the rest.", "seconds": 60,
+          "checklist": ["Si je peux me permettre, … / Je vous arrête tout de suite", "Laissez-moi finir.", "Je vous rejoins sur un point : …", "Je nuancerais : …", "Je ne dis pas que… Je dis que…", "A proposal to close"],
+          "models": [ { "label": "Model answer", "fr": "Si je peux me permettre, le mot « ridicule » est un peu fort. Je vous rejoins sur un point : les commerçants ont besoin de clients, c'est évident. Mais laissez-moi finir. Dans les villes qui ont fermé leur centre-ville aux voitures la fin de semaine, les piétons sont plus nombreux, et beaucoup de commerces ont vu leurs ventes augmenter. Je ne dis pas que ça marchera partout. Je dis qu'on peut l'essayer. Je propose donc un projet pilote d'un été, avec une évaluation à la fin.", "en": "If I may, the word “ridiculous” is a bit strong. I agree with you on one point: shopkeepers need customers, that's obvious. But let me finish. In cities that closed their downtown to cars on weekends, there are more pedestrians, and many shops have seen their sales go up. I'm not saying it will work everywhere. I'm saying we can try it. So I propose a one-summer pilot project, with an evaluation at the end." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Track a debate with a grid: speaker | position | argument | nuance\n- Recognize turn-taking: [[Si je peux me permettre]], [[Laissez-moi finir]], [[Je vous arrête tout de suite]], [[Je rebondis sur…]]\n- Spot partial agreement and nuance: [[je rejoins… sur ce point]], [[je nuancerais]], [[Oui, mais…]], [[Je ne dis pas que… mais…]]\n- Report who thinks what with clear attribution and connectors",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Labelled the debate as fictional, removed a non-homophone dictation accept and an incomplete accepted phrase." }
+}

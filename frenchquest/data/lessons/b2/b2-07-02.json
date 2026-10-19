@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-07-02",
+  "level": "b2",
+  "unit": "b2-07",
+  "title": "Nominalization",
+  "goal": "Turn verbs and adjectives into nouns (augmenter → l'augmentation) to write concise headlines, notes and formal sentences, and predict the gender of the noun from its suffix.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-nominalisation", "kind": "grammar", "fr": "verbe → nom : augmenter → l'augmentation", "en": "nominalization: turning a verb or adjective into a noun",
+      "drills": [
+        { "type": "cloze", "text": "Les loyers augmentent → ___ des loyers", "answers": [["l'augmentation", "la hausse"]], "en": "Rents are going up → the increase in rents", "explain": "[[augmenter]] → [[l'augmentation]] (-tion, feminine). The subject becomes a complement with [[de]]: [[des loyers]]." },
+        { "type": "cloze", "text": "On a fermé l'usine → ___ fermeture de l'usine", "answers": [["la"]], "choices": ["le", "la"], "en": "They closed the factory → the closing of the factory", "explain": "Nouns in -ure are feminine: [[la fermeture]], [[la signature]], [[l'ouverture]]." },
+        { "type": "mcq", "prompt": "Which nominalization of “Après avoir vérifié les documents, …” is correct?", "options": ["Après vérification des documents, …", "Après la vérifiement des documents, …", "Après vérifier les documents, …", "Après le vérifiage des documents, …"], "optionsFr": true, "answer": 0, "explain": "[[vérifier]] → [[la vérification]]. In formal French, [[après vérification]] (no article) is a fixed, concise pattern." }
+      ] },
+    { "id": "g-genre-suffixe", "kind": "grammar", "fr": "-tion, -ure, -ité → féminin ; -ment, -age → masculin", "en": "noun suffixes that predict gender",
+      "drills": [
+        { "type": "cloze", "text": "___ remboursement sera effectué en mai.", "answers": [["Le"]], "choices": ["Le", "La"], "en": "The refund will be made in May.", "explain": "Nouns in -ment are masculine: [[le remboursement]], [[le changement]], [[le développement]]." },
+        { "type": "cloze", "text": "___ fiabilité de ce logiciel est excellente.", "answers": [["La"]], "choices": ["Le", "La"], "en": "This software's reliability is excellent.", "explain": "Nouns in -ité are feminine: [[la fiabilité]], [[la sécurité]], [[la rapidité]]." },
+        { "type": "mcq", "prompt": "Which noun in -age is feminine?", "options": ["la page", "le nettoyage", "le message", "le voyage"], "optionsFr": true, "answer": 0, "explain": "Most nouns in -age are masculine, except a few short ones: [[la page]], [[la plage]], [[l'image]], [[la cage]], [[la nage]], [[la rage]]." }
+      ] },
+    { "id": "augmentation", "kind": "vocab", "fr": "augmentation", "article": "l'", "gender": "f", "en": "increase", "pos": "noun", "accept": ["une augmentation", "la hausse", "une hausse"],
+      "example": { "fr": "L'augmentation des prix inquiète les familles.", "en": "The increase in prices worries families." } },
+    { "id": "baisse", "kind": "vocab", "fr": "baisse", "article": "la", "gender": "f", "en": "drop, decrease", "pos": "noun", "accept": ["une baisse", "la diminution", "une diminution"],
+      "example": { "fr": "On observe une baisse de 3 % du chômage.", "en": "We're seeing a 3 percent drop in unemployment." }, "note": "No suffix at all: [[baisser]] → [[la baisse]]. Same with [[hausser]] → [[la hausse]]." },
+    { "id": "hausse", "kind": "vocab", "fr": "hausse", "article": "la", "gender": "f", "en": "rise (in prices, rates; headline word)", "pos": "noun", "accept": ["une hausse"],
+      "example": { "fr": "Hausse des tarifs de transport en commun", "en": "Public transit fares go up (headline)" } },
+    { "id": "fermeture", "kind": "vocab", "fr": "fermeture", "article": "la", "gender": "f", "en": "closing, closure", "pos": "noun", "accept": ["une fermeture"] },
+    { "id": "ouverture", "kind": "vocab", "fr": "ouverture", "article": "l'", "gender": "f", "en": "opening", "pos": "noun", "accept": ["une ouverture"] },
+    { "id": "remboursement", "kind": "vocab", "fr": "remboursement", "article": "le", "gender": "m", "en": "refund, reimbursement", "pos": "noun", "accept": ["un remboursement"] },
+    { "id": "recrutement", "kind": "vocab", "fr": "recrutement", "article": "le", "gender": "m", "en": "recruitment, hiring", "pos": "noun", "accept": ["un recrutement", "l'embauche"] },
+    { "id": "deneigement", "kind": "vocab", "fr": "déneigement", "article": "le", "gender": "m", "en": "snow removal", "pos": "noun", "accept": ["un déneigement"], "note": "A very Canadian word: [[déneiger]] → [[le déneigement]]." },
+    { "id": "nettoyage", "kind": "vocab", "fr": "nettoyage", "article": "le", "gender": "m", "en": "cleaning", "pos": "noun", "accept": ["un nettoyage"] },
+    { "id": "fiabilite", "kind": "vocab", "fr": "fiabilité", "article": "la", "gender": "f", "en": "reliability", "pos": "noun" },
+    { "id": "mise-en-place", "kind": "vocab", "fr": "mise en place", "article": "la", "gender": "f", "en": "setting up, implementation", "pos": "noun", "accept": ["une mise en place", "l'implantation", "la mise en œuvre"],
+      "example": { "fr": "la mise en place d'un nouveau système", "en": "the setting up of a new system" }, "note": "The noun of [[mettre]] is [[la mise]]: [[la mise à jour]] (update), [[la mise en ligne]] (posting online)." },
+    { "id": "lenteur", "kind": "vocab", "fr": "lenteur", "article": "la", "gender": "f", "en": "slowness", "pos": "noun",
+      "note": "Abstract nouns in -eur are feminine: [[la lenteur]], [[la chaleur]], [[la longueur]]. But people in -eur are masculine: [[le chercheur]]." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "From sentences to headlines",
+      "intro": "Headlines, slides, meeting notes and formal reports all use the same trick: they **turn verbs into nouns**. Read these headlines from a local news site, then see how Raj turns his messy notes into a clean slide.",
+      "blocks": [
+        { "type": "text", "title": "Info Région : les titres du jour",
+          "context": "Fictional headlines from an imaginary regional news site (the facts and figures are invented).",
+          "fr": "Hausse de 4 % des tarifs de transport en commun dès le 1er juillet\nFermeture temporaire du pont Champlain : les automobilistes invités à prévoir un détour\nDéneigement : la Ville promet une amélioration du service cet hiver\nRecrutement d'infirmières : ouverture d'une clinique de reconnaissance des diplômes\nBaisse du chômage chez les nouveaux arrivants pour la troisième année consécutive",
+          "en": "Public transit fares up 4 percent from July 1\nTemporary closure of the Champlain Bridge: drivers asked to plan a detour\nSnow removal: the city promises better service this winter\nNurse recruitment: a clinic for credential recognition opens\nUnemployment among newcomers falls for the third year in a row" },
+        { "type": "text", "title": "Raj's notes, before and after",
+          "context": "Raj, project coordinator, prepares a slide for Monday's meeting.",
+          "fr": "Avant (notes rapides) :\nOn va changer de logiciel parce que l'ancien plante tout le temps et il est trop lent. On va former les employés en septembre. Après, on va vérifier si tout fonctionne. Les clients seront remboursés s'il y a eu des erreurs.\n\nAprès (diapositive) :\nChangement de logiciel\n- Motifs : manque de fiabilité et lenteur de l'ancien système\n- Formation des employés en septembre\n- Vérification du fonctionnement après la mise en place\n- Remboursement des clients en cas d'erreur",
+          "en": "Before (quick notes):\nWe're going to change software because the old one crashes all the time and it's too slow. We're going to train the employees in September. Afterwards, we'll check if everything works. Customers will be refunded if there were errors.\n\nAfter (slide):\nSoftware change\n- Reasons: lack of reliability and slowness of the old system\n- Staff training in September\n- Check that everything works after implementation\n- Customer refunds in case of error" },
+        { "id": "d1", "type": "mcq", "prompt": "Which sentence is the full version of the headline “Fermeture temporaire du pont Champlain”?", "options": ["Le pont Champlain est fermé temporairement.", "Le pont Champlain ouvre bientôt.", "On construit un nouveau pont Champlain."], "optionsFr": true, "answer": 0,
+          "explain": "[[la fermeture]] is the noun of [[fermer]]. The adjective [[temporaire]] becomes the adverb [[temporairement]] in the full sentence." },
+        { "id": "d2", "type": "mcq", "prompt": "In Raj's slide, what became of “il est trop lent”?", "options": ["la lenteur", "le lent", "la lentité"], "optionsFr": true, "answer": 0,
+          "explain": "The adjective [[lent]] gives the noun [[la lenteur]] (feminine, like [[la chaleur]], [[la longueur]])." }
+      ] },
+    { "type": "understand", "title": "How to build a noun",
+      "blocks": [
+        { "type": "explain", "title": "What nominalization does",
+          "body": "**Nominalization** means replacing a verb (or an adjective) with the matching noun. The sentence gets shorter, more abstract and more formal:\n\n- [[Les loyers ont augmenté de 5 %.]] → [[une augmentation de 5 % des loyers]]\n- [[Quand le contrat sera signé, …]] → [[Dès la signature du contrat, …]]\n- [[parce que le service est lent]] → [[en raison de la lenteur du service]]\n\nThree things change:\n- The **verb becomes a noun** with an article.\n- The **subject or object becomes a complement** with [[de]]: [[on ferme l'usine]] → [[la fermeture **de** l'usine]].\n- **Adverbs become adjectives**: [[fermer temporairement]] → [[une fermeture temporaire]]." },
+        { "type": "table", "title": "Suffixes and gender",
+          "head": ["Suffix", "Gender", "Verb or adjective → noun", "Watch out"],
+          "rows": [
+            ["-tion / -sion / -ation", "feminine", "augmenter → l'augmentation, décider → la décision, inscrire → l'inscription", "always feminine"],
+            ["-ment", "masculine", "changer → le changement, rembourser → le remboursement, déneiger → le déneigement", "almost always masculine"],
+            ["-age", "masculine", "nettoyer → le nettoyage, laver → le lavage, partager → le partage", "except la page, la plage, l'image, la cage, la nage"],
+            ["-ure", "feminine", "fermer → la fermeture, ouvrir → l'ouverture, signer → la signature", "except le murmure, le mercure"],
+            ["-ité / -té", "feminine", "fiable → la fiabilité, rapide → la rapidité, simple → la simplicité", "except le comité, le traité, l'été"],
+            ["-ance / -ence", "feminine", "croître → la croissance, préférer → la préférence", "except le silence"],
+            ["-eur (quality)", "feminine", "lent → la lenteur, chaud → la chaleur, long → la longueur", "but le bonheur, le malheur, l'honneur"],
+            ["no suffix", "varies: learn it", "baisser → la baisse, hausser → la hausse, refuser → le refus, retourner → le retour, choisir → le choix", "check a dictionary"]
+          ],
+          "frCols": [2, 3], "sayCol": false,
+          "note": "The suffix rule is reliable enough to guess in an exam. When you learn a new noun, always learn it with its article." },
+        { "type": "pattern", "title": "Common formal patterns",
+          "pattern": "préposition + nom (sans article) / nom + de + complément",
+          "note": "Some prepositions take the noun directly, without an article. These are very frequent in official letters and instructions.",
+          "examples": [
+            { "fr": "Après vérification, votre dossier est complet.", "en": "After checking, your file is complete." },
+            { "fr": "Sur présentation d'une pièce d'identité.", "en": "Upon presentation of an ID." },
+            { "fr": "En cas de retard, prévenez la réception.", "en": "In case of delay, notify reception." },
+            { "fr": "Dès réception du paiement, nous enverrons la commande.", "en": "As soon as payment is received, we'll ship the order." },
+            { "fr": "En raison des travaux, la station est fermée.", "en": "Due to construction, the station is closed." }
+          ] },
+        { "type": "vocab", "title": "Nouns for this lesson", "itemIds": ["augmentation", "baisse", "hausse", "fermeture", "ouverture", "remboursement", "recrutement", "deneigement", "nettoyage", "fiabilite", "mise-en-place", "lenteur"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Gender slips and heavy sentences",
+          "body": "- **[[la changement]]** ✗ → [[le changement]] ✓. Trust the suffix: -ment is masculine.\n- **[[le décision]]**, **[[le solution]]** ✗ → [[la décision]], [[la solution]] ✓. Every noun in -tion/-sion is feminine.\n- **Inventing a noun**: [[la vérifiement]] ✗, [[le recrutation]] ✗. The verb chooses its suffix: [[vérifier → la vérification]], [[recruter → le recrutement]]. When in doubt, check.\n- **Forgetting [[de]]**: [[l'augmentation les prix]] ✗ → [[l'augmentation **des** prix]] ✓\n- **Too many nouns in a row**: [[la mise en place de la vérification de la conformité des demandes]] is correct but unreadable. In emails and speech, go back to a verb: [[nous vérifierons si les demandes sont conformes]].\n- **Mixing styles in a list**: a slide with [[Formation des employés]] then [[On va vérifier]] looks careless. Keep all bullets in the same form (all nouns, or all infinitives)." },
+        { "type": "deepdive", "kind": "why", "title": "Why does French love nouns?",
+          "body": "English formal writing often prefers verbs (“after we check the file…”). French administrative and journalistic writing has a strong tradition of **noun style** ([[style nominal]]): it's compact and sounds objective, because it hides who does the action. [[Fermeture du pont]] doesn't say who closes it. That's why headlines, forms and official letters are full of nouns, and why recognizing them quickly is a big help in TEF and TCF reading." },
+        { "type": "deepdive", "kind": "canada", "title": "Nouns you'll see everywhere in Canada",
+          "body": "- **[[le déneigement]]** (snow removal) and **[[le stationnement]]** (parking) appear on every street sign in Québec winters: [[Stationnement interdit – déneigement]].\n- **[[l'inscription]]** (registration), **[[le renouvellement]]** (renewal) and **[[la demande]]** (application) are the key nouns on government websites: [[renouvellement du permis de conduire]], [[demande de résidence permanente]].\n- **[[l'embauche]]** (hiring) is very common in Québec job ads: [[Embauche immédiate !]]\n- **[[la francisation]]** (French-language training for newcomers) is the noun of [[franciser]]." }
+      ] },
+    { "type": "hear", "title": "Hear the headlines",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Headlines are read with a falling tone and no verb. Make the [[de]] link clear.",
+          "lines": [
+            { "fr": "Hausse des tarifs de transport en commun.", "en": "Public transit fares go up.", "tip": "The h of [[hausse]] is aspirated: [[la hausse]], no liaison, no elision." },
+            { "fr": "Fermeture temporaire du pont.", "en": "Temporary closure of the bridge." },
+            { "fr": "Après vérification, votre dossier est complet.", "en": "After checking, your file is complete." },
+            { "fr": "En raison des travaux, la station est fermée.", "en": "Due to construction, the station is closed." },
+            { "fr": "La mise en place du nouveau système aura lieu en septembre.", "en": "The new system will be set up in September." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "En raison de la tempête, la Ville annonce la fermeture de toutes les écoles et le report de la collecte des ordures à jeudi.", "en": "Because of the storm, the city announces the closure of all schools and the postponement of garbage collection to Thursday.", "prompt": "What happens to garbage collection?", "options": ["It's postponed to Thursday", "It's cancelled for the week", "It happens earlier than usual"], "answer": 0,
+          "explain": "[[le report]] is the noun of [[reporter]] (to postpone): [[le report de la collecte à jeudi]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "La direction confirme l'ouverture d'une deuxième clinique à Sherbrooke et le recrutement de quarante infirmières d'ici l'automne.", "en": "Management confirms the opening of a second clinic in Sherbrooke and the hiring of forty nurses by the fall.", "prompt": "What does management confirm?", "options": ["A new clinic will open and forty nurses will be hired", "A clinic will close and forty nurses will leave", "Forty clinics will open in the fall"], "answer": 0,
+          "explain": "[[l'ouverture]] (opening) and [[le recrutement]] (hiring) are the nouns of [[ouvrir]] and [[recruter]]." },
+        { "id": "h3", "type": "dictation", "fr": "Le remboursement sera effectué dès réception de votre demande.", "accept": [],
+          "explain": "[[dès réception de]]: formal pattern with no article. [[Le remboursement]]: masculine (-ment)." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back reformulation and precise formal formulas from Unit 05.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "On a annulé le vol → ___ du vol", "answers": [["l'annulation"]], "en": "They cancelled the flight → the cancellation of the flight", "explain": "[[annuler]] → [[l'annulation]] (-ation, feminine)." },
+        { "id": "r2", "type": "mcq", "prompt": "Choose the correct article: “___ nettoyage des bureaux a lieu le vendredi.”", "options": ["Le", "La", "L'"], "optionsFr": true, "answer": 0,
+          "explain": "-age nouns are masculine: [[le nettoyage]]." },
+        { "id": "r3", "type": "match", "prompt": "Match each verb or adjective with its noun.", "pairs": [["signer", "la signature"], ["rembourser", "le remboursement"], ["fiable", "la fiabilité"], ["baisser", "la baisse"], ["croître", "la croissance"]] },
+        { "id": "r4", "type": "translate", "prompt": "Rise in rents in Montréal (headline)", "accept": ["Hausse des loyers à Montréal", "Augmentation des loyers à Montréal", "La hausse des loyers à Montréal", "L'augmentation des loyers à Montréal"], "hint": "No verb: start with a noun.", "explain": "Headlines drop the verb and often the article: [[Hausse des loyers à Montréal]]." },
+        { "id": "r5", "type": "cloze", "text": "___ cas de retard, prévenez la réception. ___ réception du paiement, nous enverrons la commande.", "answers": [["En"], ["Dès", "À"]], "choices": ["En", "Dès", "Dans", "Pour"], "en": "In case of delay, notify reception. As soon as payment is received, we'll send the order.", "explain": "Fixed formal patterns with no article: [[en cas de]], [[dès réception de]]." },
+        { "id": "r6", "type": "reorder", "prompt": "Temporary closure of the bridge", "accept": ["Fermeture temporaire du pont"], "extra": ["fermer", "temporairement"], "explain": "The noun [[fermeture]] takes the adjective [[temporaire]], not the adverb [[temporairement]]." },
+        { "id": "r7", "type": "translate", "prompt": "Due to the slowness of the service, we are changing suppliers.", "accept": ["En raison de la lenteur du service, nous changeons de fournisseur.", "En raison de la lenteur du service, on change de fournisseur.", "À cause de la lenteur du service, nous changeons de fournisseur.", "À cause de la lenteur du service, on change de fournisseur.", "En raison de la lenteur du service, nous changeons de fournisseurs.", "En raison de la lenteur du service, nous allons changer de fournisseur.", "Vu la lenteur du service, nous changeons de fournisseur."], "explain": "[[lent]] → [[la lenteur]]; [[en raison de]] is the formal choice. Note [[changer **de** fournisseur]], singular." },
+        { "id": "r8", "type": "cloze", "text": "Le projet coûtera 50 000 $, ___ une ___ de 10 % par rapport à l'an dernier.", "answers": [["soit"], ["augmentation", "hausse"]], "choices": ["soit", "bref", "augmentation", "augmenter"], "en": "The project will cost 50,000 dollars, that is, a 10 percent increase compared to last year.", "explain": "[[soit]] gives the equivalent (lesson 1); after [[une]], you need the noun [[augmentation]] or [[hausse]]." },
+        { "id": "r9", "type": "dictation", "fr": "La mise en place du nouveau logiciel est prévue pour septembre.", "accept": [], "explain": "[[la mise en place]] = setting up. [[prévue]] agrees with [[la mise]] (feminine)." },
+        { "id": "r10", "type": "mcq", "prompt": "Which slide bullet list is consistent?", "options": ["Formation des employés / Vérification des accès / Mise à jour du site", "Formation des employés / On vérifie les accès / Mettre à jour le site", "Former les employés / Vérification des accès / On met à jour le site"], "optionsFr": true, "answer": 0,
+          "explain": "All three bullets use the same form (noun + [[de]] + complement). Mixing forms looks careless." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Your team has decided several changes (a new schedule, new software, a training session, a move, new hires…). First write 4–5 slide bullets using only nouns. Then write a short paragraph for an email that explains the same changes with full sentences.", "promptFr": "Rédigez une diapositive (style nominal) puis un paragraphe de courriel.",
+          "wordRange": [70, 120],
+          "checklist": ["A title with a noun", "4–5 bullets, all nominalized (noun + de + complement)", "At least one -tion, one -ment and one -ure noun with the right article", "One formal pattern: en raison de / dès / en cas de / après", "A paragraph that turns the nouns back into verbs"],
+          "models": [
+            { "label": "Model answer", "fr": "Réorganisation du service client\n- Ouverture d'un deuxième bureau à Laval en janvier\n- Recrutement de trois conseillers bilingues\n- Formation de l'équipe au nouveau logiciel\n- Fermeture du bureau le vendredi après-midi\n\nBonjour à tous,\nDès janvier, nous ouvrirons un deuxième bureau à Laval et nous recruterons trois conseillers bilingues. Toute l'équipe sera formée au nouveau logiciel. En raison de cette formation, le bureau sera fermé le vendredi après-midi pendant un mois.", "en": "Reorganization of customer service\n- Opening of a second office in Laval in January\n- Hiring of three bilingual advisors\n- Team training on the new software\n- Office closed on Friday afternoons\n\nHello everyone,\nFrom January, we'll open a second office in Laval and hire three bilingual advisors. The whole team will be trained on the new software. Because of this training, the office will be closed on Friday afternoons for a month." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Read three headlines you invent about your city (one rise, one closure, one opening). Then explain each one in a full sentence, as a radio host would.", "seconds": 60,
+          "checklist": ["Three headlines with nouns: hausse / fermeture / ouverture…", "Each headline turned into a full sentence with a verb", "One reformulation: autrement dit / c'est-à-dire"],
+          "models": [ { "label": "Model answer", "fr": "Premier titre : Hausse du prix des billets de métro. Autrement dit, à partir de juillet, le billet coûtera 25 cents de plus. Deuxième titre : Fermeture de la piscine municipale pour rénovation. La piscine fermera ses portes tout l'été. Troisième titre : Ouverture d'un centre d'accueil pour les nouveaux arrivants. Un nouveau centre ouvrira en septembre, c'est-à-dire juste à temps pour la rentrée.", "en": "First headline: Metro ticket price goes up. In other words, starting in July, the ticket will cost 25 cents more. Second headline: Municipal pool closes for renovation. The pool will close its doors all summer. Third headline: A welcome centre for newcomers opens. A new centre will open in September, that is, just in time for back-to-school." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Turn a verb into a noun: [[augmenter → l'augmentation]], [[fermer → la fermeture]], [[rembourser → le remboursement]]\n- Predict gender: -tion, -ure, -ité, -ance are feminine; -ment and -age are masculine (with a few exceptions)\n- Write concise headlines and slides, and use formal patterns: [[après vérification]], [[dès réception de]], [[en raison de]]\n- Know when to switch back to verbs so your text stays readable",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Labelled the headlines as fictional, fixed suffix exceptions (le silence, le mercure), removed dictation accepts that sound different, added translate variants." }
+}

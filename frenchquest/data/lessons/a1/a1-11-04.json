@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-11-04",
+  "level": "a1",
+  "unit": "a1-11",
+  "title": "One-minute monologue",
+  "goal": "Present yourself for one minute with a clear plan, simple connectors and a confident ending.",
+  "minutes": 15,
+  "items": [
+    { "id": "et", "kind": "vocab", "fr": "et", "en": "and", "pos": "conjunction" },
+    { "id": "mais", "kind": "vocab", "fr": "mais", "en": "but", "pos": "conjunction" },
+    { "id": "aussi", "kind": "vocab", "fr": "aussi", "en": "also, too", "pos": "adverb",
+      "example": { "fr": "Je parle anglais, et je parle aussi français.", "en": "I speak English, and I also speak French." } },
+    { "id": "alors", "kind": "vocab", "fr": "alors", "en": "so, well (to start a new idea)", "pos": "adverb",
+      "example": { "fr": "Alors, mes projets…", "en": "So, my plans…" } },
+    { "id": "parce-que", "kind": "phrase", "fr": "parce que", "en": "because", "accept": ["parce qu'"],
+      "example": { "fr": "J'aime l'été parce qu'il fait chaud.", "en": "I like summer because it's hot." }, "note": "Before a vowel: parce qu'." },
+    { "id": "bonjour-a-tous", "kind": "phrase", "fr": "Bonjour à tous !", "en": "Hello everyone!", "accept": ["Bonjour à tous et à toutes !"] },
+    { "id": "je-vais-me-presenter", "kind": "phrase", "fr": "Je vais me présenter.", "en": "I'm going to introduce myself.",
+      "note": "A fixed chunk: me présenter = to introduce myself." },
+    { "id": "j-habite-a", "kind": "phrase", "fr": "J'habite à Toronto.", "en": "I live in Toronto." },
+    { "id": "je-travaille-dans", "kind": "phrase", "fr": "Je travaille dans une pharmacie.", "en": "I work in a pharmacy." },
+    { "id": "mes-projets", "kind": "phrase", "fr": "L'année prochaine, je vais passer le TEF Canada.", "en": "Next year, I'm going to take the TEF Canada.", "accept": ["L'année prochaine, je vais passer le TEF."],
+      "note": "passer un examen = to take an exam (not necessarily to pass it!)" },
+    { "id": "voila", "kind": "phrase", "fr": "Voilà, c'est tout !", "en": "There you go, that's all!" },
+    { "id": "merci-attention", "kind": "phrase", "fr": "Merci de votre attention.", "en": "Thank you for your attention.", "accept": ["Merci pour votre attention."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Amira presents herself",
+      "intro": "Amira is at her first French conversation class in Montréal. The teacher says: [[Présentez-vous, s'il vous plaît.]] Read and listen. Notice how each part has its own job.",
+      "blocks": [
+        { "type": "text", "title": "A one-minute self-presentation",
+          "context": "About 60 seconds when spoken calmly.",
+          "fr": "Bonjour à tous ! Je vais me présenter.\nJe m'appelle Amira, j'ai trente-deux ans et je suis marocaine.\nJ'habite à Montréal, dans un petit appartement à Rosemont.\nJe suis mariée et j'ai une fille, Yasmine. Elle a six ans. Mes parents et mes deux frères habitent à Casablanca.\nJe suis professeure de mathématiques. Mais ici, au Québec, je travaille dans une pharmacie, et le soir, j'apprends le français.\nJ'aime beaucoup la cuisine, la musique et les promenades au parc. Mais je n'aime pas l'hiver, parce qu'il fait très froid !\nAlors, mes projets : l'année prochaine, je vais passer le TEF Canada, et l'été prochain, je vais visiter la Gaspésie avec ma famille.\nVoilà, c'est tout ! Merci de votre attention.",
+          "en": "Hello everyone! I'm going to introduce myself. My name is Amira, I'm thirty-two and I'm Moroccan. I live in Montréal, in a small apartment in Rosemont. I'm married and I have a daughter, Yasmine. She is six. My parents and my two brothers live in Casablanca. I'm a math teacher. But here in Québec, I work in a pharmacy, and in the evening, I learn French. I really like cooking, music and walks in the park. But I don't like winter, because it's very cold! So, my plans: next year, I'm going to take the TEF Canada, and next summer, I'm going to visit the Gaspé Peninsula with my family. There you go, that's all! Thank you for your attention." },
+        { "id": "d1", "type": "mcq", "prompt": "Which part of Amira's talk uses the futur proche (aller + infinitive)?", "options": ["Her plans", "Her family", "Her likes", "Where she lives"], "answer": 0,
+          "explain": "[[je vais passer]], [[je vais visiter]]: plans use **aller + infinitive**." },
+        { "id": "d2", "type": "mcq", "prompt": "Why doesn't Amira like winter?", "options": ["Because it's very cold", "Because she works a lot", "Because her family is in Morocco"], "answer": 0,
+          "explain": "[[parce qu'il fait très froid]] — [[parce que]] gives the reason." }
+      ] },
+    { "type": "understand", "title": "Build your minute",
+      "blocks": [
+        { "type": "explain", "title": "Eight short parts",
+          "body": "A one-minute monologue is not one long speech: it's **eight small boxes**, about one or two sentences each. If you know the order, you never wonder *what do I say next?*\n\nGreeting → who you are → where you live → family → work or studies → likes → plans → closing.\n\nAim for **12 to 16 short sentences**. Short and correct beats long and confusing." },
+        { "type": "table", "title": "Your plan, with ready-made chunks",
+          "head": ["Part", "Useful chunks"],
+          "rows": [
+            ["1. Greeting", "Bonjour à tous ! Je vais me présenter."],
+            ["2. Who you are", "Je m'appelle… J'ai … ans. Je suis indien / indienne."],
+            ["3. Where you live", "J'habite à… dans un appartement / une maison."],
+            ["4. Family", "Je suis marié(e) / célibataire. J'ai … enfants. Mes parents habitent à…"],
+            ["5. Work or studies", "Je suis + job. Je travaille dans… J'apprends le français."],
+            ["6. Likes", "J'aime… J'adore… Je préfère… parce que… Je n'aime pas…"],
+            ["7. Plans", "L'année prochaine, je vais… Bientôt, je vais…"],
+            ["8. Closing", "Voilà, c'est tout ! Merci de votre attention."]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "table", "title": "Five connectors that hold it together",
+          "head": ["Connector", "Example", "English"],
+          "rows": [
+            ["et", "J'ai un fils et une fille.", "and"],
+            ["mais", "J'aime Montréal, mais je n'aime pas l'hiver.", "but"],
+            ["aussi", "Je parle aussi espagnol.", "also, too"],
+            ["alors", "Alors, mes projets…", "so, well (new topic)"],
+            ["parce que", "J'apprends le français parce que j'habite au Québec.", "because"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[aussi]] goes **after** the verb: [[Je parle aussi espagnol]], or at the end: [[Je parle espagnol aussi]]. [[Parce que]] becomes [[parce qu']] before a vowel: [[parce qu'il fait froid]]." },
+        { "type": "vocab", "title": "Key chunks", "itemIds": ["et", "mais", "aussi", "alors", "parce-que", "bonjour-a-tous", "je-vais-me-presenter", "voila", "merci-attention"] },
+        { "type": "explain", "title": "Fillers: sounding natural when you think",
+          "body": "Everyone needs a second to think. Don't stay silent and don't say *ummm* in English. Use French fillers:\n\n- [[Euh…]] — the French *um*. Totally normal.\n- [[Alors…]] — to move to a new part.\n- [[Bon…]] — *well…*\n- [[Voilà !]] — to finish a part or the whole talk.\n\nOne filler every few sentences sounds natural. One per sentence sounds nervous." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "The six classic errors in a self-presentation:\n\n- [[Je suis 32 ans]] → [[J'ai 32 ans]]\n- [[Je suis une professeure]] → [[Je suis professeure]] (no article)\n- [[J'habite en Montréal]] → [[J'habite à Montréal]] (à + city)\n- [[Je vais à visiter]] → [[Je vais visiter]] (no à before the infinitive)\n- [[Je ne aime pas]] → [[Je n'aime pas]] (n' before a vowel)\n- [[parce que il]] → [[parce qu'il]]" },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Rhythm: groups, not words",
+          "body": "French is spoken in **groups of words**, with a little stress on the **last syllable** of each group: *je m'appelle Ami-RA / j'ai trente-deux ANS / et je suis maro-CAINE*.\n\n- Pause briefly at each comma and full stop. Pauses make you sound calm, not slow.\n- Link words where French links them: [[mes‿enfants]], [[mes‿amis]], [[elle‿a six ans]].\n- [[parce que]] is often said fast: *parsk*.\n- Speak **a little slower** than feels natural. A calm minute is better than a rushed one." },
+        { "type": "deepdive", "kind": "canada", "title": "Présentez-vous: in exams and real life",
+          "body": "In Canada you will introduce yourself again and again: at a francization class, a job interview, a community centre, a parents' meeting at school. The speaking part of the **TCF Canada** starts with questions about you, and in any oral exam (TEF or TCF) a short self-presentation is a good way to feel at ease.\n\nPrepare your minute, but **don't memorize it word for word**: learn the eight boxes and a few chunks for each. Then you can adapt it to any question, like [[Parlez-moi de votre famille]] or [[Qu'est-ce que vous aimez faire ?]]" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Repeat the model, part by part",
+          "note": "Repeat each line, then record yourself. Copy the pauses as well as the words.",
+          "lines": [
+            { "fr": "Bonjour à tous ! Je vais me présenter.", "en": "Hello everyone! I'm going to introduce myself." },
+            { "fr": "Je m'appelle Amira, j'ai trente-deux ans et je suis marocaine.", "en": "My name is Amira, I'm thirty-two and I'm Moroccan.", "tip": "Small pause after each comma." },
+            { "fr": "Je suis mariée et j'ai une fille.", "en": "I'm married and I have a daughter.", "tip": "fille: the ll sounds like y: fi-y." },
+            { "fr": "Mais ici, je travaille dans une pharmacie.", "en": "But here, I work in a pharmacy." },
+            { "fr": "Je n'aime pas l'hiver, parce qu'il fait très froid !", "en": "I don't like winter, because it's very cold!", "tip": "parce qu'il: parss-kil." },
+            { "fr": "Alors, l'année prochaine, je vais passer le TEF Canada.", "en": "So, next year, I'm going to take the TEF Canada." },
+            { "fr": "Voilà, c'est tout ! Merci de votre attention.", "en": "There you go, that's all! Thank you for your attention." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "L'année prochaine, je vais travailler comme infirmière à Ottawa.", "en": "Next year, I'm going to work as a nurse in Ottawa.", "prompt": "Which part of a monologue is this?", "options": ["Plans", "Family", "Likes", "Greeting"], "answer": 0,
+          "explain": "[[l'année prochaine]] + [[je vais travailler]]: a future plan." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'aime le hockey, mais je préfère le soccer parce que c'est facile.", "en": "I like hockey, but I prefer soccer because it's easy.", "prompt": "Why does the speaker prefer soccer?", "options": ["Because it's easy", "Because it's fun", "Because it's cheap"], "answer": 0,
+          "explain": "[[parce que c'est facile]]: the reason comes right after [[parce que]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "J'aime Montréal, ___ je n'aime pas l'hiver.", "answers": [["mais"]], "choices": ["mais", "et", "parce que", "alors"], "en": "I like Montréal, but I don't like winter.",
+          "explain": "The two ideas are opposite (like / don't like), so use [[mais]]." },
+        { "id": "r2", "type": "cloze", "text": "J'apprends le français ___ j'habite au Québec.", "answers": [["parce que"]], "choices": ["parce que", "mais", "aussi", "et"], "en": "I'm learning French because I live in Québec.",
+          "explain": "The second part gives the reason: [[parce que]]." },
+        { "id": "r3", "type": "match", "prompt": "Match each connector with its meaning.", "pairs": [["et", "and"], ["mais", "but"], ["aussi", "also, too"], ["alors", "so (new topic)"], ["parce que", "because"]] },
+        { "id": "r4", "type": "translate", "prompt": "I'm 28 and I live in Moncton.", "accept": ["J'ai 28 ans et j'habite à Moncton.", "J'ai vingt-huit ans et j'habite à Moncton.", "J'ai 28 ans, et j'habite à Moncton.", "J'ai vingt-huit ans, et j'habite à Moncton."], "hint": "Age uses avoir.",
+          "explain": "Age: [[j'ai … ans]]. City: [[à Moncton]]." },
+        { "id": "r5", "type": "cloze", "text": "L'année prochaine, je ___ visiter Vancouver.", "answers": [["vais"]], "choices": ["vais", "vas", "suis", "va"], "en": "Next year, I'm going to visit Vancouver.",
+          "explain": "Futur proche: [[je vais]] + infinitive, with nothing in between." },
+        { "id": "r6", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Je suis infirmière, mais je suis aussi étudiante.", "Je suis une infirmière, mais je suis aussi une étudiante.", "J'ai infirmière, mais j'ai aussi étudiante.", "Je suis infirmière, mais je aussi suis étudiante."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "No article before a job after je suis.", "Jobs use être, not avoir.", "aussi goes after the verb: je suis aussi."] },
+        { "id": "r7", "type": "mcq", "prompt": "What's a good way to end your monologue?", "options": ["Voilà, c'est tout ! Merci de votre attention.", "Bonne nuit !", "Bon appétit !"], "optionsFr": true, "answer": 0,
+          "explain": "[[Voilà, c'est tout !]] signals the end clearly, and [[Merci de votre attention]] is polite with a group or an examiner." },
+        { "id": "r8", "type": "translate", "prompt": "I work in a bank, and I also speak Spanish.", "accept": ["Je travaille dans une banque, et je parle aussi espagnol.", "Je travaille dans une banque et je parle aussi espagnol.", "Je travaille dans une banque, et je parle espagnol aussi.", "Je travaille dans une banque et je parle espagnol aussi.", "Je travaille à la banque et je parle aussi espagnol."], "hint": "aussi goes after the verb.",
+          "explain": "[[dans une banque]] = in a bank; [[je parle aussi espagnol]] — no article before a language after parler." },
+        { "id": "r9", "type": "reorder", "prompt": "I don't like winter because it's cold.", "accept": ["Je n'aime pas l'hiver parce qu'il fait froid"], "extra": ["est"],
+          "explain": "Weather uses **faire**: [[il fait froid]]. Negation wraps the verb: [[je n'aime pas]]." },
+        { "id": "r10", "type": "dictation", "fr": "Alors, l'été prochain, je vais visiter la Gaspésie.", "accept": [], "explain": "[[l'été prochain]] = next summer; [[je vais visiter]] = futur proche." }
+      ] },
+    { "type": "apply", "title": "Your one-minute mission",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "First, write your plan: one or two short sentences (or keywords) for each of the eight parts. Don't write a speech to read; write notes you can glance at.",
+          "promptFr": "Préparez votre plan en huit parties.",
+          "wordRange": [30, 120],
+          "checklist": ["1 Greeting", "2 Name, age, nationality", "3 City and home", "4 Family", "5 Work or studies", "6 Likes with parce que", "7 Plans with je vais + infinitive", "8 Closing"],
+          "models": [
+            { "label": "Model plan (notes)", "fr": "1. Bonjour à tous !\n2. Raj, 29 ans, indien\n3. Ottawa, appartement, centre-ville\n4. célibataire, parents et sœur à Delhi\n5. ingénieur, une entreprise d'informatique\n6. j'aime le cricket et le cinéma — je n'aime pas la neige, parce que…\n7. je vais passer le TCF / je vais visiter Québec\n8. Voilà ! Merci.", "en": "1. Hello everyone! 2. Raj, 29, Indian 3. Ottawa, apartment, downtown 4. single, parents and sister in Delhi 5. engineer, an IT company 6. I like cricket and movies — I don't like snow, because… 7. I'm going to take the TCF / I'm going to visit Québec City 8. There you go! Thanks." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Now record your one-minute self-presentation. Look at your notes only if you need to. Speak calmly, and don't stop for small mistakes: just keep going.", "seconds": 60,
+          "checklist": [
+            "Greeting to start (Bonjour à tous !)",
+            "Name, age with j'ai … ans, and nationality",
+            "City with j'habite à…",
+            "Family: at least two people (mon / ma / mes)",
+            "Job or studies, with no article (je suis ingénieur)",
+            "At least two likes, and one thing you don't like (ne… pas)",
+            "One reason with parce que",
+            "At least one plan with je vais + infinitive",
+            "At least three different connectors: et, mais, aussi, alors, parce que",
+            "A clear closing: Voilà, c'est tout ! Merci.",
+            "About 60 seconds, with calm pauses"
+          ],
+          "models": [
+            { "label": "Model answer (Raj)", "fr": "Bonjour à tous ! Je vais me présenter. Je m'appelle Raj, j'ai vingt-neuf ans et je suis indien. J'habite à Ottawa, dans un appartement au centre-ville. Je suis célibataire. Mes parents et ma sœur habitent à Delhi, mais mon frère habite à Toronto. Je suis ingénieur dans une entreprise d'informatique. Le soir, j'apprends le français. J'aime le cricket et le cinéma, et j'adore la cuisine indienne, bien sûr ! Mais je n'aime pas la neige, parce que le bus est souvent en retard ! Alors, mes projets : l'année prochaine, je vais passer le TCF Canada, et en juillet, je vais visiter Québec avec mon frère. Voilà, c'est tout ! Merci de votre attention.", "en": "Hello everyone! I'm going to introduce myself. My name is Raj, I'm twenty-nine and I'm Indian. I live in Ottawa, in an apartment downtown. I'm single. My parents and my sister live in Delhi, but my brother lives in Toronto. I'm an engineer at an IT company. In the evening, I learn French. I like cricket and movies, and I love Indian food, of course! But I don't like snow, because the bus is often late! So, my plans: next year, I'm going to take the TCF Canada, and in July, I'm going to visit Québec City with my brother. There you go, that's all! Thank you for your attention." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Organize a one-minute self-presentation in eight parts, from greeting to closing\n- Link ideas with [[et, mais, aussi, alors, parce que]]\n- Use fillers like [[euh…]] and [[voilà]], and finish clearly: [[Voilà, c'est tout ! Merci de votre attention.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made Amira's job sentence natural without the passé composé, fixed the stress example (Ami-RA, last syllable of the group) and softened the claim about TEF/TCF speaking tasks. Glossed 'Je vais me présenter' as a chunk." }
+}

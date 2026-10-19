@@ -1,0 +1,88 @@
+/* FrenchQuest design tokens — "cahier" direction:
+   French school notebook: Seyès ruling, bleu des écoles ink, teacher's red pen. */
+:root {
+  color-scheme: light;
+  --paper: #FCFCFA;
+  --paper-2: #F2F4F7;
+  --paper-3: #E8EBF1;
+  --ink: #1F2533;
+  --ink-muted: #586072;
+  --ink-faint: #8A92A3;
+  --line: #DCE0E8;
+
+  --blue: #2443B8;          /* bleu des écoles: primary actions, links */
+  --blue-ink: #1A3290;
+  --blue-soft: #E7EBFB;
+  --on-blue: #FFFFFF;
+
+  --red: #C2283B;           /* stylo rouge: margin line, corrections */
+  --red-soft: #FBE8EB;
+  --green: #1D6E4C;         /* acquis: mastery, correct */
+  --green-soft: #E1F1E9;
+  --amber: #855500;         /* presque: almost-right */
+  --amber-soft: #FCF0D6;
+  --violet: #5B3F8C;        /* hints */
+  --violet-soft: #EFE8F8;
+
+  --seyes: #CDD2F3;         /* Seyès fine ruling */
+  --seyes-strong: #A6AEE8;  /* Seyès main ruling */
+  --focus: #2443B8;
+
+  --font-ui: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-fr: "Literata", Georgia, "Times New Roman", serif;
+
+  /* Modular scale 1.25 on 17px */
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.3125rem;
+  --fs-xl: 1.625rem;
+  --fs-2xl: 2.0625rem;
+  --fs-3xl: 2.5625rem;
+  --lh: 1.6;
+  --lh-fr: 1.7;
+  --measure: 42rem;
+
+  --s1: 0.25rem; --s2: 0.5rem; --s3: 0.75rem; --s4: 1rem; --s5: 1.5rem; --s6: 2rem; --s7: 3rem; --s8: 4rem;
+  --r-sm: 6px; --r-md: 10px; --r-lg: 16px;
+  --dur: 160ms;
+  --sidebar: 15.5rem;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #12161E;
+  --paper-2: #1A1F2A;
+  --paper-3: #232A38;
+  --ink: #E8EBF1;
+  --ink-muted: #A4ACBB;
+  --ink-faint: #737C8E;
+  --line: #2B3242;
+  --blue: #8FA5FF;
+  --blue-ink: #B5C3FF;
+  --blue-soft: #222B4A;
+  --on-blue: #0E1430;
+  --red: #FF8B98;
+  --red-soft: #3B1D24;
+  --green: #7DD3A7;
+  --green-soft: #15302A;
+  --amber: #F2C76E;
+  --amber-soft: #3A2D12;
+  --violet: #CDB8F2;
+  --violet-soft: #2C2442;
+  --seyes: #252D48;
+  --seyes-strong: #343F66;
+  --focus: #8FA5FF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    color-scheme: dark;
+    --paper: #12161E; --paper-2: #1A1F2A; --paper-3: #232A38;
+    --ink: #E8EBF1; --ink-muted: #A4ACBB; --ink-faint: #737C8E; --line: #2B3242;
+    --blue: #8FA5FF; --blue-ink: #B5C3FF; --blue-soft: #222B4A; --on-blue: #0E1430;
+    --red: #FF8B98; --red-soft: #3B1D24; --green: #7DD3A7; --green-soft: #15302A;
+    --amber: #F2C76E; --amber-soft: #3A2D12; --violet: #CDB8F2; --violet-soft: #2C2442;
+    --seyes: #252D48; --seyes-strong: #343F66; --focus: #8FA5FF;
+  }
+}

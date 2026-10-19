@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-10",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Feelings and reactions",
+  "band": "Everyday words 2000–4000",
+  "cefr": "b1",
+  "theme": "emotions, reactions and attitudes",
+  "goal": "Recognise and use 21 frequent words to react to events and talk about strong feelings.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "navre",
+      "kind": "vocab",
+      "fr": "navré",
+      "fem": "navrée",
+      "en": "very sorry (formal)",
+      "pos": "adjective",
+      "accept": [
+        "navrée"
+      ],
+      "example": {
+        "fr": "Nous sommes navrés pour le retard.",
+        "en": "We are very sorry for the delay."
+      }
+    },
+    {
+      "id": "enerve",
+      "kind": "vocab",
+      "fr": "énervé",
+      "fem": "énervée",
+      "en": "annoyed, irritated",
+      "pos": "adjective",
+      "accept": [
+        "énervée"
+      ],
+      "example": {
+        "fr": "Mon patron est énervé ce matin.",
+        "en": "My boss is annoyed this morning."
+      },
+      "note": "In Québec, énervé can also mean agitated or overexcited (kids before a party)."
+    },
+    {
+      "id": "excite",
+      "kind": "vocab",
+      "fr": "excité",
+      "fem": "excitée",
+      "en": "excited, wound up",
+      "pos": "adjective",
+      "accept": [
+        "excitée"
+      ],
+      "example": {
+        "fr": "Les enfants sont très excités avant Noël.",
+        "en": "The kids are very excited before Christmas."
+      },
+      "note": "Fine for children. Said of an adult, it can suggest arousal; to say you are looking forward to something, use J'ai hâte !"
+    },
+    {
+      "id": "etonnant",
+      "kind": "vocab",
+      "fr": "étonnant",
+      "fem": "étonnante",
+      "en": "surprising, amazing",
+      "pos": "adjective",
+      "accept": [
+        "étonnante"
+      ],
+      "example": {
+        "fr": "C'est étonnant, il fait chaud en novembre !",
+        "en": "It's surprising, it's warm in November!"
+      }
+    },
+    {
+      "id": "affreux",
+      "kind": "vocab",
+      "fr": "affreux",
+      "fem": "affreuse",
+      "en": "awful, horrible",
+      "pos": "adjective",
+      "accept": [
+        "affreuse"
+      ],
+      "example": {
+        "fr": "Il a fait un temps affreux pendant nos vacances.",
+        "en": "The weather was awful during our vacation."
+      }
+    },
+    {
+      "id": "effrayant",
+      "kind": "vocab",
+      "fr": "effrayant",
+      "fem": "effrayante",
+      "en": "frightening, scary",
+      "pos": "adjective",
+      "accept": [
+        "effrayante"
+      ],
+      "example": {
+        "fr": "Ce film est trop effrayant pour les enfants.",
+        "en": "This movie is too scary for children."
+      }
+    },
+    {
+      "id": "degoutant",
+      "kind": "vocab",
+      "fr": "dégoûtant",
+      "fem": "dégoûtante",
+      "en": "disgusting",
+      "pos": "adjective",
+      "accept": [
+        "dégoûtante"
+      ],
+      "example": {
+        "fr": "La salle de bain est dégoûtante, il faut la nettoyer.",
+        "en": "The bathroom is disgusting, it needs cleaning."
+      }
+    },
+    {
+      "id": "bizarre",
+      "kind": "vocab",
+      "fr": "bizarre",
+      "en": "strange, weird",
+      "pos": "adjective",
+      "example": {
+        "fr": "C'est bizarre, Raj ne répond pas au téléphone.",
+        "en": "It's strange, Raj isn't answering the phone."
+      }
+    },
+    {
+      "id": "attache",
+      "kind": "vocab",
+      "fr": "attaché",
+      "fem": "attachée",
+      "en": "attached (emotionally), fond of",
+      "pos": "adjective",
+      "accept": [
+        "attachée"
+      ],
+      "example": {
+        "fr": "Je suis très attachée à ma ville natale.",
+        "en": "I'm very attached to my hometown."
+      },
+      "note": "être attaché à quelqu'un / quelque chose."
+    },
+    {
+      "id": "mortel",
+      "kind": "vocab",
+      "fr": "mortel",
+      "fem": "mortelle",
+      "en": "deadly, fatal",
+      "pos": "adjective",
+      "accept": [
+        "mortelle"
+      ],
+      "example": {
+        "fr": "Attention, ce champignon est mortel.",
+        "en": "Careful, this mushroom is deadly."
+      },
+      "note": "Informal: C'était mortel ! can mean “It was awesome!” (or deadly boring, depending on the tone)."
+    },
+    {
+      "id": "horreur",
+      "kind": "vocab",
+      "fr": "horreur",
+      "article": "l'",
+      "gender": "f",
+      "en": "horror",
+      "pos": "noun",
+      "accept": [
+        "horreur",
+        "une horreur"
+      ],
+      "example": {
+        "fr": "J'ai horreur des araignées.",
+        "en": "I can't stand spiders."
+      },
+      "note": "avoir horreur de = to really hate."
+    },
+    {
+      "id": "cauchemar",
+      "kind": "vocab",
+      "fr": "cauchemar",
+      "article": "le",
+      "gender": "m",
+      "en": "nightmare",
+      "pos": "noun",
+      "accept": [
+        "cauchemar",
+        "un cauchemar"
+      ],
+      "example": {
+        "fr": "J'ai fait un cauchemar cette nuit.",
+        "en": "I had a nightmare last night."
+      }
+    },
+    {
+      "id": "souffrance",
+      "kind": "vocab",
+      "fr": "souffrance",
+      "article": "la",
+      "gender": "f",
+      "en": "suffering, pain",
+      "pos": "noun",
+      "accept": [
+        "souffrance",
+        "une souffrance"
+      ],
+      "example": {
+        "fr": "Le médecin veut réduire la souffrance du patient.",
+        "en": "The doctor wants to reduce the patient's suffering."
+      }
+    },
+    {
+      "id": "haine",
+      "kind": "vocab",
+      "fr": "haine",
+      "article": "la",
+      "gender": "f",
+      "en": "hatred, hate",
+      "pos": "noun",
+      "accept": [
+        "haine"
+      ],
+      "example": {
+        "fr": "La haine ne règle aucun problème.",
+        "en": "Hatred doesn't solve any problem."
+      }
+    },
+    {
+      "id": "nerfs",
+      "kind": "vocab",
+      "fr": "nerfs",
+      "article": "les",
+      "gender": "m",
+      "en": "nerves",
+      "pos": "noun",
+      "accept": [
+        "nerfs",
+        "des nerfs"
+      ],
+      "example": {
+        "fr": "Ce bruit me tape sur les nerfs.",
+        "en": "This noise gets on my nerves."
+      }
+    },
+    {
+      "id": "hair",
+      "kind": "vocab",
+      "fr": "haïr",
+      "en": "to hate",
+      "pos": "verb",
+      "example": {
+        "fr": "Je hais les lundis matin !",
+        "en": "I hate Monday mornings!"
+      },
+      "note": "No tréma in the singular: je hais, tu hais, il hait; nous haïssons."
+    },
+    {
+      "id": "apprecier",
+      "kind": "vocab",
+      "fr": "apprécier",
+      "en": "to appreciate, to like",
+      "pos": "verb",
+      "example": {
+        "fr": "Merci, j'apprécie beaucoup ton aide.",
+        "en": "Thanks, I really appreciate your help."
+      }
+    },
+    {
+      "id": "supplier",
+      "kind": "vocab",
+      "fr": "supplier",
+      "en": "to beg",
+      "pos": "verb",
+      "example": {
+        "fr": "Je t'en supplie, ne dis rien à maman !",
+        "en": "I'm begging you, don't say anything to Mom!"
+      }
+    },
+    {
+      "id": "gacher",
+      "kind": "vocab",
+      "fr": "gâcher",
+      "en": "to spoil, to waste",
+      "pos": "verb",
+      "example": {
+        "fr": "La pluie a gâché notre pique-nique.",
+        "en": "The rain spoiled our picnic."
+      }
+    },
+    {
+      "id": "expres",
+      "kind": "vocab",
+      "fr": "exprès",
+      "en": "on purpose, deliberately",
+      "pos": "adverb",
+      "example": {
+        "fr": "Désolé, je ne l'ai pas fait exprès.",
+        "en": "Sorry, I didn't do it on purpose."
+      }
+    },
+    {
+      "id": "pratiquement",
+      "kind": "vocab",
+      "fr": "pratiquement",
+      "en": "practically, almost",
+      "pos": "adverb",
+      "example": {
+        "fr": "J'ai pratiquement fini mon rapport.",
+        "en": "I've practically finished my report."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "Feelings and reactions",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "How you feel, how things seem",
+          "itemIds": [
+            "navre",
+            "enerve",
+            "excite",
+            "etonnant",
+            "affreux",
+            "effrayant",
+            "degoutant",
+            "mortel",
+            "bizarre",
+            "attache"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Strong emotions",
+          "itemIds": [
+            "horreur",
+            "cauchemar",
+            "souffrance",
+            "haine",
+            "nerfs",
+            "hair"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Reacting to people and events",
+          "itemIds": [
+            "apprecier",
+            "supplier",
+            "gacher",
+            "expres",
+            "pratiquement"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "[[Excité]] is fine for children; said of an adult it can suggest arousal, so for “I'm excited about it” say [[J'ai hâte !]]\n\n**Québec:** [[énervé]] can also mean *agitated, overexcited* (kids before a party). [[Avoir horreur de]] = to really hate. [[Haïr]] drops its tréma in the singular: [[je hais]]."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "lines": [
+            {
+              "fr": "Nous sommes navrés pour le retard.",
+              "en": "We are very sorry for the delay."
+            },
+            {
+              "fr": "Les enfants sont très excités avant Noël.",
+              "en": "The kids are very excited before Christmas."
+            },
+            {
+              "fr": "J'ai horreur des araignées.",
+              "en": "I can't stand spiders."
+            },
+            {
+              "fr": "J'ai fait un cauchemar cette nuit.",
+              "en": "I had a nightmare last night."
+            },
+            {
+              "fr": "Je hais les lundis matin !",
+              "en": "I hate Monday mornings!",
+              "tip": "The h is aspirated: no elision (je hais, not j'hais) [ʒə ɛ]."
+            },
+            {
+              "fr": "C'est bizarre, Raj ne répond pas au téléphone.",
+              "en": "It's strange, Raj isn't answering the phone."
+            },
+            {
+              "fr": "La pluie a gâché notre pique-nique.",
+              "en": "The rain spoiled our picnic."
+            },
+            {
+              "fr": "Je suis très attachée à ma ville natale.",
+              "en": "I'm very attached to my hometown."
+            },
+            {
+              "fr": "Désolé, je ne l'ai pas fait exprès.",
+              "en": "Sorry, I didn't do it on purpose.",
+              "tip": "Exprès [ɛkspʁɛ]: you hear [ks] in ex-, but the final s is silent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the adjectives.",
+          "pairs": [
+            [
+              "navré",
+              "very sorry (formal)"
+            ],
+            [
+              "affreux",
+              "awful"
+            ],
+            [
+              "effrayant",
+              "scary"
+            ],
+            [
+              "dégoûtant",
+              "disgusting"
+            ],
+            [
+              "étonnant",
+              "surprising"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the words.",
+          "pairs": [
+            [
+              "le cauchemar",
+              "nightmare"
+            ],
+            [
+              "la haine",
+              "hatred"
+            ],
+            [
+              "la souffrance",
+              "suffering"
+            ],
+            [
+              "gâcher",
+              "to spoil"
+            ],
+            [
+              "supplier",
+              "to beg"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "You broke a friend's glass by accident. What do you say?",
+          "options": [
+            "Désolé, je ne l'ai pas fait exprès.",
+            "Désolé, je l'ai fait exprès.",
+            "Désolé, j'ai pratiquement fini."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Je ne l'ai pas fait exprès]] = I didn't do it on purpose.",
+          "optionFeedback": [
+            null,
+            "That means you did it on purpose!",
+            "That means “I've practically finished”."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Raj always answers right away, but today he doesn't pick up. What do you say?",
+          "options": [
+            "C'est bizarre.",
+            "C'est dégoûtant.",
+            "C'est mortel."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Bizarre]] = strange, weird.",
+          "optionFeedback": [
+            null,
+            "Dégoûtant means disgusting.",
+            "Mortel means deadly (or, informally, awesome)."
+          ]
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I had a nightmare last night.",
+          "accept": [
+            "J'ai fait un cauchemar cette nuit.",
+            "J'ai fait un cauchemar la nuit dernière.",
+            "J'ai fait un cauchemar hier soir."
+          ],
+          "hint": "faire un cauchemar",
+          "explain": "In French you *make* a nightmare: [[faire un cauchemar]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "I'm very attached to my grandmother. (woman speaking)",
+          "accept": [
+            "Je suis très attachée à ma grand-mère.",
+            "Je suis vraiment attachée à ma grand-mère."
+          ],
+          "hint": "être attaché à",
+          "explain": "A woman speaking adds -e: [[attachée]]; the preposition is [[à]]."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "La pluie a ___ notre pique-nique.",
+          "answers": [
+            [
+              "gâché"
+            ]
+          ],
+          "choices": [
+            "gâché",
+            "apprécié",
+            "pardonné"
+          ],
+          "en": "The rain spoiled our picnic.",
+          "explain": "[[Gâcher]] = to spoil; past participle [[gâché]]."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Merci, j'___ beaucoup ton aide.",
+          "answers": [
+            [
+              "apprécie"
+            ]
+          ],
+          "choices": [
+            "apprécie",
+            "hais",
+            "supplie"
+          ],
+          "en": "Thanks, I really appreciate your help.",
+          "explain": "[[Apprécier]] = to appreciate; je → apprécie."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "C'est bizarre, Raj ne répond pas au téléphone.",
+          "accept": [],
+          "explain": "[[bizarre]] has one z and two r."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Ce bruit me tape sur les nerfs.",
+          "en": "This noise gets on my nerves.",
+          "prompt": "How does the speaker feel about the noise?",
+          "options": [
+            "It annoys them.",
+            "They like it.",
+            "It scares them."
+          ],
+          "answer": 0,
+          "explain": "[[Taper sur les nerfs]] = to get on someone's nerves."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- React to things: [[étonnant, bizarre, affreux, effrayant, dégoûtant]]\n- Name strong feelings: [[la haine, l'horreur, un cauchemar]]\n- Say [[Je ne l'ai pas fait exprès]] and [[Je t'en supplie]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Made the excité note tasteful and added it to the card; hedged the Québec sense of énervé (agitated, overexcited) and added it as a card note; fixed the haïr tip (aspirated h: no elision) and the exprès tip ([ks], final s silent)."
+  }
+}

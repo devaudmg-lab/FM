@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-03-03",
+  "level": "b1",
+  "unit": "b1-03",
+  "title": "Job interview questions",
+  "goal": "Understand classic interview questions and answer them with structure: talk about yourself, your strengths and weaknesses, and your motivation, using polite chunks like j'aimerais and je souhaiterais.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-polite-chunks", "kind": "grammar", "fr": "j'aimerais / je souhaiterais / pourriez-vous", "en": "polite conditionnel chunks",
+      "drills": [
+        { "type": "cloze", "text": "J'aimerais ___ partie de votre équipe.", "answers": [["faire"]], "en": "I would like to be part of your team.", "explain": "[[j'aimerais]] + infinitive directly, with no [[de]]. [[faire partie de]] = to be part of." },
+        { "type": "cloze", "text": "J'aimerais savoir ___ le poste est permanent.", "answers": [["si"]], "en": "I would like to know if the position is permanent.", "explain": "An indirect yes/no question uses [[si]], like reported speech: [[elle m'a demandé si…]]." },
+        { "type": "mcq", "prompt": "The most polite way to ask the interviewer for the date of their decision:", "options": ["Pourriez-vous me dire quand vous allez prendre votre décision ?", "Dites-moi votre décision.", "Vous décidez quand ?"], "optionsFr": true, "answer": 0, "explain": "[[Pourriez-vous me dire…]] is formal and polite. The other two are too direct for an interview." },
+        { "type": "translate", "prompt": "I would like to take on more responsibilities.", "accept": ["J'aimerais avoir plus de responsabilités.", "Je souhaiterais avoir plus de responsabilités.", "Je voudrais avoir plus de responsabilités.", "J'aimerais prendre plus de responsabilités.", "Je souhaiterais prendre plus de responsabilités.", "Je voudrais prendre plus de responsabilités."], "explain": "[[j'aimerais / je souhaiterais / je voudrais]] + infinitive." }
+      ] },
+    { "id": "g-quelquun-de", "kind": "grammar", "fr": "Je suis quelqu'un de + adjectif", "en": "I'm a … person (quelqu'un de + masculine adjective)",
+      "drills": [
+        { "type": "cloze", "text": "Amira dit : « Je suis quelqu'un de très ___. » (organisé)", "answers": [["organisé"]], "en": "Amira says: “I'm a very organized person.”", "explain": "After [[quelqu'un de]], the adjective stays **masculine**, even when a woman speaks." },
+        { "type": "mcq", "prompt": "Sofia wants to say she is a patient person.", "options": ["Je suis quelqu'un de patient.", "Je suis quelqu'un de patiente.", "Je suis quelqu'un patient."], "optionsFr": true, "answer": 0, "explain": "[[quelqu'un de]] + masculine adjective. Or say [[Je suis une personne patiente]] (personne is feminine)." },
+        { "type": "translate", "prompt": "I'm a very independent person.", "accept": ["Je suis quelqu'un de très autonome.", "Je suis une personne très autonome.", "Je suis très autonome."], "explain": "[[autonome]] is the same in the masculine and feminine, so this one is easy." }
+      ] },
+    { "id": "entrevue", "kind": "vocab", "fr": "entrevue", "article": "une", "gender": "f", "en": "job interview (Québec term)", "pos": "noun", "accept": ["l'entrevue", "une entrevue d'embauche"],
+      "example": { "fr": "J'ai une entrevue jeudi à 10 h.", "en": "I have an interview on Thursday at 10." } },
+    { "id": "entretien", "kind": "vocab", "fr": "entretien", "article": "un", "gender": "m", "en": "job interview (France term)", "pos": "noun", "accept": ["l'entretien", "un entretien d'embauche"],
+      "example": { "fr": "En France, on dit un entretien d'embauche.", "en": "In France, they say “un entretien d'embauche”." } },
+    { "id": "force", "kind": "vocab", "fr": "force", "article": "une", "gender": "f", "en": "strength", "pos": "noun", "accept": ["la force", "un point fort"],
+      "example": { "fr": "Ma principale force, c'est l'organisation.", "en": "My main strength is organization." } },
+    { "id": "faiblesse", "kind": "vocab", "fr": "faiblesse", "article": "une", "gender": "f", "en": "weakness", "pos": "noun", "accept": ["la faiblesse", "un point faible"],
+      "example": { "fr": "Quelle est votre plus grande faiblesse ?", "en": "What is your biggest weakness?" } },
+    { "id": "rigoureux", "kind": "vocab", "fr": "rigoureux", "fem": "rigoureuse", "en": "rigorous (thorough, careful)", "pos": "adjective", "accept": ["rigoureuse"],
+      "example": { "fr": "Elle est très rigoureuse dans son travail.", "en": "She is very thorough in her work." } },
+    { "id": "autonome", "kind": "vocab", "fr": "autonome", "en": "independent (self-directed)", "pos": "adjective",
+      "example": { "fr": "Je suis autonome : je sais organiser mon travail.", "en": "I'm independent: I know how to organize my work." } },
+    { "id": "parlez-moi", "kind": "phrase", "fr": "Parlez-moi de vous.", "en": "Tell me about yourself. (formal)" },
+    { "id": "pourquoi-poste", "kind": "phrase", "fr": "Pourquoi ce poste vous intéresse-t-il ?", "en": "Why are you interested in this position? (formal)", "accept": ["Pourquoi est-ce que ce poste vous intéresse ?", "Pourquoi ce poste vous intéresse ?"] },
+    { "id": "aimerais-savoir", "kind": "phrase", "fr": "J'aimerais savoir si le poste est permanent.", "en": "I would like to know if the position is permanent.", "accept": ["Je voudrais savoir si le poste est permanent.", "Je souhaiterais savoir si le poste est permanent."] },
+    { "id": "je-me-vois", "kind": "phrase", "fr": "Dans cinq ans, je me vois dans votre équipe.", "en": "In five years, I see myself on your team.", "accept": ["Dans cinq ans, je me vois au sein de votre équipe."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Amira's interview",
+      "intro": "Amira got an interview at Groupe Laurier. Listen to how she answers each question. Notice that every answer has a **structure**: a main idea, an example, and a link to the job.",
+      "blocks": [
+        { "type": "dialogue", "title": "L'entrevue",
+          "context": "Madame Tremblay, the HR manager, interviews Amira in her office in Saint-Laurent.",
+          "lines": [
+            { "speaker": "Mme Tremblay", "fr": "Bonjour, madame Benali. Merci d'être venue. Asseyez-vous, je vous en prie.", "en": "Hello, Ms. Benali. Thank you for coming. Please have a seat." },
+            { "speaker": "Amira", "fr": "Bonjour, madame Tremblay. Merci de me recevoir.", "en": "Hello, Ms. Tremblay. Thank you for seeing me." },
+            { "speaker": "Mme Tremblay", "fr": "Pour commencer, parlez-moi de vous.", "en": "To begin, tell me about yourself." },
+            { "speaker": "Amira", "fr": "Bien sûr. Je suis comptable de formation. J'ai travaillé pendant six ans dans un cabinet comptable à Casablanca. Là-bas, je m'occupais surtout de la paie et des impôts de petites entreprises. Je suis arrivée à Montréal il y a un an et demi. Depuis, j'ai suivi un cours sur la fiscalité québécoise et je fais du bénévolat comme trésorière dans un organisme communautaire.", "en": "Of course. I'm an accountant by training. I worked for six years in an accounting firm in Casablanca. There, I mostly handled payroll and taxes for small businesses. I arrived in Montréal a year and a half ago. Since then, I've taken a course on Québec taxation and I volunteer as treasurer for a community organization." },
+            { "speaker": "Mme Tremblay", "fr": "Très bien. Pourquoi ce poste vous intéresse-t-il ?", "en": "Very good. Why are you interested in this position?" },
+            { "speaker": "Amira", "fr": "D'abord, parce que c'est exactement mon domaine : la paie et la conciliation bancaire, je les fais depuis des années. Ensuite, j'ai lu dans un article que votre entreprise grandissait très vite, et j'aimerais faire partie d'une équipe en croissance. Enfin, le télétravail est un vrai plus pour la conciliation travail-famille.", "en": "First, because it's exactly my field: payroll and bank reconciliation, I've been doing them for years. Then, I read in an article that your company was growing very fast, and I'd like to be part of a growing team. Finally, remote work is a real plus for work-life balance." },
+            { "speaker": "Mme Tremblay", "fr": "Quelles sont vos principales forces ?", "en": "What are your main strengths?" },
+            { "speaker": "Amira", "fr": "Je suis quelqu'un de très rigoureux. Par exemple, dans mon ancien poste, je vérifiais toujours les chiffres deux fois, et en six ans, mes clients n'ont jamais eu de problème avec leurs déclarations. Je suis aussi autonome : je sais organiser mon travail seule.", "en": "I'm a very thorough person. For example, in my former job, I always checked the figures twice, and in six years, my clients never had a problem with their tax returns. I'm also independent: I know how to organize my work on my own." },
+            { "speaker": "Mme Tremblay", "fr": "Et vos faiblesses ?", "en": "And your weaknesses?" },
+            { "speaker": "Amira", "fr": "Parfois, je suis un peu trop perfectionniste et je passe trop de temps sur les détails. Maintenant, je me fixe une limite de temps pour chaque tâche, et ça m'aide beaucoup. Mon autre défi, c'est le vocabulaire comptable d'ici : certains mots sont différents. Mais je note tous les nouveaux mots et je progresse vite.", "en": "Sometimes I'm a bit too much of a perfectionist and I spend too much time on details. Now I set myself a time limit for each task, and it helps a lot. My other challenge is local accounting vocabulary: some words are different. But I write down every new word and I'm improving quickly." },
+            { "speaker": "Mme Tremblay", "fr": "Où vous voyez-vous dans cinq ans ?", "en": "Where do you see yourself in five years?" },
+            { "speaker": "Amira", "fr": "Je souhaiterais devenir membre de l'ordre professionnel des comptables. Dans cinq ans, je me vois dans votre équipe, avec plus de responsabilités.", "en": "I would like to become a member of the professional order of accountants. In five years, I see myself on your team, with more responsibilities." },
+            { "speaker": "Mme Tremblay", "fr": "Parfait. Avez-vous des questions pour nous ?", "en": "Perfect. Do you have any questions for us?" },
+            { "speaker": "Amira", "fr": "Oui. J'aimerais savoir comment se passe la formation au début. Et pourriez-vous me dire quand vous allez prendre votre décision ?", "en": "Yes. I'd like to know how training works at the beginning. And could you tell me when you will make your decision?" },
+            { "speaker": "Mme Tremblay", "fr": "Les deux premières semaines, vous allez travailler avec une collègue expérimentée. Et nous allons rappeler les candidats d'ici vendredi.", "en": "For the first two weeks, you'll work with an experienced colleague. And we'll call the candidates back by Friday." },
+            { "speaker": "Amira", "fr": "Merci beaucoup pour votre temps. Au plaisir !", "en": "Thank you very much for your time. Hope to see you again!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "How does Amira present her weakness?", "options": ["She names it, then explains what she does about it.", "She says she has no weaknesses.", "She talks about a strength instead."], "answer": 0,
+          "explain": "The classic structure: a real but harmless weakness + what you do to improve: [[Maintenant, je me fixe une limite de temps…]]" },
+        { "id": "d2", "type": "mcq", "prompt": "Amira is a woman. Why does she say “quelqu'un de très rigoureux” and not “rigoureuse”?", "options": ["After quelqu'un de, the adjective is always masculine.", "It's a mistake.", "Because she is talking about her old job."], "answer": 0,
+          "explain": "[[quelqu'un]] is grammatically masculine. With [[une personne]], it would be feminine: [[une personne rigoureuse]]." }
+      ] },
+    { "type": "understand", "title": "Answering with structure",
+      "blocks": [
+        { "type": "table", "title": "Classic questions and how to answer",
+          "head": ["Question", "What they really want", "Answer structure"],
+          "rows": [
+            ["Parlez-moi de vous.", "your professional story in one minute", "Je suis… de formation. J'ai travaillé pendant… Depuis mon arrivée, je…"],
+            ["Pourquoi ce poste vous intéresse-t-il ?", "your motivation", "D'abord, parce que… Ensuite… Enfin…"],
+            ["Quelles sont vos forces ?", "proof that you fit", "Je suis quelqu'un de… Par exemple, …"],
+            ["Et vos faiblesses ?", "self-awareness", "Parfois, je… Maintenant, je… et ça m'aide."],
+            ["Où vous voyez-vous dans cinq ans ?", "if you will stay and grow", "J'aimerais… Dans cinq ans, je me vois…"],
+            ["Avez-vous des questions ?", "your interest", "J'aimerais savoir si / comment… Pourriez-vous me dire… ?"]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "For strengths, use the **STAR** idea: a Situation, your Task, your Action, the Result. One concrete example is better than five adjectives." },
+        { "type": "table", "title": "Polite chunks (conditionnel)",
+          "head": ["Chunk", "Meaning", "Example"],
+          "rows": [
+            ["je voudrais", "I would like", "Je voudrais ajouter quelque chose."],
+            ["j'aimerais", "I would like / I'd love", "J'aimerais faire partie de votre équipe."],
+            ["je souhaiterais", "I would like (more formal)", "Je souhaiterais devenir membre de l'ordre."],
+            ["je serais heureux / heureuse de", "I would be happy to", "Je serais heureuse de commencer en janvier."],
+            ["pourriez-vous", "could you", "Pourriez-vous me dire quand vous allez décider ?"],
+            ["ce serait", "it would be", "Ce serait une belle occasion pour moi."]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "These are **conditionnel** forms. The full tense comes in unit 6; for now, use them as fixed chunks + infinitive. They sound much more polite than [[je veux]]." },
+        { "type": "pattern", "title": "Describing yourself",
+          "pattern": "Je suis quelqu'un de + adjectif masculin · Je suis une personne + adjectif féminin",
+          "note": "Both mean *I am a … person*. Choose one and agree the adjective correctly.",
+          "examples": [
+            { "fr": "Je suis quelqu'un de patient et de curieux.", "en": "I'm a patient and curious person." },
+            { "fr": "Je suis une personne patiente et curieuse.", "en": "I'm a patient and curious person." },
+            { "fr": "Mon collègue dit que je suis quelqu'un de calme.", "en": "My colleague says I'm a calm person." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["entrevue", "entretien", "force", "faiblesse", "rigoureux", "autonome", "parlez-moi", "pourquoi-poste", "aimerais-savoir", "je-me-vois"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Interview errors to avoid",
+          "body": "- [[J'aimerais de travailler]] → [[J'aimerais travailler]]: no [[de]] after aimer, vouloir, souhaiter.\n- [[Je voudrais savoir est-ce que le poste est permanent]] → [[Je voudrais savoir si le poste est permanent]].\n- [[Je suis quelqu'un de rigoureuse]] → [[quelqu'un de rigoureux]] or [[une personne rigoureuse]].\n- [[Je veux savoir le salaire]] sounds rude → [[J'aimerais connaître la fourchette salariale]] (the salary range).\n- *Parlez-moi de vous* is **not** your life story: no childhood, no family details. Stay professional, about one minute.\n- Don't say [[Je n'ai pas de faiblesses]]: it sounds dishonest." },
+        { "type": "deepdive", "kind": "canada", "title": "Interviews in Canada",
+          "body": "- In Québec, the interview is [[une entrevue]]; in France, [[un entretien d'embauche]].\n- [[Au plaisir !]] is a very common, warm Québec goodbye in professional settings: roughly *hope to see you again*.\n- [[la conciliation travail-famille]] is the Québec expression for work-life balance.\n- Human-rights laws in Canada generally protect you from questions about your age, religion, marital status or plans to have children. You may answer politely without details: [[Je préfère parler de mon expérience professionnelle.]] The exact rules depend on the province: check official sources (your provincial human-rights commission).\n- After the interview, a short thank-you email the same day is appreciated: [[Merci encore pour l'entrevue de ce matin.]]" },
+        { "type": "deepdive", "kind": "examples", "title": "Strong answers to “Pourquoi devrions-nous vous choisir ?”",
+          "body": "This means *Why should we choose you?* Answer with two or three reasons and a connector from unit 1.",
+          "examples": [
+            { "fr": "Parce que j'ai l'expérience demandée et que je connais déjà vos outils.", "en": "Because I have the experience you ask for and I already know your tools." },
+            { "fr": "Je parle trois langues, et c'est un atout avec vos clients internationaux.", "en": "I speak three languages, and that's an asset with your international clients." },
+            { "fr": "Comme j'ai travaillé dans une petite entreprise, je suis habitué à être polyvalent.", "en": "As I've worked in a small business, I'm used to being versatile." }
+          ] }
+      ] },
+    { "type": "hear", "title": "Sound confident",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Speak a little slower than usual, and let your voice go **down** at the end of statements: it sounds confident.",
+          "lines": [
+            { "fr": "Parlez-moi de vous.", "en": "Tell me about yourself." },
+            { "fr": "Je suis comptable de formation.", "en": "I'm an accountant by training." },
+            { "fr": "Je suis quelqu'un de très rigoureux.", "en": "I'm a very thorough person.", "tip": "rigoureux: ri-gou-reu, the x is silent." },
+            { "fr": "J'aimerais faire partie de votre équipe.", "en": "I would like to be part of your team.", "tip": "j'aimerais: three syllables, jè-me-rè; in fast speech the middle e often drops: jèm-rè." },
+            { "fr": "Je souhaiterais devenir membre de l'ordre professionnel.", "en": "I would like to become a member of the professional order.", "tip": "souhaiterais: swè-te-rè; the ou and è glide together into one syllable." },
+            { "fr": "Pourriez-vous me dire quand vous allez prendre votre décision ?", "en": "Could you tell me when you will make your decision?", "tip": "Voice goes up at the end: it's a question." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ma plus grande faiblesse, c'est que j'ai du mal à dire non. Maintenant, je vérifie mes priorités avant d'accepter une nouvelle tâche.", "en": "My biggest weakness is that I find it hard to say no. Now I check my priorities before accepting a new task.", "prompt": "What is the candidate's weakness?", "options": ["Saying no is hard for her.", "She is often late.", "She doesn't like teamwork."], "answer": 0,
+          "explain": "[[avoir du mal à]] + infinitive = to find it hard to. And she says what she does about it." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'aimerais savoir si le poste est permanent ou temporaire.", "en": "I'd like to know if the position is permanent or temporary.", "prompt": "What does the candidate want to know?", "options": ["If the job is permanent", "The salary", "When the job starts"], "answer": 0,
+          "explain": "[[savoir si]] + question: an indirect question about [[permanent ou temporaire]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Some questions bring back reported speech from unit 2.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each question with what the interviewer wants.", "pairs": [["Parlez-moi de vous.", "your professional story"], ["Quelles sont vos forces ?", "proof that you fit"], ["Et vos faiblesses ?", "self-awareness"], ["Où vous voyez-vous dans cinq ans ?", "your long-term plans"], ["Avez-vous des questions ?", "your interest in the job"]] },
+        { "id": "r2", "type": "cloze", "text": "Sofia : « Je suis quelqu'un de très ___. » (patient)", "answers": [["patient"]], "en": "Sofia: “I'm a very patient person.”", "explain": "After [[quelqu'un de]], always the masculine form, even for Sofia." },
+        { "id": "r3", "type": "translate", "prompt": "I would like to know if the job is full-time.", "accept": ["J'aimerais savoir si le poste est à temps plein.", "Je voudrais savoir si le poste est à temps plein.", "Je souhaiterais savoir si le poste est à temps plein.", "J'aimerais savoir si l'emploi est à temps plein.", "Je voudrais savoir si l'emploi est à temps plein.", "Je souhaiterais savoir si l'emploi est à temps plein."], "hint": "Indirect question with si.",
+          "explain": "[[J'aimerais savoir si…]] + normal word order. No [[est-ce que]] after [[savoir]]." },
+        { "id": "r4", "type": "mcq", "prompt": "Which answer to “Et vos faiblesses ?” is best?", "options": ["Parfois, je parle trop vite en réunion. Maintenant, je prépare mes idées à l'avance.", "Je n'ai pas de faiblesses.", "Je suis souvent en retard, mais ce n'est pas grave.", "Je déteste travailler en équipe."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Not credible: everyone has a weakness.", "A serious weakness with no solution worries the employer.", "Too negative for most jobs, and no solution."] },
+        { "id": "r5", "type": "cloze", "text": "J'aimerais ___ partie d'une équipe dynamique, et je ___ heureuse de commencer en janvier.", "answers": [["faire"], ["serais"]], "choices": ["faire", "de faire", "serais", "suis"], "en": "I'd like to be part of a dynamic team, and I'd be happy to start in January.", "explain": "[[j'aimerais]] + infinitive (no de); [[je serais heureuse de]] = I would be happy to." },
+        { "id": "r6", "type": "translate", "prompt": "Tell me about yourself. (formal)", "accept": ["Parlez-moi de vous.", "Parlez-moi un peu de vous."], "explain": "Imperative of [[parler]] with [[vous]]; [[moi]] after the verb." },
+        { "id": "r7", "type": "reorder", "prompt": "Why are you interested in this position?", "accept": ["Pourquoi ce poste vous intéresse-t-il ?"], "extra": ["est"],
+          "explain": "Formal inversion with a noun subject: [[ce poste vous intéresse-t-il]]. The [[-t-]] is added between two vowels." },
+        { "id": "r8", "type": "cloze", "text": "Après l'entrevue, Amira a dit à Lucie que Mme Tremblay lui ___ demandé ___ elle était autonome.", "answers": [["avait"], ["si"]], "choices": ["avait", "a", "si", "que"], "en": "After the interview, Amira told Lucie that Ms. Tremblay had asked her whether she was independent.", "explain": "Unit 2 review: an earlier past → plus-que-parfait [[avait demandé]]; a reported yes/no question → [[si]]." },
+        { "id": "r9", "type": "dictation", "fr": "Je souhaiterais devenir membre de l'ordre professionnel.", "accept": [], "explain": "[[souhaiterais]]: the -ais ending of the conditionnel, like [[j'aimerais]] and [[je voudrais]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Choose a job you would like in Canada. Answer three interview questions aloud, one after the other: “Parlez-moi de vous.”, “Pourquoi ce poste vous intéresse-t-il ?” and “Quelles sont vos forces et vos faiblesses ?”", "seconds": 90,
+          "checklist": ["Je suis… de formation / J'ai travaillé pendant…", "Depuis mon arrivée…", "D'abord… Ensuite… Enfin… for motivation", "Je suis quelqu'un de… + one concrete example", "A weakness + Maintenant, je…", "At least two polite chunks: j'aimerais, je souhaiterais, je serais heureux·se"],
+          "models": [ { "label": "Model answer", "fr": "Je suis technicien informatique de formation. J'ai travaillé pendant quatre ans dans une entreprise de télécommunications à Hanoï. Depuis mon arrivée à Québec, j'ai suivi des cours de français et j'ai fait un stage dans une école. Ce poste m'intéresse d'abord parce que j'adore aider les utilisateurs. Ensuite, votre organisation est connue pour sa formation continue, et j'aimerais continuer à apprendre. Je suis quelqu'un de patient : par exemple, pendant mon stage, j'ai expliqué le nouveau logiciel à trente enseignants. Ma faiblesse, c'est que parfois je n'ose pas poser de questions. Maintenant, je note mes questions et je les pose en réunion. Je serais vraiment heureux de faire partie de votre équipe.", "en": "I'm an IT technician by training. I worked for four years in a telecommunications company in Hanoi. Since arriving in Québec City, I've taken French classes and done an internship in a school. This position interests me first because I love helping users. Then, your organization is known for its ongoing training, and I'd like to keep learning. I'm a patient person: for example, during my internship, I explained the new software to thirty teachers. My weakness is that sometimes I don't dare to ask questions. Now I write my questions down and I ask them in meetings. I'd be really happy to be part of your team." } ] },
+        { "id": "w1", "type": "write", "prompt": "Prepare two questions to ask at the end of an interview, then write a short thank-you email to the interviewer for the same evening.", "promptFr": "Préparez deux questions et un courriel de remerciement.",
+          "wordRange": [50, 100],
+          "checklist": ["Question 1: J'aimerais savoir si / comment…", "Question 2: Pourriez-vous me dire… ?", "Email: Madame, / Monsieur,", "Thank them: Merci encore pour l'entrevue de…", "Repeat your interest: Je serais heureux·se de…", "A polite closing"],
+          "models": [ { "label": "Model answer", "fr": "Questions : J'aimerais savoir comment se passe la formation au début. Pourriez-vous me dire quand vous allez prendre votre décision ?\nCourriel :\nMadame,\nMerci encore pour l'entrevue de ce matin. J'ai beaucoup apprécié notre conversation et la présentation de votre équipe. Ce poste correspond vraiment à mon expérience, et je serais très heureuse de travailler avec vous.\nCordialement,\nAmira Benali", "en": "Questions: I'd like to know how training works at the beginning. Could you tell me when you will make your decision? Email: Dear Madam, Thank you again for this morning's interview. I really appreciated our conversation and the presentation of your team. This position really matches my experience, and I would be very happy to work with you. Best regards, Amira Benali" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Understand the classic questions: [[Parlez-moi de vous]], [[Pourquoi ce poste vous intéresse-t-il ?]], [[Quelles sont vos forces / vos faiblesses ?]]\n- Give structured answers: main idea + concrete example; weakness + what you do about it\n- Use polite chunks [[j'aimerais]], [[je souhaiterais]], [[pourriez-vous]] and [[je suis quelqu'un de + adjectif]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the pronunciation tips for j'aimerais and souhaiterais and the gloss of je souhaiterais. Added a check-official-sources hedge on interview questions and human-rights rules." }
+}

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-09-04",
+  "level": "a1",
+  "unit": "a1-09",
+  "title": "Hobbies and weather",
+  "goal": "Talk about your hobbies with faire du / de la and jouer au / du, and say what the weather is like in each season.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-faire-du", "kind": "grammar", "fr": "faire du / de la / de l' + activité", "en": "faire + du / de la / de l' for sports and activities",
+      "drills": [
+        { "type": "cloze", "text": "Je fais ___ yoga le matin.", "answers": [["du"]], "choices": ["du", "de la", "le", "au"], "en": "I do yoga in the morning.", "explain": "yoga is masculine: faire du yoga." },
+        { "type": "cloze", "text": "Nous faisons ___ randonnée.", "answers": [["de la"]], "choices": ["de la", "du", "la", "à la"], "en": "We go hiking.", "explain": "randonnée is feminine: faire de la randonnée." },
+        { "type": "translate", "prompt": "I don't do sports.", "accept": ["Je ne fais pas de sport.", "Je ne fais pas de sports."], "explain": "After a negation, du becomes de: je ne fais pas de sport." }
+      ] },
+    { "id": "g-jouer", "kind": "grammar", "fr": "jouer au / à la / aux · jouer du / de la", "en": "jouer à + game or sport, jouer de + instrument",
+      "drills": [
+        { "type": "cloze", "text": "Karim joue ___ hockey.", "answers": [["au"]], "choices": ["au", "du", "le", "de la"], "en": "Karim plays hockey.", "explain": "Games and sports: jouer à, and à + le = au." },
+        { "type": "cloze", "text": "Sofia joue ___ guitare.", "answers": [["de la"]], "choices": ["de la", "à la", "la", "au"], "en": "Sofia plays the guitar.", "explain": "Instruments: jouer de. guitare is feminine → de la guitare." },
+        { "type": "mcq", "prompt": "“We play cards.” Which is correct?", "options": ["Nous jouons aux cartes.", "Nous jouons des cartes.", "Nous jouons les cartes."], "optionsFr": true, "answer": 0, "explain": "Cards are a game: jouer à + les cartes = aux cartes." }
+      ] },
+    { "id": "natation", "kind": "vocab", "fr": "natation", "article": "la", "gender": "f", "en": "swimming (the sport)", "pos": "noun",
+      "example": { "fr": "Je fais de la natation le mardi.", "en": "I go swimming on Tuesdays." } },
+    { "id": "randonnee", "kind": "vocab", "fr": "randonnée", "article": "la", "gender": "f", "en": "hiking; a hike", "pos": "noun",
+      "example": { "fr": "On fait de la randonnée au parc de la Gatineau.", "en": "We go hiking in Gatineau Park." } },
+    { "id": "soccer", "kind": "vocab", "fr": "soccer", "article": "le", "gender": "m", "en": "soccer (in Canada)", "pos": "noun",
+      "example": { "fr": "Mes enfants jouent au soccer.", "en": "My children play soccer." },
+      "note": "In France: le football (le foot)." },
+    { "id": "guitare", "kind": "vocab", "fr": "guitare", "article": "la", "gender": "f", "en": "guitar", "pos": "noun",
+      "example": { "fr": "Je joue de la guitare.", "en": "I play the guitar." } },
+    { "id": "ete", "kind": "vocab", "fr": "été", "article": "l'", "gender": "m", "en": "summer", "pos": "noun",
+      "example": { "fr": "En été, il fait chaud.", "en": "In summer, it's hot." } },
+    { "id": "hiver", "kind": "vocab", "fr": "hiver", "article": "l'", "gender": "m", "en": "winter", "pos": "noun",
+      "example": { "fr": "En hiver, il neige beaucoup.", "en": "In winter, it snows a lot." } },
+    { "id": "il-fait-beau", "kind": "phrase", "fr": "Il fait beau.", "en": "The weather is nice.", "accept": ["Il fait beau"] },
+    { "id": "il-fait-froid", "kind": "phrase", "fr": "Il fait froid.", "en": "It's cold (weather).", "accept": ["Il fait froid"] },
+    { "id": "il-pleut", "kind": "phrase", "fr": "Il pleut.", "en": "It's raining.", "accept": ["Il pleut"] },
+    { "id": "il-neige", "kind": "phrase", "fr": "Il neige.", "en": "It's snowing.", "accept": ["Il neige"] },
+    { "id": "il-y-a-du-vent", "kind": "phrase", "fr": "Il y a du vent.", "en": "It's windy.", "accept": ["Il y a du vent"] },
+    { "id": "quel-temps", "kind": "phrase", "fr": "Quel temps fait-il ?", "en": "What's the weather like?", "accept": ["Quel temps il fait ?", "Il fait quel temps ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Sun on Saturday, rain on Sunday",
+      "blocks": [
+        { "type": "dialogue", "title": "Planning the weekend in Ottawa",
+          "context": "Raj calls his friend Camille on Friday evening.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Salut Camille ! Il fait quel temps demain ?", "en": "Hi Camille! What's the weather like tomorrow?" },
+            { "speaker": "Camille", "fr": "Il fait beau et chaud ! Il y a du soleil.", "en": "It's nice and warm! It's sunny." },
+            { "speaker": "Raj", "fr": "Super ! Le matin, je fais du vélo. Tu fais du vélo aussi ?", "en": "Great! In the morning, I go cycling. Do you cycle too?" },
+            { "speaker": "Camille", "fr": "Non, je préfère la randonnée. On fait de la randonnée au parc de la Gatineau ?", "en": "No, I prefer hiking. Shall we go hiking in Gatineau Park?" },
+            { "speaker": "Raj", "fr": "Bonne idée ! Et dimanche ?", "en": "Good idea! And Sunday?" },
+            { "speaker": "Camille", "fr": "Dimanche, il pleut. Alors, on joue aux cartes à la maison ?", "en": "On Sunday it's raining. So, shall we play cards at home?" },
+            { "speaker": "Raj", "fr": "D'accord ! Et moi, je joue de la guitare.", "en": "OK! And I'll play the guitar." },
+            { "speaker": "Camille", "fr": "Parfait. Et en hiver, on joue au hockey !", "en": "Perfect. And in winter, we play hockey!" }
+          ] },
+        { "type": "text", "title": "Four seasons in Canada",
+          "fr": "Au Canada, il y a quatre saisons. En hiver, il fait très froid et il neige. Au printemps, il pleut souvent. En été, il fait beau et chaud. En automne, il fait frais et il y a du vent.",
+          "en": "In Canada, there are four seasons. In winter, it's very cold and it snows. In spring, it often rains. In summer, the weather is nice and hot. In autumn, it's cool and windy." }
+      ] },
+    { "type": "understand", "title": "Faire, jouer and the weather",
+      "blocks": [
+        { "type": "pattern", "title": "Faire + du / de la / de l' + activity",
+          "pattern": "faire du (m) · faire de la (f) · faire de l' (vowel) + activité",
+          "note": "For most sports and activities, French uses [[faire]] with the partitive, like “doing some” of the activity. English says *go* swimming, *go* hiking, *do* yoga: French just says [[faire]].",
+          "examples": [
+            { "fr": "Je fais du sport.", "en": "I do sports." },
+            { "fr": "Tu fais du vélo ?", "en": "Do you cycle?" },
+            { "fr": "Elle fait de la natation.", "en": "She swims (as a sport)." },
+            { "fr": "Nous faisons de la randonnée.", "en": "We go hiking." },
+            { "fr": "Ils font du ski en hiver.", "en": "They ski in winter." }
+          ] },
+        { "type": "pattern", "title": "Jouer à + game · jouer de + instrument",
+          "pattern": "jouer au / à la / aux + jeu, sport · jouer du / de la + instrument",
+          "note": "Two different prepositions: **à** for games and sports you play (soccer, tennis, cards), **de** for musical instruments. Remember the contractions: à + le = **au**, à + les = **aux**, de + le = **du**.",
+          "examples": [
+            { "fr": "Je joue au soccer.", "en": "I play soccer." },
+            { "fr": "Mon fils joue au hockey.", "en": "My son plays hockey." },
+            { "fr": "On joue aux cartes ?", "en": "Shall we play cards?" },
+            { "fr": "Lucie joue du piano.", "en": "Lucie plays the piano." },
+            { "fr": "Je joue de la guitare.", "en": "I play the guitar." }
+          ] },
+        { "type": "table", "title": "The weather",
+          "head": ["", "English"],
+          "rows": [
+            ["Il fait beau.", "The weather is nice."],
+            ["Il fait mauvais.", "The weather is bad."],
+            ["Il fait chaud.", "It's hot / warm."],
+            ["Il fait froid.", "It's cold."],
+            ["Il fait frais.", "It's cool."],
+            ["Il pleut.", "It's raining. / It rains."],
+            ["Il neige.", "It's snowing. / It snows."],
+            ["Il y a du vent.", "It's windy."],
+            ["Il y a du soleil.", "It's sunny."]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "Most weather expressions use [[il fait]] (literally “it makes”). [[Il pleut]] and [[il neige]] are verbs of their own, and wind and sun use [[il y a du]]. To ask, say [[Quel temps fait-il ?]]" },
+        { "type": "table", "title": "The seasons",
+          "head": ["season", "in…", "English"],
+          "rows": [
+            ["le printemps", "au printemps", "(in) spring"],
+            ["l'été", "en été", "(in) summer"],
+            ["l'automne", "en automne", "(in) autumn / fall"],
+            ["l'hiver", "en hiver", "(in) winter"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "All four seasons are **masculine**. You can also say [[l'été]], [[l'hiver]] for “in summer, in winter” (in general): [[L'hiver, je fais du ski.]]" },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["natation", "randonnee", "soccer", "guitare", "ete", "hiver", "il-fait-beau", "il-fait-froid", "il-pleut", "il-neige", "il-y-a-du-vent", "quel-temps"] },
+        { "type": "deepdive", "kind": "why", "title": "Why au printemps but en été?",
+          "body": "It is about sound. [[En]] goes before a **vowel sound**, and [[été]], [[automne]] and [[hiver]] all start with one (the h of [[hiver]] is silent): [[en‿été]], [[en‿automne]], [[en‿hiver]], with a liaison.\n\n[[Printemps]] starts with a consonant, so French uses [[au]] (à + le): [[au printemps]]." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **No preposition after jouer:** [[Je joue le soccer]] is wrong. Say [[Je joue au soccer]].\n- **à for instruments:** [[Je joue au piano]] is wrong. Say [[Je joue du piano]].\n- **être for weather:** [[Il est froid]] describes a thing that is cold to the touch (or an unfriendly person). For the weather, say [[Il fait froid]]. For a person feeling cold, use avoir: [[J'ai froid]].\n- **Negation:** [[Je ne fais pas du sport]] is wrong. du is a partitive, so it becomes de: [[Je ne fais pas de sport]].\n- **But au stays:** [[Je ne joue pas au hockey]] is correct. au is à + le, not a partitive, so it does not change.\n- **Weather as a noun:** to say “I hate the cold”, use [[le froid]]: [[Je déteste le froid !]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Soccer, hockey and a lot of snow",
+          "body": "- **Le soccer vs le football:** in Canada, [[le soccer]] is soccer, and [[le football]] is Canadian or American football. In France, [[le football]] (or [[le foot]]) is soccer!\n- **Le hockey:** in Canada, [[le hockey]] means ice hockey. In France, people often say [[le hockey sur glace]].\n- **Winter words:** [[une tempête de neige]] is a snowstorm. In Québec, you will hear [[la poudrerie]] (blowing snow) and the informal [[la sloche]] (slush; standard French: [[la neige fondue]]). Temperatures sound like this: [[Il fait moins vingt !]] (It's minus twenty!)\n- **Il fait frette !** This is very informal Québec French for “It's really cold!”. Understand it, but say [[Il fait froid]] yourself.\n- **Skating:** in Québec, [[faire du patin]] means to go skating (in France, [[faire du patin à glace]]).\n- **Sun:** [[Il fait soleil]] (it's sunny) is very common in everyday Québec speech; [[Il y a du soleil]] is the safe form everywhere.",
+          "examples": [ { "fr": "En hiver, je fais du patin et je joue au hockey.", "en": "In winter, I go skating and I play hockey." }, { "fr": "Il y a une tempête de neige à Montréal.", "en": "There's a snowstorm in Montréal." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line, then record yourself.",
+          "lines": [
+            { "fr": "Quel temps fait-il ?", "en": "What's the weather like?", "tip": "[[fait-il]] sounds like “fè-teel”, with the t linked." },
+            { "fr": "Il fait beau et chaud.", "en": "It's nice and warm.", "tip": "[[chaud]] = “show”; the d is silent." },
+            { "fr": "Il pleut.", "en": "It's raining.", "tip": "[[pleut]]: round your lips for “eu”; the t is silent." },
+            { "fr": "En hiver, il neige.", "en": "In winter, it snows.", "tip": "Liaison: en‿hiver = “ahn-nee-vèr”." },
+            { "fr": "Je fais de la natation.", "en": "I go swimming.", "tip": "[[fais]] sounds like “fè”." },
+            { "fr": "Je joue au soccer.", "en": "I play soccer.", "tip": "[[joue au]]: “zhoo-oh”." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Aujourd'hui, il neige et il fait très froid.", "en": "Today it's snowing and it's very cold.", "prompt": "What's the weather like today?", "options": ["Snowy and very cold", "Rainy and cool", "Sunny and hot"], "answer": 0, "explain": "[[il neige]] = it's snowing, [[il fait très froid]] = it's very cold." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le samedi, je joue du piano, et le dimanche, je fais de la natation.", "en": "On Saturdays I play the piano, and on Sundays I go swimming.", "prompt": "What does the speaker do on Sundays?", "options": ["Swimming", "Piano", "Hockey"], "answer": 0, "explain": "[[le dimanche, je fais de la natation]]: on Sundays, swimming. The piano is on Saturdays." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Think: faire du / de la, jouer au / du, or il fait?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je fais ___ natation le samedi.", "answers": [["de la"]], "choices": ["de la", "du", "la", "à la"], "en": "I go swimming on Saturdays.", "explain": "natation is feminine: faire de la natation." },
+        { "id": "r2", "type": "cloze", "text": "Mon fils joue ___ hockey.", "answers": [["au"]], "choices": ["au", "du", "le", "à la"], "en": "My son plays hockey.", "explain": "Sports and games: jouer à, and à + le = au." },
+        { "id": "r3", "type": "cloze", "text": "Amira joue ___ piano.", "answers": [["du"]], "choices": ["du", "au", "le", "de la"], "en": "Amira plays the piano.", "explain": "Instruments: jouer de, and de + le = du." },
+        { "id": "r4", "type": "mcq", "prompt": "How do you say “It's cold today” (the weather)?", "options": ["Il fait froid aujourd'hui.", "Il est froid aujourd'hui.", "Il a froid aujourd'hui."], "optionsFr": true, "answer": 0,
+          "explain": "Weather uses il fait: il fait froid.",
+          "optionFeedback": [null, "Il est froid describes a thing that is cold to the touch, not the weather.", "Il a froid means “he feels cold” (a person)."] },
+        { "id": "r5", "type": "translate", "prompt": "It's snowing in Montréal.", "accept": ["Il neige à Montréal."], "explain": "il neige = it's snowing; à + city." },
+        { "id": "r6", "type": "translate", "prompt": "In summer, I go hiking.", "accept": ["En été, je fais de la randonnée.", "L'été, je fais de la randonnée.", "Je fais de la randonnée en été.", "Je fais de la randonnée l'été."], "hint": "faire + de la + randonnée", "explain": "en été (vowel sound → en), and faire de la randonnée because randonnée is feminine." },
+        { "id": "r7", "type": "match", "prompt": "Match the French and the English.", "pairs": [["au printemps", "in spring"], ["en été", "in summer"], ["en automne", "in autumn"], ["en hiver", "in winter"], ["il y a du vent", "it's windy"]] },
+        { "id": "r8", "type": "reorder", "prompt": "I don't play soccer.", "accept": ["Je ne joue pas au soccer."], "extra": ["de"], "explain": "au does not change after a negation: it is à + le, not a partitive." },
+        { "id": "r9", "type": "translate", "prompt": "We don't do sports in winter.", "accept": ["Nous ne faisons pas de sport en hiver.", "On ne fait pas de sport en hiver.", "Nous ne faisons pas de sport l'hiver.", "On ne fait pas de sport l'hiver.", "En hiver, nous ne faisons pas de sport.", "En hiver, on ne fait pas de sport.", "Nous ne faisons pas de sports en hiver.", "On ne fait pas de sports en hiver."], "explain": "du sport becomes de sport after ne… pas. nous → faisons (or on → fait)." },
+        { "id": "r10", "type": "dictation", "fr": "Au printemps, il pleut souvent.", "accept": [], "explain": "[[au printemps]] (consonant → au), and [[il pleut]]: the t is silent." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A colleague asks: “Tu préfères l'été ou l'hiver ?” Talk about your favourite season: what the weather is like, and what you do.", "seconds": 30,
+          "checklist": ["En été / en hiver / au printemps / en automne", "One weather expression (il fait…, il pleut, il neige)", "One activity with faire du / de la", "One activity with jouer au / du / de la"],
+          "models": [ { "label": "Model answer", "fr": "Moi, j'adore l'été. Il fait beau et chaud, alors je fais du vélo et de la natation. Le soir, je joue au soccer avec mes amis. Mais en hiver, il fait très froid !", "en": "I love summer. The weather is nice and warm, so I go cycling and swimming. In the evening, I play soccer with my friends. But in winter, it's very cold!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short post for a newcomers' group: describe the weather in two seasons where you live, and say what you do (or don't do) in each season.", "wordRange": [25, 50],
+          "checklist": ["Two seasons with the right preposition (en / au)", "Two weather expressions", "faire du / de la + activity", "One negative sentence (je ne fais pas de…)"],
+          "models": [ { "label": "Model answer", "fr": "J'habite à Québec. En hiver, il neige beaucoup et il fait très froid. Je fais du ski, mais je ne joue pas au hockey. En été, il fait chaud : je fais de la randonnée et je joue de la guitare dans le parc.", "en": "I live in Québec City. In winter, it snows a lot and it's very cold. I ski, but I don't play hockey. In summer, it's hot: I go hiking and I play the guitar in the park." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Talk about activities with **faire du / de la / de l'**: [[Je fais du vélo, de la natation, de la randonnée]]\n- Use **jouer au / aux** for games and sports ([[Je joue au hockey, aux cartes]]) and **jouer du / de la** for instruments ([[Je joue de la guitare]])\n- Describe the weather: [[Il fait beau / chaud / froid. Il pleut. Il neige. Il y a du vent.]]\n- Name the seasons: [[au printemps, en été, en automne, en hiver]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made the dialogue's weather question more natural (Il fait quel temps demain ?); labelled la sloche and il fait soleil as Québec informal and added standard equivalents; matched the speaking prompt to the task." }
+}

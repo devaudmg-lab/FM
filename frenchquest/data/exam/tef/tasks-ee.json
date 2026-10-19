@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "ability": "ee",
+  "tasks": [
+    {
+      "id": "tef-ee-a1",
+      "section": "A",
+      "title": "Un chien retrouvé au bord de la rivière",
+      "level": "b1",
+      "prompt": "Vous avez lu le début de cet article dans le journal local. Écrivez la suite de l’article (80 mots minimum). Racontez comment le chien a retrouvé ses propriétaires et comment les habitants du quartier ont réagi.",
+      "promptEn": "You read the beginning of this article in the local newspaper. Write the rest of the article (at least 80 words). Tell how the dog was reunited with its owners and how the people in the neighbourhood reacted.",
+      "document": "SHERBROOKE — Mardi matin, un employé de la voirie a remarqué un chien couché au bord de la rivière Magog, visiblement épuisé. L’animal, un vieux labrador au collier rouge, avait disparu de son domicile depuis près de deux semaines.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Continues directly from the last sentence without repeating the opening.",
+        "Explains clearly how the owners were found (who, how, when).",
+        "Describes the owners’ and neighbours’ reactions, ideally with a short quotation.",
+        "Uses passé composé for events, imparfait for description and plus-que-parfait for earlier events.",
+        "Keeps a neutral, factual journalistic tone in the third person.",
+        "Ends with a closing detail (the dog’s health, a thank-you, a follow-up).",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "Reuse the details given (the red collar, two weeks, the Magog River) so your story is coherent with the opening.",
+        "Give names to people (the employee, the owner) and quote one of them between « » with a verb such as a confié, a déclaré or a raconté.",
+        "Do not switch to the present tense or to « je »: you are the journalist, not a witness.",
+        "Plan three steps before writing: rescue, identification, reunion and reactions."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "L’employé, Marc Gagnon, s’est approché doucement et il a donné de l’eau au chien. Comme l’animal ne portait pas de médaille, il a appelé le refuge pour animaux de la ville. Une heure plus tard, une bénévole a reconnu le labrador grâce aux affiches qu’on voyait partout dans le quartier depuis quinze jours. Il s’agissait de Caramel, qui habitait à cinq kilomètres de là. Ses propriétaires, un couple de retraités, sont arrivés tout de suite. « Nous pensions que nous ne le reverrions jamais », a confié Mme Tremblay, très émue. Le soir même, des centaines de voisins ont partagé la bonne nouvelle sur les réseaux sociaux."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Intrigué, l’employé, Marc Gagnon, s’est approché de l’animal, qui tremblait de froid et n’avait manifestement rien mangé depuis plusieurs jours. Après lui avoir offert de l’eau, il a contacté le refuge animalier de la ville. Une bénévole a alors fait le lien avec les affiches placardées dans tout le quartier de Fleurimont : il s’agissait de Caramel, un labrador de onze ans qui s’était échappé pendant un orage. Prévenus aussitôt, ses propriétaires, un couple de retraités, sont accourus. « Nous avions presque perdu espoir », a confié Mme Tremblay, les larmes aux yeux. Bien qu’amaigri, le chien se remettra rapidement, selon le vétérinaire. Le couple tient d’ailleurs à remercier tous ceux qui ont participé aux recherches."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-a2",
+      "section": "A",
+      "title": "Une cabine téléphonique transformée en outilthèque",
+      "level": "b1",
+      "prompt": "Vous avez lu le début de cet article dans un journal régional. Écrivez la suite de l’article (80 mots minimum). Expliquez comment le projet est né, comment il fonctionne et quelles sont les premières réactions.",
+      "promptEn": "You read the beginning of this article in a regional newspaper. Write the rest of the article (at least 80 words). Explain how the project started, how it works and what the first reactions have been.",
+      "document": "NANTES — Depuis samedi, les habitants du quartier Doulon peuvent emprunter gratuitement des outils dans une ancienne cabine téléphonique transformée en « outilthèque ». L’idée vient de trois voisins retraités, lassés de voir chacun acheter une perceuse qu’il n’utilise que deux fois par an.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Covers the three points requested: origin of the project, how it works, first reactions.",
+        "Gives concrete details (dates, number of tools, examples of tools, rules for borrowing).",
+        "Mixes tenses correctly: passé composé and imparfait for the story, present for how the system works.",
+        "Includes the voice of a resident or one of the founders.",
+        "Uses connectors to order the steps (d’abord, ensuite, en quelques semaines, désormais).",
+        "Ends with an outlook (the town hall, other neighbourhoods, future plans).",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "Name the three retirees: it makes the article lively and avoids repeating « les voisins ».",
+        "Switch to the present only for the rules (on s’inscrit, on rapporte l’outil…), then return to the past.",
+        "A local news article often mentions the town hall (la mairie) or an association: it adds realism.",
+        "Avoid personal opinions such as « c’est une super idée »: put judgements in a quotation instead."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Au printemps dernier, les trois amis ont présenté leur projet à la mairie, qui a accepté de leur céder la cabine abandonnée. Ils l’ont repeinte en vert et ils ont installé des étagères. Ensuite, ils ont demandé aux habitants de donner les outils dont ils ne se servaient plus. En un mois, ils ont reçu plus de quatre-vingts objets : des marteaux, des scies, des échelles et même une tondeuse. Le fonctionnement est simple : on écrit son nom dans un cahier, on emprunte l’outil pour une semaine maximum, puis on le rapporte. « C’est pratique et cela crée des liens entre voisins », explique Sophie, une jeune maman. D’autres quartiers voudraient déjà copier l’idée."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Tout a commencé l’hiver dernier, lorsque Jean, Mireille et Ahmed ont proposé à la mairie de reconvertir cette cabine, inutilisée depuis des années. Séduite, la municipalité leur a accordé une subvention pour la remettre en état. Les trois retraités ont ensuite lancé un appel aux dons, auquel les habitants ont répondu bien au-delà de leurs attentes : en quelques semaines, près d’une centaine d’outils ont été déposés, de la simple pince à la scie circulaire. Le principe repose sur la confiance : chacun inscrit son nom dans un registre et rapporte l’objet dans les sept jours. « Pour l’instant, rien n’a disparu », se réjouit Mireille. La mairie envisage d’étendre l’initiative à d’autres quartiers."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-a3",
+      "section": "A",
+      "title": "Tempête de neige sur la route 132",
+      "level": "b2",
+      "prompt": "Vous avez lu le début de cet article sur le site d’un journal québécois. Écrivez la suite de l’article (80 mots minimum). Racontez ce qui est arrivé aux automobilistes, comment ils ont été aidés et quelles ont été les conséquences le lendemain.",
+      "promptEn": "You read the beginning of this article on a Quebec newspaper’s website. Write the rest of the article (at least 80 words). Tell what happened to the drivers, how they were helped and what the consequences were the next day.",
+      "document": "RIMOUSKI — Une violente tempête de neige a surpris les automobilistes de la route 132 jeudi soir. En moins de deux heures, près de quarante centimètres de neige sont tombés, et la visibilité était presque nulle entre Rimouski et Sainte-Flavie.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Answers the three parts of the instruction: what happened, the help provided, the next day.",
+        "Uses precise vocabulary for the situation (bloqués, fossé, fermer la route, déneigement, hébergement d’urgence).",
+        "Mentions credible actors (police, Croix-Rouge, municipality, snow-removal crews).",
+        "Uses passé composé / imparfait correctly, and the passive voice or participial phrases at B2 level.",
+        "Includes a witness quotation that adds a human touch.",
+        "Gives a factual closing line (injuries, reopening time, schools closed).",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "Keep the chronology clear with time markers: vers 20 heures, pendant la nuit, le lendemain matin, en début d’après-midi.",
+        "Start a sentence with a past participle (Pris au piège, Craignant d’autres accidents…) to show B2-level structures.",
+        "Journalists usually reassure readers about injuries: « Aucun blessé grave n’est à déplorer ».",
+        "Check agreements with « une centaine de personnes » or « une trentaine d’automobilistes » (plural verb is natural)."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Vers 20 heures, plusieurs voitures se sont retrouvées bloquées dans la neige et un camion a glissé dans le fossé. Heureusement, personne n’a été gravement blessé. La Sûreté du Québec a fermé la route pendant toute la nuit. Une centaine de personnes ont dormi dans le gymnase d’une école de Sainte-Luce, où des bénévoles de la Croix-Rouge leur ont servi de la soupe et distribué des couvertures. « Je ne voyais même plus le capot de ma voiture », a raconté une conductrice. Le lendemain matin, les déneigeuses ont travaillé sans arrêt et la circulation a repris vers midi. Les écoles de la région sont toutefois restées fermées."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Pris au piège par des rafales qui dépassaient 90 km/h, une trentaine d’automobilistes ont dû s’immobiliser sur l’accotement, tandis qu’un poids lourd se mettait en travers de la chaussée. Craignant d’autres accidents, la Sûreté du Québec a fermé la route jusqu’au lendemain. Les personnes bloquées ont été conduites à l’aréna de Sainte-Luce, transformé en centre d’hébergement d’urgence, où les bénévoles de la Croix-Rouge les ont accueillies avec des repas chauds. « On avait l’impression de rouler dans un nuage », a témoigné un camionneur. Vendredi, malgré le travail des équipes de déneigement, la circulation n’a été rétablie qu’en début d’après-midi. Aucun blessé grave n’est à déplorer."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-a4",
+      "section": "A",
+      "title": "Un livre rendu avec cinquante ans de retard",
+      "level": "b2",
+      "prompt": "Vous avez lu le début de cet article dans un journal local. Écrivez la suite de l’article (80 mots minimum). Expliquez ce que disait la lettre, pourquoi le livre a été rendu si tard et comment la bibliothèque a réagi.",
+      "promptEn": "You read the beginning of this article in a local newspaper. Write the rest of the article (at least 80 words). Explain what the letter said, why the book was returned so late and how the library reacted.",
+      "document": "MONCTON — Les employés de la bibliothèque municipale ont eu une drôle de surprise lundi matin : un livre emprunté en 1974 a été déposé dans la boîte de retour, accompagné d’une lettre manuscrite. L’ouvrage, un recueil de contes acadiens, avait plus de cinquante ans de retard.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Reports the content of the letter in indirect speech or with a short quotation.",
+        "Gives a plausible explanation for the delay (a move, a box found while clearing a house…).",
+        "Describes the library’s reaction and a decision (no fine, donation, exhibition).",
+        "Uses the plus-que-parfait for events before the return and correct sequence of tenses in reported speech.",
+        "Keeps a light but journalistic tone suited to an unusual news item.",
+        "Stays coherent with the opening (1974, handwritten letter, collection of Acadian tales).",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "Reported speech in the past: « il expliquait qu’il avait emprunté… » (plus-que-parfait), not « qu’il a emprunté ».",
+        "An unusual fait divers often ends with a smile or a symbolic gesture: the book displayed, the money given to a programme.",
+        "Use expressions like « Amusée et touchée », « Quant à l’ouvrage » or « jusqu’à ce que » to show range.",
+        "Do not invent a famous author or title: keep the collection anonymous, as in the opening."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Dans sa lettre, l’auteur expliquait qu’il avait emprunté le livre quand il était étudiant. Peu après, il avait déménagé à Toronto pour son travail et il avait oublié de le rapporter. Il l’a retrouvé récemment dans un carton, en vidant la maison de sa mère. « Mieux vaut tard que jamais », écrivait-il en s’excusant. Il avait aussi glissé un chèque de cent dollars dans l’enveloppe. La directrice de la bibliothèque a été très touchée. Elle a annoncé qu’on ne lui demanderait pas d’amende et que l’argent servirait à acheter des livres pour enfants. Le recueil sera exposé dans le hall jusqu’à la fin du mois."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Dans cette lettre, signée simplement « Un lecteur repentant », l’expéditeur racontait avoir emprunté le recueil à l’âge de seize ans, peu avant que sa famille ne quitte la région. Le livre l’avait ensuite suivi au fil de ses déménagements, jusqu’à ce qu’il le redécouvre, l’été dernier, au fond d’une malle. « Il était temps qu’il rentre chez lui », concluait-il avec humour. L’enveloppe contenait un billet de cent dollars destiné à couvrir les frais de retard. Amusée et touchée, la directrice a renoncé à toute pénalité et a choisi de verser la somme au programme d’alphabétisation de la bibliothèque. Quant à l’ouvrage, il sera exposé dans le hall d’entrée."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b1",
+      "section": "B",
+      "title": "Le télétravail pour tous ?",
+      "level": "b2",
+      "prompt": "Vous avez lu ce message sur un forum consacré à la vie professionnelle. Vous y répondez pour donner votre opinion. Justifiez votre point de vue à l’aide d’au moins trois arguments illustrés d’exemples (200 mots minimum).",
+      "promptEn": "You read this message on a forum about working life. You reply to give your opinion. Justify your point of view with at least three arguments illustrated with examples (at least 200 words).",
+      "document": "Forum « Vie de bureau » — Message de Julien_MTL : « Depuis la pandémie, les entreprises ont prouvé que le travail à distance fonctionne. Selon moi, le télétravail devrait devenir la règle pour tous les employés de bureau. Le bureau, c’est fini ! »",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "States a clear position in the first lines (agree, disagree or a reasoned middle ground).",
+        "Develops at least three distinct arguments, each in its own paragraph.",
+        "Supports each argument with a concrete example (personal experience, a situation, a fact).",
+        "Acknowledges the opposing view before refuting it (concession).",
+        "Uses varied logical connectors (d’abord, cependant, par ailleurs, enfin, pour toutes ces raisons).",
+        "Ends with a conclusion that restates the position or proposes a solution.",
+        "Uses a register suited to a forum: polite, can address the author with tu, no slang."
+      ],
+      "tips": [
+        "Reply to Julien by name in the first line: it shows you have understood the situation of communication.",
+        "Attack the word « tous » in the statement: a nuanced position (hybrid work) is easy to defend with strong arguments.",
+        "Prepare a quick plan of 4–5 paragraphs before writing; it saves time and keeps you between 200 and 250 words.",
+        "Show B2 structures: non seulement… mais aussi, revenir à + infinitive, si + imparfait / conditionnel."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Bonjour Julien,\n\nJ’ai lu ton message avec intérêt, mais je ne suis pas tout à fait d’accord avec toi. À mon avis, le télétravail est une bonne chose, mais il ne doit pas devenir obligatoire pour tout le monde.\n\nD’abord, il est vrai que travailler à la maison présente des avantages. On ne perd pas de temps dans les transports et on peut mieux organiser sa journée. Par exemple, ma sœur habite à Laval et elle gagne presque deux heures par jour quand elle travaille chez elle.\n\nCependant, tout le monde n’a pas un logement adapté. Moi, j’habite dans un petit appartement avec deux colocataires et je n’ai pas de bureau. Quand je travaille à distance, je suis souvent dérangé et j’ai du mal à me concentrer.\n\nEnsuite, le bureau reste un lieu important pour les relations humaines. C’est là qu’on rencontre ses collègues, qu’on échange des idées et qu’on apprend des personnes plus expérimentées. Les nouveaux employés, en particulier, ont besoin de ce contact pour bien s’intégrer.\n\nEnfin, le télétravail à temps plein peut provoquer de l’isolement. Certains de mes amis se sentent seuls et démotivés après plusieurs semaines sans voir personne.\n\nPour toutes ces raisons, je pense que la meilleure solution est un modèle hybride : deux ou trois jours à la maison et le reste au bureau. Chacun pourrait ainsi profiter des avantages des deux formules.\n\nMarc"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour Julien,\n\nTon message soulève une question essentielle, mais ta conclusion me paraît trop radicale. Si le télétravail a indéniablement fait ses preuves, l’imposer à tous les employés de bureau serait, selon moi, une erreur.\n\nJe reconnais volontiers ses atouts. Supprimer les trajets quotidiens permet non seulement de gagner du temps, mais aussi de réduire le stress et la pollution. Pour un parent qui vit en banlieue, c’est parfois ce qui rend possible la conciliation travail-famille.\n\nNéanmoins, le travail à distance suppose des conditions que beaucoup ne réunissent pas. Comment se concentrer dans un petit logement partagé avec de jeunes enfants ? Faire de la maison l’unique lieu de travail revient en outre à transférer aux salariés des coûts qui relevaient jusque-là de l’employeur : espace, chauffage, équipement.\n\nPar ailleurs, on sous-estime le rôle du bureau dans la transmission des savoirs. Une bonne partie de ce que l’on apprend en début de carrière provient d’échanges informels : une question posée à la machine à café, une réunion à laquelle on assiste par hasard. Aucune visioconférence ne remplace vraiment ces moments.\n\nEnfin, l’isolement est un risque réel. Une absence prolongée de contacts finit par nuire au moral et, à terme, à la motivation.\n\nPlutôt qu’une règle uniforme, je plaide donc pour la souplesse : un modèle hybride, négocié équipe par équipe, me semble mieux répondre à la diversité des métiers et des situations.\n\nAmélie"
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b2",
+      "section": "B",
+      "title": "Interdire les cellulaires à l’école",
+      "level": "b1",
+      "prompt": "Vous avez lu cet article dans votre journal. Vous écrivez une lettre au courrier des lecteurs pour donner votre opinion sur cette mesure. Justifiez votre point de vue à l’aide d’au moins trois arguments (200 mots minimum).",
+      "promptEn": "You read this article in your newspaper. You write a letter to the readers’ letters section to give your opinion on this measure. Justify your point of view with at least three arguments (at least 200 words).",
+      "document": "Un projet de règlement prévoit d’interdire complètement les téléphones cellulaires dans les écoles secondaires, y compris pendant les pauses et à l’heure du dîner. « Les élèves doivent réapprendre à se parler et à se concentrer », affirme un porte-parole du ministère de l’Éducation. Certains parents, eux, s’inquiètent de ne plus pouvoir joindre leurs enfants.",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "Follows the format of a formal letter: Madame, Monsieur, an opening line referring to the article, a formal closing formula and a signature.",
+        "Says who you are (parent, teacher, student) to make your opinion credible.",
+        "States a clear position and develops at least three arguments in separate paragraphs.",
+        "Answers the parents’ objection mentioned in the article.",
+        "Illustrates arguments with concrete examples or questions to the reader.",
+        "Uses formal register throughout (vous, full negation with ne, no « ça », no slang).",
+        "Concludes with a clear wish or recommendation."
+      ],
+      "tips": [
+        "Learn one opening (« Je vous écris au sujet de votre article sur… ») and one closing formula by heart: they cost no thinking time on the day.",
+        "The document contains an objection (parents who want to reach their children): refuting it is an easy way to show argumentation skills.",
+        "A rhetorical question (« Comment peut-on apprendre dans ces conditions ? ») makes your letter more persuasive.",
+        "Count your paragraphs, not your words: an introduction, three arguments, one refutation and a conclusion of about 35–40 words each will put you at 200–250."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Madame, Monsieur,\n\nJe vous écris au sujet de votre article sur l’interdiction des téléphones cellulaires dans les écoles secondaires. En tant que mère de deux adolescents, je suis tout à fait favorable à cette mesure.\n\nTout d’abord, le téléphone empêche les élèves de se concentrer. Même quand il est dans leur sac, ils pensent aux messages et aux notifications. Mon fils m’a avoué qu’il regardait son écran plusieurs fois pendant chaque cours. Comment peut-on apprendre dans ces conditions ?\n\nDe plus, les pauses devraient servir à se reposer et à discuter. Aujourd’hui, dans beaucoup d’écoles, les jeunes restent assis côte à côte, les yeux fixés sur leur téléphone, sans se parler. Sans appareil, ils seraient obligés de jouer, de faire du sport ou simplement de bavarder.\n\nPar ailleurs, cette interdiction pourrait réduire la cyberintimidation. Beaucoup de photos et de vidéos humiliantes sont prises à l’école, puis partagées sur les réseaux sociaux. Si les téléphones restent dans les casiers, ce problème diminuera.\n\nCertains parents veulent pouvoir joindre leurs enfants en cas d’urgence. Je les comprends, mais l’école dispose d’un téléphone et le secrétariat peut toujours transmettre un message.\n\nEn conclusion, je pense que cette mesure est nécessaire pour le bien-être et la réussite de nos jeunes. J’espère que le ministère ira jusqu’au bout de son projet.\n\nVeuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\n\nNadia Bouchard"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Madame, Monsieur,\n\nC’est avec intérêt que j’ai lu votre article consacré au projet d’interdiction des cellulaires dans les écoles secondaires. Enseignant de français depuis quinze ans, je partage l’objectif du ministère, mais je crains qu’une interdiction totale ne manque sa cible.\n\nIl ne fait aucun doute que le téléphone n’a pas sa place en classe. Les notifications fragmentent l’attention et, une fois la concentration perdue, il faut plusieurs minutes pour la retrouver. Depuis que mon école exige que les appareils restent dans les casiers pendant les cours, j’ai d’ailleurs constaté une nette amélioration du climat de travail.\n\nEn revanche, étendre cette interdiction aux pauses et au dîner me paraît excessif. Les adolescents de seize ou dix-sept ans sont presque adultes : leur retirer toute autonomie, c’est les priver de l’occasion d’apprendre à gérer eux-mêmes leur temps d’écran. Or c’est précisément cette compétence qui leur sera utile plus tard.\n\nDe surcroît, une telle règle serait difficile à faire respecter. Faudra-t-il que les surveillants fouillent les sacs ? Les tensions qu’elle provoquerait mobiliseraient une énergie qui serait mieux employée ailleurs.\n\nPlutôt que de tout interdire, l’école devrait éduquer : des ateliers sur l’usage responsable du numérique, menés avec les parents, auraient selon moi des effets plus durables.\n\nJe vous prie d’agréer, Madame, Monsieur, l’expression de mes sentiments distingués.\n\nPhilippe Lavoie"
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b3",
+      "section": "B",
+      "title": "Des autobus gratuits pour tous ?",
+      "level": "b2",
+      "prompt": "Vous avez lu cet article sur le site d’un journal de Québec. Vous publiez un commentaire dans la section « Opinions » pour donner votre point de vue. Justifiez-le à l’aide d’au moins trois arguments (200 mots minimum).",
+      "promptEn": "You read this article on a Quebec City newspaper’s website. You post a comment in the « Opinions » section to give your point of view. Justify it with at least three arguments (at least 200 words).",
+      "document": "Dans une lettre ouverte, un groupe de citoyens demande que les autobus de la ville deviennent gratuits pour tous. Selon les signataires, la gratuité réduirait la circulation, la pollution et les inégalités. La mairie répond que la mesure coûterait trop cher aux contribuables et qu’il vaudrait mieux améliorer le service existant.",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "Takes a clear position on the proposal from the opening sentence.",
+        "Develops at least three arguments (environment, social equity, cost, quality of service…).",
+        "Takes into account both sides presented in the document (citizens and town hall).",
+        "Supports arguments with examples, figures or comparisons with other cities.",
+        "Uses a formal, public register suited to an opinion column.",
+        "Links paragraphs with varied connectors and ends with a clear conclusion.",
+        "Stays between 200 and 250 words."
+      ],
+      "tips": [
+        "The document gives you arguments for both sides: reuse them, but in your own words, and add at least one of your own.",
+        "A nuanced position (free transit only for certain groups) often produces richer arguments than a simple yes or no.",
+        "Use concession structures: certes… mais, s’il est vrai que…, cela dit, je ne nie pas que + subjonctif.",
+        "Do not invent precise statistics you are unsure of; « plusieurs villes » or « selon certaines études » is safer and still convincing."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Je suis tout à fait favorable à la gratuité des autobus et je voudrais expliquer pourquoi.\n\nPremièrement, c’est une mesure efficace pour l’environnement. Si les transports en commun sont gratuits, beaucoup de gens laisseront leur voiture à la maison. Il y aura donc moins d’embouteillages et moins de pollution. Plusieurs villes européennes, comme Dunkerque en France, ont déjà essayé, et le nombre de passagers a beaucoup augmenté.\n\nDeuxièmement, la gratuité aide les personnes qui ont peu d’argent. Pour un étudiant, un retraité ou une famille avec des enfants, le prix d’un abonnement mensuel représente une dépense importante. Avec des autobus gratuits, tout le monde pourrait se déplacer pour aller au travail, chez le médecin ou faire des courses.\n\nTroisièmement, cette mesure peut aussi faire vivre le centre-ville. Les gens viendraient plus souvent dans les commerces et les restaurants s’ils n’avaient pas besoin de payer le transport ni le stationnement.\n\nBien sûr, la mairie a raison de dire que cela coûte cher. Pourtant, la vente des billets ne paie qu’une partie du service. De plus, les embouteillages et la pollution coûtent aussi beaucoup d’argent à la société.\n\nEn conclusion, je crois que la gratuité est un bon investissement pour l’avenir de notre ville. J’espère que les élus vont étudier sérieusement cette proposition.\n\nKarim, Limoilou"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "La proposition de rendre les autobus gratuits pour tous est séduisante, mais je doute qu’elle soit la meilleure façon d’atteindre les objectifs visés.\n\nCommençons par ce qui fait consensus : il faut réduire la place de l’auto solo en ville. Toutefois, selon certaines études, dans les villes qui ont adopté la gratuité, les nouveaux usagers sont souvent d’anciens piétons ou cyclistes plutôt que d’anciens automobilistes. Autrement dit, la mesure remplit les autobus sans forcément vider les routes.\n\nEnsuite, ce qui décourage la plupart des conducteurs, ce n’est pas tant le prix du billet que la qualité du service. Qui accepterait d’attendre vingt minutes à un arrêt en plein mois de janvier, alors que sa voiture l’attend dans l’entrée ? Les millions que coûterait la gratuité seraient donc mieux investis dans des passages plus fréquents et des voies réservées.\n\nCela dit, je ne nie pas que l’enjeu social soulevé par les signataires soit réel. C’est pourquoi je défends une gratuité ciblée : pour les jeunes, les aînés et les ménages à faible revenu. Cette solution protège les plus vulnérables sans priver le réseau des revenus dont il a besoin pour se développer.\n\nEn somme, un transport en commun attrayant doit d’abord être rapide et fiable. La gratuité universelle ne devrait venir, au mieux, qu’en second lieu.\n\nSophie Gagné"
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b4",
+      "section": "B",
+      "title": "Faut-il limiter le tourisme dans les petits villages ?",
+      "level": "b1",
+      "prompt": "Vous avez lu ce message sur le forum d’un journal régional. Vous y répondez pour donner votre opinion. Justifiez votre point de vue à l’aide d’au moins trois arguments et d’exemples (200 mots minimum).",
+      "promptEn": "You read this message on a regional newspaper’s forum. You reply to give your opinion. Justify your point of view with at least three arguments and examples (at least 200 words).",
+      "document": "Forum « Notre région » — Message de Louise, habitante d’un village de Charlevoix : « Chaque été, des milliers de touristes envahissent nos rues. Les loyers augmentent, les stationnements débordent et les familles du coin n’arrivent plus à se loger. Le tourisme de masse détruit nos petits villages : il faut limiter le nombre de visiteurs avant qu’il ne soit trop tard ! »",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "Opens by reacting to Louise’s message and states a clear position.",
+        "Develops at least three arguments (jobs, local services, housing, quality of life, authenticity…).",
+        "Recognises the problems she mentions before answering them.",
+        "Proposes concrete solutions or measures.",
+        "Gives examples from real or plausible local situations.",
+        "Uses connectors to structure the text and a clear conclusion.",
+        "Keeps a polite forum register and stays between 200 and 250 words."
+      ],
+      "tips": [
+        "Both positions are defensible: choose the one for which you can find three solid arguments quickly.",
+        "Concrete solutions (shuttles, parking at the village entrance, limits on short-term rentals) make your answer sound mature.",
+        "Use « au lieu de + infinitif », « à condition de / que » and « ainsi » to link ideas.",
+        "Reread for agreement of adjectives with « les familles », « les rues », « les locations »."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Bonjour Louise,\n\nJe comprends ton inquiétude, mais je ne pense pas qu’il faille limiter le nombre de visiteurs. À mon avis, le tourisme est une chance pour les petits villages, à condition de bien l’organiser.\n\nD’abord, le tourisme crée des emplois. Dans ma région, beaucoup de jeunes partaient vivre en ville parce qu’il n’y avait pas de travail. Aujourd’hui, grâce aux visiteurs, ils peuvent travailler dans les hôtels, les restaurants ou les boutiques et rester près de leur famille.\n\nEnsuite, l’argent des touristes permet de garder des services ouverts toute l’année. Sans eux, l’épicerie, la boulangerie et même certains festivals auraient sans doute disparu.\n\nDe plus, les visiteurs découvrent notre culture et nos produits locaux. C’est une fierté de voir des gens venir de loin pour goûter nos fromages ou admirer nos paysages.\n\nÉvidemment, il y a des problèmes : trop de voitures en été, des déchets et des logements loués aux touristes au lieu des familles. Mais on peut trouver des solutions, par exemple créer des stationnements à l’entrée du village, organiser des navettes et mieux contrôler les locations de courte durée.\n\nEn résumé, au lieu de fermer la porte aux touristes, il vaut mieux les accueillir intelligemment. Ainsi, tout le monde y gagnera, les habitants comme les visiteurs.\n\nMartine"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour Louise,\n\nJe partage entièrement ton inquiétude. Sans aller jusqu’à parler de destruction, je suis convaincu qu’il est urgent d’encadrer la fréquentation touristique de nos villages.\n\nLe premier enjeu est celui du logement. Depuis que de nombreuses maisons sont louées à la nuitée sur des plateformes en ligne, les loyers ont flambé. Résultat : les jeunes familles et les travailleurs saisonniers, ceux-là mêmes qui font tourner l’économie locale, n’arrivent plus à se loger dans le village où ils ont grandi.\n\nVient ensuite la question de la qualité de vie. Lorsque des centaines de voitures envahissent chaque fin de semaine des rues conçues pour quelques dizaines d’habitants, le bruit, les embouteillages et les déchets finissent par rendre le quotidien pénible. Certains résidents de longue date ont même fini par déménager.\n\nEnfin, paradoxalement, c’est l’attrait touristique lui-même qui est menacé. Un village transformé en simple décor pour égoportraits perd l’authenticité qui faisait son charme, et les visiteurs finiront par s’en détourner.\n\nLimiter ne signifie pas interdire. Des mesures simples existent : plafonner le nombre de locations de courte durée, aménager un stationnement payant à l’entrée du village relié au centre par une navette, ou encore promouvoir les visites hors saison. Bien appliquées, elles permettraient de concilier retombées économiques et respect des habitants.\n\nBref, si nous voulons que nos villages restent vivants, il faut agir dès maintenant.\n\nFrançois"
+        }
+      ]
+    }
+  ]
+}

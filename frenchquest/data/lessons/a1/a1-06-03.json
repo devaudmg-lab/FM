@@ -1,0 +1,750 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-06-03",
+  "level": "a1",
+  "unit": "a1-06",
+  "title": "Ordering politely",
+  "goal": "Order food and drinks politely in a café, understand the server's questions, and ask for the price and the bill.",
+  "minutes": 13,
+  "items": [
+    {
+      "id": "g-ordering",
+      "kind": "grammar",
+      "fr": "je voudrais / je vais prendre + un, une",
+      "en": "ordering politely: je voudrais, je vais prendre",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Je ___ un thé, s'il vous plaît.",
+          "answers": [
+            [
+              "voudrais"
+            ]
+          ],
+          "en": "I would like a tea, please.",
+          "explain": "[[je voudrais]] is the polite “I would like”."
+        },
+        {
+          "type": "cloze",
+          "text": "Je vais ___ un jus d'orange.",
+          "answers": [
+            [
+              "prendre"
+            ]
+          ],
+          "en": "I'll have an orange juice.",
+          "explain": "[[je vais prendre]] = I'm going to have: aller + prendre."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which is the most polite way to order a coffee?",
+          "options": [
+            "Je voudrais un café, s'il vous plaît.",
+            "Je veux un café.",
+            "Donnez un café."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Je voudrais]] + [[s'il vous plaît]] is polite. [[Je veux]] sounds demanding."
+        }
+      ]
+    },
+    {
+      "id": "je-voudrais",
+      "kind": "phrase",
+      "fr": "je voudrais",
+      "en": "I would like (polite)",
+      "note": "The final s is silent: “zhuh voo-dreh”.",
+      "example": {
+        "fr": "Je voudrais un café, s'il vous plaît.",
+        "en": "I'd like a coffee, please."
+      }
+    },
+    {
+      "id": "je-vais-prendre",
+      "kind": "phrase",
+      "fr": "je vais prendre",
+      "en": "I'll have (when ordering)",
+      "example": {
+        "fr": "Je vais prendre un croissant.",
+        "en": "I'll have a croissant."
+      }
+    },
+    {
+      "id": "pour-moi",
+      "kind": "phrase",
+      "fr": "Pour moi, …",
+      "en": "For me, … (when ordering)",
+      "accept": [
+        "pour moi"
+      ],
+      "example": {
+        "fr": "Pour moi, un thé, s'il vous plaît.",
+        "en": "A tea for me, please."
+      }
+    },
+    {
+      "id": "un-cafe-svp",
+      "kind": "phrase",
+      "fr": "Un café, s'il vous plaît.",
+      "en": "A coffee, please."
+    },
+    {
+      "id": "vous-desirez",
+      "kind": "phrase",
+      "fr": "Vous désirez ?",
+      "en": "What would you like? (server, formal)"
+    },
+    {
+      "id": "je-vous-sers",
+      "kind": "phrase",
+      "fr": "Qu'est-ce que je vous sers ?",
+      "en": "What can I get you? (server)"
+    },
+    {
+      "id": "et-avec-ca",
+      "kind": "phrase",
+      "fr": "Et avec ça ?",
+      "en": "Anything else? (server)",
+      "accept": [
+        "Et avec ceci ?"
+      ]
+    },
+    {
+      "id": "c-est-tout",
+      "kind": "phrase",
+      "fr": "C'est tout, merci.",
+      "en": "That's all, thank you.",
+      "accept": [
+        "Ce sera tout, merci.",
+        "C'est tout."
+      ]
+    },
+    {
+      "id": "sur-place",
+      "kind": "phrase",
+      "fr": "Sur place ou à emporter ?",
+      "en": "For here or to go?",
+      "accept": [
+        "Sur place ou pour emporter ?",
+        "À emporter ou sur place ?",
+        "Pour emporter ou sur place ?"
+      ],
+      "note": "In Québec: [[pour emporter]]."
+    },
+    {
+      "id": "c-est-combien",
+      "kind": "phrase",
+      "fr": "C'est combien ?",
+      "en": "How much is it?",
+      "accept": [
+        "Ça fait combien ?",
+        "Ça coûte combien ?",
+        "Combien ça coûte ?"
+      ]
+    },
+    {
+      "id": "addition",
+      "kind": "phrase",
+      "fr": "L'addition, s'il vous plaît.",
+      "en": "The bill, please.",
+      "accept": [
+        "La facture, s'il vous plaît."
+      ],
+      "note": "In Québec, you'll often hear [[la facture]]."
+    },
+    {
+      "id": "croissant",
+      "kind": "vocab",
+      "fr": "croissant",
+      "article": "le",
+      "gender": "m",
+      "en": "croissant",
+      "pos": "noun",
+      "accept": [
+        "croissant",
+        "un croissant"
+      ],
+      "example": {
+        "fr": "Je voudrais un croissant.",
+        "en": "I'd like a croissant."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Two cafés, two countries",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "At a café counter in Montréal",
+          "context": "Amira orders before work.",
+          "lines": [
+            {
+              "speaker": "Employé",
+              "fr": "Bonjour ! Qu'est-ce que je vous sers ?",
+              "en": "Hello! What can I get you?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Bonjour ! Je voudrais un thé, s'il vous plaît.",
+              "en": "Hello! I'd like a tea, please."
+            },
+            {
+              "speaker": "Employé",
+              "fr": "Petit ou grand ?",
+              "en": "Small or large?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Un grand, s'il vous plaît.",
+              "en": "A large, please."
+            },
+            {
+              "speaker": "Employé",
+              "fr": "Et avec ça ?",
+              "en": "Anything else?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Un croissant. C'est tout, merci.",
+              "en": "A croissant. That's all, thanks."
+            },
+            {
+              "speaker": "Employé",
+              "fr": "Sur place ou pour emporter ?",
+              "en": "For here or to go?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Pour emporter. C'est combien ?",
+              "en": "To go. How much is it?"
+            },
+            {
+              "speaker": "Employé",
+              "fr": "C'est six dollars.",
+              "en": "It's six dollars."
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Voilà. Merci, bonne journée !",
+              "en": "Here you go. Thanks, have a good day!"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "title": "At a café table in Paris",
+          "context": "Olivier and Sofia sit down on a terrace. The server comes to their table.",
+          "lines": [
+            {
+              "speaker": "Serveur",
+              "fr": "Bonjour, messieurs-dames. Vous désirez ?",
+              "en": "Hello, sir, madam. What would you like?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Bonjour. Pour moi, un café, s'il vous plaît.",
+              "en": "Hello. A coffee for me, please."
+            },
+            {
+              "speaker": "Sofia",
+              "fr": "Et moi, je vais prendre un jus d'orange et un croissant.",
+              "en": "And I'll have an orange juice and a croissant."
+            },
+            {
+              "speaker": "Serveur",
+              "fr": "Très bien.",
+              "en": "Very good."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Excusez-moi ! L'addition, s'il vous plaît.",
+              "en": "Excuse me! The bill, please."
+            },
+            {
+              "speaker": "Serveur",
+              "fr": "Voilà, monsieur. C'est huit euros.",
+              "en": "Here you are, sir. It's eight euros."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Merci beaucoup. Au revoir !",
+              "en": "Thank you very much. Goodbye!"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Notice how often you hear [[s'il vous plaît]]. In a café, you use **vous** with the staff, and they use **vous** with you."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "How to order",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "Three polite ways to order",
+          "body": "- [[Je voudrais…]] = I would like… The most useful phrase in this unit. It is a polite form of *vouloir* (to want); learn it as a chunk.\n- [[Je vais prendre…]] = I'll have… (literally “I'm going to take”). You know [[je vais]] from *aller*; add [[prendre]].\n- [[Pour moi, …]] = For me, … Very common when several people order at the same table.\n\nAdd [[s'il vous plaît]] at the end, and you are perfectly polite."
+        },
+        {
+          "type": "pattern",
+          "title": "Ordering",
+          "pattern": "je voudrais / je vais prendre + un / une + item (+ s'il vous plaît)",
+          "note": "When you order, you usually ask for **one portion**, so use [[un]] or [[une]]: [[un café]], [[un thé]], [[une salade]]. For two: [[deux cafés]] (add -s in writing).",
+          "examples": [
+            {
+              "fr": "Je voudrais un café, s'il vous plaît.",
+              "en": "I'd like a coffee, please."
+            },
+            {
+              "fr": "Je vais prendre un thé avec du lait.",
+              "en": "I'll have a tea with milk."
+            },
+            {
+              "fr": "Pour moi, un jus d'orange.",
+              "en": "An orange juice for me."
+            },
+            {
+              "fr": "Nous allons prendre deux cafés, s'il vous plaît.",
+              "en": "We'll have two coffees, please."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "What the staff say",
+          "head": [
+            "French",
+            "English"
+          ],
+          "rows": [
+            [
+              "Bonjour, vous désirez ?",
+              "Hello, what would you like?"
+            ],
+            [
+              "Qu'est-ce que je vous sers ?",
+              "What can I get you?"
+            ],
+            [
+              "Et avec ça ?",
+              "Anything else?"
+            ],
+            [
+              "Petit ou grand ?",
+              "Small or large?"
+            ],
+            [
+              "Sur place ou à emporter ?",
+              "For here or to go? (France)"
+            ],
+            [
+              "Sur place ou pour emporter ?",
+              "For here or to go? (Québec)"
+            ],
+            [
+              "C'est tout ?",
+              "Is that all?"
+            ]
+          ],
+          "frCols": [
+            0
+          ],
+          "sayCol": true
+        },
+        {
+          "type": "table",
+          "title": "What you say",
+          "head": [
+            "French",
+            "English"
+          ],
+          "rows": [
+            [
+              "Je voudrais…, s'il vous plaît.",
+              "I'd like…, please."
+            ],
+            [
+              "Je vais prendre…",
+              "I'll have…"
+            ],
+            [
+              "Pour moi, …",
+              "For me, …"
+            ],
+            [
+              "Sur place. / À emporter.",
+              "For here. / To go."
+            ],
+            [
+              "C'est tout, merci.",
+              "That's all, thank you."
+            ],
+            [
+              "C'est combien ?",
+              "How much is it?"
+            ],
+            [
+              "L'addition, s'il vous plaît.",
+              "The bill, please."
+            ]
+          ],
+          "frCols": [
+            0
+          ],
+          "sayCol": true
+        },
+        {
+          "type": "vocab",
+          "title": "Phrases to learn",
+          "itemIds": [
+            "je-voudrais",
+            "je-vais-prendre",
+            "pour-moi",
+            "un-cafe-svp",
+            "vous-desirez",
+            "je-vous-sers",
+            "et-avec-ca",
+            "c-est-tout",
+            "sur-place",
+            "c-est-combien",
+            "addition",
+            "croissant"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Ordering in Canada",
+          "body": "- **To go:** in Québec, you'll hear [[pour emporter]]; in France, [[à emporter]]. Both are understood everywhere.\n- **The bill:** in Québec, ask for [[la facture]]: [[La facture, s'il vous plaît.]] In France, it's [[l'addition]].\n- **Tipping:** in Canada, table service is **not** included. People usually leave a tip ([[un pourboire]]) of **15 to 20 %**, often on the card terminal. In France, service is included in the price, and a tip is a small extra.\n- **Coffee orders:** at a coffee-and-donut chain, Canadians order by size and add-ins: [[Un café moyen, deux laits, un sucre, s'il vous plaît.]] (A medium coffee, two milks, one sugar.) Many people also say [[deux crèmes]] for cream.\n- **Small or large:** sizes are often [[petit]], [[moyen]] (medium) and [[grand]].",
+          "examples": [
+            {
+              "fr": "Un café moyen, deux laits, un sucre, s'il vous plaît.",
+              "en": "A medium coffee, two milks, one sugar, please."
+            },
+            {
+              "fr": "La facture, s'il vous plaît.",
+              "en": "The bill, please. (Québec)"
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "culture",
+          "title": "A café in France",
+          "body": "- In France, [[un café]] is a **small espresso**. For a big coffee with milk, ask for [[un café crème]] or [[un grand crème]].\n- Never call the server “Garçon !”: it is old-fashioned and rude. Say [[Excusez-moi !]] or [[S'il vous plaît !]] with a small hand signal.\n- The server will not bring the bill until you ask. Staying a long time with one coffee is normal.\n- Tap water is free: ask for [[une carafe d'eau, s'il vous plaît]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- [[Je veux un café]] is grammatically right, but it sounds like a child's demand. Use [[Je voudrais]].\n- [[Je vais avoir un café]] is a word-for-word translation of “I'll have”. You may hear it in Québec, but the standard way is [[Je vais prendre un café]].\n- [[Je voudrais le café]] means *the* coffee (a specific one). When ordering, say [[un café]].\n- Don't forget [[s'il vous plaît]]: in French, a request without it sounds abrupt."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Say each line with a friendly, rising-then-falling tone. Then record yourself.",
+          "lines": [
+            {
+              "fr": "Je voudrais un café, s'il vous plaît.",
+              "en": "I'd like a coffee, please.",
+              "tip": "voudrais: the s is silent. s'il vous plaît: “seel-voo-pleh”."
+            },
+            {
+              "fr": "Je vais prendre un thé.",
+              "en": "I'll have a tea.",
+              "tip": "thé: the h is silent, say “tay”."
+            },
+            {
+              "fr": "Pour moi, un jus d'orange.",
+              "en": "An orange juice for me.",
+              "tip": "jus: the s is silent."
+            },
+            {
+              "fr": "Sur place ou à emporter ?",
+              "en": "For here or to go?",
+              "tip": "emporter: nasal “an” at the start."
+            },
+            {
+              "fr": "C'est combien ?",
+              "en": "How much is it?",
+              "tip": "combien: two nasal vowels, “kon-byan”."
+            },
+            {
+              "fr": "L'addition, s'il vous plaît.",
+              "en": "The bill, please.",
+              "tip": "addition: “la-dee-syon”."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Sur place ou à emporter ?",
+          "en": "For here or to go?",
+          "prompt": "What is the server asking?",
+          "options": [
+            "If you'll eat here or take it away",
+            "If you want a small or large size",
+            "If you want anything else"
+          ],
+          "answer": 0,
+          "explain": "[[sur place]] = here; [[à emporter]] = to take away."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Pour moi, un thé et un croissant, s'il vous plaît.",
+          "en": "A tea and a croissant for me, please.",
+          "prompt": "What does the customer order?",
+          "options": [
+            "A tea and a croissant",
+            "A coffee and a croissant",
+            "A tea and an orange juice"
+          ],
+          "answer": 0,
+          "explain": "[[un thé]] + [[un croissant]]."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Et avec ça ?",
+          "en": "Anything else?",
+          "prompt": "What should you answer if you don't want anything else?",
+          "options": [
+            "C'est tout, merci.",
+            "Pour emporter.",
+            "Un grand, s'il vous plaît."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Et avec ça ?]] = Anything else? → [[C'est tout, merci.]]"
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Imagine you're at the counter. Answer quickly, as you would in real life.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "You want a coffee. What's the most polite thing to say?",
+          "options": [
+            "Je voudrais un café, s'il vous plaît.",
+            "Je veux un café.",
+            "Un café !",
+            "Je vais avoir un café."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Je voudrais]] + [[s'il vous plaît]] is the safe, polite choice.",
+          "optionFeedback": [
+            null,
+            "Correct grammar, but it sounds demanding.",
+            "Too abrupt without s'il vous plaît.",
+            "A word-for-word translation of “I'll have”: say je vais prendre."
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Je ___ prendre un thé.",
+          "answers": [
+            [
+              "vais"
+            ]
+          ],
+          "choices": [
+            "vais",
+            "va",
+            "voudrais",
+            "vas"
+          ],
+          "en": "I'll have a tea.",
+          "explain": "aller: je → [[vais]], then the infinitive [[prendre]]."
+        },
+        {
+          "id": "r3",
+          "type": "translate",
+          "prompt": "I would like an orange juice, please.",
+          "accept": [
+            "Je voudrais un jus d'orange, s'il vous plaît.",
+            "J'aimerais un jus d'orange, s'il vous plaît."
+          ],
+          "explain": "[[Je voudrais]] + [[un jus d'orange]] (masculine) + [[s'il vous plaît]]."
+        },
+        {
+          "id": "r4",
+          "type": "match",
+          "prompt": "Match what the server says to its meaning.",
+          "pairs": [
+            [
+              "Vous désirez ?",
+              "What would you like?"
+            ],
+            [
+              "Et avec ça ?",
+              "Anything else?"
+            ],
+            [
+              "Sur place ou à emporter ?",
+              "For here or to go?"
+            ],
+            [
+              "Petit ou grand ?",
+              "Small or large?"
+            ],
+            [
+              "C'est tout ?",
+              "Is that all?"
+            ]
+          ]
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "A tea and a croissant for me.",
+          "accept": [
+            "Pour moi, un thé et un croissant.",
+            "Pour moi, un croissant et un thé."
+          ],
+          "extra": [
+            "une"
+          ],
+          "explain": "[[Pour moi]] comes first; [[thé]] and [[croissant]] are both masculine: [[un]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "For here or to go?",
+          "accept": [
+            "Sur place ou à emporter ?",
+            "Sur place ou pour emporter ?",
+            "À emporter ou sur place ?",
+            "Pour emporter ou sur place ?"
+          ],
+          "explain": "[[sur place]] = here; [[à emporter]] (France) or [[pour emporter]] (Québec) = to go."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Je voudrais un café avec ___ lait, s'il vous plaît.",
+          "answers": [
+            [
+              "du"
+            ]
+          ],
+          "choices": [
+            "du",
+            "le",
+            "de la",
+            "un"
+          ],
+          "en": "I'd like a coffee with milk, please.",
+          "explain": "Some milk, an amount: [[du lait]] (from the last lesson)."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "L'addition, s'il vous plaît.",
+          "accept": [],
+          "explain": "[[addition]] has a double d. (In Québec, you'll also hear [[la facture]].)"
+        },
+        {
+          "id": "r9",
+          "type": "translate",
+          "prompt": "We'll have two coffees, please.",
+          "accept": [
+            "Nous allons prendre deux cafés, s'il vous plaît.",
+            "On va prendre deux cafés, s'il vous plaît.",
+            "Nous voudrions deux cafés, s'il vous plaît.",
+            "On voudrait deux cafés, s'il vous plaît."
+          ],
+          "hint": "nous + aller + prendre",
+          "explain": "aller: nous → [[allons]] (or [[on va]]), then [[prendre]]. Plural in writing: [[deux cafés]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "You're at a café counter in Montréal. The employee says: « Bonjour ! Qu'est-ce que je vous sers ? » Greet them, order a drink and something to eat, answer « Sur place ou pour emporter ? », ask the price, and say thank you.",
+          "seconds": 40,
+          "checklist": [
+            "Greeting",
+            "Je voudrais… / Je vais prendre…",
+            "s'il vous plaît",
+            "Sur place / Pour emporter",
+            "C'est combien ?",
+            "Merci, bonne journée !"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour ! Je voudrais un café avec du lait, s'il vous plaît. Et je vais prendre un croissant. … Pour emporter. C'est combien ? … Voilà. Merci, bonne journée !",
+              "en": "Hello! I'd like a coffee with milk, please. And I'll have a croissant. … To go. How much is it? … Here you go. Thanks, have a good day!"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "You're at a café in Paris with two friends. Write what you say to the server: greet them, order for the three of you, then ask for the bill.",
+          "wordRange": [
+            20,
+            45
+          ],
+          "checklist": [
+            "Bonjour",
+            "Three orders with je voudrais, je vais prendre or pour moi",
+            "s'il vous plaît",
+            "L'addition, s'il vous plaît."
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour ! Pour moi, un café, s'il vous plaît. Mon ami Karim va prendre un thé, et pour Lucie, un jus d'orange et un croissant. … Excusez-moi ! L'addition, s'il vous plaît.",
+              "en": "Hello! A coffee for me, please. My friend Karim will have a tea, and for Lucie, an orange juice and a croissant. … Excuse me! The bill, please."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Order politely: [[Je voudrais…]], [[Je vais prendre…]], [[Pour moi, …]] + [[s'il vous plaît]]\n- Understand the staff: [[Vous désirez ?]], [[Qu'est-ce que je vous sers ?]], [[Et avec ça ?]], [[Sur place ou à emporter ?]]\n- Ask [[C'est combien ?]] and [[L'addition, s'il vous plaît]] (in Québec: [[la facture]])",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Removed “La facture, s'il vous plaît.” from the dictation accept list (it sounds different from the audio). Softened the Québec notes on la facture and je vais avoir; added j'aimerais as an accepted answer."
+  }
+}

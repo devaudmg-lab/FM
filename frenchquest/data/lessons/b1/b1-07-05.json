@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-07-05",
+  "level": "b1",
+  "unit": "b1-07",
+  "title": "Compare two cities",
+  "goal": "Describe and compare two cities in detail, using relative pronouns, comparisons, emphasis and a reasoned conclusion.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-relatifs", "kind": "grammar", "fr": "qui / que / où / dont", "en": "relative pronouns (review of the unit)",
+      "drills": [
+        { "type": "cloze", "text": "Toronto est une ville ___ change très vite.", "answers": [["qui"]], "en": "Toronto is a city that is changing very fast.", "explain": "A verb follows → subject → [[qui]]." },
+        { "type": "cloze", "text": "C'est le quartier ___ je préfère.", "answers": [["que"]], "en": "It's the neighbourhood I like best.", "explain": "A subject follows → object → [[que]]." },
+        { "type": "cloze", "text": "Montréal, c'est la ville ___ j'ai rencontré ma femme.", "answers": [["où"]], "en": "Montréal is the city where I met my wife.", "explain": "A place → [[où]]." },
+        { "type": "cloze", "text": "C'est une ville ___ je rêve depuis longtemps.", "answers": [["dont"]], "en": "It's a city I've been dreaming of for a long time.", "explain": "[[rêver **de**]] → [[dont]]." }
+      ] },
+    { "id": "g-comparer", "kind": "grammar", "fr": "plus / moins / aussi… que, autant de… que", "en": "comparing qualities and quantities",
+      "drills": [
+        { "type": "cloze", "text": "L'hiver est ___ froid à Montréal qu'à Toronto. (+)", "answers": [["plus"]], "en": "Winter is colder in Montréal than in Toronto.", "explain": "Adjective: [[plus / moins / aussi]] + adjective + [[que]]." },
+        { "type": "cloze", "text": "Il y a ___ de festivals à Montréal qu'ailleurs. (+)", "answers": [["plus"]], "en": "There are more festivals in Montréal than elsewhere.", "explain": "Noun: [[plus de / moins de / autant de]] + noun + [[que]]." },
+        { "type": "cloze", "text": "À mon avis, la qualité de vie est ___ à Montréal. (better)", "answers": [["meilleure"]], "en": "In my opinion, the quality of life is better in Montréal.", "explain": "The comparative of [[bon]] is [[meilleur]], agreeing with [[la qualité]] → [[meilleure]]." },
+        { "type": "mcq", "prompt": "“People live better here.” (adverb)", "options": ["On vit mieux ici.", "On vit meilleur ici.", "On vit plus bien ici."], "optionsFr": true, "answer": 0, "explain": "With a verb, *better* is the adverb [[mieux]]. [[meilleur]] goes with a noun." }
+      ] },
+    { "id": "alors-que", "kind": "phrase", "fr": "alors que", "en": "whereas, while (contrast)",
+      "example": { "fr": "Montréal est francophone, alors que Toronto est anglophone.", "en": "Montréal is French-speaking, whereas Toronto is English-speaking." } },
+    { "id": "par-rapport-a", "kind": "phrase", "fr": "par rapport à", "en": "compared with",
+      "example": { "fr": "Par rapport à Toronto, Montréal est plus abordable.", "en": "Compared with Toronto, Montréal is more affordable." } },
+    { "id": "contrairement-a", "kind": "phrase", "fr": "contrairement à", "en": "unlike, contrary to",
+      "example": { "fr": "Contrairement à Toronto, Montréal a peu de gratte-ciel.", "en": "Unlike Toronto, Montréal has few skyscrapers." } },
+    { "id": "de-plus-en-plus", "kind": "phrase", "fr": "de plus en plus", "en": "more and more", "accept": ["de plus en plus de"],
+      "example": { "fr": "Les loyers sont de plus en plus chers.", "en": "Rents are more and more expensive." } },
+    { "id": "en-commun", "kind": "phrase", "fr": "Ce que les deux villes ont en commun, c'est…", "en": "What the two cities have in common is…" },
+    { "id": "si-je-devais", "kind": "phrase", "fr": "Si je devais choisir, je choisirais…", "en": "If I had to choose, I would choose…", "accept": ["Si je devais choisir, je prendrais…"] },
+    { "id": "qualite-de-vie", "kind": "vocab", "fr": "qualité de vie", "article": "la", "gender": "f", "en": "quality of life", "pos": "noun", "accept": ["une qualité de vie"] },
+    { "id": "cout-de-la-vie", "kind": "vocab", "fr": "coût de la vie", "article": "le", "gender": "m", "en": "cost of living", "pos": "noun" },
+    { "id": "multiculturel", "kind": "vocab", "fr": "multiculturel", "fem": "multiculturelle", "en": "multicultural", "pos": "adjective", "accept": ["multiculturelle"] },
+    { "id": "gratte-ciel", "kind": "vocab", "fr": "gratte-ciel", "article": "un", "gender": "m", "en": "skyscraper", "pos": "noun", "accept": ["des gratte-ciel", "le gratte-ciel"], "note": "Plural: des gratte-ciel (also written gratte-ciels in the 1990 spelling)." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Montréal or Toronto?",
+      "intro": "Read this article from a newcomers' magazine. It uses everything from this unit: **qui, que, où, dont, ce qui, ce que**, detailed description and comparisons.",
+      "blocks": [
+        { "type": "text", "title": "« Montréal ou Toronto : où s'installer ? »",
+          "fr": "C'est une question que beaucoup de nouveaux arrivants se posent. Les deux plus grandes villes du Canada sont très différentes, mais elles ont aussi beaucoup de points communs.\nToronto, qui est la plus grande ville du pays, est le centre économique du Canada. C'est une ville moderne et dynamique, aux gratte-ciel impressionnants, où on trouve beaucoup d'emplois dans la finance et la technologie. C'est aussi l'une des villes les plus multiculturelles du monde : près de la moitié de ses habitants sont nés à l'étranger. Par contre, le coût de la vie y est très élevé, et les loyers sont de plus en plus chers.\nMontréal est plus petite, mais elle a un charme dont tout le monde parle. Ce qui frappe les visiteurs, c'est son ambiance européenne et sa vie culturelle : l'été, il y a des festivals presque toutes les semaines. Par rapport à Toronto, les loyers restent plus abordables. Contrairement à Toronto, Montréal est majoritairement francophone, ce qui est un avantage pour ceux qui veulent vivre en français, et un défi pour les autres.\nCe que les deux villes ont en commun, c'est leur diversité et leur bonne qualité de vie. Alors, laquelle choisir ? Tout dépend de ce que vous cherchez !",
+          "en": "It's a question many newcomers ask themselves. Canada's two biggest cities are very different, but they also have a lot in common. Toronto, which is the biggest city in the country, is Canada's economic centre. It's a modern, dynamic city with impressive skyscrapers, where there are lots of jobs in finance and technology. It's also one of the most multicultural cities in the world: nearly half of its residents were born abroad. On the other hand, the cost of living there is very high, and rents are more and more expensive. Montréal is smaller, but it has a charm everybody talks about. What strikes visitors is its European atmosphere and its cultural life: in summer, there are festivals almost every week. Compared with Toronto, rents remain more affordable. Unlike Toronto, Montréal is mostly French-speaking, which is an advantage for those who want to live in French, and a challenge for the others. What the two cities have in common is their diversity and their good quality of life. So, which one should you choose? It all depends on what you're looking for!" },
+        { "type": "dialogue", "title": "Two points of view",
+          "context": "Raj, who lived in Toronto for five years, and Camille, a Montrealer, read the article together.",
+          "lines": [
+            { "speaker": "Raj", "fr": "L'article a raison : à Toronto, j'avais un salaire plus élevé, mais je payais deux fois plus cher pour un appartement qui était plus petit.", "en": "The article is right: in Toronto, I had a higher salary, but I paid twice as much for an apartment that was smaller." },
+            { "speaker": "Camille", "fr": "Et qu'est-ce qui te manque de Toronto ?", "en": "And what do you miss about Toronto?" },
+            { "speaker": "Raj", "fr": "Ce qui me manque, c'est le lac Ontario et la cuisine de Scarborough, le quartier où j'habitais. Il y avait des restaurants de tous les pays !", "en": "What I miss is Lake Ontario and the food in Scarborough, the area where I lived. There were restaurants from every country!" },
+            { "speaker": "Camille", "fr": "Mais il y en a aussi à Montréal ! Et l'hiver ?", "en": "But there are some in Montréal too! And the winter?" },
+            { "speaker": "Raj", "fr": "Ah, ça, c'est la seule chose dont je me plains ici. Il fait plus froid et il y a beaucoup plus de neige qu'à Toronto.", "en": "Ah, that's the only thing I complain about here. It's colder and there's a lot more snow than in Toronto." },
+            { "speaker": "Camille", "fr": "Alors, si tu devais choisir aujourd'hui ?", "en": "So, if you had to choose today?" },
+            { "speaker": "Raj", "fr": "Je choisirais Montréal, sans hésiter. Ce que j'aime ici, c'est qu'on vit mieux avec moins d'argent.", "en": "I'd choose Montréal, without hesitating. What I like here is that you live better on less money." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "According to the article, what is Toronto's main disadvantage?", "options": ["The high cost of living", "The lack of jobs", "The cold winter"], "answer": 0,
+          "explain": "[[Le coût de la vie y est très élevé, et les loyers sont de plus en plus chers.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "Why is French described as both an advantage and a challenge?", "options": ["It's an advantage for people who want to live in French, a challenge for those who don't speak it", "It's an advantage in summer and a challenge in winter", "It's an advantage for jobs in finance only"], "answer": 0,
+          "explain": "[[ce qui est un avantage pour ceux qui veulent vivre en français, et un défi pour les autres]]." },
+        { "id": "d3", "type": "mcq", "prompt": "Why does Raj prefer Montréal?", "options": ["He lives better on less money.", "He earns more there.", "There is less snow."], "answer": 0,
+          "explain": "[[On vit mieux avec moins d'argent]]: [[mieux]] (better, with a verb) and [[moins de]] + noun." }
+      ] },
+    { "type": "understand", "title": "Your toolkit for comparing",
+      "intro": "This page brings the whole unit together, plus the comparison tools you learned at A2.",
+      "blocks": [
+        { "type": "table", "title": "Relative pronouns: the whole unit",
+          "head": ["Pronoun", "When", "Example"],
+          "rows": [
+            ["qui", "subject (a verb follows)", "Toronto, qui est la plus grande ville du pays…"],
+            ["que / qu'", "object (a subject follows)", "une question que beaucoup de gens se posent"],
+            ["où", "place or time", "une ville où on trouve des emplois / le jour où je suis arrivé"],
+            ["dont", "de + noun", "un charme dont tout le monde parle"],
+            ["ce qui / ce que / ce dont", "what (no noun before)", "Ce qui frappe les visiteurs, c'est…"]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "In the article, notice [[…, **ce qui** est un avantage]]: [[ce qui]] can also refer back to a **whole idea** (*which is an advantage*)." },
+        { "type": "table", "title": "Comparing",
+          "head": ["What you compare", "More", "Less", "As / as much"],
+          "rows": [
+            ["an adjective", "plus cher que", "moins cher que", "aussi cher que"],
+            ["a noun", "plus de neige que", "moins d'argent que", "autant de festivals que"],
+            ["a verb", "Il pleut plus qu'à…", "On paie moins qu'à…", "On travaille autant qu'à…"],
+            ["good / well", "meilleur(e)(s) / mieux", "moins bon / moins bien", "aussi bon / aussi bien"]
+          ],
+          "frCols": [1, 2, 3], "sayCol": false,
+          "note": "Superlatives: [[la plus grande ville du Canada]], [[l'une des villes les plus multiculturelles du monde]]. After a superlative, *in* = [[de]]: *in the world* = [[du monde]]." },
+        { "type": "explain", "title": "Organizing a comparison",
+          "body": "Two good plans, for speaking or writing:\n\n- **City by city:** introduction → city A (description, pros, cons) → city B → what they have in common → your choice.\n- **Point by point:** introduction → housing → jobs → climate → culture → your choice. For each point, compare directly: [[Les loyers sont moins chers à Montréal **alors qu'**à Toronto ils sont très élevés.]]\n\n**Connectors for contrast:** [[alors que]] (whereas), [[par contre]] (on the other hand), [[contrairement à]] (unlike), [[par rapport à]] (compared with).\n\n**To conclude:** [[Ce que les deux villes ont en commun, c'est…]] then a reasoned choice with the conditionnel: [[Si je devais choisir, je choisirais… parce que…]]" },
+        { "type": "vocab", "title": "Comparison chunks", "itemIds": ["alors-que", "par-rapport-a", "contrairement-a", "de-plus-en-plus", "en-commun", "si-je-devais", "qualite-de-vie", "cout-de-la-vie", "multiculturel", "gratte-ciel"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common errors in comparisons",
+          "body": "- **meilleur vs mieux:** *La vie est mieux ici* is common in speech, but write [[La qualité de vie est **meilleure** ici]] (noun) and [[On vit **mieux** ici]] (verb).\n- **plus bon** ✗ → [[meilleur]]; **plus bien** ✗ → [[mieux]].\n- **plus de + noun, no article:** *plus de la neige* ✗ → [[plus de neige]].\n- **Comparing with a place:** repeat the preposition: [[plus cher à Toronto **qu'à** Montréal]], not *que Montréal*.\n- **Don't overuse mais:** vary with [[alors que]], [[par contre]], [[contrairement à]].\n- **Si + conditionnel** ✗: *Si je choisirais…* → [[Si je devais choisir, je choisirais…]] (si + imparfait, then conditionnel)." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam-style practice: comparing for the TEF/TCF",
+          "body": "Comparing two places, two ways of life or two options is a classic topic in TEF and TCF speaking and writing tasks. Examiners reward:\n\n- **A clear plan** announced at the start: [[Je vais d'abord parler de…, puis de…]]\n- **Precise comparisons**, not just *c'est mieux*: [[Les loyers sont presque deux fois moins chers.]]\n- **Complex sentences** with relative pronouns: [[une ville où…, un quartier dont…]]\n- **A nuanced conclusion**: [[Tout dépend de ce que vous cherchez.]] [[Si je devais choisir…]]\n\nIn the writing mission below, aim for 150–200 words, close to the length of TEF/TCF writing tasks. Give yourself 25 minutes." },
+        { "type": "deepdive", "kind": "canada", "title": "Know your cities",
+          "body": "- **Toronto:** Canada's largest city, on Lake Ontario. Famous for the CN Tower, Bay Street (finance) and very diverse neighbourhoods like Scarborough or Kensington Market. Public transit: subway, buses and streetcars (in French, [[le tramway]]).\n- **Montréal:** on an island in the Saint Lawrence River, with Mount Royal ([[le mont Royal]]) in the middle. One of the largest French-speaking cities in the world. Famous for its festivals and its underground city ([[le RÉSO]]).\n- Nicknames: Toronto is sometimes called [[la Ville Reine]] (the Queen City), and Montréal [[la ville aux cent clochers]] (the city of a hundred steeples)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In comparisons, stress the key word: **plus**, **moins**, **mieux**. Say the final s of [[plus]] only before a vowel or when it means *more* at the end of a sentence.",
+          "lines": [
+            { "fr": "Toronto est plus grande que Montréal.", "en": "Toronto is bigger than Montréal.", "tip": "plus grande: the s is silent." },
+            { "fr": "Il y a beaucoup plus de neige à Montréal.", "en": "There's a lot more snow in Montréal.", "tip": "plus de: the s is silent." },
+            { "fr": "Les loyers sont de plus en plus chers.", "en": "Rents are more and more expensive.", "tip": "de plus‿en plus: link with a z sound." },
+            { "fr": "Montréal est francophone, alors que Toronto est anglophone.", "en": "Montréal is French-speaking, whereas Toronto is English-speaking." },
+            { "fr": "Si je devais choisir, je choisirais Montréal.", "en": "If I had to choose, I'd choose Montréal.", "tip": "choisirais: the ending sounds like é." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "À Vancouver, il pleut beaucoup plus qu'à Calgary, mais l'hiver est beaucoup moins froid.", "en": "In Vancouver, it rains a lot more than in Calgary, but the winter is much less cold.", "prompt": "What does the speaker say about Vancouver?", "options": ["More rain but a milder winter than Calgary", "Less rain and a colder winter than Calgary", "The same climate as Calgary"], "answer": 0,
+          "explain": "[[il pleut beaucoup plus]] = it rains a lot more; [[beaucoup moins froid]] = much less cold." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ce qui me plaît à Ottawa, c'est qu'on peut travailler en français et en anglais, alors qu'à Calgary, c'est presque impossible.", "en": "What I like about Ottawa is that you can work in French and in English, whereas in Calgary it's almost impossible.", "prompt": "What is the contrast?", "options": ["Working in two languages is possible in Ottawa, almost impossible in Calgary.", "Ottawa is more expensive than Calgary.", "Calgary is more bilingual than Ottawa."], "answer": 0,
+          "explain": "[[alors que]] introduces the contrast: Ottawa = two languages; Calgary = [[presque impossible]]." },
+        { "id": "h3", "type": "dictation", "fr": "C'est une ville où la qualité de vie est meilleure.", "accept": ["C'est une ville où la qualité de vie est meilleure"],
+          "explain": "[[où]] after a place, and [[meilleure]] agreeing with [[la qualité]]." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: the whole unit",
+      "intro": "Ten questions mixing relative pronouns, description, comparisons and earlier B1 grammar. Answer without looking back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Halifax est une ville ___ j'adore, ___ les gens sont chaleureux et ___ on parle beaucoup en ce moment.", "answers": [["que"], ["où"], ["dont"]], "choices": ["qui", "que", "où", "dont"], "en": "Halifax is a city I love, where people are warm and that people are talking about a lot at the moment.",
+          "explain": "[[que j'adore]]: object. [[où les gens…]]: place. [[dont on parle]]: [[parler **de**]]." },
+        { "id": "r2", "type": "cloze", "text": "___ me plaît à Québec, c'est le Vieux-Québec, et ___ je trouve difficile, c'est l'hiver.", "answers": [["Ce qui"], ["ce que"]], "choices": ["Ce qui", "ce que", "ce dont", "qu'est-ce que"], "en": "What I like in Québec City is Old Québec, and what I find difficult is the winter.",
+          "explain": "[[Ce qui me plaît]]: subject of plaît. [[ce que je trouve]]: object of trouve." },
+        { "id": "r3", "type": "mcq", "prompt": "How do you say “The quality of life is better here”?", "optionsFr": true,
+          "options": ["La qualité de vie est meilleure ici.", "La qualité de vie est mieux ici.", "La qualité de vie est plus bonne ici.", "La qualité de vie est meilleur ici."], "answer": 0,
+          "optionFeedback": [null, "mieux goes with a verb; with a noun subject + être, use meilleure.", "plus bon doesn't exist: use meilleur.", "meilleur agrees with qualité (feminine): meilleure."] },
+        { "id": "r4", "type": "translate", "prompt": "Compared with Toronto, rents are more affordable in Montréal.", "accept": ["Par rapport à Toronto, les loyers sont plus abordables à Montréal.", "Les loyers sont plus abordables à Montréal par rapport à Toronto.", "Par rapport à Toronto, les loyers sont moins chers à Montréal.", "Les loyers sont plus abordables à Montréal qu'à Toronto.", "Les loyers sont moins chers à Montréal qu'à Toronto.", "Les loyers sont moins chers à Montréal par rapport à Toronto."], "hint": "par rapport à…",
+          "explain": "[[par rapport à]] = compared with; [[plus abordables]] agrees with [[les loyers]]." },
+        { "id": "r5", "type": "cloze", "text": "Il y a ___ neige à Montréal ___ Toronto. (+)", "answers": [["plus de"], ["qu'à"]], "en": "There's more snow in Montréal than in Toronto.",
+          "explain": "With a noun: [[plus de]] (no article). With a place, repeat [[à]]: [[qu'à Toronto]]." },
+        { "id": "r6", "type": "match", "prompt": "Match each connector with its meaning.",
+          "pairs": [["alors que", "whereas"], ["par rapport à", "compared with"], ["contrairement à", "unlike"], ["de plus en plus", "more and more"], ["par contre", "on the other hand"]] },
+        { "id": "r7", "type": "translate", "prompt": "If I had to choose, I would live in Vancouver.", "accept": ["Si je devais choisir, j'habiterais à Vancouver.", "Si je devais choisir, je vivrais à Vancouver.", "Si je devais choisir, j'habiterais Vancouver."], "hint": "si + imparfait → conditionnel",
+          "explain": "Review: [[si je devais]] (imparfait) → [[je vivrais / j'habiterais]] (conditionnel)." },
+        { "id": "r8", "type": "reorder", "prompt": "It's a city with impressive skyscrapers.", "accept": ["C'est une ville aux gratte-ciel impressionnants"], "extra": ["des"],
+          "explain": "Compact style: [[aux]] + feature + adjective. [[impressionnants]] agrees with [[gratte-ciel]] (masculine plural)." },
+        { "id": "r9", "type": "cloze", "text": "La ville ___ j'ai visitée l'été dernier était encore plus belle que sur les photos.", "answers": [["que"]], "choices": ["que", "qui", "où", "dont"], "en": "The city I visited last summer was even more beautiful than in the photos.",
+          "explain": "A subject follows ([[j']]) → [[que]]. And [[visitée]] agrees with [[la ville]], the object placed before." },
+        { "id": "r10", "type": "dictation", "fr": "Ce que les deux villes ont en commun, c'est leur diversité.", "accept": ["Ce que les deux villes ont en commun c'est leur diversité."],
+          "explain": "[[Ce que]]: object of [[ont]]. [[en commun]] = in common." }
+      ] },
+    { "type": "apply", "title": "Mission: compare two cities",
+      "intro": "Choose two cities: Montréal and Toronto, or your home city and a Canadian city you know. Prepare for two minutes, then speak. Then write.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A French-speaking friend is hesitating between two cities for their move to Canada. Compare the two cities for about two minutes: describe each one, compare housing, jobs, climate and atmosphere, say what they have in common, and give your recommendation.", "seconds": 120,
+          "checklist": ["An introduction that announces your plan", "A description of each city with at least three relative clauses", "At least four comparisons (plus / moins / aussi… que, plus de…, meilleur, mieux)", "A contrast connector: alors que, contrairement à, par rapport à", "Emphasis: Ce qui me plaît…, Ce que je trouve…", "What they have in common", "A recommendation: Si j'étais toi… / Si je devais choisir…"],
+          "models": [
+            { "label": "Model answer", "fr": "Je vais comparer Montréal et Toronto, deux villes que je connais bien. Toronto est la plus grande ville du Canada. C'est une ville moderne où il y a beaucoup d'emplois, surtout dans la finance. Par contre, les loyers sont beaucoup plus chers qu'à Montréal. Montréal est plus petite, mais elle a beaucoup de charme. Ce qui me plaît là-bas, c'est l'ambiance et les festivals. L'hiver est plus froid à Montréal, et il y a plus de neige. Ce que les deux villes ont en commun, c'est la diversité. Si j'étais toi, je choisirais Montréal, parce que la vie est moins chère et que tu parles déjà français.", "en": "I'm going to compare Montréal and Toronto, two cities I know well. Toronto is the biggest city in Canada. It's a modern city where there are lots of jobs, especially in finance. On the other hand, rents are much more expensive than in Montréal. Montréal is smaller, but it has a lot of charm. What I like there is the atmosphere and the festivals. Winter is colder in Montréal, and there's more snow. What the two cities have in common is diversity. If I were you, I'd choose Montréal, because life is cheaper and you already speak French." },
+            { "label": "Stronger model answer", "fr": "Tu hésites entre Montréal et Toronto ? Je vais d'abord parler du logement et du travail, puis du climat et de l'ambiance. Pour le logement, la différence est énorme : à Toronto, j'ai payé presque deux fois plus cher pour un appartement qui était plus petit que celui que j'ai maintenant à Montréal. Pour le travail, par contre, Toronto a un avantage : c'est le centre économique du pays, alors qu'à Montréal, il est plus difficile de trouver un emploi si on ne parle pas bien français. Côté climat, Toronto est un peu moins froide, et il y a moins de neige. Mais ce qui fait vraiment la différence, c'est l'ambiance : Montréal est une ville dont tout le monde tombe amoureux, avec ses quartiers aux escaliers extérieurs, ses terrasses et ses festivals. Ce que les deux villes ont en commun, c'est qu'elles accueillent très bien les nouveaux arrivants. Alors, si j'étais toi, je choisirais Montréal : tu parles déjà français, et la qualité de vie y est meilleure, à mon avis. Mais tout dépend de ce que tu cherches !", "en": "You're hesitating between Montréal and Toronto? I'll talk first about housing and work, then about the climate and the atmosphere. For housing, the difference is huge: in Toronto, I paid almost twice as much for an apartment that was smaller than the one I have now in Montréal. For work, on the other hand, Toronto has an advantage: it's the country's economic centre, whereas in Montréal it's harder to find a job if you don't speak French well. As for the climate, Toronto is a bit less cold, and there's less snow. But what really makes the difference is the atmosphere: Montréal is a city everyone falls in love with, with its neighbourhoods of outdoor staircases, its patios and its festivals. What the two cities have in common is that they welcome newcomers very well. So, if I were you, I'd choose Montréal: you already speak French, and the quality of life is better there, in my opinion. But it all depends on what you're looking for!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write an article for a newcomers' blog: “City A or City B: where should you settle?” Compare two cities (Montréal and Toronto, or your home city and a Canadian city). Describe both, compare at least four aspects, and end with a reasoned recommendation.", "promptFr": "Rédigez un article pour un blogue de nouveaux arrivants : « Ville A ou ville B : où s'installer ? »", "wordRange": [150, 200],
+          "checklist": ["A title and an introduction", "One paragraph per city, or one per aspect", "At least four relative clauses, including où and dont", "At least one ce qui / ce que… c'est", "At least four comparisons, including meilleur or mieux", "Two contrast connectors: alors que, par contre, contrairement à…", "A conclusion with Ce que les deux villes ont en commun… and Si je devais choisir…"],
+          "models": [
+            { "label": "Model answer", "fr": "Montréal ou Toronto ?\nJ'ai habité dans les deux villes, et chacune a ses avantages.\nToronto est la plus grande ville du Canada. C'est une ville très dynamique où il y a beaucoup d'emplois, surtout dans la finance et la technologie. C'est aussi une ville très multiculturelle : on y entend des dizaines de langues. Par contre, la vie y est plus chère qu'à Montréal, surtout le logement.\nMontréal est plus petite, mais elle a beaucoup de charme. Ce qui me plaît, c'est l'ambiance européenne du Vieux-Montréal et les festivals de l'été. Les loyers sont moins élevés qu'à Toronto, mais les salaires sont aussi un peu plus bas. Enfin, l'hiver est plus froid, et il y a plus de neige.\nCe que les deux villes ont en commun, c'est leur diversité et leurs nombreux espaces verts. Si je devais choisir, je choisirais Montréal, parce que je veux vivre en français et que, à mon avis, la qualité de vie y est meilleure.", "en": "Montréal or Toronto? I've lived in both cities, and each one has its advantages. Toronto is the biggest city in Canada. It's a very dynamic city where there are lots of jobs, especially in finance and technology. It's also a very multicultural city: you hear dozens of languages there. On the other hand, life is more expensive there than in Montréal, especially housing. Montréal is smaller, but it has a lot of charm. What I like is the European atmosphere of Old Montréal and the summer festivals. Rents are lower than in Toronto, but salaries are also a little lower. Finally, winter is colder, and there's more snow. What the two cities have in common is their diversity and their many green spaces. If I had to choose, I'd choose Montréal, because I want to live in French and, in my opinion, the quality of life is better there." },
+            { "label": "Stronger model answer", "fr": "Casablanca ou Montréal : deux villes, deux vies\nQuand je suis arrivée à Montréal il y a trois ans, je ne savais pas à quel point ma vie allait changer. Voici ce que j'ai découvert en comparant ma ville natale et ma ville d'adoption.\nCasablanca, où j'ai grandi, est une ville bruyante et pleine d'énergie, au bord de l'océan Atlantique. Ce qui me manque le plus, c'est la mer et le soleil, qui brille presque toute l'année. Montréal, par contre, est beaucoup plus calme, et l'hiver est très long : c'est la seule chose dont je me plains vraiment !\nPour le travail, les deux villes sont des centres économiques importants. Pourtant, à Montréal, j'ai trouvé un emploi dans mon domaine plus facilement que je ne le pensais, et les horaires sont moins longs qu'au Maroc. Contrairement à Casablanca, où on prend souvent la voiture, ici, je me déplace en métro : la ville est très bien desservie.\nCe que les deux villes ont en commun, c'est qu'on y parle français et qu'elles mélangent plusieurs cultures. Si je devais choisir aujourd'hui, je resterais à Montréal, une ville que j'aime de plus en plus. Mais je garderai toujours Casablanca dans mon cœur.", "en": "Casablanca or Montréal: two cities, two lives. When I arrived in Montréal three years ago, I didn't know how much my life was going to change. Here is what I discovered by comparing my home city and my adopted city. Casablanca, where I grew up, is a noisy city full of energy, on the Atlantic Ocean. What I miss most is the sea and the sun, which shines almost all year round. Montréal, on the other hand, is much calmer, and the winter is very long: it's the only thing I really complain about! For work, both cities are important economic centres. Yet in Montréal, I found a job in my field more easily than I expected, and working hours are shorter than in Morocco. Unlike Casablanca, where people often take the car, here I get around by metro: the city is very well served by transit. What the two cities have in common is that French is spoken there and that they mix several cultures. If I had to choose today, I'd stay in Montréal, a city I love more and more. But I'll always keep Casablanca in my heart." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Describe a city in detail with **qui, que, où, dont** and **ce qui / ce que… c'est**\n- Compare qualities, quantities and actions: [[plus cher que]], [[moins de neige]], [[meilleure]], [[on vit mieux]]\n- Contrast with [[alors que]], [[par rapport à]], [[contrairement à]], and conclude: [[Ce que les deux villes ont en commun, c'est…]] [[Si je devais choisir, je choisirais…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Rewrote an awkward r1 clause (dont… parle pour ses fruits de mer → dont on parle beaucoup); added r4 variants; hedged the gratte-ciel plural and exam-length notes; removed a repeated aussi in the model." }
+}

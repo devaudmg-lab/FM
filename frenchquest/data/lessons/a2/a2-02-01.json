@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-02-01",
+  "level": "a2",
+  "unit": "a2-02",
+  "title": "Verbs that use être",
+  "goal": "Say where you went, when you left and arrived, and where you were born, using the passé composé with être.",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "g-pc-etre",
+      "kind": "grammar",
+      "fr": "être + participe passé",
+      "en": "passé composé with être (movement and change verbs)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Vendredi, nous ___ partis à 18 h.",
+          "answers": [
+            [
+              "sommes"
+            ]
+          ],
+          "en": "On Friday we left at 6 p.m.",
+          "explain": "partir uses être: nous sommes partis."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “He went to Ottawa”?",
+          "options": [
+            "Il est allé à Ottawa.",
+            "Il a allé à Ottawa.",
+            "Il est aller à Ottawa."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "aller uses être, and its participle is allé."
+        },
+        {
+          "type": "cloze",
+          "text": "Tu ___ venu en autobus ?",
+          "answers": [
+            [
+              "es"
+            ]
+          ],
+          "en": "Did you come by bus?",
+          "explain": "venir uses être: tu es venu."
+        },
+        {
+          "type": "translate",
+          "prompt": "They (men) arrived yesterday.",
+          "accept": [
+            "Ils sont arrivés hier.",
+            "Hier, ils sont arrivés."
+          ],
+          "explain": "arriver uses être; with ils, the participle takes -s: arrivés."
+        }
+      ]
+    },
+    {
+      "id": "je-suis-alle",
+      "kind": "phrase",
+      "fr": "Je suis allé à Québec.",
+      "en": "I went to Québec City.",
+      "accept": [
+        "Je suis allé à Québec.",
+        "Je suis allée à Québec."
+      ],
+      "note": "A woman writes: Je suis allée. It sounds the same."
+    },
+    {
+      "id": "je-suis-parti",
+      "kind": "phrase",
+      "fr": "Je suis parti vendredi soir.",
+      "en": "I left on Friday evening.",
+      "accept": [
+        "Je suis parti vendredi soir.",
+        "Je suis partie vendredi soir.",
+        "Vendredi soir, je suis parti.",
+        "Vendredi soir, je suis partie."
+      ]
+    },
+    {
+      "id": "nous-sommes-arrives",
+      "kind": "phrase",
+      "fr": "Nous sommes arrivés à 22 h.",
+      "en": "We arrived at 10 p.m.",
+      "accept": [
+        "Nous sommes arrivés à 22 h.",
+        "Nous sommes arrivées à 22 h.",
+        "Nous sommes arrivés à vingt-deux heures.",
+        "Nous sommes arrivées à vingt-deux heures.",
+        "On est arrivés à 22 h.",
+        "On est arrivés à vingt-deux heures.",
+        "On est arrivées à 22 h.",
+        "On est arrivées à vingt-deux heures.",
+        "On est arrivé à 22 h.",
+        "On est arrivé à vingt-deux heures."
+      ]
+    },
+    {
+      "id": "je-suis-reste",
+      "kind": "phrase",
+      "fr": "Je suis resté deux jours.",
+      "en": "I stayed (for) two days.",
+      "accept": [
+        "Je suis resté deux jours.",
+        "Je suis resté pendant deux jours.",
+        "Je suis restée deux jours.",
+        "Je suis restée pendant deux jours."
+      ],
+      "note": "rester = to stay, not “to rest” (se reposer)."
+    },
+    {
+      "id": "je-suis-ne",
+      "kind": "phrase",
+      "fr": "Je suis né à Montréal.",
+      "en": "I was born in Montréal.",
+      "accept": [
+        "Je suis né à Montréal.",
+        "Je suis née à Montréal."
+      ],
+      "note": "Woman speaking: Je suis née. Same sound."
+    },
+    {
+      "id": "je-suis-rentre",
+      "kind": "phrase",
+      "fr": "Je suis rentré dimanche.",
+      "en": "I came back home on Sunday.",
+      "accept": [
+        "Je suis rentré dimanche.",
+        "Je suis rentrée dimanche.",
+        "Dimanche, je suis rentré.",
+        "Dimanche, je suis rentrée.",
+        "Je suis revenu dimanche.",
+        "Je suis revenue dimanche."
+      ]
+    },
+    {
+      "id": "monter",
+      "kind": "vocab",
+      "fr": "monter",
+      "en": "to go up, to climb",
+      "pos": "verb",
+      "example": {
+        "fr": "Je suis monté sur la terrasse Dufferin.",
+        "en": "I went up to Dufferin Terrace."
+      }
+    },
+    {
+      "id": "descendre",
+      "kind": "vocab",
+      "fr": "descendre",
+      "en": "to go down, to get off (a bus)",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle est descendue de l'autobus.",
+        "en": "She got off the bus."
+      }
+    },
+    {
+      "id": "tomber",
+      "kind": "vocab",
+      "fr": "tomber",
+      "en": "to fall",
+      "pos": "verb",
+      "example": {
+        "fr": "Il est tombé sur la glace.",
+        "en": "He fell on the ice."
+      }
+    },
+    {
+      "id": "traversier",
+      "kind": "vocab",
+      "fr": "traversier",
+      "article": "le",
+      "gender": "m",
+      "en": "ferry",
+      "pos": "noun",
+      "accept": [
+        "le ferry",
+        "le traversier"
+      ],
+      "note": "Québec word. In France: le ferry, le bac.",
+      "example": {
+        "fr": "On a pris le traversier pour Lévis.",
+        "en": "We took the ferry to Lévis."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A weekend in Québec City",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "Monday morning, again",
+          "context": "Karim, from Casablanca, spent his weekend in Québec City. Camille grew up there.",
+          "lines": [
+            {
+              "speaker": "Camille",
+              "fr": "Karim ! Tu es allé à Québec en fin de semaine, non ?",
+              "en": "Karim! You went to Québec City on the weekend, didn't you?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Oui ! Je suis parti vendredi soir avec mon frère. On a pris le train à la gare Centrale et nous sommes arrivés à 22 h.",
+              "en": "Yes! I left on Friday evening with my brother. We took the train at Central Station and we arrived at 10 p.m."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Et qu'est-ce que vous avez visité ?",
+              "en": "And what did you visit?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Samedi, nous sommes montés au Château Frontenac par le funiculaire. Ensuite, on est descendus dans le Petit Champlain à pied. Mon frère est tombé dans l'escalier Casse-Cou !",
+              "en": "On Saturday we went up to the Château Frontenac by the funicular. Then we walked down into Petit Champlain. My brother fell on the Breakneck Stairs!"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Oh non ! Il va bien ?",
+              "en": "Oh no! Is he OK?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Oui, oui. Après, on a pris le traversier pour Lévis : la vue est magnifique. Nous sommes restés deux jours et nous sommes rentrés dimanche soir.",
+              "en": "Yes, yes. Afterwards we took the ferry to Lévis: the view is amazing. We stayed two days and came back on Sunday evening."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Ah, j'adore Québec. Je suis née là-bas, tu sais. Mes parents sont venus à Montréal quand j'avais dix ans.",
+              "en": "Ah, I love Québec City. I was born there, you know. My parents came to Montréal when I was ten."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Look at the helper verb. [[On a pris le train]] uses **avoir**, but [[je suis parti]], [[nous sommes arrivés]], [[il est tombé]] use **être**. Why? That is today's lesson."
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "How long did Karim stay in Québec City?",
+          "options": [
+            "Two days",
+            "One evening",
+            "A week"
+          ],
+          "answer": 0,
+          "explain": "[[Nous sommes restés deux jours]]: rester = to stay."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "The être verbs",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "A small group of verbs uses être",
+          "body": "Most verbs form the passé composé with **avoir**. But about **17 verbs** use **être** instead. Almost all of them describe a **movement from one place to another** or a **change of state** (being born, dying, becoming).\n\nThe structure is the same, with [[je suis, tu es, il est…]] in place of [[j'ai, tu as, il a…]]:\n\n- [[Je suis allé à Québec.]] I went to Québec City.\n- [[Nous sommes arrivés à 22 h.]] We arrived at 10 p.m.\n\nOne more thing: with être, the participle **agrees with the subject**, like an adjective: [[elle est allée]], [[nous sommes allés]]. You will practise this in the next lesson; for now, notice the extra **-e** and **-s**."
+        },
+        {
+          "type": "table",
+          "title": "The house of être",
+          "head": [
+            "Pair",
+            "Infinitives",
+            "Participles"
+          ],
+          "rows": [
+            [
+              "go / come",
+              "aller, venir",
+              "allé, venu"
+            ],
+            [
+              "arrive / leave",
+              "arriver, partir",
+              "arrivé, parti"
+            ],
+            [
+              "go in / go out",
+              "entrer, sortir",
+              "entré, sorti"
+            ],
+            [
+              "go up / go down",
+              "monter, descendre",
+              "monté, descendu"
+            ],
+            [
+              "come back / go back / return home",
+              "revenir, retourner, rentrer",
+              "revenu, retourné, rentré"
+            ],
+            [
+              "stay / fall",
+              "rester, tomber",
+              "resté, tombé"
+            ],
+            [
+              "be born / die",
+              "naître, mourir",
+              "né, mort"
+            ],
+            [
+              "become",
+              "devenir",
+              "devenu"
+            ]
+          ],
+          "frCols": [
+            1,
+            2
+          ],
+          "sayCol": false,
+          "note": "Picture a **house**: you **arrive** at the door, **go in**, **go up** the stairs, **go down**, **stay** inside, **fall** down the stairs, **go out**, **leave**… and people are **born** and **die** there."
+        },
+        {
+          "type": "table",
+          "title": "Aller in the passé composé",
+          "head": [
+            "",
+            "être",
+            "participle"
+          ],
+          "rows": [
+            [
+              "je",
+              "suis",
+              "allé / allée"
+            ],
+            [
+              "tu",
+              "es",
+              "allé / allée"
+            ],
+            [
+              "il / on",
+              "est",
+              "allé"
+            ],
+            [
+              "elle",
+              "est",
+              "allée"
+            ],
+            [
+              "nous",
+              "sommes",
+              "allés / allées"
+            ],
+            [
+              "vous",
+              "êtes",
+              "allé / allée / allés / allées"
+            ],
+            [
+              "ils",
+              "sont",
+              "allés"
+            ],
+            [
+              "elles",
+              "sont",
+              "allées"
+            ]
+          ],
+          "frCols": [
+            0,
+            1,
+            2
+          ],
+          "sayCol": false,
+          "note": "All these forms of [[allé]] sound exactly the same. The difference is only in writing. When [[on]] means *we*, you will also see [[on est allés]] (agreement with the real people); both are accepted."
+        },
+        {
+          "type": "deepdive",
+          "kind": "examples",
+          "title": "DR MRS VANDERTRAMP",
+          "body": "Many English-speaking learners use this acronym: each letter is one être verb.\n\n**D**evenir, **R**evenir, **M**onter, **R**ester, **S**ortir, **V**enir, **A**ller, **N**aître, **D**escendre, **E**ntrer, **R**entrer, **T**omber, **R**etourner, **A**rriver, **M**ourir, **P**artir.\n\nUse whichever memory trick works for you: the house or the acronym. Also remember [[passer]] in the sense of *to pass by*: [[Je suis passé par Trois-Rivières.]]",
+          "examples": [
+            {
+              "fr": "Elle est devenue infirmière.",
+              "en": "She became a nurse."
+            },
+            {
+              "fr": "Ils sont sortis à 23 h.",
+              "en": "They went out at 11 p.m."
+            },
+            {
+              "fr": "Mon grand-père est mort en 2019.",
+              "en": "My grandfather died in 2019."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "New words",
+          "itemIds": [
+            "monter",
+            "descendre",
+            "tomber",
+            "traversier"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- [[J'ai allé]] → [[Je suis allé]]. This is the classic mistake; aller always uses être.\n- [[Je suis aller]] → [[Je suis allé]]: the participle, not the infinitive.\n- **I was born:** [[Je suis né en 1992]]. It looks like *I am born*, but it is the passé composé of naître. Not [[J'ai né]].\n- **Rester ≠ to rest.** [[Je suis resté à la maison]] = I stayed home. To rest is [[se reposer]].\n- **Not every movement verb uses être:** [[marcher]] (walk), [[voyager]], [[courir]] (run) and [[prendre le train]] use avoir: [[J'ai voyagé]], [[On a marché]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "à Québec or au Québec?",
+          "body": "- [[à Québec]] = in **Québec City** (a city: à).\n- [[au Québec]] = in the **province** of Québec (a masculine place name: au).\n\nSo: [[Je suis allé à Québec]] = I went to Québec City; [[Je suis arrivé au Québec en 2021]] = I arrived in Québec (the province) in 2021.\n\nAs in Unit 1, you will hear [[J'ai été à Québec]] in casual Québec speech for *I went to Québec City*. It is informal: understand it, but in writing and exams, use [[Je suis allé]]. And the ferry between Québec and Lévis is [[le traversier]], the usual word in Québec."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Être or avoir?",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "lines": [
+            {
+              "fr": "Je suis allé à Québec.",
+              "en": "I went to Québec City.",
+              "tip": "suis allé: swee-za-lé, with a z link."
+            },
+            {
+              "fr": "Nous sommes partis vendredi soir.",
+              "en": "We left on Friday evening."
+            },
+            {
+              "fr": "Ils sont arrivés à 22 h.",
+              "en": "They arrived at 10 p.m.",
+              "tip": "sont arrivés: son-ta-ri-vé, with a t link."
+            },
+            {
+              "fr": "Elle est née à Lévis.",
+              "en": "She was born in Lévis.",
+              "tip": "est née: è-né."
+            },
+            {
+              "fr": "Mon frère est tombé dans l'escalier.",
+              "en": "My brother fell on the stairs."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Ils sont arrivés à Ottawa ce matin.",
+          "en": "They arrived in Ottawa this morning.",
+          "prompt": "Which helper verb did you hear?",
+          "options": [
+            "être (sont)",
+            "avoir (ont)"
+          ],
+          "answer": 0,
+          "explain": "[[sont]] with an *s* sound, then a *t* link: [[sont‿arrivés]]. [[ont]] would start with a *z* link: [[ils‿ont]]."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Tu es venue en train ou en autobus ?",
+          "en": "Did you come by train or by bus?",
+          "prompt": "What does the speaker want to know?",
+          "options": [
+            "How the person came",
+            "When the person is coming",
+            "Where the person was born"
+          ],
+          "answer": 0,
+          "explain": "[[Tu es venue]] = you came (venir, past). [[en train ou en autobus]] = by train or by bus."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "First decide: is it a house-of-être verb? Then conjugate être or avoir.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Samedi, je ___ allé au marché et j'___ acheté des fraises.",
+          "answers": [
+            [
+              "suis"
+            ],
+            [
+              "ai"
+            ]
+          ],
+          "choices": [
+            "suis",
+            "ai",
+            "es",
+            "a"
+          ],
+          "en": "On Saturday I went to the market and bought strawberries.",
+          "explain": "aller → être (je suis allé); acheter → avoir (j'ai acheté)."
+        },
+        {
+          "id": "r2",
+          "type": "mcq",
+          "prompt": "Which verb uses être in the passé composé?",
+          "options": [
+            "partir",
+            "voyager",
+            "prendre",
+            "marcher"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "voyager uses avoir: j'ai voyagé.",
+            "prendre uses avoir: j'ai pris.",
+            "marcher uses avoir: j'ai marché."
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "translate",
+          "prompt": "I was born in Lagos.",
+          "accept": [
+            "Je suis né à Lagos.",
+            "Je suis née à Lagos."
+          ],
+          "hint": "naître → né",
+          "explain": "naître uses être: [[je suis né]] (a woman writes [[née]])."
+        },
+        {
+          "id": "r4",
+          "type": "match",
+          "prompt": "Match each verb with its participle.",
+          "pairs": [
+            [
+              "venir",
+              "venu"
+            ],
+            [
+              "naître",
+              "né"
+            ],
+            [
+              "mourir",
+              "mort"
+            ],
+            [
+              "descendre",
+              "descendu"
+            ],
+            [
+              "devenir",
+              "devenu"
+            ],
+            [
+              "partir",
+              "parti"
+            ]
+          ]
+        },
+        {
+          "id": "r5",
+          "type": "cloze",
+          "text": "Mon frère ___ ___ dans l'escalier. (tomber)",
+          "answers": [
+            [
+              "est"
+            ],
+            [
+              "tombé"
+            ]
+          ],
+          "en": "My brother fell on the stairs.",
+          "explain": "tomber uses être: il est tombé."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "Did you stay home on Sunday? (to a friend)",
+          "accept": [
+            "Tu es resté à la maison dimanche ?",
+            "Tu es restée à la maison dimanche ?",
+            "Est-ce que tu es resté à la maison dimanche ?",
+            "Est-ce que tu es restée à la maison dimanche ?",
+            "Dimanche, tu es resté à la maison ?",
+            "Dimanche, tu es restée à la maison ?",
+            "Dimanche, est-ce que tu es resté à la maison ?",
+            "Dimanche, est-ce que tu es restée à la maison ?",
+            "Es-tu resté à la maison dimanche ?",
+            "Es-tu restée à la maison dimanche ?",
+            "Tu es resté chez toi dimanche ?",
+            "Tu es restée chez toi dimanche ?",
+            "Est-ce que tu es resté chez toi dimanche ?",
+            "Est-ce que tu es restée chez toi dimanche ?",
+            "Es-tu resté chez toi dimanche ?",
+            "Es-tu restée chez toi dimanche ?"
+          ],
+          "explain": "rester uses être: [[tu es resté]] (or [[restée]] to a woman)."
+        },
+        {
+          "id": "r7",
+          "type": "reorder",
+          "prompt": "We left on Friday evening. (use nous, a group of men and women)",
+          "accept": [
+            "Nous sommes partis vendredi soir.",
+            "Vendredi soir nous sommes partis."
+          ],
+          "extra": [
+            "avons"
+          ],
+          "explain": "partir → être: nous sommes partis. A mixed group takes the masculine plural."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Je suis arrivé ___ Québec en 2021. Maintenant, j'habite ___ Québec.",
+          "answers": [
+            [
+              "au"
+            ],
+            [
+              "à"
+            ]
+          ],
+          "choices": [
+            "au",
+            "à",
+            "en"
+          ],
+          "en": "I arrived in (the province of) Québec in 2021. Now I live in Québec City.",
+          "explain": "Province → [[au Québec]]; city → [[à Québec]]."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Ils sont sortis à 23 h.",
+          "accept": [
+            "Ils sont sortis à vingt-trois heures."
+          ],
+          "explain": "sortir uses être; with ils, add -s: sortis."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Tell a colleague about a short trip you took (real or imagined): where you went, when you left, how you got there, when you arrived, how long you stayed and when you came back.",
+          "seconds": 40,
+          "checklist": [
+            "je suis allé / allée à…",
+            "je suis parti / partie + day or time",
+            "Transport with avoir: j'ai pris le train / l'autobus",
+            "je suis arrivé / arrivée à…",
+            "je suis resté / restée + time",
+            "je suis rentré / rentrée + day"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Le mois dernier, je suis allée à Ottawa avec une amie. Nous sommes parties samedi matin. On a pris l'autobus et nous sommes arrivées à midi. Nous sommes restées deux jours et nous sommes rentrées dimanche soir. J'ai adoré !",
+              "en": "(A woman speaking.) Last month I went to Ottawa with a friend. We left on Saturday morning. We took the bus and arrived at noon. We stayed two days and came back on Sunday evening. I loved it!"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Fill in a short “About me” for the company newsletter: where and when you were born, when you arrived in Canada (or in your city), and one trip you took recently.",
+          "wordRange": [
+            25,
+            50
+          ],
+          "checklist": [
+            "je suis né / née à… en…",
+            "je suis arrivé / arrivée au Canada en…",
+            "One trip with je suis allé / allée",
+            "One verb with avoir for contrast"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Je m'appelle Raj. Je suis né à Pune, en Inde, en 1994. Je suis arrivé au Canada il y a trois ans. L'été dernier, je suis allé aux chutes Niagara avec ma femme. Nous avons pris beaucoup de photos !",
+              "en": "My name is Raj. I was born in Pune, in India, in 1994. I arrived in Canada three years ago. Last summer I went to Niagara Falls with my wife. We took lots of photos!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Recognize the **être** verbs: movement and change ([[aller, venir, partir, arriver, rester, naître…]])\n- Say [[je suis allé à Québec]], [[nous sommes arrivés à 22 h]], [[je suis né à…]]\n- Choose **être** or **avoir** in the same story\n- Use [[à Québec]] (city) and [[au Québec]] (province)",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Rewrote the awkward cloze “j'habite à Québec, la ville” in r8. Added a note that on est allés is also accepted, and made the informal “j'ai été à Québec” clearly recognition-only."
+  }
+}

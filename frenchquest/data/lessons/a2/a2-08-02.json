@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-08-02",
+  "level": "a2",
+  "unit": "a2-08",
+  "title": "The best and the worst",
+  "goal": "Use superlatives (le plus, le moins, le meilleur, le pire) to choose the best option, read product reviews and talk about sales.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-superlatif", "kind": "grammar", "fr": "le / la / les plus (moins) + adjectif + de", "en": "superlative: the most…, the least…, the -est (of a group)",
+      "drills": [
+        { "type": "cloze", "text": "Ce sont les bottes ___ ___ chaudes du magasin.", "answers": [["les"], ["plus"]], "en": "These are the warmest boots in the store.", "explain": "[[les bottes]] → [[les plus]] + adjective. The article agrees with the noun." },
+        { "type": "translate", "prompt": "It's the cheapest store in the neighbourhood.", "accept": ["C'est le magasin le moins cher du quartier.", "C'est le magasin le moins cher dans le quartier."], "explain": "*The cheapest* = [[le moins cher]]. *In the neighbourhood* after a superlative = [[du quartier]] (de + le)." },
+        { "type": "cloze", "text": "C'est la saison la plus froide ___ l'année.", "answers": [["de"]], "en": "It's the coldest season of the year.", "explain": "After a superlative, *in / of* the group = [[de]]: [[de l'année]], [[du Canada]], [[des trois]]." }
+      ] },
+    { "id": "g-superlatif-position", "kind": "grammar", "fr": "les bottes les plus chaudes / le plus grand magasin", "en": "position of the superlative (article repeated after the noun)",
+      "drills": [
+        { "type": "mcq", "prompt": "“the most comfortable boots”", "options": ["les bottes les plus confortables", "les plus bottes confortables", "les bottes plus confortables"], "optionsFr": true, "answer": 0, "explain": "Adjective after the noun → repeat the article: [[les bottes **les** plus confortables]]. Without the second [[les]], it means *more comfortable*." },
+        { "type": "cloze", "text": "C'est ___ plus grand centre commercial de la ville.", "answers": [["le"]], "en": "It's the biggest mall in the city.", "explain": "[[grand]] goes before the noun, so the superlative does too: [[le plus grand centre commercial]]." },
+        { "type": "translate", "prompt": "the lightest coat", "accept": ["le manteau le plus léger", "le plus léger manteau", "le manteau le moins lourd"], "explain": "[[léger]] normally goes after the noun: [[le manteau le plus léger]]." }
+      ] },
+    { "id": "g-le-meilleur", "kind": "grammar", "fr": "le meilleur / la meilleure / le mieux", "en": "the best: le meilleur (adjective) and le mieux (adverb)",
+      "drills": [
+        { "type": "cloze", "text": "C'est ___ meilleure pizzeria de Montréal.", "answers": [["la"]], "en": "It's the best pizzeria in Montréal.", "explain": "[[la pizzeria]] → [[la meilleure]]. Never *la plus bonne*." },
+        { "type": "cloze", "text": "Ce sont les ___ bottes pour l'hiver.", "answers": [["meilleures"]], "en": "These are the best boots for winter.", "explain": "Feminine plural: [[les meilleures]]." },
+        { "type": "mcq", "prompt": "“Who speaks French the best in your family?”", "options": ["Qui parle le mieux français dans ta famille ?", "Qui parle le meilleur français dans ta famille ?", "Qui parle le plus bien français dans ta famille ?"], "optionsFr": true, "answer": 0, "explain": "How someone speaks (a verb) → adverb → [[le mieux]]. ([[Le meilleur français]] would mean *the best French*, as a noun phrase.)" }
+      ] },
+    { "id": "le-pire", "kind": "vocab", "fr": "le pire", "fem": "la pire", "en": "the worst", "pos": "adjective", "accept": ["la pire", "le plus mauvais", "la plus mauvaise"],
+      "example": { "fr": "C'est la pire tempête de l'hiver.", "en": "It's the worst storm of the winter." } },
+    { "id": "soldes", "kind": "vocab", "fr": "soldes", "article": "les", "gender": "m", "en": "the sales (period of reduced prices)", "pos": "noun",
+      "note": "Masculine: les soldes d'hiver.",
+      "example": { "fr": "Les soldes commencent le 26 décembre.", "en": "The sales start on December 26." } },
+    { "id": "en-solde", "kind": "phrase", "fr": "en solde", "en": "on sale", "accept": ["en spécial"], "note": "Québec, informal: en spécial." },
+    { "id": "rabais", "kind": "vocab", "fr": "rabais", "article": "le", "gender": "m", "en": "discount", "pos": "noun", "accept": ["un rabais", "la réduction", "une réduction"],
+      "example": { "fr": "Il y a 30 % de rabais sur les manteaux.", "en": "There's 30% off coats." } },
+    { "id": "avis", "kind": "vocab", "fr": "avis", "article": "l'", "gender": "m", "en": "review, opinion", "pos": "noun", "accept": ["un avis", "les avis"],
+      "example": { "fr": "J'ai lu les avis des clients.", "en": "I read the customer reviews." } },
+    { "id": "centre-commercial", "kind": "vocab", "fr": "centre commercial", "article": "le", "gender": "m", "en": "shopping mall", "pos": "noun", "accept": ["le centre d'achats", "un centre commercial"],
+      "note": "Québec, informal: le centre d'achats.",
+      "example": { "fr": "Le centre commercial est ouvert jusqu'à 21 h.", "en": "The mall is open until 9 p.m." } },
+    { "id": "impermeable", "kind": "vocab", "fr": "imperméable", "en": "waterproof", "pos": "adjective",
+      "example": { "fr": "Ces bottes sont imperméables.", "en": "These boots are waterproof." } },
+    { "id": "rapport-qualite-prix", "kind": "phrase", "fr": "C'est le meilleur rapport qualité-prix.", "en": "It's the best value for money." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Winter boots: which ones?",
+      "intro": "Sofia is spending her first winter in Gatineau. She needs good winter boots, so she reads a comparison on a consumer website.",
+      "blocks": [
+        { "type": "text", "title": "Winter boots: our comparison",
+          "fr": "Bottes d'hiver : notre comparatif\nModèle A, à 189 $ : ce sont les bottes les plus chaudes du comparatif, jusqu'à -40 °C. Elles sont imperméables, mais ce sont aussi les plus lourdes. Note des clients : 4,6 sur 5.\nModèle B, à 129 $ : ce sont les plus légères et, selon nos lecteurs, les plus jolies. Mais elles sont moins chaudes : jusqu'à -20 °C seulement. Note : 4,1 sur 5.\nModèle C, à 99 $ : ce sont les moins chères. Mais attention : elles ne sont pas imperméables, et elles ont les pires avis. Note : 2,9 sur 5.\nNotre choix : pour un hiver au Québec, le modèle A est le meilleur. Pour la ville, le modèle B offre le meilleur rapport qualité-prix.",
+          "en": "Winter boots: our comparison\nModel A, at $189: these are the warmest boots in the comparison, down to −40 degrees. They're waterproof, but they're also the heaviest. Customer rating: 4.6 out of 5.\nModel B, at $129: these are the lightest and, according to our readers, the prettiest. But they're less warm: only down to −20 degrees. Rating: 4.1 out of 5.\nModel C, at $99: these are the cheapest. But careful: they're not waterproof, and they have the worst reviews. Rating: 2.9 out of 5.\nOur pick: for a Québec winter, model A is the best. For the city, model B offers the best value for money." },
+        { "id": "d1", "type": "mcq", "prompt": "Which boots are the warmest?", "options": ["Model A", "Model B", "Model C"], "answer": 0,
+          "explain": "[[les bottes les plus chaudes du comparatif]] = the warmest boots in the comparison: model A, down to −40." },
+        { "id": "d2", "type": "mcq", "prompt": "What's wrong with model C?", "options": ["It's not waterproof and has the worst reviews.", "It's the heaviest.", "It's the most expensive."], "answer": 0,
+          "explain": "[[Elles ne sont pas imperméables, et elles ont les pires avis.]] It's the cheapest ([[les moins chères]]), not the most expensive." },
+        { "type": "dialogue", "title": "At lunch, at work",
+          "context": "Sofia asks her colleague Alex for advice.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Alex, tu as des bottes d'hiver, toi ? J'hésite entre deux modèles.", "en": "Alex, do you have winter boots? I'm hesitating between two models." },
+            { "speaker": "Alex", "fr": "Oui ! Les bottes les plus chaudes, ce n'est pas toujours le meilleur choix. Tu marches beaucoup ?", "en": "Yes! The warmest boots aren't always the best choice. Do you walk a lot?" },
+            { "speaker": "Sofia", "fr": "Oui, je prends l'autobus, et j'attends souvent dehors pendant quinze minutes.", "en": "Yes, I take the bus, and I often wait outside for fifteen minutes." },
+            { "speaker": "Alex", "fr": "Alors tu as besoin de bottes chaudes et imperméables. Le pire, c'est la slush en mars : de l'eau et de la neige partout !", "en": "Then you need warm, waterproof boots. The worst thing is the slush in March: water and snow everywhere!" },
+            { "speaker": "Sofia", "fr": "Le modèle A est le plus chaud, mais il coûte cent quatre-vingt-neuf dollars…", "en": "Model A is the warmest, but it costs $189…" },
+            { "speaker": "Alex", "fr": "Attends les soldes de l'Après-Noël ! Le 26 décembre, c'est le meilleur moment pour acheter. Au centre commercial, il y a souvent 30 % de rabais sur les bottes.", "en": "Wait for the Boxing Day sales! December 26 is the best time to buy. At the mall, there's often 30% off boots." },
+            { "speaker": "Sofia", "fr": "Bonne idée. Mais le 26 décembre, il y a beaucoup de monde, non ?", "en": "Good idea. But on December 26, there are a lot of people, right?" },
+            { "speaker": "Alex", "fr": "C'est vrai ! Le mieux, c'est d'arriver très tôt le matin.", "en": "True! The best thing is to get there very early in the morning." }
+          ] }
+      ] },
+    { "type": "understand", "title": "Saying “the most” and “the best”",
+      "blocks": [
+        { "type": "table", "title": "The superlative",
+          "head": ["", "Pattern", "Example"],
+          "rows": [
+            ["the most / -est", "le / la / les plus + adjectif", "Ce sont les bottes les plus chaudes."],
+            ["the least", "le / la / les moins + adjectif", "C'est le modèle le moins cher."],
+            ["in / of the group", "+ de / du / de la / des", "le plus chaud du comparatif, la moins chère des trois"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "The article ([[le, la, les]]) and the adjective agree with the noun: [[la botte la plus **chaude**]], [[les bottes les plus **chaudes**]]." },
+        { "type": "explain", "title": "Where does it go?",
+          "body": "The superlative goes where the adjective normally goes.\n\n- Most adjectives go **after** the noun. Then you **repeat the article**: [[les bottes **les** plus chaudes]], [[le magasin **le** moins cher]].\n- Short, common adjectives ([[grand, petit, beau, bon, nouveau…]]) go **before** the noun: [[le plus grand magasin]], [[la plus belle ville]].\n\nWith no noun, just use [[le plus / la plus / les plus]] + adjective: [[Le modèle A est le plus chaud.]]" },
+        { "type": "table", "title": "Best and worst",
+          "head": ["Comparative", "Superlative", "Example"],
+          "rows": [
+            ["meilleur (better, adjective)", "le meilleur, la meilleure, les meilleurs, les meilleures", "C'est la meilleure boulangerie du quartier."],
+            ["mieux (better, adverb)", "le mieux", "C'est Mei qui parle le mieux français."],
+            ["pire / plus mauvais (worse)", "le pire, la pire / le plus mauvais", "Ce sont les pires avis du site."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "[[Le mieux, c'est de…]] = *The best thing is to…*: [[Le mieux, c'est d'arriver tôt.]] Same with [[le pire]]: [[Le pire, c'est la slush.]]" },
+        { "type": "pattern", "title": "Superlative + noun: the most / the least of something",
+          "pattern": "le plus de / le moins de + nom",
+          "note": "With a **noun** (people, choice, snow), add [[de]], like in the comparative.",
+          "examples": [
+            { "fr": "Le samedi, c'est le jour avec le plus de monde.", "en": "Saturday is the day with the most people." },
+            { "fr": "Ce magasin a le plus de choix et le moins de clients.", "en": "This store has the most choice and the fewest customers." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["le-pire", "soldes", "en-solde", "rabais", "avis", "centre-commercial", "impermeable", "rapport-qualite-prix"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Forgetting the second article:** [[les bottes plus chaudes]] means *warmer boots*. For *the warmest boots*: [[les bottes **les** plus chaudes]].\n- **Wrong preposition:** *the biggest mall in Canada* = [[le plus grand centre commercial **du** Canada]], not *dans le Canada*.\n- [[le plus bon]] → [[le meilleur]]; [[le plus bien]] → [[le mieux]].\n- **Agreement:** [[la plus cher]] → [[la plus chère]]; [[les meilleur bottes]] → [[les meilleures bottes]].\n- [[Les soldes]] is **masculine**: [[les soldes d'hiver]], [[les premiers soldes]]. In casual speech you may hear it used as feminine, but the standard form is masculine, so write it that way." },
+        { "type": "deepdive", "kind": "canada", "title": "Sales, discounts and taxes in Canada",
+          "body": "- **Boxing Day** (December 26) is one of the biggest sales days of the year. In Québec, people call it [[le Boxing Day]] or [[les soldes de l'Après-Noël]]. Black Friday is also big; the French term recommended in Québec is [[le vendredi fou]].\n- [[Un rabais]] is the everyday word for a discount in Québec (France more often says *une réduction* or *une remise*) and, informally, Québec French says [[en spécial]] for *on sale*: [[Les tuques sont en spécial !]]\n- **Taxes are added at the cash register.** The price on the label is usually **before taxes**. In Québec you pay the [[TPS]] (federal) and the [[TVQ]] (provincial); in Ontario and the Atlantic provinces, one combined tax, the [[TVH]].\n- [[La slush]] (melting snow and water) is a very common informal Québec anglicism; standard French says [[la neige fondante]] or [[la gadoue]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Ce sont les bottes les plus chaudes du magasin.", "en": "These are the warmest boots in the store." },
+            { "fr": "C'est le modèle le moins cher.", "en": "It's the cheapest model." },
+            { "fr": "C'est la meilleure boulangerie du quartier.", "en": "It's the best bakery in the neighbourhood." },
+            { "fr": "Le mieux, c'est d'arriver tôt.", "en": "The best thing is to get there early." },
+            { "fr": "Les soldes commencent le 26 décembre.", "en": "The sales start on December 26." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Les soldes de l'Après-Noël commencent ce vendredi ! Jusqu'à 50 % de rabais sur les manteaux, et 30 % sur les bottes et les tuques. Le magasin ouvre à 7 h.",
+          "en": "The Boxing Day sales start this Friday! Up to 50% off coats, and 30% off boots and toques. The store opens at 7 a.m.",
+          "prompt": "A radio ad. What has the biggest discount?", "options": ["Coats", "Boots", "Toques"], "answer": 0,
+          "explain": "[[Jusqu'à 50 % de rabais sur les manteaux]]: coats have the biggest discount. Boots and toques: 30%." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Franchement, c'est la pire épicerie du quartier : c'est la plus chère et il y a le moins de choix.", "en": "Honestly, it's the worst grocery store in the neighbourhood: it's the most expensive and it has the least choice.",
+          "prompt": "What does the speaker think of the grocery store?", "options": ["It's the most expensive and has the least choice.", "It's the cheapest, but it has little choice.", "It's the best in the neighbourhood."], "answer": 0,
+          "explain": "[[la pire]] = the worst; [[la plus chère]] = the most expensive; [[le moins de choix]] = the least choice." },
+        { "id": "h3", "type": "dictation", "fr": "Ce sont les meilleures bottes pour l'hiver.", "accept": [],
+          "explain": "[[les meilleures]]: feminine plural agreement with [[bottes]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le modèle C est ___ ___ cher des trois.", "answers": [["le"], ["moins"]], "choices": ["le", "la", "moins", "plus"], "en": "Model C is the cheapest of the three.",
+          "explain": "*The cheapest* = [[le moins cher]]; [[des trois]] = of the three." },
+        { "id": "r2", "type": "mcq", "prompt": "“the most beautiful city in Canada”", "options": ["la plus belle ville du Canada", "la ville plus belle du Canada", "la plus belle ville dans le Canada", "la plus beau ville du Canada"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Without a second [[la]], it means *a more beautiful city*.", "After a superlative, use [[du]], not *dans le*.", "[[belle]] agrees with [[ville]] (feminine)."] },
+        { "id": "r3", "type": "translate", "prompt": "These are the warmest boots.", "accept": ["Ce sont les bottes les plus chaudes.", "C'est les bottes les plus chaudes.", "Voici les bottes les plus chaudes."],
+          "explain": "Repeat the article after the noun: [[les bottes les plus chaudes]]." },
+        { "id": "r4", "type": "cloze", "text": "Pour moi, c'est la ___ pizza de Montréal !", "answers": [["meilleure"]], "choices": ["meilleure", "mieux", "plus bonne"], "en": "For me, it's the best pizza in Montréal!",
+          "explain": "[[la pizza]] → [[la meilleure]]. [[Plus bonne]] is wrong; [[mieux]] is an adverb." },
+        { "id": "r5", "type": "match", "prompt": "Match the French and English.", "pairs": [["les soldes", "the sales"], ["en solde", "on sale"], ["le rabais", "the discount"], ["les avis", "the reviews"], ["le centre commercial", "the mall"]] },
+        { "id": "r6", "type": "cloze", "text": "Le ___, c'est d'arriver tôt, avant la foule.", "answers": [["mieux"]], "choices": ["mieux", "meilleur", "pire"], "en": "The best thing is to arrive early, before the crowd.",
+          "explain": "[[Le mieux, c'est de]] + infinitive = the best thing is to…" },
+        { "id": "r7", "type": "reorder", "prompt": "It's the best value for money.", "accept": ["C'est le meilleur rapport qualité-prix."], "extra": ["mieux"],
+          "explain": "[[le rapport qualité-prix]] = value for money; [[le meilleur]] agrees with [[rapport]] (masculine)." },
+        { "id": "r8", "type": "translate", "prompt": "I bought my coat during the sales last year.", "accept": ["J'ai acheté mon manteau pendant les soldes l'année dernière.", "L'année dernière, j'ai acheté mon manteau pendant les soldes.", "J'ai acheté mon manteau pendant les soldes l'an dernier.", "L'an dernier, j'ai acheté mon manteau pendant les soldes.", "J'ai acheté mon manteau aux soldes l'année dernière."],
+          "explain": "Passé composé for a finished purchase; [[pendant les soldes]] = during the sales (unit 7: pendant)." },
+        { "id": "r9", "type": "dictation", "fr": "C'est le magasin le moins cher du quartier.", "accept": [],
+          "explain": "Article repeated: [[le magasin le moins cher]]; [[du quartier]] = de + le." },
+        { "id": "r10", "type": "mcq", "prompt": "Alex says: “Les bottes les plus chaudes, ce n'est pas toujours le meilleur choix.” What does he mean?", "options": ["The warmest boots aren't always the best choice.", "The warmest boots are always the best choice.", "Warmer boots are never a good choice."], "answer": 0,
+          "explain": "[[ne… pas toujours]] = not always. It depends on how you use them." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A newcomer asks you about shopping in your neighbourhood. Tell them the best and the cheapest places for groceries, clothes or furniture, the worst one, and the best time to buy.", "seconds": 45,
+          "checklist": ["le / la meilleur(e)…", "le / la moins cher (chère)…", "le / la pire… or le / la plus…", "de / du after the superlative (du quartier, de la ville)", "Le mieux, c'est de…"],
+          "models": [
+            { "label": "Model answer", "fr": "Pour l'épicerie, le magasin le moins cher du quartier, c'est le supermarché près du métro. La meilleure boulangerie, c'est sur la rue Masson : le pain est délicieux ! Pour les vêtements, la friperie de la rue Beaubien a les prix les plus bas. Le pire, c'est le centre commercial le samedi : il y a trop de monde. Le mieux, c'est d'aller magasiner le mardi soir.",
+              "en": "For groceries, the cheapest store in the neighbourhood is the supermarket near the metro. The best bakery is on Masson Street: the bread is delicious! For clothes, the thrift store on Beaubien Street has the lowest prices. The worst is the mall on Saturdays: there are too many people. The best thing is to go shopping on Tuesday evenings." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short online review of something you bought (boots, a coat, a phone, a sofa…). Compare it with other models and give it a rating.", "wordRange": [35, 70],
+          "checklist": ["What you bought and when (passé composé)", "Two superlatives (le plus…, le moins…, le meilleur…)", "One comparison (plus… que / moins… que)", "One negative point", "A rating: … sur 5"],
+          "models": [
+            { "label": "Model answer", "fr": "J'ai acheté le modèle A pendant les soldes de l'Après-Noël, avec 30 % de rabais. Ce sont les bottes les plus chaudes du magasin : à -30 °C, j'ai toujours chaud ! Elles sont plus lourdes que mes anciennes bottes, mais elles sont imperméables. Pour moi, c'est le meilleur rapport qualité-prix. Note : 4,5 sur 5.",
+              "en": "I bought model A during the Boxing Day sales, with 30% off. They're the warmest boots in the store: at −30 degrees, I'm always warm! They're heavier than my old boots, but they're waterproof. For me, it's the best value for money. Rating: 4.5 out of 5." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form superlatives: [[le / la / les plus]] or [[moins]] + adjective, with [[de]] for the group: [[les bottes les plus chaudes du magasin]]\n- Repeat the article when the adjective follows the noun; use [[le plus grand magasin]] for adjectives that go before\n- Say *the best* and *the worst*: [[le meilleur]], [[le mieux]], [[le pire]]\n- Talk about [[les soldes]], [[un rabais]] and [[le rapport qualité-prix]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Labelled en spécial and la slush as informal Québec usage and hedged the feminine soldes note as casual speech. Softened the Boxing Day, vendredi fou and rabais claims. Fixed an odd superlative in the model review (les plus chaudes de mon hiver → du magasin)." }
+}

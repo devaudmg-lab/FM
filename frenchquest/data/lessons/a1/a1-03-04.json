@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-03-04",
+  "level": "a1",
+  "unit": "a1-03",
+  "title": "Telling the time",
+  "goal": "Ask and tell the time, read 24-hour schedules, and set the time of an appointment.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-il-est-heure", "kind": "grammar", "fr": "Il est + nombre + heure(s)", "en": "telling the time: il est trois heures",
+      "drills": [
+        { "type": "cloze", "text": "Il est ___ heure. (1:00)", "answers": [["une"]], "en": "It's one o'clock.", "explain": "Heure is feminine, so one o'clock is une heure, with no s." },
+        { "type": "cloze", "text": "Il est quatre ___. (4:00)", "answers": [["heures"]], "en": "It's four o'clock.", "explain": "From two o'clock on, heures takes an s." },
+        { "type": "mcq", "prompt": "Which one means 3:45?", "options": ["Il est quatre heures moins le quart.", "Il est trois heures moins le quart.", "Il est trois heures et quart."], "optionsFr": true, "answer": 0, "explain": "3:45 is “four o'clock minus a quarter”: quatre heures moins le quart." }
+      ] },
+    { "id": "g-24h", "kind": "grammar", "fr": "14 h 30 = quatorze heures trente", "en": "the 24-hour clock (schedules and appointments)",
+      "drills": [
+        { "type": "cloze", "text": "17 h 30 = dix-sept heures ___", "answers": [["trente"]], "en": "5:30 p.m.", "explain": "With the 24-hour clock, just say the minutes as a number: no et demie." },
+        { "type": "mcq", "prompt": "What is 20 h?", "options": ["8 p.m.", "10 p.m.", "8 a.m."], "answer": 0, "explain": "20 − 12 = 8, so 20 h is 8 p.m." },
+        { "type": "translate", "prompt": "at 9 p.m. (24-hour clock, in words)", "accept": ["à vingt et une heures", "à vingt-et-une heures", "à 21 h", "à 21 heures"], "explain": "Heures is feminine, so 21 h is vingt et une heures." }
+      ] },
+    { "id": "quelle-heure", "kind": "phrase", "fr": "Il est quelle heure ?", "en": "What time is it?", "accept": ["Quelle heure est-il ?", "Quelle heure il est ?"] },
+    { "id": "et-quart", "kind": "phrase", "fr": "et quart", "en": "quarter past", "example": { "fr": "Il est deux heures et quart.", "en": "It's quarter past two." } },
+    { "id": "et-demie", "kind": "phrase", "fr": "et demie", "en": "half past", "example": { "fr": "Il est six heures et demie.", "en": "It's half past six." } },
+    { "id": "moins-le-quart", "kind": "phrase", "fr": "moins le quart", "en": "quarter to", "accept": ["moins quart"], "example": { "fr": "Il est cinq heures moins le quart.", "en": "It's quarter to five." } },
+    { "id": "midi", "kind": "phrase", "fr": "Il est midi.", "en": "It's noon.", "accept": ["Il est 12 h.", "Il est douze heures."] },
+    { "id": "minuit", "kind": "phrase", "fr": "Il est minuit.", "en": "It's midnight." },
+    { "id": "a-quelle-heure", "kind": "phrase", "fr": "À quelle heure ?", "en": "At what time?", "accept": ["A quelle heure ?"] },
+    { "id": "rendez-vous", "kind": "vocab", "fr": "rendez-vous", "article": "le", "gender": "m", "en": "appointment / meeting", "pos": "noun", "accept": ["rendez-vous", "un rendez-vous"], "note": "Same spelling in the plural: les rendez-vous." },
+    { "id": "heure", "kind": "vocab", "fr": "heure", "article": "l'", "gender": "f", "en": "hour; o'clock", "pos": "noun", "accept": ["heure", "une heure"] },
+    { "id": "du-soir", "kind": "phrase", "fr": "du soir", "en": "in the evening (p.m.)", "example": { "fr": "Il est huit heures du soir.", "en": "It's 8 p.m." } },
+    { "id": "en-retard", "kind": "phrase", "fr": "Je suis en retard.", "en": "I'm late." },
+    { "id": "en-avance", "kind": "phrase", "fr": "Vous êtes en avance.", "en": "You're early. (formal)" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What time is the class?",
+      "blocks": [
+        { "type": "dialogue", "title": "At a French school in Montréal",
+          "context": "Raj asks about the evening class. Camille works at the front desk.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Bonjour ! Le cours de français est à quelle heure, s'il vous plaît ?", "en": "Hello! What time is the French class, please?" },
+            { "speaker": "Camille", "fr": "Le cours du soir ? Il commence à dix-huit heures trente.", "en": "The evening class? It starts at 18:30." },
+            { "speaker": "Raj", "fr": "Dix-huit heures trente… Six heures et demie, c'est ça ?", "en": "18:30… Half past six, right?" },
+            { "speaker": "Camille", "fr": "Oui, c'est ça. Et il finit à vingt et une heures.", "en": "Yes, that's right. And it finishes at 21:00." },
+            { "speaker": "Raj", "fr": "Neuf heures du soir. D'accord. Et il est quelle heure maintenant ?", "en": "Nine in the evening. OK. And what time is it now?" },
+            { "speaker": "Camille", "fr": "Il est six heures moins le quart. Vous êtes en avance !", "en": "It's quarter to six. You're early!" },
+            { "speaker": "Raj", "fr": "Super ! Alors je suis à l'heure !", "en": "Great! So I'm on time!" }
+          ] },
+        { "type": "listen", "title": "A voice message", "context": "Camille leaves a message for her friend Karim.",
+          "fr": "Salut Karim, c'est Camille ! Rendez-vous demain à midi et demi, au café de la rue Saint-Viateur. On dîne ensemble ! À demain !",
+          "en": "Hi Karim, it's Camille! Let's meet tomorrow at half past twelve, at the café on Saint-Viateur Street. We're having lunch together! See you tomorrow!" },
+        { "type": "note", "tone": "info", "body": "Notice that Camille gives the class time with the **24-hour clock** ([[dix-huit heures trente]]), and Raj checks it with the **12-hour clock** ([[six heures et demie]]). French speakers switch between the two all the time. [[À l'heure]] means *on time*; [[en retard]] means *late*." }
+      ] },
+    { "type": "understand", "title": "Il est… heures",
+      "blocks": [
+        { "type": "explain", "title": "Asking and telling the time",
+          "body": "Ask: [[Il est quelle heure ?]] (everyday) or [[Quelle heure est-il ?]] (a bit more formal). Both mean *What time is it?*\n\nAnswer with [[Il est]] + number + [[heure(s)]]. Always say [[heures]], even when English drops “o'clock”: *It's three* = [[Il est trois heures]].\n\n[[Heure]] is **feminine**: [[une heure]] (1:00), then [[deux heures]], [[trois heures]]… with an *s*." },
+        { "type": "table", "title": "The 12-hour clock (conversation)",
+          "head": ["Time", "French"],
+          "rows": [
+            ["3:00", "Il est trois heures."],
+            ["3:05", "Il est trois heures cinq."],
+            ["3:15", "Il est trois heures et quart."],
+            ["3:30", "Il est trois heures et demie."],
+            ["3:40", "Il est quatre heures moins vingt."],
+            ["3:45", "Il est quatre heures moins le quart."],
+            ["12:00 (day)", "Il est midi."],
+            ["12:30 (day)", "Il est midi et demi."],
+            ["12:00 (night)", "Il est minuit."]
+          ],
+          "frCols": [1], "sayCol": true,
+          "note": "After half past, French usually counts **back** from the next hour with [[moins]] (minus): 3:45 = “four minus the quarter”. Say [[midi]] and [[minuit]] rather than “douze heures” in conversation. Spelling: [[et demie]] after [[heures]] (feminine), but [[midi et demi]] and [[minuit et demi]] (masculine). You will also see [[midi et demie]]; it is accepted too." },
+        { "type": "pattern", "title": "Morning, afternoon, evening",
+          "pattern": "heure + du matin / de l'après-midi / du soir",
+          "note": "With the 12-hour clock, add these to avoid confusion, like English *a.m.* and *p.m.*",
+          "examples": [
+            { "fr": "Il est sept heures du matin.", "en": "It's 7 a.m." },
+            { "fr": "Il est trois heures de l'après-midi.", "en": "It's 3 p.m." },
+            { "fr": "Il est huit heures du soir.", "en": "It's 8 p.m." }
+          ] },
+        { "type": "table", "title": "The 24-hour clock (schedules, appointments)",
+          "head": ["Written", "French", "Means"],
+          "rows": [
+            ["9 h", "neuf heures", "9 a.m."],
+            ["13 h 15", "treize heures quinze", "1:15 p.m."],
+            ["14 h 30", "quatorze heures trente", "2:30 p.m."],
+            ["17 h 45", "dix-sept heures quarante-cinq", "5:45 p.m."],
+            ["21 h", "vingt et une heures", "9 p.m."]
+          ],
+          "frCols": [1], "sayCol": true,
+          "note": "With the 24-hour clock, minutes are **just numbers**: no [[et quart]], [[et demie]] or [[moins le quart]]. It is written with **h**: **14 h 30** (or 14:30 on screens)." },
+        { "type": "pattern", "title": "At what time?",
+          "pattern": "à + heure",
+          "note": "To say *at* a time, use [[à]]. To ask, use [[À quelle heure… ?]] or put [[à quelle heure]] at the end in everyday speech.",
+          "examples": [
+            { "fr": "Le rendez-vous est à quelle heure ?", "en": "What time is the appointment?" },
+            { "fr": "À quelle heure est le cours ?", "en": "What time is the class?" },
+            { "fr": "Le rendez-vous est à quatorze heures trente.", "en": "The appointment is at 2:30 p.m." },
+            { "fr": "Tu arrives à quelle heure ?", "en": "What time are you arriving?" },
+            { "fr": "Rendez-vous à midi !", "en": "Let's meet at noon!" }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["quelle-heure", "et-quart", "et-demie", "moins-le-quart", "midi", "minuit", "a-quelle-heure", "rendez-vous", "heure", "du-soir", "en-retard", "en-avance"] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Liaison with heures",
+          "body": "[[Heures]] starts with a silent *h* and a vowel sound, so numbers link to it, just like with [[ans]] and [[euros]]:\n\n- [[une heure]] “u-n-eur”, [[deux heures]] “duh-z-eur”, [[trois heures]] “trwa-z-eur”\n- [[six heures]] “see-z-eur”, [[dix heures]] “dee-z-eur”\n- [[cinq heures]] “san-k-eur”, [[sept heures]] “se-t-eur”, [[huit heures]] “wee-t-eur”, [[onze heures]] “on-z-eur”\n- [[neuf heures]]: the *f* becomes *v*, “nuh-v-eur”\n\nThis linking is very strong: you will always hear it.",
+          "examples": [ { "fr": "Il est neuf heures.", "en": "It's nine o'clock." }, { "fr": "Il est deux heures et demie.", "en": "It's half past two." } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Forgetting heures:** not [[Il est trois]], but [[Il est trois heures]].\n- **C'est instead of il est:** for the time, say [[Il est trois heures]], not [[C'est trois heures]]. (For *when* something happens, [[C'est à trois heures]] is fine.)\n- **Un heure:** heure is feminine: [[une heure]], [[vingt et une heures]].\n- **Mixing the two systems:** [[et quart]], [[et demie]] and [[moins le quart]] go with the 12-hour clock. For schedules, say [[quatorze heures trente]]; in conversation, [[deux heures et demie]].\n- **Moins le quart:** don't forget [[le]] in standard French: [[cinq heures moins le quart]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Time in Québec",
+          "body": "**The 24-hour clock is everywhere in writing.** Government offices, schools, clinics, transit and job schedules in Québec and in French across Canada use it: [[Le bureau ferme à 16 h 30]] (the office closes at 4:30 p.m.). The recommended way to write it in Québec and Canadian French is with spaces around **h**: **16 h 30**, **9 h**. In conversation, most people still use the 12-hour clock.\n\n**Moins quart.** In everyday Québec speech you will often hear [[cinq heures moins quart]] without [[le]]. Understand it; in writing, use [[moins le quart]].\n\n**Meal names.** In Québec, [[le déjeuner]] is breakfast, [[le dîner]] is **lunch** (around [[midi]]) and [[le souper]] is supper. In France, [[le petit-déjeuner]] is breakfast, [[le déjeuner]] is lunch and [[le dîner]] is the evening meal. So when a Québec colleague says [[On dîne à midi ?]], they mean lunch!" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Listen for the liaison between the number and heures.",
+          "lines": [
+            { "fr": "Il est quelle heure ?", "en": "What time is it?" },
+            { "fr": "Il est une heure.", "en": "It's one o'clock.", "tip": "u-n‿eur" },
+            { "fr": "Il est deux heures.", "en": "It's two o'clock.", "tip": "deu-z‿eur" },
+            { "fr": "Il est neuf heures.", "en": "It's nine o'clock.", "tip": "neu-v‿eur" },
+            { "fr": "Il est trois heures et demie.", "en": "It's half past three." },
+            { "fr": "Il est midi et quart.", "en": "It's quarter past twelve (noon)." },
+            { "fr": "Il est quatre heures moins le quart.", "en": "It's quarter to four." },
+            { "fr": "Le rendez-vous est à quatorze heures trente.", "en": "The appointment is at 2:30 p.m." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Il est sept heures et quart.", "en": "It's quarter past seven.", "prompt": "What time is it?", "options": ["7:15", "7:45", "6:45"], "answer": 0, "explain": "[[et quart]] = quarter past. 6:45 would be [[sept heures moins le quart]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il est deux heures moins le quart.", "en": "It's quarter to two.", "prompt": "What time is it?", "options": ["1:45", "2:15", "2:45"], "answer": 0, "explain": "“Two minus a quarter” = 1:45." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Le rendez-vous est à seize heures trente.", "en": "The appointment is at 4:30 p.m.", "prompt": "When is the appointment?", "options": ["4:30 p.m.", "6:30 p.m.", "4:30 a.m."], "answer": 0, "explain": "[[seize heures]] = 16:00 = 4 p.m., plus [[trente]] minutes." },
+        { "id": "h4", "type": "dictation", "fr": "Il est onze heures.", "accept": ["Il est 11 heures.", "Il est 11 h."], "explain": "[[onze heures]]: on-z‿eur. Don't forget the s on heures." },
+        { "id": "h5", "type": "dictation", "fr": "à midi et demi", "accept": ["à midi et demie"], "explain": "The standard spelling is [[midi et demi]], without e (midi is masculine); [[midi et demie]] is also widely seen and accepted." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. In dictations, you can write numbers in words or digits.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Il est trois ___. (3:00)", "answers": [["heures"]], "choices": ["heures", "heure", "ans"], "en": "It's three o'clock.", "explain": "trois → plural: heures, with an s." },
+        { "id": "r2", "type": "mcq", "prompt": "How do you say 4:45 in conversation?", "options": ["Il est cinq heures moins le quart.", "Il est quatre heures moins le quart.", "Il est quatre heures et quart.", "Il est cinq heures et demie."], "optionsFr": true, "answer": 0,
+          "explain": "4:45 = five o'clock minus a quarter.",
+          "optionFeedback": [null, "That is 3:45: count back from the NEXT hour.", "That is 4:15.", "That is 5:30."] },
+        { "id": "r3", "type": "translate", "prompt": "What time is it?", "accept": ["Il est quelle heure ?", "Quelle heure est-il ?", "Quelle heure il est ?"], "explain": "[[Il est quelle heure ?]] is everyday; [[Quelle heure est-il ?]] is a bit more formal." },
+        { "id": "r4", "type": "translate", "prompt": "The appointment is at noon.", "accept": ["Le rendez-vous est à midi.", "Le rendez-vous, c'est à midi.", "Le rendez-vous est à 12 h.", "Le rendez-vous est à douze heures."], "explain": "à + time: [[à midi]]." },
+        { "id": "r5", "type": "match", "prompt": "Match the 24-hour times.", "pairs": [["quatorze heures", "2 p.m."], ["vingt heures", "8 p.m."], ["dix-sept heures", "5 p.m."], ["midi", "noon"], ["minuit", "midnight"]] },
+        { "id": "r6", "type": "dictation", "fr": "Le cours commence à dix-neuf heures.", "accept": ["Le cours commence à 19 heures.", "Le cours commence à 19 h."], "explain": "[[dix-neuf heures]]: the f of neuf becomes v before heures." },
+        { "id": "r7", "type": "listen-mcq", "fr": "Il est neuf heures vingt.", "en": "It's nine twenty.", "prompt": "What time is it?", "options": ["9:20", "5:20", "9:12"], "answer": 0, "explain": "[[neuf heures]] (nuh-v‿eur) + [[vingt]] minutes." },
+        { "id": "r8", "type": "cloze", "text": "Il est dix heures et ___. (10:30)", "answers": [["demie"]], "choices": ["demie", "quart", "trente"], "en": "It's half past ten.", "explain": "After heures, write demie with an e: dix heures et demie." },
+        { "id": "r9", "type": "cloze", "text": "Tu ___ à quelle heure ?", "answers": [["arrives"]], "choices": ["arrives", "arrive", "arrivez"], "en": "What time are you arriving?", "explain": "tu → -es: tu arrives (regular -er verb, from Unit 2)." },
+        { "id": "r10", "type": "mcq", "prompt": "How do you say 21 h?", "options": ["vingt et une heures", "vingt et un heures", "vingt-un heures"], "optionsFr": true, "answer": 0, "explain": "Heure is feminine, so un becomes une: vingt et une heures." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Call a friend to set up a meeting. Say what time it is now, suggest a day and a time for the rendez-vous (12-hour clock), then confirm it with the 24-hour clock.", "seconds": 40,
+          "checklist": ["Il est… heures (now)", "A day: demain, lundi…", "Rendez-vous à… (12-hour clock)", "The same time with the 24-hour clock"],
+          "models": [ { "label": "Model answer", "fr": "Salut Mei, c'est Alex ! Il est dix heures et quart. Rendez-vous demain, à deux heures et demie de l'après-midi ? Quatorze heures trente, au café. D'accord ? À demain !", "en": "Hi Mei, it's Alex! It's quarter past ten. Shall we meet tomorrow at half past two in the afternoon? 2:30 p.m., at the café. OK? See you tomorrow!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short message to confirm an appointment at a clinic or an office. Give the day, the date and the time (24-hour clock), and write the time in words too.", "wordRange": [15, 40],
+          "checklist": ["Bonjour + a name", "Le rendez-vous est + day and date", "à + time (24-hour clock, in digits and words)", "Merci / À bientôt"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour Madame Tremblay, le rendez-vous est le jeudi 12 mars, à 14 h 30 (quatorze heures trente). Merci et à bientôt ! Karim", "en": "Hello Ms. Tremblay, the appointment is on Thursday, March 12, at 2:30 p.m. Thank you and see you soon! Karim" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Ask [[Il est quelle heure ?]] / [[Quelle heure est-il ?]] and answer [[Il est trois heures]]\n- Use [[et quart]], [[et demie]], [[moins le quart]], [[midi]] and [[minuit]]\n- Read and say 24-hour times for schedules: [[quatorze heures trente]], [[vingt et une heures]]\n- Set a time with [[à]]: [[Le rendez-vous est à midi.]], [[À quelle heure ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed a dictation answer that sounds different (à 12 h 30 for midi et demi) and a tu answer contradicting a formal prompt. Clarified midi et demi / demie and the 16 h 30 typography note." }
+}

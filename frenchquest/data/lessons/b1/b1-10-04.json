@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-10-04",
+  "level": "b1",
+  "unit": "b1-10",
+  "title": "Describing a situation",
+  "goal": "Describe a picture or a situation in an organized way: the general scene, where things are, what people are doing, and what you can guess about them.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-decrire", "kind": "grammar", "fr": "Il s'agit de… / On voit… / au premier plan / on dirait que…", "en": "describing a picture: scene, position, action, interpretation",
+      "drills": [
+        { "type": "cloze", "text": "___ premier plan, on voit deux enfants qui font un bonhomme de neige.", "answers": [["Au"]], "en": "In the foreground, you can see two children making a snowman.", "explain": "[[au premier plan]] = in the foreground (the part closest to you)." },
+        { "type": "cloze", "text": "Les gens sont ___ train d'attendre l'autobus.", "answers": [["en"]], "en": "The people are waiting for the bus (right now).", "explain": "[[être en train de]] + infinitive = to be in the middle of doing something." },
+        { "type": "mcq", "prompt": "The man in the photo is smiling. How do you say “He looks happy”?", "options": ["Il a l'air content.", "Il regarde content.", "Il est l'air content."], "optionsFr": true, "answer": 0, "explain": "[[avoir l'air]] + adjective = to look, to seem. Not [[regarder]] (to look at)." },
+        { "type": "translate", "prompt": "It looks like a market.", "accept": ["On dirait un marché.", "Ça ressemble à un marché.", "On dirait que c'est un marché."], "explain": "[[On dirait]] + noun, or [[On dirait que]] + sentence: *it looks like*." }
+      ] },
+    { "id": "il-s-agit-de", "kind": "phrase", "fr": "Il s'agit d'une photo prise en hiver.", "en": "It's a photo taken in winter.", "accept": ["C'est une photo prise en hiver."],
+      "note": "Il s'agit de always has il as its subject: never la photo s'agit de." },
+    { "id": "on-voit", "kind": "phrase", "fr": "On voit…", "en": "You can see… / We can see…", "accept": ["On peut voir…", "On aperçoit…"] },
+    { "id": "premier-plan", "kind": "phrase", "fr": "au premier plan", "en": "in the foreground" },
+    { "id": "arriere-plan", "kind": "phrase", "fr": "à l'arrière-plan", "en": "in the background", "accept": ["au fond", "en arrière-plan"] },
+    { "id": "au-centre", "kind": "phrase", "fr": "au centre", "en": "in the middle (of the picture)", "accept": ["au milieu"] },
+    { "id": "en-haut-a-gauche", "kind": "phrase", "fr": "en haut à gauche", "en": "at the top left", "accept": ["en haut, à gauche"] },
+    { "id": "la-scene-se-passe", "kind": "phrase", "fr": "La scène se passe dans un parc.", "en": "The scene takes place in a park.", "accept": ["La scène a lieu dans un parc."] },
+    { "id": "en-train-de", "kind": "phrase", "fr": "être en train de", "en": "to be in the middle of (doing)", "accept": ["en train de"] },
+    { "id": "avoir-l-air", "kind": "phrase", "fr": "avoir l'air", "en": "to look, to seem (+ adjective)" },
+    { "id": "on-dirait", "kind": "phrase", "fr": "On dirait que…", "en": "It looks like… / It seems that…", "accept": ["On dirait…"] },
+    { "id": "sans-doute", "kind": "vocab", "fr": "sans doute", "en": "probably", "pos": "adverb", "accept": ["probablement"],
+      "note": "False friend: sans doute = probably. Without any doubt = sans aucun doute.",
+      "example": { "fr": "Ils sont sans doute en vacances.", "en": "They're probably on vacation." } },
+    { "id": "il-me-semble", "kind": "phrase", "fr": "Il me semble que…", "en": "It seems to me that…", "accept": ["J'ai l'impression que…"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Describing a photo",
+      "intro": "In a French conversation class in Québec City, the teacher shows a photo and asks Mei to describe it. You can't see the photo: listen to Mei, and **picture it in your head**. If you can imagine it clearly, her description works.",
+      "blocks": [
+        { "type": "listen", "title": "Mei describes the photo",
+          "context": "A photo projected on the classroom screen.",
+          "fr": "Alors, il s'agit d'une photo prise en hiver, sans doute pendant le Carnaval de Québec. La scène se passe dans un grand parc, devant un château de glace.\nAu premier plan, on voit une famille : un père, une mère et deux enfants. Ils sont très bien habillés pour le froid, avec des tuques et de grosses mitaines. La petite fille, à gauche, est en train de manger de la tire d'érable sur la neige. Elle a l'air ravie !\nAu centre, il y a une foule de gens qui regardent un spectacle. À l'arrière-plan, on aperçoit le château de glace, et en haut à droite, le ciel est bleu, sans nuages.\nIl me semble que c'est la fin de l'après-midi, parce que la lumière est dorée. On dirait que tout le monde passe une très belle journée, malgré le froid.\nPersonnellement, cette photo me rappelle mon premier hiver ici : je pensais que j'allais détester l'hiver, et finalement, j'adore ça !",
+          "en": "So, it's a photo taken in winter, probably during the Québec Winter Carnival. The scene takes place in a big park, in front of an ice palace. In the foreground, you can see a family: a father, a mother and two children. They are very well dressed for the cold, with toques and big mittens. The little girl, on the left, is eating maple taffy on snow. She looks delighted! In the middle, there's a crowd of people watching a show. In the background, you can make out the ice palace, and at the top right, the sky is blue, without clouds. It seems to me that it's late afternoon, because the light is golden. It looks like everyone is having a lovely day, despite the cold. Personally, this photo reminds me of my first winter here: I thought I was going to hate winter, and in the end, I love it!" },
+        { "id": "d1", "type": "mcq", "prompt": "What does Mei describe first?", "options": ["The general scene: what, when and where", "The little girl's face", "Her own first winter"], "answer": 0,
+          "explain": "She starts wide: [[il s'agit d'une photo prise en hiver]], [[la scène se passe dans un grand parc]]. Then she zooms in." },
+        { "id": "d2", "type": "mcq", "prompt": "How does Mei organize the middle of her description?", "options": ["By position: foreground, centre, background", "By colour", "In no particular order"], "answer": 0,
+          "explain": "[[Au premier plan… Au centre… À l'arrière-plan…]]: the listener's eye travels through the picture with her." },
+        { "id": "d3", "type": "mcq", "prompt": "Which sentence is an interpretation, not a fact you can see?", "options": ["On dirait que tout le monde passe une très belle journée.", "Au premier plan, on voit une famille.", "Le ciel est bleu."], "optionsFr": true, "answer": 0,
+          "explain": "[[On dirait que…]] and [[Il me semble que…]] introduce what you **guess**. Good descriptions mix facts and careful guesses." }
+      ] },
+    { "type": "understand", "title": "From the big picture to the details",
+      "blocks": [
+        { "type": "table", "title": "A five-step description",
+          "head": ["Step", "Question to answer", "Useful language"],
+          "rows": [
+            ["1. The scene", "What is it? Where? When?", "Il s'agit de… / C'est une photo de… / La scène se passe… / On est sans doute en été."],
+            ["2. Where things are", "What's in each part of the picture?", "au premier plan, au centre, à l'arrière-plan, à gauche, à droite, en haut, en bas"],
+            ["3. People and actions", "Who? What are they doing?", "On voit… / Il y a… / Ils sont en train de… / Une femme qui…"],
+            ["4. Interpretation", "How do they feel? What's happening?", "Il a l'air… / On dirait que… / Il me semble que… / Ils sont sans doute…"],
+            ["5. Personal link", "What does it make you think of?", "Cette photo me rappelle… / Personnellement, … / Moi aussi, j'ai déjà…"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "Steps 1 to 4 can take about 60 seconds; step 5 makes your description personal and gives you more to say." },
+        { "type": "table", "title": "Where is it?",
+          "head": ["French", "English"],
+          "rows": [
+            ["au premier plan", "in the foreground"],
+            ["au centre / au milieu", "in the middle"],
+            ["à l'arrière-plan / au fond", "in the background"],
+            ["à gauche / à droite", "on the left / on the right"],
+            ["en haut / en bas", "at the top / at the bottom"],
+            ["en haut à droite", "at the top right"],
+            ["à côté de, devant, derrière", "next to, in front of, behind"]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "pattern", "title": "Describing an action in progress",
+          "pattern": "être en train de + infinitif  /  nom + qui + verbe",
+          "note": "French has no *-ing* form for actions in progress. Use the present tense, [[être en train de]] to stress *right now*, or a relative clause with [[qui]] (B1 unit 7).",
+          "examples": [
+            { "fr": "La petite fille est en train de manger de la tire.", "en": "The little girl is eating taffy (right now)." },
+            { "fr": "On voit des gens qui regardent un spectacle.", "en": "You can see people watching a show." },
+            { "fr": "Un homme attend l'autobus.", "en": "A man is waiting for the bus." }
+          ] },
+        { "type": "pattern", "title": "Guessing carefully",
+          "pattern": "avoir l'air + adjectif  /  On dirait + nom  /  On dirait que + phrase  /  Il me semble que + phrase",
+          "note": "All of these take the **indicative** (normal tenses). [[avoir l'air]]: the adjective usually agrees with the person: [[Elle a l'air contente.]]",
+          "examples": [
+            { "fr": "Ils ont l'air fatigués.", "en": "They look tired." },
+            { "fr": "On dirait une fête de quartier.", "en": "It looks like a neighbourhood party." },
+            { "fr": "Il me semble qu'il va pleuvoir.", "en": "It seems to me it's going to rain." }
+          ] },
+        { "type": "vocab", "title": "Phrases for this lesson", "itemIds": ["il-s-agit-de", "on-voit", "premier-plan", "arriere-plan", "au-centre", "en-haut-a-gauche", "la-scene-se-passe", "en-train-de", "avoir-l-air", "on-dirait", "sans-doute", "il-me-semble"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Description mistakes",
+          "body": "- **Il regarde content:** *to look happy* is [[avoir l'air content]]. [[regarder]] means *to look at*.\n- **La photo s'agit de…:** wrong. [[Il s'agit de]] always has [[il]] as subject: [[Dans cette photo, il s'agit de…]] or simply [[C'est une photo de…]].\n- **Sans doute = without doubt:** no! [[sans doute]] means *probably*. To be certain, say [[sans aucun doute]] or [[certainement]].\n- **Je vois** all the time: vary with [[on voit]], [[il y a]], [[on aperçoit]] (you can make out), [[on remarque]].\n- **Translating -ing:** *Il est mangeant* doesn't exist. Use the present or [[est en train de manger]].\n- **A list with no order:** jumping from the sky to a child's shoe to a car loses the listener. Go from general to detail, or from front to back." },
+        { "type": "deepdive", "kind": "canada", "title": "Winter words from Mei's photo",
+          "body": "- [[une tuque]] = a winter hat (Canada). In France: [[un bonnet]].\n- [[des mitaines]] = mittens in Québec. In France, [[des moufles]]; there, *mitaines* are fingerless gloves.\n- [[la tire d'érable]] (or [[la tire sur la neige]]) = maple syrup boiled until thick, poured hot on snow and rolled on a stick, a sugar-shack and carnival classic.\n- [[le Carnaval de Québec]] takes place every winter, mainly in February, with its ice palace and its mascot, Bonhomme." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: starting from a document",
+          "body": "In the TEF Canada speaking test, both sections start from a **document**, usually a short ad: in section A you call to get information about it, and in section B you present it to a “friend” and try to convince them. In TCF Canada task 2, you get a role-play situation and ask the examiner questions to get information.\n\nBeing able to **describe a situation quickly and clearly** helps in all of them: what is it about ([[Il s'agit de…]]), where and when, who it's for, and what seems interesting ([[On dirait que c'est une bonne occasion de…]]). Practise by describing ads, posters or photos you see around you in 30 seconds. Always check the current official format before your exam." }
+      ] },
+    { "type": "hear", "title": "Hear a description",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Pause after each position word ([[Au premier plan,]]): it tells the listener where to look.",
+          "lines": [
+            { "fr": "Il s'agit d'une photo prise en hiver.", "en": "It's a photo taken in winter.", "tip": "il s'agit: il-sa-ji." },
+            { "fr": "Au premier plan, on voit une famille.", "en": "In the foreground, you can see a family." },
+            { "fr": "À l'arrière-plan, on aperçoit un château de glace.", "en": "In the background, you can make out an ice palace.", "tip": "arrière: a-ryèr." },
+            { "fr": "La petite fille est en train de manger de la tire.", "en": "The little girl is eating taffy.", "tip": "en train de: an-trin-de." },
+            { "fr": "Elle a l'air ravie.", "en": "She looks delighted." },
+            { "fr": "On dirait que tout le monde passe une belle journée.", "en": "It looks like everyone is having a lovely day." }
+          ] },
+        { "id": "h1", "type": "listen-mcq",
+          "fr": "Au premier plan, il y a une femme assise sur un banc. Elle est en train de lire. À l'arrière-plan, on voit des enfants qui jouent au soccer.",
+          "en": "In the foreground, there's a woman sitting on a bench. She is reading. In the background, you can see children playing soccer.",
+          "prompt": "What is in the background?",
+          "options": ["Children playing soccer", "A woman reading", "A bench"], "answer": 0,
+          "explain": "[[À l'arrière-plan]] = in the background: [[des enfants qui jouent au soccer]]. The woman is in the foreground." },
+        { "id": "h2", "type": "listen-mcq",
+          "fr": "L'homme regarde sa montre et il a l'air pressé. Il est sans doute en retard pour son train.",
+          "en": "The man is looking at his watch and he looks in a hurry. He's probably late for his train.",
+          "prompt": "What does the speaker think?",
+          "options": ["The man is probably late", "The man is certainly early", "The man has lost his watch"], "answer": 0,
+          "explain": "[[il a l'air pressé]] (he looks in a hurry) + [[sans doute]] (probably) = a careful guess." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Picture each scene in your head as you answer.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match the French with the English.",
+          "pairs": [["au premier plan", "in the foreground"], ["à l'arrière-plan", "in the background"], ["en haut à gauche", "at the top left"], ["au centre", "in the middle"], ["en bas à droite", "at the bottom right"]] },
+        { "id": "r2", "type": "cloze", "text": "Elle a l'___ fatiguée.", "answers": [["air"]], "en": "She looks tired.",
+          "explain": "[[avoir l'air]] + adjective. The adjective agrees with the person: [[fatiguée]]." },
+        { "id": "r3", "type": "mcq", "prompt": "Which sentence is correct?", "optionsFr": true,
+          "options": ["Il s'agit d'une fête de quartier.", "La photo s'agit d'une fête de quartier.", "Elle s'agit d'une fête de quartier.", "Il agit d'une fête de quartier."], "answer": 0,
+          "explain": "[[Il s'agit de]] is impersonal: the subject is always [[il]], and the verb is reflexive." },
+        { "id": "r4", "type": "translate", "prompt": "The children are building a snowman (right now).", "accept": ["Les enfants sont en train de faire un bonhomme de neige.", "Les enfants sont en train de construire un bonhomme de neige.", "Les enfants font un bonhomme de neige.", "Les enfants construisent un bonhomme de neige."], "hint": "être en train de",
+          "explain": "[[être en train de]] + infinitive stresses that it's happening now. The plain present is also correct." },
+        { "id": "r5", "type": "cloze", "text": "On ___ que tout le monde s'amuse.", "answers": [["dirait"]], "choices": ["dirait", "dit", "voit", "semble"], "en": "It looks like everyone is having fun.",
+          "explain": "[[On dirait que]] = it looks like. It's a conditionnel of [[dire]] used as a fixed expression." },
+        { "id": "r6", "type": "mcq", "prompt": "« Ils sont sans doute en vacances. » What does it mean?", "options": ["They're probably on vacation.", "They're definitely on vacation.", "They're not on vacation."], "answer": 0,
+          "explain": "False friend: [[sans doute]] = probably. For certainty: [[sans aucun doute]]." },
+        { "id": "r7", "type": "reorder", "prompt": "In the background, you can see a lake.", "accept": ["À l'arrière-plan on voit un lac", "On voit un lac à l'arrière-plan"], "extra": ["premier"],
+          "explain": "[[à l'arrière-plan]] = in the background; [[au premier plan]] = in the foreground." },
+        { "id": "r8", "type": "cloze", "text": "On voit une femme ___ promène son chien.", "answers": [["qui"]], "choices": ["qui", "que", "où", "dont"], "en": "You can see a woman walking her dog.",
+          "explain": "Review (B1 unit 7): [[qui]] is the subject of [[promène]]. It replaces the English *-ing*." },
+        { "id": "r9", "type": "translate", "prompt": "The scene takes place in a park.", "accept": ["La scène se passe dans un parc.", "La scène a lieu dans un parc.", "La scène se déroule dans un parc."], "hint": "se passer",
+          "explain": "[[se passer]] = to take place (for a scene or a story). [[avoir lieu]] works too." },
+        { "id": "r10", "type": "dictation", "fr": "Au premier plan, on voit une famille qui regarde un spectacle.", "accept": [],
+          "explain": "[[au premier plan]] + [[on voit]] + a relative clause with [[qui]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Choose a photo on your phone (a place, an event, people; avoid private details) or a picture in a magazine. Describe it for about 60–90 seconds to someone who can't see it, following the five steps.", "seconds": 90,
+          "checklist": ["Step 1: Il s'agit de… / La scène se passe… (what, where, when)", "Step 2: at least three position words (au premier plan, au centre, à l'arrière-plan, à gauche…)", "Step 3: actions with the present, en train de, or qui", "Step 4: two careful guesses: avoir l'air, on dirait que, il me semble que, sans doute", "Step 5: a personal link: Cette photo me rappelle…", "A natural filler or two if you need time (bon, voyons, comment dire…)"],
+          "models": [
+            { "label": "Model answer", "fr": "Bon, il s'agit d'une photo que j'ai prise l'été passé à Toronto, près du lac Ontario. La scène se passe sur une plage, en fin de journée.\nAu premier plan, on voit mes deux enfants qui construisent un château de sable. Mon fils, à gauche, est en train de creuser un trou, et il a l'air très concentré ! Au centre, il y a des gens qui se baignent. À l'arrière-plan, on aperçoit les tours du centre-ville, et en haut à droite, quelques nuages.\nOn dirait qu'il fait très chaud : tout le monde est en maillot de bain. Il me semble que c'était un samedi, parce qu'il y avait beaucoup de monde.\nCette photo me rappelle une très belle journée en famille.",
+              "en": "Well, it's a photo I took last summer in Toronto, near Lake Ontario. The scene takes place on a beach, at the end of the day. In the foreground, you can see my two children building a sandcastle. My son, on the left, is digging a hole, and he looks very focused! In the middle, there are people swimming. In the background, you can make out the downtown towers, and at the top right, a few clouds. It looks like it's very hot: everyone is in a bathing suit. It seems to me it was a Saturday, because there were lots of people. This photo reminds me of a lovely family day." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Describe from general to detail: the scene ([[Il s'agit de…]], [[La scène se passe…]]), positions ([[au premier plan]], [[au centre]], [[à l'arrière-plan]]), actions ([[être en train de]], [[qui]])\n- Make careful guesses with [[avoir l'air]], [[on dirait que]], [[il me semble que]] and [[sans doute]] (= probably)\n- Finish with a personal link: [[Cette photo me rappelle…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "'manger une tire d'érable' → 'de la tire d'érable' (uncountable). Made the tire and Carnaval dates more precise, and matched the TCF task 2 description to format.json." }
+}

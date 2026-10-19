@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-01-02",
+  "level": "b2",
+  "unit": "b2-01",
+  "title": "Concession",
+  "goal": "Admit what is true in the other side's view and still defend your position, with certes… mais, il est vrai que… cependant, même si, bien que, malgré and avoir beau.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-concession", "kind": "grammar", "fr": "même si + indicatif / bien que + subjonctif", "en": "even if / even though: which mood follows",
+      "drills": [
+        { "type": "cloze", "text": "Même si la piste ___ (être) bien déneigée, beaucoup de gens ne feront pas de vélo l'hiver.", "answers": [["est"]], "en": "Even if the bike lane is well cleared, many people won't cycle in winter.", "explain": "[[même si]] is always followed by the indicative, like [[si]]." },
+        { "type": "cloze", "text": "Bien qu'il ___ très froid, Raj va au travail à vélo.", "answers": [["fasse"]], "choices": ["fasse", "fait", "ferait"], "en": "Even though it's very cold, Raj cycles to work.", "explain": "[[bien que]] triggers the subjunctive: [[bien qu'il fasse froid]] is a chunk to learn by heart." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Même si c'est cher, j'achète local.", "Même si ce soit cher, j'achète local.", "Bien que c'est cher, j'achète local."], "optionsFr": true, "answer": 0, "explain": "[[même si + indicatif]] ([[c'est]]); [[bien que + subjonctif]] ([[ce soit]]). Never cross them." }
+      ] },
+    { "id": "g-avoir-beau", "kind": "grammar", "fr": "avoir beau + infinitif", "en": "no matter how much / however hard (you try)",
+      "drills": [
+        { "type": "cloze", "text": "J'___ beau expliquer mon idée, mon voisin ne comprend pas.", "answers": [["ai"]], "en": "No matter how much I explain my idea, my neighbour doesn't understand.", "explain": "Conjugate [[avoir]], keep [[beau]] invariable, then the infinitive: [[j'ai beau expliquer]]." },
+        { "type": "translate", "prompt": "No matter how hard we look, we can't find any parking spot.", "accept": ["Nous avons beau chercher, nous ne trouvons pas de place de stationnement.", "On a beau chercher, on ne trouve pas de place de stationnement.", "On a beau chercher, on ne trouve aucune place de stationnement.", "Nous avons beau chercher, nous ne trouvons aucune place de stationnement.", "On a beau chercher, on ne trouve pas de stationnement.", "Nous avons beau chercher, nous ne trouvons pas de stationnement.", "On a beau chercher, on ne trouve pas de place de parking.", "Nous avons beau chercher, nous ne trouvons pas de place de parking.", "On a beau chercher, on ne trouve pas de place.", "Nous avons beau chercher, nous ne trouvons pas de place.", "On a beau chercher, on n'arrive pas à trouver de place de stationnement.", "Nous avons beau chercher, nous n'arrivons pas à trouver de place de stationnement."], "explain": "[[avoir beau + infinitif]], then a main clause showing the effort is useless." },
+        { "type": "mcq", "prompt": "“Elle a beau être fatiguée, elle continue.” What does it mean?", "options": ["Even though she's tired, she keeps going.", "She's beautifully tired, so she continues.", "Because she's tired, she stops."], "answer": 0, "explain": "[[beau]] here has nothing to do with beauty: [[avoir beau]] = in spite of the effort or the fact." }
+      ] },
+    { "id": "bien-que-ce-soit", "kind": "phrase", "fr": "bien que ce soit…", "en": "even though it is…", "accept": ["quoique ce soit…"],
+      "example": { "fr": "Bien que ce soit une bonne idée, le projet coûte cher.", "en": "Even though it's a good idea, the project is expensive." }, "note": "Other chunks: [[bien qu'il y ait]] (even though there is), [[bien qu'il fasse froid]], [[bien que je sois]]." },
+    { "id": "meme-si", "kind": "phrase", "fr": "même si", "en": "even if, even though (+ indicative)",
+      "example": { "fr": "Même si je ne fais pas de vélo, je soutiens le projet.", "en": "Even though I don't cycle, I support the project." } },
+    { "id": "certes", "kind": "phrase", "fr": "Certes…, mais…", "en": "Admittedly…, but… (formal)", "accept": ["Certes, …, mais…"],
+      "example": { "fr": "Certes, l'hiver est long, mais la piste sera déneigée.", "en": "Admittedly, winter is long, but the lane will be cleared." } },
+    { "id": "il-est-vrai-que", "kind": "phrase", "fr": "Il est vrai que…, cependant…", "en": "It is true that…, however… (formal concession)", "accept": ["Il est vrai que…, mais…", "C'est vrai que…, mais…"] },
+    { "id": "malgre", "kind": "vocab", "fr": "malgré", "en": "despite, in spite of (+ noun)", "pos": "preposition",
+      "example": { "fr": "Malgré le froid, les terrasses sont pleines.", "en": "Despite the cold, the patios are full." }, "note": "[[malgré + nom]] only. With a verb, use [[bien que]] or [[même si]]." },
+    { "id": "quand-meme", "kind": "phrase", "fr": "quand même", "en": "anyway, all the same, still", "accept": ["tout de même"],
+      "example": { "fr": "Je suis contre, mais je viendrai quand même.", "en": "I'm against it, but I'll come anyway." } },
+    { "id": "pourtant", "kind": "vocab", "fr": "pourtant", "en": "and yet, nevertheless", "pos": "adverb",
+      "example": { "fr": "Il fait moins vingt. Pourtant, Raj roule à vélo.", "en": "It's minus twenty. And yet Raj is riding his bike." } },
+    { "id": "piste-cyclable", "kind": "vocab", "fr": "piste cyclable", "article": "une", "gender": "f", "en": "bike lane, cycle path", "pos": "noun", "accept": ["la piste cyclable"] },
+    { "id": "commercant", "kind": "vocab", "fr": "commerçant", "article": "un", "gender": "m", "en": "shopkeeper, merchant", "pos": "noun", "accept": ["une commerçante", "le commerçant"],
+      "example": { "fr": "Les commerçants de la rue sont inquiets.", "en": "The street's shopkeepers are worried." }, "note": "Feminine: [[une commerçante]]." },
+    { "id": "deneigement", "kind": "vocab", "fr": "déneigement", "article": "le", "gender": "m", "en": "snow removal, snow clearing", "pos": "noun", "accept": ["un déneigement"],
+      "example": { "fr": "Le déneigement des pistes cyclables coûte cher.", "en": "Clearing snow from bike lanes is expensive." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A bike lane on the main street",
+      "intro": "A good argument doesn't pretend the other side is stupid. It **concedes** what is true, then explains why the conclusion still holds. Watch how Lucie does it in her open letter, then how three neighbours argue about it.",
+      "blocks": [
+        { "type": "text", "title": "Lettre ouverte à la mairesse",
+          "context": "Lucie Bergeron, a florist in Gatineau, writes to the mayor in the local newspaper about a controversial bike lane project.",
+          "fr": "Madame la Mairesse,\n\nJe tiens une boutique de fleurs sur la rue Principale depuis quinze ans, et je lis depuis des semaines les débats enflammés sur le projet de piste cyclable. Permettez-moi d'apporter le point de vue d'une commerçante.\n\nCertes, la piste fera disparaître une quarantaine de places de stationnement, et je comprends l'inquiétude de mes voisins. Une partie de ma clientèle vient en voiture, notamment les personnes âgées. Mais les chiffres sont têtus : selon l'association des commerçants, sept clients sur dix arrivent à pied, à vélo ou en autobus.\n\nIl est vrai que l'hiver est long à Gatineau. Cependant, bien qu'il fasse parfois moins vingt en janvier, de plus en plus de cyclistes roulent toute l'année, du moment que les pistes sont bien déneigées.\n\nMême si je ne fais pas de vélo moi-même, je vois bien que les rues qui ont fait ce choix ont changé. Les familles s'y promènent davantage, les terrasses sont pleines l'été, et les quartiers attirent de nouveaux résidents. J'ai beau lire attentivement les arguments des opposants, je n'y trouve aucune étude sérieuse qui montre le contraire.\n\nJe soutiens donc le projet, bien que ce ne soit pas une décision facile pour une commerçante. Malgré mon appui, j'insiste sur deux conditions : prévoir des zones de livraison et conserver quelques places réservées aux personnes à mobilité réduite. Sans ces mesures, le projet risque de diviser le quartier.\n\nJe vous prie d'agréer, Madame la Mairesse, l'expression de mes sentiments distingués.\n\nLucie Bergeron, fleuriste",
+          "en": "Madam Mayor,\n\nI have run a flower shop on Main Street for fifteen years, and for weeks I have been reading the heated debates about the bike lane project. Allow me to offer the point of view of a shopkeeper.\n\nAdmittedly, the lane will remove about forty parking spaces, and I understand my neighbours' concern. Some of my customers come by car, especially elderly people. But the figures don't lie: according to the merchants' association, seven customers out of ten arrive on foot, by bike or by bus.\n\nIt is true that winter is long in Gatineau. However, even though it is sometimes minus twenty in January, more and more cyclists ride all year round, as long as the lanes are properly cleared of snow.\n\nEven though I don't cycle myself, I can clearly see that the streets that made this choice have changed. Families walk there more, the patios are full in summer, and the neighbourhoods attract new residents. No matter how carefully I read the opponents' arguments, I find no serious study in them that shows the opposite.\n\nI therefore support the project, even though it isn't an easy decision for a shopkeeper. Despite my support, I insist on two conditions: providing delivery zones and keeping a few spaces reserved for people with reduced mobility. Without these measures, the project risks dividing the neighbourhood.\n\nYours sincerely,\n\nLucie Bergeron, florist" },
+        { "type": "dialogue", "title": "In front of the flower shop",
+          "context": "The next morning, Olivier, the butcher next door, comes to see Lucie. Raj, a regular customer who cycles, joins in.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Lucie, j'ai lu ta lettre dans le journal. Franchement, je ne te comprends pas. Tu es commerçante comme moi, et tu défends un projet qui va nous ruiner !", "en": "Lucie, I read your letter in the paper. Honestly, I don't understand you. You're a shopkeeper like me, and you're defending a project that's going to ruin us!" },
+            { "speaker": "Lucie", "fr": "Ruiner, c'est un grand mot. Même si on perd des places de stationnement, la plupart de nos clients ne viennent pas en voiture.", "en": "Ruin is a big word. Even if we lose parking spaces, most of our customers don't come by car." },
+            { "speaker": "Olivier", "fr": "Les miens, si ! Les gens qui achètent cinq kilos de viande ne les transportent pas à vélo.", "en": "Mine do! People who buy five kilos of meat don't carry them on a bike." },
+            { "speaker": "Raj", "fr": "Moi, si ! J'ai un vélo cargo. Mais tu as raison sur un point : certains clients ont vraiment besoin de leur voiture.", "en": "I do! I have a cargo bike. But you're right on one point: some customers really need their car." },
+            { "speaker": "Olivier", "fr": "Merci. Et puis l'hiver, qui va faire du vélo par moins vingt ?", "en": "Thank you. And besides, in winter, who's going to cycle at minus twenty?" },
+            { "speaker": "Raj", "fr": "Plus de gens qu'on ne le pense ! Bien qu'il fasse très froid en janvier, je roule tous les jours, du moment que la piste est déneigée.", "en": "More people than you'd think. Even though it's very cold in January, I ride every day, as long as the lane is cleared." },
+            { "speaker": "Olivier", "fr": "J'ai beau essayer d'imaginer la rue sans voitures, je n'y arrive pas.", "en": "No matter how hard I try to imagine the street without cars, I can't." },
+            { "speaker": "Lucie", "fr": "Je te comprends. Il est vrai que c'est un gros changement. Cependant, regarde les rues piétonnes de Montréal l'été : les terrasses sont pleines.", "en": "I understand you. It's true that it's a big change. However, look at Montréal's pedestrian streets in summer: the patios are full." },
+            { "speaker": "Olivier", "fr": "Certes, mais l'été, c'est facile. Bon… Je reste contre, mais je viendrai quand même à la consultation publique.", "en": "Admittedly, but summer is easy. Well… I'm still against it, but I'll come to the public consultation anyway." },
+            { "speaker": "Raj", "fr": "C'est déjà ça ! Et malgré nos désaccords, je continuerai à acheter mes saucisses chez toi.", "en": "That's something! And despite our disagreements, I'll keep buying my sausages from you." },
+            { "speaker": "Olivier", "fr": "Encore heureux !", "en": "I should hope so!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "[[Plus de gens qu'on ne le pense]] = more people than you think. The [[ne]] here is **not** a negation: careful French often adds this *ne explétif* after comparisons ([[plus… que]], [[moins… que]]). Just recognize it; in speech you can leave it out: [[plus de gens qu'on pense]]." },
+        { "id": "d1", "type": "mcq", "prompt": "What is Lucie's final position?", "options": ["She supports the project, with two conditions", "She is against the project", "She has no opinion", "She supports it only in summer"], "answer": 0,
+          "explain": "[[Je soutiens donc le projet… j'insiste sur deux conditions]]: delivery zones and reserved spaces." },
+        { "id": "d2", "type": "mcq", "prompt": "What does Olivier concede at the end?", "options": ["He will attend the public consultation despite his opposition", "He now supports the bike lane", "He will buy a cargo bike", "He will close his shop"], "answer": 0,
+          "explain": "[[Je reste contre, mais je viendrai quand même…]]: [[quand même]] marks a concession in the main clause." }
+      ] },
+    { "type": "understand", "title": "The toolbox of concession",
+      "intro": "A concession has two halves: **what you admit** + **what you still maintain**. The tools differ in what they're followed by and in register.",
+      "blocks": [
+        { "type": "table", "title": "Concession tools",
+          "head": ["Tool", "Followed by", "Example", "Register"],
+          "rows": [
+            ["certes…, mais…", "a full sentence", "Certes, l'hiver est long, mais la piste sera déneigée.", "formal"],
+            ["il est vrai que…, cependant…", "indicative", "Il est vrai que c'est cher. Cependant, c'est rentable.", "formal / neutral"],
+            ["même si…", "indicative", "Même si je ne fais pas de vélo, je suis pour.", "all registers"],
+            ["bien que…", "subjunctive", "Bien qu'il fasse froid, je roule.", "formal / neutral"],
+            ["malgré…", "a noun", "Malgré le froid, je roule.", "all registers"],
+            ["avoir beau…", "an infinitive", "J'ai beau chercher, je ne trouve rien.", "all registers"],
+            ["… quand même / pourtant", "in the main clause", "Il pleut. Je sors quand même.", "neutral"]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "[[pourtant]] and [[quand même]] go in the clause that states your position, not in the concession." },
+        { "type": "explain", "title": "Bien que: learn it as chunks for now",
+          "body": "[[bien que]] (even though) always takes the **subjunctive**, a verb mood you will study properly in lesson 4 and in unit 06. For now, learn these frequent chunks as fixed blocks:\n\n- [[bien que ce soit…]] (even though it is…)\n- [[bien qu'il y ait…]] (even though there is / are…)\n- [[bien qu'il fasse froid / beau]] (even though the weather is cold / nice)\n- [[bien que je sois / tu sois / il soit…]] (even though I am / you are / he is…)\n- [[bien que j'aie…]] (even though I have…)\n\nIf you're not sure of the subjunctive form, switch to [[même si + indicatif]]: [[Même si c'est cher…]] means almost the same thing and is always safe." },
+        { "type": "pattern", "title": "Même si: like si, never subjunctive",
+          "pattern": "même si + présent / passé composé / imparfait, + main clause",
+          "note": "For a hypothesis, [[même si]] follows the **si-clause rule** you know from B1: [[même si + imparfait → conditionnel]]. Never put a conditional right after [[même si]].",
+          "examples": [
+            { "fr": "Même si c'est loin, j'y vais à vélo.", "en": "Even though it's far, I go there by bike." },
+            { "fr": "Même si j'ai perdu des clients, je ne regrette rien.", "en": "Even though I've lost customers, I have no regrets." },
+            { "fr": "Même si la ville offrait des vélos gratuits, il ne changerait pas d'avis.", "en": "Even if the city offered free bikes, he wouldn't change his mind." }
+          ] },
+        { "type": "pattern", "title": "Avoir beau: effort that changes nothing",
+          "pattern": "sujet + avoir (conjugated) + beau + infinitif, + result clause",
+          "note": "[[beau]] never changes. The tense goes on [[avoir]]: [[j'avais beau]] (past), [[tu auras beau]] (future).",
+          "examples": [
+            { "fr": "J'ai beau lire leurs arguments, je ne suis pas convaincue.", "en": "No matter how much I read their arguments, I'm not convinced." },
+            { "fr": "Ils ont beau protester, le projet va se faire.", "en": "However much they protest, the project will go ahead." },
+            { "fr": "Elle avait beau être fatiguée, elle a fini son rapport.", "en": "Tired as she was, she finished her report." }
+          ] },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["bien-que-ce-soit", "meme-si", "certes", "il-est-vrai-que", "malgre", "quand-meme", "pourtant", "piste-cyclable", "commercant", "deneigement"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Concession traps",
+          "body": "- [[Même si ce soit…]] ✗ → [[Même si c'est…]] ✓ (même si + indicative)\n- [[Bien que c'est…]] ✗ → [[Bien que ce soit…]] ✓ (bien que + subjunctive)\n- [[Même si j'aurais le temps…]] ✗ → [[Même si j'avais le temps, je ne viendrais pas.]] ✓ (no conditional after si)\n- [[Malgré il fait froid]] ✗ → [[Malgré le froid]] ✓ or [[Bien qu'il fasse froid]] ✓ (malgré + noun only)\n- [[J'ai belle chercher]] ✗ → [[J'ai beau chercher]] ✓ (beau is invariable, even for a woman)\n- **Two buts:** [[Certes c'est cher, mais cependant…]] ✗. Choose one: [[Certes…, mais…]] or [[Il est vrai que…, cependant…]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Malgré que, déneigement and winter cycling",
+          "body": "In everyday Québec French (and in France too), you'll often hear [[malgré que]] + a verb: [[Malgré qu'il fasse froid…]]. It is very common in speech but is criticized by style guides. In writing and in the exams, prefer [[bien que]].\n\nWinter cycling ([[le vélo d'hiver]]) is a real debate in Montréal, Québec City and Gatineau, where many bike lanes are now cleared all winter. Words to know: [[le déneigement]] (snow removal), [[une tempête]], [[la gadoue]] or, in Québec, [[la sloche]] (slush, informal), and [[le stationnement]] (parking; in France, [[le parking]])." }
+      ] },
+    { "type": "hear", "title": "The music of concession",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In a concession, the voice stays up on the part you admit and falls on the part you maintain. That falling tone is what sounds confident.",
+          "lines": [
+            { "fr": "Certes, l'hiver est long, mais la piste sera déneigée.", "en": "Admittedly, winter is long, but the lane will be cleared.", "tip": "[[certes]]: [sɛʁt]; the final s is silent." },
+            { "fr": "Il est vrai que c'est un gros changement. Cependant, ça vaut la peine.", "en": "It's true that it's a big change. However, it's worth it." },
+            { "fr": "Bien qu'il fasse très froid, je roule tous les jours.", "en": "Even though it's very cold, I ride every day.", "tip": "[[fasse]] [fas]: it rhymes with [[classe]]." },
+            { "fr": "Même si je ne fais pas de vélo, je soutiens le projet.", "en": "Even though I don't cycle, I support the project." },
+            { "fr": "J'ai beau chercher, je ne trouve aucune étude sérieuse.", "en": "No matter how hard I look, I can't find any serious study." },
+            { "fr": "Je suis contre, mais je viendrai quand même.", "en": "I'm against it, but I'll come anyway." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bien que ce soit plus cher, je préfère acheter mes légumes au marché.", "en": "Even though it's more expensive, I prefer buying my vegetables at the market.", "prompt": "What does the speaker admit?", "options": ["The market is more expensive", "The market is too far", "The vegetables are not fresh", "The market is closed"], "answer": 0,
+          "explain": "[[Bien que ce soit plus cher]] is the admitted part; [[je préfère…]] is the maintained position." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il a beau répéter que tout va bien, personne ne le croit.", "en": "No matter how often he repeats that everything's fine, nobody believes him.", "prompt": "What is the situation?", "options": ["He keeps saying everything is fine, but nobody believes him", "Everything is fine, so everyone is happy", "He is handsome and everyone likes him", "Nobody talks to him"], "answer": 0,
+          "explain": "[[avoir beau + infinitif]]: the effort (repeating) has no effect." }
+      ] },
+    { "type": "recall", "title": "Concede from memory",
+      "intro": "Nine questions. Watch the mood after each tool.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Même si le projet ___ (coûter) cher, il est nécessaire.", "answers": [["coûte"]], "en": "Even if the project is expensive, it's necessary.",
+          "explain": "[[même si + indicatif]]: [[il coûte]]." },
+        { "id": "r2", "type": "cloze", "text": "Bien que ce ___ difficile, je soutiens la mesure.", "answers": [["soit"]], "choices": ["soit", "est", "serait", "sera"], "en": "Even though it's difficult, I support the measure.",
+          "explain": "[[bien que ce soit]]: the subjunctive chunk." },
+        { "id": "r3", "type": "mcq", "prompt": "Complete: “___ la pluie, le marché était plein.”", "options": ["Malgré", "Bien que", "Même si", "Pourtant"], "optionsFr": true, "answer": 0,
+          "explain": "Before a noun ([[la pluie]]), only [[malgré]] works.",
+          "optionFeedback": [null, "Bien que needs a verb in the subjunctive.", "Même si needs a full clause with a verb.", "Pourtant goes in the main clause, not before a noun."] },
+        { "id": "r4", "type": "translate", "prompt": "No matter how hard I try, I can't convince him.", "accept": ["J'ai beau essayer, je n'arrive pas à le convaincre.", "J'ai beau essayer, je ne réussis pas à le convaincre.", "J'ai beau essayer, je ne peux pas le convaincre.", "J'ai beau faire des efforts, je n'arrive pas à le convaincre.", "J'ai beau faire des efforts, je ne réussis pas à le convaincre.", "J'ai beau essayer, je ne parviens pas à le convaincre."], "hint": "avoir beau + infinitive",
+          "explain": "[[J'ai beau essayer]] + a main clause. [[le]] goes before the infinitive [[convaincre]]." },
+        { "id": "r5", "type": "translate", "prompt": "Admittedly, it's expensive, but it's worth it.", "accept": ["Certes, c'est cher, mais ça vaut la peine.", "Certes, c'est cher, mais ça en vaut la peine.", "Certes c'est cher, mais ça vaut la peine.", "Certes, c'est cher, mais cela en vaut la peine.", "Certes, c'est cher, mais cela vaut la peine.", "Certes, c'est cher, mais ça vaut le coup."],
+          "explain": "[[Certes…, mais…]]: the formal way to admit a point, then maintain yours." },
+        { "id": "r6", "type": "reorder", "prompt": "I'm against it, but I'll come anyway.", "accept": ["Je suis contre mais je viendrai quand même"], "extra": ["malgré", "pourtant"],
+          "explain": "[[quand même]] goes at the end of the clause that states what you still do." },
+        { "id": "r7", "type": "cloze", "text": "Même si j'___ (avoir) une voiture, je prendrais l'autobus.", "answers": [["avais"]], "en": "Even if I had a car, I would take the bus.",
+          "explain": "A hypothesis: [[même si + imparfait → conditionnel]], exactly like a B1 si-clause." },
+        { "id": "r8", "type": "match", "prompt": "Match each tool with what follows it.", "pairs": [["bien que", "a subjunctive verb"], ["même si", "an indicative verb"], ["malgré", "a noun"], ["avoir beau", "an infinitive"], ["certes", "a sentence, then mais"]] },
+        { "id": "r9", "type": "dictation", "fr": "Il est vrai que l'hiver est long. Cependant, la piste sera déneigée.", "accept": ["Il est vrai que l'hiver est long, cependant, la piste sera déneigée."], "explain": "[[Il est vrai que…]] + [[cependant]]; [[déneigée]] agrees with [[la piste]]." }
+      ] },
+    { "type": "apply", "title": "Your turn: concede and hold your ground",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Your city wants to ban cars from the main street every Sunday in summer. Give your opinion in about one minute. Concede at least two points to the other side, using different tools.", "promptFr": "Votre ville veut interdire les voitures dans la rue principale le dimanche, l'été. Qu'en pensez-vous ?", "seconds": 60,
+          "checklist": ["A clear position", "At least two different concession tools (certes, même si, bien que, malgré, avoir beau)", "Each concession followed by your counter-position", "Quand même or pourtant in a main clause"],
+          "models": [
+            { "label": "Model answer", "fr": "Personnellement, je suis plutôt pour. Certes, les gens qui habitent la rue auront plus de mal à se garer, mais ce n'est qu'un jour par semaine. Bien qu'il y ait des commerçants inquiets, l'expérience montre que les rues piétonnes attirent du monde : les familles se promènent, les terrasses se remplissent. Même si je comprends ceux qui ont besoin de leur voiture, je pense qu'on peut prévoir des exceptions pour les livraisons et les personnes âgées. Bref, malgré quelques inconvénients, l'idée mérite d'être essayée.", "en": "Personally, I'm rather in favour. Admittedly, people who live on the street will have more trouble parking, but it's only one day a week. Even though some shopkeepers are worried, experience shows that pedestrian streets attract people: families stroll, patios fill up. Even though I understand those who need their car, I think exceptions can be made for deliveries and elderly people. In short, despite a few drawbacks, the idea deserves to be tried." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "On a neighbourhood forum, someone writes: “Le télétravail, c'est la fin de l'esprit d'équipe.” Reply in a neutral-to-formal register. Concede what is true, then defend your view.", "promptFr": "Répondez au message : « Le télétravail, c'est la fin de l'esprit d'équipe. »",
+          "wordRange": [120, 180],
+          "checklist": ["Your position early on", "At least three different concession tools", "Correct mood after même si (indicative) and bien que (subjunctive chunk)", "Malgré + noun, at least once", "A short conclusion"],
+          "models": [
+            { "label": "Model answer", "fr": "Je ne suis pas tout à fait d'accord avec ce message. Certes, quand on travaille à la maison, on voit moins ses collègues, et les discussions informelles autour de la machine à café disparaissent. Il est vrai aussi que certains employés se sentent isolés. Cependant, l'esprit d'équipe ne dépend pas seulement du lieu de travail. Dans mon équipe, nous travaillons à distance trois jours par semaine. Bien que ce soit parfois difficile, nous organisons une réunion en ligne chaque matin et un dîner ensemble une fois par mois. Même si nous ne nous voyons pas tous les jours, nous nous entraidons beaucoup. Malgré la distance, je trouve que notre équipe est plus soudée qu'avant. Bref, le télétravail demande plus d'organisation, mais il ne tue pas l'esprit d'équipe.", "en": "I don't completely agree with this message. Admittedly, when you work from home, you see your colleagues less, and the informal chats around the coffee machine disappear. It's also true that some employees feel isolated. However, team spirit doesn't depend only on the workplace. In my team, we work remotely three days a week. Even though it's sometimes difficult, we hold an online meeting every morning and have lunch together once a month. Even though we don't see each other every day, we help each other a lot. Despite the distance, I find our team is closer than before. In short, remote work requires more organization, but it doesn't kill team spirit." },
+            { "label": "Stronger model answer", "fr": "Ce message soulève une vraie question, mais sa conclusion me paraît trop radicale. Il est vrai que le télétravail a fragilisé certains liens : les nouveaux employés, en particulier, ont du mal à s'intégrer quand ils ne rencontrent jamais leurs collègues. J'ai moi-même commencé un emploi à distance, et j'ai eu beau participer à toutes les réunions en ligne, j'ai mis des mois à connaître mon équipe.\n\nPourtant, à mon avis, le problème ne vient pas du télétravail lui-même. Il vient plutôt de la manière dont on l'organise. Bien qu'il y ait moins de contacts spontanés, une équipe peut créer d'autres rituels : une journée commune au bureau, du mentorat pour les nouveaux, des projets en binôme. Malgré ses limites, le travail hybride a aussi des avantages pour la cohésion : des employés moins fatigués sont souvent plus disponibles pour les autres.\n\nEn définitive, le télétravail n'est pas la fin de l'esprit d'équipe ; il oblige simplement à le construire autrement.", "en": "This message raises a real question, but its conclusion seems too radical to me. It's true that remote work has weakened some ties: new employees, in particular, struggle to fit in when they never meet their colleagues. I myself started a job remotely, and no matter how many online meetings I attended, it took me months to get to know my team.\n\nAnd yet, in my view, the problem doesn't come from remote work itself. Rather, it comes from the way it is organized. Even though there are fewer spontaneous contacts, a team can create other rituals: a common day at the office, mentoring for newcomers, projects in pairs. Despite its limits, hybrid work also has advantages for cohesion: less tired employees are often more available for others.\n\nUltimately, remote work isn't the end of team spirit; it simply forces us to build it differently." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Concede a point, then maintain your position: [[certes…, mais…]], [[il est vrai que…, cependant…]]\n- [[même si + indicatif]] (and [[même si + imparfait → conditionnel]] for a hypothesis)\n- [[bien que + subjonctif]] as chunks: [[bien que ce soit]], [[bien qu'il y ait]], [[bien qu'il fasse froid]]\n- [[malgré + nom]], [[avoir beau + infinitif]], and [[quand même]] / [[pourtant]] in the main clause",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Added a gloss for the ne explétif in 'Plus de gens qu'on ne le pense', widened accept lists (parking variants, parvenir, valoir le coup), and fixed the avoir beau register and the fasse pronunciation tip." }
+}

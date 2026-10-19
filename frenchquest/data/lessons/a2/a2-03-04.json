@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-03-04",
+  "level": "a2",
+  "unit": "a2-03",
+  "title": "Feelings and states in the past",
+  "goal": "Say how you felt and what state you were in at a moment in the past, such as your first days in Canada.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-etats", "kind": "grammar", "fr": "j'étais fatigué, j'avais peur", "en": "feelings and states in the past: être / avoir in the imparfait",
+      "drills": [
+        { "type": "cloze", "text": "Le premier jour, j'___ très stressée. (être)", "answers": [["étais"]], "en": "On the first day, I was very stressed.", "explain": "A feeling at a past moment → imparfait: j'étais. The adjective agrees: stressée." },
+        { "type": "cloze", "text": "Les enfants ___ peur du chien. (avoir)", "answers": [["avaient"]], "en": "The children were afraid of the dog.", "explain": "Fear uses avoir: avoir peur → ils avaient peur." },
+        { "type": "mcq", "prompt": "“I was cold.”", "options": ["J'avais froid.", "J'étais froid.", "Je faisais froid."], "optionsFr": true, "answer": 0, "explain": "A person being cold uses avoir: j'avais froid. Il faisait froid is the weather." },
+        { "type": "translate", "prompt": "We were very happy.", "accept": ["Nous étions très contents.", "Nous étions très contentes.", "On était très contents.", "On était très contentes.", "Nous étions très heureux.", "Nous étions très heureuses.", "On était très heureux.", "On était très heureuses."], "explain": "nous → étions; the adjective is plural." }
+      ] },
+    { "id": "g-quand-pc-imp", "kind": "grammar", "fr": "Quand je suis arrivé, j'étais fatigué.", "en": "first contrast: an event (passé composé) + a state (imparfait)",
+      "drills": [
+        { "type": "cloze", "text": "Quand je ___ arrivée à l'aéroport, j'étais fatiguée.", "answers": [["suis"]], "en": "When I arrived at the airport, I was tired.", "explain": "Arriving is an event → passé composé with être. Being tired is a state → imparfait." },
+        { "type": "cloze", "text": "Quand il a commencé son travail, il ___ nerveux. (être)", "answers": [["était"]], "en": "When he started his job, he was nervous.", "explain": "The feeling at that moment → imparfait: il était nerveux." },
+        { "type": "mcq", "prompt": "Which verb describes a state?", "options": ["j'avais faim", "j'ai mangé", "je suis parti"], "optionsFr": true, "answer": 0, "explain": "Hunger is a state → imparfait. Eating and leaving are events." }
+      ] },
+    { "id": "avoir-peur", "kind": "phrase", "fr": "J'avais peur.", "en": "I was scared.", "accept": ["J'avais un peu peur."], "note": "avoir peur de + infinitive: J'avais peur de parler." },
+    { "id": "mal-du-pays", "kind": "phrase", "fr": "avoir le mal du pays", "en": "to be homesick",
+      "note": "In the past: j'avais le mal du pays." },
+    { "id": "avoir-hate", "kind": "phrase", "fr": "J'avais hâte de commencer.", "en": "I couldn't wait to start.", "note": "avoir hâte de + infinitive = to look forward to, can't wait to." },
+    { "id": "stresse", "kind": "vocab", "fr": "stressé", "fem": "stressée", "en": "stressed", "pos": "adjective", "accept": ["stressée"] },
+    { "id": "nerveux", "kind": "vocab", "fr": "nerveux", "fem": "nerveuse", "en": "nervous", "pos": "adjective", "accept": ["nerveuse"],
+      "example": { "fr": "J'étais un peu nerveuse avant l'entrevue.", "en": "I was a bit nervous before the interview." } },
+    { "id": "seul", "kind": "vocab", "fr": "seul", "fem": "seule", "en": "alone, lonely", "pos": "adjective", "accept": ["seule"] },
+    { "id": "fier", "kind": "vocab", "fr": "fier", "fem": "fière", "en": "proud", "pos": "adjective", "accept": ["fière"],
+      "example": { "fr": "Je suis fière de mes progrès.", "en": "I'm proud of my progress." } },
+    { "id": "perdu", "kind": "vocab", "fr": "perdu", "fem": "perdue", "en": "lost (confused)", "pos": "adjective", "accept": ["perdue"] },
+    { "id": "triste", "kind": "vocab", "fr": "triste", "en": "sad", "pos": "adjective" },
+    { "id": "je-voulais", "kind": "phrase", "fr": "Je voulais rentrer chez moi.", "en": "I wanted to go home." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "My first days in Montréal",
+      "blocks": [
+        { "type": "text", "title": "Amira's blog post",
+          "context": "Amira writes in French on her blog, one year after her arrival in Canada.",
+          "fr": "Je suis arrivée à Montréal le 2 janvier. Quand je suis sortie de l'aéroport, il faisait moins vingt ! J'étais fatiguée après le voyage, mais j'étais aussi très contente : enfin, j'étais au Canada.\nLes premières semaines, c'était difficile. Je n'avais pas d'amis ici et ma famille était loin. Je ne comprenais pas toujours l'accent québécois et j'avais peur de parler au téléphone. Dans le métro, j'étais souvent perdue.\nLe soir, j'étais triste. J'avais le mal du pays et je voulais parler à ma mère tous les jours.\nPuis, en février, j'ai commencé mon cours de francisation et j'ai rencontré Sofia. Elle aussi, elle était nouvelle et elle se sentait seule. Maintenant, nous sommes amies et je suis fière de mes progrès !",
+          "en": "I arrived in Montréal on January 2. When I came out of the airport, it was minus twenty! I was tired after the trip, but I was also very happy: at last, I was in Canada.\nThe first weeks were hard. I had no friends here and my family was far away. I didn't always understand the Québec accent and I was afraid of speaking on the phone. In the metro, I was often lost.\nIn the evening, I was sad. I was homesick and I wanted to talk to my mother every day.\nThen, in February, I started my French course and I met Sofia. She was new too and she felt lonely. Now we're friends and I'm proud of my progress!" },
+        { "id": "d1", "type": "mcq", "prompt": "How did Amira feel when she came out of the airport?", "options": ["Tired but happy", "Sad and lost", "Nervous and cold"], "answer": 0,
+          "explain": "[[J'étais fatiguée après le voyage, mais j'étais aussi très contente.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "What was Amira afraid of?", "options": ["Speaking on the phone", "Taking the metro", "The cold"], "answer": 0,
+          "explain": "[[J'avais peur de parler au téléphone.]] In the metro, she was lost ([[perdue]]), not scared." }
+      ] },
+    { "type": "understand", "title": "How you felt",
+      "blocks": [
+        { "type": "explain", "title": "Feelings are states, not events",
+          "body": "How you **felt**, what you **wanted**, what you **thought** or **knew** at a moment in the past: these are **states**, so they go in the **imparfait**.\n\n- [[J'étais fatiguée.]] I was tired.\n- [[J'avais peur.]] I was scared.\n- [[Je voulais parler à ma mère.]] I wanted to talk to my mother.\n- [[Je ne comprenais pas l'accent.]] I didn't understand the accent.\n\nThe English *was / were* is very often [[j'étais / nous étions]], and *had* in descriptions is [[j'avais]]." },
+        { "type": "table", "title": "Être + adjective",
+          "head": ["imparfait", "English"],
+          "rows": [
+            ["J'étais fatigué. / J'étais fatiguée.", "I was tired."],
+            ["J'étais content. / J'étais contente.", "I was happy."],
+            ["J'étais stressé. / J'étais stressée.", "I was stressed."],
+            ["Il était nerveux. / Elle était nerveuse.", "He / she was nervous."],
+            ["Nous étions seuls. / Nous étions seules.", "We were alone (lonely)."],
+            ["Ils étaient fiers. / Elles étaient fières.", "They were proud."]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "The adjective agrees with the person, as in the present: a woman says [[j'étais contente]]." },
+        { "type": "table", "title": "Avoir + noun",
+          "head": ["imparfait", "English"],
+          "rows": [
+            ["J'avais peur.", "I was scared."],
+            ["J'avais froid. / J'avais chaud.", "I was cold. / I was hot."],
+            ["J'avais faim. / J'avais soif.", "I was hungry. / I was thirsty."],
+            ["J'avais sommeil.", "I was sleepy."],
+            ["J'avais le mal du pays.", "I was homesick."],
+            ["J'avais hâte de commencer.", "I couldn't wait to start."]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "English uses *was* + adjective; French uses **avoir** + noun. Don't translate word for word." },
+        { "type": "pattern", "title": "Verbs of thinking and wanting",
+          "pattern": "je voulais / je pouvais / je pensais / je comprenais / je savais",
+          "note": "These verbs describe what was going on in your head, so they are almost always in the imparfait when you set the scene.",
+          "examples": [
+            { "fr": "Je voulais rentrer chez moi.", "en": "I wanted to go home." },
+            { "fr": "Je ne pouvais pas dormir.", "en": "I couldn't sleep." },
+            { "fr": "Je pensais que c'était facile.", "en": "I thought it was easy." },
+            { "fr": "Je ne savais pas parler anglais.", "en": "I didn't know how to speak English." }
+          ] },
+        { "type": "explain", "title": "A first look: event + state",
+          "body": "Look at Amira's first sentence: [[Quand je suis sortie de l'aéroport, il faisait moins vingt. J'étais fatiguée.]]\n\n- [[je suis sortie]]: an **event**, it happened once → passé composé\n- [[il faisait]], [[j'étais]]: the **situation** at that moment → imparfait\n\nA useful frame: **Quand + passé composé, imparfait.** [[Quand je suis arrivé, j'avais peur.]] This is only a preview. Unit 10 is all about choosing between the two tenses." },
+        { "type": "vocab", "title": "Feelings", "itemIds": ["avoir-peur", "mal-du-pays", "avoir-hate", "stresse", "nerveux", "seul", "fier", "perdu", "triste", "je-voulais"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Être instead of avoir:** [[J'étais peur]] → [[J'avais peur]]; [[J'étais froid]] → [[J'avais froid]] (*j'étais froid* means your personality was cold!).\n- **Agreement:** a woman writes [[j'étais fatiguée]], [[j'étais nerveuse]], [[j'étais fière]].\n- **Nerveux in the plural:** words ending in -x don't add -s: [[ils étaient nerveux]].\n- **Passé composé for a state:** [[J'ai été triste]] exists, but it presents the sadness as a closed period. To describe how you felt at the time, say [[j'étais triste]].\n- **Je suis été:** this form does not exist. The passé composé of être is [[j'ai été]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Talking about your arrival",
+          "body": "Almost every newcomer is asked [[Comment ça s'est passé, ton arrivée ?]] (How did your arrival go?). In Québec, you may hear people say they were [[écœuré]] (fed up, informal) or that the first winter was [[dur]] (hard). Many Québec organizations offer free [[cours de francisation]] and activities for newcomers, often the best place to meet people when you feel [[seul]]." }
+      ] },
+    { "type": "hear", "title": "Hear the feelings",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "J'étais fatiguée, mais j'étais contente.", "en": "I was tired, but I was happy.", "tip": "The -ée of fatiguée sounds like é: same as the masculine." },
+            { "fr": "J'avais peur de parler au téléphone.", "en": "I was afraid of speaking on the phone." },
+            { "fr": "Il était nerveux. Elle était nerveuse.", "en": "He was nervous. She was nervous.", "tip": "You hear a z only in the feminine: nerveuse." },
+            { "fr": "J'avais le mal du pays.", "en": "I was homesick." },
+            { "fr": "Quand je suis arrivé, il faisait froid.", "en": "When I arrived, it was cold." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Le premier jour au travail, j'étais très nerveuse.", "en": "On my first day at work, I was very nervous.", "prompt": "How did she feel on her first day?", "options": ["Very nervous", "Very proud", "Very tired"], "answer": 0,
+          "explain": "[[nerveuse]] = nervous (feminine form: you hear the z)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Quand je suis arrivé à Toronto, j'avais hâte de commencer mon nouveau travail.", "en": "When I arrived in Toronto, I couldn't wait to start my new job.", "prompt": "How did the speaker feel about the new job?", "options": ["Couldn't wait to start", "Afraid of it", "Sad about it"], "answer": 0,
+          "explain": "[[avoir hâte de]] = to look forward to, can't wait to." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Après le voyage, nous ___ très fatigués.", "answers": [["étions"]], "choices": ["étions", "avions", "sommes allés"], "en": "After the trip, we were very tired.",
+          "explain": "Tiredness is a state: être in the imparfait, [[nous étions]]." },
+        { "id": "r2", "type": "cloze", "text": "J'___ peur de parler en français.", "answers": [["avais"]], "choices": ["avais", "étais", "ai eu"], "en": "I was afraid of speaking French.",
+          "explain": "[[avoir peur de]] + infinitive, in the imparfait: [[j'avais peur]]." },
+        { "id": "r3", "type": "mcq", "prompt": "Sofia speaking: “I was lost in the metro.”", "options": ["J'étais perdue dans le métro.", "J'étais perdu dans le métro.", "J'avais perdue dans le métro."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Sofia is a woman: perdue.", "j'avais perdu means “I had lost (something)”. Here, use être + adjective."] },
+        { "id": "r4", "type": "translate", "prompt": "I was homesick.", "accept": ["J'avais le mal du pays."],
+          "explain": "French uses avoir + noun: [[avoir le mal du pays]]." },
+        { "id": "r5", "type": "match", "prompt": "Match the feelings.", "pairs": [["J'étais fière.", "I was proud."], ["J'avais sommeil.", "I was sleepy."], ["J'étais seule.", "I was lonely."], ["J'avais hâte.", "I couldn't wait."], ["J'étais triste.", "I was sad."]] },
+        { "id": "r6", "type": "cloze", "text": "Quand il ___ arrivé à Vancouver, il ___ content.", "answers": [["est"], ["était"]], "en": "When he arrived in Vancouver, he was happy.",
+          "explain": "Event → passé composé ([[il est arrivé]]); state at that moment → imparfait ([[il était content]])." },
+        { "id": "r7", "type": "translate", "prompt": "I couldn't sleep because I was stressed. (woman speaking)", "accept": ["Je ne pouvais pas dormir parce que j'étais stressée.", "Je pouvais pas dormir parce que j'étais stressée.", "Je n'arrivais pas à dormir parce que j'étais stressée."],
+          "hint": "pouvoir → je pouvais", "explain": "Two states → two imparfaits: [[je ne pouvais pas]], [[j'étais stressée]]." },
+        { "id": "r8", "type": "reorder", "prompt": "I wanted to talk to my mother every day.", "accept": ["Je voulais parler à ma mère tous les jours.", "Tous les jours, je voulais parler à ma mère."], "extra": ["voulu"],
+          "explain": "[[vouloir]] → nous voulons → [[je voulais]]." },
+        { "id": "r9", "type": "cloze", "text": "Le matin, il ___ très froid et nous avions froid aux mains.", "answers": [["faisait"]], "en": "In the morning, it was very cold and our hands were cold.",
+          "explain": "Weather → [[il faisait froid]]; a person → [[avoir froid]]." },
+        { "id": "r10", "type": "dictation", "fr": "Elle était nerveuse avant l'entrevue.", "accept": [],
+          "explain": "[[nerveuse]] is the feminine of nerveux. [[Une entrevue]] = a job interview (Québec; France: un entretien)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a short post about your first days in Canada (or in a new city). Say when you arrived, what the weather was like, how you felt, what was difficult, and how you feel now.", "promptFr": "Mes premiers jours au Canada.",
+          "wordRange": [50, 100],
+          "checklist": ["Je suis arrivé / arrivée… (passé composé)", "il faisait… (weather)", "Two feelings with être: j'étais…", "One feeling with avoir: j'avais peur / froid / le mal du pays", "A verb of wanting or thinking: je voulais, je pensais", "Now: Maintenant, je suis…"],
+          "models": [ { "label": "Model answer", "fr": "Je suis arrivé à Toronto en août. Il faisait très chaud et humide. Les premiers jours, j'étais content, mais j'étais aussi un peu perdu : la ville était très grande ! Je ne comprenais pas bien les gens et j'avais peur de faire des erreurs. Le soir, j'avais le mal du pays et je voulais parler à ma famille. Maintenant, j'ai des amis et je suis fier de mon français.",
+            "en": "I arrived in Toronto in August. It was very hot and humid. The first days, I was happy, but I was also a bit lost: the city was very big! I didn't understand people well and I was afraid of making mistakes. In the evening, I was homesick and I wanted to talk to my family. Now I have friends and I'm proud of my French." } ] },
+        { "id": "s1", "type": "speak", "prompt": "Tell a friend in 30 seconds about your first day at a new job or a new school: when it was, how you felt before, and how you felt at the end of the day.", "seconds": 30,
+          "checklist": ["Mon premier jour, c'était…", "Avant: j'étais nerveux / nerveuse, j'avais peur…", "At the end: j'étais content / contente, fier / fière…"],
+          "models": [ { "label": "Model answer", "fr": "Mon premier jour à la clinique, c'était en mars. Le matin, j'étais très nerveuse et je n'avais pas faim. J'avais peur de ne pas comprendre mes collègues. Mais ils étaient très gentils ! Le soir, j'étais fatiguée, mais j'étais fière.",
+            "en": "My first day at the clinic was in March. In the morning, I was very nervous and I wasn't hungry. I was afraid of not understanding my colleagues. But they were very nice! In the evening, I was tired, but I was proud." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Describe feelings in the past: [[j'étais fatigué, nerveuse, fière…]] and [[j'avais peur, froid, le mal du pays]]\n- Say what you wanted or thought: [[je voulais]], [[je pensais]], [[je ne pouvais pas]]\n- Combine an event and a feeling: [[Quand je suis arrivée, j'étais contente.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made a listening question gender-neutral (arrivé/arrivée sound the same); content otherwise correct." }
+}

@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-06-02",
+  "level": "a1",
+  "unit": "a1-06",
+  "title": "Some, any, none",
+  "goal": "Say what you eat and drink with du, de la, de l' and des, and what you don't with pas de.",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "g-partitive",
+      "kind": "grammar",
+      "fr": "du / de la / de l' / des",
+      "en": "some (an unspecified amount): the partitive",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Le matin, je mange ___ pain.",
+          "answers": [
+            [
+              "du"
+            ]
+          ],
+          "en": "In the morning, I eat bread.",
+          "explain": "[[pain]] is masculine: de + le = [[du]]."
+        },
+        {
+          "type": "cloze",
+          "text": "Tu bois ___ eau ?",
+          "answers": [
+            [
+              "de l'"
+            ]
+          ],
+          "en": "Do you drink water?",
+          "explain": "Before a vowel, use [[de l']]: [[de l'eau]]."
+        },
+        {
+          "type": "cloze",
+          "text": "Nous mangeons ___ viande le soir.",
+          "answers": [
+            [
+              "de la"
+            ]
+          ],
+          "en": "We eat meat in the evening.",
+          "explain": "[[viande]] is feminine: [[de la viande]]."
+        },
+        {
+          "type": "mcq",
+          "prompt": "“I eat apples.”",
+          "options": [
+            "Je mange des pommes.",
+            "Je mange du pommes.",
+            "Je mange pommes."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Plural → [[des]]. French never leaves the noun without an article here."
+        }
+      ]
+    },
+    {
+      "id": "g-pas-de",
+      "kind": "grammar",
+      "fr": "ne … pas de / pas d'",
+      "en": "not any, no (after a negative)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Je ne mange pas ___ viande.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "en": "I don't eat meat.",
+          "explain": "After ne… pas, [[de la]] becomes [[de]]."
+        },
+        {
+          "type": "cloze",
+          "text": "Je ne bois pas ___ eau gazeuse.",
+          "answers": [
+            [
+              "d'"
+            ]
+          ],
+          "en": "I don't drink sparkling water.",
+          "explain": "Before a vowel, [[de]] becomes [[d']]: [[pas d'eau]]."
+        },
+        {
+          "type": "translate",
+          "prompt": "I don't drink coffee.",
+          "accept": [
+            "Je ne bois pas de café."
+          ],
+          "explain": "[[du café]] becomes [[de café]] after ne… pas."
+        }
+      ]
+    },
+    {
+      "id": "g-aimer-vs-manger",
+      "kind": "grammar",
+      "fr": "j'aime le café / je bois du café",
+      "en": "liking (le, la, les) vs eating and drinking (du, de la, des)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "J'aime ___ thé, alors je bois ___ thé le matin.",
+          "answers": [
+            [
+              "le"
+            ],
+            [
+              "du"
+            ]
+          ],
+          "en": "I like tea, so I drink tea in the morning.",
+          "explain": "aimer + [[le]] (tea in general); boire + [[du]] (some tea)."
+        },
+        {
+          "type": "mcq",
+          "prompt": "“I don't like cheese.”",
+          "options": [
+            "Je n'aime pas le fromage.",
+            "Je n'aime pas de fromage.",
+            "Je n'aime pas du fromage."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "With aimer, the article stays [[le]], even after ne… pas. Only du/de la/des change to de."
+        }
+      ]
+    },
+    {
+      "id": "je-bois",
+      "kind": "phrase",
+      "fr": "je bois",
+      "en": "I drink",
+      "example": {
+        "fr": "Je bois du café le matin.",
+        "en": "I drink coffee in the morning."
+      }
+    },
+    {
+      "id": "tu-bois",
+      "kind": "phrase",
+      "fr": "Tu bois du thé ?",
+      "en": "Do you drink tea? (to a friend)",
+      "accept": [
+        "Est-ce que tu bois du thé ?",
+        "Bois-tu du thé ?"
+      ]
+    },
+    {
+      "id": "vous-buvez",
+      "kind": "phrase",
+      "fr": "vous buvez",
+      "en": "you drink (formal or plural)",
+      "note": "Irregular: the stem changes to [[buv-]] with vous.",
+      "example": {
+        "fr": "Vous buvez du lait ?",
+        "en": "Do you drink milk?"
+      }
+    },
+    {
+      "id": "pas-de-viande",
+      "kind": "phrase",
+      "fr": "Je ne mange pas de viande.",
+      "en": "I don't eat meat."
+    },
+    {
+      "id": "riz",
+      "kind": "vocab",
+      "fr": "riz",
+      "article": "le",
+      "gender": "m",
+      "en": "rice",
+      "pos": "noun",
+      "accept": [
+        "riz"
+      ],
+      "note": "The z is silent.",
+      "example": {
+        "fr": "Nguyen mange du riz.",
+        "en": "Nguyen eats rice."
+      }
+    },
+    {
+      "id": "the",
+      "kind": "vocab",
+      "fr": "thé",
+      "article": "le",
+      "gender": "m",
+      "en": "tea",
+      "pos": "noun",
+      "accept": [
+        "thé"
+      ],
+      "example": {
+        "fr": "Je bois du thé.",
+        "en": "I drink tea."
+      }
+    },
+    {
+      "id": "lait",
+      "kind": "vocab",
+      "fr": "lait",
+      "article": "le",
+      "gender": "m",
+      "en": "milk",
+      "pos": "noun",
+      "accept": [
+        "lait"
+      ],
+      "note": "The t is silent.",
+      "example": {
+        "fr": "Vous buvez du lait ?",
+        "en": "Do you drink milk?"
+      }
+    },
+    {
+      "id": "jus-orange",
+      "kind": "vocab",
+      "fr": "jus d'orange",
+      "article": "le",
+      "gender": "m",
+      "en": "orange juice",
+      "pos": "noun",
+      "accept": [
+        "jus d'orange"
+      ],
+      "example": {
+        "fr": "Je bois du jus d'orange.",
+        "en": "I drink orange juice."
+      }
+    },
+    {
+      "id": "pomme",
+      "kind": "vocab",
+      "fr": "pomme",
+      "article": "la",
+      "gender": "f",
+      "en": "apple",
+      "pos": "noun",
+      "accept": [
+        "pomme",
+        "une pomme"
+      ],
+      "example": {
+        "fr": "Je mange une pomme.",
+        "en": "I'm eating an apple."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Breakfast in a shared apartment",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "Breakfast in Montréal",
+          "context": "Camille and her new roommate Nguyen talk about breakfast.",
+          "lines": [
+            {
+              "speaker": "Nguyen",
+              "fr": "Bonjour Camille ! Qu'est-ce que tu manges le matin ?",
+              "en": "Morning, Camille! What do you eat in the morning?"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Je mange du pain avec du fromage, et je bois du café. Et toi ?",
+              "en": "I eat bread with cheese, and I drink coffee. And you?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Moi, je ne mange pas de pain le matin. Je mange du riz ou des fruits.",
+              "en": "I don't eat bread in the morning. I eat rice or fruit."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Du riz le matin ? C'est intéressant ! Tu bois du café ?",
+              "en": "Rice in the morning? That's interesting! Do you drink coffee?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Non, je ne bois pas de café. Je bois du thé.",
+              "en": "No, I don't drink coffee. I drink tea."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Avec du lait ?",
+              "en": "With milk?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Non merci, pas de lait !",
+              "en": "No thanks, no milk!"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Moi, j'aime le café, et toi, tu aimes le thé. C'est parfait !",
+              "en": "I like coffee, and you like tea. That's perfect!"
+            }
+          ]
+        },
+        {
+          "type": "listen",
+          "title": "Karim's lunch",
+          "context": "Karim talks about what he eats at lunchtime.",
+          "fr": "Le midi, je mange de la viande ou du poisson avec des légumes. Je bois de l'eau. Je ne mange pas de pâtes, et je ne bois pas de jus d'orange.",
+          "en": "At lunchtime, I eat meat or fish with vegetables. I drink water. I don't eat pasta, and I don't drink orange juice."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Look at the little words before the food: [[du]], [[de la]], [[de l']], [[des]]… and just [[de]] after [[ne… pas]]. That is today's lesson."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Du, de la, de l', des",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "Why French needs “some”",
+          "body": "In English, you can say “I eat bread” with no article. **French can't.** A food noun almost always needs a little word in front of it.\n\nWhen you eat or drink **an amount** of something (not all bread in the world, not one specific loaf, just *some*), French uses the **partitive**: [[du]], [[de la]], [[de l']] or [[des]].\n\n[[Je mange du pain.]] = I eat (some) bread. In English, “some” is optional; in French, [[du]] is required."
+        },
+        {
+          "type": "table",
+          "title": "The partitive",
+          "head": [
+            "",
+            "before the noun",
+            "example",
+            "English"
+          ],
+          "rows": [
+            [
+              "masculine",
+              "du (de + le)",
+              "du pain",
+              "(some) bread"
+            ],
+            [
+              "feminine",
+              "de la",
+              "de la viande",
+              "(some) meat"
+            ],
+            [
+              "before a vowel",
+              "de l'",
+              "de l'eau",
+              "(some) water"
+            ],
+            [
+              "plural",
+              "des",
+              "des fruits",
+              "(some) fruit"
+            ]
+          ],
+          "frCols": [
+            1,
+            2
+          ],
+          "sayCol": true,
+          "note": "[[de + le]] always contracts to [[du]]. [[de la]] and [[de l']] never contract."
+        },
+        {
+          "type": "pattern",
+          "title": "Eating and drinking",
+          "pattern": "je mange / je bois + du / de la / de l' / des + food",
+          "note": "Use the partitive after verbs like [[manger]] (to eat), [[boire]] (to drink) and [[acheter]] (to buy), when you mean an amount. (Exception: [[ce n'est pas du café]] keeps [[du]]; see below.)",
+          "examples": [
+            {
+              "fr": "Je mange du poulet.",
+              "en": "I eat chicken."
+            },
+            {
+              "fr": "Elle mange de la viande.",
+              "en": "She eats meat."
+            },
+            {
+              "fr": "Vous buvez de l'eau ?",
+              "en": "Do you drink water? (formal)"
+            },
+            {
+              "fr": "Tu manges des pâtes ?",
+              "en": "Are you eating pasta? (to a friend)"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Boire (to drink): three forms to know now",
+          "head": [
+            "",
+            "boire",
+            "English"
+          ],
+          "rows": [
+            [
+              "je",
+              "bois",
+              "I drink"
+            ],
+            [
+              "tu",
+              "bois",
+              "you drink (one friend)"
+            ],
+            [
+              "vous",
+              "buvez",
+              "you drink (formal, or more than one person)"
+            ]
+          ],
+          "frCols": [
+            0,
+            1
+          ],
+          "sayCol": true,
+          "note": "[[boire]] is irregular. Learn these as chunks for now. You will also hear [[il boit]] / [[elle boit]] (sounds the same as [[bois]]) and [[nous buvons]]."
+        },
+        {
+          "type": "explain",
+          "title": "None: pas de",
+          "body": "After a negative (**ne … pas**), [[du]], [[de la]], [[de l']] and [[des]] all become just [[de]]. Before a vowel, [[de]] becomes [[d']].\n\n- [[Je mange du pain.]] → [[Je ne mange pas de pain.]]\n- [[Je mange de la viande.]] → [[Je ne mange pas de viande.]]\n- [[Je bois de l'eau.]] → [[Je ne bois pas d'eau.]]\n- [[Je mange des fruits.]] → [[Je ne mange pas de fruits.]]\n\nIt works the same way with [[avoir]]: [[J'ai des enfants]] → [[Je n'ai pas d'enfants]].\n\n**Exception: être.** After [[ce n'est pas]], the article does **not** change: [[C'est du café ? Non, ce n'est pas du café, c'est du thé.]]"
+        },
+        {
+          "type": "explain",
+          "title": "Liking vs eating: le or du?",
+          "body": "This is the key contrast of the unit:\n\n- **Liking** (aimer, adorer, détester) → [[le]], [[la]], [[l']], [[les]]: you talk about the food **in general**. [[J'aime le café.]]\n- **Eating, drinking, buying** (manger, boire, acheter) → [[du]], [[de la]], [[de l']], [[des]]: you talk about **an amount**. [[Je bois du café.]]\n\nAnd in the negative, only the partitive changes: [[Je n'aime pas le café]] (the article stays), but [[Je ne bois pas de café]]."
+        },
+        {
+          "type": "vocab",
+          "title": "Words to learn",
+          "itemIds": [
+            "je-bois",
+            "tu-bois",
+            "vous-buvez",
+            "pas-de-viande",
+            "riz",
+            "the",
+            "lait",
+            "jus-orange",
+            "pomme"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- [[Je mange le pain]] is not wrong, but it means *the* bread (a specific one, on the table). For “I eat bread”, say [[Je mange du pain]].\n- [[J'aime du café]] is wrong. After aimer, use [[le]]: [[J'aime le café]].\n- [[Je ne mange pas du pain]] is wrong. After ne… pas, use [[de]]: [[Je ne mange pas de pain]].\n- [[Je ne bois pas de l'eau]] is wrong. Say [[Je ne bois pas d'eau]].\n- [[Je n'aime pas de fromage]] is wrong. With aimer, the article stays: [[Je n'aime pas le fromage]].\n- But [[Ce n'est pas de café]] is wrong: with être, keep the article: [[Ce n'est pas du café.]]"
+        },
+        {
+          "type": "deepdive",
+          "kind": "why",
+          "title": "Why des looks familiar",
+          "body": "You already know [[des]] as the plural of [[un]] / [[une]]: [[un enfant]] → [[des enfants]]. With food, [[des]] works the same way: it means “some” of something plural, so you don't need to choose between two meanings.\n\nFor foods you count (apples, vegetables), use [[une pomme]] / [[des pommes]]. For foods you don't count (bread, water, rice), use [[du]], [[de la]], [[de l']].",
+          "examples": [
+            {
+              "fr": "Je mange une pomme.",
+              "en": "I'm eating an apple."
+            },
+            {
+              "fr": "Je mange des pommes.",
+              "en": "I eat apples."
+            },
+            {
+              "fr": "Je mange du riz.",
+              "en": "I eat rice."
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Drinks in Canada",
+          "body": "- In Québec, people often call a soft drink [[une liqueur]] (informal). The standard word, used on menus and labels, is [[une boisson gazeuse]]. Careful: in France, [[une liqueur]] is a sweet **alcoholic** drink, and a soft drink is [[un soda]].\n- On milk cartons in Canada, you will see [[lait 1 %]], [[lait 2 %]] (said *deux pour cent*) and [[lait 3,25 %]] for whole milk.\n- [[Je bois du lait 2 %.]] is a perfectly normal Canadian sentence!"
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "[[du]] has the French *u* sound (lips round, tongue forward). [[des]] sounds like “day”. [[de]] is a short, soft “duh”.",
+          "lines": [
+            {
+              "fr": "du pain",
+              "en": "(some) bread",
+              "tip": "du: round your lips as for “oo”, but say “ee”."
+            },
+            {
+              "fr": "de la viande",
+              "en": "(some) meat"
+            },
+            {
+              "fr": "de l'eau",
+              "en": "(some) water",
+              "tip": "Say it in one go: “duh-lo”."
+            },
+            {
+              "fr": "des fruits",
+              "en": "(some) fruit",
+              "tip": "des = “day”; the s of fruits is silent."
+            },
+            {
+              "fr": "Je ne bois pas de café.",
+              "en": "I don't drink coffee.",
+              "tip": "In fast speech: “zhuhn bwa pa d'café”."
+            },
+            {
+              "fr": "Vous buvez du thé ?",
+              "en": "Do you drink tea? (formal)",
+              "tip": "buvez: “bu-vé”, the z is silent."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Je bois du thé le matin.",
+          "en": "I drink tea in the morning.",
+          "prompt": "What does the speaker drink in the morning?",
+          "options": [
+            "Tea",
+            "Coffee",
+            "Milk"
+          ],
+          "answer": 0,
+          "explain": "[[du thé]] = tea."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Elle ne mange pas de viande.",
+          "en": "She doesn't eat meat.",
+          "prompt": "What is true about her?",
+          "options": [
+            "She doesn't eat meat.",
+            "She eats meat.",
+            "She doesn't eat fish."
+          ],
+          "answer": 0,
+          "explain": "[[ne mange pas de]] = doesn't eat any."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Je mange des fruits.",
+          "en": "I eat fruit.",
+          "prompt": "Which word did you hear before “fruits”?",
+          "options": [
+            "des",
+            "du",
+            "de"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[des]] sounds like “day”: plural."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Think before you answer: liking (le), eating and drinking (du), or negative (de)?",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Le matin, je mange ___ pain.",
+          "answers": [
+            [
+              "du"
+            ]
+          ],
+          "choices": [
+            "du",
+            "de la",
+            "des",
+            "le"
+          ],
+          "en": "In the morning, I eat bread.",
+          "explain": "An amount of a masculine noun: [[du pain]]."
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Tu bois ___ eau ?",
+          "answers": [
+            [
+              "de l'"
+            ]
+          ],
+          "choices": [
+            "de l'",
+            "de la",
+            "du",
+            "d'"
+          ],
+          "en": "Do you drink water?",
+          "explain": "Before a vowel, use [[de l']]."
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "Je ne bois pas ___ café.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "choices": [
+            "de",
+            "du",
+            "le",
+            "des"
+          ],
+          "en": "I don't drink coffee.",
+          "explain": "After ne… pas, [[du]] becomes [[de]]."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Which sentence means “I like tea, and I drink tea in the morning”?",
+          "options": [
+            "J'aime le thé, et je bois du thé le matin.",
+            "J'aime du thé, et je bois du thé le matin.",
+            "J'aime le thé, et je bois le thé le matin.",
+            "J'aime du thé, et je bois le thé le matin."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "aimer + [[le]] (in general); boire + [[du]] (an amount).",
+          "optionFeedback": [
+            null,
+            "After aimer, use le, not du.",
+            "For drinking an amount, use du.",
+            "Both articles are swapped."
+          ]
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I don't eat meat.",
+          "accept": [
+            "Je ne mange pas de viande."
+          ],
+          "hint": "ne… pas + de",
+          "explain": "[[de la viande]] → [[pas de viande]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "Do you drink milk? (formal)",
+          "accept": [
+            "Vous buvez du lait ?",
+            "Est-ce que vous buvez du lait ?",
+            "Buvez-vous du lait ?"
+          ],
+          "explain": "vous → [[buvez]]; milk as an amount → [[du lait]]."
+        },
+        {
+          "id": "r7",
+          "type": "reorder",
+          "prompt": "Nguyen eats rice and fruit.",
+          "accept": [
+            "Nguyen mange du riz et des fruits.",
+            "Nguyen mange des fruits et du riz."
+          ],
+          "extra": [
+            "le"
+          ],
+          "explain": "[[du riz]] (masculine), [[des fruits]] (plural)."
+        },
+        {
+          "id": "r8",
+          "type": "match",
+          "prompt": "Match the French to the English.",
+          "pairs": [
+            [
+              "du pain",
+              "some bread"
+            ],
+            [
+              "de la viande",
+              "some meat"
+            ],
+            [
+              "de l'eau",
+              "some water"
+            ],
+            [
+              "des pommes",
+              "some apples"
+            ],
+            [
+              "pas de lait",
+              "no milk"
+            ]
+          ]
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Elle ne mange pas de pâtes.",
+          "accept": [],
+          "explain": "[[pas de]] + plural noun: [[pas de pâtes]]. Don't forget the accent: [[pâtes]]."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "Le samedi, nous ___ au marché et nous achetons des légumes.",
+          "answers": [
+            [
+              "allons"
+            ]
+          ],
+          "choices": [
+            "allons",
+            "allez",
+            "vont",
+            "va"
+          ],
+          "en": "On Saturdays, we go to the market and buy vegetables.",
+          "explain": "aller: nous → [[allons]]. And with [[acheter]] (to buy), an unspecified amount takes the partitive: [[des légumes]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "A new colleague asks about your habits. Say what you eat and drink in the morning and at lunch, and one thing you never eat or drink.",
+          "seconds": 30,
+          "checklist": [
+            "Le matin, je mange… / je bois…",
+            "Le midi, je mange…",
+            "Je ne mange pas de… / Je ne bois pas de…",
+            "Correct du / de la / de l' / des"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Le matin, je mange du pain et des fruits, et je bois du café. Le midi, je mange du poulet avec du riz. Je ne bois pas de lait.",
+              "en": "In the morning, I eat bread and fruit, and I drink coffee. At lunch, I eat chicken with rice. I don't drink milk."
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a note to your new roommate about food: what you eat and drink in the morning, what you like, and what you don't eat.",
+          "wordRange": [
+            20,
+            45
+          ],
+          "checklist": [
+            "Use je mange / je bois + du, de la, de l' or des",
+            "Use j'aime + le, la, l' or les",
+            "Use ne… pas de",
+            "End with a question for your roommate"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut ! Le matin, je mange des fruits et du pain, et je bois du thé. J'aime beaucoup le fromage. Je ne mange pas de viande et je ne bois pas de café. Et toi, tu bois du café ?",
+              "en": "Hi! In the morning, I eat fruit and bread, and I drink tea. I really like cheese. I don't eat meat and I don't drink coffee. And you, do you drink coffee?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Use [[du, de la, de l', des]] for an amount: [[Je mange du pain. Je bois de l'eau.]]\n- After ne… pas, use [[de]] / [[d']]: [[Je ne mange pas de viande.]]\n- Keep [[le / la / les]] with aimer: [[J'aime le café]], but [[je bois du café]]\n- Say [[je bois, tu bois, vous buvez]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Added the être exception (ce n'est pas du café) to the pas de rule and mistakes list. Marked une liqueur as informal Québec usage with boisson gazeuse as the standard. Clarified the des deep dive and the acheter explanation."
+  }
+}

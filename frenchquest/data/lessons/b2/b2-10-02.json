@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-10-02",
+  "level": "b2",
+  "unit": "b2-10",
+  "title": "Developing arguments",
+  "goal": "Write well-built body paragraphs: one idea per paragraph, a topic sentence, an explanation, a concrete example and a link to the next paragraph, using precise connectors for adding, illustrating and moving on.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-transitions", "kind": "grammar", "fr": "À cela s'ajoute(nt)… / Comme en témoigne(nt)… / Outre… / Au-delà de…", "en": "formal connectors for adding and illustrating (with inversion and agreement)",
+      "drills": [
+        { "type": "cloze", "text": "À cela ___ les frais de stationnement. (s'ajouter)", "answers": [["s'ajoutent"]], "en": "On top of that come the parking costs.", "explain": "The subject comes **after** the verb: [[les frais]] is plural, so [[s'ajoutent]]." },
+        { "type": "cloze", "text": "Les commerçants en profitent, comme en ___ leurs ventes d'été. (témoigner)", "answers": [["témoignent"]], "en": "Shopkeepers benefit from it, as their summer sales show.", "explain": "[[comme en témoigne(nt)]] + subject: the verb agrees with [[leurs ventes]] (plural)." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Outre la pollution, les voitures causent du bruit.", "Outre que la pollution, les voitures causent du bruit.", "En outre la pollution, les voitures causent du bruit."], "optionsFr": true, "answer": 0, "explain": "[[outre]] + noun = *besides, in addition to*. [[En outre]] (*moreover*) stands alone, followed by a comma." }
+      ] },
+    { "id": "idee-directrice", "kind": "vocab", "fr": "idée directrice", "article": "l'", "gender": "f", "en": "topic sentence, main idea of a paragraph", "pos": "noun", "accept": ["une idée directrice", "la phrase-clé"] },
+    { "id": "par-ailleurs", "kind": "phrase", "fr": "par ailleurs", "en": "moreover, besides (adding a new point)", "accept": ["de plus", "en outre"] },
+    { "id": "en-outre", "kind": "phrase", "fr": "en outre", "en": "furthermore (formal)", "accept": ["de plus", "par ailleurs"] },
+    { "id": "a-titre-d-exemple", "kind": "phrase", "fr": "à titre d'exemple", "en": "by way of example", "accept": ["par exemple", "prenons l'exemple de"] },
+    { "id": "comme-en-temoigne", "kind": "phrase", "fr": "comme en témoigne…", "en": "as … shows (introducing evidence)", "accept": ["comme le montre…", "comme le prouve…"], "example": { "fr": "La mesure est populaire, comme en témoigne la fréquentation de la rue.", "en": "The measure is popular, as the number of people in the street shows." } },
+    { "id": "a-cela-s-ajoute", "kind": "phrase", "fr": "À cela s'ajoute…", "en": "On top of that comes… / Added to this is…", "accept": ["À cela s'ajoutent…", "De plus, …"] },
+    { "id": "au-dela-de", "kind": "phrase", "fr": "au-delà de", "en": "beyond, over and above (moving to the next point)", "accept": ["outre"], "example": { "fr": "Au-delà de la santé, la mesure profiterait à l'économie.", "en": "Beyond health, the measure would benefit the economy." } },
+    { "id": "loin-de", "kind": "phrase", "fr": "loin de + infinitif", "en": "far from (doing something)", "example": { "fr": "Loin de vider le centre, la mesure le fait revivre.", "en": "Far from emptying the downtown, the measure brings it back to life." } },
+    { "id": "profiter-a", "kind": "phrase", "fr": "profiter à", "en": "to benefit (someone or something)", "example": { "fr": "Cette mesure profiterait aux commerçants.", "en": "This measure would benefit shopkeepers." }, "note": "Don't confuse with [[profiter de]] = to take advantage of, to enjoy." },
+    { "id": "pietonnisation", "kind": "vocab", "fr": "piétonnisation", "article": "la", "gender": "f", "en": "pedestrianization (making a street car-free)", "pos": "noun", "accept": ["une piétonnisation"], "note": "Verb: [[piétonniser une rue]]. Adjective: [[une rue piétonne]]." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "From a list of ideas to real paragraphs",
+      "intro": "Sofia is writing on the topic « Les villes devraient réserver leur centre aux piétons et aux cyclistes. » Compare her first attempt with her final version.",
+      "blocks": [
+        { "type": "text", "title": "Sofia's first attempt",
+          "context": "One paragraph containing all her ideas.",
+          "fr": "Les voitures polluent. Aussi c'est dangereux pour les enfants. Et les commerçants sont contents. Et les gens marchent plus, c'est bon pour la santé. Donc il faut interdire les voitures.",
+          "en": "Cars pollute. Also it's dangerous for children. And shopkeepers are happy. And people walk more, it's good for their health. So we must ban cars." },
+        { "type": "text", "title": "Sofia's final version: two body paragraphs",
+          "context": "Each paragraph develops one idea only.",
+          "fr": "Tout d'abord, un centre-ville sans voitures serait plus sain pour ceux qui y vivent. En effet, la circulation automobile est l'une des principales sources de bruit et de pollution de l'air en ville. Lorsque les voitures disparaissent, ce sont les enfants, les personnes âgées et les personnes asthmatiques qui respirent mieux. Dans mon quartier, à Québec, la rue principale devient piétonne chaque été : on y entend de nouveau les conversations plutôt que les klaxons, et les familles s'y promènent le soir. Réserver le centre aux piétons, c'est donc d'abord une question de santé publique.\n\nAu-delà de la santé, une telle mesure profiterait aussi à l'économie locale. On pourrait croire que les commerçants perdraient leurs clients motorisés. Or, un piéton s'arrête plus facilement devant une vitrine qu'un automobiliste pressé de trouver une place de stationnement. À titre d'exemple, la libraire de ma rue m'a confié que ses ventes de l'été dépassaient désormais celles du mois de décembre. Loin de vider le centre, la piétonnisation peut donc le faire revivre.",
+          "en": "First of all, a car-free downtown would be healthier for those who live there. Indeed, car traffic is one of the main sources of noise and air pollution in cities. When cars disappear, it's children, the elderly and people with asthma who breathe better. In my neighbourhood, in Québec City, the main street becomes pedestrian every summer: you can hear conversations again instead of horns, and families stroll there in the evening. Reserving the downtown for pedestrians is therefore first and foremost a public health issue.\n\nBeyond health, such a measure would also benefit the local economy. One might think shopkeepers would lose their customers who come by car. Yet a pedestrian stops in front of a shop window more easily than a driver in a hurry to find a parking spot. By way of example, the bookseller on my street told me that her summer sales now exceed her December sales. Far from emptying the downtown, pedestrianization can therefore bring it back to life." },
+        { "id": "d1", "type": "mcq", "prompt": "What is the main problem with Sofia's first attempt?", "options": ["It lists several ideas without explaining or illustrating any of them.", "It is too long.", "It uses too many formal connectors.", "It has no opinion."], "answer": 0,
+          "explain": "Four ideas in five sentences, linked only by [[et]]: nothing is developed. The final version takes **one idea per paragraph** and develops it." },
+        { "id": "d2", "type": "mcq", "prompt": "What does the first sentence of the second paragraph do?", "options": ["It sums up the previous idea and introduces the new one.", "It gives an example.", "It concludes the whole text.", "It repeats the first paragraph."], "answer": 0,
+          "explain": "[[Au-delà de la santé]] (previous idea) + [[une telle mesure profiterait aussi à l'économie locale]] (new idea): a smooth **transition**." },
+        { "id": "d3", "type": "mcq", "prompt": "In the second paragraph, why does Sofia write « On pourrait croire que les commerçants perdraient leurs clients » ?", "options": ["To anticipate an objection and answer it right away", "Because she has changed her mind", "To give her main example", "To introduce her conclusion"], "answer": 0,
+          "explain": "She states the likely objection, then refutes it with [[Or, …]]: a mini concession–refutation inside a paragraph makes the argument stronger." }
+      ] },
+    { "type": "understand", "title": "Anatomy of a body paragraph",
+      "blocks": [
+        { "type": "table", "title": "One paragraph, four moves",
+          "head": ["Move", "Its job", "In Sofia's first paragraph"],
+          "rows": [
+            ["1. Idée directrice", "state the one idea of the paragraph", "Tout d'abord, un centre-ville sans voitures serait plus sain…"],
+            ["2. Explication", "say why it's true", "En effet, la circulation automobile est l'une des principales sources de bruit…"],
+            ["3. Exemple", "make it concrete", "Dans mon quartier, à Québec, la rue principale devient piétonne chaque été…"],
+            ["4. Mini-conclusion", "link back to the thesis", "Réserver le centre aux piétons, c'est donc d'abord une question de santé publique."]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "In a 200–250-word text: an introduction of about 40 words, then **three** body paragraphs of about 50 words or **two** of about 70, and a conclusion of about 30 words. Sofia's paragraphs above (80–100 words) are fuller than you'll have room for in the exam. Skip a line between paragraphs." },
+        { "type": "table", "title": "Connectors by job",
+          "head": ["Job", "Connectors"],
+          "rows": [
+            ["Order the arguments", "Tout d'abord, … · Ensuite, … · Enfin, …"],
+            ["Add a point", "De plus, … · Par ailleurs, … · En outre, … · À cela s'ajoute(nt)…"],
+            ["Explain", "En effet, … · car… · c'est-à-dire que…"],
+            ["Illustrate", "Prenons l'exemple de… · À titre d'exemple, … · C'est notamment le cas de… · comme en témoigne(nt)…"],
+            ["Move to a new paragraph", "Au-delà de…, … · Outre…, … · Si… , … aussi… · Mais l'essentiel est ailleurs : …"],
+            ["Answer an objection", "On pourrait croire que… Or, … · Loin de…, …"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "Vary them: examiners notice when every paragraph starts with [[De plus]]. Don't stack them either: one connector per sentence is enough." },
+        { "type": "pattern", "title": "Inversion after formal connectors",
+          "pattern": "À cela s'ajoute + singulier / À cela s'ajoutent + pluriel · comme en témoigne(nt) + sujet",
+          "note": "The subject comes **after** the verb, so look ahead to make the verb agree.",
+          "examples": [
+            { "fr": "À cela s'ajoute le problème du bruit.", "en": "On top of that comes the problem of noise." },
+            { "fr": "À cela s'ajoutent les frais de stationnement.", "en": "Added to this are parking costs." },
+            { "fr": "La rue est très fréquentée, comme en témoignent les terrasses pleines.", "en": "The street is very busy, as the full terraces show." },
+            { "fr": "Outre le bruit, les voitures posent un problème de sécurité.", "en": "Besides the noise, cars pose a safety problem." }
+          ] },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["idee-directrice", "par-ailleurs", "en-outre", "a-titre-d-exemple", "comme-en-temoigne", "a-cela-s-ajoute", "au-dela-de", "loin-de", "profiter-a", "pietonnisation"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Paragraph traps",
+          "body": "- **[[Aussi]] at the start of a sentence** means *therefore* in formal French, and is usually followed by inversion: [[Aussi faut-il agir.]] To add a point, use [[De plus]] or [[Par ailleurs]], not *Aussi, c'est dangereux*.\n- **[[En effet]] ≠ *in effect*.** It means *indeed*, and it introduces an **explanation** of what you just said, not a contrast.\n- **[[Par exemple]] five times.** Vary with [[à titre d'exemple]], [[prenons l'exemple de]], [[c'est notamment le cas de]].\n- **Two ideas in one paragraph.** If you write [[De plus]] in the middle of a paragraph to add a completely new idea, it probably needs its own paragraph.\n- **Examples that prove nothing.** [[Mon ami pense que c'est bien]] is an opinion, not an example. Give a fact, a situation or an experience.\n- **[[profiter à]] vs [[profiter de]].** [[La mesure profite aux commerçants]] (benefits them) ≠ [[Les commerçants profitent de la mesure]] (take advantage of it)." },
+        { "type": "deepdive", "kind": "why", "title": "Why examples matter so much in exams",
+          "body": "TEF and TCF graders check whether your arguments are **developed**, not just listed. An example is the easiest way to show that: it adds content, vocabulary and precision. Personal examples are welcome ([[Dans mon quartier…]], [[Lorsque je suis arrivé au Canada…]]), as long as they are plausible and serve the argument. Avoid inventing precise statistics: a concrete situation is more convincing than a fake number." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: argument budget",
+          "body": "**TEF section B (200–250 words):** usually **three** short developed arguments, or **two** well-developed arguments plus a concession. **TCF task 3 (120–180 words):** after summarizing the two documents, you only have room for **one or two** arguments of your own.\n\n**Practice (not an official subject):** *« Les villes devraient réserver leur centre aux piétons et aux cyclistes. »* Sofia has written two arguments in favour. Write a **third paragraph** (50–60 words) with a new idea: safety, tourism, or climate. Start with a transition ([[Outre…]], [[Par ailleurs]], [[À cela s'ajoute…]]) and include one concrete example." }
+      ] },
+    { "type": "hear", "title": "Hear the flow",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Transitions sound natural when you stress the connector and pause slightly after it.",
+          "lines": [
+            { "fr": "Tout d'abord, un centre-ville sans voitures serait plus sain.", "en": "First of all, a car-free downtown would be healthier." },
+            { "fr": "Au-delà de la santé, une telle mesure profiterait aussi à l'économie.", "en": "Beyond health, such a measure would also benefit the economy." },
+            { "fr": "À titre d'exemple, la libraire de ma rue a vu ses ventes augmenter.", "en": "By way of example, the bookseller on my street saw her sales go up." },
+            { "fr": "Loin de vider le centre, la piétonnisation peut le faire revivre.", "en": "Far from emptying the downtown, pedestrianization can bring it back to life." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "En effet, un piéton s'arrête plus facilement devant une vitrine qu'un automobiliste.", "en": "Indeed, a pedestrian stops in front of a shop window more easily than a driver.", "prompt": "What is this sentence doing in the paragraph?", "options": ["Explaining the previous idea", "Introducing a contrast", "Concluding the text"], "answer": 0,
+          "explain": "[[En effet]] introduces an explanation or justification, never a contrast." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Outre ses effets sur la santé, la mesure rendrait les rues plus sûres pour les enfants.", "en": "Besides its effects on health, the measure would make streets safer for children.", "prompt": "What new idea does the speaker introduce?", "options": ["Safety", "Health", "The economy"], "answer": 0,
+          "explain": "[[Outre…]] recalls the previous idea (health) and introduces a new one: safety." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. The last item brings back si + imparfait.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "Which sentence would make the best topic sentence (idée directrice) for a paragraph?", "options": ["Par ailleurs, une rue sans voitures est plus sûre pour les enfants.", "Ma voisine a deux enfants.", "Il y a beaucoup de voitures.", "C'est pourquoi je pense ça."], "optionsFr": true, "answer": 0, "explain": "A topic sentence states **one clear idea** that the rest of the paragraph will develop. The others are details or empty statements." },
+        { "id": "r2", "type": "cloze", "text": "À cela ___ les problèmes de sécurité. (s'ajouter)", "answers": [["s'ajoutent"]], "en": "On top of that come safety problems.", "explain": "Inverted subject [[les problèmes]] is plural → [[s'ajoutent]]." },
+        { "id": "r3", "type": "match", "prompt": "Match each connector with its job.", "pairs": [["En effet", "explain"], ["À titre d'exemple", "illustrate"], ["Par ailleurs", "add a point"], ["Au-delà de la santé", "move to a new paragraph"], ["Or", "answer an objection"]] },
+        { "id": "r4", "type": "translate", "prompt": "By way of example, my neighbour sold her car.", "accept": ["À titre d'exemple, ma voisine a vendu sa voiture.", "Par exemple, ma voisine a vendu sa voiture.", "Prenons l'exemple de ma voisine : elle a vendu sa voiture.", "À titre d'exemple, ma voisine a vendu son auto.", "Par exemple, ma voisine a vendu son auto.", "Prenons l'exemple de ma voisine, qui a vendu sa voiture."], "explain": "[[À titre d'exemple]] is more formal than [[par exemple]]: useful in an essay. In Québec, [[une auto]] is very common for *a car*." },
+        { "id": "r5", "type": "cloze", "text": "___ la santé, cette mesure profiterait aussi à l'économie.", "answers": [["Au-delà de", "Outre"]], "choices": ["Au-delà de", "En effet", "Aussi", "En outre"], "en": "Beyond health, this measure would also benefit the economy.", "explain": "[[Au-delà de]] or [[Outre]] + noun recalls the previous point. [[En outre]] is not followed by a noun." },
+        { "id": "r6", "type": "mcq", "prompt": "« Aussi faut-il agir rapidement. » What does Aussi mean here?", "options": ["Therefore", "Also", "However", "For example"], "answer": 0, "explain": "At the start of a sentence, with inversion ([[faut-il]]), formal [[Aussi]] means *therefore*." },
+        { "id": "r7", "type": "reorder", "prompt": "Let's take the example of my street.", "accept": ["Prenons l'exemple de ma rue"], "extra": ["prends", "la"], "explain": "[[Prenons]] (imperative, nous) involves the reader: a classic way to introduce an example." },
+        { "id": "r8", "type": "dictation", "fr": "Loin de vider le centre, la piétonnisation peut le faire revivre.", "accept": [], "explain": "[[loin de]] + infinitive = far from doing. [[le faire revivre]]: the pronoun goes before [[faire]]." },
+        { "id": "r9", "type": "cloze", "text": "Si les voitures ___ du centre, les enfants respireraient mieux. (disparaître)", "answers": [["disparaissaient"]], "en": "If cars disappeared from the downtown, children would breathe better.", "explain": "[[si]] + imparfait, then conditionnel: [[disparaissaient]] → [[respireraient]]. Hypotheses like this make arguments vivid." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Topic: « Les entreprises devraient offrir à leurs employés au moins deux jours de télétravail par semaine. » Write ONE developed body paragraph for or against: topic sentence, explanation, a concrete example, and a mini-conclusion. Start with a connector.", "promptFr": "Rédigez un paragraphe argumentatif complet.",
+          "wordRange": [60, 100],
+          "checklist": ["A connector to start (Tout d'abord, Par ailleurs, Outre…)", "One clear topic sentence", "An explanation with En effet / car", "A concrete example (personal or general, no invented statistics)", "A mini-conclusion with donc", "Only one idea"],
+          "models": [
+            { "label": "Model answer", "fr": "Tout d'abord, le télétravail permet aux employés de gagner du temps. En effet, beaucoup de travailleurs passent plus d'une heure par jour dans les transports. Par exemple, mon collègue Nguyen habite à Laval et travaille au centre-ville de Montréal : quand il travaille de la maison, il économise presque deux heures. Il peut alors faire du sport ou passer du temps avec ses enfants. Deux jours de télétravail améliorent donc la qualité de vie des employés.", "en": "First of all, remote work allows employees to save time. Indeed, many workers spend more than an hour a day commuting. For example, my colleague Nguyen lives in Laval and works in downtown Montréal: when he works from home, he saves almost two hours. He can then exercise or spend time with his children. Two days of remote work therefore improve employees' quality of life." },
+            { "label": "Stronger model answer", "fr": "Par ailleurs, le télétravail profite autant aux entreprises qu'à leurs employés. On pourrait croire qu'un salarié loin du bureau travaille moins ; or, c'est souvent l'inverse, car il échappe aux interruptions constantes des bureaux à aire ouverte. À titre d'exemple, dans l'équipe de ma sœur, les rapports les plus complexes sont désormais rédigés les jours de télétravail, et les réunions sont regroupées les jours de présence. Loin de nuire à la productivité, deux jours à la maison permettent donc de mieux organiser le travail.", "en": "Moreover, remote work benefits companies as much as their employees. One might think that an employee far from the office works less; yet it's often the opposite, because they escape the constant interruptions of open-plan spaces. By way of example, in my sister's team, the most complex reports are now written on remote days, and meetings are grouped on office days. Far from harming productivity, two days at home therefore make it possible to organize work better." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Develop one argument out loud in about 45 seconds, on the topic of your choice from this lesson: topic sentence, explanation, example, mini-conclusion.", "seconds": 45,
+          "checklist": ["A clear topic sentence", "En effet / parce que…", "A concrete example", "Donc / C'est pourquoi…"],
+          "models": [ { "label": "Model answer", "fr": "Pour moi, un centre-ville sans voitures serait d'abord plus sûr. En effet, avec moins de voitures, il y a moins d'accidents, surtout pour les enfants et les cyclistes. Par exemple, devant l'école de ma fille, la rue est fermée aux voitures le matin depuis l'an dernier, et les parents sont beaucoup plus tranquilles. Donc, je pense que c'est une mesure qui protège vraiment les plus vulnérables.", "en": "For me, a car-free downtown would above all be safer. Indeed, with fewer cars, there are fewer accidents, especially for children and cyclists. For example, in front of my daughter's school, the street has been closed to cars in the morning since last year, and parents are much calmer. So I think it's a measure that really protects the most vulnerable." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Build each body paragraph in four moves: [[idée directrice]], explanation ([[En effet]]), example ([[À titre d'exemple]], [[Prenons l'exemple de…]]), mini-conclusion ([[donc]])\n- One idea per paragraph; link paragraphs with transitions: [[Au-delà de…]], [[Outre…]], [[Par ailleurs]], [[À cela s'ajoute(nt)…]]\n- Answer objections inside a paragraph: [[On pourrait croire que… Or, …]], [[Loin de…]]\n- Avoid traps: [[Aussi]] at the start = *therefore*; [[en effet]] = *indeed*; [[profiter à]] ≠ [[profiter de]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the paragraph word budget (two 50–60-word paragraphs could not reach 200 words). Softened the rule on inversion after Aussi; 'espaces ouverts' → 'bureaux à aire ouverte'. Added accepted answers to r4." }
+}

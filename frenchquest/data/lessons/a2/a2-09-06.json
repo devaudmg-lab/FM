@@ -1,0 +1,814 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-09-06",
+  "level": "a2",
+  "unit": "a2-09",
+  "title": "Workshop: Social life",
+  "goal": "Get extra practice inviting, answering and organizing in new situations: a housewarming party, a polite refusal, a neighbourhood picnic, with lui, leur, y and en.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "cremaillere",
+      "kind": "vocab",
+      "fr": "pendaison de crémaillère",
+      "article": "la",
+      "gender": "f",
+      "en": "housewarming party",
+      "pos": "noun",
+      "accept": [
+        "une pendaison de crémaillère",
+        "la crémaillère"
+      ],
+      "note": "Literally *hanging the pot hook*. People also say [[pendre la crémaillère]] (to have a housewarming).",
+      "example": {
+        "fr": "Je fais ma pendaison de crémaillère samedi.",
+        "en": "I'm having my housewarming party on Saturday."
+      }
+    },
+    {
+      "id": "soiree",
+      "kind": "vocab",
+      "fr": "soirée",
+      "article": "la",
+      "gender": "f",
+      "en": "evening party, get-together in the evening",
+      "pos": "noun",
+      "accept": [
+        "une soirée"
+      ],
+      "note": "Also *the evening* as a stretch of time: [[Bonne soirée !]]",
+      "example": {
+        "fr": "La soirée commence à 19 h.",
+        "en": "The party starts at 7 p.m."
+      }
+    },
+    {
+      "id": "pique-nique",
+      "kind": "vocab",
+      "fr": "pique-nique",
+      "article": "le",
+      "gender": "m",
+      "en": "picnic",
+      "pos": "noun",
+      "accept": [
+        "un pique-nique"
+      ],
+      "example": {
+        "fr": "On fait un pique-nique au parc dimanche.",
+        "en": "We're having a picnic in the park on Sunday."
+      }
+    },
+    {
+      "id": "invite",
+      "kind": "vocab",
+      "fr": "invité",
+      "article": "l'",
+      "gender": "m",
+      "en": "guest (invited person)",
+      "pos": "noun",
+      "accept": [
+        "l'invitée",
+        "un invité",
+        "une invitée"
+      ],
+      "note": "A woman: [[l'invitée]]. Plural: [[les invités]].",
+      "example": {
+        "fr": "Il y aura quinze invités.",
+        "en": "There will be fifteen guests."
+      }
+    },
+    {
+      "id": "hote",
+      "kind": "vocab",
+      "fr": "hôte",
+      "article": "l'",
+      "gender": "m",
+      "en": "host (who receives guests)",
+      "pos": "noun",
+      "accept": [
+        "l'hôtesse",
+        "un hôte"
+      ],
+      "note": "A woman: [[l'hôtesse]]. In daily life, people often just say [[chez…]]: [[la fête chez Amira]].",
+      "example": {
+        "fr": "On apporte un petit cadeau pour l'hôte.",
+        "en": "We bring a little gift for the host."
+      }
+    },
+    {
+      "id": "rejoindre",
+      "kind": "vocab",
+      "fr": "rejoindre",
+      "en": "to join, to meet up with (someone)",
+      "pos": "verb",
+      "note": "Past participle: [[rejoint]]. [[Je te rejoins au parc.]] = I'll meet you at the park.",
+      "example": {
+        "fr": "On vous rejoint vers 20 h.",
+        "en": "We'll join you around 8 p.m."
+      }
+    },
+    {
+      "id": "emmener",
+      "kind": "vocab",
+      "fr": "emmener",
+      "en": "to bring along, to take (a person)",
+      "pos": "verb",
+      "accept": [
+        "amener"
+      ],
+      "note": "For people: [[emmener]] (or [[amener]]). For things: [[apporter]]. [[J'emmène mon fils]], [[j'apporte un dessert]].",
+      "example": {
+        "fr": "Est-ce que je peux emmener mon colocataire ?",
+        "en": "Can I bring my roommate?"
+      }
+    },
+    {
+      "id": "cadeau",
+      "kind": "vocab",
+      "fr": "cadeau",
+      "article": "le",
+      "gender": "m",
+      "en": "gift, present",
+      "pos": "noun",
+      "accept": [
+        "un cadeau"
+      ],
+      "note": "Plural: [[des cadeaux]].",
+      "example": {
+        "fr": "Qu'est-ce qu'on lui offre comme cadeau ?",
+        "en": "What shall we give her as a present?"
+      }
+    },
+    {
+      "id": "grignotines",
+      "kind": "vocab",
+      "fr": "grignotines",
+      "article": "les",
+      "gender": "f",
+      "en": "snacks, munchies (chips, nuts… Québec)",
+      "pos": "noun",
+      "accept": [
+        "des grignotines",
+        "les amuse-gueules",
+        "des amuse-gueules"
+      ],
+      "note": "Québec word. In France: [[des amuse-gueules]] or [[des chips]]. From [[grignoter]], to nibble.",
+      "example": {
+        "fr": "J'apporte des grignotines et des boissons.",
+        "en": "I'll bring snacks and drinks."
+      }
+    },
+    {
+      "id": "empechement",
+      "kind": "phrase",
+      "fr": "J'ai un empêchement.",
+      "en": "Something's come up. (I can't come)",
+      "accept": [
+        "J'ai eu un empêchement."
+      ],
+      "note": "A polite, vague reason: you don't have to explain more.",
+      "example": {
+        "fr": "Désolé, j'ai un empêchement, je ne peux pas venir ce soir.",
+        "en": "Sorry, something's come up, I can't come tonight."
+      }
+    },
+    {
+      "id": "sante",
+      "kind": "phrase",
+      "fr": "Santé !",
+      "en": "Cheers! (when you raise your glass)",
+      "accept": [
+        "À la tienne !",
+        "À la vôtre !"
+      ],
+      "note": "Used everywhere, and very common in Québec. You'll also hear [[À la tienne !]] (tu) and [[À la vôtre !]] (vous).",
+      "example": {
+        "fr": "À ton nouvel appartement ! Santé !",
+        "en": "To your new apartment! Cheers!"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A housewarming in Rosemont",
+      "intro": "A new situation with everything from unit 9: an invitation, an answer, who brings what, and the pronouns lui, leur, y and en.",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "A phone call",
+          "context": "Amira has just moved into an apartment in Rosemont, a neighbourhood of Montréal. She calls her friend Lucie.",
+          "lines": [
+            {
+              "speaker": "Amira",
+              "fr": "Allô Lucie ! C'est Amira. Dis, tu es libre samedi soir ?",
+              "en": "Hi Lucie! It's Amira. Say, are you free on Saturday evening?"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Samedi ? Je pense que oui. Pourquoi ?",
+              "en": "Saturday? I think so. Why?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Je fais ma pendaison de crémaillère ! Ça te dit de venir ?",
+              "en": "I'm having my housewarming party! Do you feel like coming?"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Avec plaisir ! C'est gentil. Ça commence à quelle heure ?",
+              "en": "I'd love to! That's kind. What time does it start?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "À partir de 19 h. J'invite aussi mes collègues et mes nouveaux voisins.",
+              "en": "From 7 p.m. I'm also inviting my colleagues and my new neighbours."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Tes voisins ? Tu leur as déjà parlé ?",
+              "en": "Your neighbours? Have you already talked to them?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Oui, je leur ai parlé hier dans l'escalier. Ils sont très sympathiques.",
+              "en": "Yes, I talked to them yesterday on the stairs. They're very nice."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Est-ce que je peux emmener Olivier ? Il ne connaît pas ton quartier.",
+              "en": "Can I bring Olivier? He doesn't know your neighbourhood."
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Bien sûr ! Et apporte des grignotines, si tu veux. J'en ai déjà un peu, mais nous serons quinze !",
+              "en": "Of course! And bring some snacks, if you like. I already have a few, but there will be fifteen of us!"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Ça marche, j'en apporte deux sacs. Et Raj, il vient ?",
+              "en": "Sounds good, I'll bring two bags. And Raj, is he coming?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Je lui ai envoyé un texto mardi, mais il ne m'a pas encore répondu. Il a peut-être un empêchement.",
+              "en": "I sent him a text on Tuesday, but he hasn't answered me yet. Maybe something's come up."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Je vais lui demander demain, on travaille ensemble.",
+              "en": "I'll ask him tomorrow, we work together."
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Merci ! Pour venir, tu prends le métro et tu descends à la station Rosemont.",
+              "en": "Thanks! To get here, you take the metro and you get off at Rosemont station."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Je connais bien Rosemont, j'y vais souvent pour les restaurants. On y sera vers 19 h 30.",
+              "en": "I know Rosemont well, I often go there for the restaurants. We'll be there around 7:30."
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Génial ! À samedi !",
+              "en": "Great! See you on Saturday!"
+            }
+          ]
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "Why is Amira having a party?",
+          "options": [
+            "She has just moved into a new apartment.",
+            "It's her birthday.",
+            "She's leaving Québec City."
+          ],
+          "answer": 0,
+          "explain": "[[une pendaison de crémaillère]] = a housewarming party, for a new home."
+        },
+        {
+          "id": "d2",
+          "type": "mcq",
+          "prompt": "What will Lucie bring?",
+          "options": [
+            "Olivier and two bags of snacks",
+            "Raj and a bottle of wine",
+            "Her colleagues and a dessert"
+          ],
+          "answer": 0,
+          "explain": "[[Est-ce que je peux emmener Olivier ?]] (a person → [[emmener]]) and [[j'en apporte deux sacs]] ([[en]] = des grignotines)."
+        },
+        {
+          "id": "d3",
+          "type": "mcq",
+          "prompt": "Why doesn't Amira know if Raj is coming?",
+          "options": [
+            "He hasn't answered her text yet.",
+            "She forgot to invite him.",
+            "He said he would call her on Saturday."
+          ],
+          "answer": 0,
+          "explain": "[[Je lui ai envoyé un texto…, mais il ne m'a pas encore répondu.]] [[Lui]] = to Raj ([[envoyer à quelqu'un]])."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 9 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The unit on one page",
+          "head": [
+            "You want to…",
+            "Say"
+          ],
+          "rows": [
+            [
+              "invite",
+              "Ça te dit de venir ? Ça vous dirait de… ? Tu es libre samedi ?"
+            ],
+            [
+              "accept",
+              "Avec plaisir ! Volontiers ! Ça marche !"
+            ],
+            [
+              "refuse politely",
+              "Merci, c'est gentil, mais je ne peux pas : je dois… Ce sera pour une autre fois !"
+            ],
+            [
+              "replace à + person",
+              "Je lui parle. Je leur ai écrit. Je vais lui demander."
+            ],
+            [
+              "replace a place",
+              "J'y vais. On y sera vers 19 h 30."
+            ],
+            [
+              "replace a quantity",
+              "J'en ai deux. J'en apporte un sac. Il y en a beaucoup."
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": false
+        },
+        {
+          "type": "explain",
+          "title": "Which little word?",
+          "body": "Ask yourself what you're replacing:\n\n- **à + a person** → [[lui]] (one person) or [[leur]] (several): [[Je parle à Raj]] → [[Je lui parle]].\n- **a place** → [[y]]: [[Je vais à Rosemont]] → [[J'y vais]].\n- **de / des / a number + noun** → [[en]]: [[J'apporte deux sacs]] → [[J'en apporte deux]].\n\nAll of them go **before the conjugated verb**, before [[avoir]] in the passé composé, and before the infinitive with [[aller]]: [[Je vais lui demander.]]"
+        },
+        {
+          "type": "vocab",
+          "title": "New words: parties and plans",
+          "itemIds": [
+            "cremaillere",
+            "soiree",
+            "pique-nique",
+            "invite",
+            "hote",
+            "rejoindre",
+            "emmener",
+            "cadeau",
+            "grignotines",
+            "empechement",
+            "sante"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "culture",
+          "title": "Party etiquette",
+          "body": "- At a housewarming or a supper, guests usually bring something: a bottle, flowers, a dessert or [[des grignotines]]. Ask [[Qu'est-ce que j'apporte ?]]\n- In Québec, many small restaurants say [[Apportez votre vin]]: you bring your own wine.\n- [[À partir de 19 h]] means *from 7 p.m.*: arriving a bit later is normal at a party, but for a supper, be on time."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "A refusal and an invitation",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "Raj's voicemail",
+          "context": "On Thursday, Raj leaves a message for Amira.",
+          "fr": "Salut Amira, c'est Raj ! Désolé, j'ai vu ton texto seulement ce matin. Merci pour l'invitation, c'est vraiment gentil ! Malheureusement, samedi, je ne peux pas : mes parents arrivent de Toronto et je dois aller les chercher à l'aéroport à 21 h. Mais j'ai très hâte de voir ton nouvel appartement. Ça te dit de prendre un café chez toi dimanche après-midi ? Je vais t'apporter un petit cadeau. Bonne soirée samedi, et salue Lucie pour moi !",
+          "en": "Hi Amira, it's Raj! Sorry, I only saw your text this morning. Thanks for the invitation, it's really kind! Unfortunately, on Saturday I can't: my parents are arriving from Toronto and I have to pick them up at the airport at 9 p.m. But I can't wait to see your new apartment. Do you feel like having a coffee at your place on Sunday afternoon? I'll bring you a little gift. Have a good party on Saturday, and say hi to Lucie for me!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Malheureusement, samedi, je ne peux pas : mes parents arrivent de Toronto et je dois aller les chercher à l'aéroport à 21 h.",
+          "en": "Unfortunately, on Saturday I can't: my parents are arriving from Toronto and I have to pick them up at the airport at 9 p.m.",
+          "prompt": "Why can't Raj come on Saturday?",
+          "options": [
+            "He has to pick up his parents at the airport.",
+            "He's flying to Toronto.",
+            "He has to work until 9 p.m."
+          ],
+          "answer": 0,
+          "explain": "[[Je dois aller les chercher à l'aéroport]]: [[les]] = his parents. A polite refusal: thanks + [[malheureusement]] + a reason."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Ça te dit de prendre un café chez toi dimanche après-midi ? Je vais t'apporter un petit cadeau.",
+          "en": "Do you feel like having a coffee at your place on Sunday afternoon? I'll bring you a little gift.",
+          "prompt": "What does Raj suggest?",
+          "options": [
+            "A coffee at Amira's place on Sunday afternoon",
+            "A supper at a restaurant on Sunday evening",
+            "Coming to the party later, after the airport"
+          ],
+          "answer": 0,
+          "explain": "A good refusal ends with a new suggestion: [[Ça te dit de prendre un café… dimanche après-midi ?]]"
+        },
+        {
+          "type": "listen",
+          "title": "A neighbourhood announcement",
+          "context": "A message on the neighbourhood committee's phone line.",
+          "fr": "Bonjour à tous ! Le comité de quartier de Rosemont vous invite à son grand pique-nique de l'été, le dimanche 14 juillet, de 11 h à 16 h, au parc Molson. Apportez votre repas : nous nous occupons des boissons et des desserts. Il y aura de la musique et des jeux pour les enfants. S'il pleut, on se retrouve au centre communautaire, sur la rue Masson. C'est gratuit et tout le monde est bienvenu. Emmenez vos voisins !",
+          "en": "Hello everyone! The Rosemont neighbourhood committee invites you to its big summer picnic, on Sunday, July 14, from 11 a.m. to 4 p.m., at Molson Park. Bring your meal: we'll take care of the drinks and desserts. There will be music and games for the children. If it rains, we'll meet at the community centre, on Masson Street. It's free and everyone is welcome. Bring your neighbours!"
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Le comité de quartier de Rosemont vous invite à son grand pique-nique de l'été, le dimanche 14 juillet, de 11 h à 16 h, au parc Molson.",
+          "en": "The Rosemont neighbourhood committee invites you to its big summer picnic, on Sunday, July 14, from 11 a.m. to 4 p.m., at Molson Park.",
+          "prompt": "When is the picnic?",
+          "options": [
+            "Sunday, July 14, from 11 a.m. to 4 p.m.",
+            "Saturday, July 14, from 11 a.m. to 6 p.m.",
+            "Sunday, July 4, in the evening"
+          ],
+          "answer": 0,
+          "explain": "[[le dimanche 14 juillet, de 11 h à 16 h]]: 16 h = 4 p.m."
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "Apportez votre repas : nous nous occupons des boissons et des desserts.",
+          "en": "Bring your meal: we'll take care of the drinks and desserts.",
+          "prompt": "What should people bring?",
+          "options": [
+            "Their own meal",
+            "Drinks",
+            "A dessert to share"
+          ],
+          "answer": 0,
+          "explain": "[[Apportez votre repas]]. The committee takes care of the drinks and desserts: [[nous nous occupons de…]]."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "S'il pleut, on se retrouve au centre communautaire, sur la rue Masson.",
+          "en": "If it rains, we'll meet at the community centre, on Masson Street.",
+          "prompt": "What happens if it rains?",
+          "options": [
+            "The picnic moves to the community centre.",
+            "The picnic is cancelled.",
+            "The picnic moves to the next Sunday."
+          ],
+          "answer": 0,
+          "explain": "[[S'il pleut, on se retrouve au centre communautaire]]: same day, different place."
+        },
+        {
+          "id": "h6",
+          "type": "dictation",
+          "fr": "Je lui ai envoyé un texto, mais il ne m'a pas répondu.",
+          "accept": [],
+          "explain": "[[lui]] before [[ai]] in the passé composé. [[Répondre à quelqu'un]] → [[il m'a répondu]]."
+        },
+        {
+          "id": "h7",
+          "type": "dictation",
+          "fr": "On y va ensemble samedi soir ?",
+          "accept": [],
+          "explain": "[[y]] = there, before the verb. [[On y va]] sounds like one word: *on-ni-va*."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most on unit 9, some on earlier A2 units. Answer without looking back.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "You want to invite your new manager to your housewarming. What do you say?",
+          "options": [
+            "Ça vous dirait de venir à ma pendaison de crémaillère samedi ?",
+            "Ça te dit de venir à ma pendaison de crémaillère samedi ?",
+            "Tu fais quoi samedi ? Viens chez nous !"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "With a manager, use [[vous]]: [[Ça vous dirait de…]] is the polite form.",
+          "optionFeedback": [
+            null,
+            "Ça te dit uses tu: fine for a friend, too familiar here.",
+            "Very informal, with tu."
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Mes voisins ? Je ___ ai parlé hier. Et Raj ? Je vais ___ téléphoner ce soir.",
+          "answers": [
+            [
+              "leur"
+            ],
+            [
+              "lui"
+            ]
+          ],
+          "choices": [
+            "leur",
+            "lui",
+            "les",
+            "le"
+          ],
+          "en": "My neighbours? I talked to them yesterday. And Raj? I'm going to call him tonight.",
+          "explain": "[[parler à]] and [[téléphoner à]] + person → [[leur]] (several) and [[lui]] (one). Not [[les]] / [[le]]: those replace a direct object."
+        },
+        {
+          "id": "r3",
+          "type": "translate",
+          "prompt": "Thanks, that's kind, but I already have plans. Maybe another time! (to a friend)",
+          "accept": [
+            "Merci, c'est gentil, mais j'ai déjà quelque chose de prévu. Ce sera pour une autre fois !",
+            "Merci, c'est gentil, mais j'ai déjà quelque chose de prévu. Une autre fois !",
+            "Merci, c'est gentil, mais j'ai déjà quelque chose de prévu. Une autre fois peut-être !",
+            "Merci, c'est gentil, mais j'ai déjà quelque chose de prévu, ce sera pour une autre fois !",
+            "Merci, c'est gentil, mais j'ai déjà quelque chose de prévu. Peut-être une autre fois !",
+            "Merci, c'est gentil, mais j'ai déjà prévu quelque chose. Ce sera pour une autre fois !",
+            "Merci, c'est gentil, mais j'ai déjà prévu quelque chose. Une autre fois !",
+            "Merci, c'est gentil, mais j'ai déjà prévu quelque chose. Peut-être une autre fois !"
+          ],
+          "explain": "Thanks + [[c'est gentil]] + [[mais]] + reason + [[Ce sera pour une autre fois !]]: a polite refusal in four parts."
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Tu vas au pique-nique ? — Oui, j'___ vais. Tu as des grignotines ? — Oui, j'___ ai trois sacs.",
+          "answers": [
+            [
+              "y"
+            ],
+            [
+              "en"
+            ]
+          ],
+          "choices": [
+            "y",
+            "en",
+            "le",
+            "lui"
+          ],
+          "en": "Are you going to the picnic? — Yes, I'm going. Do you have snacks? — Yes, I have three bags.",
+          "explain": "A place ([[au pique-nique]]) → [[y]]. A quantity ([[des grignotines]], [[trois sacs]]) → [[en]]."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "I'm going to send them an invitation. (my colleagues)",
+          "accept": [
+            "Je vais leur envoyer une invitation."
+          ],
+          "extra": [
+            "les",
+            "lui"
+          ],
+          "explain": "[[envoyer quelque chose à quelqu'un]] → [[leur]], placed before the infinitive: [[je vais leur envoyer]]."
+        },
+        {
+          "id": "r6",
+          "type": "match",
+          "prompt": "Match each phrase to its meaning.",
+          "pairs": [
+            [
+              "Avec plaisir !",
+              "I'd love to!"
+            ],
+            [
+              "J'ai un empêchement.",
+              "Something's come up."
+            ],
+            [
+              "Santé !",
+              "Cheers!"
+            ],
+            [
+              "Ça marche !",
+              "Sounds good!"
+            ],
+            [
+              "Pourquoi pas ?",
+              "Why not?"
+            ]
+          ]
+        },
+        {
+          "id": "r7",
+          "type": "translate",
+          "prompt": "Can I bring my roommate? (to a friend)",
+          "accept": [
+            "Je peux emmener mon colocataire ?",
+            "Est-ce que je peux emmener mon colocataire ?",
+            "Je peux emmener ma colocataire ?",
+            "Est-ce que je peux emmener ma colocataire ?",
+            "Je peux amener mon colocataire ?",
+            "Est-ce que je peux amener mon colocataire ?",
+            "Je peux amener ma colocataire ?",
+            "Est-ce que je peux amener ma colocataire ?",
+            "Je peux emmener mon coloc ?",
+            "Est-ce que je peux emmener mon coloc ?",
+            "Je peux emmener ma coloc ?",
+            "Est-ce que je peux emmener ma coloc ?",
+            "Je peux amener mon coloc ?",
+            "Est-ce que je peux amener mon coloc ?",
+            "Je peux amener ma coloc ?",
+            "Est-ce que je peux amener ma coloc ?",
+            "Puis-je emmener mon colocataire ?",
+            "Puis-je emmener ma colocataire ?"
+          ],
+          "explain": "A person comes along → [[emmener]] (or [[amener]]), not [[apporter]], which is for things."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "J'en apporte deux sacs, et je vais lui demander.",
+          "accept": [
+            "J'en apporte 2 sacs, et je vais lui demander."
+          ],
+          "explain": "[[en]] = of them (snacks); [[lui]] = to him / her, before the infinitive."
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "Samedi, Lucie et Olivier sont ___ chez Amira vers 19 h 30, et ils sont ___ à minuit.",
+          "answers": [
+            [
+              "arrivés"
+            ],
+            [
+              "partis",
+              "rentrés",
+              "repartis"
+            ]
+          ],
+          "choices": [
+            "arrivés",
+            "arrivé",
+            "partis",
+            "parti"
+          ],
+          "en": "On Saturday, Lucie and Olivier arrived at Amira's around 7:30 p.m., and they left at midnight.",
+          "explain": "A2 unit 2: [[arriver]] and [[partir]] take être, and the participle agrees: a man and a woman → masculine plural [[-s]]."
+        },
+        {
+          "id": "r10",
+          "type": "mcq",
+          "prompt": "“The picnic is cheaper than the party: it's free!” Choose: “Le pique-nique est ___ la soirée : c'est gratuit !”",
+          "options": [
+            "moins cher que",
+            "plus cher que",
+            "le moins cher de"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "A2 unit 8: *cheaper than* = [[moins cher que]].",
+          "optionFeedback": [
+            null,
+            "That means more expensive than.",
+            "That's a superlative: the cheapest of."
+          ]
+        },
+        {
+          "id": "r11",
+          "type": "translate",
+          "prompt": "Excuse me for bothering you, could you tell me where the community centre is? (formal)",
+          "accept": [
+            "Excusez-moi de vous déranger, pourriez-vous me dire où est le centre communautaire ?",
+            "Excusez-moi de vous déranger, pourriez-vous me dire où se trouve le centre communautaire ?",
+            "Excusez-moi de vous déranger. Pourriez-vous me dire où est le centre communautaire ?",
+            "Excusez-moi de vous déranger. Pourriez-vous me dire où se trouve le centre communautaire ?",
+            "Excusez-moi de vous déranger, est-ce que vous pourriez me dire où est le centre communautaire ?",
+            "Excusez-moi de vous déranger, pouvez-vous me dire où est le centre communautaire ?",
+            "Excusez-moi de vous déranger, pouvez-vous me dire où se trouve le centre communautaire ?",
+            "Excusez-moi de vous déranger, est-ce que vous pourriez me dire où se trouve le centre communautaire ?"
+          ],
+          "explain": "A2 unit 5: [[Excusez-moi de vous déranger]] + [[pourriez-vous me dire où…]]. After [[me dire où]], no [[est-ce que]]: just [[où est le centre]] or [[où se trouve le centre]]."
+        },
+        {
+          "id": "r12",
+          "type": "cloze",
+          "text": "Amira habite à Rosemont ___ un mois. Elle a rencontré ses voisins ___ deux jours.",
+          "answers": [
+            [
+              "depuis"
+            ],
+            [
+              "il y a"
+            ]
+          ],
+          "choices": [
+            "depuis",
+            "il y a",
+            "pendant"
+          ],
+          "en": "Amira has been living in Rosemont for a month. She met her neighbours two days ago.",
+          "explain": "A2 unit 7: still true → present + [[depuis]]; one finished event → passé composé + [[il y a]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn",
+      "intro": "Two missions. Use the checklist, then compare your answer with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "A friend invites you to their housewarming party on Saturday, but you can't go. Write a reply: thank them, refuse politely with a reason, suggest another plan, and ask a question about the party or the apartment. Use at least two of lui, leur, y, en.",
+          "promptFr": "Répondez à l'invitation d'un ami : vous ne pouvez pas venir.",
+          "wordRange": [
+            60,
+            100
+          ],
+          "checklist": [
+            "Thanks: Merci pour l'invitation, c'est gentil !",
+            "Regret: Malheureusement… / Désolé(e)…",
+            "A reason: je dois… / j'ai déjà quelque chose de prévu",
+            "A new suggestion: Ça te dit de… ? / On pourrait…",
+            "A question: Tu as invité qui ? Il y a combien de pièces ?",
+            "At least two pronouns: lui, leur, y, en",
+            "Friendly closing: À bientôt ! / Bises,"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Amira,\nMerci pour l'invitation, c'est vraiment gentil ! Malheureusement, samedi, je ne peux pas : je travaille jusqu'à 22 h. Je suis désolée ! Mais j'ai très hâte de voir ton appartement. Ça te dit de prendre un café chez toi la semaine prochaine ? J'y vais en autobus, c'est facile. Et dis-moi, tu as combien de pièces ?\nÀ bientôt !\nMei",
+              "en": "Hi Amira,\nThanks for the invitation, it's really kind! Unfortunately, on Saturday I can't: I'm working until 10 p.m. I'm sorry! But I can't wait to see your apartment. Would you like to have a coffee at your place next week? I'll go there by bus, it's easy. And tell me, how many rooms do you have?\nSee you soon!\nMei"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Salut Amira,\nMerci mille fois pour l'invitation ! Malheureusement, j'ai déjà quelque chose de prévu samedi : c'est l'anniversaire de ma sœur et je lui organise une petite fête surprise. Je suis vraiment désolée ! Mais je veux absolument voir ton nouvel appartement. On pourrait souper ensemble dimanche prochain ? J'apporterai le dessert, et des grignotines si tu en veux. Et tes nouveaux voisins, tu leur as parlé ? Ils sont gentils ?\nBonne soirée samedi, et profite bien de ton nouveau chez-toi !\nBises,\nMei",
+              "en": "Hi Amira,\nThank you so much for the invitation! Unfortunately, I already have plans on Saturday: it's my sister's birthday and I'm organizing a little surprise party for her. I'm really sorry! But I absolutely want to see your new apartment. We could have supper together next Sunday? I'll bring dessert, and snacks if you want some. And your new neighbours, have you talked to them? Are they nice?\nHave a good party on Saturday, and enjoy your new home!\nHugs,\nMei"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "You meet a new neighbour, Mme Fortin, in the hallway. Invite her to the neighbourhood picnic: give the day, time and place, say what to bring, offer to go there together, and react to her answer. Use vous.",
+          "promptFr": "Invitez votre nouvelle voisine au pique-nique du quartier.",
+          "seconds": 60,
+          "checklist": [
+            "Greeting and introduction",
+            "A polite invitation: Ça vous dirait de… ?",
+            "Day, time and place",
+            "What to bring: Apportez… / On s'occupe de…",
+            "An offer with y: On pourrait y aller ensemble.",
+            "React to her answer: Avec plaisir ! / Super ! / Dommage !"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour, madame Fortin ! Je suis Amira, votre nouvelle voisine. Est-ce que vous connaissez le pique-nique du quartier ? C'est dimanche, de 11 h à 16 h, au parc Molson. Ça vous dirait de venir ? Il faut apporter son repas, mais les boissons sont gratuites. On pourrait y aller ensemble, si vous voulez. Vous venez ? Super ! Alors on se retrouve ici à 11 h.",
+              "en": "Hello, Ms. Fortin! I'm Amira, your new neighbour. Do you know about the neighbourhood picnic? It's on Sunday, from 11 a.m. to 4 p.m., at Molson Park. Would you like to come? You have to bring your own meal, but the drinks are free. We could go there together, if you like. You're coming? Great! So we'll meet here at 11."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour, madame Fortin ! On ne se connaît pas encore : je suis Amira, j'habite au deuxième depuis un mois. Dites, ça vous dirait de venir au pique-nique du quartier dimanche ? Il commence à 11 h, au parc Molson. Le comité s'occupe des boissons et des desserts ; il faut seulement apporter son repas. Il y aura de la musique, et on va rencontrer d'autres voisins. Moi, j'y vais vers midi. On pourrait y aller ensemble ? … Ah, vous avez un empêchement ? Dommage ! Ce sera pour une autre fois. Bonne fin de semaine !",
+              "en": "Hello, Ms. Fortin! We don't know each other yet: I'm Amira, I've been living on the second floor for a month. Say, would you like to come to the neighbourhood picnic on Sunday? It starts at 11 a.m., at Molson Park. The committee is taking care of the drinks and desserts; you just have to bring your meal. There will be music, and we'll meet other neighbours. I'm going there around noon. We could go together? … Oh, something's come up? Too bad! Maybe another time. Have a good weekend!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- You can follow a full invitation call: inviting, accepting, who brings what\n- You understand a polite refusal and a community announcement\n- You know more party words: [[la pendaison de crémaillère]], [[les grignotines]], [[emmener]], [[J'ai un empêchement.]], [[Santé !]]\n- You used [[lui]], [[leur]], [[y]] and [[en]] in a written reply and a spoken invitation",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Simplified the hôte note, removed les chips from the grignotines accept list, corrected the r11 explanation (où est le centre is not a no-inversion case). Accepted the true homophone in r8, added variants, aligned Amira's move-in date."
+  }
+}

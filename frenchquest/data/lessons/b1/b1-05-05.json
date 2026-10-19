@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-05-05",
+  "level": "b1",
+  "unit": "b1-05",
+  "title": "Summarize a news story",
+  "goal": "Read a news article, pick out the main idea and the key details, and summarize it orally and in writing in your own words, with a short personal reaction.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-summary", "kind": "grammar", "fr": "Il s'agit de… / L'article parle de… / En résumé, …", "en": "structuring a summary",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ d'un article sur le logement à Montréal.", "answers": [["s'agit"]], "en": "It's an article about housing in Montréal.", "explain": "[[Il s'agit de]] = it's about. The subject is always the impersonal [[il]]: never *l'article s'agit de*." },
+        { "type": "cloze", "text": "L'article ___ de la hausse des loyers.", "answers": [["parle", "traite"]], "en": "The article is about the rise in rents.", "explain": "[[L'article parle de…]] (or, more formal, [[traite de…]]). Here the article **is** the subject." },
+        { "type": "mcq", "prompt": "Which is the best first sentence for a summary?", "options": ["Il s'agit d'un article sur la hausse des loyers à Montréal.", "Je pense que les loyers sont trop chers.", "« Nous ne faisons pas de profits énormes », a déclaré un propriétaire."], "optionsFr": true, "answer": 0, "explain": "Start with the topic, neutrally. Keep your opinion for the end, and don't start with a quotation." }
+      ] },
+    { "id": "g-reformulate", "kind": "grammar", "fr": "reformuler : nom ↔ verbe, passif ↔ actif, citation → discours indirect", "en": "reformulating instead of copying",
+      "drills": [
+        { "type": "cloze", "text": "« Hausse des loyers à Montréal » → À Montréal, les loyers ___.", "answers": [["augmentent", "ont augmenté", "montent", "sont en hausse"]], "en": "“Rise in rents in Montréal” → In Montréal, rents are going up.", "explain": "Put the verb back in the noun: [[la hausse → augmenter]]." },
+        { "type": "translate", "prompt": "Reformulate with on: “Des logements sociaux seront construits.”", "accept": ["On construira des logements sociaux.", "On va construire des logements sociaux."], "explain": "Passive → on + active, same tense: [[seront construits → on construira]]." },
+        { "type": "cloze", "text": "« Je suis inquiète », dit la porte-parole. → La porte-parole dit qu'elle ___ inquiète.", "answers": [["est"]], "en": "“I'm worried,” says the spokesperson. → The spokesperson says she is worried.", "explain": "Reported speech with a present reporting verb: the tense doesn't change, but [[je → elle]]." }
+      ] },
+    { "id": "g-sources", "kind": "grammar", "fr": "selon / d'après / X affirme que", "en": "reporting who says what",
+      "drills": [
+        { "type": "cloze", "text": "___ l'association, ce n'est pas suffisant.", "answers": [["Selon", "D'après"]], "en": "According to the association, it isn't enough.", "explain": "[[Selon]] or [[D'après]] + the source, then a comma." },
+        { "type": "cloze", "text": "Le maire a déclaré qu'il ___ (être) satisfait.", "answers": [["était"]], "en": "The mayor said he was satisfied.", "explain": "Past reporting verb ([[a déclaré]]) + present in the original → imparfait: [[il était]]." }
+      ] },
+    { "id": "resumer", "kind": "vocab", "fr": "résumer", "en": "to summarize", "pos": "verb",
+      "example": { "fr": "Pouvez-vous résumer l'article en trois phrases ?", "en": "Can you summarize the article in three sentences?" } },
+    { "id": "resume", "kind": "vocab", "fr": "résumé", "article": "un", "gender": "m", "en": "summary", "pos": "noun", "accept": ["le résumé"],
+      "example": { "fr": "J'ai écrit un résumé de cent mots.", "en": "I wrote a hundred-word summary." }, "note": "False friend: a CV is [[un CV]] in French, not *un résumé*." },
+    { "id": "il-sagit", "kind": "phrase", "fr": "Il s'agit de…", "en": "It's about… (formal, in a summary)", "accept": ["Il s'agit d'…"] },
+    { "id": "en-resume", "kind": "phrase", "fr": "En résumé, …", "en": "To sum up, …", "accept": ["Bref, …", "En bref, …"] },
+    { "id": "dapres-article", "kind": "phrase", "fr": "D'après l'article, …", "en": "According to the article, …", "accept": ["Selon l'article, …"] },
+    { "id": "essentiel", "kind": "vocab", "fr": "essentiel", "article": "l'", "gender": "m", "en": "the main points, the essentials", "pos": "noun",
+      "example": { "fr": "Dans un résumé, on garde seulement l'essentiel.", "en": "In a summary, you keep only the main points." } },
+    { "id": "declarer", "kind": "vocab", "fr": "déclarer", "en": "to state, to declare (officially)", "pos": "verb",
+      "example": { "fr": "« Nous allons agir », a déclaré la mairesse.", "en": "“We're going to act,” the mayor stated." } },
+    { "id": "affirmer", "kind": "vocab", "fr": "affirmer", "en": "to claim, to assert", "pos": "verb",
+      "example": { "fr": "Elle affirme que beaucoup de familles ont quitté l'île.", "en": "She claims that many families have left the island." } },
+    { "id": "locataire", "kind": "vocab", "fr": "locataire", "article": "un", "gender": "m", "en": "tenant (renter)", "pos": "noun", "accept": ["une locataire", "le locataire", "les locataires"],
+      "example": { "fr": "Les locataires ont reçu une hausse de loyer.", "en": "The tenants received a rent increase." }, "note": "The landlord is [[le propriétaire]] (also “owner”)." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A longer article",
+      "intro": "This is the kind of article you'll meet in exams and in real life. Read it twice: once for the **main idea**, once to underline the **key details** and **who says what**.",
+      "blocks": [
+        { "type": "text", "title": "Logement : les locataires montréalais sous pression",
+          "context": "An article from a (fictional) Montréal news site.",
+          "fr": "Les loyers ont augmenté en moyenne de 7 % à Montréal l'an dernier, selon un rapport publié mardi par une association de locataires. C'est la plus forte hausse depuis vingt ans.\nSelon ce rapport, un appartement de deux chambres coûte maintenant en moyenne 1 650 $ par mois. Il y a cinq ans, le même logement coûtait environ 1 200 $. « Beaucoup de familles consacrent plus de la moitié de leur salaire au loyer », explique Sofia Martins, porte-parole de l'association. Elle affirme que de nombreux locataires ont déjà quitté l'île pour s'installer en banlieue, à Laval ou sur la Rive-Sud.\nLes propriétaires, eux, expliquent la hausse par l'augmentation des taxes, des assurances et du coût des rénovations. « Nous ne faisons pas de profits énormes », a déclaré le représentant d'un regroupement de propriétaires.\nLa Ville a annoncé la construction de nouveaux logements sociaux, mais selon l'association, ce n'est pas suffisant. Une manifestation est prévue le 1er juillet, jour traditionnel des déménagements au Québec.",
+          "en": "Housing: Montréal tenants under pressure. Rents rose by an average of 7% in Montréal last year, according to a report published on Tuesday by a tenants' association. It's the biggest increase in twenty years. According to the report, a two-bedroom apartment now costs an average of $1,650 a month. Five years ago, the same unit cost about $1,200. “Many families spend more than half their salary on rent,” explains Sofia Martins, spokesperson for the association. She claims that many tenants have already left the island to settle in the suburbs, in Laval or on the South Shore. Landlords, for their part, explain the increase by higher taxes, insurance and renovation costs. “We are not making huge profits,” said the representative of a landlords' group. The City has announced the construction of new social housing, but according to the association, it isn't enough. A protest is planned for July 1, the traditional moving day in Québec." },
+        { "type": "note", "tone": "info", "body": "New words: [[en moyenne]] = on average; [[consacrer à]] = to spend on, devote to; [[la moitié]] = half; [[la banlieue]] = the suburbs; [[un regroupement]] = a group, an association; [[les logements sociaux]] = social (subsidized) housing." },
+        { "id": "d1", "type": "mcq", "prompt": "Which sentence best expresses the main idea?", "options": ["Rents in Montréal are rising very fast and tenants are struggling.", "Landlords in Montréal are making huge profits.", "Many families are moving to Laval on July 1."], "answer": 0,
+          "explain": "The headline and the first paragraph give it: a record rise in rents and pressure on tenants. The others are details, or a claim one side makes." },
+        { "id": "d2", "type": "mcq", "prompt": "Who says that many tenants have left the island?", "options": ["The tenants' association spokesperson", "The landlords' representative", "The City"], "answer": 0,
+          "explain": "[[Elle affirme que…]]: [[elle]] = Sofia Martins, spokesperson for the tenants' association. In a summary, keep track of who says what." },
+        { "id": "d3", "type": "mcq", "prompt": "How do landlords explain the increase?", "options": ["Higher taxes, insurance and renovation costs", "More people moving to Montréal", "The new social housing"], "answer": 0,
+          "explain": "[[Les propriétaires expliquent la hausse par l'augmentation des taxes, des assurances et du coût des rénovations.]]" }
+      ] },
+    { "type": "understand", "title": "How to summarize",
+      "blocks": [
+        { "type": "explain", "title": "What a good summary does",
+          "body": "A summary (*un résumé*) tells someone **the essentials** of a text, in **your own words**, in far fewer words. Five rules:\n\n1. **Shorter:** about a third of the original, or less.\n2. **Only the main idea and the key details:** numbers, who, what, why, and what happens next. Drop examples and colourful details.\n3. **Your own words:** reformulate. Change nouns into verbs, quotations into reported speech, passives into on.\n4. **Neutral and faithful:** no new information, no opinion inside the summary. Keep track of **who says what**: [[selon l'association]], [[les propriétaires affirment que…]].\n5. **Present tense** for what the article says: [[L'article explique que…]]. Events in the past keep their past tense: [[Les loyers ont augmenté]].\n\nIf you're asked for your opinion, give it **after** the summary, in a separate paragraph." },
+        { "type": "table", "title": "Your summary toolkit",
+          "head": ["Function", "Expressions"],
+          "rows": [
+            ["Introduce the topic", "Il s'agit d'un article sur… / L'article parle de… / Ce fait divers raconte que…"],
+            ["Give the source", "Selon… / D'après… / X explique, affirme, déclare que…"],
+            ["Add information", "De plus, … / Par ailleurs, … / Ensuite, …"],
+            ["Show the other side", "Par contre, … / Les propriétaires, eux, … / Mais…"],
+            ["Conclude", "En résumé, … / Bref, … / Finalement, …"],
+            ["Give your opinion (after)", "À mon avis, … / Personnellement, je pense que… / Ça me semble…"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[Bref]] is a little more informal than [[En résumé]], but fine in speech and in most writing." },
+        { "type": "table", "title": "Reformulate, don't copy",
+          "head": ["Technique", "In the article", "In your summary"],
+          "rows": [
+            ["Noun → verb", "la plus forte hausse depuis vingt ans", "les loyers n'ont jamais autant augmenté depuis vingt ans"],
+            ["Quotation → reported speech", "« Beaucoup de familles consacrent plus de la moitié de leur salaire au loyer », explique Sofia Martins.", "La porte-parole explique que beaucoup de familles dépensent plus de la moitié de leur salaire pour le loyer."],
+            ["Passive ↔ active / on", "un rapport publié mardi par une association", "une association a publié un rapport mardi"],
+            ["Synonym", "s'installer en banlieue", "déménager en banlieue"],
+            ["Group details", "taxes, assurances, coût des rénovations", "l'augmentation de leurs coûts"]
+          ],
+          "frCols": [1, 2], "sayCol": false },
+        { "type": "pattern", "title": "A summary in four moves",
+          "pattern": "Sujet → idée principale + chiffre clé → les deux côtés (selon…) → la suite",
+          "note": "This plan works for almost any news article.",
+          "examples": [
+            { "fr": "Il s'agit d'un article sur le logement à Montréal.", "en": "It's an article about housing in Montréal." },
+            { "fr": "Selon une association, les loyers ont augmenté de 7 % l'an dernier.", "en": "According to an association, rents rose by 7% last year." },
+            { "fr": "Les locataires sont inquiets, mais les propriétaires parlent de la hausse de leurs coûts.", "en": "Tenants are worried, but landlords point to their rising costs." },
+            { "fr": "La Ville va construire des logements sociaux, et une manifestation est prévue le 1er juillet.", "en": "The City is going to build social housing, and a protest is planned for July 1." }
+          ] },
+        { "type": "vocab", "title": "Summary words", "itemIds": ["resumer", "resume", "essentiel", "declarer", "affirmer", "locataire"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Summary mistakes examiners see every day",
+          "body": "- **Copying whole sentences.** Examiners notice immediately. Reformulate at least the structure.\n- **Keeping the quotations.** Turn them into reported speech: [[La porte-parole explique que…]]\n- **Adding your opinion in the middle.** [[Les propriétaires disent qu'ils ne font pas de profits, mais c'est faux !]] → keep [[c'est faux]] for your opinion paragraph.\n- **Losing the source.** [[Beaucoup de familles ont quitté l'île]] is a claim by the association, not a fact: write [[Selon l'association, …]].\n- **Wrong subject with s'agir.** [[L'article s'agit de…]] → [[Il s'agit de…]] or [[L'article parle de…]].\n- **Too many numbers.** Keep the one or two numbers that carry the main idea (7 %, 1 650 $)." },
+        { "type": "deepdive", "kind": "canada", "title": "Housing words in Québec",
+          "body": "- **July 1st** ([[le 1er juillet]]) is moving day in Québec: many leases end on June 30, so thousands of people move on the same day.\n- Apartments are named by their number of rooms: [[un 3 ½]] (*trois et demie*) is a one-bedroom, [[un 4 ½]] a two-bedroom, [[un 5 ½]] a three-bedroom. The half is the bathroom.\n- [[la Rive-Sud]] and [[la Rive-Nord]]: the South and North Shores, suburbs across the river from Montréal.\n- In Québec, a rent increase is regulated: tenants can refuse it, and the landlord can then ask the [[Tribunal administratif du logement]] to set the rent." }
+      ] },
+    { "type": "hear", "title": "Hear a summary",
+      "blocks": [
+        { "type": "repeat", "title": "Summary phrases",
+          "note": "Practise the frames until they come automatically.",
+          "lines": [
+            { "fr": "Il s'agit d'un article sur le logement à Montréal.", "en": "It's an article about housing in Montréal.", "tip": "s'agit: sa-ji, the t is silent." },
+            { "fr": "Selon l'association, les loyers ont augmenté de sept pour cent.", "en": "According to the association, rents went up by seven percent.", "tip": "sept: the p is silent, the t is pronounced: *sèt*." },
+            { "fr": "Les propriétaires, eux, parlent de la hausse de leurs coûts.", "en": "The landlords, for their part, talk about their rising costs." },
+            { "fr": "En résumé, la situation est difficile pour les locataires.", "en": "To sum up, the situation is difficult for tenants." },
+            { "fr": "Personnellement, je pense que c'est un vrai problème.", "en": "Personally, I think it's a real problem." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Il s'agit d'un fait divers. Hier soir, un incendie a détruit un restaurant à Sherbrooke. Selon les pompiers, le feu a commencé dans la cuisine. Personne n'a été blessé, mais le restaurant va rester fermé pendant plusieurs mois.", "en": "It's a news story. Last night, a fire destroyed a restaurant in Sherbrooke. According to the firefighters, the fire started in the kitchen. Nobody was injured, but the restaurant will stay closed for several months.", "prompt": "What's the main idea of this summary?", "options": ["A fire destroyed a restaurant in Sherbrooke.", "A cook was injured in Sherbrooke.", "A new restaurant is opening in Sherbrooke."], "answer": 0,
+          "explain": "After [[Il s'agit d'un fait divers]], the next sentence gives the main idea. The kitchen and the closure are details." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Selon les pompiers, le feu a commencé dans la cuisine.", "en": "According to the firefighters, the fire started in the kitchen.", "prompt": "Who says where the fire started?", "options": ["The firefighters", "The owner", "A customer"], "answer": 0,
+          "explain": "[[Selon les pompiers]]: the source comes right after [[selon]]." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: the whole unit",
+      "intro": "Headlines, faits divers, the passive, news listening and summaries, plus earlier B1 grammar. Ten questions.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "___ des loyers à Montréal : plus 7 % en un an", "answers": [["Hausse", "Augmentation", "Forte hausse"]], "en": "Rents up 7% in a year in Montréal",
+          "explain": "Nominal style: a noun instead of a verb. [[augmenter → la hausse / l'augmentation]]." },
+        { "id": "r2", "type": "cloze", "text": "Le rapport a été ___ (publier) mardi par une association.", "answers": [["publié"]], "en": "The report was published on Tuesday by an association.",
+          "explain": "Passive passé composé: [[a été]] + participle agreeing with [[le rapport]] (masculine singular)." },
+        { "id": "r3", "type": "cloze", "text": "Il y a cinq ans, le même logement ___ (coûter) environ 1 200 $.", "answers": [["coûtait"]], "en": "Five years ago, the same unit cost about $1,200.",
+          "explain": "A past situation, a description → imparfait: [[coûtait]]." },
+        { "id": "r4", "type": "translate", "prompt": "The spokesperson explained that many families had left the island.", "accept": ["La porte-parole a expliqué que beaucoup de familles avaient quitté l'île.", "La porte-parole a expliqué que de nombreuses familles avaient quitté l'île.", "Le porte-parole a expliqué que beaucoup de familles avaient quitté l'île.", "Le porte-parole a expliqué que de nombreuses familles avaient quitté l'île.", "La porte-parole a expliqué que plusieurs familles avaient quitté l'île.", "Le porte-parole a expliqué que plusieurs familles avaient quitté l'île."],
+          "explain": "Reported speech in the past: the earlier action goes into the plus-que-parfait ([[avaient quitté]])." },
+        { "id": "r5", "type": "mcq", "prompt": "Which sentence belongs in your opinion paragraph, not in the summary?", "options": ["Je trouve que la Ville ne fait pas assez.", "Selon l'association, la Ville ne fait pas assez.", "La Ville a annoncé de nouveaux logements sociaux."], "optionsFr": true, "answer": 0,
+          "explain": "[[Je trouve que…]] is your opinion. The other two report facts or someone else's view." },
+        { "id": "r6", "type": "listen-mcq", "fr": "Par ailleurs, une manifestation est prévue le premier juillet, jour traditionnel des déménagements au Québec.", "en": "In addition, a protest is planned for July 1, the traditional moving day in Québec.", "prompt": "What is planned, and when?", "options": ["A protest on July 1", "A move on June 1", "A report on Tuesday"], "answer": 0,
+          "explain": "[[une manifestation est prévue le premier juillet]]. [[prévue]] = planned." },
+        { "id": "r7", "type": "match", "prompt": "Match each expression with its role in a summary.", "pairs": [["Il s'agit de…", "introduce the topic"], ["D'après…", "give the source"], ["Par ailleurs, …", "add information"], ["Par contre, …", "show the other side"], ["En résumé, …", "conclude"]] },
+        { "id": "r8", "type": "translate", "prompt": "To sum up, rents are going up faster than salaries.", "accept": ["En résumé, les loyers augmentent plus vite que les salaires.", "Bref, les loyers augmentent plus vite que les salaires.", "En bref, les loyers augmentent plus vite que les salaires.", "En résumé, les loyers montent plus vite que les salaires.", "Bref, les loyers montent plus vite que les salaires."],
+          "explain": "[[En résumé]] or [[Bref]]; comparison [[plus vite que]] (A2)." },
+        { "id": "r9", "type": "cloze", "text": "___ (lire) cet article, j'ai compris pourquoi mes voisins déménagent.", "answers": [["En lisant"]], "en": "By reading this article, I understood why my neighbours are moving.",
+          "explain": "The gérondif (unit 4): [[en]] + present participle. [[lire → nous lisons → lisant]]." },
+        { "id": "r10", "type": "dictation", "fr": "Selon l'association, ce n'est pas suffisant.", "accept": ["D'après l'association, ce n'est pas suffisant."], "explain": "[[suffisant]] has a double f and a double s." }
+      ] },
+    { "type": "apply", "title": "Mission: summarize the news",
+      "intro": "Two missions on the Montréal housing article. Plan first: note the topic, the main idea, two key numbers, what each side says, and what happens next.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend who just arrived in Montréal asks you about the housing situation. Summarize the article for them in about one minute, then give your opinion in two or three sentences.", "seconds": 90,
+          "checklist": ["Introduce the topic (Il s'agit de… / J'ai lu un article sur…)", "The main idea with one or two numbers", "Who says what: selon…, … explique que…", "Both sides: tenants and landlords", "What happens next (logements sociaux, manifestation)", "Your opinion at the end, clearly separated"],
+          "models": [
+            { "label": "Model answer", "fr": "J'ai lu un article sur le logement à Montréal. Selon une association de locataires, les loyers ont augmenté de 7 % l'an dernier. Maintenant, un appartement de deux chambres coûte environ 1 650 $ par mois. La porte-parole explique que beaucoup de familles dépensent plus de la moitié de leur salaire pour le loyer. Les propriétaires, eux, disent que leurs taxes et leurs assurances ont augmenté. La Ville va construire des logements sociaux, mais pour l'association, ce n'est pas assez. Une manifestation est prévue le 1er juillet. À mon avis, c'est très difficile pour les nouveaux arrivants. Moi, je cherche un appartement depuis deux mois !", "en": "I read an article about housing in Montréal. According to a tenants' association, rents went up 7% last year. Now a two-bedroom apartment costs about $1,650 a month. The spokesperson explains that many families spend more than half their salary on rent. Landlords, for their part, say their taxes and insurance have gone up. The City is going to build social housing, but for the association, it isn't enough. A protest is planned for July 1. In my opinion, it's very hard for newcomers. I've been looking for an apartment for two months!" },
+            { "label": "Stronger model answer", "fr": "Alors, il s'agit d'un article sur la crise du logement à Montréal. D'après un rapport publié par une association de locataires, les loyers ont connu l'an dernier leur plus forte hausse depuis vingt ans : plus 7 % en moyenne. Un appartement qui coûtait 1 200 $ il y a cinq ans se loue maintenant 1 650 $. La porte-parole de l'association affirme que beaucoup de familles ont déjà quitté l'île pour la banlieue. Par contre, les propriétaires expliquent que leurs taxes et leurs rénovations coûtent plus cher, et qu'ils ne font pas de profits énormes. Bref, chaque côté a ses arguments. La Ville a annoncé des logements sociaux, une mesure jugée insuffisante par les locataires. Personnellement, je comprends les deux côtés, mais je pense qu'il est urgent de construire beaucoup plus de logements abordables, parce que sinon, les familles vont continuer à partir.", "en": "So, it's an article about the housing crisis in Montréal. According to a report published by a tenants' association, rents saw their biggest rise in twenty years last year: up 7% on average. An apartment that cost $1,200 five years ago now rents for $1,650. The association's spokesperson claims that many families have already left the island for the suburbs. On the other hand, landlords explain that their taxes and renovations cost more, and that they aren't making huge profits. In short, each side has its arguments. The City has announced social housing, a measure tenants consider insufficient. Personally, I understand both sides, but I think it's urgent to build many more affordable homes, because otherwise families will keep leaving." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a summary of the article in 80 to 120 words for a newcomers' forum. Then add a short paragraph (2–3 sentences) with your opinion.",
+          "promptFr": "Résumez l'article en 80 à 120 mots, puis donnez votre opinion en deux ou trois phrases.",
+          "wordRange": [100, 160],
+          "checklist": ["Summary of 80–120 words, opinion paragraph separate", "Opening: Il s'agit de… / L'article parle de…", "Main idea + one or two key numbers", "Sources: selon…, d'après…, … affirme que…", "At least one quotation turned into reported speech", "At least one reformulation (noun → verb, passive → on…)", "No copied sentences", "Opinion: À mon avis… / Personnellement…"],
+          "models": [
+            { "label": "Model answer", "fr": "Il s'agit d'un article sur le logement à Montréal. Selon le rapport d'une association de locataires, les loyers ont augmenté de 7 % l'an dernier : c'est la plus forte hausse depuis vingt ans. Un appartement de deux chambres coûte maintenant environ 1 650 $ par mois. La porte-parole de l'association explique que beaucoup de familles dépensent plus de la moitié de leur salaire pour le loyer, et que certaines ont quitté l'île. Les propriétaires, eux, parlent de la hausse des taxes et des assurances. La Ville va construire des logements sociaux, mais pour l'association, ce n'est pas assez.\n\nÀ mon avis, c'est un vrai problème pour les nouveaux arrivants, parce qu'ils ont souvent de petits salaires au début.", "en": "It's an article about housing in Montréal. According to a tenants' association report, rents rose 7% last year: the biggest increase in twenty years. A two-bedroom apartment now costs about $1,650 a month. The association's spokesperson explains that many families spend more than half their salary on rent, and that some have left the island. Landlords, for their part, talk about higher taxes and insurance. The City is going to build social housing, but for the association, it isn't enough. In my opinion, it's a real problem for newcomers, because they often have low salaries at the beginning." },
+            { "label": "Stronger model answer", "fr": "Cet article porte sur la crise du logement à Montréal. D'après un rapport publié mardi par une association de locataires, les loyers ont augmenté en moyenne de 7 % l'an dernier, du jamais vu depuis vingt ans. Un appartement de deux chambres, qui coûtait environ 1 200 $ il y a cinq ans, se loue désormais 1 650 $. La porte-parole de l'association affirme que de nombreuses familles consacrent plus de la moitié de leur salaire au loyer et que plusieurs ont déjà déménagé en banlieue. Les propriétaires justifient cette hausse par l'augmentation de leurs coûts. Enfin, la Ville a annoncé de nouveaux logements sociaux, une mesure jugée insuffisante par les locataires, qui manifesteront le 1er juillet.\n\nPersonnellement, je pense que les deux côtés ont des arguments valables. Cependant, en attendant de nouveaux logements, il est urgent de mieux protéger les locataires.", "en": "This article is about the housing crisis in Montréal. According to a report published on Tuesday by a tenants' association, rents rose by an average of 7% last year, something not seen in twenty years. A two-bedroom apartment that cost about $1,200 five years ago now rents for $1,650. The association's spokesperson claims that many families spend more than half their salary on rent and that several have already moved to the suburbs. Landlords justify the increase by their rising costs. Finally, the City has announced new social housing, a measure tenants consider insufficient; they will protest on July 1. Personally, I think both sides have valid arguments. However, while waiting for new housing, it is urgent to protect tenants better." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Read a news article and separate the **main idea**, the **key details** and **who says what**\n- Reformulate instead of copying: noun ↔ verb, passive ↔ **on**, quotation → reported speech\n- Summarize orally and in 80–120 words with [[Il s'agit de…]], [[Selon…]], [[En résumé…]], then give your opinion separately",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Prices written as 1 650 $ / 1 200 $, TAL explanation made accurate, fixed \"payer plus de rénovations\" and \"des petits salaires\" in models, added accepts." }
+}

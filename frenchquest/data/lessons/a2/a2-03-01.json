@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-03-01",
+  "level": "a2",
+  "unit": "a2-03",
+  "title": "When I was a child",
+  "goal": "Form the imparfait of any verb and say where you lived and what you used to do as a child.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-imparfait", "kind": "grammar", "fr": "nous parlons → je parlais", "en": "the imparfait: nous stem + -ais, -ais, -ait, -ions, -iez, -aient",
+      "drills": [
+        { "type": "cloze", "text": "Quand j'étais petit, je ___ au soccer tous les jours. (jouer)", "answers": [["jouais"]], "en": "When I was little, I used to play soccer every day.", "explain": "nous jouons → jou- + -ais = je jouais." },
+        { "type": "cloze", "text": "Nous ___ arabe à la maison. (parler)", "answers": [["parlions"]], "en": "We used to speak Arabic at home.", "explain": "nous → -ions: nous parlions (present: nous parlons)." },
+        { "type": "cloze", "text": "Mes parents ___ beaucoup. (travailler)", "answers": [["travaillaient"]], "en": "My parents used to work a lot.", "explain": "ils / elles → -aient. The ending is silent: it sounds like travaillait." },
+        { "type": "translate", "prompt": "We used to live in a village.", "accept": ["Nous habitions dans un village.", "On habitait dans un village.", "Nous vivions dans un village.", "On vivait dans un village."], "explain": "nous → habitions; with on, use the il form: on habitait." }
+      ] },
+    { "id": "g-etre-imparfait", "kind": "grammar", "fr": "être → j'étais", "en": "être in the imparfait (the only irregular stem: ét-)",
+      "drills": [
+        { "type": "cloze", "text": "Ma grand-mère ___ très gentille.", "answers": [["était"]], "en": "My grandmother was very kind.", "explain": "être → ét- + -ait = elle était." },
+        { "type": "cloze", "text": "Vous ___ voisins à Montréal ?", "answers": [["étiez"]], "en": "Were you neighbours in Montréal?", "explain": "vous → ét- + -iez = vous étiez." },
+        { "type": "mcq", "prompt": "Which is the imparfait stem of être?", "options": ["ét-", "somm-", "ê-"], "optionsFr": true, "answer": 0, "explain": "Être is the one exception: its stem is ét-, not the nous form (sommes)." }
+      ] },
+    { "id": "g-imparfait-spelling", "kind": "grammar", "fr": "je mangeais, je commençais", "en": "imparfait spelling of -ger and -cer verbs",
+      "drills": [
+        { "type": "cloze", "text": "Le dimanche, je ___ chez mes grands-parents. (manger)", "answers": [["mangeais"]], "en": "On Sundays, I used to eat at my grandparents' place.", "explain": "Keep the e before -a: mangeais, so the g stays soft." },
+        { "type": "cloze", "text": "L'école ___ à huit heures. (commencer)", "answers": [["commençait"]], "en": "School used to start at eight.", "explain": "ç before -a keeps the s sound: commençait." },
+        { "type": "cloze", "text": "Nous ___ chaque été. (voyager)", "answers": [["voyagions"]], "en": "We used to travel every summer.", "explain": "Before -i, no extra e is needed: nous voyagions." }
+      ] },
+    { "id": "quand-petit", "kind": "phrase", "fr": "quand j'étais petit", "en": "when I was little (a child)", "accept": ["quand j'étais petite", "quand j'étais enfant"], "note": "A woman says petite." },
+    { "id": "grandir", "kind": "vocab", "fr": "grandir", "en": "to grow up", "pos": "verb",
+      "example": { "fr": "J'ai grandi en Tunisie.", "en": "I grew up in Tunisia." }, "note": "Like finir: nous grandissons → je grandissais." },
+    { "id": "enfance", "kind": "vocab", "fr": "enfance", "article": "l'", "gender": "f", "en": "childhood", "pos": "noun",
+      "example": { "fr": "J'ai passé mon enfance à Sousse.", "en": "I spent my childhood in Sousse." } },
+    { "id": "campagne", "kind": "vocab", "fr": "campagne", "article": "la", "gender": "f", "en": "countryside", "pos": "noun",
+      "example": { "fr": "Mes grands-parents habitaient à la campagne.", "en": "My grandparents lived in the countryside." } },
+    { "id": "village", "kind": "vocab", "fr": "village", "article": "le", "gender": "m", "en": "village", "pos": "noun" },
+    { "id": "ecole-primaire", "kind": "vocab", "fr": "école primaire", "article": "l'", "gender": "f", "en": "elementary school", "pos": "noun", "accept": ["le primaire"],
+      "note": "In Québec people also just say le primaire." },
+    { "id": "jouer-dehors", "kind": "phrase", "fr": "jouer dehors", "en": "to play outside" },
+    { "id": "chaque-ete", "kind": "phrase", "fr": "chaque été", "en": "every summer", "accept": ["tous les étés"] },
+    { "id": "ami-enfance", "kind": "phrase", "fr": "un ami d'enfance", "en": "a childhood friend", "accept": ["une amie d'enfance"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Where did you grow up?",
+      "blocks": [
+        { "type": "dialogue", "title": "Coffee break at work in Québec City",
+          "context": "Lucie asks her new colleague Karim about his childhood.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Dis, Karim, tu as grandi où ?", "en": "Say, Karim, where did you grow up?" },
+            { "speaker": "Karim", "fr": "En Tunisie, dans un petit village près de Sousse. Quand j'étais petit, j'habitais avec mes parents et mes grands-parents.", "en": "In Tunisia, in a small village near Sousse. When I was little, I lived with my parents and my grandparents." },
+            { "speaker": "Lucie", "fr": "Une grande famille ! Et tu allais à l'école comment ?", "en": "A big family! And how did you get to school?" },
+            { "speaker": "Karim", "fr": "À pied. L'école primaire était à cinq minutes de la maison. Après l'école, je jouais dehors avec mes cousins jusqu'au soir.", "en": "On foot. The elementary school was five minutes from the house. After school, I played outside with my cousins until the evening." },
+            { "speaker": "Lucie", "fr": "Moi, j'ai grandi à Chicoutimi. L'hiver, nous jouions au hockey dehors, sur le lac.", "en": "I grew up in Chicoutimi. In winter, we used to play hockey outside, on the lake." },
+            { "speaker": "Karim", "fr": "Au hockey, bien sûr ! Et l'été ?", "en": "Hockey, of course! And in summer?" },
+            { "speaker": "Lucie", "fr": "Chaque été, nous allions au chalet de mes grands-parents. Et toi ?", "en": "Every summer, we used to go to my grandparents' cottage. What about you?" },
+            { "speaker": "Karim", "fr": "Nous, nous allions à la plage. Et nous mangions beaucoup de poisson !", "en": "We used to go to the beach. And we ate a lot of fish!" },
+            { "speaker": "Lucie", "fr": "Et à la maison, vous parliez quelle langue ?", "en": "And at home, what language did you speak?" },
+            { "speaker": "Karim", "fr": "Nous parlions arabe à la maison et français à l'école. Mon grand-père lisait le journal en français tous les matins.", "en": "We spoke Arabic at home and French at school. My grandfather read the newspaper in French every morning." },
+            { "speaker": "Lucie", "fr": "Alors, tu étais déjà bilingue !", "en": "So you were already bilingual!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen first. Notice the many verbs ending in **-ais, -ait, -ions, -iez**: [[j'habitais]], [[je jouais]], [[nous allions]], [[vous parliez]]. That is the **imparfait**, the tense for *what life was like* and *what you used to do*. Lucie also says [[tu as grandi]] and [[j'ai grandi]]: that is the passé composé you already know." }
+      ] },
+    { "type": "understand", "title": "The imparfait",
+      "blocks": [
+        { "type": "explain", "title": "What the imparfait is for",
+          "body": "The **imparfait** describes the past as an ongoing situation, not as a finished event. In English it often matches **used to**, **would** (for habits) or **was / were + -ing**:\n\n- [[Je jouais dehors.]] I used to play outside. / I was playing outside.\n- [[Nous allions à la plage.]] We would go to the beach.\n- [[L'école était près de la maison.]] The school was near the house.\n\nThe **passé composé** (unit 1 and 2) tells what happened, one finished event: [[J'ai grandi en Tunisie.]] [[Hier, j'ai joué au soccer.]] You will learn to combine the two tenses in unit 10. For now, use the imparfait to paint a picture of your childhood." },
+        { "type": "pattern", "title": "Two steps to form it",
+          "pattern": "nous form (present) − ons → stem + -ais, -ais, -ait, -ions, -iez, -aient",
+          "note": "Take the **nous** form of the present, remove **-ons**, and add the endings. This works for almost every verb, regular or not.",
+          "examples": [
+            { "fr": "nous parlons → je parlais", "en": "we speak → I used to speak" },
+            { "fr": "nous finissons → je finissais", "en": "we finish → I used to finish" },
+            { "fr": "nous prenons → je prenais", "en": "we take → I used to take" },
+            { "fr": "nous faisons → je faisais", "en": "we do → I used to do" }
+          ] },
+        { "type": "table", "title": "From the nous form to the stem",
+          "head": ["infinitive", "nous (present)", "imparfait stem", "je / j' (imparfait)"],
+          "rows": [
+            ["parler", "nous parlons", "parl-", "je parlais"],
+            ["finir", "nous finissons", "finiss-", "je finissais"],
+            ["prendre", "nous prenons", "pren-", "je prenais"],
+            ["faire", "nous faisons", "fais-", "je faisais"],
+            ["avoir", "nous avons", "av-", "j'avais"],
+            ["aller", "nous allons", "all-", "j'allais"],
+            ["lire", "nous lisons", "lis-", "je lisais"],
+            ["être", "nous sommes", "ét- (exception)", "j'étais"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": false,
+          "note": "**Être** is the only exception: its stem is **ét-**. Everything else follows the nous rule, even irregular verbs like [[faire]], [[prendre]] and [[aller]]." },
+        { "type": "table", "title": "All the forms: parler and être",
+          "head": ["", "parler", "être"],
+          "rows": [
+            ["je / j'", "parlais", "étais"],
+            ["tu", "parlais", "étais"],
+            ["il / elle / on", "parlait", "était"],
+            ["nous", "parlions", "étions"],
+            ["vous", "parliez", "étiez"],
+            ["ils / elles", "parlaient", "étaient"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Good news for listening: [[parlais]], [[parlait]] and [[parlaient]] sound **exactly the same**. Only [[nous parlions]] and [[vous parliez]] sound different." },
+        { "type": "explain", "title": "Spelling: -ger, -cer and -ier verbs",
+          "body": "The endings are regular, but a few spellings protect the sound:\n\n- **-ger verbs** keep an **e** before **a**: [[manger → je mangeais, ils mangeaient]], but [[nous mangions, vous mangiez]] (no e before i).\n- **-cer verbs** take **ç** before **a**: [[commencer → je commençais, elle commençait]], but [[nous commencions]].\n- **-ier verbs** get two i's with nous and vous: [[étudier → nous étudiions, vous étudiiez]]. It looks strange, but it is correct: stem [[étudi-]] + [[-ions]]." },
+        { "type": "vocab", "title": "Words for your childhood", "itemIds": ["quand-petit", "grandir", "enfance", "campagne", "village", "ecole-primaire", "jouer-dehors", "chaque-ete", "ami-enfance"] },
+        { "type": "deepdive", "kind": "why", "title": "Why the nous form?",
+          "body": "The nous form of the present is the most \"regular\" base of a verb: it shows the full stem, including the extra **-ss-** of [[finir]] ([[nous finissons]]) and the changed stem of [[faire]] ([[nous faisons]]). Once you know the present well, you already know almost the whole imparfait. That is why it is often called the easiest past tense in French." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Être from sommes:** [[nous sommions]] does not exist. Say [[nous étions]].\n- **Forgetting the i:** [[nous parlons]] is the present; the imparfait is [[nous parlions]].\n- **Élision:** [[je étais]] → [[j'étais]], [[je habitais]] → [[j'habitais]], [[je allais]] → [[j'allais]].\n- **-ger verbs:** [[je mangais]] → [[je mangeais]].\n- **Pronouncing -aient:** in [[ils jouaient]] the -ent is silent. Don't say a final *-ent* or *-ant*.\n- **Translating “would”:** for a past habit, English *would* is the imparfait, not a conditional: *Every summer we would go to the beach* = [[Chaque été, nous allions à la plage.]]" },
+        { "type": "deepdive", "kind": "canada", "title": "School words in Québec and France",
+          "body": "Talking about your childhood means talking about school, and the words differ:\n\n- **Québec:** [[le primaire]] (elementary, 6 years), [[le secondaire]] (high school, 5 years), then [[le cégep]] (a college between high school and university).\n- **France:** [[l'école primaire]], [[le collège]] (middle school), [[le lycée]] (high school).\n\nCareful: in Québec, [[le collège]] usually means a cégep or a private school, not a middle school. Lucie's [[chalet]] is also very Québécois: a cottage, often by a lake." }
+      ] },
+    { "type": "hear", "title": "Hear the imparfait",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "The endings -ais, -ait, -aient all sound like the **è** in [[mère]].",
+          "lines": [
+            { "fr": "Quand j'étais petit, j'habitais à la campagne.", "en": "When I was little, I lived in the countryside.", "tip": "j'étais and j'habitais end with the same open è sound." },
+            { "fr": "Je jouais dehors avec mes cousins.", "en": "I used to play outside with my cousins.", "tip": "jouais is one quick syllable, like “zhweh”." },
+            { "fr": "Nous allions à la plage.", "en": "We used to go to the beach.", "tip": "allions has a y sound: a-lyon." },
+            { "fr": "Mes parents travaillaient beaucoup.", "en": "My parents worked a lot.", "tip": "The -aient ending is just è." },
+            { "fr": "Vous parliez quelle langue ?", "en": "What language did you speak?", "tip": "parliez: par-lyé." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Nous parlions arabe à la maison.", "en": "We used to speak Arabic at home.", "prompt": "When is the speaker talking about?", "options": ["The past (a habit)", "Now", "The future"], "answer": 0,
+          "explain": "[[parlions]] has a *y* sound before the nasal *on*: that is the imparfait. The present [[parlons]] has no *y*." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le samedi, je joue au hockey avec mes enfants.", "en": "On Saturdays, I play hockey with my kids.", "prompt": "When is the speaker talking about?", "options": ["Now (a present habit)", "The past (a habit)", "Last Saturday only"], "answer": 0,
+          "explain": "[[je joue]] ends in an *ou* sound: present. The imparfait [[je jouais]] ends in *è*." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Find the nous form in your head first, then add the ending.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Quand j'étais petite, j'___ à Casablanca. (habiter)", "answers": [["habitais"]], "choices": ["habitais", "habitait", "habitions", "habite"], "en": "When I was little, I lived in Casablanca.",
+          "explain": "je → -ais: j'habitais. [[habite]] is the present." },
+        { "id": "r2", "type": "mcq", "prompt": "What is the imparfait stem of finir?", "options": ["finiss-", "fin-", "finir-"], "optionsFr": true, "answer": 0,
+          "explain": "nous finissons → finiss- → je finissais.", "optionFeedback": [null, "Start from the nous form: nous finissons, with -ss-.", "The infinitive is the base of the future, not of the imparfait."] },
+        { "id": "r3", "type": "cloze", "text": "Nous ___ à l'école à pied et nous ___ à la maison à midi. (aller, rentrer)", "answers": [["allions"], ["rentrions"]], "en": "We used to walk to school and come home at noon.",
+          "explain": "nous allons → all- + -ions; nous rentrons → rentr- + -ions." },
+        { "id": "r4", "type": "match", "prompt": "Match each form to its meaning.", "pairs": [["j'étais", "I was"], ["nous avions", "we had"], ["ils faisaient", "they used to do"], ["tu prenais", "you used to take (friend)"], ["vous alliez", "you used to go (formal or plural)"]] },
+        { "id": "r5", "type": "cloze", "text": "Le soir, je ___ mes devoirs avec mon frère. (faire)", "answers": [["faisais"]], "en": "In the evening, I used to do my homework with my brother.",
+          "explain": "nous faisons → fais- → je faisais. [[Les devoirs]] = homework." },
+        { "id": "r6", "type": "translate", "prompt": "My grandparents used to live in the countryside.", "accept": ["Mes grands-parents habitaient à la campagne.", "Mes grands-parents vivaient à la campagne.", "Mes grands-parents habitaient la campagne."],
+          "hint": "ils → -aient", "explain": "[[habitaient]]: ils/elles take -aient. [[À la campagne]] = in the countryside." },
+        { "id": "r7", "type": "cloze", "text": "Le dimanche, je ___ chez ma tante. (manger)", "answers": [["mangeais"]], "choices": ["mangeais", "mangais", "mangeait"], "en": "On Sundays, I used to eat at my aunt's.",
+          "explain": "Keep the e before a: mangeais. [[mangeait]] is the il/elle form." },
+        { "id": "r8", "type": "cloze", "text": "Je ___ né en Tunisie et j'___ dans un petit village.", "answers": [["suis"], ["habitais"]], "en": "I was born in Tunisia and I lived in a small village.",
+          "explain": "Being born is a single event: passé composé with être, [[je suis né]]. Where you lived as a child is a description: imparfait, [[j'habitais]]." },
+        { "id": "r9", "type": "reorder", "prompt": "When I was little, I played outside. (man speaking)", "accept": ["Quand j'étais petit, je jouais dehors.", "Je jouais dehors quand j'étais petit."], "extra": ["joué"],
+          "explain": "Two imparfaits: a description ([[j'étais petit]]) and a habit ([[je jouais]])." },
+        { "id": "r10", "type": "dictation", "fr": "Mes parents travaillaient beaucoup.", "accept": [],
+          "explain": "ils/elles → -aient, with a silent ending. [[travailler]] keeps its -ill-: [[travaillaient]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A colleague asks: “Tu as grandi où ?” Answer in about 40 seconds: where you lived, who you lived with, how you went to school, and what you used to do after school or in summer.", "seconds": 40,
+          "checklist": ["J'ai grandi à / en… (passé composé)", "Quand j'étais petit / petite, j'habitais…", "J'allais à l'école…", "After school or in summer: je jouais / nous allions…", "A language: À la maison, nous parlions…"],
+          "models": [ { "label": "Model answer", "fr": "J'ai grandi au Vietnam, à Hué. Quand j'étais petite, j'habitais avec mes parents et ma sœur dans une petite maison. J'allais à l'école à vélo. Après l'école, je jouais dehors avec mes amis. Chaque été, nous allions chez mes grands-parents, à la campagne. À la maison, nous parlions vietnamien, bien sûr.",
+            "en": "I grew up in Vietnam, in Hué. When I was little, I lived with my parents and my sister in a small house. I went to school by bike. After school, I played outside with my friends. Every summer, we went to my grandparents' place in the countryside. At home, we spoke Vietnamese, of course." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short paragraph for your French class: “Quand j'étais petit / petite…”. Say where you lived, describe your school, and give two things you used to do (after school, on weekends or in summer).", "promptFr": "Quand j'étais petit ou petite…",
+          "wordRange": [40, 80],
+          "checklist": ["Start with Quand j'étais petit / petite", "At least four verbs in the imparfait", "Correct élision: j'étais, j'habitais, j'allais", "One time expression: chaque été, le dimanche, après l'école", "Check -ger / -cer spellings: mangeais, commençait"],
+          "models": [ { "label": "Model answer", "fr": "Quand j'étais petit, j'habitais à Pune, en Inde. Mon école était grande et elle commençait à huit heures. J'allais à l'école en bus avec ma sœur. Après l'école, je jouais au cricket dehors avec mes amis. Le dimanche, nous mangions chez mes grands-parents. Ma grand-mère faisait toujours un grand repas.",
+            "en": "When I was little, I lived in Pune, India. My school was big and it started at eight. I went to school by bus with my sister. After school, I played cricket outside with my friends. On Sundays, we ate at my grandparents' place. My grandmother always made a big meal." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form the **imparfait**: nous form − ons + [[-ais, -ais, -ait, -ions, -iez, -aient]]\n- Remember the one exception: **être → ét-** ([[j'étais]]), and spellings like [[je mangeais]], [[je commençais]]\n- Say where you grew up and what you used to do: [[Quand j'étais petit, j'habitais… je jouais…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Checked imparfait formation, -ger/-cer/-ier spellings and answer keys; no language errors found." }
+}

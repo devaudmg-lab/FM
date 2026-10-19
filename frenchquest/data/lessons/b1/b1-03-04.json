@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-03-04",
+  "level": "b1",
+  "unit": "b1-03",
+  "title": "Workplace communication",
+  "goal": "Communicate with colleagues: choose tu or vous at work, write and answer workplace emails, talk about meetings and pass on messages.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-tu-vous-work", "kind": "grammar", "fr": "se tutoyer / se vouvoyer", "en": "tu or vous with colleagues",
+      "drills": [
+        { "type": "cloze", "text": "Ici, tout le monde se ___. (tutoyer)", "answers": [["tutoie"]], "en": "Here, everyone uses “tu” with each other.", "explain": "[[tout le monde]] takes a singular verb: [[se tutoie]]. Verbs in -oyer change y → i before a silent e." },
+        { "type": "mcq", "prompt": "Your first day. You're not sure whether to use tu with a colleague. What do you ask?", "options": ["On se tutoie ou on se vouvoie ?", "Tu me tutoies, toi ?", "Vous êtes tu ?"], "optionsFr": true, "answer": 0, "explain": "[[On se tutoie ou on se vouvoie ?]] is the natural, polite way to ask." },
+        { "type": "translate", "prompt": "Could you send me the file? (to a colleague you say tu to)", "accept": ["Est-ce que tu pourrais m'envoyer le fichier ?", "Tu pourrais m'envoyer le fichier ?", "Pourrais-tu m'envoyer le fichier ?", "Peux-tu m'envoyer le fichier ?", "Tu peux m'envoyer le fichier ?", "Est-ce que tu peux m'envoyer le fichier ?"], "explain": "With tu: [[tu pourrais]] (polite) or [[tu peux]]. The pronoun [[m']] goes before the infinitive." }
+      ] },
+    { "id": "g-relay", "kind": "grammar", "fr": "Elle a dit que… / Il m'a demandé si…", "en": "passing on a message (reported speech)",
+      "drills": [
+        { "type": "cloze", "text": "Camille : « La réunion est reportée. » → Camille a dit que la réunion ___ reportée.", "answers": [["était"]], "en": "Camille said that the meeting was postponed.", "explain": "After a past reporting verb, the present becomes the imparfait: [[est]] → [[était]]." },
+        { "type": "cloze", "text": "Olivier : « Tu viens dîner ? » → Olivier m'a demandé ___ je venais dîner.", "answers": [["si"]], "en": "Olivier asked me if I was coming to lunch.", "explain": "A reported yes/no question uses [[si]]." },
+        { "type": "mcq", "prompt": "Camille wrote: “Envoyez-moi vos idées.” You report it:", "options": ["Camille nous a demandé de lui envoyer nos idées.", "Camille nous a demandé que nous envoyons nos idées.", "Camille a dit envoyez-moi vos idées."], "optionsFr": true, "answer": 0, "explain": "A reported order: [[demander à quelqu'un de]] + infinitive." }
+      ] },
+    { "id": "reunion", "kind": "vocab", "fr": "réunion", "article": "une", "gender": "f", "en": "meeting", "pos": "noun", "accept": ["la réunion"],
+      "example": { "fr": "On a une réunion d'équipe chaque lundi.", "en": "We have a team meeting every Monday." } },
+    { "id": "collegue", "kind": "vocab", "fr": "collègue", "article": "un", "gender": "m", "en": "colleague (co-worker)", "pos": "noun", "accept": ["une collègue", "le collègue", "la collègue"],
+      "example": { "fr": "Ma collègue m'a aidé le premier jour.", "en": "My colleague (a woman) helped me on the first day." }, "note": "Same form for a man and a woman: only the article changes." },
+    { "id": "gestionnaire", "kind": "vocab", "fr": "gestionnaire", "article": "le", "gender": "m", "en": "manager (Québec term)", "pos": "noun", "accept": ["la gestionnaire", "un gestionnaire", "une gestionnaire", "le responsable", "la responsable"],
+      "example": { "fr": "Camille est notre gestionnaire.", "en": "Camille is our manager." }, "note": "In France you will hear [[le / la responsable]] or [[le / la manager]]." },
+    { "id": "ordre-du-jour", "kind": "vocab", "fr": "ordre du jour", "article": "l'", "gender": "m", "en": "agenda (of a meeting)", "pos": "noun", "accept": ["un ordre du jour"],
+      "example": { "fr": "L'ordre du jour est en pièce jointe.", "en": "The agenda is attached." } },
+    { "id": "piece-jointe", "kind": "vocab", "fr": "pièce jointe", "article": "la", "gender": "f", "en": "attachment (email)", "pos": "noun", "accept": ["une pièce jointe"],
+      "example": { "fr": "Vous trouverez le document en pièce jointe.", "en": "Please find the document attached." } },
+    { "id": "reporter", "kind": "vocab", "fr": "reporter", "en": "to postpone", "pos": "verb", "accept": ["remettre à plus tard"],
+      "example": { "fr": "La réunion est reportée à mardi.", "en": "The meeting is postponed to Tuesday." }, "note": "False friend: *to report* is [[signaler]] or [[faire un rapport]]." },
+    { "id": "assister", "kind": "vocab", "fr": "assister à", "en": "to attend", "pos": "verb", "accept": ["participer à"],
+      "example": { "fr": "J'ai assisté à ma première réunion.", "en": "I attended my first meeting." }, "note": "False friend: *to assist* (help) is [[aider]]." },
+    { "id": "teletravail", "kind": "vocab", "fr": "télétravail", "article": "le", "gender": "m", "en": "remote work (working from home)", "pos": "noun", "accept": ["du télétravail"],
+      "example": { "fr": "Le jeudi, je suis en télétravail.", "en": "On Thursdays, I work from home." } },
+    { "id": "faire-suivi", "kind": "phrase", "fr": "faire le suivi avec le client", "en": "to follow up with the client", "accept": ["faire un suivi avec le client"] },
+    { "id": "bonne-fin", "kind": "phrase", "fr": "Bonne fin de journée !", "en": "Have a good rest of the day!" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Raj's first day",
+      "intro": "Raj got the developer job! Read his first conversation with his colleagues, then the email his manager sends that afternoon and his reply.",
+      "blocks": [
+        { "type": "dialogue", "title": "Le premier jour",
+          "context": "Raj arrives at the office of a small software company in Montréal. Olivier, a colleague, welcomes him. Then Camille, the manager, comes by.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Salut ! Toi, tu dois être Raj, le nouveau développeur ? Moi, c'est Olivier. Bienvenue dans l'équipe !", "en": "Hi! You must be Raj, the new developer? I'm Olivier. Welcome to the team!" },
+            { "speaker": "Raj", "fr": "Bonjour, enchanté. Euh… on se tutoie ou on se vouvoie ?", "en": "Hello, nice to meet you. Um… do we say tu or vous?" },
+            { "speaker": "Olivier", "fr": "Ici, tout le monde se tutoie, même la directrice ! Dans les bureaux au Québec, c'est assez normal.", "en": "Here, everyone uses tu, even the director! In offices in Québec, it's pretty normal." },
+            { "speaker": "Raj", "fr": "D'accord. Alors, est-ce que tu pourrais m'expliquer comment fonctionnent les réunions d'équipe ?", "en": "OK. So, could you explain to me how the team meetings work?" },
+            { "speaker": "Olivier", "fr": "Bien sûr. On a une réunion chaque lundi à 9 h 30. Camille, notre gestionnaire, envoie l'ordre du jour le vendredi. Si tu veux ajouter un point, tu lui écris avant.", "en": "Sure. We have a meeting every Monday at 9:30. Camille, our manager, sends the agenda on Friday. If you want to add an item, you write to her before." },
+            { "speaker": "Raj", "fr": "Et les réunions se font en personne ?", "en": "And are the meetings in person?" },
+            { "speaker": "Olivier", "fr": "Ça dépend. Le mardi et le jeudi, on est en télétravail, alors on se voit en visioconférence.", "en": "It depends. On Tuesdays and Thursdays we work from home, so we see each other by video call." },
+            { "speaker": "Camille", "fr": "Bonjour Raj ! Je vois qu'Olivier t'a déjà fait visiter. Petite chose : la réunion de lundi est reportée à mardi, parce que je suis en formation. Je t'envoie un courriel avec les détails.", "en": "Hi Raj! I see Olivier has already shown you around. One small thing: Monday's meeting is postponed to Tuesday, because I'm at a training session. I'll send you an email with the details." },
+            { "speaker": "Raj", "fr": "Parfait, merci Camille.", "en": "Perfect, thanks Camille." },
+            { "speaker": "Olivier", "fr": "Et le vendredi midi, on dîne ensemble à la cafétéria. Tu viens avec nous ?", "en": "And on Fridays at noon, we have lunch together in the cafeteria. Are you coming with us?" },
+            { "speaker": "Raj", "fr": "Avec plaisir !", "en": "With pleasure!" }
+          ] },
+        { "type": "text", "title": "Le courriel de Camille",
+          "context": "Camille writes to the whole team.",
+          "fr": "Objet : Réunion d'équipe reportée à mardi\nBonjour à tous,\nComme je suis en formation lundi, la réunion d'équipe est reportée à mardi, 10 h, en visioconférence. Vous trouverez l'ordre du jour en pièce jointe.\nRaj, bienvenue dans l'équipe ! Pourrais-tu nous présenter rapidement ton parcours au début de la réunion ? Cinq minutes, c'est parfait.\nOlivier, peux-tu faire le suivi avec le client pour la nouvelle version de l'application ?\nMerci et bonne fin de semaine !\nCamille",
+          "en": "Subject: Team meeting postponed to Tuesday. Hello everyone, As I'm at a training session on Monday, the team meeting is postponed to Tuesday, 10 a.m., by video call. Please find the agenda attached. Raj, welcome to the team! Could you briefly present your background at the start of the meeting? Five minutes is perfect. Olivier, can you follow up with the client about the new version of the app? Thanks and have a good weekend! Camille" },
+        { "type": "text", "title": "La réponse de Raj",
+          "fr": "Objet : RE : Réunion d'équipe reportée à mardi\nBonjour Camille,\nMerci pour ton message et pour l'accueil ! Avec plaisir pour la présentation. Est-ce que je peux montrer quelques diapositives ?\nBonne fin de semaine,\nRaj",
+          "en": "Subject: RE: Team meeting postponed to Tuesday. Hi Camille, Thanks for your message and for the welcome! I'd be happy to do the presentation. Can I show a few slides? Have a good weekend, Raj" },
+        { "id": "d1", "type": "mcq", "prompt": "Camille writes “Vous trouverez…” but also “Pourrais-tu…”. Why?", "options": ["vous = the whole team (plural); tu = one colleague", "She is angry with Raj", "vous is for the agenda, tu for emails"], "answer": 0,
+          "explain": "In a team that uses tu, [[vous]] is simply the **plural**: [[Bonjour à tous… Vous trouverez…]]. To one person: [[Pourrais-tu…]]" },
+        { "id": "d2", "type": "mcq", "prompt": "What does “la réunion est reportée” mean?", "options": ["The meeting is postponed.", "The meeting is reported.", "The meeting is cancelled."], "answer": 0,
+          "explain": "False friend: [[reporter]] = to postpone. Cancelled would be [[annulée]]." }
+      ] },
+    { "type": "understand", "title": "The codes of the workplace",
+      "blocks": [
+        { "type": "table", "title": "Tu or vous at work?",
+          "head": ["Situation", "Québec (typical)", "France (typical)"],
+          "rows": [
+            ["Colleagues in an office", "tu, very often from day one", "often tu, but sometimes vous at first"],
+            ["Your manager", "often tu", "often vous"],
+            ["Clients, the public", "vous", "vous"],
+            ["Job interview", "vous", "vous"],
+            ["Email to the whole team", "vous (plural)", "vous (plural)"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "When in doubt, start with **vous** and let the other person offer **tu**: [[On peut se tutoyer ?]] or [[Tu peux me tutoyer !]] Switching back from tu to vous is strange, so wait to be sure." },
+        { "type": "table", "title": "Anatomy of a workplace email",
+          "head": ["Part", "Friendly (colleague)", "Formal (client, unknown person)"],
+          "rows": [
+            ["Objet", "Réunion reportée à mardi", "Demande d'information : facture 2026-14"],
+            ["Greeting", "Bonjour Camille, / Salut Olivier,", "Bonjour Madame Tremblay, / Madame, Monsieur,"],
+            ["Opening", "Merci pour ton message.", "Je vous remercie de votre message."],
+            ["Attachment", "Je t'envoie le fichier en pièce jointe.", "Vous trouverez ci-joint le document demandé."],
+            ["Closing", "Bonne journée ! / Merci et à bientôt,", "Cordialement, / Je vous prie d'agréer…"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "In emails, [[Bonjour + first name]] is the normal greeting, even with a manager. [[Salut]] is only for colleagues you know well." },
+        { "type": "pattern", "title": "Passing on a message",
+          "pattern": "Il / Elle a dit que + imparfait · m'a demandé si… · m'a demandé de + infinitif",
+          "note": "You learned reported speech in unit 2. At work you use it all the time to relay information.",
+          "examples": [
+            { "fr": "Camille a dit que la réunion était reportée à mardi.", "en": "Camille said the meeting was postponed to Tuesday." },
+            { "fr": "Le client m'a demandé si la nouvelle version était prête.", "en": "The client asked me if the new version was ready." },
+            { "fr": "Elle nous a demandé d'envoyer nos idées avant vendredi.", "en": "She asked us to send our ideas before Friday." }
+          ] },
+        { "type": "explain", "title": "Meeting words",
+          "body": "- [[assister à une réunion]]: attend a meeting · [[animer une réunion]]: lead it\n- [[un point à l'ordre du jour]]: an agenda item\n- [[prendre des notes]], [[le compte rendu]]: the minutes, the summary\n- [[reporter]]: postpone · [[annuler]]: cancel · [[avancer]]: move earlier\n- [[être en télétravail]]: work from home · [[en visioconférence]]: by video call\n- [[faire le suivi]]: follow up · [[une échéance]]: a deadline" },
+        { "type": "vocab", "title": "New words", "itemIds": ["reunion", "collegue", "gestionnaire", "ordre-du-jour", "piece-jointe", "reporter", "assister", "teletravail", "faire-suivi", "bonne-fin"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "False friends at the office",
+          "body": "- [[reporter]] = **postpone**. *To report a problem* = [[signaler un problème]].\n- [[assister à]] = **attend**. *To assist someone* = [[aider quelqu'un]].\n- *The agenda of a meeting* = [[l'ordre du jour]]. [[Un agenda]] is a **planner** or calendar.\n- [[actuellement]] = **currently**, not *actually* ([[en fait]]).\n- [[une formation]] = a **training session**: [[Je suis en formation lundi.]]\n- In the email greeting, don't write [[Cher Camille]]: [[cher]] agrees, so it's [[Chère Camille]], and most colleagues just write [[Bonjour Camille,]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec office French",
+          "body": "- **Lunch** is [[le dîner]] in Québec ([[on dîne à midi]]); in France it's [[le déjeuner]]. The evening meal is [[le souper]] in Québec.\n- **Weekend**: [[Bonne fin de semaine !]] in Québec; [[Bon week-end !]] in France.\n- [[un courriel]] is the standard word in Québec; France says [[un mail]] or [[un e-mail]].\n- You will hear [[Je te reviens là-dessus]] (I'll get back to you on that) in Québec offices. It's a calque of English and is criticized in careful writing; in a formal email, write [[Je vous donnerai une réponse rapidement]].\n- Many Québec workplaces use tu very early. It's friendliness, not disrespect." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "On se tutoie ou on se vouvoie ?", "en": "Do we say tu or vous?", "tip": "tutoie: tu-toi; vouvoie: vou-voi." },
+            { "fr": "La réunion est reportée à mardi.", "en": "The meeting is postponed to Tuesday." },
+            { "fr": "Vous trouverez l'ordre du jour en pièce jointe.", "en": "Please find the agenda attached." },
+            { "fr": "Est-ce que tu pourrais m'envoyer le fichier ?", "en": "Could you send me the file?" },
+            { "fr": "Camille a dit que la réunion était annulée.", "en": "Camille said the meeting was cancelled." },
+            { "fr": "Bonne fin de journée !", "en": "Have a good rest of the day!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Salut Raj, c'est Olivier. La réunion avec le client est avancée à 14 h. Peux-tu apporter ton ordinateur ?", "en": "Hi Raj, it's Olivier. The meeting with the client has been moved up to 2 p.m. Can you bring your computer?", "prompt": "What changed?", "options": ["The meeting is earlier, at 2 p.m.", "The meeting is cancelled.", "The meeting is postponed to tomorrow."], "answer": 0,
+          "explain": "[[avancée]] = moved earlier. Postponed would be [[reportée]]; cancelled [[annulée]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Demain, je suis en télétravail, mais je vais assister à la réunion en visioconférence.", "en": "Tomorrow I'm working from home, but I'll attend the meeting by video call.", "prompt": "Will the speaker be at the meeting?", "options": ["Yes, by video call", "No, he's working from home", "Yes, in the office"], "answer": 0,
+          "explain": "[[assister à]] = attend; [[en visioconférence]] = by video call." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match the French with the English.", "pairs": [["reporter", "to postpone"], ["assister à", "to attend"], ["l'ordre du jour", "the agenda"], ["une pièce jointe", "an attachment"], ["annuler", "to cancel"]] },
+        { "id": "r2", "type": "cloze", "text": "Camille a dit que la réunion ___ reportée et qu'elle ___ en formation.", "answers": [["était"], ["était"]], "choices": ["était", "est", "sera"], "en": "Camille said the meeting was postponed and that she was at a training session.", "explain": "Present in the original words → imparfait after [[a dit que]]." },
+        { "id": "r3", "type": "translate", "prompt": "Please find the agenda attached. (formal email)", "accept": ["Vous trouverez l'ordre du jour en pièce jointe.", "Vous trouverez ci-joint l'ordre du jour.", "Vous trouverez l'ordre du jour ci-joint.", "Veuillez trouver l'ordre du jour en pièce jointe.", "Veuillez trouver ci-joint l'ordre du jour.", "Veuillez trouver l'ordre du jour ci-joint."], "hint": "Vous trouverez…",
+          "explain": "[[Vous trouverez… en pièce jointe]] or [[ci-joint]]: standard email formulas." },
+        { "id": "r4", "type": "mcq", "prompt": "First email to a client you've never met. Which greeting?", "options": ["Bonjour Madame Lavoie,", "Salut Julie,", "Chère Julie,", "Coucou !"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Too familiar for a client you don't know.", "Too personal for a first professional contact.", "Only for friends and family."] },
+        { "id": "r5", "type": "cloze", "text": "Le client m'a demandé ___ la nouvelle version ___ prête.", "answers": [["si"], ["était"]], "choices": ["si", "que", "était", "est"], "en": "The client asked me if the new version was ready.", "explain": "Reported yes/no question: [[demander si]] + imparfait." },
+        { "id": "r6", "type": "translate", "prompt": "I attended my first team meeting.", "accept": ["J'ai assisté à ma première réunion d'équipe.", "J'ai participé à ma première réunion d'équipe."], "explain": "[[assister à]], not *attendre* (to wait)." },
+        { "id": "r7", "type": "reorder", "prompt": "On Thursdays, I work from home.", "accept": ["Le jeudi je suis en télétravail", "Je suis en télétravail le jeudi"], "extra": ["au"],
+          "explain": "[[le jeudi]] = every Thursday; [[être en télétravail]]." },
+        { "id": "r8", "type": "cloze", "text": "Olivier m'a demandé ___ faire le suivi avec le client.", "answers": [["de"]], "choices": ["de", "si", "que"], "en": "Olivier asked me to follow up with the client.", "explain": "A reported request: [[demander de]] + infinitive." },
+        { "id": "r9", "type": "dictation", "fr": "Ici, tout le monde se tutoie.", "accept": [], "explain": "[[tout le monde]] is singular: [[se tutoie]], with the silent -e." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "You are a team leader. Write an email to your team: the Wednesday meeting is postponed to Thursday (give the reason and the time), the agenda is attached, and ask one colleague (tu) to do a small task.", "promptFr": "Écrivez un courriel à votre équipe.",
+          "wordRange": [50, 100],
+          "checklist": ["Objet", "Bonjour à tous,", "reportée à… + a reason (comme / parce que)", "Vous trouverez… en pièce jointe", "A request to one colleague with tu: Pourrais-tu… ? / Peux-tu… ?", "Merci et bonne journée ! / Bonne fin de semaine !"],
+          "models": [ { "label": "Model answer", "fr": "Objet : Réunion de mercredi reportée à jeudi\nBonjour à tous,\nComme plusieurs personnes sont en formation mercredi, la réunion d'équipe est reportée à jeudi, 9 h, dans la grande salle. Vous trouverez l'ordre du jour en pièce jointe.\nSofia, pourrais-tu préparer un court bilan du projet avec la Ville de Gatineau ? Dix minutes, c'est suffisant.\nSi vous voulez ajouter un point, écrivez-moi avant mercredi midi.\nMerci et bonne journée !\nKarim", "en": "Subject: Wednesday's meeting postponed to Thursday. Hello everyone, As several people are at a training session on Wednesday, the team meeting is postponed to Thursday, 9 a.m., in the big room. Please find the agenda attached. Sofia, could you prepare a short update on the project with the City of Gatineau? Ten minutes is enough. If you want to add an item, write to me before Wednesday noon. Thanks and have a good day! Karim" } ] },
+        { "id": "s1", "type": "speak", "prompt": "You missed a phone call from your manager, and a colleague took the message. Your colleague's notes say: “The client meeting is moved up to 2 p.m.” and “Can you bring the report?” Leave a voice message for another colleague passing on both pieces of information with reported speech.", "seconds": 30,
+          "checklist": ["Salut + name, c'est…", "… a dit que la réunion était…", "… m'a demandé de / si…", "Bonne fin de journée !"],
+          "models": [ { "label": "Model answer", "fr": "Salut Mei, c'est Raj. Camille a appelé : elle a dit que la réunion avec le client était avancée à 14 h. Elle m'a aussi demandé d'apporter le rapport, alors je l'imprime tout de suite. Est-ce que tu peux venir dix minutes avant ? Merci, et bonne fin de journée !", "en": "Hi Mei, it's Raj. Camille called: she said the meeting with the client was moved up to 2 p.m. She also asked me to bring the report, so I'm printing it right away. Can you come ten minutes early? Thanks, and have a good rest of the day!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Choose **tu** or **vous** at work, and ask [[On se tutoie ou on se vouvoie ?]]\n- Write and answer workplace emails: [[Bonjour Camille,]] [[Vous trouverez… en pièce jointe]], [[Bonne fin de journée !]]\n- Talk about meetings ([[assister à]], [[reporter]], [[l'ordre du jour]]) and pass on messages with [[il a dit que…]], [[elle m'a demandé si / de…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Checked false friends (reporter, assister à), the Je te reviens là-dessus label and the reported-speech drills; all correct. Added one accepted word order for ci-joint." }
+}

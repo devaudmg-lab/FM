@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-01-06",
+  "level": "a2",
+  "unit": "a2-01",
+  "title": "Workshop: Yesterday and last week",
+  "goal": "Get more practice with the passé composé with avoir in new situations: a lost phone, a forgotten scarf and a lost-and-found announcement.",
+  "minutes": 20,
+  "items": [
+    { "id": "oublier", "kind": "vocab", "fr": "oublier", "en": "to forget", "pos": "verb",
+      "example": { "fr": "J'ai oublié mon téléphone dans l'autobus.", "en": "I forgot my phone on the bus." } },
+    { "id": "perdre", "kind": "vocab", "fr": "perdre", "en": "to lose", "pos": "verb",
+      "example": { "fr": "J'ai perdu mes clés hier soir.", "en": "I lost my keys last night." }, "note": "Past participle: perdu (-re → -u, like attendu)." },
+    { "id": "trouver", "kind": "vocab", "fr": "trouver", "en": "to find", "pos": "verb",
+      "example": { "fr": "Une dame a trouvé mon téléphone.", "en": "A woman found my phone." } },
+    { "id": "nettoyer", "kind": "vocab", "fr": "nettoyer", "en": "to clean", "pos": "verb",
+      "example": { "fr": "Samedi, j'ai nettoyé la cuisine.", "en": "On Saturday I cleaned the kitchen." }, "note": "Present: je nettoie, nous nettoyons. Past: j'ai nettoyé." },
+    { "id": "gouter", "kind": "vocab", "fr": "goûter", "en": "to taste, to try (food or drink)", "pos": "verb",
+      "example": { "fr": "Tu as déjà goûté le cidre de glace ?", "en": "Have you ever tasted ice cider?" } },
+    { "id": "recemment", "kind": "vocab", "fr": "récemment", "en": "recently", "pos": "adverb",
+      "example": { "fr": "J'ai vu ce film récemment.", "en": "I saw this movie recently." }, "note": "Safest place: at the end of the sentence." },
+    { "id": "remarquer", "kind": "vocab", "fr": "remarquer", "en": "to notice", "pos": "verb",
+      "example": { "fr": "Je n'ai rien remarqué.", "en": "I didn't notice anything." } },
+    { "id": "soiree", "kind": "vocab", "fr": "soirée", "article": "la", "gender": "f", "en": "evening (as a whole); evening party", "pos": "noun",
+      "example": { "fr": "J'ai passé une belle soirée.", "en": "I had a lovely evening." }, "note": "[[le soir]] = the evening as a time of day; [[la soirée]] = the evening as a stretch of time, or a party." },
+    { "id": "toute-la-journee", "kind": "phrase", "fr": "toute la journée", "en": "all day (long)",
+      "example": { "fr": "Il a plu toute la journée.", "en": "It rained all day." } },
+    { "id": "objets-perdus", "kind": "vocab", "fr": "objets perdus", "article": "les", "gender": "m", "en": "lost and found (office)", "pos": "noun",
+      "example": { "fr": "J'ai téléphoné aux objets perdus.", "en": "I phoned the lost and found." }, "note": "Literally *the lost objects*: [[aux objets perdus]] = to / at the lost and found." },
+    { "id": "passer-du-temps", "kind": "phrase", "fr": "passer du temps avec", "en": "to spend time with",
+      "example": { "fr": "J'ai passé du temps avec mes enfants.", "en": "I spent time with my kids." } }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A strange week",
+      "intro": "A longer email that uses the whole unit. Read it once for the story, then a second time to spot every verb in the passé composé.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "Olivier's email to Nguyen",
+          "fr": "Objet : Quelle semaine !\nSalut Nguyen !\nTu as passé une belle fin de semaine ? Moi, j'ai eu une semaine vraiment bizarre.\nLundi dernier, j'ai pris l'autobus 24 comme tous les matins, et j'ai oublié mon téléphone sur le siège ! Je n'ai rien remarqué. Au bureau, j'ai cherché mon téléphone dans mon sac et dans mon manteau, mais je n'ai rien trouvé. Avec le téléphone d'une collègue, j'ai appelé mon numéro dix fois. Pas de réponse !\nMardi, j'ai téléphoné aux objets perdus de la STM, mais ils n'ont pas trouvé mon téléphone. Sans téléphone, pas de réveil : mercredi, j'ai dormi jusqu'à huit heures et j'ai commencé le travail en retard. Mon patron n'a pas beaucoup aimé ça…\nJeudi soir, surprise : une dame a écrit à ma blonde sur Facebook. Elle a trouvé mon téléphone dans l'autobus lundi, et elle a reconnu notre photo sur l'écran ! Vendredi midi, nous avons pris un café ensemble. J'ai payé les cafés et les croissants, bien sûr.\nSamedi, j'ai passé du temps à la maison : j'ai fait la lessive et j'ai nettoyé la cuisine. Le soir, nous avons organisé une petite soirée avec des amis. On a goûté un cidre de glace du Québec : excellent !\nEt toi, tu as déjà perdu ton téléphone ?\nOlivier",
+          "en": "Subject: What a week!\nHi Nguyen!\nDid you have a nice weekend? I had a really strange week.\nLast Monday I took the 24 bus like every morning, and I forgot my phone on the seat! I didn't notice anything. At the office I looked for my phone in my bag and in my coat, but I didn't find anything. With a colleague's phone, I called my number ten times. No answer!\nOn Tuesday I phoned the STM lost and found, but they didn't find my phone. No phone, no alarm clock: on Wednesday I slept until eight and started work late. My boss didn't like that much…\nOn Thursday evening, surprise: a woman wrote to my girlfriend on Facebook. She found my phone on the bus on Monday, and she recognized our photo on the screen! On Friday at noon we had a coffee together. I paid for the coffees and the croissants, of course.\nOn Saturday I spent time at home: I did the laundry and cleaned the kitchen. In the evening we had a little party with friends. We tasted an ice cider from Québec: excellent!\nAnd you, have you ever lost your phone?\nOlivier"
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "[[la STM]] is Montréal's transit company. [[reconnaître → reconnu]] = to recognize; it works like [[connaître → connu]]. [[un cidre de glace]] (ice cider) is a Québec speciality."
+        },
+        { "id": "c1", "type": "mcq", "prompt": "Where did Olivier leave his phone?", "options": ["On the bus seat", "In his coat at the office", "In a café"], "answer": 0,
+          "explain": "[[j'ai oublié mon téléphone sur le siège]] of the 24 bus. He looked in his coat later, but it wasn't there." },
+        { "id": "c2", "type": "mcq", "prompt": "How did Olivier get his phone back?", "options": ["A woman contacted his girlfriend on Facebook.", "The STM lost and found called him.", "A colleague found it at the office."], "answer": 0,
+          "explain": "[[une dame a écrit à ma blonde sur Facebook]]. The STM [[n'a pas trouvé]] the phone." },
+        { "id": "c3", "type": "mcq", "prompt": "What happened on Wednesday?", "options": ["He slept until eight and was late for work.", "He did the laundry.", "He had a coffee with the woman."], "answer": 0,
+          "explain": "No phone, no alarm: [[j'ai dormi jusqu'à huit heures et j'ai commencé le travail en retard]]." }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 1 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The passé composé with avoir",
+          "head": ["What", "Example"],
+          "rows": [
+            ["avoir + participle", "J'ai cherché. Elle a trouvé."],
+            ["-er → -é, -ir → -i, -re → -u", "oublié, dormi, perdu"],
+            ["irregular participles", "fait, pris, vu, eu, été, bu, lu, mis, dit, écrit"],
+            ["negative around avoir", "Je n'ai rien trouvé. Il n'a pas aimé ça."],
+            ["short adverb inside", "J'ai bien dormi. Tu as déjà perdu ton téléphone ?"],
+            ["time marker at the edge", "Lundi dernier, j'ai pris l'autobus. Elle a trouvé mon téléphone il y a trois jours."]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "Three checks for every sentence",
+          "body": "Before you say or write a past sentence, check:\n\n- **Two parts?** [[j'ai oublié]], never [[j'oublié]].\n- **The right participle?** [[perdu]], not *perdé*; [[pris]], not *prendu*.\n- **Negation around avoir?** [[je n'ai pas trouvé]], [[je n'ai rien remarqué]].\n\nThen add life: a time marker ([[lundi dernier]]), a result ([[alors j'ai commencé en retard]]) and a reaction ([[excellent !]])."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for telling your week",
+          "itemIds": ["oublier", "perdre", "trouver", "nettoyer", "gouter", "recemment", "remarquer", "soiree", "toute-la-journee", "objets-perdus", "passer-du-temps"]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Laundry and lost things in Québec",
+          "body": "- [[faire le lavage]] is the everyday Québec way to say *do the laundry*; [[faire la lessive]] is understood everywhere.\n- A laundromat is [[une buanderie]] in Québec, [[une laverie]] in France.\n- In Montréal, lost items on the bus or metro go to the STM [[objets perdus]] office."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Two recordings",
+      "intro": "Listen to each recording first, then answer. Each question replays one part.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "1. Sofia's voicemail",
+          "context": "Sofia leaves a message for Camille after a party.",
+          "fr": "Salut Camille, c'est Sofia ! Merci encore pour samedi soir, j'ai passé une très belle soirée chez toi. J'ai adoré ton gâteau au chocolat ! Écoute, je pense que j'ai oublié mon foulard rouge chez toi. J'ai cherché mon foulard dans mon sac et dans ma voiture, mais je n'ai rien trouvé. Est-ce que tu as vu un foulard rouge dans ton salon ? Ah, et ma sœur a goûté tes biscuits : elle veut la recette ! Appelle-moi ce soir, s'il te plaît. Bisous !",
+          "en": "Hi Camille, it's Sofia! Thanks again for Saturday night, I had a really lovely evening at your place. I loved your chocolate cake! Listen, I think I forgot my red scarf at your place. I looked for my scarf in my bag and in my car, but I didn't find anything. Did you see a red scarf in your living room? Oh, and my sister tasted your cookies: she wants the recipe! Call me tonight, please. Love!"
+        },
+        {
+          "type": "listen",
+          "title": "2. An announcement at the community centre",
+          "context": "At the start of a French class, a volunteer makes an announcement.",
+          "fr": "Bonjour à tous, et bienvenue au cours de français du jeudi. Avant de commencer, une petite annonce. Mardi soir, après la soirée des bénévoles, nous avons trouvé plusieurs objets dans la grande salle : un manteau noir, des gants, des clés de voiture et un téléphone. Nous avons mis les objets dans une boîte, à l'accueil. Si vous avez perdu quelque chose, parlez à Lucie, à l'accueil, du lundi au vendredi, de 9 h à 17 h. Autre chose : la semaine dernière, nous avons nettoyé la cuisine. Merci de garder la cuisine propre !",
+          "en": "Hello everyone, and welcome to the Thursday French class. Before we start, a short announcement. On Tuesday evening, after the volunteers' party, we found several items in the main hall: a black coat, gloves, car keys and a phone. We put the items in a box at the front desk. If you lost something, talk to Lucie at the front desk, Monday to Friday, from 9 a.m. to 5 p.m. One more thing: last week we cleaned the kitchen. Please keep the kitchen clean!"
+        },
+        { "id": "h1", "type": "listen-mcq", "fr": "Écoute, je pense que j'ai oublié mon foulard rouge chez toi.", "en": "Listen, I think I forgot my red scarf at your place.",
+          "prompt": "What did Sofia forget at Camille's?", "options": ["Her red scarf", "Her chocolate cake", "Her car keys"], "answer": 0,
+          "explain": "[[j'ai oublié mon foulard rouge]]: un foulard = a scarf." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'ai cherché mon foulard dans mon sac et dans ma voiture, mais je n'ai rien trouvé.", "en": "I looked for my scarf in my bag and in my car, but I didn't find anything.",
+          "prompt": "Where has Sofia already looked?", "options": ["In her bag and her car", "In Camille's living room", "At the community centre"], "answer": 0,
+          "explain": "[[dans mon sac et dans ma voiture]]. She asks Camille to check her living room ([[ton salon]])." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Ah, et ma sœur a goûté tes biscuits : elle veut la recette !", "en": "Oh, and my sister tasted your cookies: she wants the recipe!",
+          "prompt": "Who wants the recipe?", "options": ["Sofia's sister", "Sofia", "Camille's mother"], "answer": 0,
+          "explain": "[[ma sœur a goûté tes biscuits]]: the sister tasted them and wants the recipe." },
+        { "id": "h4", "type": "listen-mcq", "fr": "Mardi soir, après la soirée des bénévoles, nous avons trouvé plusieurs objets dans la grande salle : un manteau noir, des gants, des clés de voiture et un téléphone.", "en": "On Tuesday evening, after the volunteers' party, we found several items in the main hall: a black coat, gloves, car keys and a phone.",
+          "prompt": "Which item is NOT in the list?", "options": ["A red scarf", "A black coat", "Car keys", "A phone"], "answer": 0,
+          "explain": "They found [[un manteau noir, des gants, des clés de voiture et un téléphone]]. No scarf: Sofia's scarf is still lost!" },
+        { "id": "h5", "type": "listen-mcq", "fr": "Si vous avez perdu quelque chose, parlez à Lucie, à l'accueil, du lundi au vendredi, de 9 h à 17 h.", "en": "If you lost something, talk to Lucie at the front desk, Monday to Friday, from 9 a.m. to 5 p.m.",
+          "prompt": "What should you do if you lost something?", "options": ["Talk to Lucie at the front desk on a weekday", "Come back on Thursday evening", "Call the volunteer on Saturday"], "answer": 0,
+          "explain": "[[parlez à Lucie, à l'accueil, du lundi au vendredi]]: l'accueil = the front desk, reception." },
+        { "id": "d1", "type": "dictation", "fr": "Nous avons trouvé un manteau noir et des clés.", "accept": [],
+          "explain": "[[trouvé]] ends in é after avoir; [[des clés]]: plural, with an s." },
+        { "id": "d2", "type": "dictation", "fr": "J'ai cherché mon foulard, mais je n'ai rien trouvé.", "accept": ["J'ai cherché mon foulard mais je n'ai rien trouvé."],
+          "explain": "Two -er participles: [[cherché]], [[trouvé]]. [[ne… rien]] goes around avoir." }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most on Unit 1, some on A1. Aim for 80%.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Lundi, Olivier a ___ son téléphone dans l'autobus. (oublier)", "answers": [["oublié"]], "choices": ["oublié", "oublier", "oublie"], "en": "On Monday, Olivier forgot his phone on the bus.",
+          "explain": "After avoir: the participle in -é, not the infinitive. [[oublié]] and [[oublier]] sound the same; the spelling changes." },
+        { "id": "r2", "type": "cloze", "text": "Hier, j'ai ___ mes clés, mais ce matin, j'ai ___ mes clés sous le sofa. (perdre, trouver)", "answers": [["perdu"], ["trouvé"]], "en": "Yesterday I lost my keys, but this morning I found my keys under the sofa.",
+          "explain": "-re → -u: [[perdu]], like [[attendu]]. -er → -é: [[trouvé]]." },
+        { "id": "r3", "type": "translate", "prompt": "I didn't hear my alarm clock this morning.", "accept": ["Je n'ai pas entendu mon réveil ce matin.", "Ce matin, je n'ai pas entendu mon réveil."], "hint": "entendre → entendu",
+          "explain": "[[ne… pas]] around avoir; [[ce matin]] at the start or the end." },
+        { "id": "r4", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Nous avons bien mangé hier soir.", "Nous avons mangé bien hier soir.", "Nous bien avons mangé hier soir.", "Hier soir nous avons bien mangés."], "optionsFr": true, "answer": 0,
+          "explain": "A short adverb like [[bien]] goes between avoir and the participle. With avoir, the participle doesn't take an -s for nous.",
+          "optionFeedback": [null, "Bien goes inside, between avoir and the participle.", "Bien never goes before avoir.", "No agreement with the subject after avoir: mangé."] },
+        { "id": "r5", "type": "reorder", "prompt": "Have you ever tasted poutine? (to a friend)", "accept": ["Tu as déjà goûté la poutine ?"], "extra": ["jamais"],
+          "explain": "In a question, [[déjà]] = ever, between avoir and the participle." },
+        { "id": "r6", "type": "translate", "prompt": "We spent the whole day with our friends. (use nous)", "accept": ["Nous avons passé toute la journée avec nos amis.", "Nous avons passé toute la journée avec nos amies."], "hint": "passer → passé; toute la journée",
+          "explain": "[[passer]] + time = to spend: [[nous avons passé toute la journée]]." },
+        { "id": "r7", "type": "dictation", "fr": "Samedi soir, nous avons organisé une petite soirée.", "accept": ["Samedi soir nous avons organisé une petite soirée."],
+          "explain": "[[organisé]] with é after avoir; [[une petite soirée]]: feminine, so petite." },
+        { "id": "r8", "type": "match", "prompt": "Match the new words.", "pairs": [["oublier", "to forget"], ["perdre", "to lose"], ["trouver", "to find"], ["nettoyer", "to clean"], ["goûter", "to taste"], ["récemment", "recently"]] },
+        { "id": "r9", "type": "cloze", "text": "Je n'ai ___ ___ fait la lessive : je n'ai pas eu le temps.", "answers": [["pas"], ["encore"]], "en": "I haven't done the laundry yet: I didn't have time.",
+          "explain": "[[ne… pas encore]] = not yet. Both words go between avoir and the participle." },
+        { "id": "r10", "type": "cloze", "text": "Olivier cherche ___ clés et ___ téléphone. (his)", "answers": [["ses"], ["son"]], "en": "Olivier is looking for his keys and his phone.",
+          "explain": "A1 possessives: [[ses]] for a plural noun (les clés), [[son]] for a masculine noun (le téléphone)." },
+        { "id": "r11", "type": "mcq", "prompt": "Demain, je ___ faire le ménage. Hier, j'___ fait la lessive.", "options": ["vais / ai", "ai / vais", "vais / suis", "suis / ai"], "optionsFr": true, "answer": 0,
+          "explain": "Future (A1): [[aller]] + infinitive → [[je vais faire]]. Past: [[avoir]] + participle → [[j'ai fait]].",
+          "optionFeedback": [null, "Demain needs the future: je vais faire.", "Faire uses avoir in the past: j'ai fait.", "Demain needs aller: je vais faire."] },
+        { "id": "r12", "type": "translate", "prompt": "We didn't buy any bread. (use nous)", "accept": ["Nous n'avons pas acheté de pain."], "hint": "After a negative: de, not du",
+          "explain": "A1 rule, now in the past: after [[ne… pas]], [[du pain]] becomes [[de pain]]." }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "Reply to Olivier's email (60–100 words). Tell him about your last week: something you forgot, lost or found (or never lost!), what you did on the weekend, and one thing you didn't do. End with a question.",
+          "promptFr": "Répondez au courriel d'Olivier : racontez votre semaine dernière.",
+          "wordRange": [60, 100],
+          "checklist": ["A greeting and a reaction to his story", "At least six verbs in the passé composé with avoir", "At least three irregular participles (fait, pris, vu, eu, mis…)", "Two time markers (lundi dernier, il y a deux jours…)", "One negative (pas, jamais, rien, pas encore)", "At least two new words: oublier, perdre, trouver, la soirée…", "A question to finish"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Salut Olivier ! Quelle histoire ! Moi, je n'ai jamais perdu mon téléphone, mais mardi dernier, j'ai oublié mes clés au bureau. J'ai attendu ma blonde devant la maison pendant une heure ! Samedi, j'ai fait la lessive et j'ai nettoyé l'appartement. Le soir, on a vu un film avec des amis et on a mangé une pizza. Dimanche, j'ai lu un peu. Et toi, tu as déjà visité la Gaspésie ?",
+              "en": "Hi Olivier! What a story! I've never lost my phone, but last Tuesday I forgot my keys at the office. I waited for my girlfriend in front of the house for an hour! On Saturday I did the laundry and cleaned the apartment. In the evening we watched a movie with friends and ate a pizza. On Sunday I read a bit. And you, have you ever visited the Gaspé Peninsula?" },
+            { "label": "Stronger model answer",
+              "fr": "Bonjour Olivier ! Bravo à cette dame ! Moi aussi, j'ai perdu quelque chose récemment : il y a deux semaines, j'ai oublié mon sac de sport dans le métro. J'ai téléphoné aux objets perdus, et ils ont trouvé mon sac ! Cette fin de semaine, j'ai passé du temps avec ma famille : samedi, on a fait une randonnée. Dimanche, il a plu toute la journée, alors j'ai fait le lavage et j'ai écrit à mes parents. Par contre, je n'ai pas encore fini mon rapport… Et toi, qu'est-ce que tu as fait dimanche ?",
+              "en": "Hello Olivier! Well done to that woman! I lost something recently too: two weeks ago I forgot my gym bag on the metro. I phoned the lost and found, and they found my bag! This weekend I spent time with my family: on Saturday we went hiking. On Sunday it rained all day, so I did the laundry and wrote to my parents. On the other hand, I haven't finished my report yet… And you, what did you do on Sunday?" }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "Leave a voicemail for a friend (45–60 seconds). Tell them about yesterday: one problem (something you forgot or lost), how it ended, and what you did in the evening. Ask a question at the end.",
+          "promptFr": "Laissez un message vocal à un ami : racontez votre journée d'hier.",
+          "seconds": 60,
+          "checklist": ["Greeting and who you are: Salut, c'est…", "A problem: j'ai oublié / j'ai perdu…", "How it ended: j'ai trouvé…, je n'ai rien trouvé…", "The evening: hier soir, j'ai…", "A reaction: Quelle journée ! J'ai adoré !", "A question and a goodbye"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Salut Karim, c'est Mei ! Quelle journée hier ! Le matin, j'ai perdu ma carte de métro. J'ai cherché partout, mais je n'ai rien trouvé, alors j'ai pris un taxi. Le soir, j'ai trouvé ma carte dans mon manteau ! Après, j'ai fait la lessive et j'ai regardé une série. Et toi, tu as passé une bonne journée ? À bientôt !",
+              "en": "Hi Karim, it's Mei! What a day yesterday! In the morning I lost my metro card. I looked everywhere, but I didn't find anything, so I took a taxi. In the evening I found my card in my coat! Afterwards I did the laundry and watched a series. And you, did you have a good day? See you soon!" },
+            { "label": "Stronger model answer",
+              "fr": "Salut Karim, c'est Mei ! Écoute, j'ai eu une journée incroyable hier. Le matin, je n'ai pas entendu mon réveil, alors j'ai commencé le travail en retard. À midi, j'ai oublié mon portefeuille au café, mais la serveuse a gardé mon portefeuille au comptoir : j'ai eu de la chance ! Le soir, j'ai passé du temps avec ma sœur : on a préparé des dumplings et on a goûté un nouveau thé. Toi, tu as déjà oublié ton portefeuille quelque part ? Rappelle-moi ce soir. À bientôt !",
+              "en": "Hi Karim, it's Mei! Listen, I had an incredible day yesterday. In the morning I didn't hear my alarm, so I started work late. At noon I forgot my wallet at the café, but the waitress kept my wallet at the counter: I was lucky! In the evening I spent time with my sister: we made dumplings and tasted a new tea. Have you ever forgotten your wallet somewhere? Call me back tonight. See you soon!" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Tell a longer story about last week with the passé composé with avoir, negatives and time markers\n- Talk about forgetting, losing and finding things: [[j'ai oublié, j'ai perdu, j'ai trouvé]]\n- Follow a voicemail and an announcement about lost items\n- New everyday words: [[remarquer, la soirée, les objets perdus, passer du temps avec]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed a reported-time slip in the email (il y a trois jours → lundi) and smoothed a present-tense aside (pas de réveil). Added a no-comma variant to dictation d2. Grammar stays within passé composé with avoir plus A1 interleaving." }
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-10-03",
+  "level": "b2",
+  "unit": "b2-10",
+  "title": "Conclusions",
+  "goal": "Write a conclusion that sums up your arguments, answers the central question and opens the reflection, without adding new arguments or ending on an empty formula.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-conclusion", "kind": "grammar", "fr": "synthèse → réponse → ouverture (Reste à savoir si… / Encore faut-il que…)", "en": "the three moves of a conclusion and their formulas",
+      "drills": [
+        { "type": "cloze", "text": "___ à savoir si nos villes sauront se réinventer.", "answers": [["Reste", "Il reste"]], "en": "It remains to be seen whether our cities will be able to reinvent themselves.", "explain": "[[Reste à savoir si…]]: in this formal set phrase, [[il]] is usually dropped ([[Il reste à savoir si…]] is also correct). A classic opening at the end of a conclusion." },
+        { "type": "cloze", "text": "Encore faut-il que cette mesure ___ accompagnée de transports efficaces. (être)", "answers": [["soit"]], "en": "But this measure still has to come with efficient transit.", "explain": "[[Encore faut-il que]] (lesson 9-4) + subjunctive: [[soit]]. It adds a condition to your answer." },
+        { "type": "mcq", "prompt": "Which sentence belongs in a conclusion?", "options": ["En définitive, cette mesure apparaît à la fois utile et réaliste.", "De plus, les vélos ne polluent pas.", "Prenons l'exemple de ma rue.", "Tout d'abord, examinons les avantages."], "optionsFr": true, "answer": 0, "explain": "[[En définitive]] introduces the final synthesis. The others add an argument, an example or a plan." }
+      ] },
+    { "id": "synthese", "kind": "vocab", "fr": "synthèse", "article": "la", "gender": "f", "en": "summing-up, synthesis", "pos": "noun", "accept": ["une synthèse", "le bilan"] },
+    { "id": "ouverture", "kind": "vocab", "fr": "ouverture", "article": "l'", "gender": "f", "en": "opening out, widening (final sentence of a conclusion)", "pos": "noun", "accept": ["une ouverture"], "note": "Its basic meaning is *an opening*." },
+    { "id": "en-definitive", "kind": "phrase", "fr": "en définitive", "en": "ultimately, in the final analysis", "accept": ["au bout du compte", "en fin de compte"] },
+    { "id": "tout-bien-considere", "kind": "phrase", "fr": "tout bien considéré", "en": "all things considered", "accept": ["tout compte fait", "tout bien pesé"] },
+    { "id": "au-terme-de", "kind": "phrase", "fr": "au terme de cette réflexion", "en": "at the end of this discussion (formal)", "accept": ["à l'issue de cette réflexion"] },
+    { "id": "il-apparait-que", "kind": "phrase", "fr": "il apparaît que", "en": "it appears that, it becomes clear that (+ indicative)", "accept": ["il semble que", "il ressort que"], "note": "[[Il apparaît que]] + indicative, but [[il semble que]] usually takes the subjunctive in careful writing." },
+    { "id": "reste-a-savoir", "kind": "phrase", "fr": "Reste à savoir si…", "en": "It remains to be seen whether…", "accept": ["Il reste à savoir si…"] },
+    { "id": "faute-de-quoi", "kind": "phrase", "fr": "faute de quoi", "en": "otherwise, failing which", "accept": ["sinon", "sans quoi"], "example": { "fr": "Il faut des autobus efficaces, faute de quoi la mesure exclurait certains habitants.", "en": "We need efficient buses, otherwise the measure would exclude some residents." } },
+    { "id": "a-la-fois", "kind": "phrase", "fr": "à la fois… et…", "en": "both… and… (at the same time)", "example": { "fr": "une mesure à la fois utile et réaliste", "en": "a measure that is both useful and realistic" } },
+    { "id": "elargir", "kind": "phrase", "fr": "élargir la réflexion", "en": "to widen the discussion", "accept": ["élargir le débat"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Three ways to end",
+      "intro": "Sofia's essay on car-free downtowns (lesson 2) needs a conclusion. She writes three versions. Which one would you keep?",
+      "blocks": [
+        { "type": "text", "title": "Three conclusions for the same essay",
+          "context": "Topic: « Les villes devraient réserver leur centre aux piétons et aux cyclistes. » Sofia argued that it improves public health and helps local shops.",
+          "fr": "**Conclusion A**\n\nPour conclure, je pense que c'est une bonne idée. En plus, les vélos ne polluent pas. Voilà, c'est mon opinion.\n\n**Conclusion B**\n\nEn conclusion, réserver le centre-ville aux piétons améliorerait la santé des habitants et ferait revivre le commerce local. C'est pourquoi je suis favorable à cette mesure.\n\n**Conclusion C**\n\nEn définitive, rendre le centre-ville aux piétons apparaît comme une mesure à la fois bénéfique pour la santé publique et favorable aux commerces de proximité. Encore faut-il qu'elle s'accompagne de transports en commun efficaces, faute de quoi elle risquerait d'exclure ceux qui habitent loin du centre. Reste à savoir si nos villes, longtemps pensées pour l'automobile, sauront se réinventer pour ceux qui marchent.",
+          "en": "**Conclusion A**\n\nTo conclude, I think it's a good idea. Plus, bikes don't pollute. There, that's my opinion.\n\n**Conclusion B**\n\nIn conclusion, reserving the downtown for pedestrians would improve residents' health and bring local shops back to life. That's why I'm in favour of this measure.\n\n**Conclusion C**\n\nUltimately, giving the downtown back to pedestrians appears to be a measure that is both beneficial for public health and good for local shops. But it still has to come with efficient public transit, otherwise it could exclude those who live far from the centre. It remains to be seen whether our cities, designed for so long around the car, will manage to reinvent themselves for those who walk." },
+        { "id": "d1", "type": "mcq", "prompt": "What is wrong with conclusion A?", "options": ["It adds a new argument and ends with an empty formula.", "It is too long.", "It summarizes the arguments too precisely.", "It uses the subjunctive."], "answer": 0,
+          "explain": "[[En plus, les vélos ne polluent pas]] is a **new argument**: it belonged in the body. [[Voilà, c'est mon opinion]] is spoken and adds nothing." },
+        { "id": "d2", "type": "mcq", "prompt": "What does conclusion C have that conclusion B doesn't?", "options": ["A nuance and an opening to a wider question", "A clearer summary", "More examples", "A plan"], "answer": 0,
+          "explain": "B is a correct summary + answer. C adds a **condition** ([[Encore faut-il que…]]) and an **opening** ([[Reste à savoir si…]]) that widens the reflection without starting a new debate." },
+        { "id": "d3", "type": "mcq", "prompt": "Is conclusion B acceptable in an exam?", "options": ["Yes: it's short but sums up and answers the question.", "No: a conclusion must always have an opening.", "No: it doesn't give an opinion."], "answer": 0,
+          "explain": "In a 120–180-word TCF text, a two-sentence conclusion like B is perfectly fine. The opening is a plus, not an obligation." }
+      ] },
+    { "type": "understand", "title": "The three moves of a conclusion",
+      "blocks": [
+        { "type": "table", "title": "Synthèse → réponse → ouverture",
+          "head": ["Move", "Its job", "Useful French"],
+          "rows": [
+            ["1. La synthèse", "sum up your arguments in one sentence, in new words", "En définitive, … · Au terme de cette réflexion, il apparaît que… · En somme, …"],
+            ["2. La réponse", "answer the central question clearly, with a nuance if needed", "C'est pourquoi je suis favorable à… · Tout bien considéré, … · Encore faut-il que…"],
+            ["3. L'ouverture (optional)", "widen to a related question or a future perspective", "Reste à savoir si… · La question se posera bientôt pour… · Au-delà de…, c'est … qui est en jeu."]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "Length: about the same as the introduction, or a little shorter: **25–40 words** for a 200–250-word text." },
+        { "type": "pattern", "title": "Nuancing your final answer",
+          "pattern": "réponse + condition : Encore faut-il que + subjonctif / à condition que + subjonctif / faute de quoi + conditionnel",
+          "note": "A nuanced answer sounds more mature than a total *yes* or *no*, and it lets you mention the concession you made in the body.",
+          "examples": [
+            { "fr": "Je suis favorable à cette mesure, à condition qu'elle soit progressive.", "en": "I'm in favour of this measure, provided it's gradual." },
+            { "fr": "Encore faut-il que les commerçants soient consultés.", "en": "But shopkeepers still need to be consulted." },
+            { "fr": "Il faut des autobus fréquents, faute de quoi la mesure exclurait les familles des banlieues.", "en": "We need frequent buses, otherwise the measure would exclude suburban families." }
+          ] },
+        { "type": "table", "title": "Good and bad openings",
+          "head": ["", "Example", "Why"],
+          "rows": [
+            ["✓ A related future question", "Reste à savoir si nos villes sauront se réinventer pour ceux qui marchent.", "stays close to the topic, looks ahead"],
+            ["✓ Another context", "La même question se posera bientôt pour les petites villes de région.", "widens without changing the subject"],
+            ["✓ What is really at stake", "Au-delà des voitures, c'est notre façon de partager l'espace public qui est en jeu.", "gives the debate a deeper meaning"],
+            ["✗ A huge, unrelated question", "Et si on parlait de la faim dans le monde ?", "off-topic, sounds empty"],
+            ["✗ A new argument", "De plus, les vélos ne polluent pas.", "belongs in the body"],
+            ["✗ Undermining your text", "Mais peut-être que j'ai tort.", "weakens everything you wrote"]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["synthese", "ouverture", "en-definitive", "tout-bien-considere", "au-terme-de", "il-apparait-que", "reste-a-savoir", "faute-de-quoi", "a-la-fois", "elargir"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Conclusion traps",
+          "body": "- **Copying the introduction.** The conclusion answers the question; it doesn't repeat it word for word.\n- **[[Finalement]] to introduce the conclusion.** It means *in the end, as it turned out*. Prefer [[En définitive]], [[En conclusion]], [[Pour conclure]], [[En somme]].\n- **Spoken endings:** [[Voilà]], [[C'est tout]], [[Merci de m'avoir lu]]. Fine in an email to a friend, not in an essay.\n- **[[Il apparaît que]] + subjunctive** ✗. Certainty → indicative: [[Il apparaît que la mesure est utile]].\n- **[[Reste à savoir que]]** ✗. It's [[Reste à savoir **si**…]] (or [[comment]], [[quand]]…).\n- **Forgetting the conclusion when time runs out.** A two-sentence conclusion is better than none: graders check that your text is complete." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec: conclusion in three parts",
+          "body": "In Québec CEGEPs, the conclusion of the [[dissertation critique]] is usually taught in three parts that match this lesson: **[[le rappel de la thèse]]** (answer), **[[la synthèse]]** (summary of the arguments) and **[[l'ouverture]]**. Teachers often insist that the opening must be **linked** to the topic: [[une ouverture pertinente]]." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: always keep 4 minutes",
+          "body": "**Exam habit:** when you plan your TEF section B or TCF task 3 text, write your **conclusion sentence in your plan** before you start the body. If time runs short, you already know how to finish.\n\n**Practice (not an official subject):** *« Les écoles devraient interdire les téléphones cellulaires en classe. »* You argued (1) that phones distract students and (2) that they increase cyberbullying, and you conceded that they can be useful for research. Write a 30–40-word conclusion: synthesis in new words, a nuanced answer ([[à condition que]] or [[encore faut-il que]]), and an opening ([[Reste à savoir si…]])." }
+      ] },
+    { "type": "hear", "title": "Hear the ending",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "A spoken conclusion slows down. Your voice should fall at the end: you're finishing, not asking.",
+          "lines": [
+            { "fr": "En définitive, cette mesure apparaît à la fois utile et réaliste.", "en": "Ultimately, this measure appears both useful and realistic." },
+            { "fr": "Tout bien considéré, je suis favorable à ce projet.", "en": "All things considered, I'm in favour of this project." },
+            { "fr": "Encore faut-il qu'il s'accompagne de transports efficaces.", "en": "But it still has to come with efficient transit." },
+            { "fr": "Reste à savoir si nos villes sauront se réinventer.", "en": "It remains to be seen whether our cities will manage to reinvent themselves." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Au terme de cette réflexion, il apparaît que le télétravail présente de réels avantages, à condition qu'il reste un choix et non une obligation.", "en": "At the end of this discussion, it appears that remote work has real advantages, provided it remains a choice and not an obligation.", "prompt": "What is the speaker's final position on remote work?", "options": ["In favour, if it stays optional", "Against it completely", "In favour of making it compulsory"], "answer": 0,
+          "explain": "[[présente de réels avantages]] + condition [[à condition qu'il reste un choix]]: a nuanced yes." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Reste à savoir si les entreprises seront prêtes à faire confiance à leurs employés.", "en": "It remains to be seen whether companies will be ready to trust their employees.", "prompt": "Which part of a conclusion is this?", "options": ["The opening", "The synthesis", "A new argument"], "answer": 0,
+          "explain": "[[Reste à savoir si…]] widens the reflection to a future question: a typical **ouverture**." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. One item brings back reformulation from unit 7.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each sentence with its role in a conclusion.", "pairs": [["En définitive, la mesure améliorerait la santé et le commerce.", "synthesis"], ["C'est pourquoi j'y suis favorable.", "answer"], ["Encore faut-il qu'elle soit progressive.", "nuance"], ["Reste à savoir si les petites villes suivront.", "opening"]] },
+        { "id": "r2", "type": "cloze", "text": "___ à savoir si les entreprises suivront le mouvement.", "answers": [["Reste", "Il reste"]], "choices": ["Reste", "Il est", "Faut", "Reste-il"], "en": "It remains to be seen whether companies will follow the trend.", "explain": "[[Reste à savoir si…]]: a fixed formal phrase, usually without [[il]]. [[Reste-il]] is not a form: the inversion would be [[Reste-t-il]], and it would make a question." },
+        { "id": "r3", "type": "mcq", "prompt": "Which is the best opening (ouverture) for an essay on car-free downtowns?", "options": ["Au-delà des voitures, c'est notre façon de partager l'espace public qui est en jeu.", "De plus, les trottinettes sont pratiques.", "Mais peut-être que j'ai tort.", "Et la faim dans le monde ?"], "optionsFr": true, "answer": 0, "explain": "It widens the debate while staying linked to the topic. The others add an argument, undermine the text, or go off-topic." },
+        { "id": "r4", "type": "translate", "prompt": "All things considered, I am in favour of this measure.", "accept": ["Tout bien considéré, je suis favorable à cette mesure.", "Tout bien considéré, je suis pour cette mesure.", "Tout compte fait, je suis favorable à cette mesure.", "Tout bien considéré, je soutiens cette mesure.", "Tout compte fait, je suis pour cette mesure.", "Tout compte fait, je soutiens cette mesure.", "Tout bien pesé, je suis favorable à cette mesure.", "Tout bien considéré, je suis en faveur de cette mesure."], "explain": "[[être favorable à]] is more formal than [[être pour]]; both are correct." },
+        { "id": "r5", "type": "cloze", "text": "Il faut des autobus fréquents, faute de ___ la mesure exclurait les familles des banlieues.", "answers": [["quoi"]], "en": "We need frequent buses, otherwise the measure would exclude suburban families.", "explain": "[[faute de quoi]] = otherwise, followed here by the conditional." },
+        { "id": "r6", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Il apparaît que cette mesure est nécessaire.", "Il apparaît que cette mesure soit nécessaire.", "Reste à savoir que cette mesure est nécessaire.", "Finalement, en conclusion, voilà."], "optionsFr": true, "answer": 0, "explain": "[[Il apparaît que]] expresses certainty → indicative. [[Reste à savoir]] needs [[si]]." },
+        { "id": "r7", "type": "reorder", "prompt": "It remains to be seen whether it will be effective.", "accept": ["Reste à savoir si elle sera efficace"], "extra": ["que", "est"], "explain": "[[Reste à savoir si]] + future: a forward-looking opening." },
+        { "id": "r8", "type": "dictation", "fr": "En définitive, cette mesure est à la fois utile et réaliste.", "accept": [], "explain": "[[à la fois… et…]] = both… and…; [[définitive]] is feminine in [[en définitive]]." },
+        { "id": "r9", "type": "cloze", "text": "La mesure améliore la santé et le commerce. ___ dit, elle profite à tout le monde.", "answers": [["Autrement"]], "en": "The measure improves health and business. In other words, it benefits everyone.", "explain": "[[Autrement dit]] (unit 7) reformulates: useful for a synthesis in new words." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Topic: « Les entreprises devraient offrir à leurs employés au moins deux jours de télétravail par semaine. » In your essay you argued that remote work saves time and improves concentration, and you conceded that it can isolate some employees. Write the conclusion: synthesis in new words, a nuanced answer, and an opening.", "promptFr": "Rédigez la conclusion de ce texte argumentatif.",
+          "wordRange": [30, 60],
+          "checklist": ["A connector: En définitive / Au terme de cette réflexion / En somme", "A synthesis of BOTH arguments in new words", "A clear answer with a nuance (à condition que / encore faut-il que)", "An opening linked to the topic (Reste à savoir si…)", "No new argument, no Voilà"],
+          "models": [
+            { "label": "Model answer", "fr": "En somme, deux jours de télétravail permettent aux employés de gagner du temps et de mieux se concentrer. Je suis donc favorable à cette mesure, à condition que les équipes se retrouvent régulièrement au bureau. Reste à savoir si toutes les entreprises seront prêtes à faire confiance à leurs employés.", "en": "In short, two days of remote work allow employees to save time and concentrate better. I am therefore in favour of this measure, provided teams meet regularly at the office. It remains to be seen whether all companies will be ready to trust their employees." },
+            { "label": "Stronger model answer", "fr": "Au terme de cette réflexion, il apparaît que le télétravail partiel est à la fois un gain de temps et un gage d'efficacité. Encore faut-il qu'il ne devienne pas synonyme d'isolement : des journées de présence bien pensées restent indispensables. Au-delà du lieu de travail, c'est notre rapport même au travail que cette question invite à repenser.", "en": "At the end of this discussion, it appears that partial remote work is both a time-saver and a guarantee of efficiency. But it must not become synonymous with isolation: well-planned office days remain essential. Beyond the workplace, it is our very relationship with work that this question invites us to rethink." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "You have just given your opinion on car-free downtowns (TCF speaking task 3). In about 30 seconds, conclude: sum up, give your final answer with a nuance, and open the question.", "seconds": 30,
+          "checklist": ["Pour conclure / En définitive…", "A one-sentence summary", "A nuanced answer", "An opening"],
+          "models": [ { "label": "Model answer", "fr": "Pour conclure, je dirais qu'un centre-ville sans voitures, c'est à la fois meilleur pour la santé et bon pour les petits commerces. Donc oui, je suis pour, mais seulement si on améliore les autobus en même temps. Reste à savoir si les gens accepteront de changer leurs habitudes.", "en": "To conclude, I'd say a car-free downtown is both better for health and good for small shops. So yes, I'm for it, but only if buses are improved at the same time. It remains to be seen whether people will accept changing their habits." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- End in three moves: synthesis ([[En définitive]], [[Au terme de cette réflexion, il apparaît que…]]), answer, and an optional opening ([[Reste à savoir si…]])\n- Nuance your answer: [[à condition que]] / [[Encore faut-il que]] + subjunctive, [[faute de quoi]] + conditional\n- Never add a new argument, copy the introduction, or end with [[Voilà]]\n- Keep the conclusion to 25–40 words in a TEF text, and plan it before writing the body",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Corrected the claim that Reste à savoir never takes il (Il reste à savoir is also correct; now accepted in both clozes). Softened the il semble que and Québec-conclusion statements. Added accepted answers to r4." }
+}

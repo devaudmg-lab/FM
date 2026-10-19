@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-06-04",
+  "level": "a2",
+  "unit": "a2-06",
+  "title": "Booking an appointment by phone",
+  "goal": "Book, move or cancel a medical appointment by phone: follow a phone menu, give your details, choose a time and leave a message.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-je-vous-appelle", "kind": "grammar", "fr": "Je vous appelle pour + infinitif", "en": "I'm calling to… (stating the reason for a call)",
+      "drills": [
+        { "type": "cloze", "text": "Je vous appelle ___ prendre rendez-vous.", "answers": [["pour"]], "en": "I'm calling to make an appointment.", "explain": "The reason for a call: [[pour]] + infinitive." },
+        { "type": "translate", "prompt": "I'm calling to cancel my appointment. (formal)", "accept": ["Je vous appelle pour annuler mon rendez-vous.", "J'appelle pour annuler mon rendez-vous.", "Je vous téléphone pour annuler mon rendez-vous.", "Je téléphone pour annuler mon rendez-vous."], "explain": "Learn [[Je vous appelle pour]] as a chunk, then add the infinitive: [[annuler]]." },
+        { "type": "mcq", "prompt": "“I'm calling to move my appointment.”", "options": ["Je vous appelle pour déplacer mon rendez-vous.", "Je vous appelle de déplacer mon rendez-vous.", "Je vous appelle à déplacer mon rendez-vous."], "optionsFr": true, "answer": 0, "explain": "Purpose = [[pour]] + infinitive, never [[de]] or [[à]] here." }
+      ] },
+    { "id": "g-convenir", "kind": "grammar", "fr": "Ça vous convient ? / Ça me convient.", "en": "Does that suit you? / That suits me.",
+      "drills": [
+        { "type": "cloze", "text": "Mardi à 16 h 20, ça vous ___ ?", "answers": [["convient"]], "en": "Tuesday at 4:20 p.m., does that suit you?", "explain": "[[ça]] → [[convient]] (like [[ça vient]])." },
+        { "type": "cloze", "text": "Oui, ça me convient ___.", "answers": [["parfaitement", "très bien", "tout à fait", "bien"]], "en": "Yes, that suits me perfectly.", "explain": "[[Ça me convient parfaitement / très bien]] = that works perfectly for me." },
+        { "type": "mcq", "prompt": "The time doesn't work for you. You say…", "options": ["Désolé, ça ne me convient pas. Vous avez autre chose ?", "Désolé, je ne convient pas.", "Désolé, ça ne me va pas convient."], "optionsFr": true, "answer": 0, "explain": "Negative: [[ça ne me convient pas]]. You can also say [[ça ne me va pas]]." }
+      ] },
+    { "id": "annuler-rdv", "kind": "phrase", "fr": "Je voudrais annuler mon rendez-vous.", "en": "I'd like to cancel my appointment.", "accept": ["Je voudrais annuler mon rendez-vous"] },
+    { "id": "deplacer-rdv", "kind": "phrase", "fr": "Est-ce que je peux déplacer mon rendez-vous ?", "en": "Can I move (reschedule) my appointment?", "accept": ["Est-ce que je peux changer mon rendez-vous ?", "Je peux déplacer mon rendez-vous ?", "Est-ce que je peux reporter mon rendez-vous ?"] },
+    { "id": "disponibilite", "kind": "vocab", "fr": "disponibilité", "article": "une", "gender": "f", "en": "opening (available time slot)", "pos": "noun", "accept": ["des disponibilités", "la disponibilité"],
+      "example": { "fr": "Le docteur Roy n'a pas de disponibilités cette semaine.", "en": "Dr. Roy has no openings this week." } },
+    { "id": "plus-tot", "kind": "phrase", "fr": "le plus tôt possible", "en": "as soon as possible", "accept": ["dès que possible", "aussitôt que possible"] },
+    { "id": "quel-nom", "kind": "phrase", "fr": "C'est à quel nom ?", "en": "What name is it under?", "accept": ["À quel nom ?"] },
+    { "id": "date-naissance", "kind": "vocab", "fr": "date de naissance", "article": "la", "gender": "f", "en": "date of birth", "pos": "noun", "accept": ["votre date de naissance", "une date de naissance"],
+      "example": { "fr": "Quelle est votre date de naissance ?", "en": "What's your date of birth?" } },
+    { "id": "rappel", "kind": "vocab", "fr": "rappel", "article": "un", "gender": "m", "en": "reminder", "pos": "noun", "accept": ["un rappel", "le rappel"],
+      "example": { "fr": "Vous recevrez un texto de rappel la veille.", "en": "You'll get a reminder text the day before." } },
+    { "id": "ne-quittez-pas", "kind": "phrase", "fr": "Ne quittez pas.", "en": "Please hold. (on the phone)", "accept": ["Ne quittez pas, s'il vous plaît."] },
+    { "id": "laisser-message", "kind": "phrase", "fr": "laisser un message", "en": "to leave a message" },
+    { "id": "faites-le-1", "kind": "phrase", "fr": "Pour prendre rendez-vous, faites le 1.", "en": "To make an appointment, press 1. (phone menu)", "accept": ["Pour prendre rendez-vous, appuyez sur le 1.", "Pour prendre rendez-vous, tapez 1."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Calling the clinic",
+      "intro": "Karim's son Adam, 7, has an earache. Karim calls their family medicine clinic in Laval.",
+      "blocks": [
+        { "type": "listen", "title": "The phone menu",
+          "context": "First, Karim hears a recorded message. Listen once without the transcript.",
+          "fr": "Bonjour, vous avez joint la Clinique médicale du Parc. Si vous avez une urgence, raccrochez et composez le 911. Pour prendre, déplacer ou annuler un rendez-vous, faites le 1. Pour parler à une infirmière, faites le 2. Pour nos heures d'ouverture, faites le 3. Merci de patienter : un membre de notre équipe va vous répondre.",
+          "en": "Hello, you have reached the Clinique médicale du Parc. If you have an emergency, hang up and dial 911. To make, move or cancel an appointment, press 1. To speak to a nurse, press 2. For our opening hours, press 3. Thank you for holding: a member of our team will answer you." },
+        { "type": "dialogue", "title": "With the receptionist",
+          "context": "Karim pressed 1. After a few minutes, someone answers.",
+          "lines": [
+            { "speaker": "Réceptionniste", "fr": "Clinique du Parc, bonjour ! Merci d'avoir patienté.", "en": "Clinique du Parc, hello! Thank you for holding." },
+            { "speaker": "Karim", "fr": "Bonjour, madame. Je vous appelle pour prendre rendez-vous pour mon fils. Il a mal à l'oreille et il a eu de la fièvre cette nuit.", "en": "Hello. I'm calling to make an appointment for my son. He has an earache and he had a fever last night." },
+            { "speaker": "Réceptionniste", "fr": "D'accord. C'est à quel nom ?", "en": "OK. What name is it under?" },
+            { "speaker": "Karim", "fr": "Adam Haddad. H-A-D-D-A-D.", "en": "Adam Haddad. H-A-D-D-A-D." },
+            { "speaker": "Réceptionniste", "fr": "Sa date de naissance, s'il vous plaît ?", "en": "His date of birth, please?" },
+            { "speaker": "Karim", "fr": "Le 3 mars 2019.", "en": "March 3, 2019." },
+            { "speaker": "Réceptionniste", "fr": "Merci. Ne quittez pas, je regarde… Son médecin, le docteur Roy, n'a pas de disponibilités cette semaine. Mais la docteure Bélanger peut le voir demain à 10 h 40.", "en": "Thank you. Please hold, I'm checking… His doctor, Dr. Roy, has no openings this week. But Dr. Bélanger can see him tomorrow at 10:40." },
+            { "speaker": "Karim", "fr": "Demain matin, je travaille… Vous n'avez rien en fin d'après-midi ? C'est assez urgent : je voudrais un rendez-vous le plus tôt possible.", "en": "Tomorrow morning I'm working… Don't you have anything late in the afternoon? It's fairly urgent: I'd like an appointment as soon as possible." },
+            { "speaker": "Réceptionniste", "fr": "Attendez… Oui, j'ai une place aujourd'hui à 16 h 20, avec la docteure Bélanger. Ça vous convient ?", "en": "Wait… Yes, I have a spot today at 4:20 p.m., with Dr. Bélanger. Does that suit you?" },
+            { "speaker": "Karim", "fr": "Aujourd'hui ? Oui, ça me convient parfaitement !", "en": "Today? Yes, that suits me perfectly!" },
+            { "speaker": "Réceptionniste", "fr": "Très bien. N'oubliez pas sa carte d'assurance maladie. Arrivez dix minutes à l'avance, s'il vous plaît.", "en": "Very good. Don't forget his health insurance card. Please arrive ten minutes early." },
+            { "speaker": "Karim", "fr": "Parfait. Merci beaucoup, madame. Bonne journée !", "en": "Perfect. Thank you very much. Have a good day!" }
+          ] },
+        { "type": "listen", "title": "Mei leaves a voicemail",
+          "context": "The same week, Mei can't go to her appointment. The clinic is closed, so she leaves a message.",
+          "fr": "Bonjour, ici Mei Chen. J'ai un rendez-vous avec la docteure Bélanger jeudi à 9 h 15, mais malheureusement, je ne pourrai pas venir : je dois travailler. Je voudrais déplacer mon rendez-vous à la semaine prochaine, si possible le matin. Vous pouvez me rappeler au 514 555 0198. Merci et bonne journée !",
+          "en": "Hello, this is Mei Chen. I have an appointment with Dr. Bélanger on Thursday at 9:15, but unfortunately I won't be able to come: I have to work. I'd like to move my appointment to next week, in the morning if possible. You can call me back at 514 555 0198. Thank you and have a good day!" }
+      ] },
+    { "type": "understand", "title": "Phone appointments, step by step",
+      "blocks": [
+        { "type": "table", "title": "The call in five steps",
+          "head": ["Step", "You say", "You hear"],
+          "rows": [
+            ["1. The reason", "Je vous appelle pour prendre / déplacer / annuler un rendez-vous.", "Clinique du Parc, bonjour !"],
+            ["2. Your details", "C'est au nom de… Ma date de naissance, c'est le…", "C'est à quel nom ? Votre numéro d'assurance maladie ?"],
+            ["3. The time", "Vous avez quelque chose le matin ? Le plus tôt possible.", "J'ai une place mardi à 10 h 40."],
+            ["4. Confirm", "Ça me convient. / Ça ne me convient pas, vous avez autre chose ?", "Ça vous convient ?"],
+            ["5. Close", "Merci beaucoup, bonne journée !", "Vous recevrez un texto de rappel."]
+          ],
+          "frCols": [1, 2], "sayCol": true },
+        { "type": "pattern", "title": "Stating the reason for your call",
+          "pattern": "Je vous appelle pour + infinitif",
+          "note": "Say why you're calling in the first sentence. [[Je vous appelle]] (I'm calling you) and [[Vous pouvez me rappeler]] (you can call me back) use pronouns that you'll study in units 8 and 9; for now, learn them as chunks.",
+          "examples": [
+            { "fr": "Je vous appelle pour prendre rendez-vous avec le docteur Roy.", "en": "I'm calling to make an appointment with Dr. Roy." },
+            { "fr": "Je vous appelle pour annuler mon rendez-vous de jeudi.", "en": "I'm calling to cancel my Thursday appointment." },
+            { "fr": "Je vous appelle pour déplacer le rendez-vous de mon fils.", "en": "I'm calling to move my son's appointment." }
+          ] },
+        { "type": "table", "title": "Dates and times on the phone",
+          "head": ["French", "English"],
+          "rows": [
+            ["le mardi 14 mai à 10 h 40", "Tuesday, May 14 at 10:40 a.m."],
+            ["en fin d'après-midi / en début de matinée", "late in the afternoon / early in the morning"],
+            ["la semaine prochaine, si possible le matin", "next week, in the morning if possible"],
+            ["la veille / le lendemain", "the day before / the day after"],
+            ["dix minutes à l'avance", "ten minutes early (in advance)"],
+            ["au moins 24 heures à l'avance", "at least 24 hours in advance"]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "vocab", "title": "New words", "itemIds": ["disponibilite", "date-naissance", "rappel", "plus-tot", "quel-nom", "ne-quittez-pas", "laisser-message"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Prendre, not faire:** “make an appointment” = [[prendre rendez-vous]], usually with no article. [[Faire un rendez-vous]] is an English calque.\n- **Rendez-vous takes avec:** [[un rendez-vous avec le docteur Roy]], and [[chez le dentiste]] for the place.\n- **Phone numbers:** in Canada, people often say phone numbers digit by digit: [[cinq un quatre, cinq cinq cinq, zéro un neuf huit]]. Some people group them: [[cinq cent quatorze…]] Ask [[Pouvez-vous répéter le numéro, s'il vous plaît ?]] if you miss it.\n- **Ne quittez pas** doesn't mean *don't leave the building*! On the phone, it means *please hold*." },
+        { "type": "deepdive", "kind": "canada", "title": "Booking in Québec and Ontario",
+          "body": "- **Disponibilités:** in Québec, a free slot is very often [[une disponibilité]]: [[Avez-vous des disponibilités cette semaine ?]] In France, people say [[un créneau]].\n- **Faites le 1:** phone menus in Québec often say [[faites le 1]] or [[appuyez sur le 1]]; in France, [[tapez 1]].\n- **Voicemail:** [[la boîte vocale]] (Québec) / [[la messagerie]] or [[le répondeur]] (France).\n- **Health number:** clinics will ask for your health insurance number. A Québec number has four letters and eight digits; spell the letters slowly.\n- **Online booking:** in Québec, many clinics also offer appointments online through the provincial system **Rendez-vous santé Québec**. In Ontario, booking depends on each clinic.\n- **Titles:** in Québec, a woman doctor is usually [[la docteure]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je vous appelle pour prendre rendez-vous.", "en": "I'm calling to make an appointment." },
+            { "fr": "Est-ce que je peux déplacer mon rendez-vous ?", "en": "Can I move my appointment?" },
+            { "fr": "Avez-vous des disponibilités cette semaine ?", "en": "Do you have any openings this week?", "tip": "disponibilités: *dis-po-ni-bi-li-té*, six even syllables." },
+            { "fr": "Oui, ça me convient parfaitement.", "en": "Yes, that suits me perfectly." },
+            { "fr": "Vous pouvez me rappeler au 514 555 0198.", "en": "You can call me back at 514 555 0198." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Pour prendre, déplacer ou annuler un rendez-vous, faites le 1. Pour parler à une infirmière, faites le 2. Pour nos heures d'ouverture, faites le 3.", "en": "To make, move or cancel an appointment, press 1. To speak to a nurse, press 2. For our opening hours, press 3.",
+          "prompt": "You want to cancel an appointment. Which number do you press?", "options": ["1", "2", "3"], "answer": 0,
+          "explain": "[[Pour prendre, déplacer ou annuler un rendez-vous, faites le 1.]]" },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je voudrais déplacer mon rendez-vous à la semaine prochaine, si possible le matin.", "en": "I'd like to move my appointment to next week, in the morning if possible.",
+          "prompt": "What does Mei want?", "options": ["A morning appointment next week", "An afternoon appointment this week", "To cancel without a new appointment"], "answer": 0,
+          "explain": "[[déplacer]] = move; [[la semaine prochaine]] = next week; [[si possible le matin]] = in the morning if possible." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "listen-mcq", "fr": "La docteure Bélanger peut vous voir mercredi à 13 h 50 ou vendredi à 8 h 10. Qu'est-ce qui vous convient ?", "en": "Dr. Bélanger can see you on Wednesday at 1:50 p.m. or Friday at 8:10 a.m. What suits you?",
+          "prompt": "Which times does the receptionist offer?", "options": ["Wednesday 1:50 p.m. or Friday 8:10 a.m.", "Wednesday 3:50 p.m. or Friday 8:10 a.m.", "Tuesday 1:50 p.m. or Friday 10:08 a.m."], "answer": 0,
+          "explain": "[[mercredi à treize heures cinquante]] = 1:50 p.m.; [[vendredi à huit heures dix]] = 8:10 a.m." },
+        { "id": "r2", "type": "cloze", "text": "Bonjour, je vous appelle ___ annuler mon rendez-vous de jeudi.", "answers": [["pour"]], "choices": ["pour", "de", "à"], "en": "Hello, I'm calling to cancel my Thursday appointment.",
+          "explain": "Purpose: [[pour]] + infinitive." },
+        { "id": "r3", "type": "mcq", "prompt": "The receptionist asks “C'est à quel nom ?”. What does she want?", "options": ["Your name", "The doctor's name", "The name of the clinic", "Your address"], "answer": 0,
+          "explain": "[[C'est à quel nom ?]] = what name is (the appointment) under?" },
+        { "id": "r4", "type": "translate", "prompt": "Do you have any openings this week? (formal)", "accept": ["Avez-vous des disponibilités cette semaine ?", "Est-ce que vous avez des disponibilités cette semaine ?", "Vous avez des disponibilités cette semaine ?", "Avez-vous de la place cette semaine ?", "Est-ce que vous avez de la place cette semaine ?", "Vous avez de la place cette semaine ?"],
+          "explain": "In Québec, [[des disponibilités]] is the usual word for free slots." },
+        { "id": "r5", "type": "cloze", "text": "Mardi à 9 h ? Non, désolée, ça ne me ___ pas. Vous avez quelque chose l'après-midi ?", "answers": [["convient"]], "en": "Tuesday at 9? No, sorry, that doesn't suit me. Do you have something in the afternoon?",
+          "explain": "[[ça ne me convient pas]] = that doesn't work for me." },
+        { "id": "r6", "type": "match", "prompt": "Match the phone phrases.", "pairs": [["Ne quittez pas.", "Please hold."], ["Faites le 1.", "Press 1."], ["Merci d'avoir patienté.", "Thank you for holding."], ["la boîte vocale", "voicemail"], ["laisser un message", "to leave a message"]] },
+        { "id": "r7", "type": "reorder", "prompt": "I'd like an appointment as soon as possible.", "accept": ["Je voudrais un rendez-vous le plus tôt possible"], "extra": ["vite"],
+          "explain": "[[le plus tôt possible]] = as soon as possible, a fixed chunk at the end." },
+        { "id": "r8", "type": "translate", "prompt": "Yesterday, I called the clinic and I made an appointment for Friday.", "accept": ["Hier, j'ai appelé la clinique et j'ai pris rendez-vous pour vendredi.", "Hier, j'ai téléphoné à la clinique et j'ai pris rendez-vous pour vendredi.", "Hier, j'ai appelé la clinique et j'ai pris un rendez-vous pour vendredi.", "Hier, j'ai téléphoné à la clinique et j'ai pris un rendez-vous pour vendredi.", "J'ai appelé la clinique hier et j'ai pris rendez-vous pour vendredi."],
+          "hint": "prendre → pris", "explain": "Passé composé: [[j'ai appelé]] (appeler + direct object) or [[j'ai téléphoné à]]; [[j'ai pris rendez-vous]]." },
+        { "id": "r9", "type": "dictation", "fr": "Vous recevrez un texto de rappel la veille.", "accept": [],
+          "explain": "[[recevrez]]: futur simple of recevoir. [[la veille]] = the day before." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Call your clinic to book an appointment. Give the reason for the call and your symptoms, your name (spelled) and date of birth. Refuse the first time you are offered, ask for another, then accept. Imagine the receptionist's answers.", "seconds": 60,
+          "checklist": ["Bonjour + Je vous appelle pour prendre rendez-vous.", "Short reason: J'ai mal à… / J'ai de la fièvre…", "C'est au nom de… + spelling", "Ma date de naissance, c'est le…", "Refuse: Désolé / Désolée, ça ne me convient pas : je travaille…", "Ask: Vous avez quelque chose… ? / le plus tôt possible", "Accept: Ça me convient parfaitement.", "Merci, bonne journée !"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, madame. Je vous appelle pour prendre rendez-vous avec un médecin. J'ai mal au dos et je dors très mal. C'est au nom de Nguyen Tran, T-R-A-N. Ma date de naissance, c'est le 21 juin 1990. … Lundi à 9 h ? Désolé, ça ne me convient pas : je travaille le matin. Vous avez quelque chose en fin d'après-midi ? … Mercredi à 16 h 30 ? Oui, ça me convient parfaitement. Merci beaucoup, bonne journée !", "en": "Hello, madam. I'm calling to make an appointment with a doctor. My back hurts and I'm sleeping very badly. It's under the name Nguyen Tran, T-R-A-N. My date of birth is June 21, 1990. … Monday at 9? Sorry, that doesn't suit me: I work in the morning. Do you have anything late in the afternoon? … Wednesday at 4:30? Yes, that suits me perfectly. Thank you very much, have a good day! (The … mark the receptionist's answers.)" } ] },
+        { "id": "w1", "type": "write", "prompt": "The clinic is closed. Write the voicemail you will leave (as a script): say who you are, which appointment you have, that you can't come and why, what you'd like instead, and your phone number.", "wordRange": [35, 70],
+          "checklist": ["Bonjour, ici + your name", "J'ai un rendez-vous avec… le… à…", "Je ne pourrai pas venir : + reason", "Je voudrais déplacer / annuler…", "Vous pouvez me rappeler au… + number", "Merci, bonne journée !"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, ici Amira Benali. J'ai un rendez-vous avec le docteur Roy lundi à 14 h. Malheureusement, je ne pourrai pas venir : ma fille est malade et je dois rester avec elle. Je voudrais déplacer mon rendez-vous à jeudi ou à vendredi, si possible. Vous pouvez me rappeler au 438 555 0142. Merci et bonne journée !", "en": "Hello, this is Amira Benali. I have an appointment with Dr. Roy on Monday at 2 p.m. Unfortunately, I won't be able to come: my daughter is sick and I have to stay with her. I'd like to move my appointment to Thursday or Friday, if possible. You can call me back at 438 555 0142. Thank you and have a good day!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Say why you're calling: [[Je vous appelle pour prendre / déplacer / annuler un rendez-vous.]]\n- Give your details and follow a phone menu: [[C'est au nom de…]], [[faites le 1]], [[Ne quittez pas.]]\n- Choose a time: [[Avez-vous des disponibilités… ?]] [[Ça me convient. / Ça ne me convient pas.]]\n- Leave a clear voicemail with your number",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Object-pronoun chunks are no longer tested (r6 pair 'Vous pouvez me rappeler' replaced; drill explain reworded), pronoun units corrected to 8 and 9. Removed a dictation accept that sounds different and an ambiguous r8 accept; fixed Adam's birth year to match his age." }
+}

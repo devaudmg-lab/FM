@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-10-01",
+  "level": "a1",
+  "unit": "a1-10",
+  "title": "Question words",
+  "goal": "Ask where, when, how, why, how much, who and what, in informal, neutral and formal French.",
+  "minutes": 14,
+  "items": [
+    { "id": "ou", "kind": "vocab", "fr": "où", "en": "where", "pos": "adverb",
+      "example": { "fr": "Tu habites où ?", "en": "Where do you live?" }, "note": "With an accent, où = where. Without it, ou = or." },
+    { "id": "quand", "kind": "vocab", "fr": "quand", "en": "when", "pos": "adverb",
+      "example": { "fr": "Quand est-ce que tu travailles ?", "en": "When do you work?" } },
+    { "id": "comment", "kind": "vocab", "fr": "comment", "en": "how", "pos": "adverb",
+      "example": { "fr": "Comment est-ce que tu vas au travail ? — En bus.", "en": "How do you get to work? — By bus." } },
+    { "id": "pourquoi", "kind": "vocab", "fr": "pourquoi", "en": "why", "pos": "adverb",
+      "example": { "fr": "Pourquoi tu apprends le français ?", "en": "Why are you learning French?" } },
+    { "id": "parce-que", "kind": "phrase", "fr": "parce que", "en": "because",
+      "example": { "fr": "Parce que j'habite à Montréal.", "en": "Because I live in Montréal." }, "note": "Before a vowel: parce qu'il, parce qu'elle, parce qu'on." },
+    { "id": "combien", "kind": "vocab", "fr": "combien", "en": "how much / how many", "pos": "adverb",
+      "example": { "fr": "Tu as combien d'enfants ?", "en": "How many children do you have?" }, "note": "Before a noun, add de (d'): combien de personnes, combien d'enfants." },
+    { "id": "qui", "kind": "vocab", "fr": "qui", "en": "who", "pos": "pronoun",
+      "example": { "fr": "Qui est ton prof ?", "en": "Who is your teacher?" } },
+    { "id": "quoi", "kind": "vocab", "fr": "quoi", "en": "what (at the end of an informal question)", "pos": "pronoun",
+      "example": { "fr": "Tu fais quoi ce soir ?", "en": "What are you doing tonight?" }, "note": "At the start of a question, use qu'est-ce que instead." },
+    { "id": "g-quel", "kind": "grammar", "fr": "quel / quelle / quels / quelles", "en": "which / what + noun (agrees with the noun)",
+      "drills": [
+        { "type": "cloze", "text": "___ heure est-il ?", "answers": [["Quelle"]], "en": "What time is it?", "explain": "heure is feminine singular → quelle." },
+        { "type": "cloze", "text": "Tu parles ___ langues ?", "answers": [["quelles"]], "en": "Which languages do you speak?", "explain": "langues is feminine plural → quelles." },
+        { "type": "cloze", "text": "___ est ton numéro de téléphone ?", "answers": [["Quel"]], "en": "What's your phone number?", "explain": "numéro is masculine singular → quel." },
+        { "type": "mcq", "prompt": "Complete: ___ sports est-ce que tu aimes ?", "options": ["Quel", "Quelle", "Quels", "Quelles"], "optionsFr": true, "answer": 2, "explain": "le sport is masculine; sports is plural → quels." }
+      ] },
+    { "id": "g-registers", "kind": "grammar", "fr": "Tu vas où ? / Où est-ce que tu vas ? / Où vas-tu ?", "en": "three ways to ask a question: informal, neutral, formal",
+      "drills": [
+        { "type": "translate", "prompt": "Where do you work? (to a friend)", "accept": ["Tu travailles où ?", "Où tu travailles ?", "Où est-ce que tu travailles ?", "Où travailles-tu ?"], "explain": "All four are correct; the first two are everyday speech, est-ce que is neutral, inversion is formal." },
+        { "type": "translate", "prompt": "When do you finish? (formal)", "accept": ["Quand finissez-vous ?", "Quand est-ce que vous finissez ?"], "explain": "finir → vous finissez. Inversion: Quand finissez-vous ?" },
+        { "type": "mcq", "prompt": "Which question uses formal inversion?", "options": ["Où habitez-vous ?", "Vous habitez où ?", "Où est-ce que vous habitez ?"], "optionsFr": true, "answer": 0, "explain": "Inversion puts the verb before the subject, joined by a hyphen: habitez-vous." }
+      ] },
+    { "id": "tu-fais-quoi", "kind": "phrase", "fr": "Tu fais quoi dans la vie ?", "en": "What do you do for a living? (to a friend)",
+      "accept": ["Qu'est-ce que tu fais dans la vie ?", "Que fais-tu dans la vie ?"] },
+    { "id": "quel-numero", "kind": "phrase", "fr": "Quel est ton numéro de téléphone ?", "en": "What's your phone number? (to a friend)",
+      "accept": ["Quel est ton numéro ?", "C'est quoi, ton numéro de téléphone ?", "C'est quoi ton numéro de téléphone ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Twenty questions at the language café",
+      "blocks": [
+        { "type": "dialogue", "title": "A language café in Gatineau",
+          "context": "Karim and Sofia take French classes at the same community centre. They meet at the Thursday café.",
+          "lines": [
+            { "speaker": "Karim", "fr": "Salut ! Tu t'appelles comment ?", "en": "Hi! What's your name?" },
+            { "speaker": "Sofia", "fr": "Sofia. Et toi ?", "en": "Sofia. And you?" },
+            { "speaker": "Karim", "fr": "Karim. Tu es d'où, Sofia ?", "en": "Karim. Where are you from, Sofia?" },
+            { "speaker": "Sofia", "fr": "Je suis mexicaine. Mais maintenant, j'habite ici, à Gatineau.", "en": "I'm Mexican. But now I live here, in Gatineau." },
+            { "speaker": "Karim", "fr": "Et pourquoi Gatineau ?", "en": "And why Gatineau?" },
+            { "speaker": "Sofia", "fr": "Parce que mon mari travaille à Ottawa. Et toi, tu habites où ?", "en": "Because my husband works in Ottawa. And you, where do you live?" },
+            { "speaker": "Karim", "fr": "À Gatineau aussi. Quand est-ce que tu as ton cours de français ?", "en": "In Gatineau too. When do you have your French class?" },
+            { "speaker": "Sofia", "fr": "Le mardi et le jeudi soir. Il y a combien d'étudiants dans ton cours ?", "en": "Tuesday and Thursday evenings. How many students are there in your class?" },
+            { "speaker": "Karim", "fr": "Douze. Et qui est ton prof ?", "en": "Twelve. And who is your teacher?" },
+            { "speaker": "Sofia", "fr": "C'est Lucie. Elle est super ! Tu parles quelle langue à la maison ?", "en": "It's Lucie. She's great! Which language do you speak at home?" },
+            { "speaker": "Karim", "fr": "L'arabe et le français. Quel est ton numéro ? On pratique ensemble ?", "en": "Arabic and French. What's your number? Shall we practise together?" },
+            { "speaker": "Sofia", "fr": "Bonne idée ! C'est le 819 555 0142.", "en": "Good idea! It's 819 555 0142." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen first. Count the questions: how many different question words can you hear?" }
+      ] },
+    { "type": "understand", "title": "Asking for information",
+      "blocks": [
+        { "type": "table", "title": "The question words",
+          "head": ["Question word", "English", "Example"],
+          "rows": [
+            ["où", "where", "Tu habites où ?"],
+            ["quand", "when", "Quand est-ce que tu travailles ?"],
+            ["comment", "how", "Comment tu vas au travail ?"],
+            ["pourquoi", "why", "Pourquoi tu apprends le français ?"],
+            ["combien (de)", "how much, how many", "Tu as combien d'enfants ?"],
+            ["qui", "who", "Qui est ton prof ?"],
+            ["quoi", "what (end of an informal question)", "Tu fais quoi ce soir ?"],
+            ["quel, quelle…", "which, what (+ noun)", "Quelle heure est-il ?"]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "[[Pourquoi]] asks “why”; you answer with [[parce que]] (“because”). Before a vowel it becomes [[parce qu']]: [[parce qu'il fait froid]]." },
+        { "type": "pattern", "title": "One question, three registers",
+          "pattern": "Tu vas où ? · Où est-ce que tu vas ? · Où vas-tu ?",
+          "note": "- **Informal (speaking with friends):** keep the normal word order and put the question word at the end or at the start: [[Tu vas où ?]] or [[Où tu vas ?]]\n- **Neutral (fine everywhere):** question word + [[est-ce que]] + normal order: [[Où est-ce que tu vas ?]]\n- **Formal (writing, polite situations):** question word + verb-subject, with a hyphen: [[Où vas-tu ?]] [[Où allez-vous ?]]\n\nAll three mean exactly the same thing. Learn to **understand** all three and to **use** at least the neutral one everywhere.",
+          "examples": [
+            { "fr": "Vous travaillez où ? / Où est-ce que vous travaillez ? / Où travaillez-vous ?", "en": "Where do you work?" },
+            { "fr": "Tu finis quand ? / Quand est-ce que tu finis ? / Quand finis-tu ?", "en": "When do you finish?" },
+            { "fr": "Ça coûte combien ? / Combien est-ce que ça coûte ? / Combien coûte le billet ?", "en": "How much does it (the ticket) cost?" },
+            { "fr": "Tu fais quoi ? / Qu'est-ce que tu fais ? / Que fais-tu ?", "en": "What are you doing?" }
+          ] },
+        { "type": "explain", "title": "Quoi, qu'est-ce que, que",
+          "body": "“What” changes form depending on where it sits:\n\n- At the **end** of an informal question: [[quoi]] → [[Tu manges quoi ?]]\n- At the **start**, neutral: [[qu'est-ce que]] → [[Qu'est-ce que tu manges ?]]\n- At the start, formal inversion: [[que]] → [[Que manges-tu ?]]\n\nNever start a full question with *quoi*: [[Quoi tu manges ?]] is wrong (fixed phrases like [[Quoi de neuf ?]] are the exception). [[Quoi ?]] on its own means “What?” (a bit abrupt; [[Pardon ?]] is more polite)." },
+        { "type": "table", "title": "Quel agrees with its noun",
+          "head": ["", "singular", "plural"],
+          "rows": [
+            ["masculine", "quel", "quels"],
+            ["feminine", "quelle", "quelles"]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "[[Quel]] goes **directly before a noun**, or before [[est]] / [[sont]] + noun: [[Quel jour ?]] [[Quelle est ton adresse ?]] [[Quels sports ?]] [[Quelles langues ?]]\n\nGood news: all four forms sound the same. You only hear a difference in the plural before a vowel: [[quelles‿activités]] (a *z* sound)." },
+        { "type": "vocab", "title": "Words and phrases in this lesson", "itemIds": ["ou", "quand", "comment", "pourquoi", "parce-que", "combien", "qui", "quoi", "tu-fais-quoi", "quel-numero"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **où or ou?** [[où]] (accent) = where; [[ou]] (no accent) = or. [[Tu habites où ?]] but [[du thé ou du café ?]]\n- **“What is your…?”** uses [[quel]], not *qu'est-ce que*: [[Quel est ton nom ?]] — never *Qu'est-ce que est ton nom ?*\n- **combien de + noun, no article:** [[combien d'enfants]], not *combien des enfants*.\n- **Inversion needs a hyphen:** [[Où vas-tu ?]] With *il/elle* and a verb ending in a vowel, add **-t-** for the sound: [[Où travaille-t-elle ?]] [[Où va-t-il ?]]\n- **pourquoi vs pour quoi:** one word = why. Two words = “for what”." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "- [[Quand est-ce que]]: the silent *d* of *quand* comes back as a **t** sound: *kan-tess-kuh*.\n- [[Comment allez-vous ?]]: the *t* links too: *ko-man-ta-lay-voo*.\n- [[parce que]] is said in two short beats: *pars-kuh*.\n- [[pourquoi]]: *poor-kwa*. [[combien]]: *kom-byan*, with nasal vowels and no final *n* sound.\n- In informal questions the question word carries the stress: [[Tu vas **où** ?]]",
+          "examples": [ { "fr": "Quand est-ce que tu finis ?", "en": "When do you finish?" }, { "fr": "Comment allez-vous ?", "en": "How are you? (formal)" } ] },
+        { "type": "deepdive", "kind": "canada",
+          "body": "In everyday Québec French the informal pattern is by far the most common: [[Tu travailles où ?]] [[Ça coûte combien ?]] Inversion sounds formal or written.\n\nTwo things you will hear:\n\n- [[rester]] often means **to live**: [[Je reste à Laval]] = I live in Laval. [[Tu restes où ?]] = Where do you live?\n- A little question word [[-tu]] after the verb in very relaxed speech: [[C'est-tu loin ?]] (Is it far?). Just **recognize** it; don't use it in an exam.",
+          "examples": [ { "fr": "Tu restes où ? — À Laval.", "en": "Where do you live? — In Laval. (Québec)" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Tu habites où ?", "en": "Where do you live? (to a friend)", "tip": "Stress the last word: où." },
+            { "fr": "Quand est-ce que tu travailles ?", "en": "When do you work?", "tip": "quan-t‿est-ce que: you hear a t." },
+            { "fr": "Comment allez-vous ?", "en": "How are you? (formal)", "tip": "comment‿allez: link with a t." },
+            { "fr": "Pourquoi ? — Parce que je travaille.", "en": "Why? — Because I work.", "tip": "parce que = two beats: pars-kuh." },
+            { "fr": "Il y a combien de personnes ?", "en": "How many people are there?" },
+            { "fr": "Quelle heure est-il ?", "en": "What time is it?", "tip": "quelle‿heure: the l slides into heure." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Tu commences le travail à quelle heure ?", "en": "What time do you start work?", "prompt": "What does the speaker want to know?", "options": ["What time work starts", "Where the job is", "How much the job pays"], "answer": 0, "explain": "[[à quelle heure]] = at what time." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Pourquoi tu apprends le français ? — Parce que j'habite à Montréal maintenant.", "en": "Why are you learning French? — Because I live in Montréal now.", "prompt": "Why is the person learning French?", "options": ["They live in Montréal now", "They work in Montréal", "Their family speaks French"], "answer": 0, "explain": "[[parce que j'habite à Montréal]] = because I live in Montréal." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Vous avez combien d'enfants ?", "en": "How many children do you have?", "prompt": "What is the question about?", "options": ["The number of children", "The children's names", "The children's ages"], "answer": 0, "explain": "[[combien d'enfants]] = how many children." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "— ___ est-ce que tu habites ? — À Moncton.", "answers": [["Où"]], "choices": ["Où", "Quand", "Pourquoi", "Qui"], "en": "Where do you live? — In Moncton.", "explain": "The answer is a place, so the question is [[où]]." },
+        { "id": "r2", "type": "cloze", "text": "Tu parles ___ langues ?", "answers": [["quelles"]], "choices": ["quel", "quelle", "quels", "quelles"], "en": "Which languages do you speak?", "explain": "la langue is feminine; langues is plural → quelles." },
+        { "id": "r3", "type": "translate", "prompt": "Where are you going? (to a friend)", "accept": ["Tu vas où ?", "Où tu vas ?", "Où est-ce que tu vas ?", "Où vas-tu ?"], "hint": "aller: tu vas", "explain": "Any register works here: Tu vas où ? is the most natural with a friend." },
+        { "id": "r4", "type": "match", "prompt": "Match each question word to its meaning.", "pairs": [["quand", "when"], ["comment", "how"], ["pourquoi", "why"], ["combien", "how much / how many"], ["qui", "who"]] },
+        { "id": "r5", "type": "cloze", "text": "— Pourquoi tu restes à la maison ? — ___ je suis fatiguée.", "answers": [["Parce que"]], "en": "Why are you staying home? — Because I'm tired.", "explain": "[[Pourquoi]] → [[parce que]]. Here rester means “to stay”." },
+        { "id": "r6", "type": "translate", "prompt": "When do you finish work? (formal)", "accept": ["Quand est-ce que vous finissez le travail ?", "Quand finissez-vous le travail ?", "Quand est-ce que vous finissez votre travail ?", "Quand finissez-vous votre travail ?"], "hint": "finir: vous finissez", "explain": "finir → vous finissez. Neutral: Quand est-ce que… ? Formal: Quand finissez-vous… ?" },
+        { "id": "r7", "type": "reorder", "prompt": "How many children do you have? (using vous)", "accept": ["Vous avez combien d'enfants ?", "Combien d'enfants vous avez ?"], "extra": ["des", "quel"], "explain": "combien + d' + noun, with no article: combien d'enfants." },
+        { "id": "r8", "type": "mcq", "prompt": "You want to ask a new colleague “What's your name?” politely. Which is correct?", "options": ["Quel est votre nom ?", "Qu'est-ce que est votre nom ?", "Quelle est votre nom ?", "Quoi est votre nom ?"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "“What is your…?” uses quel + être, not qu'est-ce que.", "le nom is masculine → quel.", "quoi cannot start a question like this."] },
+        { "id": "r9", "type": "listen-mcq", "fr": "Le cours commence à quelle heure ?", "en": "What time does the class start?", "prompt": "What does the speaker ask about?", "options": ["The time", "The place", "The price"], "answer": 0, "explain": "[[à quelle heure]] asks for a time." },
+        { "id": "r10", "type": "dictation", "fr": "Qui est ton prof de français ?", "accept": [], "explain": "[[qui]] = who. [[prof]] is the everyday short form of [[professeur]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "At a language café, interview a new classmate. Ask at least five questions with five different question words, then answer one “why” question yourself with parce que.", "seconds": 45,
+          "checklist": ["Five different question words", "At least one quel / quelle", "One answer with parce que", "Use tu (it's a classmate)"],
+          "models": [ { "label": "Model answer", "fr": "Salut ! Tu t'appelles comment ? Tu es d'où ? Tu habites où maintenant ? Quand est-ce que tu as ton cours de français ? Tu parles quelles langues ? Et pourquoi tu apprends le français ? Moi, j'apprends le français parce que je travaille à Montréal.", "en": "Hi! What's your name? Where are you from? Where do you live now? When do you have your French class? Which languages do you speak? And why are you learning French? I'm learning French because I work in Montréal." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short note to a new neighbour. Introduce yourself in one sentence, then ask four polite questions with vous (use inversion or est-ce que).", "wordRange": [20, 50],
+          "checklist": ["One sentence about you", "Four questions with vous", "At least two different question words", "At least one inversion (verb-vous)"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour ! Je m'appelle Raj, j'habite dans l'appartement 12. Comment vous appelez-vous ? Où travaillez-vous ? Quelles langues est-ce que vous parlez ? Est-ce que vous avez des enfants ? Mes enfants ont huit et dix ans.", "en": "Hello! My name is Raj, I live in apartment 12. What's your name? Where do you work? Which languages do you speak? Do you have children? My children are eight and ten." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Ask questions with [[où, quand, comment, pourquoi, combien (de), qui, quoi]] and answer *why* with [[parce que]]\n- Make [[quel / quelle / quels / quelles]] agree with the noun\n- Ask the same question three ways: [[Tu vas où ?]] [[Où est-ce que tu vas ?]] [[Où vas-tu ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed informal-register answers (in-situ / no-inversion) from the two (formal) translate prompts; r7 prompt now says (using vous) so both accepted orders stay valid; removed 'professeur' from the r10 dictation (sounds different from 'prof'); added the Quoi de neuf exception." }
+}

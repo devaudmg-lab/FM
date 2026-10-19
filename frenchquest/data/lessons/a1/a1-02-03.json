@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-02-03",
+  "level": "a1",
+  "unit": "a1-02",
+  "title": "Say where you live",
+  "goal": "Say where you live and where you come from, with the right little word before cities and countries.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-habiter", "kind": "grammar", "fr": "habiter", "en": "to live (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Vous ___ à Ottawa ?", "answers": [["habitez"]], "en": "Do you live in Ottawa?", "explain": "vous → habitez (ends in an é sound)." },
+        { "type": "cloze", "text": "Nous ___ au Canada.", "answers": [["habitons"]], "en": "We live in Canada.", "explain": "nous → habitons." },
+        { "type": "cloze", "text": "Elles ___ à Laval.", "answers": [["habitent"]], "en": "They live in Laval.", "explain": "elles → habitent; the -ent is silent, but you hear the z: elles‿habitent." },
+        { "type": "translate", "prompt": "They live in Vancouver.", "accept": ["Ils habitent à Vancouver.", "Elles habitent à Vancouver.", "Ils habitent Vancouver.", "Elles habitent Vancouver."], "explain": "ils / elles → habitent; the -ent is silent." }
+      ] },
+    { "id": "g-a-en-au", "kind": "grammar", "fr": "à / en / au / aux", "en": "“in” before cities and countries",
+      "drills": [
+        { "type": "cloze", "text": "J'habite ___ Montréal.", "answers": [["à"]], "en": "I live in Montreal.", "explain": "City → à." },
+        { "type": "cloze", "text": "Elle habite ___ France.", "answers": [["en"]], "en": "She lives in France.", "explain": "la France is feminine → en." },
+        { "type": "cloze", "text": "Il habite ___ Maroc.", "answers": [["au"]], "en": "He lives in Morocco.", "explain": "le Maroc is masculine → au." },
+        { "type": "mcq", "prompt": "Which is correct?", "options": ["Ils habitent aux États-Unis.", "Ils habitent en États-Unis.", "Ils habitent au États-Unis."], "optionsFr": true, "answer": 0, "explain": "les États-Unis is plural → aux." }
+      ] },
+    { "id": "j-habite", "kind": "phrase", "fr": "j'habite à…", "en": "I live in… (a city)",
+      "example": { "fr": "J'habite à Gatineau.", "en": "I live in Gatineau." } },
+    { "id": "tu-habites-ou", "kind": "phrase", "fr": "Tu habites où ?", "en": "Where do you live? (to a friend)",
+      "accept": ["Où tu habites ?", "Où habites-tu ?", "Où est-ce que tu habites ?"] },
+    { "id": "ou-habitez-vous", "kind": "phrase", "fr": "Où habitez-vous ?", "en": "Where do you live? (formal)",
+      "accept": ["Vous habitez où ?", "Où est-ce que vous habitez ?", "Où vous habitez ?"] },
+    { "id": "je-viens-de", "kind": "phrase", "fr": "je viens de…", "en": "I come from… / I'm from…",
+      "example": { "fr": "Je viens de Montréal.", "en": "I'm from Montreal." },
+      "note": "Before a masculine country: [[je viens du Maroc]]. Before a vowel: [[je viens d'Inde]]." },
+    { "id": "canada", "kind": "vocab", "fr": "Canada", "article": "le", "gender": "m", "pos": "noun", "en": "Canada",
+      "example": { "fr": "J'habite au Canada.", "en": "I live in Canada." } },
+    { "id": "quebec", "kind": "vocab", "fr": "Québec", "article": "le", "gender": "m", "pos": "noun", "en": "Quebec (the province)",
+      "example": { "fr": "Montréal est au Québec.", "en": "Montreal is in Quebec." }, "note": "The city has no article: [[à Québec]] = in Quebec City." },
+    { "id": "france", "kind": "vocab", "fr": "France", "article": "la", "gender": "f", "pos": "noun", "en": "France",
+      "example": { "fr": "Olivier habite en France.", "en": "Olivier lives in France." } },
+    { "id": "maroc", "kind": "vocab", "fr": "Maroc", "article": "le", "gender": "m", "pos": "noun", "en": "Morocco",
+      "example": { "fr": "Amira habite au Maroc.", "en": "Amira lives in Morocco." } },
+    { "id": "mexique", "kind": "vocab", "fr": "Mexique", "article": "le", "gender": "m", "pos": "noun", "en": "Mexico (the country)",
+      "note": "Ends in -e but it's masculine: [[au Mexique]]." },
+    { "id": "inde", "kind": "vocab", "fr": "Inde", "article": "l'", "gender": "f", "pos": "noun", "en": "India",
+      "example": { "fr": "Raj habite en Inde.", "en": "Raj lives in India." } },
+    { "id": "etats-unis", "kind": "vocab", "fr": "États-Unis", "article": "les", "gender": "m", "pos": "noun", "en": "the United States",
+      "example": { "fr": "Alex habite aux États-Unis.", "en": "Alex lives in the United States." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Where do you live?",
+      "blocks": [
+        { "type": "dialogue", "title": "At a job fair in Montréal",
+          "context": "Olivier and Sofia wait in line. Then Sofia talks to Raj, an older man she doesn't know.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Salut ! Moi, c'est Olivier. Tu habites où ?", "en": "Hi! I'm Olivier. Where do you live?" },
+            { "speaker": "Sofia", "fr": "Moi, c'est Sofia. J'habite à Laval, mais je viens du Mexique.", "en": "I'm Sofia. I live in Laval, but I'm from Mexico." },
+            { "speaker": "Olivier", "fr": "Ah, tu es mexicaine !", "en": "Oh, you're Mexican!" },
+            { "speaker": "Sofia", "fr": "Oui ! Et toi, tu habites à Montréal ?", "en": "Yes! And you, do you live in Montréal?" },
+            { "speaker": "Olivier", "fr": "Non, j'habite à Longueuil. Je suis français, je viens de Lyon, en France.", "en": "No, I live in Longueuil. I'm French, I'm from Lyon, in France." },
+            { "speaker": "Sofia", "fr": "Bonjour, monsieur. Vous habitez à Montréal aussi ?", "en": "Hello, sir. Do you live in Montréal too?" },
+            { "speaker": "Raj", "fr": "Non, j'habite à Québec. Je viens d'Inde.", "en": "No, I live in Quebec City. I'm from India." },
+            { "speaker": "Sofia", "fr": "À Québec ? Alors vous habitez à Québec, au Québec !", "en": "In Quebec City? So you live in Quebec City, in Quebec!" },
+            { "speaker": "Raj", "fr": "Oui, c'est ça ! Et nous habitons tous au Canada.", "en": "Yes, that's it! And we all live in Canada." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for the small words before places: [[à]], [[en]], [[au]]. They are what this lesson is about." }
+      ] },
+    { "type": "understand", "title": "Habiter and the little words for “in”",
+      "blocks": [
+        { "type": "explain", "title": "Habiter means “to live (somewhere)”",
+          "body": "[[Habiter]] is a **regular** verb: you keep [[habit-]] and change the ending. The **h is silent**, so the word really starts with a vowel sound. That's why [[je]] becomes [[j']], and why you hear a *z* after [[nous]], [[vous]], [[ils]] and [[elles]]." },
+        { "type": "table", "title": "Habiter in the present",
+          "head": ["", "habiter", "English"],
+          "rows": [
+            ["j'", "habite", "I live"],
+            ["tu", "habites", "you live (one friend)"],
+            ["il / elle / on", "habite", "he / she lives, we live (informal)"],
+            ["nous", "habitons", "we live"],
+            ["vous", "habitez", "you live (formal, or more than one person)"],
+            ["ils / elles", "habitent", "they live"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[habite]], [[habites]] and [[habitent]] sound exactly the same: *a-BEET*. Endings -e, -es and -ent are silent." },
+        { "type": "table", "title": "In + a place",
+          "head": ["place", "in…", "English"],
+          "rows": [
+            ["Toronto", "à Toronto", "in Toronto (any city: à)"],
+            ["la France", "en France", "in France"],
+            ["l'Inde", "en Inde", "in India"],
+            ["le Canada", "au Canada", "in Canada"],
+            ["le Maroc", "au Maroc", "in Morocco"],
+            ["le Mexique", "au Mexique", "in Mexico"],
+            ["les États-Unis", "aux États-Unis", "in the United States"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "**City → à. Feminine country → en. Masculine country → au. Plural country → aux.** Most countries ending in **-e** are feminine; [[le Mexique]] is a famous exception." },
+        { "type": "pattern", "title": "Saying where you live",
+          "pattern": "j'habite + à + city, + en / au / aux + country",
+          "note": "You can give the city and the country together, separated by a comma.",
+          "examples": [
+            { "fr": "J'habite à Toronto, au Canada.", "en": "I live in Toronto, in Canada." },
+            { "fr": "Amira habite à Casablanca, au Maroc.", "en": "Amira lives in Casablanca, in Morocco." },
+            { "fr": "Nous habitons à Paris, en France.", "en": "We live in Paris, in France." },
+            { "fr": "Vous habitez où ?", "en": "Where do you live? (formal, spoken)" }
+          ] },
+        { "type": "vocab", "title": "Places and phrases", "itemIds": ["j-habite", "tu-habites-ou", "ou-habitez-vous", "je-viens-de", "canada", "quebec", "france", "maroc", "mexique", "inde", "etats-unis"] },
+        { "type": "deepdive", "kind": "canada", "title": "Au Québec or à Québec?",
+          "body": "**Québec** is both a province and a city, and the little word tells you which one:\n\n- [[au Québec]] = in the **province** ([[le Québec]] is masculine)\n- [[à Québec]] = in **Quebec City** (a city → à)\n\nMost other provinces follow the same rules. Feminine ones and names starting with a vowel take [[en]]: [[en Ontario]], [[en Alberta]], [[en Colombie-Britannique]], [[en Nouvelle-Écosse]]. Masculine ones take [[au]]: [[au Manitoba]], [[au Nouveau-Brunswick]]. Cities always take [[à]]: [[à Moncton]], [[à Gatineau]], [[à Vancouver]].",
+          "examples": [
+            { "fr": "Lucie habite à Québec, au Québec.", "en": "Lucie lives in Quebec City, in Quebec." },
+            { "fr": "Karim habite à Ottawa, en Ontario.", "en": "Karim lives in Ottawa, in Ontario." },
+            { "fr": "Mei habite à Moncton, au Nouveau-Brunswick.", "en": "Mei lives in Moncton, in New Brunswick." }
+          ] },
+        { "type": "deepdive", "kind": "examples", "title": "Je viens de… (where you're from)",
+          "body": "[[Je viens de…]] means “I come from…”. The verb [[venir]] comes later; for now, use [[je viens]] as a chunk. The little word changes like this:\n\n- city: [[de]] → [[Je viens de Lyon.]]\n- feminine country: [[de]], or [[d']] before a vowel → [[Je viens de France.]] [[Je viens d'Inde.]]\n- masculine country: [[du]] (de + le) → [[Je viens du Maroc.]]\n- plural country: [[des]] (de + les) → [[Je viens des États-Unis.]]\n\nIn conversation you'll also hear [[Je suis de Montréal]], with être. It means the same.",
+          "examples": [
+            { "fr": "Je viens du Mexique, mais j'habite au Canada.", "en": "I'm from Mexico, but I live in Canada." },
+            { "fr": "Je suis de Toronto.", "en": "I'm from Toronto." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **en + city:** [[J'habite en Montréal]] is wrong. Cities take [[à]]: [[J'habite à Montréal]].\n- **en Canada:** [[le Canada]] is masculine, so say [[au Canada]].\n- **Je habite:** the h is silent, so write and say [[j'habite]].\n- **dans + city:** English “in” is not [[dans]] here. Say [[à Toronto]], not *dans Toronto*.\n- **Forgetting the liaison:** [[nous‿habitons]] sounds like *nou-za-bi-TON*." },
+        { "type": "deepdive", "kind": "why", "title": "Why au and aux?",
+          "body": "French never says *à le* or *à les*. They always fuse: **à + le = au**, **à + les = aux**. You'll meet these again with places in town. With feminine countries, French uses [[en]] and no article: [[en France]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "J'habite à Montréal.", "en": "I live in Montréal.", "tip": "j'habite sounds like “zha-BEET”: the h is silent." },
+            { "fr": "Nous habitons au Canada.", "en": "We live in Canada.", "tip": "Liaison: nou-z‿habitons." },
+            { "fr": "Elle habite en France.", "en": "She lives in France.", "tip": "Link it all: è-la-bi-tan-FRANCE." },
+            { "fr": "Ils habitent aux États-Unis.", "en": "They live in the United States.", "tip": "Two z sounds: il-z‿habitent, o-z‿États-Unis. The -ent is silent." },
+            { "fr": "Je viens du Mexique.", "en": "I'm from Mexico." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "J'habite au Québec.", "en": "I live in Quebec (the province).", "prompt": "Where does the speaker live?", "options": ["In the province of Quebec", "In Quebec City", "In France"], "answer": 0, "explain": "You hear [[au]] (an o sound), so it's the province. [[À Québec]] would be the city." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ils habitent au Mexique.", "en": "They live in Mexico.", "prompt": "What did you hear?", "options": ["They live in Mexico.", "He lives in Mexico.", "They live in Morocco."], "answer": 0, "explain": "The *z* sound in [[ils‿habitent]] tells you it's plural. [[Il habite]] has no z." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Nous ___ à Gatineau.", "answers": [["habitons"]], "choices": ["habitons", "habitez", "habitent", "habite"], "en": "We live in Gatineau.", "explain": "nous → [[habitons]]." },
+        { "id": "r2", "type": "mcq", "prompt": "Complete: J'habite ___ Canada.", "options": ["au", "en", "à", "aux"], "optionsFr": true, "answer": 0,
+          "explain": "[[le Canada]] is masculine, and à + le = [[au]].",
+          "optionFeedback": [null, "en is for feminine countries, like en France.", "à is for cities.", "aux is for plural countries, like aux États-Unis."] },
+        { "id": "r3", "type": "translate", "prompt": "I live in Toronto.", "accept": ["J'habite à Toronto.", "J'habite Toronto."], "hint": "City → à. And remember the h is silent.", "explain": "[[J'habite]] (not je habite) + [[à]] + city." },
+        { "id": "r4", "type": "match", "prompt": "Match each phrase to its meaning.", "pairs": [["en France", "in France"], ["au Maroc", "in Morocco"], ["aux États-Unis", "in the United States"], ["en Inde", "in India"], ["au Mexique", "in Mexico"]] },
+        { "id": "r5", "type": "cloze", "text": "Karim habite ___ Montréal, ___ Québec.", "answers": [["à"], ["au"]], "en": "Karim lives in Montreal, in Quebec.", "explain": "City → [[à]]; the province [[le Québec]] → [[au]]." },
+        { "id": "r6", "type": "translate", "prompt": "Where do you live? (formal)", "accept": ["Où habitez-vous ?", "Vous habitez où ?", "Où est-ce que vous habitez ?", "Où vous habitez ?"], "explain": "Formal → [[vous habitez]]. [[Où habitez-vous ?]] is careful; [[Vous habitez où ?]] is everyday speech." },
+        { "id": "r7", "type": "reorder", "prompt": "Sofia is Mexican, but she lives in Canada.", "accept": ["Sofia est mexicaine, mais elle habite au Canada."], "extra": ["en"], "explain": "Être for nationality ([[est mexicaine]]), habiter for where you live, and [[au]] for le Canada." },
+        { "id": "r8", "type": "dictation", "fr": "Ils habitent aux États-Unis.", "accept": [], "explain": "[[habitent]] ends in silent -ent, and [[États-Unis]] has a capital É and a hyphen." },
+        { "id": "r9", "type": "translate", "prompt": "I'm from Morocco, but I live in Montréal.", "accept": ["Je viens du Maroc, mais j'habite à Montréal.", "Je viens du Maroc mais j'habite à Montréal.", "Je suis du Maroc, mais j'habite à Montréal.", "Je suis du Maroc mais j'habite à Montréal."], "hint": "Morocco is masculine: de + le = du.", "explain": "[[Je viens du Maroc]] (de + le = du), then [[j'habite à]] + city." },
+        { "id": "r10", "type": "cloze", "text": "Vous habitez ___ France ?", "answers": [["en"]], "choices": ["en", "au", "à"], "en": "Do you live in France?", "explain": "[[la France]] is feminine → [[en France]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new neighbour asks about you. Say where you come from, your nationality, and where you live now (city and province or country). Then ask your neighbour where they live (use vous).", "seconds": 30,
+          "checklist": ["Je viens de / du / d'…", "Je suis + nationality", "J'habite à + city", "en / au + province or country", "Ask: Vous habitez où ?"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour ! Je m'appelle Amira. Je viens du Maroc, je suis marocaine. Maintenant, j'habite à Sherbrooke, au Québec. Et vous, vous habitez où ?", "en": "Hello! My name is Amira. I'm from Morocco, I'm Moroccan. Now I live in Sherbrooke, in Quebec. And you, where do you live?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write 3 or 4 sentences for a newcomers' forum: where you come from, where you live now, and where one other person lives (for example a friend).", "wordRange": [15, 40],
+          "checklist": ["Je viens de…", "J'habite à + city", "en / au / aux + country or province", "Il habite / Elle habite / Ils habitent…"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour ! Je viens d'Inde. Maintenant, j'habite à Brampton, en Ontario. Mon ami Raj habite à Chicago, aux États-Unis. Et vous, vous habitez où ?", "en": "Hello! I'm from India. Now I live in Brampton, in Ontario. My friend Raj lives in Chicago, in the United States. And you, where do you live?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate **habiter**: [[j'habite, tu habites, il/elle habite, nous habitons, vous habitez, ils/elles habitent]]\n- Use [[à]] + city, [[en]] + feminine country, [[au]] + masculine country, [[aux]] + plural country\n- Ask [[Tu habites où ?]] / [[Où habitez-vous ?]] and say where you're from with [[Je viens de…]]\n- Tell [[au Québec]] (the province) from [[à Québec]] (the city)",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Language was already correct. Added habiter + city without à (J'habite Toronto) to accept lists, softened the provinces rule (most, not all), and made the forum model answer more natural." }
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-08-01",
+  "level": "b2",
+  "unit": "b2-08",
+  "title": "Interviews",
+  "goal": "Follow a radio interview at natural speed: recognize the host's moves, filter out fillers, and catch the guest's main ideas and key details.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-strategie-entrevue", "kind": "grammar", "fr": "question de l'animateur → idée principale → exemple → reformulation", "en": "how a radio interview answer is built (listening strategy)",
+      "drills": [
+        { "type": "mcq", "prompt": "The host asks “Qu'est-ce qui vous a amenée à fonder cet organisme ?” What will the guest most likely talk about?", "options": ["Her reasons for starting the organization", "The organization's budget", "Her plans for next year"], "answer": 0, "explain": "[[Qu'est-ce qui vous a amenée à…]] = what led you to… Expect a cause or a personal story." },
+        { "type": "mcq", "prompt": "The guest says “Écoutez, c'est une bonne question…”. What is she doing?", "options": ["Buying time before answering", "Asking the host to listen to music", "Refusing to answer"], "answer": 0, "explain": "[[Écoutez]] + [[c'est une bonne question]] are classic time-fillers: the real answer comes right after." },
+        { "type": "cloze", "text": "Si je vous ___ bien, le problème, ce n'est pas le diplôme, c'est l'expérience ?", "answers": [["suis", "comprends"]], "en": "If I follow you correctly, the problem isn't the degree, it's the experience?", "explain": "[[Si je vous suis bien]] (from [[suivre]]): the host reformulates the guest's idea. Listen closely: it's a free summary!" }
+      ] },
+    { "id": "animateur", "kind": "vocab", "fr": "animateur", "fem": "animatrice", "article": "l'", "gender": "m", "en": "host (of a radio or TV show)", "pos": "noun", "accept": ["un animateur", "l'animatrice", "une animatrice"] },
+    { "id": "invite", "kind": "vocab", "fr": "invité", "fem": "invitée", "article": "l'", "gender": "m", "en": "guest (on a show)", "pos": "noun", "accept": ["un invité", "l'invitée", "une invitée"] },
+    { "id": "auditeur", "kind": "vocab", "fr": "auditeur", "fem": "auditrice", "article": "l'", "gender": "m", "en": "listener (radio)", "pos": "noun", "accept": ["un auditeur", "l'auditrice", "les auditeurs"] },
+    { "id": "emission", "kind": "vocab", "fr": "émission", "article": "l'", "gender": "f", "en": "show, program (radio or TV)", "pos": "noun", "accept": ["une émission"] },
+    { "id": "en-direct", "kind": "phrase", "fr": "en direct", "en": "live (broadcast)", "example": { "fr": "Nous sommes en direct de Québec.", "en": "We're live from Québec City." } },
+    { "id": "a-l-antenne", "kind": "phrase", "fr": "à l'antenne", "en": "on the air", "accept": ["en ondes"], "note": "In Québec you'll also hear [[en ondes]]." },
+    { "id": "en-fait", "kind": "phrase", "fr": "en fait", "en": "actually, in fact (spoken)", "note": "Very frequent in speech: it often introduces a correction or the real answer." },
+    { "id": "justement", "kind": "vocab", "fr": "justement", "en": "exactly, precisely (that's the point)", "pos": "adverb",
+      "example": { "fr": "— Les délais sont longs ? — Justement, c'est ce qu'on veut changer.", "en": "— The wait times are long? — Exactly, that's what we want to change." } },
+    { "id": "effectivement", "kind": "vocab", "fr": "effectivement", "en": "indeed, that's right (agreeing)", "pos": "adverb", "accept": ["en effet"], "note": "Not “effectively”! It confirms what the other person said." },
+    { "id": "si-je-vous-suis-bien", "kind": "phrase", "fr": "Si je vous suis bien, …", "en": "If I follow you correctly, …", "accept": ["Si je vous comprends bien, …", "Si je comprends bien, …"] },
+    { "id": "qu-est-ce-qui-vous-a-amene", "kind": "phrase", "fr": "Qu'est-ce qui vous a amené à… ?", "en": "What led you to…? (interview question)", "accept": ["Qu'est-ce qui vous a amenée à… ?", "Pourquoi avez-vous décidé de… ?"] },
+    { "id": "merci-d-etre-avec-nous", "kind": "phrase", "fr": "Merci d'être avec nous ce matin.", "en": "Thank you for being with us this morning. (host to guest)", "accept": ["Merci d'être avec nous.", "Merci d'avoir accepté notre invitation."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A morning radio interview",
+      "intro": "Welcome to Unit 08: real listening. Authentic speech is faster, full of fillers ([[euh]], [[bon]], [[en fait]]) and sometimes restarts mid-sentence. Your job is not to understand every word, but to catch **the main idea, the key details, and the speaker's attitude**. Listen to each part before reading the transcript.",
+      "blocks": [
+        { "type": "dialogue", "title": "Matins d'ici : the opening",
+          "context": "A fictional morning show on a radio station in Québec City (the show, the organization and the figures are invented). The host, Olivier, welcomes Lucie Tremblay, who runs an organization that helps professionals trained abroad.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Il est 7 h 40, vous écoutez Matins d'ici. Ce matin, on parle d'un sujet qui touche des milliers de personnes au Québec : la reconnaissance des diplômes étrangers. Mon invitée est Lucie Tremblay, directrice de l'organisme Passerelle Emploi. Bonjour, Lucie, et merci d'être avec nous ce matin.", "en": "It's 7:40, you're listening to Matins d'ici. This morning, we're talking about a topic that affects thousands of people in Québec: the recognition of foreign degrees. My guest is Lucie Tremblay, director of the organization Passerelle Emploi. Good morning, Lucie, and thank you for being with us this morning." },
+            { "speaker": "Lucie", "fr": "Bonjour, Olivier. Merci de l'invitation.", "en": "Good morning, Olivier. Thanks for the invitation." },
+            { "speaker": "Olivier", "fr": "Alors, première question : qu'est-ce qui vous a amenée à fonder Passerelle Emploi ?", "en": "So, first question: what led you to found Passerelle Emploi?" },
+            { "speaker": "Lucie", "fr": "Écoutez, en fait, c'est une histoire personnelle. Mon conjoint est arrivé du Liban il y a quinze ans. Il était ingénieur, il avait vingt ans d'expérience, et ici, bon, il a conduit un taxi pendant trois ans. Trois ans ! Je me suis dit : ça n'a pas de sens, il faut faire quelque chose.", "en": "Well, actually, it's a personal story. My partner arrived from Lebanon fifteen years ago. He was an engineer, he had twenty years of experience, and here, well, he drove a taxi for three years. Three years! I told myself: this makes no sense, something has to be done." },
+            { "speaker": "Olivier", "fr": "Et aujourd'hui, la situation s'est améliorée ?", "en": "And today, has the situation improved?" },
+            { "speaker": "Lucie", "fr": "Effectivement, il y a des progrès. Mais, euh, les délais restent très longs. Pour certaines professions, on parle de deux, trois ans avant de pouvoir travailler dans son domaine.", "en": "Indeed, there's been progress. But, um, the delays are still very long. For some professions, we're talking two, three years before you can work in your field." }
+          ] },
+        { "type": "listen", "title": "Lucie explains the process",
+          "context": "Olivier has asked: “Concrètement, qu'est-ce qui prend autant de temps ?” (Concretely, what takes so long?)",
+          "fr": "Bon, il faut comprendre qu'au Québec, une cinquantaine de professions sont réglementées par un ordre professionnel. Les infirmières, les ingénieurs, les comptables, par exemple. Donc, si vous êtes infirmière formée au Maroc ou aux Philippines, vous ne pouvez pas simplement envoyer votre CV. Il faut d'abord faire évaluer votre formation par l'ordre. Ensuite, très souvent, l'ordre vous demande de suivre des cours d'appoint ou de faire un stage. Et puis, il y a l'examen de français, évidemment. Alors chaque étape, en soi, est logique. Le problème, c'est qu'elles s'additionnent. Et pendant ce temps-là, les gens doivent payer leur loyer, nourrir leur famille. Donc ils prennent n'importe quel emploi, et, euh, certains ne reviennent jamais à leur profession.",
+          "en": "Well, you have to understand that in Québec, about fifty professions are regulated by a professional order. Nurses, engineers, accountants, for example. So if you're a nurse trained in Morocco or the Philippines, you can't simply send your CV. First you have to have your training evaluated by the order. Then, very often, the order asks you to take bridging courses or do an internship. And then there's the French exam, of course. So each step, in itself, is logical. The problem is that they add up. And during that time, people have to pay their rent, feed their family. So they take any job, and, um, some never return to their profession." },
+        { "id": "d1", "type": "mcq", "prompt": "According to Lucie, what is the main problem?", "options": ["The steps add up and take too long", "Each step is illogical", "Professional orders refuse all foreign nurses"], "answer": 0,
+          "explain": "[[chaque étape, en soi, est logique. Le problème, c'est qu'elles s'additionnent]]: the structure [[Le problème, c'est que…]] flags the main idea." },
+        { "id": "d2", "type": "mcq", "prompt": "Why did Lucie found her organization?", "options": ["Her partner, an engineer, drove a taxi for three years", "She was a nurse trained abroad", "She worked for a professional order"], "answer": 0,
+          "explain": "[[c'est une histoire personnelle. Mon conjoint… il a conduit un taxi pendant trois ans]]." }
+      ] },
+    { "type": "understand", "title": "How an interview works",
+      "blocks": [
+        { "type": "explain", "title": "Listen like a professional",
+          "body": "Radio interviews follow a predictable script. Use it:\n\n- **Before**: the host's introduction tells you the topic, the guest and often the angle. Write down two or three words you expect to hear.\n- **The question**: identify its type. [[Qu'est-ce qui vous a amené à…]] → a cause. [[Concrètement…]] → examples. [[Et aujourd'hui ?]] → a comparison with the past.\n- **The answer**: the first seconds are often filler ([[Écoutez]], [[Bon]], [[C'est une bonne question]]). The **main idea** is often flagged by [[Le problème, c'est que…]], [[Ce qui est important, c'est…]], [[En fait…]].\n- **The host's reformulation**: [[Si je vous suis bien…]], [[Autrement dit…]] (Unit 07) gives you a free summary." },
+        { "type": "table", "title": "The host's toolkit",
+          "head": ["Move", "Typical phrases", "What it tells you"],
+          "rows": [
+            ["Opening", "Vous écoutez… / Mon invité ce matin est… / Merci d'être avec nous.", "topic and guest"],
+            ["Asking for causes", "Qu'est-ce qui vous a amené à… ? / Comment en est-on arrivé là ?", "a story or reasons follow"],
+            ["Asking for examples", "Concrètement, … ? / Donnez-nous un exemple.", "details and figures follow"],
+            ["Checking", "Si je vous suis bien, … / Autrement dit, … ?", "a summary of what was said"],
+            ["Challenging", "Mais certains vous diront que… / On vous reproche de…", "an objection; listen for the defence"],
+            ["Managing time", "On doit marquer une pause. / En terminant, … / Il nous reste une minute.", "the end is near: last key message"]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "table", "title": "Fillers and discourse markers",
+          "head": ["Marker", "Function", "Can you skip it?"],
+          "rows": [
+            ["euh, bon, ben", "hesitation, thinking", "yes"],
+            ["écoutez, vous savez", "getting attention, buying time", "yes"],
+            ["en fait", "correction, the real point", "no: the key idea often follows"],
+            ["justement", "“that's exactly the point”", "no: confirms and develops"],
+            ["effectivement", "“yes, that's right”", "it signals agreement"],
+            ["disons, mettons", "approximation", "partly: the figure is approximate"],
+            ["voilà", "“that's it, I'm done”", "yes: the answer is over"]
+          ],
+          "frCols": [0], "sayCol": false,
+          "note": "[[mettons]] (let's say) is informal and very Québécois; in France you'll hear [[disons]] or [[admettons]]." },
+        { "type": "vocab", "title": "Words for this lesson", "itemIds": ["animateur", "invite", "auditeur", "emission", "en-direct", "a-l-antenne", "en-fait", "justement", "effectivement", "si-je-vous-suis-bien", "qu-est-ce-qui-vous-a-amene", "merci-d-etre-avec-nous"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Listening traps",
+          "body": "- **[[effectivement]] ≠ effectively**: it means *indeed, yes*. [[Effectivement, c'est long.]] = Yes, it's true, it's long.\n- **[[actuellement]] ≠ actually**: it means *currently*. “Actually” is [[en fait]].\n- **[[justement]] ≠ just**: it means *exactly, precisely* or *as it happens*.\n- **Stopping at an unknown word**: if you miss a word, keep going. The next sentence often reformulates it.\n- **Taking the first words for the answer**: [[Non, mais… oui, en fait, c'est vrai que…]] ends in agreement. Wait for the end of the sentence.\n- **Mixing up host and guest**: the host's challenges ([[Certains vous diront que…]]) are not his opinion. He's voicing objections on purpose." },
+        { "type": "deepdive", "kind": "canada", "title": "Public radio in Canada",
+          "body": "- **ICI Première** (Radio-Canada) is the French-language public radio network across Canada. Each region has its own morning show, with local news, traffic, weather and interviews. Hosts usually speak a standard Canadian French, clear but natural.\n- In interviews you'll hear Québec words even in formal speech: [[présentement]] (currently), [[en ondes]] (on air), [[une entrevue]] (an interview; in France, [[une interview]] or [[un entretien]]).\n- Guests from all over the francophonie speak on air: Acadian, Franco-Ontarian, Haitian, Maghrebi, West African and European accents. Getting used to this variety is part of B2 listening.\n- Podcasts: Radio-Canada's **OHdio** app has hundreds of free French podcasts. Ten minutes a day makes a huge difference." }
+      ] },
+    { "type": "hear", "title": "Catch the main idea",
+      "intro": "Listen to each excerpt once before answering. Then replay if you need to.",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat: host phrases",
+          "note": "Say these with a warm, radio-host intonation.",
+          "lines": [
+            { "fr": "Vous écoutez Matins d'ici. Mon invitée ce matin est Lucie Tremblay.", "en": "You're listening to Matins d'ici. My guest this morning is Lucie Tremblay." },
+            { "fr": "Qu'est-ce qui vous a amenée à fonder cet organisme ?", "en": "What led you to found this organization?" },
+            { "fr": "Si je vous suis bien, le problème, ce sont les délais ?", "en": "If I follow you correctly, the problem is the wait times?" },
+            { "fr": "On doit marquer une pause, mais restez avec nous.", "en": "We have to take a break, but stay with us." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Alors, ce qui est important, c'est que les employeurs, eux aussi, ont un rôle à jouer. Trop souvent, ils demandent une expérience canadienne. Mais, euh, une expérience canadienne, comment voulez-vous l'obtenir si personne ne vous donne votre première chance ?", "en": "So, what's important is that employers, too, have a role to play. Too often, they ask for Canadian experience. But, um, Canadian experience, how are you supposed to get it if nobody gives you your first chance?", "prompt": "What does Lucie criticize?", "options": ["Employers who require Canadian experience", "Newcomers who refuse first jobs", "The French exam"], "answer": 0,
+          "explain": "[[ce qui est important, c'est que…]] flags the main idea; the rhetorical question shows that requiring Canadian experience is a trap." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Effectivement, on a eu de bons résultats l'an dernier. Sur les 300 personnes qu'on a accompagnées, disons à peu près les deux tiers ont trouvé un emploi dans leur domaine en moins d'un an. Ce n'est pas parfait, mais c'est encourageant.", "en": "Indeed, we had good results last year. Of the 300 people we supported, let's say roughly two thirds found a job in their field in less than a year. It's not perfect, but it's encouraging.", "prompt": "About how many people found a job in their field?", "options": ["About 200", "About 300", "About 100"], "answer": 0,
+          "explain": "[[à peu près les deux tiers]] of 300 = about 200. [[disons]] signals an approximation." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Mais certains vous diront que les ordres professionnels protègent le public, et que c'est normal d'être exigeant avec une infirmière ou un ingénieur. Qu'est-ce que vous leur répondez ?", "en": "But some will tell you that professional orders protect the public, and that it's normal to be demanding with a nurse or an engineer. What do you say to them?", "prompt": "What is the host doing here?", "options": ["Raising an objection for the guest to answer", "Giving his own personal opinion", "Ending the interview"], "answer": 0,
+          "explain": "[[Certains vous diront que…]] + [[Qu'est-ce que vous leur répondez ?]]: the host voices an objection on purpose." },
+        { "id": "h4", "type": "dictation", "fr": "Le problème, c'est que les étapes s'additionnent.", "accept": [], "explain": "[[Le problème, c'est que…]] is a typical way to flag the main idea in speech." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Most questions are listening questions. Some bring back Unit 07 reformulation and connectors.",
+      "blocks": [
+        { "id": "r1", "type": "listen-mcq", "fr": "Bon, en terminant, Lucie, quel message aimeriez-vous laisser à nos auditeurs qui viennent d'arriver ?", "en": "Well, to wrap up, Lucie, what message would you like to leave for our listeners who have just arrived?", "prompt": "Where are we in the interview?", "options": ["At the end", "At the beginning", "Right after a commercial break"], "answer": 0,
+          "explain": "[[En terminant]] (Québec usage; in France, [[pour terminer]]) announces the last question." },
+        { "id": "r2", "type": "listen-mcq", "fr": "Je leur dirais : ne restez pas seuls. Allez voir les organismes, faites du bénévolat, parlez français le plus possible. En fait, le réseau, c'est souvent plus important que le diplôme.", "en": "I'd tell them: don't stay alone. Go see the organizations, volunteer, speak French as much as possible. Actually, your network is often more important than your degree.", "prompt": "What is Lucie's key message?", "options": ["Your network often matters more than your degree", "Your degree is all that matters", "You should avoid volunteering"], "answer": 0,
+          "explain": "[[En fait]] introduces the real point: [[le réseau, c'est souvent plus important que le diplôme]]." },
+        { "id": "r3", "type": "match", "prompt": "Match each phrase with its function in an interview.", "pairs": [["Concrètement, … ?", "asks for examples"], ["Si je vous suis bien, …", "checks and summarizes"], ["Certains vous diront que…", "raises an objection"], ["En terminant, …", "announces the end"], ["Écoutez, …", "buys time"]] },
+        { "id": "r4", "type": "cloze", "text": "— Les délais sont longs, non ? — ___, c'est ce qu'on veut changer. ___, on a déjà rencontré le ministre.", "answers": [["Justement", "Effectivement"], ["D'ailleurs", "En fait"]], "choices": ["Justement", "Actuellement", "D'ailleurs", "Ailleurs"], "en": "— The wait times are long, aren't they? — Exactly, that's what we want to change. In fact, we've already met the minister.", "explain": "[[Justement]] = that's precisely the point. [[D'ailleurs]] adds supporting proof (Unit 07)." },
+        { "id": "r5", "type": "dictation", "fr": "Merci d'être avec nous ce matin.", "accept": ["Merci d'être avec nous ce matin"], "explain": "The classic host greeting to a guest." },
+        { "id": "r6", "type": "mcq", "prompt": "A guest says “Actuellement, on accompagne 300 personnes.” What does she mean?", "options": ["We're currently supporting 300 people", "We're actually supporting 300 people (not fewer)", "We used to support 300 people"], "answer": 0,
+          "explain": "[[actuellement]] = currently. “Actually” is [[en fait]]." },
+        { "id": "r7", "type": "listen-mcq", "fr": "Pour les infirmières, il y a une bonne nouvelle : le délai d'évaluation est passé de dix-huit mois à environ six mois. Pour les ingénieurs, en revanche, ça reste compliqué.", "en": "For nurses, there's good news: the evaluation time went from eighteen months to about six months. For engineers, on the other hand, it's still complicated.", "prompt": "What has improved?", "options": ["The evaluation time for nurses", "The evaluation time for engineers", "Both equally"], "answer": 0,
+          "explain": "[[de dix-huit mois à environ six mois]] for nurses; [[en revanche]] contrasts with engineers." },
+        { "id": "r8", "type": "translate", "prompt": "What led you to become a nurse? (formal, to a woman)", "accept": ["Qu'est-ce qui vous a amenée à devenir infirmière ?", "Pourquoi avez-vous décidé de devenir infirmière ?", "Qu'est-ce qui vous a poussée à devenir infirmière ?", "Qu'est-ce qui vous a menée à devenir infirmière ?", "Qu'est-ce qui vous a donné envie de devenir infirmière ?"], "explain": "[[Qu'est-ce qui vous a amenée à]] + infinitive; [[amenée]] agrees with the woman (direct object [[vous]] before [[avoir]])." },
+        { "id": "r9", "type": "dictation", "fr": "Si je vous suis bien, le réseau est plus important que le diplôme.", "accept": [], "explain": "[[Si je vous suis bien]] (suivre): the host's summary." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You're the guest on a radio show about newcomers' experiences. Answer the host's three questions, about 30 seconds each: “Qu'est-ce qui vous a amené au Canada ?” / “Concrètement, qu'est-ce qui a été le plus difficile ?” / “En terminant, quel conseil donneriez-vous à nos auditeurs ?”", "seconds": 90,
+          "checklist": ["Use a natural opener: Écoutez, … / En fait, …", "A main idea flagged with Le problème, c'est que… or Ce qui est important, c'est…", "A concrete example with a figure", "A reformulation: autrement dit…", "A final message"],
+          "models": [ { "label": "Model answer", "fr": "Écoutez, en fait, c'est le travail de ma femme qui nous a amenés ici. Elle a reçu une offre d'une université à Sherbrooke. Concrètement, le plus difficile, ça a été l'hiver, mais surtout la recherche d'emploi. Le problème, c'est que mon expérience au Mexique ne comptait pas beaucoup. J'ai envoyé presque cent CV avant d'avoir une entrevue. Autrement dit, il faut être patient. En terminant, je dirais à vos auditeurs : faites du bénévolat. C'est comme ça que j'ai trouvé mon premier emploi.", "en": "Well, actually, it was my wife's job that brought us here. She got an offer from a university in Sherbrooke. Concretely, the hardest thing was the winter, but above all the job search. The problem is that my experience in Mexico didn't count for much. I sent almost a hundred CVs before getting an interview. In other words, you have to be patient. To wrap up, I'd tell your listeners: volunteer. That's how I found my first job." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short summary of Lucie Tremblay's interview for your community centre's newsletter: who she is, the problem she describes, one figure, and her advice.", "promptFr": "Résumez l'entrevue de Lucie Tremblay pour une infolettre.",
+          "wordRange": [90, 130],
+          "checklist": ["Introduce the guest and the show", "Report her main idea with affirmer / souligner / expliquer que", "One figure (les deux tiers, six mois…)", "Her advice", "At least two Unit 07 connectors"],
+          "models": [ { "label": "Model answer", "fr": "Mardi matin, l'émission Matins d'ici recevait Lucie Tremblay, directrice de Passerelle Emploi, un organisme qui accompagne les professionnels formés à l'étranger. Elle a expliqué que chaque étape de la reconnaissance des diplômes est logique, mais que ces étapes s'additionnent : il faut parfois deux ou trois ans avant de pouvoir exercer sa profession. Elle a toutefois souligné certains progrès : pour les infirmières, le délai d'évaluation est passé de dix-huit à environ six mois. Par ailleurs, l'an dernier, environ les deux tiers des personnes accompagnées par son organisme ont trouvé un emploi dans leur domaine. Son conseil : ne pas rester seul, car le réseau compte souvent plus que le diplôme.", "en": "On Tuesday morning, the show Matins d'ici welcomed Lucie Tremblay, director of Passerelle Emploi, an organization that supports professionals trained abroad. She explained that each step of degree recognition is logical, but that the steps add up: it sometimes takes two or three years before you can practise your profession. She did, however, stress some progress: for nurses, the evaluation time has gone from eighteen to about six months. Moreover, last year, about two thirds of the people supported by her organization found a job in their field. Her advice: don't stay alone, because your network often counts more than your degree." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use the interview script: introduction, question type, answer, reformulation, closing\n- Skip fillers ([[euh]], [[bon]], [[écoutez]]) but catch markers that flag the key idea ([[en fait]], [[le problème, c'est que…]], [[justement]])\n- Avoid false friends: [[effectivement]] = indeed, [[actuellement]] = currently\n- Summarize an interview with precise reporting verbs and connectors",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Labelled the interview as fictional, corrected the number of regulated professions (une cinquantaine), removed doubtful show-name claims, removed non-homophone dictation accepts and a non-agreeing answer." }
+}

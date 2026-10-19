@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-05-02",
+  "level": "b1",
+  "unit": "b1-05",
+  "title": "Faits divers",
+  "goal": "Read and write a short news story (fait divers): answer who, what, where, when, how and why, using the past tenses of journalism.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-news-tenses", "kind": "grammar", "fr": "passé composé / imparfait / plus-que-parfait", "en": "past tenses in a news story",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ (neiger) quand l'accident s'est produit.", "answers": [["neigeait"]], "en": "It was snowing when the accident happened.", "explain": "The weather is the background → imparfait: [[il neigeait]]." },
+        { "type": "cloze", "text": "La conductrice ___ (perdre) le contrôle de sa voiture.", "answers": [["a perdu"]], "en": "The driver lost control of her car.", "explain": "A main event, one action in the story → passé composé: [[elle a perdu]]." },
+        { "type": "cloze", "text": "Quand les pompiers sont arrivés, les voisins ___ déjà ___ (sortir) de l'immeuble.", "answers": [["étaient"], ["sortis"]], "en": "When the firefighters arrived, the neighbours had already left the building.", "explain": "Earlier than another past event → plus-que-parfait. [[sortir]] takes être: [[ils étaient sortis]]." }
+      ] },
+    { "id": "g-5w", "kind": "grammar", "fr": "qui ? quoi ? où ? quand ? comment ? pourquoi ?", "en": "the six questions a news story answers",
+      "drills": [
+        { "type": "mcq", "prompt": "In a fait divers, the first one or two sentences (le chapeau) usually tell you…", "options": ["who, what, where and when", "only why it happened", "the journalist's opinion"], "answer": 0, "explain": "The *chapeau* gives the essentials first. How and why come in the body of the article." },
+        { "type": "cloze", "text": "Les faits se sont produits ___ 23 h, rue Sainte-Catherine.", "answers": [["vers"]], "en": "It happened around 11 p.m. on Sainte-Catherine Street.", "explain": "[[vers]] + time = around, at about. It answers **quand ?**" },
+        { "type": "cloze", "text": "Le cycliste a été blessé ___ il ne portait pas de casque.", "answers": [["parce qu'", "car"]], "en": "The cyclist was injured because he wasn't wearing a helmet.", "explain": "The cause answers **pourquoi ?** [[parce que]] → [[parce qu']] before a vowel; [[car]] is more written." }
+      ] },
+    { "id": "fait-divers", "kind": "vocab", "fr": "fait divers", "article": "un", "gender": "m", "en": "short news story (accident, crime, unusual local event)", "pos": "noun", "accept": ["le fait divers", "les faits divers"],
+      "example": { "fr": "J'ai lu un fait divers incroyable ce matin.", "en": "I read an incredible news story this morning." }, "note": "Plural: [[des faits divers]]. Also spelled [[fait-divers]]." },
+    { "id": "temoin", "kind": "vocab", "fr": "témoin", "article": "un", "gender": "m", "en": "witness", "pos": "noun", "accept": ["le témoin", "une témoin"],
+      "example": { "fr": "Selon un témoin, la voiture roulait très vite.", "en": "According to a witness, the car was going very fast." }, "note": "Traditionally masculine even for a woman: [[Elle est le seul témoin]]. [[une témoin]] is now also used." },
+    { "id": "blesse", "kind": "vocab", "fr": "blessé", "fem": "blessée", "article": "un", "gender": "m", "en": "injured person", "pos": "noun", "accept": ["une blessée", "le blessé", "les blessés"],
+      "example": { "fr": "L'accident a fait deux blessés.", "en": "The accident left two people injured." }, "note": "[[faire deux blessés]] = to injure two people (news style). Adjective: [[il est blessé]]." },
+    { "id": "conducteur", "kind": "vocab", "fr": "conducteur", "fem": "conductrice", "article": "le", "gender": "m", "en": "driver (of a car)", "pos": "noun", "accept": ["la conductrice", "un conducteur", "une conductrice", "l'automobiliste"],
+      "example": { "fr": "La conductrice a perdu le contrôle de son véhicule.", "en": "The driver lost control of her vehicle." } },
+    { "id": "pompiers", "kind": "vocab", "fr": "pompiers", "article": "les", "gender": "m", "en": "firefighters", "pos": "noun", "accept": ["des pompiers", "les pompières"],
+      "example": { "fr": "Les pompiers sont arrivés en cinq minutes.", "en": "The firefighters arrived in five minutes." } },
+    { "id": "secours", "kind": "vocab", "fr": "secours", "article": "les", "gender": "m", "en": "emergency services (rescuers)", "pos": "noun", "accept": ["des secours", "les services d'urgence"],
+      "example": { "fr": "Un passant a appelé les secours.", "en": "A passer-by called emergency services." } },
+    { "id": "enquete", "kind": "vocab", "fr": "enquête", "article": "une", "gender": "f", "en": "investigation", "pos": "noun", "accept": ["l'enquête"],
+      "example": { "fr": "La police a ouvert une enquête.", "en": "The police have opened an investigation." } },
+    { "id": "se-produire", "kind": "vocab", "fr": "se produire", "en": "to happen, to occur (formal)", "pos": "verb", "accept": ["avoir lieu", "arriver"],
+      "example": { "fr": "L'accident s'est produit vers 8 h.", "en": "The accident happened at around 8 a.m." }, "note": "Passé composé with être: [[les faits se sont produits]]." },
+    { "id": "sain-et-sauf", "kind": "phrase", "fr": "sain et sauf", "en": "safe and sound, unharmed", "accept": ["saine et sauve", "sains et saufs", "saines et sauves"],
+      "note": "Both words agree: [[Elle est saine et sauve.]] [[Ils sont sains et saufs.]]" },
+    { "id": "selon-temoin", "kind": "phrase", "fr": "Selon un témoin, …", "en": "According to a witness, …", "accept": ["D'après un témoin, …"] },
+    { "id": "peur-mal", "kind": "phrase", "fr": "Plus de peur que de mal.", "en": "Nobody was really hurt (more fear than harm).", "note": "A classic last line of a fait divers." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A morning on the Lachine Canal",
+      "intro": "A *fait divers* is a short news story about an accident, a crime or a surprising local event. Read this one and look for the answers to: **who? what? where? when? how? why?**",
+      "blocks": [
+        { "type": "text", "title": "Lachine : un chien sauvé des eaux glacées du canal",
+          "context": "A fait divers from a (fictional) Montréal news site.",
+          "fr": "Un homme de 34 ans a sauvé un chien tombé dans le canal de Lachine, mardi matin, à Montréal. L'animal et son sauveteur sont sains et saufs.\nLes faits se sont produits vers 7 h 30. Il faisait moins douze et le canal était partiellement gelé. Selon un témoin, le chien, un jeune labrador, courait sur la glace quand elle s'est brisée sous son poids. Sa propriétaire, une dame de 70 ans, avait lâché la laisse quelques secondes plus tôt pour répondre à son téléphone.\n« J'ai entendu des cris, alors j'ai couru », raconte Karim Benali, qui faisait son jogging au même moment. Le jeune homme est entré dans l'eau jusqu'à la taille et il a réussi à attraper l'animal. Les pompiers, arrivés quelques minutes plus tard, ont examiné l'homme et le chien. Plus de peur que de mal : personne n'a dû aller à l'hôpital.\nLa Ville rappelle qu'il est dangereux de marcher sur la glace des canaux et des rivières au début de l'hiver.",
+          "en": "Lachine: dog rescued from the icy waters of the canal. A 34-year-old man rescued a dog that had fallen into the Lachine Canal on Tuesday morning in Montréal. The animal and its rescuer are safe and sound. It happened at around 7:30 a.m. It was minus twelve and the canal was partly frozen. According to a witness, the dog, a young Labrador, was running on the ice when it broke under its weight. Its owner, a 70-year-old woman, had let go of the leash a few seconds earlier to answer her phone. “I heard screaming, so I ran,” says Karim Benali, who was jogging at the time. The young man went into the water up to his waist and managed to grab the animal. The firefighters, who arrived a few minutes later, examined the man and the dog. Nobody was really hurt: no one had to go to hospital. The City reminds people that it's dangerous to walk on the ice of canals and rivers at the beginning of winter." },
+        { "type": "note", "tone": "info", "body": "New words: [[le sauveteur]] = rescuer; [[gelé]] = frozen; [[se briser]] = to break; [[lâcher la laisse]] = to let go of the leash; [[la taille]] = the waist; [[attraper]] = to catch, grab." },
+        { "id": "d1", "type": "mcq", "prompt": "Why did the dog end up on the ice alone?", "options": ["Its owner had let go of the leash to answer her phone.", "It ran away from Karim.", "Its owner fell into the canal."], "answer": 0,
+          "explain": "[[Sa propriétaire avait lâché la laisse]]: the plus-que-parfait shows this happened **before** the ice broke." },
+        { "id": "d2", "type": "mcq", "prompt": "Which sentence gives the background (the scene), not an event?", "options": ["Il faisait moins douze.", "Il a réussi à attraper l'animal.", "Les pompiers ont examiné l'homme."], "optionsFr": true, "answer": 0,
+          "explain": "Weather and circumstances → imparfait: [[il faisait]], [[le canal était gelé]]. Events → passé composé." },
+        { "id": "d3", "type": "mcq", "prompt": "What does the first paragraph (le chapeau) contain?", "options": ["Who, what, where, when and the result", "Only the quotation from Karim", "The City's advice"], "answer": 0,
+          "explain": "The *chapeau* sums up the story in one or two sentences: a man (who) saved a dog (what) in the Lachine Canal (where) on Tuesday morning (when); both are fine (result)." }
+      ] },
+    { "type": "understand", "title": "The anatomy of a fait divers",
+      "blocks": [
+        { "type": "table", "title": "The six questions",
+          "head": ["Question", "In the Lachine story", "Usually found in…"],
+          "rows": [
+            ["Qui ?", "un homme de 34 ans, un chien, sa propriétaire", "the chapeau"],
+            ["Quoi ?", "il a sauvé un chien tombé dans le canal", "the chapeau"],
+            ["Où ?", "au canal de Lachine, à Montréal", "the chapeau"],
+            ["Quand ?", "mardi matin, vers 7 h 30", "the chapeau, then details"],
+            ["Comment ?", "il est entré dans l'eau jusqu'à la taille", "the body"],
+            ["Pourquoi ?", "la glace s'est brisée ; la propriétaire avait lâché la laisse", "the body"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "A fait divers usually ends with the **consequences** or **what happens next**: [[La police a ouvert une enquête]], [[La Ville rappelle que…]]." },
+        { "type": "table", "title": "Which tense for what?",
+          "head": ["Tense", "Use in a news story", "Example"],
+          "rows": [
+            ["passé composé", "the main events, one after the other", "Il est entré dans l'eau. Il a attrapé le chien."],
+            ["imparfait", "the scene: weather, time, what was going on", "Il faisait moins douze. Le chien courait sur la glace."],
+            ["plus-que-parfait", "something that happened even earlier", "Sa propriétaire avait lâché la laisse."],
+            ["présent", "headlines, quotations, the situation now", "« J'ai couru », raconte Karim. Ils sont sains et saufs."],
+            ["futur", "what will happen next", "La Ville installera des panneaux."]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "Think of a film: the **imparfait** is the set and the background music; the **passé composé** is the action; the **plus-que-parfait** is a flashback." },
+        { "type": "pattern", "title": "Writing the chapeau",
+          "pattern": "Qui + passé composé + quoi + où + quand (+ résultat)",
+          "note": "Put the most important information first. Short, neutral, no opinion and no [[je]].",
+          "examples": [
+            { "fr": "Une automobiliste a percuté un poteau, jeudi soir, à Longueuil. Elle a été légèrement blessée.", "en": "A driver hit a pole on Thursday evening in Longueuil. She was slightly injured." },
+            { "fr": "Un incendie a détruit un restaurant du Vieux-Québec dans la nuit de samedi à dimanche. Personne n'a été blessé.", "en": "A fire destroyed a restaurant in Old Québec overnight from Saturday to Sunday. Nobody was injured." }
+          ] },
+        { "type": "vocab", "title": "News story vocabulary", "itemIds": ["fait-divers", "temoin", "blesse", "conducteur", "pompiers", "secours", "enquete", "se-produire", "sain-et-sauf"] },
+        { "type": "deepdive", "kind": "examples", "title": "Ready-made journalistic phrases",
+          "body": "These chunks appear in almost every fait divers. Learn them as blocks:",
+          "examples": [
+            { "fr": "Les faits se sont produits vers 22 h.", "en": "It happened at around 10 p.m." },
+            { "fr": "Selon les premières informations, …", "en": "According to initial reports, …" },
+            { "fr": "Pour une raison encore inconnue, …", "en": "For a reason that is still unknown, …" },
+            { "fr": "Un passant a appelé les secours.", "en": "A passer-by called emergency services." },
+            { "fr": "La police a ouvert une enquête.", "en": "The police have opened an investigation." },
+            { "fr": "Plus de peur que de mal.", "en": "Nobody was really hurt." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common errors in news stories",
+          "body": "- **Weather in the passé composé:** [[Il a fait moins douze]] → [[Il faisait moins douze]] (background).\n- **“There was an accident”:** [[Il y avait un accident]] describes a scene you found. For the event itself, use [[Il y a eu un accident]].\n- **Forgetting agreement with se produire:** [[Les faits se sont produit]] → [[Les faits se sont produits]].\n- **sain et sauf:** both words agree: [[Elle est saine et sauve]], [[Ils sont sains et saufs]].\n- **Opinions in the article:** [[C'est terrible !]] belongs in a comment, not in the article. Use a quotation instead: [[« C'était terrible », raconte une voisine.]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Emergency services in Canada",
+          "body": "- Everywhere in Canada, the emergency number is [[le 911]] ([[neuf-un-un]] in Québec speech).\n- Police: a city police force ([[la police municipale]]), a provincial police in Québec ([[la Sûreté du Québec]]) and Ontario ([[la Police provinciale de l'Ontario]]). In most other provinces, [[la GRC]] (the RCMP, the federal police) also does this job.\n- Ambulance staff are [[les ambulanciers]] or, in Canada, [[les paramédics]].\n- [[l'autoroute 40]], [[la 20]]: highways are named by number. Québécois say [[sur la 40]]." }
+      ] },
+    { "type": "hear", "title": "News story sounds",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Read like a journalist: calm, clear and neutral.",
+          "lines": [
+            { "fr": "Les faits se sont produits vers 7 h 30.", "en": "It happened at around 7:30.", "tip": "faits: the t is silent in the plural. produits: the t is silent too." },
+            { "fr": "Selon un témoin, le chien courait sur la glace.", "en": "According to a witness, the dog was running on the ice." },
+            { "fr": "Les pompiers sont arrivés quelques minutes plus tard.", "en": "The firefighters arrived a few minutes later.", "tip": "sont‿arrivés: link with a t sound." },
+            { "fr": "La police a ouvert une enquête.", "en": "The police have opened an investigation.", "tip": "enquête: an-kèt, nasal an." },
+            { "fr": "Ils sont sains et saufs.", "en": "They are safe and sound.", "tip": "sains = saints = cinq without the k: [sɛ̃]. No liaison after et." },
+            { "fr": "Plus de peur que de mal !", "en": "Nobody was really hurt!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Un incendie s'est déclaré hier soir dans un restaurant du Vieux-Québec. Les clients ont été évacués et personne n'a été blessé.", "en": "A fire broke out last night in a restaurant in Old Québec. The customers were evacuated and nobody was injured.", "prompt": "Was anyone injured?", "options": ["No, nobody.", "Yes, one customer.", "Yes, several employees."], "answer": 0,
+          "explain": "[[personne n'a été blessé]] = nobody was injured. [[s'est déclaré]] = broke out (a fire)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Selon la police, le conducteur roulait à cent quarante kilomètres à l'heure quand il a perdu le contrôle de son camion.", "en": "According to the police, the driver was going 140 km/h when he lost control of his truck.", "prompt": "What was the driver doing when he lost control?", "options": ["Driving at 140 km/h", "Talking on the phone", "Stopping at a red light"], "answer": 0,
+          "explain": "[[il roulait]] (imparfait) is the background; [[il a perdu le contrôle]] (passé composé) is the event." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Tenses, structure and journalistic phrases. Don't look back!",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Il ___ moins douze et le canal ___ partiellement gelé.", "answers": [["faisait"], ["était"]], "choices": ["faisait", "a fait", "était", "a été"], "en": "It was minus twelve and the canal was partly frozen.",
+          "explain": "Weather and description = the scene → imparfait." },
+        { "id": "r2", "type": "cloze", "text": "Le chien ___ (courir) sur la glace quand elle ___ (se briser).", "answers": [["courait"], ["s'est brisée"]], "en": "The dog was running on the ice when it broke.",
+          "explain": "An action in progress ([[courait]]) interrupted by an event ([[s'est brisée]]). [[La glace]] is feminine: [[brisée]]." },
+        { "id": "r3", "type": "mcq", "prompt": "In “Sa propriétaire avait lâché la laisse quelques secondes plus tôt”, why the plus-que-parfait?", "options": ["It happened before the other past events of the story.", "It was a habit.", "It's the most important event."], "answer": 0,
+          "explain": "The plus-que-parfait ([[avait lâché]]) is the flashback: one step further back in the past." },
+        { "id": "r4", "type": "match", "prompt": "Match each question with the information from the Lachine story.", "pairs": [["Qui ?", "un homme de 34 ans"], ["Où ?", "au canal de Lachine"], ["Quand ?", "mardi, vers 7 h 30"], ["Comment ?", "en entrant dans l'eau"], ["Pourquoi ?", "la glace s'est brisée"]] },
+        { "id": "r5", "type": "translate", "prompt": "According to a witness, the driver was driving too fast.", "accept": ["Selon un témoin, le conducteur roulait trop vite.", "D'après un témoin, le conducteur roulait trop vite.", "Selon un témoin, la conductrice roulait trop vite.", "D'après un témoin, la conductrice roulait trop vite.", "Selon un témoin, le conducteur conduisait trop vite.", "D'après un témoin, le conducteur conduisait trop vite.", "Selon un témoin, la conductrice conduisait trop vite.", "D'après un témoin, la conductrice conduisait trop vite.", "Le conducteur roulait trop vite, selon un témoin.", "Le conducteur roulait trop vite, d'après un témoin."],
+          "explain": "[[Selon]] or [[D'après]] + source. The speed is background → imparfait [[roulait]]." },
+        { "id": "r6", "type": "cloze", "text": "Les faits se sont ___ vers 22 h.", "answers": [["produits"]], "en": "It happened at around 10 p.m.",
+          "explain": "[[se produire]] → past participle [[produit]], agreeing with [[les faits]] (masculine plural): [[produits]]." },
+        { "id": "r7", "type": "translate", "prompt": "There was an accident on Highway 40 this morning.", "accept": ["Il y a eu un accident sur l'autoroute 40 ce matin.", "Ce matin, il y a eu un accident sur l'autoroute 40.", "Un accident s'est produit sur l'autoroute 40 ce matin.", "Ce matin, un accident s'est produit sur l'autoroute 40.", "Un accident a eu lieu sur l'autoroute 40 ce matin.", "Il y a eu un accident sur la 40 ce matin.", "Il y a eu un accident ce matin sur l'autoroute 40.", "Ce matin, il y a eu un accident sur la 40."],
+          "explain": "The accident is an **event** → [[il y a eu]] (passé composé of il y a), not [[il y avait]]." },
+        { "id": "r8", "type": "mcq", "prompt": "The article ends with “Plus de peur que de mal.” What does it tell you?", "options": ["Nobody was seriously hurt.", "Many people were injured.", "The police are afraid."], "answer": 0,
+          "explain": "Literally “more fear than harm”: people were scared, but nobody was really hurt." },
+        { "id": "r9", "type": "reorder", "prompt": "The police have opened an investigation.", "accept": ["La police a ouvert une enquête"], "extra": ["est", "enquêté"],
+          "explain": "[[ouvrir une enquête]] = to open an investigation; [[ouvrir]] takes avoir: [[a ouvert]]." },
+        { "id": "r10", "type": "dictation", "fr": "Les deux passagers sont sains et saufs.", "accept": ["Les 2 passagers sont sains et saufs."], "explain": "[[sains et saufs]]: both words take the masculine plural." }
+      ] },
+    { "type": "apply", "title": "Exam practice: finish the story",
+      "intro": "This task is modelled on the first writing task of the TEF Canada. It is a practice task written for FrenchQuest, not an official exam item.",
+      "blocks": [
+        { "type": "deepdive", "kind": "challenge", "title": "TEF-style task: continue a news story",
+          "body": "In the TEF Canada written expression test, the first task gives you the **beginning of a short news article** and asks you to **write the rest**, in about **80 words minimum**, in roughly 25 minutes.\n\nWhat the examiner looks for:\n\n- **Continuity:** your text follows logically from the beginning (same people, same place, same tense system).\n- **The six questions:** by the end, the reader knows what happened, how, why, and what happens next.\n- **Journalistic tone:** third person, neutral, no [[je]] except in quotations.\n- **Tenses:** passé composé for the events, imparfait for the background, plus-que-parfait for flashbacks.\n- **A quotation or a source:** [[Selon un témoin…]], [[« … », a déclaré…]].\n\n**Tip:** spend 3 minutes planning. Write four notes: *what was found / who reacted / why it's surprising / what happens next*." },
+        { "type": "text", "title": "Ottawa : une étrange découverte dans un parc",
+          "context": "The beginning of the article. Continue it.",
+          "fr": "Dimanche après-midi, deux enfants qui jouaient dans un parc du quartier Vanier, à Ottawa, ont trouvé une vieille boîte en métal sous un arbre. À l'intérieur, il y avait…",
+          "en": "Ottawa: a strange discovery in a park. On Sunday afternoon, two children who were playing in a park in the Vanier neighbourhood, in Ottawa, found an old metal box under a tree. Inside, there was…" },
+        { "id": "w1", "type": "write", "prompt": "Continue the article “Ottawa : une étrange découverte dans un parc”. Say what was in the box, who did what, why it's surprising, and what happens next. Write 80 to 120 words.",
+          "promptFr": "Rédigez la suite de cet article (80 à 120 mots).",
+          "wordRange": [80, 120],
+          "checklist": ["Starts from “À l'intérieur, il y avait…” and stays logical", "Passé composé for events, imparfait for background", "At least one plus-que-parfait (avait caché, avait envoyé…)", "A source or a quotation: Selon…, « … », a déclaré…", "Neutral tone, third person", "An ending: what happens next", "80–120 words"],
+          "models": [
+            { "label": "Model answer", "fr": "À l'intérieur, il y avait une vingtaine de lettres et de vieilles photos en noir et blanc. Les enfants ont tout de suite appelé leurs parents. Selon le père d'un des enfants, les lettres datent de 1955 : un jeune soldat les avait envoyées à sa fiancée pendant son service en Europe. La famille a contacté le musée du quartier, et une employée a examiné la boîte lundi matin. D'après elle, cette découverte est très intéressante pour l'histoire d'Ottawa. Le musée cherche maintenant la famille du soldat. Les enfants, eux, sont très fiers : « On a trouvé un vrai trésor ! », a déclaré l'un d'eux.", "en": "Inside, there were about twenty letters and old black-and-white photos. The children immediately called their parents. According to the father of one of the children, the letters date from 1955: a young soldier had sent them to his fiancée during his service in Europe. The family contacted the neighbourhood museum, and an employee examined the box on Monday morning. According to her, this discovery is very interesting for the history of Ottawa. The museum is now looking for the soldier's family. The children are very proud: “We found a real treasure!” one of them said." },
+            { "label": "Stronger model answer", "fr": "À l'intérieur, il y avait une montre en or, quelques billets de banque et une lettre pliée en quatre. Intrigués, les parents ont immédiatement contacté la police. Selon les premières informations, la boîte se trouvait sous l'arbre depuis près de cinquante ans. En lisant la lettre, les policiers ont découvert le nom de son auteur : un certain Joseph Lavoie, qui avait habité le quartier dans les années 1970. L'homme avait caché ses économies avant de partir travailler dans le Nord, mais il n'était jamais revenu les chercher. La police essaie maintenant de retrouver sa famille. « C'est une histoire incroyable », a confié une voisine. Les enfants, eux, espèrent recevoir une petite récompense !", "en": "Inside, there was a gold watch, a few banknotes and a letter folded in four. Intrigued, the parents immediately contacted the police. According to initial reports, the box had been under the tree for nearly fifty years. While reading the letter, the police officers discovered the name of its author: a certain Joseph Lavoie, who had lived in the neighbourhood in the 1970s. The man had hidden his savings before leaving to work in the North, but he had never come back to get them. The police are now trying to find his family. “It's an incredible story,” a neighbour said. The children, for their part, are hoping for a small reward!" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Find **who, what, where, when, how and why** in a fait divers, starting with the *chapeau*\n- Use the **passé composé** for events, the **imparfait** for the scene and the **plus-que-parfait** for flashbacks\n- Use journalistic chunks: [[Les faits se sont produits vers…]], [[Selon un témoin…]], [[La police a ouvert une enquête]]\n- Continue a news story in 80–120 words, TEF style",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Corrected the police deep dive (OPP in Ontario; GRC in most other provinces), fixed a date inconsistency in the stronger model, added accept variants." }
+}

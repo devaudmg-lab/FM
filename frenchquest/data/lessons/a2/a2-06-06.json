@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-06-06",
+  "level": "a2",
+  "unit": "a2-06",
+  "title": "Workshop: Health and appointments",
+  "goal": "Get more practice explaining where it hurts, understanding advice and handling appointments, in new situations: a physiotherapy visit, a call to work about a sick child and a winter safety tip on the radio.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "genou",
+      "kind": "vocab",
+      "fr": "genou",
+      "article": "le",
+      "gender": "m",
+      "en": "knee",
+      "pos": "noun",
+      "example": {
+        "fr": "J'ai mal au genou.",
+        "en": "My knee hurts."
+      },
+      "note": "Plural: les genoux, with an x."
+    },
+    {
+      "id": "cou",
+      "kind": "vocab",
+      "fr": "cou",
+      "article": "le",
+      "gender": "m",
+      "en": "neck",
+      "pos": "noun",
+      "example": {
+        "fr": "Quand je tourne la tête, j'ai mal au cou.",
+        "en": "When I turn my head, my neck hurts."
+      }
+    },
+    {
+      "id": "blessure",
+      "kind": "vocab",
+      "fr": "blessure",
+      "article": "la",
+      "gender": "f",
+      "en": "injury",
+      "pos": "noun",
+      "example": {
+        "fr": "C'est une petite blessure.",
+        "en": "It's a minor injury."
+      }
+    },
+    {
+      "id": "physiotherapeute",
+      "kind": "vocab",
+      "fr": "physiothérapeute",
+      "article": "le",
+      "gender": "m",
+      "en": "physiotherapist",
+      "pos": "noun",
+      "example": {
+        "fr": "J'ai rendez-vous chez le physiothérapeute.",
+        "en": "I have an appointment at the physiotherapist's."
+      },
+      "accept": [
+        "la physiothérapeute",
+        "le physio",
+        "la physio"
+      ],
+      "note": "Same form for a woman: la physiothérapeute. Often shortened to [[le / la physio]]."
+    },
+    {
+      "id": "urgence",
+      "kind": "vocab",
+      "fr": "urgence",
+      "article": "l'",
+      "gender": "f",
+      "en": "emergency room (ER)",
+      "pos": "noun",
+      "example": {
+        "fr": "Nous sommes allés à l'urgence hier soir.",
+        "en": "We went to the ER last night."
+      },
+      "accept": [
+        "les urgences"
+      ],
+      "note": "Québec: [[l'urgence]]; France: [[les urgences]]. [[une urgence]] also means *an emergency*."
+    },
+    {
+      "id": "soulever",
+      "kind": "vocab",
+      "fr": "soulever",
+      "en": "to lift (something heavy)",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai soulevé des boîtes lourdes.",
+        "en": "I lifted heavy boxes."
+      },
+      "note": "Like se lever: je soulève, nous soulevons."
+    },
+    {
+      "id": "s-etirer",
+      "kind": "vocab",
+      "fr": "s'étirer",
+      "en": "to stretch (your body)",
+      "pos": "verb",
+      "example": {
+        "fr": "Il faut s'étirer matin et soir.",
+        "en": "You have to stretch morning and evening."
+      }
+    },
+    {
+      "id": "guerir",
+      "kind": "vocab",
+      "fr": "guérir",
+      "en": "to heal, to get better (an injury, an illness)",
+      "pos": "verb",
+      "example": {
+        "fr": "Ça va guérir en deux semaines.",
+        "en": "It will heal in two weeks."
+      },
+      "note": "Like finir: je guéris, j'ai guéri."
+    },
+    {
+      "id": "faire-attention",
+      "kind": "phrase",
+      "fr": "faire attention à",
+      "en": "to be careful with, to watch out for",
+      "example": {
+        "fr": "Faites attention à votre dos !",
+        "en": "Be careful with your back! (formal)"
+      },
+      "accept": [
+        "faire attention"
+      ]
+    },
+    {
+      "id": "se-sentir-mieux",
+      "kind": "phrase",
+      "fr": "se sentir mieux",
+      "en": "to feel better",
+      "example": {
+        "fr": "Je me sens mieux aujourd'hui.",
+        "en": "I feel better today."
+      },
+      "accept": [
+        "aller mieux"
+      ],
+      "note": "Also very common: [[Je vais mieux.]] (I'm better.)"
+    },
+    {
+      "id": "en-forme",
+      "kind": "phrase",
+      "fr": "en forme",
+      "en": "fit, in good shape",
+      "example": {
+        "fr": "J'espère être en forme pour le match.",
+        "en": "I hope to be in shape for the game."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A bad back",
+      "intro": "Olivier sees a physiotherapist. Read once for the story, then find the body parts with [[avoir mal à]], the past tenses and the advice.",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "At a physiotherapy clinic in Gatineau",
+          "context": "Olivier helped his sister move on Saturday. Now he has an appointment with a physiotherapist.",
+          "lines": [
+            {
+              "speaker": "Physiothérapeute",
+              "fr": "Bonjour, monsieur Leblanc. Asseyez-vous. Alors, qu'est-ce qui vous amène ?",
+              "en": "Hello, Mr. Leblanc. Have a seat. So, what brings you here?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Samedi, j'ai aidé ma sœur à déménager. J'ai soulevé beaucoup de boîtes lourdes, et dimanche matin, j'avais très mal au dos et au cou.",
+              "en": "On Saturday I helped my sister move. I lifted a lot of heavy boxes, and on Sunday morning my back and my neck hurt a lot."
+            },
+            {
+              "speaker": "Physiothérapeute",
+              "fr": "Vous avez mal où, exactement ? Montrez-moi.",
+              "en": "Where does it hurt, exactly? Show me."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Ici, en bas du dos. Et quand je tourne la tête, j'ai mal au cou.",
+              "en": "Here, in my lower back. And when I turn my head, my neck hurts."
+            },
+            {
+              "speaker": "Physiothérapeute",
+              "fr": "Est-ce que la douleur descend dans la jambe ?",
+              "en": "Does the pain go down into your leg?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Non, pas dans la jambe. Mais hier soir, j'ai très mal dormi.",
+              "en": "No, not into my leg. But last night I slept really badly."
+            },
+            {
+              "speaker": "Physiothérapeute",
+              "fr": "D'accord. Allongez-vous ici, sur le ventre… Bon, ce n'est pas grave : c'est une petite blessure musculaire. Ça va guérir en deux ou trois semaines.",
+              "en": "OK. Lie down here, on your stomach… Right, it's not serious: it's a minor muscle injury. It will heal in two or three weeks."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Trois semaines ! Est-ce que je dois arrêter le sport ?",
+              "en": "Three weeks! Do I have to stop playing sports?"
+            },
+            {
+              "speaker": "Physiothérapeute",
+              "fr": "Il vaut mieux arrêter le hockey pour l'instant. Mais il ne faut pas rester au lit toute la journée : il faut bouger un peu. Vous devriez marcher vingt minutes tous les jours.",
+              "en": "It's better to stop hockey for now. But you mustn't stay in bed all day: you have to move a little. You should walk twenty minutes every day."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Et pour la douleur ?",
+              "en": "And for the pain?"
+            },
+            {
+              "speaker": "Physiothérapeute",
+              "fr": "Mettez de la chaleur sur le dos, le soir. Voici aussi trois exercices : vous devrez vous étirer matin et soir. Et la prochaine fois, faites attention : pliez les genoux quand vous soulevez une boîte !",
+              "en": "Put heat on your back in the evening. Here are three exercises too: you'll have to stretch morning and evening. And next time, be careful: bend your knees when you lift a box!"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Promis ! Je reviens quand ?",
+              "en": "I promise! When do I come back?"
+            },
+            {
+              "speaker": "Physiothérapeute",
+              "fr": "Prenez rendez-vous à la réception pour la semaine prochaine. Quand vous vous sentirez mieux, vous pourrez recommencer le hockey, doucement.",
+              "en": "Make an appointment at the front desk for next week. When you feel better, you'll be able to start hockey again, gently."
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Merci beaucoup. J'espère être en forme pour les séries !",
+              "en": "Thank you very much. I hope to be in shape for the playoffs!"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "[[en bas du dos]] = in the lower back. [[musculaire]] = muscle (adjective). [[la chaleur]] = heat. [[plier]] = to bend. [[doucement]] = gently. [[les séries]] = the (hockey) playoffs, in Québec."
+        },
+        {
+          "id": "c1",
+          "type": "mcq",
+          "prompt": "How did Olivier hurt his back?",
+          "options": [
+            "He lifted heavy boxes when his sister moved.",
+            "He fell on the ice.",
+            "He played hockey on Sunday."
+          ],
+          "answer": 0,
+          "explain": "[[J'ai aidé ma sœur à déménager. J'ai soulevé beaucoup de boîtes lourdes.]]"
+        },
+        {
+          "id": "c2",
+          "type": "mcq",
+          "prompt": "What does the physiotherapist tell him to do?",
+          "options": [
+            "Stop hockey for now and walk twenty minutes a day",
+            "Stay in bed for three weeks",
+            "Keep playing hockey, but gently"
+          ],
+          "answer": 0,
+          "explain": "[[Il vaut mieux arrêter le hockey]], [[il ne faut pas rester au lit]], [[vous devriez marcher vingt minutes tous les jours]]."
+        },
+        {
+          "id": "c3",
+          "type": "mcq",
+          "prompt": "What should he do next time he lifts a box?",
+          "options": [
+            "Bend his knees",
+            "Ask his sister",
+            "Put heat on his back"
+          ],
+          "answer": 0,
+          "explain": "[[pliez les genoux quand vous soulevez une boîte]]. Heat is for the pain, in the evening."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 6 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Health French in one table",
+          "head": [
+            "What",
+            "Example"
+          ],
+          "rows": [
+            [
+              "where it hurts: avoir mal à la / au / à l' / aux",
+              "J'ai mal à la tête, au dos, à l'oreille, aux genoux."
+            ],
+            [
+              "symptoms",
+              "J'ai de la fièvre. Je tousse. J'ai le nez bouché."
+            ],
+            [
+              "the story: passé composé + imparfait",
+              "J'ai soulevé des boîtes, et dimanche, j'avais très mal."
+            ],
+            [
+              "the doctor's instructions",
+              "Asseyez-vous. Allongez-vous. Respirez."
+            ],
+            [
+              "advice",
+              "Il faut bouger. Il ne faut pas rester au lit. Vous devriez marcher. Il vaut mieux attendre."
+            ],
+            [
+              "appointments",
+              "Je vous appelle pour prendre rendez-vous. Ça me convient."
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "Strong, soft or general?",
+          "body": "Health advice comes in three strengths, all followed by an **infinitive**:\n\n- [[il faut]] / [[il ne faut pas]]: a rule for everyone: [[Il faut bouger.]] (*il ne faut pas* = you must **not**)\n- [[tu devrais]] / [[vous devriez]]: personal, friendly advice: [[Vous devriez marcher.]]\n- [[il vaut mieux]]: the better option: [[Il vaut mieux arrêter le hockey.]]\n\nNo [[de]] after any of them: [[il vaut mieux attendre]], not *il vaut mieux d'attendre*."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for injuries and recovery",
+          "itemIds": [
+            "genou",
+            "cou",
+            "blessure",
+            "physiotherapeute",
+            "urgence",
+            "soulever",
+            "s-etirer",
+            "guerir",
+            "faire-attention",
+            "se-sentir-mieux",
+            "en-forme"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "What the health card covers",
+          "body": "Provincial health insurance (RAMQ in Québec, OHIP in Ontario) covers doctors and hospitals, but many other services are usually **not** covered for adults, or only partly: physiotherapy in a private clinic, the dentist, glasses. Many people pay with **group insurance** from work ([[l'assurance collective]]). For the dentist, the federal **Canadian Dental Care Plan** ([[le Régime canadien de soins dentaires]]) now helps some residents who have no dental insurance, depending on income and other conditions.\n\nAt the reception of a private clinic, you may hear: [[Avez-vous des assurances ?]] (Do you have insurance?) and [[Voici votre reçu pour vos assurances.]] Coverage depends on your province, your age and your situation, and rules change: check with your clinic and the official websites."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Two recordings",
+      "intro": "Listen to each recording first, then answer. Each question replays one part.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "1. Karim's message to his manager",
+          "context": "Early in the morning, Karim leaves a voicemail at work.",
+          "fr": "Bonjour Nadia, c'est Karim. Je suis désolé, mais je ne pourrai pas venir au bureau ce matin. Hier soir, mon fils est tombé au parc et il s'est fait mal au genou. Son genou était très enflé, alors nous sommes allés à l'urgence. Nous avons attendu quatre heures ! Heureusement, ce n'est pas grave : ce n'est pas une fracture. Mais il doit rester à la maison deux jours, alors je vais travailler de la maison aujourd'hui et demain. Je serai disponible par courriel. Merci, et bonne journée !",
+          "en": "Hello Nadia, it's Karim. I'm sorry, but I won't be able to come to the office this morning. Last night my son fell at the park and hurt his knee. His knee was very swollen, so we went to the ER. We waited four hours! Luckily, it's not serious: it's not a fracture. But he has to stay home for two days, so I'm going to work from home today and tomorrow. I'll be available by email. Thank you, and have a good day!"
+        },
+        {
+          "type": "listen",
+          "title": "2. A health tip on the radio",
+          "context": "A nurse gives a short health tip on a Montréal radio station in January.",
+          "fr": "Bonjour à tous ! En hiver, beaucoup de personnes tombent sur la glace et se font mal au poignet, au genou ou au dos. Alors, voici mes conseils. D'abord, il faut porter de bonnes bottes. Ensuite, il vaut mieux marcher lentement et garder les mains libres : ne mettez pas les mains dans vos poches ! Si vous avez très mal après une chute, vous devriez appeler le 811 ou aller dans une clinique sans rendez-vous. Et en cas d'urgence, composez le 911. Bonne semaine, et faites attention à vous !",
+          "en": "Hello everyone! In winter, lots of people fall on the ice and hurt their wrist, knee or back. So here is my advice. First, you have to wear good boots. Next, it's better to walk slowly and keep your hands free: don't put your hands in your pockets! If you're in a lot of pain after a fall, you should call 811 or go to a walk-in clinic. And in an emergency, dial 911. Have a good week, and take care of yourselves!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Hier soir, mon fils est tombé au parc et il s'est fait mal au genou.",
+          "en": "Last night my son fell at the park and hurt his knee.",
+          "prompt": "What happened to Karim's son?",
+          "options": [
+            "He fell at the park and hurt his knee.",
+            "He has a fever and a cough.",
+            "He hurt his wrist on the ice."
+          ],
+          "answer": 0,
+          "explain": "[[il est tombé]] (être) and [[il s'est fait mal au genou]]: se faire mal = to hurt yourself."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Son genou était très enflé, alors nous sommes allés à l'urgence. Nous avons attendu quatre heures !",
+          "en": "His knee was very swollen, so we went to the ER. We waited four hours!",
+          "prompt": "Where did they go last night?",
+          "options": [
+            "To the ER",
+            "To a walk-in clinic",
+            "To the pharmacy"
+          ],
+          "answer": 0,
+          "explain": "[[nous sommes allés à l'urgence]]: the Québec word for the emergency room."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Mais il doit rester à la maison deux jours, alors je vais travailler de la maison aujourd'hui et demain.",
+          "en": "But he has to stay home for two days, so I'm going to work from home today and tomorrow.",
+          "prompt": "What will Karim do?",
+          "options": [
+            "Work from home for two days",
+            "Take two days off",
+            "Come to the office in the afternoon"
+          ],
+          "answer": 0,
+          "explain": "[[je vais travailler de la maison aujourd'hui et demain]], and he'll be available by email."
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "D'abord, il faut porter de bonnes bottes. Ensuite, il vaut mieux marcher lentement et garder les mains libres.",
+          "en": "First, you have to wear good boots. Next, it's better to walk slowly and keep your hands free.",
+          "prompt": "What is the nurse's first piece of advice?",
+          "options": [
+            "Wear good boots.",
+            "Walk with your hands in your pockets.",
+            "Stay at home in winter."
+          ],
+          "answer": 0,
+          "explain": "[[il faut porter de bonnes bottes]]. She says NOT to put your hands in your pockets."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "Si vous avez très mal après une chute, vous devriez appeler le 811 ou aller dans une clinique sans rendez-vous.",
+          "en": "If you're in a lot of pain after a fall, you should call 811 or go to a walk-in clinic.",
+          "prompt": "What should you do if you're in a lot of pain after a fall?",
+          "options": [
+            "Call 811 or go to a walk-in clinic",
+            "Always call 911",
+            "Wait two weeks"
+          ],
+          "answer": 0,
+          "explain": "[[vous devriez appeler le 811]]; 911 is only [[en cas d'urgence]]."
+        },
+        {
+          "id": "d1",
+          "type": "dictation",
+          "fr": "Mon fils s'est fait mal au genou.",
+          "accept": [
+            "Mon fils s'est fait mal aux genoux."
+          ],
+          "explain": "[[s'est fait mal]]: no agreement on fait here. [[au genou]]: à + le. ([[aux genoux]] sounds the same, so it is also accepted.)"
+        },
+        {
+          "id": "d2",
+          "type": "dictation",
+          "fr": "Il vaut mieux marcher lentement sur la glace.",
+          "accept": [],
+          "explain": "[[il vaut mieux]] + infinitive, with no de."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most on Unit 6, some on Units 1 to 5. Aim for 80%.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "J'ai mal ___ dos et ___ genoux.",
+          "answers": [
+            [
+              "au"
+            ],
+            [
+              "aux"
+            ]
+          ],
+          "choices": [
+            "au",
+            "aux",
+            "à la",
+            "à l'"
+          ],
+          "en": "My back and my knees hurt.",
+          "explain": "[[le dos]] → [[au dos]]; [[les genoux]] → [[aux genoux]]."
+        },
+        {
+          "id": "r2",
+          "type": "mcq",
+          "prompt": "Your friend has a bad cold. Which sentence is correct, friendly advice?",
+          "options": [
+            "Tu devrais te reposer.",
+            "Tu devrais de te reposer.",
+            "Tu devrais reposer.",
+            "Tu faut te reposer."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[tu devrais]] + infinitive, with no de. [[se reposer]] is reflexive, so: [[te reposer]].",
+          "optionFeedback": [
+            null,
+            "No de after devrais.",
+            "Se reposer is reflexive: te reposer.",
+            "Il faut is impersonal: never tu faut."
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "translate",
+          "prompt": "You should walk twenty minutes every day. (formal)",
+          "accept": [
+            "Vous devriez marcher vingt minutes tous les jours.",
+            "Vous devriez marcher vingt minutes chaque jour.",
+            "Vous devriez marcher 20 minutes tous les jours.",
+            "Vous devriez marcher 20 minutes chaque jour.",
+            "Vous devriez marcher pendant vingt minutes tous les jours.",
+            "Vous devriez marcher pendant vingt minutes chaque jour.",
+            "Vous devriez marcher pendant 20 minutes tous les jours.",
+            "Vous devriez marcher pendant 20 minutes chaque jour."
+          ],
+          "hint": "vous devriez + infinitive",
+          "explain": "Personal advice to someone you say vous to: [[vous devriez marcher]]."
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Il ne faut pas ___ au lit toute la journée : il vaut mieux ___ un peu. (rester, bouger)",
+          "answers": [
+            [
+              "rester"
+            ],
+            [
+              "bouger"
+            ]
+          ],
+          "en": "You mustn't stay in bed all day: it's better to move a little.",
+          "explain": "After [[il faut]] and [[il vaut mieux]]: the **infinitive**."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "Be careful with your back! (formal)",
+          "accept": [
+            "Faites attention à votre dos !"
+          ],
+          "extra": [
+            "fais"
+          ],
+          "explain": "vous imperative: [[faites]]. [[faire attention à]] + noun."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "I'd like to make an appointment with the physiotherapist.",
+          "accept": [
+            "Je voudrais prendre rendez-vous avec le physiothérapeute.",
+            "Je voudrais prendre rendez-vous avec la physiothérapeute.",
+            "Je voudrais prendre un rendez-vous avec le physiothérapeute.",
+            "Je voudrais prendre un rendez-vous avec la physiothérapeute.",
+            "Je voudrais prendre rendez-vous chez le physiothérapeute.",
+            "Je voudrais prendre rendez-vous chez la physiothérapeute.",
+            "Je voudrais prendre rendez-vous avec le physio.",
+            "Je voudrais prendre rendez-vous avec la physio.",
+            "Je voudrais prendre un rendez-vous avec le physio.",
+            "Je voudrais prendre un rendez-vous avec la physio.",
+            "Je voudrais prendre un rendez-vous chez le physiothérapeute.",
+            "Je voudrais prendre un rendez-vous chez la physiothérapeute.",
+            "Je voudrais prendre rendez-vous chez le physio.",
+            "Je voudrais prendre un rendez-vous chez le physio.",
+            "Je voudrais prendre rendez-vous chez la physio.",
+            "Je voudrais prendre un rendez-vous chez la physio.",
+            "J'aimerais prendre rendez-vous avec le physiothérapeute.",
+            "J'aimerais prendre un rendez-vous avec le physiothérapeute.",
+            "J'aimerais prendre rendez-vous avec la physiothérapeute.",
+            "J'aimerais prendre un rendez-vous avec la physiothérapeute.",
+            "J'aimerais prendre rendez-vous avec le physio.",
+            "J'aimerais prendre un rendez-vous avec le physio.",
+            "J'aimerais prendre rendez-vous avec la physio.",
+            "J'aimerais prendre un rendez-vous avec la physio.",
+            "J'aimerais prendre rendez-vous chez le physiothérapeute.",
+            "J'aimerais prendre un rendez-vous chez le physiothérapeute.",
+            "J'aimerais prendre rendez-vous chez la physiothérapeute.",
+            "J'aimerais prendre un rendez-vous chez la physiothérapeute.",
+            "J'aimerais prendre rendez-vous chez le physio.",
+            "J'aimerais prendre un rendez-vous chez le physio.",
+            "J'aimerais prendre rendez-vous chez la physio.",
+            "J'aimerais prendre un rendez-vous chez la physio."
+          ],
+          "hint": "prendre rendez-vous, not faire",
+          "explain": "[[prendre rendez-vous]] (usually no article) [[avec]] + the person."
+        },
+        {
+          "id": "r7",
+          "type": "match",
+          "prompt": "Match the new words.",
+          "pairs": [
+            [
+              "le genou",
+              "knee"
+            ],
+            [
+              "le cou",
+              "neck"
+            ],
+            [
+              "la blessure",
+              "injury"
+            ],
+            [
+              "guérir",
+              "to heal"
+            ],
+            [
+              "s'étirer",
+              "to stretch"
+            ],
+            [
+              "soulever",
+              "to lift"
+            ]
+          ]
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "Quand vous vous sentirez mieux, vous pourrez recommencer.",
+          "accept": [
+            "Quand vous vous sentirez mieux vous pourrez recommencer."
+          ],
+          "explain": "Unit 4: future after quand: [[vous vous sentirez]], then [[vous pourrez]] (pouvoir → pourr-)."
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "Ma fille est ___ sur la glace et elle s'est fait mal au poignet. (tomber)",
+          "answers": [
+            [
+              "tombée"
+            ]
+          ],
+          "choices": [
+            "tombée",
+            "tombé",
+            "tombés"
+          ],
+          "en": "My daughter fell on the ice and hurt her wrist.",
+          "explain": "Unit 2: tomber uses être; [[ma fille]] → [[tombée]], with -e."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "Quand j'étais jeune, je ___ au hockey tous les samedis. (jouer)",
+          "answers": [
+            [
+              "jouais"
+            ]
+          ],
+          "en": "When I was young, I played hockey every Saturday.",
+          "explain": "Unit 3: a habit in the past ([[tous les samedis]]) → imparfait: [[je jouais]]."
+        },
+        {
+          "id": "r11",
+          "type": "mcq",
+          "prompt": "At the clinic reception, which request is the most polite?",
+          "options": [
+            "Pourriez-vous me donner un rendez-vous plus tôt ?",
+            "Donnez-moi un rendez-vous plus tôt.",
+            "Tu peux me donner un rendez-vous plus tôt ?"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Unit 5: [[Pourriez-vous]] + infinitive is the most polite way to ask.",
+          "optionFeedback": [
+            null,
+            "An imperative sounds like an order.",
+            "Tu is too familiar with a receptionist."
+          ]
+        },
+        {
+          "id": "r12",
+          "type": "translate",
+          "prompt": "When I feel better, I'll play hockey again.",
+          "accept": [
+            "Quand je me sentirai mieux, je rejouerai au hockey.",
+            "Quand je me sentirai mieux, je jouerai encore au hockey.",
+            "Quand je me sentirai mieux, je recommencerai le hockey.",
+            "Quand je me sentirai mieux, je recommencerai à jouer au hockey.",
+            "Quand j'irai mieux, je rejouerai au hockey.",
+            "Quand j'irai mieux, je jouerai encore au hockey.",
+            "Quand j'irai mieux, je recommencerai le hockey.",
+            "Quand j'irai mieux, je recommencerai à jouer au hockey.",
+            "Quand je me sentirai mieux, je vais rejouer au hockey.",
+            "Quand je me sentirai mieux, je vais recommencer le hockey.",
+            "Quand je me sentirai mieux, je vais recommencer à jouer au hockey.",
+            "Quand je me sentirai mieux, je vais jouer encore au hockey.",
+            "Quand je me sentirai mieux, je jouerai de nouveau au hockey.",
+            "Quand j'irai mieux, je vais rejouer au hockey.",
+            "Quand j'irai mieux, je vais recommencer le hockey.",
+            "Quand j'irai mieux, je vais recommencer à jouer au hockey.",
+            "Quand j'irai mieux, je vais jouer encore au hockey.",
+            "Quand j'irai mieux, je jouerai de nouveau au hockey."
+          ],
+          "hint": "Unit 4: future after quand",
+          "explain": "English says *when I feel*; French says *when I will feel*: [[quand je me sentirai mieux]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "A friend writes: « Je me suis fait mal au dos au gym. J'ai très mal ! » Reply (60–100 words): react, tell them about a time you had a similar problem (past tenses), and give at least three pieces of advice with different structures.",
+          "promptFr": "Répondez à un ami qui s'est fait mal au dos : racontez votre expérience et donnez des conseils.",
+          "wordRange": [
+            60,
+            100
+          ],
+          "checklist": [
+            "A reaction: Oh non, pauvre toi !",
+            "Your own story: passé composé for events, imparfait for how it was",
+            "Il faut… / Il ne faut pas…",
+            "Tu devrais…",
+            "Il vaut mieux…",
+            "At least two new words: soulever, s'étirer, guérir, la blessure…",
+            "A warm ending: Prends soin de toi !"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Oh non, pauvre toi ! Moi aussi, l'année dernière, je me suis fait mal au dos. J'ai soulevé une table lourde et j'avais très mal. Alors, voici mes conseils : il ne faut pas rester au lit toute la journée. Tu devrais marcher un peu et mettre de la chaleur sur le dos. Il vaut mieux arrêter le gym deux semaines. Ça va guérir ! Prends soin de toi !",
+              "en": "Oh no, poor you! I hurt my back last year too. I lifted a heavy table and I was in a lot of pain. So here's my advice: you mustn't stay in bed all day. You should walk a little and put heat on your back. It's better to stop the gym for two weeks. It will heal! Take care of yourself!"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Oh là là, pauvre toi ! Je connais bien ce problème. Il y a deux ans, je me suis blessée au dos au tennis… Le premier soir, je ne pouvais pas m'asseoir et j'étais découragée. Mais je suis allée chez une physiothérapeute, et ça a beaucoup aidé. Alors, d'abord, tu devrais prendre rendez-vous avec un physio. En attendant, il faut bouger doucement : ne reste pas au lit ! Il vaut mieux faire de petites marches, et tu pourrais aussi t'étirer le matin. Et la prochaine fois, fais attention quand tu soulèves des poids. Tu te sentiras mieux bientôt !",
+              "en": "(A woman writing.) Oh dear, poor you! I know this problem well. Two years ago I injured my back at tennis… The first evening I couldn't sit down and I was discouraged. But I went to a physiotherapist, and it helped a lot. So, first, you should make an appointment with a physio. Meanwhile, you have to move gently: don't stay in bed! It's better to go for short walks, and you could also stretch in the morning. And next time, be careful when you lift weights. You'll feel better soon!"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "You have a terrible toothache. Call a dental clinic (45–60 seconds): say why you're calling, describe the problem (since when, how it hurts, what you took), and ask for an appointment as soon as possible.",
+          "promptFr": "Vous avez très mal à une dent. Appelez une clinique dentaire pour prendre rendez-vous.",
+          "seconds": 60,
+          "checklist": [
+            "Bonjour, je vous appelle pour…",
+            "Your name and that you're a new or regular patient",
+            "The problem: j'ai très mal à une dent…",
+            "When it started and what you did: ça a commencé…, j'ai pris…",
+            "Le plus tôt possible / Est-ce que vous avez une disponibilité… ?",
+            "Accept a time: Ça me convient. Merci !"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour, madame. Je vous appelle pour prendre rendez-vous, le plus tôt possible. Je m'appelle Raj Patel. J'ai très mal à une dent, en bas, à gauche. Ça a commencé hier soir. J'ai pris de l'ibuprofène, mais j'ai encore mal. Est-ce que vous avez une disponibilité aujourd'hui ? … Cet après-midi à 15 h ? Oui, ça me convient. Merci beaucoup !",
+              "en": "Hello, ma'am. I'm calling to make an appointment, as soon as possible. My name is Raj Patel. I have a very bad toothache, at the bottom, on the left. It started last night. I took ibuprofen, but it still hurts. Do you have an opening today? … This afternoon at 3 p.m.? Yes, that suits me. Thank you very much!"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour, madame. Je vous appelle parce que j'ai une urgence dentaire. Je m'appelle Mei Chen, et je suis déjà patiente chez vous. Hier, pendant le souper, je me suis cassé un petit morceau de dent. Cette nuit, j'avais très mal et je n'ai presque pas dormi. J'ai pris de l'acétaminophène, mais ça ne passe pas. Est-ce que la dentiste pourrait me voir aujourd'hui ? … À 11 h 30 ? Parfait, ça me convient. Est-ce qu'il faut apporter ma carte d'assurance ? Merci beaucoup, à tout à l'heure !",
+              "en": "Hello, ma'am. I'm calling because I have a dental emergency. My name is Mei Chen, and I'm already a patient at your clinic. Yesterday, during dinner, I broke a small piece of a tooth. Last night it hurt a lot and I hardly slept. I took acetaminophen, but it isn't going away. Could the dentist see me today? … At 11:30? Perfect, that suits me. Do I need to bring my insurance card? Thank you very much, see you soon!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Explain an injury and understand a health professional's questions and advice\n- Give advice at three strengths: [[il faut / il ne faut pas]], [[tu devrais / vous devriez]], [[il vaut mieux]]\n- Follow a sick-child message to work and a winter safety tip on the radio\n- New words: [[le genou, le cou, la blessure, l'urgence, soulever, s'étirer, guérir, se sentir mieux]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Named and hedged the federal Canadian Dental Care Plan and provincial coverage in the canada deep dive. Accepted the homophone aux genoux in dictation d1. Completed accept lists for r3, r6 and r12 (pendant, chez, J'aimerais, futur proche)."
+  }
+}

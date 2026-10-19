@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-04-02",
+  "level": "b2",
+  "unit": "b2-04",
+  "title": "Evaluating sources",
+  "goal": "Judge the reliability of a source, cross-check information and spot disinformation and deepfakes, using indirect questions to explain how you check.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-interrogation-indirecte", "kind": "grammar", "fr": "je me demande qui / ce qui / ce que / si / où / pourquoi…", "en": "indirect questions (I wonder who / what / whether…)",
+      "drills": [
+        { "type": "cloze", "text": "« Qu'est-ce que cette vidéo prouve ? » → Je me demande ___ ___ cette vidéo prouve.", "answers": [["ce"], ["que"]], "en": "I wonder what this video proves.", "explain": "[[qu'est-ce que]] becomes [[ce que]] in an indirect question." },
+        { "type": "cloze", "text": "« Est-ce que le site est fiable ? » → Vérifiez ___ le site est fiable.", "answers": [["si"]], "en": "Check whether the site is reliable.", "explain": "A yes/no question becomes [[si]] (whether)." },
+        { "type": "mcq", "prompt": "Choose the correct indirect question.", "options": ["Demandez-vous qui a publié ce contenu.", "Demandez-vous qui est-ce qui a publié ce contenu ?", "Demandez-vous qu'est-ce qui a publié ce contenu.", "Demandez-vous a-t-il publié ce contenu."], "optionsFr": true, "answer": 0, "explain": "In indirect questions: no [[est-ce que]], no inversion, no question mark. [[qui]] stays [[qui]]." }
+      ] },
+    { "id": "fiabilite", "kind": "vocab", "fr": "fiabilité", "article": "la", "gender": "f", "en": "reliability", "pos": "noun", "accept": ["la fiabilité"],
+      "example": { "fr": "Il faut évaluer la fiabilité de la source.", "en": "You have to assess the source's reliability." } },
+    { "id": "fiable", "kind": "vocab", "fr": "fiable", "en": "reliable, trustworthy (source, information)", "pos": "adjective", "accept": ["fiables"] },
+    { "id": "recouper", "kind": "phrase", "fr": "recouper l'information", "en": "to cross-check the information (with other sources)", "accept": ["recouper les informations", "recouper les sources"] },
+    { "id": "desinformation", "kind": "vocab", "fr": "désinformation", "article": "la", "gender": "f", "en": "disinformation (false information spread on purpose)", "pos": "noun", "accept": ["la désinformation"] },
+    { "id": "fausse-nouvelle", "kind": "vocab", "fr": "fausse nouvelle", "article": "une", "gender": "f", "en": "fake news (a false news story)", "pos": "noun", "accept": ["la fausse nouvelle", "une infox", "les fausses nouvelles"],
+      "note": "The usual term in Québec. In France, une infox is the recommended equivalent of fake news (rare in Québec); informally, people also say une fake news." },
+    { "id": "hypertrucage", "kind": "vocab", "fr": "hypertrucage", "article": "un", "gender": "m", "en": "deepfake (AI-faked video or audio)", "pos": "noun", "accept": ["l'hypertrucage", "un deepfake", "une vidéo truquée"],
+      "note": "Term recommended by the Office québécois de la langue française (OQLF). In everyday French, especially in France, you'll often hear un deepfake or une vidéo truquée." },
+    { "id": "piege-clics", "kind": "vocab", "fr": "piège à clics", "article": "un", "gender": "m", "en": "clickbait", "pos": "noun", "accept": ["le piège à clics", "un titre accrocheur"] },
+    { "id": "source-primaire", "kind": "vocab", "fr": "source primaire", "article": "une", "gender": "f", "en": "primary source (the original document or witness)", "pos": "noun", "accept": ["la source primaire"] },
+    { "id": "site-satirique", "kind": "vocab", "fr": "site satirique", "article": "un", "gender": "m", "en": "satirical (parody) website", "pos": "noun", "accept": ["le site satirique"] },
+    { "id": "se-fier", "kind": "phrase", "fr": "se fier à une source", "en": "to trust / rely on a source", "accept": ["faire confiance à une source"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A video in the group chat",
+      "intro": "Follow the conversation, then read the librarian's checklist. Notice every **question about the source**.",
+      "blocks": [
+        { "type": "dialogue", "title": "“Have you seen this?”",
+          "context": "Mei's uncle Nguyen has shared a video in the family group chat. Mei calls him.",
+          "lines": [
+            { "speaker": "Nguyen", "fr": "Mei, tu as vu la vidéo que j'ai partagée ? Le ministre annonce que tous les cours de francisation seront annulés le mois prochain ! Ta tante est inquiète.", "en": "Mei, did you see the video I shared? The minister announces that all French courses for newcomers will be cancelled next month! Your aunt is worried." },
+            { "speaker": "Mei", "fr": "Je l'ai vue, mon oncle. Mais avant de s'inquiéter, il faut se demander d'où elle vient. Qui l'a publiée en premier ?", "en": "I saw it, uncle. But before worrying, we need to ask where it comes from. Who posted it first?" },
+            { "speaker": "Nguyen", "fr": "Je ne sais pas. Un ami me l'a envoyée. Elle a été partagée des milliers de fois !", "en": "I don't know. A friend sent it to me. It's been shared thousands of times!" },
+            { "speaker": "Mei", "fr": "Justement, ce n'est pas une preuve. J'ai cherché sur le site du ministère et dans trois grands médias : personne n'en parle. Une annonce comme ça, tous les journaux l'auraient reprise.", "en": "Exactly, that's not proof. I searched the ministry's website and three major news outlets: nobody is talking about it. An announcement like that, every newspaper would have picked it up." },
+            { "speaker": "Nguyen", "fr": "Mais c'est vraiment lui, on voit son visage, on entend sa voix…", "en": "But it's really him, you can see his face, hear his voice…" },
+            { "speaker": "Mei", "fr": "Regarde bien sa bouche : elle ne suit pas toujours les mots. Et il cligne à peine des yeux. Je pense que c'est un hypertrucage, une vidéo fabriquée avec l'intelligence artificielle.", "en": "Look closely at his mouth: it doesn't always follow the words. And he barely blinks. I think it's a deepfake, a video made with artificial intelligence." },
+            { "speaker": "Nguyen", "fr": "Ah bon ? Mais pourquoi quelqu'un ferait ça ?", "en": "Really? But why would someone do that?" },
+            { "speaker": "Mei", "fr": "Pour faire peur, pour attirer des clics, ou pour semer la méfiance envers le gouvernement. On ne sait pas toujours. Ce qui est sûr, c'est qu'il vaut mieux recouper l'information avant de la partager.", "en": "To scare people, to attract clicks, or to spread distrust of the government. We don't always know. What's certain is that it's better to cross-check information before sharing it." },
+            { "speaker": "Nguyen", "fr": "D'accord, je retire la vidéo et j'explique au groupe. Tu m'enverras ta méthode ?", "en": "OK, I'll remove the video and explain to the group. Will you send me your method?" }
+          ] },
+        { "type": "text", "title": "Five questions before you share",
+          "context": "An original handout from a media literacy workshop at a public library in Gatineau.",
+          "fr": "1. Qui parle ? Demandez-vous qui a publié le contenu en premier : un média reconnu, un organisme public, une personne identifiable ou un compte anonyme ? Vérifiez si l'auteur a une expertise sur le sujet.\n2. Quand ? Regardez la date. Une vieille nouvelle qui revient peut induire en erreur, même si elle était vraie à l'époque.\n3. D'où vient l'information ? Cherchez la source primaire : le communiqué officiel, l'étude, le témoin. Si l'article ne dit pas d'où viennent ses chiffres, méfiez-vous.\n4. D'autres en parlent-ils ? Recoupez l'information avec au moins deux sources fiables et indépendantes. Une nouvelle importante est rarement publiée par un seul site.\n5. Pourquoi ce contenu existe-t-il ? Informer, convaincre, vendre, faire rire ? Un titre très émotif est souvent un piège à clics. Et certains sites sont satiriques : leurs articles sont faux… volontairement.\nEnfin, méfiez-vous des images et des vidéos trop parfaites. Avec l'intelligence artificielle, un hypertrucage peut imiter le visage et la voix de n'importe qui. Dans le doute, ne partagez pas.",
+          "en": "1. Who is speaking? Ask yourself who first published the content: a recognized media outlet, a public body, an identifiable person or an anonymous account? Check whether the author has expertise on the topic. 2. When? Look at the date. An old news story that comes back can mislead, even if it was true at the time. 3. Where does the information come from? Look for the primary source: the official press release, the study, the witness. If the article doesn't say where its figures come from, be wary. 4. Are others talking about it? Cross-check the information with at least two reliable, independent sources. Important news is rarely published by only one site. 5. Why does this content exist? To inform, persuade, sell, make people laugh? A very emotional headline is often clickbait. And some sites are satirical: their articles are false… on purpose. Finally, be wary of images and videos that are too perfect. With artificial intelligence, a deepfake can imitate anyone's face and voice. When in doubt, don't share." },
+        { "id": "d1", "type": "mcq", "prompt": "Why does Mei think the video is false?", "options": ["No reliable source mentions it, and the mouth doesn't match the words.", "The minister doesn't exist.", "The video is too old.", "Her uncle often lies."], "answer": 0,
+          "explain": "She cross-checked ([[personne n'en parle]]) and noticed visual signs of a deepfake." },
+        { "id": "d2", "type": "mcq", "prompt": "According to the handout, what should you do if an article doesn't say where its figures come from?", "options": ["Be wary of it.", "Share it quickly.", "Trust it if the headline is emotional.", "Ignore the date."], "answer": 0,
+          "explain": "[[Si l'article ne dit pas d'où viennent ses chiffres, méfiez-vous.]]" }
+      ] },
+    { "type": "understand", "title": "Checking a source, in French",
+      "blocks": [
+        { "type": "vocab", "title": "Key vocabulary", "itemIds": ["fiabilite", "fiable", "recouper", "desinformation", "fausse-nouvelle", "hypertrucage", "piege-clics", "source-primaire", "site-satirique", "se-fier"] },
+        { "type": "table", "title": "Direct question → indirect question",
+          "head": ["Direct question", "Indirect question", "Rule"],
+          "rows": [
+            ["Est-ce que la source est fiable ?", "Je me demande si la source est fiable.", "yes/no → si (s'il, s'ils)"],
+            ["Qui a publié ce contenu ?", "Demandez-vous qui a publié ce contenu.", "qui stays qui"],
+            ["Qu'est-ce qui a changé ?", "Je ne sais pas ce qui a changé.", "qu'est-ce qui → ce qui (subject)"],
+            ["Qu'est-ce que l'article prouve ? / Que prouve l'article ?", "Je me demande ce que l'article prouve.", "qu'est-ce que / que → ce que (object)"],
+            ["D'où vient l'information ?", "Cherchez d'où vient l'information.", "où, quand, comment, pourquoi stay"],
+            ["Pourquoi ce site existe-t-il ?", "On peut se demander pourquoi ce site existe.", "no inversion, no -t-"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "Indirect questions follow verbs like [[se demander]], [[savoir]], [[vérifier]], [[chercher]], [[expliquer]], [[ignorer]] (not to know). They end with a period, not a question mark." },
+        { "type": "pattern", "title": "Explaining how you checked",
+          "pattern": "J'ai vérifié si… / J'ai cherché qui… / Je me suis demandé pourquoi… / J'ai recoupé avec…",
+          "note": "In the past, the tense shifts follow the same rules as reported speech (B1): [[Je me suis demandé si la vidéo était vraie.]] You'll go deeper in lesson 4.",
+          "examples": [
+            { "fr": "J'ai vérifié si le ministère avait publié un communiqué.", "en": "I checked whether the ministry had published a press release." },
+            { "fr": "Je me suis demandé qui avait intérêt à diffuser cette vidéo.", "en": "I wondered who had an interest in spreading this video." },
+            { "fr": "J'ai recoupé l'information avec deux médias indépendants.", "en": "I cross-checked the information with two independent outlets." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Keeping qu'est-ce que:** [[Je me demande qu'est-ce que ça veut dire]] is common in speech but incorrect in writing → [[Je me demande ce que ça veut dire]].\n- **Inversion or question mark:** [[Je me demande est-il fiable ?]] → [[Je me demande s'il est fiable.]]\n- **si + il:** [[si il]] → [[s'il]]; but [[si elle]] doesn't elide.\n- **fiable vs crédible:** [[fiable]] = reliable over time (a source, a car); [[crédible]] = believable (a claim, a witness).\n- **désinformation vs mésinformation:** [[la désinformation]] is false **on purpose**; [[la mésinformation]] is shared **by mistake**, like Mei's uncle did." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec, France and the vocabulary of fakes",
+          "body": "- [[Hypertrucage]] is the term recommended by the OQLF (Office québécois de la langue française) for *deepfake*; in everyday speech, especially in France, [[deepfake]] or [[vidéo truquée]] are more common.\n- [[Fausse nouvelle]] is understood everywhere and is the usual term in Québec. [[Infox]], recommended in France as an equivalent of *fake news*, is rare in Québec.\n- [[Piège à clics]] (*clickbait*) is the usual term in Québec; in France you may also read [[putaclic]], a vulgar, informal slang word: recognize it, but don't use it.\n- Many Canadian outlets run [[des rubriques de vérification des faits]] (fact-checking sections). Using several of them, from different outlets, is a good way to cross-check." },
+        { "type": "deepdive", "kind": "why", "title": "Why does this matter for an exam?",
+          "body": "TEF and TCF reading and listening questions often ask **who is speaking**, **what the author's intention is**, or **whether a statement is confirmed**. The same questions you ask before sharing a video help you answer: identify the source, the date, the purpose and the level of certainty (remember the journalistic conditional from lesson 1)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Il vaut mieux recouper l'information avant de la partager.", "en": "It's better to cross-check information before sharing it." },
+            { "fr": "Je me demande qui a publié cette vidéo en premier.", "en": "I wonder who first posted this video." },
+            { "fr": "Je pense que c'est un hypertrucage.", "en": "I think it's a deepfake.", "tip": "The h is silent, so un links with an n sound: [œ̃ nipɛʁtʁykaʒ]." },
+            { "fr": "Dans le doute, ne partagez pas.", "en": "When in doubt, don't share." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Avant de partager un article, vérifiez s'il a été publié par un média reconnu.", "en": "Before sharing an article, check whether it was published by a recognized outlet.", "prompt": "What does the speaker advise?", "options": ["Check who published the article", "Share articles quickly", "Read only the headline", "Trust anonymous accounts"], "answer": 0,
+          "explain": "[[vérifiez s'il a été publié par…]]: an indirect question with [[si]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ce site est satirique : ses articles sont volontairement faux pour faire rire.", "en": "This site is satirical: its articles are deliberately false to make people laugh.", "prompt": "Why are the site's articles false?", "options": ["They are meant to be funny.", "The journalists made mistakes.", "They are deepfakes made to scare people.", "They are old."], "answer": 0,
+          "explain": "[[satirique]], [[volontairement faux pour faire rire]]: parody, not disinformation." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Some questions bring back lesson 1 (fact or opinion, the journalistic conditional) and unit 3.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "« Qu'est-ce qui s'est passé ? » → Personne ne sait ___ ___ s'est passé.", "answers": [["ce"], ["qui"]], "en": "Nobody knows what happened.", "explain": "Subject [[qu'est-ce qui]] → [[ce qui]]." },
+        { "id": "r2", "type": "match", "prompt": "Match the French and the English.", "pairs": [["la fiabilité", "reliability"], ["un hypertrucage", "a deepfake"], ["recouper l'information", "to cross-check information"], ["un piège à clics", "clickbait"], ["la désinformation", "deliberately false information"]] },
+        { "id": "r3", "type": "translate", "prompt": "I wonder whether this source is reliable.", "accept": ["Je me demande si cette source est fiable.", "Je me demande si la source est fiable.", "Je me demande si cette source est digne de confiance.", "Je me demande si cette source est crédible."], "explain": "Yes/no question → [[si]]; no inversion." },
+        { "id": "r4", "type": "mcq", "prompt": "Which is correct written French?", "options": ["Je ne sais pas ce que l'auteur veut prouver.", "Je ne sais pas qu'est-ce que l'auteur veut prouver.", "Je ne sais pas que l'auteur veut prouver.", "Je ne sais pas ce qui l'auteur veut prouver."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "qu'est-ce que is spoken only; write ce que.", "que alone is not an indirect question word.", "ce qui is for a subject; here l'auteur is the subject, so use ce que."] },
+        { "id": "r5", "type": "cloze", "text": "Je me suis demandé ___ le ministère avait publié un communiqué.", "answers": [["si"]], "en": "I wondered whether the ministry had published a press release.", "explain": "Yes/no → [[si]]; past reporting verb → plus-que-parfait [[avait publié]]." },
+        { "id": "r6", "type": "reorder", "prompt": "Look for the primary source.", "accept": ["Cherchez la source primaire"], "extra": ["primaires"], "explain": "[[source]] is feminine singular: [[la source primaire]]." },
+        { "id": "r7", "type": "cloze", "text": "Selon un compte anonyme, le ministre ___ ___ sa démission. (annoncer, past)", "answers": [["aurait"], ["annoncé"]], "en": "According to an anonymous account, the minister allegedly announced his resignation.", "explain": "Unconfirmed past fact → conditionnel passé (lesson 1)." },
+        { "id": "r8", "type": "translate", "prompt": "It is essential that people check the date before sharing.", "accept": ["Il est essentiel que les gens vérifient la date avant de partager.", "Il est essentiel qu'on vérifie la date avant de partager.", "Il est essentiel que les gens vérifient la date avant de partager l'information.", "Il est essentiel que les gens vérifient la date avant de la partager.", "Il est essentiel que l'on vérifie la date avant de partager."], "explain": "Unit 3: [[il est essentiel que]] + subjunctive [[vérifient]]; [[avant de]] + infinitive." },
+        { "id": "r9", "type": "dictation", "fr": "Une nouvelle importante est rarement publiée par un seul site.", "accept": [], "explain": "[[publiée]] agrees with [[une nouvelle]] (feminine); [[un seul site]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend sends you a viral post: “Starting next week, buses will be free for everyone in your city!” In about 90 seconds, explain how you would check it, step by step, and what you would say to your friend.", "seconds": 90,
+          "checklist": ["At least four indirect questions (qui, si, d'où, pourquoi…)", "recouper l'information / source primaire / fiable", "One possible reason for the post (clickbait, satire, error)", "A piece of advice with il vaut mieux / il faut", "Polite, friendly tone"],
+          "models": [
+            { "label": "Model answer", "fr": "Ce serait une bonne nouvelle, mais je ne suis pas sûr que ce soit vrai. D'abord, je me demande qui a publié ça en premier. C'est un compte anonyme ? Ensuite, je vais vérifier si la Ville a fait une annonce sur son site. Je vais aussi regarder si les journaux en parlent. Si personne n'en parle, c'est probablement faux, ou c'est peut-être un site satirique. Donc, il vaut mieux attendre avant de partager.", "en": "That would be good news, but I'm not sure it's true. First, I wonder who posted it first. Is it an anonymous account? Next, I'll check whether the City made an announcement on its website. I'll also look whether newspapers are talking about it. If nobody is talking about it, it's probably false, or maybe it's a satirical site. So it's better to wait before sharing." },
+            { "label": "Stronger model answer", "fr": "Franchement, ça me paraît trop beau pour être vrai, alors je vérifierais avant d'y croire. Première question : qui parle ? Je regarderais qui a publié ce message à l'origine, et si c'est une source identifiable. Deuxième question : quand ? Il arrive qu'une vieille nouvelle, sur une autre ville par exemple, recircule des mois plus tard. Troisièmement, je chercherais la source primaire : un communiqué sur le site de la Ville ou de la société de transport. Une mesure aussi importante serait forcément annoncée officiellement. Enfin, je recouperais avec deux ou trois médias fiables. Si aucun n'en parle, je me demanderais pourquoi ce message existe : pour attirer des clics, pour faire rire, ou par simple erreur ? Je dirais à mon amie, sans la juger, qu'il vaut mieux ne pas le partager tant qu'on n'a pas de confirmation.", "en": "Honestly, it seems too good to be true, so I'd check before believing it. First question: who's speaking? I'd look at who originally posted this message, and whether it's an identifiable source. Second question: when? Sometimes an old news story, about another city for example, circulates again months later. Third, I'd look for the primary source: a press release on the website of the City or the transit corporation. Such an important measure would necessarily be announced officially. Finally, I'd cross-check with two or three reliable outlets. If none of them mention it, I'd wonder why this message exists: to attract clicks, to make people laugh, or by simple mistake? I'd tell my friend, without judging her, that it's better not to share it until there's confirmation." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Mei's uncle asks for her method. Write him a friendly message (100–150 words) explaining how to check a video or article before sharing it. Use at least four indirect questions.",
+          "wordRange": [100, 150],
+          "checklist": ["Friendly register (tu) but correct written French", "At least four indirect questions (qui, si, d'où, ce que, pourquoi)", "At least four words from this lesson", "One sentence about deepfakes", "A short, kind conclusion"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour mon oncle,\nVoici ma méthode. D'abord, demande-toi qui a publié la vidéo en premier : un média connu ou un compte anonyme ? Ensuite, regarde la date et vérifie si l'information est récente. Après, regarde si d'autres médias fiables en parlent. Si personne n'en parle, c'est souvent une fausse nouvelle. Demande-toi aussi pourquoi quelqu'un a publié ça : pour informer ou pour faire peur ?\nAttention aux vidéos : aujourd'hui, un hypertrucage peut imiter le visage et la voix de n'importe qui.\nEt surtout, dans le doute, ne partage pas. Ce n'est pas grave de se tromper, tout le monde peut se faire avoir !\nBisous,\nMei", "en": "Hi uncle, Here's my method. First, ask yourself who posted the video first: a known outlet or an anonymous account? Next, look at the date and check whether the information is recent. Then look for whether other reliable outlets are talking about it. If nobody is, it's often fake news. Also ask yourself why someone posted it: to inform or to scare? Be careful with videos: today, a deepfake can imitate anyone's face and voice. And above all, when in doubt, don't share. It's not a big deal to be wrong, anyone can be fooled! Love, Mei" },
+            { "label": "Stronger model answer", "fr": "Cher oncle,\nComme promis, voici mes cinq réflexes. Premièrement, demande-toi qui parle : un média reconnu, un organisme public, ou un compte que personne ne connaît ? Deuxièmement, vérifie la date, car de vieilles nouvelles recirculent souvent. Troisièmement, cherche d'où vient l'information : un vrai communiqué, une étude, un témoin ? Quatrièmement, recoupe avec au moins deux sources fiables. Une annonce importante n'est jamais publiée par un seul compte. Enfin, demande-toi ce que l'auteur veut obtenir : t'informer, te faire peur ou te faire cliquer ?\nPour les vidéos, sois encore plus prudent : les hypertrucages sont de plus en plus réalistes. Regarde la bouche, les yeux, et vérifie si la vidéo existe sur le compte officiel de la personne.\nTu as très bien réagi en retirant la vidéo. Dans le doute, on ne partage pas !\nMei", "en": "Dear uncle, As promised, here are my five reflexes. First, ask yourself who's speaking: a recognized outlet, a public body, or an account nobody knows? Second, check the date, because old news often circulates again. Third, look for where the information comes from: a real press release, a study, a witness? Fourth, cross-check with at least two reliable sources. An important announcement is never published by just one account. Finally, ask yourself what the author wants: to inform you, to scare you or to make you click? For videos, be even more careful: deepfakes are more and more realistic. Look at the mouth, the eyes, and check whether the video exists on the person's official account. You reacted very well by removing the video. When in doubt, don't share! Mei" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Evaluate a source: [[la fiabilité]], [[une source fiable]], [[la source primaire]], [[recouper l'information]]\n- Recognize [[la désinformation]], [[une fausse nouvelle]], [[un hypertrucage]], [[un piège à clics]] and satirical sites\n- Explain how you check with indirect questions: [[je me demande si / qui / ce que / ce qui / pourquoi…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "French and indirect-question rules checked; hypertrucage (OQLF), infox (France, rare in Québec) and putaclic (vulgar slang, avoid) are accurately labelled. Added accepted variants to r3." }
+}

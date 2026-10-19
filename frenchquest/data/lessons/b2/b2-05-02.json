@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-05-02",
+  "level": "b2",
+  "unit": "b2-05",
+  "title": "Meetings and presentations",
+  "goal": "Lead or take part in a meeting (open it, give and take the floor, sum up, conclude) and give a short structured presentation with a plan, transitions and a conclusion.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-reunion", "kind": "grammar", "fr": "ouvrir → donner la parole → résumer → conclure", "en": "the stages of a meeting and their key phrases",
+      "drills": [
+        { "type": "cloze", "text": "Raj, je te ___ la parole.", "answers": [["passe", "donne", "cède"]], "en": "Raj, over to you.", "explain": "[[passer la parole à quelqu'un]] = to hand the floor to someone." },
+        { "type": "cloze", "text": "Si je ___, la version est prête, mais on attend la cliente.", "answers": [["résume"]], "en": "To sum up, the version is ready, but we're waiting for the client.", "explain": "[[Si je résume, …]] announces a summary before the next point or the conclusion." },
+        { "type": "mcq", "prompt": "Which phrase opens a meeting?", "options": ["Merci à tous d'être là. On a trois points à l'ordre du jour.", "Pour conclure, Lucie rédige le compte rendu.", "Si je peux me permettre…", "J'en viens maintenant à la deuxième partie."], "optionsFr": true, "answer": 0, "explain": "Thank people, then announce the agenda: that's the opening." }
+      ] },
+    { "id": "animer", "kind": "phrase", "fr": "animer une réunion", "en": "to lead a meeting", "accept": ["diriger une réunion", "présider une réunion"], "note": "[[présider]] is more formal (to chair)." },
+    { "id": "faire-le-point", "kind": "phrase", "fr": "faire le point sur", "en": "to review the status of, to take stock of", "example": { "fr": "On commence par faire le point sur le projet.", "en": "Let's start by reviewing where the project stands." } },
+    { "id": "prendre-la-parole", "kind": "phrase", "fr": "prendre la parole", "en": "to take the floor, to speak (in a meeting)" },
+    { "id": "passer-la-parole", "kind": "phrase", "fr": "passer la parole à", "en": "to hand over to (someone, in a meeting)", "accept": ["donner la parole à", "céder la parole à"] },
+    { "id": "si-je-peux-me-permettre", "kind": "phrase", "fr": "Si je peux me permettre, …", "en": "If I may, … (to interrupt politely)", "accept": ["Si vous me permettez, …", "Si je peux me permettre d'intervenir, …"] },
+    { "id": "si-je-resume", "kind": "phrase", "fr": "Si je résume, …", "en": "To sum up, … (in a meeting)", "accept": ["Pour résumer, …", "En résumé, …"] },
+    { "id": "pour-conclure", "kind": "phrase", "fr": "Pour conclure, …", "en": "To conclude, …", "accept": ["En conclusion, …", "Pour terminer, …"] },
+    { "id": "passer-au-point-suivant", "kind": "phrase", "fr": "passer au point suivant", "en": "to move on to the next item (on the agenda)", "example": { "fr": "Bon, on passe au point suivant.", "en": "OK, let's move on to the next item." } },
+    { "id": "tour-de-table", "kind": "vocab", "fr": "tour de table", "article": "un", "gender": "m", "en": "round of updates (everyone speaks in turn)", "pos": "noun", "accept": ["le tour de table"] },
+    { "id": "compte-rendu", "kind": "vocab", "fr": "compte rendu", "article": "le", "gender": "m", "en": "minutes, meeting report", "pos": "noun", "accept": ["un compte rendu", "le procès-verbal"], "note": "Plural: [[des comptes rendus]]. [[Le procès-verbal]] is the official minutes of a board or assembly." },
+    { "id": "prochaines-etapes", "kind": "vocab", "fr": "prochaines étapes", "article": "les", "gender": "f", "en": "next steps", "pos": "noun", "accept": ["les étapes suivantes"] },
+    { "id": "diapositive", "kind": "vocab", "fr": "diapositive", "article": "la", "gender": "f", "en": "slide (in a presentation)", "pos": "noun", "accept": ["une diapositive", "la diapo"], "note": "Casual: [[une diapo]]. A slide show is [[un diaporama]]." },
+    { "id": "merci-attention", "kind": "phrase", "fr": "Je vous remercie de votre attention.", "en": "Thank you for your attention.", "accept": ["Merci de votre attention.", "Merci pour votre attention."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Monday morning at Logiciels Boréal",
+      "intro": "First, an internal team meeting: informal, with tu. Then Raj presents the project to the client's management team: formal, with vous. Notice the phrases that **move the meeting forward**.",
+      "blocks": [
+        { "type": "dialogue", "title": "The weekly team meeting",
+          "context": "Camille, the manager, leads the meeting. Olivier is a developer, Lucie a designer, Raj the project coordinator.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Bon, il est 9 h, on peut commencer. Merci à tous d'être là. Comme vous l'avez vu dans l'ordre du jour, on a trois points ce matin : le projet Laurentide, le budget et les vacances d'été.", "en": "OK, it's 9 o'clock, we can start. Thanks, everyone, for being here. As you saw on the agenda, we have three items this morning: the Laurentide project, the budget and the summer holidays." },
+            { "speaker": "Camille", "fr": "On commence par un petit tour de table pour faire le point. Olivier, tu veux commencer ?", "en": "Let's start with a quick round of updates to see where we are. Olivier, do you want to start?" },
+            { "speaker": "Olivier", "fr": "Oui, merci. Alors, de mon côté, la nouvelle version est presque prête. Il reste deux ou trois bogues à corriger, mais rien de grave. Par contre, on attend toujours les commentaires de la cliente sur les maquettes, et ça bloque un peu l'équipe de design…", "en": "Yes, thanks. So, on my side, the new version is almost ready. There are two or three bugs left to fix, but nothing serious. However, we're still waiting for the client's comments on the mock-ups, and that's holding up the design team a bit…" },
+            { "speaker": "Lucie", "fr": "Si je peux me permettre, j'aimerais ajouter quelque chose sur ce point.", "en": "If I may, I'd like to add something on that point." },
+            { "speaker": "Camille", "fr": "Vas-y, Lucie.", "en": "Go ahead, Lucie." },
+            { "speaker": "Lucie", "fr": "Sans ces commentaires, on ne peut pas finaliser les écrans. Si on ne les reçoit pas d'ici vendredi, on risque de ne pas respecter le délai du 14 mars.", "en": "Without those comments, we can't finalize the screens. If we don't get them by Friday, we may not meet the March 14 deadline." },
+            { "speaker": "Camille", "fr": "D'accord. Raj, c'est toi qui es en contact avec Mme Gagnon ?", "en": "OK. Raj, you're the one in contact with Ms. Gagnon?" },
+            { "speaker": "Raj", "fr": "Oui. Elle m'a écrit qu'elle nous enverrait ses commentaires d'ici le 6 mars. Mais je peux la relancer demain matin, par précaution.", "en": "Yes. She wrote to me that she would send us her comments by March 6. But I can follow up with her tomorrow morning, just in case." },
+            { "speaker": "Camille", "fr": "Parfait. Si je résume : la version est presque prête, on dépend des commentaires de la cliente, et Raj s'occupe de la relancer. On passe au point suivant : le budget. Raj, je te passe la parole.", "en": "Perfect. To sum up: the version is almost ready, we depend on the client's comments, and Raj is taking care of following up with her. Let's move on to the next item: the budget. Raj, over to you." },
+            { "speaker": "Raj", "fr": "Merci, Camille. Je vais être bref, parce qu'on a peu de temps : on a dépensé soixante pour cent du budget, et on est dans les temps.", "en": "Thanks, Camille. I'll be brief, because we don't have much time: we've spent sixty percent of the budget, and we're on schedule." },
+            { "speaker": "Camille", "fr": "Excellent. Pour conclure, alors : Raj relance la cliente demain, Olivier corrige les derniers bogues, et on reparle des vacances la semaine prochaine. Lucie, est-ce que tu pourrais rédiger le compte rendu ?", "en": "Excellent. So, to conclude: Raj follows up with the client tomorrow, Olivier fixes the last bugs, and we'll talk about the holidays again next week. Lucie, could you write up the minutes?" },
+            { "speaker": "Lucie", "fr": "Pas de problème, je vous l'envoie cet après-midi.", "en": "No problem, I'll send it to you this afternoon." },
+            { "speaker": "Camille", "fr": "Merci à tous, et bonne semaine !", "en": "Thanks, everyone, and have a good week!" }
+          ] },
+        { "type": "text", "title": "Raj presents the project to the client",
+          "context": "Two weeks later, Raj presents the progress of the project to the management team of the credit union.",
+          "fr": "Bonjour à toutes et à tous, et merci d'être venus. Je m'appelle Raj Patel et je coordonne le projet de votre nouvelle application. Aujourd'hui, je vais vous présenter l'état d'avancement du projet.\n\nMa présentation se divise en trois parties. Dans un premier temps, je ferai le point sur ce que nous avons réalisé depuis janvier. Dans un deuxième temps, je vous présenterai les prochaines étapes. Enfin, nous aurons une dizaine de minutes pour vos questions.\n\nCommençons par le travail réalisé. Comme vous pouvez le voir sur cette diapositive, quatre-vingts pour cent des fonctionnalités sont déjà terminées et testées. Les membres pourront bientôt consulter leurs comptes et payer leurs factures directement sur leur téléphone.\n\nJ'en viens maintenant aux prochaines étapes. D'ici la fin du mois, nous allons finaliser les écrans, puis nous ferons une série de tests avec une vingtaine de vos employés.\n\nPour conclure, je dirais que le projet avance bien et que nous pourrons respecter la date du 14 mars. Je vous remercie de votre attention. Avez-vous des questions ?",
+          "en": "Hello everyone, and thank you for coming. My name is Raj Patel and I coordinate the project for your new app. Today, I'm going to present the progress of the project.\n\nMy presentation is divided into three parts. First, I'll review what we've done since January. Second, I'll present the next steps. Finally, we'll have about ten minutes for your questions.\n\nLet's start with the work done. As you can see on this slide, eighty percent of the features are already finished and tested. Members will soon be able to check their accounts and pay their bills directly on their phone.\n\nI now come to the next steps. By the end of the month, we're going to finalize the screens, then we'll run a series of tests with about twenty of your employees.\n\nTo conclude, I would say that the project is going well and that we'll be able to meet the March 14 date. Thank you for your attention. Do you have any questions?" },
+        { "id": "d1", "type": "mcq", "prompt": "How does Lucie join the conversation while Olivier is talking about the comments?", "options": ["With a polite formula: “Si je peux me permettre…”", "She waits for the end of the meeting", "She says “Arrête, Olivier !”"], "answer": 0,
+          "explain": "[[Si je peux me permettre, j'aimerais ajouter quelque chose sur ce point]] is a polite way to take the floor." },
+        { "id": "d2", "type": "mcq", "prompt": "What does Raj do in the second paragraph of his presentation?", "options": ["He announces his plan", "He answers questions", "He gives the budget figures"], "answer": 0,
+          "explain": "[[Ma présentation se divise en trois parties. Dans un premier temps… Dans un deuxième temps… Enfin…]] An announced plan helps the audience follow." }
+      ] },
+    { "type": "understand", "title": "Moving a meeting forward",
+      "blocks": [
+        { "type": "table", "title": "Leading a meeting, stage by stage",
+          "head": ["Stage", "Useful French"],
+          "rows": [
+            ["Open", "Merci à tous d'être là. / On peut commencer ?"],
+            ["Present the agenda", "On a trois points à l'ordre du jour : …"],
+            ["Give the floor", "Olivier, tu veux commencer ? / Je vous passe la parole."],
+            ["Keep it on track", "On s'éloigne un peu du sujet. / On en reparlera plus tard, si vous voulez bien."],
+            ["Sum up", "Si je résume, … / Donc, on est d'accord pour dire que…"],
+            ["Move on", "On passe au point suivant. / Passons maintenant au budget."],
+            ["Conclude and assign tasks", "Pour conclure : Raj s'occupe de…, Olivier se charge de… / Qui rédige le compte rendu ?"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[s'occuper de]] and [[se charger de]] both mean *to take care of*: perfect for assigning tasks at the end." },
+        { "type": "table", "title": "Taking part without leading",
+          "head": ["You want to…", "Useful French"],
+          "rows": [
+            ["take the floor", "J'aimerais ajouter quelque chose. / Je voudrais revenir sur un point."],
+            ["interrupt politely", "Si je peux me permettre, … / Pardon de vous interrompre, mais…"],
+            ["ask for clarification", "Qu'est-ce que vous entendez par… ? / Pourriez-vous préciser ?"],
+            ["finish your point", "Si vous permettez, je termine ma phrase. / Juste un instant, j'ai presque fini."],
+            ["give a status update", "De mon côté, … / En ce qui concerne le budget, …"]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "pattern", "title": "A presentation in three moves",
+          "pattern": "annoncer le plan → enchaîner → conclure",
+          "note": "Announce the plan with the **futur simple** ([[je ferai]], [[je vous présenterai]]), use a transition at each new part, and finish with a conclusion and an invitation to ask questions.",
+          "examples": [
+            { "fr": "Ma présentation se divise en trois parties.", "en": "My presentation is divided into three parts." },
+            { "fr": "Dans un premier temps, je ferai le point sur le budget.", "en": "First, I'll review the budget." },
+            { "fr": "Dans un deuxième temps, je vous présenterai nos résultats.", "en": "Second, I'll present our results." },
+            { "fr": "Comme vous pouvez le voir sur cette diapositive, les ventes ont augmenté.", "en": "As you can see on this slide, sales have increased." },
+            { "fr": "J'en viens maintenant à la deuxième partie.", "en": "I now come to the second part." },
+            { "fr": "Pour conclure, je dirais que le projet avance bien.", "en": "To conclude, I would say the project is going well." }
+          ] },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["animer", "faire-le-point", "prendre-la-parole", "passer-la-parole", "si-je-peux-me-permettre", "si-je-resume", "pour-conclure", "passer-au-point-suivant", "tour-de-table", "compte-rendu", "prochaines-etapes", "diapositive", "merci-attention"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Meeting traps for English speakers",
+          "body": "- **[[Finalement]] ≠ finally in a list.** [[Finalement]] means *in the end, after all* ([[Finalement, la réunion a été annulée]]). To announce the last point, say [[Enfin, …]] or [[Pour terminer, …]].\n- **[[adresser un problème]]** ✗ (from “address an issue”). Say [[aborder un problème]], [[traiter une question]] or [[régler un problème]].\n- **[[assister à]] = to attend**, not to assist. [[J'ai assisté à la réunion]] = I attended the meeting. To help is [[aider]].\n- **[[un meeting]]**: in France, this traditionally means a political rally (it's also heard as office jargon). A work meeting is [[une réunion]] (or [[une rencontre]] in Québec).\n- **[[les slides]]** is common in French offices but informal; in a formal presentation, say [[les diapositives]].\n- **[[Je vais vous présenter sur le budget]]** ✗. [[présenter]] takes a direct object: [[Je vais vous présenter le budget]] ✓, or [[Je vais faire une présentation sur le budget]] ✓." },
+        { "type": "deepdive", "kind": "canada", "title": "Meetings in Québec",
+          "body": "- On a Québec agenda, the last item is often **[[Varia]]**: any other business. In France you'll see [[Questions diverses]].\n- **[[La période de questions]]** is the usual Québec expression for Q&A (also in the National Assembly). In France you'll more often hear [[les questions-réponses]] or [[le temps des questions]].\n- In associations, unions and boards, the official minutes are **[[le procès-verbal]]**, which is adopted at the next meeting: [[l'adoption du procès-verbal]] is often item 2 of the agenda.\n- Team meetings in Québec workplaces are often quite informal, with **tu** and first names, even with the manager, as in Camille's meeting. With a client's management team, switch to **vous**." },
+        { "type": "deepdive", "kind": "examples", "title": "Keeping a meeting on track, diplomatically",
+          "body": "When someone talks too long or goes off topic, the chair needs to cut in without offending. Notice the softeners: [[un peu]], [[si vous voulez bien]], [[peut-être]], and an offer to come back to the subject later.",
+          "examples": [
+            { "fr": "Merci, Olivier. On s'éloigne un peu du sujet, alors on en reparlera après la réunion.", "en": "Thanks, Olivier. We're drifting a bit off topic, so we'll talk about it after the meeting." },
+            { "fr": "C'est une question importante. On pourrait peut-être l'ajouter à l'ordre du jour de la semaine prochaine ?", "en": "It's an important question. Maybe we could add it to next week's agenda?" },
+            { "fr": "Il nous reste dix minutes, donc je vous propose de passer au point suivant.", "en": "We have ten minutes left, so I suggest we move on to the next item." }
+          ] }
+      ] },
+    { "type": "hear", "title": "Sound like a confident presenter",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In a presentation, slow down at each transition and pause briefly after it: it signals a new part.",
+          "lines": [
+            { "fr": "Merci à tous d'être là. On peut commencer.", "en": "Thanks, everyone, for being here. We can start." },
+            { "fr": "Si je peux me permettre, j'aimerais ajouter quelque chose.", "en": "If I may, I'd like to add something." },
+            { "fr": "Ma présentation se divise en trois parties.", "en": "My presentation is divided into three parts." },
+            { "fr": "J'en viens maintenant à la deuxième partie.", "en": "I now come to the second part." },
+            { "fr": "Si je résume, on est dans les temps.", "en": "To sum up, we're on schedule." },
+            { "fr": "Je vous remercie de votre attention. Avez-vous des questions ?", "en": "Thank you for your attention. Do you have any questions?" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bon, si je résume : Karim prépare le budget, Sofia contacte les fournisseurs, et on se revoit jeudi à 14 h. Amira, est-ce que tu pourrais rédiger le compte rendu ?", "en": "OK, to sum up: Karim prepares the budget, Sofia contacts the suppliers, and we meet again on Thursday at 2 p.m. Amira, could you write the minutes?", "prompt": "What is Amira asked to do?", "options": ["Write the minutes", "Prepare the budget", "Contact the suppliers"], "answer": 0,
+          "explain": "[[rédiger le compte rendu]] = to write the minutes." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Merci, Nguyen. C'est un point intéressant, mais on s'éloigne un peu du sujet. On en reparlera la semaine prochaine, si vous voulez bien.", "en": "Thanks, Nguyen. It's an interesting point, but we're drifting a bit off topic. We'll talk about it again next week, if that's all right.", "prompt": "What is the chair doing?", "options": ["Politely bringing the meeting back on topic", "Ending the meeting", "Agreeing with Nguyen's proposal"], "answer": 0,
+          "explain": "[[On s'éloigne un peu du sujet]] + [[on en reparlera…]]: a diplomatic way to refocus." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back B1 workplace vocabulary and the futur simple.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Merci, Sofia. Karim, je vous ___ la ___.", "answers": [["passe", "donne", "cède"], ["parole"]], "en": "Thanks, Sofia. Karim, over to you.", "explain": "[[passer la parole à quelqu'un]]: the chair hands the floor to the next speaker." },
+        { "id": "r2", "type": "mcq", "prompt": "Your manager is speaking and you need to add an important detail. What do you say?", "options": ["Si je peux me permettre, j'aimerais ajouter quelque chose.", "Attends, attends, c'est faux !", "Finalement, je parle.", "Je vais vous présenter sur ce point."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Too abrupt for a meeting, especially with a manager.", "[[Finalement]] means *in the end*, and this is not polite.", "[[présenter]] takes a direct object, and this doesn't interrupt politely."] },
+        { "id": "r3", "type": "translate", "prompt": "To sum up, the project is going well.", "accept": ["Si je résume, le projet avance bien.", "En résumé, le projet avance bien.", "Pour résumer, le projet avance bien.", "Si je résume, le projet va bien.", "En résumé, le projet va bien.", "Pour résumer, le projet va bien.", "Bref, le projet avance bien."], "explain": "[[Si je résume]], [[en résumé]] and [[pour résumer]] all announce a summary; [[avancer bien]] = to be progressing well." },
+        { "id": "r4", "type": "match", "prompt": "Match each phrase to its stage in the meeting.", "pairs": [["On a trois points à l'ordre du jour.", "opening"], ["Olivier, tu veux commencer ?", "giving the floor"], ["On s'éloigne un peu du sujet.", "refocusing"], ["On passe au point suivant.", "moving on"], ["Qui rédige le compte rendu ?", "concluding"]] },
+        { "id": "r5", "type": "cloze", "text": "Dans un premier ___, je ___ le point sur le budget.", "answers": [["temps"], ["ferai"]], "choices": ["temps", "moment", "ferai", "fais"], "en": "First, I'll review the budget.", "explain": "[[Dans un premier temps]] announces part one; the plan uses the futur simple: [[faire]] → [[je ferai]] (A2)." },
+        { "id": "r6", "type": "mcq", "prompt": "You're listing three points. Which word introduces the last one?", "options": ["Enfin", "Finalement", "À la fin", "Après tout"], "optionsFr": true, "answer": 0, "explain": "[[Enfin]] closes a list. [[Finalement]] means *in the end*, *as it turned out*." },
+        { "id": "r7", "type": "reorder", "prompt": "Let's move on to the next item.", "accept": ["Passons au point suivant"], "extra": ["suivante", "à"], "explain": "[[Passons]] is the imperative of [[passer]] with nous: *let's move on*. On an agenda, the next item is [[le point suivant]]." },
+        { "id": "r8", "type": "translate", "prompt": "Who is going to write the minutes?", "accept": ["Qui va rédiger le compte rendu ?", "Qui va écrire le compte rendu ?", "Qui rédigera le compte rendu ?", "Qui écrira le compte rendu ?", "Qui est-ce qui va rédiger le compte rendu ?", "Qui fait le compte rendu ?", "Qui va faire le compte rendu ?", "Qui rédige le compte rendu ?"], "explain": "[[le compte rendu]] = minutes; [[rédiger]] is the precise verb for writing a document." },
+        { "id": "r9", "type": "dictation", "fr": "J'en viens maintenant aux prochaines étapes.", "accept": [], "explain": "[[J'en viens à…]] = I now come to… [[à + les]] → [[aux]]; [[étapes]] is feminine." },
+        { "id": "r10", "type": "cloze", "text": "Raj s'___ de relancer la cliente, et Olivier se ___ des derniers bogues.", "answers": [["occupe"], ["charge"]], "choices": ["occupe", "charge", "passe", "fait"], "en": "Raj is taking care of following up with the client, and Olivier is handling the last bugs.", "explain": "[[s'occuper de]] and [[se charger de]] = to take care of; useful to assign tasks." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Give a 90-second presentation to your team about a project, a course or an event you organized. Announce a plan in three parts, use transitions, refer to a slide, and conclude with an invitation to ask questions.", "seconds": 90,
+          "checklist": ["Greeting and thanks: Bonjour à tous, merci d'être là", "A plan: Dans un premier temps… Dans un deuxième temps… Enfin…", "A slide reference: Comme vous pouvez le voir…", "A transition: J'en viens maintenant à…", "A conclusion: Pour conclure, je dirais que…", "Je vous remercie de votre attention. Avez-vous des questions ?"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour à tous, et merci d'être là. Je vais vous présenter le bilan de notre journée portes ouvertes. Dans un premier temps, je ferai le point sur la participation. Dans un deuxième temps, je vous présenterai les commentaires des visiteurs. Enfin, je vous proposerai quelques idées pour l'an prochain. Commençons par la participation. Comme vous pouvez le voir sur cette diapositive, nous avons accueilli plus de deux cents personnes, c'est-à-dire deux fois plus que l'an dernier. J'en viens maintenant aux commentaires : les visiteurs ont beaucoup aimé les ateliers, mais ils ont trouvé l'attente trop longue à l'accueil. Pour l'an prochain, je propose donc d'ouvrir une deuxième table d'inscription. Pour conclure, je dirais que la journée a été un vrai succès. Je vous remercie de votre attention. Avez-vous des questions ?", "en": "Hello everyone, and thank you for being here. I'm going to present the results of our open house. First, I'll review attendance. Second, I'll present the visitors' comments. Finally, I'll suggest a few ideas for next year. Let's start with attendance. As you can see on this slide, we welcomed more than two hundred people, that is, twice as many as last year. I now come to the comments: visitors really liked the workshops, but they found the wait at the front desk too long. For next year, I therefore suggest opening a second registration table. To conclude, I would say the day was a real success. Thank you for your attention. Do you have any questions?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write the short minutes (compte rendu) of Camille's team meeting from the dialogue: date, people present, the points discussed, the decisions, and who does what.", "promptFr": "Rédigez le compte rendu de la réunion d'équipe.",
+          "wordRange": [70, 120],
+          "checklist": ["Date and people present (Présents : …)", "One short paragraph per agenda item", "Decisions: Il a été décidé que… / L'équipe est d'accord pour…", "Tasks: X s'occupe de… / se charge de…", "Neutral style, third person"],
+          "models": [ { "label": "Model answer", "fr": "Compte rendu – réunion d'équipe du lundi 3 mars\n\nPrésents : Camille (animatrice), Olivier, Lucie, Raj\n\n1. Projet Laurentide : la nouvelle version est presque prête ; il reste quelques bogues à corriger. L'équipe attend toujours les commentaires de la cliente sur les maquettes. Sans ces commentaires, le délai du 14 mars risque de ne pas être respecté.\n\n2. Budget : soixante pour cent du budget a été dépensé. Le projet est dans les temps.\n\n3. Vacances d'été : point reporté à la semaine prochaine.\n\nTâches : Raj s'occupe de relancer Mme Gagnon demain matin. Olivier se charge des derniers bogues. Lucie envoie le compte rendu à l'équipe.", "en": "Minutes – team meeting of Monday, March 3\n\nPresent: Camille (chair), Olivier, Lucie, Raj\n\n1. Laurentide project: the new version is almost ready; a few bugs remain to be fixed. The team is still waiting for the client's comments on the mock-ups. Without these comments, the March 14 deadline may not be met.\n\n2. Budget: sixty percent of the budget has been spent. The project is on schedule.\n\n3. Summer holidays: item postponed to next week.\n\nTasks: Raj is following up with Ms. Gagnon tomorrow morning. Olivier is handling the last bugs. Lucie sends the minutes to the team." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Lead a meeting: open, present the agenda, [[passer la parole]], refocus, [[Si je résume…]], [[Pour conclure…]], assign tasks\n- Take part politely: [[Si je peux me permettre…]], [[J'aimerais ajouter quelque chose]], [[Pourriez-vous préciser ?]]\n- Give a presentation with a plan ([[Dans un premier temps…]]), transitions ([[J'en viens maintenant à…]]) and a conclusion\n- Avoid traps: [[enfin]] vs [[finalement]], [[aborder]] (not *adresser*) a problem, [[assister à]] = attend",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced a reorder distractor (prochain) that allowed a correct alternative sentence; softened the claims about un meeting and French Q&A terms."}
+}

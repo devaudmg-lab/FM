@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-04-03",
+  "level": "a1",
+  "unit": "a1-04",
+  "title": "Articles: un, une, des, le, la, les",
+  "goal": "Choose between un, une, des and le, la, l', les, and understand why French nouns almost always need an article.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-indefini", "kind": "grammar", "fr": "un / une / des", "en": "indefinite articles: a, an, some",
+      "drills": [
+        { "type": "cloze", "text": "J'ai ___ tante à Moncton.", "answers": [["une"]], "en": "I have an aunt in Moncton.", "explain": "tante is feminine → une." },
+        { "type": "cloze", "text": "Raj a ___ cousins à Vancouver.", "answers": [["des"]], "en": "Raj has cousins in Vancouver.", "explain": "Plural, not yet identified → des. English often says nothing here; French needs des." },
+        { "type": "translate", "prompt": "I have a brother.", "accept": ["J'ai un frère."], "explain": "frère is masculine → un." }
+      ] },
+    { "id": "g-defini", "kind": "grammar", "fr": "le / la / l' / les", "en": "definite articles: the (and general statements)",
+      "drills": [
+        { "type": "cloze", "text": "C'est ___ mari de Sofia.", "answers": [["le"]], "en": "That's Sofia's husband.", "explain": "A specific person: le mari de Sofia = Sofia's husband." },
+        { "type": "cloze", "text": "___ oncle de Mei habite à Québec.", "answers": [["L'"]], "en": "Mei's uncle lives in Québec City.", "explain": "oncle starts with a vowel → l'." },
+        { "type": "mcq", "prompt": "How do you say “Children are funny” (children in general)?", "options": ["Les enfants sont drôles.", "Enfants sont drôles.", "Des enfants sont drôles."], "optionsFr": true, "answer": 0, "explain": "General statements use le / la / les in French." }
+      ] },
+    { "id": "homme", "kind": "vocab", "fr": "homme", "article": "l'", "gender": "m", "en": "man", "pos": "noun", "accept": ["un homme", "l'homme", "homme"],
+      "example": { "fr": "C'est un homme très gentil.", "en": "He's a very kind man." }, "note": "The h is silent, so: l'homme, un‿homme, les‿hommes." },
+    { "id": "garcon", "kind": "vocab", "fr": "garçon", "article": "le", "gender": "m", "en": "boy", "pos": "noun", "accept": ["un garçon", "garçon", "le garçon"],
+      "example": { "fr": "Ils ont un garçon et une fille.", "en": "They have a boy and a girl." } },
+    { "id": "personne", "kind": "vocab", "fr": "personne", "article": "la", "gender": "f", "en": "person (always feminine)", "pos": "noun", "accept": ["une personne", "personne"],
+      "example": { "fr": "Karim est une personne sérieuse.", "en": "Karim is a serious person." }, "note": "Always une personne, even for a man." },
+    { "id": "bebe", "kind": "vocab", "fr": "bébé", "article": "le", "gender": "m", "en": "baby (always masculine)", "pos": "noun", "accept": ["un bébé", "bébé"],
+      "example": { "fr": "Le bébé de Lucie a six mois.", "en": "Lucie's baby is six months old." }, "note": "Always un bébé, even for a baby girl." },
+    { "id": "oncle", "kind": "vocab", "fr": "oncle", "article": "l'", "gender": "m", "en": "uncle", "pos": "noun", "accept": ["un oncle", "l'oncle", "oncle", "mon oncle"],
+      "example": { "fr": "Mon oncle habite à Moncton.", "en": "My uncle lives in Moncton." } },
+    { "id": "tante", "kind": "vocab", "fr": "tante", "article": "la", "gender": "f", "en": "aunt", "pos": "noun", "accept": ["une tante", "tante", "ma tante"],
+      "example": { "fr": "J'ai une tante à Paris.", "en": "I have an aunt in Paris." } },
+    { "id": "cousin", "kind": "vocab", "fr": "cousin", "article": "le", "gender": "m", "en": "cousin (male)", "pos": "noun", "accept": ["un cousin", "cousin", "mon cousin"],
+      "example": { "fr": "Mon cousin est mexicain.", "en": "My cousin is Mexican." } },
+    { "id": "cousine", "kind": "vocab", "fr": "cousine", "article": "la", "gender": "f", "en": "cousin (female)", "pos": "noun", "accept": ["une cousine", "cousine", "ma cousine"],
+      "example": { "fr": "Ma cousine a trente ans.", "en": "My cousin is thirty." } },
+    { "id": "ami", "kind": "vocab", "fr": "ami", "article": "l'", "gender": "m", "en": "friend (male)", "pos": "noun", "accept": ["un ami", "l'ami", "ami", "mon ami"],
+      "example": { "fr": "C'est un ami de Raj.", "en": "He's a friend of Raj's." } },
+    { "id": "amie", "kind": "vocab", "fr": "amie", "article": "l'", "gender": "f", "en": "friend (female)", "pos": "noun", "accept": ["une amie", "l'amie", "amie", "mon amie"],
+      "example": { "fr": "Sofia est une amie.", "en": "Sofia is a friend." }, "note": "ami and amie sound the same. Listen for un / une: un‿ami, une‿amie." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Who's in the photo?",
+      "blocks": [
+        { "type": "dialogue", "title": "After a newcomers' picnic in Ottawa",
+          "context": "Nguyen and Camille look at a group photo.",
+          "lines": [
+            { "speaker": "Nguyen", "fr": "Qui est la femme blonde, ici ?", "en": "Who's the blond woman here?" },
+            { "speaker": "Camille", "fr": "C'est Sofia. C'est une amie. Elle est mexicaine.", "en": "That's Sofia. She's a friend. She's Mexican." },
+            { "speaker": "Nguyen", "fr": "Et l'homme brun ?", "en": "And the dark-haired man?" },
+            { "speaker": "Camille", "fr": "C'est le mari de Sofia, Alex. Il est très drôle.", "en": "That's Sofia's husband, Alex. He's very funny." },
+            { "speaker": "Nguyen", "fr": "Et les enfants ?", "en": "And the children?" },
+            { "speaker": "Camille", "fr": "Ce sont les enfants de Sofia et d'Alex : un garçon et une fille.", "en": "They're Sofia and Alex's children: a boy and a girl." },
+            { "speaker": "Nguyen", "fr": "Tes amis sont sympas !", "en": "Your friends are nice!" },
+            { "speaker": "Camille", "fr": "Oui ! Les enfants sont drôles, et les parents sont très gentils.", "en": "Yes! The children are funny, and the parents are very kind." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Count the articles: [[la femme]], [[une amie]], [[l'homme]], [[le mari]], [[les enfants]], [[un garçon]], [[une fille]]. In French, almost every noun comes with one. [[Ce sont]] is simply the plural of [[c'est]]: *they are / these are*." }
+      ] },
+    { "type": "understand", "title": "Two kinds of articles",
+      "blocks": [
+        { "type": "table", "title": "Articles",
+          "head": ["", "masculine", "feminine", "plural"],
+          "rows": [
+            ["a / an, some", "un", "une", "des"],
+            ["the", "le (l')", "la (l')", "les"]
+          ],
+          "frCols": [1, 2, 3], "sayCol": true,
+          "note": "[[L']] replaces [[le]] or [[la]] before a vowel or a silent h: [[l'enfant]], [[l'amie]], [[l'homme]]. The plural forms [[des]] and [[les]] are the same for both genders." },
+        { "type": "explain", "title": "un, une, des: one of many, not identified yet",
+          "body": "Use [[un]] / [[une]] / [[des]] for a person or thing you mention for the first time, or one among many:\n\n- [[J'ai un frère et une sœur.]] = I have a brother and a sister.\n- [[C'est une amie.]] = She's a friend (one of my friends).\n- [[Raj a des cousins à Vancouver.]] = Raj has (some) cousins in Vancouver.\n\n[[Des]] is the plural of un / une. English often uses **nothing** there; French can't." },
+        { "type": "explain", "title": "le, la, les: this specific one, or in general",
+          "body": "Use [[le]] / [[la]] / [[l']] / [[les]] when you mean a **specific, known** person or thing:\n\n- [[C'est le mari de Sofia.]] = That's Sofia's husband (she has only one!).\n- [[Et les enfants ?]] = And the children (in the photo)?\n\nFrench **also** uses le / la / les for **general statements**, where English uses no article at all:\n\n- [[Les enfants sont drôles.]] = Children are funny (children in general)." },
+        { "type": "pattern", "title": "“X's Y” in French",
+          "pattern": "le / la / les + person or thing + de + owner",
+          "note": "French has no *'s*. Say “the brother of Mei”. Before a vowel, [[de]] becomes [[d']].",
+          "examples": [
+            { "fr": "le frère de Mei", "en": "Mei's brother" },
+            { "fr": "la femme de Raj", "en": "Raj's wife" },
+            { "fr": "les enfants d'Amira", "en": "Amira's children" }
+          ] },
+        { "type": "explain", "title": "Why French needs articles",
+          "body": "A French noun almost never stands alone. One big reason: you often **can't hear** if a noun is singular or plural. [[frère]] and [[frères]] sound exactly the same. The article does that job: [[le frère]] / [[les frères]], [[un enfant]] / [[des enfants]].\n\nThe article also tells you the **gender**, which then changes adjectives and possessives. That is why it's best to learn every noun with [[un]] or [[une]]: [[un oncle]], [[une tante]].\n\nYou already know some places with **no** article: after [[être]] with a nationality ([[Je suis canadien.]]), and after [[mon / ma / mes]] etc., which **replace** the article ([[mon frère]], never *le mon frère*)." },
+        { "type": "vocab", "title": "New people words", "itemIds": ["homme", "garcon", "personne", "bebe", "oncle", "tante", "cousin", "cousine", "ami", "amie"] },
+        { "type": "deepdive", "kind": "why", "title": "Grammar gender is not biology",
+          "body": "Gender in French is a grammar label. For people, it usually matches: [[un oncle]], [[une tante]]. But a few words keep one gender for everyone:\n\n- [[une personne]] is always feminine: [[Karim est une personne gentille.]]\n- [[un bébé]] is always masculine, even a baby girl.\n\nThe adjective agrees with the word, not the real person: [[une personne sérieuse]].",
+          "examples": [ { "fr": "Alex est une personne très drôle.", "en": "Alex is a very funny person." }, { "fr": "Le bébé de Mei est petit.", "en": "Mei's baby is small." } ] },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "- [[le]] sounds like *luh*; [[les]] rhymes with *é*. This tiny difference is often the **only** clue to singular or plural: [[le cousin]] / [[les cousins]].\n- [[un]] is a nasal vowel; [[une]] ends with a clear *n*: [[une tante]].\n- Liaison before a vowel: [[un‿ami]], [[des‿enfants]], [[les‿hommes]] (z sound).",
+          "examples": [ { "fr": "le frère — les frères", "en": "the brother — the brothers" }, { "fr": "un ami — des amis", "en": "a friend — (some) friends" } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **No article:** [[J'ai frères]] → [[J'ai des frères]]. [[Enfants sont drôles]] → [[Les enfants sont drôles]].\n- **le / la before a vowel:** [[le enfant]], [[la amie]] → [[l'enfant]], [[l'amie]].\n- **Article with a nationality:** [[Je suis une canadienne]] → [[Je suis canadienne]].\n- **Article plus possessive:** [[le mon frère]] → [[mon frère]]." },
+        { "type": "deepdive", "kind": "challenge", "title": "Preview: articles after a negative",
+          "body": "Just to recognise for now. After a negative, [[un]], [[une]] and [[des]] usually become [[de]] (or [[d']] before a vowel):\n\n- [[J'ai un frère.]] → [[Je n'ai pas de frère.]]\n- [[J'ai des enfants.]] → [[Je n'ai pas d'enfants.]]\n\nYou will learn negative sentences properly in a later unit.",
+          "examples": [ { "fr": "Je n'ai pas de sœur.", "en": "I don't have a sister." } ] },
+        { "type": "deepdive", "kind": "canada", "title": "One word, three meanings",
+          "body": "Articles and context matter. [[Une blonde]] can be *a blond woman* anywhere. In Québec, [[ma blonde]] means *my girlfriend*. And in a bar, [[une blonde]] can also be a light beer (a lager)!" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Make the difference between le and les very clear.",
+          "lines": [
+            { "fr": "le frère, les frères", "en": "the brother, the brothers", "tip": "Same noun sound: only le / les changes." },
+            { "fr": "un enfant, des enfants", "en": "a child, (some) children", "tip": "Liaison: u-n‿enfant, de-z‿enfants." },
+            { "fr": "l'homme, l'oncle, l'amie", "en": "the man, the uncle, the friend (female)" },
+            { "fr": "J'ai un oncle et une tante à Moncton.", "en": "I have an uncle and an aunt in Moncton.", "tip": "un‿oncle: liaison with n." },
+            { "fr": "C'est une personne très gentille.", "en": "He / She is a very kind person." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Les cousins de Mei habitent à Vancouver.", "en": "Mei's cousins live in Vancouver.", "prompt": "Who lives in Vancouver?", "options": ["Several cousins", "One cousin", "One aunt"], "answer": 0, "explain": "You hear [[les]] (rhymes with é), so it's plural." },
+        { "id": "h2", "type": "listen-mcq", "fr": "C'est le frère de Raj.", "en": "That's Raj's brother.", "prompt": "What does the speaker say?", "options": ["That's Raj's brother.", "That's a brother of Raj's.", "Those are Raj's brothers."], "answer": 0, "explain": "[[le]] (*luh*) = the, one specific brother. *A brother* would be [[un frère]]; plural would be [[ce sont les frères]]." },
+        { "id": "h3", "type": "listen-mcq", "fr": "J'ai une tante à Moncton.", "en": "I have an aunt in Moncton.", "prompt": "Who lives in Moncton?", "options": ["An aunt", "An uncle", "A cousin"], "answer": 0, "explain": "[[une tante]] = an aunt. Uncle is [[un oncle]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "J'ai ___ frère et ___ sœur.", "answers": [["un"], ["une"]], "en": "I have a brother and a sister.", "explain": "frère is masculine → un; sœur is feminine → une." },
+        { "id": "r2", "type": "cloze", "text": "___ enfants de Karim sont drôles.", "answers": [["Les"]], "choices": ["Les", "Des", "Le", "L'"], "en": "Karim's children are funny.", "explain": "Specific children (Karim's) → les." },
+        { "id": "r3", "type": "mcq", "prompt": "Which is correct for “Lucie's uncle”?", "options": ["l'oncle de Lucie", "le oncle de Lucie", "la oncle de Lucie"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Before a vowel, le becomes l'.", "oncle is masculine, and before a vowel it's l' anyway."] },
+        { "id": "r4", "type": "translate", "prompt": "I have cousins in Montréal.", "accept": ["J'ai des cousins à Montréal.", "J'ai des cousines à Montréal."], "hint": "English has no article here. French does.", "explain": "Plural, not identified → des." },
+        { "id": "r5", "type": "translate", "prompt": "Children are funny. (children in general)", "accept": ["Les enfants sont drôles."], "explain": "General statements use les." },
+        { "id": "r6", "type": "match", "prompt": "Match each French form to its meaning.", "pairs": [["un homme", "a man"], ["l'homme", "the man"], ["des hommes", "some men"], ["les hommes", "the men"]] },
+        { "id": "r7", "type": "cloze", "text": "Nguyen est ___ personne très gentille.", "answers": [["une"]], "choices": ["une", "un", "la", "des"], "en": "Nguyen is a very kind person.", "explain": "personne is always feminine, even for a man → une, and the adjective is gentille." },
+        { "id": "r8", "type": "reorder", "prompt": "Sofia's husband is Mexican.", "accept": ["Le mari de Sofia est mexicain"], "extra": ["la", "un"], "explain": "No 's in French: [[le mari de Sofia]]. Nationality after être takes no article." },
+        { "id": "r9", "type": "dictation", "fr": "Les amis de Raj habitent à Ottawa.", "accept": ["Les amies de Raj habitent à Ottawa."], "explain": "[[les‿amis]]: the s of les sounds like z before a vowel." },
+        { "id": "r10", "type": "mcq", "prompt": "A woman says “I'm Canadian.” Which is correct?", "options": ["Je suis canadienne.", "Je suis une canadienne.", "Je suis la canadienne."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "No article after être with a nationality.", "No article after être with a nationality."] }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Describe a photo of people you know (real or imagined): who is in it and one detail about each person.", "seconds": 30,
+          "checklist": ["Use un / une for someone new (C'est un ami…)", "Use le / la / les for someone specific (le mari de…, les enfants…)", "Use l' before a vowel", "Add one adjective with the right ending"],
+          "models": [ { "label": "Model answer", "fr": "C'est ma famille, sur la photo. C'est mon oncle, Ahmed, et c'est la femme d'Ahmed, Leila. Ils ont un garçon et une fille. Les enfants sont très drôles !", "en": "This is my family, in the photo. That's my uncle, Ahmed, and that's Ahmed's wife, Leila. They have a boy and a girl. The children are very funny!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write about four people in your wider family or circle of friends: aunts, uncles, cousins, friends. Say where they live or what they are like.", "wordRange": [25, 50],
+          "checklist": ["Use un / une / des at least twice", "Use le / la / l' / les at least twice", "Use X de Y (the husband of…) once", "Learn the gender: une personne, un bébé"],
+          "models": [ { "label": "Model answer", "fr": "J'ai un oncle et une tante à Moncton. J'ai aussi des cousins à Montréal. La fille de mon oncle a un bébé. Le bébé a trois mois. Mon amie Mei est une personne très gentille.", "en": "I have an uncle and an aunt in Moncton. I also have cousins in Montréal. My uncle's daughter has a baby. The baby is three months old. My friend Mei is a very kind person." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use [[un / une / des]] for someone mentioned for the first time, and [[le / la / l' / les]] for someone specific or for things in general\n- Use [[l']] before a vowel or silent h: [[l'enfant, l'homme, l'amie]]\n- Say *X's Y* as [[le frère de Mei]]\n- Remember that French needs an article where English often has none: [[J'ai des cousins. Les enfants sont drôles.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "“Ton groupe est sympa” → “Tes amis sont sympas” (more natural). Blond-beer note no longer limited to France. Added homophone “amies” to the dictation; removed misspelling “garcon”." }
+}

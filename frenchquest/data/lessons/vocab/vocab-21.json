@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-21",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "People: roles and character",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "jobs, social roles and personality",
+  "goal": "Recognise and use 23 words for people’s roles and for describing what someone is like.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ecrivain",
+      "kind": "vocab",
+      "fr": "écrivain",
+      "article": "l'",
+      "gender": "m",
+      "en": "writer, author",
+      "pos": "noun",
+      "accept": [
+        "un écrivain",
+        "une écrivaine",
+        "l'écrivaine",
+        "écrivaine"
+      ],
+      "example": {
+        "fr": "Dany Laferrière est un écrivain québécois né en Haïti.",
+        "en": "Dany Laferrière is a Québec writer born in Haiti."
+      },
+      "note": "Feminine: une écrivaine."
+    },
+    {
+      "id": "entraineur",
+      "kind": "vocab",
+      "fr": "entraîneur",
+      "fem": "entraîneuse",
+      "article": "l'",
+      "gender": "m",
+      "en": "coach, trainer (sport)",
+      "pos": "noun",
+      "accept": [
+        "un entraîneur",
+        "entraîneuse",
+        "l'entraîneuse",
+        "une entraîneuse"
+      ],
+      "example": {
+        "fr": "L'entraîneur de l'équipe de hockey est très exigeant.",
+        "en": "The hockey team coach is very demanding."
+      }
+    },
+    {
+      "id": "psychiatre",
+      "kind": "vocab",
+      "fr": "psychiatre",
+      "article": "le",
+      "gender": "m",
+      "en": "psychiatrist",
+      "pos": "noun",
+      "accept": [
+        "un psychiatre",
+        "la psychiatre",
+        "une psychiatre"
+      ],
+      "example": {
+        "fr": "Son médecin l'a envoyé chez un psychiatre.",
+        "en": "His doctor referred him to a psychiatrist."
+      }
+    },
+    {
+      "id": "barman",
+      "kind": "vocab",
+      "fr": "barman",
+      "article": "le",
+      "gender": "m",
+      "en": "bartender",
+      "pos": "noun",
+      "accept": [
+        "un barman",
+        "la barmaid",
+        "une barmaid"
+      ],
+      "example": {
+        "fr": "Le barman nous a préparé deux cafés.",
+        "en": "The bartender made us two coffees."
+      }
+    },
+    {
+      "id": "mannequin",
+      "kind": "vocab",
+      "fr": "mannequin",
+      "article": "le",
+      "gender": "m",
+      "en": "fashion model; mannequin",
+      "pos": "noun",
+      "accept": [
+        "un mannequin"
+      ],
+      "example": {
+        "fr": "Elle a travaillé comme mannequin à Paris.",
+        "en": "She worked as a model in Paris."
+      }
+    },
+    {
+      "id": "ambassadeur",
+      "kind": "vocab",
+      "fr": "ambassadeur",
+      "fem": "ambassadrice",
+      "article": "l'",
+      "gender": "m",
+      "en": "ambassador",
+      "pos": "noun",
+      "accept": [
+        "un ambassadeur",
+        "ambassadrice",
+        "l'ambassadrice",
+        "une ambassadrice"
+      ],
+      "example": {
+        "fr": "L'ambassadeur du Canada au Mexique parle espagnol.",
+        "en": "Canada's ambassador to Mexico speaks Spanish."
+      }
+    },
+    {
+      "id": "boucher",
+      "kind": "vocab",
+      "fr": "boucher",
+      "fem": "bouchère",
+      "article": "le",
+      "gender": "m",
+      "en": "butcher",
+      "pos": "noun",
+      "accept": [
+        "un boucher",
+        "bouchère",
+        "la bouchère",
+        "une bouchère"
+      ],
+      "example": {
+        "fr": "Je commande toujours ma viande chez le boucher du quartier.",
+        "en": "I always order my meat from the local butcher."
+      }
+    },
+    {
+      "id": "pasteur",
+      "kind": "vocab",
+      "fr": "pasteur",
+      "article": "le",
+      "gender": "m",
+      "en": "pastor, minister (Protestant)",
+      "pos": "noun",
+      "accept": [
+        "un pasteur",
+        "la pasteure",
+        "une pasteure"
+      ],
+      "example": {
+        "fr": "Le pasteur a parlé pendant la cérémonie.",
+        "en": "The pastor spoke during the ceremony."
+      }
+    },
+    {
+      "id": "associe",
+      "kind": "vocab",
+      "fr": "associé",
+      "fem": "associée",
+      "article": "l'",
+      "gender": "m",
+      "en": "business partner",
+      "pos": "noun",
+      "accept": [
+        "un associé",
+        "associée",
+        "l'associée",
+        "une associée"
+      ],
+      "example": {
+        "fr": "Raj a ouvert une boulangerie avec son associé.",
+        "en": "Raj opened a bakery with his business partner."
+      }
+    },
+    {
+      "id": "adversaire",
+      "kind": "vocab",
+      "fr": "adversaire",
+      "article": "l'",
+      "gender": "m",
+      "en": "opponent",
+      "pos": "noun",
+      "accept": [
+        "un adversaire",
+        "une adversaire"
+      ],
+      "example": {
+        "fr": "Notre adversaire en finale est une équipe de Calgary.",
+        "en": "Our opponent in the final is a team from Calgary."
+      }
+    },
+    {
+      "id": "gardien",
+      "kind": "vocab",
+      "fr": "gardien",
+      "fem": "gardienne",
+      "article": "le",
+      "gender": "m",
+      "en": "guard, caretaker; goalkeeper",
+      "pos": "noun",
+      "accept": [
+        "un gardien",
+        "gardienne",
+        "la gardienne",
+        "une gardienne"
+      ],
+      "example": {
+        "fr": "Le gardien de l'immeuble a les clés.",
+        "en": "The building caretaker has the keys."
+      },
+      "note": "Hockey: le gardien de but (goalie). Québec: la gardienne also means babysitter."
+    },
+    {
+      "id": "survivant",
+      "kind": "vocab",
+      "fr": "survivant",
+      "fem": "survivante",
+      "article": "le",
+      "gender": "m",
+      "en": "survivor",
+      "pos": "noun",
+      "accept": [
+        "un survivant",
+        "survivante",
+        "la survivante",
+        "une survivante"
+      ],
+      "example": {
+        "fr": "Il est le seul survivant de l'accident.",
+        "en": "He is the only survivor of the accident."
+      }
+    },
+    {
+      "id": "alcoolique",
+      "kind": "vocab",
+      "fr": "alcoolique",
+      "article": "l'",
+      "gender": "m",
+      "en": "alcoholic (person)",
+      "pos": "noun",
+      "accept": [
+        "un alcoolique",
+        "une alcoolique"
+      ],
+      "example": {
+        "fr": "Son oncle est un ancien alcoolique ; il ne boit plus.",
+        "en": "Her uncle is a former alcoholic; he doesn't drink any more."
+      }
+    },
+    {
+      "id": "civil",
+      "kind": "vocab",
+      "fr": "civil",
+      "fem": "civile",
+      "article": "le",
+      "gender": "m",
+      "en": "civilian",
+      "pos": "noun",
+      "accept": [
+        "un civil",
+        "civile",
+        "la civile",
+        "une civile"
+      ],
+      "example": {
+        "fr": "L'armée a aidé les civils pendant les inondations.",
+        "en": "The army helped civilians during the floods."
+      }
+    },
+    {
+      "id": "personnel",
+      "kind": "vocab",
+      "fr": "personnel",
+      "article": "le",
+      "gender": "m",
+      "en": "staff, personnel",
+      "pos": "noun",
+      "accept": [
+        "un personnel"
+      ],
+      "example": {
+        "fr": "Le personnel de l'hôpital travaille jour et nuit.",
+        "en": "The hospital staff work day and night."
+      }
+    },
+    {
+      "id": "vilain",
+      "kind": "vocab",
+      "fr": "vilain",
+      "fem": "vilaine",
+      "en": "naughty (child); ugly, nasty",
+      "pos": "adjective",
+      "accept": [
+        "vilaine"
+      ],
+      "example": {
+        "fr": "Ce vilain chien a mangé mon sandwich !",
+        "en": "That naughty dog ate my sandwich!"
+      }
+    },
+    {
+      "id": "louche",
+      "kind": "vocab",
+      "fr": "louche",
+      "en": "shady, suspicious",
+      "pos": "adjective",
+      "example": {
+        "fr": "Ce vendeur a l'air louche.",
+        "en": "That seller looks shady."
+      }
+    },
+    {
+      "id": "discret",
+      "kind": "vocab",
+      "fr": "discret",
+      "fem": "discrète",
+      "en": "discreet, quiet",
+      "pos": "adjective",
+      "accept": [
+        "discrète"
+      ],
+      "example": {
+        "fr": "Ma voisine est très discrète ; on ne l'entend jamais.",
+        "en": "My neighbour is very quiet; you never hear her."
+      }
+    },
+    {
+      "id": "brillant",
+      "kind": "vocab",
+      "fr": "brillant",
+      "fem": "brillante",
+      "en": "brilliant, very clever; shiny",
+      "pos": "adjective",
+      "accept": [
+        "brillante"
+      ],
+      "example": {
+        "fr": "Amira est une étudiante brillante.",
+        "en": "Amira is a brilliant student."
+      }
+    },
+    {
+      "id": "mysterieux",
+      "kind": "vocab",
+      "fr": "mystérieux",
+      "fem": "mystérieuse",
+      "en": "mysterious",
+      "pos": "adjective",
+      "accept": [
+        "mystérieuse"
+      ],
+      "example": {
+        "fr": "Un homme mystérieux a laissé un message pour toi.",
+        "en": "A mysterious man left a message for you."
+      }
+    },
+    {
+      "id": "tordu",
+      "kind": "vocab",
+      "fr": "tordu",
+      "fem": "tordue",
+      "en": "twisted, warped (mind or object)",
+      "pos": "adjective",
+      "accept": [
+        "tordue"
+      ],
+      "example": {
+        "fr": "Il a un sens de l'humour un peu tordu.",
+        "en": "He has a slightly twisted sense of humour."
+      }
+    },
+    {
+      "id": "tendre",
+      "kind": "vocab",
+      "fr": "tendre",
+      "en": "tender, gentle",
+      "pos": "adjective",
+      "example": {
+        "fr": "Elle est très tendre avec ses enfants.",
+        "en": "She is very gentle with her children."
+      }
+    },
+    {
+      "id": "puissant",
+      "kind": "vocab",
+      "fr": "puissant",
+      "fem": "puissante",
+      "en": "powerful",
+      "pos": "adjective",
+      "accept": [
+        "puissante"
+      ],
+      "example": {
+        "fr": "C'est l'une des femmes les plus puissantes du pays.",
+        "en": "She's one of the most powerful women in the country."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Jobs and roles",
+          "itemIds": [
+            "ecrivain",
+            "entraineur",
+            "psychiatre",
+            "barman",
+            "mannequin",
+            "ambassadeur",
+            "boucher",
+            "pasteur",
+            "associe",
+            "adversaire",
+            "gardien",
+            "survivant",
+            "alcoolique",
+            "civil",
+            "personnel"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "What someone is like",
+          "itemIds": [
+            "vilain",
+            "louche",
+            "discret",
+            "brillant",
+            "mysterieux",
+            "tordu",
+            "tendre",
+            "puissant"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- Many job nouns have a feminine form: [[entraîneuse, ambassadrice, bouchère]]; [[écrivaine]] and [[pasteure]] are standard in Québec and increasingly used in France.\n- Québec: [[la gardienne]] is also the babysitter.\n- [[Le personnel]] is singular: [[le personnel est...]].\n- [[Brillant]] means clever for people, shiny for things."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Dany Laferrière est un écrivain québécois né en Haïti.",
+              "en": "Dany Laferrière is a Québec writer born in Haiti."
+            },
+            {
+              "fr": "L'entraîneur de l'équipe de hockey est très exigeant.",
+              "en": "The hockey team coach is very demanding."
+            },
+            {
+              "fr": "Je commande toujours ma viande chez le boucher du quartier.",
+              "en": "I always order my meat from the local butcher."
+            },
+            {
+              "fr": "Raj a ouvert une boulangerie avec son associé.",
+              "en": "Raj opened a bakery with his business partner."
+            },
+            {
+              "fr": "Il est le seul survivant de l'accident.",
+              "en": "He is the only survivor of the accident."
+            },
+            {
+              "fr": "Le personnel de l'hôpital travaille jour et nuit.",
+              "en": "The hospital staff work day and night."
+            },
+            {
+              "fr": "Ce vendeur a l'air louche.",
+              "en": "That seller looks shady."
+            },
+            {
+              "fr": "Ma voisine est très discrète ; on ne l'entend jamais.",
+              "en": "My neighbour is very quiet; you never hear her."
+            },
+            {
+              "fr": "Amira est une étudiante brillante.",
+              "en": "Amira is a brilliant student."
+            },
+            {
+              "fr": "C'est l'une des femmes les plus puissantes du pays.",
+              "en": "She's one of the most powerful women in the country."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match each person to the English.",
+          "pairs": [
+            [
+              "l'écrivain",
+              "writer"
+            ],
+            [
+              "l'entraîneur",
+              "coach"
+            ],
+            [
+              "le boucher",
+              "butcher"
+            ],
+            [
+              "l'adversaire",
+              "opponent"
+            ],
+            [
+              "le survivant",
+              "survivor"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match each adjective to its meaning.",
+          "pairs": [
+            [
+              "louche",
+              "shady"
+            ],
+            [
+              "discret",
+              "discreet"
+            ],
+            [
+              "mystérieux",
+              "mysterious"
+            ],
+            [
+              "tendre",
+              "gentle"
+            ],
+            [
+              "puissant",
+              "powerful"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Who tries to stop goals in hockey or soccer?",
+          "options": [
+            "le gardien",
+            "le barman",
+            "le pasteur",
+            "l'ambassadeur"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Le gardien de but]] is the goalkeeper."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "Le personnel de l'hôtel est très gentil.",
+            "Le personnel de l'hôtel sont très gentils.",
+            "La personnel de l'hôtel est très gentille.",
+            "Les personnel de l'hôtel sont gentils."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Le personnel]] is a masculine singular noun, even though it means many people."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "She is a brilliant student.",
+          "accept": [
+            "C’est une étudiante brillante.",
+            "C'est une étudiante brillante.",
+            "C'est une brillante étudiante.",
+            "C'est une élève brillante.",
+            "C'est une brillante élève."
+          ],
+          "hint": "The adjective usually goes after the noun.",
+          "explain": "[[Brillant]] takes -e for the feminine and goes after the noun."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "That man looks shady.",
+          "accept": [
+            "Cet homme a l'air louche.",
+            "Cet homme-là a l'air louche.",
+            "Ce monsieur a l'air louche."
+          ],
+          "hint": "avoir l’air + adjective",
+          "explain": "[[Avoir l’air louche]] = to look shady."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Raj a ouvert un restaurant avec son ___.",
+          "answers": [
+            [
+              "associé"
+            ]
+          ],
+          "choices": [
+            "associé",
+            "adversaire",
+            "civil",
+            "cercueil"
+          ],
+          "en": "Raj opened a restaurant with his business partner.",
+          "explain": "[[Un associé]] shares a business with you."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "L'ambassadrice est une femme très ___. (puissant)",
+          "answers": [
+            [
+              "puissante"
+            ]
+          ],
+          "en": "The ambassador is a very powerful woman.",
+          "explain": "Feminine of [[puissant]]: add -e, and you now hear the t."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Ma voisine est très discrète.",
+          "accept": [
+            "Ma voisine est très discrète"
+          ],
+          "explain": "Feminine of [[discret]] is [[discrète]], with a grave accent."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Il est le seul survivant de l'accident.",
+          "en": "He is the only survivor of the accident.",
+          "prompt": "What happened to him?",
+          "options": [
+            "He survived the accident",
+            "He caused the accident",
+            "He died in the accident"
+          ],
+          "answer": 0,
+          "explain": "[[Le survivant]] is the person who survived."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Name jobs and roles: [[écrivain, entraîneur, boucher, associé, gardien]]\n- Use feminine job forms: [[ambassadrice, bouchère, entraîneuse]]\n- Describe character: [[louche, discret, brillant, tendre, puissant]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "More natural example for civil; hockey prompt no longer says \"ball\"; added word-order and élève variants to r5; softened the Québec feminine-forms claim."
+  }
+}

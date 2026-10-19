@@ -1,0 +1,814 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-19",
+  "categories": [
+    {
+      "id": "youtube",
+      "title": "YouTube channels",
+      "intro": "Pick one learner channel at your level and watch short videos daily with French subtitles, then add one Québec-accent channel from A2 onward so Canadian French sounds familiar before the exam.",
+      "items": [
+        {
+          "name": "Français avec Pierre",
+          "url": "https://www.youtube.com/@francaisavecpierre",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["grammar", "listening", "vocabulary"],
+          "why": "Clear grammar and vocabulary lessons taught entirely in French. After each grammar unit, watch Pierre's video on the same point (e.g. passé composé vs imparfait), pause at every example and say it aloud."
+        },
+        {
+          "name": "innerFrench",
+          "url": "https://www.youtube.com/@innerFrench",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["listening", "comprehensible-input", "culture"],
+          "why": "Hugo talks about society and culture in slow, clear French, which is good comprehensible input for intermediate learners. From B1, watch one video a week without English subtitles and write five new expressions in your notebook."
+        },
+        {
+          "name": "Easy French",
+          "url": "https://www.youtube.com/@EasyFrench",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["listening", "street-interviews", "spoken-french"],
+          "why": "Street interviews with dual French/English subtitles show real spoken French at natural speed. Watch an episode twice, first with both subtitle lines and then with French only, to train the fast listening the TEF/TCF oral comprehension demands."
+        },
+        {
+          "name": "Comme une Française",
+          "url": "https://www.youtube.com/@CommeuneFrancaise",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["spoken-french", "pronunciation", "culture"],
+          "why": "Géraldine explains everyday spoken French that textbooks skip (contractions, filler words, politeness). Use her videos to make your speaking-task answers sound natural rather than bookish."
+        },
+        {
+          "name": "Learn French With Alexa",
+          "url": "https://www.youtube.com/@LearnFrenchWithAlexa",
+          "levels": ["a1", "a2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["grammar", "beginner", "pronunciation"],
+          "why": "Step-by-step beginner lessons explained in English. In your first A1 weeks, watch the lesson matching each unit (numbers, être/avoir, articles) and repeat every phrase after her."
+        },
+        {
+          "name": "Piece of French",
+          "url": "https://www.youtube.com/@PieceofFrench",
+          "levels": ["a2", "b1"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["vocabulary", "spoken-french", "culture"],
+          "why": "Short, lively videos on everyday vocabulary and colloquial expressions. Good for a 10-minute review on rest days; copy two expressions per video into Anki."
+        },
+        {
+          "name": "Français Authentique",
+          "url": "https://www.youtube.com/@francaisauthentique",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["listening", "expressions", "comprehensible-input"],
+          "why": "Johan explains one French expression per video, slowly and only in French. Use these as extra listening at A2–B1 and practise reusing each expression in a sentence about your own life."
+        },
+        {
+          "name": "Oh La La I Speak French (archive)",
+          "url": "https://www.youtube.com/user/ohlalafrench",
+          "levels": ["a1", "a2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["beginner", "listening", "web-series"],
+          "why": "Run by teacher-actress Soraya; uploads are now infrequent, but the back catalogue (incl. the 'Hollywood Speaks French' web series) is useful A1–A2 listening with English subtitles. Watch one episode per week as a fun break."
+        },
+        {
+          "name": "Wandering French",
+          "url": "https://www.youtube.com/@WanderingFrench",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "quebec",
+          "tags": ["listening", "comprehensible-input", "quebec-accent"],
+          "why": "A veteran teacher with a Québécois accent makes comprehensible-input videos in French. From A2, watch one per week at 0.75× with French captions to get used to Canadian pronunciation."
+        },
+        {
+          "name": "Learn Quebec French",
+          "url": "https://www.youtube.com/@LearnQuebecFrench",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "quebec",
+          "tags": ["quebec-french", "vocabulary", "spoken-french"],
+          "why": "Frédéric teaches natural, modern Québec French and its expressions. Uploads are occasional, so treat it as a library: watch the videos on everyday Québec vocabulary before moving to Canada."
+        },
+        {
+          "name": "Radio-Canada Info",
+          "url": "https://www.youtube.com/@radiocanadainfo",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["news", "listening", "authentic", "exam"],
+          "why": "Short Canadian news reports in standard Canadian French, updated daily. From B1, watch one 2–3 minute clip a day, summarise it aloud in three sentences, then re-watch with captions to check."
+        }
+      ]
+    },
+    {
+      "id": "podcasts",
+      "title": "Podcasts",
+      "intro": "Use podcasts for daily commute listening: replay an episode until you understand about 80% of it, and read the transcript when one is available.",
+      "items": [
+        {
+          "name": "innerFrench Podcast",
+          "url": "https://podcast.innerfrench.com/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["listening", "transcripts", "comprehensible-input"],
+          "why": "Long conversational episodes in clear French with free transcripts on the site; new episodes still appear in 2026. Start from the oldest episodes (they get harder over time) and listen once without, then once with, the transcript."
+        },
+        {
+          "name": "Coffee Break French",
+          "url": "https://coffeebreaklanguages.com/coffeebreakfrench/",
+          "levels": ["a1", "a2", "b1"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["beginner", "structured", "listening"],
+          "why": "Structured audio lessons explained in English; the podcast for each level is free, while course notes and extras are paid. At A1–A2, do one 20-minute lesson per day alongside the course units."
+        },
+        {
+          "name": "RFI Journal en français facile",
+          "url": "https://francaisfacile.rfi.fr/fr/podcasts/journal-en-fran%C3%A7ais-facile/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["news", "listening", "transcripts", "exam"],
+          "why": "A daily 10-minute world-news bulletin read in simplified French, with transcripts. From late A2, listen every weekday; it is close to the news-style recordings in the TEF/TCF listening sections."
+        },
+        {
+          "name": "Français Authentique",
+          "url": "https://www.francaisauthentique.com/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "freemium",
+          "region": "france",
+          "tags": ["listening", "expressions", "speaking"],
+          "why": "Johan's free podcast and videos teach through repeated listening; paid packs exist but are optional. Listen to each free episode three times over a few days, which is his method and works well for automatic speaking."
+        },
+        {
+          "name": "Podcast Français Facile",
+          "url": "https://www.podcastfrancaisfacile.com/",
+          "levels": ["a1", "a2", "b1"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["dialogues", "beginner", "transcripts", "exercises"],
+          "why": "Short everyday dialogues sorted by level, with written text and exercises. At A1–A2, shadow each dialogue (speak along with it) until you can say it without reading."
+        },
+        {
+          "name": "Duolingo French Podcast",
+          "url": "https://podcast.duolingo.com/french",
+          "levels": ["a2", "b1"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["storytelling", "listening", "transcripts"],
+          "why": "True stories told in easy French with English narration and transcripts; recent releases are mostly re-runs, but the 100+ episode archive is useful. Good bridge material between A2 and B1."
+        },
+        {
+          "name": "Radio-Canada OHdio",
+          "url": "https://ici.radio-canada.ca/ohdio",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["authentic", "listening", "quebec-accent", "news"],
+          "why": "Radio-Canada's free platform for live radio and podcasts in Canadian French, and the app lets you slow playback down. From B1, choose one programme on a topic you like and listen to one segment a day at 0.9×."
+        },
+        {
+          "name": "Les années lumière (Radio-Canada OHdio)",
+          "url": "https://ici.radio-canada.ca/ohdio/premiere/emissions/52/les-annees-lumiere",
+          "levels": ["b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["science", "authentic", "listening", "exam"],
+          "why": "Radio-Canada's weekly science show, with interviews in Canadian French. At B2, listen to one short segment and note the speaker's main argument and two supporting points, which is the skill the harder listening questions test."
+        }
+      ]
+    },
+    {
+      "id": "listening-tv",
+      "title": "Free listening and TV",
+      "intro": "Watch something authentic every day: start with learner-adapted videos (TV5MONDE, RFI) and move to Canadian TV and news by B1.",
+      "items": [
+        {
+          "name": "TV5MONDE Apprendre le français",
+          "url": "https://apprendre.tv5monde.com/fr",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["listening", "exercises", "levelled", "exam"],
+          "why": "Thousands of short videos sorted A1–B2, each with comprehension exercises and transcripts. After each course unit, do two activities at your current level; this is the single best free match for the course."
+        },
+        {
+          "name": "TV5MONDE+",
+          "url": "https://www.tv5mondeplus.com/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["series", "films", "subtitles", "authentic"],
+          "why": "Free streaming of francophone series, films and documentaries, many with subtitles. From B1, watch one episode per week with French subtitles and write a five-line summary."
+        },
+        {
+          "name": "ICI TOU.TV",
+          "url": "https://ici.tou.tv/",
+          "levels": ["b1", "b2"],
+          "cost": "freemium",
+          "region": "canada",
+          "tags": ["series", "quebec-accent", "authentic"],
+          "why": "Radio-Canada's streaming service: part of the catalogue is free and the rest needs the paid EXTRA subscription. Use the free Québec series from B1 to get used to Canadian accents; some content may be geo-restricted outside Canada."
+        },
+        {
+          "name": "Télé-Québec",
+          "url": "https://www.telequebec.tv/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "quebec",
+          "tags": ["quebec-accent", "documentaries", "culture"],
+          "why": "Free on-demand videos from Québec's public broadcaster, including youth and documentary programmes that are easier to follow. Start with the youth shows at A2 for slower, clear Québec French."
+        },
+        {
+          "name": "Le français facile avec RFI",
+          "url": "https://francaisfacile.rfi.fr/fr/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["news", "exercises", "levelled", "listening"],
+          "why": "RFI's learning site (savoirs.rfi.fr now redirects here) with news-based audio and exercises sorted by level. Do one exercise matching your current level twice a week."
+        },
+        {
+          "name": "Radio-Canada Info",
+          "url": "https://ici.radio-canada.ca/info",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["news", "video", "authentic"],
+          "why": "Canadian national and regional news, with video reports and live coverage. From B1, watch one video report a day; it also builds the knowledge of Canadian topics that comes up in TEF/TCF speaking prompts."
+        },
+        {
+          "name": "Mauril (CBC/Radio-Canada)",
+          "url": "https://mauril.ca/en/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["listening", "app", "canadian-content", "levelled"],
+          "why": "Free web and mobile platform from CBC/Radio-Canada that turns real Radio-Canada clips into levelled listening exercises. Do one Mauril activity at your level after each course unit; it is the best free source of Canadian-accent listening practice."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "intro": "Read a little every day: easy news at A2, Canadian newspapers by B1–B2, and always note five words per article.",
+      "items": [
+        {
+          "name": "1jour1actu",
+          "url": "https://www.1jour1actu.com/",
+          "levels": ["a2", "b1"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["easy-news", "reading", "short-texts"],
+          "why": "News explained for French children, with short articles and simple sentences. From A2, read one article a day and retell it in two sentences."
+        },
+        {
+          "name": "Le français facile avec RFI (written news)",
+          "url": "https://francaisfacile.rfi.fr/fr/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["news", "transcripts", "reading"],
+          "why": "Read the transcript of the daily Journal en français facile and the levelled articles. Read first, then listen; this bridges reading and listening."
+        },
+        {
+          "name": "Vikidia",
+          "url": "https://fr.vikidia.org/",
+          "levels": ["a2", "b1"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["encyclopedia", "simple-french", "reading"],
+          "why": "The French encyclopedia for young readers, written in simpler French than Wikipédia (French Wikipedia has no 'simple' edition). Look up topics you already know (your country, your job) and read the intro paragraph."
+        },
+        {
+          "name": "Wikipédia (français)",
+          "url": "https://fr.wikipedia.org/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["encyclopedia", "reading", "vocabulary"],
+          "why": "At B1–B2, read the French article on a topic after the Vikidia one, and compare how the vocabulary steps up."
+        },
+        {
+          "name": "Radio-Canada Info",
+          "url": "https://ici.radio-canada.ca/info",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["news", "canada", "reading", "exam"],
+          "why": "Free Canadian news articles in standard French. From B1, read one article per day on Canadian society, housing or work, which are frequent TEF/TCF themes."
+        },
+        {
+          "name": "La Presse",
+          "url": "https://www.lapresse.ca/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "quebec",
+          "tags": ["news", "quebec", "opinion", "reading"],
+          "why": "Montréal's main daily is free to read online. At B2, read one opinion column (in the 'Débats' section) a week and note how the writer argues; this is a good model for the argumentative writing task."
+        },
+        {
+          "name": "Le Devoir",
+          "url": "https://www.ledevoir.com/",
+          "levels": ["b2"],
+          "cost": "freemium",
+          "region": "quebec",
+          "tags": ["news", "opinion", "advanced", "reading"],
+          "why": "Québec's daily known for analysis and editorials, with some articles free and full access paid. Use it at B2 for harder argumentative texts like those at the end of the reading tests."
+        }
+      ]
+    },
+    {
+      "id": "grammar-dictionaries",
+      "title": "Grammar and dictionaries",
+      "intro": "Keep a dictionary, a conjugator and a usage guide open while you study; check every doubtful verb form instead of guessing.",
+      "items": [
+        {
+          "name": "Vitrine linguistique / Banque de dépannage linguistique (OQLF)",
+          "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "quebec",
+          "tags": ["grammar", "usage", "quebec", "writing"],
+          "why": "The OQLF's free usage guide (the old bdl.oqlf.gouv.qc.ca address redirects here) and terminology database. When writing TEF/TCF practice essays, look up agreement, letter formats and anglicisms to avoid."
+        },
+        {
+          "name": "Le Conjugueur (Le Figaro)",
+          "url": "https://leconjugueur.lefigaro.fr/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["conjugation", "grammar"],
+          "why": "Full conjugation tables for every verb, plus grammar rules and exercises. Check every irregular verb you use in writing tasks."
+        },
+        {
+          "name": "Le conjugueur Bescherelle",
+          "url": "https://conjugaison.bescherelle.com/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["conjugation", "grammar"],
+          "why": "The free online conjugator from the classic reference publisher. Use it to drill one tense per week, for example by writing out five common verbs in the subjonctif."
+        },
+        {
+          "name": "WordReference",
+          "url": "https://www.wordreference.com/enfr/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["dictionary", "english-french", "forum"],
+          "why": "A reliable English–French dictionary with example phrases and forum threads on tricky usage. Use it as your default dictionary, and read the forum when two translations seem possible."
+        },
+        {
+          "name": "Linguee",
+          "url": "https://www.linguee.com/english-french/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["dictionary", "context", "translation"],
+          "why": "Shows how a phrase is translated in real bilingual documents, many of them Canadian government texts. Use it to check formal phrases for letters and emails in the writing task."
+        },
+        {
+          "name": "Reverso Context",
+          "url": "https://context.reverso.net/translation/french-english/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["dictionary", "context", "collocations"],
+          "why": "Example sentences in context for any word or expression; core use is free, premium removes limits. Check which verb or preposition naturally goes with a noun before using it in your writing."
+        },
+        {
+          "name": "Larousse dictionnaire de français",
+          "url": "https://www.larousse.fr/dictionnaires/francais",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "france",
+          "tags": ["dictionary", "monolingual", "definitions"],
+          "why": "Free monolingual dictionary with definitions, synonyms and difficulties. From B1, look words up here first, before the bilingual dictionary, to start thinking in French."
+        },
+        {
+          "name": "Forvo",
+          "url": "https://forvo.com/languages/fr/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["pronunciation", "audio"],
+          "why": "Native speakers' recordings of words, often with both France and Canada accents. Check the pronunciation of new words before adding audio to your Anki cards."
+        },
+        {
+          "name": "CCDMD",
+          "url": "https://www.ccdmd.qc.ca/fr/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "quebec",
+          "tags": ["grammar", "exercises", "writing"],
+          "why": "Québec college resource centre with free French grammar and spelling exercises. Use the exercises on agreement and homophones to clean up mistakes in your writing."
+        },
+        {
+          "name": "Antidote",
+          "url": "https://www.antidote.info/",
+          "levels": ["b1", "b2"],
+          "cost": "paid",
+          "region": "quebec",
+          "tags": ["writing", "corrector", "dictionary"],
+          "why": "Paid Québec-made corrector with dictionaries and guides, the reference tool for writing in French. Only worth buying at B1–B2 if you write a lot; run each practice essay through it and study every flagged error."
+        }
+      ]
+    },
+    {
+      "id": "exam-tef",
+      "title": "TEF Canada",
+      "intro": "Start official TEF Canada samples at B1 to learn the format, then do one timed section per week in the last two months before your test.",
+      "items": [
+        {
+          "name": "TEF Canada, official presentation (Le français des affaires, CCI Paris Île-de-France)",
+          "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-canada/presentation/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef"],
+          "why": "The official page for the test format, sections, durations and accredited test centres. Read it before booking so you know exactly what each of the four sections asks."
+        },
+        {
+          "name": "TEF Canada, official preparation page",
+          "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-canada/preparation/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef", "practice"],
+          "why": "The official hub listing every free sample paper, the interactive tutorials and the YouTube workshops. Bookmark it and check it for updated material before your test."
+        },
+        {
+          "name": "TEF sample test: compréhension écrite (PDF)",
+          "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2024/10/tef-exemples-epreuves-ce.pdf",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef", "reading"],
+          "why": "Official reading sample questions in the current format. Do them timed, then work out why each wrong answer is wrong."
+        },
+        {
+          "name": "TEF sample test: compréhension orale (PDF + audio)",
+          "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2024/10/tef-exemples-epreuves-co.pdf",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef", "listening"],
+          "why": "Official listening questions. Download the audio separately from https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2024/10/tef-bandes-sons-co.zip and play each recording once only, as in the real test."
+        },
+        {
+          "name": "TEF sample test: expression écrite (PDF)",
+          "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2024/10/tef-exemples-epreuve-ee.pdf",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef", "writing"],
+          "why": "Official writing prompts. Write both tasks within the time limit, count your words, then correct them with a grammar tool or a tutor."
+        },
+        {
+          "name": "TEF sample test: expression orale (PDF)",
+          "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2024/10/tef-exemples-epreuve-eo.pdf",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef", "speaking"],
+          "why": "Official speaking prompts for Section A (asking for information) and Section B (persuading). Record yourself answering each prompt with a timer and listen back for filler words and missing arguments."
+        },
+        {
+          "name": "TEF interactive tutorial: compréhension écrite",
+          "url": "https://www.lefrancaisdesaffaires.fr/documents/Tutoriel_TEF_CE/story.html",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef", "tutorial"],
+          "why": "Official interactive walkthrough of the computer-based reading section. Matching tutorials exist for listening (Tutoriel-TEF-CO), writing (Tutoriel_TEF_EE) and speaking (Tutoriel_TEF_EO) under the same /documents/ path. Do all four once so the on-screen interface is familiar on test day."
+        },
+        {
+          "name": "TEF official preparation workshop (YouTube, compréhension écrite)",
+          "url": "https://www.youtube.com/watch?v=k1vo_hlV-wQ",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tef", "strategy"],
+          "why": "Official workshop video from Le français des affaires on reading-section strategy; the preparation page links one workshop per section. Watch it before your first timed sample."
+        },
+        {
+          "name": "TV5MONDE Apprendre le français (free prep)",
+          "url": "https://apprendre.tv5monde.com/fr",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["exam", "listening", "reading", "prep"],
+          "why": "There is no TEF-specific simulator here, but the B1–B2 video comprehension exercises are good daily practice for TEF listening and reading. Use them on days you are not doing official samples."
+        },
+        {
+          "name": "Le français facile avec RFI (free prep)",
+          "url": "https://francaisfacile.rfi.fr/fr/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["exam", "listening", "news", "prep"],
+          "why": "News-based listening exercises that are close in style to the TEF radio-type recordings. Do one B1/B2 exercise per day in the month before the test."
+        }
+      ]
+    },
+    {
+      "id": "exam-tcf",
+      "title": "TCF Canada",
+      "intro": "Use the official France Éducation international samples to learn the format at B1, then use TV5MONDE's free TCF simulator for timed practice.",
+      "items": [
+        {
+          "name": "TCF Canada, official page (France Éducation international)",
+          "url": "https://www.france-education-international.fr/test/tcf-canada",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tcf"],
+          "why": "The official description of the four compulsory sections (listening, reading, writing, speaking), the timings, the result validity and where to take the test. Read it before you register."
+        },
+        {
+          "name": "TCF Canada, official page (English)",
+          "url": "https://www.france-education-international.fr/en/test/tcf-canada",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tcf"],
+          "why": "The same official information in English; useful for checking registration and retake rules precisely."
+        },
+        {
+          "name": "Exemples d'épreuves du TCF (official samples)",
+          "url": "https://www.france-education-international.fr/test/exemples-epreuves-tcf",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tcf", "practice"],
+          "why": "Official sample questions for listening, reading, speaking and writing. Do each section once early in B1 to see the gap, then again a month before the test."
+        },
+        {
+          "name": "TCF Canada official presentation (PDF)",
+          "url": "https://www.france-education-international.fr/document/presentationtcfcanada",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tcf"],
+          "why": "Short official PDF summarising the TCF Canada format. Print it and keep it next to your study plan."
+        },
+        {
+          "name": "Manuel du candidat TCF (PDF)",
+          "url": "https://www.france-education-international.fr/document/manuelcandidattoutes20dc3a9clinaisonsi",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["exam", "official", "tcf", "candidate-guide"],
+          "why": "The official candidate handbook, which describes what happens on test day and includes sample tasks. Read the writing and speaking sections closely to understand how each level is judged."
+        },
+        {
+          "name": "TV5MONDE: Se préparer au TCF (free simulator)",
+          "url": "https://apprendre.tv5monde.com/fr/tcf",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["exam", "tcf", "practice", "prep"],
+          "why": "A free simulator with 600 TCF-style questions on computer or phone. Do a 20-question set three times a week in the last two months and track your score."
+        },
+        {
+          "name": "Le français facile avec RFI (free prep)",
+          "url": "https://francaisfacile.rfi.fr/fr/",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["exam", "listening", "news", "prep"],
+          "why": "Levelled news listening and comprehension exercises that are good daily training for the 39-question TCF listening section."
+        }
+      ]
+    },
+    {
+      "id": "canada-official",
+      "title": "Canada: official immigration and language-class information",
+      "intro": "Check these official pages for the scores you need and for free government-funded French classes; always trust them over blogs.",
+      "items": [
+        {
+          "name": "IRCC: Express Entry language test results",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["official", "ircc", "exam", "nclc"],
+          "why": "IRCC's list of approved tests (TEF Canada, TCF Canada), with the NCLC levels each program requires and the score tables. Use it to set your target NCLC level for each skill."
+        },
+        {
+          "name": "IRCC: Express Entry category-based selection (French-language proficiency)",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["official", "ircc", "express-entry", "french-category"],
+          "why": "Explains the French-language proficiency category for invitation rounds and its NCLC requirement. Read it to see why reaching the required NCLC level (about B2) in all four skills matters so much."
+        },
+        {
+          "name": "IRCC: Comprehensive Ranking System (CRS) criteria",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html",
+          "levels": ["b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["official", "ircc", "crs", "points"],
+          "why": "The official points grid, including the extra points for strong French skills. Use it to calculate how many points each NCLC level is worth to you."
+        },
+        {
+          "name": "IRCC: Immigrate to a Francophone community outside Quebec",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/francophone-immigration-outside-quebec.html",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["official", "ircc", "francophone"],
+          "why": "IRCC's hub for French-speaking and bilingual applicants, covering programmes and welcoming Francophone communities. Read it to compare pathways outside Québec."
+        },
+        {
+          "name": "IRCC: Language classes funded by the Government of Canada (LINC / CLIC)",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills/classes.html",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["official", "classes", "clic", "linc"],
+          "why": "Permanent residents and protected persons can take government-funded LINC (English) or CLIC (French) classes at no cost. Once you land, register for CLIC to keep your French improving."
+        },
+        {
+          "name": "IRCC: Find free newcomer services near you",
+          "url": "https://ircc.canada.ca/english/newcomers/services/index.asp",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["official", "settlement", "classes"],
+          "why": "IRCC's search tool for settlement organizations, which handle the language assessment and CLIC class registration. Search your city to find French classes and conversation circles."
+        },
+        {
+          "name": "Québec: Apprendre le français (Francisation Québec)",
+          "url": "https://www.quebec.ca/education/apprendre-le-francais",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "quebec",
+          "tags": ["official", "francisation", "classes", "quebec"],
+          "why": "Francisation Québec is the Québec government's single access point for free French courses (full-time, part-time, online). It serves adults living in Québec, people planning to settle there, and workers at Québec businesses, and you may be able to apply before arriving."
+        }
+      ]
+    },
+    {
+      "id": "speaking-practice",
+      "title": "Speaking practice",
+      "intro": "Speaking is the skill learners neglect most: from A2, aim for at least one real conversation a week, and use a tutor for TEF/TCF speaking-task drills from B1.",
+      "items": [
+        {
+          "name": "italki",
+          "url": "https://www.italki.com/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "paid",
+          "region": "international",
+          "tags": ["tutoring", "speaking", "exam"],
+          "why": "A marketplace of paid one-to-one tutors, including Québécois teachers and TEF/TCF specialists. From B1, book a weekly 45-minute session that simulates the speaking section with a timer."
+        },
+        {
+          "name": "Preply",
+          "url": "https://preply.com/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "paid",
+          "region": "international",
+          "tags": ["tutoring", "speaking", "exam"],
+          "why": "A paid tutoring marketplace similar to italki. Try trial lessons with two or three tutors and choose one who corrects you actively and gives written feedback."
+        },
+        {
+          "name": "Tandem",
+          "url": "https://www.tandem.net/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["language-exchange", "speaking", "app"],
+          "why": "A language-exchange app; the core app is free and Pro is paid. From A2, find a francophone who wants to practise English and split each call 50/50."
+        },
+        {
+          "name": "HelloTalk",
+          "url": "https://www.hellotalk.com/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["language-exchange", "writing", "speaking", "app"],
+          "why": "A language-exchange app with built-in correction of messages; the core app is free and VIP is paid. Post a short daily text and let native speakers correct it; send voice messages for speaking practice."
+        },
+        {
+          "name": "Conversation Exchange",
+          "url": "https://www.conversationexchange.com/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["language-exchange", "speaking", "local"],
+          "why": "A free website for finding face-to-face or online exchange partners. Search for French speakers in your city for in-person café conversations."
+        },
+        {
+          "name": "Meetup (French conversation groups)",
+          "url": "https://www.meetup.com/topics/french/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["conversation-groups", "speaking", "local"],
+          "why": "Free to join local French conversation groups (organizers pay, and some events have a small fee). Go to one meetup a month from A2 to practise speaking under real-time pressure."
+        },
+        {
+          "name": "Alliance Française du Canada",
+          "url": "https://www.af.ca/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "paid",
+          "region": "canada",
+          "tags": ["classes", "conversation", "exam-centre", "culture"],
+          "why": "Alliance Française network in Canadian cities: paid courses, conversation workshops and cultural events, and many branches are TEF test centres. Check your local branch for conversation clubs and exam-prep courses."
+        }
+      ]
+    },
+    {
+      "id": "apps-tools",
+      "title": "Apps and tools",
+      "intro": "Use apps to support the course, not replace it: Anki for daily vocabulary, Mauril for Canadian listening, and a writing checker for essays.",
+      "items": [
+        {
+          "name": "Anki (desktop)",
+          "url": "https://apps.ankiweb.net/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["flashcards", "spaced-repetition", "vocabulary"],
+          "why": "Free spaced-repetition flashcards for Windows, Mac and Linux (the iOS app is paid). Add 10 cards from each course unit, using full sentences with audio, and review every day."
+        },
+        {
+          "name": "AnkiDroid (Android)",
+          "url": "https://play.google.com/store/apps/details?id=com.ichi2.anki",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["flashcards", "spaced-repetition", "mobile"],
+          "why": "The free Android version of Anki; it syncs with the desktop app through a free AnkiWeb account (https://ankiweb.net/). Do your daily reviews on the phone during commutes."
+        },
+        {
+          "name": "Mauril",
+          "url": "https://mauril.ca/en/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "canada",
+          "tags": ["listening", "app", "canadian-content"],
+          "why": "Free CBC/Radio-Canada app (iOS, Android and web) with levelled listening exercises built from real Canadian broadcasts. Do 10 minutes a day."
+        },
+        {
+          "name": "Duolingo",
+          "url": "https://www.duolingo.com/",
+          "levels": ["a1", "a2"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["gamified", "vocabulary", "supplement"],
+          "why": "Gamified practice; the free tier is enough. Use it only as a 5-minute daily supplement at A1–A2. It will not get you to B2 on its own, so do not let it replace the course units or listening practice."
+        },
+        {
+          "name": "LanguageTool",
+          "url": "https://languagetool.org/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["writing", "grammar-checker", "corrector"],
+          "why": "Grammar and spelling checker with a free tier that covers French. Paste each practice essay in after writing it (not during), and copy the error types you repeat into a 'my mistakes' list."
+        },
+        {
+          "name": "Language Reactor",
+          "url": "https://www.languagereactor.com/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["browser-extension", "subtitles", "listening"],
+          "why": "Browser extension that shows dual subtitles and adds easy replay on YouTube and Netflix; the core is free and Pro is paid. Use it with the YouTube channels above to replay hard sentences one by one."
+        },
+        {
+          "name": "Clozemaster",
+          "url": "https://www.clozemaster.com/",
+          "levels": ["a2", "b1", "b2"],
+          "cost": "freemium",
+          "region": "international",
+          "tags": ["vocabulary", "context", "reading"],
+          "why": "Fill-in-the-blank sentence practice ordered by word frequency; a limited free tier, Pro is paid. Useful at A2–B1 to build the 2,000–5,000 most common words in context."
+        },
+        {
+          "name": "Tatoeba",
+          "url": "https://tatoeba.org/",
+          "levels": ["a1", "a2", "b1", "b2"],
+          "cost": "free",
+          "region": "international",
+          "tags": ["example-sentences", "audio", "vocabulary"],
+          "why": "A free, open collection of translated example sentences, many with audio. Search a new word and copy a short sentence with audio into Anki instead of a single word."
+        }
+      ]
+    }
+  ]
+}

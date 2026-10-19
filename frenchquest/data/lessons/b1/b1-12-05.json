@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-12-05",
+  "level": "b1",
+  "unit": "b1-12",
+  "title": "Plan your exam preparation",
+  "goal": "Choose between TEF Canada and TCF Canada, set a realistic NCLC target for each ability, and build a weekly preparation plan with the Exam Lab.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "passer-examen", "kind": "phrase", "fr": "passer un examen", "en": "to take (sit) an exam", "accept": ["passer l'examen"],
+      "note": "False friend: passer un examen = to take it. To pass it = réussir un examen." },
+    { "id": "reussir-examen", "kind": "phrase", "fr": "réussir un examen", "en": "to pass an exam", "accept": ["réussir l'examen"] },
+    { "id": "s-inscrire", "kind": "phrase", "fr": "Je vais m'inscrire au TCF Canada.", "en": "I'm going to register for the TCF Canada.", "accept": ["Je vais m'inscrire au TCF."] },
+    { "id": "objectif", "kind": "vocab", "fr": "objectif", "article": "un", "gender": "m", "en": "a goal, a target", "pos": "noun", "accept": ["un but"],
+      "example": { "fr": "Mon objectif, c'est le NCLC 7 dans les quatre compétences.", "en": "My goal is NCLC 7 in all four abilities." } },
+    { "id": "point-faible", "kind": "vocab", "fr": "point faible", "article": "un", "gender": "m", "en": "a weak point", "pos": "noun",
+      "example": { "fr": "Mon point faible, c'est la compréhension orale.", "en": "My weak point is listening." } },
+    { "id": "point-fort", "kind": "vocab", "fr": "point fort", "article": "un", "gender": "m", "en": "a strong point", "pos": "noun",
+      "example": { "fr": "La lecture est mon point fort.", "en": "Reading is my strong point." } },
+    { "id": "s-entrainer", "kind": "vocab", "fr": "s'entraîner", "en": "to practise, to train", "pos": "verb", "accept": ["s'entrainer", "pratiquer"],
+      "example": { "fr": "Je m'entraîne trente minutes par jour.", "en": "I practise thirty minutes a day." } },
+    { "id": "examen-blanc", "kind": "vocab", "fr": "examen blanc", "article": "un", "gender": "m", "en": "a mock exam, a practice test", "pos": "noun",
+      "example": { "fr": "Je ferai un examen blanc complet un mois avant l'examen.", "en": "I'll do a full mock exam a month before the exam." } },
+    { "id": "valable", "kind": "vocab", "fr": "valable", "en": "valid (for a set time)", "pos": "adjective",
+      "example": { "fr": "Les résultats sont valables deux ans.", "en": "The results are valid for two years." } },
+    { "id": "progresser", "kind": "vocab", "fr": "progresser", "en": "to make progress, to improve", "pos": "verb", "accept": ["faire des progrès"],
+      "example": { "fr": "J'ai beaucoup progressé en expression écrite.", "en": "I've improved a lot in writing." } },
+    { "id": "date-limite", "kind": "vocab", "fr": "date limite", "article": "la", "gender": "f", "en": "the deadline", "pos": "noun",
+      "example": { "fr": "La date limite pour s'inscrire est le 15 mars.", "en": "The deadline to register is March 15." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "B1 is done. What next?",
+      "blocks": [
+        { "type": "dialogue", "title": "Raj makes a decision",
+          "context": "Raj has just finished the B1 checks. He talks it over with Lucie, his tutor.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Ça y est, j'ai fini le niveau B1 ! Maintenant, je voudrais passer l'examen, mais je ne sais pas lequel choisir.", "en": "That's it, I've finished level B1! Now I'd like to take the exam, but I don't know which one to choose." },
+            { "speaker": "Lucie", "fr": "D'abord, vérifie ce que ton programme d'immigration demande, et quel niveau. C'est le plus important.", "en": "First, check what your immigration program requires, and what level. That's the most important thing." },
+            { "speaker": "Raj", "fr": "Pour Entrée express, je vise le NCLC 7 dans les quatre compétences. Les deux examens sont acceptés.", "en": "For Express Entry, I'm aiming for NCLC 7 in all four abilities. Both exams are accepted." },
+            { "speaker": "Lucie", "fr": "Alors, compare les épreuves. Au TEF, à l'oral, tu dois convaincre un ami. Au TCF, tu parles de toi, tu poses des questions, puis tu donnes ton opinion.", "en": "Then compare the tests. In the TEF speaking, you have to convince a friend. In the TCF, you talk about yourself, ask questions, then give your opinion." },
+            { "speaker": "Raj", "fr": "J'aime bien argumenter… Mais à l'écrit, je préfère des textes plus courts.", "en": "I quite like arguing… But in writing, I prefer shorter texts." },
+            { "speaker": "Lucie", "fr": "Fais un essai des deux dans le Laboratoire d'examen, et regarde où tu as les meilleurs résultats. Ensuite, on prépare un plan semaine par semaine.", "en": "Try both in the Exam Lab and see where you get the best results. Then we'll make a week-by-week plan." }
+          ] },
+        { "type": "note", "tone": "info", "body": "[[NCLC]] (Niveaux de compétence linguistique canadiens) is the French name of the Canadian Language Benchmarks (CLB). [[Entrée express]] = Express Entry. [[Ça y est !]] = That's it! / Done!" }
+      ] },
+    { "type": "understand", "title": "Choose your exam",
+      "blocks": [
+        { "type": "explain", "title": "Start with your goal, not with the exam",
+          "body": "Both **TEF Canada** and **TCF Canada** are recognised by Immigration, Refugees and Citizenship Canada (IRCC) and report results that convert to **NCLC levels**. The right choice depends on three questions:\n\n1. **What does your program require?** Which tests it accepts, and which NCLC level in each ability. Rules change, so always check the official IRCC page for your program before you book.\n2. **Which format suits you?** The tasks are different, especially in writing and speaking (see the table).\n3. **What is practical?** Test dates, centres near you, and fees: check with the test centres in your area.\n\nThe Exam Lab gives you format-accurate practice for both exams, so the best way to decide is to **try both** and compare." },
+        { "type": "table", "title": "TEF Canada vs TCF Canada",
+          "head": ["", "TEF Canada", "TCF Canada"],
+          "rows": [
+            ["Reading", "60 min · 40 questions · no penalty for wrong answers", "60 min · 39 questions · increasing difficulty"],
+            ["Listening", "40 min · 40 questions · usually played once", "35 min · 39 questions · played once · increasing difficulty"],
+            ["Writing (60 min)", "A: continue a news article (80–120 words) · B: argue a point of view (200–250 words)", "T1: message (60–120) · T2: article or letter (120–150) · T3: compare two views and take a position (120–180)"],
+            ["Speaking", "15 min · A: obtain information (vous) · B: convince a friend (tu)", "About 12 min · T1: guided interview · T2: interaction · T3: opinion"],
+            ["Scores", "Score out of 699 plus an “équivalence ancien score”, which IRCC uses for each ability", "Listening and reading out of 699; writing and speaking out of 20"],
+            ["Good to know", "All four tests must be taken **on the same day**. Results valid 2 years.", "Total duration about 2 h 47."]
+          ],
+          "frCols": [] },
+        { "type": "table", "title": "Which exam might suit you?",
+          "head": ["If you…", "Consider…"],
+          "rows": [
+            ["enjoy persuading and arguing out loud", "TEF (speaking B: convince a friend)"],
+            ["are more comfortable talking about yourself and giving a short opinion", "TCF (speaking T1 and T3)"],
+            ["write long texts well, and like the news-story format", "TEF (writing A and B)"],
+            ["prefer three shorter writing tasks with tight word ranges", "TCF (writing T1–T3)"],
+            ["lose time on hard questions", "TEF reading has no penalty, so guess and move on; on the TCF, bank easy points early"]
+          ],
+          "frCols": [],
+          "note": "These are tendencies, not rules. Your practice results in the Exam Lab are the best evidence." },
+        { "type": "deepdive", "kind": "canada", "title": "Before you book",
+          "body": "- **Check your program's page on the IRCC website**: accepted tests, minimum NCLC per ability, and how recent the results must be. Requirements differ between programs. For example, citizenship applicants aged 18 to 54 need at least CLB/NCLC 4 in **speaking and listening** only, while Express Entry programs score all four abilities. Check IRCC for the current rules.\n- **Results must be less than two years old** for IRCC purposes (check IRCC for your program), so plan your test date around your application.\n- **Register early**: popular centres fill up weeks or months ahead. Note the [[date limite]] for registration.\n- Practice estimates in FrenchQuest are **unofficial and approximate**; they never predict an official result." }
+      ] },
+    { "type": "understand", "title": "Set a target and build your plan",
+      "blocks": [
+        { "type": "explain", "title": "NCLC: one level per ability",
+          "body": "Your official result is converted to an **NCLC level for each ability separately** (the IRCC tables for these tests run from NCLC 4 to NCLC 10): listening, reading, writing and speaking. Many programs require a minimum in **every** ability, so a weak ability can block you even if the others are strong.\n\nAs a **rough** guide only (this is not an official correspondence), B1 is around NCLC 5–6, and NCLC 7 is roughly the beginning of B2. This is why Units B2 01–12 continue your preparation.\n\nTo set your target:\n\n1. Find the minimum your program requires.\n2. Aim **one level higher** if you can, for safety and for extra points where your program awards them.\n3. Save it in the Exam Lab under **My target**. The NCLC table there highlights your target row." },
+        { "type": "table", "title": "What NCLC 7 means in scores",
+          "head": ["Ability", "TEF Canada (équivalence ancien score)", "TCF Canada"],
+          "rows": [
+            ["Listening", "249–279", "458–502"],
+            ["Reading", "207–232", "453–498"],
+            ["Writing", "310–348", "10–11 (out of 20)"],
+            ["Speaking", "310–348", "10–11 (out of 20)"]
+          ],
+          "frCols": [],
+          "note": "From the IRCC equivalency tables (last checked in the app's data). The full table for NCLC 4 to 10 is in the Exam Lab, under **Official scores**." },
+        { "type": "pattern", "title": "Your weekly cycle",
+          "pattern": "diagnostic → pratique ciblée → série chronométrée → analyse des erreurs → production avec modèle",
+          "note": "1. **Diagnose:** do one set per ability in the Exam Lab to see where you stand.\n2. **Focused practice** on your weakest ability: untimed sets with explanations after every answer.\n3. **Timed set** once a week: the real time pressure, audio played once, no feedback until the end.\n4. **Analyse your errors:** the results screen shows **your biggest opportunities**, the micro-skills where you lose most points (main idea, numbers, intention, paraphrase…).\n5. **Write or speak** one exam task a week and compare with the models.\n\nKeep your daily review in FrenchQuest too: vocabulary and grammar are the base of every score." },
+        { "type": "table", "title": "A sample weekly plan (about 45 minutes a day)",
+          "head": ["Day", "Main task", "In the app"],
+          "rows": [
+            ["Monday", "Listening: focused practice on your weakest micro-skill", "Exam Lab → Listening → Practice"],
+            ["Tuesday", "Writing: one task in exam timing", "Exam Lab → Writing → Timed"],
+            ["Wednesday", "Reading: focused practice, then review the explanations", "Exam Lab → Reading → Practice"],
+            ["Thursday", "Speaking: record one task, compare with the models", "Exam Lab → Speaking"],
+            ["Friday", "One timed set in your weakest ability", "Exam Lab → Timed"],
+            ["Saturday", "Real-life French: a podcast, the news, a conversation", "Daily review"],
+            ["Sunday", "Rest, or a light review; check your progress", "Exam Lab history"]
+          ],
+          "frCols": [],
+          "note": "**Phases:** first weeks mainly focused practice; then more timed sets; in the last two to four weeks, full mocks in exam order (all four abilities on one day, like the real TEF day). Adjust the plan to your time: 20 minutes a day, every day, beats three hours once a week." },
+        { "type": "vocab", "title": "Words to talk about your preparation", "itemIds": ["passer-examen", "reussir-examen", "s-inscrire", "objectif", "point-faible", "point-fort", "s-entrainer", "examen-blanc", "valable", "progresser", "date-limite"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Preparation mistakes",
+          "body": "- **Only practising your strong ability.** It feels good, but the weakest ability decides whether you reach your target.\n- **Never practising under time.** Many candidates know the answers but run out of time. From B1, do at least one timed set a week.\n- **Booking too early or too late.** Book when your timed practice is at or near your target, and leave time for a second attempt before your application deadline.\n- **Ignoring writing and speaking** because they are harder to practise alone. Record yourself, use the checklists, and compare with the models.\n- **Saying [[J'ai passé le TEF]] to mean “I passed the TEF”.** It means “I took it”. To pass = [[réussir]]." }
+      ] },
+    { "type": "recall", "title": "Check your plan",
+      "intro": "Quick questions on choosing and preparing.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "Which exam has three writing tasks with word ranges of 60–120, 120–150 and 120–180 words?",
+          "options": ["TCF Canada", "TEF Canada", "Both"], "answer": 0,
+          "explain": "TCF writing has tasks T1, T2 and T3. TEF writing has two sections: A (80–120 words) and B (200–250 words)." },
+        { "id": "r2", "type": "mcq", "prompt": "In which exam must all four tests be taken on the same day for the certificate to be recognised?",
+          "options": ["TEF Canada", "TCF Canada", "Neither"], "answer": 0,
+          "explain": "This is a TEF Canada rule. Plan for a long day and practise full mocks in exam order." },
+        { "id": "r3", "type": "mcq", "prompt": "Your program requires NCLC 7 in each ability. Your practice estimates are NCLC 8 in reading, 8 in writing, 7 in speaking and 6 in listening. What should you focus on?",
+          "options": ["Listening", "Reading, to reach NCLC 9", "All four equally"], "answer": 0,
+          "explain": "NCLC is checked ability by ability: listening is below the minimum, so it is your priority. Keep the others alive with lighter practice." },
+        { "id": "r4", "type": "mcq", "prompt": "What do the practice estimates in the Exam Lab tell you?",
+          "options": ["An approximate, unofficial idea of where you stand", "Your official result in advance", "The score IRCC will accept"], "answer": 0,
+          "explain": "Estimates help you track progress, but they never predict an official result. Only the real test counts." },
+        { "id": "r5", "type": "cloze", "text": "J'ai ___ le TCF en mars, et je l'ai ___ : j'ai obtenu le NCLC 7 partout !", "answers": [["passé", "fait"], ["réussi"]], "choices": ["passé", "réussi", "fait"], "en": "I took the TCF in March, and I passed it: I got NCLC 7 everywhere!",
+          "explain": "[[passer un examen]] (or [[faire un examen]]) = to take it; [[réussir un examen]] = to pass it." },
+        { "id": "r6", "type": "translate", "prompt": "My weak point is listening, so I practise every day.",
+          "accept": ["Mon point faible, c'est la compréhension orale, donc je m'entraîne tous les jours.", "Mon point faible, c'est l'écoute, donc je m'entraîne tous les jours.", "Mon point faible est la compréhension orale, donc je m'entraîne tous les jours.", "Mon point faible, c'est la compréhension de l'oral, donc je m'entraîne tous les jours.", "Mon point faible, c'est la compréhension orale, alors je m'entraîne tous les jours.", "Mon point faible, c'est l'écoute, alors je m'entraîne tous les jours.", "Mon point faible est l'écoute, donc je m'entraîne tous les jours.", "Mon point faible est la compréhension orale, alors je m'entraîne tous les jours.", "Mon point faible, c'est la compréhension de l'oral, alors je m'entraîne tous les jours."],
+          "explain": "[[point faible]] = weak point; [[s'entraîner]] = to practise; [[donc]] or [[alors]] = so." },
+        { "id": "r7", "type": "match", "prompt": "Match the French and the English.",
+          "pairs": [["un examen blanc", "a mock exam"], ["la date limite", "the deadline"], ["valable deux ans", "valid for two years"], ["un objectif", "a target"], ["progresser", "to improve"]] }
+      ] },
+    { "type": "apply", "title": "Your plan, in French",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write your preparation plan in French (80–150 words), as if you were explaining it to your tutor. Say which exam you choose and why, your NCLC target, your strong and weak points, and what you will do each week. Then open the Exam Lab, choose your exam and save your target.",
+          "promptFr": "Présentez votre plan de préparation : l'examen choisi, votre objectif, vos points forts et faibles, et votre programme de la semaine.",
+          "wordRange": [80, 150],
+          "checklist": ["The exam you choose and at least one reason (parce que, comme…)", "Your NCLC target and why", "One strong point and one weak point", "What you will do each week, with days or times", "A date: when you plan to take the exam", "At least one futur simple (je ferai, je passerai…)", "Optional: si + imparfait → conditionnel (Si j'avais plus de temps, je…)"],
+          "models": [
+            { "label": "Model answer", "fr": "J'ai décidé de passer le TCF Canada, parce que je préfère les textes courts à l'écrit. Mon objectif est le NCLC 7 dans les quatre compétences, pour Entrée express. Mon point fort, c'est la lecture. Mon point faible, c'est la compréhension orale : je ne comprends pas toujours les chiffres. Chaque semaine, je ferai trois séances d'écoute de 30 minutes, une tâche écrite et une tâche orale. Le vendredi, je ferai une série chronométrée. Je passerai l'examen en juin.",
+              "en": "I've decided to take the TCF Canada, because I prefer short texts in writing. My target is NCLC 7 in all four abilities, for Express Entry. My strong point is reading. My weak point is listening: I don't always understand numbers. Every week, I'll do three 30-minute listening sessions, one writing task and one speaking task. On Fridays, I'll do a timed set. I'll take the exam in June." },
+            { "label": "Stronger model answer", "fr": "Après avoir essayé les deux examens dans le Laboratoire d'examen, j'ai choisi le TEF Canada. J'aime argumenter, et j'ai eu de meilleurs résultats à la tâche où il faut convaincre un ami. Mon programme demande le NCLC 7, mais je vise le NCLC 8 en lecture et en écriture, mes points forts, pour avoir une marge de sécurité. En revanche, l'oral reste mon point faible : je parle encore trop lentement. C'est pourquoi je m'entraînerai à l'expression orale trois fois par semaine, en m'enregistrant. Le mardi et le jeudi, je ferai une série d'écoute, et chaque dimanche, une tâche écrite chronométrée. Si tout se passe bien, je ferai un examen blanc complet début mai, et je passerai le vrai examen à la fin juin.",
+              "en": "After trying both exams in the Exam Lab, I chose the TEF Canada. I like arguing, and I got better results on the task where you have to convince a friend. My program requires NCLC 7, but I'm aiming for NCLC 8 in reading and writing, my strong points, to have a safety margin. On the other hand, speaking is still my weak point: I still speak too slowly. That's why I'll practise speaking three times a week, recording myself. On Tuesdays and Thursdays, I'll do a listening set, and every Sunday, a timed writing task. If all goes well, I'll do a full mock exam at the beginning of May, and I'll take the real exam at the end of June." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Compare TEF Canada and TCF Canada task by task, and check your program's requirements on the IRCC website\n- Set an NCLC target for each ability, and save it in the Exam Lab\n- Follow a weekly cycle: diagnose, focused practice, timed sets, error analysis, writing and speaking with models\n- Talk about your preparation: [[passer]] vs [[réussir un examen]], [[point faible]], [[s'entraîner]], [[examen blanc]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "NCLC 7 scores match the nclc.json files. Hedged the CEFR/NCLC correspondence as rough and unofficial; made IRCC facts precise (citizenship: NCLC 4 speaking/listening, ages 18–54; results under 2 years) with check-IRCC hedges. r5 now also accepts « fait » for the first blank; added translate variants." }
+}

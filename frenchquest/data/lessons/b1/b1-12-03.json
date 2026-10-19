@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-12-03",
+  "level": "b1",
+  "unit": "b1-12",
+  "title": "B1 writing check",
+  "goal": "Show that you can use B1 grammar accurately and write two exam-style texts: the continuation of a news story (80–120 words) and an argued opinion (200–250 words).",
+  "minutes": 20,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-si-conditionnel", "kind": "grammar", "fr": "si + imparfait → conditionnel", "en": "hypotheses: if I had…, I would…",
+      "drills": [
+        { "type": "cloze", "text": "Si j'___ plus de temps, je ferais du bénévolat. (avoir)", "answers": [["avais"]], "en": "If I had more time, I would volunteer.", "explain": "After [[si]], use the imparfait, never the conditionnel." },
+        { "type": "cloze", "text": "Si les élèves faisaient du bénévolat, ils ___ mieux leur communauté. (connaître)", "answers": [["connaîtraient", "connaitraient"]], "en": "If students volunteered, they would know their community better.", "explain": "Main clause = conditionnel: future stem [[connaîtr-]] + imparfait endings." },
+        { "type": "translate", "prompt": "If it were free, more people would come.", "accept": ["Si c'était gratuit, plus de gens viendraient.", "Si c'était gratuit, davantage de gens viendraient.", "Si c'était gratuit, plus de personnes viendraient.", "Plus de gens viendraient si c'était gratuit."], "explain": "[[si]] + imparfait ([[c'était]]) → conditionnel ([[viendraient]])." }
+      ] },
+    { "id": "g-relatifs", "kind": "grammar", "fr": "qui, que, où, dont", "en": "relative pronouns",
+      "drills": [
+        { "type": "cloze", "text": "C'est le projet ___ je t'ai parlé.", "answers": [["dont"]], "en": "That's the project I told you about.", "explain": "[[parler de]] → [[dont]]." },
+        { "type": "cloze", "text": "La ville ___ j'habite est très calme.", "answers": [["où"]], "en": "The city where I live is very quiet.", "explain": "A place → [[où]]." },
+        { "type": "mcq", "prompt": "Choose the correct relative pronoun: « Le livre ___ tu m'as prêté est génial. »", "options": ["que", "qui", "dont"], "answer": 0, "explain": "[[tu]] is the subject; [[le livre]] is the object of [[prêter]] → [[que]]." }
+      ] },
+    { "id": "boite-carton", "kind": "vocab", "fr": "boîte en carton", "article": "une", "gender": "f", "en": "a cardboard box", "pos": "noun",
+      "example": { "fr": "Il a trouvé une vieille boîte en carton.", "en": "He found an old cardboard box." } },
+    { "id": "retraite", "kind": "vocab", "fr": "retraité", "article": "un", "gender": "m", "en": "a retiree, a retired man", "pos": "noun", "accept": ["une retraitée"],
+      "example": { "fr": "Un retraité de 72 ans a fait une découverte.", "en": "A 72-year-old retiree made a discovery." } },
+    { "id": "rendre-obligatoire", "kind": "phrase", "fr": "rendre le bénévolat obligatoire", "en": "to make volunteering compulsory" },
+    { "id": "il-est-vrai", "kind": "phrase", "fr": "Il est vrai que…, mais…", "en": "It's true that…, but… (conceding a point)", "accept": ["Certes…, mais…"] },
+    { "id": "en-effet", "kind": "phrase", "fr": "en effet", "en": "indeed (introducing an explanation)" },
+    { "id": "par-ailleurs", "kind": "phrase", "fr": "par ailleurs", "en": "moreover, besides (adding a new point)", "accept": ["de plus", "en outre"] },
+    { "id": "en-revanche", "kind": "phrase", "fr": "en revanche", "en": "on the other hand (contrast)", "accept": ["par contre"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What this check measures",
+      "blocks": [
+        { "type": "explain", "title": "B1 writing: what you can do",
+          "body": "At B1, a writer can produce **simple connected texts** on familiar topics: tell an event clearly, describe experiences and feelings, and **give and justify an opinion** with reasons and examples.\n\nThis check has two parts:\n\n- **Part 1 (graded):** 10 items on B1 accuracy: narrative tenses, the passive, hypotheses with [[si]], relative pronouns, reported speech, the gerund and connectors.\n- **Part 2 (self-checked):** two exam-style texts, in exam timing: a **news continuation** (80–120 words, 25 minutes, like TEF section A) and an **opinion text** (200–250 words, 35 minutes, like TEF section B). Compare with the checklist and two models: a **B1 model** (a solid pass) and a **Strong B1 model** (on the way to B2).\n\nAim for **80%** in Part 1 to pass the checkpoint." },
+        { "type": "note", "tone": "info",
+          "body": "**Reread every answer once** for the classic B1 slips: [[si]] + imparfait (never [[si + conditionnel]]), past participle agreement with [[être]], [[dont]] after verbs with [[de]], and accents on [[été]], [[à]], [[où]]." }
+      ] },
+    { "type": "assess", "title": "Part 1: B1 accuracy",
+      "intro": "Write each answer without looking back at earlier lessons.",
+      "blocks": [
+        { "id": "w1", "type": "cloze", "text": "Quand je suis arrivé à la gare, le train ___ déjà ___. (partir)", "answers": [["était"], ["parti"]], "en": "When I got to the station, the train had already left.",
+          "explain": "An action before another past action = plus-que-parfait: imparfait of [[être]] + [[parti]], because [[partir]] uses être." },
+        { "id": "w2", "type": "cloze", "text": "Si j'___ plus de temps, je ___ du bénévolat. (avoir, faire)", "answers": [["avais"], ["ferais"]], "en": "If I had more time, I would volunteer.",
+          "explain": "[[si]] + imparfait ([[avais]]) → conditionnel ([[ferais]], from the irregular stem [[fer-]])." },
+        { "id": "w3", "type": "cloze", "text": "C'est la collègue ___ je t'ai parlé hier.", "answers": [["dont"]], "choices": ["dont", "que", "où", "qui"], "en": "That's the colleague I told you about yesterday.",
+          "explain": "[[parler de quelqu'un]] → [[dont]] replaces [[de + person]]." },
+        { "id": "w4", "type": "translate", "prompt": "The road was closed by the police.",
+          "accept": ["La route a été fermée par la police.", "La rue a été fermée par la police.", "La route était fermée par la police."],
+          "hint": "Passive: être + past participle, agreeing with the subject.",
+          "explain": "Passive in the passé composé: [[a été fermée]]. The participle agrees with [[la route]] (feminine)." },
+        { "id": "w5", "type": "translate", "prompt": "She told me that she would come on Saturday.",
+          "accept": ["Elle m'a dit qu'elle viendrait samedi.", "Elle m'a dit qu'elle viendrait ce samedi.", "Elle m'a dit qu'elle allait venir samedi."],
+          "explain": "Reported speech in the past: the future [[viendra]] becomes the conditionnel [[viendrait]]." },
+        { "id": "w6", "type": "cloze", "text": "J'ai beaucoup progressé ___ ___ des séries en français. (regarder)", "answers": [["en"], ["regardant"]], "en": "I made a lot of progress by watching series in French.",
+          "explain": "The gerund [[en]] + present participle expresses *how*: [[en regardant]]." },
+        { "id": "w7", "type": "cloze", "text": "___ ___ terminé mon travail, je suis allée au gym.", "answers": [["Après"], ["avoir"]], "en": "After finishing my work, I went to the gym.",
+          "explain": "[[après avoir]] + past participle (with avoir verbs). With être verbs: [[après être partie]]." },
+        { "id": "w8", "type": "mcq", "prompt": "Choose the right connector: « Ce projet est très utile. ___, il coûte cher à la Ville. »",
+          "options": ["Cependant", "Donc", "En effet", "Par exemple"], "answer": 0, "optionsFr": true,
+          "explain": "The second idea contrasts with the first: [[cependant]] (however). [[En effet]] would introduce a proof of the first idea.",
+          "optionFeedback": [null, "[[Donc]] introduces a consequence; a high cost is not a consequence of being useful.", "[[En effet]] confirms or explains what comes before; here there is a contrast.", "[[Par exemple]] introduces an example of the first idea."] },
+        { "id": "w9", "type": "reorder", "prompt": "That's what I like most.", "accept": ["C'est ce qui me plaît le plus."], "extra": ["que"],
+          "explain": "[[ce qui]] is the subject of [[plaire]]: [[ce qui me plaît]]. With [[aimer]], you'd say [[ce que j'aime le plus]]." },
+        { "id": "w10", "type": "translate", "prompt": "It's true that it's expensive, but it's useful.",
+          "accept": ["Il est vrai que c'est cher, mais c'est utile.", "C'est vrai que c'est cher, mais c'est utile.", "Certes, c'est cher, mais c'est utile.", "Il est vrai que ça coûte cher, mais c'est utile.", "C'est vrai que ça coûte cher, mais c'est utile."],
+          "explain": "[[Il est vrai que…, mais…]] concedes a point before answering it: a key B1 argument move." }
+      ] },
+    { "type": "apply", "title": "Part 2: Two exam-style texts",
+      "blocks": [
+        { "type": "text", "title": "Text 1: the start of the article",
+          "fr": "VICTORIAVILLE — Un retraité de 72 ans a eu toute une surprise, samedi après-midi, en faisant le ménage de son garage. Au fond d'une vieille boîte en carton, il a trouvé…",
+          "en": "VICTORIAVILLE — A 72-year-old retiree got quite a surprise on Saturday afternoon while cleaning out his garage. At the bottom of an old cardboard box, he found…" },
+        { "id": "m1", "type": "write", "prompt": "Exam timing: **25 minutes** (5 to plan, 17 to write, 3 to reread). Continue this news article in 80–120 words. Stay in a journalistic style: third person, past tenses, facts, at least one witness or source, and a clear ending.",
+          "promptFr": "Écrivez la suite de cet article. (80 à 120 mots)",
+          "wordRange": [80, 120],
+          "checklist": ["Third person, factual, no personal opinion", "Passé composé for events, imparfait for background", "At least one plus-que-parfait or passive", "A witness or a source: selon…, explique…, d'après…", "Answers what, who, when, where and why", "A clear ending", "80 to 120 words", "Reread: agreements, accents, verb endings"],
+          "models": [
+            { "label": "B1 model", "fr": "Il a trouvé une enveloppe avec cent lettres et plusieurs photos des années 1950. Les lettres avaient été écrites par un soldat à sa fiancée. Monsieur Gagnon ne connaissait pas ces personnes, parce qu'il avait acheté la maison en 1985. Il a donc contacté la société d'histoire de la ville. Selon les bénévoles, la fiancée habitait dans la maison avant la guerre. Grâce à Internet, ils ont retrouvé sa petite-fille, qui vit maintenant à Drummondville. « Elle a pleuré au téléphone », raconte Monsieur Gagnon. Les lettres lui ont été remises lundi.",
+              "en": "He found an envelope with a hundred letters and several photos from the 1950s. The letters had been written by a soldier to his fiancée. Mr. Gagnon didn't know these people, because he had bought the house in 1985. So he contacted the town's historical society. According to the volunteers, the fiancée lived in the house before the war. Thanks to the internet, they found her granddaughter, who now lives in Drummondville. “She cried on the phone,” says Mr. Gagnon. The letters were handed over to her on Monday." },
+            { "label": "Strong B1 model", "fr": "Il a découvert une pile de billets de banque attachés, pour un total de près de 8 000 $. « J'ai d'abord cru que c'était de l'argent de jeu », raconte Roger Gagnon, qui avait acheté la maison il y a trente ans. En regardant de plus près, il a compris que les billets dataient des années 1970 et qu'ils étaient vrais. Il a appelé la police, qui a mené une enquête. Selon les policiers, l'argent aurait appartenu à l'ancien propriétaire, mort en 1992, qui ne faisait pas confiance aux banques. Ses deux enfants ont été retrouvés et vont recevoir la somme. Monsieur Gagnon, lui, a reçu un cadeau : une invitation à souper chez eux.",
+              "en": "He discovered a pile of banknotes tied together, for a total of almost $8,000. “At first I thought it was play money,” says Roger Gagnon, who had bought the house thirty years ago. Looking more closely, he understood that the notes dated from the 1970s and that they were real. He called the police, who carried out an investigation. According to the police, the money apparently belonged to the former owner, who died in 1992 and didn't trust banks. His two children have been found and will receive the money. Mr. Gagnon himself received a present: an invitation to dinner at their home." }
+          ] },
+        { "type": "text", "title": "Text 2: the opinion topic",
+          "fr": "Certaines écoles secondaires demandent à leurs élèves de faire 40 heures de bénévolat avant d'obtenir leur diplôme. Selon vous, faut-il rendre le bénévolat obligatoire pour tous les élèves du secondaire ?",
+          "en": "Some high schools require their students to do 40 hours of volunteering before getting their diploma. In your opinion, should volunteering be made compulsory for all high school students?" },
+        { "id": "m2", "type": "write", "prompt": "Exam timing: **35 minutes** (5 to plan, 26 to write, 4 to reread). Give and justify your opinion in 200–250 words, for example in a letter to the readers of a local newspaper. Take a clear position, develop at least three arguments with examples, answer one opposing argument, and conclude.",
+          "promptFr": "Faut-il rendre le bénévolat obligatoire pour tous les élèves du secondaire ? Donnez votre opinion et justifiez-la. (200 à 250 mots)",
+          "wordRange": [200, 250],
+          "checklist": ["An introduction that presents the topic and your position", "At least three different arguments", "A concrete example for each argument (from your life, your city, your country)", "One opposing argument, answered: Il est vrai que…, mais…", "Varied connectors: tout d'abord, de plus, par ailleurs, cependant, en effet, c'est pourquoi", "At least one hypothesis: si + imparfait → conditionnel", "A conclusion that sums up your position", "Paragraphs, and 200 to 250 words"],
+          "models": [
+            { "label": "B1 model", "fr": "Aujourd'hui, certaines écoles demandent aux élèves de faire du bénévolat avant d'obtenir leur diplôme. À mon avis, c'est une bonne idée, et toutes les écoles devraient le faire.\n\nTout d'abord, le bénévolat aide les jeunes à découvrir le monde du travail. Par exemple, mon neveu a travaillé dans une banque alimentaire : il a appris à être ponctuel et à travailler en équipe. Ce sont des qualités importantes pour trouver un emploi.\n\nDe plus, le bénévolat crée des liens entre les générations. Si les élèves aidaient des personnes âgées, ils comprendraient mieux leurs difficultés. Dans mon quartier, des adolescents font les courses pour des voisins de 80 ans, et tout le monde est content.\n\nEnfin, c'est une bonne façon de pratiquer une langue. Pour les jeunes immigrants, comme mes enfants, faire du bénévolat en français est très utile. Ils rencontrent des gens et ils apprennent des mots qu'on n'apprend pas en classe.\n\nIl est vrai que les élèves sont déjà très occupés avec leurs devoirs et leurs activités. Cependant, 40 heures en quatre ou cinq ans, ce n'est pas beaucoup : c'est moins d'une heure par mois.\n\nPour conclure, je pense que le bénévolat obligatoire est utile pour les jeunes et pour la société. C'est pourquoi je suis pour cette mesure.",
+              "en": "Today, some schools ask students to volunteer before getting their diploma. In my opinion, it's a good idea, and all schools should do it. First of all, volunteering helps young people discover the world of work. For example, my nephew worked at a food bank: he learned to be punctual and to work in a team. These are important qualities for finding a job. What's more, volunteering creates links between generations. If students helped elderly people, they would better understand their difficulties. In my neighbourhood, teenagers do the shopping for 80-year-old neighbours, and everyone is happy. Finally, it's a good way to practise a language. For young immigrants, like my children, volunteering in French is very useful. They meet people and learn words you don't learn in class. It's true that students are already very busy with their homework and activities. However, 40 hours over four or five years isn't much: it's less than an hour a month. To conclude, I think compulsory volunteering is useful for young people and for society. That's why I'm in favour of this measure." },
+            { "label": "Strong B1 model", "fr": "De plus en plus d'écoles secondaires exigent 40 heures de bénévolat avant la remise du diplôme. Faut-il étendre cette règle à tous les élèves ? Personnellement, j'y suis favorable, à condition de laisser les jeunes choisir leur activité.\n\nD'abord, le bénévolat permet aux adolescents de sortir de l'école et de découvrir des milieux qu'ils ne connaissent pas. En aidant dans un refuge pour animaux ou dans un club sportif, ils développent leur sens des responsabilités. Ma fille, par exemple, a découvert sa future profession en faisant du bénévolat dans une résidence pour personnes âgées.\n\nPar ailleurs, cette expérience est un véritable atout pour l'avenir. Les employeurs apprécient les candidats qui se sont engagés dans leur communauté, et certaines universités en tiennent compte. Un jeune qui a aidé à organiser un festival a déjà quelque chose de concret à mettre dans son CV.\n\nEnfin, le bénévolat renforce la solidarité. Si chaque élève donnait quelques heures par année, des centaines d'organismes recevraient une aide précieuse.\n\nCertains diront qu'un engagement obligatoire n'est plus vraiment du bénévolat. C'est vrai en partie. En revanche, beaucoup de jeunes n'osent pas faire le premier pas : une obligation légère leur donne l'occasion d'essayer, et beaucoup continuent ensuite par plaisir.\n\nEn somme, le bénévolat obligatoire me paraît une mesure utile, à condition de rester souple et de laisser une vraie liberté de choix aux élèves.",
+              "en": "More and more high schools require 40 hours of volunteering before awarding the diploma. Should this rule be extended to all students? Personally, I'm in favour, provided that young people are allowed to choose their activity. First, volunteering allows teenagers to get out of school and discover environments they don't know. By helping in an animal shelter or a sports club, they develop a sense of responsibility. My daughter, for example, discovered her future profession by volunteering in a seniors' residence. Moreover, this experience is a real asset for the future. Employers appreciate candidates who have been involved in their community, and some universities take it into account. A young person who has helped organise a festival already has something concrete to put on their CV. Finally, volunteering strengthens solidarity. If every student gave a few hours a year, hundreds of organisations would receive valuable help. Some will say that a compulsory commitment isn't really volunteering any more. That's partly true. On the other hand, many young people don't dare take the first step: a light obligation gives them the chance to try, and many then continue for pleasure. In short, compulsory volunteering seems to me a useful measure, provided that it stays flexible and leaves students a real freedom of choice." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use B1 grammar accurately: plus-que-parfait, passive, [[si]] + imparfait → conditionnel, [[qui / que / où / dont]], reported speech, the gerund, [[après avoir]]\n- Continue a news story in 80–120 words in a factual, journalistic style\n- Write a 200–250-word opinion text with a position, three arguments, examples, a concession and a conclusion",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed an arithmetic slip in the B1 model (40 h over 4–5 years is less than an hour a month). Part 1 items checked: each has one defensible answer." }
+}

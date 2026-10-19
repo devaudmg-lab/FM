@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-02-03",
+  "level": "a2",
+  "unit": "a2-02",
+  "title": "Reflexive verbs in the past",
+  "goal": "Talk about your day in the past with reflexive verbs (je me suis levé, on s'est bien amusés), including negatives and questions.",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "g-reflexive-pc",
+      "kind": "grammar",
+      "fr": "je me suis levé, elle s'est levée",
+      "en": "reflexive verbs in the passé composé (always with être)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Ce matin, je me ___ réveillé à six heures.",
+          "answers": [
+            [
+              "suis"
+            ]
+          ],
+          "en": "This morning I woke up at six.",
+          "explain": "Reflexive verbs always use être: je me suis réveillé."
+        },
+        {
+          "type": "cloze",
+          "text": "Mei s'est ___ dans le Marché By. (se perdre)",
+          "answers": [
+            [
+              "perdue"
+            ]
+          ],
+          "en": "Mei got lost in the ByWard Market.",
+          "explain": "Mei is a woman → perdue, with -e (perdre → perdu)."
+        },
+        {
+          "type": "cloze",
+          "text": "Les enfants se sont ___ à 20 h. (se coucher)",
+          "answers": [
+            [
+              "couchés"
+            ]
+          ],
+          "en": "The children went to bed at 8 p.m.",
+          "explain": "Plural, mixed or unknown group → masculine plural: couchés."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “Did you get up early?” (to a friend, a man)",
+          "options": [
+            "Tu t'es levé tôt ?",
+            "Tu as levé tôt ?",
+            "Tu t'as levé tôt ?"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Reflexive → être: tu t'es levé. Never *t'as* here."
+        }
+      ]
+    },
+    {
+      "id": "g-reflexive-neg",
+      "kind": "grammar",
+      "fr": "je ne me suis pas levé",
+      "en": "negative of reflexive verbs in the past",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Je ___ me suis ___ reposé.",
+          "answers": [
+            [
+              "ne"
+            ],
+            [
+              "pas"
+            ]
+          ],
+          "en": "I didn't rest.",
+          "explain": "ne before the pronoun, pas after être: je ne me suis pas reposé."
+        },
+        {
+          "type": "translate",
+          "prompt": "She didn't hurry.",
+          "accept": [
+            "Elle ne s'est pas dépêchée."
+          ],
+          "explain": "ne + s'est + pas + dépêchée (with -e for elle)."
+        }
+      ]
+    },
+    {
+      "id": "je-me-suis-leve",
+      "kind": "phrase",
+      "fr": "Je me suis levé tôt.",
+      "en": "I got up early.",
+      "accept": [
+        "Je me suis levé tôt.",
+        "Je me suis levée tôt."
+      ]
+    },
+    {
+      "id": "on-s-est-amuses",
+      "kind": "phrase",
+      "fr": "On s'est bien amusés.",
+      "en": "We had a lot of fun.",
+      "accept": [
+        "On s'est bien amusés.",
+        "On s'est bien amusées.",
+        "On s'est bien amusé.",
+        "Nous nous sommes bien amusés.",
+        "Nous nous sommes bien amusées."
+      ]
+    },
+    {
+      "id": "elle-s-est-perdue",
+      "kind": "phrase",
+      "fr": "Elle s'est perdue.",
+      "en": "She got lost."
+    },
+    {
+      "id": "pas-repose",
+      "kind": "phrase",
+      "fr": "Je ne me suis pas reposé.",
+      "en": "I didn't rest.",
+      "accept": [
+        "Je ne me suis pas reposé.",
+        "Je ne me suis pas reposée."
+      ]
+    },
+    {
+      "id": "tu-t-es-couche",
+      "kind": "phrase",
+      "fr": "Tu t'es couché à quelle heure ?",
+      "en": "What time did you go to bed? (to a friend)",
+      "accept": [
+        "Tu t'es couché à quelle heure ?",
+        "Tu t'es couchée à quelle heure ?",
+        "À quelle heure tu t'es couché ?",
+        "À quelle heure tu t'es couchée ?",
+        "À quelle heure est-ce que tu t'es couché ?",
+        "À quelle heure est-ce que tu t'es couchée ?",
+        "À quelle heure t'es-tu couché ?",
+        "À quelle heure t'es-tu couchée ?"
+      ]
+    },
+    {
+      "id": "se-promener",
+      "kind": "vocab",
+      "fr": "se promener",
+      "en": "to go for a walk",
+      "pos": "verb",
+      "example": {
+        "fr": "Nous nous sommes promenés au bord du canal.",
+        "en": "We went for a walk along the canal."
+      }
+    },
+    {
+      "id": "se-depecher",
+      "kind": "vocab",
+      "fr": "se dépêcher",
+      "en": "to hurry",
+      "pos": "verb",
+      "example": {
+        "fr": "Dépêche-toi !",
+        "en": "Hurry up!"
+      }
+    },
+    {
+      "id": "se-reposer",
+      "kind": "vocab",
+      "fr": "se reposer",
+      "en": "to rest",
+      "pos": "verb"
+    },
+    {
+      "id": "s-amuser",
+      "kind": "vocab",
+      "fr": "s'amuser",
+      "en": "to have fun",
+      "pos": "verb"
+    },
+    {
+      "id": "patiner",
+      "kind": "vocab",
+      "fr": "patiner",
+      "en": "to skate",
+      "pos": "verb",
+      "example": {
+        "fr": "On a patiné sur le canal Rideau.",
+        "en": "We skated on the Rideau Canal."
+      },
+      "note": "Not reflexive, and not an être verb: j'ai patiné."
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Winterlude in Ottawa",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "Back from Ottawa",
+          "context": "Olivier went to Winterlude (le Bal de Neige) in Ottawa with his partner and their two children. Nguyen asks him about it.",
+          "lines": [
+            {
+              "speaker": "Nguyen",
+              "fr": "Alors, Ottawa ? Vous vous êtes bien amusés ?",
+              "en": "So, Ottawa? Did you have fun?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Oui, beaucoup ! Samedi, on s'est levés à six heures. On s'est habillés très chaudement, parce qu'il a fait moins vingt !",
+              "en": "Yes, a lot! On Saturday we got up at six. We dressed very warmly, because it was minus twenty!"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Moins vingt ? Ouf ! Et vous avez patiné sur le canal Rideau ?",
+              "en": "Minus twenty? Phew! And did you skate on the Rideau Canal?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Oui, on a patiné huit kilomètres ! Ma fille est tombée deux fois, mais elle ne s'est pas fait mal. Après, on s'est reposés dans un café et les enfants ont mangé des queues de castor.",
+              "en": "Yes, we skated eight kilometres! My daughter fell twice, but she didn't hurt herself. Afterwards we rested in a café and the kids ate BeaverTails."
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Et dimanche ?",
+              "en": "And on Sunday?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Dimanche, ma blonde s'est perdue dans le Marché By ! Moi, je me suis promené avec les enfants au parc de la Confédération pour voir les sculptures de glace.",
+              "en": "On Sunday, my girlfriend got lost in the ByWard Market! I went for a walk with the kids in Confederation Park to see the ice sculptures."
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Et tu t'es couché à quelle heure hier ?",
+              "en": "And what time did you go to bed yesterday?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "À minuit. Je ne me suis pas reposé du tout ! Mais on s'est vraiment bien amusés.",
+              "en": "At midnight. I didn't rest at all! But we really had a lot of fun."
+            }
+          ]
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "Why did the family dress warmly?",
+          "options": [
+            "It was minus twenty.",
+            "They skated at night.",
+            "It was snowing hard."
+          ],
+          "answer": 0,
+          "explain": "[[parce qu'il a fait moins vingt]] = because it was minus twenty (degrees)."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Reflexive verbs in the passé composé",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "All reflexive verbs use être",
+          "body": "This rule is easy: **every reflexive verb** ([[se lever, s'habiller, se promener…]]) uses **être** in the passé composé. No exceptions.\n\nThe order is: subject + **reflexive pronoun** + **être** + participle. The pronoun stays in front, as in the present:\n\n- present: [[je me lève]]\n- passé composé: [[je me suis levé]]\n\nAnd because it uses être, the participle **agrees with the subject**: [[elle s'est levée]], [[ils se sont levés]]."
+        },
+        {
+          "type": "table",
+          "title": "Se lever in the passé composé",
+          "head": [
+            "Subject",
+            "man / men",
+            "woman / women"
+          ],
+          "rows": [
+            [
+              "je",
+              "je me suis levé",
+              "je me suis levée"
+            ],
+            [
+              "tu",
+              "tu t'es levé",
+              "tu t'es levée"
+            ],
+            [
+              "il / elle",
+              "il s'est levé",
+              "elle s'est levée"
+            ],
+            [
+              "on (= we)",
+              "on s'est levés",
+              "on s'est levées"
+            ],
+            [
+              "nous",
+              "nous nous sommes levés",
+              "nous nous sommes levées"
+            ],
+            [
+              "vous",
+              "vous vous êtes levé, levés",
+              "vous vous êtes levée, levées"
+            ],
+            [
+              "ils / elles",
+              "ils se sont levés",
+              "elles se sont levées"
+            ]
+          ],
+          "frCols": [
+            1,
+            2
+          ],
+          "sayCol": true,
+          "note": "[[me, te, se]] become [[m', t', s']] before a vowel: [[tu t'es levé]], [[il s'est levé]]. Never [[tu t'as]] or [[il s'a]]."
+        },
+        {
+          "type": "pattern",
+          "title": "Negatives and questions",
+          "pattern": "ne + pronom + être + pas + participe",
+          "note": "The negation surrounds **the pronoun and être together**: [[ne me suis pas]]. In questions, intonation and est-ce que are the easiest.",
+          "examples": [
+            {
+              "fr": "Je ne me suis pas réveillé à temps.",
+              "en": "I didn't wake up in time."
+            },
+            {
+              "fr": "Elle ne s'est pas fait mal.",
+              "en": "She didn't hurt herself."
+            },
+            {
+              "fr": "Tu t'es bien amusée ?",
+              "en": "Did you have fun? (to a woman)"
+            },
+            {
+              "fr": "Est-ce que vous vous êtes perdus ?",
+              "en": "Did you get lost? (to a group)"
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "New words",
+          "itemIds": [
+            "se-promener",
+            "se-depecher",
+            "se-reposer",
+            "s-amuser",
+            "patiner"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Using avoir:** [[Je m'ai levé]] or [[Il s'a habillé]] → [[Je me suis levé]], [[Il s'est habillé]].\n- **Dropping the pronoun:** [[Je suis levé]] means *I am up* (a state). The action *I got up* needs [[me]]: [[Je me suis levé]].\n- **Negation in the wrong place:** [[Je me ne suis pas levé]] or [[Je ne suis pas me levé]] → [[Je ne me suis pas levé]].\n- **Forgetting agreement:** [[Elle s'est levé]] → [[Elle s'est levée]].\n- **Non-reflexive verbs:** [[patiner]], [[marcher]], [[skier]] use avoir: [[On a patiné]], not [[On s'est patiné]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "why",
+          "title": "A preview: when there is no agreement",
+          "body": "There is one case you will meet later: when the reflexive verb is followed by a body part or another object, the participle does **not** agree: [[Elle s'est lavé les mains]] (She washed her hands), but [[Elle s'est lavée]] (She washed). You have already seen one in this lesson: in [[se faire mal]], [[mal]] comes after the participle, so [[fait]] does not agree: [[Elle s'est fait mal]]. Apart from this expression, make the participle agree with the subject in all the verbs of this lesson."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Winter words and Québec fun",
+          "body": "- [[le Bal de Neige]] is Ottawa–Gatineau's winter festival (*Winterlude*). The [[canal Rideau]] becomes a skateway of almost 8 km.\n- [[une queue de castor]] (*BeaverTail*) is a famous fried pastry. Literally *a beaver tail*.\n- In Québec, [[On a eu du fun]] is the very common informal way to say *we had fun* (yes, with the English word *fun*, pronounced *fonne*). Standard: [[On s'est bien amusés]].\n- Temperatures: [[Il a fait moins vingt]] = it was minus twenty. No need to say *degrees*."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear the pronoun",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "In fast speech, [[je me suis]] gets very short. Say it slowly first, then faster.",
+          "lines": [
+            {
+              "fr": "Je me suis levé à six heures.",
+              "en": "I got up at six.",
+              "tip": "zhuh-muh-swee, then faster: zhm-swee."
+            },
+            {
+              "fr": "On s'est habillés chaudement.",
+              "en": "We dressed warmly.",
+              "tip": "s'est sounds like say: on-sé-ta-bi-yé."
+            },
+            {
+              "fr": "Elle s'est perdue dans le marché.",
+              "en": "She got lost in the market."
+            },
+            {
+              "fr": "Nous nous sommes promenés au bord du canal.",
+              "en": "We went for a walk along the canal."
+            },
+            {
+              "fr": "Je ne me suis pas reposé du tout.",
+              "en": "I didn't rest at all."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Les enfants se sont couchés à huit heures, et nous, on s'est couchés à minuit.",
+          "en": "The children went to bed at eight, and we went to bed at midnight.",
+          "prompt": "When did the parents go to bed?",
+          "options": [
+            "At midnight",
+            "At eight",
+            "At six"
+          ],
+          "answer": 0,
+          "explain": "[[nous, on s'est couchés à minuit]]. The children went to bed at eight."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Ce matin, je ne me suis pas réveillée à temps.",
+          "en": "This morning I didn't wake up in time.",
+          "prompt": "What happened this morning?",
+          "options": [
+            "The speaker overslept.",
+            "The speaker woke up very early.",
+            "The speaker woke up in time."
+          ],
+          "answer": 0,
+          "explain": "[[je ne me suis pas réveillée à temps]] = I didn't wake up in time. Negative around [[me suis]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Pronoun, être, participle, agreement: four checks each time.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Samedi, nous nous ___ ___ au parc. (se promener)",
+          "answers": [
+            [
+              "sommes"
+            ],
+            [
+              "promenés",
+              "promenées"
+            ]
+          ],
+          "en": "On Saturday we went for a walk in the park.",
+          "explain": "nous nous sommes + promenés (or promenées for a group of women)."
+        },
+        {
+          "id": "r2",
+          "type": "translate",
+          "prompt": "I got up at seven. (woman speaking)",
+          "accept": [
+            "Je me suis levée à sept heures.",
+            "Je me suis levée à 7 h.",
+            "À sept heures, je me suis levée.",
+            "À 7 h, je me suis levée."
+          ],
+          "hint": "se lever: me + suis + participle",
+          "explain": "Reflexive → être, and a woman speaking → [[levée]]."
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "Il ne s'est pas dépêché.",
+            "Il ne s'a pas dépêché.",
+            "Il s'est ne pas dépêché.",
+            "Il ne s'est dépêché pas."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "Reflexive verbs use être: s'est.",
+            "ne goes before the pronoun s'.",
+            "pas goes right after est."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Ma fille est tombée, mais elle ne s'est pas ___ mal.",
+          "answers": [
+            [
+              "fait"
+            ]
+          ],
+          "choices": [
+            "fait",
+            "faite",
+            "eu",
+            "été"
+          ],
+          "en": "My daughter fell, but she didn't hurt herself.",
+          "explain": "[[se faire mal]] = to hurt oneself. [[mal]] is the object and comes after the verb, so [[fait]] does not agree: [[elle s'est fait mal]]."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "Did you have fun? (to a group of friends)",
+          "accept": [
+            "Vous vous êtes bien amusés ?",
+            "Vous vous êtes bien amusées ?",
+            "Vous vous êtes amusés ?",
+            "Vous vous êtes amusées ?",
+            "Est-ce que vous vous êtes bien amusés ?",
+            "Est-ce que vous vous êtes bien amusées ?",
+            "Est-ce que vous vous êtes amusés ?",
+            "Est-ce que vous vous êtes amusées ?",
+            "Vous êtes-vous bien amusés ?",
+            "Vous êtes-vous bien amusées ?",
+            "Vous êtes-vous amusés ?",
+            "Vous êtes-vous amusées ?"
+          ],
+          "explain": "vous vous êtes + amusés (plural)."
+        },
+        {
+          "id": "r6",
+          "type": "reorder",
+          "prompt": "She didn't rest.",
+          "accept": [
+            "Elle ne s'est pas reposée."
+          ],
+          "extra": [
+            "a",
+            "reposé"
+          ],
+          "explain": "ne + s'est + pas + reposée (agreement with elle)."
+        },
+        {
+          "id": "r7",
+          "type": "mcq",
+          "prompt": "Which verb uses avoir, not être?",
+          "options": [
+            "patiner",
+            "se promener",
+            "se perdre",
+            "tomber"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[patiner]] is not reflexive and not on the être list: [[on a patiné]]. The others use être."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Tu t'___ couchée à quelle heure, Mei ?",
+          "answers": [
+            [
+              "es"
+            ]
+          ],
+          "choices": [
+            "es",
+            "as",
+            "est",
+            "a"
+          ],
+          "en": "What time did you go to bed, Mei?",
+          "explain": "tu → t'es. Mei is a woman → couchée."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Ils se sont habillés très chaudement.",
+          "accept": [],
+          "explain": "ils → se sont + habillés (masculine plural). [[chaudement]] = warmly."
+        },
+        {
+          "id": "r10",
+          "type": "translate",
+          "prompt": "This morning, I woke up late and I took a taxi.",
+          "accept": [
+            "Ce matin, je me suis réveillé tard et j'ai pris un taxi.",
+            "Ce matin, je me suis réveillé en retard et j'ai pris un taxi.",
+            "Ce matin, je me suis réveillée tard et j'ai pris un taxi.",
+            "Ce matin, je me suis réveillée en retard et j'ai pris un taxi.",
+            "Je me suis réveillé tard ce matin et j'ai pris un taxi.",
+            "Je me suis réveillé en retard ce matin et j'ai pris un taxi.",
+            "Je me suis réveillée tard ce matin et j'ai pris un taxi.",
+            "Je me suis réveillée en retard ce matin et j'ai pris un taxi."
+          ],
+          "explain": "se réveiller → être; prendre → avoir (pris). Two helper verbs in one sentence."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Describe your morning yesterday, from waking up to leaving home, using at least four reflexive verbs. Add one thing you didn't do.",
+          "seconds": 35,
+          "checklist": [
+            "Four reflexive verbs: se réveiller, se lever, se doucher, s'habiller, se dépêcher…",
+            "Times: à 6 h 30, tout de suite",
+            "One negative: je ne me suis pas…",
+            "One avoir verb: j'ai pris, j'ai bu…"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Hier, je me suis réveillé à six heures et demie, mais je ne me suis pas levé tout de suite. Ensuite, je me suis douché et je me suis habillé. J'ai bu un café, et je me suis dépêché parce que l'autobus passe à sept heures et quart.",
+              "en": "(A man speaking.) Yesterday I woke up at six thirty, but I didn't get up right away. Then I had a shower and got dressed. I drank a coffee, and I hurried because the bus comes at a quarter past seven."
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a short postcard from a winter day out (Ottawa, Québec City, Mont-Tremblant…). Say what you did with someone else, using on or nous with at least three reflexive verbs.",
+          "wordRange": [
+            30,
+            60
+          ],
+          "checklist": [
+            "Three reflexive verbs with on or nous",
+            "Agreement: s for plural",
+            "One être verb that is not reflexive (aller, tomber, rester…)",
+            "One avoir verb",
+            "A greeting and a closing"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Coucou Amira ! On est à Ottawa pour le Bal de Neige. Ce matin, on s'est levés tôt et on a patiné sur le canal. Raj est tombé, mais il ne s'est pas fait mal. Cet après-midi, on s'est promenés dans le Marché By et on s'est reposés dans un café. On s'est vraiment bien amusés ! Bises, Mei",
+              "en": "Hi Amira! We're in Ottawa for Winterlude. This morning we got up early and skated on the canal. Raj fell, but he didn't hurt himself. This afternoon we walked around the ByWard Market and rested in a café. We really had a great time! Love, Mei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Use **être** with every reflexive verb: [[je me suis levé, tu t'es habillé, elle s'est perdue]]\n- Make the participle agree: [[on s'est bien amusés]], [[elles se sont couchées]]\n- Make negatives: [[je ne me suis pas reposé]]\n- Mix avoir, être and reflexive verbs in one story",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Corrected the explanation of “elle s'est fait mal” (no agreement because the object mal follows), which contradicted the “always agree” preview. Removed informal no-ne accepts, added inversion accepts to r5, and made h2's options gender-neutral."
+  }
+}

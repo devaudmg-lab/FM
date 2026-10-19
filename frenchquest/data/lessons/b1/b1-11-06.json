@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-11-06",
+  "level": "b1",
+  "unit": "b1-11",
+  "title": "Workshop: Exam foundations",
+  "goal": "Get extra practice with TEF and TCF Canada strategies in new contexts: reading for paraphrase, listening for corrections and numbers, planning a text and convincing a friend.",
+  "minutes": 20,
+  "items": [
+    { "id": "candidat", "kind": "vocab", "fr": "candidat", "article": "le", "gender": "m", "en": "test-taker, candidate (man, or in general)", "pos": "noun",
+      "accept": ["un candidat", "la candidate", "une candidate"],
+      "example": { "fr": "Les candidats doivent arriver trente minutes avant l'épreuve.", "en": "Test-takers must arrive thirty minutes before the test." },
+      "note": "Feminine: la candidate." },
+    { "id": "examinateur", "kind": "vocab", "fr": "examinateur", "article": "l'", "gender": "m", "en": "examiner (man, or in general)", "pos": "noun",
+      "accept": ["un examinateur", "l'examinatrice", "une examinatrice"],
+      "example": { "fr": "L'examinateur joue le rôle de l'employé.", "en": "The examiner plays the role of the employee." },
+      "note": "Feminine: l'examinatrice." },
+    { "id": "piege", "kind": "vocab", "fr": "piège", "article": "un", "gender": "m", "en": "a trap", "pos": "noun",
+      "accept": ["le piège"],
+      "example": { "fr": "Attention au piège : le mot est dans le texte, mais le sens est différent.", "en": "Watch out for the trap: the word is in the text, but the meaning is different." },
+      "note": "Tomber dans le piège = to fall into the trap." },
+    { "id": "grille", "kind": "vocab", "fr": "grille d'évaluation", "article": "la", "gender": "f", "en": "marking rubric, assessment grid", "pos": "noun",
+      "accept": ["une grille d'évaluation"],
+      "example": { "fr": "Selon la grille d'évaluation, la cohérence compte beaucoup.", "en": "According to the rubric, coherence counts a lot." } },
+    { "id": "duree", "kind": "vocab", "fr": "durée", "article": "la", "gender": "f", "en": "length (of time), duration", "pos": "noun",
+      "accept": ["une durée"],
+      "example": { "fr": "La durée de l'épreuve est de soixante minutes.", "en": "The test lasts sixty minutes." } },
+    { "id": "cocher", "kind": "vocab", "fr": "cocher", "en": "to tick, to check (a box)", "pos": "verb",
+      "example": { "fr": "Cochez la bonne réponse.", "en": "Tick the right answer." } },
+    { "id": "surligner", "kind": "vocab", "fr": "surligner", "en": "to highlight (with a marker)", "pos": "verb",
+      "example": { "fr": "Je surligne les mots importants de la consigne.", "en": "I highlight the important words in the instructions." } },
+    { "id": "eliminer", "kind": "vocab", "fr": "éliminer", "en": "to rule out, to eliminate (an option)", "pos": "verb",
+      "example": { "fr": "J'élimine d'abord les réponses impossibles.", "en": "First I rule out the impossible answers." } },
+    { "id": "deviner", "kind": "vocab", "fr": "deviner", "en": "to guess", "pos": "verb",
+      "example": { "fr": "Si vous ne savez pas, devinez : il n'y a pas de pénalité.", "en": "If you don't know, guess: there's no penalty." } },
+    { "id": "chronometrer", "kind": "vocab", "fr": "se chronométrer", "en": "to time yourself", "pos": "verb",
+      "example": { "fr": "Je me chronomètre quand je fais un examen blanc.", "en": "I time myself when I do a mock exam." },
+      "note": "Without se: chronométrer quelqu'un (to time someone). Je me chronomètre: è before a silent ending." }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Advice from someone who has passed",
+      "intro": "Amira took the TEF Canada last month. She wrote a post on a forum for newcomers. Read it, then answer the questions **like in the exam**: the right answer is usually a **paraphrase**, not the same words.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "Forum « Nouveaux arrivants » : « Mon TEF Canada, et ce que j'aurais aimé savoir »",
+          "fr": "Bonjour à tous ! J'ai passé le TEF Canada il y a un mois à Montréal, et j'ai reçu mes résultats hier : j'ai obtenu l'équivalent du NCLC 7 dans les quatre compétences ! Plusieurs personnes m'ont demandé des conseils, alors voici mon expérience.\nPour la compréhension écrite, mon problème, c'était le temps. Pendant mes premiers examens blancs, je lisais chaque document en entier, et je n'arrivais jamais à la fin. Ma tutrice m'a conseillé de lire d'abord la question, puis de chercher seulement la partie du texte qui contient la réponse. Ça a tout changé. Attention aussi aux petits mots comme « sauf » ou « au plus tard » : ce sont souvent eux qui donnent la réponse.\nPour la compréhension orale, on n'entend chaque enregistrement qu'une fois. Mon truc : je lis les réponses proposées avant l'écoute et je surligne ce qui est différent entre elles. Et surtout, j'écoute jusqu'au bout, parce que la personne change souvent d'avis à la fin !\nÀ l'écrit, je faisais l'erreur de commencer à rédiger tout de suite. Maintenant, je prends cinq minutes pour faire un plan, et je garde trois minutes pour relire. Je vérifie surtout les accords et le nombre de mots.\nÀ l'oral, j'avais très peur de la section B, où il faut convaincre un ami. En fait, l'examinateur ne cherche pas un discours parfait. Il veut voir si vous pouvez répondre à ses objections de façon naturelle, avec « tu ».\nMon dernier conseil : ne restez pas seul. J'ai suivi un atelier gratuit à la bibliothèque de mon quartier, et c'est là que j'ai rencontré deux amies avec qui je m'entraînais tous les samedis. Bonne chance à tous !",
+          "en": "Hello everyone! I took the TEF Canada a month ago in Montréal, and I got my results yesterday: I got the equivalent of NCLC (CLB) 7 in all four skills! Several people asked me for advice, so here's my experience.\nFor reading, my problem was time. In my first mock exams, I read every document in full, and I never got to the end. My tutor advised me to read the question first, then to look only for the part of the text that contains the answer. That changed everything. Also watch out for small words like “sauf” (except) or “au plus tard” (at the latest): they're often what gives the answer.\nFor listening, you hear each recording only once. My trick: I read the options before listening and highlight what's different between them. And above all, I listen to the end, because the person often changes their mind at the end!\nIn writing, I used to make the mistake of starting to write right away. Now I take five minutes to make a plan, and I keep three minutes to reread. I mainly check agreements and the word count.\nIn speaking, I was very scared of section B, where you have to convince a friend. Actually, the examiner isn't looking for a perfect speech. They want to see whether you can answer their objections naturally, using “tu”.\nMy last piece of advice: don't stay on your own. I took a free workshop at my neighbourhood library, and that's where I met two friends I practised with every Saturday. Good luck, everyone!"
+        },
+        {
+          "id": "d1", "type": "mcq",
+          "prompt": "Selon Amira, qu'est-ce qui l'a aidée en compréhension écrite ?",
+          "options": ["Repérer la zone du texte liée à la question.", "Lire chaque document en entier deux fois.", "Faire plus d'examens blancs.", "Apprendre la liste des petits mots par cœur."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[lire d'abord la question, puis chercher seulement la partie du texte qui contient la réponse]] is paraphrased as *repérer la zone du texte liée à la question*.",
+          "optionFeedback": [null, "That was her problem, not the solution.", "She did mock exams, but that's not what she says helped.", "She says to watch out for these words, not to memorize a list."]
+        },
+        {
+          "id": "d2", "type": "mcq",
+          "prompt": "Pourquoi faut-il écouter jusqu'à la fin, selon Amira ?",
+          "options": ["Parce que les gens corrigent souvent ce qu'ils ont dit.", "Parce que l'enregistrement est répété à la fin.", "Parce que la question est posée à la fin.", "Parce que les chiffres sont toujours à la fin."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[la personne change souvent d'avis à la fin]] = people often correct what they said. Careful: each recording is played **only once**.",
+          "optionFeedback": [null, "Trap: she says you hear it only once.", "Not in the text.", "Too strong: toujours is not in the text."]
+        },
+        {
+          "id": "d3", "type": "mcq",
+          "prompt": "Que dit Amira sur la section B de l'oral ?",
+          "options": ["On évalue surtout la capacité à réagir aux objections.", "Il faut préparer un discours parfait.", "Il faut vouvoyer l'examinateur.", "C'était la partie la plus facile pour elle."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Il veut voir si vous pouvez répondre à ses objections de façon naturelle]] → the ability to react to objections.",
+          "optionFeedback": [null, "The opposite: the examiner isn't looking for a perfect speech.", "In section B, you use tu with your friend.", "She says she was very scared of it."]
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit at a glance, and new words",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit 11 at a glance",
+          "head": ["Skill", "Key strategy"],
+          "rows": [
+            ["Reading", "Question first → answer zone → check the paraphrase → eliminate"],
+            ["Listening", "Read the options first · note numbers · keep the last correction"],
+            ["Writing", "Five-minute plan · respect the word range · three minutes to reread"],
+            ["Speaking A / T2", "About ten varied, polite questions with vous"],
+            ["Speaking B", "Convince a friend with tu · answer objections · propose a plan"]
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "The same habits, everywhere",
+          "body": "Amira's advice matches the whole unit. **Read the question before the document**, and expect the answer to be **said differently**. Watch the small words that change everything: [[sauf]], [[ne… que]], [[au plus tard]], [[au lieu de]], [[finalement]].\n\nIn writing and speaking, **plan before you produce**, and check the instructions: who is the reader or listener, tu or vous, how many words or minutes? Finally, **time yourself** in practice so the real exam feels familiar."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for exam preparation",
+          "itemIds": ["candidat", "examinateur", "piege", "grille", "duree", "cocher", "surligner", "eliminer", "deviner", "chronometrer"]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listening practice (play once, like the exam)",
+      "intro": "Read the question and options **before** you listen. Listen to the end: there's a correction in each recording.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A message from an exam centre",
+          "context": "A message on Raj's voicemail from the exam centre where he registered for the TCF Canada.",
+          "fr": "Bonjour, ici Nadia Bélanger, du centre d'examens Horizon Français, à Ottawa. Je vous appelle au sujet de votre inscription au TCF Canada. Votre examen aura lieu le samedi 13 juin, à 9 h. Les candidats doivent se présenter trente minutes à l'avance avec une pièce d'identité valide, c'est-à-dire un passeport ou une carte de résident permanent. Attention : le cellulaire est interdit dans la salle d'examen. Ah, et une petite correction par rapport à votre convocation : l'épreuve d'expression orale ne se fera pas le matin, mais à 14 h, dans la salle 3, et non dans la salle 5. Si vous avez des questions, rappelez-moi au 613 555-0190. Bonne journée !",
+          "en": "Hello, this is Nadia Bélanger from the Horizon Français exam centre in Ottawa. I'm calling about your registration for the TCF Canada. Your exam will take place on Saturday, June 13, at 9 a.m. Test-takers must arrive thirty minutes early with valid ID, that is, a passport or a permanent resident card. Note: cellphones are not allowed in the exam room. Oh, and a small correction to your notice: the speaking test won't be in the morning but at 2 p.m., in room 3, not room 5. If you have any questions, call me back at 613-555-0190. Have a good day!"
+        },
+        {
+          "id": "h1", "type": "listen-mcq",
+          "fr": "Les candidats doivent se présenter trente minutes à l'avance avec une pièce d'identité valide, c'est-à-dire un passeport ou une carte de résident permanent.",
+          "en": "Test-takers must arrive thirty minutes early with valid ID, that is, a passport or a permanent resident card.",
+          "prompt": "Qu'est-ce que Raj doit faire ?",
+          "options": ["Arriver une demi-heure avant, avec un document officiel.", "Arriver à 9 h 30 avec sa convocation.", "Apporter son passeport et sa carte de résident.", "Envoyer une pièce d'identité à l'avance."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[trente minutes à l'avance]] = une demi-heure avant; [[une pièce d'identité valide]] = un document officiel. It's a passport **or** a PR card, not both.",
+          "optionFeedback": [null, "Trap: 9 h is the start time; he must arrive earlier.", "Too strong: one of the two is enough (ou).", "Word-match trap with à l'avance."]
+        },
+        {
+          "id": "h2", "type": "listen-mcq",
+          "fr": "L'épreuve d'expression orale ne se fera pas le matin, mais à 14 h, dans la salle 3, et non dans la salle 5.",
+          "en": "The speaking test won't be in the morning but at 2 p.m., in room 3, not room 5.",
+          "prompt": "Quand et où se passera l'épreuve orale ?",
+          "options": ["À 14 h, salle 3", "Le matin, salle 5", "À 14 h, salle 5", "À 9 h, salle 3"],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Keep the **correction**: [[à 14 h]], [[dans la salle 3, et non dans la salle 5]]."
+        },
+        {
+          "id": "h3", "type": "listen-mcq",
+          "fr": "Attention : le cellulaire est interdit dans la salle d'examen.",
+          "en": "Note: cellphones are not allowed in the exam room.",
+          "prompt": "Pourquoi la personne dit-elle « Attention » ?",
+          "options": ["Pour donner une règle à respecter.", "Pour annoncer un retard.", "Pour s'excuser d'une erreur.", "Pour proposer un service."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "The intention is to **warn** about a rule: [[le cellulaire est interdit]]."
+        },
+        {
+          "type": "listen",
+          "title": "A radio announcement",
+          "context": "An announcement on a community radio station in Winnipeg.",
+          "fr": "Vous préparez le TEF ou le TCF Canada ? La bibliothèque municipale vous propose des ateliers gratuits de préparation, tous les mardis soir, de 18 h 30 à 20 h. Au programme : des examens blancs chronométrés, des conseils pour l'écrit et des simulations d'entrevues orales avec une examinatrice expérimentée. Les places sont limitées à quinze personnes par atelier, et l'inscription est obligatoire. Attention, le premier atelier, prévu le 1er septembre, est reporté au 8 septembre. Pour vous inscrire, rendez-vous au comptoir d'accueil ou sur le site de la bibliothèque.",
+          "en": "Are you preparing for the TEF or TCF Canada? The city library offers free preparation workshops every Tuesday evening, from 6:30 to 8 p.m. On the program: timed mock exams, tips for writing and simulated speaking interviews with an experienced examiner. Places are limited to fifteen people per workshop, and registration is required. Note: the first workshop, planned for September 1, is postponed to September 8. To register, go to the reception desk or the library's website."
+        },
+        {
+          "id": "h4", "type": "listen-mcq",
+          "fr": "Attention, le premier atelier, prévu le 1er septembre, est reporté au 8 septembre.",
+          "en": "Note: the first workshop, planned for September 1, is postponed to September 8.",
+          "prompt": "Quand aura lieu le premier atelier ?",
+          "options": ["Le 8 septembre", "Le 1er septembre", "Le 15 septembre", "Il est annulé."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[reporter]] = to postpone: from the 1st **to** the 8th ([[reporté au 8 septembre]])."
+        },
+        {
+          "id": "h5", "type": "dictation",
+          "fr": "Les places sont limitées à quinze personnes, et l'inscription est obligatoire.",
+          "accept": ["Les places sont limitées à quinze personnes et l'inscription est obligatoire.", "Les places sont limitées à 15 personnes, et l'inscription est obligatoire.", "Les places sont limitées à 15 personnes et l'inscription est obligatoire."],
+          "explain": "[[limitées]] agrees with [[les places]] (feminine plural)."
+        },
+        {
+          "id": "h6", "type": "dictation",
+          "fr": "Votre examen aura lieu le samedi 13 juin, à 9 h.",
+          "accept": ["Votre examen aura lieu le samedi 13 juin à 9 h.", "Votre examen aura lieu le samedi 13 juin, à 9 heures.", "Votre examen aura lieu le samedi 13 juin à 9 heures.", "Votre examen aura lieu le samedi 13 juin, à neuf heures.", "Votre examen aura lieu le samedi 13 juin à neuf heures.", "Votre examen aura lieu le samedi treize juin, à 9 h.", "Votre examen aura lieu le samedi treize juin à 9 h.", "Votre examen aura lieu le samedi treize juin, à 9 heures.", "Votre examen aura lieu le samedi treize juin à 9 heures.", "Votre examen aura lieu le samedi treize juin, à neuf heures.", "Votre examen aura lieu le samedi treize juin à neuf heures."],
+          "explain": "[[avoir lieu]] = to take place; future [[aura lieu]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed recall",
+      "intro": "Twelve questions: most on exam strategies and exam French, some on earlier B1 units (the passive, narrative tenses, inversion, connectors). Answer without looking back.",
+      "blocks": [
+        {
+          "id": "r1", "type": "mcq",
+          "prompt": "Document: « Le formulaire doit être remis au plus tard le 16 mai. » Which option is the correct paraphrase?",
+          "options": ["Il faut rendre le formulaire avant le 17 mai.", "On peut rendre le formulaire à partir du 16 mai.", "Le formulaire sera envoyé le 16 mai.", "Le formulaire n'est pas obligatoire."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[au plus tard le 16 mai]] = the 16th is the last possible day, so before the 17th.",
+          "optionFeedback": [null, "à partir de = from: the opposite meaning.", "Who sends what? The meaning changed.", "Not in the document."]
+        },
+        {
+          "id": "r2", "type": "mcq",
+          "prompt": "Document: « La piscine est ouverte tous les jours sauf le lundi. » What is true?",
+          "options": ["On ne peut pas nager le lundi.", "La piscine est ouverte seulement le lundi.", "La piscine ferme tôt le lundi.", "Le lundi, l'entrée est gratuite."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[sauf]] = except: open every day except Monday → closed on Monday."
+        },
+        {
+          "id": "r3", "type": "match",
+          "prompt": "Match the exam words with their meanings.",
+          "pairs": [["la consigne", "the instructions"], ["un piège", "a trap"], ["cocher", "to tick a box"], ["la grille d'évaluation", "the marking rubric"], ["un examen blanc", "a mock exam"]]
+        },
+        {
+          "id": "r4", "type": "cloze",
+          "text": "Hier soir, un incendie ___ détruit un garage. Heureusement, personne n'a ___ blessé.",
+          "answers": [["a"], ["été"]],
+          "en": "Last night, a fire destroyed a garage. Fortunately, nobody was injured.",
+          "explain": "News style: passé composé for events ([[a détruit]]) and the passive [[n'a été blessé]]."
+        },
+        {
+          "id": "r5", "type": "cloze",
+          "text": "Les pompiers sont arrivés vite, mais le feu ___ déjà ___ le toit.",
+          "answers": [["avait"], ["atteint"]],
+          "en": "The firefighters arrived quickly, but the fire had already reached the roof.",
+          "explain": "Review (unit 2): an action finished before another past event → plus-que-parfait: [[avait déjà atteint]]."
+        },
+        {
+          "id": "r6", "type": "translate",
+          "prompt": "Could you tell me if the workshop is free? (formal)",
+          "accept": ["Pourriez-vous me dire si l'atelier est gratuit ?", "Pouvez-vous me dire si l'atelier est gratuit ?", "Est-ce que vous pourriez me dire si l'atelier est gratuit ?", "Est-ce que vous pouvez me dire si l'atelier est gratuit ?"],
+          "explain": "A polite indirect question for TEF A / TCF T2: [[Pourriez-vous me dire si]] + subject + verb."
+        },
+        {
+          "id": "r7", "type": "reorder",
+          "prompt": "Is registration required? (formal, with inversion)",
+          "accept": ["L'inscription est-elle obligatoire"],
+          "extra": ["il"],
+          "explain": "Noun subject + verb + [[-elle]] (feminine): [[L'inscription est-elle obligatoire ?]]"
+        },
+        {
+          "id": "r8", "type": "translate",
+          "prompt": "I understand, but it would do you good! (to a friend)",
+          "accept": ["Je te comprends, mais ça te ferait du bien !", "Je comprends, mais ça te ferait du bien !", "Je te comprends, mais cela te ferait du bien !", "Je comprends, mais cela te ferait du bien !"],
+          "explain": "TEF B: acknowledge the objection with [[Je te comprends, mais…]], then argue with the conditionnel."
+        },
+        {
+          "id": "r9", "type": "mcq",
+          "prompt": "You hear: « Le rendez-vous est à 15 h… euh, non, pardon, à 16 h. » What do you write?",
+          "options": ["16 h", "15 h", "15 h et 16 h", "Je ne sais pas"],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Always keep the **last correction**: [[non, pardon, à 16 h]]."
+        },
+        {
+          "id": "r10", "type": "cloze",
+          "text": "Je n'ai pas eu le temps de relire mon texte. ___, j'ai fait des erreurs d'accord.",
+          "answers": [["Par conséquent", "Donc", "C'est pourquoi", "Ainsi"]],
+          "choices": ["Par conséquent", "Cependant", "En effet", "Certes"],
+          "en": "I didn't have time to reread my text. As a result, I made agreement mistakes.",
+          "explain": "Review (unit 9): a consequence → [[Par conséquent]]."
+        },
+        {
+          "id": "r11", "type": "translate",
+          "prompt": "First I rule out the impossible answers, then I guess.",
+          "accept": ["D'abord, j'élimine les réponses impossibles, puis je devine.", "D'abord j'élimine les réponses impossibles, ensuite je devine.", "D'abord, j'élimine les réponses impossibles, ensuite je devine.", "J'élimine d'abord les réponses impossibles, puis je devine.", "J'élimine d'abord les réponses impossibles, ensuite je devine.", "D'abord j'élimine les réponses impossibles, puis je devine.", "Tout d'abord, j'élimine les réponses impossibles, puis je devine.", "Tout d'abord, j'élimine les réponses impossibles, ensuite je devine."],
+          "explain": "[[éliminer]] = to rule out; [[deviner]] = to guess. In the TEF there's no penalty, so never leave a blank."
+        },
+        {
+          "id": "r12", "type": "dictation",
+          "fr": "Je me chronomètre chaque fois que je fais un examen blanc.",
+          "accept": ["Je me chronomètre chaque fois que je fais un examen blanc"],
+          "explain": "[[se chronométrer]]: è in [[je me chronomètre]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Exam-style tasks",
+      "intro": "Time yourself: **5 minutes** to plan, then write. For the speaking task, read the document, note a few key words, then speak.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "Exam-style task (like TCF Canada, task 2): A friend who is also preparing for the TEF or TCF Canada writes on the forum: « Je n'arrive pas à m'organiser. Comment est-ce que tu te prépares ? » Reply with a forum message: describe your weekly routine, give two strategies that work for you, and suggest something you could do together.",
+          "promptFr": "Répondez à votre ami sur le forum : décrivez votre façon de vous préparer et proposez-lui quelque chose. (120 à 150 mots)",
+          "wordRange": [120, 150],
+          "checklist": [
+            "A friendly opening with tu",
+            "Your weekly routine (days, durations, activities)",
+            "Two strategies with a reason for each (parce que, en effet)",
+            "At least three exam words (examen blanc, consigne, se chronométrer, piège…)",
+            "A concrete suggestion (Si tu veux, on pourrait…)",
+            "A closing, and 120–150 words"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Karim !\nJe comprends, au début, j'avais le même problème. Maintenant, je me prépare quarante-cinq minutes par jour. Le lundi et le mercredi, je fais de la compréhension écrite. Le mardi et le jeudi, j'écoute des enregistrements. Le samedi, je fais un examen blanc complet et je me chronomètre.\nJ'ai deux stratégies qui marchent bien. D'abord, je lis toujours la question avant le document, parce que ça me fait gagner beaucoup de temps. Ensuite, à l'écrit, je fais un plan de cinq minutes. En effet, avec un plan, mon texte est plus clair et je respecte le nombre de mots.\nSi tu veux, on pourrait s'entraîner ensemble le samedi à la bibliothèque. On ferait un examen blanc, puis on corrigerait nos textes ensemble.\nBon courage !\nMei",
+              "en": "Hi Karim! I understand, at the beginning I had the same problem. Now I prepare for forty-five minutes a day. On Mondays and Wednesdays, I do reading. On Tuesdays and Thursdays, I listen to recordings. On Saturdays, I do a complete mock exam and time myself. I have two strategies that work well. First, I always read the question before the document, because it saves me a lot of time. Next, in writing, I make a five-minute plan. Indeed, with a plan, my text is clearer and I stay within the word count. If you like, we could practise together on Saturdays at the library. We'd do a mock exam, then correct our texts together. Good luck! Mei"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Salut Karim,\nNe t'inquiète pas, on passe tous par là ! Moi, j'ai compris qu'il fallait une routine fixe plutôt que de longues séances de temps en temps.\nDu lundi au vendredi, je travaille trois quarts d'heure par jour, une compétence à la fois. Le samedi matin, je fais un examen blanc chronométré, et le dimanche, j'analyse mes erreurs.\nMa première stratégie : en compréhension, je surligne ce qui change entre les réponses avant de lire ou d'écouter. Ainsi, je sais exactement quoi chercher. La deuxième : je note les pièges fréquents, comme « sauf » ou « au plus tard », dans un petit cahier.\nSi ça te tente, on pourrait faire nos examens blancs ensemble le samedi. Comme ça, on se motiverait, et on pourrait corriger les textes l'un de l'autre.\nÀ samedi, j'espère !\nMei",
+              "en": "Hi Karim, Don't worry, we all go through it! I realized that you need a fixed routine rather than long sessions now and then. From Monday to Friday, I work three quarters of an hour a day, one skill at a time. On Saturday mornings, I do a timed mock exam, and on Sundays I analyse my mistakes. My first strategy: for comprehension, I highlight what changes between the answers before I read or listen. That way, I know exactly what to look for. The second: I note the frequent traps, like “sauf” or “au plus tard”, in a little notebook. If you feel like it, we could do our mock exams together on Saturdays. That way, we'd motivate each other, and we could correct each other's texts. See you Saturday, I hope! Mei"
+            }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "Exam-style task (like TEF Canada, section B): You saw the radio announcement for the free TEF/TCF workshops at the library (Tuesday evenings, timed mock exams, speaking simulations, 15 places, registration required). Convince a friend who is preparing for the exam alone to come with you. Speak for about two and a half minutes, using tu (the real section B lasts about 10 minutes, with the examiner playing your friend). Imagine their objections (no time, too tired after work, prefers to study alone) and answer them.",
+          "seconds": 150,
+          "checklist": [
+            "A friendly hook (J'ai vu une annonce qui devrait t'intéresser…)",
+            "Present the document: what, when, where, price",
+            "Arguments adapted to your friend",
+            "Answer at least three objections (Je te comprends, mais…)",
+            "Use the conditionnel to persuade (ça te ferait du bien, on pourrait…)",
+            "A concrete plan to finish (on s'inscrit ensemble demain ?)"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Amira ! Écoute, j'ai vu une annonce qui devrait t'intéresser. La bibliothèque municipale propose des ateliers gratuits pour préparer le TEF et le TCF, tous les mardis soir, de 18 h 30 à 20 h. Il y a des examens blancs chronométrés et des simulations d'oral avec une examinatrice. … Tu n'as pas le temps ? Je te comprends, mais c'est seulement une heure et demie par semaine. … Tu es fatiguée après le travail ? C'est vrai, mais on pourrait y aller ensemble, et après, on prendrait un café. … Tu préfères étudier seule ? Oui, mais pour l'oral, tu as besoin de parler avec quelqu'un ! Et c'est gratuit. Attention, il y a seulement quinze places. Alors, on s'inscrit ensemble demain ?",
+              "en": "Hi Amira! Listen, I saw an ad that should interest you. The city library is offering free workshops to prepare for the TEF and TCF, every Tuesday evening, from 6:30 to 8. There are timed mock exams and speaking simulations with an examiner. … You don't have time? I understand, but it's only an hour and a half a week. … You're tired after work? That's true, but we could go together, and afterwards we'd have a coffee. … You prefer studying alone? Yes, but for speaking, you need to talk with someone! And it's free. Careful, there are only fifteen places. So, shall we register together tomorrow?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Salut Karim ! Dis donc, tu prépares toujours le TCF tout seul ? J'ai entendu une annonce à la radio qui est parfaite pour toi. La bibliothèque municipale organise des ateliers de préparation gratuits, tous les mardis, de 18 h 30 à 20 h. Ce qui est génial, c'est qu'on fait des examens blancs en conditions réelles, et surtout, il y a des simulations d'entrevue avec une vraie examinatrice. … Tu dis que tu n'as pas le temps ? Je te comprends, mais justement : une séance bien organisée, c'est plus efficace que trois soirées seul devant ton ordinateur. … Tu es crevé le mardi ? Bon, c'est vrai que la journée est longue. Mais tu verras, quand on parle avec d'autres candidats, on oublie la fatigue. Et puis, on pourrait y aller ensemble en autobus, ça te motiverait. … Tu préfères étudier à ton rythme ? D'accord, mais pour l'expression orale, tu ne peux pas t'entraîner seul. L'examinatrice pourrait te dire exactement ce que tu dois améliorer. Sans compter que c'est gratuit, alors que les cours privés coûtent très cher ! Le seul problème, c'est qu'il n'y a que quinze places. Alors, si tu veux, je passe te chercher mardi, et on s'inscrit au comptoir avant le premier atelier, le 8 septembre. Ça marche ?",
+              "en": "Hi Karim! Hey, are you still preparing for the TCF all by yourself? I heard an ad on the radio that's perfect for you. The city library is running free preparation workshops every Tuesday from 6:30 to 8 p.m. What's great is that you do mock exams in real conditions, and above all there are interview simulations with a real examiner. … You say you don't have time? I understand, but that's exactly the point: one well-organized session is more efficient than three evenings alone in front of your computer. … You're exhausted on Tuesdays? (crevé is informal: fine between friends, never in a formal task) Well, it's true the day is long. But you'll see, when you talk with other test-takers, you forget how tired you are. And we could go together by bus, it would motivate you. … You prefer studying at your own pace? OK, but for speaking, you can't practise alone. The examiner could tell you exactly what you need to improve. Not to mention that it's free, whereas private lessons are very expensive! The only problem is that there are only fifteen places. So, if you like, I'll pick you up on Tuesday, and we'll register at the desk before the first workshop on September 8. Deal?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Answer exam-style questions on a forum post, a voicemail and a radio announcement by spotting **paraphrases**, **corrections** and **small words** ([[sauf]], [[au plus tard]], [[reporté au]])\n- Reuse the unit's strategies in new contexts: question first, options before listening, a five-minute plan, objections answered with tu\n- Talk about exam preparation: [[un candidat]], [[l'examinateur]], [[un piège]], [[la grille d'évaluation]], [[éliminer]], [[deviner]], [[se chronométrer]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made dates match weekdays (Saturday 13 June; Tuesdays 1 and 8 September), changed niveau 7 to NCLC 7, and aligned the speaking intro and prompt with TEF section B. Labelled crevé as informal, polished two phrases in the stronger writing model and completed the accept lists." }
+}

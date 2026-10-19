@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-05-04",
+  "level": "b2",
+  "unit": "b2-05",
+  "title": "Workplace conflicts",
+  "goal": "Handle a tense situation at work with diplomacy: reformulate what the other person means, acknowledge their point of view, soften criticism and propose a solution, in speech and in a written reply.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-adoucir", "kind": "grammar", "fr": "reformuler → reconnaître → proposer (+ conditionnel, peut-être, j'ai l'impression que)", "en": "defusing a conflict and softening criticism",
+      "drills": [
+        { "type": "mcq", "prompt": "Which sentence says “You never read my messages!” diplomatically?", "options": ["J'ai l'impression que mes messages ne sont pas toujours lus.", "Tu ne lis jamais mes messages !", "Tu es nul avec les messages.", "Lis mes messages, s'il te plaît !"], "optionsFr": true, "answer": 0, "explain": "Speak about your impression, not the other person's fault, and use the passive to avoid pointing a finger." },
+        { "type": "cloze", "text": "Si je ___ bien, ce qui te dérange, c'est le délai.", "answers": [["comprends"]], "en": "If I understand correctly, what bothers you is the deadline.", "explain": "Reformulating starts with [[Si je comprends bien, …]]: the other person feels heard." },
+        { "type": "cloze", "text": "On ___ peut-être en parler à la prochaine réunion ?", "answers": [["pourrait"]], "en": "Maybe we could talk about it at the next meeting?", "explain": "Conditionnel + [[peut-être]] + a question: a proposal, not an order." }
+      ] },
+    { "id": "point-de-vue", "kind": "phrase", "fr": "Je comprends votre point de vue.", "en": "I understand your point of view. (formal)", "accept": ["Je comprends ton point de vue.", "Je comprends votre position."] },
+    { "id": "si-je-comprends-bien", "kind": "phrase", "fr": "Si je comprends bien, vous dites que…", "en": "If I understand correctly, you're saying that… (formal)", "accept": ["Si je comprends bien, tu dis que…", "Si je vous ai bien compris, …"] },
+    { "id": "voir-ce-que", "kind": "phrase", "fr": "Je vois ce que vous voulez dire.", "en": "I see what you mean. (formal)", "accept": ["Je vois ce que tu veux dire."] },
+    { "id": "pas-un-reproche", "kind": "phrase", "fr": "Ce n'est pas un reproche.", "en": "I'm not criticizing you. (It's not a reproach.)", "accept": ["Ce n'est pas une critique."] },
+    { "id": "jai-limpression", "kind": "phrase", "fr": "J'ai l'impression que…", "en": "I get the feeling that…", "accept": ["Il me semble que…", "J'ai le sentiment que…"] },
+    { "id": "terrain-dentente", "kind": "phrase", "fr": "trouver un terrain d'entente", "en": "to find common ground", "accept": ["trouver un compromis"] },
+    { "id": "malentendu", "kind": "vocab", "fr": "malentendu", "article": "un", "gender": "m", "en": "misunderstanding", "pos": "noun", "accept": ["le malentendu"],
+      "example": { "fr": "Il y a eu un malentendu, ce n'est la faute de personne.", "en": "There was a misunderstanding; it's nobody's fault." } },
+    { "id": "differend", "kind": "vocab", "fr": "différend", "article": "un", "gender": "m", "en": "disagreement, dispute (formal)", "pos": "noun", "accept": ["le différend", "un désaccord", "un conflit"], "note": "Careful: [[un différend]] (dispute) ends in -d; [[différent]] (different) ends in -t. Same pronunciation." },
+    { "id": "desamorcer", "kind": "vocab", "fr": "désamorcer", "en": "to defuse (a conflict, a tense situation)", "pos": "verb",
+      "example": { "fr": "Camille a réussi à désamorcer la dispute.", "en": "Camille managed to defuse the argument." } },
+    { "id": "reformuler", "kind": "vocab", "fr": "reformuler", "en": "to rephrase, to reformulate", "pos": "verb" },
+    { "id": "prendre-du-recul", "kind": "phrase", "fr": "prendre du recul", "en": "to step back (and look at things calmly)", "example": { "fr": "Prenons un peu de recul avant de décider.", "en": "Let's step back a little before deciding." } },
+    { "id": "se-sentir-vise", "kind": "phrase", "fr": "se sentir visé", "en": "to feel targeted, to take something personally", "accept": ["se sentir visée"], "example": { "fr": "Ne te sens pas visé : ce n'est pas un reproche.", "en": "Don't take it personally: I'm not criticizing you." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "When the tension rises",
+      "intro": "Two situations: a conflict between colleagues, settled in a meeting room, and a client's angry email, answered in writing. Watch how Camille and Raj **lower the temperature**.",
+      "blocks": [
+        { "type": "dialogue", "title": "Last-minute changes",
+          "context": "Olivier, a developer, has just discovered that Lucie, the designer, changed the screens again. Camille, their manager, steps in.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Lucie, sérieusement, tu as encore changé les maquettes hier soir ? On avait dit que c'était final ! Tu ne penses jamais aux développeurs.", "en": "Lucie, seriously, you changed the mock-ups again last night? We'd said they were final! You never think about the developers." },
+            { "speaker": "Lucie", "fr": "Pardon ? Ce n'est pas moi qui décide, c'est la cliente qui a demandé ces changements. Et toi, tu ne lis jamais mes messages !", "en": "Excuse me? I'm not the one who decides, it's the client who asked for these changes. And you never read my messages!" },
+            { "speaker": "Camille", "fr": "Attendez, attendez. On va prendre une minute. Je vois que vous êtes tous les deux frustrés, et c'est normal : le délai est serré.", "en": "Wait, wait. Let's take a minute. I can see you're both frustrated, and that's normal: the deadline is tight." },
+            { "speaker": "Camille", "fr": "Olivier, si je comprends bien, ce qui te dérange, c'est que les changements arrivent à la dernière minute et que tu dois refaire ton travail. C'est ça ?", "en": "Olivier, if I understand correctly, what bothers you is that the changes come at the last minute and you have to redo your work. Is that it?" },
+            { "speaker": "Olivier", "fr": "Oui, exactement. J'ai passé deux jours sur ces écrans.", "en": "Yes, exactly. I spent two days on those screens." },
+            { "speaker": "Camille", "fr": "Je comprends. Et toi, Lucie, tu dis que ces changements viennent de la cliente et que tu as prévenu l'équipe par message.", "en": "I understand. And you, Lucie, you're saying these changes come from the client and that you warned the team by message." },
+            { "speaker": "Lucie", "fr": "Voilà. Je l'ai écrit dans le canal du projet mardi.", "en": "That's right. I wrote it in the project channel on Tuesday." },
+            { "speaker": "Olivier", "fr": "Ah… Je ne l'ai pas vu. Il y a tellement de messages… Bon, je retire ce que j'ai dit sur les développeurs. Ce n'était pas juste.", "en": "Oh… I didn't see it. There are so many messages… OK, I take back what I said about the developers. It wasn't fair." },
+            { "speaker": "Lucie", "fr": "Merci. Et je comprends : c'est frustrant de tout refaire. La prochaine fois, je t'appellerai directement.", "en": "Thanks. And I get it: it's frustrating to redo everything. Next time, I'll call you directly." },
+            { "speaker": "Camille", "fr": "Il y a eu un malentendu, ce n'est la faute de personne. Je vous propose une solution : à partir de maintenant, tout changement important passe par moi, et on en parle à la réunion du lundi. Ça vous convient ?", "en": "There was a misunderstanding; it's nobody's fault. Here's what I suggest: from now on, every important change goes through me, and we discuss it at the Monday meeting. Does that work for you?" },
+            { "speaker": "Olivier", "fr": "Ça me va.", "en": "That works for me." },
+            { "speaker": "Lucie", "fr": "Pour moi aussi.", "en": "For me too." }
+          ] },
+        { "type": "text", "title": "An angry client, a diplomatic answer",
+          "context": "The client, Nathalie Gagnon, writes: “C'est inacceptable ! On nous avait promis l'application pour le 14 mars et vous nous annoncez maintenant un retard d'une semaine. Nos membres l'attendent !” Raj answers.",
+          "fr": "Objet : RE: Retard de la livraison\n\nBonjour Madame Gagnon,\n\nJe comprends tout à fait votre déception, et je tiens d'abord à vous présenter nos excuses pour ce contretemps. Vous avez raison : nous nous étions engagés sur la date du 14 mars, et vos membres attendent cette nouvelle version.\n\nPermettez-moi cependant de vous expliquer la situation. Les modifications demandées le 6 mars touchaient une dizaine d'écrans, et nous avons préféré prendre le temps de les tester correctement plutôt que de vous livrer une application instable.\n\nAfin de limiter les conséquences de ce retard, nous vous proposons deux solutions : une livraison partielle le 14 mars, avec les fonctions de consultation des comptes, puis la version complète le 21 mars. Nous pourrions aussi organiser une courte rencontre cette semaine pour en discuter.\n\nJe reste à votre entière disposition.\n\nCordialement,\n\nRaj Patel",
+          "en": "Subject: RE: Delivery delay\n\nHello Ms. Gagnon,\n\nI fully understand your disappointment, and first of all I want to apologize for this setback. You are right: we had committed to the March 14 date, and your members are waiting for this new version.\n\nAllow me, however, to explain the situation. The changes requested on March 6 affected about ten screens, and we preferred to take the time to test them properly rather than deliver an unstable app to you.\n\nIn order to limit the consequences of this delay, we are offering two solutions: a partial delivery on March 14, with the account consultation features, then the full version on March 21. We could also organize a short meeting this week to discuss it.\n\nI remain entirely at your disposal.\n\nKind regards,\n\nRaj Patel" },
+        { "id": "d1", "type": "mcq", "prompt": "What does Camille do first to calm Olivier and Lucie down?", "options": ["She names their feelings and reformulates each point of view", "She decides who is right", "She ends the meeting"], "answer": 0,
+          "explain": "[[Je vois que vous êtes tous les deux frustrés]], then [[Si je comprends bien, ce qui te dérange, c'est que…]] Each person feels heard before any solution." },
+        { "id": "d2", "type": "mcq", "prompt": "In his email, what does Raj do BEFORE explaining the reasons for the delay?", "options": ["He acknowledges that the client is right and apologizes", "He blames the client's late changes", "He offers a discount"], "answer": 0,
+          "explain": "[[Je comprends tout à fait votre déception… Vous avez raison…]] Acknowledge first, explain second, propose third." }
+      ] },
+    { "type": "understand", "title": "The diplomat's toolkit",
+      "blocks": [
+        { "type": "table", "title": "Three steps to defuse a conflict",
+          "head": ["Step", "Goal", "Useful French"],
+          "rows": [
+            ["1. Reformuler", "Show you've understood", "Si je comprends bien, … / Ce que vous voulez dire, c'est que… ? / Autrement dit, …"],
+            ["2. Reconnaître", "Accept the other person's feelings or part of their point", "Je comprends votre point de vue. / Je vois ce que vous voulez dire. / Vous avez raison sur un point."],
+            ["3. Proposer", "Move toward a solution together", "Je vous propose… / Et si on… ? / Essayons de trouver un terrain d'entente. / Ça vous convient ?"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "Don't skip step 1. People in conflict often repeat their point louder because they don't feel heard. A good reformulation ends with a check: [[C'est ça ?]] [[C'est bien ça ?]]" },
+        { "type": "table", "title": "From accusing to diplomatic",
+          "head": ["Too direct", "Diplomatic"],
+          "rows": [
+            ["Tu ne lis jamais mes messages !", "J'ai l'impression que mes messages ne sont pas toujours lus."],
+            ["C'est faux.", "Je ne vois pas tout à fait les choses de la même façon."],
+            ["Vous êtes en retard.", "Il me semble que le délai n'a pas été respecté."],
+            ["Vous devez corriger ça.", "Serait-il possible de revoir ce point ?"],
+            ["C'est votre faute.", "Il y a eu un malentendu."],
+            ["Non.", "Je comprends votre demande, mais malheureusement, ce n'est pas possible pour le moment."]
+          ],
+          "frCols": [0, 1], "sayCol": true },
+        { "type": "pattern", "title": "Five ways to soften",
+          "pattern": "conditionnel · peut-être / un peu · je + ressenti · passif ou « on » · question",
+          "note": "Combine two or three of these in the same sentence for maximum effect.",
+          "examples": [
+            { "fr": "Je dirais que le calendrier est un peu serré.", "en": "I would say the schedule is a bit tight. (conditionnel + un peu)" },
+            { "fr": "On pourrait peut-être revoir l'ordre des priorités ?", "en": "Maybe we could review the order of priorities? (conditionnel + peut-être + question)" },
+            { "fr": "Je me sens un peu mis à l'écart quand les décisions sont prises sans moi.", "en": "I feel a bit left out when decisions are made without me. (feelings + passive)" },
+            { "fr": "Le rapport n'a pas été envoyé à temps.", "en": "The report wasn't sent on time. (passive: no finger pointing)" },
+            { "fr": "Qu'est-ce qui pourrait t'aider à respecter le délai ?", "en": "What could help you meet the deadline? (an open question)" }
+          ] },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["point-de-vue", "si-je-comprends-bien", "voir-ce-que", "pas-un-reproche", "jai-limpression", "terrain-dentente", "malentendu", "differend", "desamorcer", "reformuler", "prendre-du-recul", "se-sentir-vise"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Phrases that make things worse",
+          "body": "- **[[Calme-toi !]] / [[Calmez-vous !]]** almost never calms anyone. Name the feeling instead: [[Je vois que tu es frustré.]]\n- **[[Vous avez tort.]]** is a door slammed shut. Try [[Je ne suis pas tout à fait d'accord sur ce point.]]\n- **[[Je comprends, mais…]]**: the [[mais]] erases what came before. Try [[Je comprends, et en même temps…]] or pause and start a new sentence.\n- **[[toujours]] and [[jamais]]** ([[Tu es toujours en retard]]) turn one problem into an attack on the person. Talk about one specific situation: [[Hier, le rapport est arrivé à 17 h.]]\n- **[[être fâché avec]] ≠ [[être fâché contre]].** [[Je suis fâché contre Olivier]] = I'm angry at Olivier. [[Je suis fâché avec Olivier]] = we're not on speaking terms.\n- **[[différend]] vs [[différent]]:** a dispute is [[un différend]] (-d)." },
+        { "type": "deepdive", "kind": "canada", "title": "Conflict styles: Québec and France",
+          "body": "Generalizations have limits, but newcomers often notice this:\n\n- **In Québec**, workplaces tend to value consensus and a calm tone. Open confrontation in a meeting can be badly perceived, and people often soften a lot: [[C'est correct, mais…]] (Québec: *it's OK, but…*), [[J'aurais peut-être une petite suggestion…]] A dispute is often [[une chicane]] (informal Québec word): [[Pas de chicane !]]\n- **In France**, debate is more accepted, even enjoyed: contradicting a colleague in a meeting ([[Non, mais attends…]]) is often seen as engagement, not aggression.\n- **[[Je m'excuse]]** is completely normal in Québec. In France, some people still prefer [[Excusez-moi]] or [[Je vous prie de m'excuser]], because *s'excuser* literally means *to excuse oneself*. Both are understood everywhere.\n\nIf you move between the two cultures, watch how your colleagues disagree in meetings and adjust." },
+        { "type": "deepdive", "kind": "why", "title": "Why reformulating works",
+          "body": "Reformulating does three things at once: it shows respect, it slows the conversation down, and it checks that you're arguing about the same thing. Many workplace conflicts come from a [[malentendu]], like Olivier who never saw Lucie's message. In French, [[Si je comprends bien…]] also buys you a few seconds to think before you answer, which is very useful when you're speaking a second language under pressure." }
+      ] },
+    { "type": "hear", "title": "Hear the calm voice",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Diplomacy is also in the voice: speak more slowly and a little lower than usual, and don't raise the tone at the end of statements.",
+          "lines": [
+            { "fr": "Je vois que tu es frustré, et je le comprends.", "en": "I can see you're frustrated, and I understand." },
+            { "fr": "Si je comprends bien, ce qui vous dérange, c'est le délai.", "en": "If I understand correctly, what bothers you is the deadline." },
+            { "fr": "Je ne vois pas tout à fait les choses de la même façon.", "en": "I don't quite see things the same way." },
+            { "fr": "Ce n'est pas un reproche, c'est une question.", "en": "I'm not criticizing you, it's a question." },
+            { "fr": "Essayons de trouver un terrain d'entente.", "en": "Let's try to find common ground." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Karim, ce n'est pas un reproche, mais j'ai l'impression que les rapports arrivent souvent en retard ces derniers temps. Est-ce qu'il y a quelque chose qui pourrait t'aider ?", "en": "Karim, I'm not criticizing you, but I get the feeling the reports have often been late lately. Is there something that could help you?", "prompt": "How does the speaker raise the problem?", "options": ["Softly, with a question about how to help", "With a direct order", "By threatening Karim"], "answer": 0,
+          "explain": "[[Ce n'est pas un reproche]], [[j'ai l'impression que…]] and an open question: a diplomatic way to raise a problem." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je comprends tout à fait votre position. Par contre, nous ne pouvons pas modifier le contrat maintenant. Je vous propose donc de revoir ce point en juin, au moment du renouvellement.", "en": "I fully understand your position. However, we can't change the contract now. So I suggest we review this point in June, when it's renewed.", "prompt": "What does the speaker propose?", "options": ["To discuss the issue again in June", "To change the contract immediately", "To end the contract"], "answer": 0,
+          "explain": "[[Je vous propose donc de revoir ce point en juin]]: acknowledge, refuse, then propose." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back the passive voice and the conditionnel from B1.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Si je ___ bien, vous dites que le budget est insuffisant ?", "answers": [["comprends", "vous comprends"]], "en": "If I understand correctly, you're saying the budget is insufficient?", "explain": "[[Si je comprends bien…]] is the classic opening for a reformulation." },
+        { "id": "r2", "type": "mcq", "prompt": "Your colleague is upset. Which reply is the most diplomatic?", "options": ["Je vois que tu es frustré. Qu'est-ce qui s'est passé ?", "Calme-toi !", "Tu as tort.", "Tu es toujours comme ça."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Telling someone to calm down usually has the opposite effect.", "Too blunt: it closes the discussion.", "[[toujours]] turns one problem into an attack on the person."] },
+        { "id": "r3", "type": "translate", "prompt": "I understand your point of view, and at the same time… (formal)", "accept": ["Je comprends votre point de vue, et en même temps…", "Je comprends votre point de vue et, en même temps…", "Je comprends votre point de vue et en même temps…", "Je comprends votre position, et en même temps…"], "explain": "[[et en même temps]] keeps the acknowledgement alive, unlike [[mais]]." },
+        { "id": "r4", "type": "match", "prompt": "Match each direct sentence to its diplomatic version.", "pairs": [["C'est votre faute.", "Il y a eu un malentendu."], ["Vous êtes en retard.", "Il me semble que le délai n'a pas été respecté."], ["C'est faux.", "Je ne vois pas les choses de la même façon."], ["Corrigez ça.", "Serait-il possible de revoir ce point ?"]] },
+        { "id": "r5", "type": "cloze", "text": "Le rapport n'a pas ___ ___ à temps.", "answers": [["été"], ["envoyé"]], "en": "The report wasn't sent on time.", "explain": "B1 passive: [[avoir été]] + past participle. It states the problem without naming the person." },
+        { "id": "r6", "type": "translate", "prompt": "Maybe we could talk about it on Monday?", "accept": ["On pourrait peut-être en parler lundi ?", "Peut-être qu'on pourrait en parler lundi ?", "Nous pourrions peut-être en parler lundi ?", "Peut-être que nous pourrions en parler lundi ?", "On pourrait peut-être en discuter lundi ?", "Nous pourrions peut-être en discuter lundi ?"], "hint": "conditionnel + peut-être + en", "explain": "Conditionnel + [[peut-être]] + a question softens a proposal. [[en]] replaces [[de ça]] (parler de…)." },
+        { "id": "r7", "type": "reorder", "prompt": "There was a misunderstanding.", "accept": ["Il y a eu un malentendu"], "extra": ["été", "une"], "explain": "[[il y a eu]] is the passé composé of [[il y a]]. [[Un malentendu]] is masculine." },
+        { "id": "r8", "type": "cloze", "text": "Je suis fâché ___ Olivier parce qu'il a critiqué mon travail devant tout le monde.", "answers": [["contre"]], "choices": ["contre", "avec", "sur", "de"], "en": "I'm angry at Olivier because he criticized my work in front of everyone.", "explain": "[[fâché contre]] = angry at. [[fâché avec]] means you're no longer on speaking terms." },
+        { "id": "r9", "type": "dictation", "fr": "Essayons de trouver un terrain d'entente.", "accept": [], "explain": "[[Essayons]]: nous imperative of [[essayer]] (let's try). [[un terrain d'entente]] = common ground." },
+        { "id": "r10", "type": "mcq", "prompt": "“Un différend” means…", "options": ["a disagreement or dispute", "a difference in price", "something different"], "answer": 0, "explain": "[[un différend]] (with -d) is a dispute; the adjective [[différent]] (with -t) means different." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Role-play: you are a team leader. Two colleagues argue because one always books the meeting room that the other needs. Speak for about a minute: calm things down, reformulate each person's point, and propose a solution.", "seconds": 60,
+          "checklist": ["Name the feelings: Je vois que…", "Reformulate person 1: Si je comprends bien, …", "Reformulate person 2: Et toi, tu dis que…", "Il y a eu un malentendu / ce n'est la faute de personne", "A proposal with a question: Je vous propose… Ça vous convient ?"],
+          "models": [ { "label": "Model answer", "fr": "Bon, je vois que vous êtes tous les deux un peu tendus, alors on va prendre une minute. Amira, si je comprends bien, tu as besoin de la petite salle le mardi matin pour tes appels avec les clients, et elle est toujours réservée. C'est ça ? Et toi, Nguyen, tu dis que tu l'as réservée parce que personne d'autre ne l'utilisait, et que tu ne savais pas qu'Amira en avait besoin. Donc, il y a eu un malentendu, ce n'est la faute de personne. Je vous propose une solution : Amira prend la salle le mardi matin, et Nguyen la garde le reste de la semaine. Et on met un calendrier partagé en ligne pour éviter ce genre de problème. Ça vous convient ?", "en": "OK, I can see you're both a bit tense, so let's take a minute. Amira, if I understand correctly, you need the small room on Tuesday mornings for your calls with clients, and it's always booked. Is that it? And you, Nguyen, you're saying you booked it because nobody else was using it, and you didn't know Amira needed it. So there was a misunderstanding; it's nobody's fault. Here's what I suggest: Amira takes the room on Tuesday mornings, and Nguyen keeps it the rest of the week. And we'll put a shared calendar online to avoid this kind of problem. Does that work for you?" } ] },
+        { "id": "w1", "type": "write", "prompt": "A client writes to complain that your company sent the wrong order and that nobody answered the phone. Write a diplomatic reply: acknowledge and apologize, explain briefly without blaming, propose a solution, and close formally.", "promptFr": "Répondez au courriel d'un client mécontent.",
+          "wordRange": [100, 150],
+          "checklist": ["Acknowledge: Je comprends tout à fait votre mécontentement", "Apologize: Je tiens à vous présenter nos excuses", "Explain without blaming anyone (passive or « une erreur s'est produite »)", "Propose a concrete solution", "Je reste à votre disposition + a formal closing"],
+          "models": [ { "label": "Model answer", "fr": "Objet : RE: Commande no 7731\n\nBonjour Monsieur Lavoie,\n\nJe comprends tout à fait votre mécontentement, et je tiens à vous présenter nos excuses. Vous avez commandé des chaises de bureau noires, et ce sont des chaises grises qui vous ont été livrées. De plus, vous n'avez pas pu joindre notre service à la clientèle mardi.\n\nAprès vérification, une erreur s'est produite dans notre entrepôt au moment de la préparation de votre commande. Par ailleurs, notre ligne téléphonique a été en panne une partie de la journée.\n\nNous vous proposons de venir récupérer les chaises grises jeudi et de vous livrer les bonnes chaises le même jour, sans frais. En compensation, nous vous offrons également un rabais de 15 % sur votre prochaine commande.\n\nJe reste à votre disposition pour toute question.\n\nCordialement,\n\nSofia Ramírez\nService à la clientèle", "en": "Subject: RE: Order no. 7731\n\nHello Mr. Lavoie,\n\nI fully understand your dissatisfaction, and I would like to apologize. You ordered black office chairs, and grey chairs were delivered to you. What's more, you were unable to reach our customer service on Tuesday.\n\nAfter checking, an error occurred in our warehouse while your order was being prepared. In addition, our phone line was down for part of the day.\n\nWe offer to come and pick up the grey chairs on Thursday and to deliver the right chairs the same day, free of charge. As compensation, we are also offering you a 15% discount on your next order.\n\nI remain available for any questions.\n\nKind regards,\n\nSofia Ramírez\nCustomer Service" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Defuse a conflict in three steps: **reformuler** ([[Si je comprends bien…]]), **reconnaître** ([[Je comprends votre point de vue]]), **proposer** ([[Je vous propose… Ça vous convient ?]])\n- Turn accusations into diplomatic statements with the conditionnel, [[peut-être]], [[j'ai l'impression que]], the passive and questions\n- Answer an angry email: acknowledge, apologize, explain without blaming, propose a solution\n- Avoid escalators: [[Calme-toi !]], [[Vous avez tort]], [[toujours]] / [[jamais]]",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed an unsupported statistic (half of conflicts). Language, answer keys and word counts checked; no other changes needed."}
+}

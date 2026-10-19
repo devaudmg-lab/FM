@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-06-05",
+  "level": "b1",
+  "unit": "b1-06",
+  "title": "What would you do?",
+  "goal": "Discuss dilemmas: say what you would do in an imaginary situation, justify it, ask politely and give advice, using the conditionnel and si + imparfait together.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-cond-review", "kind": "grammar", "fr": "conditionnel présent", "en": "conditionnel: forms (review)",
+      "drills": [
+        { "type": "cloze", "text": "Nous ___ (venir) avec plaisir.", "answers": [["viendrions"]], "en": "We would come with pleasure.", "explain": "[[venir]] → [[viendr-]] + [[-ions]]." },
+        { "type": "cloze", "text": "Ils ___ (être) très déçus.", "answers": [["seraient"]], "en": "They would be very disappointed.", "explain": "[[être]] → [[ser-]] + [[-aient]]." },
+        { "type": "mcq", "prompt": "Which form is the conditionnel of voir (je)?", "options": ["je verrais", "je voirais", "je voyais", "je verrai"], "optionsFr": true, "answer": 0, "explain": "Stem [[verr-]] (two r's) + [[-ais]]. [[voyais]] = imparfait, [[verrai]] = futur." }
+      ] },
+    { "id": "g-si-review", "kind": "grammar", "fr": "si + imparfait → conditionnel", "en": "imaginary conditions (review)",
+      "drills": [
+        { "type": "cloze", "text": "Si je ___ (trouver) un portefeuille, je l'apporterais à la police.", "answers": [["trouvais"]], "en": "If I found a wallet, I'd take it to the police.", "explain": "si + imparfait: [[si je trouvais]]." },
+        { "type": "cloze", "text": "Qu'est-ce que vous ___ (dire) si votre patron vous demandait de mentir ?", "answers": [["diriez"]], "en": "What would you say if your boss asked you to lie?", "explain": "[[dire]] → [[dir-]] + [[-iez]]: [[vous diriez]]." }
+      ] },
+    { "id": "g-advice-review", "kind": "grammar", "fr": "tu devrais / à ta place / il vaudrait mieux", "en": "giving advice (review)",
+      "drills": [
+        { "type": "cloze", "text": "À votre place, je ___ (refuser).", "answers": [["refuserais"]], "en": "In your place, I'd refuse.", "explain": "[[à votre place]] + **je** + conditionnel." },
+        { "type": "mcq", "prompt": "Choose the correct sentence.", "options": ["Tu ferais mieux de lui dire la vérité.", "Tu ferais mieux lui dire la vérité.", "Il vaudrait mieux de lui dire la vérité."], "optionsFr": true, "answer": 0, "explain": "[[faire mieux de]] + infinitive; [[il vaudrait mieux]] + infinitive, no [[de]]." }
+      ] },
+    { "id": "dilemme", "kind": "vocab", "fr": "dilemme", "article": "un", "gender": "m", "en": "dilemma", "pos": "noun", "accept": ["le dilemme"],
+      "example": { "fr": "J'ai un vrai dilemme : rester ou partir ?", "en": "I have a real dilemma: stay or leave?" }, "note": "Masculine, with **mm** and a final **-e**: [[un dilemme]]." },
+    { "id": "hesiter", "kind": "vocab", "fr": "hésiter", "en": "to hesitate", "pos": "verb",
+      "example": { "fr": "J'hésite entre deux offres d'emploi.", "en": "I'm torn between two job offers." }, "note": "[[hésiter entre A et B]] = to be torn between A and B." },
+    { "id": "ca-depend", "kind": "phrase", "fr": "Ça dépend de…", "en": "It depends on…", "accept": ["Cela dépend de…"] },
+    { "id": "je-crois-que", "kind": "phrase", "fr": "Je crois que je…", "en": "I think I would… (+ conditionnel)", "note": "[[Je crois que je refuserais.]] Softens your answer." },
+    { "id": "sans-hesiter", "kind": "phrase", "fr": "sans hésiter", "en": "without hesitating, in a heartbeat" },
+    { "id": "jamais-de-la-vie", "kind": "phrase", "fr": "Jamais de la vie !", "en": "Never in a million years! No way!" },
+    { "id": "dun-cote", "kind": "phrase", "fr": "D'un côté…, de l'autre…", "en": "On the one hand…, on the other hand…", "accept": ["D'un côté…, d'un autre côté…"] },
+    { "id": "rendre", "kind": "vocab", "fr": "rendre", "en": "to give back, to return (something)", "pos": "verb",
+      "example": { "fr": "Je rendrais le portefeuille à son propriétaire.", "en": "I'd give the wallet back to its owner." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Three dilemmas",
+      "intro": "A podcast asks listeners: *what would you do?* Read the three dilemmas and Alex's answers. Spot all the verbs in the conditionnel and the si clauses.",
+      "blocks": [
+        { "type": "text", "title": "« Et vous, que feriez-vous ? »",
+          "context": "Three dilemmas from a (fictional) Canadian podcast about everyday ethics.",
+          "fr": "Dilemme 1 : Vous trouvez un portefeuille dans le métro avec 500 $ et une carte d'identité. Que feriez-vous ?\nDilemme 2 : On vous offre un emploi très bien payé à Calgary, mais toute votre famille habite à Montréal. Accepteriez-vous ?\nDilemme 3 : Votre meilleur ami vous demande de lui prêter 3 000 $. Il vous a déjà emprunté de l'argent l'an dernier et il ne vous l'a jamais rendu. Que lui diriez-vous ?",
+          "en": "Dilemma 1: You find a wallet in the metro with $500 and an ID card. What would you do? Dilemma 2: You're offered a very well-paid job in Calgary, but your whole family lives in Montréal. Would you accept? Dilemma 3: Your best friend asks you to lend him $3,000. He already borrowed money from you last year and never gave it back. What would you say to him?" },
+        { "type": "listen", "title": "Alex répond",
+          "context": "Alex, a listener from Ottawa, leaves a voice message for the podcast.",
+          "fr": "Bonjour ! Alors, pour le premier dilemme, c'est facile : je rendrais le portefeuille sans hésiter. Si je perdais mon portefeuille, je serais content qu'on me le rende, non ? J'appellerais la personne ou je l'apporterais à la police.\nLe deuxième, c'est plus difficile. D'un côté, un bon salaire, ce serait super. De l'autre, je verrais ma famille seulement deux fois par année. Je crois que je refuserais… sauf si je pouvais travailler à distance une partie du temps.\nEt pour le troisième : jamais de la vie ! Enfin… je ne lui prêterais pas d'argent, mais je l'aiderais autrement. Je lui dirais : « Si tu veux, je pourrais t'aider à faire un budget. » À sa place, j'aurais un peu honte de demander encore !",
+          "en": "Hello! So, for the first dilemma, it's easy: I'd return the wallet without hesitating. If I lost my wallet, I'd be happy if someone gave it back to me, right? I'd call the person or I'd take it to the police. The second one is harder. On the one hand, a good salary would be great. On the other hand, I'd see my family only twice a year. I think I'd refuse… unless I could work remotely part of the time. And for the third: no way! Well… I wouldn't lend him money, but I'd help him another way. I'd tell him: “If you want, I could help you make a budget.” In his place, I'd be a bit ashamed to ask again!" },
+        { "type": "note", "tone": "info", "body": "[[je serais content qu'on me le rende]] = I'd be happy if someone gave it back to me. [[rende]] is the subjonctif (B2): just recognize it here. New words: [[emprunter]] = to borrow; [[prêter]] = to lend; [[autrement]] = another way; [[avoir honte]] = to be ashamed." },
+        { "id": "d1", "type": "mcq", "prompt": "Would Alex accept the job in Calgary?", "options": ["Probably not, unless he could work remotely part of the time.", "Yes, right away.", "Yes, because his family would move too."], "answer": 0,
+          "explain": "[[Je crois que je refuserais… sauf si je pouvais travailler à distance]]: [[sauf si]] (unless) + imparfait." },
+        { "id": "d2", "type": "mcq", "prompt": "What would Alex do for his friend?", "options": ["Offer to help him make a budget", "Lend him the $3,000", "Stop talking to him"], "answer": 0,
+          "explain": "[[je ne lui prêterais pas d'argent, mais je l'aiderais autrement]]." },
+        { "id": "d3", "type": "mcq", "prompt": "“Il vous a déjà emprunté de l'argent et il ne vous l'a jamais rendu.” What does this tell you?", "options": ["The friend never gave back the money he borrowed.", "The friend lent money to you.", "The friend will pay you back soon."], "answer": 0,
+          "explain": "[[emprunter]] = to borrow; [[rendre]] = to give back. [[ne… jamais]] in the passé composé (A2)." }
+      ] },
+    { "type": "understand", "title": "Your unit 6 toolkit",
+      "intro": "Everything from the unit on one page.",
+      "blocks": [
+        { "type": "table", "title": "1. The conditionnel",
+          "head": ["Part", "Rule", "Examples"],
+          "rows": [
+            ["Stem", "the futur stem", "parler-, finir-, prendr-, ser-, aur-, ir-, fer-, pourr-, voudr-, devr-, viendr-, verr-"],
+            ["Endings", "the imparfait endings", "-ais, -ais, -ait, -ions, -iez, -aient"],
+            ["Uses", "politeness, wishes, imagination, advice, unconfirmed news", "Je voudrais… / J'aimerais… / Tu devrais… / Il y aurait…"]
+          ],
+          "frCols": [2], "sayCol": false },
+        { "type": "table", "title": "2. Requests, wishes, advice",
+          "head": ["You want to…", "Expressions"],
+          "rows": [
+            ["Ask politely", "Pourriez-vous… ? / Ça vous dérangerait de… ? / Serait-il possible de… ?"],
+            ["Say what you'd like", "Je voudrais… / J'aimerais (bien)… / Je souhaiterais…"],
+            ["Suggest", "Tu pourrais… / Pourquoi ne pas… ? / On pourrait…"],
+            ["Advise", "Tu devrais… / Je te conseille de… / Il vaudrait mieux… / Tu ferais mieux de…"],
+            ["Put yourself in their place", "À ta place, je… / Si j'étais toi, je…"]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "pattern", "title": "3. Answering a dilemma",
+          "pattern": "Réponse (conditionnel) + raison + condition (si / sauf si + imparfait)",
+          "note": "A strong answer says **what** you would do, **why**, and **under what conditions** you'd change your mind. Use [[d'un côté… de l'autre…]] to weigh both sides.",
+          "examples": [
+            { "fr": "Je rendrais le portefeuille, parce que si je le perdais, je serais triste.", "en": "I'd return the wallet, because if I lost it, I'd be sad." },
+            { "fr": "Je refuserais, sauf si je pouvais travailler à distance.", "en": "I'd refuse, unless I could work remotely." },
+            { "fr": "D'un côté, ce serait une belle expérience ; de l'autre, je serais loin de ma famille.", "en": "On the one hand, it would be a great experience; on the other, I'd be far from my family." },
+            { "fr": "Ça dépend : s'il avait un vrai problème, je l'aiderais.", "en": "It depends: if he had a real problem, I'd help him." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes", "title": "The six biggest unit 6 errors",
+          "body": "- [[Si j'aurais le temps]] → [[Si j'avais le temps]]\n- [[Je voudrai un café]] (futur) → [[Je voudrais un café]]\n- [[nous parlions]] (imparfait) when you mean *we would speak* → [[nous parlerions]]\n- [[À ta place, tu refuserais]] → [[À ta place, je refuserais]]\n- [[Il vaudrait mieux de partir]] → [[Il vaudrait mieux partir]]\n- [[Ça vous dérangerait ? — Oui, pas de problème]] → [[Non, pas du tout]]" },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam tip: hypotheses in the TEF and TCF",
+          "body": "Speaking and writing tasks often ask *what would you do / what would happen if…?* (for example: *Que feriez-vous si vous pouviez changer une loi ?*). Examiners check three things at B1:\n\n- **Accurate forms:** si + imparfait → conditionnel, with no *si j'aurais*.\n- **Justification:** at least one reason per idea ([[parce que]], [[car]], [[comme ça]]).\n- **Nuance:** [[ça dépend]], [[sauf si]], [[d'un côté… de l'autre…]], [[je crois que je…]].\n\nThis is practice advice written for FrenchQuest, not an official test item." }
+      ] },
+    { "type": "hear", "title": "Hear the whole unit",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je rendrais le portefeuille sans hésiter.", "en": "I'd return the wallet without hesitating.", "tip": "rendrais: ran-drè." },
+            { "fr": "Si je perdais mon portefeuille, je serais triste.", "en": "If I lost my wallet, I'd be sad." },
+            { "fr": "D'un côté, ce serait super ; de l'autre, je serais loin de ma famille.", "en": "On the one hand, it would be great; on the other, I'd be far from my family." },
+            { "fr": "Je crois que je refuserais, sauf si je pouvais travailler à distance.", "en": "I think I'd refuse, unless I could work remotely." },
+            { "fr": "Jamais de la vie !", "en": "No way!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Si on m'offrait un poste à Vancouver, j'accepterais tout de suite. J'adore la montagne !", "en": "If I were offered a job in Vancouver, I'd accept right away. I love the mountains!", "prompt": "What would the speaker do?", "options": ["Accept the job immediately", "Refuse the job", "Ask for time to think"], "answer": 0,
+          "explain": "[[j'accepterais tout de suite]]. [[si on m'offrait]]: on (unit 5) + imparfait (lesson 3)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ça dépend. S'il me le demandait gentiment, je lui prêterais peut-être un peu d'argent.", "en": "It depends. If he asked me nicely, I might lend him a little money.", "prompt": "Would the speaker lend money?", "options": ["Maybe, if asked nicely", "Never", "Yes, any amount"], "answer": 0,
+          "explain": "[[Ça dépend]] + condition [[s'il me le demandait gentiment]] + [[peut-être]]." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: units 5 and 6 and earlier",
+      "intro": "Ten mixed questions: the conditionnel, si clauses, politeness, advice, plus the passive and earlier B1 grammar.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Si je ___ (gagner) à la loterie, je ___ (faire) le tour du monde.", "answers": [["gagnais"], ["ferais"]], "en": "If I won the lottery, I'd travel around the world.",
+          "explain": "si + imparfait ([[gagnais]]) → conditionnel ([[ferais]])." },
+        { "id": "r2", "type": "mcq", "prompt": "Choose the correct sentence.", "options": ["Si tu avais le temps, tu pourrais m'aider ?", "Si tu aurais le temps, tu pourrais m'aider ?", "Si tu avais le temps, tu pouvais m'aider ?"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Never the conditionnel after si.", "The result needs the conditionnel: tu pourrais."] },
+        { "id": "r3", "type": "translate", "prompt": "Would you mind sending me the report? (formal)", "accept": ["Ça vous dérangerait de m'envoyer le rapport ?", "Est-ce que ça vous dérangerait de m'envoyer le rapport ?", "Cela vous dérangerait-il de m'envoyer le rapport ?", "Cela vous dérangerait de m'envoyer le rapport ?"],
+          "explain": "[[Ça vous dérangerait de]] + infinitive; the pronoun [[m']] goes before the infinitive." },
+        { "id": "r4", "type": "cloze", "text": "À ta place, j'___ (aller) voir un médecin.", "answers": [["irais"]], "choices": ["irais", "irai", "allais", "vais"], "en": "In your place, I'd go and see a doctor.",
+          "explain": "[[aller]] → [[ir-]] + [[-ais]]. After [[à ta place]]: conditionnel." },
+        { "id": "r5", "type": "translate", "prompt": "According to the police, the suspect is reportedly in Montréal.", "accept": ["Selon la police, le suspect serait à Montréal.", "D'après la police, le suspect serait à Montréal.", "Selon la police, le suspect se trouverait à Montréal.", "D'après la police, le suspect se trouverait à Montréal.", "Le suspect serait à Montréal, selon la police."],
+          "explain": "Unconfirmed news (lesson 1) → conditionnel: [[il serait]], [[il se trouverait]]." },
+        { "id": "r6", "type": "cloze", "text": "Le portefeuille a été ___ (rendre) à son propriétaire.", "answers": [["rendu"]], "en": "The wallet was returned to its owner.",
+          "explain": "Passive (unit 5): [[a été]] + past participle. [[rendre → rendu]], agreeing with [[le portefeuille]]." },
+        { "id": "r7", "type": "match", "prompt": "Match each sentence with its use of the conditionnel.", "pairs": [["Je voudrais un renseignement.", "politeness"], ["J'aimerais vivre au bord de la mer.", "wish"], ["Tu devrais te reposer.", "advice"], ["Il y aurait deux blessés.", "unconfirmed news"], ["Si j'étais riche, j'arrêterais de travailler.", "imaginary situation"]] },
+        { "id": "r8", "type": "cloze", "text": "Elle m'a dit qu'elle ___ (venir) à la fête samedi.", "answers": [["viendrait"]], "en": "She told me she would come to the party on Saturday.",
+          "explain": "Reported speech (unit 2): [[« Je viendrai »]] → [[elle a dit qu'elle viendrait]]." },
+        { "id": "r9", "type": "reorder", "prompt": "It would be better not to wait.", "accept": ["Il vaudrait mieux ne pas attendre"], "extra": ["de", "vaut"],
+          "explain": "No [[de]] after [[il vaudrait mieux]]; [[ne pas]] together before the infinitive." },
+        { "id": "r10", "type": "dictation", "fr": "Je crois que je refuserais, sauf si je pouvais travailler à distance.", "accept": [], "explain": "[[refuserais]] (conditionnel) and [[pouvais]] (imparfait after si)." }
+      ] },
+    { "type": "apply", "title": "Mission: what would you do?",
+      "intro": "Two missions. Before you start, choose your answer to each dilemma, one reason, and one condition (si / sauf si…).",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Record your own voice message for the podcast. Answer two of the three dilemmas (the wallet, the job in Calgary, the friend who wants money). For each: say what you would do, why, and under what condition you would change your mind. Finish with a piece of advice for someone in the same situation.", "seconds": 90,
+          "checklist": ["At least five verbs in the conditionnel", "At least two si + imparfait clauses", "A reason for each answer (parce que, car…)", "Nuance: ça dépend, sauf si, d'un côté… de l'autre…", "A piece of advice: à ta place / tu devrais / il vaudrait mieux…", "No “si j'aurais”"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour ! Pour le portefeuille, je l'apporterais à la police, parce que ce n'est pas mon argent. Si je perdais mon portefeuille, je serais très stressée. Pour l'emploi à Calgary, j'accepterais, parce que le salaire serait meilleur et j'aime les nouvelles expériences. Mais si j'avais des enfants, je resterais à Montréal, près de ma famille. Et à quelqu'un dans la même situation, je dirais : tu devrais parler avec ta famille avant de décider.", "en": "Hello! For the wallet, I'd take it to the police, because it isn't my money. If I lost my wallet, I'd be very stressed. For the job in Calgary, I'd accept, because the salary would be better and I like new experiences. But if I had children, I'd stay in Montréal, close to my family. And to someone in the same situation, I'd say: you should talk with your family before deciding." },
+            { "label": "Stronger model answer", "fr": "Bonjour à toute l'équipe ! Pour le premier dilemme, je n'hésiterais pas une seconde : je chercherais la personne sur les réseaux sociaux grâce à sa carte d'identité, et si je ne la trouvais pas, je laisserais le portefeuille au poste de police. Le troisième dilemme, par contre, est plus délicat. D'un côté, c'est mon meilleur ami et je voudrais l'aider ; de l'autre, il ne m'a jamais remboursé. Je crois que je lui expliquerais franchement que je ne peux pas lui prêter cette somme. Ça dépend un peu de la situation, bien sûr : s'il avait un problème de santé, je trouverais une solution. Et à quelqu'un qui vit ce dilemme, je dirais : tu devrais fixer une limite claire. Sinon, tu risquerais de perdre l'argent et l'amitié !", "en": "Hello to the whole team! For the first dilemma, I wouldn't hesitate a second: I'd look for the person on social media thanks to their ID card, and if I couldn't find them, I'd leave the wallet at the police station. The third dilemma, on the other hand, is trickier. On the one hand, he's my best friend and I'd like to help him; on the other, he never paid me back. I think I'd explain honestly that I can't lend him that amount. It depends a bit on the situation, of course: if he had a health problem, I'd find a solution. And to someone facing this dilemma, I'd say: you should set a clear limit. Otherwise, you'd risk losing both the money and the friendship!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Your friend Olivier writes: « On m'offre un super poste à Calgary, mais ma copine et ma famille sont à Montréal. Qu'est-ce que tu ferais à ma place ? » Reply to him. Say what you would do in his place and why, consider both sides, and give him two or three pieces of advice.",
+          "promptFr": "Répondez au message d'Olivier (100 à 150 mots).",
+          "wordRange": [100, 150],
+          "checklist": ["Informal greeting and closing (Salut Olivier ! / À bientôt)", "À ta place / Si j'étais toi + je + conditionnel", "Both sides: d'un côté… de l'autre…", "At least two si + imparfait → conditionnel sentences", "Two or three pieces of advice (tu devrais, tu pourrais, il vaudrait mieux, tu ferais mieux de)", "At least one reason per idea", "100–150 words"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Olivier !\nFélicitations pour cette offre ! C'est une décision difficile. D'un côté, ce serait une belle étape pour ta carrière et tu gagnerais plus d'argent. De l'autre, tu serais loin de ta copine et de ta famille. Si j'étais toi, j'accepterais le poste, mais seulement pour un ou deux ans. Si ta copine pouvait travailler à distance, elle pourrait peut-être venir avec toi.\nTu devrais en parler avec elle avant de répondre. Tu pourrais aussi demander à l'entreprise s'il serait possible de travailler une semaine par mois à Montréal. Enfin, il vaudrait mieux visiter Calgary avant de décider.\nBonne chance, et dis-moi ta décision !\nMei", "en": "Hi Olivier! Congratulations on this offer! It's a tough decision. On the one hand, it would be a great step for your career and you'd earn more money. On the other, you'd be far from your girlfriend and your family. If I were you, I'd accept the job, but only for one or two years. If your girlfriend could work remotely, maybe she could come with you. You should talk about it with her before answering. You could also ask the company if it would be possible to work one week a month in Montréal. Finally, it would be better to visit Calgary before deciding. Good luck, and tell me your decision! Mei" },
+            { "label": "Stronger model answer", "fr": "Salut Olivier !\nQuelle nouvelle ! Je comprends que tu hésites. D'un côté, un poste comme celui-là, on ne le refuse pas facilement : tu aurais un meilleur salaire et beaucoup plus de responsabilités. De l'autre, si tu partais seul, tu risquerais de te sentir très isolé, surtout pendant le premier hiver.\nMoi, à ta place, je ne dirais pas non tout de suite. Je négocierais d'abord. Tu pourrais, par exemple, proposer de travailler à distance deux semaines par mois. Si l'entreprise acceptait, ce serait le meilleur des deux mondes ! Par contre, tu ferais mieux de ne pas décider seul : ta copine devrait participer à la décision, parce que ça change sa vie aussi.\nEt si finalement tu refusais, ce ne serait pas un échec : d'autres offres viendront.\nTiens-moi au courant !\nMei", "en": "Hi Olivier! What news! I understand that you're hesitating. On the one hand, you don't easily turn down a job like that: you'd have a better salary and many more responsibilities. On the other, if you left alone, you might feel very isolated, especially during the first winter. Me, in your place, I wouldn't say no right away. I'd negotiate first. You could, for example, offer to work remotely two weeks a month. If the company accepted, it would be the best of both worlds! On the other hand, you'd better not decide alone: your girlfriend should take part in the decision, because it changes her life too. And if you finally refused, it wouldn't be a failure: other offers will come. Keep me posted! Mei" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Answer dilemmas with the **conditionnel** and **si + imparfait**, with reasons and conditions ([[sauf si]], [[ça dépend]])\n- Weigh both sides: [[D'un côté…, de l'autre…]]\n- Ask politely, express wishes and give advice in one conversation or message",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Price as 3 000 $, glossed \"qu'on me le rende\", fixed the wrong dilemme spelling note, made the stronger model end with real advice, replaced a duplicate reorder distractor." }
+}

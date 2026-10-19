@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-27",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Food, nature and materials",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "food and drink, the natural world, materials and animals",
+  "goal": "Recognise and use 23 words for food, nature, materials and animals.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "frites",
+      "kind": "vocab",
+      "fr": "frites",
+      "article": "les",
+      "gender": "f",
+      "en": "French fries",
+      "pos": "noun",
+      "accept": [
+        "des frites",
+        "frite",
+        "la frite",
+        "une frite"
+      ],
+      "example": {
+        "fr": "Je prends un hamburger avec des frites.",
+        "en": "I'll have a burger with fries."
+      }
+    },
+    {
+      "id": "oignon",
+      "kind": "vocab",
+      "fr": "oignon",
+      "article": "l'",
+      "gender": "m",
+      "en": "onion",
+      "pos": "noun",
+      "accept": [
+        "un oignon"
+      ],
+      "example": {
+        "fr": "Coupe un oignon en petits morceaux.",
+        "en": "Chop an onion into small pieces."
+      }
+    },
+    {
+      "id": "dinde",
+      "kind": "vocab",
+      "fr": "dinde",
+      "article": "la",
+      "gender": "f",
+      "en": "turkey (meat or bird)",
+      "pos": "noun",
+      "accept": [
+        "une dinde"
+      ],
+      "example": {
+        "fr": "À l'Action de grâce, on mange de la dinde.",
+        "en": "At Thanksgiving, we eat turkey."
+      }
+    },
+    {
+      "id": "mais",
+      "kind": "vocab",
+      "fr": "maïs",
+      "article": "le",
+      "gender": "m",
+      "en": "corn, maize",
+      "pos": "noun",
+      "accept": [
+        "un maïs",
+        "le blé d'Inde",
+        "du blé d'Inde"
+      ],
+      "example": {
+        "fr": "J'ajoute du maïs dans la salade.",
+        "en": "I add corn to the salad."
+      },
+      "note": "Québec: le blé d’Inde = corn."
+    },
+    {
+      "id": "ble",
+      "kind": "vocab",
+      "fr": "blé",
+      "article": "le",
+      "gender": "m",
+      "en": "wheat",
+      "pos": "noun",
+      "accept": [
+        "un blé"
+      ],
+      "example": {
+        "fr": "Ce pain est fait avec du blé de la Saskatchewan.",
+        "en": "This bread is made with wheat from Saskatchewan."
+      }
+    },
+    {
+      "id": "steak",
+      "kind": "vocab",
+      "fr": "steak",
+      "article": "le",
+      "gender": "m",
+      "en": "steak",
+      "pos": "noun",
+      "accept": [
+        "un steak"
+      ],
+      "example": {
+        "fr": "Tu veux ton steak saignant ou bien cuit ?",
+        "en": "Do you want your steak rare or well done?"
+      }
+    },
+    {
+      "id": "biere",
+      "kind": "vocab",
+      "fr": "bière",
+      "article": "la",
+      "gender": "f",
+      "en": "beer",
+      "pos": "noun",
+      "accept": [
+        "une bière"
+      ],
+      "example": {
+        "fr": "On prend une bière après le travail ?",
+        "en": "Shall we have a beer after work?"
+      }
+    },
+    {
+      "id": "cuit",
+      "kind": "vocab",
+      "fr": "cuit",
+      "fem": "cuite",
+      "en": "cooked",
+      "pos": "adjective",
+      "accept": [
+        "cuite"
+      ],
+      "example": {
+        "fr": "Les pâtes sont cuites : on peut manger.",
+        "en": "The pasta is cooked: we can eat."
+      }
+    },
+    {
+      "id": "boue",
+      "kind": "vocab",
+      "fr": "boue",
+      "article": "la",
+      "gender": "f",
+      "en": "mud",
+      "pos": "noun",
+      "accept": [
+        "une boue"
+      ],
+      "example": {
+        "fr": "Enlève tes bottes, elles sont pleines de boue.",
+        "en": "Take off your boots, they are covered in mud."
+      }
+    },
+    {
+      "id": "grotte",
+      "kind": "vocab",
+      "fr": "grotte",
+      "article": "la",
+      "gender": "f",
+      "en": "cave",
+      "pos": "noun",
+      "accept": [
+        "une grotte"
+      ],
+      "example": {
+        "fr": "On a visité une grotte en Gaspésie.",
+        "en": "We visited a cave in the Gaspé."
+      }
+    },
+    {
+      "id": "tonnerre",
+      "kind": "vocab",
+      "fr": "tonnerre",
+      "article": "le",
+      "gender": "m",
+      "en": "thunder",
+      "pos": "noun",
+      "accept": [
+        "un tonnerre"
+      ],
+      "example": {
+        "fr": "J'ai entendu le tonnerre au loin.",
+        "en": "I heard thunder in the distance."
+      }
+    },
+    {
+      "id": "flamme",
+      "kind": "vocab",
+      "fr": "flamme",
+      "article": "la",
+      "gender": "f",
+      "en": "flame",
+      "pos": "noun",
+      "accept": [
+        "une flamme"
+      ],
+      "example": {
+        "fr": "Baisse la flamme, la sauce va brûler.",
+        "en": "Turn down the flame, the sauce is going to burn."
+      }
+    },
+    {
+      "id": "branche",
+      "kind": "vocab",
+      "fr": "branche",
+      "article": "la",
+      "gender": "f",
+      "en": "branch",
+      "pos": "noun",
+      "accept": [
+        "une branche"
+      ],
+      "example": {
+        "fr": "Une branche est tombée sur l'auto pendant la tempête.",
+        "en": "A branch fell on the car during the storm."
+      }
+    },
+    {
+      "id": "vague",
+      "kind": "vocab",
+      "fr": "vague",
+      "article": "la",
+      "gender": "f",
+      "en": "wave (water); wave (of heat, cold)",
+      "pos": "noun",
+      "accept": [
+        "une vague"
+      ],
+      "example": {
+        "fr": "Les vagues sont trop hautes pour nager.",
+        "en": "The waves are too high for swimming."
+      }
+    },
+    {
+      "id": "obscurite",
+      "kind": "vocab",
+      "fr": "obscurité",
+      "article": "l'",
+      "gender": "f",
+      "en": "darkness",
+      "pos": "noun",
+      "accept": [
+        "une obscurité"
+      ],
+      "example": {
+        "fr": "Les enfants ont peur de l'obscurité.",
+        "en": "The children are afraid of the dark."
+      }
+    },
+    {
+      "id": "puits",
+      "kind": "vocab",
+      "fr": "puits",
+      "article": "le",
+      "gender": "m",
+      "en": "well (for water)",
+      "pos": "noun",
+      "accept": [
+        "un puits"
+      ],
+      "example": {
+        "fr": "La maison de campagne a un puits.",
+        "en": "The country house has a well."
+      }
+    },
+    {
+      "id": "acier",
+      "kind": "vocab",
+      "fr": "acier",
+      "article": "l'",
+      "gender": "m",
+      "en": "steel",
+      "pos": "noun",
+      "accept": [
+        "un acier"
+      ],
+      "example": {
+        "fr": "Le pont est construit en acier.",
+        "en": "The bridge is made of steel."
+      }
+    },
+    {
+      "id": "plomb",
+      "kind": "vocab",
+      "fr": "plomb",
+      "article": "le",
+      "gender": "m",
+      "en": "lead (metal)",
+      "pos": "noun",
+      "accept": [
+        "un plomb"
+      ],
+      "example": {
+        "fr": "Les vieux tuyaux en plomb sont dangereux.",
+        "en": "Old lead pipes are dangerous."
+      }
+    },
+    {
+      "id": "petrole",
+      "kind": "vocab",
+      "fr": "pétrole",
+      "article": "le",
+      "gender": "m",
+      "en": "oil, petroleum",
+      "pos": "noun",
+      "accept": [
+        "un pétrole"
+      ],
+      "example": {
+        "fr": "L'Alberta produit beaucoup de pétrole.",
+        "en": "Alberta produces a lot of oil."
+      }
+    },
+    {
+      "id": "cristal",
+      "kind": "vocab",
+      "fr": "cristal",
+      "article": "le",
+      "gender": "m",
+      "en": "crystal",
+      "pos": "noun",
+      "accept": [
+        "un cristal"
+      ],
+      "example": {
+        "fr": "Ma grand-mère a des verres en cristal.",
+        "en": "My grandmother has crystal glasses."
+      }
+    },
+    {
+      "id": "tigre",
+      "kind": "vocab",
+      "fr": "tigre",
+      "article": "le",
+      "gender": "m",
+      "en": "tiger",
+      "pos": "noun",
+      "accept": [
+        "un tigre"
+      ],
+      "example": {
+        "fr": "Au zoo, on a vu un tigre blanc.",
+        "en": "At the zoo, we saw a white tiger."
+      }
+    },
+    {
+      "id": "requin",
+      "kind": "vocab",
+      "fr": "requin",
+      "article": "le",
+      "gender": "m",
+      "en": "shark",
+      "pos": "noun",
+      "accept": [
+        "un requin"
+      ],
+      "example": {
+        "fr": "Il y a des requins dans le golfe du Saint-Laurent.",
+        "en": "There are sharks in the Gulf of St. Lawrence."
+      }
+    },
+    {
+      "id": "betail",
+      "kind": "vocab",
+      "fr": "bétail",
+      "article": "le",
+      "gender": "m",
+      "en": "livestock, cattle",
+      "pos": "noun",
+      "accept": [],
+      "example": {
+        "fr": "Le fermier nourrit son bétail tous les matins.",
+        "en": "The farmer feeds his livestock every morning."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Food and drink",
+          "itemIds": [
+            "frites",
+            "oignon",
+            "dinde",
+            "mais",
+            "ble",
+            "steak",
+            "biere",
+            "cuit"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Nature and weather",
+          "itemIds": [
+            "boue",
+            "grotte",
+            "tonnerre",
+            "flamme",
+            "branche",
+            "vague",
+            "obscurite",
+            "puits"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Materials and animals",
+          "itemIds": [
+            "acier",
+            "plomb",
+            "petrole",
+            "cristal",
+            "tigre",
+            "requin",
+            "betail"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- **False friend:** [[le pétrole]] is crude oil; petrol/gas is [[l'essence]].\n- [[Le plomb]]: the b is silent.\n- [[Un steak bien cuit]] = well done; [[saignant]] = rare.\n- Québec: [[le blé d'Inde]] = corn; [[l'Action de grâce]] = Thanksgiving; [[des patates frites]] = fries."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Je prends un hamburger avec des frites.",
+              "en": "I'll have a burger with fries."
+            },
+            {
+              "fr": "À l'Action de grâce, on mange de la dinde.",
+              "en": "At Thanksgiving, we eat turkey."
+            },
+            {
+              "fr": "J'ajoute du maïs dans la salade.",
+              "en": "I add corn to the salad."
+            },
+            {
+              "fr": "Tu veux ton steak saignant ou bien cuit ?",
+              "en": "Do you want your steak rare or well done?"
+            },
+            {
+              "fr": "Enlève tes bottes, elles sont pleines de boue.",
+              "en": "Take off your boots, they are covered in mud."
+            },
+            {
+              "fr": "J'ai entendu le tonnerre au loin.",
+              "en": "I heard thunder in the distance."
+            },
+            {
+              "fr": "Baisse la flamme, la sauce va brûler.",
+              "en": "Turn down the flame, the sauce is going to burn."
+            },
+            {
+              "fr": "Les enfants ont peur de l'obscurité.",
+              "en": "The children are afraid of the dark."
+            },
+            {
+              "fr": "L'Alberta produit beaucoup de pétrole.",
+              "en": "Alberta produces a lot of oil."
+            },
+            {
+              "fr": "Il y a des requins dans le golfe du Saint-Laurent.",
+              "en": "There are sharks in the Gulf of St. Lawrence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the food words.",
+          "pairs": [
+            [
+              "l'oignon",
+              "onion"
+            ],
+            [
+              "la dinde",
+              "turkey"
+            ],
+            [
+              "le maïs",
+              "corn"
+            ],
+            [
+              "le blé",
+              "wheat"
+            ],
+            [
+              "la bière",
+              "beer"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the nature words.",
+          "pairs": [
+            [
+              "la boue",
+              "mud"
+            ],
+            [
+              "la grotte",
+              "cave"
+            ],
+            [
+              "le tonnerre",
+              "thunder"
+            ],
+            [
+              "la vague",
+              "wave"
+            ],
+            [
+              "la branche",
+              "branch"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence is about crude oil?",
+          "options": [
+            "L'Alberta produit beaucoup de pétrole.",
+            "Je mets de l'huile dans la salade.",
+            "Le pétrole coûte 1,60 $ le litre à la pompe.",
+            "J'achète du pétrole pour mon auto."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Le pétrole]] is crude oil; at the pump you buy [[de l’essence]].",
+          "optionFeedback": [
+            null,
+            "[[L’huile]] is cooking oil.",
+            "At the pump you buy [[de l’essence]], not pétrole.",
+            "Cars run on [[essence]]."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "The waiter asks how you want your steak. You want it well done:",
+          "options": [
+            "Bien cuit, s’il vous plaît.",
+            "Saignant, s’il vous plaît.",
+            "Bien cru, s’il vous plaît.",
+            "Très gras, s’il vous plaît."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Bien cuit]] = well done; [[saignant]] = rare."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "The children are afraid of the dark.",
+          "accept": [
+            "Les enfants ont peur de l'obscurité.",
+            "Les enfants ont peur du noir."
+          ],
+          "explain": "[[Avoir peur de]] + [[l’obscurité]] (or [[du noir]])."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "The bridge is made of steel.",
+          "accept": [
+            "Le pont est en acier.",
+            "Le pont est construit en acier.",
+            "Le pont est fait d'acier.",
+            "Le pont est fait en acier.",
+            "Le pont est fabriqué en acier."
+          ],
+          "hint": "material: en + noun",
+          "explain": "Use [[en]] for what something is made of: [[en acier]]."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Enlève tes bottes, elles sont pleines de ___.",
+          "answers": [
+            [
+              "boue"
+            ]
+          ],
+          "choices": [
+            "boue",
+            "flamme",
+            "bière",
+            "cristal"
+          ],
+          "en": "Take off your boots, they are covered in mud.",
+          "explain": "[[La boue]] is mud."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Les pommes de terre sont ___. On peut manger. (cuit)",
+          "answers": [
+            [
+              "cuites"
+            ]
+          ],
+          "en": "The potatoes are cooked. We can eat.",
+          "explain": "[[Pommes de terre]] is feminine plural: [[cuites]]."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "J'ai entendu le tonnerre au loin.",
+          "accept": [],
+          "explain": "[[Tonnerre]] has double n and double r."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Une branche est tombée sur l'auto pendant la tempête.",
+          "en": "A branch fell on the car during the storm.",
+          "prompt": "What happened to the car?",
+          "options": [
+            "A branch fell on it",
+            "It got stuck in the mud",
+            "It was hit by a wave"
+          ],
+          "answer": 0,
+          "explain": "[[Une branche]] fell on it during [[la tempête]]."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Order and cook food: [[frites, dinde, steak bien cuit, une bière]]\n- Describe nature and weather: [[boue, tonnerre, vague, obscurité]]\n- Name materials and animals: [[acier, pétrole, requin, bétail]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "frites: \"fries, chips\" → \"French fries\" (chips is ambiguous in Canada); removed \"un bétail\"; added an r6 variant."
+  }
+}

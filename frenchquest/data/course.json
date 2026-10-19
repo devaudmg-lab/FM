@@ -1,0 +1,2433 @@
+{
+ "schemaVersion": 1,
+ "levels": [
+  {
+   "id": "a1",
+   "title": "Foundation",
+   "outcome": "Introduce yourself, exchange personal information and handle simple, slow conversations.",
+   "units": [
+    {
+     "id": "a1-01",
+     "title": "Sounds and survival",
+     "outcome": "Greetings, the alphabet, key sounds and phrases to get by",
+     "lessons": [
+      {
+       "id": "a1-01-01",
+       "title": "Bonjour! Greetings and politeness",
+       "focus": "bonjour/bonsoir/salut, au revoir, merci, tu vs vous",
+       "minutes": 11,
+       "status": "published"
+      },
+      {
+       "id": "a1-01-02",
+       "title": "The alphabet and spelling your name",
+       "focus": "letters, accents é è ê ç, spelling aloud",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-01-03",
+       "title": "Key vowel sounds",
+       "focus": "u vs ou, é vs è, nasal vowels an/on/in (intro)",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-01-04",
+       "title": "Silent letters, liaison and élision",
+       "focus": "final consonants, les‿amis, j', l'",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-01-05",
+       "title": "Survival phrases",
+       "focus": "je ne comprends pas, pouvez-vous répéter, comment dit-on…, parlez plus lentement",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-01-06",
+       "title": "Workshop: Sounds and survival",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-02",
+     "title": "Introduce yourself",
+     "outcome": "Names, nationality, where you live and the languages you speak",
+     "lessons": [
+      {
+       "id": "a1-02-01",
+       "title": "Je m'appelle…",
+       "focus": "s'appeler (je/tu/vous), asking names, enchanté(e)",
+       "minutes": 11,
+       "status": "published"
+      },
+      {
+       "id": "a1-02-02",
+       "title": "Être and nationality",
+       "focus": "être (all persons), nationality adjectives masc/fem",
+       "minutes": 12,
+       "status": "published"
+      },
+      {
+       "id": "a1-02-03",
+       "title": "Say where you live",
+       "focus": "habiter à + city, en/au/aux + country",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-02-04",
+       "title": "Languages you speak",
+       "focus": "regular -er verbs in the present, parler + language",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-02-05",
+       "title": "Your first conversation",
+       "focus": "integration mission: name, origin, city, languages",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-02-06",
+       "title": "Workshop: Introduce yourself",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-03",
+     "title": "Numbers, dates and time",
+     "outcome": "Count, give dates and times, and make appointments",
+     "lessons": [
+      {
+       "id": "a1-03-01",
+       "title": "Numbers 0 to 20",
+       "focus": "numbers 0–20, liaison with numbers",
+       "minutes": 12,
+       "status": "published"
+      },
+      {
+       "id": "a1-03-02",
+       "title": "Numbers 21 to 100",
+       "focus": "21–100 incl. soixante-dix, quatre-vingts, quatre-vingt-dix",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-03-03",
+       "title": "Days, months and dates",
+       "focus": "jours, mois, le 3 mars, aujourd'hui, demain",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-03-04",
+       "title": "Telling the time",
+       "focus": "il est… heures, à quelle heure, appointments",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-03-05",
+       "title": "Avoir: age, phone number, needs",
+       "focus": "avoir (all persons), j'ai 30 ans, avoir besoin de — unit mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-03-06",
+       "title": "Workshop: Numbers, dates and time",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-04",
+     "title": "People and family",
+     "outcome": "Describe the people in your life",
+     "lessons": [
+      {
+       "id": "a1-04-01",
+       "title": "My family",
+       "focus": "family vocabulary, possessives mon/ma/mes, ton/ta/tes, son/sa/ses",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-04-02",
+       "title": "Describing people",
+       "focus": "adjective agreement and position (grand, petit, jeune…)",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-04-03",
+       "title": "Articles: un, une, des, le, la, les",
+       "focus": "definite vs indefinite articles, gender and plural",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-04-04",
+       "title": "Être or avoir?",
+       "focus": "contrasting être and avoir in descriptions, il/elle a les yeux bleus",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-04-05",
+       "title": "Present someone you know",
+       "focus": "integration mission: describe a family member or friend",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-04-06",
+       "title": "Workshop: People and family",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-05",
+     "title": "Daily routines",
+     "outcome": "Talk about your day and how often you do things",
+     "lessons": [
+      {
+       "id": "a1-05-01",
+       "title": "My day",
+       "focus": "more -er verbs, full present conjugation, daily actions",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-05-02",
+       "title": "Reflexive verbs",
+       "focus": "se lever, se coucher, s'habiller, se doucher",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-05-03",
+       "title": "How often?",
+       "focus": "toujours, souvent, parfois, jamais, le matin, le soir",
+       "minutes": 12,
+       "status": "published"
+      },
+      {
+       "id": "a1-05-04",
+       "title": "Faire and aller",
+       "focus": "irregular faire and aller, aller au/à la",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-05-05",
+       "title": "Describe your routine",
+       "focus": "integration mission: write about a typical day",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-05-06",
+       "title": "Workshop: Daily routines",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-06",
+     "title": "Food and cafés",
+     "outcome": "Order, shop for food and talk about what you eat",
+     "lessons": [
+      {
+       "id": "a1-06-01",
+       "title": "Food and drinks",
+       "focus": "food vocabulary with gender, j'aime / je n'aime pas",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-06-02",
+       "title": "Some, any, none",
+       "focus": "partitive du/de la/de l'/des, pas de",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-06-03",
+       "title": "Ordering politely",
+       "focus": "je voudrais, je vais prendre, l'addition s'il vous plaît",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-06-04",
+       "title": "Quantities and prices",
+       "focus": "combien, un kilo de, une bouteille de, prices in euros/dollars",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-06-05",
+       "title": "At the café",
+       "focus": "integration mission: role-play ordering at a café",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-06-06",
+       "title": "Workshop: Food and cafés",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-07",
+     "title": "Home and city",
+     "outcome": "Describe your home and find your way around town",
+     "lessons": [
+      {
+       "id": "a1-07-01",
+       "title": "My home",
+       "focus": "rooms and furniture, il y a, il n'y a pas de",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-07-02",
+       "title": "Where is it?",
+       "focus": "prepositions of place: sur, sous, devant, derrière, à côté de",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-07-03",
+       "title": "Around town",
+       "focus": "places in town, à + le = au, à + les = aux",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-07-04",
+       "title": "Asking for directions",
+       "focus": "imperative (intro), tournez à gauche, allez tout droit",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-07-05",
+       "title": "Getting around",
+       "focus": "transport: en bus, à pied, en métro; integration",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-07-06",
+       "title": "Workshop: Home and city",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-08",
+     "title": "Work and study",
+     "outcome": "Talk about jobs, schedules and studies",
+     "lessons": [
+      {
+       "id": "a1-08-01",
+       "title": "Jobs",
+       "focus": "professions masculine/feminine, je suis infirmière (no article)",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-08-02",
+       "title": "Asking questions",
+       "focus": "est-ce que, qu'est-ce que, intonation questions",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-08-03",
+       "title": "-ir and -re verbs",
+       "focus": "finir, choisir, prendre, comprendre, apprendre",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-08-04",
+       "title": "Schedules and timetables",
+       "focus": "reading timetables, du lundi au vendredi, de 9 h à 17 h",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-08-05",
+       "title": "Talk about your work or studies",
+       "focus": "integration mission in a Canadian context",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-08-06",
+       "title": "Workshop: Work and study",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-09",
+     "title": "Likes and preferences",
+     "outcome": "Say what you like, dislike and prefer — and why",
+     "lessons": [
+      {
+       "id": "a1-09-01",
+       "title": "I like, I love, I hate",
+       "focus": "aimer, adorer, détester + definite article",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-09-02",
+       "title": "Negation",
+       "focus": "ne… pas, ne… jamais, ne… plus",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-09-03",
+       "title": "I prefer",
+       "focus": "préférer (stem change), parce que",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-09-04",
+       "title": "Hobbies and weather",
+       "focus": "faire du/de la, jouer au/du, il fait beau/froid",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-09-05",
+       "title": "Say what you like and why",
+       "focus": "integration mission: write about your preferences",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-09-06",
+       "title": "Workshop: Likes and preferences",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-10",
+     "title": "First conversations",
+     "outcome": "Ask and answer questions to keep a conversation going",
+     "lessons": [
+      {
+       "id": "a1-10-01",
+       "title": "Question words",
+       "focus": "où, quand, comment, pourquoi, combien, qui, quel/quelle",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-10-02",
+       "title": "Can, want, must",
+       "focus": "pouvoir, vouloir, devoir + infinitive",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-10-03",
+       "title": "What I'm going to do",
+       "focus": "futur proche: aller + infinitive",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a1-10-04",
+       "title": "Messages and voicemails",
+       "focus": "understanding short phone messages",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-10-05",
+       "title": "Keep a conversation going",
+       "focus": "integration mission: follow-up questions and reactions",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-10-06",
+       "title": "Workshop: First conversations",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-11",
+     "title": "Review and integration",
+     "outcome": "Bring A1 together across all four skills",
+     "lessons": [
+      {
+       "id": "a1-11-01",
+       "title": "Mixed reading",
+       "focus": "signs, forms, short messages, ads",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-11-02",
+       "title": "Mixed listening",
+       "focus": "short dialogues incl. Canadian French speakers",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-11-03",
+       "title": "Fill in a form, write a profile",
+       "focus": "personal information forms, short profile",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a1-11-04",
+       "title": "One-minute monologue",
+       "focus": "self-presentation for one minute",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-11-05",
+       "title": "Cumulative grammar review",
+       "focus": "interleaved être/avoir, articles, negation, questions, futur proche",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-11-06",
+       "title": "Workshop: Review and integration",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a1-12",
+     "title": "A1 mastery checkpoint",
+     "outcome": "Show what you can do at A1",
+     "lessons": [
+      {
+       "id": "a1-12-01",
+       "title": "A1 reading check",
+       "focus": "assessment: reading",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-12-02",
+       "title": "A1 listening check",
+       "focus": "assessment: listening",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-12-03",
+       "title": "A1 writing check",
+       "focus": "assessment: writing",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-12-04",
+       "title": "A1 speaking check",
+       "focus": "assessment: speaking",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-12-05",
+       "title": "A1 real-world mission",
+       "focus": "integrated mission and reflection, plan for A2",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a1-12-06",
+       "title": "Workshop: A1 mastery checkpoint",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a2",
+   "title": "Everyday French",
+   "outcome": "Manage familiar situations, talk about the past and future, and write short practical messages.",
+   "units": [
+    {
+     "id": "a2-01",
+     "title": "Yesterday and last week",
+     "outcome": "Passé composé with avoir and common participles",
+     "lessons": [
+      {
+       "id": "a2-01-01",
+       "title": "What did you do?",
+       "focus": "passé composé with avoir, -er participles",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-01-02",
+       "title": "Irregular past participles",
+       "focus": "fait, pris, vu, eu, été, bu, lu, mis",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-01-03",
+       "title": "Time markers for the past",
+       "focus": "hier, la semaine dernière, il y a deux jours",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-01-04",
+       "title": "Negation in the past",
+       "focus": "je n'ai pas…, je n'ai jamais…",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-01-05",
+       "title": "Tell me about your weekend",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-01-06",
+       "title": "Workshop: Yesterday and last week",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-02",
+     "title": "Where I went",
+     "outcome": "Passé composé with être",
+     "lessons": [
+      {
+       "id": "a2-02-01",
+       "title": "Verbs that use être",
+       "focus": "aller, venir, partir, arriver, rester, naître…",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-02-02",
+       "title": "Agreement with être",
+       "focus": "elle est allée, ils sont partis",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-02-03",
+       "title": "Reflexive verbs in the past",
+       "focus": "je me suis levé(e)",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-02-04",
+       "title": "Sequencing a day out",
+       "focus": "d'abord, ensuite, puis, enfin",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-02-05",
+       "title": "Recount a trip",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-02-06",
+       "title": "Workshop: Where I went",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-03",
+     "title": "Childhood and habits",
+     "outcome": "The imparfait for descriptions and habits",
+     "lessons": [
+      {
+       "id": "a2-03-01",
+       "title": "When I was a child",
+       "focus": "imparfait formation",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-03-02",
+       "title": "Describing the past",
+       "focus": "c'était, il y avait, il faisait",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-03-03",
+       "title": "Habits then and now",
+       "focus": "avant / maintenant, d'habitude",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-03-04",
+       "title": "Feelings and states in the past",
+       "focus": "j'étais, j'avais peur",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-03-05",
+       "title": "My childhood",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-03-06",
+       "title": "Workshop: Childhood and habits",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-04",
+     "title": "Future plans",
+     "outcome": "Futur proche and futur simple",
+     "lessons": [
+      {
+       "id": "a2-04-01",
+       "title": "Plans with aller + infinitive",
+       "focus": "futur proche review",
+       "minutes": 12,
+       "status": "published"
+      },
+      {
+       "id": "a2-04-02",
+       "title": "The futur simple",
+       "focus": "regular forms",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-04-03",
+       "title": "Irregular futures",
+       "focus": "ir-, ser-, aur-, fer-, pourr-, viendr-",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-04-04",
+       "title": "Making plans together",
+       "focus": "on pourrait, ça te dit de…",
+       "minutes": 12,
+       "status": "published"
+      },
+      {
+       "id": "a2-04-05",
+       "title": "My plans for next year",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-04-06",
+       "title": "Workshop: Future plans",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-05",
+     "title": "Travel and transport",
+     "outcome": "Tickets, announcements, hotels and help",
+     "lessons": [
+      {
+       "id": "a2-05-01",
+       "title": "Buying tickets",
+       "focus": "un aller simple, un aller-retour",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-05-02",
+       "title": "Station and airport announcements",
+       "focus": "listening to announcements",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-05-03",
+       "title": "Asking for help politely",
+       "focus": "pourriez-vous, excusez-moi de vous déranger",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-05-04",
+       "title": "Hotels and reservations",
+       "focus": "réserver, une chambre double, compris",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-05-05",
+       "title": "Plan a trip in Québec",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-05-06",
+       "title": "Workshop: Travel and transport",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-06",
+     "title": "Health and appointments",
+     "outcome": "Symptoms, advice and appointments",
+     "lessons": [
+      {
+       "id": "a2-06-01",
+       "title": "The body and symptoms",
+       "focus": "avoir mal à la/au/aux",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-06-02",
+       "title": "At the doctor's",
+       "focus": "consultation dialogue",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-06-03",
+       "title": "Giving advice",
+       "focus": "il faut, tu devrais, il vaut mieux",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-06-04",
+       "title": "Booking an appointment by phone",
+       "focus": "prendre rendez-vous",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-06-05",
+       "title": "Explain a health problem",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-06-06",
+       "title": "Workshop: Health and appointments",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-07",
+     "title": "Housing and services",
+     "outcome": "Apartments, problems and landlords",
+     "lessons": [
+      {
+       "id": "a2-07-01",
+       "title": "Looking for an apartment",
+       "focus": "ads and abbreviations, 3 1/2 in Québec",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-07-02",
+       "title": "Describing problems",
+       "focus": "ne marche pas, fuite, panne",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-07-03",
+       "title": "Since, ago, for",
+       "focus": "depuis, il y a, pendant",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-07-04",
+       "title": "Writing to a landlord",
+       "focus": "formal message",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-07-05",
+       "title": "Solve a housing problem",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-07-06",
+       "title": "Workshop: Housing and services",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-08",
+     "title": "Shopping and comparisons",
+     "outcome": "Compare, choose and return items",
+     "lessons": [
+      {
+       "id": "a2-08-01",
+       "title": "Comparing things",
+       "focus": "plus/moins/aussi… que, meilleur",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-08-02",
+       "title": "The best and the worst",
+       "focus": "superlatives",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-08-03",
+       "title": "Direct object pronouns",
+       "focus": "le, la, l', les",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-08-04",
+       "title": "Clothes, sizes and returns",
+       "focus": "la taille, échanger, rembourser",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-08-05",
+       "title": "Choose and justify a purchase",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-08-06",
+       "title": "Workshop: Shopping and comparisons",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-09",
+     "title": "Social life",
+     "outcome": "Invitations, plans and pronouns",
+     "lessons": [
+      {
+       "id": "a2-09-01",
+       "title": "Inviting someone",
+       "focus": "ça te dit de…, tu es libre…",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-09-02",
+       "title": "Accepting and refusing politely",
+       "focus": "avec plaisir, désolé(e), je ne peux pas",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-09-03",
+       "title": "Indirect object pronouns",
+       "focus": "lui, leur",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-09-04",
+       "title": "The pronouns y and en",
+       "focus": "introduction",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-09-05",
+       "title": "Organize an outing",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-09-06",
+       "title": "Workshop: Social life",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-10",
+     "title": "Stories and experiences",
+     "outcome": "Passé composé vs imparfait",
+     "lessons": [
+      {
+       "id": "a2-10-01",
+       "title": "Passé composé or imparfait?",
+       "focus": "event vs background",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-10-02",
+       "title": "Setting the scene",
+       "focus": "il faisait beau quand…",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-10-03",
+       "title": "Story connectors",
+       "focus": "pendant que, quand, soudain, tout à coup",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-10-04",
+       "title": "Telling an anecdote",
+       "focus": "oral storytelling",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-10-05",
+       "title": "Tell a story from your life",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-10-06",
+       "title": "Workshop: Stories and experiences",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-11",
+     "title": "Messages and emails",
+     "outcome": "Practical writing with the right tone",
+     "lessons": [
+      {
+       "id": "a2-11-01",
+       "title": "Formal or informal?",
+       "focus": "tu/vous, salutations and closings",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-11-02",
+       "title": "Requests and complaints",
+       "focus": "je voudrais savoir, je vous écris pour",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-11-03",
+       "title": "Replying to an ad",
+       "focus": "short formal email",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "a2-11-04",
+       "title": "Texts and quick messages",
+       "focus": "abbreviations and informal style",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "a2-11-05",
+       "title": "Write three practical messages",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "a2-11-06",
+       "title": "Workshop: Messages and emails",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "a2-12",
+     "title": "A2 mastery checkpoint",
+     "outcome": "Show what you can do at A2",
+     "lessons": [
+      {
+       "id": "a2-12-01",
+       "title": "A2 reading check",
+       "focus": "assessment: reading",
+       "minutes": 18,
+       "status": "published"
+      },
+      {
+       "id": "a2-12-02",
+       "title": "A2 listening check",
+       "focus": "assessment: listening",
+       "minutes": 18,
+       "status": "published"
+      },
+      {
+       "id": "a2-12-03",
+       "title": "A2 writing check",
+       "focus": "assessment: writing",
+       "minutes": 20,
+       "status": "published"
+      },
+      {
+       "id": "a2-12-04",
+       "title": "A2 speaking check",
+       "focus": "assessment: speaking",
+       "minutes": 18,
+       "status": "published"
+      },
+      {
+       "id": "a2-12-05",
+       "title": "First look at TEF and TCF",
+       "focus": "exam familiarization and choosing an exam",
+       "minutes": 18,
+       "status": "published"
+      },
+      {
+       "id": "a2-12-06",
+       "title": "Workshop: A2 mastery checkpoint",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "title": "Independent French",
+   "outcome": "Explain and justify opinions, narrate in connected speech and follow clear discussions.",
+   "units": [
+    {
+     "id": "b1-01",
+     "title": "Explain your opinions",
+     "outcome": "Opinions, agreement and reasons",
+     "lessons": [
+      {
+       "id": "b1-01-01",
+       "title": "Giving your opinion",
+       "focus": "à mon avis, je pense que, selon moi",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-01-02",
+       "title": "Agreeing and disagreeing",
+       "focus": "je suis d'accord, pas du tout",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-01-03",
+       "title": "Giving reasons",
+       "focus": "parce que, car, puisque, comme",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-01-04",
+       "title": "Adding nuance",
+       "focus": "plutôt, assez, vraiment, pas tellement",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-01-05",
+       "title": "Defend a simple opinion",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-01-06",
+       "title": "Workshop: Explain your opinions",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-02",
+     "title": "Tell a complete story",
+     "outcome": "Narrative tenses and reported speech",
+     "lessons": [
+      {
+       "id": "b1-02-01",
+       "title": "The plus-que-parfait",
+       "focus": "j'avais déjà…",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-02-02",
+       "title": "Narrative tenses together",
+       "focus": "PC, imparfait, plus-que-parfait",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-02-03",
+       "title": "Before and after",
+       "focus": "avant de + inf., après avoir/être + pp",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-02-04",
+       "title": "Reported speech",
+       "focus": "il a dit que…, elle m'a demandé si…",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-02-05",
+       "title": "Narrate an event",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-02-06",
+       "title": "Workshop: Tell a complete story",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-03",
+     "title": "Work and careers in Canada",
+     "outcome": "Jobs, CVs and interviews",
+     "lessons": [
+      {
+       "id": "b1-03-01",
+       "title": "Job ads and skills",
+       "focus": "compétences, exigences",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-03-02",
+       "title": "The CV and cover letter",
+       "focus": "lettre de motivation",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-03-03",
+       "title": "Job interview questions",
+       "focus": "parlez-moi de vous",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-03-04",
+       "title": "Workplace communication",
+       "focus": "collègues, réunions, courriels",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-03-05",
+       "title": "Mock job interview",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-03-06",
+       "title": "Workshop: Work and careers in Canada",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-04",
+     "title": "Education and technology",
+     "outcome": "Explain processes and compare systems",
+     "lessons": [
+      {
+       "id": "b1-04-01",
+       "title": "Explaining a process",
+       "focus": "d'abord, ensuite, il faut",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-04-02",
+       "title": "The gerund",
+       "focus": "en + -ant",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-04-03",
+       "title": "Pros and cons of technology",
+       "focus": "avantages, inconvénients",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-04-04",
+       "title": "Comparing systems",
+       "focus": "ici et là-bas",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-04-05",
+       "title": "Present a process",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-04-06",
+       "title": "Workshop: Education and technology",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-05",
+     "title": "Society and news",
+     "outcome": "News, faits divers and the passive",
+     "lessons": [
+      {
+       "id": "b1-05-01",
+       "title": "Reading headlines",
+       "focus": "nominal style",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "b1-05-02",
+       "title": "Faits divers",
+       "focus": "short news stories (link to TEF writing A)",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-05-03",
+       "title": "The passive voice",
+       "focus": "être + pp, par",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-05-04",
+       "title": "Main idea and details in audio news",
+       "focus": "listening strategy",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-05-05",
+       "title": "Summarize a news story",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-05-06",
+       "title": "Workshop: Society and news",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-06",
+     "title": "Hypotheses and advice",
+     "outcome": "Conditionnel and si clauses",
+     "lessons": [
+      {
+       "id": "b1-06-01",
+       "title": "The conditionnel présent",
+       "focus": "forms",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-06-02",
+       "title": "Polite requests and wishes",
+       "focus": "je voudrais, j'aimerais, pourriez-vous",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-06-03",
+       "title": "If I had…",
+       "focus": "si + imparfait → conditionnel",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-06-04",
+       "title": "Giving advice",
+       "focus": "à ta place, tu ferais mieux de",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-06-05",
+       "title": "What would you do?",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-06-06",
+       "title": "Workshop: Hypotheses and advice",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-07",
+     "title": "Describe and compare",
+     "outcome": "Relative pronouns",
+     "lessons": [
+      {
+       "id": "b1-07-01",
+       "title": "Qui and que",
+       "focus": "relative pronouns",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-07-02",
+       "title": "Où and dont",
+       "focus": "relative pronouns",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-07-03",
+       "title": "Ce qui, ce que",
+       "focus": "emphasis",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-07-04",
+       "title": "Describing in detail",
+       "focus": "places and people",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-07-05",
+       "title": "Compare two cities",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-07-06",
+       "title": "Workshop: Describe and compare",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-08",
+     "title": "Solve a problem",
+     "outcome": "Complaints, negotiation and information calls",
+     "lessons": [
+      {
+       "id": "b1-08-01",
+       "title": "Making a complaint",
+       "focus": "je souhaiterais signaler",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-08-02",
+       "title": "Negotiating a solution",
+       "focus": "proposer, accepter",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-08-03",
+       "title": "Calling for information",
+       "focus": "link to TEF speaking A",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-08-04",
+       "title": "Polite insistence",
+       "focus": "register",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-08-05",
+       "title": "Get what you need",
+       "focus": "integration role-play",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-08-06",
+       "title": "Workshop: Solve a problem",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-09",
+     "title": "Write connected texts",
+     "outcome": "Paragraphs, connectors and letters",
+     "lessons": [
+      {
+       "id": "b1-09-01",
+       "title": "Paragraph structure",
+       "focus": "topic sentence, support",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-09-02",
+       "title": "Logical connectors",
+       "focus": "cependant, donc, en effet, par ailleurs",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-09-03",
+       "title": "Avoiding repetition",
+       "focus": "pronouns, synonyms",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-09-04",
+       "title": "The formal letter",
+       "focus": "structure and formulas",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-09-05",
+       "title": "Write an opinion paragraph",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-09-06",
+       "title": "Workshop: Write connected texts",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-10",
+     "title": "Speak at length",
+     "outcome": "Monologues and follow-up questions",
+     "lessons": [
+      {
+       "id": "b1-10-01",
+       "title": "Organizing a monologue",
+       "focus": "plan in three parts",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-10-02",
+       "title": "Gaining time naturally",
+       "focus": "euh, bon, en fait, disons",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "b1-10-03",
+       "title": "Handling follow-up questions",
+       "focus": "reformulate, clarify",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-10-04",
+       "title": "Describing a situation",
+       "focus": "picture and scenario description",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b1-10-05",
+       "title": "Two-minute talk",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-10-06",
+       "title": "Workshop: Speak at length",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-11",
+     "title": "Exam foundations",
+     "outcome": "TEF and TCF task strategies",
+     "lessons": [
+      {
+       "id": "b1-11-01",
+       "title": "Reading strategies",
+       "focus": "skim, scan, paraphrase",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-11-02",
+       "title": "Listening strategies",
+       "focus": "anticipate, keywords",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-11-03",
+       "title": "Writing tasks under time",
+       "focus": "plan in 5 minutes",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-11-04",
+       "title": "Speaking tasks",
+       "focus": "interaction and argument",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-11-05",
+       "title": "Timed mini-test",
+       "focus": "mixed timed practice",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-11-06",
+       "title": "Workshop: Exam foundations",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b1-12",
+     "title": "B1 mastery checkpoint",
+     "outcome": "Show what you can do at B1",
+     "lessons": [
+      {
+       "id": "b1-12-01",
+       "title": "B1 reading check",
+       "focus": "assessment",
+       "minutes": 20,
+       "status": "published"
+      },
+      {
+       "id": "b1-12-02",
+       "title": "B1 listening check",
+       "focus": "assessment",
+       "minutes": 18,
+       "status": "published"
+      },
+      {
+       "id": "b1-12-03",
+       "title": "B1 writing check",
+       "focus": "assessment",
+       "minutes": 20,
+       "status": "published"
+      },
+      {
+       "id": "b1-12-04",
+       "title": "B1 speaking check",
+       "focus": "assessment",
+       "minutes": 20,
+       "status": "published"
+      },
+      {
+       "id": "b1-12-05",
+       "title": "Plan your exam preparation",
+       "focus": "reflection and plan",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b1-12-06",
+       "title": "Workshop: B1 mastery checkpoint",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "title": "Upper-intermediate",
+   "outcome": "Argue, persuade and synthesize; adapt your register; follow complex speech.",
+   "units": [
+    {
+     "id": "b2-01",
+     "title": "Defend an argument",
+     "outcome": "Claims, concession and counterarguments",
+     "lessons": [
+      {
+       "id": "b2-01-01",
+       "title": "Structuring an argument",
+       "focus": "thèse, arguments, exemples",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-01-02",
+       "title": "Concession",
+       "focus": "bien que, même si, certes… mais",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-01-03",
+       "title": "Counterarguments",
+       "focus": "refuting politely",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-01-04",
+       "title": "Certainty and doubt",
+       "focus": "je doute que + subjonctif",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-01-05",
+       "title": "Debate a question",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-01-06",
+       "title": "Workshop: Defend an argument",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-02",
+     "title": "Persuade and negotiate",
+     "outcome": "Persuasion and register",
+     "lessons": [
+      {
+       "id": "b2-02-01",
+       "title": "Persuasive language",
+       "focus": "rhetorical devices",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-02-02",
+       "title": "Convincing a friend",
+       "focus": "link to TEF speaking B",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-02-03",
+       "title": "Formal and familiar registers",
+       "focus": "switching register",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-02-04",
+       "title": "Negotiation phrases",
+       "focus": "compromis",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-02-05",
+       "title": "Persuade someone to act",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-02-06",
+       "title": "Workshop: Persuade and negotiate",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-03",
+     "title": "Society and public policy",
+     "outcome": "Nuanced positions on complex issues",
+     "lessons": [
+      {
+       "id": "b2-03-01",
+       "title": "Immigration and integration",
+       "focus": "vocabulary and debate",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-03-02",
+       "title": "Environment debates",
+       "focus": "vocabulary and debate",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-03-03",
+       "title": "Impersonal structures",
+       "focus": "il est important que, il faut que",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-03-04",
+       "title": "Expressing nuance",
+       "focus": "dans une certaine mesure",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b2-03-05",
+       "title": "Take a position on a policy",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-03-06",
+       "title": "Workshop: Society and public policy",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-04",
+     "title": "Media and information",
+     "outcome": "Sources, tone and inference",
+     "lessons": [
+      {
+       "id": "b2-04-01",
+       "title": "Fact or opinion?",
+       "focus": "distinguishing",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b2-04-02",
+       "title": "Evaluating sources",
+       "focus": "fiabilité",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-04-03",
+       "title": "Tone and implicit meaning",
+       "focus": "ironie, sous-entendu",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-04-04",
+       "title": "Reported speech in depth",
+       "focus": "tense changes",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-04-05",
+       "title": "Analyze an article",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-04-06",
+       "title": "Workshop: Media and information",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-05",
+     "title": "Professional life",
+     "outcome": "Formal correspondence and meetings",
+     "lessons": [
+      {
+       "id": "b2-05-01",
+       "title": "Formal correspondence",
+       "focus": "courriel professionnel",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-05-02",
+       "title": "Meetings and presentations",
+       "focus": "animer, présenter",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-05-03",
+       "title": "Formal requests",
+       "focus": "je vous saurais gré de",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b2-05-04",
+       "title": "Workplace conflicts",
+       "focus": "diplomacy",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-05-05",
+       "title": "Write a professional email",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-05-06",
+       "title": "Workshop: Professional life",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-06",
+     "title": "Advanced grammar in context",
+     "outcome": "Subjonctif, double pronouns, past conditional",
+     "lessons": [
+      {
+       "id": "b2-06-01",
+       "title": "The subjonctif: forms",
+       "focus": "regular and irregular",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-06-02",
+       "title": "Subjonctif after emotions and wishes",
+       "focus": "je veux que, je suis content que",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-06-03",
+       "title": "Double pronouns",
+       "focus": "je le lui donne",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-06-04",
+       "title": "The past conditional",
+       "focus": "j'aurais dû",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-06-05",
+       "title": "Grammar in real texts",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-06-06",
+       "title": "Workshop: Advanced grammar in context",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-07",
+     "title": "Coherence and precision",
+     "outcome": "Reformulation and precise vocabulary",
+     "lessons": [
+      {
+       "id": "b2-07-01",
+       "title": "Reformulating",
+       "focus": "autrement dit, c'est-à-dire",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b2-07-02",
+       "title": "Nominalization",
+       "focus": "augmenter → l'augmentation",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-07-03",
+       "title": "Precise verbs",
+       "focus": "beyond faire, dire, avoir",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-07-04",
+       "title": "Connectors for complex ideas",
+       "focus": "or, ainsi, en revanche",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-07-05",
+       "title": "Rewrite a text precisely",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-07-06",
+       "title": "Workshop: Coherence and precision",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-08",
+     "title": "Authentic listening",
+     "outcome": "Interviews, debates and accents",
+     "lessons": [
+      {
+       "id": "b2-08-01",
+       "title": "Interviews",
+       "focus": "listening",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-08-02",
+       "title": "Debates and overlapping speech",
+       "focus": "listening",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-08-03",
+       "title": "Québécois French",
+       "focus": "features and vocabulary",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-08-04",
+       "title": "Fast speech and contractions",
+       "focus": "chais pas, y'a",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b2-08-05",
+       "title": "Listening marathon",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-08-06",
+       "title": "Workshop: Authentic listening",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-09",
+     "title": "Complex reading",
+     "outcome": "Argument structure and inference",
+     "lessons": [
+      {
+       "id": "b2-09-01",
+       "title": "Argument structure in texts",
+       "focus": "reading",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-09-02",
+       "title": "Inference: reading between the lines",
+       "focus": "reading between the lines",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-09-03",
+       "title": "Long texts: skimming and scanning",
+       "focus": "skimming and scanning",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-09-04",
+       "title": "Opinion and literary texts",
+       "focus": "reading",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-09-05",
+       "title": "Read and respond",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-09-06",
+       "title": "Workshop: Complex reading",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-10",
+     "title": "Structured writing",
+     "outcome": "Essays within word limits",
+     "lessons": [
+      {
+       "id": "b2-10-01",
+       "title": "Introductions",
+       "focus": "accroche, problématique",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-10-02",
+       "title": "Developing arguments",
+       "focus": "paragraphs",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-10-03",
+       "title": "Conclusions",
+       "focus": "synthèse, ouverture",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b2-10-04",
+       "title": "Writing to a word limit",
+       "focus": "concision",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-10-05",
+       "title": "Full essay",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-10-06",
+       "title": "Workshop: Structured writing",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-11",
+     "title": "Extended speaking",
+     "outcome": "Spontaneous and sustained speech",
+     "lessons": [
+      {
+       "id": "b2-11-01",
+       "title": "Spontaneous responses",
+       "focus": "thinking on your feet",
+       "minutes": 14,
+       "status": "published"
+      },
+      {
+       "id": "b2-11-02",
+       "title": "Sustained argument",
+       "focus": "speaking for 3–4 minutes",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-11-03",
+       "title": "Interacting with an examiner",
+       "focus": "exam interaction",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-11-04",
+       "title": "Recovering from mistakes",
+       "focus": "self-correction",
+       "minutes": 13,
+       "status": "published"
+      },
+      {
+       "id": "b2-11-05",
+       "title": "Extended speaking task",
+       "focus": "integration mission",
+       "minutes": 15,
+       "status": "published"
+      },
+      {
+       "id": "b2-11-06",
+       "title": "Workshop: Extended speaking",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    },
+    {
+     "id": "b2-12",
+     "title": "Four-skill exam readiness",
+     "outcome": "Mocks, error analysis and remediation",
+     "lessons": [
+      {
+       "id": "b2-12-01",
+       "title": "Reading under exam conditions",
+       "focus": "mock",
+       "minutes": 25,
+       "status": "published"
+      },
+      {
+       "id": "b2-12-02",
+       "title": "Listening under exam conditions",
+       "focus": "mock",
+       "minutes": 20,
+       "status": "published"
+      },
+      {
+       "id": "b2-12-03",
+       "title": "Writing under exam conditions",
+       "focus": "mock",
+       "minutes": 30,
+       "status": "published"
+      },
+      {
+       "id": "b2-12-04",
+       "title": "Speaking under exam conditions",
+       "focus": "mock",
+       "minutes": 30,
+       "status": "published"
+      },
+      {
+       "id": "b2-12-05",
+       "title": "Final readiness review",
+       "focus": "reflection and plan",
+       "minutes": 20,
+       "status": "published"
+      },
+      {
+       "id": "b2-12-06",
+       "title": "Workshop: Four-skill exam readiness",
+       "focus": "extra practice on the whole unit: more listening, reading, mixed recall, writing and speaking, with new contexts",
+       "minutes": 20,
+       "status": "published",
+       "optional": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-10-05",
+  "level": "a1",
+  "unit": "a1-10",
+  "title": "Keep a conversation going",
+  "goal": "Keep a simple conversation alive with follow-up questions, quick reactions and turn-taking, and make a plan together.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-aussi-non-plus", "kind": "grammar", "fr": "moi aussi / moi non plus", "en": "agreeing: me too (after a yes sentence) / me neither (after a no sentence)",
+      "drills": [
+        { "type": "mcq", "prompt": "“J'aime le café.” You like coffee too. You say:", "options": ["Moi aussi.", "Moi non plus.", "Pas moi."], "optionsFr": true, "answer": 0, "explain": "Positive sentence + you agree → Moi aussi." },
+        { "type": "mcq", "prompt": "“Je ne parle pas chinois.” You don't speak Chinese either. You say:", "options": ["Moi non plus.", "Moi aussi.", "Moi, si !"], "optionsFr": true, "answer": 0, "explain": "Negative sentence + you agree → Moi non plus." },
+        { "type": "cloze", "text": "— Je n'ai pas de voiture. — Moi non ___.", "answers": [["plus"]], "en": "I don't have a car. — Me neither.", "explain": "After a negative sentence, “me neither” is moi non plus." }
+      ] },
+    { "id": "ah-bon", "kind": "phrase", "fr": "Ah bon ?", "en": "Oh really? (mild surprise)" },
+    { "id": "c-est-vrai", "kind": "phrase", "fr": "C'est vrai ?", "en": "Is that true?" },
+    { "id": "super", "kind": "phrase", "fr": "Super !", "en": "Great!", "accept": ["Génial !", "C'est super !", "C'est génial !"] },
+    { "id": "moi-aussi", "kind": "phrase", "fr": "Moi aussi.", "en": "Me too." },
+    { "id": "moi-non-plus", "kind": "phrase", "fr": "Moi non plus.", "en": "Me neither." },
+    { "id": "pas-moi", "kind": "phrase", "fr": "Pas moi.", "en": "Not me." },
+    { "id": "et-vous", "kind": "phrase", "fr": "Et vous ?", "en": "And you? (formal)" },
+    { "id": "raconte", "kind": "phrase", "fr": "Raconte !", "en": "Tell me (all about it)! (to a friend)" },
+    { "id": "c-est-comment", "kind": "phrase", "fr": "C'est comment ?", "en": "What's it like?" },
+    { "id": "ah-d-accord", "kind": "phrase", "fr": "Ah, d'accord.", "en": "Oh, I see.", "accept": ["Ah d'accord."] },
+    { "id": "cette-place", "kind": "phrase", "fr": "Cette place est libre ?", "en": "Is this seat free?", "accept": ["Est-ce que cette place est libre ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A real conversation",
+      "blocks": [
+        { "type": "dialogue", "title": "A conversation café in Montréal",
+          "context": "Amira arrives at a French conversation café and sits next to Nguyen. Notice how they react and keep asking questions.",
+          "lines": [
+            { "speaker": "Amira", "fr": "Bonjour ! Cette place est libre ?", "en": "Hello! Is this seat free?" },
+            { "speaker": "Nguyen", "fr": "Oui, bien sûr ! Je m'appelle Nguyen.", "en": "Yes, of course! My name is Nguyen." },
+            { "speaker": "Amira", "fr": "Enchantée. Moi, c'est Amira. Tu habites à Montréal ?", "en": "Nice to meet you. I'm Amira. Do you live in Montréal?" },
+            { "speaker": "Nguyen", "fr": "Oui, à Rosemont. Et toi ?", "en": "Yes, in Rosemont. And you?" },
+            { "speaker": "Amira", "fr": "Moi aussi, j'habite à Rosemont !", "en": "I live in Rosemont too!" },
+            { "speaker": "Nguyen", "fr": "Ah bon ? Super ! Tu fais quoi dans la vie ?", "en": "Oh really? Great! What do you do for a living?" },
+            { "speaker": "Amira", "fr": "Je suis infirmière. Je travaille à l'hôpital, la nuit.", "en": "I'm a nurse. I work at the hospital, at night." },
+            { "speaker": "Nguyen", "fr": "La nuit ? C'est difficile, non ?", "en": "At night? That's hard, isn't it?" },
+            { "speaker": "Amira", "fr": "Oui, un peu, mais j'adore mon travail. Et toi ?", "en": "Yes, a little, but I love my job. And you?" },
+            { "speaker": "Nguyen", "fr": "Je suis étudiant en informatique. Mais je ne parle pas très bien français.", "en": "I'm a computer science student. But I don't speak French very well." },
+            { "speaker": "Amira", "fr": "Moi non plus ! Mais on apprend. Pourquoi est-ce que tu apprends le français ?", "en": "Me neither! But we're learning. Why are you learning French?" },
+            { "speaker": "Nguyen", "fr": "Parce que je veux travailler à Montréal après mes études. Et toi ?", "en": "Because I want to work in Montréal after my studies. And you?" },
+            { "speaker": "Amira", "fr": "Je dois passer un examen de français pour mon travail.", "en": "I have to take a French exam for my job." },
+            { "speaker": "Nguyen", "fr": "C'est vrai ? C'est quand ?", "en": "Really? When is it?" },
+            { "speaker": "Amira", "fr": "Le mois prochain. Alors dimanche, je vais étudier toute la journée !", "en": "Next month. So on Sunday I'm going to study all day!" },
+            { "speaker": "Nguyen", "fr": "Bon courage ! Moi, ce week-end, je vais faire du vélo. Tu veux faire du vélo avec moi samedi ?", "en": "Good luck! This weekend I'm going cycling. Do you want to go cycling with me on Saturday?" },
+            { "speaker": "Amira", "fr": "Oui, je veux bien ! Samedi matin ?", "en": "Yes, I'd love to! Saturday morning?" },
+            { "speaker": "Nguyen", "fr": "Samedi à dix heures, devant le métro, c'est correct ?", "en": "Saturday at ten, in front of the metro, is that okay?" },
+            { "speaker": "Amira", "fr": "Oui, c'est correct ! Envoie-moi un texto. Mon numéro, c'est le 514 555 0163.", "en": "Yes, that's fine! Send me a text. My number is 514 555 0163." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Count how many times each person **asks a question back**. That's the secret: nobody just answers and stops." }
+      ] },
+    { "type": "understand", "title": "Keeping the ball in the air",
+      "blocks": [
+        { "type": "explain", "title": "Answer, add, ask back",
+          "body": "A conversation is like a ball game: when the ball comes to you, send it back. A good answer has three parts:\n\n1. **Answer** the question: [[Oui, à Rosemont.]]\n2. **Add one detail**: [[C'est près du métro.]]\n3. **Ask back**: [[Et toi ?]] / [[Et vous ?]] or a new question: [[Tu habites où ?]]\n\nWith this simple rule, even a short A1 answer keeps the conversation going." },
+        { "type": "table", "title": "Quick reactions",
+          "head": ["Reaction", "English", "Use it when…"],
+          "rows": [
+            ["Ah bon ?", "Oh really?", "you hear something new or a little surprising"],
+            ["C'est vrai ?", "Is that true? Really?", "you're surprised and want to hear more"],
+            ["Super ! / Génial !", "Great!", "it's good news"],
+            ["Félicitations !", "Congratulations!", "it's big news: a new job, a baby, an exam"],
+            ["Dommage !", "Too bad!", "it's (small) bad news"],
+            ["Ah, d'accord.", "Oh, I see.", "you understand"],
+            ["Raconte !", "Tell me!", "you want details (to a friend)"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "Your voice matters: [[Ah bon ?]] and [[C'est vrai ?]] go **up** at the end, like a question. [[Super !]] and [[Dommage !]] go **down**." },
+        { "type": "table", "title": "Me too, me neither",
+          "head": ["They say…", "You agree", "You disagree"],
+          "rows": [
+            ["J'aime le hockey. (+)", "Moi aussi.", "Pas moi. / Moi, non."],
+            ["Je n'aime pas le hockey. (−)", "Moi non plus.", "Moi, si !"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Look at the sentence you hear: **positive** → [[moi aussi]]; **negative** (*ne… pas*) → [[moi non plus]]. [[Si]] is a special “yes” that contradicts a negative: [[Tu n'aimes pas le café ? — Si !]] (Yes, I do!)" },
+        { "type": "pattern", "title": "Follow-up questions",
+          "pattern": "reaction + question word",
+          "note": "Reuse the question words from lesson 1 to ask for more. Short questions are perfect in conversation: [[Où ça ?]] [[Quand ça ?]] [[Avec qui ?]] [[Pourquoi ?]] [[C'est comment ?]] (What's it like?)",
+          "examples": [
+            { "fr": "Je vais à Vancouver. — Ah bon ? Quand ça ?", "en": "I'm going to Vancouver. — Oh really? When?" },
+            { "fr": "J'ai un nouveau travail. — Félicitations ! C'est où ?", "en": "I have a new job. — Congratulations! Where is it?" },
+            { "fr": "Je fais du yoga. — C'est vrai ? C'est comment ?", "en": "I do yoga. — Really? What's it like?" },
+            { "fr": "Je ne peux pas samedi. — Dommage ! Et dimanche ?", "en": "I can't on Saturday. — Too bad! And Sunday?" }
+          ] },
+        { "type": "explain", "title": "Taking turns",
+          "body": "- **Give the turn:** [[Et toi ?]] (friend) / [[Et vous ?]] (formal). Stay consistent: don't mix *tu* and *vous* with the same person.\n- **Gain a little time:** [[Euh…]] [[Bon…]] [[Alors…]] French speakers use them all the time; they're much better than silence or *umm*.\n- **Check you understood:** [[Pardon ?]] [[Tu peux répéter ?]] [[Comment ça ?]] (What do you mean?)\n- **Finish politely:** [[Bon, je dois y aller. À bientôt !]] (Well, I have to go. See you soon!)" },
+        { "type": "vocab", "title": "Phrases in this lesson", "itemIds": ["ah-bon", "c-est-vrai", "super", "moi-aussi", "moi-non-plus", "pas-moi", "et-vous", "raconte", "c-est-comment", "ah-d-accord", "cette-place"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Moi aussi after a negative:** *Je n'aime pas le froid. — Moi aussi* sounds like “I like it too”. Say [[Moi non plus.]]\n- **Not *moi aussi pas*:** the negative “me neither” is always [[moi non plus]].\n- **Ah bon, not ah bien.** [[Ah bon ?]] is a fixed expression.\n- **Yes/no-only answers stop the conversation.** [[Oui.]] → [[Oui, j'adore ça ! Et toi ?]]\n- **Don't translate “How was it?” here:** you don't know the past tense yet. Use [[C'est comment ?]] for things that are still happening." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "Reactions you will hear in Québec:\n\n- [[Allô !]] = hi! (in person too, not just on the phone)\n- [[Pas pire !]] = literally “not worse”, it means **pretty good**: [[Ça va ? — Pas pire, toi ?]]\n- [[C'est correct.]] = it's okay, that's fine.\n- [[Voyons donc !]] = No way! / Come on! (surprise or disbelief)\n- [[C'est le fun !]] = it's fun, it's great.\n\nRecognize them all; [[Pas pire]] and [[C'est correct]] are safe to use yourself.",
+          "examples": [ { "fr": "Allô ! Ça va ? — Pas pire, toi ?", "en": "Hi! How are you? — Pretty good, you?" }, { "fr": "Je vais faire du ski à Tremblant ! — C'est le fun !", "en": "I'm going skiing at Tremblant! — That's great!" } ] },
+        { "type": "deepdive", "kind": "culture", "title": "Safe small-talk topics",
+          "body": "With people you don't know well in Canada, easy topics are: **the weather** ([[Il fait froid, hein ?]]), weekend plans, where you live, your neighbourhood, sports and hobbies, and where you're from.\n\nAvoid asking about salary, rent, age or religion in a first conversation. And a last tip: [[hein ?]] at the end of a sentence (like “eh?”) invites the other person to agree: [[Il fait beau, hein ?]]" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "React with your voice",
+          "note": "The melody is half the meaning. Copy the voice going up or down.",
+          "lines": [
+            { "fr": "Ah bon ?", "en": "Oh really?", "tip": "Voice goes up on bon." },
+            { "fr": "C'est vrai ?", "en": "Is that true?", "tip": "Voice goes up on vrai." },
+            { "fr": "Super !", "en": "Great!", "tip": "Strong, then down: su-PER." },
+            { "fr": "Moi non plus.", "en": "Me neither.", "tip": "The s of plus is silent here." },
+            { "fr": "Dommage ! Et dimanche ?", "en": "Too bad! And Sunday?" },
+            { "fr": "Bon, je dois y aller. À bientôt !", "en": "Well, I have to go. See you soon!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je ne mange pas de viande. — Moi non plus.", "en": "I don't eat meat. — Me neither.", "prompt": "Does the second person eat meat?", "options": ["No", "Yes", "We don't know"], "answer": 0, "explain": "[[Moi non plus]] agrees with a negative: the second person doesn't eat meat either." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'ai un nouveau travail ! — C'est vrai ? Félicitations !", "en": "I have a new job! — Really? Congratulations!", "prompt": "How does the second person react?", "options": ["Surprised and happy", "Sad", "Not interested"], "answer": 0, "explain": "[[C'est vrai ?]] (surprise) + [[Félicitations !]] (happy for them)." }
+      ] },
+    { "type": "recall", "title": "Unit checkpoint",
+      "intro": "This checkpoint mixes the whole unit with earlier ones. Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "Your friend says “Je n'aime pas le hockey.” You don't like hockey either. You say:", "options": ["Moi non plus.", "Moi aussi.", "Pas moi.", "Moi, si !"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Moi aussi agrees with a positive sentence.", "Pas moi disagrees with a positive sentence.", "Moi, si ! means you DO like it."] },
+        { "id": "r2", "type": "mcq", "prompt": "A colleague says “Je vais avoir un bébé !” The best reaction:", "options": ["C'est vrai ? Félicitations !", "Dommage !", "Moi non plus.", "Ah, d'accord."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Dommage is for bad news.", "Moi non plus answers a negative sentence.", "Correct French, but much too cold for big news!"] },
+        { "id": "r3", "type": "cloze", "text": "— Je vais à Québec ce week-end. — Ah bon ? Tu vas faire ___ là-bas ?", "answers": [["quoi"]], "choices": ["quoi", "qui", "quand"], "en": "I'm going to Québec City this weekend. — Oh really? What are you going to do there?", "explain": "At the end of an informal question, “what” is quoi." },
+        { "id": "r4", "type": "translate", "prompt": "We have two children. And you? (formal)", "accept": ["Nous avons deux enfants. Et vous ?", "On a deux enfants. Et vous ?"], "explain": "avoir: nous avons / on a. Formal “and you?” = Et vous ?" },
+        { "id": "r5", "type": "translate", "prompt": "What are you going to do tonight? (to a friend)", "accept": ["Qu'est-ce que tu vas faire ce soir ?", "Tu vas faire quoi ce soir ?", "Que vas-tu faire ce soir ?", "Ce soir, tu vas faire quoi ?", "Ce soir, qu'est-ce que tu vas faire ?", "Ce soir tu vas faire quoi ?", "Ce soir qu'est-ce que tu vas faire ?"], "explain": "Near future: tu vas + faire. Any of the three question registers is fine." },
+        { "id": "r6", "type": "cloze", "text": "Je me ___ à six heures parce que je ___ travailler à sept heures.", "answers": [["lève"], ["dois"]], "en": "I get up at six because I have to work at seven.", "explain": "se lever → je me lève (accent è); devoir → je dois + infinitive." },
+        { "id": "r7", "type": "reorder", "prompt": "Do you want some coffee? (to a friend)", "accept": ["Tu veux du café ?"], "extra": ["de", "veut"], "explain": "tu veux + partitive du (de + le) café." },
+        { "id": "r8", "type": "listen-mcq", "fr": "Je préfère le thé, mais ma femme préfère le café.", "en": "I prefer tea, but my wife prefers coffee.", "prompt": "What does his wife prefer?", "options": ["Coffee", "Tea", "Juice"], "answer": 0, "explain": "[[ma femme préfère le café]] = my wife prefers coffee." },
+        { "id": "r9", "type": "dictation", "fr": "Il fait froid aujourd'hui, mais demain il va faire beau.", "accept": ["Il fait froid aujourd'hui mais demain il va faire beau."], "explain": "Present for today ([[il fait froid]]), near future for tomorrow ([[il va faire beau]])." },
+        { "id": "r10", "type": "match", "prompt": "Match each reaction to its meaning.", "pairs": [["Félicitations !", "Congratulations!"], ["Dommage !", "Too bad!"], ["Ah bon ?", "Oh really?"], ["Moi non plus.", "Me neither."], ["Raconte !", "Tell me!"]] }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "intro": "This is your unit mission. Use everything from units 1 to 10.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Imagine a 60-second conversation with a new neighbour in the elevator and play both people. Person A asks questions; person B answers, adds a detail, reacts and asks back. End by making a plan together.", "seconds": 60,
+          "checklist": ["At least four questions with different question words", "Two reactions (Ah bon ?, C'est vrai ?, Super !…)", "Moi aussi or moi non plus", "One plan with aller + infinitive", "A suggestion with tu veux… ? or vous voulez… ?"],
+          "models": [ { "label": "Model conversation", "fr": "— Bonjour ! Vous habitez ici ?\n— Oui, au troisième étage. Je m'appelle Raj. Et vous ?\n— Moi, c'est Lucie. Vous êtes d'où, Raj ?\n— Je suis indien, mais j'habite à Ottawa maintenant. Je travaille dans une banque.\n— Ah bon ? Moi aussi, je travaille dans une banque !\n— C'est vrai ? Super ! Et vous aimez le quartier ?\n— Oui, mais je n'aime pas l'hiver ici.\n— Moi non plus ! Il fait très froid. Qu'est-ce que vous allez faire ce week-end ?\n— Je vais aller au marché samedi matin. Vous voulez venir avec moi ?\n— Oui, je veux bien ! À quelle heure ?\n— À dix heures, devant l'immeuble ?\n— Parfait. À samedi !", "en": "— Hello! Do you live here?\n— Yes, on the third floor. My name is Raj. And you?\n— I'm Lucie. Where are you from, Raj?\n— I'm Indian, but I live in Ottawa now. I work in a bank.\n— Oh really? I work in a bank too!\n— Really? Great! And do you like the neighbourhood?\n— Yes, but I don't like the winter here.\n— Me neither! It's very cold. What are you going to do this weekend?\n— I'm going to go to the market on Saturday morning. Do you want to come with me?\n— Yes, I'd love to! What time?\n— At ten, in front of the building?\n— Perfect. See you Saturday!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a text-message exchange of 6 to 8 short messages between you and a friend. Make a plan for the weekend: what, when, where, and one problem (someone can't, or has to do something).", "wordRange": [40, 90],
+          "checklist": ["At least three question words (où, quand, quel…)", "Two reactions (Super !, Dommage !, Ah bon ?…)", "pouvoir, vouloir or devoir + infinitive", "aller + infinitive", "A clear plan at the end: day, time, place"],
+          "models": [ { "label": "Model exchange", "fr": "Mei : Salut Karim ! Tu fais quoi samedi ?\nKarim : Salut ! Je dois travailler le matin. Pourquoi ?\nMei : Je vais faire un pique-nique au parc avec Sofia. Tu veux manger avec nous ?\nKarim : Super idée ! Mais je ne peux pas avant deux heures.\nMei : Pas de problème. À quelle heure tu finis ?\nKarim : À une heure et demie. On se retrouve où ?\nMei : Devant la bibliothèque, à deux heures et quart ?\nKarim : C'est correct ! Je vais apporter des fruits. À samedi !", "en": "Mei: Hi Karim! What are you doing on Saturday?\nKarim: Hi! I have to work in the morning. Why?\nMei: I'm going to have a picnic in the park with Sofia. Do you want to eat with us?\nKarim: Great idea! But I can't before two.\nMei: No problem. What time do you finish?\nKarim: At half past one. Where shall we meet?\nMei: In front of the library, at quarter past two?\nKarim: That works! I'm going to bring some fruit. See you Saturday!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Keep a conversation going: answer, add a detail, ask back with [[Et toi ?]] / [[Et vous ?]]\n- React naturally: [[Ah bon ?]] [[C'est vrai ?]] [[Super !]] [[Dommage !]] and agree with [[moi aussi]] / [[moi non plus]]\n- Ask follow-up questions and make a plan together with [[tu veux… ?]], [[je peux / je dois]] and [[aller + infinitif]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed 'Racontez !' from the accept list of an item glossed (to a friend). Speaking model: 'Vous voulez aller au marché avec moi ?' -> 'Vous voulez venir avec moi ?' (glossed chunk in a model dialogue)." }
+}

@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-22",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Arts, shows and going out",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "culture, entertainment and leisure",
+  "goal": "Recognise and use 23 words for the arts, shows, film and going out.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "orchestre",
+      "kind": "vocab",
+      "fr": "orchestre",
+      "article": "l'",
+      "gender": "m",
+      "en": "orchestra",
+      "pos": "noun",
+      "accept": [
+        "un orchestre"
+      ],
+      "example": {
+        "fr": "L'Orchestre symphonique de Montréal joue ce soir.",
+        "en": "The Montréal Symphony Orchestra is playing tonight."
+      }
+    },
+    {
+      "id": "opera",
+      "kind": "vocab",
+      "fr": "opéra",
+      "article": "l'",
+      "gender": "m",
+      "en": "opera; opera house",
+      "pos": "noun",
+      "accept": [
+        "un opéra"
+      ],
+      "example": {
+        "fr": "Elle est allée voir un opéra de Mozart.",
+        "en": "She went to see an opera by Mozart."
+      }
+    },
+    {
+      "id": "poeme",
+      "kind": "vocab",
+      "fr": "poème",
+      "article": "le",
+      "gender": "m",
+      "en": "poem",
+      "pos": "noun",
+      "accept": [
+        "un poème"
+      ],
+      "example": {
+        "fr": "Mon fils a écrit un poème pour la fête des Mères.",
+        "en": "My son wrote a poem for Mother's Day."
+      }
+    },
+    {
+      "id": "poesie",
+      "kind": "vocab",
+      "fr": "poésie",
+      "article": "la",
+      "gender": "f",
+      "en": "poetry",
+      "pos": "noun",
+      "accept": [
+        "une poésie"
+      ],
+      "example": {
+        "fr": "J'aime lire de la poésie le soir.",
+        "en": "I like reading poetry in the evening."
+      }
+    },
+    {
+      "id": "chapitre",
+      "kind": "vocab",
+      "fr": "chapitre",
+      "article": "le",
+      "gender": "m",
+      "en": "chapter",
+      "pos": "noun",
+      "accept": [
+        "un chapitre"
+      ],
+      "example": {
+        "fr": "J'ai lu trois chapitres de ce roman hier soir.",
+        "en": "I read three chapters of this novel last night."
+      }
+    },
+    {
+      "id": "statue",
+      "kind": "vocab",
+      "fr": "statue",
+      "article": "la",
+      "gender": "f",
+      "en": "statue",
+      "pos": "noun",
+      "accept": [
+        "une statue"
+      ],
+      "example": {
+        "fr": "Il y a une statue au milieu de la place.",
+        "en": "There is a statue in the middle of the square."
+      }
+    },
+    {
+      "id": "revue",
+      "kind": "vocab",
+      "fr": "revue",
+      "article": "la",
+      "gender": "f",
+      "en": "magazine, journal",
+      "pos": "noun",
+      "accept": [
+        "une revue"
+      ],
+      "example": {
+        "fr": "Il lit une revue de cuisine dans la salle d'attente.",
+        "en": "He's reading a cooking magazine in the waiting room."
+      }
+    },
+    {
+      "id": "tatouage",
+      "kind": "vocab",
+      "fr": "tatouage",
+      "article": "le",
+      "gender": "m",
+      "en": "tattoo",
+      "pos": "noun",
+      "accept": [
+        "un tatouage"
+      ],
+      "example": {
+        "fr": "Elle a un petit tatouage sur le poignet.",
+        "en": "She has a small tattoo on her wrist."
+      }
+    },
+    {
+      "id": "tournage",
+      "kind": "vocab",
+      "fr": "tournage",
+      "article": "le",
+      "gender": "m",
+      "en": "filming, shoot (of a film)",
+      "pos": "noun",
+      "accept": [
+        "un tournage"
+      ],
+      "example": {
+        "fr": "Le tournage du film a eu lieu à Québec.",
+        "en": "The film was shot in Québec City."
+      }
+    },
+    {
+      "id": "filmer",
+      "kind": "vocab",
+      "fr": "filmer",
+      "en": "to film",
+      "pos": "verb",
+      "example": {
+        "fr": "Il a filmé le spectacle avec son téléphone.",
+        "en": "He filmed the show with his phone."
+      }
+    },
+    {
+      "id": "audition",
+      "kind": "vocab",
+      "fr": "audition",
+      "article": "l'",
+      "gender": "f",
+      "en": "audition",
+      "pos": "noun",
+      "accept": [
+        "une audition"
+      ],
+      "example": {
+        "fr": "Lucie a passé une audition pour une pièce de théâtre.",
+        "en": "Lucie went to an audition for a play."
+      }
+    },
+    {
+      "id": "repetition",
+      "kind": "vocab",
+      "fr": "répétition",
+      "article": "la",
+      "gender": "f",
+      "en": "rehearsal; repetition",
+      "pos": "noun",
+      "accept": [
+        "une répétition"
+      ],
+      "example": {
+        "fr": "La répétition de la chorale est le mardi soir.",
+        "en": "Choir rehearsal is on Tuesday evenings."
+      }
+    },
+    {
+      "id": "maquillage",
+      "kind": "vocab",
+      "fr": "maquillage",
+      "article": "le",
+      "gender": "m",
+      "en": "make-up",
+      "pos": "noun",
+      "accept": [
+        "un maquillage"
+      ],
+      "example": {
+        "fr": "Les acteurs passent une heure au maquillage.",
+        "en": "The actors spend an hour in make-up."
+      }
+    },
+    {
+      "id": "clown",
+      "kind": "vocab",
+      "fr": "clown",
+      "article": "le",
+      "gender": "m",
+      "en": "clown",
+      "pos": "noun",
+      "accept": [
+        "un clown"
+      ],
+      "example": {
+        "fr": "Les enfants ont adoré le clown à la fête.",
+        "en": "The children loved the clown at the party."
+      }
+    },
+    {
+      "id": "magicien",
+      "kind": "vocab",
+      "fr": "magicien",
+      "fem": "magicienne",
+      "article": "le",
+      "gender": "m",
+      "en": "magician",
+      "pos": "noun",
+      "accept": [
+        "un magicien",
+        "magicienne",
+        "la magicienne",
+        "une magicienne"
+      ],
+      "example": {
+        "fr": "Le magicien a fait disparaître une carte.",
+        "en": "The magician made a card disappear."
+      }
+    },
+    {
+      "id": "balade",
+      "kind": "vocab",
+      "fr": "balade",
+      "article": "la",
+      "gender": "f",
+      "en": "walk, stroll; ride",
+      "pos": "noun",
+      "accept": [
+        "une balade"
+      ],
+      "example": {
+        "fr": "On fait une balade au bord du fleuve ?",
+        "en": "Shall we go for a stroll by the river?"
+      }
+    },
+    {
+      "id": "viree",
+      "kind": "vocab",
+      "fr": "virée",
+      "article": "la",
+      "gender": "f",
+      "en": "trip, outing (informal)",
+      "pos": "noun",
+      "accept": [
+        "une virée"
+      ],
+      "example": {
+        "fr": "On a fait une petite virée en Gaspésie.",
+        "en": "We took a little trip to the Gaspé."
+      },
+      "note": "Informal. Faire une virée = to go on a short trip or outing."
+    },
+    {
+      "id": "cocktail",
+      "kind": "vocab",
+      "fr": "cocktail",
+      "article": "le",
+      "gender": "m",
+      "en": "cocktail; drinks reception",
+      "pos": "noun",
+      "accept": [
+        "un cocktail"
+      ],
+      "example": {
+        "fr": "Le cocktail de bienvenue commence à 18 h.",
+        "en": "The welcome drinks start at 6 p.m."
+      }
+    },
+    {
+      "id": "casino",
+      "kind": "vocab",
+      "fr": "casino",
+      "article": "le",
+      "gender": "m",
+      "en": "casino",
+      "pos": "noun",
+      "accept": [
+        "un casino"
+      ],
+      "example": {
+        "fr": "Ils ont passé la soirée au casino de Montréal.",
+        "en": "They spent the evening at the Montréal casino."
+      }
+    },
+    {
+      "id": "poker",
+      "kind": "vocab",
+      "fr": "poker",
+      "article": "le",
+      "gender": "m",
+      "en": "poker",
+      "pos": "noun",
+      "accept": [],
+      "example": {
+        "fr": "Le vendredi, il joue au poker avec ses amis.",
+        "en": "On Fridays, he plays poker with his friends."
+      }
+    },
+    {
+      "id": "jeton",
+      "kind": "vocab",
+      "fr": "jeton",
+      "article": "le",
+      "gender": "m",
+      "en": "token, chip (game)",
+      "pos": "noun",
+      "accept": [
+        "un jeton"
+      ],
+      "example": {
+        "fr": "Il faut un jeton pour utiliser la machine.",
+        "en": "You need a token to use the machine."
+      }
+    },
+    {
+      "id": "motel",
+      "kind": "vocab",
+      "fr": "motel",
+      "article": "le",
+      "gender": "m",
+      "en": "motel",
+      "pos": "noun",
+      "accept": [
+        "un motel"
+      ],
+      "example": {
+        "fr": "On a dormi dans un motel au bord de la route.",
+        "en": "We slept in a motel by the road."
+      }
+    },
+    {
+      "id": "encheres",
+      "kind": "vocab",
+      "fr": "enchères",
+      "article": "les",
+      "gender": "f",
+      "en": "auction",
+      "pos": "noun",
+      "accept": [
+        "des enchères",
+        "la vente aux enchères",
+        "une vente aux enchères"
+      ],
+      "example": {
+        "fr": "Il a acheté ce tableau aux enchères.",
+        "en": "He bought this painting at an auction."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Music, books and art",
+          "itemIds": [
+            "orchestre",
+            "opera",
+            "poeme",
+            "poesie",
+            "chapitre",
+            "statue",
+            "revue",
+            "tatouage"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Film and the stage",
+          "itemIds": [
+            "tournage",
+            "filmer",
+            "audition",
+            "repetition",
+            "maquillage",
+            "clown",
+            "magicien"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Going out",
+          "itemIds": [
+            "balade",
+            "viree",
+            "cocktail",
+            "casino",
+            "poker",
+            "jeton",
+            "motel",
+            "encheres"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- **False friend:** in the arts, [[une répétition]] is a *rehearsal*.\n- [[Une revue]] is a magazine, not a review (that is [[une critique]]).\n- [[Une balade]] (one l) is a stroll; [[une ballade]] is a song.\n- [[Faire une virée]] is informal for a short trip."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "J'aime lire de la poésie le soir.",
+              "en": "I like reading poetry in the evening."
+            },
+            {
+              "fr": "J'ai lu trois chapitres de ce roman hier soir.",
+              "en": "I read three chapters of this novel last night."
+            },
+            {
+              "fr": "Elle a un petit tatouage sur le poignet.",
+              "en": "She has a small tattoo on her wrist."
+            },
+            {
+              "fr": "Le tournage du film a eu lieu à Québec.",
+              "en": "The film was shot in Québec City."
+            },
+            {
+              "fr": "Lucie a passé une audition pour une pièce de théâtre.",
+              "en": "Lucie went to an audition for a play."
+            },
+            {
+              "fr": "La répétition de la chorale est le mardi soir.",
+              "en": "Choir rehearsal is on Tuesday evenings."
+            },
+            {
+              "fr": "On fait une balade au bord du fleuve ?",
+              "en": "Shall we go for a stroll by the river?"
+            },
+            {
+              "fr": "On a fait une petite virée en Gaspésie.",
+              "en": "We took a little trip to the Gaspé."
+            },
+            {
+              "fr": "Il faut un jeton pour utiliser la machine.",
+              "en": "You need a token to use the machine."
+            },
+            {
+              "fr": "Il a acheté ce tableau aux enchères.",
+              "en": "He bought this painting at an auction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the arts words.",
+          "pairs": [
+            [
+              "l'orchestre",
+              "orchestra"
+            ],
+            [
+              "le poème",
+              "poem"
+            ],
+            [
+              "le chapitre",
+              "chapter"
+            ],
+            [
+              "la statue",
+              "statue"
+            ],
+            [
+              "la revue",
+              "magazine"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the words about shows and going out.",
+          "pairs": [
+            [
+              "le tournage",
+              "film shoot"
+            ],
+            [
+              "la répétition",
+              "rehearsal"
+            ],
+            [
+              "le maquillage",
+              "make-up"
+            ],
+            [
+              "la balade",
+              "stroll"
+            ],
+            [
+              "les enchères",
+              "auction"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "An actor says: « J’ai une ___ ce soir avec toute la troupe. » They are practising the play. Which word fits?",
+          "options": [
+            "répétition",
+            "revue",
+            "virée",
+            "enchère"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Une répétition]] is a rehearsal before a show."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "How do you suggest a walk by the river?",
+          "options": [
+            "On fait une balade au bord du fleuve ?",
+            "On fait un tournage au bord du fleuve ?",
+            "On fait une audition au bord du fleuve ?",
+            "On fait un jeton au bord du fleuve ?"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Faire une balade]] = to go for a stroll."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "He filmed the show with his phone.",
+          "accept": [
+            "Il a filmé le spectacle avec son téléphone.",
+            "Il a filmé le spectacle avec son cellulaire.",
+            "Il a filmé le show avec son téléphone.",
+            "Il a filmé le spectacle avec son portable."
+          ],
+          "explain": "[[Filmer]] is a regular -er verb: [[il a filmé]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "I like reading poetry.",
+          "accept": [
+            "J'aime lire de la poésie.",
+            "J'aime lire la poésie.",
+            "J'adore lire de la poésie."
+          ],
+          "explain": "Use [[de la poésie]] for “some poetry” in general."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Le ___ du film a eu lieu à Québec.",
+          "answers": [
+            [
+              "tournage"
+            ]
+          ],
+          "choices": [
+            "tournage",
+            "poème",
+            "casino",
+            "motel"
+          ],
+          "en": "The film was shot in Québec City.",
+          "explain": "[[Le tournage]] is the period when a film is shot."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Il a acheté ce tableau aux ___.",
+          "answers": [
+            [
+              "enchères",
+              "encheres"
+            ]
+          ],
+          "en": "He bought this painting at an auction.",
+          "explain": "[[Aux enchères]] = at auction; the word is plural."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Elle a un petit tatouage sur le poignet.",
+          "accept": [],
+          "explain": "[[Tatouage]] has no double letters: ta-tou-age."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Le magicien a fait disparaître une carte.",
+          "en": "The magician made a card disappear.",
+          "prompt": "Who did something surprising?",
+          "options": [
+            "A magician",
+            "A clown",
+            "A butcher"
+          ],
+          "answer": 0,
+          "explain": "[[Le magicien]] does magic tricks."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Talk about the arts: [[orchestre, opéra, poésie, chapitre, statue]]\n- Talk about film and the stage: [[tournage, filmer, audition, répétition]]\n- Plan an outing: [[faire une balade, une virée, un cocktail]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Added informal note for virée; removed \"un poker\" accept; clarified the tatouage spelling tip and the répétition false-friend tip."
+  }
+}

@@ -1,0 +1,1584 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "ability": "ce",
+  "sets": [
+    {
+      "id": "tef-ce-m1",
+      "title": "Full mock reading test 1",
+      "level": "a2–c1",
+      "minutes": 60,
+      "mock": true,
+      "docs": [
+        {
+          "id": "m1-d01",
+          "type": "affiche",
+          "title": "Bibliothèque du quartier des Érables",
+          "fr": "BIBLIOTHÈQUE DU QUARTIER DES ÉRABLES\n\nNouveaux horaires à partir du 1er septembre\n\nLundi : fermé\nDu mardi au vendredi : de 10 h à 20 h\nSamedi et dimanche : de 10 h à 17 h\n\nLa chute à livres, à droite de l'entrée principale, est accessible 24 heures sur 24. Les documents déposés le dimanche après 17 h seront enregistrés le mardi matin.\n\nRappel : l'abonnement est gratuit pour les résidents du quartier. Apportez une preuve d'adresse."
+        },
+        {
+          "id": "m1-d02",
+          "type": "annonce",
+          "title": "Chambre à louer",
+          "fr": "CHAMBRE À LOUER dans un grand 5 ½, à deux minutes du métro\n\nDisponible le 1er juillet. 650 $ par mois, chauffage et électricité compris. Internet en plus : 20 $ par mois.\n\nTu partageras la cuisine et la salle de bain avec deux étudiantes en soins infirmiers, calmes et plutôt matinales. Pas d'animaux : une de nous est allergique. Non-fumeur.\n\nVisites le samedi après-midi seulement. Écris à Maude : maude.coloc@exemple.ca"
+        },
+        {
+          "id": "m1-d03",
+          "type": "courriel",
+          "title": "Demain",
+          "fr": "De : Karim\nÀ : Julie\nObjet : Demain\n\nSalut Julie,\n\nPetit changement pour demain : je ne peux pas passer te prendre en voiture à 8 h, le garagiste garde ma voiture jusqu'à jeudi.\n\nOn prend l'autobus ensemble ? Il part du terminus à 8 h 40 et arrive au village vers 10 h. Je t'attends devant le guichet du terminus à 8 h 30. Lucie viendra nous chercher à l'arrêt avec sa voiture.\n\nNe t'occupe pas du dîner, j'apporte les sandwichs !\n\nKarim"
+        },
+        {
+          "id": "m1-d04",
+          "type": "affiche",
+          "title": "Opération déneigement",
+          "fr": "VILLE DE SAINT-AURÈLE — OPÉRATION DÉNEIGEMENT\n\nCette nuit, de 23 h à 7 h, les camions enlèveront la neige dans les rues du secteur Nord.\n\nLorsque les lumières orange clignotent au coin des rues, le stationnement est interdit des deux côtés de la rue. Les véhicules qui resteront dans la rue seront remorqués aux frais de leur propriétaire.\n\nDes places gratuites vous attendent dans le stationnement de l'aréna, rue Dufresne.\n\nInfo-neige : 819 555-0142"
+        },
+        {
+          "id": "m1-d05",
+          "type": "publicité",
+          "title": "Studio Souffle",
+          "fr": "STUDIO SOUFFLE — Yoga pour tous\n\nVous n'avez jamais fait de yoga ? Venez essayer !\nPremier cours offert, sans inscription.\n\nCours débutants : lundi et jeudi, 18 h 30\nYoga doux pour les seniors : mercredi, 10 h\nYoga parents-bébés (bébés de 2 à 10 mois) : vendredi, 10 h 30\n\nCarte de 10 cours : 120 €. Tapis prêtés sur place.\nApportez seulement une tenue confortable et une bouteille d'eau."
+        },
+        {
+          "id": "m1-d06",
+          "type": "courriel",
+          "title": "Formation obligatoire en sécurité",
+          "fr": "De : Service des ressources humaines — Varennes Logistique\nÀ : Tout le personnel\nObjet : Formation obligatoire en sécurité — inscription avant le 15 mars\n\nBonjour à toutes et à tous,\n\nCette année encore, chaque employé doit suivre la formation annuelle en santé et sécurité au travail. Nouveauté : elle se fera désormais en deux parties.\n\nLa première partie, théorique, se fait en ligne et dure environ 45 minutes. Vous pouvez la suivre quand vous le voulez, pendant vos heures de travail, avant le 31 mars. La seconde partie, pratique, aura lieu dans l'entrepôt B, en petits groupes de huit personnes. Elle porte sur les gestes d'urgence et l'utilisation des extincteurs.\n\nPour la partie pratique, inscrivez-vous dans le calendrier partagé avant le 15 mars. Attention : vous ne pourrez pas y participer si vous n'avez pas terminé la partie en ligne au moins deux jours avant votre séance.\n\nLes employés de nuit recevront un horaire adapté de la part de leur chef d'équipe.\n\nMerci de votre collaboration,\n\nNadia Ferland\nConseillère en ressources humaines"
+        },
+        {
+          "id": "m1-d07",
+          "type": "article",
+          "title": "Cinq astuces pour alléger la facture d’épicerie",
+          "fr": "Avec la hausse des prix, de nombreuses familles cherchent à dépenser moins au supermarché. Voici quelques conseils simples recueillis auprès d'Hélène Brassard, conseillère en économie familiale dans un organisme communautaire.\n\nD'abord, planifier les repas de la semaine. « Quand on arrive au magasin sans liste, on achète presque toujours plus que prévu », explique-t-elle. Prévoir les menus permet aussi d'utiliser les restes au lieu de les jeter.\n\nEnsuite, ne pas faire les courses le ventre vide : la faim pousse à choisir des produits sucrés ou déjà préparés, souvent plus chers.\n\nTroisième conseil : comparer le prix au kilo plutôt que le prix affiché. Les grands formats ne sont pas toujours les plus avantageux, surtout quand une partie finit à la poubelle.\n\nQuatrièmement, accepter les fruits et légumes « moches ». Plusieurs épiceries les vendent à prix réduit, alors qu'ils sont, selon elle, tout aussi nourrissants.\n\nEnfin, Mme Brassard recommande de se méfier des promotions. « Un deuxième produit à moitié prix, ce n'est une économie que si on en avait vraiment besoin », rappelle-t-elle.\n\nSelon elle, ces habitudes demandent un peu d'organisation au début, mais deviennent vite naturelles."
+        },
+        {
+          "id": "m1-d08",
+          "type": "lettre",
+          "title": "Distribution de composteurs",
+          "fr": "Mairie de Villebrune\nService Propreté\n\nObjet : distribution de composteurs individuels\n\nMadame, Monsieur,\n\nÀ partir du 1er janvier, les déchets alimentaires ne devront plus être jetés avec les ordures ménagères. Pour vous aider, la commune met gratuitement un composteur individuel en bois à la disposition des foyers qui possèdent un jardin.\n\nLes habitants d'un appartement pourront utiliser les composteurs collectifs installés dans chaque quartier ; vous trouverez la carte de leurs emplacements jointe à ce courrier.\n\nLes composteurs individuels seront à retirer au centre technique municipal, 4 chemin des Saules, les samedis 18 et 25 novembre, de 9 h à 12 h. Merci de vous munir d'un justificatif de domicile. Un agent vous expliquera sur place comment bien utiliser votre composteur.\n\nSi vous ne pouvez pas vous déplacer, une livraison à domicile est possible pour les personnes de plus de 75 ans ou à mobilité réduite, sur simple appel au service Propreté.\n\nVeuillez agréer, Madame, Monsieur, nos salutations distinguées.\n\nLe service Propreté"
+        },
+        {
+          "id": "m1-d09",
+          "type": "annonce",
+          "title": "Offre d’emploi saisonnier",
+          "fr": "OFFRE D'EMPLOI — Fromagerie Belle-Rive\n\nLa Fromagerie Belle-Rive, entreprise familiale installée à Rivière-aux-Cerfs depuis plus de trente ans, cherche un ou une préposé(e) à la boutique pour la saison estivale (de juin à septembre).\n\nVos tâches :\n– accueillir les visiteurs et leur faire goûter nos produits ;\n– tenir la caisse ;\n– participer à la mise en place de la boutique le matin.\n\nProfil recherché :\n– aimer le contact avec le public ;\n– être disponible les fins de semaine ;\n– parler anglais est un atout, car beaucoup de nos clients sont des touristes.\nAucune expérience en fromagerie n'est exigée : nous vous formerons.\n\nConditions : 30 heures par semaine, 18 $ l'heure, rabais de 20 % sur nos produits.\n\nEnvoyez votre CV avant le 30 avril à emplois@belle-rive.exemple.ca. Les candidats retenus seront invités à une journée d'essai rémunérée."
+        },
+        {
+          "id": "m1-d10",
+          "type": "article",
+          "title": "Télétravail : le centre-ville cherche un second souffle",
+          "fr": "Trois ans après la généralisation du télétravail, le centre-ville de Port-Ambroise n'a toujours pas retrouvé son animation d'avant. Les tours de bureaux affichent un taux d'occupation qui dépasse rarement 50 % en milieu de semaine, et le lundi comme le vendredi, certains étages sont presque déserts.\n\nPour les commerçants, le constat est amer. « Le midi, je servais 120 repas par jour. Aujourd'hui, j'en sers à peine 70, et presque tous du mardi au jeudi », témoigne Paul Achour, propriétaire d'un comptoir de sandwichs depuis douze ans. Plusieurs de ses voisins ont déjà fermé.\n\nLa municipalité refuse pourtant de parler de déclin. Elle mise sur la transformation de bureaux vides en logements, un chantier qu'elle juge prioritaire. « Un quartier où l'on habite vit le soir et la fin de semaine, pas seulement de 9 h à 17 h », résume la conseillère responsable de l'urbanisme, Isabelle Morin. Deux immeubles sont déjà en cours de reconversion.\n\nLes promoteurs, eux, se montrent plus prudents. Transformer une tour de bureaux coûte souvent plus cher que construire du neuf : il faut revoir la plomberie, percer des fenêtres dans des étages très profonds, adapter la ventilation. Sans aide publique, préviennent-ils, peu de projets seront rentables.\n\nDu côté des employés, le retour au bureau à temps plein ne fait pas rêver. Selon une enquête de la chambre de commerce locale, une large majorité souhaitent conserver au moins deux jours de travail à domicile par semaine. Plusieurs employeurs ont d'ailleurs renoncé à imposer davantage de présence, de peur de perdre leurs meilleurs éléments.\n\nPour les urbanistes, la question n'est donc plus de savoir si le centre-ville redeviendra comme avant, mais ce qu'il pourrait devenir."
+        },
+        {
+          "id": "m1-d11",
+          "type": "forum",
+          "title": "Faut-il interdire le cellulaire à l’école secondaire ?",
+          "fr": "Sujet lancé par Mélanie_R :\nL'école de mon fils vient d'interdire complètement les téléphones, même pendant les pauses. Les élèves doivent les laisser dans un casier dès leur arrivée. Mon fils trouve ça injuste. Qu'en pensez-vous ?\n\nRéponse de Prof_Gagnon :\nEnseignant depuis vingt ans, je ne vois que des avantages à cette règle. Avant, je passais une partie de mes cours à demander aux élèves de ranger leur appareil. Depuis l'interdiction, les récréations sont plus bruyantes, c'est vrai, mais c'est parce que les jeunes se parlent et jouent ensemble. Personnellement, je préfère ce bruit-là au silence des écrans.\n\nRéponse de Samir.L :\nJe comprends l'objectif, mais l'interdiction totale me semble excessive. Ma fille prend deux autobus pour rentrer et j'aime pouvoir la joindre en cas de problème. Pourquoi ne pas autoriser le téléphone à l'heure du dîner et l'interdire seulement en classe ? On apprend aussi aux jeunes à se maîtriser en leur faisant confiance.\n\nRéponse de Jeanne_17 (élève de 4e secondaire) :\nHonnêtement, au début, j'étais fâchée. Mais après un mois, je dois admettre que je suis moins fatiguée et que je regarde moins mon téléphone le soir aussi. Ce qui m'énerve, c'est que les adultes, eux, l'utilisent partout dans l'école.\n\nRéponse de Mélanie_R :\nMerci pour vos réponses, ça me fait réfléchir. Je vais en parler avec mon fils ce soir… et peut-être ranger mon propre téléphone pendant le souper !"
+        },
+        {
+          "id": "m1-d12",
+          "type": "article",
+          "title": "Le café-réparation fait le plein",
+          "fr": "Un samedi par mois, la salle des fêtes de Montclair-sur-Loir se transforme en atelier. Sur de longues tables, des bénévoles démontent grille-pain, aspirateurs, lampes et vélos apportés par des habitants. L'objectif : réparer plutôt que jeter.\n\nLancé il y a quatre ans par un électricien à la retraite, Gérard Pons, ce « café-réparation » attire aujourd'hui une cinquantaine de personnes à chaque séance. « Environ deux objets sur trois repartent en état de marche », assure-t-il. Le service est gratuit ; seules les éventuelles pièces de rechange restent à la charge des propriétaires.\n\nMais l'intérêt ne se limite pas aux économies. Ici, les visiteurs ne déposent pas simplement leur appareil : ils sont invités à participer à la réparation. « Je ne voulais pas créer un atelier de dépannage gratuit qui ferait concurrence aux artisans du coin, explique Gérard Pons. L'idée, c'est que les gens comprennent comment leurs objets fonctionnent et reprennent confiance en leurs mains. »\n\nCertaines limites demeurent. De nombreux appareils récents sont collés plutôt que vissés, et les pièces sont parfois introuvables ou vendues presque au prix d'un appareil neuf. « Là, on ne peut rien faire, regrette une bénévole. Ce n'est pas une question de compétence, c'est la manière dont les objets sont conçus. »\n\nL'association espère désormais ouvrir un second atelier dans la commune voisine, à condition de trouver de nouveaux bénévoles."
+        },
+        {
+          "id": "m1-d13",
+          "type": "article",
+          "title": "Le Pradel, victime de son succès",
+          "fr": "Avec ses maisons de pierre et son pont médiéval, Le Pradel, 400 habitants, est devenu en quelques étés l'un des villages les plus photographiés de la région. Une vidéo partagée des millions de fois sur les réseaux sociaux a suffi à transformer ce bourg tranquille en destination incontournable.\n\nLes retombées économiques sont réelles : la boulangerie a embauché deux saisonniers, et un ancien hangar abrite désormais une boutique de produits locaux. Mais la population, elle, commence à s'impatienter. Voitures garées dans les champs, files d'attente devant le pont, déchets laissés au bord de la rivière : « En août, on ne peut plus sortir de chez soi sans se faufiler entre les touristes », soupire une habitante.\n\nLe conseil municipal a donc pris une décision qui fait débat : à partir de l'été prochain, l'accès en voiture au centre du village sera payant les jours de forte affluence, et une navette gratuite le reliera à un parking situé à deux kilomètres. Le maire, Bernard Lacombe, se défend de vouloir chasser qui que ce soit : « Il ne s'agit pas de faire fuir les visiteurs, mais de les accueillir dans de bonnes conditions. »\n\nCertains commerçants craignent néanmoins que la mesure ne décourage la clientèle de passage. D'autres, au contraire, estiment qu'un village saturé finira par perdre son charme, et donc son attrait. Tous s'accordent sur un point : personne n'avait prévu un tel engouement."
+        },
+        {
+          "id": "m1-d14",
+          "type": "article",
+          "title": "Éditorial — Palmarès des écoles : mesurer n’est pas juger",
+          "fr": "Chaque automne, la publication du palmarès des écoles secondaires donne lieu au même rituel. Les établissements les mieux classés affichent fièrement leur rang sur leur site Internet ; les autres expliquent, un peu gênés, que les chiffres ne disent pas tout. Et des parents inquiets déménagent parfois pour se rapprocher d'une école « performante ».\n\nOn aurait tort de balayer ces classements d'un revers de main. Ils répondent à une demande légitime d'information et ont parfois obligé des établissements à se pencher sur des faiblesses qu'ils préféraient ignorer. Le problème n'est pas de mesurer, mais de croire que ce que l'on mesure résume tout.\n\nCar ces palmarès reposent pour l'essentiel sur les résultats aux examens. Or une école qui sélectionne ses élèves à l'entrée obtiendra mécaniquement de meilleurs résultats qu'une école de quartier qui accueille tout le monde, y compris des enfants arrivés récemment au pays ou en grande difficulté. Classer ces deux établissements sur la même échelle, c'est comparer la vitesse de deux coureurs dont l'un part avec vingt mètres d'avance.\n\nPlus grave encore, le classement finit par produire ce qu'il prétend seulement décrire. Les familles les mieux informées quittent les écoles mal classées, qui perdent alors leurs meilleurs élèves et glissent encore plus bas l'année suivante. La photographie devient une prophétie.\n\nFaut-il pour autant interdire ces palmarès ? Ce serait illusoire, et sans doute contraire à la liberté de la presse. Il serait plus utile de les compléter : mesurer les progrès accomplis par les élèves entre leur arrivée et leur départ plutôt que leur seul niveau final, tenir compte du milieu socio-économique, rendre visibles des réussites moins chiffrables, comme la persévérance scolaire ou l'intégration des nouveaux arrivants.\n\nUne bonne école n'est pas forcément celle où arrivent les meilleurs élèves. C'est celle où chaque élève devient meilleur qu'il ne l'était. Tant que nos outils ne sauront pas faire cette distinction, il faudra lire les classements avec bien plus de prudence qu'on ne le fait aujourd'hui."
+        },
+        {
+          "id": "m1-d15",
+          "type": "article",
+          "title": "Essai — « Éloge du détour » de Claire Vasseur",
+          "fr": "Dans Éloge du détour, son troisième essai, la philosophe Claire Vasseur s'attaque à une idée que nous tenons pour évidente : le chemin le plus court serait toujours le meilleur. Applications de navigation, livraisons en une heure, résumés de livres en cinq minutes… notre époque, écrit-elle, a fait de l'efficacité une vertu morale.\n\nLa thèse n'est pas neuve, et l'autrice le reconnaît volontiers. Ce qui fait l'intérêt du livre, c'est moins sa critique de la vitesse que son analyse de ce que nous perdons en supprimant les détours : la rencontre imprévue, l'erreur féconde, ce temps de l'hésitation où se forme parfois une décision plus juste. Les pages consacrées à l'apprentissage sont particulièrement convaincantes. Vasseur y montre qu'un élève qui se trompe, revient en arrière et cherche par lui-même retient bien mieux qu'un élève à qui l'on donne immédiatement la bonne réponse.\n\nOn regrettera en revanche que l'essai devienne plus vague dès qu'il s'agit de passer aux propositions. Inviter chacun à « réapprendre à flâner » est séduisant, mais suppose de disposer de temps libre, ce qui n'est pas donné à tout le monde. L'infirmière qui enchaîne les gardes ou le parent seul avec trois enfants n'ont guère le loisir du détour ; pour eux, l'efficacité n'est pas une idéologie, c'est une nécessité. L'autrice effleure cette objection sans vraiment y répondre.\n\nReste un livre stimulant, écrit dans une langue limpide, qui a le mérite de nous faire ralentir… au moins le temps de sa lecture. Ce n'est déjà pas si mal."
+        },
+        {
+          "id": "m1-d16",
+          "type": "article",
+          "title": "Recommandations : la fin de la découverte ?",
+          "fr": "Plateformes de musique, de vidéo ou de lecture : toutes promettent désormais de nous proposer « ce que nous aimerons ». Leurs algorithmes analysent nos écoutes passées, comparent nos goûts à ceux de millions d'autres utilisateurs et en déduisent nos prochaines envies. Le service est indéniablement pratique. Mais de plus en plus de chercheurs s'interrogent sur ses effets à long terme sur la culture.\n\nLa critique la plus répandue est celle de l'« enfermement » : à force de nous recommander des contenus proches de ceux que nous connaissons déjà, ces systèmes réduiraient la diversité de nos découvertes. L'argument est intuitif, mais les études disponibles invitent à la nuance. Certaines montrent que les utilisateurs de ces plateformes écoutent en réalité davantage d'artistes différents qu'auparavant ; d'autres, que cette diversité reste superficielle, car les nouveaux artistes ressemblent beaucoup aux anciens.\n\nLe véritable enjeu se situe peut-être ailleurs : dans la concentration de l'attention. Les recommandations favorisent les contenus qui ont déjà du succès, puisqu'ils fournissent davantage de données. Un artiste débutant, sans historique d'écoute, a donc moins de chances d'être proposé, ce qui renforce l'avantage des plus connus. L'algorithme ne censure personne ; il amplifie simplement les écarts existants.\n\nFace à ce constat, certains plaident pour une réglementation qui obligerait les plateformes à mettre en avant une part de créations locales ou émergentes. D'autres jugent plus efficace de redonner du pouvoir aux usagers, en leur permettant de comprendre, voire de régler eux-mêmes, les critères de recommandation. Les deux approches ne sont pas incompatibles.\n\nReste une question que la technique ne tranchera pas : voulons-nous qu'on nous serve ce que nous aimons déjà, ou qu'on nous aide à aimer ce que nous ne connaissons pas encore ?"
+        },
+        {
+          "id": "m1-d17",
+          "type": "lettre",
+          "title": "Lettre ouverte — Au bureau, parlons-nous encore français ?",
+          "fr": "Je travaille depuis quinze ans dans une entreprise de services informatiques. Chaque matin, j'assiste à un « meeting » où l'on fait le « check-in » de l'équipe avant de discuter des « deliverables » et des « deadlines ». Personne n'y trouve à redire : l'anglais s'est installé dans nos conversations sans que nous l'ayons vraiment décidé.\n\nQu'on me comprenne bien : je ne mène pas une croisade contre l'anglais. Je le parle avec plaisir et il est indispensable dans mon métier, où nos clients sont souvent à l'étranger. Je ne m'en prends pas non plus aux emprunts : une langue vivante emprunte, elle l'a toujours fait. Ce qui m'inquiète, c'est le glissement par lequel des mots français parfaitement disponibles — réunion, échéance, livrable — sont abandonnés parce qu'ils paraîtraient moins modernes, moins sérieux.\n\nCar ce choix n'est pas neutre. Il instaure une hiérarchie silencieuse : celui qui maîtrise ce jargon passe pour compétent, celui qui l'ignore — souvent un collègue plus âgé, ou un nouvel arrivant qui a appris le français avec soin — se sent mis à l'écart. Paradoxe cruel : des personnes qui ont fait l'effort d'apprendre notre langue découvrent qu'on ne la parle plus vraiment au travail.\n\nJe ne réclame ni loi ni amende. Je propose simplement que chacun, dans sa propre équipe, se demande si le mot anglais qu'il s'apprête à employer apporte quelque chose. Souvent, la réponse est non. Et parfois, retrouver le mot juste, c'est aussi retrouver le plaisir de bien dire.\n\nUne employée qui aime son métier… et sa langue"
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-ce-m1-001",
+          "docId": "m1-d01",
+          "prompt": "Quel jour la bibliothèque est-elle fermée toute la journée ?",
+          "options": [
+            "Le lundi.",
+            "Le mardi matin.",
+            "Le samedi soir.",
+            "Le dimanche."
+          ],
+          "answer": 0,
+          "explain": "“Lundi : fermé.” On Tuesday the library opens at 10 h (documents returned on Sunday evening are only recorded on Tuesday morning, but the library is not closed all day); Saturday and Sunday it is open until 17 h.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-002",
+          "docId": "m1-d01",
+          "prompt": "Que peut-on faire à n’importe quelle heure ?",
+          "options": [
+            "Rendre des documents.",
+            "S’abonner gratuitement.",
+            "Emprunter des livres.",
+            "Entrer dans la bibliothèque."
+          ],
+          "answer": 0,
+          "explain": "“La chute à livres […] est accessible 24 heures sur 24”: a book drop is for returning items. Borrowing, entering and registering require opening hours.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-003",
+          "docId": "m1-d02",
+          "prompt": "Combien le nouveau colocataire paiera-t-il par mois, Internet compris ?",
+          "options": [
+            "630 $",
+            "650 $",
+            "670 $",
+            "690 $"
+          ],
+          "answer": 2,
+          "explain": "“650 $ par mois […] Internet en plus : 20 $ par mois”: 650 + 20 = 670 $. 650 $ is the rent without Internet.",
+          "microSkills": [
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-004",
+          "docId": "m1-d02",
+          "prompt": "Pourquoi les animaux ne sont-ils pas acceptés ?",
+          "options": [
+            "Pour une raison de santé.",
+            "À cause du règlement de l’immeuble.",
+            "Parce que l’appartement est trop petit.",
+            "Parce que les colocataires se lèvent tôt."
+          ],
+          "answer": 0,
+          "explain": "“Pas d’animaux : une de nous est allergique.” An allergy is a health reason. The roommates are “matinales” (early risers), but that is not the reason given for refusing pets.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-005",
+          "docId": "m1-d03",
+          "prompt": "Pourquoi Karim écrit-il à Julie ?",
+          "options": [
+            "Pour annuler la sortie prévue au village.",
+            "Pour proposer un autre moyen de transport.",
+            "Pour demander à Julie de prendre sa voiture.",
+            "Pour proposer de remettre la sortie à jeudi."
+          ],
+          "answer": 1,
+          "explain": "“Je ne peux pas passer te prendre en voiture […] On prend l’autobus ensemble ?” The trip still happens the same day; only the means of transport changes. Julie is not asked to drive: Lucie will pick them up.",
+          "microSkills": [
+            "intention",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-006",
+          "docId": "m1-d03",
+          "prompt": "À quelle heure Julie doit-elle être au terminus ?",
+          "options": [
+            "8 h",
+            "8 h 40",
+            "10 h",
+            "8 h 30"
+          ],
+          "answer": 3,
+          "explain": "“Je t’attends devant le guichet à 8 h 30.” 8 h was the original car pick-up, 8 h 40 is the bus departure and 10 h the arrival.",
+          "microSkills": [
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-007",
+          "docId": "m1-d04",
+          "prompt": "Que signifient les lumières orange qui clignotent ?",
+          "options": [
+            "On ne peut pas se garer dans la rue.",
+            "La rue est fermée aux piétons pendant la nuit.",
+            "Le stationnement de l’aréna est plein.",
+            "Les camions de déneigement sont déjà passés dans la rue."
+          ],
+          "answer": 0,
+          "explain": "“Lorsque les lumières orange clignotent […] le stationnement est interdit des deux côtés de la rue.”",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-008",
+          "docId": "m1-d04",
+          "prompt": "Que propose la ville aux automobilistes ?",
+          "options": [
+            "Un remorquage gratuit.",
+            "Un permis de stationnement de nuit.",
+            "Un endroit pour se garer sans payer.",
+            "Le déneigement gratuit de leur entrée de garage."
+          ],
+          "answer": 2,
+          "explain": "“Des places gratuites vous attendent dans le stationnement de l’aréna.” Towing is “aux frais de leur propriétaire”, i.e. paid by the owner, not free.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-009",
+          "docId": "m1-d05",
+          "prompt": "Que faut-il faire pour participer au premier cours ?",
+          "options": [
+            "Réserver sa place à l’avance par téléphone.",
+            "Acheter une carte de 10 cours.",
+            "Apporter son propre tapis.",
+            "Simplement se présenter au studio."
+          ],
+          "answer": 3,
+          "explain": "“Premier cours offert, sans inscription.” No booking, no purchase, and “Tapis prêtés sur place” (mats are lent).",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-010",
+          "docId": "m1-d05",
+          "prompt": "Une mère veut venir avec son bébé de six mois. Elle peut venir…",
+          "options": [
+            "le lundi soir.",
+            "le mercredi matin.",
+            "le jeudi soir.",
+            "le vendredi matin."
+          ],
+          "answer": 3,
+          "explain": "“Yoga parents-bébés (bébés de 2 à 10 mois) : vendredi, 10 h 30.” A six-month-old fits the 2–10-month range. Wednesday morning is for seniors; Monday and Thursday evenings are beginners’ classes.",
+          "microSkills": [
+            "detail",
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-011",
+          "docId": "m1-d06",
+          "prompt": "Qu’est-ce qui change cette année pour la formation ?",
+          "options": [
+            "Elle n’est plus obligatoire.",
+            "Elle est divisée en deux étapes.",
+            "Elle se fait entièrement en ligne.",
+            "Elle est réservée aux employés de l’entrepôt."
+          ],
+          "answer": 1,
+          "explain": "“Nouveauté : elle se fera désormais en deux parties.” It remains compulsory (“chaque employé doit suivre”), and only the first part is online.",
+          "microSkills": [
+            "main-idea",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-012",
+          "docId": "m1-d06",
+          "prompt": "Quelle condition faut-il remplir pour participer à la partie pratique ?",
+          "options": [
+            "Avoir d’abord terminé la partie en ligne.",
+            "Former soi-même un groupe de huit collègues.",
+            "Travailler dans l’entrepôt B.",
+            "Obtenir l’accord écrit de son chef d’équipe."
+          ],
+          "answer": 0,
+          "explain": "“Vous ne pourrez pas y participer si vous n’avez pas terminé la partie en ligne au moins deux jours avant votre séance.” Groups of eight and warehouse B describe how the session is organised, not a condition.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-013",
+          "docId": "m1-d06",
+          "prompt": "Que doivent faire les employés de nuit ?",
+          "options": [
+            "S’inscrire avant les autres employés.",
+            "Suivre la formation pendant la journée.",
+            "Contacter directement Nadia Ferland par courriel.",
+            "Attendre les informations de leur responsable."
+          ],
+          "answer": 3,
+          "explain": "“Les employés de nuit recevront un horaire adapté de la part de leur chef d’équipe.” They will receive their schedule from their team leader (“responsable”).",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-014",
+          "docId": "m1-d07",
+          "prompt": "Selon l’article, pourquoi est-il utile de planifier les repas ?",
+          "options": [
+            "Pour manger plus sainement en famille chaque semaine.",
+            "Pour profiter de toutes les promotions.",
+            "Pour éviter les achats imprévus et le gaspillage.",
+            "Pour pouvoir acheter de plus grands formats."
+          ],
+          "answer": 2,
+          "explain": "Two reasons are given: “sans liste, on achète presque toujours plus que prévu” and planning “permet aussi d’utiliser les restes au lieu de les jeter”. Healthy eating is not mentioned, and the article warns against promotions and large formats.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-015",
+          "docId": "m1-d07",
+          "prompt": "Que dit l’article au sujet des grands formats ?",
+          "options": [
+            "Ils sont toujours plus économiques que les petits formats.",
+            "Il faut absolument les éviter.",
+            "Ils sont vendus à prix réduit.",
+            "Ils ne permettent pas forcément d’économiser."
+          ],
+          "answer": 3,
+          "explain": "“Les grands formats ne sont pas toujours les plus avantageux.” This means “not necessarily” cheaper — neither “always” cheaper nor to be avoided at all costs.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-016",
+          "docId": "m1-d07",
+          "prompt": "Que pense Mme Brassard des promotions ?",
+          "options": [
+            "Elles n’aident que si le produit est vraiment utile.",
+            "Il faut en profiter le plus souvent possible pour économiser.",
+            "Elles sont toujours trompeuses.",
+            "Elles concernent surtout les fruits et légumes."
+          ],
+          "answer": 0,
+          "explain": "“Ce n’est une économie que si on en avait vraiment besoin.” She does not say promotions are always misleading — only that they help when the product is needed. Reduced prices on “moches” produce are a separate tip.",
+          "microSkills": [
+            "opinion-fact",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-017",
+          "docId": "m1-d08",
+          "prompt": "Qui peut recevoir un composteur individuel ?",
+          "options": [
+            "Tous les habitants de la commune.",
+            "Les foyers qui ont un jardin.",
+            "Les habitants d’un appartement.",
+            "Seulement les personnes de plus de 75 ans."
+          ],
+          "answer": 1,
+          "explain": "“Un composteur individuel […] à la disposition des foyers qui possèdent un jardin.” Flat dwellers use collective composters; people over 75 can only get theirs delivered.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-018",
+          "docId": "m1-d08",
+          "prompt": "Que faut-il apporter pour retirer son composteur ?",
+          "options": [
+            "Le courrier de la mairie.",
+            "La carte des composteurs collectifs.",
+            "Une pièce d’identité.",
+            "Un document prouvant son adresse."
+          ],
+          "answer": 3,
+          "explain": "“Merci de vous munir d’un justificatif de domicile” = a proof of address. An ID card (“pièce d’identité”) is a different document.",
+          "microSkills": [
+            "detail",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-019",
+          "docId": "m1-d09",
+          "prompt": "Quelle affirmation correspond à ce poste ?",
+          "options": [
+            "Il est offert toute l’année.",
+            "Il exige une expérience en fromagerie.",
+            "Il faut travailler le samedi et le dimanche.",
+            "Il est réservé aux personnes qui parlent anglais et français."
+          ],
+          "answer": 2,
+          "explain": "“Être disponible les fins de semaine.” The job is for summer only (“de juin à septembre”), “aucune expérience […] n’est exigée”, and English is only “un atout” (an asset), not a requirement.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-020",
+          "docId": "m1-d09",
+          "prompt": "Comment se passera la sélection des candidats ?",
+          "options": [
+            "Par une journée de travail payée.",
+            "Par un entretien téléphonique avec la propriétaire.",
+            "Par un test d’anglais.",
+            "Par une dégustation de fromages."
+          ],
+          "answer": 0,
+          "explain": "“Les candidats retenus seront invités à une journée d’essai rémunérée” — a paid trial day.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-021",
+          "docId": "m1-d10",
+          "prompt": "Que montre le témoignage de Paul Achour ?",
+          "options": [
+            "Son commerce a dû fermer, comme ceux de plusieurs de ses voisins.",
+            "Sa clientèle a diminué et se concentre sur quelques jours.",
+            "Il sert désormais plus de repas le soir.",
+            "Il a déménagé son comptoir dans un quartier plus animé."
+          ],
+          "answer": 1,
+          "explain": "“Je servais 120 repas par jour. Aujourd’hui, j’en sers à peine 70, et presque tous du mardi au jeudi.” It is his neighbours who closed (“plusieurs de ses voisins ont déjà fermé”), not him.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-022",
+          "docId": "m1-d10",
+          "prompt": "Pourquoi les promoteurs se montrent-ils prudents ?",
+          "options": [
+            "La ville refuse d’accorder des permis pour ce type de projet.",
+            "Les gens refusent de vivre au centre-ville.",
+            "Ces projets coûtent cher et sont complexes.",
+            "Les bureaux seront bientôt de nouveau occupés."
+          ],
+          "answer": 2,
+          "explain": "“Transformer une tour de bureaux coûte souvent plus cher que construire du neuf : il faut revoir la plomberie, percer des fenêtres […]” The city actually supports these projects (“un chantier qu’elle juge prioritaire”).",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-023",
+          "docId": "m1-d10",
+          "prompt": "Quelle idée résume le mieux la conclusion de l’article ?",
+          "options": [
+            "Il faut imaginer une nouvelle vocation pour le centre-ville.",
+            "Le centre-ville retrouvera bientôt son animation d’autrefois.",
+            "Le télétravail va disparaître progressivement.",
+            "Les employeurs doivent imposer le retour au bureau."
+          ],
+          "answer": 0,
+          "explain": "“La question n’est donc plus de savoir si le centre-ville redeviendra comme avant, mais ce qu’il pourrait devenir.” The other options contradict the article (employees want to keep remote work; employers gave up imposing presence).",
+          "microSkills": [
+            "main-idea",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-024",
+          "docId": "m1-d11",
+          "prompt": "Quelle est la position de Samir.L ?",
+          "options": [
+            "Il souhaite une interdiction encore plus stricte.",
+            "Il pense que les jeunes n’ont pas besoin de téléphone.",
+            "Il approuve entièrement la décision de l’école.",
+            "Il propose une règle plus souple."
+          ],
+          "answer": 3,
+          "explain": "“L’interdiction totale me semble excessive […] Pourquoi ne pas autoriser le téléphone à l’heure du dîner et l’interdire seulement en classe ?” He suggests a less strict rule.",
+          "microSkills": [
+            "opinion-fact",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-025",
+          "docId": "m1-d11",
+          "prompt": "Selon Prof_Gagnon, pourquoi les récréations sont-elles plus bruyantes ?",
+          "options": [
+            "Les élèves sont plus nerveux sans téléphone.",
+            "La surveillance a diminué.",
+            "Les élèves échangent et jouent davantage ensemble.",
+            "Les élèves protestent bruyamment contre la nouvelle règle."
+          ],
+          "answer": 2,
+          "explain": "“Les récréations sont plus bruyantes […] mais c’est parce que les jeunes se parlent et jouent ensemble.”",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-026",
+          "docId": "m1-d11",
+          "prompt": "Qu’est-ce qui agace Jeanne_17 ?",
+          "options": [
+            "L’interdiction l’empêche de bien dormir.",
+            "L’école ne fournit pas assez de casiers pour ranger les téléphones.",
+            "Ses parents lui confisquent son téléphone le soir.",
+            "Les adultes, eux, utilisent leur téléphone à l’école."
+          ],
+          "answer": 3,
+          "explain": "“Ce qui m’énerve, c’est que les adultes, eux, l’utilisent partout dans l’école.” She actually says she is “moins fatiguée”, so the rule has not hurt her sleep.",
+          "microSkills": [
+            "detail",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-027",
+          "docId": "m1-d12",
+          "prompt": "Pourquoi les visiteurs sont-ils invités à participer à la réparation ?",
+          "options": [
+            "Parce que les bénévoles ne sont pas assez nombreux.",
+            "Pour qu’ils apprennent, sans concurrencer les artisans.",
+            "Pour réduire le coût des pièces de rechange à leur charge.",
+            "Parce que l’assurance de l’association l’exige."
+          ],
+          "answer": 1,
+          "explain": "“Je ne voulais pas créer un atelier de dépannage gratuit qui ferait concurrence aux artisans du coin […] L’idée, c’est que les gens comprennent comment leurs objets fonctionnent.”",
+          "microSkills": [
+            "intention",
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-028",
+          "docId": "m1-d12",
+          "prompt": "D’après la bénévole, qu’est-ce qui rend certaines réparations impossibles ?",
+          "options": [
+            "Le manque de formation des bénévoles.",
+            "Le prix trop élevé des outils.",
+            "La conception même de certains appareils.",
+            "Le refus des propriétaires de payer les pièces."
+          ],
+          "answer": 2,
+          "explain": "“Ce n’est pas une question de compétence, c’est la manière dont les objets sont conçus.” She explicitly rules out lack of skill.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-029",
+          "docId": "m1-d13",
+          "prompt": "Selon le maire, quel est le but de la nouvelle mesure ?",
+          "options": [
+            "Réduire le nombre de commerces.",
+            "Mieux accueillir les visiteurs.",
+            "Augmenter les recettes de la commune.",
+            "Interdire le tourisme en août."
+          ],
+          "answer": 1,
+          "explain": "“Il ne s’agit pas de faire fuir les visiteurs, mais de les accueillir dans de bonnes conditions.” Increasing revenue is never mentioned as an aim.",
+          "microSkills": [
+            "intention",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-030",
+          "docId": "m1-d13",
+          "prompt": "Sur quel point tout le monde est-il d’accord ?",
+          "options": [
+            "La mesure va faire fuir les clients.",
+            "Le village a déjà perdu son charme.",
+            "Les retombées économiques sont décevantes.",
+            "Personne ne s’attendait à un tel succès."
+          ],
+          "answer": 3,
+          "explain": "“Tous s’accordent sur un point : personne n’avait prévu un tel engouement.” The impact on customers divides the shopkeepers, and the loss of charm is only a future risk for some of them.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-031",
+          "docId": "m1-d14",
+          "prompt": "Quelle est la position de l’éditorialiste sur les palmarès ?",
+          "options": [
+            "Il faut les interdire, car ils sont injustes envers les écoles de quartier.",
+            "Utiles mais incomplets, ils devraient être enrichis.",
+            "Ils reflètent fidèlement la qualité des écoles.",
+            "Ils n’ont aucune influence sur le choix des familles."
+          ],
+          "answer": 1,
+          "explain": "“On aurait tort de balayer ces classements d’un revers de main […] Faut-il pour autant interdire ces palmarès ? Ce serait illusoire […] Il serait plus utile de les compléter.”",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-032",
+          "docId": "m1-d14",
+          "prompt": "Que cherche à illustrer l’image des deux coureurs ?",
+          "options": [
+            "Les élèves des écoles sélectives apprennent plus vite que les autres.",
+            "La compétition entre écoles est saine.",
+            "Les écoles ne sont pas comparées dans des conditions égales.",
+            "Les examens sont trop difficiles pour certains élèves."
+          ],
+          "answer": 2,
+          "explain": "A selective school “obtiendra mécaniquement de meilleurs résultats”: comparing it to a neighbourhood school is like a race where one runner “part avec vingt mètres d’avance” — an unequal starting point.",
+          "microSkills": [
+            "inference",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-033",
+          "docId": "m1-d14",
+          "prompt": "Que veut dire l’auteur par « La photographie devient une prophétie » ?",
+          "options": [
+            "Le classement finit par aggraver la situation qu’il décrit.",
+            "Le classement permet de prévoir la réussite de chaque élève.",
+            "Les écoles mal classées sont condamnées à fermer.",
+            "Les journalistes inventent les résultats des écoles."
+          ],
+          "answer": 0,
+          "explain": "“Le classement finit par produire ce qu’il prétend seulement décrire”: families leave low-ranked schools, which then “glissent encore plus bas l’année suivante”. A snapshot turns into a self-fulfilling prophecy.",
+          "microSkills": [
+            "inference",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-034",
+          "docId": "m1-d15",
+          "prompt": "Selon le critique, quel est le principal intérêt du livre ?",
+          "options": [
+            "Sa thèse totalement inédite.",
+            "Son analyse de ce que l’on perd en évitant les détours.",
+            "Ses propositions concrètes et faciles à appliquer.",
+            "Sa démonstration convaincante des dangers de la vitesse."
+          ],
+          "answer": 1,
+          "explain": "“Ce qui fait l’intérêt du livre, c’est moins sa critique de la vitesse que son analyse de ce que nous perdons en supprimant les détours.” The thesis “n’est pas neuve”, and the proposals are judged “plus vague[s]”.",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-035",
+          "docId": "m1-d15",
+          "prompt": "Quel reproche le critique adresse-t-il à l’autrice ?",
+          "options": [
+            "Son style est difficile à suivre.",
+            "Elle néglige la question de l’apprentissage.",
+            "Elle présente comme nouvelle une idée que d’autres ont déjà défendue.",
+            "Elle néglige ceux qui n’ont pas le loisir de ralentir."
+          ],
+          "answer": 3,
+          "explain": "“[Flâner] suppose de disposer de temps libre, ce qui n’est pas donné à tout le monde […] L’autrice effleure cette objection sans vraiment y répondre.” The style is “limpide”, the pages on learning are praised, and she openly “reconnaît” that the thesis is not new.",
+          "microSkills": [
+            "opinion-fact",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-036",
+          "docId": "m1-d15",
+          "prompt": "Quel est le ton du dernier paragraphe ?",
+          "options": [
+            "Enthousiaste, sans aucune réserve.",
+            "Ironique et méprisant.",
+            "Mesuré, avec une pointe d’humour.",
+            "Franchement négatif."
+          ],
+          "answer": 2,
+          "explain": "“Un livre stimulant […] qui a le mérite de nous faire ralentir… au moins le temps de sa lecture. Ce n’est déjà pas si mal.” Positive but limited praise (“au moins”, “pas si mal”), with a light joke — not unreserved, not contemptuous.",
+          "microSkills": [
+            "opinion-fact",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-037",
+          "docId": "m1-d16",
+          "prompt": "Que disent les études sur l’« enfermement », selon l’article ?",
+          "options": [
+            "Leurs résultats sont nuancés, voire divergents.",
+            "Elles le confirment toutes de façon claire et unanime.",
+            "Elles prouvent qu’il n’existe pas.",
+            "Elles n’ont pas encore été réalisées."
+          ],
+          "answer": 0,
+          "explain": "“Les études disponibles invitent à la nuance. Certaines montrent que […] davantage d’artistes différents […] ; d’autres, que cette diversité reste superficielle.” They point in different directions.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-038",
+          "docId": "m1-d16",
+          "prompt": "Selon l’auteur, pourquoi les artistes débutants sont-ils désavantagés ?",
+          "options": [
+            "Les algorithmes les écartent volontairement des recommandations.",
+            "Ils fournissent moins de données aux algorithmes.",
+            "Les plateformes leur font payer leur visibilité.",
+            "Le public refuse la nouveauté."
+          ],
+          "answer": 1,
+          "explain": "“Un artiste débutant, sans historique d’écoute, a donc moins de chances d’être proposé.” The article insists “l’algorithme ne censure personne”, so there is no deliberate exclusion.",
+          "microSkills": [
+            "detail",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-039",
+          "docId": "m1-d17",
+          "prompt": "Qu’est-ce qui inquiète principalement l’autrice ?",
+          "options": [
+            "L’usage de l’anglais avec les clients étrangers.",
+            "La présence d’emprunts dans la langue française.",
+            "L’abandon de mots français pourtant disponibles.",
+            "L’absence d’une loi qui protégerait le français au travail."
+          ],
+          "answer": 2,
+          "explain": "“Ce qui m’inquiète, c’est le glissement par lequel des mots français parfaitement disponibles […] sont abandonnés.” She accepts English with clients and borrowings in general, and “ne réclame ni loi ni amende”.",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m1-040",
+          "docId": "m1-d17",
+          "prompt": "Quel effet de ce jargon l’autrice souligne-t-elle ?",
+          "options": [
+            "Il facilite l’intégration des nouveaux arrivants.",
+            "Il crée une forme d’exclusion entre collègues.",
+            "Il rend les réunions plus efficaces.",
+            "Il fait passer les jeunes employés pour moins compétents."
+          ],
+          "answer": 1,
+          "explain": "“Celui qui l’ignore — souvent un collègue plus âgé, ou un nouvel arrivant […] — se sent mis à l’écart.” It is the opposite of helping newcomers, and those who master the jargon “passe[nt] pour compétent[s]”.",
+          "microSkills": [
+            "inference",
+            "detail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tef-ce-m2",
+      "title": "Full mock reading test 2",
+      "level": "a2–c1",
+      "minutes": 60,
+      "mock": true,
+      "docs": [
+        {
+          "id": "m2-d01",
+          "type": "affiche",
+          "title": "Marché des producteurs",
+          "fr": "MARCHÉ DES PRODUCTEURS — Place de l'Église, Val-Fleury\n\nTous les samedis, de mai à octobre, de 8 h à 13 h.\n\nFruits et légumes de saison, fromages, miel, pain au levain.\n\nNOUVEAU cette année : le premier samedi du mois, atelier de cuisine gratuit pour les enfants de 6 à 12 ans (inscription au kiosque d'accueil).\n\nApportez vos sacs : les sacs en plastique ne sont plus distribués.\nStationnement gratuit derrière la mairie."
+        },
+        {
+          "id": "m2-d02",
+          "type": "annonce",
+          "title": "Chat perdu",
+          "fr": "PERDU — Chat gris nommé Pistache\n\nDisparu le mardi 12 près du parc des Ormeaux. Il porte un collier rouge, mais il n'a pas de puce électronique.\n\nPistache est très peureux : n'essayez pas de l'attraper, il risquerait de s'enfuir. Appelez-nous plutôt et dites-nous où vous l'avez vu.\n\nRécompense de 100 $ à la personne qui nous aidera à le retrouver.\n\nFamille Bélanger — 514 555-0187"
+        },
+        {
+          "id": "m2-d03",
+          "type": "courriel",
+          "title": "Sortie à la ferme jeudi",
+          "fr": "De : Garderie Les Petits Pas\nÀ : Parents du groupe des Hiboux\nObjet : Sortie à la ferme jeudi\n\nBonjour chers parents,\n\nJeudi prochain, le groupe des Hiboux visitera la ferme Beaulieu. Le départ en autobus est prévu à 9 h ; merci d'arriver à la garderie au plus tard à 8 h 45. Le retour est prévu vers 15 h.\n\nLe dîner sera offert par la ferme. Par contre, votre enfant devra porter des bottes de pluie et des vêtements qui peuvent se salir.\n\nSi vous ne souhaitez pas que votre enfant participe à la sortie, merci de nous prévenir avant lundi.\n\nL'équipe des Petits Pas"
+        },
+        {
+          "id": "m2-d04",
+          "type": "publicité",
+          "title": "Roue Libre — atelier vélo",
+          "fr": "ROUE LIBRE — Atelier vélo\n\nLe printemps arrive : votre vélo est-il prêt ?\n\nMise au point complète : 79 $\n(réglage des freins et des vitesses, nettoyage de la chaîne, vérification des pneus)\n\nRéservez avant le 15 avril et obtenez 15 % de rabais !\n\nVotre vélo est prêt en 48 heures.\nPièces de rechange non incluses.\n\nOuvert du mardi au samedi, de 10 h à 18 h.\nPrise de rendez-vous en ligne seulement."
+        },
+        {
+          "id": "m2-d05",
+          "type": "affiche",
+          "title": "Musée des arts de Clairval",
+          "fr": "MUSÉE DES ARTS DE CLAIRVAL\n\nBienvenue !\n\nLes photos sans flash sont autorisées dans les salles permanentes. Dans l'exposition temporaire « Lumières du Nord », toute photo est interdite.\n\nLes sacs à dos doivent être laissés au vestiaire (gratuit), au rez-de-chaussée.\n\nVisite guidée gratuite tous les jours à 14 h. Rendez-vous devant la billetterie."
+        },
+        {
+          "id": "m2-d06",
+          "type": "horaire",
+          "title": "Traversier Anse-Bleue – Île-Verdure",
+          "fr": "TRAVERSIER ANSE-BLEUE ↔ ÎLE-VERDURE\nHoraire d'automne (du 1er septembre au 31 octobre)\n\nDéparts d'Anse-Bleue : 7 h – 10 h – 13 h – 16 h – 19 h\nDéparts d'Île-Verdure : 7 h 45 – 10 h 45 – 13 h 45 – 16 h 45 – 19 h 45\n\nDurée de la traversée : 30 minutes.\nLes départs de 19 h et de 19 h 45 n'ont pas lieu le dimanche.\n\nPassagers à pied : gratuit. Véhicule : 12 $.\nAvec un véhicule, présentez-vous 20 minutes avant le départ."
+        },
+        {
+          "id": "m2-d07",
+          "type": "courriel",
+          "title": "Rénovation des balcons",
+          "fr": "De : Gestion immobilière Cormier\nÀ : Locataires du 1250, avenue des Peupliers\nObjet : Travaux de rénovation des balcons\n\nBonjour,\n\nNous vous informons que les balcons de l'immeuble seront rénovés du 6 au 24 mai. Les travaux se feront par côté : la façade avant la première semaine, le côté cour les deux semaines suivantes.\n\nPendant cette période, l'accès aux balcons sera interdit pour des raisons de sécurité. Nous vous demandons de retirer tous vos objets (plantes, meubles, barbecues) avant le 3 mai. Les objets laissés sur les balcons seront déplacés par l'entreprise, qui ne pourra pas être tenue responsable des dommages éventuels.\n\nLes ouvriers travailleront de 8 h à 17 h, du lundi au vendredi. Le bruit pourrait être important certains jours ; nous nous excusons à l'avance pour ce dérangement.\n\nSi vous avez besoin d'aide pour déplacer des objets lourds, notre concierge, M. Tremblay, est disponible sur rendez-vous.\n\nNous vous remercions de votre compréhension.\n\nLa direction"
+        },
+        {
+          "id": "m2-d08",
+          "type": "article",
+          "title": "Dans le Haut-Vallon, l’autostop s’organise",
+          "fr": "Dans le Haut-Vallon, territoire rural de vingt communes, il n'y a ni train ni autobus régulier. Pour aller travailler, faire ses courses ou se rendre chez le médecin, la voiture est presque indispensable. Mais tout le monde n'en a pas : jeunes sans permis, personnes âgées, foyers aux revenus modestes.\n\nDepuis un an, la communauté de communes expérimente une solution originale : des « arrêts de covoiturage » installés à l'entrée de chaque village. Le principe est simple. La personne qui cherche un trajet se place sous le panneau et indique sa destination sur une ardoise. Les conducteurs inscrits au service, reconnaissables à un autocollant sur leur pare-brise, peuvent s'arrêter pour la prendre.\n\n« Nous voulions un système qui fonctionne même sans téléphone intelligent », explique Sandrine Mallet, chargée de mobilité. Une application existe toutefois pour ceux qui préfèrent réserver leur trajet à l'avance.\n\nLe bilan est encourageant mais modeste : environ 300 trajets par mois. Les passagers saluent la convivialité du système, mais regrettent des temps d'attente parfois longs en milieu de journée, quand la circulation est faible. Pour inciter davantage de conducteurs à s'inscrire, la collectivité leur verse désormais une petite indemnité pour chaque passager transporté."
+        },
+        {
+          "id": "m2-d09",
+          "type": "annonce",
+          "title": "Festival des contes de Rivebelle",
+          "fr": "Le Festival des contes de Rivebelle recrute des bénévoles !\n\nDu 8 au 11 août, notre petit festival accueillera des conteurs et des spectateurs de partout au Québec. Pour que la fête soit réussie, nous cherchons une quarantaine de bénévoles.\n\nPostes offerts : accueil du public, billetterie, installation des chaises, service au café du festival.\n\nCe que nous demandons : être disponible pour au moins deux quarts de travail de quatre heures pendant le festival et participer à la séance d'information du 1er août (en ligne, une heure).\n\nCe que nous offrons : un t-shirt du festival, un repas par quart de travail et un laissez-passer pour tous les spectacles pendant vos heures libres.\n\nAucune expérience nécessaire. Les jeunes de 16 et 17 ans sont les bienvenus avec l'autorisation d'un parent.\n\nInscription : benevoles@contesrivebelle.exemple.ca"
+        },
+        {
+          "id": "m2-d10",
+          "type": "lettre",
+          "title": "Réponse du service relations clients",
+          "fr": "Compagnie ferroviaire Océane\nService relations clients\n\nMadame Lefort,\n\nNous avons bien reçu votre courrier du 3 février concernant le retard de 2 h 10 de votre train Nantes–Bordeaux du 28 janvier. Nous vous prions d'accepter nos excuses pour ce désagrément, causé par un incident technique sur la voie.\n\nConformément à nos conditions générales, un retard de plus de deux heures donne droit au remboursement de 50 % du prix du billet. Vous trouverez donc ci-joint un bon d'achat de 34 €, utilisable pendant un an sur l'ensemble de nos lignes.\n\nVous indiquez également avoir manqué un rendez-vous professionnel. Nous comprenons votre mécontentement ; toutefois, nous ne sommes pas en mesure d'indemniser les conséquences indirectes d'un retard.\n\nSi vous préférez un remboursement par virement plutôt qu'un bon d'achat, il vous suffit de nous en faire la demande dans un délai de deux mois, en nous indiquant vos coordonnées bancaires.\n\nNous espérons vous accueillir de nouveau prochainement à bord de nos trains.\n\nLe service relations clients"
+        },
+        {
+          "id": "m2-d11",
+          "type": "article",
+          "title": "Lac-Morency : attirer des travailleurs, et surtout les garder",
+          "fr": "À Lac-Morency, petite ville industrielle de 9 000 habitants, les affiches « On embauche » font désormais partie du paysage. L'usine de portes et fenêtres, principal employeur de la région, cherche à pourvoir une soixantaine de postes. Le restaurant du centre a réduit ses heures d'ouverture faute de cuisiniers, et la résidence pour aînés fonctionne avec un personnel épuisé.\n\nPour faire face à cette pénurie, plusieurs entreprises se tournent vers le recrutement international. L'usine a ainsi accueilli l'an dernier une vingtaine de travailleurs venus d'Amérique latine et d'Afrique de l'Ouest. « Sans eux, nous aurions dû refuser des contrats », reconnaît le directeur des ressources humaines, Marc-André Pelletier.\n\nMais attirer des travailleurs ne suffit pas : encore faut-il qu'ils restent. Et c'est là que les difficultés commencent. Le marché locatif de Lac-Morency est presque saturé, et plusieurs nouveaux arrivants ont dû partager des logements exigus pendant des mois. L'absence de transport collectif complique aussi les déplacements de ceux qui n'ont pas encore de voiture.\n\nUn organisme d'accueil, créé par des bénévoles il y a deux ans, tente de combler ces manques : cours de français le soir, jumelage avec des familles de la région, aide pour les démarches administratives. Sa coordonnatrice, Fatou Diallo, arrivée elle-même il y a huit ans, insiste sur la dimension humaine : « Un emploi fait venir les gens. Ce sont les liens qu'ils tissent qui les font rester. »\n\nLa municipalité a récemment annoncé la construction de quarante logements abordables. Une bonne nouvelle, juge Mme Diallo, mais qui arrive tard : certains travailleurs, découragés, sont déjà repartis vers les grandes villes."
+        },
+        {
+          "id": "m2-d12",
+          "type": "forum",
+          "title": "Supprimer les devoirs à l’école primaire ?",
+          "fr": "Claire_M (mère de deux enfants) :\nL'école de mes enfants a décidé de supprimer les devoirs écrits jusqu'au CM2. Seule la lecture du soir est maintenue. Je suis partagée : les soirées sont plus calmes, mais j'ai peur qu'ils prennent du retard. Vos avis ?\n\nThomas_instit :\nEn tant qu'instituteur, je soutiens cette décision. Les devoirs creusent les inégalités : certains enfants sont aidés par des parents disponibles, d'autres font leurs exercices seuls sur un coin de table, ou pas du tout. Résultat : l'enseignant corrige surtout le niveau d'aide reçu à la maison. Je préfère que les exercices se fassent en classe, où je peux accompagner chacun.\n\nBernadette64 :\nJe suis grand-mère et j'ai été élevée avec des devoirs tous les soirs. Je ne m'en porte pas plus mal ! Travailler seul, s'organiser, ça s'apprend jeune. Sans devoirs, le choc risque d'être rude au collège.\n\nThomas_instit :\n@Bernadette64 L'autonomie est un vrai enjeu, je vous l'accorde. Mais elle peut aussi se travailler en classe, par exemple avec des moments de travail individuel. Et la lecture quotidienne, que l'école de Claire conserve, est justement un excellent exercice d'autonomie.\n\nKarim_B :\nCe qui compte, à mon avis, c'est moins la quantité que le sens. Dix minutes de révision ciblée valent mieux qu'une heure de fiches recopiées. Le débat « devoirs ou pas de devoirs » me paraît un peu caricatural."
+        },
+        {
+          "id": "m2-d13",
+          "type": "article",
+          "title": "Théâtre — « La Maison d’à côté » : un huis clos qui manque d’air",
+          "fr": "Pour sa première mise en scène, la comédienne Léa Rinaldi a choisi un texte ambitieux : trois sœurs se retrouvent dans la maison de leur enfance, la veille de sa vente, et règlent de vieux comptes. Le sujet, mille fois traité, pouvait encore émouvoir ; il fallait pour cela un regard neuf.\n\nCe regard, on le cherche longtemps. La mise en scène, très sage, installe les trois actrices autour d'une table pendant la quasi-totalité de la pièce. Les dialogues, souvent brillants, finissent par tourner en rond, et l'on devine trop tôt quel secret de famille éclatera à la fin.\n\nIl serait pourtant injuste de s'en tenir là. Les trois interprètes sont remarquables, en particulier Nadia Aubert, bouleversante dans le rôle de la cadette restée seule auprès de leur mère malade. Dans la dernière scène, quand elle se tait enfin, son silence en dit plus que les deux heures qui précèdent.\n\nOn sort donc partagé de ce spectacle : déçu par une construction trop prévisible, mais convaincu qu'une metteuse en scène capable de diriger ainsi ses actrices nous réserve de meilleures surprises.\n\nAu Théâtre de la Grange jusqu'au 14 mars."
+        },
+        {
+          "id": "m2-d14",
+          "type": "article",
+          "title": "Des potagers au-dessus des toits",
+          "fr": "Sur le toit d'un ancien entrepôt, à quinze mètres au-dessus de la circulation, poussent tomates, salades et fines herbes. Depuis trois ans, l'entreprise Les Toits nourriciers cultive ainsi 2 000 mètres carrés en plein centre-ville et livre ses récoltes à une trentaine de restaurants du quartier.\n\nPour ses fondateurs, l'intérêt est d'abord la proximité : « Nos légumes sont cueillis le matin et servis le soir même, à quelques rues d'ici », souligne Romain Bessière, cofondateur. Les toits cultivés présentent aussi des avantages pour les bâtiments : ils protègent la toiture et rafraîchissent les étages supérieurs en été.\n\nFaut-il pour autant y voir l'avenir de l'alimentation urbaine ? Les spécialistes restent prudents. Les surfaces disponibles sont limitées, beaucoup de toits ne supportent pas le poids de la terre et de l'eau, et les coûts d'installation sont élevés. « L'agriculture sur les toits ne nourrira jamais une ville entière, résume une agronome. Sa force est ailleurs : elle rapproche les citadins de la production alimentaire et leur fait redécouvrir le rythme des saisons. »\n\nRomain Bessière ne dit pas autre chose. Son entreprise organise d'ailleurs des visites pour les écoles, qui représentent aujourd'hui une part non négligeable de ses revenus."
+        },
+        {
+          "id": "m2-d15",
+          "type": "article",
+          "title": "Éditorial — Transports gratuits : la bonne réponse à la mauvaise question ?",
+          "fr": "L'idée séduit de plus en plus de villes : rendre les autobus et les tramways gratuits pour tous. Elle a le charme des solutions simples. Plus de billets, plus de contrôleurs, plus de fraude, et la promesse d'un service public enfin accessible à chacun. Qui pourrait s'y opposer ?\n\nPourtant, les expériences menées ici et là invitent à tempérer l'enthousiasme. Là où la gratuité a été instaurée, la fréquentation augmente presque toujours. Mais les nouveaux usagers ne sont pas toujours ceux que l'on espérait : une partie d'entre eux marchaient ou circulaient à vélo auparavant. Les automobilistes, eux, ne renoncent à leur voiture que si le service est assez rapide et fréquent pour rivaliser avec elle. Or c'est précisément ce que la gratuité risque de compromettre.\n\nCar un réseau a un coût. Les recettes des billets, même modestes, financent une partie de son fonctionnement. Les supprimer, c'est demander aux contribuables de compenser, ou renoncer à de nouveaux investissements. Une ville qui offre gratuitement un autobus toutes les trente minutes n'a pas forcément fait un cadeau à ses habitants ; elle leur a peut-être refusé l'autobus toutes les dix minutes qu'ils attendaient.\n\nCela ne signifie pas que le prix soit sans importance. Pour les ménages modestes, le coût d'un abonnement peut peser lourd, et une tarification solidaire — réduite, voire nulle, selon les revenus — répond à cette injustice de manière bien plus ciblée qu'une gratuité universelle, qui profite autant au cadre aisé qu'au travailleur précaire.\n\nLa vraie question n'est donc pas « combien coûte le billet ? », mais « le service répond-il aux besoins ? ». Un transport en commun réussi est d'abord fiable, fréquent et bien relié aux lieux où l'on vit et travaille. Lorsqu'il l'est, on accepte volontiers de payer pour l'emprunter. Lorsqu'il ne l'est pas, même gratuit, on continue de lui préférer sa voiture."
+        },
+        {
+          "id": "m2-d16",
+          "type": "article",
+          "title": "La nostalgie, un marché qui ne vieillit pas",
+          "fr": "Rééditions de jeux vidéo des années 1990, retour des disques vinyles, séries qui ressuscitent des héros d'il y a trente ans : la nostalgie se vend remarquablement bien. Les entreprises l'ont compris, et le passé est devenu un argument commercial comme un autre.\n\nComment expliquer cet engouement ? Les psychologues rappellent d'abord que la nostalgie n'est pas seulement une tristesse liée à ce qui est perdu. Elle remplit une fonction : en période d'incertitude, se tourner vers des souvenirs heureux rassure et renforce le sentiment de continuité de soi. Il n'est donc guère surprenant que le phénomène s'intensifie lorsque l'avenir paraît flou.\n\nMais la nostalgie commerciale a une particularité : elle ne vend pas le passé tel qu'il était, mais tel qu'on aime s'en souvenir. Le vinyle d'aujourd'hui est vendu avec un code de téléchargement ; le jeu « rétro » se joue sur un téléphone. On garde l'émotion et l'on retire les inconvénients. Ce passé recomposé n'a jamais existé, ce qui n'empêche personne de le regretter.\n\nPlus curieux encore, une partie des acheteurs n'a pas connu l'époque célébrée. De jeunes adultes collectionnent des appareils photo argentiques ou écoutent des cassettes qu'ils n'ont jamais eues enfants. Certains sociologues y voient une nostalgie « empruntée », nourrie par les images qui circulent sur les réseaux sociaux, et peut-être aussi une forme de lassitude face à un présent saturé d'écrans.\n\nFaut-il s'en inquiéter ? Pas nécessairement. Une culture qui recycle n'est pas forcément une culture qui stagne : bien des créations originales sont nées d'un dialogue avec le passé. Le risque apparaît lorsque l'industrie, par prudence, ne mise plus que sur des valeurs sûres, au point de laisser de moins en moins de place à l'inconnu."
+        },
+        {
+          "id": "m2-d17",
+          "type": "lettre",
+          "title": "Tribune — Le piège des indicateurs",
+          "fr": "Dans l'hôpital où je suis cadre infirmière, nous mesurons tout : le temps passé auprès de chaque patient, le nombre de lits occupés, la durée moyenne des séjours, le taux de satisfaction. Ces chiffres remontent chaque mois vers la direction, qui les compare à ceux des autres services.\n\nJe ne suis pas hostile à la mesure. Elle nous a permis de repérer des dysfonctionnements réels, comme des attentes excessives aux urgences la nuit. Mais j'observe depuis quelques années un phénomène inquiétant : l'indicateur, conçu pour éclairer le travail, finit par le remplacer. Quand la durée des séjours devient l'objectif, on est tenté de faire sortir un patient un jour plus tôt, quitte à le voir revenir la semaine suivante. Le chiffre s'améliore ; la situation du patient, non.\n\nCertains économistes résument ce travers par une formule : lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure. Ce que les tableaux de bord ne voient pas — l'écoute d'un patient angoissé, le temps pris pour expliquer un traitement à une famille — devient invisible, puis secondaire, et finit par disparaître des priorités.\n\nJe ne demande pas que l'on renonce aux chiffres. Je demande qu'on les interprète avec ceux qui font le travail, et qu'on accepte qu'une part essentielle de notre métier échappe à la mesure. Ce n'est pas un aveu de faiblesse ; c'est la condition pour que les indicateurs restent au service des soins, et non l'inverse."
+        },
+        {
+          "id": "m2-d18",
+          "type": "article",
+          "title": "Le bénévolat, une générosité à double tranchant",
+          "fr": "On ne dira jamais assez ce que nos sociétés doivent aux bénévoles. Banques alimentaires, clubs sportifs, accompagnement des personnes âgées, aide aux devoirs : des pans entiers de la vie collective reposent sur des personnes qui donnent leur temps sans rien attendre en retour. Les remercier est un devoir ; les interroger n'est pas une offense.\n\nCar la générosité a ses ambiguïtés. Lorsqu'une banque alimentaire tenue par des bénévoles devient le principal recours des familles d'un quartier, faut-il s'en réjouir ou s'en inquiéter ? Les deux, sans doute. S'en réjouir, parce que la solidarité est vivante. S'en inquiéter, parce que ce qui relevait autrefois de l'exception devient la norme, et que les pouvoirs publics peuvent être tentés de compter sur cette bonne volonté pour se dispenser d'agir.\n\nLes responsables associatifs le constatent : on leur demande de plus en plus, avec des moyens qui stagnent, et des bénévoles vieillissants s'épuisent à combler des besoins qui dépassent leurs forces. Le risque n'est pas que le bénévolat disparaisse, mais qu'il serve d'alibi.\n\nIl ne s'agit pas d'opposer l'engagement citoyen à l'action publique. L'un et l'autre ont leur place, et le bénévolat apporte ce qu'aucune administration ne peut offrir : la proximité, la souplesse, une relation d'égal à égal. Mais il ne peut être qu'un complément. Le jour où il devient un substitut, la générosité des uns finit par masquer les renoncements des autres."
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-ce-m2-001",
+          "docId": "m2-d01",
+          "prompt": "Quand l’atelier pour les enfants a-t-il lieu ?",
+          "options": [
+            "Tous les samedis matin.",
+            "Une fois par mois.",
+            "En mai seulement.",
+            "Le dimanche matin."
+          ],
+          "answer": 1,
+          "explain": "“Le premier samedi du mois, atelier de cuisine gratuit pour les enfants.” The market itself is every Saturday, but the workshop only once a month.",
+          "microSkills": [
+            "numbers-dates",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-002",
+          "docId": "m2-d01",
+          "prompt": "Que demande-t-on aux clients ?",
+          "options": [
+            "De payer le stationnement.",
+            "De réserver leurs produits à l’avance.",
+            "D’apporter leurs propres sacs.",
+            "D’arriver avant 8 h."
+          ],
+          "answer": 2,
+          "explain": "“Apportez vos sacs : les sacs en plastique ne sont plus distribués.” Parking is “gratuit”.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-003",
+          "docId": "m2-d02",
+          "prompt": "Que faut-il faire si on voit ce chat ?",
+          "options": [
+            "Téléphoner à ses propriétaires.",
+            "L’attraper et le garder chez soi.",
+            "L’amener chez le vétérinaire.",
+            "Faire lire sa puce électronique."
+          ],
+          "answer": 0,
+          "explain": "“N’essayez pas de l’attraper […] Appelez-nous plutôt.” The cat “n’a pas de puce électronique”.",
+          "microSkills": [
+            "detail",
+            "intention"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-004",
+          "docId": "m2-d03",
+          "prompt": "Que doivent prévoir les parents pour la sortie ?",
+          "options": [
+            "Le repas du midi.",
+            "Un billet d’autobus.",
+            "Une autorisation signée par un parent.",
+            "Des vêtements adaptés à la ferme."
+          ],
+          "answer": 3,
+          "explain": "“Votre enfant devra porter des bottes de pluie et des vêtements qui peuvent se salir.” Lunch is “offert par la ferme”, and parents only need to write if their child will NOT go.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-005",
+          "docId": "m2-d03",
+          "prompt": "À quelle heure, au plus tard, les enfants doivent-ils être à la garderie ?",
+          "options": [
+            "8 h 45",
+            "9 h",
+            "15 h",
+            "8 h"
+          ],
+          "answer": 0,
+          "explain": "“Merci d’arriver à la garderie au plus tard à 8 h 45.” 9 h is the bus departure and 15 h the return.",
+          "microSkills": [
+            "numbers-dates"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-006",
+          "docId": "m2-d04",
+          "prompt": "Comment peut-on obtenir une réduction ?",
+          "options": [
+            "En apportant ses propres pièces de rechange.",
+            "En prenant rendez-vous assez tôt.",
+            "En venant un mardi.",
+            "En payant sa mise au point en ligne."
+          ],
+          "answer": 1,
+          "explain": "“Réservez avant le 15 avril et obtenez 15 % de rabais !” Booking is done online, but paying online is not what gives the discount.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-007",
+          "docId": "m2-d04",
+          "prompt": "Qu’est-ce qui n’est pas compris dans le prix de 79 $ ?",
+          "options": [
+            "Le nettoyage de la chaîne.",
+            "Le réglage des freins.",
+            "La vérification des pneus.",
+            "Les pièces à remplacer."
+          ],
+          "answer": 3,
+          "explain": "“Pièces de rechange non incluses.” The three other services are listed inside the 79 $ tune-up.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-008",
+          "docId": "m2-d05",
+          "prompt": "Dans l’exposition « Lumières du Nord », il est interdit de…",
+          "options": [
+            "prendre des photos.",
+            "suivre un guide.",
+            "garder son manteau.",
+            "venir l’après-midi."
+          ],
+          "answer": 0,
+          "explain": "Photos “sont interdites dans l’exposition temporaire « Lumières du Nord »”. Photos without flash are allowed only in the permanent rooms.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-009",
+          "docId": "m2-d06",
+          "prompt": "Un dimanche, à quelle heure part le dernier traversier d’Île-Verdure ?",
+          "options": [
+            "13 h 45",
+            "16 h",
+            "16 h 45",
+            "19 h 45"
+          ],
+          "answer": 2,
+          "explain": "Departures from Île-Verdure end at 19 h 45, but “les départs de 19 h et de 19 h 45 n’ont pas lieu le dimanche”, so the last one is 16 h 45. 16 h is a departure from Anse-Bleue.",
+          "microSkills": [
+            "numbers-dates",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-010",
+          "docId": "m2-d06",
+          "prompt": "Que doivent faire les personnes qui voyagent en voiture ?",
+          "options": [
+            "Réserver leur place la veille.",
+            "Voyager seulement le matin.",
+            "Payer le même prix que les piétons.",
+            "Arriver en avance."
+          ],
+          "answer": 3,
+          "explain": "“Avec un véhicule, présentez-vous 20 minutes avant le départ.” Vehicles pay 12 $, while foot passengers travel free.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-011",
+          "docId": "m2-d07",
+          "prompt": "Quel est le but principal de ce courriel ?",
+          "options": [
+            "Inviter les locataires à une réunion sur les travaux.",
+            "Annoncer des travaux et donner des consignes.",
+            "Demander aux locataires de choisir les dates des travaux.",
+            "Demander aux locataires de payer une partie des réparations."
+          ],
+          "answer": 1,
+          "explain": "The email announces the renovation (“les balcons […] seront rénovés du 6 au 24 mai”) and gives instructions (“retirer tous vos objets […] avant le 3 mai”). The dates are already fixed; no meeting or payment is mentioned.",
+          "microSkills": [
+            "intention",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-012",
+          "docId": "m2-d07",
+          "prompt": "Que se passera-t-il si un locataire laisse son barbecue sur le balcon ?",
+          "options": [
+            "Il recevra une amende.",
+            "Le concierge le rangera au sous-sol jusqu’à la fin des travaux.",
+            "Les travaux seront retardés.",
+            "Il sera déplacé, sans garantie contre les dommages."
+          ],
+          "answer": 3,
+          "explain": "“Les objets laissés sur les balcons seront déplacés par l’entreprise, qui ne pourra pas être tenue responsable des dommages éventuels.”",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-013",
+          "docId": "m2-d07",
+          "prompt": "Que propose la gestion aux locataires ?",
+          "options": [
+            "Une baisse de loyer pendant toute la durée des travaux.",
+            "Un logement temporaire.",
+            "De l’aide pour déplacer des objets lourds.",
+            "Des travaux pendant la fin de semaine."
+          ],
+          "answer": 2,
+          "explain": "“Si vous avez besoin d’aide pour déplacer des objets lourds, notre concierge […] est disponible sur rendez-vous.” Work is “du lundi au vendredi”, not on weekends.",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-014",
+          "docId": "m2-d08",
+          "prompt": "Quel problème ce service cherche-t-il à résoudre ?",
+          "options": [
+            "L’isolement des habitants qui n’ont pas de voiture.",
+            "La pollution causée par les voitures dans les villages.",
+            "Les embouteillages à l’entrée des villages.",
+            "Le prix élevé de l’essence."
+          ],
+          "answer": 0,
+          "explain": "“Il n’y a ni train ni autobus régulier […] la voiture est presque indispensable. Mais tout le monde n’en a pas.” Pollution and fuel prices are not mentioned.",
+          "microSkills": [
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-015",
+          "docId": "m2-d08",
+          "prompt": "Pourquoi le service ne repose-t-il pas uniquement sur une application ?",
+          "options": [
+            "Pour rester accessible sans téléphone intelligent.",
+            "Parce que l’application coûte trop cher.",
+            "Parce que le réseau cellulaire ne fonctionne pas dans la région.",
+            "Pour mieux contrôler l’identité des conducteurs."
+          ],
+          "answer": 0,
+          "explain": "“Nous voulions un système qui fonctionne même sans téléphone intelligent.” The app exists only as an option for those who prefer booking ahead.",
+          "microSkills": [
+            "intention",
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-016",
+          "docId": "m2-d08",
+          "prompt": "De quoi les passagers se plaignent-ils ?",
+          "options": [
+            "Du manque d’amabilité des conducteurs.",
+            "Du prix du service.",
+            "D’attendre parfois longtemps.",
+            "De l’emplacement des panneaux."
+          ],
+          "answer": 2,
+          "explain": "Passengers “regrettent des temps d’attente parfois longs en milieu de journée”. They actually praise “la convivialité du système”.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-017",
+          "docId": "m2-d09",
+          "prompt": "Quel engagement minimum demande-t-on aux bénévoles ?",
+          "options": [
+            "Les quatre jours complets du festival.",
+            "Huit heures de bénévolat et une séance d’information.",
+            "Une expérience dans un autre festival.",
+            "Une disponibilité complète pendant tout le mois d’août."
+          ],
+          "answer": 1,
+          "explain": "“Au moins deux quarts de travail de quatre heures” (= 8 hours) “et participer à la séance d’information du 1er août”. “Aucune expérience nécessaire.”",
+          "microSkills": [
+            "numbers-dates",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-018",
+          "docId": "m2-d09",
+          "prompt": "Un jeune de 16 ans peut-il devenir bénévole ?",
+          "options": [
+            "Non, il faut être majeur.",
+            "Oui, sans condition.",
+            "Oui, si un parent est aussi bénévole.",
+            "Oui, avec la permission d’un parent."
+          ],
+          "answer": 3,
+          "explain": "“Les jeunes de 16 et 17 ans sont les bienvenus avec l’autorisation d’un parent.” The parent must give permission, not volunteer.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-019",
+          "docId": "m2-d10",
+          "prompt": "Qu’est-ce que la compagnie accorde à Mme Lefort ?",
+          "options": [
+            "Le remboursement total de son billet.",
+            "Une compensation financière pour son rendez-vous professionnel manqué.",
+            "La moitié du prix de son billet, sous forme de bon d’achat.",
+            "Un billet gratuit pour un prochain voyage."
+          ],
+          "answer": 2,
+          "explain": "“Un retard de plus de deux heures donne droit au remboursement de 50 % du prix du billet. Vous trouverez donc ci-joint un bon d’achat de 34 €.” The company refuses to compensate “les conséquences indirectes”, i.e. the missed appointment.",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-020",
+          "docId": "m2-d10",
+          "prompt": "Que peut faire Mme Lefort si elle ne veut pas de bon d’achat ?",
+          "options": [
+            "Demander un virement dans un délai de deux mois.",
+            "Échanger le bon dans une gare.",
+            "Utiliser le bon auprès d’une autre compagnie ferroviaire.",
+            "Contacter un avocat."
+          ],
+          "answer": 0,
+          "explain": "“Si vous préférez un remboursement par virement […] il vous suffit de nous en faire la demande dans un délai de deux mois.”",
+          "microSkills": [
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-021",
+          "docId": "m2-d11",
+          "prompt": "D’après l’article, qu’est-ce qui rend difficile l’installation durable des nouveaux travailleurs ?",
+          "options": [
+            "Le manque d’emplois dans la région.",
+            "Les salaires jugés trop bas à l’usine de portes et fenêtres.",
+            "L’hostilité des habitants.",
+            "Les conditions de logement et de transport."
+          ],
+          "answer": 3,
+          "explain": "“Attirer des travailleurs ne suffit pas : encore faut-il qu’ils restent. Et c’est là que les difficultés commencent. Le marché locatif […] est presque saturé […] L’absence de transport collectif complique aussi les déplacements.” Jobs are plentiful; wages and hostility are never mentioned.",
+          "microSkills": [
+            "main-idea",
+            "detail"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-022",
+          "docId": "m2-d11",
+          "prompt": "Que veut dire Fatou Diallo par sa phrase sur les liens ?",
+          "options": [
+            "Ce sont surtout les relations qui retiennent les gens.",
+            "Le travail compte plus que la vie sociale.",
+            "Les nouveaux arrivants doivent d’abord apprendre le français.",
+            "Les entreprises devraient organiser des fêtes pour leurs employés."
+          ],
+          "answer": 0,
+          "explain": "“Un emploi fait venir les gens. Ce sont les liens qu’ils tissent qui les font rester.” A job brings people, but relationships keep them.",
+          "microSkills": [
+            "inference",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-023",
+          "docId": "m2-d11",
+          "prompt": "Comment Mme Diallo juge-t-elle l’annonce de la municipalité ?",
+          "options": [
+            "Elle la trouve inutile.",
+            "Elle s’en réjouit, mais estime qu’elle arrive trop tard.",
+            "Elle la critique, car les logements prévus seront trop chers.",
+            "Elle pense qu’elle réglera tous les problèmes."
+          ],
+          "answer": 1,
+          "explain": "“Une bonne nouvelle, juge Mme Diallo, mais qui arrive tard : certains travailleurs […] sont déjà repartis.” The housing is described as “abordables” (affordable).",
+          "microSkills": [
+            "opinion-fact",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-024",
+          "docId": "m2-d12",
+          "prompt": "Quel est le principal argument de Thomas_instit ?",
+          "options": [
+            "Les devoirs fatiguent inutilement les enfants.",
+            "Les devoirs aggravent les inégalités entre élèves.",
+            "Les parents ne savent pas aider leurs enfants.",
+            "Les devoirs prennent trop de temps à corriger pour les enseignants."
+          ],
+          "answer": 1,
+          "explain": "“Les devoirs creusent les inégalités : certains enfants sont aidés par des parents disponibles, d’autres font leurs exercices seuls […] l’enseignant corrige surtout le niveau d’aide reçu à la maison.”",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-025",
+          "docId": "m2-d12",
+          "prompt": "Comment Thomas_instit répond-il à Bernadette64 ?",
+          "options": [
+            "Il lui donne en partie raison, puis nuance son propos.",
+            "Il rejette totalement son argument.",
+            "Il change d’avis et défend les devoirs.",
+            "Il lui reproche de ne pas connaître l’école d’aujourd’hui."
+          ],
+          "answer": 0,
+          "explain": "“L’autonomie est un vrai enjeu, je vous l’accorde. Mais elle peut aussi se travailler en classe.” He concedes the point and offers alternatives.",
+          "microSkills": [
+            "intention",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-026",
+          "docId": "m2-d12",
+          "prompt": "Quelle est la position de Karim_B ?",
+          "options": [
+            "Il faut supprimer tous les devoirs.",
+            "Une heure de devoirs par soir est nécessaire.",
+            "L’utilité des devoirs dépend surtout de leur nature.",
+            "Le débat sur les devoirs est inutile parce que la question est réglée."
+          ],
+          "answer": 2,
+          "explain": "“Ce qui compte […] c’est moins la quantité que le sens. Dix minutes de révision ciblée valent mieux qu’une heure de fiches recopiées.” He calls the yes/no debate “caricatural” because it is too simplistic, not because it is settled.",
+          "microSkills": [
+            "opinion-fact",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-027",
+          "docId": "m2-d13",
+          "prompt": "Que reproche le critique à la mise en scène ?",
+          "options": [
+            "Elle est trop audacieuse.",
+            "Elle déforme le texte original.",
+            "Elle multiplie les changements de décor.",
+            "Elle est trop sage et trop statique."
+          ],
+          "answer": 3,
+          "explain": "“La mise en scène, très sage, installe les trois actrices autour d’une table pendant la quasi-totalité de la pièce.” — a lack of originality and movement.",
+          "microSkills": [
+            "opinion-fact",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-028",
+          "docId": "m2-d13",
+          "prompt": "Quelle est l’impression générale du critique ?",
+          "options": [
+            "Un enthousiasme sans réserve pour le spectacle.",
+            "Un rejet complet de la pièce et des actrices.",
+            "Un avis mitigé, mais optimiste pour la suite.",
+            "Une indifférence polie envers la pièce."
+          ],
+          "answer": 2,
+          "explain": "“On sort donc partagé […] déçu par une construction trop prévisible, mais convaincu qu’une metteuse en scène capable de diriger ainsi ses actrices nous réserve de meilleures surprises.”",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-029",
+          "docId": "m2-d14",
+          "prompt": "Selon l’agronome, quel est le principal intérêt de l’agriculture sur les toits ?",
+          "options": [
+            "Nourrir toute la population urbaine.",
+            "Faire baisser le prix des légumes.",
+            "Remplacer peu à peu l’agriculture traditionnelle des campagnes.",
+            "Rapprocher les citadins de la production alimentaire."
+          ],
+          "answer": 3,
+          "explain": "“L’agriculture sur les toits ne nourrira jamais une ville entière […] Sa force est ailleurs : elle rapproche les citadins de la production alimentaire.”",
+          "microSkills": [
+            "detail",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-030",
+          "docId": "m2-d14",
+          "prompt": "Que comprend-on au sujet de Romain Bessière dans le dernier paragraphe ?",
+          "options": [
+            "Il conteste l’avis de l’agronome.",
+            "Il partage l’analyse de l’agronome.",
+            "Il cesse de livrer les restaurants.",
+            "Il veut agrandir ses surfaces cultivées."
+          ],
+          "answer": 1,
+          "explain": "“Romain Bessière ne dit pas autre chose” = he says the same thing, i.e. he agrees. The school visits illustrate the educational role the agronomist described.",
+          "microSkills": [
+            "inference",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-031",
+          "docId": "m2-d15",
+          "prompt": "Selon l’éditorialiste, quel est le principal risque de la gratuité ?",
+          "options": [
+            "Faire baisser la fréquentation.",
+            "Augmenter la fraude.",
+            "Priver le réseau des moyens de s’améliorer.",
+            "Rendre le service moins accessible aux ménages modestes."
+          ],
+          "answer": 2,
+          "explain": "“Les supprimer [les recettes], c’est demander aux contribuables de compenser, ou renoncer à de nouveaux investissements.” Ridership “augmente presque toujours”, and free transit eliminates fraud (“plus de fraude”).",
+          "microSkills": [
+            "main-idea",
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-032",
+          "docId": "m2-d15",
+          "prompt": "Que veut montrer l’exemple de l’autobus « toutes les trente minutes » ?",
+          "options": [
+            "La gratuité peut se payer par un service moins fréquent.",
+            "Les habitants préfèrent un service gratuit, même moins fréquent.",
+            "Les villes devraient supprimer les lignes peu utilisées.",
+            "Un autobus toutes les dix minutes est impossible à financer."
+          ],
+          "answer": 0,
+          "explain": "“Une ville qui offre gratuitement un autobus toutes les trente minutes […] leur a peut-être refusé l’autobus toutes les dix minutes qu’ils attendaient.” Free service may cost the frequency people really want.",
+          "microSkills": [
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-033",
+          "docId": "m2-d15",
+          "prompt": "En matière de prix, quelle solution l’auteur juge-t-il la plus juste ?",
+          "options": [
+            "La gratuité pour tous les usagers.",
+            "Des tarifs adaptés aux revenus des usagers.",
+            "Une hausse générale du prix des billets.",
+            "Le même tarif réduit pour tous, quels que soient les revenus."
+          ],
+          "answer": 1,
+          "explain": "“Une tarification solidaire — réduite, voire nulle, selon les revenus — répond à cette injustice de manière bien plus ciblée qu’une gratuité universelle.”",
+          "microSkills": [
+            "opinion-fact",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-034",
+          "docId": "m2-d16",
+          "prompt": "Selon les psychologues cités, quelle fonction remplit la nostalgie ?",
+          "options": [
+            "Elle permet d’oublier complètement le présent.",
+            "Elle pousse à acheter des objets coûteux.",
+            "Elle empêche de faire des projets.",
+            "Elle rassure dans les périodes d’incertitude."
+          ],
+          "answer": 3,
+          "explain": "“En période d’incertitude, se tourner vers des souvenirs heureux rassure et renforce le sentiment de continuité de soi.”",
+          "microSkills": [
+            "detail",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-035",
+          "docId": "m2-d16",
+          "prompt": "Que signifie la phrase « Ce passé recomposé n’a jamais existé » ?",
+          "options": [
+            "Les objets rétro ne sont que des copies de mauvaise qualité.",
+            "Les souvenirs des consommateurs sont faux.",
+            "Ces produits unissent l’émotion d’hier au confort actuel.",
+            "Les acheteurs regrettent une époque qu’ils ont mal connue."
+          ],
+          "answer": 2,
+          "explain": "It follows “On garde l’émotion et l’on retire les inconvénients”: a vinyl record with a download code, a retro game on a phone. The past sold is a mix of old feelings and modern convenience.",
+          "microSkills": [
+            "inference",
+            "vocabulary"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-036",
+          "docId": "m2-d16",
+          "prompt": "Quelle est la conclusion de l’auteur ?",
+          "options": [
+            "Recycler le passé ne pose problème que si cela étouffe le neuf.",
+            "La nostalgie menace toute création culturelle.",
+            "Les jeunes devraient s’intéresser davantage au présent.",
+            "L’industrie culturelle doit cesser de rééditer des œuvres anciennes."
+          ],
+          "answer": 0,
+          "explain": "“Faut-il s’en inquiéter ? Pas nécessairement. […] Le risque apparaît lorsque l’industrie […] ne mise plus que sur des valeurs sûres, au point de laisser de moins en moins de place à l’inconnu.”",
+          "microSkills": [
+            "main-idea",
+            "opinion-fact"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-037",
+          "docId": "m2-d17",
+          "prompt": "Quelle est l’attitude de l’autrice envers les indicateurs ?",
+          "options": [
+            "Elle les rejette entièrement.",
+            "Elle les accepte sans réserve.",
+            "Elle reconnaît leur utilité, mais dénonce leurs effets pervers.",
+            "Elle souhaite qu’on en crée davantage pour mieux évaluer les soins."
+          ],
+          "answer": 2,
+          "explain": "“Je ne suis pas hostile à la mesure. Elle nous a permis de repérer des dysfonctionnements réels. Mais […] l’indicateur, conçu pour éclairer le travail, finit par le remplacer.”",
+          "microSkills": [
+            "opinion-fact",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-038",
+          "docId": "m2-d17",
+          "prompt": "Que montre l’exemple du patient qui sort un jour plus tôt ?",
+          "options": [
+            "Les hôpitaux manquent de lits.",
+            "Améliorer un chiffre peut nuire à ce qu’il est censé mesurer.",
+            "Les patients préfèrent presque toujours rentrer rapidement chez eux.",
+            "Les séjours trop longs sont dangereux."
+          ],
+          "answer": 1,
+          "explain": "“Le chiffre s’améliore ; la situation du patient, non.” The patient may “revenir la semaine suivante”: the indicator improves while care gets worse.",
+          "microSkills": [
+            "inference"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-039",
+          "docId": "m2-d18",
+          "prompt": "Pourquoi, selon l’auteur, faut-il à la fois se réjouir et s’inquiéter ?",
+          "options": [
+            "Les bénévoles sont devenus trop nombreux pour être bien encadrés par les associations.",
+            "La solidarité est vivante, mais elle peut excuser l’inaction publique.",
+            "Les banques alimentaires sont mal gérées.",
+            "Les familles refusent l’aide des bénévoles."
+          ],
+          "answer": 1,
+          "explain": "“S’en réjouir, parce que la solidarité est vivante. S’en inquiéter, parce que […] les pouvoirs publics peuvent être tentés de compter sur cette bonne volonté pour se dispenser d’agir.”",
+          "microSkills": [
+            "inference",
+            "main-idea"
+          ]
+        },
+        {
+          "id": "tef-ce-m2-040",
+          "docId": "m2-d18",
+          "prompt": "Que signifie « le risque […] est qu’il serve d’alibi » ?",
+          "options": [
+            "Les bénévoles pourraient mentir sur leur travail.",
+            "Les associations pourraient disparaître faute de bénévoles.",
+            "Le bénévolat pourrait devenir obligatoire.",
+            "Le bénévolat pourrait justifier l’inaction des autorités."
+          ],
+          "answer": 3,
+          "explain": "An “alibi” here is an excuse: volunteers filling the gaps would let public authorities avoid acting (“se dispenser d’agir”; “la générosité des uns finit par masquer les renoncements des autres”). The text says the risk is NOT that volunteering disappears.",
+          "microSkills": [
+            "vocabulary",
+            "inference"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-06-02",
+  "level": "b1",
+  "unit": "b1-06",
+  "title": "Polite requests and wishes",
+  "goal": "Ask for things and favours politely with the conditionnel (je voudrais, j'aimerais, pourriez-vous, ça vous dérangerait de…), and answer polite requests correctly.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-requests", "kind": "grammar", "fr": "Pourriez-vous… ? / Ça vous dérangerait de… ? / Serait-il possible de… ?", "en": "polite requests with the conditionnel",
+      "drills": [
+        { "type": "cloze", "text": "___-vous m'envoyer le formulaire, s'il vous plaît ?", "answers": [["Pourriez"]], "en": "Could you send me the form, please?", "explain": "[[pouvoir]] in the conditionnel with vous: [[pourriez]]. Inversion → hyphen: [[Pourriez-vous]]." },
+        { "type": "cloze", "text": "Ça vous dérangerait ___ fermer la fenêtre ?", "answers": [["de"]], "en": "Would you mind closing the window?", "explain": "[[Ça vous dérangerait de]] + infinitive. Don't forget [[de]]." },
+        { "type": "translate", "prompt": "Could you speak more slowly? (formal)", "accept": ["Pourriez-vous parler plus lentement ?", "Vous pourriez parler plus lentement ?", "Est-ce que vous pourriez parler plus lentement ?", "Pourriez-vous parler moins vite ?", "Vous pourriez parler moins vite ?"], "explain": "[[Pourriez-vous]] + infinitive is the classic polite request." }
+      ] },
+    { "id": "g-wishes", "kind": "grammar", "fr": "je voudrais / j'aimerais / je souhaiterais + nom ou infinitif", "en": "expressing wishes politely",
+      "drills": [
+        { "type": "cloze", "text": "J'___ (aimer) prendre rendez-vous avec le docteur Tremblay.", "answers": [["aimerais"]], "en": "I'd like to make an appointment with Dr. Tremblay.", "explain": "[[j'aimerais]] + infinitive = I'd like to." },
+        { "type": "mcq", "prompt": "Which is the most formal, for a letter or an email?", "options": ["Je souhaiterais obtenir des renseignements.", "Je veux des renseignements.", "J'aimerais bien des infos."], "optionsFr": true, "answer": 0, "explain": "[[je souhaiterais]] is the most formal. [[Je veux]] sounds like a demand; [[des infos]] is informal." },
+        { "type": "translate", "prompt": "I'd like to know the price.", "accept": ["Je voudrais savoir le prix.", "J'aimerais savoir le prix.", "Je voudrais connaître le prix.", "J'aimerais connaître le prix.", "Je souhaiterais connaître le prix.", "Je souhaiterais savoir le prix."], "explain": "[[je voudrais]] / [[j'aimerais]] + infinitive." }
+      ] },
+    { "id": "g-answer-derange", "kind": "grammar", "fr": "Ça vous dérangerait… ? — Non, pas du tout.", "en": "answering “would you mind…?”",
+      "drills": [
+        { "type": "mcq", "prompt": "Your colleague asks: « Ça te dérangerait de m'attendre cinq minutes ? » You're happy to wait. You say…", "options": ["Non, pas du tout.", "Oui, beaucoup.", "Oui, pas du tout."], "optionsFr": true, "answer": 0, "explain": "The question is *does it bother you?*, so **non** = no problem, I'll do it. Like English *Would you mind…? — Not at all.*" },
+        { "type": "mcq", "prompt": "Someone answers your request with « Volontiers ! ». They mean…", "options": ["Gladly!", "Maybe later.", "No, sorry."], "answer": 0, "explain": "[[volontiers]] = gladly, with pleasure." }
+      ] },
+    { "id": "pourriez-vous", "kind": "phrase", "fr": "Pourriez-vous m'aider ?", "en": "Could you help me? (formal)", "accept": ["Vous pourriez m'aider ?", "Est-ce que vous pourriez m'aider ?"] },
+    { "id": "ca-vous-derangerait", "kind": "phrase", "fr": "Ça vous dérangerait de… ?", "en": "Would you mind…? (formal)", "accept": ["Est-ce que ça vous dérangerait de… ?", "Cela vous dérangerait-il de… ?"] },
+    { "id": "ca-te-derangerait", "kind": "phrase", "fr": "Ça te dérangerait de… ?", "en": "Would you mind…? (to a friend)", "accept": ["Est-ce que ça te dérangerait de… ?"] },
+    { "id": "auriez-vous", "kind": "phrase", "fr": "Auriez-vous un stylo ?", "en": "Would you have a pen? (formal)", "accept": ["Vous auriez un stylo ?", "Est-ce que vous auriez un stylo ?"] },
+    { "id": "serait-il-possible", "kind": "phrase", "fr": "Serait-il possible de… ?", "en": "Would it be possible to…?", "accept": ["Est-ce que ce serait possible de… ?", "Ce serait possible de… ?", "Est-ce qu'il serait possible de… ?"] },
+    { "id": "jaimerais-bien", "kind": "phrase", "fr": "J'aimerais bien…", "en": "I'd really like to…", "note": "[[bien]] here adds warmth: *I'd really like*, *I wouldn't mind*." },
+    { "id": "je-souhaiterais", "kind": "phrase", "fr": "Je souhaiterais…", "en": "I would like… (very formal, in writing)" },
+    { "id": "volontiers", "kind": "vocab", "fr": "volontiers", "en": "gladly, with pleasure", "pos": "adverb", "accept": ["avec plaisir"],
+      "example": { "fr": "— Vous voulez un café ? — Volontiers, merci !", "en": "— Would you like a coffee? — Gladly, thanks!" } },
+    { "id": "pas-du-tout", "kind": "phrase", "fr": "Non, pas du tout.", "en": "No, not at all. (answering “would you mind”)" },
+    { "id": "ferait-plaisir", "kind": "phrase", "fr": "Ça me ferait plaisir.", "en": "I'd be glad to. (It would be a pleasure.)", "accept": ["Avec plaisir.", "Ce serait un plaisir."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "At the counter, then by text",
+      "intro": "Amira just moved to Laval. Notice how she asks for things at city hall, and how she talks to a colleague a few minutes later. Same conditionnel, two registers.",
+      "blocks": [
+        { "type": "dialogue", "title": "At the Laval city hall counter",
+          "context": "Amira needs a residential parking permit.",
+          "lines": [
+            { "speaker": "Employé", "fr": "Bonjour, madame. Je peux vous aider ?", "en": "Hello, ma'am. Can I help you?" },
+            { "speaker": "Amira", "fr": "Bonjour, monsieur. Oui, j'aimerais obtenir une vignette de stationnement pour ma rue. Je viens de déménager.", "en": "Hello. Yes, I'd like to get a parking permit for my street. I've just moved." },
+            { "speaker": "Employé", "fr": "D'accord. Auriez-vous une preuve de résidence ? Un bail ou une facture d'électricité, par exemple.", "en": "OK. Would you have proof of residence? A lease or an electricity bill, for example." },
+            { "speaker": "Amira", "fr": "J'ai mon bail, voilà. Est-ce que vous pourriez aussi me dire combien ça coûte ?", "en": "I have my lease, here. Could you also tell me how much it costs?" },
+            { "speaker": "Employé", "fr": "C'est 45 $ par année.", "en": "It's $45 a year." },
+            { "speaker": "Amira", "fr": "Serait-il possible de payer par carte ?", "en": "Would it be possible to pay by card?" },
+            { "speaker": "Employé", "fr": "Bien sûr. Ça vous dérangerait de remplir ce formulaire pendant que je vérifie votre adresse ?", "en": "Of course. Would you mind filling in this form while I check your address?" },
+            { "speaker": "Amira", "fr": "Non, pas du tout. Pourriez-vous me prêter un stylo ?", "en": "No, not at all. Could you lend me a pen?" },
+            { "speaker": "Employé", "fr": "Volontiers. Tenez.", "en": "Gladly. Here you go." },
+            { "speaker": "Amira", "fr": "Merci. Je voudrais aussi inscrire mon fils à un cours de natation. Ce serait possible ici ?", "en": "Thank you. I'd also like to sign my son up for a swimming class. Would that be possible here?" },
+            { "speaker": "Employé", "fr": "Pour les cours, il faudrait passer par le site Web de la Ville. C'est plus rapide.", "en": "For classes, you'd need to go through the City website. It's faster." },
+            { "speaker": "Amira", "fr": "Parfait. Merci beaucoup pour votre aide !", "en": "Perfect. Thank you very much for your help!" }
+          ] },
+        { "type": "dialogue", "title": "Ten minutes later, by text",
+          "context": "Amira writes to her colleague Lucie.",
+          "lines": [
+            { "speaker": "Amira", "fr": "Salut Lucie ! Tu pourrais me remplacer à la réunion de 14 h ? Je suis encore à l'hôtel de ville.", "en": "Hi Lucie! Could you replace me at the 2 p.m. meeting? I'm still at city hall." },
+            { "speaker": "Lucie", "fr": "Oui, pas de problème. Je prends des notes pour toi ?", "en": "Yes, no problem. Shall I take notes for you?" },
+            { "speaker": "Amira", "fr": "Ce serait super, merci ! Et ça te dérangerait de dire à Karim que je vais arriver vers 15 h ?", "en": "That would be great, thanks! And would you mind telling Karim I'll arrive around 3?" },
+            { "speaker": "Lucie", "fr": "Pas du tout. Mais j'aimerais bien un café en échange !", "en": "Not at all. But I'd really like a coffee in exchange!" },
+            { "speaker": "Amira", "fr": "Ça me ferait plaisir. Promis !", "en": "I'd be glad to. Promise!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "Why does Amira say “j'aimerais obtenir” and not “je veux obtenir”?", "options": ["It's more polite.", "It's in the future.", "She isn't sure she wants it."], "answer": 0,
+          "explain": "[[Je veux]] can sound like a demand to a stranger. The conditionnel softens it: [[j'aimerais]], [[je voudrais]]." },
+        { "id": "d2", "type": "mcq", "prompt": "The employee asks “Ça vous dérangerait de remplir ce formulaire ?” Amira answers “Non, pas du tout.” Does she fill in the form?", "options": ["Yes", "No", "Later"], "answer": 0,
+          "explain": "*Does it bother you?* — *No, not at all.* = Yes, she'll do it." },
+        { "id": "d3", "type": "mcq", "prompt": "What changes when Amira writes to Lucie?", "options": ["She uses tu: tu pourrais, ça te dérangerait.", "She stops using the conditionnel.", "She uses inversion: pourrais-tu."], "answer": 0,
+          "explain": "With a colleague she knows well, she uses [[tu]], but she keeps the polite conditionnel: [[Tu pourrais…?]], [[Ça te dérangerait…?]]" }
+      ] },
+    { "type": "understand", "title": "Politeness, step by step",
+      "blocks": [
+        { "type": "table", "title": "The politeness ladder",
+          "head": ["", "Saying what you want", "Asking someone to do something"],
+          "rows": [
+            ["Direct (friends, family)", "Je veux…", "Tu peux… ?"],
+            ["Polite (everyday)", "Je voudrais…", "Tu pourrais… ? / Vous pourriez… ?"],
+            ["Polite and soft", "J'aimerais…", "Est-ce que vous pourriez… ? / Ça vous dérangerait de… ?"],
+            ["Formal (emails, letters)", "Je souhaiterais…", "Pourriez-vous… ? / Serait-il possible de… ?"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "With strangers, at a counter, on the phone or in an email, start at the **polite** level. [[Je veux]] to a stranger can sound rude, even with [[s'il vous plaît]]." },
+        { "type": "pattern", "title": "Asking for a favour",
+          "pattern": "Pourriez-vous / Vous pourriez / Ça vous dérangerait de / Serait-il possible de + infinitif",
+          "note": "All of them are followed by an **infinitive**. Only [[ça vous dérangerait]] and [[serait-il possible]] need [[de]].",
+          "examples": [
+            { "fr": "Pourriez-vous répéter, s'il vous plaît ?", "en": "Could you repeat that, please?" },
+            { "fr": "Vous pourriez m'envoyer le document par courriel ?", "en": "Could you send me the document by email?" },
+            { "fr": "Ça vous dérangerait de parler un peu plus fort ?", "en": "Would you mind speaking a bit louder?" },
+            { "fr": "Serait-il possible de changer mon rendez-vous ?", "en": "Would it be possible to change my appointment?" }
+          ] },
+        { "type": "pattern", "title": "Asking for a thing, expressing a wish",
+          "pattern": "Je voudrais / J'aimerais / Je souhaiterais + nom ou infinitif · Auriez-vous + nom ?",
+          "note": "[[J'aimerais bien]] adds warmth (*I'd really like*). For a wish about **someone else** (*I'd like you to…*), French needs the subjonctif, which comes at B2. For now, turn it into a question: [[Pourriez-vous… ?]]",
+          "examples": [
+            { "fr": "Je voudrais un rendez-vous pour jeudi.", "en": "I'd like an appointment for Thursday." },
+            { "fr": "J'aimerais bien visiter l'appartement samedi.", "en": "I'd really like to visit the apartment on Saturday." },
+            { "fr": "Je souhaiterais obtenir des renseignements sur vos cours.", "en": "I would like to obtain information about your classes." },
+            { "fr": "Auriez-vous une table pour quatre ?", "en": "Would you have a table for four?" }
+          ] },
+        { "type": "table", "title": "Answering a polite request",
+          "head": ["You accept", "You refuse politely"],
+          "rows": [
+            ["Bien sûr ! / Pas de problème.", "Je suis désolé, mais je ne peux pas aujourd'hui."],
+            ["Volontiers. / Avec plaisir.", "Malheureusement, ce ne sera pas possible."],
+            ["Ça me ferait plaisir.", "J'aimerais bien, mais je n'ai pas le temps."],
+            ["(to ça vous dérangerait…?) Non, pas du tout.", "(to ça vous dérangerait…?) Un peu, oui, désolé…"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "A refusal usually comes with a reason or an alternative: [[Je ne peux pas aujourd'hui, mais demain, oui.]]" },
+        { "type": "deepdive", "kind": "mistakes", "title": "Polite request traps",
+          "body": "- **The “Ça vous dérangerait” trap:** [[Oui !]] means *yes, it bothers me*. To accept, say [[Non, pas du tout]] or [[Pas de problème]].\n- **de in the wrong place:** [[Pourriez-vous de m'aider ?]] → [[Pourriez-vous m'aider ?]]; but [[Ça vous dérangerait m'aider ?]] → [[Ça vous dérangerait de m'aider ?]]\n- **Futur instead of conditionnel:** [[Je voudrai un café]] → [[Je voudrais un café]]. [[J'aimerai]] (I will like) → [[J'aimerais]] (I would like).\n- **Hyphens in inversion:** [[Pourriez-vous]], [[Auriez-vous]], [[Serait-il]]. And with a vowel: [[Pourrait-il]], no extra t needed (it already ends in t).\n- **Copying English “I would like that you…”:** [[Je voudrais que vous m'aidez]] is wrong. Use [[Pourriez-vous m'aider ?]]" },
+        { "type": "deepdive", "kind": "why", "title": "Why does the conditionnel sound polite?",
+          "body": "The conditionnel puts your request in an **imagined** world: *if you could, would you…?* It gives the other person room to say no, and that's what makes it polite. [[Vous pouvez m'aider ?]] asks about a fact; [[Vous pourriez m'aider ?]] asks about a possibility.\n\nEnglish does the same with *could* and *would*. So when you would use *could* or *would* in English, use the conditionnel in French." },
+        { "type": "deepdive", "kind": "canada", "title": "Requests in Québec",
+          "body": "- At work in Québec, colleagues often use [[tu]] quickly, even with managers. The conditionnel keeps it polite: [[Tu pourrais m'envoyer ça ?]]\n- [[Est-ce que ce serait possible de…?]] is a very common, friendly-polite way to ask for something on the phone.\n- In informal Québec speech you'll hear the question particle [[-tu]]: [[Tu pourrais-tu m'aider ?]], [[Ça te dérange-tu ?]] It's colloquial: understand it, but don't use it in an exam.\n- [[Bienvenue !]] is a very common Québec answer to [[merci]] (= you're welcome), along with [[De rien]] and [[Ça me fait plaisir]]. In France: [[De rien]] or [[Je vous en prie]]." }
+      ] },
+    { "type": "hear", "title": "Polite intonation",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "A polite request goes **up** at the end, gently. A flat or falling tone can sound like an order.",
+          "lines": [
+            { "fr": "Pourriez-vous m'aider, s'il vous plaît ?", "en": "Could you help me, please?", "tip": "pou-ryé-vou: -riez in one syllable." },
+            { "fr": "Ça vous dérangerait de parler un peu plus fort ?", "en": "Would you mind speaking a bit louder?", "tip": "dé-ran-j'rè: the middle e almost disappears." },
+            { "fr": "Serait-il possible de payer par carte ?", "en": "Would it be possible to pay by card?", "tip": "Serait-il: seu-rè-til, link the t." },
+            { "fr": "Auriez-vous une preuve de résidence ?", "en": "Would you have proof of residence?" },
+            { "fr": "J'aimerais bien visiter l'appartement samedi.", "en": "I'd really like to visit the apartment on Saturday." },
+            { "fr": "Non, pas du tout. Ça me ferait plaisir.", "en": "No, not at all. I'd be glad to." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Excusez-moi, ça vous dérangerait de baisser un peu la musique ?", "en": "Excuse me, would you mind turning the music down a bit?", "prompt": "What is the person asking?", "options": ["To turn the music down", "To turn the music up", "To change the music"], "answer": 0,
+          "explain": "[[baisser]] = to lower. [[Ça vous dérangerait de]] + infinitive is the request." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Malheureusement, ce ne sera pas possible aujourd'hui, mais je pourrais vous rappeler demain matin.", "en": "Unfortunately, that won't be possible today, but I could call you back tomorrow morning.", "prompt": "What does the person answer?", "options": ["Not today, but they offer to call back tomorrow", "Yes, right away", "Never"], "answer": 0,
+          "explain": "A polite refusal with an alternative: [[je pourrais vous rappeler demain]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Be polite in French! Choose the right level for each situation.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "___-vous m'aider à porter ce sac, s'il vous plaît ?", "answers": [["Pourriez"]], "choices": ["Pourriez", "Pourrez", "Pouvriez"], "en": "Could you help me carry this bag, please?",
+          "explain": "[[pouvoir]], conditionnel, vous: [[pourriez]]. [[Pourrez]] would be the futur." },
+        { "id": "r2", "type": "match", "prompt": "Match each direct request with its polite version.", "pairs": [["Je veux un café.", "Je voudrais un café."], ["Tu peux m'aider ?", "Tu pourrais m'aider ?"], ["Vous avez un stylo ?", "Auriez-vous un stylo ?"], ["C'est possible de payer par carte ?", "Serait-il possible de payer par carte ?"], ["Envoyez-moi le document.", "Pourriez-vous m'envoyer le document ?"]] },
+        { "id": "r3", "type": "translate", "prompt": "Would you mind closing the window? (formal)", "accept": ["Ça vous dérangerait de fermer la fenêtre ?", "Est-ce que ça vous dérangerait de fermer la fenêtre ?", "Cela vous dérangerait-il de fermer la fenêtre ?", "Cela vous dérangerait de fermer la fenêtre ?"],
+          "explain": "[[Ça vous dérangerait de]] + infinitive. [[Cela]] is the more formal written form of [[ça]]." },
+        { "id": "r4", "type": "mcq", "prompt": "A neighbour asks: « Ça vous dérangerait d'arroser mes plantes pendant mes vacances ? » You agree. You say…", "options": ["Non, pas du tout. Avec plaisir !", "Oui, beaucoup !", "Oui, pas de problème… mais non."], "optionsFr": true, "answer": 0,
+          "explain": "Answer the real question (*does it bother you?*): [[Non, pas du tout]], then show you're happy: [[Avec plaisir !]]" },
+        { "id": "r5", "type": "cloze", "text": "J'___ bien partir plus tôt aujourd'hui, si c'est possible.", "answers": [["aimerais"]], "choices": ["aimerais", "aimerai", "aime", "aimais"], "en": "I'd really like to leave earlier today, if possible.",
+          "explain": "A polite wish → conditionnel [[j'aimerais]]. [[aimerai]] is the futur." },
+        { "id": "r6", "type": "translate", "prompt": "Would it be possible to change my appointment?", "accept": ["Serait-il possible de changer mon rendez-vous ?", "Est-ce que ce serait possible de changer mon rendez-vous ?", "Ce serait possible de changer mon rendez-vous ?", "Est-ce qu'il serait possible de changer mon rendez-vous ?", "Serait-il possible de déplacer mon rendez-vous ?", "Serait-il possible de modifier mon rendez-vous ?", "Est-ce que ce serait possible de déplacer mon rendez-vous ?"],
+          "explain": "[[Serait-il possible de]] + infinitive (formal) or [[Est-ce que ce serait possible de…]] (everyday)." },
+        { "id": "r7", "type": "mcq", "prompt": "You're writing to a school to ask for information. Which opening is best?", "options": ["Je souhaiterais obtenir des renseignements sur vos cours du soir.", "Je veux savoir vos cours du soir.", "Tu pourrais m'envoyer les infos sur les cours ?"], "optionsFr": true, "answer": 0,
+          "explain": "A formal email → [[je souhaiterais]] + [[vous]]. The other two are too direct or too informal." },
+        { "id": "r8", "type": "reorder", "prompt": "Could you speak more slowly? (formal)", "accept": ["Pourriez-vous parler plus lentement"], "extra": ["de", "pouvez"],
+          "explain": "[[Pourriez-vous]] + infinitive, no [[de]]." },
+        { "id": "r9", "type": "cloze", "text": "Le formulaire doit être ___ (remplir) en ligne avant vendredi.", "answers": [["rempli"]], "en": "The form must be filled in online before Friday.",
+          "explain": "A passive after [[doit]] (unit 5): [[être]] + past participle agreeing with [[le formulaire]]: [[rempli]]." },
+        { "id": "r10", "type": "dictation", "fr": "Ça me ferait plaisir de vous aider.", "accept": ["Cela me ferait plaisir de vous aider."], "explain": "[[ferait]]: stem [[fer-]] + [[-ait]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Role-play: you call a medical clinic. Ask politely for an appointment, ask if it would be possible to come after 17 h, ask what you should bring, and ask the receptionist to repeat something.", "seconds": 60,
+          "checklist": ["A greeting and a wish: Je voudrais / J'aimerais…", "Serait-il possible de… ? or Est-ce que ce serait possible de… ?", "Pourriez-vous… ? or Vous pourriez… ?", "Pourriez-vous répéter… ?", "A polite closing: Merci beaucoup pour votre aide."],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, madame. J'aimerais prendre rendez-vous avec un médecin, s'il vous plaît. Ce n'est pas urgent. Serait-il possible de venir après 17 h ? Je travaille toute la journée. … Mardi à 17 h 30 ? Parfait. Et qu'est-ce que je dois apporter, s'il vous plaît ? … Ma carte d'assurance maladie, d'accord. Excusez-moi, pourriez-vous répéter l'adresse plus lentement ? … Merci beaucoup pour votre aide. Bonne journée !", "en": "Hello. I'd like to make an appointment with a doctor, please. It's not urgent. Would it be possible to come after 5 p.m.? I work all day. … Tuesday at 5:30? Perfect. And what do I need to bring, please? … My health insurance card, OK. Excuse me, could you repeat the address more slowly? … Thank you very much for your help. Have a good day!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short formal email to a language school. You'd like to sign up for an evening French class. Ask politely for three things: the schedule, the price, and whether it would be possible to try a class before registering.",
+          "promptFr": "Écrivez un courriel formel à une école de langues.",
+          "wordRange": [60, 110],
+          "checklist": ["Formal greeting: Madame, Monsieur,", "Je souhaiterais / J'aimerais + your reason", "Three polite requests (Pourriez-vous…, Serait-il possible de…, Auriez-vous…)", "Vous throughout", "A formal closing: Je vous remercie à l'avance. Cordialement,"],
+          "models": [
+            { "label": "Model answer", "fr": "Madame, Monsieur,\nJe souhaiterais m'inscrire à un cours de français du soir dans votre école. Je travaille à temps plein, alors je suis disponible seulement après 18 h.\nPourriez-vous m'envoyer l'horaire des cours de niveau intermédiaire ? J'aimerais aussi connaître le prix d'une session. Enfin, serait-il possible d'assister à un cours avant de m'inscrire ?\nJe vous remercie à l'avance de votre réponse.\nCordialement,\nRaj Sharma", "en": "Dear Sir or Madam, I would like to sign up for an evening French class at your school. I work full time, so I'm only available after 6 p.m. Could you send me the schedule of the intermediate classes? I'd also like to know the price of a session. Finally, would it be possible to attend a class before registering? Thank you in advance for your reply. Kind regards, Raj Sharma" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Make polite requests: [[Pourriez-vous… ?]], [[Ça vous dérangerait de… ?]], [[Serait-il possible de… ?]], [[Auriez-vous… ?]]\n- Express wishes at the right level: [[je voudrais]], [[j'aimerais (bien)]], [[je souhaiterais]]\n- Answer correctly, especially [[Non, pas du tout]] to *would you mind…?*",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed an English phrase marked as French, softened the Bienvenue claim, added accept variants." }
+}

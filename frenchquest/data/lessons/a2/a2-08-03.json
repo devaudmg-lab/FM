@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-08-03",
+  "level": "a2",
+  "unit": "a2-08",
+  "title": "Direct object pronouns",
+  "goal": "Replace a noun with le, la, l' or les to avoid repeating it, and put the pronoun in the right place: before the verb, in negative sentences and with aller + infinitive.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-cod", "kind": "grammar", "fr": "le / la / l' / les", "en": "direct object pronouns: it, them (replacing a noun)",
+      "drills": [
+        { "type": "cloze", "text": "Ce chandail ? Je ___ prends.", "answers": [["le"]], "en": "This sweater? I'll take it.", "explain": "[[le chandail]] is masculine → [[le]], placed **before** the verb." },
+        { "type": "cloze", "text": "La tuque rouge ? Je ___ achète.", "answers": [["l'"]], "en": "The red toque? I'm buying it.", "explain": "[[la]] → [[l']] before a vowel: [[je l'achète]]." },
+        { "type": "translate", "prompt": "The boots? I'm trying them on.", "accept": ["Les bottes ? Je les essaie.", "Les bottes ? Je les essaye."], "explain": "[[les bottes]] → [[les]], before the verb: [[je les essaie]]." }
+      ] },
+    { "id": "g-cod-negation", "kind": "grammar", "fr": "ne + le / la / les + verbe + pas", "en": "pronoun position in a negative sentence",
+      "drills": [
+        { "type": "cloze", "text": "Le manteau noir ? Non, je ne ___ prends pas.", "answers": [["le"]], "en": "The black coat? No, I'm not taking it.", "explain": "The pronoun stays glued to the verb, inside [[ne… pas]]: [[je ne le prends pas]]." },
+        { "type": "mcq", "prompt": "“The shirt? I don't want it.”", "options": ["La chemise ? Je ne la veux pas.", "La chemise ? Je la ne veux pas.", "La chemise ? Je ne veux la pas."], "optionsFr": true, "answer": 0, "explain": "Order: [[ne]] + pronoun + verb + [[pas]]." },
+        { "type": "translate", "prompt": "The pants? I don't like them. (le pantalon)", "accept": ["Le pantalon ? Je ne l'aime pas.", "Le pantalon ? Je l'aime pas."], "explain": "[[le pantalon]] is singular in French → [[le]] → [[l']] before [[aime]]: [[je ne l'aime pas]]." }
+      ] },
+    { "id": "g-cod-infinitif", "kind": "grammar", "fr": "aller + le / la / les + infinitif", "en": "pronoun position with aller + infinitive (futur proche)",
+      "drills": [
+        { "type": "cloze", "text": "Le pantalon gris ? Je vais ___ essayer.", "answers": [["l'"]], "en": "The grey pants? I'm going to try them on.", "explain": "With two verbs, the pronoun goes before the **infinitive**: [[je vais l'essayer]] ([[le]] → [[l']] before a vowel)." },
+        { "type": "mcq", "prompt": "“The red dress? I'm going to take it.”", "options": ["La robe rouge ? Je vais la prendre.", "La robe rouge ? Je la vais prendre.", "La robe rouge ? Je vais prendre la."], "optionsFr": true, "answer": 0, "explain": "The pronoun goes with the verb it belongs to: you *take* the dress → [[la prendre]]." },
+        { "type": "cloze", "text": "Les bottes ? Je ne vais pas ___ acheter.", "answers": [["les"]], "en": "The boots? I'm not going to buy them.", "explain": "Negation around [[aller]], pronoun before the infinitive: [[je ne vais pas les acheter]]." }
+      ] },
+    { "id": "essayer", "kind": "vocab", "fr": "essayer", "en": "to try on (clothes), to try", "pos": "verb", "note": "j'essaie or j'essaye: both are correct.",
+      "example": { "fr": "Je peux essayer ce chandail ?", "en": "Can I try on this sweater?" } },
+    { "id": "cabine", "kind": "vocab", "fr": "cabine d'essayage", "article": "la", "gender": "f", "en": "fitting room", "pos": "noun", "accept": ["une cabine d'essayage", "la cabine"],
+      "example": { "fr": "Les cabines d'essayage sont au fond, à droite.", "en": "The fitting rooms are at the back, on the right." } },
+    { "id": "chandail", "kind": "vocab", "fr": "chandail", "article": "le", "gender": "m", "en": "sweater (Québec)", "pos": "noun", "accept": ["le pull", "le pull-over", "un chandail"],
+      "note": "Québec word. In France: un pull. Plural: des chandails.",
+      "example": { "fr": "J'ai besoin d'un chandail chaud.", "en": "I need a warm sweater." } },
+    { "id": "tuque", "kind": "vocab", "fr": "tuque", "article": "la", "gender": "f", "en": "toque, knitted winter hat (Québec)", "pos": "noun", "accept": ["le bonnet", "une tuque"],
+      "note": "Québec word. In France: un bonnet.",
+      "example": { "fr": "En hiver, je porte toujours une tuque.", "en": "In winter, I always wear a toque." } },
+    { "id": "pantalon", "kind": "vocab", "fr": "pantalon", "article": "le", "gender": "m", "en": "pants, trousers", "pos": "noun", "note": "Singular in French: un pantalon = a pair of pants.",
+      "example": { "fr": "Ce pantalon est trop long.", "en": "These pants are too long." } },
+    { "id": "chemise", "kind": "vocab", "fr": "chemise", "article": "la", "gender": "f", "en": "shirt (with buttons)", "pos": "noun",
+      "example": { "fr": "Il porte une chemise blanche.", "en": "He's wearing a white shirt." } },
+    { "id": "je-le-prends", "kind": "phrase", "fr": "Je le prends.", "en": "I'll take it. (a masculine item)", "accept": ["Je vais le prendre."] },
+    { "id": "je-peux-l-essayer", "kind": "phrase", "fr": "Je peux l'essayer ?", "en": "Can I try it on?", "accept": ["Est-ce que je peux l'essayer ?", "Je pourrais l'essayer ?", "Est-ce que je pourrais l'essayer ?", "Puis-je l'essayer ?"] },
+    { "id": "quelle-couleur", "kind": "phrase", "fr": "Vous le voulez en quelle couleur ?", "en": "What colour would you like it in? (a salesperson, formal)", "accept": ["Vous le voulez de quelle couleur ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Shopping for winter clothes",
+      "intro": "Olivier needs warm clothes for his first Montréal winter. Lucie works in a clothing store downtown.",
+      "blocks": [
+        { "type": "dialogue", "title": "In a clothing store",
+          "context": "Listen for the little words [[le]], [[la]], [[l']] and [[les]] before the verbs. What do they replace?",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Bonjour ! Je peux vous aider ?", "en": "Hello! Can I help you?" },
+            { "speaker": "Olivier", "fr": "Oui, je cherche un chandail chaud. J'aime bien le chandail bleu, dans la vitrine.", "en": "Yes, I'm looking for a warm sweater. I quite like the blue sweater in the window." },
+            { "speaker": "Lucie", "fr": "Ah, il est en laine, il est très chaud. Je l'ai aussi en vert et en gris. Vous le voulez en quelle couleur ?", "en": "Ah, it's wool, it's very warm. I also have it in green and grey. What colour would you like it in?" },
+            { "speaker": "Olivier", "fr": "En bleu, je pense. Je peux l'essayer ?", "en": "In blue, I think. Can I try it on?" },
+            { "speaker": "Lucie", "fr": "Bien sûr. Les cabines d'essayage sont au fond, à droite. Et les tuques, là-bas, elles sont en solde aujourd'hui.", "en": "Of course. The fitting rooms are at the back, on the right. And the toques over there are on sale today." },
+            { "speaker": "Olivier", "fr": "Super, je vais les regarder après.", "en": "Great, I'll look at them afterwards." },
+            { "speaker": "Lucie", "fr": "Alors, ce chandail ?", "en": "So, this sweater?" },
+            { "speaker": "Olivier", "fr": "Il est parfait. Je le prends ! Et cette tuque rouge, je l'adore. Je la prends aussi.", "en": "It's perfect. I'll take it! And this red toque, I love it. I'll take it too." },
+            { "speaker": "Lucie", "fr": "Et le pantalon noir ? Vous ne l'essayez pas ?", "en": "And the black pants? Aren't you trying them on?" },
+            { "speaker": "Olivier", "fr": "Non, je ne le prends pas aujourd'hui. Il est un peu trop cher pour moi. Je vais l'acheter pendant les soldes !", "en": "No, I'm not taking them today. They're a bit too expensive for me. I'll buy them during the sales!" },
+            { "speaker": "Lucie", "fr": "Bonne idée. Vous pouvez payer à la caisse, juste là.", "en": "Good idea. You can pay at the cash, right there." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "In “Je la prends aussi”, what does la replace?", "options": ["la tuque rouge", "la vitrine", "la caisse"], "optionsFr": true, "answer": 0,
+          "explain": "Olivier has just said [[cette tuque rouge, je l'adore]]. [[La]] refers back to [[la tuque]] so he doesn't repeat it." },
+        { "id": "d2", "type": "mcq", "prompt": "What does Olivier buy today?", "options": ["The blue sweater and the red toque", "The blue sweater and the black pants", "Only the black pants"], "answer": 0,
+          "explain": "[[Je le prends]] (the sweater), [[je la prends aussi]] (the toque). The pants: [[je ne le prends pas aujourd'hui]]." }
+      ] },
+    { "type": "understand", "title": "Le, la, l', les",
+      "blocks": [
+        { "type": "explain", "title": "Why use a pronoun?",
+          "body": "Once you've named a thing, you don't repeat it: you replace it with a short word, like English *it* and *them*.\n\n[[Le chandail bleu ? Je **le** prends.]] = The blue sweater? I'll take **it**.\n\nThese pronouns replace a **direct object**: a thing or person that comes right after the verb, with no preposition ([[je prends **le chandail**]], [[je regarde **les tuques**]])." },
+        { "type": "table", "title": "Which pronoun?",
+          "head": ["The noun", "Pronoun", "Example"],
+          "rows": [
+            ["masculine singular: le chandail", "le", "Je le prends."],
+            ["feminine singular: la tuque", "la", "Je la prends."],
+            ["singular + vowel or silent h", "l'", "Je l'essaie. Je l'achète. Je l'aime."],
+            ["plural: les bottes, les gants", "les", "Je les regarde."]
+          ],
+          "frCols": [0, 1, 2], "sayCol": false,
+          "note": "The pronoun has the gender and number of the **noun in French**, not in English: [[le pantalon]] → [[le]] (*them* in English!), [[la chemise]] → [[la]]." },
+        { "type": "table", "title": "Where does it go?",
+          "head": ["Sentence type", "Position", "Example"],
+          "rows": [
+            ["Present", "pronoun + verb", "Je le prends."],
+            ["Negative", "ne + pronoun + verb + pas", "Je ne le prends pas."],
+            ["Question", "pronoun + verb", "Vous le voulez en bleu ? Je peux l'essayer ?"],
+            ["Aller + infinitive", "aller + pronoun + infinitive", "Je vais l'acheter. Je vais les regarder."],
+            ["Negative + infinitive", "ne + aller + pas + pronoun + infinitive", "Je ne vais pas l'acheter."],
+            ["Pouvoir / vouloir / devoir + infinitive", "verb + pronoun + infinitive", "Je peux l'essayer ? Je dois les rapporter."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "**Rule of thumb:** the pronoun goes right **before the verb that does the action to it**. You *try on* the sweater → [[l'essayer]]." },
+        { "type": "vocab", "title": "New words", "itemIds": ["essayer", "cabine", "chandail", "tuque", "pantalon", "chemise", "je-le-prends", "je-peux-l-essayer", "quelle-couleur"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **English order:** [[Je prends le]] ✗ → [[Je le prends]]. The pronoun goes **before** the verb.\n- **Negation:** [[Je le ne prends pas]] ✗ and [[Je ne prends le pas]] ✗ → [[Je ne le prends pas]].\n- **With aller:** [[Je le vais prendre]] ✗ → [[Je vais le prendre]].\n- **Gender from French:** *the pants? I'll take them* → [[Je **le** prends]] ([[le pantalon]] is singular).\n- **Elision:** [[Je le aime]] ✗ → [[Je l'aime]]. But never elide [[les]]: [[Je les aime]] (with a z sound)." },
+        { "type": "deepdive", "kind": "examples", "title": "A preview: the pronoun in the passé composé",
+          "body": "In the passé composé, the pronoun goes **before avoir**: [[Je l'ai acheté hier.]] (I bought it yesterday.) In writing, the participle then agrees with the pronoun: [[La tuque ? Je l'ai achetée.]] [[Les bottes ? Je les ai achetées.]] You usually can't hear it, so for now, just recognize it.",
+          "examples": [
+            { "fr": "Le chandail ? Je l'ai acheté au centre-ville.", "en": "The sweater? I bought it downtown." },
+            { "fr": "Les bottes ? Je les ai achetées pendant les soldes.", "en": "The boots? I bought them during the sales." }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Clothes words and “j'aime ça”",
+          "body": "- Québec winter vocabulary: [[une tuque]] (France: *un bonnet*), [[un chandail]] (France: *un pull*), [[des mitaines]] (mittens; France: *des moufles*), [[un manteau d'hiver]], [[des bottes d'hiver]], [[un cache-cou]] (neck warmer).\n- With [[aimer]] and a thing in general, people often say [[j'aime ça]] instead of a pronoun: [[Le chocolat ? J'aime ça !]] This is very common in Québec. [[Je l'aime]] tends to be for a specific item or a person: [[Cette tuque, je l'adore !]]\n- In a store, the checkout is [[la caisse]], and the window display is [[la vitrine]] (the same words in France and Québec)." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "[[le]] and [[les]] sound different: [[le]] is a soft *luh*, [[les]] is *lé*. Before a vowel, [[les]] links with a **z** sound: [[je les essaie]] sounds like *jlé-zéssè*.\n\nIn fast speech, [[je le]] often loses its first vowel: [[je le prends]] sounds like *j'le prends*.",
+          "examples": [ { "fr": "Je le prends. Je les prends.", "en": "I'll take it. I'll take them." }, { "fr": "Je les essaie.", "en": "I'm trying them on." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je le prends.", "en": "I'll take it." },
+            { "fr": "Je peux l'essayer ?", "en": "Can I try it on?" },
+            { "fr": "Je ne la prends pas.", "en": "I'm not taking it." },
+            { "fr": "Je vais les essayer.", "en": "I'm going to try them on.", "tip": "les essayer: z sound between the two words." },
+            { "fr": "Vous le voulez en quelle couleur ?", "en": "What colour would you like it in?" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Les gants noirs ? Non, je ne les prends pas, ils sont trop petits.", "en": "The black gloves? No, I'm not taking them, they're too small.",
+          "prompt": "What does the customer decide about the gloves?", "options": ["She isn't taking them: they're too small.", "She's taking them: they're perfect.", "She's going to try them on."], "answer": 0,
+          "explain": "[[je ne les prends pas]]: negative. [[trop petits]] = too small." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le manteau ? Je vais l'acheter samedi.", "en": "The coat? I'm going to buy it on Saturday.",
+          "prompt": "When will the speaker buy the coat?", "options": ["On Saturday", "Today", "Never"], "answer": 0,
+          "explain": "[[Je vais l'acheter samedi]]: futur proche, pronoun before the infinitive." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Je la prends.", "en": "I'll take it.",
+          "prompt": "Which item could the speaker be talking about?", "options": ["la chemise", "le pantalon", "les bottes"], "optionsFr": true, "answer": 0,
+          "explain": "[[la]] → a feminine singular noun: [[la chemise]]." },
+        { "id": "h4", "type": "dictation", "fr": "Je ne vais pas les acheter aujourd'hui.", "accept": [],
+          "explain": "[[ne… pas]] around [[vais]], [[les]] before the infinitive [[acheter]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "La chemise blanche ? Je ___ essaie.", "answers": [["l'"]], "choices": ["l'", "la", "le", "les"], "en": "The white shirt? I'm trying it on.",
+          "explain": "[[la]] → [[l']] before the vowel of [[essaie]]." },
+        { "id": "r2", "type": "mcq", "prompt": "“The toques? I love them!”", "options": ["Les tuques ? Je les adore !", "Les tuques ? J'adore les !", "Les tuques ? Je l'adore !", "Les tuques ? Je la adore !"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "The pronoun goes before the verb.", "[[l']] is singular; tuques is plural → [[les]].", "Plural → [[les]]; and [[la]] would become [[l']] before a vowel."] },
+        { "id": "r3", "type": "translate", "prompt": "The sweater? I'll take it.", "accept": ["Le chandail ? Je le prends.", "Le pull ? Je le prends.", "Le chandail ? Je vais le prendre.", "Le pull ? Je vais le prendre."],
+          "explain": "[[le chandail]] → [[le]], before [[prends]]." },
+        { "id": "r4", "type": "cloze", "text": "Le pantalon ? Non, je ne ___ ___ pas.", "answers": [["le"], ["prends"]], "en": "The pants? No, I'm not taking them.",
+          "explain": "[[ne]] + pronoun + verb + [[pas]]. [[Le pantalon]] is singular → [[le]]." },
+        { "id": "r5", "type": "reorder", "prompt": "I'm going to try them on.", "accept": ["Je vais les essayer."], "extra": ["la"],
+          "explain": "[[aller]] + pronoun + infinitive." },
+        { "id": "r6", "type": "translate", "prompt": "Can I try it on? (the coat)", "accept": ["Je peux l'essayer ?", "Est-ce que je peux l'essayer ?", "Je pourrais l'essayer ?", "Est-ce que je pourrais l'essayer ?", "Puis-je l'essayer ?", "Le manteau, je peux l'essayer ?"],
+          "explain": "[[pouvoir]] + pronoun + infinitive: [[je peux l'essayer]]." },
+        { "id": "r7", "type": "match", "prompt": "Match each sentence with what it replaces.", "pairs": [["Je le prends.", "le manteau"], ["Je la prends.", "la tuque"], ["Je les prends.", "les mitaines"], ["Je l'essaie.", "l'imperméable (raincoat)"]] },
+        { "id": "r8", "type": "cloze", "text": "Ce chandail est ___ chaud ___ le chandail gris : je le prends !", "answers": [["plus"], ["que"]], "choices": ["plus", "que", "le", "de"], "en": "This sweater is warmer than the grey sweater: I'll take it!",
+          "explain": "Comparative from lesson 1: [[plus]] + adjective + [[que]]. Then the pronoun [[le]] replaces [[ce chandail]]." },
+        { "id": "r9", "type": "mcq", "prompt": "“The dress? I'm not going to buy it.”", "options": ["La robe ? Je ne vais pas l'acheter.", "La robe ? Je ne la vais pas acheter.", "La robe ? Je vais ne pas l'acheter.", "La robe ? Je ne vais l'acheter pas."], "optionsFr": true, "answer": 0,
+          "explain": "[[ne… pas]] around [[aller]]; pronoun before the infinitive: [[je ne vais pas l'acheter]]." },
+        { "id": "r10", "type": "dictation", "fr": "Vous les voulez en quelle taille ?", "accept": [],
+          "explain": "[[les]] (them) before [[voulez]]; [[la taille]] = size, coming up in the next lesson." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You're in a clothing store. Talk to the salesperson about three items: ask to try one on, say you'll take one and say you won't take the other (with a reason). Use pronouns instead of repeating the nouns.", "seconds": 45,
+          "checklist": ["Je cherche… / J'aime bien…", "Je peux l'essayer ?", "Je le / la / les prends.", "Je ne le / la / les prends pas, parce que…", "One sentence with aller + pronoun + infinitive"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour ! Je cherche des mitaines et une tuque. J'aime bien ces mitaines grises. Je peux les essayer ? … Elles sont parfaites, je les prends. Et la tuque verte ? Non, je ne la prends pas : elle est un peu trop chère. Le manteau rouge, dans la vitrine, je vais l'essayer la semaine prochaine. Merci !",
+              "en": "Hello! I'm looking for mittens and a toque. I quite like these grey mittens. Can I try them on? … They're perfect, I'll take them. And the green toque? No, I won't take it: it's a bit too expensive. The red coat in the window, I'll try it on next week. Thank you!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a message to a friend about your shopping trip: what you saw, what you tried on, what you bought or didn't buy, and what you're going to buy later. Use at least three pronouns.", "wordRange": [35, 70],
+          "checklist": ["Salut + name", "Three pronouns (le, la, l', les)", "One negative with a pronoun", "One aller + pronoun + infinitive", "One comparison (plus… que / moins… que)"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Nguyen ! Aujourd'hui, j'ai magasiné au centre-ville. J'ai vu un manteau d'hiver super chaud, mais il est très cher. Je l'ai essayé, et il est plus confortable que mon vieux manteau ! Je ne le prends pas tout de suite : je vais l'acheter pendant les soldes. Par contre, j'ai trouvé des bottes en solde. Je les adore ! À bientôt, Olivier",
+              "en": "Hi Nguyen! Today I went shopping downtown. I saw a super warm winter coat, but it's very expensive. I tried it on, and it's more comfortable than my old coat! I'm not taking it right away: I'll buy it during the sales. On the other hand, I found some boots on sale. I love them! See you soon, Olivier" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Replace a noun with [[le]], [[la]], [[l']] or [[les]]: [[Le chandail ? Je le prends.]]\n- Put the pronoun before the verb, inside [[ne… pas]]: [[Je ne la prends pas.]]\n- With two verbs, put it before the infinitive: [[Je vais l'essayer.]] [[Je peux les essayer ?]]\n- Shop for clothes: [[un chandail]], [[une tuque]], [[un pantalon]], [[la cabine d'essayage]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed a futur proche answer from a present-tense translate drill. Fixed the fast-speech note (j'le prends) and the caisse/vitrine note (not Québec-specific). Pronoun placement (present, negative, futur proche, modal + infinitive) checked and correct." }
+}

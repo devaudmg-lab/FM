@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-06-03",
+  "level": "b2",
+  "unit": "b2-06",
+  "title": "Double pronouns",
+  "goal": "Combine two object pronouns in the right order (je le lui donne, je t'en parle, il y en a), in the passé composé, the negative and the imperative (donne-le-moi, ne le lui dis pas).",
+  "minutes": 15,
+  "items": [
+    { "id": "g-ordre-pronoms", "kind": "grammar", "fr": "me/te/se/nous/vous → le/la/les → lui/leur → y → en + verbe", "en": "the order of two object pronouns before the verb",
+      "drills": [
+        { "type": "cloze", "text": "Le rapport ? Je ___ ___ envoie tout de suite, Camille. (to you, it)", "answers": [["te"], ["l'"]], "en": "The report? I'm sending it to you right away, Camille.", "explain": "[[te]] comes before [[le]] → [[je te l'envoie]] (le → l' before a vowel)." },
+        { "type": "cloze", "text": "Les photos ? Je ___ ___ ai montrées hier. (them, to them)", "answers": [["les"], ["leur"]], "en": "The photos? I showed them to them yesterday.", "explain": "[[le/la/les]] before [[lui/leur]]: [[je les leur ai montrées]]." },
+        { "type": "mcq", "prompt": "Des pommes ? Oui, il ___.", "options": ["y en a", "en y a", "y a en", "en a y"], "optionsFr": true, "answer": 0, "explain": "[[y]] always comes before [[en]]: [[il y en a]]." }
+      ] },
+    { "id": "g-imperatif-pronoms", "kind": "grammar", "fr": "donne-le-moi / ne me le donne pas", "en": "double pronouns in the imperative",
+      "drills": [
+        { "type": "cloze", "text": "La clé ? Donne-___-___, s'il te plaît ! (it, to me)", "answers": [["la"], ["moi"]], "en": "The key? Give it to me, please!", "explain": "Affirmative imperative: verb + direct object + indirect object, with hyphens: [[donne-la-moi]]." },
+        { "type": "cloze", "text": "C'est une surprise : ne ___ ___ dis pas ! (it, to him)", "answers": [["le"], ["lui"]], "en": "It's a surprise: don't tell him!", "explain": "Negative imperative: normal order before the verb: [[ne le lui dis pas]]." },
+        { "type": "mcq", "prompt": "“Give me some!” (to a friend)", "options": ["Donne-m'en !", "Donne-moi-en !", "Donne-en-moi !", "M'en donne !"], "optionsFr": true, "answer": 0, "explain": "[[moi]] + [[en]] → [[m'en]]: [[donne-m'en]]." }
+      ] },
+    { "id": "g-pc-negation", "kind": "grammar", "fr": "je ne le lui ai pas donné / je les lui ai données", "en": "double pronouns with the passé composé and the negative",
+      "drills": [
+        { "type": "cloze", "text": "La lettre ? Non, je ___ ___ ___ ai pas encore donnée. (it, to her)", "answers": [["ne"], ["la"], ["lui"]], "en": "The letter? No, I haven't given it to her yet.", "explain": "[[ne]] + both pronouns + [[avoir]] + [[pas]]: [[je ne la lui ai pas donnée]]." },
+        { "type": "cloze", "text": "Les clés ? Je te les ai ___ ce matin. (donner)", "answers": [["données"]], "en": "The keys? I gave them to you this morning.", "explain": "The direct object [[les]] (les clés, f. pl.) comes before [[avoir]], so the participle agrees: [[données]]." }
+      ] },
+    { "id": "je-te-lenvoie", "kind": "phrase", "fr": "Je te l'envoie.", "en": "I'm sending it to you. (to a friend)", "accept": ["Je te l'envoie tout de suite."] },
+    { "id": "je-le-lui-ai-dit", "kind": "phrase", "fr": "Je le lui ai dit.", "en": "I told him / her (that).", "accept": ["Je lui ai dit.", "Je le lui ai déjà dit."], "note": "In casual speech, the [[le]] is often dropped: [[Je lui ai dit.]]" },
+    { "id": "donne-le-moi", "kind": "phrase", "fr": "Donne-le-moi.", "en": "Give it to me. (to a friend)", "accept": ["Donne-la-moi."] },
+    { "id": "ne-le-lui-dis-pas", "kind": "phrase", "fr": "Ne le lui dis pas.", "en": "Don't tell him / her. (to a friend)", "accept": ["Ne lui dis pas."] },
+    { "id": "il-y-en-a", "kind": "phrase", "fr": "Il y en a.", "en": "There is some. / There are some.", "accept": ["Il y en a quelques-uns.", "Il y en a plusieurs."], "example": { "fr": "Du café ? Il y en a dans la cuisine.", "en": "Coffee? There's some in the kitchen." } },
+    { "id": "je-men-occupe", "kind": "phrase", "fr": "Je m'en occupe.", "en": "I'll take care of it.", "accept": ["Je vais m'en occuper.", "Je m'en charge."] },
+    { "id": "parles-en", "kind": "phrase", "fr": "Parles-en à Olivier.", "en": "Talk to Olivier about it. (to a friend)", "note": "The imperative [[parle]] takes an **s** before [[en]] and [[y]] for the sound: [[parles-en]], [[vas-y]]." },
+    { "id": "vas-y", "kind": "phrase", "fr": "Vas-y !", "en": "Go ahead! Go on! (to a friend)" },
+    { "id": "va-ten", "kind": "phrase", "fr": "Va-t'en !", "en": "Go away! (to one person you say tu to)", "note": "From [[s'en aller]]. Formal or plural: [[Allez-vous-en !]]" },
+    { "id": "je-vous-en-prie", "kind": "phrase", "fr": "Je vous en prie.", "en": "You're welcome. / Please, go ahead. (formal)", "note": "To a friend: [[Je t'en prie.]]" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Passing things around",
+      "intro": "At A2 you learned one pronoun at a time: [[le]], [[lui]], [[y]], [[en]]. Real conversations constantly combine two. Listen to Raj and Olivier, and notice the pronoun pairs before the verbs.",
+      "blocks": [
+        { "type": "dialogue", "title": "Thursday, 8:45, before the client meeting",
+          "context": "Raj is preparing his presentation for Ms. Gagnon. Olivier helps him.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Olivier, tu as la dernière version du diaporama ? Tu peux me l'envoyer ?", "en": "Olivier, do you have the latest version of the slides? Can you send it to me?" },
+            { "speaker": "Olivier", "fr": "Je te l'ai envoyée hier soir ! Regarde dans tes courriels.", "en": "I sent it to you last night! Look in your emails." },
+            { "speaker": "Raj", "fr": "Ah oui, la voilà. Et Camille, elle l'a vue ?", "en": "Oh yes, here it is. And has Camille seen it?" },
+            { "speaker": "Olivier", "fr": "Oui, je la lui ai montrée ce matin. Elle a dit que c'était parfait.", "en": "Yes, I showed it to her this morning. She said it was perfect." },
+            { "speaker": "Raj", "fr": "Super. Et les nouvelles maquettes, tu les as déjà montrées aux clients ?", "en": "Great. And the new mock-ups, have you already shown them to the clients?" },
+            { "speaker": "Olivier", "fr": "Non, je ne les leur ai pas encore montrées. Tu peux les leur présenter à la fin de la rencontre, si tu veux.", "en": "No, I haven't shown them to them yet. You can present them to them at the end of the meeting, if you like." },
+            { "speaker": "Raj", "fr": "D'accord, je m'en occupe. Dis, il reste des cafés ?", "en": "OK, I'll take care of it. Say, is there any coffee left?" },
+            { "speaker": "Olivier", "fr": "Il y en a dans la cuisine. Attends, je t'en apporte un.", "en": "There's some in the kitchen. Wait, I'll bring you one." },
+            { "speaker": "Raj", "fr": "Merci ! Ah, et la clé de la salle de réunion ? Donne-la-moi, s'il te plaît.", "en": "Thanks! Oh, and the key to the meeting room? Give it to me, please." },
+            { "speaker": "Olivier", "fr": "Tiens. Et le cadeau pour Mme Gagnon, c'est une surprise. Surtout, ne le lui dis pas avant la fin !", "en": "Here you go. And the gift for Ms. Gagnon is a surprise. Whatever you do, don't tell her before the end!" }
+          ] },
+        { "type": "text", "title": "Camille's message",
+          "context": "Before leaving for a conference, Camille wrote Raj a note.",
+          "fr": "Raj,\n\nLe cadeau pour Mme Gagnon : je te l'ai laissé sur ton bureau. Donne-le-lui jeudi, à la fin de la rencontre. Si elle te demande qui l'a choisi, dis-le-lui : c'est Lucie !\n\nLes cartes de visite, je les ai commandées ; l'imprimeur te les apportera demain. Si tu en as besoin plus tôt, il y en a quelques-unes dans mon tiroir. Prends-en autant que tu veux.\n\nEt si tu as un problème avec la présentation, parles-en à Olivier. Il connaît le dossier par cœur.\n\nBonne chance !\n\nCamille",
+          "en": "Raj,\n\nThe gift for Ms. Gagnon: I left it on your desk for you. Give it to her on Thursday, at the end of the meeting. If she asks you who chose it, tell her: it's Lucie!\n\nThe business cards: I ordered them; the printer will bring them to you tomorrow. If you need some earlier, there are a few in my drawer. Take as many as you want.\n\nAnd if you have a problem with the presentation, talk to Olivier about it. He knows the file by heart.\n\nGood luck!\n\nCamille" },
+        { "id": "d1", "type": "mcq", "prompt": "In “je la lui ai montrée”, what do la and lui refer to?", "options": ["la = the slide show, lui = Camille", "la = Camille, lui = the slide show", "la = the key, lui = Raj"], "answer": 0,
+          "explain": "[[la]] (direct object) = [[la version du diaporama]]; [[lui]] (indirect object) = to Camille. The participle [[montrée]] agrees with [[la]]." },
+        { "id": "d2", "type": "mcq", "prompt": "What should Raj do if he needs business cards before tomorrow?", "options": ["Take some from Camille's drawer", "Call the printer", "Ask Lucie"], "answer": 0,
+          "explain": "[[Il y en a quelques-unes dans mon tiroir. Prends-en autant que tu veux.]]" }
+      ] },
+    { "type": "understand", "title": "Putting two pronouns in order",
+      "blocks": [
+        { "type": "table", "title": "The order before the verb",
+          "head": ["1", "2", "3", "4", "5", "verb"],
+          "rows": [
+            ["me, te, se, nous, vous", "le, la, les", "lui, leur", "y", "en", "+ verbe"]
+          ],
+          "frCols": [0, 1, 2, 3, 4], "sayCol": false,
+          "note": "Pick the two pronouns you need and keep them in this order. Most common pairs: [[me le]], [[te la]], [[nous les]], [[le lui]], [[la leur]], [[m'en]], [[lui en]], [[y en]]." },
+        { "type": "table", "title": "The pairs you'll use most",
+          "head": ["Pair", "Example", "English"],
+          "rows": [
+            ["me / te / nous / vous + le, la, les", "Je te l'envoie. / Il nous les a données.", "I'm sending it to you. / He gave them to us."],
+            ["le, la, les + lui / leur", "Je le lui ai dit. / Elle la leur montre.", "I told him. / She shows it to them."],
+            ["me / te / lui / leur + en", "Tu m'en donnes un ? / Je lui en ai parlé.", "Will you give me one? / I talked to him about it."],
+            ["se + en / y", "Je m'en occupe. / On s'y habitue.", "I'll take care of it. / You get used to it."],
+            ["y + en", "Il y en a trois.", "There are three (of them)."]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "pattern", "title": "With other verb forms",
+          "pattern": "ne + pronoms + verbe + pas · pronoms + avoir + participe · verbe + pronoms + infinitif",
+          "note": "The pair always stays together, directly before the verb it belongs to: the auxiliary in the passé composé, the infinitive after [[aller]], [[pouvoir]], [[vouloir]]. In the passé composé, the participle agrees with a direct object pronoun ([[le, la, les]]) placed before it, never with [[en]].",
+          "examples": [
+            { "fr": "Je ne le lui ai pas encore dit.", "en": "I haven't told him yet." },
+            { "fr": "Les maquettes ? Je les leur ai montrées hier.", "en": "The mock-ups? I showed them to them yesterday." },
+            { "fr": "Je vais te l'envoyer ce soir.", "en": "I'm going to send it to you tonight." },
+            { "fr": "Tu peux nous en parler ?", "en": "Can you tell us about it?" },
+            { "fr": "Des pommes ? J'en ai acheté.", "en": "Apples? I bought some. (no agreement with en)" }
+          ] },
+        { "type": "table", "title": "The imperative",
+          "head": ["", "Order", "Examples"],
+          "rows": [
+            ["Affirmative", "verbe - le/la/les - moi/toi/lui/nous/vous/leur - y - en", "Donne-le-moi. / Envoie-la-leur. / Donnez-les-nous. / Parle-lui-en."],
+            ["with en", "moi + en → m'en, toi + en → t'en", "Donne-m'en. / Va-t'en !"],
+            ["Negative", "ne + normal order + verbe + pas", "Ne me le donne pas. / Ne le lui dis pas. / Ne m'en parle pas."]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "In the affirmative imperative, **me** and **te** become **moi** and **toi** and go after [[le/la/les]], all joined with hyphens. Before [[en]] and [[y]], [[moi]] and [[toi]] become [[m']] and [[t']]. And [[-er]] verbs regain their **s** before [[en]] and [[y]]: [[parles-en]], [[vas-y]], [[achètes-en]] (but not when [[y]] or [[en]] belongs to a following infinitive: [[va en chercher]])." },
+        { "type": "vocab", "title": "Pronoun chunks for this lesson", "itemIds": ["je-te-lenvoie", "je-le-lui-ai-dit", "donne-le-moi", "ne-le-lui-dis-pas", "il-y-en-a", "je-men-occupe", "parles-en", "vas-y", "va-ten", "je-vous-en-prie"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Double pronoun traps",
+          "body": "- **Wrong order:** [[Je lui le donne]] ✗ → [[Je le lui donne]] ✓. Tip: with [[lui/leur]], the direct object comes **first**; with [[me/te/nous/vous]], it comes **second**: [[je te le donne]] but [[je le lui donne]].\n- **[[Il en y a]]** ✗ → [[Il y en a]] ✓: *y* before *en*, always.\n- **Splitting the pair:** [[Je le vais lui envoyer]] ✗ → [[Je vais le lui envoyer]] ✓. Both pronouns go before the infinitive.\n- **Forgetting the agreement:** [[Les photos, je te les ai envoyé]] ✗ → [[envoyées]] ✓. (But no agreement with [[en]]: [[Des photos ? Je t'en ai envoyé.]])\n- **Imperative:** [[Donne-moi-le]] ✗ → [[Donne-le-moi]] ✓. [[Donne-moi-en]] ✗ → [[Donne-m'en]] ✓.\n- **Missing s:** [[Parle-en à Olivier]] ✗ → [[Parles-en à Olivier]] ✓. [[Va-y]] ✗ → [[Vas-y]] ✓.\n- **Impossible pairs:** [[me]], [[te]], [[nous]], [[vous]] can't be combined with [[lui]] or [[leur]]. Say [[Je te présenterai à lui]] (I'll introduce you to him), not [[Je te lui présenterai]] ✗." },
+        { "type": "deepdive", "kind": "canada", "title": "What you'll actually hear",
+          "body": "In everyday speech, in Québec as in France, people often **simplify** double pronouns:\n\n- **The [[le/la/les]] disappears before [[lui/leur]]:** [[Je lui ai dit]] instead of [[Je le lui ai dit]]; [[Je leur ai donné]] instead of [[Je les leur ai donnés]]. This is very common and accepted in conversation.\n- **[[Donne-moi-le]]** and even **[[Donne-moi-z-en]]** are heard in informal speech (and are a classic joke among teachers), but they're non-standard: don't write them.\n- **[[Y'en a]]** for [[il y en a]]: [[Y'en a plus !]] (There's none left!) is typical of casual speech everywhere.\n\nRecognize all of these, but in writing and in the exams, use the full standard forms." },
+        { "type": "deepdive", "kind": "why", "title": "Why does lui come after le, but me before le?",
+          "body": "There's no deep logic: it's a fixed order inherited from Old French. A practical way to remember it: **people-pronouns that can also be direct objects** ([[me, te, nous, vous]], which mean both *me* and *to me*) come first, as if they were closest to the speaker. **Third-person** pronouns line up in the order “thing then person”: [[le]] (the thing) then [[lui]] (the person). Then [[y]] (a place), then [[en]] (a quantity) at the very end, closest to the verb. Say [[je te le donne / je le lui donne / il y en a]] aloud ten times, and the rhythm will do the rest." }
+      ] },
+    { "type": "hear", "title": "Hear the pronoun chains",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Pronoun pairs are pronounced as one quick block, with no pause: [[je te l'envoie]] sounds almost like one word.",
+          "lines": [
+            { "fr": "Je te l'envoie tout de suite.", "en": "I'm sending it to you right away." },
+            { "fr": "Je le lui ai dit hier.", "en": "I told him yesterday.", "tip": "[[le lui]] sounds like *leu lui*: keep both." },
+            { "fr": "Je vous en prie.", "en": "You're welcome.", "tip": "Link [[vous]] and [[en]] with a z sound." },
+            { "fr": "Il y en a dans la cuisine.", "en": "There's some in the kitchen.", "tip": "[[il y en a]] sounds like *i-lyan-na*." },
+            { "fr": "Donne-le-moi, s'il te plaît.", "en": "Give it to me, please." },
+            { "fr": "Ne le lui dis pas !", "en": "Don't tell him!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Les billets pour le spectacle ? Je les ai achetés hier, et je vais te les donner ce soir.", "en": "The tickets for the show? I bought them yesterday, and I'm going to give them to you tonight.", "prompt": "When will the speaker give the tickets?", "options": ["Tonight", "Yesterday", "At the show"], "answer": 0,
+          "explain": "[[je vais te les donner ce soir]]: [[te]] (to you) + [[les]] (the tickets)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Tu as parlé de ton nouveau poste à tes parents ? — Non, je ne leur en ai pas encore parlé.", "en": "Have you told your parents about your new job? — No, I haven't told them about it yet.", "prompt": "Has the person told their parents?", "options": ["Not yet", "Yes, yesterday", "Yes, but they didn't understand"], "answer": 0,
+          "explain": "[[je ne leur en ai pas encore parlé]]: [[leur]] = to my parents, [[en]] = about it." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Identify each pronoun first: direct object, indirect object, y or en? Then put them in order.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le contrat ? Je ___ ___ ai envoyé lundi. (it, to the client)", "answers": [["le"], ["lui"]], "en": "The contract? I sent it to the client on Monday.", "explain": "[[le]] (the contract) before [[lui]] (to the client): [[je le lui ai envoyé]]." },
+        { "id": "r2", "type": "reorder", "prompt": "I told her. (it = what happened)", "accept": ["Je le lui ai dit"], "extra": ["leur", "la"], "explain": "Neutral direct object [[le]] (what happened) before indirect object [[lui]] (to her)." },
+        { "id": "r3", "type": "mcq", "prompt": "Ta voiture ? Tu peux ___ prêter samedi ?", "options": ["me la", "la me", "moi la", "me le"], "optionsFr": true, "answer": 0, "explain": "[[me]] comes before [[la]], and both go before the infinitive: [[tu peux me la prêter]]." },
+        { "id": "r4", "type": "translate", "prompt": "Give it to me! (to a friend; the book)", "accept": ["Donne-le-moi !", "Donne-moi le livre !", "Passe-le-moi !"], "explain": "Affirmative imperative: [[donne]] + [[le]] + [[moi]], with hyphens." },
+        { "id": "r5", "type": "cloze", "text": "Les maquettes ? Non, je ne ___ ___ ai pas encore ___. (them, to them, montrer)", "answers": [["les"], ["leur"], ["montrées"]], "en": "The mock-ups? No, I haven't shown them to them yet.", "explain": "[[les]] + [[leur]]; [[montrées]] agrees with [[les]] (les maquettes, f. pl.)." },
+        { "id": "r6", "type": "match", "prompt": "Match each sentence to its meaning.", "pairs": [["Je m'en occupe.", "I'll take care of it."], ["Il y en a deux.", "There are two of them."], ["Va-t'en !", "Go away!"], ["Ne le lui dis pas.", "Don't tell him."], ["Parles-en à ton gestionnaire.", "Talk to your manager about it."]] },
+        { "id": "r7", "type": "translate", "prompt": "Have you talked to them about it? (to a friend)", "accept": ["Tu leur en as parlé ?", "Est-ce que tu leur en as parlé ?", "Leur en as-tu parlé ?"], "explain": "[[parler de quelque chose à quelqu'un]] → [[leur]] + [[en]], before [[avoir]]." },
+        { "id": "r8", "type": "cloze", "text": "Des biscuits ? Donne-___ un, s'il te plaît !", "answers": [["m'en"]], "choices": ["m'en", "moi-en", "en-moi", "me-en"], "en": "Cookies? Give me one, please!", "explain": "[[moi]] + [[en]] → [[m'en]]: [[donne-m'en un]]." },
+        { "id": "r9", "type": "dictation", "fr": "Je vais te l'envoyer avant que la réunion commence.", "accept": [], "explain": "The pronoun pair before the infinitive ([[te l'envoyer]]), and a subjonctif after [[avant que]] (lesson 1)." },
+        { "id": "r10", "type": "cloze", "text": "Je voudrais que tu ___ ___ ___ demain. (le cadeau → it, à Mme Gagnon → to her, donner)", "answers": [["le"], ["lui"], ["donnes"]], "en": "I'd like you to give it to her tomorrow.", "explain": "Double pronouns + subjonctif after [[je voudrais que]]: [[que tu le lui donnes]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You're going away for a week, and a friend will look after your apartment. Tell them where things are and what to do with them, using at least six double pronouns (for example the keys, the plants, the mail, the cat's food).", "seconds": 60,
+          "checklist": ["At least two pairs before the verb (je te les laisse, je les lui ai données)", "One pair with an infinitive (tu peux me l'envoyer)", "One affirmative imperative (donne-les-lui, mets-les-y)", "One negative imperative (ne le lui donne pas)", "en with a quantity (il y en a, donne-lui-en)"],
+          "models": [ { "label": "Model answer", "fr": "Alors, les clés, je te les laisse sur la table. Les plantes du salon, il faut les arroser deux fois pendant la semaine. L'arrosoir ? Il y en a un sous l'évier. Le courrier, tu peux me l'envoyer en photo, s'il y a quelque chose d'important. Pour le chat, sa nourriture est dans l'armoire : donne-lui-en un peu le matin et le soir. Mais ne lui donne pas de lait, il est malade après ! Ma voisine a un double des clés : je le lui ai donné hier, au cas où. Si tu as un problème, parles-en à Lucie, elle habite en face. Merci mille fois !", "en": "So, the keys, I'm leaving them for you on the table. The living-room plants need to be watered twice during the week. The watering can? There's one under the sink. The mail, you can send it to me as a photo if there's anything important. For the cat, its food is in the cupboard: give it a bit in the morning and in the evening. But don't give it milk, it gets sick! My neighbour has a spare set of keys: I gave it to her yesterday, just in case. If you have a problem, talk to Lucie about it, she lives across the street. Thanks a million!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Reply to your manager's email: “Avez-vous envoyé le rapport aux clients ? Avez-vous parlé du budget à Karim ? Pouvez-vous m'envoyer les factures ?” Answer each question with a double pronoun and add a short explanation.", "promptFr": "Répondez au courriel de votre gestionnaire.",
+          "wordRange": [50, 90],
+          "checklist": ["Je le leur ai envoyé…", "Je lui en ai parlé… / Je ne lui en ai pas encore parlé…", "Je vous les envoie… / Je vais vous les envoyer…", "Correct participle agreement", "A professional closing"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour Madame Côté,\n\nLe rapport ? Je le leur ai envoyé ce matin, et Mme Gagnon m'a déjà répondu. Le budget ? Je ne lui en ai pas encore parlé, car Karim est en formation aujourd'hui, mais je vais lui en parler demain matin. Quant aux factures, je vous les envoie en pièce jointe.\n\nBonne fin de journée,\n\nRaj", "en": "Hello Ms. Côté,\n\nThe report? I sent it to them this morning, and Ms. Gagnon has already replied. The budget? I haven't talked to him about it yet, because Karim is at a training session today, but I'll talk to him about it tomorrow morning. As for the invoices, I'm sending them to you attached.\n\nHave a good rest of the day,\n\nRaj" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Put two pronouns in order: [[me/te/se/nous/vous]] → [[le/la/les]] → [[lui/leur]] → [[y]] → [[en]] (+ verb)\n- Keep the pair together before the auxiliary or the infinitive: [[je ne le lui ai pas dit]], [[je vais te l'envoyer]]; agree the participle with [[le/la/les]]\n- Use the affirmative imperative order: [[donne-le-moi]], [[donne-m'en]], [[parles-en]], [[vas-y]]; and the normal order in the negative: [[ne le lui dis pas]]\n- Recognize casual simplifications ([[je lui ai dit]], [[y'en a]]) without writing them",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed vous-form answers from items whose English says (to a friend), and the tu form from the formal item; clarified the r2 prompt (the news would be la nouvelle); added the infinitive exception to the imperative -s rule."}
+}

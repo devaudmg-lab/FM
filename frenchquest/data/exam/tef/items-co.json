@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "ability": "co",
+  "sets": [
+    {
+      "id": "tef-co-s1",
+      "title": "Everyday messages and announcements",
+      "level": "a2",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "a1",
+          "context": "Message sur un répondeur",
+          "lines": [
+            { "speaker": "Sophie", "fr": "Salut Marc, c'est Sophie. Je t'appelle pour samedi soir." },
+            { "speaker": "Sophie", "fr": "Finalement, le restaurant est fermé pour travaux, donc on se retrouve chez moi, à dix-neuf heures trente." },
+            { "speaker": "Sophie", "fr": "Si tu veux, tu peux apporter un dessert, mais ce n'est pas obligatoire." },
+            { "speaker": "Sophie", "fr": "Rappelle-moi avant jeudi pour me dire si tu viens. Bisous !" }
+          ]
+        },
+        {
+          "id": "a2",
+          "context": "Annonce dans une gare",
+          "lines": [
+            { "speaker": "Femme", "fr": "Mesdames et messieurs, votre attention, s'il vous plaît." },
+            { "speaker": "Femme", "fr": "Le train à destination de Lyon, prévu au départ à quatorze heures douze, partira avec un retard d'environ vingt minutes, en raison d'un problème technique." },
+            { "speaker": "Femme", "fr": "Attention : ce train partira de la voie 3, et non de la voie 5 comme annoncé précédemment." },
+            { "speaker": "Femme", "fr": "Nous vous prions de nous excuser pour la gêne occasionnée." }
+          ]
+        },
+        {
+          "id": "a3",
+          "context": "Annonce au haut-parleur, à Montréal",
+          "lines": [
+            { "speaker": "Femme", "fr": "Bonjour, chers clients !" },
+            { "speaker": "Femme", "fr": "Cette semaine, les fraises du Québec sont en spécial : deux casseaux pour cinq dollars." },
+            { "speaker": "Femme", "fr": "Faites vite, la promotion se termine dimanche." },
+            { "speaker": "Femme", "fr": "Et petit rappel : à partir d'aujourd'hui, notre comptoir de boulangerie ferme à dix-huit heures." },
+            { "speaker": "Femme", "fr": "Merci de magasiner chez nous, et bonne journée !" }
+          ]
+        },
+        {
+          "id": "a4",
+          "context": "Dans un magasin de vêtements",
+          "lines": [
+            { "speaker": "Homme", "fr": "Bonjour madame, je pourrais essayer cette veste en taille M ?" },
+            { "speaker": "Femme", "fr": "Désolée, dans cette couleur, il ne me reste que du S et du L. Mais je l'ai en M en bleu marine." },
+            { "speaker": "Homme", "fr": "Bon, d'accord, je vais essayer la bleue, alors." },
+            { "speaker": "Femme", "fr": "Très bien. Les cabines sont au fond, sur votre gauche." }
+          ]
+        },
+        {
+          "id": "a5",
+          "context": "Message sur une boîte vocale",
+          "lines": [
+            { "speaker": "Nathalie", "fr": "Bonjour, ici Nathalie, de la Clinique médicale des Érables. Ce message s'adresse à monsieur Karim Haddad." },
+            { "speaker": "Nathalie", "fr": "Votre rendez-vous avec la docteure Tremblay, prévu le mardi 12 à dix heures, doit être déplacé, car la docteure sera absente." },
+            { "speaker": "Nathalie", "fr": "On vous propose le mercredi 13, à quinze heures." },
+            { "speaker": "Nathalie", "fr": "Si ça vous convient, vous n'avez rien à faire. Sinon, rappelez-nous au huit, un, neuf, cinq, cinq, cinq, zéro, un, quatre, deux." },
+            { "speaker": "Nathalie", "fr": "Merci, bonne journée !" }
+          ]
+        },
+        {
+          "id": "a6",
+          "context": "Annonce dans une piscine",
+          "lines": [
+            { "speaker": "Homme", "fr": "Votre attention, s'il vous plaît. La piscine fermera dans quinze minutes." },
+            { "speaker": "Homme", "fr": "Les nageurs sont priés de quitter les bassins dès maintenant." },
+            { "speaker": "Homme", "fr": "Les vestiaires restent ouverts jusqu'à vingt et une heures. Merci et à bientôt !" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-co-001", "audioId": "a1",
+          "prompt": "Pourquoi Sophie appelle-t-elle Marc ?",
+          "options": ["Pour annuler la soirée de samedi.", "Pour lui indiquer un nouveau lieu de rendez-vous.", "Pour l'inviter à dîner au restaurant.", "Pour lui demander de préparer le repas."],
+          "answer": 1,
+          "explain": "\"Le restaurant est fermé pour travaux, donc on se retrouve chez moi\": the evening still happens, only the place changes. It is not cancelled, the restaurant is closed, and she only suggests an optional dessert, not the whole meal.",
+          "microSkills": ["intention", "main-idea"]
+        },
+        {
+          "id": "tef-co-002", "audioId": "a1",
+          "prompt": "Que doit faire Marc ?",
+          "options": ["Acheter un gâteau.", "Arriver avant dix-neuf heures.", "Réserver une table.", "Donner sa réponse à Sophie d'ici jeudi."],
+          "answer": 3,
+          "explain": "\"Rappelle-moi avant jeudi pour me dire si tu viens\" is the only request. The dessert is \"pas obligatoire\", the time is 19 h 30 (not before 19 h), and there is no table to book since they meet at her place.",
+          "microSkills": ["detail"]
+        },
+        {
+          "id": "tef-co-003", "audioId": "a2",
+          "prompt": "Qu'apprend-on sur le train pour Lyon ?",
+          "options": ["Il ne circulera pas aujourd'hui.", "Il partira plus tôt que prévu.", "Il partira vers quatorze heures trente.", "Il partira avec une heure de retard."],
+          "answer": 2,
+          "explain": "Scheduled at \"quatorze heures douze\" with \"un retard d'environ vingt minutes\", so it leaves around 14 h 30. It is delayed, not cancelled or early, and the delay is twenty minutes, not an hour.",
+          "microSkills": ["numbers-dates"]
+        },
+        {
+          "id": "tef-co-004", "audioId": "a2",
+          "prompt": "Que doivent faire les voyageurs pour Lyon ?",
+          "options": ["Changer de quai.", "Échanger leur billet.", "Prendre un car de remplacement.", "Se présenter au guichet."],
+          "answer": 0,
+          "explain": "\"Ce train partira de la voie 3, et non de la voie 5\": passengers must go to another platform. Nothing is said about tickets, replacement coaches or the ticket office.",
+          "microSkills": ["paraphrase", "detail"]
+        },
+        {
+          "id": "tef-co-005", "audioId": "a3",
+          "prompt": "Où entend-on ce message ?",
+          "options": ["Dans une pharmacie.", "Dans un restaurant.", "Dans une gare routière.", "Dans un magasin d'alimentation."],
+          "answer": 3,
+          "explain": "Strawberries on special (\"deux casseaux pour cinq dollars\"), a \"comptoir de boulangerie\" and \"Merci de magasiner chez nous\" point to a grocery store. (Québec: \"casseau\" = small fruit basket, \"magasiner\" = to shop.)",
+          "microSkills": ["document-type", "inference"]
+        },
+        {
+          "id": "tef-co-006", "audioId": "a3",
+          "prompt": "Quel changement est annoncé ?",
+          "options": ["Les fraises sont gratuites le dimanche.", "Le magasin sera fermé dimanche.", "L'horaire de la boulangerie du magasin est modifié.", "Les fraises sont maintenant importées."],
+          "answer": 2,
+          "explain": "\"À partir d'aujourd'hui, notre comptoir de boulangerie ferme à dix-huit heures\" announces a new schedule. Sunday is only the end of the promotion, and the strawberries are \"du Québec\", not imported.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-007", "audioId": "a4",
+          "prompt": "Que va faire l'homme ?",
+          "options": ["Acheter la veste en taille L.", "Revenir un autre jour.", "Essayer la même veste dans une autre couleur.", "Choisir un autre modèle de veste."],
+          "answer": 2,
+          "explain": "The seller has his size \"en bleu marine\" and he answers \"je vais essayer la bleue\": same jacket, different colour. He does not take the L, does not leave, and does not change model.",
+          "microSkills": ["detail"]
+        },
+        {
+          "id": "tef-co-008", "audioId": "a5",
+          "prompt": "Pourquoi la clinique appelle-t-elle ?",
+          "options": ["Pour confirmer le rendez-vous de mardi.", "Pour proposer une autre date de rendez-vous.", "Pour présenter une nouvelle médecin.", "Pour communiquer des résultats d'analyse."],
+          "answer": 1,
+          "explain": "\"Votre rendez-vous [...] doit être déplacé\" and \"On vous propose le mercredi 13\": the Tuesday appointment is not confirmed but moved. No new doctor is introduced (Dr Tremblay is simply absent), and no test results are mentioned.",
+          "microSkills": ["intention"]
+        },
+        {
+          "id": "tef-co-009", "audioId": "a5",
+          "prompt": "Si M. Haddad accepte le nouveau rendez-vous, que doit-il faire ?",
+          "options": ["Rappeler la clinique.", "Envoyer un courriel de confirmation.", "Se présenter mardi à dix heures.", "Rien : il n'a pas besoin de répondre."],
+          "answer": 3,
+          "explain": "\"Si ça vous convient, vous n'avez rien à faire. Sinon, rappelez-nous\": he calls back only if he refuses. Tuesday 10 h is the cancelled slot.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-010", "audioId": "a6",
+          "prompt": "Que demande-t-on aux nageurs ?",
+          "options": ["De quitter les vestiaires immédiatement.", "De sortir de l'eau.", "De revenir le lendemain.", "D'attendre quinze minutes avant de partir."],
+          "answer": 1,
+          "explain": "\"Quitter les bassins dès maintenant\" means getting out of the water now. The changing rooms stay open until 21 h, and the fifteen minutes are the time before closing, not a waiting time.",
+          "microSkills": ["paraphrase", "vocabulary"]
+        }
+      ]
+    },
+    {
+      "id": "tef-co-s2",
+      "title": "Conversations and service situations",
+      "level": "b1",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "b1",
+          "context": "Appel téléphonique, à Montréal",
+          "lines": [
+            { "speaker": "Femme", "fr": "Bonjour, monsieur Gagnon. C'est Amélie Roy, de l'appartement 12." },
+            { "speaker": "Homme", "fr": "Ah, bonjour madame Roy. Qu'est-ce qui se passe ?" },
+            { "speaker": "Femme", "fr": "Le chauffage ne fonctionne plus depuis hier soir. Il fait à peine seize degrés dans le salon, et avec le bébé, c'est pas évident." },
+            { "speaker": "Homme", "fr": "Je suis désolé. Mon technicien est en congé jusqu'à lundi…" },
+            { "speaker": "Femme", "fr": "Lundi ? Voyons, c'est dans quatre jours !" },
+            { "speaker": "Homme", "fr": "Je sais. Écoutez, je vais appeler une autre compagnie pour qu'elle passe pendant la fin de semaine. Je vous redonne des nouvelles avant midi." },
+            { "speaker": "Femme", "fr": "Merci, j'apprécie." }
+          ]
+        },
+        {
+          "id": "b2",
+          "context": "Conversation entre collègues, au bureau",
+          "lines": [
+            { "speaker": "Homme", "fr": "Dis, Claire, la réunion avec le client de Lille, c'est toujours jeudi ?" },
+            { "speaker": "Femme", "fr": "Non, ils ont demandé à la décaler à vendredi, neuf heures. Je t'ai envoyé un message hier." },
+            { "speaker": "Homme", "fr": "Ah, je ne l'ai pas vu. Vendredi matin, ça ne m'arrange pas du tout : je suis en formation toute la matinée." },
+            { "speaker": "Femme", "fr": "Ce n'est pas grave, je peux la faire seule. Par contre, il me faudrait les chiffres du dernier trimestre avant jeudi soir." },
+            { "speaker": "Homme", "fr": "Pas de souci, je te prépare ça demain." }
+          ]
+        },
+        {
+          "id": "b3",
+          "context": "Au comptoir d'information du métro",
+          "lines": [
+            { "speaker": "Homme", "fr": "Bonjour, je viens d'arriver à Montréal. Je voudrais une carte pour prendre le métro et l'autobus." },
+            { "speaker": "Femme", "fr": "Bien sûr. Vous allez la prendre tous les jours ?" },
+            { "speaker": "Homme", "fr": "Oui, pour aller travailler, du lundi au vendredi." },
+            { "speaker": "Femme", "fr": "Alors je vous conseille l'abonnement mensuel : c'est quatre-vingt-dix-sept dollars, et ça revient moins cher que d'acheter des passages un par un. Mais il faut d'abord acheter la carte elle-même : six dollars." },
+            { "speaker": "Homme", "fr": "D'accord. Et après, je peux la recharger où ?" },
+            { "speaker": "Femme", "fr": "Dans toutes les stations de métro, aux distributrices, et aussi dans certains dépanneurs." }
+          ]
+        },
+        {
+          "id": "b4",
+          "context": "Appel à une banque",
+          "lines": [
+            { "speaker": "Femme", "fr": "Banque du Centre, Lucie à l'appareil, bonjour." },
+            { "speaker": "Homme", "fr": "Bonjour madame. Je voudrais ouvrir un compte : je viens de m'installer en France pour mon travail." },
+            { "speaker": "Femme", "fr": "Très bien. Il faut prendre rendez-vous avec un conseiller. Vous avez un justificatif de domicile ?" },
+            { "speaker": "Homme", "fr": "Pas encore, justement. Pour l'instant, je suis hébergé chez un ami." },
+            { "speaker": "Femme", "fr": "Dans ce cas, apportez une attestation d'hébergement signée par votre ami, avec une copie de sa carte d'identité. Et votre passeport, bien sûr." },
+            { "speaker": "Homme", "fr": "Parfait. Vous auriez un créneau cette semaine ?" },
+            { "speaker": "Femme", "fr": "Jeudi à dix-sept heures trente, ça vous irait ?" },
+            { "speaker": "Homme", "fr": "C'est parfait, merci." }
+          ]
+        },
+        {
+          "id": "b5",
+          "context": "Entretien d'embauche téléphonique",
+          "lines": [
+            { "speaker": "Femme", "fr": "Donc, monsieur Diallo, vous avez postulé pour le poste de commis d'entrepôt. Vous savez que c'est un horaire de soir ?" },
+            { "speaker": "Homme", "fr": "Oui, de seize heures à minuit, c'est ça ? Ça me convient très bien : je suis des cours le matin." },
+            { "speaker": "Femme", "fr": "Parfait. Avez-vous déjà conduit un chariot élévateur ?" },
+            { "speaker": "Homme", "fr": "Pas encore, mais je suis prêt à apprendre." },
+            { "speaker": "Femme", "fr": "Ça tombe bien : on donne la formation nous-mêmes, sur place, en deux jours. Je transmets votre dossier à mon gestionnaire, et on vous revient d'ici vendredi." }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-co-011", "audioId": "b1",
+          "prompt": "Pourquoi Mme Roy appelle-t-elle son propriétaire ?",
+          "options": ["Son logement n'est plus chauffé.", "Son loyer a augmenté.", "Elle veut déménager avant lundi.", "Son bébé est malade."],
+          "answer": 0,
+          "explain": "\"Le chauffage ne fonctionne plus depuis hier soir. Il fait à peine seize degrés.\" The baby is mentioned only to show why the cold is a problem, not because it is ill; rent and moving are never mentioned.",
+          "microSkills": ["main-idea", "paraphrase"]
+        },
+        {
+          "id": "tef-co-012", "audioId": "b1",
+          "prompt": "Que décide finalement le propriétaire ?",
+          "options": ["Attendre le retour de son technicien.", "Réparer lui-même l'appareil ce soir.", "Lui offrir une réduction de loyer.", "Faire appel à une autre entreprise pour une intervention plus rapide."],
+          "answer": 3,
+          "explain": "\"Je vais appeler une autre compagnie pour qu'elle passe pendant la fin de semaine\" (Québec: \"fin de semaine\" = weekend). Waiting for Monday is exactly what he gives up on after her protest.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-013", "audioId": "b2",
+          "prompt": "Pourquoi l'homme ne participera-t-il pas à la réunion ?",
+          "options": ["Il sera en déplacement à Lille.", "Il n'a pas été invité.", "Il a déjà un autre engagement professionnel ce matin-là.", "Il sera en congé vendredi."],
+          "answer": 2,
+          "explain": "\"Vendredi matin [...] je suis en formation toute la matinée.\" Lille is where the client is from, not where he will be; he was informed by message (he just missed it); he is not on leave.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-014", "audioId": "b2",
+          "prompt": "Que demande Claire à son collègue ?",
+          "options": ["De lui fournir des données chiffrées.", "De la remplacer auprès du client.", "De relire son message d'hier.", "D'appeler le client pour annuler."],
+          "answer": 0,
+          "explain": "\"Il me faudrait les chiffres du dernier trimestre avant jeudi soir.\" She offers to hold the meeting alone, so she does not need a replacement, and nothing is cancelled.",
+          "microSkills": ["intention", "paraphrase"]
+        },
+        {
+          "id": "tef-co-015", "audioId": "b3",
+          "prompt": "Combien l'homme paiera-t-il aujourd'hui s'il suit le conseil de l'employée ?",
+          "options": ["6 $", "91 $", "97 $", "103 $"],
+          "answer": 3,
+          "explain": "The monthly pass is \"quatre-vingt-dix-sept dollars\" but \"il faut d'abord acheter la carte elle-même : six dollars\": 97 + 6 = 103 $. 6 $ and 97 $ are only one part of the price; 91 $ wrongly subtracts.",
+          "microSkills": ["numbers-dates"]
+        },
+        {
+          "id": "tef-co-016", "audioId": "b3",
+          "prompt": "Où peut-on recharger la carte, selon l'employée ?",
+          "options": ["Uniquement au guichet où il se trouve.", "Dans les stations et dans des petits commerces de quartier.", "Dans les autobus, auprès du chauffeur.", "Seulement sur Internet."],
+          "answer": 1,
+          "explain": "\"Dans toutes les stations de métro, aux distributrices, et aussi dans certains dépanneurs\" (Québec: \"dépanneur\" = corner store, \"distributrice\" = vending machine). Buses and the Internet are not mentioned, and \"uniquement\" contradicts the list.",
+          "microSkills": ["detail", "vocabulary"]
+        },
+        {
+          "id": "tef-co-017", "audioId": "b4",
+          "prompt": "Quelle difficulté l'homme mentionne-t-il ?",
+          "options": ["Il a perdu son passeport.", "Il ne peut pas se déplacer cette semaine.", "Il n'a pas encore de document prouvant son adresse.", "Il n'a pas encore de contrat de travail."],
+          "answer": 2,
+          "explain": "Asked for a \"justificatif de domicile\", he answers \"Pas encore [...] je suis hébergé chez un ami.\" He still has his passport, accepts Thursday's slot, and came to France \"pour mon travail\".",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-018", "audioId": "b4",
+          "prompt": "Que devra-t-il apporter, en plus de son passeport ?",
+          "options": ["Un document signé par la personne qui le loge.", "Une facture d'électricité à son nom.", "Une lettre de son employeur.", "Deux photos d'identité."],
+          "answer": 0,
+          "explain": "\"Une attestation d'hébergement signée par votre ami, avec une copie de sa carte d'identité.\" A utility bill in his name is precisely what he does not have; the other documents are not requested.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-019", "audioId": "b5",
+          "prompt": "Pourquoi cet horaire convient-il au candidat ?",
+          "options": ["Il a un autre emploi pendant la journée.", "Il étudie en matinée.", "Il habite tout près de l'entrepôt.", "Il préfère travailler la nuit."],
+          "answer": 1,
+          "explain": "\"Ça me convient très bien : je suis des cours le matin.\" No other job or address is mentioned, and the shift (16 h to midnight) is an evening shift, not a preference for night work.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-020", "audioId": "b5",
+          "prompt": "Qu'apprend-on sur la formation au chariot élévateur ?",
+          "options": ["Le candidat l'a déjà suivie.", "Elle dure deux semaines.", "Elle est assurée par l'entreprise elle-même.", "Elle doit être payée par le candidat."],
+          "answer": 2,
+          "explain": "\"On donne la formation nous-mêmes, sur place, en deux jours.\" He has never driven a forklift (\"Pas encore\"), it lasts two days, not two weeks, and no cost is mentioned. (Québec: \"on vous revient\" = we will get back to you.)",
+          "microSkills": ["detail"]
+        }
+      ]
+    },
+    {
+      "id": "tef-co-s3",
+      "title": "Radio news, interviews and testimonies",
+      "level": "b1",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "c1",
+          "context": "Bulletin d'information à la radio",
+          "lines": [
+            { "speaker": "Présentateur", "fr": "Il est huit heures, voici les titres." },
+            { "speaker": "Présentateur", "fr": "À Québec, la Ville annonce que les autobus seront gratuits pour les moins de dix-huit ans à partir du premier janvier." },
+            { "speaker": "Présentateur", "fr": "La mesure, testée l'été dernier, a attiré près de quarante mille jeunes usagers." },
+            { "speaker": "Présentateur", "fr": "Le maire espère ainsi réduire la circulation automobile au centre-ville." },
+            { "speaker": "Présentateur", "fr": "L'opposition, elle, s'inquiète de la facture : six millions de dollars par année." }
+          ]
+        },
+        {
+          "id": "c2",
+          "context": "Entretien à la radio avec un apiculteur",
+          "lines": [
+            { "speaker": "Journaliste", "fr": "Vous installez des ruches sur les toits de Paris depuis dix ans. Comment vos abeilles s'en sortent-elles en ville ?" },
+            { "speaker": "Homme", "fr": "Étonnamment bien ! Entre les parcs, les jardins et les balcons, elles trouvent une grande variété de fleurs. Et il y a beaucoup moins de pesticides qu'à la campagne." },
+            { "speaker": "Journaliste", "fr": "Tout va bien, donc ?" },
+            { "speaker": "Homme", "fr": "Pas tout à fait. Depuis quelques années, il y a trop de ruches dans certains quartiers. Les fleurs ne suffisent plus, et les abeilles domestiques privent de nourriture les insectes sauvages." },
+            { "speaker": "Journaliste", "fr": "Que conseillez-vous, alors ?" },
+            { "speaker": "Homme", "fr": "Aux entreprises qui veulent installer une ruche sur leur toit pour soigner leur image, je dis : plantez plutôt des fleurs. Ça rendra service à tout le monde." }
+          ]
+        },
+        {
+          "id": "c3",
+          "context": "Témoignage dans une émission sur l'immigration",
+          "lines": [
+            { "speaker": "Mariana", "fr": "Quand je suis arrivée à Sherbrooke, il y a trois ans, je pensais que mon français suffirait. Je l'avais appris au Brésil, avec des manuels venus de France." },
+            { "speaker": "Mariana", "fr": "Mais les premiers mois, je ne comprenais presque rien, au dépanneur comme au travail. Les gens parlaient vite, ils disaient « chu » pour « je suis », « char » pour « voiture »…" },
+            { "speaker": "Mariana", "fr": "J'ai bien failli tout lâcher." },
+            { "speaker": "Mariana", "fr": "Ce qui m'a sauvée, c'est le bénévolat dans une banque alimentaire. Là, j'étais obligée de parler, et les autres bénévoles prenaient le temps de m'expliquer les expressions." },
+            { "speaker": "Mariana", "fr": "Aujourd'hui, je suis infirmière auxiliaire… et c'est moi qui corrige le français de mes enfants !" }
+          ]
+        },
+        {
+          "id": "c4",
+          "context": "Point circulation à la radio, à Montréal",
+          "lines": [
+            { "speaker": "Journaliste", "fr": "Point circulation de dix-sept heures." },
+            { "speaker": "Journaliste", "fr": "Prudence sur l'autoroute 40 en direction est : un accident impliquant deux camions bloque deux voies à la hauteur de Pointe-aux-Trembles." },
+            { "speaker": "Journaliste", "fr": "Les équipes d'urgence sont sur place, et ça roule au pas sur près de huit kilomètres." },
+            { "speaker": "Journaliste", "fr": "On vous suggère de passer par la rue Sherbrooke ou par la rue Notre-Dame." },
+            { "speaker": "Journaliste", "fr": "Bonne nouvelle, par contre, pour ceux qui empruntent le pont Jacques-Cartier : les travaux sont terminés, et toutes les voies sont rouvertes." }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-co-021", "audioId": "c1",
+          "prompt": "Que se passera-t-il à partir du 1er janvier ?",
+          "options": ["Le prix du billet d'autobus augmentera.", "Les voitures seront interdites au centre-ville.", "Une période d'essai commencera.", "Les jeunes pourront prendre l'autobus sans payer."],
+          "answer": 3,
+          "explain": "\"Les autobus seront gratuits pour les moins de dix-huit ans à partir du premier janvier.\" The trial already took place \"l'été dernier\", and the mayor only hopes to reduce car traffic, not ban cars.",
+          "microSkills": ["main-idea", "paraphrase"]
+        },
+        {
+          "id": "tef-co-022", "audioId": "c1",
+          "prompt": "Que reproche l'opposition à ce projet ?",
+          "options": ["Son coût élevé.", "Son entrée en vigueur trop tardive.", "Son échec pendant l'été.", "Le fait qu'il exclut les personnes âgées."],
+          "answer": 0,
+          "explain": "\"L'opposition, elle, s'inquiète de la facture : six millions de dollars par année.\" The summer test was a success (\"quarante mille jeunes\"); timing and seniors are not mentioned.",
+          "microSkills": ["opinion-fact", "paraphrase"]
+        },
+        {
+          "id": "tef-co-023", "audioId": "c2",
+          "prompt": "Selon l'apiculteur, pourquoi les abeilles vont-elles bien en ville ?",
+          "options": ["Les températures y sont plus douces.", "Elles y sont protégées par la loi.", "Elles y trouvent une flore diversifiée et moins de produits chimiques.", "Il y a moins d'insectes concurrents."],
+          "answer": 2,
+          "explain": "\"Elles trouvent une grande variété de fleurs. Et il y a beaucoup moins de pesticides qu'à la campagne.\" Temperature and law are not mentioned, and he says the bees compete with wild insects, not that there are fewer of them.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-024", "audioId": "c2",
+          "prompt": "Quel problème récent signale-t-il ?",
+          "options": ["Les pesticides se multiplient en ville.", "Le nombre de ruches est trop élevé dans certains secteurs.", "Les habitants se plaignent des piqûres.", "Les toits sont trop chauds en été."],
+          "answer": 1,
+          "explain": "\"Depuis quelques années, il y a trop de ruches dans certains quartiers.\" He said the opposite about pesticides (fewer in town); stings and heat are never mentioned.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-025", "audioId": "c2",
+          "prompt": "Que recommande-t-il aux entreprises ?",
+          "options": ["Installer davantage de ruches.", "Vendre le miel produit sur leur toit.", "Faire appel à un apiculteur professionnel.", "Privilégier la plantation de fleurs plutôt que les ruches."],
+          "answer": 3,
+          "explain": "\"Plantez plutôt des fleurs.\" He is advising companies that install hives \"pour soigner leur image\" to do something else, so more hives or a professional beekeeper is the opposite of his advice.",
+          "microSkills": ["intention", "paraphrase"]
+        },
+        {
+          "id": "tef-co-026", "audioId": "c3",
+          "prompt": "Quelle difficulté Mariana a-t-elle rencontrée à son arrivée ?",
+          "options": ["Elle n'avait jamais étudié le français.", "Elle comprenait mal le français parlé au quotidien.", "Elle ne trouvait pas de poste d'infirmière.", "Elle ne pouvait pas faire de bénévolat."],
+          "answer": 1,
+          "explain": "\"Je ne comprenais presque rien, au dépanneur comme au travail. Les gens parlaient vite...\" She had studied French in Brazil, and volunteering is what helped her, not a problem.",
+          "microSkills": ["main-idea", "paraphrase"]
+        },
+        {
+          "id": "tef-co-027", "audioId": "c3",
+          "prompt": "Qu'est-ce qui l'a aidée à progresser ?",
+          "options": ["Une activité bénévole.", "Des cours intensifs.", "Ses enfants.", "Ses manuels de français."],
+          "answer": 0,
+          "explain": "\"Ce qui m'a sauvée, c'est le bénévolat dans une banque alimentaire.\" Her textbooks from France did not prepare her for spoken Québec French, and now she corrects her children, not the reverse.",
+          "microSkills": ["detail"]
+        },
+        {
+          "id": "tef-co-028", "audioId": "c3",
+          "prompt": "Que laisse entendre sa dernière phrase ?",
+          "options": ["Ses enfants parlent mieux français qu'elle.", "Elle est devenue enseignante de français.", "Ses enfants refusent de parler français.", "Elle se sent aujourd'hui très à l'aise en français."],
+          "answer": 3,
+          "explain": "\"C'est moi qui corrige le français de mes enfants !\" is a humorous way of saying she now masters the language. It implies the opposite of option A, and she says she is an \"infirmière auxiliaire\", not a teacher.",
+          "microSkills": ["inference"]
+        },
+        {
+          "id": "tef-co-029", "audioId": "c4",
+          "prompt": "Que conseille-t-on aux automobilistes qui roulent vers l'est sur la 40 ?",
+          "options": ["Rester sur la voie de droite.", "Emprunter un autre trajet.", "Attendre la fin des travaux.", "Prendre le pont Jacques-Cartier."],
+          "answer": 1,
+          "explain": "\"On vous suggère de passer par la rue Sherbrooke ou par la rue Notre-Dame\": a detour. On the 40 there is an accident, not roadworks; the bridge is mentioned as separate good news, not as the suggested detour.",
+          "microSkills": ["intention", "paraphrase"]
+        },
+        {
+          "id": "tef-co-030", "audioId": "c4",
+          "prompt": "Quelle bonne nouvelle la journaliste annonce-t-elle ?",
+          "options": ["L'accident n'a fait aucun blessé.", "L'autoroute 40 est rouverte.", "Un pont a retrouvé sa capacité normale.", "Les camions sont interdits à l'heure de pointe."],
+          "answer": 2,
+          "explain": "\"Pont Jacques-Cartier : les travaux sont terminés, et toutes les voies sont rouvertes.\" Nothing is said about injuries, and the 40 is still partly blocked (\"ça roule au pas\").",
+          "microSkills": ["detail", "paraphrase"]
+        }
+      ]
+    },
+    {
+      "id": "tef-co-s4",
+      "title": "Opinions and debates",
+      "level": "b2",
+      "minutes": 10,
+      "audios": [
+        {
+          "id": "d1",
+          "context": "Débat à la radio sur le télétravail",
+          "lines": [
+            { "speaker": "Présentateur", "fr": "Faut-il revenir au bureau cinq jours sur cinq ? Nous en débattons avec Marc Lefort, dirigeant d'une PME, et la sociologue Hélène Brunet." },
+            { "speaker": "Marc", "fr": "Je vais être franc : je ne suis pas contre le télétravail, il a rendu service à tout le monde. Mais on a perdu quelque chose. Un jeune qui débute apprend en observant, en posant une question entre deux portes. Derrière un écran, il n'ose pas." },
+            { "speaker": "Hélène", "fr": "J'entends l'argument, mais on idéalise beaucoup le bureau d'avant. Ce qui compte, c'est l'organisation : un tutorat bien pensé fonctionne aussi à distance. Imposer le retour, c'est souvent une façon de contrôler plutôt que d'accompagner." },
+            { "speaker": "Marc", "fr": "Contrôler, non… Mais avouez que c'est plus facile de voir qu'un employé décroche quand il est assis en face de vous." },
+            { "speaker": "Hélène", "fr": "Eh bien, vous venez de me donner raison." }
+          ]
+        },
+        {
+          "id": "d2",
+          "context": "Chronique à la radio",
+          "lines": [
+            { "speaker": "Chroniqueuse", "fr": "Cet été encore, nous avons fait la queue deux heures pour photographier un village « authentique » où plus personne n'habite à l'année." },
+            { "speaker": "Chroniqueuse", "fr": "Les maisons sont devenues des locations de courte durée, la boulangerie vend des aimants pour le frigo, et l'on s'étonne ensuite que les derniers habitants nous regardent de travers." },
+            { "speaker": "Chroniqueuse", "fr": "Attention, je ne dis pas qu'il faut cesser de voyager." },
+            { "speaker": "Chroniqueuse", "fr": "Je dis simplement qu'il serait temps de se demander si l'on visite encore un lieu… ou seulement le décor qu'on a vu passer sur les réseaux sociaux." }
+          ]
+        },
+        {
+          "id": "d3",
+          "context": "Entretien avec un maraîcher québécois",
+          "lines": [
+            { "speaker": "Journaliste", "fr": "On entend partout « achetez local ». Pour vous, maraîcher en Montérégie, est-ce que ce message a changé quelque chose ?" },
+            { "speaker": "Producteur", "fr": "Pendant la pandémie, oui, énormément. Les gens faisaient la file à la ferme le samedi matin. Mais honnêtement, l'effet s'est essoufflé. Quand le panier d'épicerie coûte vingt pour cent plus cher qu'il y a trois ans, le monde regarde le prix avant l'étiquette." },
+            { "speaker": "Journaliste", "fr": "Vous leur en voulez ?" },
+            { "speaker": "Producteur", "fr": "Pas du tout, je ferais pareil à leur place. Ce que je trouve injuste, c'est qu'on fasse reposer tout l'effort sur les familles. Si les hôpitaux et les écoles achetaient québécois, ça changerait bien plus de choses que mes kiosques du samedi." }
+          ]
+        },
+        {
+          "id": "d4",
+          "context": "Reportage sur l'interdiction des cellulaires à l'école",
+          "lines": [
+            { "speaker": "Journaliste", "fr": "Depuis la rentrée, les cellulaires sont interdits dans les écoles secondaires de la région. Premier bilan avec Julie Côté, enseignante, et Samuel Ouellet, père de deux adolescents." },
+            { "speaker": "Julie", "fr": "Dans ma classe, le changement est spectaculaire. Les jeunes se reparlent à la récréation, et certains m'ont même avoué qu'ils étaient soulagés." },
+            { "speaker": "Samuel", "fr": "Je ne nie pas que l'ambiance soit meilleure. Mais ma fille prend l'autobus à six heures et demie, il fait encore noir, et je ne peux plus la joindre de la journée. On a réglé un problème en en créant un autre." },
+            { "speaker": "Julie", "fr": "Les téléphones restent dans les casiers, ils ne sont pas confisqués. Et en cas d'urgence, le secrétariat appelle les parents." }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-co-031", "audioId": "d1",
+          "prompt": "Quelle est la position de Marc Lefort ?",
+          "options": ["Il reconnaît l'utilité du télétravail, mais estime qu'il pénalise les débutants.", "Il souhaite supprimer totalement le télétravail.", "Il pense que le télétravail facilite l'apprentissage.", "Il n'a pas d'avis tranché sur la question."],
+          "answer": 0,
+          "explain": "\"Je ne suis pas contre le télétravail, il a rendu service\" + \"Un jeune qui débute [...] derrière un écran, il n'ose pas.\" He is not for abolishing it, he says it hinders learning, and his view is clearly stated.",
+          "microSkills": ["opinion-fact", "paraphrase"]
+        },
+        {
+          "id": "tef-co-032", "audioId": "d1",
+          "prompt": "Selon Hélène Brunet, de quoi dépend la réussite de l'intégration des nouveaux employés ?",
+          "options": ["De leur présence physique au bureau.", "Des outils informatiques mis à leur disposition.", "De la qualité de l'encadrement prévu.", "De leur âge et de leur expérience."],
+          "answer": 2,
+          "explain": "\"Ce qui compte, c'est l'organisation : un tutorat bien pensé fonctionne aussi à distance.\" Physical presence is Marc's view, which she says is idealised; tools and age are not mentioned.",
+          "microSkills": ["paraphrase", "opinion-fact"]
+        },
+        {
+          "id": "tef-co-033", "audioId": "d1",
+          "prompt": "Que veut dire Hélène Brunet par « vous venez de me donner raison » ?",
+          "options": ["Elle reconnaît que le bureau favorise l'apprentissage.", "Elle change d'avis sur le télétravail.", "Elle n'a pas compris la remarque de Marc.", "Elle estime que la remarque de Marc confirme une logique de surveillance."],
+          "answer": 3,
+          "explain": "She had said the return to the office is \"une façon de contrôler\"; Marc then admits it is easier to \"voir qu'un employé décroche\" when he sits in front of you, i.e. to watch him. Her reply is ironic: his words prove her point, she does not change her mind.",
+          "microSkills": ["inference", "intention"]
+        },
+        {
+          "id": "tef-co-034", "audioId": "d2",
+          "prompt": "Quel est le ton de la chroniqueuse ?",
+          "options": ["Ironique et critique.", "Enthousiaste.", "Neutre et purement informatif.", "Résigné et nostalgique."],
+          "answer": 0,
+          "explain": "Quotation marks around « authentique » for a village \"où plus personne n'habite\", a bakery that sells \"des aimants pour le frigo\", \"l'on s'étonne ensuite...\": mocking and critical. She ends with a call to reflect, which is not resignation.",
+          "microSkills": ["intention", "inference"]
+        },
+        {
+          "id": "tef-co-035", "audioId": "d2",
+          "prompt": "Qu'attend-elle des voyageurs ?",
+          "options": ["Qu'ils renoncent à partir en vacances.", "Qu'ils s'interrogent sur leur façon de voyager.", "Qu'ils boycottent les locations de courte durée.", "Qu'ils évitent de publier des photos."],
+          "answer": 1,
+          "explain": "\"Il serait temps de se demander si l'on visite encore un lieu…\" She explicitly rejects option A: \"je ne dis pas qu'il faut cesser de voyager\". She describes short-term rentals and social media but calls for no boycott or ban.",
+          "microSkills": ["main-idea", "paraphrase"]
+        },
+        {
+          "id": "tef-co-036", "audioId": "d3",
+          "prompt": "Selon le producteur, comment l'engouement pour l'achat local a-t-il évolué ?",
+          "options": ["Il est retombé après la pandémie.", "Il ne cesse de progresser.", "Il est resté stable.", "Il varie selon les saisons."],
+          "answer": 0,
+          "explain": "\"Pendant la pandémie, oui, énormément [...] Mais honnêtement, l'effet s'est essoufflé.\" \"S'essouffler\" = to run out of steam, so interest has dropped, not grown or stayed stable.",
+          "microSkills": ["paraphrase", "vocabulary"]
+        },
+        {
+          "id": "tef-co-037", "audioId": "d3",
+          "prompt": "Quelle attitude a-t-il envers les consommateurs ?",
+          "options": ["Il leur reproche leur égoïsme.", "Il les trouve mal informés.", "Il leur demande de payer davantage.", "Il se montre compréhensif à leur égard."],
+          "answer": 3,
+          "explain": "\"Vous leur en voulez ? — Pas du tout, je ferais pareil à leur place.\" He blames the system that puts \"tout l'effort sur les familles\", not the families themselves.",
+          "microSkills": ["intention", "opinion-fact"]
+        },
+        {
+          "id": "tef-co-038", "audioId": "d3",
+          "prompt": "Que souhaiterait-il ?",
+          "options": ["Que les familles fassent davantage d'efforts.", "Que les établissements publics s'approvisionnent auprès des producteurs d'ici.", "Ouvrir d'autres kiosques.", "Que l'État baisse le prix des aliments."],
+          "answer": 1,
+          "explain": "\"Si les hôpitaux et les écoles achetaient québécois, ça changerait bien plus de choses.\" He finds it unfair to put the effort on families, and he contrasts his \"kiosques du samedi\" with this bigger solution.",
+          "microSkills": ["inference", "paraphrase"]
+        },
+        {
+          "id": "tef-co-039", "audioId": "d4",
+          "prompt": "Qu'est-ce qui inquiète Samuel Ouellet ?",
+          "options": ["Il ne peut plus communiquer avec sa fille pendant les heures d'école.", "Les résultats scolaires de sa fille baissent.", "L'ambiance s'est dégradée à l'école.", "Sa fille s'est fait confisquer son téléphone."],
+          "answer": 0,
+          "explain": "\"Je ne peux plus la joindre de la journée.\" He concedes \"l'ambiance [est] meilleure\", grades are not mentioned, and Julie states the phones \"ne sont pas confisqués\".",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-co-040", "audioId": "d4",
+          "prompt": "Comment Julie Côté répond-elle à cette inquiétude ?",
+          "options": ["Elle propose d'assouplir la règle.", "Elle reconnaît que l'interdiction est une erreur.", "Elle rappelle qu'un contact reste possible par l'intermédiaire de l'école.", "Elle affirme que les élèves peuvent garder leur téléphone sur eux."],
+          "answer": 2,
+          "explain": "\"En cas d'urgence, le secrétariat appelle les parents.\" She defends the rule rather than softening it, and the phones stay \"dans les casiers\", not on the students.",
+          "microSkills": ["intention", "paraphrase"]
+        }
+      ]
+    }
+  ]
+}

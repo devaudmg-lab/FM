@@ -1,0 +1,30 @@
+/* Exam Lab */
+.exam-switch { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; background: var(--paper-2); }
+.exam-switch a { padding: 6px 16px; border-radius: 999px; text-decoration: none; color: var(--ink-muted); font-weight: 700; font-size: var(--fs-sm); }
+.exam-switch a[aria-current="page"] { background: var(--paper); color: var(--blue); box-shadow: 0 0 0 1px var(--line); }
+.ability { display: flex; flex-direction: column; gap: var(--s3); }
+.ability .code { font-family: var(--font-fr); font-size: var(--fs-2xl); font-weight: 600; color: var(--blue); line-height: 1; }
+.ability .est { font-size: var(--fs-sm); }
+.ability .actions { margin-top: auto; display: flex; gap: var(--s2); flex-wrap: wrap; }
+.stage-list { list-style: none; margin: 0; padding: 0; counter-reset: st; }
+.stage-list li { display: grid; grid-template-columns: 2rem 1fr auto; gap: var(--s3); padding: var(--s3) 0; border-top: 1px solid var(--line); align-items: baseline; }
+.stage-list li::before { counter-increment: st; content: counter(st); font-family: var(--font-fr); font-weight: 600; color: var(--ink-faint); font-size: var(--fs-lg); }
+.stage-list li.open::before { color: var(--blue); }
+.exam-run-top { display: grid; grid-template-columns: auto 1fr auto; gap: var(--s4); align-items: center; padding: var(--s3) var(--s5); border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--paper); z-index: 10; }
+.exam-run-top > :nth-child(2) { min-width: 0; }
+.exam-run-top > :nth-child(2) .small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 640px) {
+  .abilities { grid-template-columns: 1fr 1fr; gap: var(--s3); }
+  .abilities .panel { padding: var(--s4); }
+  .abilities .actions .btn { width: 100%; }
+  .exam-switch a { padding: 6px 12px; }
+  .ability .code { font-size: var(--fs-xl); }
+  .stage-list li { grid-template-columns: 1.5rem 1fr; }
+  .stage-list li > .tag { grid-column: 2; justify-self: start; }
+}
+.exam-doc { border: 1px solid var(--line); background: var(--paper-2); border-radius: var(--r-md); padding: var(--s5); margin-bottom: var(--s4); }
+.exam-doc .fr { font-size: var(--fs-md); }
+.nclc-table td, .nclc-table th { text-align: center; }
+.nclc-table tr.target { background: var(--blue-soft); font-weight: 700; }
+.disclaimer { font-size: var(--fs-xs); color: var(--ink-muted); display: flex; gap: var(--s2); align-items: flex-start; }
+.disclaimer svg { width: 16px; height: 16px; flex: none; margin-top: 2px; }

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-03-02",
+  "level": "b1",
+  "unit": "b1-03",
+  "title": "The CV and cover letter",
+  "goal": "Write a Canadian-style CV in French and a short cover letter (lettre de présentation) with the right sections, tenses and formulas.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-experience-tenses", "kind": "grammar", "fr": "je travaille depuis… / j'ai travaillé pendant…", "en": "talking about your experience: depuis, pendant, comme",
+      "drills": [
+        { "type": "cloze", "text": "Je travaille comme développeur ___ 2019.", "answers": [["depuis"]], "en": "I've been working as a developer since 2019.", "explain": "Still true now → present tense + [[depuis]]." },
+        { "type": "cloze", "text": "J'___ travaillé ___ six ans dans un cabinet comptable.", "answers": [["ai"], ["pendant"]], "en": "I worked for six years in an accounting firm.", "explain": "Finished experience → passé composé + [[pendant]] + length of time." },
+        { "type": "mcq", "prompt": "“I worked as a nurse.”", "options": ["J'ai travaillé comme infirmière.", "J'ai travaillé comme une infirmière.", "J'ai travaillé en tant qu'une infirmière."], "optionsFr": true, "answer": 0, "explain": "[[comme]] + job, with **no article**: [[comme infirmière]], [[comme technicien]]." },
+        { "type": "translate", "prompt": "I worked as a teacher for ten years.", "accept": ["J'ai travaillé comme enseignant pendant dix ans.", "J'ai travaillé comme enseignante pendant dix ans.", "J'ai travaillé comme professeur pendant dix ans.", "J'ai travaillé comme professeure pendant dix ans.", "J'ai été enseignant pendant dix ans.", "J'ai été enseignante pendant dix ans.", "Pendant dix ans, j'ai travaillé comme enseignant.", "Pendant dix ans, j'ai travaillé comme enseignante.", "J'ai travaillé pendant dix ans comme enseignant.", "J'ai travaillé pendant dix ans comme enseignante."], "explain": "Finished: passé composé + [[pendant dix ans]]; [[comme]] + job without an article." }
+      ] },
+    { "id": "g-letter-formulas", "kind": "grammar", "fr": "Je vous écris pour… / Je serais heureux de… / Je vous prie d'agréer…", "en": "cover letter formulas",
+      "drills": [
+        { "type": "cloze", "text": "Je vous écris pour poser ma ___ au poste de comptable.", "answers": [["candidature"]], "en": "I am writing to apply for the accountant position.", "explain": "The classic opening: [[Je vous écris pour poser ma candidature au poste de…]]" },
+        { "type": "cloze", "text": "Je serais ___ de vous rencontrer. (a woman writing)", "answers": [["heureuse"]], "en": "I would be happy to meet you.", "explain": "The adjective agrees with the writer: [[heureux]] (man), [[heureuse]] (woman)." },
+        { "type": "mcq", "prompt": "Which is a correct formal closing?", "options": ["Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.", "Bisous et à bientôt, Madame.", "Je vous prie d'agréer, Madame Gagnon, mes bisous distingués."], "optionsFr": true, "answer": 0, "explain": "The fixed formula repeats the greeting you used ([[Madame,]]) and ends with [[salutations distinguées]]." }
+      ] },
+    { "id": "cv", "kind": "vocab", "fr": "CV", "article": "le", "gender": "m", "en": "CV (résumé)", "pos": "noun", "accept": ["un CV", "le curriculum vitæ"],
+      "example": { "fr": "J'ai mis mon CV à jour.", "en": "I updated my résumé." }, "note": "Say it *cé-vé*. In Canadian English it's a *résumé*, but in French [[un résumé]] is a summary." },
+    { "id": "lettre-presentation", "kind": "vocab", "fr": "lettre de présentation", "article": "la", "gender": "f", "en": "cover letter (Québec term)", "pos": "noun", "accept": ["une lettre de présentation"],
+      "example": { "fr": "Joignez une lettre de présentation à votre CV.", "en": "Attach a cover letter to your CV." } },
+    { "id": "lettre-motivation", "kind": "vocab", "fr": "lettre de motivation", "article": "la", "gender": "f", "en": "cover letter (France term)", "pos": "noun", "accept": ["une lettre de motivation"],
+      "example": { "fr": "En France, on envoie un CV et une lettre de motivation.", "en": "In France, you send a CV and a cover letter." } },
+    { "id": "formation", "kind": "vocab", "fr": "formation", "article": "la", "gender": "f", "en": "education (training)", "pos": "noun", "accept": ["une formation"],
+      "example": { "fr": "Dans mon CV, la formation est après l'expérience.", "en": "In my CV, education comes after experience." }, "note": "A false friend: on a CV, [[la formation]] means your education or training, not a *formation* in the English sense." },
+    { "id": "benevolat", "kind": "vocab", "fr": "bénévolat", "article": "le", "gender": "m", "en": "volunteering (volunteer work)", "pos": "noun", "accept": ["du bénévolat"],
+      "example": { "fr": "Je fais du bénévolat dans une bibliothèque.", "en": "I volunteer at a library." }, "note": "A volunteer: [[un bénévole]] / [[une bénévole]]." },
+    { "id": "coordonnees", "kind": "vocab", "fr": "coordonnées", "article": "les", "gender": "f", "en": "contact details", "pos": "noun", "accept": ["mes coordonnées", "vos coordonnées"],
+      "example": { "fr": "Mes coordonnées sont en haut du CV.", "en": "My contact details are at the top of the CV." } },
+    { "id": "langue-maternelle", "kind": "vocab", "fr": "langue maternelle", "article": "la", "gender": "f", "en": "mother tongue (first language)", "pos": "noun", "accept": ["ma langue maternelle"],
+      "example": { "fr": "Ma langue maternelle est l'hindi.", "en": "My mother tongue is Hindi." } },
+    { "id": "mettre-a-jour", "kind": "phrase", "fr": "mettre son CV à jour", "en": "to update your CV", "accept": ["mettre mon CV à jour", "mettre à jour son CV", "mettre à jour mon CV"] },
+    { "id": "je-vous-ecris", "kind": "phrase", "fr": "Je vous écris pour poser ma candidature au poste de technicien.", "en": "I'm writing to apply for the technician position.", "accept": ["Je vous écris pour poser ma candidature au poste de technicienne."] },
+    { "id": "references", "kind": "phrase", "fr": "Références disponibles sur demande", "en": "References available upon request" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Raj's application",
+      "intro": "Raj, a web developer from India, has lived in Montréal for two years. He's applying to a company that builds software for community organizations. Read his CV, then his cover letter. Notice how the two documents use different styles.",
+      "blocks": [
+        { "type": "text", "title": "Le CV de Raj (extrait)",
+          "context": "A two-page CV, Canadian style. Raj's phone and email are at the top.",
+          "fr": "RAJ SHARMA, Montréal (Québec)\nPROFIL\nDéveloppeur web avec sept ans d'expérience en conception d'applications. Personne rigoureuse et curieuse, à l'aise dans une équipe multiculturelle.\nCOMPÉTENCES\n- Langages : Java, Python et JavaScript\n- Gestion de projets en méthode agile\n- Formation et accompagnement de nouveaux employés\nEXPÉRIENCE PROFESSIONNELLE\nDe 2019 à 2024 : développeur principal, Infotech Solutions, Bangalore (Inde)\n- Direction d'une équipe de quatre développeurs\n- Création d'une application de paiement pour plus de 200 000 clients\nDe 2017 à 2019 : développeur, Infotech Solutions\n- Développement et maintenance de sites Web\nFORMATION\n2017 : baccalauréat en informatique, Inde (évaluation comparative obtenue au Québec)\n2025 : francisation à temps plein, Montréal\nLANGUES\nAnglais : courant. Hindi : langue maternelle. Français : intermédiaire, niveau B1.\nBÉNÉVOLAT\nDepuis 2025 : aide aux devoirs en mathématiques, bibliothèque de quartier\nRéférences disponibles sur demande",
+          "en": "RAJ SHARMA, Montréal (Québec). PROFILE: Web developer with seven years of experience in designing applications. Rigorous and curious person, comfortable in a multicultural team. SKILLS: Languages: Java, Python and JavaScript. Agile project management. Training and coaching new employees. WORK EXPERIENCE: 2019 to 2024: lead developer, Infotech Solutions, Bangalore (India) – leading a team of four developers; creating a payment app for more than 200,000 clients. 2017 to 2019: developer, Infotech Solutions – developing and maintaining websites. EDUCATION: 2017: bachelor's degree in computer science, India (comparative evaluation obtained in Québec). 2025: full-time French classes for immigrants, Montréal. LANGUAGES: English: fluent. Hindi: mother tongue. French: intermediate, B1 level. VOLUNTEERING: Since 2025: math homework help, neighbourhood library. References available upon request." },
+        { "type": "text", "title": "La lettre de présentation de Raj",
+          "context": "Raj writes to Madame Gagnon, the HR manager. Her name and the company's address are at the top of the letter.",
+          "fr": "Montréal, le 3 novembre 2026\nObjet : candidature au poste de développeur web\nMadame,\nJe vous écris pour poser ma candidature au poste de développeur web affiché sur votre site.\nDéveloppeur web avec sept ans d'expérience, j'ai conçu et géré des applications pour des entreprises de services financiers. Chez Infotech Solutions, j'ai dirigé une équipe de quatre personnes, et nous avons créé une application de paiement pour plus de 200 000 clients. Avant de venir au Canada, j'avais déjà travaillé avec des équipes à Toronto et à Londres : je suis donc très à l'aise dans un environnement multiculturel.\nVotre entreprise m'intéresse particulièrement parce qu'elle développe des outils pour les organismes communautaires. J'aimerais mettre mes compétences au service de projets utiles pour la société. Depuis mon arrivée à Montréal, je suis des cours de francisation et je fais du bénévolat dans une bibliothèque de quartier.\nJe serais heureux de vous rencontrer pour une entrevue. Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\nRaj Sharma",
+          "en": "Montréal, November 3, 2026. Subject: application for the web developer position. Dear Madam, I am writing to apply for the web developer position posted on your website. A web developer with seven years of experience, I have designed and managed applications for financial services companies. At Infotech Solutions, I led a team of four people, and we created a payment app for more than 200,000 clients. Before coming to Canada, I had already worked with teams in Toronto and London, so I am very comfortable in a multicultural environment. Your company particularly interests me because it develops tools for community organizations. I would like to put my skills to work on projects that are useful to society. Since arriving in Montréal, I have been taking French classes and volunteering at a neighbourhood library. I would be happy to meet you for an interview. Yours sincerely, Raj Sharma" },
+        { "id": "d1", "type": "mcq", "prompt": "What is NOT on Raj's CV?", "options": ["A photo, his age and his marital status", "His volunteer work", "His languages", "His French level"], "answer": 0,
+          "explain": "In Canada, a CV normally has **no photo, no date of birth and no marital status**. Employers should choose on skills only." },
+        { "id": "d2", "type": "mcq", "prompt": "In the CV, Raj writes “Direction d'une équipe”. In the letter, he writes…", "options": ["j'ai dirigé une équipe", "direction d'une équipe", "diriger une équipe"], "optionsFr": true, "answer": 0,
+          "explain": "A CV uses short **noun phrases** (or infinitives). A letter uses **full sentences**, often in the passé composé." }
+      ] },
+    { "type": "understand", "title": "Two documents, two styles",
+      "blocks": [
+        { "type": "table", "title": "The Canadian CV, section by section",
+          "head": ["Section", "What to put", "Style"],
+          "rows": [
+            ["Coordonnées", "name, city, phone, email (LinkedIn if you have it)", "no photo, no age, no marital status"],
+            ["Profil", "two or three lines: who you are professionally", "noun phrases: Développeur web avec sept ans d'expérience…"],
+            ["Compétences", "technical skills and soft skills", "Gestion de projets, Service à la clientèle"],
+            ["Expérience professionnelle", "most recent job first", "Direction d'une équipe… / Diriger une équipe…"],
+            ["Formation", "diplomas, courses, French classes", "2017 : baccalauréat en informatique"],
+            ["Langues, Bénévolat", "levels, volunteer work in Canada", "Français : intermédiaire"]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "In job lists, choose **one** style and keep it: all nouns ([[Création, Gestion, Formation]]) or all infinitives ([[Créer, Gérer, Former]]). Two pages maximum." },
+        { "type": "table", "title": "The cover letter in four paragraphs",
+          "head": ["Paragraph", "Role", "Useful formulas"],
+          "rows": [
+            ["1. Why I'm writing", "name the position", "Je vous écris pour poser ma candidature au poste de… affiché sur votre site."],
+            ["2. Me", "your experience and results", "Depuis cinq ans, je… / Chez…, j'ai géré… / J'avais déjà travaillé…"],
+            ["3. You", "why this company", "Votre entreprise m'intéresse parce que… J'aimerais mettre mes compétences au service de…"],
+            ["4. Closing", "ask for an interview, formal goodbye", "Je serais heureux / heureuse de vous rencontrer. Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées."]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "Start with [[Madame,]] or [[Monsieur,]] (or [[Madame, Monsieur,]] if you don't know who will read it), and **repeat the same words** in the closing formula. The person's name goes in the address block, not in the greeting." },
+        { "type": "pattern", "title": "Talking about your experience",
+          "pattern": "présent + depuis (still true) · passé composé + pendant (finished) · comme + métier (no article)",
+          "note": "You learned [[depuis]], [[pendant]] and [[il y a]] at A2. In a CV and letter they do a lot of work. Add [[avant de + infinitif]] and the plus-que-parfait from unit 2 to show what you had done before.",
+          "examples": [
+            { "fr": "Je travaille comme technicienne depuis 2021.", "en": "I've been working as a technician since 2021." },
+            { "fr": "J'ai enseigné les mathématiques pendant huit ans.", "en": "I taught math for eight years." },
+            { "fr": "Avant de venir au Canada, j'avais déjà travaillé avec des clients américains.", "en": "Before coming to Canada, I had already worked with American clients." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["cv", "lettre-presentation", "lettre-motivation", "formation", "benevolat", "coordonnees", "langue-maternelle", "mettre-a-jour", "references"] },
+        { "type": "deepdive", "kind": "canada", "title": "Lettre de présentation or lettre de motivation?",
+          "body": "Same document, two names. In Québec and in Canadian job ads, you will mostly read [[lettre de présentation]]. In France, it's [[lettre de motivation]]. Use the word the ad uses.\n\nOther Canadian habits:\n\n- **Never** put your social insurance number ([[le NAS]], numéro d'assurance sociale) on a CV.\n- Canadian volunteer work ([[le bénévolat]]) is valued: it shows local experience and contacts.\n- Some job titles are **protected** by a professional order (for example [[ingénieur]] in Québec). If you don't have the permit yet, describe what you do: [[développeur]], [[analyste]], [[technicien]].\n- In Québec, the job interview is [[une entrevue]]; in France, [[un entretien]].\n\nRules about regulated titles change, so check official sources (the professional order or the government) for your profession." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common errors in CVs and letters",
+          "body": "- [[un résumé]] is a **summary**. The document is [[un CV]].\n- [[Ma formation]] = my **education**, not a *formation*.\n- [[Je suis un développeur]] → [[Je suis développeur]] or [[Je travaille comme développeur]]: no article with a job.\n- [[Je travaille ici pour trois ans]] → [[Je travaille ici depuis trois ans]] (still true).\n- Mixing styles: [[Gestion de l'équipe, créer des rapports, j'ai formé les employés]] → pick one: [[Gestion de l'équipe, création de rapports, formation des employés]].\n- [[Je serais heureux]] if you're a man, [[heureuse]] if you're a woman. Check every adjective about yourself.\n- [[Chère Madame]]: in a formal letter to someone you don't know, avoid [[Cher / Chère]]. Write [[Madame,]]." },
+        { "type": "deepdive", "kind": "why", "title": "Why “je serais” and “j'aimerais”?",
+          "body": "These are forms of the **conditionnel**, which you will study in unit 6. For now, learn them as polite chunks: they make a request softer than the present.\n\n- [[Je veux vous rencontrer.]] sounds demanding.\n- [[Je serais heureux de vous rencontrer.]] sounds professional.\n- [[J'aimerais mettre mes compétences au service de votre équipe.]] = I would like to…",
+          "examples": [ { "fr": "J'aimerais travailler dans votre équipe.", "en": "I would like to work on your team." } ] }
+      ] },
+    { "type": "hear", "title": "Hear the formulas",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Read your letter aloud before you send it: if a sentence is hard to say, it's often too long.",
+          "lines": [
+            { "fr": "Je vous écris pour poser ma candidature au poste de développeur web.", "en": "I'm writing to apply for the web developer position.", "tip": "vous‿écris: link with a z sound." },
+            { "fr": "Je travaille comme développeur depuis sept ans.", "en": "I've been working as a developer for seven years.", "tip": "sept ans: the t is pronounced and linked, sè-tan." },
+            { "fr": "Votre entreprise m'intéresse particulièrement.", "en": "Your company particularly interests me." },
+            { "fr": "Je serais heureuse de vous rencontrer.", "en": "I would be happy to meet you. (woman)", "tip": "heureuse ends with a z sound; heureux ends with a vowel." },
+            { "fr": "Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.", "en": "Yours sincerely. (to a woman)" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Pendant cinq ans, j'ai travaillé comme infirmière à Dakar. Maintenant, je suis une formation au cégep.", "en": "For five years, I worked as a nurse in Dakar. Now I'm taking a training program at the cégep.", "prompt": "What is she doing now?", "options": ["Taking a training program", "Working as a nurse in Dakar", "Teaching at a cégep"], "answer": 0,
+          "explain": "[[J'ai travaillé]] + [[pendant]] = finished. [[Maintenant, je suis une formation]]: [[suivre une formation]] = take a course or program." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je travaille au service à la clientèle depuis deux ans.", "en": "I've been working in customer service for two years.", "prompt": "Does he still work in customer service?", "options": ["Yes", "No, he stopped two years ago", "No, he never did"], "answer": 0,
+          "explain": "Present + [[depuis]]: it started two years ago and is still true." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "Which of these should NOT go on a Canadian CV?", "options": ["Your social insurance number", "Your volunteer work", "Your French level", "Your email address"], "answer": 0,
+          "explain": "Never give your [[NAS]] on a CV: you only give it to an employer once you're hired." },
+        { "id": "r2", "type": "cloze", "text": "Je travaille ___ technicienne ___ 2021.", "answers": [["comme"], ["depuis"]], "choices": ["comme", "une", "depuis", "pendant"], "en": "I've been working as a technician since 2021.", "explain": "[[comme]] + job (no article); present + [[depuis]] for something still true." },
+        { "id": "r3", "type": "translate", "prompt": "I'm writing to apply for the accountant position.", "accept": ["Je vous écris pour poser ma candidature au poste de comptable.", "Je vous écris afin de poser ma candidature au poste de comptable.", "Je vous écris pour postuler au poste de comptable.", "Je vous écris afin de postuler au poste de comptable."], "hint": "Je vous écris pour…",
+          "explain": "The standard opening: [[Je vous écris pour poser ma candidature au poste de…]]" },
+        { "id": "r4", "type": "match", "prompt": "Match the CV section with its English.", "pairs": [["Formation", "Education"], ["Expérience professionnelle", "Work experience"], ["Bénévolat", "Volunteering"], ["Coordonnées", "Contact details"], ["Compétences", "Skills"]] },
+        { "id": "r5", "type": "mcq", "prompt": "Which list keeps ONE consistent style?", "options": ["Gestion du budget, création de rapports, formation des employés", "Gestion du budget, créer des rapports, j'ai formé les employés", "Gérer le budget, création de rapports, former des employés"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Three styles mixed: noun, infinitive, sentence.", "Infinitive, noun, infinitive: not consistent."] },
+        { "id": "r6", "type": "translate", "prompt": "Before coming to Canada, I had already worked with American clients.", "accept": ["Avant de venir au Canada, j'avais déjà travaillé avec des clients américains.", "Avant d'arriver au Canada, j'avais déjà travaillé avec des clients américains.", "J'avais déjà travaillé avec des clients américains avant de venir au Canada.", "J'avais déjà travaillé avec des clients américains avant d'arriver au Canada."], "hint": "avant de + infinitive, then the plus-que-parfait.",
+          "explain": "Unit 2 review: [[avant de venir]], then [[j'avais déjà travaillé]] for the earlier past." },
+        { "id": "r7", "type": "cloze", "text": "Je serais ___ de vous rencontrer pour une ___. (a man writing, Québec)", "answers": [["heureux"], ["entrevue"]], "choices": ["heureux", "heureuse", "entrevue", "entretien"], "en": "I would be happy to meet you for an interview.", "explain": "Man → [[heureux]]. In Québec, the interview is [[une entrevue]] ([[un entretien]] in France)." },
+        { "id": "r8", "type": "reorder", "prompt": "I volunteer at a library.", "accept": ["Je fais du bénévolat dans une bibliothèque"], "extra": ["de la"],
+          "explain": "[[faire du bénévolat]]: [[bénévolat]] is masculine, so [[du]]." },
+        { "id": "r9", "type": "dictation", "fr": "Références disponibles sur demande.", "accept": [], "explain": "[[disponibles]] agrees with [[références]] (feminine plural), but the -s is silent." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Choose a real or imagined job ad and write your cover letter (lettre de présentation) in four short paragraphs: why you're writing, your experience, why this company, and the closing.", "promptFr": "Rédigez votre lettre de présentation.",
+          "wordRange": [100, 160],
+          "checklist": ["Place, date and Objet", "Madame, / Monsieur, / Madame, Monsieur,", "Je vous écris pour poser ma candidature au poste de…", "Experience with depuis or pendant, and comme + job", "One result: j'ai géré / créé / formé…", "Why this company: … m'intéresse parce que…", "J'aimerais… / Je serais heureux·se de vous rencontrer", "The same greeting repeated in the closing formula"],
+          "models": [ { "label": "Model answer", "fr": "Montréal, le 10 novembre 2026\nObjet : candidature au poste de technicienne en comptabilité\nMadame, Monsieur,\nJe vous écris pour poser ma candidature au poste de technicienne en comptabilité affiché sur votre site.\nJ'ai travaillé pendant six ans comme comptable dans un cabinet à Casablanca. J'ai préparé la paie de plus de cinquante entreprises et j'ai formé trois nouvelles employées. Je maîtrise très bien Excel.\nVotre entreprise m'intéresse parce qu'elle offre des services aux petites entreprises du quartier. J'aimerais mettre mon expérience au service de vos clients. Depuis septembre, je suis aussi un cours de comptabilité québécoise au cégep.\nJe serais heureuse de vous rencontrer pour une entrevue. Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\nAmira Benali", "en": "Montréal, November 10, 2026. Subject: application for the accounting technician position. Dear Sir or Madam, I am writing to apply for the accounting technician position posted on your website. I worked for six years as an accountant in a firm in Casablanca. I prepared the payroll for more than fifty companies and I trained three new employees. I have a very good command of Excel. Your company interests me because it offers services to small businesses in the neighbourhood. I would like to put my experience to work for your clients. Since September, I have also been taking a course in Québec accounting at the cégep. I would be happy to meet you for an interview. Yours faithfully, Amira Benali" } ] },
+        { "id": "s1", "type": "speak", "prompt": "A friend asks you to describe your professional background, like the “Profil” at the top of a CV. Speak for 30 seconds: your job, your experience (depuis / pendant), two skills and your languages.", "seconds": 30,
+          "checklist": ["Je suis… / Je travaille comme…", "depuis or pendant", "Two skills", "Languages with a level"],
+          "models": [ { "label": "Model answer", "fr": "Je suis infirmière. J'ai travaillé pendant dix ans dans un hôpital à Manille. Je suis capable de travailler de nuit et je sais rester calme en situation d'urgence. Ma langue maternelle est le tagalog, je parle couramment anglais et mon français est intermédiaire.", "en": "I'm a nurse. I worked for ten years in a hospital in Manila. I can work nights and I know how to stay calm in emergencies. My mother tongue is Tagalog, I speak English fluently and my French is intermediate." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Build a Canadian-style CV: **no photo, no age**, most recent job first, one consistent list style\n- Write a four-paragraph [[lettre de présentation]] (Québec) / [[lettre de motivation]] (France) with the standard formulas\n- Describe your experience with [[depuis]], [[pendant]], [[comme + métier]] and polite chunks like [[j'aimerais]] and [[je serais heureux / heureuse]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Corrected the over-broad false-friend note on formation and the Cher/Chère Madame example; made 'calme dans les urgences' natural. Added a check-official-sources line and one accepted answer." }
+}

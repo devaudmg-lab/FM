@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-03-06",
+  "level": "a2",
+  "unit": "a2-03",
+  "title": "Workshop: Childhood and habits",
+  "goal": "Get more practice with the imparfait for descriptions, habits and feelings, in new contexts: a grandmother's farm, a childhood in Acadia and a museum classroom.",
+  "minutes": 20,
+  "items": [
+    { "id": "ferme", "kind": "vocab", "fr": "ferme", "article": "la", "gender": "f", "en": "farm", "pos": "noun",
+      "example": { "fr": "Ma grand-mère habitait sur une ferme.", "en": "My grandmother lived on a farm." }, "note": "[[sur une ferme]] (on a farm), or [[à la ferme]]." },
+    { "id": "recreation", "kind": "vocab", "fr": "récréation", "article": "la", "gender": "f", "en": "recess, break (at school)", "pos": "noun",
+      "example": { "fr": "À la récréation, on jouait dehors.", "en": "At recess, we played outside." }, "accept": ["la récré"], "note": "Very often shortened to [[la récré]]." },
+    { "id": "severe", "kind": "vocab", "fr": "sévère", "en": "strict", "pos": "adjective",
+      "example": { "fr": "Mon professeur était très sévère.", "en": "My teacher was very strict." }, "note": "Same form for masculine and feminine." },
+    { "id": "jouet", "kind": "vocab", "fr": "jouet", "article": "le", "gender": "m", "en": "toy", "pos": "noun",
+      "example": { "fr": "Nous n'avions pas beaucoup de jouets.", "en": "We didn't have many toys." } },
+    { "id": "bonbon", "kind": "vocab", "fr": "bonbon", "article": "le", "gender": "m", "en": "candy, sweet", "pos": "noun",
+      "example": { "fr": "Le dimanche, on mangeait des bonbons.", "en": "On Sundays, we ate candy." } },
+    { "id": "histoire", "kind": "vocab", "fr": "histoire", "article": "une", "gender": "f", "en": "story (that you tell)", "pos": "noun",
+      "example": { "fr": "Mon grand-père racontait des histoires.", "en": "My grandfather used to tell stories." }, "note": "[[l'histoire]] also means *history*: [[l'histoire du Canada]]." },
+    { "id": "autrefois", "kind": "vocab", "fr": "autrefois", "en": "in the old days, long ago", "pos": "adverb",
+      "example": { "fr": "Autrefois, les familles étaient très grandes.", "en": "In the old days, families were very big." }, "note": "Further back than [[avant]]: often a time before you were born." },
+    { "id": "s-ennuyer", "kind": "vocab", "fr": "s'ennuyer", "en": "to be bored", "pos": "verb",
+      "example": { "fr": "On ne s'ennuyait jamais.", "en": "We were never bored." }, "note": "Imparfait: je m'ennuyais, nous nous ennuyions." },
+    { "id": "se-disputer", "kind": "vocab", "fr": "se disputer", "en": "to argue, to fight (with words)", "pos": "verb",
+      "example": { "fr": "Mon frère et moi, nous nous disputions souvent.", "en": "My brother and I often used to argue." } },
+    { "id": "grimper-arbres", "kind": "phrase", "fr": "grimper aux arbres", "en": "to climb trees",
+      "example": { "fr": "Quand j'étais petit, je grimpais aux arbres.", "en": "When I was little, I used to climb trees." } }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Grand-maman's farm",
+      "intro": "Lucie interviews her grandmother for her French class. Read it once for the story, then find the imparfait verbs that describe, the ones for habits and the ones for feelings.",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "An interview in the kitchen",
+          "context": "Lucie needs to write about someone's childhood. She asks her grandmother, Thérèse.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Grand-maman, pour mon cours, je dois écrire un texte sur l'enfance de quelqu'un. Tu as grandi où, toi ?", "en": "Grandma, for my class I have to write a text about someone's childhood. Where did you grow up?" },
+            { "speaker": "Thérèse", "fr": "Sur une ferme, près de Rimouski. Nous étions neuf enfants ! Autrefois, les familles étaient très grandes.", "en": "On a farm, near Rimouski. There were nine of us children! In the old days, families were very big." },
+            { "speaker": "Lucie", "fr": "Neuf ! Et comment c'était, la vie à la ferme ?", "en": "Nine! And what was life like on the farm?" },
+            { "speaker": "Thérèse", "fr": "C'était beaucoup de travail. Le matin, je me levais à six heures pour aider mon père avec les vaches. Après, nous allions à l'école à pied : elle était à deux kilomètres !", "en": "It was a lot of work. In the morning I got up at six to help my father with the cows. Afterwards we walked to school: it was two kilometres away!" },
+            { "speaker": "Lucie", "fr": "Même l'hiver ?", "en": "Even in winter?" },
+            { "speaker": "Thérèse", "fr": "Même l'hiver ! Il faisait très froid et il y avait beaucoup de neige.", "en": "Even in winter! It was very cold and there was a lot of snow." },
+            { "speaker": "Lucie", "fr": "Et l'école, tu aimais ça ?", "en": "And school, did you like it?" },
+            { "speaker": "Thérèse", "fr": "Oui, mais la maîtresse était très sévère. On ne parlait pas en classe ! Heureusement, à la récréation, on jouait dehors et on grimpait aux arbres.", "en": "Yes, but the teacher was very strict. We didn't talk in class! Luckily, at recess we played outside and climbed trees." },
+            { "speaker": "Lucie", "fr": "Tu avais des jouets ?", "en": "Did you have toys?" },
+            { "speaker": "Thérèse", "fr": "Pas beaucoup. Ma sœur et moi, nous avions une seule poupée, alors nous nous disputions souvent ! Mais on ne s'ennuyait jamais.", "en": "Not many. My sister and I had only one doll, so we often argued! But we were never bored." },
+            { "speaker": "Lucie", "fr": "Et le soir ?", "en": "And in the evening?" },
+            { "speaker": "Thérèse", "fr": "Le soir, mon grand-père racontait des histoires près du poêle. Et le dimanche, après la messe, ma mère achetait des bonbons pour les enfants. J'étais tellement contente !", "en": "In the evening, my grandfather told stories by the stove. And on Sundays, after Mass, my mother bought candy for the children. I was so happy!" },
+            { "speaker": "Lucie", "fr": "Et maintenant, tu préfères la ville ?", "en": "And now, do you prefer the city?" },
+            { "speaker": "Thérèse", "fr": "Maintenant, j'habite à Montréal, j'ai le chauffage et Internet… mais parfois, je pense encore à ma ferme.", "en": "Now I live in Montréal, I have heating and the Internet… but sometimes I still think about my farm." }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "[[les vaches]] = the cows. [[la maîtresse]] = the (woman) elementary-school teacher. [[une poupée]] = a doll. [[le poêle]] = the (wood) stove. [[la messe]] = Mass (at church). [[le chauffage]] = heating."
+        },
+        { "id": "c1", "type": "mcq", "prompt": "What did Thérèse do every morning before school?", "options": ["She helped her father with the cows.", "She took the school bus.", "She played with her doll."], "answer": 0,
+          "explain": "[[je me levais à six heures pour aider mon père avec les vaches]]: a habit, so imparfait." },
+        { "id": "c2", "type": "mcq", "prompt": "Why did Thérèse and her sister argue?", "options": ["They had only one doll.", "The teacher was strict.", "They had to walk to school."], "answer": 0,
+          "explain": "[[nous avions une seule poupée, alors nous nous disputions souvent]]: alors gives the result." },
+        { "id": "c3", "type": "mcq", "prompt": "What happened on Sundays?", "options": ["Her mother bought candy for the children.", "Her grandfather told stories.", "The children climbed trees at school."], "answer": 0,
+          "explain": "[[le dimanche]] = every Sunday. The stories were [[le soir]], every evening." }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 3 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The imparfait",
+          "head": ["What", "Example"],
+          "rows": [
+            ["form: nous stem + -ais, -ais, -ait, -ions, -iez, -aient", "nous jouons → je jouais, nous jouions"],
+            ["être: the only irregular stem", "j'étais, nous étions, ils étaient"],
+            ["description", "C'était beaucoup de travail. Il y avait de la neige. Il faisait froid."],
+            ["habits", "Le matin, je me levais à six heures. Le dimanche, on allait à la messe."],
+            ["feelings and states", "J'étais contente. On ne s'ennuyait jamais."],
+            ["then and now", "Avant, j'habitais sur une ferme. Maintenant, j'habite à Montréal."]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "Imparfait or passé composé?",
+          "body": "You only need one simple test for now:\n\n- **One event, finished, often with a date** → passé composé: [[Je suis née en 1948.]] [[Dimanche, j'ai mangé des bonbons.]]\n- **The background, a habit or a feeling** → imparfait: [[C'était une grande ferme.]] [[Le dimanche, je mangeais des bonbons.]] [[J'étais contente.]]\n\nWatch for habit markers: [[le dimanche, le soir, d'habitude, chaque été, autrefois, avant]]. They almost always call for the imparfait."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for childhood memories",
+          "itemIds": ["ferme", "recreation", "severe", "jouet", "bonbon", "histoire", "autrefois", "s-ennuyer", "se-disputer", "grimper-arbres"]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Grand-maman and Québec in the old days",
+          "body": "In Québec, [[grand-maman]] and [[grand-papa]] are very common; in France, children more often say [[mamie]] and [[papi]].\n\nThérèse's story is typical of rural Québec before the 1960s: big families, farms, the parish church at the centre of village life, and long walks to a small school. The **Révolution tranquille** (Quiet Revolution) of the 1960s changed schools, work and family life very quickly. Many older Quebecers love to talk about [[le bon vieux temps]] (the good old days): ask them, and practise your imparfait!"
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Two recordings",
+      "intro": "Listen to each recording first, then answer. Each question replays one part.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "1. A radio segment: “Souvenirs d'enfance”",
+          "context": "Alex talks about his childhood on a community radio show.",
+          "fr": "Quand j'étais petit, j'habitais à Moncton, au Nouveau-Brunswick. Chez nous, on parlait français à la maison et anglais avec les voisins. Chaque été, nous allions au bord de la mer, à Shediac, et nous mangions du homard sur la plage. Mon père était pêcheur, alors il partait souvent très tôt le matin. L'hiver, il faisait très froid, et nous jouions au hockey dans la rue après l'école. J'étais un enfant timide, mais j'avais un très bon ami, Marc. Maintenant, j'habite à Montréal, je travaille dans un bureau et je ne joue plus au hockey !",
+          "en": "When I was little, I lived in Moncton, New Brunswick. At home we spoke French, and English with the neighbours. Every summer we went to the seaside, to Shediac, and we ate lobster on the beach. My father was a fisherman, so he often left very early in the morning. In winter it was very cold, and we played hockey in the street after school. I was a shy child, but I had a very good friend, Marc. Now I live in Montréal, I work in an office and I don't play hockey anymore!"
+        },
+        {
+          "type": "listen",
+          "title": "2. A museum audio guide",
+          "context": "In a small history museum, visitors listen to a guide in an old classroom.",
+          "fr": "Bienvenue dans l'école d'autrefois. Dans cette classe, il y avait trente élèves de six à quatorze ans, avec une seule maîtresse. Les enfants arrivaient à huit heures, souvent à pied. L'hiver, il faisait très froid, alors il y avait un grand poêle à bois au milieu de la classe. Les plus grands élèves apportaient le bois le matin. Les enfants écrivaient sur de petites ardoises, parce que le papier coûtait cher. La maîtresse était très sévère : les élèves ne parlaient pas sans permission. À la récréation, les garçons et les filles jouaient dans deux cours différentes.",
+          "en": "Welcome to the school of the old days. In this classroom there were thirty pupils from six to fourteen years old, with only one teacher. The children arrived at eight, often on foot. In winter it was very cold, so there was a big wood stove in the middle of the classroom. The oldest pupils brought the wood in the morning. The children wrote on small slates, because paper was expensive. The teacher was very strict: the pupils didn't speak without permission. At recess, the boys and the girls played in two different yards."
+        },
+        { "id": "h1", "type": "listen-mcq", "fr": "Quand j'étais petit, j'habitais à Moncton, au Nouveau-Brunswick. Chez nous, on parlait français à la maison et anglais avec les voisins.", "en": "When I was little, I lived in Moncton, New Brunswick. At home we spoke French, and English with the neighbours.",
+          "prompt": "Which languages did Alex speak as a child?", "options": ["French at home and English with the neighbours", "Only French", "English at home and French at school"], "answer": 0,
+          "explain": "[[on parlait français à la maison et anglais avec les voisins]]. Moncton is a bilingual city." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Chaque été, nous allions au bord de la mer, à Shediac, et nous mangions du homard sur la plage.", "en": "Every summer we went to the seaside, to Shediac, and we ate lobster on the beach.",
+          "prompt": "What did Alex's family do every summer?", "options": ["They went to the seaside in Shediac.", "They played hockey in the street.", "They visited Montréal."], "answer": 0,
+          "explain": "[[chaque été, nous allions au bord de la mer]]: a habit → imparfait. [[le homard]] = lobster." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Maintenant, j'habite à Montréal, je travaille dans un bureau et je ne joue plus au hockey !", "en": "Now I live in Montréal, I work in an office and I don't play hockey anymore!",
+          "prompt": "What is true about Alex now?", "options": ["He doesn't play hockey anymore.", "He lives in Moncton.", "He is a fisherman like his father."], "answer": 0,
+          "explain": "[[je ne joue plus au hockey]]: ne… plus = not anymore. Maintenant + present." },
+        { "id": "h4", "type": "listen-mcq", "fr": "Dans cette classe, il y avait trente élèves de six à quatorze ans, avec une seule maîtresse.", "en": "In this classroom there were thirty pupils from six to fourteen years old, with only one teacher.",
+          "prompt": "How many pupils were in the classroom?", "options": ["Thirty", "Fourteen", "Six"], "answer": 0,
+          "explain": "[[trente élèves de six à quatorze ans]]: 6 and 14 are their ages." },
+        { "id": "h5", "type": "listen-mcq", "fr": "Les enfants écrivaient sur de petites ardoises, parce que le papier coûtait cher.", "en": "The children wrote on small slates, because paper was expensive.",
+          "prompt": "Why didn't the children write on paper?", "options": ["Paper was expensive.", "The teacher didn't allow it.", "There was no paper in winter."], "answer": 0,
+          "explain": "[[le papier coûtait cher]]: a description of the situation → imparfait." },
+        { "id": "d1", "type": "dictation", "fr": "Chaque été, nous allions au bord de la mer.", "accept": ["Chaque été nous allions au bord de la mer."],
+          "explain": "[[nous allions]]: the nous ending of the imparfait is -ions." },
+        { "id": "d2", "type": "dictation", "fr": "La maîtresse était très sévère.", "accept": ["La maitresse était très sévère."],
+          "explain": "[[était]] ends in -ait; [[sévère]] has two different accents." }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most on Unit 3, some on Units 1 and 2. Aim for 80%.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Quand j'étais petite, je ___ dehors à la récréation. (jouer)", "answers": [["jouais"]], "choices": ["jouais", "jouait", "ai joué", "joue"], "en": "When I was little, I played outside at recess.",
+          "explain": "A habit in the past → imparfait. je → -ais: [[je jouais]]." },
+        { "id": "r2", "type": "cloze", "text": "Nous ___ neuf enfants à la maison. (être)", "answers": [["étions"]], "choices": ["étions", "sommions", "étaient"], "en": "There were nine of us children at home.",
+          "explain": "être has the stem ét-: [[nous étions]]. *Sommions* doesn't exist." },
+        { "id": "r3", "type": "mcq", "prompt": "L'hiver, il ___ très froid et il ___ beaucoup de neige.", "options": ["faisait / y avait", "était / avait", "faisait / avait", "était / y avait"], "optionsFr": true, "answer": 0,
+          "explain": "Weather uses [[faire]]: [[il faisait froid]]. *There was* = [[il y avait]].",
+          "optionFeedback": [null, "Weather uses faire, and “there was” is il y avait.", "“There was” needs y: il y avait.", "Weather uses faire: il faisait froid."] },
+        { "id": "r4", "type": "translate", "prompt": "In the old days, families were very big.", "accept": ["Autrefois, les familles étaient très grandes.", "Autrefois, les familles étaient très nombreuses.", "Avant, les familles étaient très grandes.", "À l'époque, les familles étaient très grandes."], "hint": "autrefois + imparfait",
+          "explain": "A description of the past → [[étaient]]. [[grandes]] agrees with [[les familles]]." },
+        { "id": "r5", "type": "reorder", "prompt": "We were never bored. (use on)", "accept": ["On ne s'ennuyait jamais."], "extra": ["pas"],
+          "explain": "Reflexive verb in the imparfait: [[on s'ennuyait]]. [[ne… jamais]] goes around the pronoun and the verb." },
+        { "id": "r6", "type": "translate", "prompt": "My sister and I often used to argue.", "accept": ["Ma sœur et moi, nous nous disputions souvent.", "Ma sœur et moi nous disputions souvent.", "Ma sœur et moi, on se disputait souvent."], "hint": "se disputer, nous form",
+          "explain": "*Used to* → imparfait. With [[ma sœur et moi]], the verb is in the nous form: [[nous nous disputions]]." },
+        { "id": "r7", "type": "match", "prompt": "Match the new words.", "pairs": [["la ferme", "farm"], ["le jouet", "toy"], ["la récréation", "recess"], ["sévère", "strict"], ["autrefois", "in the old days"], ["grimper aux arbres", "to climb trees"]] },
+        { "id": "r8", "type": "cloze", "text": "Avant, j'___ à l'école en autobus. Maintenant, je ___ au travail à vélo. (aller)", "answers": [["allais"], ["vais"]], "en": "Before, I went to school by bus. Now I go to work by bike.",
+          "explain": "[[avant]] + imparfait ([[j'allais]]), [[maintenant]] + present ([[je vais]])." },
+        { "id": "r9", "type": "dictation", "fr": "Quand j'avais dix ans, nous sommes arrivés à Montréal.", "accept": ["Quand j'avais 10 ans, nous sommes arrivés à Montréal.", "Quand j'avais dix ans, nous sommes arrivées à Montréal.", "Quand j'avais 10 ans, nous sommes arrivées à Montréal."],
+          "explain": "The state ([[j'avais dix ans]]) is in the imparfait; the event ([[nous sommes arrivés]], Unit 2) is in the passé composé." },
+        { "id": "r10", "type": "cloze", "text": "Ma grand-mère est ___ près de Rimouski en 1948. (naître)", "answers": [["née"]], "choices": ["née", "né", "naissait"], "en": "My grandmother was born near Rimouski in 1948.",
+          "explain": "Unit 2: being born is one event → passé composé with être, and the -e for a woman: [[elle est née]]." },
+        { "id": "r11", "type": "mcq", "prompt": "Which sentence is about ONE event, last Sunday?", "options": ["Dimanche, nous avons mangé des bonbons.", "Le dimanche, nous mangions des bonbons.", "D'habitude, nous mangions des bonbons le dimanche."], "optionsFr": true, "answer": 0,
+          "explain": "[[dimanche]] alone = one particular Sunday → passé composé. [[le dimanche]] = every Sunday → imparfait.",
+          "optionFeedback": [null, "Le dimanche = every Sunday, a habit.", "D'habitude marks a habit."] },
+        { "id": "r12", "type": "translate", "prompt": "I have never climbed a tree.", "accept": ["Je n'ai jamais grimpé à un arbre.", "Je n'ai jamais grimpé aux arbres.", "Je n'ai jamais grimpé dans un arbre.", "Je n'ai jamais grimpé sur un arbre."], "hint": "Unit 1: ne… jamais around avoir",
+          "explain": "An experience (or not!) in your life → passé composé: [[je n'ai jamais grimpé]]." }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "Your French class is making a booklet called « Nos enfances ». Write your page (60–100 words): where you grew up, what your home or school was like, two habits, a feeling, and one difference with your life now.",
+          "promptFr": "Écrivez votre page pour le livret « Nos enfances ».",
+          "wordRange": [60, 100],
+          "checklist": ["Quand j'étais petit(e)… / J'ai grandi à…", "A description: c'était, il y avait, il faisait", "Two habits with markers: le samedi, chaque été, d'habitude…", "A feeling: j'étais…, j'avais peur…, je m'ennuyais…", "Avant… / Maintenant… with the present", "At least two new words: la récréation, sévère, le jouet…"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Quand j'étais petit, j'habitais à Sousse, en Tunisie. Notre maison était petite, mais il y avait un grand jardin. D'habitude, j'allais à l'école à pied avec mes cousins. À la récréation, on jouait au soccer. Mon professeur de maths était très sévère, alors j'avais un peu peur de lui. Le samedi, ma mère faisait des gâteaux. Maintenant, j'habite à Montréal et je mange encore des gâteaux le samedi !",
+              "en": "(Karim writing.) When I was little, I lived in Sousse, Tunisia. Our house was small, but there was a big garden. I usually walked to school with my cousins. At recess we played soccer. My math teacher was very strict, so I was a bit scared of him. On Saturdays my mother made cakes. Now I live in Montréal and I still eat cakes on Saturdays!" },
+            { "label": "Stronger model answer",
+              "fr": "J'ai grandi à Rabat, au Maroc, dans un appartement au deuxième étage. C'était bruyant, mais très vivant : il y avait toujours des enfants dans la rue. Chaque jour, après l'école, mon frère et moi, nous jouions avec les voisins. Nous n'avions pas beaucoup de jouets, mais nous ne nous ennuyions jamais ! Le vendredi, toute la famille mangeait du couscous chez ma grand-mère : j'adorais ça. À l'époque, j'étais une enfant timide. Maintenant, je parle trois langues et je travaille avec le public. Ma grand-mère est très fière de moi !",
+              "en": "(Amira writing.) I grew up in Rabat, Morocco, in a second-floor apartment. It was noisy, but very lively: there were always children in the street. Every day after school, my brother and I played with the neighbours. We didn't have many toys, but we were never bored! On Fridays, the whole family ate couscous at my grandmother's: I loved it. Back then, I was a shy child. Now I speak three languages and I work with the public. My grandmother is very proud of me!" }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "Show a friend an old photo of yourself as a child (real or imagined) and talk about it for about a minute: where you were, what it was like, what you used to do there, and how you felt.",
+          "promptFr": "Décrivez une vieille photo de vous enfant.",
+          "seconds": 60,
+          "checklist": ["Sur cette photo, j'avais… ans.", "Where: c'était…, il y avait…", "The weather: il faisait…", "A habit: chaque été / le dimanche, on…", "A feeling: j'étais…", "Now: maintenant, je…"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Sur cette photo, j'avais huit ans. C'était chez mes grands-parents, à la campagne. Il faisait chaud et il y avait beaucoup d'arbres. Chaque été, j'allais chez eux avec mon frère. On grimpait aux arbres et on mangeait des bonbons. J'étais très content là-bas. Maintenant, mes grands-parents habitent en ville.",
+              "en": "(A man speaking.) In this photo I was eight. It was at my grandparents' place, in the countryside. It was hot and there were lots of trees. Every summer I went to their place with my brother. We climbed trees and ate candy. I was very happy there. Now my grandparents live in town." },
+            { "label": "Stronger model answer",
+              "fr": "Regarde, sur cette photo, j'avais six ans. C'était mon premier jour à l'école primaire, à Hanoï. Il pleuvait, alors je portais un grand imperméable jaune ! J'étais très nerveuse, parce que je ne connaissais pas les autres enfants et la maîtresse avait l'air sévère. Mais finalement, elle était gentille. Après ce jour-là, d'habitude, j'allais à l'école avec ma voisine, et à la récréation, on jouait à la corde à sauter. Maintenant, ma fille a six ans, et elle aussi, elle est nerveuse avant l'école !",
+              "en": "(A woman speaking.) Look, in this photo I was six. It was my first day at elementary school, in Hanoi. It was raining, so I was wearing a big yellow raincoat! I was very nervous, because I didn't know the other children and the teacher looked strict. But in the end she was nice. After that day, I usually went to school with my neighbour, and at recess we played jump rope. Now my daughter is six, and she's nervous before school too!" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Tell someone else's childhood, or your own, with the imparfait for descriptions, habits and feelings\n- Follow a radio memory and a museum audio guide about the past\n- Talk about childhood: [[la ferme, la récréation, les jouets, les bonbons, grimper aux arbres]]\n- Contrast [[autrefois / avant]] with [[maintenant]], and one event (passé composé) with the background (imparfait)",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made the dictation r9 accept digits and the feminine homophone arrivées, and made d2 accept the 1990 spelling maitresse. Fixed a few small naturalness and consistency points (la vie à la ferme, née près de Rimouski, du couscous, à l'époque in a model) and softened the grand-maman claim." }
+}

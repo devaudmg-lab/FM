@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-01-04",
+  "level": "a2",
+  "unit": "a2-01",
+  "title": "Negation in the past",
+  "goal": "Say what you didn't do or have never done (je n'ai pas…, je n'ai jamais…), and ask questions in the passé composé three ways.",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "g-neg-pc",
+      "kind": "grammar",
+      "fr": "je n'ai pas mangé",
+      "en": "negation in the passé composé (ne + avoir + pas + participle)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Je ___ ai ___ fini le rapport.",
+          "answers": [
+            [
+              "n'"
+            ],
+            [
+              "pas"
+            ]
+          ],
+          "en": "I didn't finish the report.",
+          "explain": "The negation goes around avoir: n'ai pas, then the participle."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “We have never seen Niagara Falls” (use nous)?",
+          "options": [
+            "Nous n'avons jamais vu les chutes Niagara.",
+            "Nous n'avons vu jamais les chutes Niagara.",
+            "Nous ne jamais avons vu les chutes Niagara."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "ne before avoir, jamais right after it, then the participle."
+        },
+        {
+          "type": "translate",
+          "prompt": "I didn't drink coffee this morning.",
+          "accept": [
+            "Je n'ai pas bu de café ce matin.",
+            "Ce matin, je n'ai pas bu de café.",
+            "Je n'ai pas pris de café ce matin.",
+            "Ce matin, je n'ai pas pris de café."
+          ],
+          "explain": "After a negative, du becomes de: pas de café."
+        }
+      ]
+    },
+    {
+      "id": "g-questions-pc",
+      "kind": "grammar",
+      "fr": "Tu as fini ? / Est-ce que tu as fini ? / As-tu fini ?",
+      "en": "three ways to ask a question in the passé composé",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "___-vous vu le courriel de Lucie ?",
+          "answers": [
+            [
+              "Avez"
+            ]
+          ],
+          "en": "Have you seen Lucie's email? (formal)",
+          "explain": "Inversion: avoir goes before the subject, with a hyphen: Avez-vous vu…?"
+        },
+        {
+          "type": "cloze",
+          "text": "A-___-elle appelé le client ?",
+          "answers": [
+            [
+              "t"
+            ]
+          ],
+          "en": "Did she call the client?",
+          "explain": "Between two vowels, add -t-: a-t-elle, a-t-il, a-t-on."
+        },
+        {
+          "type": "translate",
+          "prompt": "Did you finish? (to a friend, with est-ce que)",
+          "accept": [
+            "Est-ce que tu as fini ?"
+          ],
+          "explain": "Est-ce que + normal word order: est-ce que tu as fini ?"
+        }
+      ]
+    },
+    {
+      "id": "pas-encore",
+      "kind": "phrase",
+      "fr": "Je n'ai pas encore fini.",
+      "en": "I haven't finished yet."
+    },
+    {
+      "id": "jamais-vu",
+      "kind": "phrase",
+      "fr": "Je n'ai jamais vu les chutes Niagara.",
+      "en": "I've never seen Niagara Falls.",
+      "accept": [
+        "Je n'ai jamais vu les chutes du Niagara."
+      ]
+    },
+    {
+      "id": "rien-fait",
+      "kind": "phrase",
+      "fr": "Je n'ai rien fait.",
+      "en": "I didn't do anything."
+    },
+    {
+      "id": "pas-eu-le-temps",
+      "kind": "phrase",
+      "fr": "Je n'ai pas eu le temps.",
+      "en": "I didn't have time."
+    },
+    {
+      "id": "tu-as-deja",
+      "kind": "phrase",
+      "fr": "Tu as déjà mangé de la poutine ?",
+      "en": "Have you ever eaten poutine? (to a friend)",
+      "accept": [
+        "Est-ce que tu as déjà mangé de la poutine ?",
+        "As-tu déjà mangé de la poutine ?",
+        "Tu as déjà mangé une poutine ?",
+        "Est-ce que tu as déjà mangé une poutine ?"
+      ],
+      "note": "In a question, déjà means *ever*."
+    },
+    {
+      "id": "avez-vous-fini",
+      "kind": "phrase",
+      "fr": "Avez-vous fini ?",
+      "en": "Have you finished? (formal)",
+      "accept": [
+        "Vous avez fini ?",
+        "Est-ce que vous avez fini ?"
+      ]
+    },
+    {
+      "id": "si",
+      "kind": "vocab",
+      "fr": "si",
+      "en": "yes (contradicting a negative question)",
+      "pos": "adverb",
+      "example": {
+        "fr": "Tu n'as pas mangé ? — Si, j'ai mangé à midi.",
+        "en": "Didn't you eat? — Yes, I did, I ate at noon."
+      }
+    },
+    {
+      "id": "ne-rien",
+      "kind": "vocab",
+      "fr": "ne… rien",
+      "en": "nothing, not anything",
+      "pos": "pronoun",
+      "example": {
+        "fr": "Il n'a rien dit.",
+        "en": "He didn't say anything."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Have you ever…?",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "Friday afternoon at the office",
+          "context": "Alex arrived from Dublin three months ago. Camille, a colleague from Québec, asks him a few questions.",
+          "lines": [
+            {
+              "speaker": "Camille",
+              "fr": "Alex, tu as fini la traduction pour le client ?",
+              "en": "Alex, have you finished the translation for the client?"
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Non, pas encore. Je n'ai pas eu le temps : j'ai eu trois réunions aujourd'hui !",
+              "en": "No, not yet. I didn't have time: I had three meetings today!"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Pas de problème, lundi, c'est correct. Dis, tu as déjà mangé de la poutine ?",
+              "en": "No problem, Monday is fine. Say, have you ever eaten poutine?"
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Non, jamais ! Et je n'ai jamais vu de match de hockey non plus.",
+              "en": "No, never! And I've never seen a hockey game either."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Quoi ? Tu n'as pas visité le Vieux-Québec non plus ?",
+              "en": "What? You haven't visited Old Québec either?"
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Si, j'ai visité Québec en août. Mais je n'ai rien vu : il a plu toute la fin de semaine !",
+              "en": "Yes, I did, I visited Québec City in August. But I didn't see anything: it rained the whole weekend!"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Bon. Ce soir, on va manger une poutine et on va voir le match. Tu as quelque chose de prévu ?",
+              "en": "Right. Tonight we're going to eat poutine and watch the game. Do you have anything planned?"
+            },
+            {
+              "speaker": "Alex",
+              "fr": "Non, rien ! Avec plaisir.",
+              "en": "No, nothing! With pleasure."
+            }
+          ]
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "Why didn't Alex see anything in Québec City?",
+          "options": [
+            "It rained all weekend.",
+            "He had three meetings.",
+            "He never went there."
+          ],
+          "answer": 0,
+          "explain": "[[Je n'ai rien vu : il a plu toute la fin de semaine !]] [[il a plu]] = it rained (pleuvoir → plu)."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Negatives and questions in the past",
+      "blocks": [
+        {
+          "type": "pattern",
+          "title": "The negation goes around avoir",
+          "pattern": "sujet + ne / n' + avoir + pas / jamais / rien / plus + participe passé",
+          "note": "In the passé composé, **avoir** is the conjugated verb, so the two parts of the negation surround **avoir**, not the participle. The participle comes after them. (One exception for later: [[personne]], *nobody*, goes after the participle: [[Je n'ai vu personne.]])",
+          "examples": [
+            {
+              "fr": "Je n'ai pas mangé.",
+              "en": "I didn't eat. / I haven't eaten."
+            },
+            {
+              "fr": "Nous n'avons jamais vu les chutes Niagara.",
+              "en": "We've never seen Niagara Falls."
+            },
+            {
+              "fr": "Il n'a rien dit.",
+              "en": "He didn't say anything."
+            },
+            {
+              "fr": "Après ça, il n'a plus appelé.",
+              "en": "After that, he didn't call anymore."
+            },
+            {
+              "fr": "Je n'ai pas encore fini.",
+              "en": "I haven't finished yet."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "The negative words",
+          "head": [
+            "Negative",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "ne… pas",
+              "not",
+              "Je n'ai pas compris."
+            ],
+            [
+              "ne… pas encore",
+              "not yet",
+              "Je n'ai pas encore répondu."
+            ],
+            [
+              "ne… jamais",
+              "never, not ever",
+              "Je n'ai jamais pris l'avion."
+            ],
+            [
+              "ne… rien",
+              "nothing, not anything",
+              "Je n'ai rien acheté."
+            ],
+            [
+              "ne… plus",
+              "not anymore, no longer",
+              "Je n'ai plus vu Karim."
+            ]
+          ],
+          "frCols": [
+            0,
+            2
+          ],
+          "sayCol": true,
+          "note": "After a negative, [[un, une, des, du, de la]] before a direct object become [[de]] or [[d']], just like in the present: [[J'ai pris un café]] → [[Je n'ai pas pris de café]]."
+        },
+        {
+          "type": "table",
+          "title": "Three ways to ask",
+          "head": [
+            "Style",
+            "Yes/no question",
+            "With a question word"
+          ],
+          "rows": [
+            [
+              "Intonation (casual)",
+              "Tu as fini ?",
+              "Tu as fait quoi ?"
+            ],
+            [
+              "Est-ce que (neutral)",
+              "Est-ce que tu as fini ?",
+              "Qu'est-ce que tu as fait ?"
+            ],
+            [
+              "Inversion (formal)",
+              "As-tu fini ?",
+              "Qu'as-tu fait ?"
+            ]
+          ],
+          "frCols": [
+            1,
+            2
+          ],
+          "sayCol": true,
+          "note": "In inversion, **avoir** moves before the subject, joined with a hyphen: [[As-tu vu]], [[Avez-vous fini]]. With [[il, elle, on]], add **-t-** between two vowels: [[A-t-il appelé ?]], [[A-t-elle répondu ?]]. The participle stays after."
+        },
+        {
+          "type": "explain",
+          "title": "“Have you ever…?” and answering “si”",
+          "body": "In a question, [[déjà]] means *ever*: [[Tu as déjà vu un orignal ?]] = Have you ever seen a moose? The natural answers are [[Oui, déjà]] / [[Oui, une fois]] or [[Non, jamais]].\n\nWhen someone asks a **negative** question and you want to say *yes*, use [[si]], not *oui*:\n\n- [[Tu n'as pas fini ?]] — [[Si, j'ai fini !]] (Yes, I have!)\n- [[Vous n'avez pas reçu mon courriel ?]] — [[Si, merci.]]"
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Negation around the participle:** [[Je ai mangé pas]] or [[Je n'ai mangé pas]] → [[Je n'ai pas mangé]].\n- **Forgetting élision:** [[Je ne ai pas]] → [[Je n'ai pas]].\n- **Jamais in the wrong place:** [[Je n'ai vu jamais]] → [[Je n'ai jamais vu]].\n- **Inversion with the participle:** [[Mangé-tu as ?]] / [[Tu as-mangé ?]] → [[As-tu mangé ?]] Only avoir and the subject swap.\n- **Missing -t-:** [[A-il appelé ?]] → [[A-t-il appelé ?]]\n- **Oui instead of si:** after a negative question, *oui* sounds odd. Use [[si]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "How people really say it",
+          "body": "In everyday speech, in Québec and France alike, people often drop **ne**: [[J'ai pas fini]], [[J'ai jamais vu ça]], [[J'ai rien fait]]. It is normal in conversation; keep **ne** in writing and in exams.\n\nCamille's [[C'est correct]] is Québec for *it's fine, that's OK*. You will also hear [[pantoute]] (not at all): [[J'ai pas aimé ça pantoute]]. Informal, understand it but don't write it at work.\n\nInversion ([[As-tu fini ?]]) sounds formal in France, but [[As-tu…]] and [[Avez-vous…]] are fairly common in everyday Québec speech. You will also hear the very informal [[T'as-tu fini ?]]: here the extra *tu* is not a pronoun, it just marks a yes/no question in spoken Québec French. Understand it, but never write it; use [[Est-ce que tu as fini ?]] or [[As-tu fini ?]] yourself."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear the negative",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "The ne is short and easy to miss. Listen for pas, jamais or rien after avoir.",
+          "lines": [
+            {
+              "fr": "Je n'ai pas eu le temps.",
+              "en": "I didn't have time.",
+              "tip": "n'ai = nay: zhuh-nay-pa."
+            },
+            {
+              "fr": "Je n'ai jamais vu les chutes Niagara.",
+              "en": "I've never seen Niagara Falls."
+            },
+            {
+              "fr": "Il n'a rien dit.",
+              "en": "He didn't say anything.",
+              "tip": "il na: the n of ne links to a."
+            },
+            {
+              "fr": "As-tu fini ?",
+              "en": "Have you finished?",
+              "tip": "a-tu, two syllables."
+            },
+            {
+              "fr": "A-t-elle appelé le client ?",
+              "en": "Did she call the client?",
+              "tip": "a-tèl, the t is pronounced."
+            },
+            {
+              "fr": "Si, j'ai fini !",
+              "en": "Yes, I have finished!"
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Non, je n'ai pas encore répondu au client.",
+          "en": "No, I haven't answered the client yet.",
+          "prompt": "Has the speaker answered the client?",
+          "options": [
+            "Not yet",
+            "Yes, already",
+            "Never, and never will"
+          ],
+          "answer": 0,
+          "explain": "[[pas encore]] = not yet. *Never* would be [[jamais]]."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "J'ai rien acheté au marché.",
+          "en": "I didn't buy anything at the market.",
+          "prompt": "What did the speaker buy at the market?",
+          "options": [
+            "Nothing",
+            "A few things",
+            "Everything they needed"
+          ],
+          "answer": 0,
+          "explain": "Casual speech drops *ne*: [[J'ai rien acheté]] = [[Je n'ai rien acheté]]. [[rien]] still makes it negative."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Remember: the negation wraps around avoir, and the participle comes last.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Nous ___ avons ___ vu de baleines à Tadoussac. (never)",
+          "answers": [
+            [
+              "n'"
+            ],
+            [
+              "jamais"
+            ]
+          ],
+          "en": "We've never seen whales in Tadoussac.",
+          "explain": "n' before avons, jamais after it. And [[de baleines]]: des → de after a negative."
+        },
+        {
+          "id": "r2",
+          "type": "translate",
+          "prompt": "I didn't understand the question.",
+          "accept": [
+            "Je n'ai pas compris la question."
+          ],
+          "hint": "comprendre → compris",
+          "explain": "ne + ai + pas + compris (prendre family)."
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Your friend asks “Tu n'as pas fini ?” You did finish. What do you say?",
+          "options": [
+            "Si, j'ai fini.",
+            "Oui, je n'ai pas fini.",
+            "Non, j'ai fini.",
+            "Si, je n'ai pas fini."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "This says yes and no at the same time.",
+            "Non would agree with the negative: “No, I haven't.” Then j'ai fini contradicts it.",
+            "Si means “yes, I did”, so the rest must be positive."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "Have you seen the new office? (formal)",
+          "accept": [
+            "Avez-vous vu le nouveau bureau ?",
+            "Vous avez vu le nouveau bureau ?",
+            "Est-ce que vous avez vu le nouveau bureau ?",
+            "Avez-vous vu les nouveaux bureaux ?",
+            "Vous avez vu les nouveaux bureaux ?",
+            "Est-ce que vous avez vu les nouveaux bureaux ?"
+          ],
+          "explain": "Three correct styles. Inversion: [[Avez-vous vu…]]."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "He didn't say anything.",
+          "accept": [
+            "Il n'a rien dit."
+          ],
+          "extra": [
+            "pas",
+            "fait"
+          ],
+          "explain": "ne… rien goes around avoir: [[il n'a rien dit]]."
+        },
+        {
+          "id": "r6",
+          "type": "cloze",
+          "text": "___-il pris le train ou l'avion ?",
+          "answers": [
+            [
+              "A-t"
+            ]
+          ],
+          "choices": [
+            "A-t",
+            "A",
+            "Est-il",
+            "As-t"
+          ],
+          "en": "Did he take the train or the plane?",
+          "explain": "Inversion with il: a + -t- + il → A-t-il."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Ce matin, je n'ai pas pris ___ petit-déjeuner.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "choices": [
+            "de",
+            "du",
+            "le",
+            "un"
+          ],
+          "en": "This morning I didn't have breakfast.",
+          "explain": "After a negative, un/du/des → de: pas de petit-déjeuner."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "Je n'ai jamais pris l'avion.",
+          "accept": [],
+          "explain": "[[n'ai jamais pris]]: negation around avoir, then the participle of prendre."
+        },
+        {
+          "id": "r9",
+          "type": "translate",
+          "prompt": "Have you ever visited Ottawa? (to a friend)",
+          "accept": [
+            "Tu as déjà visité Ottawa ?",
+            "Est-ce que tu as déjà visité Ottawa ?",
+            "As-tu déjà visité Ottawa ?"
+          ],
+          "explain": "Have you ever…? = [[Tu as déjà…?]] Déjà goes between avoir and the participle."
+        },
+        {
+          "id": "r10",
+          "type": "match",
+          "prompt": "Match the negatives.",
+          "pairs": [
+            [
+              "je n'ai pas fini",
+              "I didn't finish"
+            ],
+            [
+              "je n'ai pas encore fini",
+              "I haven't finished yet"
+            ],
+            [
+              "je n'ai jamais fini",
+              "I never finished"
+            ],
+            [
+              "je n'ai rien fait",
+              "I didn't do anything"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Play “Have you ever…?” with a new colleague. Ask three questions with Tu as déjà… ? and answer three yourself: once with oui, once with non, jamais, and once with a negative sentence.",
+          "seconds": 40,
+          "checklist": [
+            "Three questions with Tu as déjà… ? (or Est-ce que / inversion)",
+            "One answer with je n'ai jamais…",
+            "One answer with je n'ai pas encore… or je n'ai rien…",
+            "A follow-up question: Quand ? Où ? Avec qui ?"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Tu as déjà mangé de la tire sur la neige ? Moi, jamais ! Je n'ai jamais visité de cabane à sucre. Et tu as déjà fait du ski de fond ? Oui ? Où ça ? Moi, j'ai fait du ski une fois, en Suisse, mais je n'ai pas encore essayé le ski de fond.",
+              "en": "Have you ever had maple taffy on snow? Me, never! I've never visited a sugar shack. And have you ever been cross-country skiing? Yes? Where? I went skiing once, in Switzerland, but I haven't tried cross-country skiing yet."
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Your manager asks by email: “Avez-vous fini le rapport ?” Reply: say what you have done, what you haven't done yet and why, and ask one polite question back with inversion.",
+          "wordRange": [
+            25,
+            55
+          ],
+          "checklist": [
+            "Polite opening: Bonjour + name",
+            "What you did: j'ai…",
+            "What you haven't done: je n'ai pas encore… / je n'ai pas eu le temps de…",
+            "A question with inversion: Avez-vous… ?",
+            "Polite closing: Merci, bonne journée"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour Lucie,\nJ'ai écrit l'introduction et j'ai corrigé les chiffres. Mais je n'ai pas encore fini la conclusion : je n'ai pas eu le temps hier. Avez-vous reçu les chiffres du client ?\nMerci et bonne journée,\nAlex",
+              "en": "Hello Lucie, I've written the introduction and corrected the figures. But I haven't finished the conclusion yet: I didn't have time yesterday. Have you received the figures from the client? Thanks and have a good day, Alex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Wrap the negation around avoir: [[je n'ai pas mangé, je n'ai jamais vu, je n'ai rien fait]]\n- Say *not yet* with [[pas encore]] and contradict a negative with [[si]]\n- Ask in the past three ways: [[Tu as fini ? / Est-ce que tu as fini ? / As-tu fini ?]] and [[A-t-il appelé ?]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Fixed the model answer: “jamais visité une cabane” → “jamais visité de cabane”. Removed accepted answers without ne (informal) and “pas fini encore”. Clarified the T'as-tu note (informal, recognition only) and the de-after-negation rule."
+  }
+}

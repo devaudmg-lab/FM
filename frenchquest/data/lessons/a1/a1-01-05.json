@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-01-05",
+  "level": "a1",
+  "unit": "a1-01",
+  "title": "Survival phrases",
+  "goal": "Keep a conversation going when you don't understand: ask people to repeat, slow down or spell, ask what a word means, and apologise politely.",
+  "minutes": 14,
+  "items": [
+    { "id": "comprends-pas", "kind": "phrase", "fr": "Je ne comprends pas.", "en": "I don't understand.",
+      "note": "In fast speech you will hear « Je comprends pas », without ne." },
+    { "id": "repeter", "kind": "phrase", "fr": "Pouvez-vous répéter, s'il vous plaît ?", "en": "Can you repeat, please? (formal)",
+      "accept": ["Pouvez-vous répéter ?", "Vous pouvez répéter, s'il vous plaît ?", "Vous pouvez répéter ?", "Pouvez-vous répéter s'il vous plaît"] },
+    { "id": "lentement", "kind": "phrase", "fr": "Plus lentement, s'il vous plaît.", "en": "More slowly, please. (formal)",
+      "accept": ["Parlez plus lentement, s'il vous plaît.", "Pouvez-vous parler plus lentement, s'il vous plaît ?", "Plus lentement s'il vous plaît"],
+      "note": "plus: the s is silent here. lentement: two nasal an sounds, silent t." },
+    { "id": "comment-dit-on", "kind": "phrase", "fr": "Comment dit-on … en français ?", "en": "How do you say … in French?",
+      "accept": ["Comment on dit … en français ?", "Comment est-ce qu'on dit … en français ?"],
+      "example": { "fr": "Comment dit-on « parking » en français ?", "en": "How do you say “parking” in French?" } },
+    { "id": "veut-dire", "kind": "phrase", "fr": "Qu'est-ce que ça veut dire ?", "en": "What does that mean?", "accept": ["Ça veut dire quoi ?", "Qu'est-ce que ça veut dire"] },
+    { "id": "epeler", "kind": "phrase", "fr": "Pouvez-vous épeler, s'il vous plaît ?", "en": "Can you spell it, please? (formal)",
+      "accept": ["Pouvez-vous épeler ?", "Vous pouvez épeler, s'il vous plaît ?", "Vous pouvez épeler ?"] },
+    { "id": "desole", "kind": "phrase", "fr": "Je suis désolé.", "en": "I'm sorry.", "accept": ["Je suis désolée.", "Désolé.", "Désolée."],
+      "note": "A woman writes désolée. Both sound the same." },
+    { "id": "excusez-moi", "kind": "phrase", "fr": "Excusez-moi.", "en": "Excuse me. (formal, to get attention)", "accept": ["Excusez-moi, madame.", "Excusez-moi, monsieur."],
+      "note": "To a friend: Excuse-moi." },
+    { "id": "pardon", "kind": "phrase", "fr": "Pardon ?", "en": "Sorry? / Pardon? (I didn't hear)", "accept": ["Pardon"],
+      "note": "Without the question, Pardon ! is a quick “sorry!” when you bump into someone." },
+    { "id": "parlez-anglais", "kind": "phrase", "fr": "Vous parlez anglais ?", "en": "Do you speak English? (formal)", "accept": ["Parlez-vous anglais ?", "Est-ce que vous parlez anglais ?"] },
+    { "id": "parle-pas-bien", "kind": "phrase", "fr": "Je ne parle pas bien français.", "en": "I don't speak French well.",
+      "accept": ["Je ne parle pas très bien français.", "Je ne parle pas bien le français."] },
+    { "id": "sais-pas", "kind": "phrase", "fr": "Je ne sais pas.", "en": "I don't know.",
+      "note": "In casual speech you will hear « Je sais pas ». Write ne." },
+    { "id": "encore-une-fois", "kind": "phrase", "fr": "Encore une fois, s'il vous plaît.", "en": "One more time, please. (formal)", "accept": ["Encore une fois s'il vous plaît"] },
+    { "id": "g-ne-pas", "kind": "grammar", "fr": "je ne … pas", "en": "saying “I don't…” with ne … pas (as fixed chunks)",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ comprends pas.", "answers": [["ne"]], "choices": ["ne", "n'", "pas"], "en": "I don't understand.", "explain": "ne goes before the verb, pas after it." },
+        { "type": "cloze", "text": "Je ne sais ___.", "answers": [["pas"]], "choices": ["pas", "ne", "non"], "en": "I don't know.", "explain": "The negation has two parts: ne … pas." },
+        { "type": "mcq", "prompt": "Which sentence means “I don't speak French well”?", "options": ["Je ne parle pas bien français.", "Je ne comprends pas bien.", "Je parle bien français."], "optionsFr": true, "answer": 0, "explain": "parler = to speak; ne … pas around the verb parle." }
+      ] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "When French goes too fast",
+      "blocks": [
+        { "type": "dialogue", "title": "At a pharmacy in Montréal",
+          "context": "Raj picks up a prescription. Camille, the pharmacist, speaks quickly.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Bonjour ! Votre carte d'assurance maladie, s'il vous plaît.", "en": "Hello! Your health insurance card, please." },
+            { "speaker": "Raj", "fr": "Pardon ? Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît ?", "en": "Sorry? I don't understand. Can you repeat, please?" },
+            { "speaker": "Camille", "fr": "Votre carte d'assurance maladie.", "en": "Your health insurance card." },
+            { "speaker": "Raj", "fr": "Plus lentement, s'il vous plaît. Je suis désolé, je ne parle pas bien français.", "en": "More slowly, please. I'm sorry, I don't speak French well." },
+            { "speaker": "Camille", "fr": "Pas de problème ! Votre carte… d'assurance… maladie.", "en": "No problem! Your card… health… insurance." },
+            { "speaker": "Raj", "fr": "« Assurance maladie », qu'est-ce que ça veut dire ?", "en": "“Assurance maladie”, what does that mean?" },
+            { "speaker": "Camille", "fr": "Ça veut dire « health insurance ».", "en": "It means “health insurance”." },
+            { "speaker": "Raj", "fr": "Ah, d'accord ! Voilà. Merci !", "en": "Ah, OK! Here you go. Thank you!" }
+          ] },
+        { "type": "dialogue", "title": "At work in Moncton",
+          "context": "Mei asks her manager, Olivier, about some words.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Excusez-moi, Olivier. Comment dit-on « meeting » en français ?", "en": "Excuse me, Olivier. How do you say “meeting” in French?" },
+            { "speaker": "Olivier", "fr": "On dit « réunion ».", "en": "We say “réunion”." },
+            { "speaker": "Mei", "fr": "Pouvez-vous épeler, s'il vous plaît ?", "en": "Can you spell it, please?" },
+            { "speaker": "Olivier", "fr": "R, E accent aigu, U, N, I, O, N.", "en": "R, E acute, U, N, I, O, N." },
+            { "speaker": "Mei", "fr": "Merci ! Et « parking » ?", "en": "Thanks! And “parking”?" },
+            { "speaker": "Olivier", "fr": "En France, on dit souvent « parking ». Au Canada, on dit surtout « stationnement ».", "en": "In France, people often say “parking”. In Canada, we mostly say “stationnement”." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Raj and Mei don't understand everything, but they **never stop the conversation**. That is the skill of this lesson." }
+      ] },
+    { "type": "understand", "title": "Your rescue kit",
+      "blocks": [
+        { "type": "explain", "title": "Four kinds of rescue phrases",
+          "body": "**1. Say there is a problem**\n- [[Pardon ?]]: Sorry? (I didn't hear)\n- [[Je ne comprends pas.]]: I don't understand.\n- [[Je ne parle pas bien français.]]: I don't speak French well.\n\n**2. Ask for help**\n- [[Pouvez-vous répéter, s'il vous plaît ?]]: Can you repeat, please?\n- [[Plus lentement, s'il vous plaît.]]: More slowly, please.\n- [[Encore une fois, s'il vous plaît.]]: One more time, please.\n- [[Pouvez-vous épeler, s'il vous plaît ?]]: Can you spell it, please?\n\n**3. Ask about words**\n- [[Comment dit-on « parking » en français ?]]: How do you say “parking” in French?\n- [[Qu'est-ce que ça veut dire ?]]: What does that mean?\n- [[Ça s'écrit comment ?]]: How is it spelled? (lesson 2)\n\n**4. Apologise and get attention**\n- [[Excusez-moi.]], [[Pardon !]], [[Je suis désolé(e).]]" },
+        { "type": "pattern", "title": "“I don't…”: ne + verb + pas",
+          "pattern": "je ne + verb + pas",
+          "note": "For now, learn these as fixed chunks. French negation has **two parts** around the verb. You will study it fully later. Before a vowel, ne becomes **n'** (élision, lesson 4). In casual speech people often drop **ne**: [[Je sais pas.]] Recognize it, but write **ne**.",
+          "examples": [
+            { "fr": "Je ne comprends pas.", "en": "I don't understand." },
+            { "fr": "Je ne sais pas.", "en": "I don't know." },
+            { "fr": "Je ne parle pas bien français.", "en": "I don't speak French well." }
+          ] },
+        { "type": "table", "title": "Excusez-moi, pardon or désolé?",
+          "head": ["French", "Use it to…", "Example situation"],
+          "rows": [
+            ["Excusez-moi", "get attention before a question; pass someone", "Excusez-moi, madame…"],
+            ["Pardon ?", "say you didn't hear", "The clerk speaks too quietly."],
+            ["Pardon !", "say a quick sorry", "You bump into someone on the bus."],
+            ["Je suis désolé / désolée", "apologise for real", "You are late, or you can't help."]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "To a friend, say [[Excuse-moi]]. A woman writes [[désolée]] (same sound)." },
+        { "type": "vocab", "title": "Survival phrases", "itemIds": ["comprends-pas", "repeter", "lentement", "encore-une-fois", "epeler", "comment-dit-on", "veut-dire", "desole", "excusez-moi", "pardon", "parlez-anglais", "parle-pas-bien", "sais-pas"] },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "This lesson uses all the sounds of the unit:\n\n- [[comprends]]: two nasal vowels (on, an) and a silent ds.\n- [[plus lentement]]: the u of lesson 3, a silent s, two an nasals, a silent final t.\n- [[Pouvez-vous]]: two ou sounds; -ez sounds like é.\n- [[Qu'est-ce que]] sounds like “kess-kuh”: élision (qu') and a silent t.\n- [[veut dire]]: eu is a new sound: say é, then round your lips.\n- [[désolé]]: two tight é sounds.",
+          "examples": [ { "fr": "Qu'est-ce que ça veut dire ?", "en": "What does that mean?" }, { "fr": "Plus lentement, s'il vous plaît.", "en": "More slowly, please." } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **A bare order sounds rude.** [[Répétez !]] alone sounds like a command. Use a question and add [[s'il vous plaît]].\n- **Comment dit-on**, not “comment dites-on”. The t of dit is pronounced because on starts with a vowel: “dee-ton”.\n- **Ça veut dire**, with the infinitive dire: not “ça veut dit”.\n- **Désolé or désolée?** Match yourself: a man writes [[désolé]], a woman [[désolée]].\n- **Don't just say “Quoi ?”** (What?) to a stranger: it is very casual. Say [[Pardon ?]]" },
+        { "type": "deepdive", "kind": "canada",
+          "body": "- **Stationnement:** official signs in Québec use [[stationnement]] for parking. In conversation you may also hear [[parking]], the usual word in France.\n- **Je m'excuse** (I'm sorry) is very common in Québec, as well as [[Excusez-moi]] and a short [[Excusez !]].\n- Among friends you'll hear [[Hein ?]] or [[Quoi ?]] for “What?”. With strangers, stick to [[Pardon ?]]\n- **People may switch to English** when they hear your accent, to be kind. If you want to practise, say [[En français, s'il vous plaît. Je veux pratiquer.]] (In French, please. I want to practise.) *Pratiquer* (to practise) is common in Canada and also used in France.",
+          "examples": [ { "fr": "Je m'excuse, je ne comprends pas.", "en": "I'm sorry, I don't understand. (very common in Québec)" }, { "fr": "En français, s'il vous plaît !", "en": "In French, please!" } ] },
+        { "type": "deepdive", "kind": "culture",
+          "body": "Asking people to repeat is **normal and polite**. Most people are happy to help a learner, especially if you start with [[Bonjour]] and end with [[Merci]]. A good opening line: [[Je suis désolé(e), je ne parle pas bien français. Plus lentement, s'il vous plaît.]] People will usually slow down for the rest of the conversation." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Practise these until they come out automatically: you will need them on your first day.",
+          "lines": [
+            { "fr": "Pardon ? Je ne comprends pas.", "en": "Sorry? I don't understand.", "tip": "comprends: nasal on + nasal an, silent ds." },
+            { "fr": "Pouvez-vous répéter, s'il vous plaît ?", "en": "Can you repeat, please?", "tip": "pou-vé-vou ré-pé-té" },
+            { "fr": "Plus lentement, s'il vous plaît.", "en": "More slowly, please.", "tip": "plu lant-man" },
+            { "fr": "Pouvez-vous épeler, s'il vous plaît ?", "en": "Can you spell it, please?", "tip": "The liaison vou-z‿épeler is optional here: both ways are fine." },
+            { "fr": "Comment dit-on « bus » en français ?", "en": "How do you say “bus” in French?", "tip": "dit-on sounds like “dee-ton”." },
+            { "fr": "Qu'est-ce que ça veut dire ?", "en": "What does that mean?", "tip": "“kess-kuh sa vuh deer”" },
+            { "fr": "Je suis désolée.", "en": "I'm sorry. (woman speaking)" },
+            { "fr": "Excusez-moi, vous parlez anglais ?", "en": "Excuse me, do you speak English?" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Plus lentement, s'il vous plaît.", "en": "More slowly, please.", "prompt": "What does the person want?", "options": ["Slower speech", "A spelling", "A translation into English"], "answer": 0, "explain": "[[lentement]] = slowly; [[plus]] = more." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Qu'est-ce que ça veut dire ?", "en": "What does that mean?", "prompt": "What is the question?", "options": ["What does that mean?", "How do you say that?", "How is that spelled?"], "answer": 0, "explain": "[[vouloir dire]] = to mean; [[ça veut dire]] = that means." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Excusez-moi, vous parlez anglais ?", "en": "Excuse me, do you speak English?", "prompt": "What does the person ask?", "options": ["If you speak English", "If you understand", "If you can repeat"], "answer": 0, "explain": "[[anglais]] = English; [[parlez]] = (you) speak." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "This is the last lesson of the unit, so earlier material comes back too.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "You didn't catch what the bank clerk said. What do you say?", "options": ["Pardon ? Pouvez-vous répéter, s'il vous plaît ?", "Salut ! Ça va ?", "D'accord, merci !"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "This is a friendly greeting, not a request.", "This means you understood and agree."] },
+        { "id": "r2", "type": "translate", "prompt": "I don't understand.", "accept": ["Je ne comprends pas."], "explain": "ne … pas goes around the verb. In writing, keep ne." },
+        { "id": "r3", "type": "cloze", "text": "Comment ___-on « bus » en français ?", "answers": [["dit"]], "choices": ["dit", "dis", "dire"], "en": "How do you say “bus” in French?", "explain": "The fixed question is Comment dit-on … ?" },
+        { "id": "r4", "type": "reorder", "prompt": "What does that mean?", "accept": ["Qu'est-ce que ça veut dire ?"], "extra": ["dit"], "explain": "Qu'est-ce que + ça veut dire. dire stays in the infinitive." },
+        { "id": "r5", "type": "match", "prompt": "Match the French and the English.", "pairs": [["Je ne sais pas.", "I don't know."], ["Je ne comprends pas.", "I don't understand."], ["Plus lentement.", "More slowly."], ["Excusez-moi.", "Excuse me."], ["Encore une fois.", "One more time."]] },
+        { "id": "r6", "type": "cloze", "text": "Je suis ___, je ne parle pas bien français.", "answers": [["désolée"]], "choices": ["désolée", "désolé", "désolés"], "en": "I'm sorry, I don't speak French well. (Amira, a woman, is speaking)", "explain": "Amira is a woman, so she writes désolée, with an extra -e." },
+        { "id": "r7", "type": "dictation", "fr": "Pouvez-vous répéter, s'il vous plaît ?", "accept": ["Pouvez-vous répéter s'il vous plaît ?"], "explain": "[[répéter]]: three é sounds, spelled é, é and -er." },
+        { "id": "r8", "type": "dictation", "fr": "S, T, A, T, I, O, deux N, E, M, E, N, T.", "prompt": "The Canadian word for “parking” is spelled aloud. Type the word.", "accept": ["stationnement", "S T A T I O N N E M E N T", "S-T-A-T-I-O-N-N-E-M-E-N-T"], "explain": "[[deux N]] = two Ns: stationnement." },
+        { "id": "r9", "type": "translate", "prompt": "Can you speak more slowly, please? (formal)", "accept": ["Pouvez-vous parler plus lentement, s'il vous plaît ?", "Vous pouvez parler plus lentement, s'il vous plaît ?", "Pouvez-vous parler plus lentement ?", "Vous pouvez parler plus lentement ?", "Est-ce que vous pouvez parler plus lentement, s'il vous plaît ?", "Est-ce que vous pouvez parler plus lentement ?", "Parlez plus lentement, s'il vous plaît."], "hint": "parler = to speak", "explain": "Pouvez-vous + parler + plus lentement. Always add s'il vous plaît." },
+        { "id": "r10", "type": "listen-mcq", "fr": "Je ne sais pas.", "en": "I don't know.", "prompt": "What does the person say?", "options": ["I don't know.", "I don't understand.", "I'm sorry."], "answer": 0, "explain": "[[savoir]] = to know: [[je ne sais pas]]. “I don't understand” is [[je ne comprends pas]]." }
+      ] },
+    { "type": "apply", "title": "Mission: don't let the conversation stop",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You phone a clinic in Montréal. The receptionist says (fast): « Bonjour ! Votre rendez-vous est avec le docteur Tremblay. » Ask her to repeat more slowly, ask her to spell the doctor's name, ask what « rendez-vous » means, then thank her and say goodbye.", "promptFr": "Bonjour ! Votre rendez-vous est avec le docteur Tremblay.", "seconds": 45,
+          "checklist": ["Pardon ? / Je ne comprends pas.", "Pouvez-vous répéter… plus lentement ?", "Pouvez-vous épeler ? / Ça s'écrit comment ?", "Qu'est-ce que ça veut dire, « rendez-vous » ?", "Merci + Au revoir / Bonne journée"],
+          "models": [
+            { "label": "Model answer (your part)", "fr": "Bonjour ! Pardon, je ne comprends pas. Pouvez-vous répéter plus lentement, s'il vous plaît ? … Tremblay ? Pouvez-vous épeler, s'il vous plaît ? … Et « rendez-vous », qu'est-ce que ça veut dire ? … Ah, d'accord ! Merci beaucoup, madame. Au revoir !", "en": "Hello! Sorry, I don't understand. Can you repeat more slowly, please? … Tremblay? Can you spell it, please? … And “rendez-vous”, what does that mean? … Ah, OK! Thank you very much, madam. Goodbye!" },
+            { "label": "The whole conversation", "fr": "— Bonjour ! Votre rendez-vous est avec le docteur Tremblay.\n— Pardon ? Plus lentement, s'il vous plaît.\n— Votre rendez-vous… est avec… le docteur Tremblay.\n— Ça s'écrit comment ?\n— T, R, E, M, B, L, A, Y.\n— Merci. « Rendez-vous », qu'est-ce que ça veut dire ?\n— Ça veut dire « appointment ».\n— D'accord ! Merci beaucoup. Bonne journée !", "en": "— Hello! Your appointment is with Dr. Tremblay.\n— Sorry? More slowly, please.\n— Your appointment… is with… Dr. Tremblay.\n— How is it spelled?\n— T, R, E, M, B, L, A, Y.\n— Thank you. “Rendez-vous”, what does that mean?\n— It means “appointment”.\n— OK! Thank you very much. Have a nice day!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Your French-speaking neighbour, Madame Côté, left you a voice message that you didn't understand. Write her a short, polite text: greet her, apologise, say you don't understand and don't speak French well, ask her to repeat more slowly, and thank her.", "wordRange": [15, 45],
+          "checklist": ["Bonjour + her name", "Je suis désolé(e)", "Je ne comprends pas / Je ne parle pas bien français", "Pouvez-vous répéter plus lentement, s'il vous plaît ?", "Merci + your name"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, madame Côté ! Je suis désolée, je ne parle pas bien français et je ne comprends pas le message. Pouvez-vous répéter plus lentement, s'il vous plaît ? Merci beaucoup ! Amira", "en": "Hello, Ms. Côté! I'm sorry, I don't speak French well and I don't understand the message. Can you repeat more slowly, please? Thank you very much! Amira" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 6 } ] }
+  ],
+  "summary": "- Say when you don't understand: [[Pardon ?]], [[Je ne comprends pas.]], [[Je ne parle pas bien français.]]\n- Ask for help: [[Pouvez-vous répéter ?]], [[Plus lentement]], [[Pouvez-vous épeler ?]]\n- Ask about words: [[Comment dit-on … en français ?]], [[Qu'est-ce que ça veut dire ?]]\n- Apologise and get attention with [[Excusez-moi]], [[Pardon]] and [[Je suis désolé(e)]]",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed ne-less forms and a tu-form from accept lists (the lesson says to write ne; prompts say formal). Hedged stationnement/parking, fixed pratiquer as not Canada-only, marked the vous‿épeler liaison as optional, added est-ce que variants to r9."}
+}

@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-08-06",
+  "level": "b1",
+  "unit": "b1-08",
+  "title": "Workshop: Solve a problem",
+  "goal": "Get extra practice complaining, asking for information, insisting politely and negotiating a solution in new situations, orally and in writing.",
+  "minutes": 20,
+  "items": [
+    { "id": "demenageur", "kind": "vocab", "fr": "déménageur", "article": "le", "gender": "m", "en": "mover (person who moves furniture)", "pos": "noun",
+      "accept": ["un déménageur", "les déménageurs"],
+      "example": { "fr": "Les déménageurs sont arrivés avec quatre heures de retard.", "en": "The movers arrived four hours late." } },
+    { "id": "endommage", "kind": "vocab", "fr": "endommagé", "fem": "endommagée", "en": "damaged", "pos": "adjective",
+      "accept": ["endommagée"],
+      "example": { "fr": "La table a été endommagée pendant le transport.", "en": "The table was damaged during transport." },
+      "note": "From endommager (to damage). Agrees like an adjective: des meubles endommagés." },
+    { "id": "reclamation", "kind": "vocab", "fr": "réclamation", "article": "une", "gender": "f", "en": "a claim (formal request for compensation)", "pos": "noun",
+      "accept": ["la réclamation"],
+      "example": { "fr": "Vous devez faire une réclamation par écrit.", "en": "You have to make a claim in writing." },
+      "note": "Faire une réclamation = to file a claim or a formal complaint (le service des réclamations = the complaints department)." },
+    { "id": "soumission", "kind": "vocab", "fr": "soumission", "article": "une", "gender": "f", "en": "a quote, an estimate (Québec)", "pos": "noun",
+      "accept": ["la soumission"],
+      "example": { "fr": "Selon la soumission, le déménagement devait coûter 650 $.", "en": "According to the quote, the move was supposed to cost $650." },
+      "note": "Québec usage. In France, people say un devis." },
+    { "id": "montant", "kind": "vocab", "fr": "montant", "article": "le", "gender": "m", "en": "the amount (of money)", "pos": "noun",
+      "accept": ["un montant"],
+      "example": { "fr": "Le montant de la facture est trop élevé.", "en": "The amount on the bill is too high." } },
+    { "id": "supplement", "kind": "vocab", "fr": "supplément", "article": "un", "gender": "m", "en": "an extra charge", "pos": "noun",
+      "accept": ["le supplément"],
+      "example": { "fr": "On m'a demandé un supplément de 50 $.", "en": "They asked me for an extra charge of $50." },
+      "note": "En supplément = extra, not included." },
+    { "id": "exiger", "kind": "vocab", "fr": "exiger", "en": "to demand, to require", "pos": "verb",
+      "example": { "fr": "J'exige une réponse écrite.", "en": "I demand a written answer." },
+      "note": "Strong: use it only when politer phrases have failed. Nous exigeons (keep the e before -ons)." },
+    { "id": "etre-responsable", "kind": "phrase", "fr": "être responsable de", "en": "to be responsible for",
+      "example": { "fr": "L'entreprise est responsable des dommages.", "en": "The company is responsible for the damage." },
+      "note": "de + les → des: responsable des meubles." },
+    { "id": "en-attendant", "kind": "phrase", "fr": "en attendant", "en": "in the meantime",
+      "example": { "fr": "En attendant, gardez votre reçu.", "en": "In the meantime, keep your receipt." } },
+    { "id": "a-vos-frais", "kind": "phrase", "fr": "à vos frais", "en": "at your expense (formal)",
+            "example": { "fr": "La réparation sera à nos frais.", "en": "The repair will be at our expense." },
+      "note": "Change the possessive: à mes frais (at my expense), à nos frais (at our expense)." }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Moving day goes wrong",
+      "intro": "In Québec, many leases end on June 30, so thousands of people move on **July 1**. Alex moved that day, and it went badly. Listen to his call to the moving company: he **complains**, **asks for information**, **insists** and **negotiates**.",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "A call to Déménagements Laurier",
+          "context": "On July 3, Alex calls the moving company. Mrs. Roy answers.",
+          "lines": [
+            { "speaker": "Mme Roy", "fr": "Déménagements Laurier, Josée Roy à l'appareil. Comment puis-je vous aider ?", "en": "Déménagements Laurier, Josée Roy speaking. How can I help you?" },
+            { "speaker": "Alex", "fr": "Bonjour, madame. Je m'appelle Alex Martin. Je vous appelle au sujet de mon déménagement du 1er juillet. Je souhaiterais signaler plusieurs problèmes.", "en": "Hello, ma'am. My name is Alex Martin. I'm calling about my move on July 1. I'd like to report several problems." },
+            { "speaker": "Mme Roy", "fr": "Je vous écoute. Avez-vous votre numéro de dossier ?", "en": "I'm listening. Do you have your file number?" },
+            { "speaker": "Alex", "fr": "Oui, c'est le 4471. D'abord, vos déménageurs devaient arriver à 8 h, mais ils sont arrivés à midi. J'ai appelé à plusieurs reprises, et personne ne m'a répondu.", "en": "Yes, it's 4471. First, your movers were supposed to arrive at 8 a.m., but they arrived at noon. I called several times, and nobody answered." },
+            { "speaker": "Mme Roy", "fr": "Je suis désolée. Le 1er juillet, c'est la journée la plus difficile de l'année pour nous.", "en": "I'm sorry. July 1 is the hardest day of the year for us." },
+            { "speaker": "Alex", "fr": "Je comprends, mais ce n'est pas tout. Ma table a été endommagée, et une lampe est arrivée cassée. Et malgré le retard, on m'a facturé 1 050 $, alors que la soumission était de 650 $.", "en": "I understand, but that's not all. My table was damaged, and a lamp arrived broken. And despite the delay, I was charged $1,050, whereas the quote was $650." },
+            { "speaker": "Mme Roy", "fr": "Je vois. Le montant correspond au nombre d'heures de travail. Vos meubles étaient nombreux, et il y avait trois étages.", "en": "I see. The amount corresponds to the number of hours worked. You had a lot of furniture, and there were three floors." },
+            { "speaker": "Alex", "fr": "Pourriez-vous me dire pourquoi personne ne m'a parlé de ce supplément ? Je tiens à préciser que les trois étages étaient indiqués sur le formulaire.", "en": "Could you tell me why nobody told me about this extra charge? I'd like to point out that the three floors were indicated on the form." },
+            { "speaker": "Mme Roy", "fr": "Écoutez, je peux vous rembourser une partie de la différence, disons 100 $.", "en": "Listen, I can refund part of the difference, let's say $100." },
+            { "speaker": "Alex", "fr": "Je regrette, mais je ne peux pas accepter. Je me permets d'insister : votre entreprise est responsable du retard et des dommages. Serait-il possible de me rembourser toute la différence ?", "en": "I'm sorry, but I can't accept that. I must insist: your company is responsible for the delay and the damage. Would it be possible to refund the whole difference?" },
+            { "speaker": "Mme Roy", "fr": "Toute la différence, ce n'est pas possible. Mais je vous propose ceci : si vous m'envoyez des photos de la table et de la lampe, nous vous rembourserons 250 $, et la réparation de la table sera à nos frais.", "en": "The whole difference isn't possible. But I suggest this: if you send me photos of the table and the lamp, we'll refund you $250, and the table repair will be at our expense." },
+            { "speaker": "Alex", "fr": "D'accord, mais à une condition : je voudrais une confirmation par courriel. Y a-t-il un délai pour envoyer les photos ?", "en": "OK, but on one condition: I'd like a confirmation by email. Is there a time limit for sending the photos?" },
+            { "speaker": "Mme Roy", "fr": "Il faut faire la réclamation dans les sept jours. En attendant, gardez la lampe, s'il vous plaît.", "en": "The claim has to be made within seven days. In the meantime, please keep the lamp." },
+            { "speaker": "Alex", "fr": "Parfait. Donc, si je comprends bien, je vous envoie les photos aujourd'hui, vous me remboursez 250 $ et vous réparez la table. Ça me convient. Merci, madame.", "en": "Perfect. So, if I understand correctly, I send you the photos today, you refund me $250 and you repair the table. That works for me. Thank you, ma'am." }
+          ]
+        },
+        {
+          "id": "d1", "type": "mcq",
+          "prompt": "Which problem does Alex NOT mention?",
+          "options": ["The movers forgot a box.", "The movers arrived four hours late.", "A table was damaged and a lamp broken.", "The bill was higher than the quote."],
+          "answer": 0,
+          "explain": "He mentions the delay (8 a.m. → noon), the damage ([[endommagée]], [[cassée]]) and the bill ($1,050 instead of $650). No forgotten box."
+        },
+        {
+          "id": "d2", "type": "mcq",
+          "prompt": "Why does Alex refuse the first offer?",
+          "options": ["$100 is too little: he says the company is responsible.", "He wants a new lamp, not money.", "He wants to speak to a manager.", "He has already sent the photos."],
+          "answer": 0,
+          "explain": "[[Je regrette, mais je ne peux pas accepter. Je me permets d'insister : votre entreprise est responsable…]]"
+        },
+        {
+          "id": "d3", "type": "mcq",
+          "prompt": "What is the final agreement?",
+          "options": ["$250 refund + table repaired, if he sends photos", "$1,050 refund and a new table", "$100 refund and nothing else", "The whole $400 difference, with no conditions"],
+          "answer": 0,
+          "explain": "[[si vous m'envoyez des photos…, nous vous rembourserons 250 $, et la réparation de la table sera à nos frais]]: si + présent → futur sets the condition."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit at a glance, and new words",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit 8 at a glance",
+          "head": ["Move", "Key phrases"],
+          "rows": [
+            ["Complain", "Je souhaiterais signaler… · malgré… · ne… toujours pas · à plusieurs reprises"],
+            ["Ask for information", "Pourriez-vous me dire… ? · Je voudrais savoir si… · Y a-t-il… ?"],
+            ["Insist politely", "Je comprends, mais… · Je me permets d'insister. · Serait-il possible de… ?"],
+            ["Negotiate", "Qu'est-ce que vous proposez ? · D'accord, mais à une condition. · si + présent → futur"],
+            ["Confirm", "Donc, si je comprends bien… · Ça me convient."]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "One conversation, five moves",
+          "body": "Alex's call follows the whole unit: **facts first** (date, file number, times, amounts), then **a clear request**. When the first answer is not enough, he doesn't get angry: he acknowledges ([[Je comprends, mais…]]), adds a fact ([[Je tiens à préciser que…]]) and asks again more firmly ([[Je me permets d'insister]]).\n\nThe deal is fixed with **si + présent → futur**, and he **summarizes** it before hanging up ([[Donc, si je comprends bien…]]). Always ask for written confirmation."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for problems and claims",
+          "itemIds": ["demenageur", "endommage", "reclamation", "soumission", "montant", "supplement", "exiger", "etre-responsable", "en-attendant", "a-vos-frais"]
+        },
+        {
+          "type": "deepdive", "kind": "canada", "title": "July 1: moving day in Québec",
+          "body": "In Québec, many leases end on **June 30**, so July 1 is called [[le jour du déménagement]]. Movers are fully booked months ahead, and prices go up. Ask for a written [[soumission]] (*devis* in France), check what is included (stairs, hours, travel time), and keep the contract. If a business refuses to pay for damage, the **Office de la protection du consommateur** gives free information."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listening practice",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A voicemail from a gym",
+          "context": "Customer service at a gym in Montréal calls Amira back about her cancelled membership.",
+          "fr": "Bonjour madame Haddad, ici Kevin, du service à la clientèle de Gym Plus. Je vous rappelle au sujet de votre courriel du 12 mars. Vous avez raison : vous avez annulé votre abonnement en février, mais on vous a facturé le mois de mars quand même. Je suis vraiment désolé pour cette erreur. Nous allons vous rembourser le montant complet, soit 54,99 $, d'ici cinq jours ouvrables. Vous n'avez rien à faire. En attendant, si vous avez des questions, vous pouvez me joindre au 514 555-0142, du lundi au vendredi, de 9 h à 17 h. Encore une fois, toutes nos excuses, et bonne journée !",
+          "en": "Hello Ms. Haddad, this is Kevin from Gym Plus customer service. I'm calling you back about your email of March 12. You're right: you cancelled your membership in February, but you were charged for March anyway. I'm really sorry for this mistake. We're going to refund the full amount, that is $54.99, within five business days. You don't have to do anything. In the meantime, if you have any questions, you can reach me at 514-555-0142, Monday to Friday, from 9 a.m. to 5 p.m. Once again, our apologies, and have a good day!"
+        },
+        {
+          "id": "h1", "type": "listen-mcq",
+          "fr": "Vous avez annulé votre abonnement en février, mais on vous a facturé le mois de mars quand même.",
+          "en": "You cancelled your membership in February, but you were charged for March anyway.",
+          "prompt": "What was the problem?",
+          "options": ["She was charged after cancelling.", "She was charged twice in February.", "Her membership was cancelled by mistake.", "She was never charged."],
+          "answer": 0,
+          "explain": "[[annulé en février]] + [[facturé le mois de mars quand même]] = charged for a month after cancelling."
+        },
+        {
+          "id": "h2", "type": "listen-mcq",
+          "fr": "Nous allons vous rembourser le montant complet, soit 54,99 $, d'ici cinq jours ouvrables. Vous n'avez rien à faire.",
+          "en": "We're going to refund the full amount, that is $54.99, within five business days. You don't have to do anything.",
+          "prompt": "What will happen next?",
+          "options": ["She'll get a full refund within five business days.", "She must fill in a form to get a refund.", "She'll get half the amount back.", "She'll get a free month instead."],
+          "answer": 0,
+          "explain": "[[le montant complet]] = the full amount; [[Vous n'avez rien à faire]] = no action needed."
+        },
+        {
+          "type": "listen",
+          "title": "An announcement on a train",
+          "context": "An announcement on a train between Montréal and Toronto.",
+          "fr": "Mesdames et messieurs, votre attention, s'il vous plaît. En raison d'un problème technique, notre train arrivera à Toronto avec environ quatre-vingt-dix minutes de retard. Nous sommes sincèrement désolés de ce dérangement. Les passagers dont la correspondance est menacée sont priés de s'adresser au personnel de bord, qui les aidera à trouver une solution. Malgré ce retard, le service de repas sera maintenu. Enfin, chaque passager recevra un bon de réduction par courriel dans les prochains jours. Nous vous remercions de votre compréhension.",
+          "en": "Ladies and gentlemen, your attention, please. Due to a technical problem, our train will arrive in Toronto about ninety minutes late. We sincerely apologize for this inconvenience. Passengers whose connection is at risk are asked to see the on-board staff, who will help them find a solution. Despite this delay, the meal service will continue. Finally, every passenger will receive a discount voucher by email in the next few days. Thank you for your understanding."
+        },
+        {
+          "id": "h3", "type": "listen-mcq",
+          "fr": "Les passagers dont la correspondance est menacée sont priés de s'adresser au personnel de bord.",
+          "en": "Passengers whose connection is at risk are asked to see the on-board staff.",
+          "prompt": "Who should go and see the staff?",
+          "options": ["Passengers who might miss a connection", "All passengers", "Passengers who want a meal", "Passengers who want a refund"],
+          "answer": 0,
+          "explain": "[[dont la correspondance est menacée]] = whose connection is at risk."
+        },
+        {
+          "id": "h4", "type": "listen-mcq",
+          "fr": "Enfin, chaque passager recevra un bon de réduction par courriel dans les prochains jours.",
+          "en": "Finally, every passenger will receive a discount voucher by email in the next few days.",
+          "prompt": "What compensation is offered?",
+          "options": ["A discount voucher by email", "A full refund at the station", "A free hotel night", "Nothing"],
+          "answer": 0,
+          "explain": "[[un bon de réduction]] = a discount voucher, sent [[par courriel]]."
+        },
+        {
+          "id": "h5", "type": "dictation",
+          "fr": "Je vous rappelle au sujet de votre courriel du 12 mars.",
+          "accept": ["Je vous rappelle au sujet de votre courriel du douze mars."],
+          "explain": "[[au sujet de]] = about, regarding. The date: [[le 12 mars]], no capital on the month."
+        },
+        {
+          "id": "h6", "type": "dictation",
+          "fr": "Malgré ce retard, le service de repas sera maintenu.",
+          "accept": ["Malgré ce retard le service de repas sera maintenu."],
+          "explain": "[[malgré]] + noun, no *de*: [[malgré ce retard]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed recall",
+      "intro": "Twelve questions: most on solving problems, some on earlier B1 units (relative pronouns, the conditionnel, reported speech). Answer without looking back.",
+      "blocks": [
+        {
+          "id": "r1", "type": "cloze",
+          "text": "___ mes trois appels, le problème n'est ___ pas réglé.",
+          "answers": [["Malgré"], ["toujours"]],
+          "choices": ["Malgré", "Depuis", "toujours", "encore"],
+          "en": "Despite my three calls, the problem still isn't solved.",
+          "explain": "[[malgré]] + noun (no *de*). *Still not* = [[ne… toujours pas]]."
+        },
+        {
+          "id": "r2", "type": "translate",
+          "prompt": "Would it be possible to refund the extra charge? (formal)",
+          "accept": ["Serait-il possible de rembourser le supplément ?", "Serait-il possible de me rembourser le supplément ?", "Est-ce qu'il serait possible de rembourser le supplément ?", "Est-ce qu'il serait possible de me rembourser le supplément ?"],
+          "hint": "Serait-il possible de + infinitif",
+          "explain": "[[Serait-il possible de]] + infinitive is the most polite way to insist."
+        },
+        {
+          "id": "r3", "type": "cloze",
+          "text": "Si vous m'___ la facture, je vous ___ demain.",
+          "answers": [["envoyez"], ["rembourserai", "rembourse"]],
+          "en": "If you send me the bill, I'll refund you tomorrow.",
+          "explain": "A real deal: [[si]] + présent ([[envoyez]]) → futur ([[rembourserai]]). Never the future after *si*. (In speech, the present [[je vous rembourse demain]] is also correct.)"
+        },
+        {
+          "id": "r4", "type": "mcq",
+          "prompt": "The clerk says no a second time. What is the most polite way to escalate?",
+          "options": ["J'aimerais parler à un responsable, s'il vous plaît.", "Passez-moi votre chef.", "C'est n'importe quoi !", "Vous êtes nul."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[J'aimerais parler à un responsable]] uses the conditionnel: firm but polite.",
+          "optionFeedback": [null, "An order with no politeness: too abrupt.", "Familiar and rude (= that's nonsense!).", "An insult: never in a complaint."]
+        },
+        {
+          "id": "r5", "type": "match",
+          "prompt": "Match the words with their meanings.",
+          "pairs": [["une soumission", "a quote (Québec)"], ["le montant", "the amount"], ["une réclamation", "a claim"], ["un supplément", "an extra charge"], ["en attendant", "in the meantime"]]
+        },
+        {
+          "id": "r6", "type": "reorder",
+          "prompt": "Could you tell me if the delivery is free? (formal)",
+          "accept": ["Pourriez-vous me dire si la livraison est gratuite"],
+          "extra": ["est-ce"],
+          "explain": "Indirect question: [[Pourriez-vous me dire si]] + subject + verb, with no inversion after *si*."
+        },
+        {
+          "id": "r7", "type": "translate",
+          "prompt": "The repair will be at our expense.",
+          "accept": ["La réparation sera à nos frais.", "La réparation va être à nos frais.", "La réparation se fera à nos frais."],
+          "explain": "[[à nos frais]] = at our expense; change the possessive for other people."
+        },
+        {
+          "id": "r8", "type": "cloze",
+          "text": "Le chauffage ___-___ inclus dans le loyer ?",
+          "answers": [["est"], ["il"]],
+          "en": "Is heating included in the rent? (formal)",
+          "explain": "Inversion with a noun subject: noun + verb + [[-il]]: [[Le chauffage est-il inclus ?]]"
+        },
+        {
+          "id": "r9", "type": "cloze",
+          "text": "Review (unit 7): Voici le reçu ___ vous avez besoin et la lampe ___ est arrivée cassée.",
+          "answers": [["dont"], ["qui"]],
+          "choices": ["dont", "que", "qui", "où"],
+          "en": "Here's the receipt you need and the lamp that arrived broken.",
+          "explain": "[[avoir besoin **de**]] → [[dont]]. A verb follows (est arrivée) → [[qui]]."
+        },
+        {
+          "id": "r10", "type": "translate",
+          "prompt": "Review (unit 2): The agent told me that the movers would arrive at noon.",
+          "accept": ["L'agent m'a dit que les déménageurs arriveraient à midi.", "L'agente m'a dit que les déménageurs arriveraient à midi.", "L'agent m'a dit que les déménageurs allaient arriver à midi.", "L'agente m'a dit que les déménageurs allaient arriver à midi."],
+          "hint": "Reported speech in the past: future → conditionnel",
+          "explain": "[[Ils arriveront]] becomes [[m'a dit qu'ils arriveraient]] in reported speech."
+        },
+        {
+          "id": "r11", "type": "mcq",
+          "prompt": "Review (unit 6): which is a soft offer in a negotiation?",
+          "options": ["Je serais prêt à payer la moitié.", "Je paie la moitié, c'est tout.", "Je ne paierai rien du tout.", "Payez la moitié !"],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "The conditionnel ([[je serais prêt à]]) makes an offer tentative and polite.",
+          "optionFeedback": [null, "This is a firm statement, not an offer to discuss.", "A flat refusal, not an offer.", "An imperative: an order, not an offer."]
+        },
+        {
+          "id": "r12", "type": "dictation",
+          "fr": "Donc, si je comprends bien, vous me remboursez la différence.",
+          "accept": ["Donc si je comprends bien vous me remboursez la différence."],
+          "explain": "[[Donc, si je comprends bien…]] summarizes the deal before you hang up."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn: solve a problem",
+      "intro": "Write first, then speak. Stay polite, give facts and make a clear request.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "You took your winter coat to a dry cleaner's. When you picked it up, it had a stain and a button was missing, and the price was higher than announced. Write a formal email to the owner: describe the facts with dates, say what you have already done, say what you want, and propose a solution.",
+          "promptFr": "Écrivez un courriel formel au propriétaire du nettoyeur pour signaler le problème et proposer une solution.",
+          "wordRange": [120, 180],
+          "checklist": [
+            "A subject line and a formal greeting",
+            "Who you are and the date of the service",
+            "The facts: two problems and the price",
+            "malgré + noun, or ne… toujours pas",
+            "What you want: Je souhaiterais… / Serait-il possible de… ?",
+            "A condition: si + présent → futur",
+            "A request for written confirmation and a formal closing"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Objet : Problème avec mon manteau, reçu numéro 2318\nMadame, Monsieur,\nLe 4 novembre, j'ai apporté mon manteau d'hiver à votre nettoyeur. Je l'ai récupéré le 9 novembre, et je souhaiterais signaler deux problèmes. D'abord, il y a une tache sur la manche, qui n'était pas là avant. Ensuite, il manque un bouton.\nEnfin, on m'a facturé 38 $, alors que le prix affiché était de 25 $. Malgré mon appel du 10 novembre, je n'ai toujours pas de réponse.\nJe souhaiterais donc un nouveau nettoyage du manteau et le remplacement du bouton. Serait-il possible aussi de me rembourser la différence de 13 $ ? Si vous acceptez, je rapporterai le manteau cette semaine.\nPourriez-vous me confirmer votre réponse par courriel ?\nMerci de votre compréhension.\nSalutations distinguées,\nKarim Benali",
+              "en": "Subject: Problem with my coat, receipt no. 2318. Dear Sir or Madam, On November 4, I brought my winter coat to your dry cleaner's. I picked it up on November 9, and I'd like to report two problems. First, there is a stain on the sleeve that wasn't there before. Next, a button is missing. Finally, I was charged $38, whereas the posted price was $25. Despite my call on November 10, I still haven't had an answer. I would therefore like the coat to be cleaned again and the button replaced. Would it also be possible to refund the $13 difference? If you agree, I'll bring the coat back this week. Could you confirm your answer by email? Thank you for your understanding. Regards, Karim Benali"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Objet : Réclamation – manteau endommagé (reçu numéro 2318)\nMadame, Monsieur,\nJe vous écris au sujet de mon manteau d'hiver, que j'ai déposé à votre nettoyeur le 4 novembre et récupéré le 9 novembre.\nÀ la maison, j'ai constaté qu'une tache était apparue sur la manche gauche et qu'il manquait un bouton. Enfin, on m'a facturé 38 $, alors que le prix affiché dans votre magasin était de 25 $. J'ai appelé à plusieurs reprises, mais je n'ai toujours pas reçu de réponse.\nJe sais bien que des erreurs peuvent arriver, mais votre entreprise est responsable des vêtements qu'on lui confie. Je vous propose donc la solution suivante : si vous nettoyez de nouveau le manteau à vos frais et remplacez le bouton, je ne demanderai pas d'autre indemnisation. Je souhaiterais également être remboursé de la différence de 13 $.\nDans l'attente d'une confirmation écrite, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\nKarim Benali",
+              "en": "Subject: Claim – damaged coat (receipt no. 2318). Dear Sir or Madam, I am writing to you about my winter coat, which I dropped off at your dry cleaner's on November 4 and picked up on November 9. At home, I noticed that a stain had appeared on the left sleeve and that a button was missing. Finally, I was charged $38, whereas the price posted in your store was $25. I called several times, but I still haven't received an answer. I know that mistakes can happen, but your business is responsible for the clothes entrusted to it. I therefore suggest the following solution: if you clean the coat again at your expense and replace the button, I will not ask for any other compensation. I would also like to be refunded the $13 difference. Looking forward to written confirmation, yours sincerely, Karim Benali"
+            }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "You booked a room with two beds at a hotel in Québec City for a family wedding. At the front desk, you're given a small room with one bed, and the price is higher than your reservation. Speak your side of the conversation with the receptionist for about two minutes: explain the problem with facts, ask two or three questions, insist politely when they say the hotel is full, and negotiate a solution.",
+          "seconds": 120,
+          "checklist": [
+            "Greet, identify yourself and your reservation",
+            "Describe the problem with facts (dates, price, type of room)",
+            "Ask two or three polite questions (Pourriez-vous me dire… ? Y a-t-il… ?)",
+            "React to a refusal: Je comprends, mais… / Je me permets d'insister.",
+            "Propose or accept a compromise with a condition (si + présent → futur)",
+            "Summarize the agreement: Donc, si je comprends bien…"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonsoir, madame. J'ai une réservation au nom de Mei Chen pour trois nuits. J'ai réservé une chambre avec deux lits pour 189 $ par nuit, mais vous me donnez une petite chambre avec un seul lit, et le prix est de 219 $. Je suis avec ma fille, donc j'ai vraiment besoin de deux lits. Pourriez-vous me dire s'il y a une autre chambre disponible ? … Je comprends que l'hôtel est complet à cause du mariage, mais je me permets d'insister : j'ai ma confirmation ici. Serait-il possible d'ajouter un lit pliant dans la chambre ? Et pour le prix, je voudrais payer le prix de ma réservation. … D'accord. Donc, si je comprends bien, vous ajoutez un lit ce soir, je paie 189 $ par nuit, et demain, si une chambre avec deux lits se libère, vous me changerez de chambre. Ça me convient. Merci beaucoup.",
+              "en": "Good evening, ma'am. I have a reservation under the name Mei Chen for three nights. I booked a room with two beds for $189 a night, but you're giving me a small room with only one bed, and the price is $219. I'm with my daughter, so I really need two beds. Could you tell me if another room is available? … I understand that the hotel is full because of the wedding, but I must insist: I have my confirmation here. Would it be possible to add a folding bed to the room? And for the price, I'd like to pay my reservation price. … OK. So, if I understand correctly, you add a bed tonight, I pay $189 a night, and tomorrow, if a room with two beds becomes free, you'll move me. That works for me. Thank you very much."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonsoir, monsieur. Je m'appelle Raj Patel, et j'ai réservé trois nuits chez vous, du 14 au 17 août, pour le mariage de mon frère. Voici ma confirmation : une chambre avec deux lits, à 189 $ la nuit, petit déjeuner inclus. Mais la chambre que vous venez de me donner n'a qu'un seul lit, et sur votre écran, le prix est de 219 $. Il doit y avoir une erreur. Pourriez-vous vérifier, s'il vous plaît ? … Je vois. Si je comprends bien, l'hôtel est complet ce soir. Je comprends que ce n'est pas votre faute, mais je tiens à préciser que j'ai réservé il y a trois mois, justement pour éviter ce genre de problème. Qu'est-ce que vous me proposez ? … Un lit d'appoint, c'est gentil, mais la chambre est vraiment petite pour deux adultes. Serait-il possible d'avoir une chambre plus grande demain soir ? … D'accord, mais à une condition : je paierai le prix de ma réservation pour les trois nuits, pas 219 $. … Très bien. Donc, si je résume : ce soir, vous ajoutez un lit, demain vous me donnez une chambre avec deux lits, et le prix reste de 189 $. Pourriez-vous me l'écrire sur la facture ? Merci beaucoup, vous êtes très aimable.",
+              "en": "Good evening, sir. My name is Raj Patel, and I booked three nights with you, from August 14 to 17, for my brother's wedding. Here's my confirmation: a room with two beds, at $189 a night, breakfast included. But the room you've just given me has only one bed, and on your screen the price is $219. There must be a mistake. Could you check, please? … I see. If I understand correctly, the hotel is full tonight. I understand that it isn't your fault, but I'd like to point out that I booked three months ago, precisely to avoid this kind of problem. What do you suggest? … An extra bed is kind, but the room is really small for two adults. Would it be possible to have a bigger room tomorrow night? … OK, but on one condition: I'll pay my reservation price for the three nights, not $219. … Very good. So, to sum up: tonight you add a bed, tomorrow you give me a room with two beds, and the price stays at $189. Could you write that on the bill? Thank you very much, you're very kind."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Follow a complete problem-solving call and catch the key details in a voicemail and a train announcement\n- Reuse the unit's moves in new situations: complain with facts, ask indirect questions, insist politely, negotiate with **si + présent → futur** and confirm\n- Talk about claims and costs: [[une soumission]], [[le montant]], [[un supplément]], [[une réclamation]], [[à vos frais]], [[en attendant]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed wrong accept forms from à vos frais, improved the réclamation note, and changed se présenter au personnel to s’adresser au personnel. Added accepted answers (rembourse, se fera) and fixed the recall intro." }
+}

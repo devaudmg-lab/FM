@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "ability": "eo",
+  "tasks": [
+    {
+      "id": "tef-eo-a1",
+      "section": "A",
+      "title": "Un 4 ½ à louer à Rosemont",
+      "level": "b1",
+      "prompt": "Vous avez lu cette annonce et l’appartement vous intéresse. Vous téléphonez à la propriétaire pour obtenir plus de renseignements. Posez-lui une dizaine de questions. L’examinateur joue le rôle de la propriétaire.",
+      "promptEn": "You read this ad and you are interested in the apartment. You call the owner to get more information. Ask her about ten questions. The examiner plays the role of the owner.",
+      "document": "À LOUER – ROSEMONT\nGrand 4 ½ lumineux, 2e étage, près du métro\nDisponible le 1er juillet – 1 450 $/mois\nÉlectroménagers inclus\nAnimaux : à discuter\nAppelez Mme Lefebvre au 514 555-0182",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Greets the owner, introduces yourself and says why you are calling.",
+        "Asks about ten different questions covering price and charges, rooms, appliances, animals, transport, parking, lease and visit.",
+        "Uses vous consistently and polite forms (pourriez-vous, j’aimerais savoir, serait-il possible).",
+        "Varies question structures: est-ce que, inversion, interrogative words, indirect questions.",
+        "Reacts to each answer (d’accord, très bien, ah, tant mieux) and asks follow-up questions.",
+        "Asks for repetition or clarification when needed instead of staying silent.",
+        "Closes the call politely, confirming the next step (visit, address)."
+      ],
+      "usefulPhrases": [
+        { "fr": "Bonjour madame, je vous appelle au sujet de votre annonce pour le 4 ½.", "en": "Hello, I’m calling about your ad for the 4 ½." },
+        { "fr": "Est-ce qu’il est toujours disponible ?", "en": "Is it still available?" },
+        { "fr": "Est-ce que le chauffage est compris dans le loyer ?", "en": "Is heating included in the rent?" },
+        { "fr": "Pourriez-vous me décrire un peu l’appartement ?", "en": "Could you describe the apartment a little?" },
+        { "fr": "Combien de chambres y a-t-il ?", "en": "How many bedrooms are there?" },
+        { "fr": "J’aimerais savoir quels électroménagers sont inclus.", "en": "I’d like to know which appliances are included." },
+        { "fr": "J’ai un chat : est-ce que ce serait un problème ?", "en": "I have a cat: would that be a problem?" },
+        { "fr": "Le métro se trouve à quelle distance, exactement ?", "en": "How far away is the metro, exactly?" },
+        { "fr": "Serait-il possible d’avoir une place de stationnement ?", "en": "Would it be possible to have a parking space?" },
+        { "fr": "Quelle est la durée du bail ?", "en": "How long is the lease?" },
+        { "fr": "Quand est-ce que je pourrais visiter l’appartement ?", "en": "When could I visit the apartment?" },
+        { "fr": "Pourriez-vous répéter l’adresse, s’il vous plaît ?", "en": "Could you repeat the address, please?" }
+      ],
+      "examinerLines": [
+        "Oui, bonjour, c’est bien moi. L’appartement est toujours disponible.",
+        "Le chauffage et l’eau chaude sont inclus, mais l’électricité est à votre charge.",
+        "Il y a deux chambres fermées, un salon double et une cuisine rénovée l’an dernier.",
+        "Le réfrigérateur et la cuisinière sont fournis. Pour la laveuse et la sécheuse, il y a des entrées dans l’appartement.",
+        "Un petit chat, ça ne pose pas de problème. Par contre, je n’accepte pas les chiens.",
+        "Le métro Rosemont est à cinq minutes à pied.",
+        "Il y a une place de stationnement dans la cour, mais elle coûte 50 $ de plus par mois.",
+        "Vous pouvez venir visiter samedi matin, vers 10 heures, si ça vous convient."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Allô, bonjour madame. Je m’appelle Daniel Moreau. Je vous appelle au sujet de votre annonce pour le 4 ½ à Rosemont. Est-ce qu’il est toujours disponible ?\nAh, très bien. Alors, j’aurais quelques questions, si vous permettez. D’abord, est-ce que le chauffage et l’eau chaude sont compris dans le loyer de 1 450 $ ?\nD’accord, donc l’électricité est à ma charge. Savez-vous à peu près combien ça coûte par mois en hiver ?\nMerci. Pourriez-vous me décrire un peu l’appartement ? Combien y a-t-il de chambres ?\nParfait, c’est exactement ce que je cherche. Et dans la cuisine, quels électroménagers sont inclus, exactement ? Il y a un lave-vaisselle ?\nJe vois. Et pour la laveuse et la sécheuse, il y a une buanderie dans l’immeuble ou des entrées dans l’appartement ?\nTrès bien. Votre annonce dit que les animaux sont « à discuter ». J’ai un chat de six ans, très calme. Est-ce que ce serait un problème ?\nAh, tant mieux ! En ce qui concerne le métro, il se trouve à quelle distance, exactement ?\nSuper. Est-ce qu’il est possible d’avoir une place de stationnement ?\nCinquante dollars de plus, d’accord, je vais y réfléchir. Quelle est la durée du bail ? C’est un bail d’un an ?\nEt le quartier, il est plutôt tranquille ? Qui sont les autres locataires de l’immeuble, des familles, des étudiants ?\nMerci, c’est rassurant. Quels documents est-ce que vous allez me demander ? Des références, une enquête de crédit ?\nTrès bien. Enfin, est-ce que je pourrais visiter l’appartement avant de me décider ?\nSamedi à 10 heures, ça me convient parfaitement. Pourriez-vous me redonner l’adresse exacte, s’il vous plaît ?\nC’est noté. Merci beaucoup pour tous ces renseignements, madame. À samedi, et bonne journée !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-a2",
+      "section": "A",
+      "title": "Cours de français du soir",
+      "level": "b1",
+      "prompt": "Vous avez vu cette affiche au centre communautaire de votre quartier. Vous téléphonez pour obtenir plus de renseignements sur les cours. Posez une dizaine de questions. L’examinateur joue le rôle de la personne responsable des inscriptions.",
+      "promptEn": "You saw this poster at your neighbourhood community centre. You call to get more information about the classes. Ask about ten questions. The examiner plays the person in charge of registration.",
+      "document": "CENTRE COMMUNAUTAIRE SAINT-ROCH\nCours de français du soir pour adultes\nTous niveaux – Petits groupes – Enseignants qualifiés\nLundi et mercredi, de 18 h 30 à 20 h 30\nSession d’automne : de septembre à décembre\nInscriptions : 418 555-0147",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Introduces the call and states the reason clearly.",
+        "Asks about ten varied questions: level test, group size, price and discounts, materials, teachers, absences, exam preparation, certificate, parking, how to register.",
+        "Uses vous and polite question frames throughout.",
+        "Gives brief personal information when relevant (arrival date, exam plans) to justify questions.",
+        "Reacts to answers and asks follow-ups (Quels documents… ? Combien de temps… ?).",
+        "Avoids asking for information already given on the poster, or reformulates it to confirm.",
+        "Thanks the person and ends politely."
+      ],
+      "usefulPhrases": [
+        { "fr": "Je vous appelle à propos des cours de français du soir.", "en": "I’m calling about the evening French classes." },
+        { "fr": "J’aimerais avoir quelques renseignements, s’il vous plaît.", "en": "I’d like some information, please." },
+        { "fr": "Comment est-ce que vous déterminez le niveau des participants ?", "en": "How do you determine the participants’ level?" },
+        { "fr": "Combien d’élèves y a-t-il par groupe ?", "en": "How many students are there per group?" },
+        { "fr": "Pourriez-vous me dire combien coûte la session ?", "en": "Could you tell me how much the session costs?" },
+        { "fr": "Y a-t-il un tarif réduit pour les nouveaux arrivants ?", "en": "Is there a reduced rate for newcomers?" },
+        { "fr": "Est-ce que le matériel est compris dans le prix ?", "en": "Are the materials included in the price?" },
+        { "fr": "Que se passe-t-il si je manque un cours ?", "en": "What happens if I miss a class?" },
+        { "fr": "Proposez-vous une préparation au TEF Canada ?", "en": "Do you offer TEF Canada preparation?" },
+        { "fr": "Est-ce qu’on reçoit une attestation à la fin ?", "en": "Do you get a certificate at the end?" },
+        { "fr": "Est-il possible de s’inscrire en ligne ?", "en": "Is it possible to register online?" },
+        { "fr": "Je vous remercie, vous m’avez été très utile.", "en": "Thank you, you’ve been very helpful." }
+      ],
+      "examinerLines": [
+        "Oui, il y a un petit test de classement, à l’écrit et à l’oral, une semaine avant le début des cours.",
+        "Les groupes comptent douze personnes au maximum.",
+        "La session coûte 280 $, mais le tarif est de 140 $ pour les personnes arrivées au Canada depuis moins de deux ans.",
+        "Le manuel est fourni. Par contre, vous devez acheter le cahier d’exercices, environ 25 $.",
+        "Si vous manquez un cours, les documents sont déposés sur notre plateforme en ligne.",
+        "Nous offrons aussi un atelier de préparation au TEF le samedi matin, mais il est payant.",
+        "Une attestation est remise si vous avez assisté à au moins 80 % des cours.",
+        "Le stationnement derrière le centre est gratuit après 18 heures."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour, monsieur. Je vous appelle à propos des cours de français du soir pour adultes. J’aimerais avoir quelques renseignements, s’il vous plaît.\nTout d’abord, comment est-ce que vous déterminez le niveau des participants ? Faut-il passer un test ?\nD’accord. Et ce test, combien de temps est-ce qu’il dure, à peu près ?\nTrès bien. Votre affiche parle de petits groupes. Combien d’élèves y a-t-il par classe ?\nParfait. Maintenant, pourriez-vous me dire combien coûte la session d’automne ?\nAh, il y a un tarif réduit pour les nouveaux arrivants ? Je suis arrivée au Canada il y a huit mois. Quels documents est-ce que je dois fournir pour en profiter ?\nD’accord. Est-ce que le matériel, le manuel par exemple, est compris dans le prix, ou faut-il l’acheter à part ?\nJe voudrais aussi savoir qui sont les enseignants. Ont-ils l’habitude de travailler avec des adultes immigrants ?\nC’est rassurant. Il m’arrive parfois de finir tard au travail. Si je manque un cours, est-ce qu’il y a un moyen de le rattraper ?\nTrès bien. Par ailleurs, je dois passer le TEF Canada au printemps. Est-ce que vous proposez une préparation à cet examen ?\nIntéressant ! Et à la fin de la session, est-ce qu’on reçoit une attestation ?\nUne dernière question : est-il possible de se garer près du centre ?\nParfait. Alors, comment est-ce que je peux m’inscrire ? Je dois venir sur place ou je peux le faire en ligne ?\nJe vous remercie beaucoup, monsieur, vous m’avez été très utile. Je passerai m’inscrire cette semaine. Bonne soirée !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-a3",
+      "section": "A",
+      "title": "Bénévole à la banque alimentaire",
+      "level": "b2",
+      "prompt": "Vous avez lu cette annonce dans le journal de votre quartier. Vous aimeriez devenir bénévole. Vous téléphonez pour obtenir plus de renseignements. Posez une dizaine de questions. L’examinateur joue le rôle de la coordonnatrice des bénévoles.",
+      "promptEn": "You read this ad in your local newspaper. You would like to become a volunteer. You call to get more information. Ask about ten questions. The examiner plays the volunteer coordinator.",
+      "document": "BANQUE ALIMENTAIRE DE L’OUTAOUAIS\nNous recherchons des bénévoles !\nTri des dons – Préparation de paniers – Accueil des familles\nQuelques heures par semaine – Aucune expérience requise\nFormation offerte\nRenseignements : Julie, 819 555-0123",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Opens politely, introduces yourself and explains your interest.",
+        "Asks about ten precise questions: tasks, choice of task, schedule, minimum commitment, training, required documents, dress code, languages, reference letter, access, next step.",
+        "Uses formal, polite structures with vous and the conditional (serait-il possible, auriez-vous).",
+        "Links questions to your own situation (availability, languages, career goals).",
+        "Uses B2 connectors and reformulations (quant à, par ailleurs, si je comprends bien).",
+        "Follows up on the coordinator’s answers rather than reading a list.",
+        "Closes with thanks and a clear next step."
+      ],
+      "usefulPhrases": [
+        { "fr": "J’ai vu votre annonce et j’aimerais beaucoup devenir bénévole.", "en": "I saw your ad and I’d really like to volunteer." },
+        { "fr": "Auriez-vous quelques minutes pour répondre à mes questions ?", "en": "Would you have a few minutes to answer my questions?" },
+        { "fr": "Pourriez-vous m’expliquer concrètement en quoi consistent les tâches ?", "en": "Could you explain concretely what the tasks involve?" },
+        { "fr": "Est-ce que l’on peut choisir sa tâche ?", "en": "Can you choose your task?" },
+        { "fr": "Quant aux horaires, quelles sont les plages disponibles ?", "en": "As for schedules, what time slots are available?" },
+        { "fr": "Y a-t-il un nombre minimum d’heures à faire ?", "en": "Is there a minimum number of hours?" },
+        { "fr": "Combien de temps dure la formation, et quand a-t-elle lieu ?", "en": "How long is the training, and when does it take place?" },
+        { "fr": "Faut-il fournir certains documents ?", "en": "Do I need to provide any documents?" },
+        { "fr": "Si je comprends bien, il faut s’engager pour trois mois ?", "en": "If I understand correctly, you have to commit for three months?" },
+        { "fr": "Serait-il possible d’obtenir une lettre de référence ?", "en": "Would it be possible to get a reference letter?" },
+        { "fr": "Le local est-il bien desservi par les autobus ?", "en": "Is the location well served by buses?" },
+        { "fr": "Quelle serait la prochaine étape pour m’inscrire ?", "en": "What would be the next step to sign up?" }
+      ],
+      "examinerLines": [
+        "Bonjour ! Oui, c’est moi. Vous appelez pour l’annonce ?",
+        "Nous avons besoin de monde pour trier les dons, préparer les paniers et accueillir les familles le jeudi après-midi.",
+        "On essaie de tenir compte de vos préférences, mais ça dépend aussi des besoins de la semaine.",
+        "Le tri se fait du lundi au samedi, et il y a aussi des quarts le mardi et le jeudi soir, de 17 h à 20 h.",
+        "On demande un minimum de trois heures par semaine, pendant au moins trois mois.",
+        "La formation dure deux heures et elle a lieu le premier samedi du mois.",
+        "Pour l’accueil des familles, il faut une vérification des antécédents judiciaires, mais on s’en occupe gratuitement.",
+        "Oui, je peux écrire une lettre de référence après cent heures de bénévolat."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour, Julie ? Je m’appelle Ana Ruiz. J’ai vu votre annonce dans le journal et j’aimerais beaucoup devenir bénévole à la banque alimentaire. Auriez-vous quelques minutes pour répondre à mes questions ?\nMerci beaucoup. Pour commencer, pourriez-vous m’expliquer concrètement en quoi consistent les différentes tâches ?\nJe vois. Est-ce que l’on peut choisir sa tâche, ou est-ce vous qui répartissez les bénévoles selon les besoins ?\nD’accord, c’est logique. Quant aux horaires, quelles sont les plages disponibles ? Je travaille en semaine, donc je serais surtout libre le soir ou la fin de semaine.\nParfait, le jeudi soir m’irait très bien. Y a-t-il un nombre minimum d’heures à faire ?\nSi je comprends bien, il faut donc s’engager pour au moins trois mois ? Pas de problème. Votre annonce mentionne une formation : combien de temps dure-t-elle, et quand a-t-elle lieu ?\nTrès bien. Faut-il fournir certains documents avant de commencer ?\nJe comprends, c’est normal quand on travaille avec le public. Est-ce qu’il y a une tenue particulière à prévoir pour le tri, des chaussures fermées, par exemple ?\nD’accord. Je parle espagnol et anglais. Est-ce que cela pourrait être utile pour l’accueil des familles ?\nFormidable. Par ailleurs, je cherche à acquérir de l’expérience au Canada. Serait-il possible d’obtenir une lettre de référence après quelques mois ?\nExcellent, c’est très motivant. Et le local, est-il bien desservi par les autobus ?\nParfait. Quelle serait la prochaine étape si je veux m’inscrire ?\nJe vous remercie infiniment pour votre temps et pour toutes ces précisions. Je remplis le formulaire ce soir. Au revoir, Julie, et bonne journée !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-a4",
+      "section": "A",
+      "title": "Une voiture d’occasion à vendre",
+      "level": "b2",
+      "prompt": "Vous cherchez une voiture et vous avez lu cette petite annonce sur un site de vente en ligne. Vous téléphonez au vendeur pour obtenir plus de renseignements. Posez une dizaine de questions. L’examinateur joue le rôle du vendeur.",
+      "promptEn": "You are looking for a car and you read this classified ad on a website. You call the seller to get more information. Ask about ten questions. The examiner plays the seller.",
+      "document": "À VENDRE – Berline compacte 2017\n128 000 km – Automatique – Très bon état\nPneus d’hiver inclus\n8 900 $ (négociable)\nContactez Patrick : 613 555-0199",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Introduces yourself and checks the car is still for sale.",
+        "Asks about ten relevant questions: owners, maintenance records, accidents, rust, tires, reason for selling, inspection, price, payment, test drive, location.",
+        "Uses vous and polite, tactful forms for sensitive questions (si ce n’est pas indiscret).",
+        "Negotiates politely about the price using the conditional (seriez-vous prêt à…).",
+        "Reacts to the seller’s answers and asks for details.",
+        "Uses specific vocabulary (entretien, factures, rouille, jantes, essai routier, inspection).",
+        "Arranges a meeting and ends the call politely."
+      ],
+      "usefulPhrases": [
+        { "fr": "Je vous appelle pour la voiture que vous avez mise en vente.", "en": "I’m calling about the car you put up for sale." },
+        { "fr": "Est-ce qu’elle est toujours disponible ?", "en": "Is it still available?" },
+        { "fr": "Êtes-vous le premier propriétaire ?", "en": "Are you the first owner?" },
+        { "fr": "Est-ce que l’entretien a été fait régulièrement ?", "en": "Has it been serviced regularly?" },
+        { "fr": "Avez-vous gardé les factures ?", "en": "Have you kept the receipts?" },
+        { "fr": "La voiture a-t-elle déjà eu un accident ?", "en": "Has the car ever been in an accident?" },
+        { "fr": "Les pneus d’hiver sont-ils sur jantes ?", "en": "Are the winter tires on rims?" },
+        { "fr": "Puis-je vous demander pourquoi vous la vendez, si ce n’est pas indiscret ?", "en": "May I ask why you are selling it, if it’s not too personal?" },
+        { "fr": "Accepteriez-vous que je la fasse inspecter par un mécanicien ?", "en": "Would you agree to me having it inspected by a mechanic?" },
+        { "fr": "Jusqu’à combien seriez-vous prêt à descendre ?", "en": "How low would you be willing to go?" },
+        { "fr": "Quel mode de paiement préférez-vous ?", "en": "Which payment method do you prefer?" },
+        { "fr": "Est-ce que je pourrais faire un essai routier ?", "en": "Could I take it for a test drive?" }
+      ],
+      "examinerLines": [
+        "Oui, elle est toujours à vendre, mais plusieurs personnes ont déjà appelé.",
+        "Je l’ai achetée neuve chez le concessionnaire. Je suis le seul propriétaire.",
+        "Tout l’entretien a été fait chez le concessionnaire, j’ai gardé toutes les factures.",
+        "Aucun accident. Il y a juste une petite égratignure sur le pare-chocs arrière.",
+        "Les pneus d’hiver sont sur jantes et ils n’ont fait que deux hivers.",
+        "Je pars travailler en France le mois prochain, alors je dois la vendre rapidement.",
+        "Pas de problème pour une inspection, tant que c’est dans un garage du coin.",
+        "Pour un paiement rapide, je pourrais descendre à 8 500 $, mais pas plus bas."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour, monsieur. Est-ce que je parle bien à Patrick ? Je vous appelle pour la berline 2017 que vous avez mise en vente. Est-ce qu’elle est toujours disponible ?\nTrès bien. J’aurais plusieurs questions avant de venir la voir. Êtes-vous le premier propriétaire ?\nD’accord. Est-ce que l’entretien a été fait régulièrement ? Avez-vous gardé les factures ?\nC’est une bonne chose. La voiture a-t-elle déjà eu un accident, même léger ?\nUne petite égratignure, ce n’est pas grave. Et la rouille ? Vous savez, avec le sel sur les routes en hiver…\nBon, tant mieux. Les pneus d’hiver inclus, ils sont sur jantes ? Ils ont combien d’hivers ?\nParfait. Et les pneus d’été, dans quel état sont-ils ?\nPuis-je vous demander pourquoi vous vendez la voiture, si ce n’est pas indiscret ?\nJe comprends, c’est un beau projet. Accepteriez-vous que je la fasse inspecter par un mécanicien avant de l’acheter ?\nMerci, c’est rassurant. L’annonce indique que le prix est négociable. Jusqu’à combien seriez-vous prêt à descendre ?\n8 500 $… D’accord, je vais y réfléchir. Quel mode de paiement préférez-vous ? Un virement ou une traite bancaire ?\nTrès bien. Est-ce que je pourrais faire un essai routier ? Quand seriez-vous disponible ?\nSamedi après-midi, c’est parfait pour moi. Où est-ce que la voiture se trouve exactement ?\nC’est noté. Merci beaucoup, monsieur, et à samedi !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b1",
+      "section": "B",
+      "title": "Abonnement duo au centre sportif",
+      "level": "b1",
+      "prompt": "Vous avez vu cette publicité. Vous voulez convaincre un ami ou une amie de s’inscrire avec vous au centre sportif. Présentez-lui l’offre et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this advertisement. You want to convince a friend to sign up at the sports centre with you. Present the offer and answer their objections. The examiner plays your friend.",
+      "document": "CENTRE SPORTIF ÉNERGIE\nOffre de rentrée : l’abonnement duo !\nInscrivez-vous à deux et payez 35 $ par mois chacun au lieu de 49 $.\nAccès illimité à la salle, à la piscine et aux cours collectifs (yoga, danse cardio, vélo)\nOuvert 7 jours sur 7, de 6 h à 23 h\nPremière semaine d’essai gratuite",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Starts by presenting the offer clearly and enthusiastically, using information from the document.",
+        "Develops several arguments (price, health, variety of activities, flexible hours, motivation as a pair).",
+        "Answers every objection directly: acknowledges it, then counters with an argument.",
+        "Uses tu consistently and a friendly, natural tone.",
+        "Uses persuasion structures: imperative, si + présent / imparfait + conditionnel, rhetorical questions.",
+        "Proposes compromises or concrete solutions (going together, carpooling, the free trial week).",
+        "Tries to obtain a decision at the end."
+      ],
+      "usefulPhrases": [
+        { "fr": "J’ai vu une offre géniale et j’ai tout de suite pensé à toi.", "en": "I saw a great offer and immediately thought of you." },
+        { "fr": "Ça te dirait de venir avec moi ?", "en": "Would you like to come with me?" },
+        { "fr": "Je te comprends, mais justement…", "en": "I understand, but that’s exactly why…" },
+        { "fr": "Fais le calcul : …", "en": "Do the math: …" },
+        { "fr": "Tu ne risques rien, la première semaine est gratuite !", "en": "You have nothing to lose, the first week is free!" },
+        { "fr": "Si on y allait ensemble, on se motiverait l’un l’autre.", "en": "If we went together, we’d motivate each other." },
+        { "fr": "Imagine comme tu te sentirais mieux après quelques semaines.", "en": "Imagine how much better you’d feel after a few weeks." },
+        { "fr": "Tu ne trouves pas que… ?", "en": "Don’t you think that…?" },
+        { "fr": "Ce qui est bien, c’est que…", "en": "The good thing is that…" },
+        { "fr": "Et puis, en plus, …", "en": "And on top of that, …" },
+        { "fr": "Si tu veux, on pourrait…", "en": "If you want, we could…" },
+        { "fr": "Allez, fais-moi confiance, tu ne le regretteras pas !", "en": "Come on, trust me, you won’t regret it!" }
+      ],
+      "examinerLines": [
+        "Bof, le sport, ce n’est vraiment pas mon truc.",
+        "35 $ par mois, c’est quand même cher pour moi en ce moment.",
+        "Je n’ai pas le temps, je travaille déjà de longues journées.",
+        "Je peux très bien courir dehors, c’est gratuit.",
+        "Je vais avoir honte, je ne suis pas du tout en forme.",
+        "Et si j’abandonne après deux semaines ? J’aurai payé pour rien.",
+        "C’est loin de chez moi, il faut prendre l’autobus.",
+        "Bon… Tu me promets qu’on ira ensemble au moins deux fois par semaine ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Salut Léa ! Tu as deux minutes ? J’ai vu une offre géniale au Centre sportif Énergie et j’ai tout de suite pensé à toi. Si on s’inscrit à deux, on paie seulement 35 $ par mois chacune au lieu de 49 $. Ça te dirait de venir avec moi ?\nJe sais que tu n’aimes pas trop le sport, mais là-bas, il n’y a pas que la musculation. Il y a la piscine, le yoga, la danse cardio… Je suis sûre que tu trouverais une activité qui te plaît. Tu adores danser, non ? La danse cardio, c’est exactement pour toi !\nJe comprends que ton budget soit serré. Mais fais le calcul : 35 $ par mois, c’est à peu près le prix de deux repas au restaurant. Et la première semaine est gratuite, donc tu peux essayer sans dépenser un sou.\nTu travailles beaucoup, c’est vrai. Mais le centre est ouvert de 6 h à 23 h, sept jours sur sept. On pourrait y aller le samedi matin et un soir en semaine, après le travail. Et tu verras, après une séance, on dort mieux et on a plus d’énergie.\nOui, courir dehors, c’est gratuit, mais en janvier, par moins vingt, tu vas vraiment aller courir ? Moi, non ! Au centre, on peut faire du sport toute l’année, au chaud.\nMais non, il ne faut pas avoir honte ! Tout le monde commence un jour. Dans les cours collectifs, il y a des gens de tous les âges et de tous les niveaux. Et puis, je serai à côté de toi : on rira ensemble.\nJustement, c’est pour ça que l’abonnement duo est idéal : on va se motiver l’une l’autre. Quand tu n’auras pas envie, je viendrai te chercher, et inversement !\nPour le trajet, ne t’inquiète pas : je passe devant chez toi en voiture, je peux te prendre au passage.\nPromis, au moins deux fois par semaine ! Alors, on va s’inscrire ensemble samedi ? Tu ne le regretteras pas, j’en suis sûre !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b2",
+      "section": "B",
+      "title": "Ateliers de cuisine « Saveurs du monde »",
+      "level": "b1",
+      "prompt": "Vous avez vu cette publicité. Vous voulez convaincre un ami ou une amie de s’inscrire avec vous à ces ateliers de cuisine. Présentez-lui l’offre et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this advertisement. You want to convince a friend to sign up for these cooking workshops with you. Present the offer and answer their objections. The examiner plays your friend.",
+      "document": "ATELIERS « SAVEURS DU MONDE »\nApprenez à cuisiner un plat d’un pays différent chaque semaine : Liban, Mexique, Vietnam, Maroc…\nLe jeudi soir, de 18 h à 21 h, pendant 8 semaines\nGroupes de 10 personnes maximum – Tous les ingrédients sont fournis\nVous repartez avec vos plats et un livret de recettes\nPrix : 320 $ la session – 10 % de rabais pour les inscriptions en duo",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Presents the workshops attractively, picking key details from the document (countries, small groups, ingredients included, discount).",
+        "Gives arguments of different kinds: practical, financial, social, pleasure.",
+        "Answers each objection with a specific counter-argument rather than repeating « c’est bien ».",
+        "Uses tu and a warm, friendly register.",
+        "Uses comparisons and calculations to make arguments concrete (ça revient à…, moins cher que…).",
+        "Uses humour or a personal reference to the friend to persuade.",
+        "Ends by asking for a decision or proposing the next step."
+      ],
+      "usefulPhrases": [
+        { "fr": "Écoute, j’ai trouvé quelque chose qui devrait te plaire.", "en": "Listen, I found something you should like." },
+        { "fr": "Ça te tente de t’inscrire avec moi ?", "en": "Do you feel like signing up with me?" },
+        { "fr": "Justement, c’est l’occasion idéale de…", "en": "Actually, it’s the perfect opportunity to…" },
+        { "fr": "C’est vrai que c’est une somme, mais réfléchis : …", "en": "It’s true it’s a lot of money, but think about it: …" },
+        { "fr": "Finalement, ça revient moins cher que…", "en": "In the end, it works out cheaper than…" },
+        { "fr": "Au lieu de commander une pizza, tu…", "en": "Instead of ordering a pizza, you…" },
+        { "fr": "Les vidéos, c’est bien, mais…", "en": "Videos are fine, but…" },
+        { "fr": "Pas de problème : tu pourras…", "en": "No problem: you’ll be able to…" },
+        { "fr": "Tu verras, ça passe très vite.", "en": "You’ll see, it goes by very quickly." },
+        { "fr": "Ce genre d’activité, c’est parfait pour rencontrer des gens.", "en": "This kind of activity is perfect for meeting people." },
+        { "fr": "Pense à tout ce que tu pourrais cuisiner pour tes amis !", "en": "Think of everything you could cook for your friends!" },
+        { "fr": "Alors, c’est d’accord ? Je nous inscris ce soir ?", "en": "So, is it a deal? Shall I sign us up tonight?" }
+      ],
+      "examinerLines": [
+        "Moi, cuisiner ? Je ne sais même pas faire cuire des pâtes !",
+        "320 $, c’est beaucoup d’argent pour des cours de cuisine.",
+        "Le jeudi soir, je suis épuisé après ma semaine.",
+        "Je peux apprendre avec des vidéos sur Internet, c’est gratuit.",
+        "Je n’aime pas trop la cuisine épicée.",
+        "Huit semaines, c’est un engagement long.",
+        "Je ne connais personne là-bas, ça me gêne un peu.",
+        "Bon, et qu’est-ce qu’on va faire de tout ce qu’on cuisine ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Salut Maxime ! Écoute, j’ai trouvé quelque chose qui devrait te plaire : des ateliers de cuisine « Saveurs du monde ». Chaque jeudi soir, pendant huit semaines, on apprend à préparer un plat d’un pays différent : libanais, mexicain, vietnamien… Ça te tente de t’inscrire avec moi ?\nTu ne sais pas cuisiner ? Justement, c’est l’occasion idéale d’apprendre ! Les groupes sont petits, dix personnes au maximum, donc le chef aura le temps de nous expliquer chaque étape. Pas besoin d’être un expert.\nC’est vrai que 320 $, c’est une somme. Mais réfléchis : tous les ingrédients sont fournis et on repart avec nos plats. Ça fait huit soupers complets, plus un livret de recettes. Et comme on s’inscrit à deux, on a 10 % de rabais. Finalement, ça revient au prix d’un souper au restaurant par semaine.\nJe sais que tu es fatigué le jeudi soir. Mais cuisiner, ce n’est pas comme travailler devant un ordinateur, c’est relaxant ! Au lieu de commander une pizza devant la télé, tu passes une soirée agréable et tu rentres avec ton souper.\nLes vidéos, c’est bien, mais personne ne te corrige. Dans un atelier, si tu rates ta sauce, le chef te montre tout de suite ce qui ne va pas. Et puis, on peut poser des questions, goûter, comparer…\nSi tu n’aimes pas la cuisine épicée, pas de problème : tu pourras mettre moins d’épices. Et la cuisine libanaise ou marocaine, ce n’est pas forcément piquant, c’est surtout parfumé.\nHuit semaines, ça passe très vite, tu verras. Et c’est justement assez long pour vraiment progresser.\nTu ne connais personne ? Mais tu me connais, moi ! Et ce genre d’activité est parfait pour rencontrer des gens sympas. On cuisine ensemble, on mange ensemble, ça crée des liens.\nCe qu’on cuisine ? On l’apporte à la maison, bien sûr, ou on invite des amis à goûter le lendemain ! Alors, c’est d’accord ? Je nous inscris ce soir ?"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b3",
+      "section": "B",
+      "title": "Escapade en Gaspésie",
+      "level": "b2",
+      "prompt": "Vous avez vu cette publicité dans une agence de voyages. Vous voulez convaincre un ami ou une amie de partir avec vous. Présentez-lui le voyage et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this advertisement at a travel agency. You want to convince a friend to go with you. Present the trip and answer their objections. The examiner plays your friend.",
+      "document": "ESCAPADE EN GASPÉSIE\n5 jours / 4 nuits – du 14 au 18 août\nTransport en autocar depuis Montréal, hébergement en auberge, petits-déjeuners inclus\nAu programme : le rocher Percé, l’île Bonaventure et ses fous de Bassan, une randonnée au parc national Forillon, une croisière d’observation des baleines\nPrix : 1 190 $ par personne (occupation double)\nPlaces limitées – Réservation avant le 30 juin",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Presents the trip with enthusiasm and precise details from the document (dates, places, what is included).",
+        "Develops varied arguments: value for money, discovery, rest, shared memories, convenience of an organised trip.",
+        "Responds to each objection with a concession followed by a counter-argument (c’est vrai que…, mais…).",
+        "Uses tu and keeps a friendly, sometimes humorous tone.",
+        "Uses B2 structures: si + imparfait + conditionnel, hypotheses, comparisons, rhetorical questions.",
+        "Offers practical solutions (asking for leave early, seasickness tablets, earplugs).",
+        "Pushes for a decision, using the booking deadline as an argument."
+      ],
+      "usefulPhrases": [
+        { "fr": "Ça fait des années qu’on dit qu’on devrait y aller. Et si c’était cet été ?", "en": "We’ve been saying for years we should go. What if it were this summer?" },
+        { "fr": "Je sais, ce n’est pas rien, mais regarde tout ce qui est compris.", "en": "I know it’s not nothing, but look at everything that’s included." },
+        { "fr": "Si on organisait tout nous-mêmes, on paierait sûrement plus cher.", "en": "If we organised everything ourselves, we’d surely pay more." },
+        { "fr": "C’est vrai que…, mais pense que…", "en": "It’s true that…, but consider that…" },
+        { "fr": "Tu m’as dit toi-même que…", "en": "You told me yourself that…" },
+        { "fr": "On ne peut rien garantir, c’est sûr, mais…", "en": "We can’t guarantee anything, of course, but…" },
+        { "fr": "Tu pourrais peut-être en parler à ta patronne dès maintenant.", "en": "Maybe you could talk to your boss about it right away." },
+        { "fr": "L’avantage, c’est que quelqu’un s’occupe de tout à notre place.", "en": "The advantage is that someone takes care of everything for us." },
+        { "fr": "Ça vaut bien un petit effort, non ?", "en": "It’s worth a little effort, isn’t it?" },
+        { "fr": "Imagine un peu : voir une baleine sauter hors de l’eau !", "en": "Just imagine: seeing a whale jump out of the water!" },
+        { "fr": "Les places sont limitées, il ne faut pas trop attendre.", "en": "Places are limited, we shouldn’t wait too long." },
+        { "fr": "Alors, qu’est-ce que tu en dis ? On réserve ?", "en": "So, what do you say? Shall we book?" }
+      ],
+      "examinerLines": [
+        "1 190 $ ? C’est trop cher pour moi.",
+        "Des heures en autocar depuis Montréal, ça ne me tente pas du tout.",
+        "Pour ce prix-là, je préférerais aller sur une plage dans le Sud.",
+        "Et s’il pleut toute la semaine ?",
+        "Je ne suis pas sûre de pouvoir prendre congé en août.",
+        "Les voyages organisés, ce n’est pas mon style. Je n’aime pas être encadrée tout le temps.",
+        "En plus, j’ai le mal de mer. La croisière aux baleines, très peu pour moi !",
+        "Et on partagerait une chambre ? Tu ronfles, je te rappelle !"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Camille, tu as une minute ? Regarde cette brochure : une escapade de cinq jours en Gaspésie, du 14 au 18 août. Le rocher Percé, l’île Bonaventure, le parc Forillon, les baleines… Ça fait des années qu’on dit qu’on devrait y aller ensemble. Et si c’était cet été ?\nJe sais, 1 190 $, ce n’est pas rien. Mais regarde tout ce qui est compris : le transport depuis Montréal, quatre nuits en auberge, les petits-déjeuners et les excursions. Si on organisait tout nous-mêmes, entre l’essence, l’hôtel et les activités, on paierait sûrement plus cher.\nC’est vrai que la route est longue. Mais pense que dans l’autocar, on n’a pas à conduire : on peut lire, dormir, admirer le fleuve. En voiture, l’une de nous deux arriverait épuisée.\nUne plage dans le Sud, c’est agréable, mais tu en as déjà fait plusieurs. Là, on découvrirait une région extraordinaire de notre propre pays. Tu m’as dit toi-même que tu avais envie de mieux connaître le Québec.\nPour la météo, on ne peut rien garantir, c’est sûr. Mais en août, il fait souvent beau là-bas, et même s’il pleut une journée, les paysages restent magnifiques. On prendra de bons imperméables, voilà tout !\nTu pourrais peut-être en parler à ta patronne dès maintenant. Les réservations ferment le 30 juin, on a encore quelques semaines. Ce n’est que cinq jours, et si tu demandes tôt, ça devrait être possible.\nJe te comprends, tu aimes être libre. Mais ce voyage n’est pas si encadré : seuls les petits-déjeuners sont inclus, donc les soirées sont libres. On choisira nos restaurants nous-mêmes. Et l’avantage, c’est que quelqu’un s’occupe de toute l’organisation à notre place.\nLe mal de mer ? Il existe des comprimés très efficaces, je t’en achèterai. Et puis, voir une baleine sauter hors de l’eau, ça vaut bien un petit mal de cœur, non ?\nHa ha ! Je ne ronfle pas, je respire fort, nuance ! Bon, je t’achèterai aussi des bouchons d’oreilles. Alors, qu’est-ce que tu en dis ? On réserve avant qu’il ne reste plus de places ?"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b4",
+      "section": "B",
+      "title": "Programme de bénévolat « Lire ensemble »",
+      "level": "b2",
+      "prompt": "Vous avez vu cette affiche à la bibliothèque. Vous voulez convaincre un ami ou une amie de participer avec vous à ce programme de bénévolat. Présentez-lui le programme et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this poster at the library. You want to convince a friend to take part in this volunteering programme with you. Present the programme and answer their objections. The examiner plays your friend.",
+      "document": "PROGRAMME « LIRE ENSEMBLE »\nLa bibliothèque de votre quartier cherche des bénévoles pour aider des enfants de 7 à 10 ans à améliorer leur lecture.\nUne heure par semaine, le mardi ou le samedi\nFormation gratuite de trois heures\nEngagement minimum : une session de 10 semaines\nUne attestation de bénévolat est remise à la fin du programme.",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Presents the programme clearly: who, what, when, training, commitment, certificate.",
+        "Develops arguments on several levels: usefulness for the children, personal satisfaction, career benefits, practising French, meeting people.",
+        "Answers each objection specifically, reassuring the friend when the objection is a fear.",
+        "Uses tu and an encouraging, friendly tone.",
+        "Uses B2 structures: il s’agit de, au contraire, ce que ça t’apporte, c’est…, imagine + subordinate clause.",
+        "Refers to the friend’s personal situation (nephews, CV, schedule) to make arguments convincing.",
+        "Ends by proposing a concrete next step (going to the training together)."
+      ],
+      "usefulPhrases": [
+        { "fr": "Je voulais te parler d’un programme que j’ai découvert.", "en": "I wanted to tell you about a programme I found." },
+        { "fr": "J’aimerais vraiment que tu viennes avec moi.", "en": "I’d really like you to come with me." },
+        { "fr": "Ce n’est pas un problème : il y a une formation gratuite.", "en": "That’s not a problem: there’s free training." },
+        { "fr": "Il ne s’agit pas d’enseigner, il s’agit surtout de…", "en": "It’s not about teaching, it’s mostly about…" },
+        { "fr": "Ça te ferait pratiquer ton français, toi aussi.", "en": "It would make you practise your French too." },
+        { "fr": "C’est seulement une heure par semaine, et tu peux choisir le jour.", "en": "It’s only one hour a week, and you can choose the day." },
+        { "fr": "Pour ton CV, c’est très utile.", "en": "For your CV, it’s very useful." },
+        { "fr": "Au contraire ! Ça fait une énorme différence.", "en": "On the contrary! It makes a huge difference." },
+        { "fr": "Imagine sa fierté quand il arrivera à lire tout seul !", "en": "Imagine how proud they’ll be when they manage to read on their own!" },
+        { "fr": "Ce que ça t’apporte ? D’abord…, ensuite…", "en": "What’s in it for you? First…, then…" },
+        { "fr": "Tu ne seras pas seul : on pourra en parler ensemble.", "en": "You won’t be alone: we’ll be able to talk about it together." },
+        { "fr": "Alors, tu viens à la formation avec moi samedi ?", "en": "So, are you coming to the training with me on Saturday?" }
+      ],
+      "examinerLines": [
+        "Je n’ai aucune expérience avec les enfants.",
+        "Mon français n’est pas assez bon pour apprendre à lire à quelqu’un.",
+        "Je n’ai pas le temps, entre le travail et mes cours du soir.",
+        "En plus, ce n’est même pas payé.",
+        "Dix semaines, c’est long. Je ne veux pas m’engager pour si longtemps.",
+        "Franchement, une heure par semaine, ça ne changera rien pour un enfant.",
+        "Et moi, qu’est-ce que ça m’apporte, concrètement ?",
+        "Et si je tombe sur un enfant difficile, qu’est-ce que je fais ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Salut Samir ! Je voulais te parler d’un programme que j’ai découvert à la bibliothèque du quartier. Ça s’appelle « Lire ensemble » : des bénévoles aident des enfants de 7 à 10 ans à mieux lire, une heure par semaine. Je vais m’inscrire et j’aimerais vraiment que tu viennes avec moi.\nTu n’as pas d’expérience avec les enfants ? Ce n’est pas un problème : il y a une formation gratuite de trois heures pour apprendre comment faire. Et puis, tu t’occupes très bien de tes neveux, je l’ai vu !\nTon français est excellent, voyons ! Et on ne te demande pas d’enseigner comme un professeur : il s’agit surtout de lire des histoires avec l’enfant, de l’encourager et de l’aider quand il bloque sur un mot. D’ailleurs, ça te ferait pratiquer ton français, toi aussi.\nJe sais que ton horaire est chargé. Mais c’est seulement une heure par semaine, et tu peux choisir le mardi ou le samedi. Une heure, c’est moins que deux épisodes de ta série préférée !\nC’est vrai que ce n’est pas payé. Mais tu recevras une attestation de bénévolat à la fin. Pour ton CV, c’est très utile : les employeurs canadiens apprécient beaucoup l’engagement communautaire.\nDix semaines, ça paraît long, mais c’est justement le temps qu’il faut pour voir l’enfant progresser. Imagine sa fierté quand il arrivera à lire un livre tout seul !\nAu contraire ! Pour un enfant qui a des difficultés, une heure de lecture individuelle avec un adulte patient, ça fait une énorme différence. À l’école, l’enseignant n’a pas toujours le temps de s’occuper de chacun.\nCe que ça t’apporte ? D’abord, une vraie satisfaction personnelle. Ensuite, de nouvelles rencontres dans le quartier et des compétences en communication. Moi, je trouve que tout le monde y gagne.\nSi l’enfant est difficile, tu ne seras pas seul : les responsables de la bibliothèque sont là pour nous aider. Et on pourra en parler ensemble après chaque séance. Alors, tu viens à la formation avec moi samedi ?"
+        }
+      ]
+    }
+  ]
+}

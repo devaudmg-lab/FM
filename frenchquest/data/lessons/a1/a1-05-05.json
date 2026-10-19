@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-05-05",
+  "level": "a1",
+  "unit": "a1-05",
+  "title": "Describe your routine",
+  "goal": "Describe a typical weekday and your weekend in a short connected text and a 45-second talk.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-routine-mix", "kind": "grammar", "fr": "Je me lève, je fais, je vais", "en": "routine sentences: reflexive verbs, faire, aller and frequency together",
+      "drills": [
+        { "type": "cloze", "text": "En semaine, je ___ lève à 6 heures et je ___ au travail à 7 heures.", "answers": [["me"], ["vais"]], "en": "On weekdays, I get up at 6 and I go to work at 7.", "explain": "Reflexive: je me lève. Aller: je vais." },
+        { "type": "cloze", "text": "Le samedi, nous ___ les courses.", "answers": [["faisons"]], "en": "On Saturdays, we do the shopping.", "explain": "faire: nous faisons." },
+        { "type": "translate", "prompt": "I never get up early on weekends.", "accept": ["Je ne me lève jamais tôt le week-end.", "Je ne me lève jamais tôt la fin de semaine.", "Le week-end, je ne me lève jamais tôt.", "La fin de semaine, je ne me lève jamais tôt.", "Je ne me lève jamais tôt en fin de semaine.", "En fin de semaine, je ne me lève jamais tôt."], "explain": "ne + pronoun + verb + jamais: je ne me lève jamais." }
+      ] },
+    { "id": "en-semaine", "kind": "phrase", "fr": "en semaine", "en": "during the week, on weekdays",
+      "example": { "fr": "En semaine, je travaille à Montréal.", "en": "During the week, I work in Montréal." } },
+    { "id": "le-week-end", "kind": "phrase", "fr": "le week-end", "en": "on weekends, at the weekend", "accept": ["la fin de semaine", "en fin de semaine", "le weekend"],
+      "example": { "fr": "Le week-end, je me repose.", "en": "On weekends, I rest." }, "note": "Québec: la fin de semaine" },
+    { "id": "bonne-fin-de-semaine", "kind": "phrase", "fr": "Bonne fin de semaine !", "en": "Have a good weekend! (Québec)", "accept": ["Bon week-end !", "Bonne fin de semaine"] },
+    { "id": "d-habitude", "kind": "phrase", "fr": "d'habitude", "en": "usually", "accept": ["en général", "normalement"],
+      "example": { "fr": "D'habitude, je rentre à 18 heures.", "en": "Usually, I get home at 6 p.m." } },
+    { "id": "journee", "kind": "vocab", "fr": "journée", "article": "la", "gender": "f", "en": "the day (the whole day, from morning to evening)", "pos": "noun",
+      "example": { "fr": "Je travaille toute la journée.", "en": "I work all day long." } },
+    { "id": "se-reposer", "kind": "vocab", "fr": "se reposer", "en": "to rest", "pos": "verb",
+      "example": { "fr": "Le dimanche, je me repose.", "en": "On Sundays, I rest." } },
+    { "id": "rester-a-la-maison", "kind": "phrase", "fr": "rester à la maison", "en": "to stay home",
+      "example": { "fr": "Le samedi soir, nous restons à la maison.", "en": "On Saturday evenings, we stay home." } },
+    { "id": "grasse-matinee", "kind": "phrase", "fr": "faire la grasse matinée", "en": "to sleep in (stay in bed late)",
+      "example": { "fr": "Le dimanche, je fais la grasse matinée.", "en": "On Sundays, I sleep in." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Amira's week",
+      "blocks": [
+        { "type": "text", "title": "Ma semaine et ma fin de semaine",
+          "fr": "Je m'appelle Amira. J'ai 34 ans et je suis marocaine. J'habite à Moncton avec mon mari et mes deux enfants.\nEn semaine, je me lève à 6 h 30. Je me douche, je m'habille et je réveille les enfants. À 7 h 45, ils vont à l'école et je vais au travail. Je travaille dans une banque : je commence à 8 h 30 et je termine à 16 h 30.\nLe soir, je fais la cuisine et nous mangeons à 18 heures. Les enfants se couchent à 20 heures. Moi, je me couche toujours à 22 heures.\nLa fin de semaine, c'est différent ! Le samedi, je fais la grasse matinée : je me lève à 9 heures. Mon mari et moi, nous faisons l'épicerie et le ménage. Le dimanche, nous allons au parc ou nous restons à la maison. Je fais du sport une fois par semaine, le dimanche matin. Et je ne travaille jamais la fin de semaine !",
+          "en": "My name is Amira. I'm 34 and I'm Moroccan. I live in Moncton with my husband and my two children.\nDuring the week, I get up at 6:30. I shower, I get dressed and I wake the children up. At 7:45, they go to school and I go to work. I work in a bank: I start at 8:30 and I finish at 4:30.\nIn the evening, I do the cooking and we eat at 6. The children go to bed at 8. Me, I always go to bed at 10.\nThe weekend is different! On Saturdays, I sleep in: I get up at 9. My husband and I do the grocery shopping and the housework. On Sundays, we go to the park or we stay home. I exercise once a week, on Sunday mornings. And I never work on weekends!" },
+        { "type": "listen", "title": "A voice message from Alex",
+          "context": "Alex, a friend from Toronto, answers Amira: what is his week like?",
+          "fr": "Salut Amira ! C'est Alex. Moi, en semaine, je travaille le soir, dans un restaurant. Alors je me lève tard, à 10 heures. Je commence à 16 heures et je rentre à minuit. Le week-end, je ne travaille jamais : je me repose et je vais souvent au cinéma avec mes amis. Bonne fin de semaine !",
+          "en": "Hi Amira! It's Alex. During the week, I work in the evening, in a restaurant. So I get up late, at 10. I start at 4 p.m. and I get home at midnight. On weekends, I never work: I rest and I often go to the movies with my friends. Have a good weekend!" },
+        { "type": "note", "tone": "info", "body": "This lesson brings the whole unit together: -er verbs, reflexive verbs, frequency words, [[faire]] and [[aller]]. Read Amira's text once for the general idea, then a second time to spot each type of verb." }
+      ] },
+    { "type": "understand", "title": "Build your routine",
+      "blocks": [
+        { "type": "explain", "title": "Weekday or weekend?",
+          "body": "To compare your week and your weekend, start each part with a clear time frame:\n\n- [[En semaine]] = during the week (Monday to Friday)\n- [[Le week-end]] or [[la fin de semaine]] = on weekends\n- [[D'habitude]] = usually\n\nThen use [[mais]] or [[c'est différent]] to show the contrast: [[En semaine, je me lève tôt, mais le week-end, je fais la grasse matinée.]]" },
+        { "type": "table", "title": "Your routine toolkit",
+          "head": ["you want to say…", "French", "lesson"],
+          "rows": [
+            ["when", "le matin, l'après-midi, le soir, à 7 heures", "5.1"],
+            ["everyday actions", "je travaille, je mange, je rentre, nous commençons", "5.1"],
+            ["things you do to yourself", "je me lève, je m'habille, je me couche", "5.2"],
+            ["how often", "toujours, souvent, parfois, ne… jamais, le lundi", "5.3"],
+            ["chores and places", "je fais le ménage, je vais au travail", "5.4"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "A strong A1 routine text uses at least one thing from **every row**." },
+        { "type": "pattern", "title": "Time first, then the action",
+          "pattern": "[quand], sujet + verbe (+ adverbe) + reste",
+          "note": "Starting with the time phrase makes your text easy to follow. Put a comma after it.",
+          "examples": [
+            { "fr": "En semaine, je me lève à 6 heures.", "en": "During the week, I get up at 6." },
+            { "fr": "Le soir, nous mangeons souvent à 19 heures.", "en": "In the evening, we often eat at 7." },
+            { "fr": "Le samedi, je fais les courses.", "en": "On Saturdays, I do the shopping." },
+            { "fr": "Le dimanche, je ne travaille jamais.", "en": "On Sundays, I never work." }
+          ] },
+        { "type": "vocab", "title": "New words for the weekend", "itemIds": ["en-semaine", "le-week-end", "bonne-fin-de-semaine", "d-habitude", "journee", "se-reposer", "rester-a-la-maison", "grasse-matinee"] },
+        { "type": "deepdive", "kind": "why", "title": "Jour or journée?",
+          "body": "Both mean *day*, but they look at it differently:\n\n- [[un jour]] counts days or names a day: [[tous les jours]], [[trois jours]], [[Quel jour on est ?]]\n- [[la journée]] is the day **as a stretch of time**, from morning to evening: [[ma journée typique]], [[toute la journée]] (all day long).\n\nThat is why people say [[Bonne journée !]] when you leave a shop: *have a good (whole) day!* The same pattern exists with [[le soir]] / [[la soirée]] and [[le matin]] / [[la matinée]], which is where [[la grasse matinée]] comes from: literally *the fat morning*." },
+        { "type": "deepdive", "kind": "canada", "title": "Bonne fin de semaine !",
+          "body": "On a Friday afternoon in Montréal, Québec City or Moncton, you will hear [[Bonne fin de semaine !]] everywhere: at work, in shops, at school. In France, people say [[Bon week-end !]]\n\nNotice also that Amira, who lives in New Brunswick, writes [[nous faisons l'épicerie]] (see Lesson 5.4): the usual way in Québec and much of French-speaking Canada to say *we do the grocery shopping*. In France: [[nous faisons les courses]]." },
+        { "type": "deepdive", "kind": "challenge", "title": "Upgrade your text",
+          "body": "Before you write, check that your text has:\n\n- one **nous** form ([[nous mangeons]], [[nous faisons]], [[nous nous levons]])\n- one reflexive verb with **m'** or **s'** ([[je m'habille]], [[il s'habille]])\n- one **ne… jamais** sentence\n- one contrast with **mais**\n- one **au** or **aux** ([[au travail]], [[aux cours]])\n\nFive boxes ticked? Your text is ready for the checkpoint." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "These are good sentences to reuse in your own talk.",
+          "lines": [
+            { "fr": "En semaine, je me lève à 6 h 30.", "en": "During the week, I get up at 6:30.", "tip": "6 h 30: six heures trente, with a z liaison: si-z‿heures." },
+            { "fr": "Le week-end, je fais la grasse matinée.", "en": "On weekends, I sleep in." },
+            { "fr": "D'habitude, je rentre à 18 heures.", "en": "Usually, I get home at 6 p.m.", "tip": "The h of habitude is silent: d'abitude." },
+            { "fr": "Le dimanche, nous restons à la maison.", "en": "On Sundays, we stay home." },
+            { "fr": "Bonne fin de semaine !", "en": "Have a good weekend! (Québec)" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Salut Amira ! C'est Alex. Moi, en semaine, je travaille le soir, dans un restaurant. Alors je me lève tard, à 10 heures. Je commence à 16 heures et je rentre à minuit.", "en": "Hi Amira! It's Alex. During the week, I work in the evening, in a restaurant. So I get up late, at 10. I start at 4 p.m. and I get home at midnight.", "prompt": "What time does Alex get up during the week?", "options": ["At 10 a.m.", "At 6 a.m.", "At 4 p.m."], "answer": 0, "explain": "[[je me lève tard, à 10 heures]]. He starts work at 16 heures (4 p.m.)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le week-end, je ne travaille jamais : je me repose et je vais souvent au cinéma avec mes amis.", "en": "On weekends, I never work: I rest and I often go to the movies with my friends.", "prompt": "What does Alex do on weekends?", "options": ["He rests and goes to the movies.", "He works in the restaurant.", "He does the housework."], "answer": 0, "explain": "[[je ne travaille jamais]] = I never work; [[je me repose]] = I rest; [[je vais au cinéma]] = I go to the movies." }
+      ] },
+    { "type": "recall", "title": "Unit 5 checkpoint",
+      "intro": "This checkpoint mixes the whole unit with older material from Units 1 to 4. Answer without looking back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Raj ___ indien. Il ___ 29 ans.", "answers": [["est"], ["a"]], "en": "Raj is Indian. He is 29.", "explain": "Nationality uses être (il est); age uses avoir (il a 29 ans)." },
+        { "id": "r2", "type": "mcq", "prompt": "“Amira wakes up her children.” Which is correct?", "options": ["Elle réveille ses enfants.", "Elle se réveille ses enfants.", "Elle réveille sa enfants.", "Elle réveille son enfants."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "She wakes someone else up, so no reflexive se.", "enfants is plural: ses.", "enfants is plural: ses."] },
+        { "id": "r3", "type": "translate", "prompt": "I get up at 6:30.", "accept": ["Je me lève à 6 h 30.", "Je me lève à 6h30.", "Je me lève à six heures trente.", "Je me lève à six heures et demie.", "Je me lève à 6 heures 30.", "Je me lève à 6 h 30 du matin.", "Je me lève à six heures et demie du matin."], "explain": "je → me lève (è); for the time, à six heures trente or à six heures et demie." },
+        { "id": "r4", "type": "cloze", "text": "Le samedi, ils ___ les courses et nous ___ le ménage.", "answers": [["font"], ["faisons"]], "en": "On Saturdays, they do the shopping and we do the housework.", "explain": "faire: ils font, nous faisons." },
+        { "id": "r5", "type": "cloze", "text": "Mon mari va ___ travail et je vais ___ banque.", "answers": [["au"], ["à la"]], "en": "My husband goes to work and I go to the bank.", "explain": "à + le travail = au travail; à + la banque stays à la banque." },
+        { "id": "r6", "type": "translate", "prompt": "I never go to bed late.", "accept": ["Je ne me couche jamais tard."], "hint": "ne + me + verb + jamais", "explain": "ne goes before the reflexive pronoun, jamais after the verb." },
+        { "id": "r7", "type": "reorder", "prompt": "On weekends, we stay home.", "accept": ["Le week-end, nous restons à la maison.", "Nous restons à la maison le week-end."], "extra": ["au"], "explain": "rester à la maison = to stay home; the time phrase can start or end the sentence." },
+        { "id": "r8", "type": "match", "prompt": "Match the French and the English.", "pairs": [["je fais", "I do"], ["je vais", "I go"], ["je me lève", "I get up"], ["je suis", "I am"], ["j'ai", "I have"], ["Bonne journée !", "Have a nice day!"]] },
+        { "id": "r9", "type": "dictation", "fr": "Le dimanche, nous allons au parc.", "accept": ["Le dimanche nous allons au parc."], "explain": "Link [[nous‿allons]] with a z sound; à + le parc = au parc." },
+        { "id": "r10", "type": "listen-mcq", "fr": "D'habitude, ma femme commence à quatorze heures.", "en": "Usually, my wife starts at 2 p.m.", "prompt": "When does the speaker's wife usually start?", "options": ["At 2 p.m.", "At 4 p.m.", "At noon", "At 10 a.m."], "answer": 0, "explain": "[[quatorze heures]] = 14:00 = 2 p.m. [[Ma femme]]: femme is feminine, so ma." }
+      ] },
+    { "type": "apply", "title": "Your checkpoint missions",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write about your typical weekday and your weekend for a French class blog. Compare the two.", "promptFr": "Décrivez votre journée typique en semaine et votre fin de semaine.", "wordRange": [60, 90],
+          "checklist": ["Introduce yourself in one sentence (name, city)", "En semaine: at least four actions with times", "At least two reflexive verbs", "faire and aller at least once each, with au / à la / à l' / aux", "Le week-end or la fin de semaine: what is different (use mais or c'est différent)", "Two frequency words, including ne… jamais"],
+          "models": [ { "label": "Model answer", "fr": "Je m'appelle Karim. J'habite à Gatineau avec ma femme. En semaine, je me lève à 6 heures. Je me douche, je m'habille et je vais au travail à 7 heures. Je commence à 8 heures et je termine à 16 heures. Le soir, je fais la cuisine et nous mangeons à 18 heures. Je me couche toujours à 22 heures. La fin de semaine, c'est différent : je fais la grasse matinée et je ne travaille jamais. Le samedi, nous faisons les courses. Le dimanche, je me repose.", "en": "My name is Karim. I live in Gatineau with my wife. During the week, I get up at 6. I shower, I get dressed and I go to work at 7. I start at 8 and I finish at 4 p.m. In the evening, I do the cooking and we eat at 6. I always go to bed at 10. The weekend is different: I sleep in and I never work. On Saturdays, we do the shopping. On Sundays, I rest." } ] },
+        { "id": "s1", "type": "speak", "prompt": "At your French class, the teacher asks: “Votre journée typique, c'est comment ?” (What is your typical day like?) Talk for about 45 seconds about a typical weekday and your weekend.", "seconds": 45,
+          "checklist": ["Greeting and your name", "En semaine: get up, go to work or class, get home, go to bed", "At least two times (à 7 heures…)", "Le week-end: two activities with faire or aller", "One frequency word (souvent, toujours, ne… jamais)"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour ! Je suis Sofia. D'habitude, en semaine, je me réveille à 7 heures. Le matin, je vais aux cours de français et l'après-midi, je travaille. Je rentre à 19 heures et je mange avec ma fille. Le week-end, c'est différent : je fais la grasse matinée, je fais le ménage et nous allons souvent au parc. Le dimanche soir, je me couche tôt.", "en": "Hello! I'm Sofia. Usually, during the week, I wake up at 7. In the morning, I go to French classes and in the afternoon, I work. I get home at 7 p.m. and I eat with my daughter. On weekends, it's different: I sleep in, I do the housework and we often go to the park. On Sunday evenings, I go to bed early." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Describe a typical weekday with times, -er verbs, reflexive verbs, [[faire]] and [[aller]]\n- Contrast it with the weekend using [[en semaine]], [[le week-end / la fin de semaine]] and [[mais]]\n- Say how often you do things, including [[ne… jamais]], in a 60–90 word text and a 45-second talk",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made the teacher's question more natural, softened the “usual Canadian way” claim about faire l'épicerie, fixed English glosses (“do the groceries”, ambiguous “12 p.m.”)." }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-09-03",
+  "level": "a2",
+  "unit": "a2-09",
+  "title": "Indirect object pronouns",
+  "goal": "Use lui and leur to replace à + a person, and put them in the right place in the present, the negative, the futur proche and the passé composé.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-lui-leur", "kind": "grammar", "fr": "lui / leur", "en": "indirect object pronouns: (to) him, her, them",
+      "drills": [
+        { "type": "cloze", "text": "Tu parles à Nguyen ? — Oui, je ___ parle tous les jours.", "answers": [["lui"]], "choices": ["lui", "le", "leur"], "en": "Do you talk to Nguyen? — Yes, I talk to him every day.", "explain": "[[parler à]] + one person → [[lui]]." },
+        { "type": "cloze", "text": "J'écris à mes parents. → Je ___ écris.", "answers": [["leur"]], "choices": ["leur", "leurs", "les"], "en": "I write to my parents. → I write to them.", "explain": "[[à]] + several people → [[leur]], never with an -s." },
+        { "type": "cloze", "text": "Tu téléphones à Lucie ? — Oui, je ___ téléphone ce soir.", "answers": [["lui"]], "choices": ["lui", "la", "leur"], "en": "Are you calling Lucie? — Yes, I'm calling her tonight.", "explain": "[[téléphoner à]] → indirect → [[lui]], even if English says *call her*." }
+      ] },
+    { "id": "g-position", "kind": "grammar", "fr": "je lui parle / je vais lui parler / je lui ai parlé", "en": "position of object pronouns",
+      "drills": [
+        { "type": "translate", "prompt": "I'm going to call him tomorrow (on the phone).", "accept": ["Je vais lui téléphoner demain.", "Demain, je vais lui téléphoner.", "Je vais l'appeler demain.", "Demain, je vais l'appeler."], "explain": "With aller + infinitive, the pronoun goes before the infinitive: [[je vais lui téléphoner]]." },
+        { "type": "cloze", "text": "Je ___ ___ ai pas encore répondu.", "answers": [["ne"], ["lui"]], "en": "I haven't answered him yet.", "explain": "Passé composé: ne + pronoun + avoir + pas: [[je ne lui ai pas répondu]]." },
+        { "type": "mcq", "prompt": "“I gave them the keys.”", "options": ["Je leur ai donné les clés.", "J'ai leur donné les clés.", "Je les ai donné les clés."], "optionsFr": true, "answer": 0, "explain": "In the passé composé, the pronoun goes before avoir: [[je leur ai donné]]." }
+      ] },
+    { "id": "parler-a", "kind": "phrase", "fr": "parler à quelqu'un", "en": "to talk to someone" },
+    { "id": "telephoner-a", "kind": "phrase", "fr": "téléphoner à quelqu'un", "en": "to call someone (on the phone)", "accept": ["appeler quelqu'un"], "note": "téléphoner à is indirect (lui/leur); appeler is direct (le/la/les)." },
+    { "id": "donner-a", "kind": "phrase", "fr": "donner quelque chose à quelqu'un", "en": "to give something to someone" },
+    { "id": "offrir-a", "kind": "phrase", "fr": "offrir quelque chose à quelqu'un", "en": "to give someone something as a gift", "note": "Past participle: offert." },
+    { "id": "ecrire-a", "kind": "phrase", "fr": "écrire à quelqu'un", "en": "to write to someone", "note": "Past participle: écrit." },
+    { "id": "demander-a", "kind": "phrase", "fr": "demander à quelqu'un", "en": "to ask someone" },
+    { "id": "repondre-a", "kind": "phrase", "fr": "répondre à quelqu'un", "en": "to answer someone, to reply to someone" },
+    { "id": "on-lui-offre", "kind": "phrase", "fr": "Qu'est-ce qu'on lui offre ?", "en": "What shall we give him / her (as a gift)?", "accept": ["On lui offre quoi ?"] },
+    { "id": "je-leur-ai-ecrit", "kind": "phrase", "fr": "Je leur ai écrit hier.", "en": "I wrote to them yesterday.", "accept": ["Hier, je leur ai écrit."] },
+    { "id": "je-vais-lui-demander", "kind": "phrase", "fr": "Je vais lui demander.", "en": "I'm going to ask him / her." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A birthday present for Nguyen",
+      "blocks": [
+        { "type": "dialogue", "title": "At the office, on Tuesday",
+          "context": "Sofia and Alex are preparing Nguyen's birthday 5 à 7.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "C'est l'anniversaire de Nguyen jeudi. Qu'est-ce qu'on lui offre ?", "en": "It's Nguyen's birthday on Thursday. What shall we give him?" },
+            { "speaker": "Alex", "fr": "On pourrait lui offrir un livre de cuisine. Il adore cuisiner.", "en": "We could give him a cookbook. He loves cooking." },
+            { "speaker": "Sofia", "fr": "Bonne idée ! Et les gens de l'équipe de Toronto, tu leur as parlé du 5 à 7 ?", "en": "Good idea! And the people from the Toronto team, have you talked to them about the 5 à 7?" },
+            { "speaker": "Alex", "fr": "Pas encore. Je vais leur écrire un courriel ce soir.", "en": "Not yet. I'm going to write them an email tonight." },
+            { "speaker": "Sofia", "fr": "Et Raj ? Il est au courant ?", "en": "And Raj? Does he know?" },
+            { "speaker": "Alex", "fr": "Je lui ai téléphoné ce matin, mais il ne m'a pas répondu. Je vais lui envoyer un texto.", "en": "I called him this morning, but he didn't answer me. I'm going to send him a text." },
+            { "speaker": "Sofia", "fr": "Parfait. Moi, je vais demander à Camille pour la carte. Elle dessine très bien !", "en": "Perfect. I'm going to ask Camille about the card. She draws really well!" },
+            { "speaker": "Alex", "fr": "Oui, demande-lui. Et surtout, on ne dit rien à Nguyen : on ne lui parle pas du cadeau !", "en": "Yes, ask her. And above all, we don't say anything to Nguyen: we don't talk to him about the present!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "In “Qu'est-ce qu'on lui offre ?”, who is lui?", "options": ["Nguyen", "Alex", "Raj", "The Toronto team"], "answer": 0,
+          "explain": "[[lui]] replaces [[à Nguyen]]: *What shall we give (to) Nguyen?*" },
+        { "id": "d2", "type": "mcq", "prompt": "In “Je vais leur écrire un courriel”, who is leur?", "options": ["The people from the Toronto team", "Raj", "Sofia and Alex", "Nguyen"], "answer": 0,
+          "explain": "[[leur]] replaces [[aux gens de l'équipe de Toronto]]: more than one person." }
+      ] },
+    { "type": "understand", "title": "Lui and leur",
+      "blocks": [
+        { "type": "explain", "title": "Replacing à + a person",
+          "body": "Many verbs of **communication and giving** are followed by **à + a person**: you talk *to* someone, give something *to* someone. To avoid repeating the person, use an **indirect object pronoun**:\n\n- [[à Nguyen]], [[à Lucie]], [[à mon frère]] → [[lui]] (to him **or** to her)\n- [[à mes parents]], [[aux voisins]] → [[leur]] (to them)\n\n[[Je parle à Lucie.]] → [[Je lui parle.]]\n[[J'écris à mes parents.]] → [[Je leur écris.]]\n\nYou already know the **direct** pronouns [[le, la, les]] from the shopping unit. The difference is simply: is there an **à** before the person?" },
+        { "type": "table", "title": "Direct or indirect?",
+          "head": ["", "direct (no à)", "indirect (à + person)"],
+          "rows": [
+            ["me", "me / m'", "me / m'"],
+            ["you (tu)", "te / t'", "te / t'"],
+            ["him", "le / l'", "lui"],
+            ["her", "la / l'", "lui"],
+            ["us", "nous", "nous"],
+            ["you (vous)", "vous", "vous"],
+            ["them", "les", "leur"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "Good news: [[me, te, nous, vous]] are the same in both columns. You only need to choose for *him, her, them*: [[le / la / les]] or [[lui / leur]]." },
+        { "type": "table", "title": "Verbs with à + person (→ lui / leur)",
+          "head": ["Verb", "Example", "With a pronoun"],
+          "rows": [
+            ["parler à", "Je parle à Karim.", "Je lui parle."],
+            ["téléphoner à", "Tu téléphones à ta mère ?", "Tu lui téléphones ?"],
+            ["donner qqch à", "Je donne les clés aux voisins.", "Je leur donne les clés."],
+            ["offrir qqch à", "On offre des fleurs à Lucie.", "On lui offre des fleurs."],
+            ["écrire à", "J'écris à mes collègues.", "Je leur écris."],
+            ["demander à", "Je demande à Camille.", "Je lui demande."],
+            ["répondre à", "Il répond à ses clients.", "Il leur répond."]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Also: [[envoyer qqch à]], [[dire qqch à]], [[montrer qqch à]], [[expliquer qqch à]]. Some of these verbs have a thing **and** a person: [[On lui offre des fleurs]] = we give flowers to her." },
+        { "type": "table", "title": "Where does the pronoun go?",
+          "head": ["Tense", "Positive", "Negative"],
+          "rows": [
+            ["Present", "Je lui parle.", "Je ne lui parle pas."],
+            ["Question", "Tu leur écris ?", "Tu ne leur écris pas ?"],
+            ["Aller / pouvoir / vouloir + infinitive", "Je vais lui téléphoner.", "Je ne vais pas lui téléphoner."],
+            ["Passé composé", "Je lui ai téléphoné.", "Je ne lui ai pas téléphoné."]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "**The rule:** the pronoun goes right **before the verb it belongs to**: before the conjugated verb, before the infinitive, or before [[avoir]] / [[être]] in the passé composé. [[ne]] goes before the pronoun, [[pas]] after the verb or auxiliary." },
+        { "type": "vocab", "title": "Verbs and phrases", "itemIds": ["parler-a", "telephoner-a", "donner-a", "offrir-a", "ecrire-a", "demander-a", "repondre-a", "on-lui-offre", "je-leur-ai-ecrit", "je-vais-lui-demander"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Classic traps",
+          "body": "- **Téléphoner à = indirect.** English says *call him*, so learners write *je le téléphone*. In French it's [[je lui téléphone]]. But [[appeler]] is direct: [[je l'appelle]]. Both mean *I call him*.\n- **Direct verbs (no à in French):** [[aider]] (to help), [[inviter]] (to invite), [[attendre]] (to wait **for**), [[écouter]] (to listen **to**), [[chercher]] (to look **for**). Even when English adds *for* or *to*, French uses le / la / les: [[Je l'aide]], [[Je les attends]], [[Je l'écoute]].\n- **Leur never takes -s as a pronoun.** [[Je leur parle]], [[Je leur ai écrit]]. Don't confuse it with the possessive *their*, which agrees with the noun: [[leur fils]] (their son), [[leurs enfants]] (their children).\n- **Lui = him or her.** [[Je lui parle]] can mean I talk to him *or* to her. Context tells you which.\n- **Wrong place in the passé composé:** *J'ai lui parlé* → [[Je lui ai parlé]].\n- **No agreement with lui / leur.** [[Sofia ? Je lui ai écrit.]] The participle [[écrit]] never agrees with an indirect pronoun." },
+        { "type": "deepdive", "kind": "why", "title": "Why so many pronouns?",
+          "body": "French avoids repeating names much more than English does. Compare:\n\n*Did you call your mother? — Yes, I called my mother yesterday.* (OK in English)\n[[Tu as téléphoné à ta mère ? — Oui, je lui ai téléphoné hier.]] (natural French)\n\nRepeating [[à ma mère]] sounds heavy in French. So whenever a person has just been mentioned, a pronoun is the natural choice.",
+          "examples": [
+            { "fr": "Tu as répondu à Karim ? — Non, je ne lui ai pas encore répondu.", "en": "Did you answer Karim? — No, I haven't answered him yet." },
+            { "fr": "Qu'est-ce que tu vas offrir à tes parents ? — Je vais leur offrir une fin de semaine à Québec.", "en": "What are you going to give your parents? — I'm going to give them a weekend in Québec City." }
+          ] },
+        { "type": "note", "tone": "info", "body": "**For recognition:** in a positive command, the pronoun comes **after** the verb, with a hyphen: [[Demande-lui !]] (Ask him / her!), [[Téléphone-leur !]] (Call them!). In a negative command it goes back before: [[Ne lui dis rien !]] (Don't tell him / her anything!)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "[[lui]] is one quick syllable: the *u* glides into the *i*, like [[huit]] without the t.",
+          "lines": [
+            { "fr": "Je lui parle.", "en": "I talk to him / her.", "tip": "je lui: say it as one block." },
+            { "fr": "Je leur écris.", "en": "I write to them.", "tip": "leur and écris are linked: leu-ré-cri." },
+            { "fr": "Je vais lui téléphoner.", "en": "I'm going to call him / her." },
+            { "fr": "Je lui ai offert des fleurs.", "en": "I gave her / him flowers.", "tip": "offert: the final t is silent, so you hear o-fèr." },
+            { "fr": "Je ne leur ai pas répondu.", "en": "I didn't answer them." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Mes voisins ? Je leur ai donné une clé de mon appartement.", "en": "My neighbours? I gave them a key to my apartment.",
+          "prompt": "Who received the key?", "options": ["The neighbours", "One neighbour", "The speaker"], "answer": 0,
+          "explain": "[[leur]] = to them: [[mes voisins]], plural." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Lucie ? Non, je ne lui ai pas encore parlé. Je vais lui téléphoner ce soir.", "en": "Lucie? No, I haven't talked to her yet. I'm going to call her tonight.",
+          "prompt": "What is true?", "options": ["The speaker hasn't talked to Lucie, but will call her tonight.", "The speaker called Lucie this morning.", "Lucie is going to call the speaker tonight."], "answer": 0,
+          "explain": "[[je ne lui ai pas encore parlé]] = I haven't talked to her yet; [[je vais lui téléphoner]] = I'm going to call her." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "First ask yourself: is there an à before the person? Then: where does the pronoun go?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Tu as parlé à tes parents ? — Oui, je ___ ai parlé hier.", "answers": [["leur"]], "choices": ["leur", "leurs", "les", "lui"], "en": "Did you talk to your parents? — Yes, I talked to them yesterday.",
+          "explain": "[[parler à]] + several people → [[leur]], before [[ai]]." },
+        { "id": "r2", "type": "mcq", "prompt": "Karim? I'm helping him with his move.", "optionsFr": true,
+          "options": ["Karim ? Je l'aide pour son déménagement.", "Karim ? Je lui aide pour son déménagement.", "Karim ? J'aide lui pour son déménagement."], "answer": 0,
+          "optionFeedback": [null, "aider is direct in French (aider quelqu'un, no à): use le / l'.", "The pronoun goes before the verb."] },
+        { "id": "r3", "type": "translate", "prompt": "I'm calling her tonight. (use téléphoner)", "accept": ["Je lui téléphone ce soir.", "Ce soir, je lui téléphone.", "Je vais lui téléphoner ce soir.", "Ce soir, je vais lui téléphoner."], "hint": "téléphoner à → lui",
+          "explain": "[[téléphoner à]] is indirect: [[je lui téléphone]]." },
+        { "id": "r4", "type": "reorder", "prompt": "We're going to give him a book (as a gift).", "accept": ["On va lui offrir un livre"], "extra": ["le"],
+          "explain": "The pronoun goes before the infinitive: [[on va lui offrir]]." },
+        { "id": "r5", "type": "cloze", "text": "Sofia ne ___ a pas répondu. (to us)", "answers": [["nous"]], "en": "Sofia didn't answer us.",
+          "explain": "[[nous]] is both direct and indirect. Order: ne + pronoun + avoir + pas." },
+        { "id": "r6", "type": "match", "prompt": "Direct or indirect? Match each sentence with the right pronoun version.", "pairs": [["Je vois Mei.", "Je la vois."], ["Je parle à Mei.", "Je lui parle."], ["J'invite mes amis.", "Je les invite."], ["J'écris à mes amis.", "Je leur écris."], ["J'appelle Raj.", "Je l'appelle."]] },
+        { "id": "r7", "type": "translate", "prompt": "I wrote to them yesterday.", "accept": ["Je leur ai écrit hier.", "Hier, je leur ai écrit."], "hint": "écrire à; past participle écrit",
+          "explain": "Passé composé: [[je leur ai écrit]]. [[leur]] has no -s." },
+        { "id": "r8", "type": "cloze", "text": "Tu vas ___ demander l'adresse ? (à Camille)", "answers": [["lui"]], "en": "Are you going to ask Camille for the address?",
+          "explain": "[[demander qqch à qqn]]: the person is indirect → [[lui]], before the infinitive." },
+        { "id": "r9", "type": "dictation", "fr": "Je ne lui ai pas encore téléphoné.", "accept": [],
+          "explain": "Negative passé composé with a pronoun: [[ne + lui + ai + pas]]." },
+        { "id": "r10", "type": "mcq", "prompt": "Review: “the cheapest gift” — which phrase is correct?", "optionsFr": true,
+          "options": ["le cadeau le moins cher", "le cadeau plus moins cher", "le moins cadeau cher"], "answer": 0,
+          "explain": "Superlative after the noun: [[le cadeau le moins cher]], with the article repeated." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend asks about your contacts with your family and friends. Answer out loud, using lui or leur each time: When did you last call your parents? Did you write to your best friend this week? What are you going to give your mother (or someone else) for her birthday?", "seconds": 40,
+          "checklist": ["Je leur ai téléphoné… (passé composé)", "Je lui ai écrit… / Je ne lui ai pas écrit…", "Je vais lui offrir… (futur proche)", "No repetition of the names"],
+          "models": [ { "label": "Model answer", "fr": "Mes parents ? Je leur ai téléphoné dimanche, comme chaque semaine. Ma meilleure amie, Nadia, habite à Casablanca. Je lui ai écrit un long message mardi, mais elle ne m'a pas encore répondu. Pour l'anniversaire de ma mère, je vais lui offrir un foulard de Montréal. Elle adore les couleurs !", "en": "My parents? I called them on Sunday, like every week. My best friend, Nadia, lives in Casablanca. I wrote her a long message on Tuesday, but she hasn't answered me yet. For my mother's birthday, I'm going to give her a scarf from Montréal. She loves colours!" } ] },
+        { "id": "w1", "type": "write", "prompt": "You're organizing a goodbye party for a colleague who is moving to Vancouver. Write a short message to another colleague: say what you're going to give her or him, who you have already talked to, and who you still need to write to or call. Use lui and leur at least three times.", "promptFr": "Écrivez un message à un ou une collègue.", "wordRange": [30, 70],
+          "checklist": ["What you'll give: On va lui offrir…", "Who you talked to: J'ai parlé à… / Je leur ai parlé.", "Who you haven't contacted: Je ne lui ai pas encore…", "A request: Tu peux leur écrire / lui téléphoner ?"],
+          "models": [ { "label": "Model answer", "fr": "Salut Alex ! Pour le départ de Mei, on va lui offrir un sac à dos et une carte. J'ai parlé aux collègues de Toronto : je leur ai envoyé l'invitation hier. Mais je n'ai pas encore parlé à monsieur Gagnon. Tu peux lui téléphoner demain ? Merci ! Sofia", "en": "Hi Alex! For Mei's leaving party, we're going to give her a backpack and a card. I talked to the colleagues in Toronto: I sent them the invitation yesterday. But I haven't talked to Mr. Gagnon yet. Can you call him tomorrow? Thanks! Sofia" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Replace **à + one person** with [[lui]] (him or her) and **à + several people** with [[leur]] (no -s)\n- Know the verbs with à: [[parler, téléphoner, donner, offrir, écrire, demander, répondre à]] — and that [[aider, appeler, inviter, attendre]] are direct (le, la, les)\n- Place the pronoun before the verb, the infinitive or the auxiliary: [[je lui parle]], [[je vais lui parler]], [[je ne lui ai pas parlé]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Clarified leur (pronoun, invariable) vs leur/leurs (possessive) and reworded the direct-verbs trap. Accepted l'appeler in the position drill, pinned 'as a gift' in r4, and replaced leur for l'équipe (singular) in the model." }
+}

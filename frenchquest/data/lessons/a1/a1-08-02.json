@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-08-02",
+  "level": "a1",
+  "unit": "a1-08",
+  "title": "Asking questions",
+  "goal": "Ask yes/no questions in three registers (intonation, est-ce que, inversion) and ask “what?” with qu'est-ce que.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-three-questions", "kind": "grammar", "fr": "Tu travailles ici ? / Est-ce que tu travailles ici ? / Travailles-tu ici ?", "en": "three ways to ask a yes/no question",
+      "drills": [
+        { "type": "translate", "prompt": "Do you work here? (to a friend)", "accept": ["Tu travailles ici ?", "Est-ce que tu travailles ici ?", "Travailles-tu ici ?"], "explain": "Three correct questions: rising voice, est-ce que + normal order, or inverted verb-subject." },
+        { "type": "cloze", "text": "___ vous parlez anglais ?", "answers": [["Est-ce que"]], "choices": ["Est-ce que", "Qu'est-ce que", "Est-ce"], "en": "Do you speak English?", "explain": "Est-ce que turns a sentence into a yes/no question without changing the word order." },
+        { "type": "mcq", "prompt": "Which question is the most formal?", "options": ["Avez-vous une minute ?", "Vous avez une minute ?", "Est-ce que vous avez une minute ?"], "optionsFr": true, "answer": 0, "explain": "Inversion (verb-subject) is the formal register." }
+      ] },
+    { "id": "g-inversion-t", "kind": "grammar", "fr": "Travaille-t-il ? Parle-t-elle ?", "en": "inversion with il/elle: the extra -t-",
+      "drills": [
+        { "type": "cloze", "text": "Travaille-___-elle ici ?", "answers": [["t"]], "en": "Does she work here?", "explain": "travaille ends in a vowel, so add -t- before elle." },
+        { "type": "cloze", "text": "A-___-il une voiture ?", "answers": [["t"]], "en": "Does he have a car?", "explain": "il a → A-t-il ? The -t- separates the two vowels." },
+        { "type": "mcq", "prompt": "Which inversion is correct?", "options": ["Prend-il le bus ?", "Prend-t-il le bus ?", "Prende-il le bus ?"], "optionsFr": true, "answer": 0, "explain": "prend already ends in d (said like t), so no extra -t- is needed." }
+      ] },
+    { "id": "g-quest-ce-que", "kind": "grammar", "fr": "est-ce que (yes/no) vs qu'est-ce que (what)", "en": "est-ce que vs qu'est-ce que",
+      "drills": [
+        { "type": "cloze", "text": "___ tu manges à midi ?", "answers": [["Qu'est-ce que"]], "choices": ["Qu'est-ce que", "Est-ce que", "Qu'est-ce"], "en": "What do you eat at noon?", "explain": "The question asks *what*, so use qu'est-ce que." },
+        { "type": "cloze", "text": "___ Lucie est infirmière ?", "answers": [["Est-ce que"]], "choices": ["Est-ce que", "Qu'est-ce que", "Est-ce"], "en": "Is Lucie a nurse?", "explain": "A yes/no question → est-ce que. Qu'est-ce que would mean *what*." }
+      ] },
+    { "id": "est-ce-que", "kind": "phrase", "fr": "est-ce que…", "en": "question marker for yes/no questions (no meaning on its own)", "note": "Before a vowel: est-ce qu'il, est-ce qu'elle." },
+    { "id": "quest-ce-que", "kind": "phrase", "fr": "qu'est-ce que…", "en": "what… ? (at the start of a question)", "accept": ["que"], "note": "Qu'est-ce que tu fais ? = What are you doing? Formal: Que faites-vous ?" },
+    { "id": "tu-travailles-ici", "kind": "phrase", "fr": "Est-ce que tu travailles ici ?", "en": "Do you work here? (to a colleague you say tu to)", "accept": ["Tu travailles ici ?", "Travailles-tu ici ?"] },
+    { "id": "parlez-vous-anglais", "kind": "phrase", "fr": "Parlez-vous anglais ?", "en": "Do you speak English? (formal)", "accept": ["Est-ce que vous parlez anglais ?", "Vous parlez anglais ?"] },
+    { "id": "avez-vous-une-minute", "kind": "phrase", "fr": "Avez-vous une minute ?", "en": "Do you have a minute? (formal)", "accept": ["Est-ce que vous avez une minute ?", "Vous avez une minute ?"] },
+    { "id": "quest-ce-que-cest", "kind": "phrase", "fr": "Qu'est-ce que c'est ?", "en": "What is it? / What's that?" },
+    { "id": "collegue", "kind": "vocab", "fr": "collègue", "article": "un", "gender": "m", "pos": "noun", "en": "colleague, co-worker (m or f)", "accept": ["collègue", "une collègue"],
+      "example": { "fr": "Olivier est mon collègue.", "en": "Olivier is my colleague." }, "note": "Same form for a woman: une collègue, ma collègue." },
+    { "id": "bureau", "kind": "vocab", "fr": "bureau", "article": "le", "gender": "m", "pos": "noun", "en": "office (workplace)", "accept": ["bureau"],
+      "example": { "fr": "Je travaille au bureau.", "en": "I work at the office." }, "note": "Also means *desk*. Plural: les bureaux." },
+    { "id": "reunion", "kind": "vocab", "fr": "réunion", "article": "la", "gender": "f", "pos": "noun", "en": "meeting (at work)", "accept": ["réunion", "une réunion"],
+      "example": { "fr": "La réunion est à dix heures.", "en": "The meeting is at ten." } },
+    { "id": "travail", "kind": "vocab", "fr": "travail", "article": "le", "gender": "m", "pos": "noun", "en": "work, job", "accept": ["travail"],
+      "example": { "fr": "Je cherche du travail.", "en": "I'm looking for work." }, "note": "From travailler (to work)." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A first week of questions",
+      "blocks": [
+        { "type": "dialogue", "title": "First week at an office in Montréal",
+          "context": "Sofia has just started a new job. She meets Olivier in the hallway.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Bonjour ! Excusez-moi, est-ce que vous travaillez ici ?", "en": "Hello! Excuse me, do you work here?" },
+            { "speaker": "Olivier", "fr": "Oui, je suis comptable. Je m'appelle Olivier. Tu es nouvelle ?", "en": "Yes, I'm an accountant. My name's Olivier. Are you new?" },
+            { "speaker": "Sofia", "fr": "Oui, moi, c'est Sofia. Je commence aujourd'hui.", "en": "Yes, I'm Sofia. I start today." },
+            { "speaker": "Olivier", "fr": "Bienvenue ! Qu'est-ce que tu fais comme travail ?", "en": "Welcome! What kind of work do you do?" },
+            { "speaker": "Sofia", "fr": "Je suis développeuse. Est-ce qu'il y a une réunion ce matin ?", "en": "I'm a developer. Is there a meeting this morning?" },
+            { "speaker": "Olivier", "fr": "Oui, à dix heures. Tu as un ordinateur ?", "en": "Yes, at ten. Do you have a computer?" },
+            { "speaker": "Sofia", "fr": "Pas encore. Et ça, qu'est-ce que c'est ?", "en": "Not yet. And what's that?" },
+            { "speaker": "Olivier", "fr": "C'est le bureau de Camille, la gestionnaire. Elle arrive à neuf heures.", "en": "That's the office of Camille, the manager. She arrives at nine." }
+          ] },
+        { "type": "text", "title": "A welcome form for new employees",
+          "fr": "Questionnaire — nouvelle employée\nParlez-vous anglais ?\nAvez-vous une voiture ?\nÊtes-vous disponible le samedi ?\nPrenez-vous le métro ?",
+          "en": "Questionnaire — new employee (f)\nDo you speak English?\nDo you have a car?\nAre you available on Saturdays?\nDo you take the metro?" },
+        { "type": "note", "tone": "info", "body": "Sofia and Olivier ask questions in different ways: with just a rising voice ([[Tu es nouvelle ?]]), with [[est-ce que]], and with [[qu'est-ce que]] for *what*. The form uses a third, more formal way: the verb comes **first** ([[Parlez-vous anglais ?]])." }
+      ] },
+    { "type": "understand", "title": "Three ways to ask",
+      "blocks": [
+        { "type": "table", "title": "Yes/no questions: three registers",
+          "head": ["way", "example", "when to use it"],
+          "rows": [
+            ["1. intonation", "Tu travailles ici ?", "everyday speech, text messages, friends"],
+            ["2. est-ce que", "Est-ce que tu travailles ici ?", "everywhere: safe and neutral"],
+            ["3. inversion", "Travailles-tu ici ?", "formal: forms, interviews, official writing"]
+          ],
+          "frCols": [1], "sayCol": true,
+          "note": "All three mean exactly the same thing: *Do you work here?* Only the register changes." },
+        { "type": "explain", "title": "1 and 2: intonation and est-ce que",
+          "body": "**Intonation:** keep the normal sentence and make your voice **go up** at the end. In writing, just add a question mark: [[Vous parlez anglais ?]]\n\n**Est-ce que:** put [[est-ce que]] at the start and keep the normal word order. It has no meaning of its own; it simply says *this is a question*:\n\n- [[Est-ce que vous parlez anglais ?]]\n- [[Est-ce qu'il y a une réunion ?]] (before a vowel, [[que]] → [[qu']])\n\nIf you are not sure which form to use, choose **est-ce que**. It is correct in every situation." },
+        { "type": "pattern", "title": "3: inversion (formal)",
+          "pattern": "verbe-sujet ?",
+          "note": "Put the verb **before** the subject and join them with a hyphen. With [[il]], [[elle]] or [[on]], if the verb ends in a vowel, add **-t-**: [[Travaille-t-il ?]] If the verb already ends in *t* or *d*, no extra t: [[Est-il ?]], [[Prend-elle ?]] At this level, don't invert with [[je]].",
+          "examples": [
+            { "fr": "Parlez-vous anglais ?", "en": "Do you speak English? (formal)" },
+            { "fr": "Êtes-vous disponible lundi ?", "en": "Are you available on Monday?" },
+            { "fr": "Travaille-t-elle ici ?", "en": "Does she work here?" },
+            { "fr": "A-t-il une voiture ?", "en": "Does he have a car?" },
+            { "fr": "Est-il ingénieur ?", "en": "Is he an engineer?" }
+          ] },
+        { "type": "explain", "title": "Est-ce que or qu'est-ce que?",
+          "body": "- [[Est-ce que]] = a **yes/no** question. [[Est-ce que tu manges ?]] → [[Oui.]]\n- [[Qu'est-ce que]] = **what**. [[Qu'est-ce que tu manges ?]] → [[Une pomme.]]\n\nThe extra [[qu']] at the start (from [[que]], *what*) changes everything. The same idea in the three registers:\n\n- Informal: [[Tu fais quoi ?]]\n- Neutral: [[Qu'est-ce que tu fais ?]]\n- Formal: [[Que faites-vous ?]]\n\nAnd a very useful one: [[Qu'est-ce que c'est ?]] (What is it? / What's that?)" },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["est-ce-que", "quest-ce-que", "quest-ce-que-cest", "tu-travailles-ici", "parlez-vous-anglais", "avez-vous-une-minute", "collegue", "bureau", "reunion", "travail"] },
+        { "type": "deepdive", "kind": "why", "title": "Why the -t-?",
+          "body": "French does not like two vowel sounds bumping into each other. [[A-il]] or [[Parle-elle]] would be hard to say, so French slips in a **t**: [[A-t-il ?]], [[Parle-t-elle ?]] The t has no meaning; it is just there for the sound. It is always written with two hyphens: **-t-**.\n\nWhen the verb already ends in *t* or *d*, that letter is pronounced and does the same job: [[Est-il ?]] (*è-til*), [[Prend-il ?]] (*pran-til*)." },
+        { "type": "deepdive", "kind": "canada", "title": "Questions in Québec",
+          "body": "In everyday Québec speech you will often hear a little [[-tu]] after the verb in yes/no questions: [[Tu travailles-tu ici ?]], [[C'est-tu loin ?]] (Is it far?), [[Tu veux-tu un café ?]] Here [[-tu]] does not mean *you*; it is just a question marker, like [[est-ce que]].\n\nIt is very informal: learn to **recognize** it, but don't write it in a courriel or use it in an interview.\n\nAlso, in many Québec workplaces, colleagues switch to [[tu]] very quickly, as Olivier does with Sofia. With a manager or a client, start with [[vous]] and follow their lead." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Mixing two forms:** [[Est-ce que travaillez-vous ici ?]] ✗ Choose one: [[Est-ce que vous travaillez ici ?]] or [[Travaillez-vous ici ?]]\n- **Est-ce que for “what”:** [[Est-ce que tu fais ?]] ✗ means nothing. Say [[Qu'est-ce que tu fais ?]]\n- **Forgetting the -t-:** [[Travaille-il ?]] ✗ → [[Travaille-t-il ?]]\n- **Forgetting élision:** [[Est-ce que il…]] ✗ → [[Est-ce qu'il…]]; [[Qu'est-ce que elle…]] ✗ → [[Qu'est-ce qu'elle…]]" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Make your voice rise at the end of yes/no questions.",
+          "lines": [
+            { "fr": "Tu es nouvelle ?", "en": "Are you new? (to a woman)", "tip": "Same words as a statement; only the rising voice makes it a question." },
+            { "fr": "Est-ce que vous travaillez ici ?", "en": "Do you work here?", "tip": "est-ce que sounds like ess-kuh." },
+            { "fr": "Qu'est-ce que c'est ?", "en": "What is it?", "tip": "kess-kuh-say: three quick syllables." },
+            { "fr": "Parlez-vous anglais ?", "en": "Do you speak English? (formal)", "tip": "Link the words: vou-z‿anglais." },
+            { "fr": "Travaille-t-il ici ?", "en": "Does he work here?", "tip": "tra-vaille-til: the -t- joins the two words." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Qu'est-ce que tu manges ?", "en": "What are you eating?", "prompt": "What is the speaker asking?", "options": ["What are you eating?", "Are you eating?", "When are you eating?"], "answer": 0, "explain": "[[Qu'est-ce que]] = what. *Are you eating?* would be [[Est-ce que tu manges ?]]" },
+        { "id": "h2", "type": "listen-mcq", "fr": "Est-ce qu'elle travaille ici ?", "en": "Does she work here?", "prompt": "What is the speaker asking?", "options": ["Does she work here?", "What does she do here?", "Do you work here?"], "answer": 0, "explain": "[[Est-ce qu'elle]] = a yes/no question about *her*." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Prend-il le bus ?", "en": "Does he take the bus?", "prompt": "Who is the question about?", "options": ["A man", "A woman", "You"], "answer": 0, "explain": "[[Prend-il]]: inversion with [[il]], *he*. The d is said like a t: *pran-til*." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. When several forms are correct, any of them counts.",
+      "blocks": [
+        { "id": "r1", "type": "translate", "prompt": "Do you work here? (to a colleague you say tu to)", "accept": ["Tu travailles ici ?", "Est-ce que tu travailles ici ?", "Travailles-tu ici ?"], "explain": "Intonation, est-ce que or inversion: all three are correct." },
+        { "id": "r2", "type": "translate", "prompt": "Do you speak English? (formal)", "accept": ["Parlez-vous anglais ?", "Est-ce que vous parlez anglais ?", "Vous parlez anglais ?"], "explain": "Parlez-vous anglais ? is the most formal; est-ce que and intonation are also correct." },
+        { "id": "r3", "type": "cloze", "text": "___ tu as une réunion ce matin ?", "answers": [["Est-ce que"]], "choices": ["Est-ce que", "Qu'est-ce que", "Est-ce qu'"], "en": "Do you have a meeting this morning?", "explain": "A yes/no question → est-ce que. No élision before tu." },
+        { "id": "r4", "type": "cloze", "text": "___ vous mangez à midi ?", "answers": [["Qu'est-ce que"]], "choices": ["Qu'est-ce que", "Est-ce que", "Qu'est-ce qu'"], "en": "What do you eat at noon?", "explain": "The English asks *what*, so qu'est-ce que." },
+        { "id": "r5", "type": "cloze", "text": "Travaille-___-elle ici ?", "answers": [["t"]], "choices": ["t", "s", "z"], "en": "Does she work here?", "explain": "travaille ends in a vowel; add -t- before elle." },
+        { "id": "r6", "type": "mcq", "prompt": "Which question is correct?", "options": ["Est-ce qu'il prend le métro ?", "Est-ce que il prend le métro ?", "Est-ce que prend-il le métro ?", "Qu'est-ce qu'il prend le métro ?"], "optionsFr": true, "answer": 0,
+          "explain": "est-ce que + normal word order, with élision before il.",
+          "optionFeedback": [null, "Before a vowel, que becomes qu': est-ce qu'il.", "Don't mix est-ce que and inversion.", "Qu'est-ce que means *what*; this is a yes/no question."] },
+        { "id": "r7", "type": "mcq", "prompt": "You are filling in an official form. Which question would you expect to read?", "options": ["Êtes-vous disponible le samedi ?", "Tu es disponible le samedi ?", "Es-tu disponible le samedi ?"], "optionsFr": true, "answer": 0,
+          "explain": "Forms and official documents use vous and inversion.",
+          "optionFeedback": [null, "Tu + intonation is informal.", "This is inversion, but with tu: an official form addresses you with vous."] },
+        { "id": "r8", "type": "dictation", "fr": "Est-ce que vous avez une minute ?", "accept": [], "explain": "[[Est-ce que]] has one hyphen, between est and ce; que is a separate word." },
+        { "id": "r9", "type": "reorder", "prompt": "Is there a meeting this morning?", "accept": ["Est-ce qu'il y a une réunion ce matin ?"], "extra": ["que"], "explain": "est-ce que + il y a → est-ce qu'il y a." },
+        { "id": "r10", "type": "translate", "prompt": "Is she a nurse?", "accept": ["Est-ce qu'elle est infirmière ?", "Elle est infirmière ?", "Est-elle infirmière ?", "C'est une infirmière ?", "Est-ce que c'est une infirmière ?", "Est-ce une infirmière ?"], "explain": "Any of the three forms works. No article after elle est for a job; with c'est, add une." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "It's your first day at work. Ask a new colleague four questions: one with just intonation, one with est-ce que, one with qu'est-ce que, and one formal question with inversion for the manager.", "seconds": 40,
+          "checklist": ["An intonation question (rising voice)", "A question with est-ce que", "A question with qu'est-ce que", "A formal inversion question (…-vous ?)"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour ! Tu travailles ici ? Est-ce que tu es développeur ? Qu'est-ce que tu fais aujourd'hui ? … Excusez-moi, madame, avez-vous une minute ?", "en": "Hello! Do you work here? Are you a developer? What are you doing today? … Excuse me, ma'am, do you have a minute?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short welcome questionnaire (4 or 5 questions) for new students in a French class. It's formal, so use vous with inversion or est-ce que. Include at least one qu'est-ce que question.", "wordRange": [12, 40],
+          "checklist": ["Use vous in every question", "At least two inversion questions", "At least one est-ce que question", "One question with qu'est-ce que or que"],
+          "models": [ { "label": "Model answer", "fr": "Parlez-vous anglais ? Est-ce que vous travaillez ? Qu'est-ce que vous faites dans la vie ? Avez-vous des enfants ? Êtes-vous disponible le samedi matin ?", "en": "Do you speak English? Do you work? What do you do for a living? Do you have children? Are you available on Saturday mornings?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Ask yes/no questions three ways: [[Tu travailles ici ?]] (informal), [[Est-ce que tu travailles ici ?]] (neutral), [[Travailles-tu ici ?]] (formal)\n- Add **-t-** in inversion when needed: [[Travaille-t-il ?]], [[A-t-elle… ?]]\n- Tell [[est-ce que]] (yes/no) from [[qu'est-ce que]] (what), and ask [[Qu'est-ce que c'est ?]]\n- Recognize the informal Québec question marker [[-tu]]: [[C'est-tu loin ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced the regional T'es-tu distractor in r7 with Es-tu…; fixed the est-ce que hyphen explanation in r8; r10 now also accepts c'est une infirmière questions; small naturalness tweak in the dialogue." }
+}

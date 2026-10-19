@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-02-04",
+  "level": "b1",
+  "unit": "b1-02",
+  "title": "Reported speech",
+  "goal": "Report what someone says or said, and what they ask or asked, with dire que, demander si and the basic tense changes.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-discours-present", "kind": "grammar", "fr": "il dit que… / il demande si…", "en": "reported speech with a present reporting verb (no tense change)",
+      "drills": [
+        { "type": "cloze", "text": "« Je suis malade. » → Elle dit ___ elle est malade.", "answers": [["qu'"]], "en": "She says she's sick.", "explain": "[[que]] → [[qu']] before a vowel, and it can't be left out in French." },
+        { "type": "cloze", "text": "« Tu es libre ? » → Il me demande ___ je suis libre.", "answers": [["si"]], "en": "He's asking me if I'm free.", "explain": "A yes/no question is reported with [[si]]." },
+        { "type": "cloze", "text": "« Il est parti ? » → Elle demande ___ est parti.", "answers": [["s'il"]], "en": "She's asking if he has left.", "explain": "[[si]] + [[il]] → [[s'il]]. (But [[si elle]] doesn't change.)" }
+      ] },
+    { "id": "g-discours-passe", "kind": "grammar", "fr": "il a dit que + imparfait / plus-que-parfait / allait", "en": "reported speech in the past: tense changes",
+      "drills": [
+        { "type": "cloze", "text": "« Je suis fatigué. » → Il a dit qu'il ___ fatigué.", "answers": [["était"]], "en": "He said he was tired.", "explain": "Present → imparfait after a past reporting verb." },
+        { "type": "cloze", "text": "« J'ai reçu votre lettre. » → Il a dit qu'il ___ ___ notre lettre.", "answers": [["avait"], ["reçu"]], "en": "He said he had received our letter.", "explain": "Passé composé → plus-que-parfait." },
+        { "type": "cloze", "text": "« Je vais appeler. » → Elle a dit qu'elle ___ appeler.", "answers": [["allait"]], "en": "She said she was going to call.", "explain": "Futur proche [[va]] + infinitive → [[allait]] + infinitive." },
+        { "type": "translate", "prompt": "She asked me if I was free.", "accept": ["Elle m'a demandé si j'étais libre.", "Elle m'a demandé si j'étais disponible."], "explain": "[[demander si]] + imparfait, because the reporting verb is in the past." }
+      ] },
+    { "id": "g-dire-de", "kind": "grammar", "fr": "dire de / demander de + infinitif", "en": "reporting an order or a request",
+      "drills": [
+        { "type": "cloze", "text": "« Rappelez demain. » → Il m'a dit ___ rappeler le lendemain.", "answers": [["de"]], "en": "He told me to call back the next day.", "explain": "An imperative becomes [[dire de]] + infinitive." },
+        { "type": "translate", "prompt": "She asked us to wait.", "accept": ["Elle nous a demandé d'attendre.", "Elle nous a dit d'attendre."], "explain": "[[demander à quelqu'un de]] + infinitive; [[nous]] goes before the auxiliary." }
+      ] },
+    { "id": "il-a-dit-que", "kind": "phrase", "fr": "Il a dit que le plombier allait passer.", "en": "He said the plumber was going to come by.", "accept": ["Il a dit que le plombier allait venir."] },
+    { "id": "elle-m-a-demande-si", "kind": "phrase", "fr": "Elle m'a demandé si j'étais libre.", "en": "She asked me if I was free.", "accept": ["Elle m'a demandé si j'étais disponible."] },
+    { "id": "il-m-a-dit-de", "kind": "phrase", "fr": "Il m'a dit de rappeler.", "en": "He told me to call back.", "accept": ["Il m'a demandé de rappeler."] },
+    { "id": "vouloir-savoir", "kind": "phrase", "fr": "Il voulait savoir quand…", "en": "He wanted to know when…" },
+    { "id": "lendemain", "kind": "vocab", "fr": "lendemain", "article": "le", "gender": "m", "en": "the next day, the day after", "pos": "noun",
+      "example": { "fr": "Il a dit qu'il allait passer le lendemain.", "en": "He said he was going to come by the next day." }, "note": "In reported speech, demain often becomes le lendemain." },
+    { "id": "veille", "kind": "vocab", "fr": "veille", "article": "la", "gender": "f", "en": "the day before, the previous day", "pos": "noun",
+      "example": { "fr": "Elle a dit qu'elle était arrivée la veille.", "en": "She said she had arrived the day before." } },
+    { "id": "plombier", "kind": "vocab", "fr": "plombier", "article": "le", "gender": "m", "en": "plumber", "pos": "noun", "accept": ["un plombier", "la plombière", "une plombière"] },
+    { "id": "annoncer", "kind": "vocab", "fr": "annoncer", "en": "to announce", "pos": "verb",
+      "example": { "fr": "La directrice a annoncé que le bureau allait fermer.", "en": "The director announced that the office was going to close." } },
+    { "id": "evier", "kind": "vocab", "fr": "évier", "article": "l'", "gender": "m", "en": "kitchen sink", "pos": "noun", "accept": ["un évier"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Passing the message on",
+      "intro": "First, Lucie reports the landlord's words **live**, while he is talking. That evening, Amira reports them **afterwards**. Listen for what changes.",
+      "blocks": [
+        { "type": "dialogue", "title": "On the phone with the landlord",
+          "context": "Lucie and Amira share an apartment in Sherbrooke. The kitchen sink is leaking. Lucie is on the phone with the landlord, Mr. Gagnon; Amira wants to know what he's saying.",
+          "lines": [
+            { "speaker": "Amira", "fr": "C'est qui ? C'est pour la fuite ?", "en": "Who is it? Is it about the leak?" },
+            { "speaker": "Lucie", "fr": "Oui, c'est monsieur Gagnon. Il dit que le plombier va passer demain matin.", "en": "Yes, it's Mr. Gagnon. He says the plumber is going to come by tomorrow morning." },
+            { "speaker": "Amira", "fr": "Demain ? À quelle heure ?", "en": "Tomorrow? At what time?" },
+            { "speaker": "Lucie", "fr": "Il dit qu'il ne sait pas exactement. Il demande si quelqu'un peut être là entre huit heures et midi.", "en": "He says he doesn't know exactly. He's asking if someone can be here between eight and noon." },
+            { "speaker": "Amira", "fr": "Moi, je travaille. Et toi ?", "en": "I'm working. What about you?" },
+            { "speaker": "Lucie", "fr": "Moi, je peux. Attends… il demande aussi si l'eau coule encore sous l'évier.", "en": "I can. Wait… he's also asking if water is still running under the sink." },
+            { "speaker": "Amira", "fr": "Un peu. Dis-lui qu'on a mis une serviette et un seau.", "en": "A little. Tell him we've put down a towel and a bucket." },
+            { "speaker": "Lucie", "fr": "C'est bon, il a compris. Il nous dit de ne pas utiliser le lave-vaisselle avant la réparation.", "en": "OK, he's got it. He's telling us not to use the dishwasher before the repair." }
+          ] },
+        { "type": "dialogue", "title": "That evening",
+          "context": "Their friend Raj drops by. Amira tells him about the call.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Alors, et cette fuite ?", "en": "So, what about that leak?" },
+            { "speaker": "Amira", "fr": "Le propriétaire a appelé cet après-midi. Il a dit que le plombier allait passer demain matin.", "en": "The landlord called this afternoon. He said the plumber was going to come by tomorrow morning." },
+            { "speaker": "Raj", "fr": "Enfin ! Il a dit à quelle heure ?", "en": "Finally! Did he say what time?" },
+            { "speaker": "Amira", "fr": "Non. Il a dit qu'il ne savait pas, et il a demandé si quelqu'un pouvait être là. Lucie a répondu qu'elle était libre.", "en": "No. He said he didn't know, and he asked if someone could be here. Lucie answered that she was free." },
+            { "speaker": "Raj", "fr": "Et le loyer ? Vous lui aviez demandé une réduction, non ?", "en": "And the rent? You had asked him for a reduction, hadn't you?" },
+            { "speaker": "Amira", "fr": "Oui ! Il a dit qu'il avait bien reçu notre lettre et qu'il allait y réfléchir.", "en": "Yes! He said he had received our letter and that he was going to think about it." },
+            { "speaker": "Raj", "fr": "Bon… Ce n'est pas un oui, mais ce n'est pas un non !", "en": "Well… It's not a yes, but it's not a no!" }
+          ] },
+        { "type": "text", "title": "Camille's meeting summary",
+          "context": "Camille writes to her colleague Nguyen, who missed the team meeting.",
+          "fr": "Salut Nguyen,\nTu n'étais pas à la réunion ce matin, alors voici un petit résumé.\nD'abord, la directrice a annoncé que le bureau allait fermer pendant deux semaines en août. Elle a expliqué qu'il y avait des travaux dans la cuisine et dans les toilettes. Ensuite, Raj a demandé si nous pouvions travailler à la maison pendant cette période. Elle a répondu que c'était possible, mais qu'il fallait réserver un ordinateur portable avant le 15 juillet.\nMei a dit qu'elle avait déjà parlé au service informatique et qu'il restait seulement dix ordinateurs. Alors, la directrice nous a demandé de faire vite !\nFinalement, Karim a voulu savoir quand les travaux allaient commencer exactement. La directrice a dit qu'elle ne savait pas encore et qu'elle allait nous envoyer un courriel.\nÀ ton retour, n'oublie pas de réserver ton ordinateur !\nBonne journée,\nCamille",
+          "en": "Hi Nguyen, You weren't at the meeting this morning, so here's a short summary. First, the director announced that the office was going to close for two weeks in August. She explained that there was renovation work in the kitchen and in the washrooms. Then Raj asked if we could work from home during that time. She answered that it was possible, but that we had to book a laptop before July 15. Mei said she had already spoken to the IT department and that there were only ten computers left. So the director asked us to be quick! Finally, Karim wanted to know when exactly the work was going to start. The director said she didn't know yet and that she was going to send us an email. When you're back, don't forget to book your computer! Have a good day, Camille" },
+        { "id": "d1", "type": "mcq", "prompt": "Lucie says “Il dit que le plombier va passer.” Amira says “Il a dit que le plombier allait passer.” Why the difference?", "options": ["Amira is reporting the words later, with a past reporting verb.", "The plumber changed his plans.", "Amira is talking to the landlord.", "Lucie made a mistake."], "answer": 0,
+          "explain": "After [[il dit que]] the tense stays the same; after [[il a dit que]], [[va]] shifts to [[allait]]." },
+        { "id": "d2", "type": "mcq", "prompt": "What did Mei say in the meeting?", "options": ["She had already spoken to IT, and only ten computers were left.", "She was going to book ten computers.", "The office was going to close in July.", "She didn't know when the work would start."], "answer": 0,
+          "explain": "[[Mei a dit qu'elle avait déjà parlé au service informatique et qu'il restait seulement dix ordinateurs.]]" }
+      ] },
+    { "type": "understand", "title": "How to report words",
+      "blocks": [
+        { "type": "explain", "title": "Three things can change",
+          "body": "When you repeat someone's words in your own sentence (*indirect* or *reported speech*), check three things:\n\n1. **People:** [[je]] becomes [[il]] / [[elle]], [[mon]] becomes [[son]], [[vous]] may become [[nous]]… « Je suis fatigué » → [[Il dit qu'il est fatigué.]]\n2. **Tense:** only if the reporting verb is in the **past** ([[il a dit]], [[elle a demandé]]).\n3. **Time words:** only if you report later, from another day: [[demain]] → [[le lendemain]], [[hier]] → [[la veille]], [[aujourd'hui]] → [[ce jour-là]].\n\nUnlike English, French **never drops [[que]]**: *He said he was tired* = [[Il a dit **qu'**il était fatigué]]." },
+        { "type": "table", "title": "Tense changes after a past reporting verb",
+          "head": ["Direct words", "Il a dit que…", "English"],
+          "rows": [
+            ["« Je suis fatigué. » (présent)", "il était fatigué (imparfait)", "he was tired"],
+            ["« J'ai reçu la lettre. » (passé composé)", "il avait reçu la lettre (plus-que-parfait)", "he had received the letter"],
+            ["« Je vais réfléchir. » (futur proche)", "il allait réfléchir (aller à l'imparfait)", "he was going to think"],
+            ["« Il faisait froid. » (imparfait)", "il faisait froid (no change)", "it was cold"],
+            ["« J'avais oublié. » (plus-que-parfait)", "il avait oublié (no change)", "he had forgotten"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "The imparfait and plus-que-parfait never change. After [[il dit que]] (present), **nothing** changes: [[Il dit qu'il va réfléchir.]]" },
+        { "type": "table", "title": "Reporting questions",
+          "head": ["Direct question", "Reported", "Rule"],
+          "rows": [
+            ["« Tu es libre ? »", "Il m'a demandé si j'étais libre.", "yes/no question → si"],
+            ["« Il est parti ? »", "Elle a demandé s'il était parti.", "si + il → s'il (si elle stays)"],
+            ["« Où habitez-vous ? »", "Il a demandé où nous habitions.", "question word stays, no inversion"],
+            ["« Qu'est-ce que tu veux ? »", "Elle m'a demandé ce que je voulais.", "qu'est-ce que → ce que"],
+            ["« Qu'est-ce qui se passe ? »", "Il a demandé ce qui se passait.", "qu'est-ce qui → ce qui"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "A reported question is a normal sentence: no question mark, no inversion, no est-ce que. [[Il a demandé où nous habitions.]], not *où habitions-nous*." },
+        { "type": "pattern", "title": "Reporting orders and requests",
+          "pattern": "dire / demander à quelqu'un + de + infinitif",
+          "note": "The imperative becomes an infinitive. For a negative, [[ne pas]] goes together before the infinitive: [[Il nous a dit de ne pas utiliser le lave-vaisselle.]]",
+          "examples": [
+            { "fr": "« Rappelez demain. » → Il m'a dit de rappeler le lendemain.", "en": "He told me to call back the next day." },
+            { "fr": "« Faites vite ! » → La directrice nous a demandé de faire vite.", "en": "The director asked us to be quick." }
+          ] },
+        { "type": "vocab", "title": "Useful words", "itemIds": ["lendemain", "veille", "annoncer", "plombier", "evier"] },
+        { "type": "deepdive", "kind": "examples", "title": "Reporting verbs beyond dire",
+          "body": "Vary your verbs to sound natural, especially in writing:\n\n- [[répondre que]] (to answer that), [[expliquer que]] (to explain that), [[annoncer que]] (to announce that), [[raconter que]] (to tell that), [[ajouter que]] (to add that), [[promettre de]] + infinitive (to promise to)\n- [[demander si / où / quand…]] (to ask if / where / when), [[vouloir savoir si…]] (to want to know if)\n\n**Coming later:** with the *futur simple*, French uses the **conditionnel** in reported speech: « Je viendrai » → [[Il a dit qu'il viendrait]] (*he said he would come*). You will learn this form in B1 unit 6; for now, use [[allait]] + infinitive.",
+          "examples": [
+            { "fr": "Elle a ajouté qu'elle allait nous envoyer un courriel.", "en": "She added that she was going to send us an email." },
+            { "fr": "Il a promis de passer avant midi.", "en": "He promised to come by before noon." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Dropping que:** [[Il a dit il était fatigué]] → [[Il a dit qu'il était fatigué]].\n- **Keeping the question form:** [[Il a demandé est-ce que j'étais libre]] → [[Il a demandé si j'étais libre]].\n- **Si il:** [[si il]] → [[s'il]] (but [[si elle]], [[si on]] are fine).\n- **Qu'est-ce que in a reported question:** [[Il a demandé qu'est-ce que je voulais]] → [[Il a demandé ce que je voulais]].\n- **No tense shift after a past verb:** [[Elle a dit qu'elle est malade]] is common in speech when it's still true, but in writing and in exams, shift: [[Elle a dit qu'elle était malade]].\n- **Forgetting to change the person:** « Je vous appelle » → [[Il a dit qu'il nous appelait]], not *qu'il vous appelait* (unless you're still talking to the same people)." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "When people tell a story in casual speech, in Québec as in France, you'll hear [[il m'a dit que…]] again and again, and reported questions that keep the spoken form: [[Il m'a demandé c'est quoi mon numéro]] (informal, recognition only; standard: [[Il m'a demandé quel était mon numéro]]). Understand it, but always use the standard form in writing and in exams. Also note Québec everyday words in this lesson: [[les toilettes]] or [[la salle de bain]] for washrooms, and [[un courriel]] for an email." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "[[qu'il]] and [[qu'elle]] sound like *kil* and *kel*. [[s'il]] sounds like *sil*.",
+          "lines": [
+            { "fr": "Il dit que le plombier va passer.", "en": "He says the plumber is going to come by." },
+            { "fr": "Il a dit que le plombier allait passer.", "en": "He said the plumber was going to come by." },
+            { "fr": "Elle m'a demandé si j'étais libre.", "en": "She asked me if I was free." },
+            { "fr": "Il voulait savoir s'il pouvait venir.", "en": "He wanted to know if he could come." },
+            { "fr": "Elle nous a dit de ne pas attendre.", "en": "She told us not to wait." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Karim a dit qu'il avait trouvé un appartement.", "en": "Karim said he had found an apartment.", "prompt": "What did Karim actually say?", "options": ["« J'ai trouvé un appartement. »", "« Je trouve un appartement. »", "« Je vais trouver un appartement. »"], "answer": 0,
+          "explain": "[[avait trouvé]] (plus-que-parfait) in reported speech comes from a passé composé: [[j'ai trouvé]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "La médecin m'a demandé si je dormais bien.", "en": "The doctor asked me if I was sleeping well.", "prompt": "What did the doctor ask?", "options": ["« Vous dormez bien ? »", "« Vous avez bien dormi ? »", "« Vous allez dormir ? »"], "answer": 0,
+          "explain": "[[si je dormais]] (imparfait) comes from a present: [[Vous dormez bien ?]]" }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Check the person, the tense and the linking word each time.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "« Je suis en retard. » → Mei dit ___ elle est en retard.", "answers": [["qu'"]], "choices": ["qu'", "que", "si", "ce que"], "en": "Mei says she's late.",
+          "explain": "[[que]] → [[qu']] before [[elle]]. No tense change after a present verb." },
+        { "id": "r2", "type": "cloze", "text": "« Je travaille à Ottawa. » → Il a dit qu'il ___ à Ottawa.", "answers": [["travaillait"]], "en": "He said he worked in Ottawa.",
+          "explain": "Present → imparfait after [[il a dit que]]." },
+        { "id": "r3", "type": "cloze", "text": "« Nous avons fini. » → Ils ont dit qu'ils ___ ___.", "answers": [["avaient"], ["fini"]], "en": "They said they had finished.",
+          "explain": "Passé composé → plus-que-parfait: [[ils avaient fini]]." },
+        { "id": "r4", "type": "mcq", "prompt": "« Qu'est-ce que vous cherchez ? » → Le vendeur m'a demandé…", "options": ["ce que je cherchais.", "qu'est-ce que je cherchais.", "si je cherchais.", "que je cherchais."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "In a reported question, qu'est-ce que becomes ce que.", "si is for yes/no questions.", "que alone doesn't mean “what” here."] },
+        { "id": "r5", "type": "translate", "prompt": "He asked if the store was open.", "accept": ["Il a demandé si le magasin était ouvert.", "Il a demandé si la boutique était ouverte.", "Il voulait savoir si le magasin était ouvert.", "Il voulait savoir si la boutique était ouverte."],
+          "explain": "Yes/no question → [[si]]; present → imparfait: [[était ouvert]]." },
+        { "id": "r6", "type": "reorder", "prompt": "She told us not to wait.", "accept": ["Elle nous a dit de ne pas attendre"], "extra": ["que", "à"],
+          "explain": "An order → [[dire de]] + infinitive; [[ne pas]] goes together before the infinitive." },
+        { "id": "r7", "type": "match", "prompt": "Match Karim's words with the reported version.", "pairs": [["« Je pars. »", "Il a dit qu'il partait."], ["« Je suis parti. »", "Il a dit qu'il était parti."], ["« Je vais partir. »", "Il a dit qu'il allait partir."], ["« Pars ! »", "Il m'a dit de partir."]] },
+        { "id": "r8", "type": "cloze", "text": "« Il est arrivé ? » → Elle a demandé ___ était arrivé.", "answers": [["s'il"]], "en": "She asked if he had arrived.",
+          "explain": "[[si]] + [[il]] → [[s'il]], and passé composé → plus-que-parfait." },
+        { "id": "r9", "type": "dictation", "fr": "Il a dit qu'il allait y réfléchir.", "accept": [], "explain": "[[qu'il]] with an apostrophe; [[y]] = about it, before the infinitive (from A2)." },
+        { "id": "r10", "type": "translate", "prompt": "The director announced that the office was going to close in August.", "accept": ["La directrice a annoncé que le bureau allait fermer en août.", "Le directeur a annoncé que le bureau allait fermer en août.", "La directrice a annoncé que le bureau allait fermer au mois d'août.", "Le directeur a annoncé que le bureau allait fermer au mois d'août."],
+          "hint": "was going to = allait + infinitive.", "explain": "Futur proche reported in the past: [[allait fermer]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Report a recent conversation (with a landlord, a doctor, a boss, a family member) to a friend: what the person said, what they asked you, and what they told you to do.", "seconds": 75,
+          "checklist": ["Who and when", "il / elle a dit que + tense shift (twice)", "il / elle m'a demandé si… or où / quand…", "il / elle m'a dit de + infinitive", "What you think about it"],
+          "models": [ { "label": "Model answer", "fr": "Hier, j'ai vu ma médecin pour mon mal de dos. D'abord, elle m'a demandé depuis quand j'avais mal. Je lui ai répondu que ça avait commencé après mon déménagement. Elle a dit que ce n'était pas grave, mais que je devais faire attention. Elle m'a dit de faire des exercices tous les jours et de ne pas porter de choses lourdes. Elle a ajouté qu'elle allait m'envoyer chez un physiothérapeute.", "en": "Yesterday I saw my doctor about my back pain. First, she asked me how long it had been hurting. I answered that it had started after my move. She said it wasn't serious, but that I had to be careful. She told me to do exercises every day and not to carry heavy things. She added that she was going to refer me to a physiotherapist." } ] },
+        { "id": "w1", "type": "write", "prompt": "Like Camille, write an email to a colleague who missed a meeting. Report what three people said or asked.", "promptFr": "Résumez une réunion pour un ou une collègue absent.",
+          "wordRange": [80, 140],
+          "checklist": ["Greeting and reason for writing", "At least three reporting verbs (dire, expliquer, annoncer, demander, répondre…)", "Tense shifts: imparfait, plus-que-parfait, allait + infinitive", "One reported question with si or a question word", "One request with demander de", "Closing"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour Olivier,\nVoici un résumé de la réunion d'hier. Le directeur a annoncé que nous allions avoir deux nouveaux collègues en septembre. Il a expliqué que l'entreprise avait gagné un gros contrat à Toronto. Ensuite, Sofia a demandé si les nouveaux employés parlaient anglais. Le directeur a répondu que oui, mais qu'ils voulaient aussi améliorer leur français. Pour finir, il nous a demandé de préparer un petit guide pour les accueillir. Je t'envoie le document cet après-midi.\nÀ bientôt,\nAlex", "en": "Hello Olivier, Here's a summary of yesterday's meeting. The director announced that we were going to have two new colleagues in September. He explained that the company had won a big contract in Toronto. Then Sofia asked whether the new employees spoke English. The director answered yes, but that they also wanted to improve their French. Finally, he asked us to prepare a short guide to welcome them. I'll send you the document this afternoon. See you soon, Alex" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Report words with [[il dit que]] (no change) and [[il a dit que]] + imparfait / plus-que-parfait / [[allait]] + infinitive\n- Report questions with [[si]], [[s'il]], question words and [[ce que]]\n- Report orders with [[dire de]] / [[demander de]] + infinitive, and adapt people and time words ([[le lendemain]], [[la veille]])",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Tense shifts (présent → imparfait, PC → PQP, futur proche → allait, futur → conditionnel as a preview) checked. Labelled the informal Québec reported question as recognition-only; 'travailler de la maison' → 'à la maison'; added one accept."}
+}

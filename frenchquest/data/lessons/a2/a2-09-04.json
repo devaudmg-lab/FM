@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-09-04",
+  "level": "a2",
+  "unit": "a2-09",
+  "title": "The pronouns y and en",
+  "goal": "Recognize and use y to replace a place and en to replace a quantity, in everyday answers like j'y vais and j'en ai deux.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-y", "kind": "grammar", "fr": "y", "en": "the pronoun y: there (replaces a place)",
+      "drills": [
+        { "type": "cloze", "text": "Tu vas à Québec samedi ? — Oui, j'___ vais avec Lucie.", "answers": [["y"]], "en": "Are you going to Québec City on Saturday? — Yes, I'm going (there) with Lucie.", "explain": "[[à Québec]] is a place → [[y]]. [[je]] + [[y]] → [[j'y]]." },
+        { "type": "cloze", "text": "Tu es déjà allé à la cabane à sucre ? — Non, je n'___ suis jamais allé.", "answers": [["y"]], "en": "Have you ever been to a sugar shack? — No, I've never been (there).", "explain": "Passé composé: [[y]] goes before [[suis]]: [[je n'y suis jamais allé]]." },
+        { "type": "translate", "prompt": "I'm going to go there tomorrow.", "accept": ["Je vais y aller demain.", "Demain, je vais y aller."], "explain": "With aller + infinitive, [[y]] goes before the infinitive: [[je vais y aller]]." }
+      ] },
+    { "id": "g-en", "kind": "grammar", "fr": "en", "en": "the pronoun en: some, of it, of them (replaces a quantity)",
+      "drills": [
+        { "type": "cloze", "text": "Tu as des enfants ? — Oui, j'___ ai deux.", "answers": [["en"]], "en": "Do you have children? — Yes, I have two.", "explain": "With a number, keep the number and add [[en]]: [[j'en ai deux]]." },
+        { "type": "cloze", "text": "Tu veux du sirop d'érable ? — Non merci, je n'___ veux pas.", "answers": [["en"]], "en": "Do you want some maple syrup? — No thanks, I don't want any.", "explain": "[[du sirop]] → [[en]]. Negative: [[je n'en veux pas]]." },
+        { "type": "mcq", "prompt": "Il y a combien de places ? — …", "options": ["Il y en a dix.", "Il y a dix.", "Il en y a dix."], "optionsFr": true, "answer": 0, "explain": "[[Il y a]] + [[en]] → [[il y en a]]: y first, then en." }
+      ] },
+    { "id": "on-y-va", "kind": "phrase", "fr": "On y va !", "en": "Let's go!", "note": "Very common. Also: Vas-y ! / Allez-y ! = Go ahead!" },
+    { "id": "j-y-vais", "kind": "phrase", "fr": "J'y vais chaque printemps.", "en": "I go there every spring.", "accept": ["Chaque printemps, j'y vais."] },
+    { "id": "jamais-alle", "kind": "phrase", "fr": "Je n'y suis jamais allé.", "en": "I've never been there.", "accept": ["Je n'y suis jamais allée.", "J'y suis jamais allé.", "J'y suis jamais allée."] },
+    { "id": "j-en-ai-deux", "kind": "phrase", "fr": "J'en ai deux.", "en": "I have two (of them)." },
+    { "id": "il-y-en-a", "kind": "phrase", "fr": "Il y en a beaucoup.", "en": "There are a lot (of them).", "accept": ["Il y en a plein."] },
+    { "id": "j-en-prends", "kind": "phrase", "fr": "J'en prends un peu.", "en": "I'll have a little (of it)." },
+    { "id": "je-n-en-ai-pas", "kind": "phrase", "fr": "Je n'en ai pas.", "en": "I don't have any.", "accept": ["J'en ai pas."] },
+    { "id": "cabane-a-sucre", "kind": "vocab", "fr": "cabane à sucre", "article": "la", "gender": "f", "en": "sugar shack", "pos": "noun",
+      "example": { "fr": "Au printemps, on va à la cabane à sucre.", "en": "In the spring, we go to the sugar shack." } },
+    { "id": "sirop-erable", "kind": "vocab", "fr": "sirop d'érable", "article": "le", "gender": "m", "en": "maple syrup", "pos": "noun",
+      "example": { "fr": "Tu veux du sirop d'érable sur tes crêpes ?", "en": "Do you want maple syrup on your pancakes?" } },
+    { "id": "tire", "kind": "vocab", "fr": "tire sur la neige", "article": "la", "gender": "f", "en": "maple taffy on snow", "pos": "noun", "accept": ["la tire d'érable", "la tire"],
+      "example": { "fr": "Les enfants adorent la tire sur la neige.", "en": "Kids love maple taffy on snow." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A trip to the sugar shack",
+      "blocks": [
+        { "type": "dialogue", "title": "Making plans for the sugar season",
+          "context": "Lucie, who grew up in Québec, invites Mei, who arrived from Shanghai last year.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Mei, tu es déjà allée à la cabane à sucre ?", "en": "Mei, have you ever been to a sugar shack?" },
+            { "speaker": "Mei", "fr": "Non, je n'y suis jamais allée. Et toi ?", "en": "No, I've never been (there). And you?" },
+            { "speaker": "Lucie", "fr": "Moi, j'y vais chaque printemps avec ma famille ! Cette année, on y va le 5 avril. Ça te dit de venir ?", "en": "I go every spring with my family! This year, we're going on April 5. Do you feel like coming?" },
+            { "speaker": "Mei", "fr": "Avec plaisir ! Qu'est-ce qu'on mange là-bas ?", "en": "I'd love to! What do people eat there?" },
+            { "speaker": "Lucie", "fr": "Des œufs, du jambon, des fèves au lard, des crêpes… et de la tire sur la neige, bien sûr !", "en": "Eggs, ham, baked beans, pancakes… and maple taffy on snow, of course!" },
+            { "speaker": "Mei", "fr": "De la tire ? Qu'est-ce que c'est ?", "en": "Taffy? What's that?" },
+            { "speaker": "Lucie", "fr": "C'est du sirop d'érable très chaud qu'on met sur la neige. Tu vas en manger beaucoup, c'est sûr !", "en": "It's very hot maple syrup that you pour on snow. You're going to eat a lot of it, for sure!" },
+            { "speaker": "Mei", "fr": "Il faut réserver ?", "en": "Do we have to book?" },
+            { "speaker": "Lucie", "fr": "Oui. J'ai téléphoné hier : il restait des places, alors j'en ai réservé huit.", "en": "Yes. I called yesterday: there were still some spots, so I booked eight." },
+            { "speaker": "Mei", "fr": "Super. Et c'est loin ? On y va comment ?", "en": "Great. And is it far? How do we get there?" },
+            { "speaker": "Lucie", "fr": "C'est à une heure de Montréal. Mon frère a une voiture et mon père en a une aussi. On part à 9 h. Alors, on y va ?", "en": "It's an hour from Montréal. My brother has a car and my father has one too. We leave at 9 a.m. So, shall we go?" },
+            { "speaker": "Mei", "fr": "On y va !", "en": "Let's go!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "In “j'y vais chaque printemps”, what does y replace?", "options": ["à la cabane à sucre", "avec ma famille", "le printemps"], "optionsFr": true, "answer": 0,
+          "explain": "[[y]] replaces a **place**: *I go (to the sugar shack) every spring*." },
+        { "id": "d2", "type": "mcq", "prompt": "In “j'en ai réservé huit”, what does en replace?", "options": ["des places", "des crêpes", "la cabane"], "optionsFr": true, "answer": 0,
+          "explain": "[[en]] replaces a **quantity**: *I booked eight (spots)*. The number stays." }
+      ] },
+    { "type": "understand", "title": "Y for places, en for quantities",
+      "blocks": [
+        { "type": "explain", "title": "Two tiny, very frequent words",
+          "body": "This lesson is an **introduction**. You'll hear [[y]] and [[en]] in almost every conversation, so the first goal is to **recognize** them. Then use them in a few very common patterns.\n\n- [[y]] usually means **there**. It replaces a place introduced by [[à, au, aux, en, chez, dans, sur]]: [[Je vais à Québec.]] → [[J'y vais.]]\n- [[en]] usually means **some / any / of it / of them**. It replaces a noun with [[du, de la, de l', des, de]], or a noun after a number or a quantity: [[J'ai deux enfants.]] → [[J'en ai deux.]]\n\nYou already know one: [[il y a]] (there is) contains [[y]]!" },
+        { "type": "table", "title": "Y: replacing a place",
+          "head": ["Question", "Answer with y", "English"],
+          "rows": [
+            ["Tu vas à Québec samedi ?", "Oui, j'y vais.", "Yes, I'm going (there)."],
+            ["Tu habites au Canada depuis quand ?", "J'y habite depuis deux ans.", "I've lived here for two years."],
+            ["Karim est chez Amira ?", "Oui, il y est.", "Yes, he's there."],
+            ["Tu es déjà allé en Gaspésie ?", "Non, je n'y suis jamais allé.", "No, I've never been (there)."],
+            ["Vous allez au 5 à 7 ?", "Oui, on va y aller vers 18 h.", "Yes, we'll go around 6 p.m."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "In English you can often drop *there*. In French you can't: *Tu vas à Québec ? — Oui, je vais.* is incomplete. Say [[Oui, j'y vais]]." },
+        { "type": "table", "title": "En: replacing a quantity",
+          "head": ["Question", "Answer with en", "English"],
+          "rows": [
+            ["Tu veux du café ?", "Oui, j'en veux bien.", "Yes, I'd like some."],
+            ["Tu as des enfants ?", "Oui, j'en ai deux. / Non, je n'en ai pas.", "Yes, I have two. / No, I don't have any."],
+            ["Il y a combien de places ?", "Il y en a huit.", "There are eight."],
+            ["Tu prends beaucoup de sirop ?", "J'en prends un peu.", "I take a little."],
+            ["Il reste des crêpes ?", "Oui, il en reste trois.", "Yes, there are three left."],
+            ["Tu as acheté des œufs ?", "Oui, j'en ai acheté une douzaine.", "Yes, I bought a dozen."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "**Keep the number or quantity word at the end**: [[deux]], [[huit]], [[un peu]], [[beaucoup]], [[une douzaine]]. With *one*: [[J'en ai un]] / [[J'en ai une]] (the gender of the noun)." },
+        { "type": "table", "title": "Where do y and en go? Same place as lui and leur",
+          "head": ["Tense", "y", "en"],
+          "rows": [
+            ["Present", "J'y vais. / Je n'y vais pas.", "J'en ai. / Je n'en ai pas."],
+            ["Aller + infinitive", "Je vais y aller.", "Je vais en acheter."],
+            ["Passé composé", "J'y suis allé. / Je n'y suis pas allé.", "J'en ai mangé. / Je n'en ai pas mangé."]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "Before the conjugated verb, before the infinitive, or before the auxiliary. [[je]] and [[ne]] become [[j']] and [[n']]: [[j'y]], [[n'y]], [[j'en]], [[n'en]]." },
+        { "type": "vocab", "title": "Words and phrases", "itemIds": ["on-y-va", "j-y-vais", "jamais-alle", "j-en-ai-deux", "il-y-en-a", "j-en-prends", "je-n-en-ai-pas", "cabane-a-sucre", "sirop-erable", "tire"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Forgetting the pronoun:** *Tu vas au parc ? — Oui, je vais.* → [[Oui, j'y vais.]] *Tu as des frères ? — Oui, j'ai deux.* → [[Oui, j'en ai deux.]]\n- **Y is not for people.** For a person, use [[lui]] / [[leur]] or [[chez lui]]: [[Je pense à ma mère]] → [[Je pense à elle]], not *j'y pense*. (That last pattern is for B1; just remember: y = places and things.)\n- **Wrong place with aller + infinitive:** *J'y vais aller* → [[Je vais y aller]].\n- **Il y en a, not il en y a.** The order is always **y** then **en**: [[il y en a]].\n- **Don't confuse the pronoun en with the preposition en:** [[en voiture]], [[en avril]], [[en Ontario]] are prepositions, not the pronoun." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "Listen for the links that tell you a pronoun is there:\n\n- [[on y va]]: the *n* of *on* is linked: *on-ni-va*.\n- [[il y en a]]: *i-lyan-na*, it sounds like one word.\n- [[ils en ont]]: a *z* sound: *il-zan-non*.\n- [[j'en ai deux]]: *jan-né-deu*.\n\nIn fast, informal speech (in Québec and in France), [[il y a]] often sounds like *ya*: [[Y a pas de problème !]] Recognize it, but write [[il n'y a pas]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Le temps des sucres",
+          "body": "From about **March to April**, when nights are still freezing and days are warmer, maple sap runs. This is [[le temps des sucres]] (sugaring season). Families and groups of friends go to [[une cabane à sucre]] for a big, rich meal: [[des fèves au lard]] (baked beans; in France, *fèves* are broad beans, and beans are usually [[des haricots]]), [[du jambon]], [[des crêpes]] with syrup, and [[la tire sur la neige]]. You'll hear: [[On va aux sucres !]] = We're going to the sugar shack!" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "These short answers are said fast. Practise them as single blocks.",
+          "lines": [
+            { "fr": "On y va !", "en": "Let's go!", "tip": "Link the n: on-ni-va." },
+            { "fr": "Oui, j'y vais demain.", "en": "Yes, I'm going (there) tomorrow.", "tip": "j'y: one syllable, said like the French letter j." },
+            { "fr": "Non, je n'y suis jamais allée.", "en": "No, I've never been (there). (woman speaking)" },
+            { "fr": "J'en ai deux.", "en": "I have two.", "tip": "jan-né-deu" },
+            { "fr": "Il y en a beaucoup.", "en": "There are a lot.", "tip": "i-lyan-na: one block." },
+            { "fr": "Non merci, je n'en veux pas.", "en": "No thanks, I don't want any." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Des œufs ? Oui, j'en ai acheté une douzaine hier.", "en": "Eggs? Yes, I bought a dozen yesterday.",
+          "prompt": "How many eggs did the speaker buy?", "options": ["Twelve", "Two", "None"], "answer": 0,
+          "explain": "[[j'en ai acheté une douzaine]]: [[une douzaine]] = a dozen, twelve." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ottawa ? Non, je n'y suis jamais allé, mais je vais y aller cet été.", "en": "Ottawa? No, I've never been there, but I'm going to go this summer.",
+          "prompt": "What does the speaker say about Ottawa?", "options": ["He has never been, but he'll go this summer.", "He goes there every summer.", "He went there last summer."], "answer": 0,
+          "explain": "[[je n'y suis jamais allé]] = never been there; [[je vais y aller cet été]] = going to go this summer." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Ask yourself: is it a place (y) or a quantity (en)?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Tu vas au marché Jean-Talon ? — Oui, j'___ vais samedi.", "answers": [["y"]], "choices": ["y", "en", "le"], "en": "Are you going to the Jean-Talon market? — Yes, I'm going on Saturday.",
+          "explain": "[[au marché]] = a place → [[y]]." },
+        { "id": "r2", "type": "cloze", "text": "Tu as des frères ? — Oui, j'___ ai trois.", "answers": [["en"]], "choices": ["en", "y", "les"], "en": "Do you have brothers? — Yes, I have three.",
+          "explain": "A number → [[en]] + the number at the end." },
+        { "id": "r3", "type": "mcq", "prompt": "“Do you want some syrup?” — “Yes, I'd like a little.”", "optionsFr": true,
+          "options": ["Oui, j'en veux un peu.", "Oui, je veux un peu.", "Oui, j'y veux un peu.", "Oui, je le veux un peu."], "answer": 0,
+          "optionFeedback": [null, "With a quantity word, French needs en: j'en veux un peu.", "y replaces a place, not a quantity.", "le replaces a specific thing (the syrup), not an amount."] },
+        { "id": "r4", "type": "translate", "prompt": "I've never been there. (man speaking)", "accept": ["Je n'y suis jamais allé.", "J'y suis jamais allé."], "hint": "aller takes être in the passé composé",
+          "explain": "[[ne + y + suis + jamais + allé]]. Two vowels meet: [[n'y]]." },
+        { "id": "r5", "type": "reorder", "prompt": "There are eight (of them).", "accept": ["Il y en a huit"], "extra": ["les"],
+          "explain": "[[il y en a]] + number: always y before en." },
+        { "id": "r6", "type": "translate", "prompt": "We're going to go there on Sunday.", "accept": ["On va y aller dimanche.", "Nous allons y aller dimanche.", "Dimanche, on va y aller.", "Dimanche, nous allons y aller."], "hint": "aller + y + aller",
+          "explain": "[[y]] goes before the infinitive: [[on va y aller]]." },
+        { "id": "r7", "type": "match", "prompt": "Match each question with the best answer.", "pairs": [["Tu vas à Gatineau ?", "Oui, j'y vais demain."], ["Tu as une voiture ?", "Oui, j'en ai une."], ["Tu parles à Karim ?", "Oui, je lui parle."], ["Tu connais Lucie ?", "Oui, je la connais."], ["Il reste du café ?", "Non, il n'en reste pas."]] },
+        { "id": "r8", "type": "cloze", "text": "Des crêpes ? J'___ ___ mangé cinq ! (passé composé)", "answers": [["en"], ["ai"]], "en": "Pancakes? I ate five!",
+          "explain": "[[en]] before the auxiliary: [[j'en ai mangé cinq]]." },
+        { "id": "r9", "type": "dictation", "fr": "Il y en a beaucoup à la cabane à sucre.", "accept": [],
+          "explain": "[[il y en a]]: four little words, one sound block." },
+        { "id": "r10", "type": "cloze", "text": "Mei ___ arrivée au Canada l'année dernière.", "answers": [["est"]], "choices": ["est", "a", "es"], "en": "Mei arrived in Canada last year.",
+          "explain": "Review: [[arriver]] uses être in the passé composé, and agrees: [[elle est arrivée]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new friend asks you questions. Answer each one out loud with y or en: Tu es déjà allé à Québec ? Tu vas souvent au cinéma ? Tu as des frères et sœurs ? Tu bois beaucoup de café ? Tu as une voiture ?", "seconds": 40,
+          "checklist": ["At least two answers with y (j'y vais, je n'y suis jamais allé…)", "At least two answers with en (j'en ai…, je n'en ai pas…)", "One answer in the passé composé", "Keep the number or quantity at the end"],
+          "models": [ { "label": "Model answer", "fr": "Québec ? Oui, j'y suis allé l'été dernier, c'était magnifique. Le cinéma ? J'y vais une fois par mois, à peu près. Des frères et sœurs ? J'en ai trois : deux frères et une sœur. Du café ? Oh oui, j'en bois beaucoup, trois tasses par jour ! Une voiture ? Non, je n'en ai pas. Je prends le métro.", "en": "Québec City? Yes, I went there last summer, it was magnificent. The movies? I go about once a month. Brothers and sisters? I have three: two brothers and a sister. Coffee? Oh yes, I drink a lot, three cups a day! A car? No, I don't have one. I take the metro." } ] },
+        { "id": "w1", "type": "write", "prompt": "A friend is going to a sugar shack for the first time and asks you questions by text: Is it far? Do I need to bring something? Are there a lot of people? Answer in a short message using y and en at least once each.", "promptFr": "Répondez au texto de votre ami ou amie.", "wordRange": [25, 60],
+          "checklist": ["y for the place: on y va…, j'y suis allé…", "en for a quantity: il y en a…, tu vas en manger…", "One piece of practical advice", "A friendly closing"],
+          "models": [ { "label": "Model answer", "fr": "Salut Raj ! La cabane, c'est à une heure de Montréal. On y va en voiture avec Lucie. Tu n'as rien à apporter, mais prends des bottes : il y a encore de la neige ! Et du monde ? Oh oui, il y en a beaucoup le dimanche. Tu vas voir, c'est super ! Mei", "en": "Hi Raj! The sugar shack is an hour from Montréal. We're going there by car with Lucie. You don't need to bring anything, but take boots: there's still snow! And people? Oh yes, there are a lot on Sundays. You'll see, it's great! Mei" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Recognize [[y]] = *there* (a place after à, au, en, chez, dans…): [[J'y vais.]] [[On y va !]]\n- Recognize [[en]] = *some, of them* (a quantity): [[J'en ai deux.]] [[Il y en a beaucoup.]] [[Je n'en ai pas.]]\n- Put them where lui and leur go: [[je vais y aller]], [[j'en ai acheté]], [[je n'y suis jamais allé]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced the defensible distractor était (plus-que-parfait) in r10. Noted that the ya pronunciation of il y a is informal and not only Québec, refined the fèves/haricots note and fixed the j'y pronunciation tip." }
+}

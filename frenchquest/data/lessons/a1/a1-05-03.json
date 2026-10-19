@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-05-03",
+  "level": "a1",
+  "unit": "a1-05",
+  "title": "How often?",
+  "goal": "Say how often you do things with toujours, souvent, parfois, rarement and ne… jamais, and talk about regular days like le lundi.",
+  "minutes": 12,
+  "items": [
+    { "id": "g-adverb-position", "kind": "grammar", "fr": "Je cuisine souvent.", "en": "frequency adverbs go right after the verb",
+      "drills": [
+        { "type": "mcq", "prompt": "“I often watch TV.” Which is correct?", "options": ["Je regarde souvent la télé.", "Je souvent regarde la télé.", "Souvent je la télé regarde."], "optionsFr": true, "answer": 0, "explain": "The adverb goes directly after the conjugated verb: regarde souvent." },
+        { "type": "cloze", "text": "Elle se couche ___ tard. (always)", "answers": [["toujours"]], "en": "She always goes to bed late.", "explain": "With a reflexive verb, the adverb still comes after the verb: se couche toujours." },
+        { "type": "translate", "prompt": "We rarely cook.", "accept": ["Nous cuisinons rarement.", "On cuisine rarement."], "explain": "rarement goes after the verb." }
+      ] },
+    { "id": "g-ne-jamais", "kind": "grammar", "fr": "ne… jamais", "en": "never: ne before the verb, jamais after it",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ travaille ___ le dimanche.", "answers": [["ne"], ["jamais"]], "en": "I never work on Sundays.", "explain": "ne + verb + jamais: the verb sits in the middle." },
+        { "type": "cloze", "text": "Il ___ jamais la radio. (écouter)", "answers": [["n'écoute", "n’écoute"]], "en": "He never listens to the radio.", "explain": "ne becomes n' before a vowel: n'écoute." },
+        { "type": "translate", "prompt": "I never get up early.", "accept": ["Je ne me lève jamais tôt."], "explain": "With a reflexive verb, ne goes before the pronoun: je ne me lève jamais." }
+      ] },
+    { "id": "toujours", "kind": "vocab", "fr": "toujours", "en": "always", "pos": "adverb",
+      "example": { "fr": "Je me lève toujours à 6 heures.", "en": "I always get up at 6 o'clock." } },
+    { "id": "souvent", "kind": "vocab", "fr": "souvent", "en": "often", "pos": "adverb",
+      "example": { "fr": "Tu cuisines souvent ?", "en": "Do you cook often?" } },
+    { "id": "parfois", "kind": "vocab", "fr": "parfois", "en": "sometimes", "pos": "adverb", "accept": ["quelquefois"],
+      "example": { "fr": "Parfois, je travaille le samedi.", "en": "Sometimes I work on Saturdays." } },
+    { "id": "quelquefois", "kind": "vocab", "fr": "quelquefois", "en": "now and then, sometimes (longer word)", "pos": "adverb", "accept": ["parfois"],
+      "example": { "fr": "Je regarde quelquefois la télé.", "en": "I watch TV now and then." } },
+    { "id": "rarement", "kind": "vocab", "fr": "rarement", "en": "rarely, seldom", "pos": "adverb",
+      "example": { "fr": "Elle rentre rarement tard.", "en": "She rarely gets home late." } },
+    { "id": "ne-jamais", "kind": "phrase", "fr": "je ne… jamais", "en": "I never (ne + verb + jamais)", "say": "je ne travaille jamais",
+      "example": { "fr": "Je ne travaille jamais le dimanche.", "en": "I never work on Sundays." } },
+    { "id": "tous-les-jours", "kind": "phrase", "fr": "tous les jours", "en": "every day",
+      "example": { "fr": "Je cuisine tous les jours.", "en": "I cook every day." } },
+    { "id": "une-fois-par-semaine", "kind": "phrase", "fr": "une fois par semaine", "en": "once a week",
+      "example": { "fr": "J'ai un cours de français une fois par semaine.", "en": "I have a French class once a week." } },
+    { "id": "le-lundi", "kind": "phrase", "fr": "le lundi", "en": "on Mondays (every Monday)", "accept": ["tous les lundis"],
+      "example": { "fr": "Le lundi, je commence à 8 heures.", "en": "On Mondays, I start at 8 o'clock." }, "note": "lundi alone = this (coming) Monday" },
+    { "id": "fin-de-semaine", "kind": "vocab", "fr": "fin de semaine", "article": "la", "gender": "f", "en": "the weekend (word used in Québec)", "pos": "noun", "accept": ["le week-end", "le weekend", "la fin de semaine"],
+      "example": { "fr": "La fin de semaine, je me lève tard.", "en": "On weekends, I get up late." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A quick survey",
+      "blocks": [
+        { "type": "dialogue", "title": "At a community centre in Moncton",
+          "context": "Amira, a volunteer, is doing a short survey about daily habits. She talks to Raj.",
+          "lines": [
+            { "speaker": "Amira", "fr": "Bonjour, Raj ! Vous cuisinez souvent ?", "en": "Hello, Raj! Do you cook often?" },
+            { "speaker": "Raj", "fr": "Oui, je cuisine tous les jours.", "en": "Yes, I cook every day." },
+            { "speaker": "Amira", "fr": "Et le soir, vous regardez la télé ?", "en": "And in the evening, do you watch TV?" },
+            { "speaker": "Raj", "fr": "Rarement. Le soir, j'écoute souvent la radio.", "en": "Rarely. In the evening, I often listen to the radio." },
+            { "speaker": "Amira", "fr": "Vous travaillez le samedi ?", "en": "Do you work on Saturdays?" },
+            { "speaker": "Raj", "fr": "Parfois. Mais je ne travaille jamais le dimanche !", "en": "Sometimes. But I never work on Sundays!" },
+            { "speaker": "Amira", "fr": "Vous vous couchez tard ?", "en": "Do you go to bed late?" },
+            { "speaker": "Raj", "fr": "Non, je me couche toujours à 22 heures. Mais la fin de semaine, je me couche quelquefois à minuit.", "en": "No, I always go to bed at 10 p.m. But on weekends, I sometimes go to bed at midnight." },
+            { "speaker": "Amira", "fr": "Et vous avez un cours de français ?", "en": "And do you have a French class?" },
+            { "speaker": "Raj", "fr": "Oui, une fois par semaine, le mercredi. Et lundi, j'ai un examen !", "en": "Yes, once a week, on Wednesdays. And this Monday, I have an exam!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Look at the last line: [[le mercredi]] means *every Wednesday*, but [[lundi]] with no article means *this Monday*. You will see why below." }
+      ] },
+    { "type": "understand", "title": "How often do you do it?",
+      "blocks": [
+        { "type": "table", "title": "From always to never",
+          "head": ["French", "English", "how often"],
+          "rows": [
+            ["toujours", "always", "100%"],
+            ["souvent", "often", "about 70%"],
+            ["parfois / quelquefois", "sometimes", "about 40%"],
+            ["rarement", "rarely", "about 10%"],
+            ["ne… jamais", "never", "0%"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "[[Parfois]] and [[quelquefois]] mean the same thing. [[Parfois]] is shorter and more common." },
+        { "type": "pattern", "title": "Where the adverb goes",
+          "pattern": "sujet + verbe + adverbe",
+          "note": "In English the adverb goes **before** the verb (*I often cook*). In French it goes **after** it. With a reflexive verb, it still goes after the verb, not after the pronoun. [[Parfois]] and [[quelquefois]] can also start the sentence.",
+          "examples": [
+            { "fr": "Je cuisine souvent.", "en": "I often cook." },
+            { "fr": "Elle regarde rarement la télé.", "en": "She rarely watches TV." },
+            { "fr": "Nous nous levons toujours à 7 heures.", "en": "We always get up at 7 o'clock." },
+            { "fr": "Parfois, je rentre à 20 heures.", "en": "Sometimes I get home at 8 p.m." }
+          ] },
+        { "type": "pattern", "title": "Never: ne… jamais",
+          "pattern": "ne + verbe + jamais",
+          "note": "**Never** has two parts that wrap around the verb. [[ne]] becomes [[n']] before a vowel. With a reflexive verb, [[ne]] goes before the pronoun. Learn it as a chunk for now; Unit 9 covers negation in full. As a one-word answer, just say [[Jamais !]]",
+          "examples": [
+            { "fr": "Je ne travaille jamais le dimanche.", "en": "I never work on Sundays." },
+            { "fr": "Il n'écoute jamais la radio.", "en": "He never listens to the radio." },
+            { "fr": "Je ne me couche jamais tard.", "en": "I never go to bed late." },
+            { "fr": "Tu cuisines le soir ? — Jamais !", "en": "Do you cook in the evening? — Never!" }
+          ] },
+        { "type": "explain", "title": "Every day, once a week",
+          "body": "These expressions usually go at the **end** of the sentence, or at the start:\n\n- [[tous les jours]] = every day; [[tous les soirs]] = every evening; [[tous les matins]] = every morning\n- [[une fois par semaine]] = once a week; [[deux fois par semaine]] = twice a week; [[une fois par mois]] = once a month\n\n[[Fois]] means *time* in the sense of *one time, two times*. It has nothing to do with clock time ([[l'heure]])." },
+        { "type": "table", "title": "Le lundi or lundi?",
+          "head": ["French", "meaning"],
+          "rows": [
+            ["Le lundi, je travaille.", "On Mondays I work. (every Monday, a habit)"],
+            ["Lundi, je travaille.", "On Monday I work. (this coming Monday, one time)"],
+            ["Tous les lundis, je travaille.", "Every Monday I work. (same as le lundi)"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "The little word [[le]] turns a day into a **habit**. No article = **one specific** day. This works for every day: [[le samedi]], [[le dimanche]]… And no word for *on*: never [[sur lundi]]." },
+        { "type": "vocab", "title": "New words", "itemIds": ["toujours", "souvent", "parfois", "quelquefois", "rarement", "ne-jamais", "tous-les-jours", "une-fois-par-semaine", "le-lundi", "fin-de-semaine"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Adverb before the verb:** [[Je souvent cuisine]] ✗ → [[Je cuisine souvent]].\n- **Jamais without ne:** [[Je jamais travaille]] ✗ → [[Je ne travaille jamais]].\n- **Ne in the wrong place with a reflexive verb:** [[Je me ne lève jamais]] ✗ → [[Je ne me lève jamais]].\n- **Every Saturday:** the usual way is [[le samedi]] (singular, with no word for *on*). [[Tous les samedis]] means the same; [[les samedis]] also exists, but [[le samedi]] is the everyday choice.\n- **Tous vs toutes:** [[tous les jours]] (jour is masculine), but [[toutes les semaines]] (semaine is feminine)." },
+        { "type": "deepdive", "kind": "canada", "title": "La fin de semaine",
+          "body": "In Québec and in much of French-speaking Canada, *the weekend* is usually [[la fin de semaine]]. In France it is [[le week-end]]. Both are understood everywhere, and you will hear [[le week-end]] in Québec too.\n\nIn relaxed Québec speech you may also hear [[à tous les jours]] or [[à toutes les semaines]], with an extra [[à]]. That is a regional spoken form. In writing, and on the TEF or TCF, use [[tous les jours]].\n\nAnd in casual speech everywhere, the [[ne]] often disappears: [[Je travaille jamais le dimanche]]. Understand it, but write the [[ne]].",
+          "examples": [ { "fr": "La fin de semaine, je me repose.", "en": "On weekends, I rest. (Québec)" }, { "fr": "Le week-end, je me repose.", "en": "On weekends, I rest. (France)" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Say the verb and the adverb together, as one group.",
+          "lines": [
+            { "fr": "Je cuisine souvent.", "en": "I often cook.", "tip": "souvent: the nt is silent, it ends in a nasal vowel." },
+            { "fr": "Je ne travaille jamais le dimanche.", "en": "I never work on Sundays.", "tip": "In fast speech: je n'travaille jamais." },
+            { "fr": "Tous les jours.", "en": "Every day.", "tip": "tous: the s is silent here: tou les jours." },
+            { "fr": "Une fois par semaine.", "en": "Once a week." },
+            { "fr": "Elle se couche toujours tard.", "en": "She always goes to bed late." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Le samedi, je travaille.", "en": "On Saturdays, I work.", "prompt": "When does the speaker work?", "options": ["Every Saturday", "This Saturday only", "Never on Saturday"], "answer": 0, "explain": "[[Le samedi]] with the article means a habit: every Saturday." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Samedi, je travaille.", "en": "On Saturday, I work.", "prompt": "When does the speaker work?", "options": ["This coming Saturday", "Every Saturday", "Every day"], "answer": 0, "explain": "No article: [[samedi]] is one specific Saturday." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Je ne cuisine jamais.", "en": "I never cook.", "prompt": "How often does the speaker cook?", "options": ["Never", "Always", "Sometimes"], "answer": 0, "explain": "[[ne… jamais]] = never." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Watch where the adverb goes.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "“I often listen to the radio.” Which is correct?", "options": ["J'écoute souvent la radio.", "Je souvent écoute la radio.", "Je suis souvent écoute la radio."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "In French, the adverb comes after the verb.", "Don't add être: j'écoute is enough."] },
+        { "id": "r2", "type": "translate", "prompt": "I never work on Sundays.", "accept": ["Je ne travaille jamais le dimanche.", "Le dimanche, je ne travaille jamais.", "Le dimanche je ne travaille jamais.", "Je ne travaille jamais les dimanches."], "hint": "ne + verb + jamais; “on Sundays” = le dimanche", "explain": "ne and jamais wrap around the verb; [[le dimanche]] = every Sunday." },
+        { "id": "r3", "type": "cloze", "text": "Elle ___ jamais la radio. (écouter)", "answers": [["n'écoute", "n’écoute"]], "en": "She never listens to the radio.", "explain": "ne → n' before a vowel: elle n'écoute jamais." },
+        { "id": "r4", "type": "cloze", "text": "Je téléphone à ma mère une ___ par semaine.", "answers": [["fois"]], "choices": ["fois", "heure", "jour", "temps"], "en": "I call my mother once a week.", "explain": "[[fois]] = a time, an occurrence: une fois, deux fois." },
+        { "id": "r5", "type": "mcq", "prompt": "Karim says: “Lundi, je travaille.” What does he mean?", "options": ["He works this coming Monday.", "He works every Monday.", "He never works on Monday."], "answer": 0, "explain": "No article = one specific Monday. Every Monday would be [[le lundi]]." },
+        { "id": "r6", "type": "translate", "prompt": "On Saturdays, we get up late.", "accept": ["Le samedi, nous nous levons tard.", "Le samedi, on se lève tard.", "Nous nous levons tard le samedi.", "On se lève tard le samedi.", "Le samedi nous nous levons tard.", "Le samedi on se lève tard."], "explain": "[[Le samedi]] = every Saturday; nous nous levons (no accent with -ons)." },
+        { "id": "r7", "type": "reorder", "prompt": "He always goes to bed at 11 p.m.", "accept": ["Il se couche toujours à 23 heures."], "extra": ["jamais"], "explain": "The adverb goes after the verb: se couche toujours." },
+        { "id": "r8", "type": "match", "prompt": "Match the French and the English.", "pairs": [["toujours", "always"], ["souvent", "often"], ["parfois", "sometimes"], ["rarement", "rarely"], ["ne… jamais", "never"], ["tous les jours", "every day"]] },
+        { "id": "r9", "type": "dictation", "fr": "Tu cuisines souvent ?", "accept": [], "explain": "tu → cuisines with a silent -s; souvent ends in a silent -nt." },
+        { "id": "r10", "type": "cloze", "text": "___ mercredi, j'ai un cours de français. (every Wednesday)", "answers": [["Le", "le", "Tous les", "tous les"]], "en": "On Wednesdays, I have a French class.", "explain": "le + day = a weekly habit. Avoir is used for having a class: j'ai un cours." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Answer the survey yourself: say what you do every day, what you do often, what you do sometimes, and what you never do.", "seconds": 30,
+          "checklist": ["tous les jours", "souvent or toujours (after the verb)", "parfois or rarement", "ne… jamais", "le + a day (le samedi, le lundi…)"],
+          "models": [ { "label": "Model answer", "fr": "Je cuisine tous les jours. Le soir, je regarde souvent la télé. Parfois, je travaille le samedi. Je ne me lève jamais tôt la fin de semaine !", "en": "I cook every day. In the evening, I often watch TV. Sometimes I work on Saturdays. I never get up early on weekends!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write 4 or 5 sentences about your habits for a French class forum. Use at least four different frequency words.", "wordRange": [25, 55],
+          "checklist": ["Put toujours, souvent or rarement after the verb", "Use ne… jamais once", "Use une fois par semaine or tous les jours", "Use le + day for a habit"],
+          "models": [ { "label": "Model answer", "fr": "Je m'appelle Mei. Je cuisine tous les jours. Le samedi, je travaille souvent, mais je ne travaille jamais le dimanche. Le soir, j'écoute toujours la radio. Je regarde rarement la télé. Le mercredi, j'ai un cours de français. Je téléphone à ma mère une fois par semaine.", "en": "My name is Mei. I cook every day. On Saturdays, I often work, but I never work on Sundays. In the evening, I always listen to the radio. I rarely watch TV. On Wednesdays, I have a French class. I call my mother once a week." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Say how often with [[toujours, souvent, parfois, rarement]], placed **after** the verb\n- Say *never* with [[ne… jamais]] around the verb: [[je ne travaille jamais]]\n- Use [[tous les jours]], [[une fois par semaine]], and [[le lundi]] (every Monday) vs [[lundi]] (this Monday)",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Rewrote the misleading “les samedis is less common” note; added accepted variants to r2 and r10." }
+}

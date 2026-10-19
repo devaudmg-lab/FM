@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-09-05",
+  "level": "b1",
+  "unit": "b1-09",
+  "title": "Write an opinion paragraph",
+  "goal": "Write a structured, well-linked opinion text of 150 to 200 words, without repetition, and defend the same opinion out loud.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-texte-opinion", "kind": "grammar", "fr": "opinion → arguments + exemples → concession → conclusion", "en": "the structure of an opinion text",
+      "drills": [
+        { "type": "mcq", "prompt": "Where should your opinion appear in an opinion paragraph?", "options": ["At the start, and again briefly at the end", "Only at the end", "Nowhere: just give facts"], "answer": 0, "explain": "Announce your position in the first sentence, then confirm it in the conclusion. The reader should never have to guess." },
+        { "type": "cloze", "text": "Certes, la gratuité coûte cher. ___, elle rapporte beaucoup à la société.", "answers": [["Cependant", "Pourtant", "Toutefois", "En revanche"]], "en": "Admittedly, free transit is expensive. However, it brings a lot to society.", "explain": "[[Certes…]] admits a point of the other side; [[Cependant]] brings you back to your opinion. This is a **concession**." },
+        { "type": "cloze", "text": "___ somme, je suis convaincue que c'est une bonne idée.", "answers": [["En"]], "en": "All in all, I am convinced that it's a good idea.", "explain": "[[En somme]] introduces the conclusion." }
+      ] },
+    { "id": "certes", "kind": "vocab", "fr": "certes", "en": "admittedly, of course (conceding a point)", "pos": "connector",
+      "example": { "fr": "Certes, le projet est cher, mais il est nécessaire.", "en": "Admittedly, the project is expensive, but it's necessary." } },
+    { "id": "je-suis-convaincu", "kind": "phrase", "fr": "Je suis convaincu que c'est une bonne idée.", "en": "I am convinced that it's a good idea. (man speaking)", "accept": ["Je suis convaincue que c'est une bonne idée.", "Je suis persuadé que c'est une bonne idée.", "Je suis persuadée que c'est une bonne idée."] },
+    { "id": "il-est-vrai-que", "kind": "phrase", "fr": "Il est vrai que…", "en": "It is true that…", "accept": ["C'est vrai que…"] },
+    { "id": "d-un-cote", "kind": "phrase", "fr": "D'un côté, … ; de l'autre, …", "en": "On the one hand, …; on the other, …", "accept": ["D'une part, … ; d'autre part, …"] },
+    { "id": "gratuite", "kind": "vocab", "fr": "gratuité", "article": "la", "gender": "f", "en": "being free of charge (free access)", "pos": "noun",
+      "example": { "fr": "La gratuité du transport en commun attire de nouveaux usagers.", "en": "Free public transit attracts new users." } },
+    { "id": "mesure", "kind": "vocab", "fr": "mesure", "article": "une", "gender": "f", "en": "measure, policy (a decision taken by an authority)", "pos": "noun", "accept": ["la mesure"],
+      "example": { "fr": "Cette mesure a réduit la circulation.", "en": "This measure reduced traffic." } },
+    { "id": "la-societe", "kind": "vocab", "fr": "société", "article": "la", "gender": "f", "en": "society", "pos": "noun",
+      "example": { "fr": "C'est un choix de société.", "en": "It's a choice for society as a whole." } },
+    { "id": "contribuable", "kind": "vocab", "fr": "contribuable", "article": "le", "gender": "m", "en": "taxpayer", "pos": "noun", "accept": ["la contribuable", "les contribuables"],
+      "example": { "fr": "Ce sont les contribuables qui paient.", "en": "It's the taxpayers who pay." } },
+    { "id": "a-long-terme", "kind": "phrase", "fr": "à long terme", "en": "in the long term", "accept": ["sur le long terme"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "An opinion on a community forum",
+      "intro": "A French-language forum for newcomers asks: *Faut-il parler français avant d'immigrer au Canada ?* Read Mei's answer. Notice the plan, the connectors and how she avoids repeating words.",
+      "blocks": [
+        { "type": "text", "title": "Mei's answer (about 170 words)",
+          "context": "Mei arrived in Montréal four years ago.",
+          "fr": "À mon avis, il n'est pas indispensable de parler français avant d'immigrer au Canada, mais il est fortement conseillé de commencer à l'apprendre le plus tôt possible.\nTout d'abord, la langue est la clé de l'emploi. En effet, au Québec et dans plusieurs régions du Nouveau-Brunswick et de l'Ontario, beaucoup d'employeurs exigent le français. C'est le cas de mon mari : ce dernier a trouvé un poste d'ingénieur seulement après avoir réussi son examen de français. De plus, parler la langue de ses voisins facilite la vie quotidienne, notamment à l'école des enfants ou chez le médecin.\nIl est vrai que de nombreux programmes gratuits existent une fois sur place, et certains nouveaux arrivants apprennent très vite. Cependant, les premiers mois sont souvent les plus difficiles : il faut chercher un logement, ouvrir un compte, inscrire les enfants… Par conséquent, ceux qui arrivent avec quelques bases sont beaucoup moins stressés.\nEn somme, on peut immigrer sans parler français ; toutefois, mieux vaut ne pas attendre pour s'y mettre.",
+          "en": "In my opinion, it is not essential to speak French before immigrating to Canada, but it is strongly recommended to start learning it as early as possible. First of all, language is the key to employment. Indeed, in Québec and in several regions of New Brunswick and Ontario, many employers require French. That's the case for my husband: he found a job as an engineer only after passing his French exam. What's more, speaking your neighbours' language makes daily life easier, in particular at the children's school or at the doctor's. It is true that many free programs exist once you're here, and some newcomers learn very fast. However, the first months are often the hardest: you have to look for housing, open an account, register the children… Consequently, those who arrive with a few basics are much less stressed. All in all, you can immigrate without speaking French; however, it's better not to wait to get started." },
+        { "id": "d1", "type": "mcq", "prompt": "What does the third paragraph (Il est vrai que… Cependant…) do?", "options": ["It admits a point for the other side, then answers it", "It gives a third example", "It changes Mei's opinion"], "answer": 0,
+          "explain": "This is a **concession**: [[Il est vrai que…]] admits something, [[Cependant…]] brings the reader back to Mei's opinion. It makes the text more convincing." },
+        { "id": "d2", "type": "mcq", "prompt": "In “ce dernier a trouvé un poste”, who is ce dernier?", "options": ["Mei's husband", "An employer", "Mei"], "answer": 0,
+          "explain": "[[ce dernier]] = the last masculine noun mentioned: [[mon mari]]." },
+        { "id": "d3", "type": "mcq", "prompt": "What does Mei use to avoid repeating “le français” in the first sentence?", "options": ["The pronoun l' in « à l'apprendre »", "The word « langue »", "Nothing: she repeats it"], "answer": 0, "optionsFr": false,
+          "explain": "[[commencer à l'apprendre]]: [[l']] replaces [[le français]]. Later she uses [[la langue]] as a synonym." }
+      ] },
+    { "type": "understand", "title": "The unit in one page",
+      "intro": "Everything from this unit, gathered into one method for writing an opinion text.",
+      "blocks": [
+        { "type": "table", "title": "A plan that always works",
+          "head": ["Part", "What you write", "Useful language"],
+          "rows": [
+            ["Introduction (1–2 sentences)", "Rephrase the question and give your opinion", "À mon avis, … / Je suis convaincu(e) que… / Selon moi, …"],
+            ["Argument 1 + example", "A reason, explained, with a concrete example", "Tout d'abord, … En effet, … Prenons l'exemple de… / C'est le cas de…"],
+            ["Argument 2 + example", "A second reason", "De plus, … / Par ailleurs, … / notamment"],
+            ["Concession", "Admit one point of the other side, then answer it", "Certes, … mais… / Il est vrai que… Cependant, …"],
+            ["Conclusion (1–2 sentences)", "Confirm your opinion, maybe open up", "En somme, … / Pour conclure, … / C'est pourquoi…"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "For 150–200 words, count roughly 25 words for the introduction, 50 for each argument, 30 for the concession and 20 for the conclusion." },
+        { "type": "pattern", "title": "Making a concession",
+          "pattern": "Certes, + point adverse, mais + votre opinion.  /  Il est vrai que… Cependant, …",
+          "note": "A concession shows the reader you know the other side. It makes your opinion **stronger**, not weaker. You will go deeper into concession at B2.",
+          "examples": [
+            { "fr": "Certes, la gratuité coûte cher, mais elle réduit la pollution.", "en": "Admittedly, free transit is expensive, but it reduces pollution." },
+            { "fr": "Il est vrai que l'hiver est long. Cependant, on s'y habitue vite.", "en": "It's true that winter is long. However, you get used to it quickly." }
+          ] },
+        { "type": "explain", "title": "Your five-step checklist",
+          "body": "Before you hand in any opinion text, check:\n\n- **Structure:** introduction, two arguments with examples, a concession, a conclusion, in **separate paragraphs**.\n- **Connectors:** at least one per function (addition, opposition, cause, consequence, conclusion), and none used twice.\n- **Repetition:** the key word of the question appears no more than three times; you use pronouns, [[ce dernier]], summary nouns ([[cette mesure]]) and synonyms.\n- **Register:** no [[tu]], no [[bref]], [[en revanche]] rather than [[par contre]] in a very formal text, no [[ça]] where [[cela]] fits better.\n- **Grammar you know:** agreements, relative pronouns ([[qui, que, où, dont]]), the conditionnel for hypotheses ([[cela permettrait…]])." },
+        { "type": "vocab", "title": "Words for this lesson", "itemIds": ["certes", "je-suis-convaincu", "il-est-vrai-que", "d-un-cote", "gratuite", "mesure", "la-societe", "contribuable", "a-long-terme"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Opinion-text mistakes",
+          "body": "- **Je pense que je pense…:** don't repeat your opinion verb. Vary: [[À mon avis]], [[Selon moi]], [[Je suis convaincu(e) que]], [[Il me semble que]].\n- **Arguments without examples:** [[C'est bon pour l'environnement.]] Why? For whom? Add a concrete case: a city, a number, a person.\n- **Copying the question:** rephrase it in your introduction instead of copying the whole sentence.\n- **Changing sides:** after a concession, come back to **your** opinion. Don't end with [[Cependant]] + the other side's argument.\n- **No paragraphs:** a 180-word block is hard to read and loses points for coherence. Leave a line between paragraphs.\n- **Certes without mais:** [[certes]] announces a *but*. Always follow it with [[mais]], [[cependant]] or [[toutefois]]." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: TEF writing, section B",
+          "body": "In the TEF Canada writing test, **section B** asks you to react to a statement (often a short quote or a newspaper headline) and to **defend your point of view** with arguments, in **200 to 250 words**. You have 60 minutes for the two writing sections: 25 minutes for section A and **35 minutes** for section B.\n\nWhat examiners look for: a clear opinion, **at least three** developed arguments with examples, logical connectors, varied vocabulary and the right register (often a letter or a forum message).\n\n**Practice task (not an official subject):** *« Les transports en commun devraient être gratuits pour tous. »* Vous écrivez au courrier des lecteurs d'un journal pour réagir à cette affirmation. (200 à 250 mots)\n\n**Method in 5 minutes:** (1) choose your side, (2) list three arguments, (3) find one example for each, (4) find one argument for the other side to concede, (5) write your first and last sentences. Then write. Keep about 3 minutes at the end to reread for agreements and accents. Always check the current official format before your exam." },
+        { "type": "deepdive", "kind": "canada", "title": "Free transit in Canada: a real debate",
+          "body": "Several Canadian cities have tested or adopted free public transit for some groups: children, seniors or students. Free transit for everyone is also regularly debated. This makes it a good topic for practice, and the vocabulary is useful: [[la société de transport]] (the transit authority, for example the STM in Montréal), [[un titre de transport]] (a ticket or pass), [[la carte OPUS]] (the fare card used in Montréal and Québec City), [[les contribuables]] (taxpayers), [[l'achalandage]] (ridership, a Québec term)." }
+      ] },
+    { "type": "hear", "title": "Hear an opinion",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Say each sentence with conviction: stress the connector, then slow down on your key idea.",
+          "lines": [
+            { "fr": "À mon avis, le transport en commun devrait être gratuit.", "en": "In my opinion, public transit should be free.", "tip": "devrait: de-vré, the conditionnel." },
+            { "fr": "Certes, cette mesure coûte cher, mais elle est nécessaire.", "en": "Admittedly, this measure is expensive, but it's necessary.", "tip": "certes: the s is silent: sèrt." },
+            { "fr": "Il est vrai que les contribuables paient. Cependant, tout le monde en profite.", "en": "It's true that taxpayers pay. However, everyone benefits from it." },
+            { "fr": "À long terme, la ville économiserait de l'argent.", "en": "In the long term, the city would save money." },
+            { "fr": "En somme, je suis convaincue que c'est une bonne idée.", "en": "All in all, I'm convinced it's a good idea. (woman speaking)" }
+          ] },
+        { "id": "h1", "type": "listen-mcq",
+          "fr": "Certes, la gratuité attirerait de nouveaux usagers. Cependant, les autobus sont déjà pleins aux heures de pointe. Selon moi, il vaudrait mieux investir dans de nouvelles lignes.",
+          "en": "Admittedly, free transit would attract new users. However, buses are already full at rush hour. In my view, it would be better to invest in new lines.",
+          "prompt": "What is the speaker's opinion?",
+          "options": ["It would be better to invest in new lines than to make transit free.", "Transit should be free right away.", "Buses are empty at rush hour."], "answer": 0,
+          "explain": "[[Certes…]] concedes a point, [[Cependant…]] answers it, and [[Selon moi, il vaudrait mieux…]] gives the real opinion." },
+        { "id": "h2", "type": "listen-mcq",
+          "fr": "D'un côté, les familles économiseraient de l'argent ; de l'autre, ce sont les contribuables qui paieraient la facture.",
+          "en": "On the one hand, families would save money; on the other, it's the taxpayers who would pay the bill.",
+          "prompt": "What does the speaker do?",
+          "options": ["Compares an advantage and a disadvantage", "Gives two advantages", "Tells a personal story"], "answer": 0,
+          "explain": "[[D'un côté… de l'autre…]] weighs two sides: saving money (advantage) vs taxpayers paying (disadvantage)." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Ten questions from the whole unit and earlier B1 units. Answer without looking back.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "Which sentence is the best introduction to a text on the question « Le télétravail devrait-il devenir la norme ? »", "optionsFr": true,
+          "options": ["Selon moi, le télétravail devrait devenir la norme pour les emplois de bureau, car il présente plus d'avantages que d'inconvénients.", "Le télétravail devrait-il devenir la norme ?", "Moi je trouve que c'est bien, bref.", "Prenons l'exemple de ma collègue."], "answer": 0,
+          "optionFeedback": [null, "This just copies the question. Rephrase it and give your opinion.", "Too informal, and no clear position.", "An example doesn't introduce a text."] },
+        { "id": "r2", "type": "cloze", "text": "Le loyer est élevé. ___, le quartier est sécuritaire et bien desservi.", "answers": [["En revanche", "Par contre", "Cependant", "Toutefois"]], "choices": ["En revanche", "En effet", "Par conséquent", "Car"], "en": "The rent is high. On the other hand, the neighbourhood is safe and well served (by transit).",
+          "explain": "A negative fact, then a positive one: opposition. ([[sécuritaire]] = safe, Québec usage.)" },
+        { "id": "r3", "type": "cloze", "text": "J'ai écrit à la directrice de l'école, mais ___ ne m'a pas encore répondu.", "answers": [["cette dernière", "celle-ci"]], "choices": ["cette dernière", "ce dernier", "celui-ci", "ces derniers"], "en": "I wrote to the school principal, but she hasn't answered me yet.",
+          "explain": "[[la directrice]] is feminine singular → [[cette dernière]] or [[celle-ci]]." },
+        { "id": "r4", "type": "translate", "prompt": "Admittedly, this measure is expensive, but it is necessary.", "accept": ["Certes, cette mesure coûte cher, mais elle est nécessaire.", "Certes, cette mesure est chère, mais elle est nécessaire.", "Certes, cette mesure coûte cher mais elle est nécessaire.", "Il est vrai que cette mesure coûte cher, mais elle est nécessaire.", "C'est vrai que cette mesure coûte cher, mais elle est nécessaire."], "hint": "Certes… mais…",
+          "explain": "[[Certes]] concedes, [[mais]] answers. [[coûter cher]]: [[cher]] doesn't agree after [[coûter]]." },
+        { "id": "r5", "type": "match", "prompt": "Match each sentence opener with its role in an opinion text.",
+          "pairs": [["À mon avis, …", "Give your position"], ["Prenons l'exemple de…", "Illustrate an argument"], ["Il est vrai que…", "Concede a point"], ["Par conséquent, …", "Draw a consequence"], ["En somme, …", "Conclude"]] },
+        { "id": "r6", "type": "cloze", "text": "Si le transport était gratuit, plus de gens ___ l'autobus. (prendre)", "answers": [["prendraient"]], "en": "If transit were free, more people would take the bus.",
+          "explain": "Review (B1 unit 6): [[si]] + imparfait → conditionnel: [[ils prendraient]]." },
+        { "id": "r7", "type": "cloze", "text": "C'est une mesure ___ tout le monde profite.", "answers": [["dont"]], "choices": ["dont", "que", "qui", "où"], "en": "It's a measure that everyone benefits from.",
+          "explain": "Review (B1 unit 7): [[profiter de]] → [[dont]]." },
+        { "id": "r8", "type": "reorder", "prompt": "In the long term, the city would save money.", "accept": ["À long terme la ville économiserait de l'argent", "La ville économiserait de l'argent à long terme"], "extra": ["économise"],
+          "explain": "[[à long terme]] + conditionnel [[économiserait]] for a hypothetical result." },
+        { "id": "r9", "type": "translate", "prompt": "I would be grateful if you could answer me quickly. (woman writing, formal)", "accept": ["Je vous serais reconnaissante de bien vouloir me répondre rapidement.", "Je vous serais reconnaissante de me répondre rapidement.", "Je vous serais reconnaissante de bien vouloir me répondre vite."], "hint": "Je vous serais…",
+          "explain": "Lesson 4 formula: conditionnel [[serais]] + [[reconnaissante]] (feminine) + [[de bien vouloir]]." },
+        { "id": "r10", "type": "dictation", "fr": "En effet, les premiers mois sont souvent les plus difficiles.", "accept": [],
+          "explain": "[[En effet]] explains; [[les plus difficiles]] is a superlative (A2 unit 8)." }
+      ] },
+    { "type": "apply", "title": "Mission: defend your opinion in writing and out loud",
+      "intro": "Final mission of the unit. Choose your side on the question below, then write your text and say it out loud.",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write an opinion text answering this question: “Should public transit be free for everyone?” Take a clear position, give two developed arguments with examples, make one concession, and conclude. Write in separate paragraphs.",
+          "promptFr": "Le transport en commun devrait-il être gratuit pour tout le monde ? Donnez votre opinion de façon argumentée.",
+          "wordRange": [150, 200],
+          "checklist": ["Introduction: the question rephrased + your opinion", "Argument 1 with a concrete example (Prenons l'exemple de… / C'est le cas de…)", "Argument 2 with an example or a detail (notamment, ainsi)", "A concession: Certes… mais… / Il est vrai que… Cependant…", "A conclusion: En somme / Pour conclure", "Connectors from all five functions, none used twice", "No repetition: pronouns, ce dernier / celle-ci, a summary noun (cette mesure), synonyms", "At least one conditionnel (cela permettrait…, les gens prendraient…)", "Separate paragraphs, formal register"],
+          "models": [
+            { "label": "Model answer", "fr": "À mon avis, le transport en commun devrait être gratuit pour tout le monde, car cette mesure serait bénéfique pour les familles comme pour l'environnement.\nTout d'abord, la gratuité aiderait les ménages. En effet, une carte mensuelle coûte environ 100 $, ce qui représente une dépense importante pour beaucoup de gens. C'est le cas de ma voisine : elle dépense 200 $ par mois pour elle et son fils, qui travaille aussi au centre-ville. Pour elle, ce montant correspond presque à une semaine d'épicerie.\nDe plus, ce serait bon pour la planète. Si l'autobus était gratuit, moins de personnes prendraient leur voiture pour aller au travail. Par conséquent, il y aurait moins de bouchons et moins de pollution, notamment au centre-ville.\nCertes, ce sont les contribuables qui paieraient ce service. Cependant, toute la société en profiterait, y compris les automobilistes, qui circuleraient plus facilement.\nEn somme, je pense que c'est un bon investissement pour l'avenir de nos villes.",
+              "en": "In my opinion, public transit should be free for everyone, because this measure would benefit families as well as the environment. First of all, free transit would help households. Indeed, a monthly pass costs about $100, which is a significant expense for many people. That's the case for my neighbour: she spends $200 a month for herself and her son, who also works downtown. For her, that amount is almost a week of groceries. What's more, it would be good for the planet. If the bus were free, fewer people would take their car to go to work. Consequently, there would be fewer traffic jams and less pollution, in particular downtown. Admittedly, it's the taxpayers who would pay for this service. However, all of society would benefit, including drivers, who would get around more easily. All in all, I think it's a good investment for the future of our cities." },
+            { "label": "Stronger model answer", "fr": "Faut-il rendre le transport en commun gratuit pour tous ? Cette question divise souvent les citoyens. Selon moi, une telle mesure serait profitable à l'ensemble de la société.\nTout d'abord, la gratuité réduirait les inégalités. En effet, pour les étudiants et les familles à faible revenu, le prix d'un titre mensuel représente souvent une dépense lourde. Prenons l'exemple de Dunkerque, en France : depuis que ses autobus sont gratuits, l'achalandage a fortement augmenté.\nPar ailleurs, cette politique encouragerait les automobilistes à laisser leur véhicule à la maison. Par conséquent, la circulation diminuerait, tout comme les émissions de gaz à effet de serre. Les rues seraient aussi plus calmes et plus sûres pour les enfants.\nIl est vrai que ce sont les contribuables qui financeraient ce service, dont le coût atteindrait plusieurs millions de dollars par année. Pourtant, à long terme, la ville économiserait sur l'entretien des routes et sur les coûts de santé liés à la pollution.\nPour conclure, je suis convaincue que la gratuité n'est pas une dépense, mais un investissement dont profiteraient aussi les générations futures.",
+              "en": "Should public transit be made free for all? This question often divides citizens. In my view, such a measure would benefit society as a whole. First of all, free transit would reduce inequality. Indeed, for students and low-income families, the price of a monthly pass is often a heavy expense. Let's take the example of Dunkirk, in France: since its buses became free, ridership has risen sharply. Besides, this policy would encourage drivers to leave their vehicle at home. Consequently, traffic would decrease, as would greenhouse gas emissions. Streets would also be quieter and safer for children. It is true that taxpayers would fund this service, whose cost would reach several million dollars a year. And yet, in the long term, the city would save on road maintenance and on health costs linked to pollution. To conclude, I am convinced that free transit is not an expense, but an investment that future generations would also benefit from." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Now defend the same opinion out loud, as if a friend asked you the question at a 5 à 7 (an after-work get-together). Don't read your text: use your plan. Speak for about 90 seconds.", "seconds": 90,
+          "checklist": ["Your opinion in the first sentence", "Two arguments, each with an example", "One concession: C'est vrai que… mais…", "Spoken connectors: d'abord, en plus, par contre, donc, bref", "A clear ending: Bref, pour moi, …"],
+          "models": [
+            { "label": "Model answer", "fr": "Pour moi, oui, le transport en commun devrait être gratuit. D'abord, ça aiderait vraiment les familles. Ma voisine, par exemple, paie 200 $ par mois pour elle et son fils, c'est énorme ! En plus, si c'était gratuit, beaucoup de gens laisseraient leur voiture à la maison, donc il y aurait moins de trafic et moins de pollution. C'est vrai que quelqu'un doit payer, et ce sont les contribuables. Par contre, à long terme, toute la ville en profiterait. Bref, pour moi, ce n'est pas une dépense, c'est un investissement.",
+              "en": "For me, yes, public transit should be free. First, it would really help families. My neighbour, for example, pays $200 a month for herself and her son, that's huge! What's more, if it were free, lots of people would leave their car at home, so there would be less traffic and less pollution. It's true that someone has to pay, and it's the taxpayers. On the other hand, in the long term, the whole city would benefit. In short, for me, it's not an expense, it's an investment." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Plan an opinion text: **introduction with your opinion**, two **arguments with examples**, a **concession** ([[Certes… mais…]], [[Il est vrai que… Cependant…]]) and a **conclusion**\n- Link your ideas with connectors from all five functions and avoid repetition with pronouns, [[ce dernier]], summary nouns and synonyms\n- Adapt the same opinion to a formal written text and to a relaxed spoken answer",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Aligned the TEF section B link with format.json (200–250 words, 25 + 35 min). Softened overstated claims (most → many employers; unverified free-for-all Québec towns; Dunkerque detail kept general) and fixed a model whose $200 figure clashed with a CEGEP student's reduced fare." }
+}

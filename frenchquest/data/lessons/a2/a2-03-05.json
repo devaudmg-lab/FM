@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-03-05",
+  "level": "a2",
+  "unit": "a2-03",
+  "title": "My childhood",
+  "goal": "Tell someone about your childhood: where you lived, what it was like, your habits and your feelings, and compare it with your life in Canada now.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-imparfait-uses", "kind": "grammar", "fr": "imparfait : description, habitude, sentiment", "en": "the three main uses of the imparfait",
+      "drills": [
+        { "type": "cloze", "text": "Notre appartement ___ petit, mais il y avait un balcon. (être)", "answers": [["était"]], "en": "Our apartment was small, but there was a balcony.", "explain": "Description → imparfait: était (stem ét-)." },
+        { "type": "cloze", "text": "Tous les matins, ma grand-mère ___ le thé. (préparer)", "answers": [["préparait"]], "en": "Every morning, my grandmother made the tea.", "explain": "Habit → imparfait: elle préparait." },
+        { "type": "cloze", "text": "J'___ un peu timide à l'école. (être)", "answers": [["étais"]], "en": "I was a bit shy at school.", "explain": "A state → imparfait: j'étais." }
+      ] },
+    { "id": "g-pc-or-imp", "kind": "grammar", "fr": "je suis né… / j'habitais…", "en": "preview: one event (passé composé) vs the background (imparfait)",
+      "drills": [
+        { "type": "mcq", "prompt": "“I was born in Pune.”", "options": ["Je suis né à Pune.", "J'étais né à Pune.", "Je naissais à Pune."], "optionsFr": true, "answer": 0, "explain": "Being born is one event: passé composé with être." },
+        { "type": "cloze", "text": "L'année dernière, j'___ acheté une théière.", "answers": [["ai"]], "en": "Last year, I bought a teapot.", "explain": "One action at a precise time (l'année dernière) → passé composé." },
+        { "type": "cloze", "text": "Quand j'étais enfant, je ___ le bus scolaire. (prendre)", "answers": [["prenais"]], "en": "When I was a child, I took the school bus.", "explain": "A habit in childhood → imparfait: je prenais." }
+      ] },
+    { "id": "timide", "kind": "vocab", "fr": "timide", "en": "shy", "pos": "adjective",
+      "example": { "fr": "J'étais un peu timide à l'école.", "en": "I was a bit shy at school." } },
+    { "id": "bus-scolaire", "kind": "vocab", "fr": "autobus scolaire", "article": "l'", "gender": "m", "en": "school bus", "pos": "noun", "accept": ["le bus scolaire"],
+      "note": "Bus and autobus are both masculine." },
+    { "id": "etage", "kind": "vocab", "fr": "étage", "article": "l'", "gender": "m", "en": "floor, storey", "pos": "noun", "accept": ["un étage"],
+      "example": { "fr": "Nous habitions au troisième étage.", "en": "We lived on the third floor." } },
+    { "id": "partout", "kind": "vocab", "fr": "partout", "en": "everywhere", "pos": "adverb" },
+    { "id": "ensemble", "kind": "vocab", "fr": "ensemble", "en": "together", "pos": "adverb",
+      "example": { "fr": "Nous mangions ensemble le soir.", "en": "We ate together in the evening." } },
+    { "id": "souvenir", "kind": "vocab", "fr": "souvenir", "article": "le", "gender": "m", "en": "memory (of the past)", "pos": "noun", "accept": ["un souvenir"],
+      "example": { "fr": "J'ai de bons souvenirs de mon enfance.", "en": "I have good memories of my childhood." } },
+    { "id": "comme-ma-mere", "kind": "phrase", "fr": "comme ma grand-mère", "en": "like my grandmother (did)" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "My childhood in Pune",
+      "intro": "This text uses everything from the unit. Read it once for the story, then once to find each imparfait.",
+      "blocks": [
+        { "type": "text", "title": "Raj's text for a newcomers' newsletter in Ottawa",
+          "context": "The theme of this month's newsletter is “Souvenirs d'enfance”.",
+          "fr": "Je suis né à Pune, en Inde, et j'ai grandi dans un appartement au troisième étage, avec mes parents, ma sœur et ma grand-mère. C'était petit, mais il y avait toujours du monde et beaucoup de bruit !\nD'habitude, je me levais à six heures. Ma grand-mère préparait le thé et nous prenions le petit-déjeuner ensemble. Ensuite, je prenais l'autobus scolaire avec ma sœur. À l'école, j'adorais les maths, mais je détestais le sport : j'étais un peu timide et j'avais peur du ballon !\nLe dimanche, nous allions au marché avec mon père. Il faisait chaud, il y avait des fruits partout et ça sentait les épices.\nMaintenant, j'habite à Ottawa. Je ne prends plus l'autobus scolaire, bien sûr : je prends l'O-Train pour aller au travail. L'hiver est long et il fait froid, mais je suis content ici. Et l'année dernière, j'ai acheté une théière : comme ça, le dimanche, je prépare le thé comme ma grand-mère.",
+          "en": "I was born in Pune, India, and I grew up in an apartment on the third floor, with my parents, my sister and my grandmother. It was small, but there were always people around and lots of noise!\nI usually got up at six. My grandmother made the tea and we had breakfast together. Then I took the school bus with my sister. At school, I loved math, but I hated sports: I was a bit shy and I was afraid of the ball!\nOn Sundays, we went to the market with my father. It was hot, there was fruit everywhere and it smelled of spices.\nNow I live in Ottawa. I don't take the school bus anymore, of course: I take the O-Train to go to work. Winter is long and it's cold, but I'm happy here. And last year, I bought a teapot: that way, on Sundays, I make tea like my grandmother did." },
+        { "id": "d1", "type": "mcq", "prompt": "Why did Raj hate sports at school?", "options": ["He was shy and afraid of the ball", "It was too hot outside", "He preferred going to the market"], "answer": 0,
+          "explain": "[[j'étais un peu timide et j'avais peur du ballon]]: two states, both in the imparfait." },
+        { "id": "d2", "type": "mcq", "prompt": "Which sentence is a single event, not a habit or a description?", "options": ["J'ai acheté une théière.", "Nous allions au marché.", "Ma grand-mère préparait le thé."], "optionsFr": true, "answer": 0,
+          "explain": "[[l'année dernière, j'ai acheté]]: one action, so passé composé. The others are habits: imparfait." },
+        { "id": "d3", "type": "mcq", "prompt": "What does Raj still do today, like in his childhood?", "options": ["He makes tea on Sundays", "He takes the school bus", "He goes to the market with his father"], "answer": 0,
+          "explain": "[[le dimanche, je prépare le thé comme ma grand-mère]]." }
+      ] },
+    { "type": "understand", "title": "Your unit 3 map",
+      "intro": "Everything from the unit on one page.",
+      "blocks": [
+        { "type": "table", "title": "1. Forming the imparfait",
+          "head": ["", "parler", "finir", "faire", "être"],
+          "rows": [
+            ["je / j'", "parlais", "finissais", "faisais", "étais"],
+            ["tu", "parlais", "finissais", "faisais", "étais"],
+            ["il / elle / on", "parlait", "finissait", "faisait", "était"],
+            ["nous", "parlions", "finissions", "faisions", "étions"],
+            ["vous", "parliez", "finissiez", "faisiez", "étiez"],
+            ["ils / elles", "parlaient", "finissaient", "faisaient", "étaient"]
+          ],
+          "frCols": [0, 1, 2, 3, 4], "sayCol": true,
+          "note": "Stem = nous form minus -ons (except **être → ét-**). Spelling: [[je mangeais]], [[je commençais]], [[nous étudiions]]." },
+        { "type": "table", "title": "2. When to use it",
+          "head": ["Use", "Example", "Signal words"],
+          "rows": [
+            ["Description of a place or a person", "C'était petit. Il y avait du bruit. Il faisait chaud.", "c'était, il y avait, il faisait"],
+            ["Habits", "Le dimanche, nous allions au marché.", "avant, d'habitude, le dimanche, tous les jours, à l'époque"],
+            ["Feelings and states", "J'étais timide. J'avais peur.", "j'étais, j'avais, je voulais, je pensais"]
+          ],
+          "frCols": [1, 2], "sayCol": false },
+        { "type": "explain", "title": "3. Imparfait, passé composé, present",
+          "body": "Raj's text uses three tenses, each with its own job:\n\n- **passé composé**: single events, often with a precise time: [[Je suis né à Pune.]] [[L'année dernière, j'ai acheté une théière.]]\n- **imparfait**: the background, habits and feelings: [[C'était petit.]] [[Je prenais l'autobus scolaire.]] [[J'étais timide.]]\n- **present**: life now: [[Maintenant, j'habite à Ottawa.]] [[Je ne prends plus l'autobus scolaire.]]\n\nFor now, a simple test: *Can I add “used to” or “was …-ing” in English?* If yes, it is probably the imparfait. Unit 10 will make this choice much more precise." },
+        { "type": "deepdive", "kind": "mistakes", "title": "The eight most common unit 3 errors",
+          "body": "- [[nous sommions]] → [[nous étions]]\n- [[je mangais]] → [[je mangeais]]; [[il commencait]] → [[il commençait]]\n- [[je étais]] → [[j'étais]]\n- [[il y avaient des arbres]] → [[il y avait des arbres]]\n- [[il était froid]] → [[il faisait froid]] (weather)\n- [[j'étais peur]] → [[j'avais peur]]\n- [[c'était belle]] → [[c'était beau]]\n- [[Avant, j'ai pris le bus tous les jours]] → [[Avant, je prenais le bus tous les jours]] (habit)" },
+        { "type": "deepdive", "kind": "culture", "title": "Telling your story in Canada",
+          "body": "*Where did you grow up? What was it like?* You will hear these questions at work, with neighbours, and in the speaking part of French exams such as the TEF and TCF Canada, where describing your past and comparing it with your life now is a common topic. A good answer mixes the three tenses: one or two events (passé composé), a description with feelings (imparfait), and a comparison with today (present)." }
+      ] },
+    { "type": "hear", "title": "Hear the whole story",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je suis né à Pune et j'ai grandi dans un petit appartement.", "en": "I was born in Pune and I grew up in a small apartment." },
+            { "fr": "C'était petit, mais il y avait toujours du monde.", "en": "It was small, but there were always people around." },
+            { "fr": "D'habitude, je me levais à six heures.", "en": "I usually got up at six." },
+            { "fr": "J'étais un peu timide et j'avais peur du ballon.", "en": "I was a bit shy and I was afraid of the ball." },
+            { "fr": "Maintenant, je ne prends plus l'autobus scolaire.", "en": "Now I don't take the school bus anymore." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Quand j'étais petite, j'habitais à la campagne. Il n'y avait pas d'école dans mon village, alors je prenais l'autobus tous les matins.", "en": "When I was little, I lived in the countryside. There was no school in my village, so I took the bus every morning.",
+          "prompt": "Why did she take the bus every morning?", "options": ["There was no school in her village", "Her school was in the countryside", "Her parents worked in the city"], "answer": 0,
+          "explain": "[[Il n'y avait pas d'école dans mon village, alors je prenais l'autobus]]: [[alors]] = so." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Avant, je me couchais tard. Maintenant, avec le travail, je me couche à dix heures.", "en": "Before, I used to go to bed late. Now, with work, I go to bed at ten.",
+          "prompt": "What has changed?", "options": ["The speaker goes to bed earlier now", "The speaker goes to bed later now", "The speaker doesn't work anymore"], "answer": 0,
+          "explain": "[[Avant, je me couchais tard]] (imparfait) / [[maintenant, je me couche à dix heures]] (present)." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Ten questions mixing the whole unit with units 1 and 2. Answer without looking at the map.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Quand nous ___ petits, nous ___ dehors tous les jours. (être, jouer)", "answers": [["étions"], ["jouions"]], "en": "When we were little, we played outside every day.",
+          "explain": "être → ét- + -ions; nous jouons → jou- + -ions." },
+        { "id": "r2", "type": "mcq", "prompt": "Which sentence describes the weather in the past?", "options": ["Il faisait très chaud.", "Il était très chaud.", "Il a très chaud.", "C'était très chaude."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Weather uses faire, not être.", "That's a person feeling hot, in the present.", "After c'était, the adjective stays masculine, and weather uses il faisait."] },
+        { "id": "r3", "type": "cloze", "text": "Dans mon quartier, il y ___ un parc et il n'y avait ___ cinéma.", "answers": [["avait"], ["pas de"]], "en": "In my neighbourhood, there was a park and there was no cinema.",
+          "explain": "[[il y avait]]; negative: [[il n'y avait pas de]] + noun." },
+        { "id": "r4", "type": "translate", "prompt": "I was afraid of the dog. (imparfait)", "accept": ["J'avais peur du chien."],
+          "explain": "[[avoir peur de]]; de + le = du: [[peur du chien]]." },
+        { "id": "r5", "type": "cloze", "text": "Le dimanche, ma mère ___ toujours. (cuisiner) Dimanche dernier, elle ___ allée au restaurant.", "answers": [["cuisinait"], ["est"]], "en": "On Sundays, my mother always cooked. Last Sunday, she went to a restaurant.",
+          "explain": "[[le dimanche]] = a habit → imparfait. [[dimanche dernier]] = one event → passé composé with être." },
+        { "id": "r6", "type": "match", "prompt": "Match each sentence with its use.", "pairs": [["C'était un village calme.", "description"], ["Je prenais le bus tous les matins.", "habit"], ["J'étais triste.", "feeling"], ["Hier, j'ai pris le bus.", "single event"]] },
+        { "id": "r7", "type": "translate", "prompt": "Before, I lived in Mexico. Now I live in Winnipeg.", "accept": ["Avant, j'habitais au Mexique. Maintenant, j'habite à Winnipeg.", "Avant, je vivais au Mexique. Maintenant, je vis à Winnipeg.", "Avant, j'habitais au Mexique. Maintenant, je vis à Winnipeg.", "Avant, je vivais au Mexique. Maintenant, j'habite à Winnipeg."],
+          "explain": "avant + imparfait, maintenant + present. [[au Mexique]]: masculine country (A1)." },
+        { "id": "r8", "type": "reorder", "prompt": "We usually ate together.", "accept": ["D'habitude, nous mangions ensemble.", "Nous mangions ensemble d'habitude.", "Nous mangions d'habitude ensemble."], "extra": ["mangeons"],
+          "explain": "[[nous mangions]]: no e before -ions. [[mangeons]] is the present." },
+        { "id": "r9", "type": "cloze", "text": "Elle ___ née à Hanoï et elle ___ grandi à Hué.", "answers": [["est"], ["a"]], "choices": ["est", "a", "était", "avait"], "en": "She was born in Hanoi and she grew up in Huế.",
+          "explain": "From unit 2: [[naître]] takes être ([[elle est née]]); [[grandir]] takes avoir ([[elle a grandi]])." },
+        { "id": "r10", "type": "dictation", "fr": "Il y avait des fruits partout et il faisait chaud.", "accept": [],
+          "explain": "[[il y avait]] stays singular; [[il faisait chaud]] = it was hot." }
+      ] },
+    { "type": "apply", "title": "Mission: tell your childhood",
+      "intro": "Two missions. Use the checklists, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "At a newcomers' coffee meeting, someone asks: “Et toi, ton enfance, c'était comment ?” Talk for about 60 seconds: where you were born and grew up, what your home or neighbourhood was like, two habits, one feeling, and one comparison with your life in Canada now.", "promptFr": "Parlez de votre enfance pendant une minute.",
+          "seconds": 60,
+          "checklist": ["Je suis né / née à… ; j'ai grandi… (passé composé)", "A description: c'était…, il y avait…, il faisait…", "Two habits: d'habitude…, le dimanche…", "One feeling: j'étais…, j'avais peur…", "Now: Maintenant, j'habite… ; je ne… plus…", "An ending: J'ai de bons souvenirs de…"],
+          "models": [
+            { "label": "Model answer", "fr": "Je suis née à Bogotá, en Colombie. J'habitais dans une maison avec mes parents et mes deux frères. C'était une grande maison avec une cour. D'habitude, j'allais à l'école à pied avec mes frères. Le dimanche, nous allions chez mes grands-parents. J'étais très contente là-bas. Maintenant, j'habite à Montréal. Il fait froid, mais j'aime la ville.",
+              "en": "I was born in Bogotá, Colombia. I lived in a house with my parents and my two brothers. It was a big house with a yard. I usually walked to school with my brothers. On Sundays, we went to my grandparents'. I was very happy there. Now I live in Montréal. It's cold, but I like the city." },
+            { "label": "Stronger model answer", "fr": "Je suis né à Douala, au Cameroun, et j'ai grandi dans un quartier très animé, près du port. Il y avait toujours du monde dans la rue, de la musique et des petits restaurants. Il faisait chaud toute l'année. D'habitude, après l'école, je jouais au soccer avec mes cousins jusqu'au soir. Le dimanche, toute la famille mangeait ensemble chez ma tante. J'étais un peu timide, mais j'étais heureux. Maintenant, j'habite à Sherbrooke. C'est beaucoup plus calme ! Je ne joue plus au soccer dans la rue, mais je joue dans une équipe le samedi. J'ai de très bons souvenirs de mon enfance.",
+              "en": "I was born in Douala, Cameroon, and I grew up in a very lively neighbourhood near the port. There were always people in the street, music and small restaurants. It was hot all year. Usually, after school, I played soccer with my cousins until the evening. On Sundays, the whole family ate together at my aunt's. I was a bit shy, but I was happy. Now I live in Sherbrooke. It's much quieter! I don't play soccer in the street anymore, but I play on a team on Saturdays. I have very good memories of my childhood." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a text for the newsletter theme “Souvenirs d'enfance” (70–120 words). Describe where you grew up, your habits, how you felt, and compare with your life in Canada today.", "promptFr": "Écrivez un texte : « Souvenirs d'enfance ».",
+          "wordRange": [70, 120],
+          "checklist": ["A first sentence with the passé composé: Je suis né / née…, j'ai grandi…", "A description with c'était, il y avait, il faisait", "At least two habits (d'habitude, le dimanche, tous les jours)", "At least one feeling (j'étais…, j'avais…)", "A paragraph about now: Maintenant…, je ne… plus…", "Final check: être → ét-, -ger / -cer spellings, adjective agreement"],
+          "models": [
+            { "label": "Model answer", "fr": "Je suis né à Tunis et j'ai grandi dans un petit appartement avec mes parents. C'était un quartier bruyant, mais j'aimais ça. Il y avait un marché et beaucoup de cafés.\nD'habitude, j'allais à l'école en bus. Après l'école, je jouais au soccer avec mes amis. Le vendredi, nous mangions chez mes grands-parents. J'étais content.\nMaintenant, j'habite à Québec. Je ne joue plus au soccer, mais je fais du patin l'hiver. Il fait froid, mais j'aime ma nouvelle vie.",
+              "en": "I was born in Tunis and I grew up in a small apartment with my parents. It was a noisy neighbourhood, but I liked it. There was a market and lots of cafés.\nI usually went to school by bus. After school, I played soccer with my friends. On Fridays, we ate at my grandparents' place. I was happy.\nNow I live in Québec City. I don't play soccer anymore, but I go skating in winter. It's cold, but I like my new life." },
+            { "label": "Stronger model answer", "fr": "Je suis née à Manille, aux Philippines, et j'ai grandi dans une grande maison avec mes parents, mes trois sœurs et ma grand-mère. C'était une maison simple, avec un manguier dans la cour. Il faisait chaud et humide, et en été, il pleuvait presque tous les jours.\nLe matin, ma grand-mère préparait le riz et nous mangions ensemble avant l'école. Le dimanche, nous allions à la plage. J'étais une enfant timide, mais je n'avais jamais peur de l'eau !\nAujourd'hui, j'habite seule à Edmonton. Je ne mange plus de riz le matin et la mer est très loin. Le premier hiver, j'avais le mal du pays. Mais maintenant, je suis fière de ma nouvelle vie.",
+              "en": "I was born in Manila, the Philippines, and I grew up in a big house with my parents, my three sisters and my grandmother. It was a simple house, with a mango tree in the yard. It was hot and humid, and in summer it rained almost every day.\nIn the morning, my grandmother made rice and we ate together before school. On Sundays, we went to the beach. I was a shy child, but I was never afraid of the water!\nToday I live alone in Edmonton. I don't eat rice in the morning anymore and the sea is very far away. The first winter, I was homesick. But now I'm proud of my new life." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- **Bravo, unit 3 is complete!** You can form the **imparfait** of any verb, including [[être → j'étais]]\n- Describe places and weather, past habits and feelings: [[c'était, il y avait, il faisait, d'habitude, j'avais peur]]\n- Tell your childhood story and compare it with today, mixing the passé composé, the imparfait and the present",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed 'l'autobus jaune' from accepted answers, made a listening question gender-neutral, softened an exam claim." }
+}

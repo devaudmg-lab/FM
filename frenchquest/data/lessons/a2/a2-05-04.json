@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-05-04",
+  "level": "a2",
+  "unit": "a2-05",
+  "title": "Hotels and reservations",
+  "goal": "Book a hotel room by phone or email, ask what is included, and check in at the front desk.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-compris", "kind": "grammar", "fr": "compris / comprise / compris / comprises", "en": "included: agreement with the noun",
+      "drills": [
+        { "type": "cloze", "text": "Le déjeuner est ___.", "answers": [["compris"]], "en": "Breakfast is included.", "explain": "[[déjeuner]] is masculine singular → [[compris]]." },
+        { "type": "cloze", "text": "Les taxes ne sont pas ___.", "answers": [["comprises"]], "en": "Taxes are not included.", "explain": "[[taxes]] is feminine plural → [[comprises]]." },
+        { "type": "mcq", "prompt": "“Is the lodging tax included?”", "options": ["La taxe d'hébergement est comprise ?", "La taxe d'hébergement est compris ?", "La taxe d'hébergement a compris ?"], "optionsFr": true, "answer": 0, "explain": "[[taxe]] is feminine → [[comprise]], with être." }
+      ] },
+    { "id": "g-reserver-dates", "kind": "grammar", "fr": "pour deux nuits, du 12 au 14 juillet", "en": "booking dates: for … nights, from … to …",
+      "drills": [
+        { "type": "cloze", "text": "Je voudrais réserver une chambre ___ trois nuits.", "answers": [["pour"]], "en": "I'd like to book a room for three nights.", "explain": "A planned length of stay uses [[pour]]." },
+        { "type": "cloze", "text": "Nous resterons ___ 12 ___ 14 juillet.", "answers": [["du"], ["au"]], "en": "We'll stay from July 12 to 14.", "explain": "from … to … with dates = [[du… au…]] (de + le, à + le)." },
+        { "type": "translate", "prompt": "a double room for two nights", "accept": ["une chambre double pour deux nuits", "une chambre pour deux personnes pour deux nuits"], "explain": "[[une chambre double]] + [[pour]] + number of nights." }
+      ] },
+    { "id": "reserver", "kind": "vocab", "fr": "réserver", "en": "to book (to reserve)", "pos": "verb",
+      "example": { "fr": "J'ai réservé une chambre à Baie-Saint-Paul.", "en": "I booked a room in Baie-Saint-Paul." } },
+    { "id": "chambre-double", "kind": "vocab", "fr": "chambre double", "article": "une", "gender": "f", "en": "double room", "pos": "noun", "accept": ["une chambre pour deux personnes", "la chambre double"],
+      "example": { "fr": "Une chambre double coûte 189 $ la nuit.", "en": "A double room costs $189 a night." } },
+    { "id": "nuit", "kind": "vocab", "fr": "nuit", "article": "la", "gender": "f", "en": "night", "pos": "noun", "accept": ["une nuit"],
+      "example": { "fr": "Nous restons deux nuits.", "en": "We're staying two nights." } },
+    { "id": "compris", "kind": "vocab", "fr": "compris", "fem": "comprise", "en": "included", "pos": "adjective", "accept": ["comprise", "inclus", "incluse"],
+      "example": { "fr": "Le stationnement est compris.", "en": "Parking is included." } },
+    { "id": "complet", "kind": "vocab", "fr": "complet", "fem": "complète", "en": "fully booked (full)", "pos": "adjective", "accept": ["complète"],
+      "example": { "fr": "Désolée, l'hôtel est complet ce soir.", "en": "Sorry, the hotel is fully booked tonight." } },
+    { "id": "stationnement", "kind": "vocab", "fr": "stationnement", "article": "le", "gender": "m", "en": "parking (Québec)", "pos": "noun", "accept": ["le parking"],
+      "example": { "fr": "Le stationnement est gratuit pour les clients.", "en": "Parking is free for guests." }, "note": "France: [[le parking]]." },
+    { "id": "annuler", "kind": "vocab", "fr": "annuler", "en": "to cancel", "pos": "verb",
+      "example": { "fr": "Vous pouvez annuler sans frais.", "en": "You can cancel free of charge." } },
+    { "id": "disponible", "kind": "vocab", "fr": "disponible", "en": "available", "pos": "adjective",
+      "example": { "fr": "Avez-vous une chambre disponible samedi ?", "en": "Do you have a room available on Saturday?" } },
+    { "id": "voudrais-reserver", "kind": "phrase", "fr": "Je voudrais réserver une chambre double pour deux nuits.", "en": "I'd like to book a double room for two nights.", "accept": ["Je voudrais réserver une chambre pour deux personnes pour deux nuits."] },
+    { "id": "dejeuner-compris", "kind": "phrase", "fr": "Est-ce que le déjeuner est compris ?", "en": "Is breakfast included? (Québec)", "accept": ["Le déjeuner est compris ?", "Est-ce que le petit-déjeuner est compris ?", "Le petit-déjeuner est compris ?", "Le déjeuner est-il compris ?"] },
+    { "id": "au-nom-de", "kind": "phrase", "fr": "J'ai une réservation au nom de Martin.", "en": "I have a reservation under the name Martin.", "accept": ["J'ai réservé au nom de Martin."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A weekend in Charlevoix",
+      "intro": "Alex wants to take his partner Lucie to Charlevoix, a region of mountains and villages on the St. Lawrence, starting about an hour from Québec City.",
+      "blocks": [
+        { "type": "dialogue", "title": "Booking by phone",
+          "context": "Alex calls a small inn in Baie-Saint-Paul.",
+          "lines": [
+            { "speaker": "Réceptionniste", "fr": "Auberge du Fleuve, bonjour !", "en": "Auberge du Fleuve, hello!" },
+            { "speaker": "Alex", "fr": "Bonjour, madame. Je voudrais réserver une chambre double pour deux nuits, du 12 au 14 juillet. Est-ce que vous avez quelque chose de disponible ?", "en": "Hello. I'd like to book a double room for two nights, from July 12 to 14. Do you have anything available?" },
+            { "speaker": "Réceptionniste", "fr": "Un instant, je regarde… Oui, il me reste une chambre avec un grand lit et vue sur le fleuve. C'est 189 $ la nuit.", "en": "One moment, I'm checking… Yes, I have one room left with a big bed and a view of the river. It's $189 a night." },
+            { "speaker": "Alex", "fr": "Est-ce que le déjeuner est compris ?", "en": "Is breakfast included?" },
+            { "speaker": "Réceptionniste", "fr": "Oui, le déjeuner est compris. Par contre, les taxes ne sont pas comprises.", "en": "Yes, breakfast is included. However, taxes are not included." },
+            { "speaker": "Alex", "fr": "D'accord. Et le stationnement ?", "en": "OK. And parking?" },
+            { "speaker": "Réceptionniste", "fr": "Le stationnement est gratuit pour nos clients.", "en": "Parking is free for our guests." },
+            { "speaker": "Alex", "fr": "Parfait, je réserve. On peut arriver à quelle heure ?", "en": "Perfect, I'll book it. What time can we arrive?" },
+            { "speaker": "Réceptionniste", "fr": "L'arrivée se fait à partir de 15 h, et le départ avant 11 h. C'est à quel nom ?", "en": "Check-in is from 3 p.m., and check-out before 11 a.m. What name is it under?" },
+            { "speaker": "Alex", "fr": "Au nom de Martin, M-A-R-T-I-N. Alex Martin.", "en": "Under the name Martin, M-A-R-T-I-N. Alex Martin." },
+            { "speaker": "Réceptionniste", "fr": "Merci. J'ai besoin d'un numéro de carte de crédit pour garantir la réservation. Vous pouvez annuler sans frais jusqu'à 48 heures avant l'arrivée. Vous recevrez une confirmation par courriel.", "en": "Thank you. I need a credit card number to guarantee the reservation. You can cancel free of charge up to 48 hours before arrival. You'll receive a confirmation by email." }
+          ] },
+        { "type": "text", "title": "The confirmation email",
+          "fr": "Objet : Confirmation de votre réservation\nBonjour monsieur Martin,\nNous vous remercions de votre réservation.\nArrivée : vendredi 12 juillet, à partir de 15 h\nDépart : dimanche 14 juillet, avant 11 h\nChambre : 1 chambre double, vue sur le fleuve, 2 personnes\nTarif : 189 $ par nuit, déjeuner compris (taxes en sus)\nStationnement : gratuit\nAnnulation sans frais jusqu'au 10 juillet.\nAu plaisir de vous accueillir !\nL'équipe de l'Auberge du Fleuve",
+          "en": "Subject: Confirmation of your reservation. Hello Mr. Martin, Thank you for your reservation. Arrival: Friday July 12, from 3 p.m. Departure: Sunday July 14, before 11 a.m. Room: 1 double room, river view, 2 people. Rate: $189 per night, breakfast included (taxes extra). Parking: free. Free cancellation until July 10. We look forward to welcoming you! The Auberge du Fleuve team" },
+        { "type": "dialogue", "title": "At the front desk",
+          "context": "Friday, 4 p.m. Alex and Lucie arrive.",
+          "lines": [
+            { "speaker": "Alex", "fr": "Bonjour ! J'ai une réservation au nom de Martin.", "en": "Hello! I have a reservation under the name Martin." },
+            { "speaker": "Réceptionniste", "fr": "Bienvenue ! Oui, deux nuits, chambre 14. Voici votre clé. Le déjeuner est servi de 7 h à 10 h, dans la salle à manger.", "en": "Welcome! Yes, two nights, room 14. Here's your key. Breakfast is served from 7 to 10 a.m. in the dining room." },
+            { "speaker": "Lucie", "fr": "Merci ! Et auriez-vous le mot de passe du wifi ?", "en": "Thank you! And would you have the Wi-Fi password?" },
+            { "speaker": "Réceptionniste", "fr": "Il est écrit sur la carte, avec la clé. Bon séjour !", "en": "It's written on the card, with the key. Enjoy your stay!" }
+          ] }
+      ] },
+    { "type": "understand", "title": "Booking a room",
+      "blocks": [
+        { "type": "pattern", "title": "The booking request",
+          "pattern": "Je voudrais réserver + une chambre (double / simple) + pour + nombre de nuits + du… au…",
+          "note": "Give the information in this order and the receptionist will follow you easily.",
+          "examples": [
+            { "fr": "Je voudrais réserver une chambre double pour deux nuits, du 12 au 14 juillet.", "en": "I'd like to book a double room for two nights, from July 12 to 14." },
+            { "fr": "Avez-vous une chambre disponible pour ce soir ?", "en": "Do you have a room available for tonight?" },
+            { "fr": "Nous serons deux adultes et un enfant.", "en": "There will be two adults and one child." }
+          ] },
+        { "type": "table", "title": "Questions to ask",
+          "head": ["French", "English"],
+          "rows": [
+            ["C'est combien la nuit ?", "How much is it per night?"],
+            ["Est-ce que le déjeuner est compris ?", "Is breakfast included?"],
+            ["Les taxes sont comprises ?", "Are taxes included?"],
+            ["Il y a du stationnement ?", "Is there parking?"],
+            ["À quelle heure est l'arrivée ? Et le départ ?", "What time is check-in? And check-out?"],
+            ["Est-ce que je peux annuler sans frais ?", "Can I cancel free of charge?"]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "table", "title": "Compris agrees with the noun",
+          "head": ["Noun", "Included", "Not included"],
+          "rows": [
+            ["le déjeuner (m)", "est compris", "n'est pas compris"],
+            ["la taxe (f)", "est comprise", "n'est pas comprise"],
+            ["les repas (m pl)", "sont compris", "ne sont pas compris"],
+            ["les taxes (f pl)", "sont comprises", "ne sont pas comprises"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Listen: [[comprise]] and [[comprises]] end with a *z* sound; [[compris]] does not. On menus and websites you'll also see [[inclus / incluse]], and [[taxes en sus]] (taxes extra)." },
+        { "type": "vocab", "title": "New words", "itemIds": ["reserver", "chambre-double", "nuit", "compris", "complet", "stationnement", "annuler", "disponible"] },
+        { "type": "deepdive", "kind": "canada", "title": "Déjeuner means breakfast in Québec",
+          "body": "In Québec, the three meals are [[le déjeuner]] (breakfast), [[le dîner]] (lunch) and [[le souper]] (dinner). In France, they are [[le petit-déjeuner]], [[le déjeuner]] and [[le dîner]]. So if a Québec hotel says [[déjeuner compris]], it's breakfast, not lunch!\n\nOther things you'll notice:\n\n- [[le stationnement]] (Québec) = [[le parking]] (France).\n- Beds are often described with English words: [[un lit queen]], [[un lit king]], [[deux lits doubles]].\n- Prices are often given **before taxes**. The sales taxes and, in many places, a lodging tax are added at the end, so ask [[Les taxes sont comprises ?]]\n- A small inn is [[une auberge]]; [[un gîte]] is a bed and breakfast." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Nights, not evenings:** [[deux nuits]], not [[deux soirs]].\n- **The hotel is full:** [[L'hôtel est complet]] (masculine). Staff often say [[Nous sommes complets]] (we're fully booked: plural, to agree with [[nous]]), or [[Nous n'avons plus de chambres disponibles]].\n- **Faire or réserver?** Both [[réserver une chambre]] and [[faire une réservation]] are correct. Not [[booker]] in careful speech, even if you hear it in Montréal.\n- **Agreement:** [[les taxes sont compris]] → [[les taxes sont comprises]]." },
+        { "type": "deepdive", "kind": "culture",
+          "body": "When you check out, the receptionist may ask [[Vous avez passé un bon séjour ?]] (Did you have a good stay?). A good answer: [[Oui, très bien, merci ! La chambre était magnifique.]] Notice the tenses you know: passé composé for the stay as a whole, imparfait for the description." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je voudrais réserver une chambre double pour deux nuits.", "en": "I'd like to book a double room for two nights.", "tip": "réserver: *ré-zèr-vé*, the s sounds like z." },
+            { "fr": "Est-ce que le déjeuner est compris ?", "en": "Is breakfast included?" },
+            { "fr": "Les taxes ne sont pas comprises.", "en": "Taxes are not included.", "tip": "comprises: you hear a z at the end." },
+            { "fr": "J'ai une réservation au nom de Martin.", "en": "I have a reservation under the name Martin." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Désolée, nous sommes complets vendredi. Par contre, il nous reste une chambre samedi et dimanche.", "en": "Sorry, we're fully booked on Friday. However, we still have one room on Saturday and Sunday.",
+          "prompt": "What does the receptionist say?", "options": ["Full on Friday; one room left on Saturday and Sunday", "Full all weekend", "One room left on Friday only"], "answer": 0,
+          "explain": "[[complets vendredi]] = fully booked on Friday. [[il nous reste une chambre]] = we still have one room." },
+        { "id": "h2", "type": "listen-mcq", "fr": "La chambre est à 159 $ la nuit. Le déjeuner est compris, mais le stationnement coûte 20 $ par jour.", "en": "The room is $159 a night. Breakfast is included, but parking costs $20 a day.",
+          "prompt": "What is NOT included in the price?", "options": ["Parking", "Breakfast", "The room"], "answer": 0,
+          "explain": "[[le stationnement coûte 20 $ par jour]]: parking is extra. [[Le déjeuner est compris]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je voudrais réserver une chambre ___ trois nuits, ___ 5 ___ 8 août.", "answers": [["pour"], ["du"], ["au"]], "choices": ["pour", "du", "au", "de", "à", "pendant"], "en": "I'd like to book a room for three nights, from August 5 to 8.",
+          "explain": "[[pour]] + number of nights; [[du… au…]] with dates." },
+        { "id": "r2", "type": "cloze", "text": "Le déjeuner est ___, mais les taxes ne sont pas ___.", "answers": [["compris"], ["comprises"]], "choices": ["compris", "comprise", "comprises"], "en": "Breakfast is included, but taxes are not included.",
+          "explain": "[[le déjeuner]] (m sg) → [[compris]]; [[les taxes]] (f pl) → [[comprises]]." },
+        { "id": "r3", "type": "mcq", "prompt": "In a Québec hotel, “déjeuner compris” means…", "options": ["breakfast included", "lunch included", "dinner included", "all meals included"], "answer": 0,
+          "explain": "In Québec, [[le déjeuner]] is breakfast, [[le dîner]] is lunch and [[le souper]] is dinner." },
+        { "id": "r4", "type": "translate", "prompt": "I have a reservation under the name Haddad.", "accept": ["J'ai une réservation au nom de Haddad.", "J'ai une réservation au nom d'Haddad.", "J'ai réservé au nom de Haddad."],
+          "explain": "[[au nom de]] = under the name of." },
+        { "id": "r5", "type": "match", "prompt": "Match the French and the English.", "pairs": [["complet", "fully booked"], ["disponible", "available"], ["annuler", "to cancel"], ["le stationnement", "parking"], ["une nuit", "one night"]] },
+        { "id": "r6", "type": "reorder", "prompt": "Do you have a room available for tonight?", "accept": ["Avez-vous une chambre disponible pour ce soir ?", "Pour ce soir avez-vous une chambre disponible ?"], "extra": ["libre"],
+          "explain": "[[disponible]] goes after the noun: [[une chambre disponible]]." },
+        { "id": "r7", "type": "listen-mcq", "fr": "Vous pouvez annuler sans frais jusqu'à 48 heures avant votre arrivée. Après, la première nuit est facturée.", "en": "You can cancel free of charge up to 48 hours before your arrival. After that, the first night is charged.",
+          "prompt": "You arrive on Saturday at 3 p.m. Until when can you cancel for free?", "options": ["Thursday at 3 p.m.", "Friday at 3 p.m.", "Saturday morning"], "answer": 0,
+          "explain": "[[48 heures avant votre arrivée]] = two days before: Thursday at 3 p.m. After that, [[la première nuit est facturée]] (you pay for the first night)." },
+        { "id": "r8", "type": "translate", "prompt": "Last year, we stayed in an inn in Charlevoix. The room was beautiful.", "accept": ["L'année dernière, nous sommes restés dans une auberge dans Charlevoix. La chambre était belle.", "L'année dernière, nous sommes restés dans une auberge dans Charlevoix. La chambre était magnifique.", "L'année dernière, nous sommes restés dans une auberge à Charlevoix. La chambre était belle.", "L'année dernière, nous sommes restés dans une auberge à Charlevoix. La chambre était magnifique.", "L'année dernière, nous sommes restés dans une auberge de Charlevoix. La chambre était belle.", "L'année dernière, nous sommes restés dans une auberge de Charlevoix. La chambre était magnifique.", "L'année dernière, nous sommes restées dans une auberge dans Charlevoix. La chambre était belle.", "L'année dernière, nous sommes restées dans une auberge dans Charlevoix. La chambre était magnifique.", "L'année dernière, nous sommes restées dans une auberge à Charlevoix. La chambre était belle.", "L'année dernière, nous sommes restées dans une auberge à Charlevoix. La chambre était magnifique.", "L'année dernière, nous sommes restées dans une auberge de Charlevoix. La chambre était belle.", "L'année dernière, nous sommes restées dans une auberge de Charlevoix. La chambre était magnifique.", "L'année dernière, on est restés dans une auberge dans Charlevoix. La chambre était belle.", "L'année dernière, on est restés dans une auberge dans Charlevoix. La chambre était magnifique.", "L'année dernière, on est restés dans une auberge à Charlevoix. La chambre était belle.", "L'année dernière, on est restés dans une auberge à Charlevoix. La chambre était magnifique.", "L'année dernière, on est restés dans une auberge de Charlevoix. La chambre était belle.", "L'année dernière, on est restés dans une auberge de Charlevoix. La chambre était magnifique.", "L'année dernière, on est restées dans une auberge dans Charlevoix. La chambre était belle.", "L'année dernière, on est restées dans une auberge dans Charlevoix. La chambre était magnifique.", "L'année dernière, on est restées dans une auberge à Charlevoix. La chambre était belle.", "L'année dernière, on est restées dans une auberge à Charlevoix. La chambre était magnifique.", "L'année dernière, on est restées dans une auberge de Charlevoix. La chambre était belle.", "L'année dernière, on est restées dans une auberge de Charlevoix. La chambre était magnifique.", "L'année dernière, nous avons séjourné dans une auberge dans Charlevoix. La chambre était belle.", "L'année dernière, nous avons séjourné dans une auberge dans Charlevoix. La chambre était magnifique.", "L'année dernière, nous avons séjourné dans une auberge à Charlevoix. La chambre était belle.", "L'année dernière, nous avons séjourné dans une auberge à Charlevoix. La chambre était magnifique.", "L'année dernière, nous avons séjourné dans une auberge de Charlevoix. La chambre était belle.", "L'année dernière, nous avons séjourné dans une auberge de Charlevoix. La chambre était magnifique.", "L'année dernière, on a séjourné dans une auberge dans Charlevoix. La chambre était belle.", "L'année dernière, on a séjourné dans une auberge dans Charlevoix. La chambre était magnifique.", "L'année dernière, on a séjourné dans une auberge à Charlevoix. La chambre était belle.", "L'année dernière, on a séjourné dans une auberge à Charlevoix. La chambre était magnifique.", "L'année dernière, on a séjourné dans une auberge de Charlevoix. La chambre était belle.", "L'année dernière, on a séjourné dans une auberge de Charlevoix. La chambre était magnifique.", "L'an dernier, nous sommes restés dans une auberge dans Charlevoix. La chambre était belle.", "L'an dernier, nous sommes restés dans une auberge dans Charlevoix. La chambre était magnifique.", "L'an dernier, nous sommes restés dans une auberge à Charlevoix. La chambre était belle.", "L'an dernier, nous sommes restés dans une auberge à Charlevoix. La chambre était magnifique.", "L'an dernier, nous sommes restés dans une auberge de Charlevoix. La chambre était belle.", "L'an dernier, nous sommes restés dans une auberge de Charlevoix. La chambre était magnifique.", "L'an dernier, nous sommes restées dans une auberge dans Charlevoix. La chambre était belle.", "L'an dernier, nous sommes restées dans une auberge dans Charlevoix. La chambre était magnifique.", "L'an dernier, nous sommes restées dans une auberge à Charlevoix. La chambre était belle.", "L'an dernier, nous sommes restées dans une auberge à Charlevoix. La chambre était magnifique.", "L'an dernier, nous sommes restées dans une auberge de Charlevoix. La chambre était belle.", "L'an dernier, nous sommes restées dans une auberge de Charlevoix. La chambre était magnifique.", "L'an dernier, on est restés dans une auberge dans Charlevoix. La chambre était belle.", "L'an dernier, on est restés dans une auberge dans Charlevoix. La chambre était magnifique.", "L'an dernier, on est restés dans une auberge à Charlevoix. La chambre était belle.", "L'an dernier, on est restés dans une auberge à Charlevoix. La chambre était magnifique.", "L'an dernier, on est restés dans une auberge de Charlevoix. La chambre était belle.", "L'an dernier, on est restés dans une auberge de Charlevoix. La chambre était magnifique.", "L'an dernier, on est restées dans une auberge dans Charlevoix. La chambre était belle.", "L'an dernier, on est restées dans une auberge dans Charlevoix. La chambre était magnifique.", "L'an dernier, on est restées dans une auberge à Charlevoix. La chambre était belle.", "L'an dernier, on est restées dans une auberge à Charlevoix. La chambre était magnifique.", "L'an dernier, on est restées dans une auberge de Charlevoix. La chambre était belle.", "L'an dernier, on est restées dans une auberge de Charlevoix. La chambre était magnifique.", "L'an dernier, nous avons séjourné dans une auberge dans Charlevoix. La chambre était belle.", "L'an dernier, nous avons séjourné dans une auberge dans Charlevoix. La chambre était magnifique.", "L'an dernier, nous avons séjourné dans une auberge à Charlevoix. La chambre était belle.", "L'an dernier, nous avons séjourné dans une auberge à Charlevoix. La chambre était magnifique.", "L'an dernier, nous avons séjourné dans une auberge de Charlevoix. La chambre était belle.", "L'an dernier, nous avons séjourné dans une auberge de Charlevoix. La chambre était magnifique.", "L'an dernier, on a séjourné dans une auberge dans Charlevoix. La chambre était belle.", "L'an dernier, on a séjourné dans une auberge dans Charlevoix. La chambre était magnifique.", "L'an dernier, on a séjourné dans une auberge à Charlevoix. La chambre était belle.", "L'an dernier, on a séjourné dans une auberge à Charlevoix. La chambre était magnifique.", "L'an dernier, on a séjourné dans une auberge de Charlevoix. La chambre était belle.", "L'an dernier, on a séjourné dans une auberge de Charlevoix. La chambre était magnifique."],
+          "hint": "rester uses être; a description in the past uses the imparfait.", "explain": "[[nous sommes restés]] (passé composé with être) for the event; [[la chambre était belle]] (imparfait) for the description. For the region, [[dans Charlevoix]] is the usual form; [[à Charlevoix]] is very common in speech, and [[une auberge de Charlevoix]] also works. [[En Charlevoix]] exists but is rare." },
+        { "id": "r9", "type": "dictation", "fr": "Le stationnement est gratuit pour les clients de l'hôtel.", "accept": [],
+          "explain": "[[stationnement]] is the Québec word for parking." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Call a hotel in Québec City to book a room. Say how many people and nights, give the dates, ask the price, ask what is included (breakfast, taxes, parking), give your name and spell it.", "seconds": 50,
+          "checklist": ["Bonjour + Je voudrais réserver…", "pour … nuits, du … au …", "Nous serons… (number of people)", "C'est combien la nuit ?", "Est-ce que … est compris ? (two questions)", "C'est au nom de… + spelling", "Merci, bonne journée !"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, monsieur. Je voudrais réserver une chambre double pour trois nuits, du 2 au 5 août. Nous serons deux adultes. C'est combien la nuit ? … D'accord. Est-ce que le déjeuner est compris ? … Et les taxes, elles sont comprises ? … Il y a du stationnement ? … Très bien, je réserve. C'est au nom de Reyes, R-E-Y-E-S, Sofia Reyes. Merci beaucoup, bonne journée !", "en": "Hello, sir. I'd like to book a double room for three nights, from August 2 to 5. There will be two adults. How much is it per night? … OK. Is breakfast included? … And the taxes, are they included? … Is there parking? … Very good, I'll book it. It's under the name Reyes, R-E-Y-E-S, Sofia Reyes. Thank you very much, have a good day! (The … mark the receptionist's answers.)" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short formal email to an inn in Charlevoix to book a room. Give the dates, the number of people and nights, and ask two questions (what is included, parking, check-in time, cancellation).", "wordRange": [40, 80],
+          "checklist": ["Objet : Réservation", "Bonjour madame, monsieur,", "Je voudrais réserver… pour… du… au…", "Nous serons…", "Two questions: Est-ce que… est compris ? / À quelle heure… ? / Est-ce que je peux annuler… ?", "Merci d'avance. Cordialement, + your name"],
+          "models": [ { "label": "Model answer", "fr": "Objet : Réservation pour le mois d'août\nBonjour madame, monsieur,\nJe voudrais réserver une chambre double pour deux nuits, du vendredi 16 au dimanche 18 août. Nous serons deux adultes. Est-ce que le déjeuner est compris dans le prix ? Et est-ce que nous pouvons arriver après 20 h ? Nous partirons de Montréal après le travail.\nMerci d'avance.\nCordialement,\nKarim Haddad", "en": "Subject: Reservation for August. Hello, I'd like to book a double room for two nights, from Friday August 16 to Sunday August 18. There will be two adults. Is breakfast included in the price? And can we arrive after 8 p.m.? We'll leave Montréal after work. Thank you in advance. Best regards, Karim Haddad" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Book a room: [[Je voudrais réserver une chambre double pour deux nuits, du 12 au 14 juillet.]]\n- Ask what is included and make [[compris]] agree: [[Le déjeuner est compris ? Les taxes sont comprises ?]]\n- Check in: [[J'ai une réservation au nom de…]]\n- Know the Québec words: [[le déjeuner]] (breakfast), [[le stationnement]], [[une auberge]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Rebuilt r8 accept (dans/à/de Charlevoix, nous/on, restés/séjourné; dropped the rare en Charlevoix) and explained the region preposition. Clarified the complet/nous sommes complets note and the distance to Charlevoix." }
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-08-04",
+  "level": "b1",
+  "unit": "b1-08",
+  "title": "Polite insistence",
+  "goal": "Insist politely when the first answer is no, and choose the right register (familiar, neutral or formal) for the situation.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-registre", "kind": "grammar", "fr": "Tu peux… ? / Pouvez-vous… ? / Serait-il possible de… ?", "en": "register: familiar, neutral and formal requests",
+      "drills": [
+        { "type": "mcq", "prompt": "Which request is the most formal?", "options": ["Serait-il possible de changer mon billet ?", "Vous pouvez changer mon billet ?", "Tu peux changer mon billet ?"], "optionsFr": true, "answer": 0, "explain": "Conditionnel + impersonal [[il]] + inversion: [[Serait-il possible de…?]] is the most formal." },
+        { "type": "cloze", "text": "___-il possible de parler à un responsable ?", "answers": [["Serait"]], "en": "Would it be possible to speak to a manager?", "explain": "[[être]] in the conditionnel: [[serait]], then inversion: [[Serait-il]]." },
+        { "type": "translate", "prompt": "Could you check again? (formal)", "accept": ["Pourriez-vous vérifier encore une fois ?", "Pourriez-vous vérifier de nouveau ?", "Pourriez-vous revérifier ?", "Est-ce que vous pourriez vérifier encore une fois ?", "Pourriez-vous vérifier à nouveau ?"], "explain": "[[Pourriez-vous]] (conditionnel + inversion) is polite and formal." }
+      ] },
+    { "id": "je-comprends-mais", "kind": "phrase", "fr": "Je comprends, mais…", "en": "I understand, but…", "accept": ["Je comprends tout à fait, mais…"] },
+    { "id": "serait-il-possible", "kind": "phrase", "fr": "Serait-il possible de… ?", "en": "Would it be possible to…?", "accept": ["Est-ce qu'il serait possible de… ?"] },
+    { "id": "je-me-permets", "kind": "phrase", "fr": "Je me permets d'insister.", "en": "I must insist. (polite)", "accept": ["Je me permets d'insister"] },
+    { "id": "je-tiens-a-preciser", "kind": "phrase", "fr": "Je tiens à préciser que…", "en": "I'd like to point out that…", "accept": ["Je voudrais préciser que…"] },
+    { "id": "parler-responsable", "kind": "phrase", "fr": "J'aimerais parler à un responsable.", "en": "I'd like to speak to a manager.", "accept": ["Je voudrais parler à un responsable.", "J'aimerais parler à un superviseur.", "Je voudrais parler à un superviseur."] },
+    { "id": "il-doit-y-avoir", "kind": "phrase", "fr": "Il doit bien y avoir une solution.", "en": "There must be a solution.", "accept": ["Il doit y avoir une solution."] },
+    { "id": "merci-comprehension", "kind": "phrase", "fr": "Je vous remercie de votre compréhension.", "en": "Thank you for your understanding. (formal)", "accept": ["Merci de votre compréhension.", "Je vous remercie pour votre compréhension."] },
+    { "id": "annule", "kind": "vocab", "fr": "annulé", "fem": "annulée", "en": "cancelled", "pos": "adjective", "accept": ["annulée"],
+      "example": { "fr": "Mon vol a été annulé.", "en": "My flight was cancelled." } },
+    { "id": "correspondance", "kind": "vocab", "fr": "correspondance", "article": "une", "gender": "f", "en": "connection (flight, train)", "pos": "noun", "accept": ["la correspondance"],
+      "example": { "fr": "Il y a une correspondance à Toronto.", "en": "There's a connection in Toronto." } },
+    { "id": "indemnisation", "kind": "vocab", "fr": "indemnisation", "article": "une", "gender": "f", "en": "compensation (money for a loss)", "pos": "noun", "accept": ["l'indemnisation"] },
+    { "id": "bon", "kind": "vocab", "fr": "bon", "article": "un", "gender": "m", "en": "voucher", "pos": "noun", "accept": ["le bon"],
+      "example": { "fr": "On m'a donné un bon de repas de 20 $.", "en": "They gave me a $20 meal voucher." } },
+    { "id": "comptoir", "kind": "vocab", "fr": "comptoir", "article": "le", "gender": "m", "en": "counter (desk at an airport or store)", "pos": "noun", "accept": ["un comptoir"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Flight cancelled",
+      "intro": "Amira's flight has just been cancelled. The first answer is *no*. Listen to how she **keeps insisting without ever being rude**.",
+      "blocks": [
+        { "type": "dialogue", "title": "At the airline counter, Montréal-Trudeau airport",
+          "context": "Amira was supposed to fly to Vancouver at 7 p.m. for her sister's wedding tomorrow at noon.",
+          "lines": [
+            { "speaker": "Agent", "fr": "Je suis désolé, madame, le vol de 19 h pour Vancouver est annulé. Je peux vous placer sur le vol de jeudi matin.", "en": "I'm sorry, madam, the 7 p.m. flight to Vancouver is cancelled. I can put you on Thursday morning's flight." },
+            { "speaker": "Amira", "fr": "Jeudi ? Je comprends que ce n'est pas votre faute, mais je dois absolument être à Vancouver demain midi. C'est le mariage de ma sœur.", "en": "Thursday? I understand it's not your fault, but I absolutely must be in Vancouver tomorrow at noon. It's my sister's wedding." },
+            { "speaker": "Agent", "fr": "Malheureusement, tous nos vols directs de demain sont complets.", "en": "Unfortunately, all our direct flights tomorrow are full." },
+            { "speaker": "Amira", "fr": "Et avec une correspondance ? Serait-il possible de passer par Toronto ou par Calgary ?", "en": "And with a connection? Would it be possible to go via Toronto or Calgary?" },
+            { "speaker": "Agent", "fr": "Je vais regarder… Non, je ne vois rien avant demain soir.", "en": "I'll have a look… No, I can't see anything before tomorrow evening." },
+            { "speaker": "Amira", "fr": "Je me permets d'insister. Pourriez-vous vérifier encore une fois, peut-être avec une autre compagnie ? Il doit bien y avoir une solution.", "en": "I must insist. Could you check again, perhaps with another airline? There must be a solution." },
+            { "speaker": "Agent", "fr": "Nous ne transférons pas les passagers sur d'autres compagnies en général.", "en": "We don't usually transfer passengers to other airlines." },
+            { "speaker": "Amira", "fr": "Je comprends, mais je tiens à préciser que l'annulation n'est pas due à la météo. Dans ce cas, j'aimerais parler à un responsable, s'il vous plaît.", "en": "I understand, but I'd like to point out that the cancellation isn't due to the weather. In that case, I'd like to speak to a manager, please." },
+            { "speaker": "Responsable", "fr": "Bonsoir, madame. Je vois votre dossier. Je peux vous offrir une place sur un vol partenaire, demain à 6 h 15, avec une correspondance à Calgary. Vous arriverez à Vancouver à 10 h 40.", "en": "Good evening. I can see your file. I can offer you a seat on a partner flight, tomorrow at 6:15 a.m., with a connection in Calgary. You'll arrive in Vancouver at 10:40 a.m." },
+            { "speaker": "Amira", "fr": "C'est parfait, merci beaucoup. Et pour cette nuit, est-ce qu'un hôtel près de l'aéroport est prévu ?", "en": "That's perfect, thank you very much. And for tonight, is a hotel near the airport provided?" },
+            { "speaker": "Responsable", "fr": "Oui, et voici aussi deux bons de repas. Pour une éventuelle indemnisation, vous pouvez remplir le formulaire en ligne.", "en": "Yes, and here are also two meal vouchers. For possible compensation, you can fill in the online form." },
+            { "speaker": "Amira", "fr": "Très bien. Je vous remercie de votre aide et de votre compréhension.", "en": "Very good. Thank you for your help and your understanding." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What does Amira finally get?", "options": ["A partner flight via Calgary tomorrow morning, a hotel and meal vouchers", "A direct flight on Thursday", "A refund and nothing else"], "answer": 0,
+          "explain": "[[un vol partenaire, demain à 6 h 15, avec une correspondance à Calgary]], plus [[un hôtel]] and [[deux bons de repas]]." },
+        { "id": "d2", "type": "mcq", "prompt": "How many times does Amira insist before asking for a manager?", "options": ["Three times, each time with a new idea", "Once", "She never insists"], "answer": 0,
+          "explain": "She asks about a connection, then another airline, then points out the cause. Each time: [[Je comprends, mais…]] + a **new** suggestion. That's polite insistence." }
+      ] },
+    { "type": "understand", "title": "Insisting politely",
+      "blocks": [
+        { "type": "explain", "title": "The polite insistence loop",
+          "body": "When the answer is *no*, don't repeat the same demand louder. Use a loop:\n\n- **1. Acknowledge:** [[Je comprends.]] [[Je comprends que ce n'est pas votre faute.]]\n- **2. Restate your need, with a reason:** [[mais je dois absolument être à Vancouver demain.]]\n- **3. Suggest a new option:** [[Serait-il possible de passer par Toronto ?]]\n- **4. Repeat with a stronger formula** if needed: [[Je me permets d'insister.]] [[Je tiens à préciser que…]]\n- **5. Escalate politely:** [[J'aimerais parler à un responsable.]]\n- **6. Close graciously,** whatever the result: [[Je vous remercie de votre compréhension.]]\n\nA calm voice and the conditionnel do most of the work." },
+        { "type": "table", "title": "From softest to firmest",
+          "head": ["Level", "Phrases"],
+          "rows": [
+            ["Soft", "Est-ce qu'il y aurait une autre possibilité ? / Serait-il possible de… ?"],
+            ["Firmer", "Je comprends, mais… / Pourriez-vous vérifier encore une fois ?"],
+            ["Firm", "Je me permets d'insister. / Je tiens à préciser que… / Il doit bien y avoir une solution."],
+            ["Escalate", "J'aimerais parler à un responsable. / Je souhaiterais déposer une plainte."]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[Je me permets de]] + infinitive = I take the liberty of… It sounds respectful even when the message is firm. [[Je tiens à]] + infinitive = it's important to me to…" },
+        { "type": "table", "title": "Three registers, one request",
+          "head": ["Familiar (friends)", "Neutral (most situations)", "Formal (service, office, letter)"],
+          "rows": [
+            ["Tu peux m'aider ?", "Vous pouvez m'aider ?", "Pourriez-vous m'aider ?"],
+            ["T'as une autre idée ?", "Est-ce qu'il y a une autre solution ?", "Y aurait-il une autre solution ?"],
+            ["C'est pas possible, ça !", "Ce n'est pas possible.", "Cela ne me semble pas possible."],
+            ["Ben non, j'peux pas.", "Non, je ne peux pas.", "Je regrette, mais cela ne m'est pas possible."],
+            ["Merci, t'es super.", "Merci beaucoup.", "Je vous remercie de votre aide."]
+          ],
+          "frCols": [0, 1, 2], "sayCol": false,
+          "note": "Signs of the **familiar** register: [[tu]], dropped *ne*, [[t'as]], [[ben]], [[ça]]. Signs of the **formal** register: inversion, conditionnel, [[cela]], [[je vous remercie]], full negation. In a complaint, mixing registers sounds odd: stay neutral or formal." },
+        { "type": "pattern", "title": "Serait-il possible de… ?",
+          "pattern": "Serait-il possible de + infinitif ?  /  Y aurait-il + nom ?",
+          "note": "Impersonal [[il]] + conditionnel + inversion: the most polite way to ask for something without saying *you must*. Notice there is no extra *-t-*: [[serait]] and [[aurait]] already end in a written t, which you pronounce before [[il]]: *suh-ré-til*.",
+          "examples": [
+            { "fr": "Serait-il possible de changer mon billet sans frais ?", "en": "Would it be possible to change my ticket at no charge?" },
+            { "fr": "Y aurait-il une place sur un autre vol ?", "en": "Would there be a seat on another flight?" },
+            { "fr": "Serait-il possible d'avoir une confirmation par courriel ?", "en": "Would it be possible to have a confirmation by email?" }
+          ] },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["je-comprends-mais", "serait-il-possible", "je-me-permets", "je-tiens-a-preciser", "parler-responsable", "il-doit-y-avoir", "merci-comprehension", "annule", "correspondance", "indemnisation", "bon", "comptoir"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Insisting ≠ repeating.** Saying *Mais je dois partir ce soir !* five times doesn't work in any language. Add a reason or a new idea each time.\n- **Don't translate *I demand*:** [[Je demande]] just means *I ask*. *J'exige* (I demand) is very strong: keep it for the last resort.\n- **Manager = un responsable / un superviseur / un gérant (store).** *Un manager* exists, but it's not the usual word at a service counter.\n- **Je me permets **d'**insister:** don't forget [[de]].\n- **Register slips:** *Ouais, mais c'est pas correct, ça !* in the middle of a polite complaint breaks the effect. In Québec, *c'est pas correct* means *that's not right / not OK*: it's informal, so avoid it here.\n- **Compensation:** [[une indemnisation]] (money for a loss); [[un remboursement]] (getting back what you paid). They're different claims." },
+        { "type": "deepdive", "kind": "canada", "title": "Flight problems in Canada",
+          "body": "- Canada has rules on air passenger protection: the **Règlement sur la protection des passagers aériens (RPPA)**, enforced by the **Office des transports du Canada (OTC)**. Depending on the cause of a cancellation (within the airline's control or not, safety, weather…), airlines may have to rebook you, provide meals or a hotel, and sometimes pay compensation. Check the details before you call.\n- Ask for things **in writing**: [[Pourriez-vous m'indiquer la raison de l'annulation par écrit ?]]\n- **Register in Québec:** people switch to [[tu]] quickly in daily life, but airline, bank and government staff will normally use [[vous]] with customers, and so should you." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Insist with a **calm, low** voice. Speed and volume make it sound like anger; slow and steady makes it sound like determination.",
+          "lines": [
+            { "fr": "Je comprends, mais je dois absolument partir ce soir.", "en": "I understand, but I absolutely must leave tonight.", "tip": "Stress absolument." },
+            { "fr": "Serait-il possible de passer par Toronto ?", "en": "Would it be possible to go via Toronto?", "tip": "Serait-il: suh-ré-til." },
+            { "fr": "Je me permets d'insister.", "en": "I must insist." },
+            { "fr": "Je tiens à préciser que l'annulation n'est pas due à la météo.", "en": "I'd like to point out that the cancellation isn't due to the weather." },
+            { "fr": "J'aimerais parler à un responsable, s'il vous plaît.", "en": "I'd like to speak to a manager, please." },
+            { "fr": "Je vous remercie de votre compréhension.", "en": "Thank you for your understanding." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ben là, t'as pas une autre idée ? C'est pas possible, ça !", "en": "Come on, don't you have another idea? That's not possible!", "prompt": "Which register is this?", "options": ["Familiar", "Neutral", "Formal"], "answer": 0,
+          "explain": "[[Ben là]], [[t'as]], dropped *ne* ([[c'est pas]]): typical familiar spoken French, here Québec-flavoured. Fine with a friend, not at a counter." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je regrette, mais votre billet n'est pas remboursable. Je peux toutefois vous proposer un crédit valable un an.", "en": "I'm sorry, but your ticket isn't refundable. However, I can offer you a credit valid for one year.", "prompt": "What does the agent offer?", "options": ["A one-year credit, but no refund", "A refund", "A new ticket for free"], "answer": 0,
+          "explain": "[[n'est pas remboursable]] = non-refundable; [[un crédit valable un an]]. ([[toutefois]] = however.)" }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Insist politely, and match the register to the situation.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ___, mais je dois absolument être à Calgary demain matin.", "answers": [["comprends"]], "choices": ["comprends", "compris", "comprendrai"], "en": "I understand, but I absolutely must be in Calgary tomorrow morning.",
+          "explain": "[[Je comprends, mais…]]: acknowledge, then restate your need." },
+        { "id": "r2", "type": "cloze", "text": "___-il possible de changer mon billet sans frais ?", "answers": [["Serait"]], "en": "Would it be possible to change my ticket at no charge?",
+          "explain": "[[Serait-il possible de]] + infinitive: conditionnel + inversion." },
+        { "id": "r3", "type": "cloze", "text": "Je me permets ___ insister : il doit bien y avoir une solution.", "answers": [["d'"]], "en": "I must insist: there must be a solution.",
+          "explain": "[[se permettre **de**]] → [[d']] before a vowel." },
+        { "id": "r4", "type": "mcq", "prompt": "The agent has said no twice. What is the best next step?", "optionsFr": true,
+          "options": ["Je comprends. Dans ce cas, j'aimerais parler à un responsable, s'il vous plaît.", "Vous êtes nul, je veux partir ce soir !", "Bon, ben, t'as pas une autre idée ?", "D'accord, merci, au revoir."], "answer": 0,
+          "optionFeedback": [null, "Insulting the agent ends the negotiation.", "Too familiar: tu and ben don't fit here.", "You give up too soon: there may be other options."] },
+        { "id": "r5", "type": "match", "prompt": "Match each familiar phrase with its formal equivalent.",
+          "pairs": [["Tu peux m'aider ?", "Pourriez-vous m'aider ?"], ["T'as une autre idée ?", "Y aurait-il une autre solution ?"], ["J'peux pas.", "Cela ne m'est pas possible."], ["Merci, t'es super.", "Je vous remercie de votre aide."]] },
+        { "id": "r6", "type": "translate", "prompt": "I'd like to speak to a manager, please.", "accept": ["J'aimerais parler à un responsable, s'il vous plaît.", "Je voudrais parler à un responsable, s'il vous plaît.", "J'aimerais parler à un superviseur, s'il vous plaît.", "Je voudrais parler à un superviseur, s'il vous plaît.", "Je souhaiterais parler à un responsable, s'il vous plaît."], "hint": "a manager = un responsable",
+          "explain": "[[J'aimerais / Je voudrais]] (conditionnel) + [[parler **à**]]." },
+        { "id": "r7", "type": "translate", "prompt": "My flight was cancelled and I missed my connection.", "accept": ["Mon vol a été annulé et j'ai raté ma correspondance.", "Mon vol a été annulé et j'ai manqué ma correspondance."], "hint": "passive + passé composé",
+          "explain": "Review: passive [[a été annulé]] (unit 5); [[rater / manquer]] une correspondance = to miss a connection." },
+        { "id": "r8", "type": "reorder", "prompt": "There must be a solution.", "accept": ["Il doit bien y avoir une solution"], "extra": ["faut"],
+          "explain": "[[Il doit y avoir]] = there must be; [[bien]] adds insistence." },
+        { "id": "r9", "type": "cloze", "text": "Si vous ne trouvez pas de solution, je ___ une plainte auprès de l'Office des transports du Canada. (déposer, futur)", "answers": [["déposerai"]], "en": "If you don't find a solution, I'll file a complaint with the Canadian Transportation Agency.",
+          "explain": "Review: si + present → futur: [[je déposerai]]. Firm, but still polite." },
+        { "id": "r10", "type": "dictation", "fr": "Je vous remercie de votre aide et de votre compréhension.", "accept": [],
+          "explain": "[[remercier quelqu'un **de** quelque chose]]: a formal closing." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Role-play: your train or flight to a job interview tomorrow morning has been cancelled. The agent offers you a trip the day after tomorrow. Insist politely at least three times with new ideas, then ask for a manager, and close graciously.", "seconds": 90,
+          "checklist": ["Je comprends, mais… + your reason", "Serait-il possible de… ? / Y aurait-il… ?", "Pourriez-vous vérifier encore une fois ?", "Je me permets d'insister / Je tiens à préciser que…", "J'aimerais parler à un responsable.", "Questions about a hotel, meals or compensation", "Neutral or formal register throughout", "Je vous remercie de votre compréhension."],
+          "models": [ { "label": "Model answer", "fr": "Après-demain ? Je comprends que ce n'est pas votre faute, mais j'ai une entrevue d'embauche demain à 10 h à Toronto. C'est très important pour moi. Serait-il possible de prendre un train plus tôt, ou un autobus ? … Je vois. Pourriez-vous vérifier encore une fois s'il y a de la place en classe affaires ? Je serais prête à payer la différence. … Je me permets d'insister : il doit bien y avoir une solution. Je tiens à préciser que j'ai acheté ce billet il y a deux mois. … Dans ce cas, j'aimerais parler à un responsable, s'il vous plaît. … Merci beaucoup, le train de 5 h 30, c'est parfait. Est-ce qu'il y aura une indemnisation pour l'annulation ? … Très bien. Je vous remercie de votre aide et de votre compréhension.", "en": "The day after tomorrow? I understand it's not your fault, but I have a job interview tomorrow at 10 a.m. in Toronto. It's very important to me. Would it be possible to take an earlier train, or a bus? … I see. Could you check again whether there's room in business class? I'd be willing to pay the difference. … I must insist: there must be a solution. I'd like to point out that I bought this ticket two months ago. … In that case, I'd like to speak to a manager, please. … Thank you very much, the 5:30 train is perfect. Will there be compensation for the cancellation? … Very good. Thank you for your help and your understanding." } ] },
+        { "id": "w1", "type": "write", "prompt": "Rewrite this angry text message to customer service in a neutral-to-formal register, keeping the same requests: « Salut, mon vol a été annulé hier, j'ai dormi à l'aéroport, c'est pas correct ! Je veux un remboursement de mes repas pis une indemnisation. Répondez-moi vite !!! »", "promptFr": "Réécrivez ce message dans un registre neutre ou soutenu.", "wordRange": [60, 110],
+          "checklist": ["A formal greeting (Madame, Monsieur,)", "Facts: flight, date, what happened", "No familiar markers (salut, pis, dropped ne, !!!)", "Serait-il possible de… ? or Je souhaiterais…", "Je tiens à préciser que…", "Je vous remercie de votre compréhension / de votre réponse rapide"],
+          "models": [ { "label": "Model answer", "fr": "Madame, Monsieur,\nMon vol 455 du 12 février, de Montréal à Vancouver, a été annulé. Comme aucun hôtel ne m'a été proposé, j'ai dû passer la nuit à l'aéroport. Je tiens à préciser que l'annulation n'était pas due à la météo.\nJe souhaiterais donc obtenir une indemnisation pour cette annulation. Serait-il possible également de me rembourser mes frais de repas, dont je joins les reçus ?\nJe vous remercie de votre compréhension et de votre réponse rapide.\nAmira Haddad", "en": "Dear Sir or Madam, My flight 455 on February 12th, from Montréal to Vancouver, was cancelled. As no hotel was offered to me, I had to spend the night at the airport. I would like to point out that the cancellation was not due to the weather. I would therefore like to obtain compensation for this cancellation. Would it also be possible to reimburse my meal expenses, for which I am attaching the receipts? Thank you for your understanding and your prompt reply. Amira Haddad" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Insist without being rude: [[Je comprends, mais…]], [[Serait-il possible de…?]], [[Je me permets d'insister.]], [[Je tiens à préciser que…]]\n- Escalate and close politely: [[J'aimerais parler à un responsable.]] [[Je vous remercie de votre compréhension.]]\n- Recognize and choose the register: familiar ([[t'as]], [[c'est pas]]), neutral ([[Vous pouvez…?]]) and formal ([[Pourriez-vous…?]], [[Y aurait-il…?]])",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced the subjunctive distractor 'comprenne' with 'compris'; made the angry message's requests match the model (meals + compensation); 'plainte à l'Office' → 'auprès de l'Office des transports du Canada'; clarified the -t- and register notes." }
+}

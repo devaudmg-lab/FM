@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-02-03",
+  "level": "b2",
+  "unit": "b2-02",
+  "title": "Formal and familiar registers",
+  "goal": "Recognize familiar, standard and formal French, and switch the same message from one register to another: vocabulary, questions, negation, pronouns and set phrases.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-registres", "kind": "grammar", "fr": "familier / courant / soutenu", "en": "the three registers: how grammar changes",
+      "drills": [
+        { "type": "mcq", "prompt": "Which question is in a formal (soutenu) register?", "options": ["Où vous trouvez-vous ?", "T'es où ?", "Tu es où ?", "Où est-ce que tu es ?"], "optionsFr": true, "answer": 0, "explain": "Formal French prefers **inversion** ([[vous trouvez-vous]]) and [[vous]]. [[T'es où ?]] is familiar; [[Où est-ce que tu es ?]] is standard." },
+        { "type": "cloze", "text": "Familier : « J'sais pas. » → Courant : « Je ___ sais pas. » → Soutenu : « Je l'___. »", "answers": [["ne"], ["ignore"]], "en": "I dunno. → I don't know. → I am not aware of it.", "explain": "Familiar French drops [[ne]]; standard keeps it; formal French often chooses a more precise verb: [[ignorer]] (not to know)." },
+        { "type": "translate", "prompt": "Rewrite in formal French: “Ça marche pas.”", "accept": ["Cela ne fonctionne pas.", "Ceci ne fonctionne pas."], "explain": "Formal: [[cela]] instead of [[ça]], [[ne… pas]] in full, and a precise verb ([[fonctionner]] rather than [[marcher]])." }
+      ] },
+    { "id": "registre", "kind": "vocab", "fr": "registre", "article": "un", "gender": "m", "en": "register (level of language)", "pos": "noun", "accept": ["le registre", "un niveau de langue"],
+      "example": { "fr": "Il faut adapter son registre à la situation.", "en": "You have to adapt your register to the situation." } },
+    { "id": "boulot", "kind": "vocab", "fr": "boulot", "article": "le", "gender": "m", "en": "work, job (informal)", "pos": "noun", "accept": ["un boulot", "la job", "une job"],
+      "example": { "fr": "J'ai trop de boulot cette semaine.", "en": "I've got way too much work this week." }, "note": "Standard: [[le travail]], [[un emploi]]. Québec informal: [[une job]] (feminine!)." },
+    { "id": "bosser", "kind": "vocab", "fr": "bosser", "en": "to work (informal)", "pos": "verb", "accept": ["travailler"] },
+    { "id": "bouffer", "kind": "vocab", "fr": "bouffer", "en": "to eat (informal)", "pos": "verb", "note": "Standard: [[manger]]. [[la bouffe]] = food (informal)." },
+    { "id": "etre-creve", "kind": "phrase", "fr": "être crevé", "en": "to be dead tired (informal)", "accept": ["être crevée", "être brûlé", "être brûlée"], "note": "Québec informal: [[être brûlé]] / [[être brûlée]]. Standard: [[être très fatigué]]; formal: [[être épuisé]]." },
+    { "id": "se-planter", "kind": "vocab", "fr": "se planter", "en": "to mess up, to get it wrong (informal)", "pos": "verb", "note": "Standard: [[se tromper]]; formal: [[commettre une erreur]]." },
+    { "id": "je-lignore", "kind": "phrase", "fr": "Je l'ignore.", "en": "I don't know (that). (formal)", "note": "[[ignorer]] = not to know. It does NOT mean *to ignore someone* (that's [[ne pas tenir compte de]] or [[faire comme si quelqu'un n'existait pas]])." },
+    { "id": "aucune-importance", "kind": "phrase", "fr": "Cela n'a aucune importance.", "en": "It doesn't matter at all. (formal)", "accept": ["Cela n'a pas d'importance."], "note": "Familiar: [[C'est pas grave.]] Standard: [[Ce n'est pas grave.]]" },
+    { "id": "veuillez", "kind": "phrase", "fr": "Veuillez + infinitif", "en": "Please… (formal written instruction)", "example": { "fr": "Veuillez m'excuser pour ce contretemps.", "en": "Please excuse me for this setback." } },
+    { "id": "dans-les-meilleurs-delais", "kind": "phrase", "fr": "dans les meilleurs délais", "en": "as soon as possible (formal)", "accept": ["dès que possible", "le plus tôt possible"] },
+    { "id": "reporter", "kind": "vocab", "fr": "reporter", "en": "to postpone", "pos": "verb", "accept": ["remettre à plus tard", "remettre"],
+      "example": { "fr": "Serait-il possible de reporter la réunion ?", "en": "Would it be possible to postpone the meeting?" } },
+    { "id": "tenir-informe", "kind": "phrase", "fr": "Je vous tiendrai informé.", "en": "I'll keep you informed. (formal)", "accept": ["Je vous tiendrai informée.", "Je vous tiendrai informés.", "Je vous tiendrai au courant."], "note": "[[informé]] agrees with the person you inform: [[informée]] to a woman, [[informés]] to several people." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "One problem, three registers",
+      "intro": "Persuading someone also means speaking **their** language. Karim has the same problem to announce to three different people. Compare the words, the questions, the negation and the length of each message.",
+      "blocks": [
+        { "type": "text", "title": "Karim's three messages",
+          "context": "Karim's car broke down on the highway, early in the morning. He can't make it to the 10 a.m. presentation. He writes to his friend Olivier, calls his colleague Mei, and emails his manager, Mme Bouchard.",
+          "fr": "1. Texto à Olivier (familier)\nSalut mon vieux ! Ma bagnole m'a lâché sur l'autoroute, j'suis coincé. Y a pas moyen d'aller au boulot ce matin. Tu peux passer me prendre ce soir ? Chuis crevé, j'te paie une bière. Merci, t'es le meilleur !\n\n2. Appel à Mei (courant)\nAllô Mei ? C'est Karim. Écoute, ma voiture est en panne sur l'autoroute et j'attends la dépanneuse. Je ne pourrai pas être là pour la présentation de 10 h. Est-ce que tu pourrais prévenir l'équipe ? Je t'envoie mes diapositives tout de suite. Merci beaucoup, je te revaudrai ça.\n\n3. Courriel à Mme Bouchard (soutenu)\nObjet : Absence à la présentation de ce matin\n\nMadame Bouchard,\n\nJe me permets de vous informer que mon véhicule est tombé en panne ce matin sur l'autoroute 40. Je suis donc dans l'impossibilité d'assister à la présentation prévue à 10 h.\n\nJ'ai transmis mes documents à ma collègue Mei Lin, qui pourra en présenter les grandes lignes. Serait-il possible de reporter mon intervention à jeudi ? Je reste bien entendu à votre disposition pour toute question.\n\nVeuillez m'excuser pour ce contretemps. Je vous tiendrai informée de mon arrivée dans les meilleurs délais.\n\nCordialement,\n\nKarim Benali",
+          "en": "1. Text to Olivier (familiar)\nHey buddy! My car died on me on the highway, I'm stuck. No way I'm getting to work this morning. Can you come pick me up tonight? I'm wiped out, I'll buy you a beer. Thanks, you're the best!\n\n2. Call to Mei (standard)\nHello Mei? It's Karim. Listen, my car has broken down on the highway and I'm waiting for the tow truck. I won't be able to be there for the 10 a.m. presentation. Could you let the team know? I'm sending you my slides right away. Thanks a lot, I owe you one.\n\n3. Email to Ms. Bouchard (formal)\nSubject: Absence from this morning's presentation\n\nMs. Bouchard,\n\nI am writing to inform you that my vehicle broke down this morning on Highway 40. I am therefore unable to attend the presentation scheduled for 10 a.m.\n\nI have sent my documents to my colleague Mei Lin, who will be able to present the main points. Would it be possible to postpone my presentation to Thursday? I of course remain at your disposal for any questions.\n\nPlease excuse me for this setback. I will keep you informed of my arrival as soon as possible.\n\nKind regards,\n\nKarim Benali" },
+        { "type": "dialogue", "title": "A voicemail from Montréal",
+          "context": "That evening, Olivier, who grew up in Montréal, leaves Karim a voicemail in very informal Québec French.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Hé, salut Karim, c'est Olivier ! Ton char a encore lâché ? Pauvre toi, t'es pas chanceux pantoute avec c't'auto-là.", "en": "Hey, hi Karim, it's Olivier! Your car died again? Poor you, you're not lucky at all with that car." },
+            { "speaker": "Olivier", "fr": "Inquiète-toi pas, je finis ma job à cinq heures, pis je passe te chercher après. Ça me tente pas de te laisser poireauter là.", "en": "Don't worry, I finish work at five, and then I'll come and get you after. I don't feel like leaving you hanging around there." },
+            { "speaker": "Olivier", "fr": "Pis la bière, je la prends, mais c'est moi qui choisis la place ! Bon, ben, à tantôt !", "en": "And the beer, I'll take it, but I'm choosing the place! OK, well, see you later!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "In the formal email, how does Karim say “I can't come”?", "options": ["Je suis donc dans l'impossibilité d'assister à la présentation.", "Y a pas moyen d'aller au boulot.", "Je ne pourrai pas être là.", "J'suis coincé."], "optionsFr": true, "answer": 0,
+          "explain": "Formal French often uses **nouns** and set phrases: [[être dans l'impossibilité de]] instead of [[ne pas pouvoir]]." },
+        { "id": "d2", "type": "mcq", "prompt": "In Olivier's voicemail, what does “pantoute” mean?", "options": ["not at all", "always", "a lot", "again"], "answer": 0,
+          "explain": "[[pantoute]] (from *pas en tout*) is informal Québec French for [[pas du tout]]." }
+      ] },
+    { "type": "understand", "title": "Switching register",
+      "intro": "A register isn't “good” or “bad” French: each one is right **in its context**. B2 means being able to choose, and to switch.",
+      "blocks": [
+        { "type": "table", "title": "Equivalents: familier, courant, soutenu",
+          "head": ["Familier", "Courant", "Soutenu", "English"],
+          "rows": [
+            ["une bagnole (FR) / un char (QC)", "une voiture", "un véhicule", "car"],
+            ["le boulot / une job (QC)", "le travail", "un emploi, un poste", "work, job"],
+            ["bosser", "travailler", "exercer ses fonctions", "to work"],
+            ["le fric (FR)", "l'argent", "les fonds, les moyens financiers", "money"],
+            ["bouffer", "manger", "se restaurer", "to eat"],
+            ["être crevé / être brûlé (QC)", "être très fatigué", "être épuisé", "to be exhausted"],
+            ["se planter", "se tromper", "commettre une erreur", "to get it wrong"],
+            ["piger (FR)", "comprendre", "saisir", "to understand"],
+            ["un truc", "une chose", "un élément", "a thing"],
+            ["c'est pas grave", "ce n'est pas grave", "cela n'a aucune importance", "it doesn't matter"],
+            ["j'sais pas", "je ne sais pas", "je l'ignore", "I don't know"],
+            ["y a pas moyen", "ce n'est pas possible", "je suis dans l'impossibilité de…", "it's impossible"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": false,
+          "note": "Familiar words are often regional: [[le fric]] and [[piger]] sound very French from France; [[un char]] and [[une job]] sound very Québécois." },
+        { "type": "table", "title": "Grammar changes too",
+          "head": ["Feature", "Familier", "Courant", "Soutenu"],
+          "rows": [
+            ["Questions", "T'es où ?", "Où est-ce que tu es ?", "Où vous trouvez-vous ?"],
+            ["Negation", "J'sais pas.", "Je ne sais pas.", "Je l'ignore."],
+            ["Pronouns", "on, ça, tu", "on / nous, ça / cela", "nous, cela, vous"],
+            ["Contractions", "t'es, y a, j'suis", "tu es, il y a, je suis", "no contractions"],
+            ["Requests", "Tu peux… ?", "Est-ce que tu pourrais… ?", "Serait-il possible de… ? / Veuillez…"],
+            ["Sentences", "short, fragments", "complete", "longer, with nouns (l'impossibilité, la réception)"]
+          ],
+          "frCols": [1, 2, 3], "sayCol": false },
+        { "type": "explain", "title": "How to move up a register",
+          "body": "To make a message more formal, run through this checklist:\n\n- **Restore the full grammar:** [[ne… pas]], [[il y a]], [[je suis]].\n- **Replace [[ça]] by [[cela]]** and, often, [[on]] by [[nous]].\n- **Use inversion or the conditional** for questions and requests: [[Pourriez-vous… ?]], [[Serait-il possible de… ?]]\n- **Choose precise verbs:** [[marcher]] → [[fonctionner]]; [[avoir]] → [[disposer de]]; [[dire]] → [[informer]].\n- **Use nouns:** [[je ne peux pas venir]] → [[je suis dans l'impossibilité de venir]].\n- **Add the set phrases:** [[Je me permets de…]], [[Veuillez…]], [[Je reste à votre disposition]].\n\nTo go down a register, do the opposite, but carefully: overusing slang as a learner can sound strange. Use the familiar register mainly to **understand**, and use it sparingly yourself." },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["registre", "boulot", "bosser", "bouffer", "etre-creve", "se-planter", "je-lignore", "aucune-importance", "veuillez", "dans-les-meilleurs-delais", "reporter", "tenir-informe"] },
+        { "type": "deepdive", "kind": "canada", "title": "Québec familiar French and the tu question",
+          "body": "In informal Québec French you'll hear: [[un char]] (car), [[une job]] (feminine), [[mon chum]] / [[ma blonde]] (boyfriend / girlfriend), [[pogner]] (to catch, to get), [[être tanné]] (to be fed up), [[c'est plate]] (it's boring), [[pantoute]] (not at all), [[à tantôt]] (see you later), [[pis]] (and then), and the question particle [[-tu]]: [[Tu viens-tu ?]] (Are you coming?).\n\nThe imperative is often reversed: [[Inquiète-toi pas]] instead of [[Ne t'inquiète pas]].\n\nIn Québec workplaces, people switch to [[tu]] with colleagues, and sometimes with managers, much faster than in France. Tip: start with [[vous]] and let the other person propose [[tu]] ([[On peut se tutoyer ?]]). In formal emails, always use [[vous]]." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Register mismatches",
+          "body": "- **Mixing registers in one message:** [[Veuillez me dire c'est quoi le problème.]] ✗ → [[Pourriez-vous m'indiquer quel est le problème ?]] ✓\n- **Familiar words in an exam:** [[boulot]], [[bagnole]], [[fric]], [[truc]] cost points in a formal TEF or TCF writing task.\n- **Too formal with friends:** [[Je me permets de t'informer que je suis dans l'impossibilité de venir]] in a text to a friend sounds cold or ironic.\n- [[ignorer]] ≠ *to ignore*: [[J'ignore son adresse]] = I don't know his address.\n- [[Cordialement]] closes a professional email; never use it with friends ([[Bises]], [[À plus]], [[Bonne soirée]]).\n- [[une job]] (Québec) vs [[un job]] (France): both exist, but be consistent." }
+      ] },
+    { "type": "hear", "title": "Hear the register",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Listen to how the rhythm changes: familiar French is fast and swallows sounds; formal French is slower and fully pronounced.",
+          "lines": [
+            { "fr": "J'sais pas, y a pas moyen.", "en": "Dunno, no way. (familiar)", "tip": "[[J'sais]] sounds like [ʃe]." },
+            { "fr": "Je ne sais pas, ce n'est pas possible.", "en": "I don't know, it's not possible. (standard)" },
+            { "fr": "Je l'ignore. Je suis dans l'impossibilité de venir.", "en": "I don't know. I am unable to come. (formal)" },
+            { "fr": "T'es où ?", "en": "Where are you? (familiar)", "tip": "[[T'es]] [te]." },
+            { "fr": "Où vous trouvez-vous ?", "en": "Where are you? (formal)" },
+            { "fr": "Serait-il possible de reporter la réunion ?", "en": "Would it be possible to postpone the meeting? (formal)" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Chuis crevé, j'ai bossé toute la fin de semaine, pis là, y faut que je retourne au boulot demain.", "en": "I'm wiped out, I worked all weekend, and now I have to go back to work tomorrow.", "prompt": "What register is this?", "options": ["Familiar", "Standard", "Formal", "Literary"], "answer": 0,
+          "explain": "[[Chuis]], [[crevé]], [[bossé]], [[pis]], [[y faut]], [[boulot]]: all familiar markers." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je me permets de vous relancer au sujet de ma demande. Pourriez-vous m'indiquer si un rendez-vous serait possible cette semaine ?", "en": "I'm taking the liberty of following up on my request. Could you tell me whether an appointment would be possible this week?", "prompt": "Who is the speaker probably talking to?", "options": ["An office or an official they don't know", "A close friend", "Their child", "A pet"], "answer": 0,
+          "explain": "[[Je me permets de…]], [[vous]], inversion [[Pourriez-vous]], conditional: a formal register for someone you don't know." }
+      ] },
+    { "type": "recall", "title": "Switch from memory",
+      "intro": "Nine questions. Think: who am I talking to?",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each familiar word with its formal equivalent.", "pairs": [["une bagnole", "un véhicule"], ["le boulot", "un emploi"], ["le fric", "les fonds"], ["bouffer", "se restaurer"], ["se planter", "commettre une erreur"]] },
+        { "id": "r2", "type": "translate", "prompt": "Rewrite in standard French: “J'sais pas c'est où.”", "accept": ["Je ne sais pas où c'est.", "Je ne sais pas où c'est situé.", "Je ne sais pas où cela se trouve.", "Je ne sais pas où ça se trouve."],
+          "explain": "Restore [[ne]], and in standard French put the question word before [[c'est]]: [[où c'est]], not [[c'est où]] in an indirect question." },
+        { "id": "r3", "type": "cloze", "text": "___-il possible de reporter la réunion à jeudi ?", "answers": [["Serait"]], "en": "Would it be possible to postpone the meeting to Thursday?",
+          "explain": "Conditional + inversion: the classic formal request." },
+        { "id": "r4", "type": "mcq", "prompt": "Which closing is right for an email to a manager?", "options": ["Cordialement,", "Bises !", "À plus !", "Salut !"], "optionsFr": true, "answer": 0,
+          "explain": "[[Cordialement]] is the standard professional closing in Canada and France." },
+        { "id": "r5", "type": "translate", "prompt": "Please excuse me for this setback. (formal email)", "accept": ["Veuillez m'excuser pour ce contretemps.", "Veuillez m'excuser de ce contretemps.", "Je vous prie de m'excuser pour ce contretemps.", "Je vous prie de m'excuser de ce contretemps.", "Veuillez excuser ce contretemps."],
+          "explain": "[[Veuillez + infinitif]] is the formal written way to say *please*." },
+        { "id": "r6", "type": "cloze", "text": "Familier : « Ça marche pas. » → Soutenu : « ___ ne fonctionne pas. »", "answers": [["Cela"]], "en": "It doesn't work.",
+          "explain": "[[ça]] → [[cela]] in formal writing." },
+        { "id": "r7", "type": "reorder", "prompt": "I will keep you informed of what happens next. (writing to a man)", "accept": ["Je vous tiendrai informé de la suite"], "extra": ["te", "tient"],
+          "explain": "[[tenir informé]] in the future: [[je vous tiendrai]]. [[informé]] agrees with [[vous]], the person informed: writing to a woman, use [[informée]]." },
+        { "id": "r8", "type": "mcq", "prompt": "“J'ignore son numéro.” means:", "options": ["I don't know his/her number.", "I ignore his/her number.", "I forgot his/her number.", "I refuse his/her number."], "answer": 0,
+          "explain": "[[ignorer]] = not to know. A classic false friend." },
+        { "id": "r9", "type": "dictation", "fr": "Je suis dans l'impossibilité d'assister à la réunion prévue à 10 h.", "accept": ["Je suis dans l'impossibilité d'assister à la réunion prévue à dix heures."], "explain": "Formal: [[être dans l'impossibilité de]] + infinitive; [[prévue]] agrees with [[la réunion]]." }
+      ] },
+    { "type": "apply", "title": "Your turn: one message, two registers",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You're sick today. Leave two voicemails (about 30 seconds each): one to a close friend who invited you to dinner tonight, and one to your landlord, whom you were supposed to meet this evening to sign your lease renewal.", "promptFr": "Laissez deux messages vocaux : à un(e) ami(e), puis à votre propriétaire.", "seconds": 60,
+          "checklist": ["Friend: tu, informal words, short sentences", "Landlord: vous, full negation, a formal request (Serait-il possible de… ?)", "The same information in both: sick, can't come, propose a new time", "A suitable closing in each"],
+          "models": [
+            { "label": "Model answer", "fr": "Message 1 : Salut Lucie, c'est moi ! Écoute, je suis malade comme un chien, j'ai de la fièvre depuis ce matin. Je ne vais pas pouvoir venir ce soir, je suis vraiment désolée. On se reprend la semaine prochaine ? Je t'appelle demain. Bisous !\n\nMessage 2 : Bonjour Monsieur Tremblay, ici Sofia Rossi, du quatrième étage. Je suis malheureusement souffrante et je ne pourrai pas vous rencontrer ce soir pour la signature du bail. Serait-il possible de reporter notre rendez-vous à jeudi, à l'heure qui vous convient ? Vous pouvez me rappeler à ce numéro. Merci de votre compréhension, et bonne soirée.", "en": "Message 1: Hi Lucie, it's me! Listen, I'm sick as a dog, I've had a fever since this morning. I won't be able to come tonight, I'm really sorry. Shall we do it again next week? I'll call you tomorrow. Kisses!\n\nMessage 2: Hello Mr. Tremblay, this is Sofia Rossi, from the 4th floor. Unfortunately I'm unwell and won't be able to meet you tonight to sign the lease. Would it be possible to postpone our appointment to Thursday, at a time that suits you? You can call me back at this number. Thank you for your understanding, and have a good evening." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Your child's school trip needs a volunteer parent on Friday, and you'd like to take the day off. Write (1) a text to your partner or a friend to ask them to pick up your other child after school, and (2) a formal email to your manager asking for the day off.", "promptFr": "Écrivez un texto informel, puis un courriel formel à votre gestionnaire.",
+          "wordRange": [120, 180],
+          "checklist": ["Text: tu, informal tone, short", "Email: subject line, Madame / Monsieur, vous", "Email: Je me permets de…, a conditional request, Veuillez or Je reste à votre disposition", "Email: Cordialement + your name", "No familiar words in the email"],
+          "models": [
+            { "label": "Model answer", "fr": "Texto :\nCoucou ! Vendredi, je vais accompagner la sortie de classe de Léa au Biodôme. Tu pourrais aller chercher Noah à l'école à 15 h 30 ? T'es un ange, merci !\n\nCourriel :\nObjet : Demande de congé le vendredi 20 novembre\n\nMadame Gagnon,\n\nJe me permets de vous écrire afin de solliciter une journée de congé le vendredi 20 novembre. L'école de ma fille organise une sortie éducative et a besoin de parents accompagnateurs.\n\nJ'ai vérifié mon agenda : je n'ai aucune réunion ce jour-là, et mon collègue Raj a accepté de répondre à mes appels urgents. Je terminerai par ailleurs le rapport mensuel d'ici jeudi.\n\nSerait-il possible de m'accorder ce congé ? Je reste à votre disposition pour en discuter.\n\nCordialement,\n\nAmira Haddad", "en": "Text:\nHi! On Friday, I'm going to help with Léa's class trip to the Biodôme. Could you pick up Noah from school at 3:30? You're an angel, thanks!\n\nEmail:\nSubject: Request for leave on Friday, November 20\n\nMs. Gagnon,\n\nI am writing to request a day off on Friday, November 20. My daughter's school is organizing an educational outing and needs accompanying parents.\n\nI have checked my schedule: I have no meetings that day, and my colleague Raj has agreed to answer my urgent calls. In addition, I will finish the monthly report by Thursday.\n\nWould it be possible to grant me this day off? I remain at your disposal to discuss it.\n\nKind regards,\n\nAmira Haddad" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Recognize three registers: familier ([[bagnole]], [[boulot]], [[j'sais pas]]), courant ([[voiture]], [[travail]]), soutenu ([[véhicule]], [[emploi]], [[je l'ignore]])\n- Switch register with grammar: negation, [[ça / cela]], inversion, conditional requests\n- Use formal set phrases: [[Je me permets de…]], [[Veuillez…]], [[dans les meilleurs délais]], [[Je vous tiendrai informé]]\n- Understand common Québec familiar forms ([[char]], [[pantoute]], [[pis]], [[à tantôt]])",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced the odd 'tenir informé dans les meilleurs délais' in the reorder exercise, fixed a contradictory speaking prompt, and corrected a weekday/date mismatch in the model email. Agreement of informé(e) checked." }
+}

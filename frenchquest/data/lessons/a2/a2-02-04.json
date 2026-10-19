@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-02-04",
+  "level": "a2",
+  "unit": "a2-02",
+  "title": "Sequencing a day out",
+  "goal": "Tell the story of a day out in order with d'abord, ensuite, puis, après ça and enfin, choosing avoir or être for each verb.",
+  "minutes": 13,
+  "items": [
+    {
+      "id": "g-sequencing",
+      "kind": "grammar",
+      "fr": "d'abord, ensuite, puis, enfin",
+      "en": "sequencing connectors in a past story",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "___, nous sommes allés au Parlement. Ensuite, on a mangé.",
+          "answers": [
+            [
+              "D'abord"
+            ]
+          ],
+          "choices": [
+            "D'abord",
+            "Enfin",
+            "Ensuite"
+          ],
+          "en": "First, we went to Parliament. Then we ate.",
+          "explain": "[[D'abord]] = first. It starts the story."
+        },
+        {
+          "type": "cloze",
+          "text": "On a visité le musée, ___ on a pris un café.",
+          "answers": [
+            [
+              "puis"
+            ]
+          ],
+          "choices": [
+            "puis",
+            "d'abord",
+            "enfin"
+          ],
+          "en": "We visited the museum, then we had a coffee.",
+          "explain": "[[puis]] = then; it often links two actions in the same sentence."
+        },
+        {
+          "type": "mcq",
+          "prompt": "“We waited for two hours, but in the end the show was cancelled.” Which word fits “in the end”?",
+          "options": [
+            "finalement",
+            "d'abord",
+            "puis"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[finalement]] = in the end, eventually (often a result or a change of plan)."
+        }
+      ]
+    },
+    {
+      "id": "g-aux-choice",
+      "kind": "grammar",
+      "fr": "j'ai visité / je suis allé / je me suis promené",
+      "en": "choosing avoir or être in a story",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Le matin, je ___ allée au marché et j'___ acheté des cerises.",
+          "answers": [
+            [
+              "suis"
+            ],
+            [
+              "ai"
+            ]
+          ],
+          "en": "In the morning I went to the market and bought cherries. (woman speaking)",
+          "explain": "aller → être; acheter → avoir."
+        },
+        {
+          "type": "cloze",
+          "text": "L'après-midi, nous nous ___ reposés, puis nous ___ sortis.",
+          "answers": [
+            [
+              "sommes"
+            ],
+            [
+              "sommes"
+            ]
+          ],
+          "en": "In the afternoon we rested, then we went out.",
+          "explain": "Reflexive → être; sortir → être. Both use sommes."
+        },
+        {
+          "type": "translate",
+          "prompt": "We visited the museum and then we went home. (use nous; a mixed group)",
+          "accept": [
+            "Nous avons visité le musée et puis nous sommes rentrés.",
+            "Nous avons visité le musée puis nous sommes rentrés.",
+            "Nous avons visité le musée et ensuite nous sommes rentrés.",
+            "Nous avons visité le musée ensuite nous sommes rentrés.",
+            "Nous avons visité le musée et après nous sommes rentrés.",
+            "Nous avons visité le musée, puis nous sommes rentrés.",
+            "Nous avons visité le musée, ensuite nous sommes rentrés.",
+            "Nous avons visité le musée, après ça nous sommes rentrés.",
+            "Nous avons visité le musée et puis nous sommes rentrés à la maison.",
+            "Nous avons visité le musée puis nous sommes rentrés à la maison.",
+            "Nous avons visité le musée et ensuite nous sommes rentrés à la maison.",
+            "Nous avons visité le musée ensuite nous sommes rentrés à la maison."
+          ],
+          "explain": "visiter → avoir; rentrer → être (rentrés, masculine plural)."
+        }
+      ]
+    },
+    {
+      "id": "d-abord",
+      "kind": "vocab",
+      "fr": "d'abord",
+      "en": "first, first of all",
+      "pos": "adverb"
+    },
+    {
+      "id": "ensuite",
+      "kind": "vocab",
+      "fr": "ensuite",
+      "en": "next, then (starting a new step)",
+      "pos": "adverb"
+    },
+    {
+      "id": "puis",
+      "kind": "vocab",
+      "fr": "puis",
+      "en": "then (linking two actions)",
+      "pos": "adverb",
+      "accept": [
+        "et puis"
+      ]
+    },
+    {
+      "id": "apres-ca",
+      "kind": "phrase",
+      "fr": "après ça",
+      "en": "after that",
+      "accept": [
+        "après cela",
+        "après"
+      ]
+    },
+    {
+      "id": "vers-midi",
+      "kind": "phrase",
+      "fr": "vers midi",
+      "en": "around noon"
+    },
+    {
+      "id": "plus-tard",
+      "kind": "phrase",
+      "fr": "plus tard",
+      "en": "later"
+    },
+    {
+      "id": "enfin",
+      "kind": "vocab",
+      "fr": "enfin",
+      "en": "finally, at last (the last step)",
+      "pos": "adverb",
+      "accept": [
+        "pour finir"
+      ]
+    },
+    {
+      "id": "finalement",
+      "kind": "vocab",
+      "fr": "finalement",
+      "en": "in the end, eventually",
+      "pos": "adverb"
+    },
+    {
+      "id": "feu-artifice",
+      "kind": "vocab",
+      "fr": "feu d'artifice",
+      "article": "le",
+      "gender": "m",
+      "en": "fireworks",
+      "pos": "noun",
+      "accept": [
+        "les feux d'artifice"
+      ],
+      "example": {
+        "fr": "On a regardé le feu d'artifice.",
+        "en": "We watched the fireworks."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Canada Day in Ottawa",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "Raj's blog: “Our first Canada Day”",
+          "fr": "Le premier juillet, ma femme Priya et moi, nous sommes allés à Ottawa pour la fête du Canada.\nD'abord, nous sommes partis de Montréal à sept heures et nous sommes arrivés à Ottawa vers neuf heures et demie. Il y a eu beaucoup de circulation !\nEnsuite, nous sommes montés sur la colline du Parlement pour voir le spectacle. Il y a eu des chanteurs, des danseurs et des avions dans le ciel.\nVers midi, nous sommes descendus au Marché By et nous avons mangé une queue de castor, bien sûr. Puis, nous avons traversé le pont pour aller à Gatineau, au Musée canadien de l'histoire.\nAprès ça, nous nous sommes reposés au bord de la rivière. Plus tard, il a commencé à pleuvoir, mais finalement, la pluie s'est arrêtée à 21 h.\nEnfin, à 22 h, nous avons regardé le feu d'artifice. Nous sommes rentrés à deux heures du matin, très fatigués mais très contents !",
+          "en": "On July 1st, my wife Priya and I went to Ottawa for Canada Day. First, we left Montréal at seven and arrived in Ottawa around nine thirty. There was a lot of traffic! Next, we went up Parliament Hill to see the show. There were singers, dancers and planes in the sky. Around noon, we went down to the ByWard Market and ate a BeaverTail, of course. Then we crossed the bridge to go to Gatineau, to the Canadian Museum of History. After that, we rested by the river. Later, it started to rain, but in the end the rain stopped at 9 p.m. Finally, at 10 p.m., we watched the fireworks. We got home at two in the morning, very tired but very happy!"
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "What did Raj and Priya do right after lunch?",
+          "options": [
+            "They crossed the bridge to the museum in Gatineau.",
+            "They watched the fireworks.",
+            "They went up Parliament Hill."
+          ],
+          "answer": 0,
+          "explain": "[[Puis, nous avons traversé le pont pour aller à Gatineau.]] Parliament Hill was before lunch; the fireworks were at the end."
+        },
+        {
+          "id": "d2",
+          "type": "mcq",
+          "prompt": "What does “finalement, la pluie s'est arrêtée” mean here?",
+          "options": [
+            "In the end, the rain stopped.",
+            "Finally, at last, the rain started.",
+            "First the rain stopped."
+          ],
+          "answer": 0,
+          "explain": "[[finalement]] = in the end. [[s'arrêter]] = to stop (reflexive → être, and [[pluie]] is feminine → [[arrêtée]])."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Putting events in order",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Sequencing words",
+          "head": [
+            "Word",
+            "Meaning",
+            "Typical use"
+          ],
+          "rows": [
+            [
+              "d'abord",
+              "first",
+              "the first step"
+            ],
+            [
+              "ensuite",
+              "next, then",
+              "a new step, often at the start of a sentence"
+            ],
+            [
+              "puis / et puis",
+              "then",
+              "links two actions, often in one sentence"
+            ],
+            [
+              "après, après ça",
+              "afterwards, after that",
+              "a new step; après + noun: après le dîner"
+            ],
+            [
+              "plus tard",
+              "later",
+              "a jump in time"
+            ],
+            [
+              "vers midi, vers 15 h",
+              "around noon, around 3 p.m.",
+              "an approximate time"
+            ],
+            [
+              "finalement",
+              "in the end, eventually",
+              "a result, often after a problem"
+            ],
+            [
+              "enfin",
+              "finally, at last",
+              "the very last step"
+            ]
+          ],
+          "frCols": [
+            0
+          ],
+          "sayCol": true,
+          "note": "Don't use the same word every time: [[d'abord… ensuite… puis… après ça… enfin]] makes your story sound organized and natural."
+        },
+        {
+          "type": "pattern",
+          "title": "A story frame",
+          "pattern": "D'abord, … Ensuite, … Puis … Après ça, … Enfin, …",
+          "note": "Put the connector at the **start** of the sentence, usually followed by a comma. [[puis]] can also sit in the middle: [[On a mangé, puis on est partis.]]",
+          "examples": [
+            {
+              "fr": "D'abord, je suis allé à la banque.",
+              "en": "First, I went to the bank."
+            },
+            {
+              "fr": "Ensuite, j'ai pris le métro jusqu'au centre-ville.",
+              "en": "Then I took the metro downtown."
+            },
+            {
+              "fr": "J'ai acheté un cadeau, puis je suis rentré.",
+              "en": "I bought a present, then I went home."
+            },
+            {
+              "fr": "Enfin, je me suis couché à minuit.",
+              "en": "Finally, I went to bed at midnight."
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Avoir or être? A quick decision",
+          "body": "In a real story, you switch helper verbs all the time. Check each verb in this order:\n\n1. **Is it reflexive** ([[se lever, se reposer, s'arrêter…]])? → **être**\n2. **Is it in the house of être** ([[aller, venir, partir, arriver, monter, descendre, rester, rentrer, tomber, naître…]])? → **être**, and make it agree\n3. **Everything else** → **avoir**, no agreement with the subject\n\nAnd a useful past form: [[il y a eu]] = *there was / there were* (an event): [[Il y a eu un spectacle]], [[Il y a eu beaucoup de circulation]]. One more irregular participle: [[vouloir → voulu]], as in [[On a voulu sortir]] (we wanted to go out)."
+        },
+        {
+          "type": "vocab",
+          "title": "New words",
+          "itemIds": [
+            "d-abord",
+            "ensuite",
+            "puis",
+            "enfin",
+            "finalement",
+            "feu-artifice"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Enfin vs finalement:** [[enfin]] = the last step, or *at last!* ([[Enfin, tu es là !]]). [[finalement]] = *in the end*, after a change: [[On a voulu sortir, mais finalement, on est restés à la maison.]] English *finally* covers both.\n- **Premièrement** (firstly) exists, but in a story about your day, [[d'abord]] is far more natural.\n- **Après + verb:** [[Après manger]] is informal. At A2, say [[Après le dîner]] or [[Après ça]].\n- **Alors is not a sequencing word:** in a story, [[alors]] usually means *so* (a consequence): [[Il a plu, alors on est rentrés.]] For the next step, use [[ensuite]] or [[puis]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Ottawa and Gatineau",
+          "body": "Ottawa (Ontario) and Gatineau (Québec) face each other across the [[rivière des Outaouais]] (Ottawa River). Many people live in one city and work in the other, and you hear both French and English everywhere. On the Québec side, the region is called [[l'Outaouais]]; the whole area on both sides of the river is the National Capital Region ([[la région de la capitale nationale]]).\n\n[[La fête du Canada]] is on July 1st. In Québec, [[la Fête nationale]] (Saint-Jean-Baptiste) is on June 24, and July 1st is also the traditional [[jour du déménagement]] (moving day), when many leases end!"
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Follow the story",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "lines": [
+            {
+              "fr": "D'abord, nous sommes partis à sept heures.",
+              "en": "First, we left at seven."
+            },
+            {
+              "fr": "Ensuite, nous sommes montés sur la colline du Parlement.",
+              "en": "Next, we went up Parliament Hill."
+            },
+            {
+              "fr": "Vers midi, on a mangé au Marché By.",
+              "en": "Around noon, we ate at the ByWard Market."
+            },
+            {
+              "fr": "Après ça, on s'est reposés au bord de la rivière.",
+              "en": "After that, we rested by the river."
+            },
+            {
+              "fr": "Enfin, on a regardé le feu d'artifice.",
+              "en": "Finally, we watched the fireworks."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "D'abord, je suis allée à la pharmacie. Ensuite, j'ai fait l'épicerie. Enfin, je suis passée à la banque.",
+          "en": "First, I went to the pharmacy. Next, I did the groceries. Finally, I stopped by the bank.",
+          "prompt": "Where did she go last?",
+          "options": [
+            "The bank",
+            "The pharmacy",
+            "The grocery store"
+          ],
+          "answer": 0,
+          "explain": "[[Enfin, je suis passée à la banque.]] [[Enfin]] marks the last step."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "On a voulu faire du vélo, mais il a plu. Finalement, on est allés au cinéma.",
+          "en": "We wanted to go cycling, but it rained. In the end, we went to the movies.",
+          "prompt": "What did they do in the end?",
+          "options": [
+            "They went to the movies.",
+            "They went cycling in the rain.",
+            "They stayed home."
+          ],
+          "answer": 0,
+          "explain": "[[Finalement]] = in the end, after a change of plan: [[on est allés au cinéma]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Order the events, then pick the right helper verb.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "In Raj's blog, what happened first?",
+          "options": [
+            "They left Montréal at seven.",
+            "They ate a BeaverTail.",
+            "They watched the fireworks.",
+            "They rested by the river."
+          ],
+          "answer": 0,
+          "explain": "[[D'abord, nous sommes partis de Montréal à sept heures.]]"
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "D'abord, je ___ ___ à huit heures. Ensuite, j'___ pris le bus. (se lever)",
+          "answers": [
+            [
+              "me suis"
+            ],
+            [
+              "levé",
+              "levée"
+            ],
+            [
+              "ai"
+            ]
+          ],
+          "en": "First, I got up at eight. Then I took the bus.",
+          "explain": "Reflexive → [[je me suis levé]] (or [[levée]]). prendre → avoir: [[j'ai pris]]."
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "On a voulu aller à la plage, mais il a fait froid. ___, on est restés à la maison.",
+          "answers": [
+            [
+              "Finalement"
+            ]
+          ],
+          "choices": [
+            "Finalement",
+            "D'abord",
+            "Puis"
+          ],
+          "en": "We wanted to go to the beach, but it was cold. In the end, we stayed home.",
+          "explain": "A change of plan → [[finalement]] (in the end)."
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "First, we went to the market. Then we ate at a restaurant. (use on; a mixed group)",
+          "accept": [
+            "D'abord, on est allés au marché. Ensuite, on a mangé au restaurant.",
+            "D'abord, on est allés au marché. Ensuite, on a mangé dans un restaurant.",
+            "D'abord, on est allés au marché. Puis, on a mangé au restaurant.",
+            "D'abord, on est allés au marché. Puis, on a mangé dans un restaurant.",
+            "D'abord, on est allés au marché. Après ça, on a mangé au restaurant.",
+            "D'abord, on est allés au marché. Après ça, on a mangé dans un restaurant.",
+            "D'abord, on est allé au marché. Ensuite, on a mangé au restaurant.",
+            "D'abord, on est allé au marché. Ensuite, on a mangé dans un restaurant.",
+            "D'abord, on est allé au marché. Puis, on a mangé au restaurant.",
+            "D'abord, on est allé au marché. Puis, on a mangé dans un restaurant.",
+            "D'abord, on est allé au marché. Après ça, on a mangé au restaurant.",
+            "D'abord, on est allé au marché. Après ça, on a mangé dans un restaurant.",
+            "D'abord, nous sommes allés au marché. Ensuite, nous avons mangé au restaurant.",
+            "D'abord, nous sommes allés au marché. Ensuite, nous avons mangé dans un restaurant.",
+            "D'abord, nous sommes allés au marché. Puis, nous avons mangé au restaurant.",
+            "D'abord, nous sommes allés au marché. Puis, nous avons mangé dans un restaurant.",
+            "D'abord, nous sommes allés au marché. Après ça, nous avons mangé au restaurant.",
+            "D'abord, nous sommes allés au marché. Après ça, nous avons mangé dans un restaurant."
+          ],
+          "explain": "aller → être ([[on est allés]]); manger → avoir ([[on a mangé]])."
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "Then we crossed the bridge.",
+          "accept": [
+            "Ensuite nous avons traversé le pont.",
+            "Nous avons ensuite traversé le pont."
+          ],
+          "extra": [
+            "sommes"
+          ],
+          "explain": "traverser is not an être verb: [[nous avons traversé]]."
+        },
+        {
+          "id": "r6",
+          "type": "cloze",
+          "text": "Vers midi, Priya ___ ___ au Marché By. (descendre)",
+          "answers": [
+            [
+              "est"
+            ],
+            [
+              "descendue"
+            ]
+          ],
+          "en": "Around noon, Priya went down to the ByWard Market.",
+          "explain": "descendre → être; Priya is a woman → descendue."
+        },
+        {
+          "id": "r7",
+          "type": "match",
+          "prompt": "Match the connectors.",
+          "pairs": [
+            [
+              "d'abord",
+              "first"
+            ],
+            [
+              "ensuite",
+              "next"
+            ],
+            [
+              "plus tard",
+              "later"
+            ],
+            [
+              "vers midi",
+              "around noon"
+            ],
+            [
+              "finalement",
+              "in the end"
+            ],
+            [
+              "enfin",
+              "finally, at last"
+            ]
+          ]
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "Après ça, nous nous sommes reposés au bord de la rivière.",
+          "accept": [],
+          "explain": "Reflexive → [[nous nous sommes reposés]]. [[au bord de]] = by, at the edge of."
+        },
+        {
+          "id": "r9",
+          "type": "translate",
+          "prompt": "Finally, at 10 p.m., we watched the fireworks. (use nous)",
+          "accept": [
+            "Enfin, à 22 h, nous avons regardé le feu d'artifice.",
+            "Enfin, à vingt-deux heures, nous avons regardé le feu d'artifice.",
+            "Enfin, à dix heures du soir, nous avons regardé le feu d'artifice.",
+            "Enfin, à 22 h, nous avons regardé les feux d'artifice.",
+            "Enfin, à vingt-deux heures, nous avons regardé les feux d'artifice.",
+            "Enfin, à dix heures du soir, nous avons regardé les feux d'artifice.",
+            "Enfin, nous avons regardé le feu d'artifice à 22 h.",
+            "Enfin, nous avons regardé le feu d'artifice à vingt-deux heures.",
+            "Enfin, nous avons regardé le feu d'artifice à dix heures du soir.",
+            "Enfin, nous avons regardé les feux d'artifice à 22 h.",
+            "Enfin, nous avons regardé les feux d'artifice à vingt-deux heures.",
+            "Enfin, nous avons regardé les feux d'artifice à dix heures du soir."
+          ],
+          "explain": "The last step → [[enfin]]. regarder → avoir."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "Il y ___ ___ beaucoup de circulation ce matin.",
+          "answers": [
+            [
+              "a"
+            ],
+            [
+              "eu"
+            ]
+          ],
+          "en": "There was a lot of traffic this morning.",
+          "explain": "[[il y a]] in the past → [[il y a eu]] (avoir → eu)."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Tell a friend about a recent day out (a festival, a trip to another city, a day downtown) in at least five steps, using five different connectors.",
+          "seconds": 45,
+          "checklist": [
+            "d'abord, ensuite, puis, après ça, enfin (or finalement)",
+            "At least one time: vers midi, à 15 h",
+            "Verbs with avoir AND être",
+            "One reflexive verb",
+            "A final feeling: très fatigué / fatiguée, mais content / contente"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Samedi, je suis allée au Festival de jazz avec Lucie. D'abord, on s'est retrouvées au métro Place-des-Arts. Ensuite, on a écouté un concert gratuit. Vers 19 h, on a mangé une pizza, puis on est allées voir un deuxième spectacle. Après ça, on s'est promenées dans le Vieux-Montréal. Enfin, je suis rentrée à une heure du matin, très fatiguée mais contente !",
+              "en": "(A woman speaking.) On Saturday I went to the Jazz Festival with Lucie. First, we met at Place-des-Arts metro. Next, we listened to a free concert. Around 7 p.m., we ate a pizza, then we went to see a second show. After that, we walked around Old Montréal. Finally, I got home at one in the morning, very tired but happy!"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a short blog post like Raj's about a day out (real or imagined) in Ottawa, Gatineau, Québec City or your own city. Tell it in order.",
+          "wordRange": [
+            45,
+            80
+          ],
+          "checklist": [
+            "Five connectors: d'abord, ensuite, puis, après ça, enfin",
+            "Approximate times: vers midi, vers 15 h",
+            "Avoir verbs, être verbs (with agreement) and one reflexive verb",
+            "Something that changed: …mais finalement, …",
+            "How you felt at the end"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Dimanche dernier, je suis allé à Gatineau avec mon colocataire. D'abord, nous avons visité le Musée canadien de l'histoire. Ensuite, nous avons fait du vélo dans le parc de la Gatineau. Vers 16 h, nous nous sommes arrêtés pour boire un café, puis nous avons pris des photos du lac. Nous avons voulu manger au restaurant, mais finalement, nous sommes rentrés à Ottawa. Enfin, nous avons mangé une pizza à la maison. Une très belle journée !",
+              "en": "(A man writing.) Last Sunday I went to Gatineau with my roommate. First, we visited the Canadian Museum of History. Next, we went cycling in Gatineau Park. Around 4 p.m., we stopped for a coffee, then we took photos of the lake. We wanted to eat at a restaurant, but in the end we went back to Ottawa. Finally, we ate a pizza at home. A really nice day!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Put events in order: [[d'abord, ensuite, puis, après ça, plus tard, enfin]]\n- Say *in the end* with [[finalement]] and *around noon* with [[vers midi]]\n- Choose **avoir** or **être** for each verb in one story, with agreement after être\n- Use [[il y a eu]] for *there was / there were*",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Corrected the Outaouais claim (it is the Québec-side region, not the whole area). Added missing accepts to r5 and r9, and tightened the alors and avoir/être explanations. “On a voulu” stays as a glossed form and is never tested."
+  }
+}

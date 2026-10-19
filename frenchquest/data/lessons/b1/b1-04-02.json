@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-04-02",
+  "level": "b1",
+  "unit": "b1-04",
+  "title": "The gerund",
+  "goal": "Form the gérondif (en + -ant) and use it to say how you do something, what you do at the same time, and how you learned or achieved something.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-gerondif-form", "kind": "grammar", "fr": "en + participe présent (en parlant)", "en": "the gérondif: forms",
+      "drills": [
+        { "type": "cloze", "text": "nous faisons → en ___", "answers": [["faisant"]], "en": "we do → (by / while) doing", "explain": "Take the [[nous]] form, drop [[-ons]], add [[-ant]]: [[fais-]] → [[faisant]]." },
+        { "type": "cloze", "text": "J'ai progressé en ___ des séries. (regarder)", "answers": [["regardant"]], "en": "I improved by watching TV series.", "explain": "[[nous regardons]] → [[en regardant]]." },
+        { "type": "mcq", "prompt": "The gérondif of être is…", "options": ["en étant", "en êtant", "en soyant"], "optionsFr": true, "answer": 0, "explain": "Three irregular forms: [[étant]] (être), [[ayant]] (avoir), [[sachant]] (savoir)." },
+        { "type": "cloze", "text": "Nous ___ (manger) → en mangeant", "answers": [["mangeons"]], "en": "we eat → while eating", "explain": "Verbs in -ger keep the e: [[mangeons]], [[en mangeant]]. Verbs in -cer take ç: [[en commençant]]." }
+      ] },
+    { "id": "g-gerondif-use", "kind": "grammar", "fr": "Je fais la vaisselle en écoutant un balado.", "en": "the gérondif: at the same time, how, by doing",
+      "drills": [
+        { "type": "translate", "prompt": "I learned French by talking with my colleagues.", "accept": ["J'ai appris le français en parlant avec mes collègues.", "J'ai appris le français en discutant avec mes collègues."], "explain": "*By + -ing* (means) → [[en]] + participe présent." },
+        { "type": "translate", "prompt": "She listens to podcasts while cooking.", "accept": ["Elle écoute des balados en cuisinant.", "Elle écoute des podcasts en cuisinant.", "Elle écoute des balados en faisant la cuisine.", "Elle écoute des podcasts en faisant la cuisine.", "Elle écoute des balados en faisant à manger.", "Elle écoute des podcasts en faisant à manger."], "explain": "*While + -ing* (same time) → [[en cuisinant]]. Same subject for both actions: [[elle]]." },
+        { "type": "mcq", "prompt": "“I fell asleep listening to the radio.”", "options": ["Je me suis endormi en écoutant la radio.", "Je me suis endormi écoutant la radio.", "Je me suis endormi en écouter la radio."], "optionsFr": true, "answer": 0, "explain": "The gérondif needs [[en]] + the [[-ant]] form." }
+      ] },
+    { "id": "balado", "kind": "vocab", "fr": "balado", "article": "un", "gender": "m", "en": "podcast (Québec term)", "pos": "noun", "accept": ["un podcast", "le balado"],
+      "example": { "fr": "J'écoute un balado en français chaque soir.", "en": "I listen to a French podcast every evening." }, "note": "France usually says [[un podcast]]." },
+    { "id": "sous-titres", "kind": "vocab", "fr": "sous-titres", "article": "les", "gender": "m", "en": "subtitles", "pos": "noun", "accept": ["des sous-titres"],
+      "example": { "fr": "Je regarde les séries avec les sous-titres en français.", "en": "I watch series with French subtitles." } },
+    { "id": "progresser", "kind": "vocab", "fr": "progresser", "en": "to make progress (improve)", "pos": "verb", "accept": ["faire des progrès", "s'améliorer"],
+      "example": { "fr": "On progresse vite en étant régulier.", "en": "You make progress quickly by being consistent." } },
+    { "id": "astuce", "kind": "vocab", "fr": "astuce", "article": "une", "gender": "f", "en": "tip (clever trick)", "pos": "noun", "accept": ["l'astuce", "un truc"],
+      "example": { "fr": "J'ai une astuce pour apprendre le vocabulaire.", "en": "I have a trick for learning vocabulary." }, "note": "Informal, in Québec and France: [[un truc]]." },
+    { "id": "s-endormir", "kind": "vocab", "fr": "s'endormir", "en": "to fall asleep", "pos": "verb",
+      "example": { "fr": "Parfois, je m'endors en lisant.", "en": "Sometimes I fall asleep reading." } },
+    { "id": "regulier", "kind": "vocab", "fr": "régulier", "fem": "régulière", "en": "consistent (regular)", "pos": "adjective", "accept": ["régulière"],
+      "example": { "fr": "Il faut être régulier pour progresser.", "en": "You have to be consistent to make progress." } },
+    { "id": "appris-en", "kind": "phrase", "fr": "J'ai appris le français en regardant des séries.", "en": "I learned French by watching TV series." },
+    { "id": "tout-en", "kind": "phrase", "fr": "tout en travaillant à temps plein", "en": "while (also) working full-time" },
+    { "id": "en-meme-temps", "kind": "phrase", "fr": "en même temps", "en": "at the same time" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "How did you learn French?",
+      "intro": "On a forum for newcomers, three learners answer the question “Comment avez-vous appris le français ?” Read their answers and notice all the forms that start with **en** and end in **-ant**.",
+      "blocks": [
+        { "type": "text", "title": "Forum : Comment avez-vous appris le français ?",
+          "context": "A discussion thread on a community website in Québec.",
+          "fr": "Nguyen : Moi, j'ai beaucoup progressé en regardant des séries québécoises avec les sous-titres en français. Au début, je ne comprenais presque rien ! Maintenant, je note les expressions en écoutant, et je les répète en faisant la vaisselle. Mes voisins doivent penser que je suis un peu fou.\nSofia : J'ai appris le vocabulaire du travail en faisant du bénévolat dans une banque alimentaire. En parlant avec les autres bénévoles, j'ai perdu ma peur des erreurs. Tout en travaillant à temps plein, j'ai aussi suivi un cours du soir deux fois par semaine. C'était fatigant, mais ça valait la peine. Mon conseil : n'attendez pas d'être parfaits pour parler !\nKarim : Moi, j'utilise une application tous les matins en prenant le métro. Quinze minutes par jour, c'est peu, mais en étant régulier, on progresse vite. Et j'ai une astuce : en me couchant, j'écoute un balado en français. Parfois, je m'endors en écoutant… mais je pense que mon cerveau continue à travailler !",
+          "en": "Nguyen: I made a lot of progress by watching Québec series with French subtitles. At first I understood almost nothing! Now I write down expressions while listening, and I repeat them while doing the dishes. My neighbours must think I'm a bit crazy. Sofia: I learned work vocabulary by volunteering at a food bank. By talking with the other volunteers, I lost my fear of mistakes. While also working full-time, I took an evening class twice a week. It was tiring, but it was worth it. My advice: don't wait to be perfect to speak! Karim: I use an app every morning while taking the metro. Fifteen minutes a day is not much, but by being consistent, you make progress fast. And I have a trick: when I go to bed, I listen to a podcast in French. Sometimes I fall asleep while listening… but I think my brain keeps working!" },
+        { "type": "dialogue", "title": "Dans la voiture",
+          "context": "Raj drives Mei to work. A French podcast is playing.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Tu écoutes des balados en conduisant ? Ce n'est pas trop difficile ?", "en": "You listen to podcasts while driving? Isn't it too hard?" },
+            { "speaker": "Raj", "fr": "Non, ce sont des émissions faciles. Et en écoutant tous les jours, j'ai appris beaucoup d'expressions québécoises.", "en": "No, they're easy shows. And by listening every day, I've learned a lot of Québec expressions." },
+            { "speaker": "Mei", "fr": "Moi, j'apprends mieux en écrivant. Je fais des listes de mots en buvant mon café le matin.", "en": "I learn better by writing. I make word lists while drinking my coffee in the morning." },
+            { "speaker": "Raj", "fr": "Chacun sa méthode ! L'important, c'est de pratiquer un peu chaque jour.", "en": "Everyone has their own method! The important thing is to practise a little every day." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "How did Sofia learn work vocabulary?", "options": ["By volunteering at a food bank", "By watching series", "By using an app on the metro"], "answer": 0,
+          "explain": "[[J'ai appris le vocabulaire du travail en faisant du bénévolat…]] Here [[en faisant]] = *by doing*: the gérondif shows the **means**." },
+        { "id": "d2", "type": "mcq", "prompt": "In “je les répète en faisant la vaisselle”, the gérondif shows…", "options": ["two actions at the same time", "the reason for an action", "an action in the past"], "answer": 0,
+          "explain": "He repeats **while** he does the dishes: **simultaneity**." }
+      ] },
+    { "type": "understand", "title": "En + -ant",
+      "blocks": [
+        { "type": "pattern", "title": "How to form the gérondif",
+          "pattern": "en + (nous form − ons) + ant",
+          "note": "Start from the [[nous]] form of the present, which you already know. It works for almost every verb, regular or irregular.",
+          "examples": [
+            { "fr": "nous parlons → en parlant", "en": "we speak → (by / while) speaking" },
+            { "fr": "nous finissons → en finissant", "en": "we finish → (by / while) finishing" },
+            { "fr": "nous prenons → en prenant", "en": "we take → (by / while) taking" },
+            { "fr": "nous faisons → en faisant", "en": "we do → (by / while) doing" },
+            { "fr": "nous écrivons → en écrivant", "en": "we write → (by / while) writing" }
+          ] },
+        { "type": "table", "title": "Special cases",
+          "head": ["Verb", "Gérondif", "Why"],
+          "rows": [
+            ["être", "en étant", "irregular"],
+            ["avoir", "en ayant", "irregular"],
+            ["savoir", "en sachant", "irregular"],
+            ["manger", "en mangeant", "-ger keeps the e"],
+            ["commencer", "en commençant", "-cer takes ç"],
+            ["se lever", "en me levant, en te levant…", "the pronoun changes with the subject"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Negative: [[ne… pas]] goes around the participle: [[en ne disant rien]] (by saying nothing)." },
+        { "type": "table", "title": "Three uses",
+          "head": ["Use", "English", "Example"],
+          "rows": [
+            ["Simultaneity: two actions at the same time", "while + -ing", "Je fais la vaisselle en écoutant la radio."],
+            ["Means or manner: how", "by + -ing", "J'ai progressé en regardant des séries."],
+            ["Condition: if you do this", "by + -ing / if you…", "En étant régulier, on progresse vite."]
+          ],
+          "frCols": [2], "sayCol": true,
+          "note": "[[tout en]] + -ant stresses that two things happen at the same time, often in contrast: [[Tout en travaillant à temps plein, j'ai suivi un cours.]]" },
+        { "type": "vocab", "title": "New words", "itemIds": ["balado", "sous-titres", "progresser", "astuce", "s-endormir", "regulier", "appris-en", "tout-en", "en-meme-temps"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Same subject, and not every -ing!",
+          "body": "**The same person does both actions.** [[J'ai vu Karim en sortant du métro]] means *I* was leaving the metro, not Karim. If Karim was leaving, say [[J'ai vu Karim quand il sortait du métro]].\n\n**English -ing is not always a gérondif:**\n- *I'm reading* → [[je lis]] (present), never [[je suis lisant]]\n- *I like reading* → [[j'aime lire]] (infinitive)\n- *Thanks for coming* → [[merci d'être venu]]\n- *Before leaving* → [[avant de partir]]; *after eating* → [[après avoir mangé]]\n- *Without speaking* → [[sans parler]]\n\n**Don't forget en:** [[Je me suis endormi écoutant]] → [[Je me suis endormi en écoutant]]." },
+        { "type": "deepdive", "kind": "pronunciation", "title": "The -ant sound",
+          "body": "[[-ant]] is a nasal vowel, the same as in [[enfant]] and [[temps]]. The **t** is silent. Don't confuse it with the silent [[-ent]] of [[ils parlent]]: [[en parlant]] ends with a nasal sound, [[ils parlent]] ends with the *l*.",
+          "examples": [ { "fr": "en parlant, ils parlent", "en": "while speaking, they speak" }, { "fr": "en faisant, en lisant, en écrivant", "en": "while doing, reading, writing" } ] },
+        { "type": "deepdive", "kind": "why", "title": "Why does French need “en”?",
+          "body": "Without [[en]], the [[-ant]] form is the **participe présent**, mostly used in writing, a bit like an adjective: [[une personne parlant trois langues]] (a person speaking three languages). You'll see it in job ads and formal texts.\n\nWith [[en]], it's the **gérondif**, very common in speech, and it always works like an adverb: it tells you *when* or *how* the main action happens." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "J'ai appris le français en regardant des séries.", "en": "I learned French by watching TV series." },
+            { "fr": "Je répète les expressions en faisant la vaisselle.", "en": "I repeat expressions while doing the dishes.", "tip": "faisant: fe-zan, the ai sounds like a light e." },
+            { "fr": "En étant régulier, on progresse vite.", "en": "By being consistent, you make progress fast.", "tip": "en‿étant: link with an n sound." },
+            { "fr": "Je m'endors souvent en lisant.", "en": "I often fall asleep reading." },
+            { "fr": "Tout en travaillant à temps plein, j'ai suivi un cours du soir.", "en": "While working full-time, I took an evening class." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "J'ai trouvé mon emploi en parlant avec une voisine au parc.", "en": "I found my job by talking with a neighbour at the park.", "prompt": "How did the speaker find the job?", "options": ["By talking with a neighbour", "On a job website", "Through an agency"], "answer": 0,
+          "explain": "[[en parlant]] = *by talking*: the means." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ils parlent en mangeant.", "en": "They talk while eating.", "prompt": "What did you hear?", "options": ["They talk while eating.", "They eat while talking on the phone.", "They talked and then ate."], "answer": 0,
+          "explain": "[[ils parlent]] (main verb, present) + [[en mangeant]] (at the same time)." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each verb with its gérondif.", "pairs": [["faire", "en faisant"], ["avoir", "en ayant"], ["savoir", "en sachant"], ["prendre", "en prenant"], ["être", "en étant"]] },
+        { "id": "r2", "type": "cloze", "text": "Je fais mes devoirs en ___ (écouter) de la musique.", "answers": [["écoutant"]], "en": "I do my homework while listening to music.", "explain": "[[nous écoutons]] → [[en écoutant]]." },
+        { "id": "r3", "type": "cloze", "text": "On apprend beaucoup en ___ (lire) les journaux.", "answers": [["lisant"]], "en": "You learn a lot by reading the newspapers.", "explain": "[[nous lisons]] → [[en lisant]]: start from the nous form." },
+        { "id": "r4", "type": "translate", "prompt": "I improved my French by volunteering.", "accept": ["J'ai amélioré mon français en faisant du bénévolat.", "J'ai progressé en français en faisant du bénévolat.", "J'ai fait des progrès en français en faisant du bénévolat."], "hint": "faire du bénévolat",
+          "explain": "Means → [[en faisant du bénévolat]]." },
+        { "id": "r5", "type": "mcq", "prompt": "“I like reading.”", "options": ["J'aime lire.", "J'aime en lisant.", "J'aime lisant."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "After aimer, French uses the infinitive, not the gérondif.", "After aimer, French uses the infinitive."] },
+        { "id": "r6", "type": "cloze", "text": "Nous avons organisé le projet en ___ (commencer) par un sondage.", "answers": [["commençant"]], "en": "We organized the project by starting with a survey.", "explain": "-cer verbs: [[nous commençons]] → [[en commençant]], with ç to keep the s sound." },
+        { "id": "r7", "type": "reorder", "prompt": "She fell asleep while watching TV.", "accept": ["Elle s'est endormie en regardant la télé"], "extra": ["regarder"],
+          "explain": "[[s'endormir]] → passé composé with être, agreement [[endormie]]; [[en regardant]] = while watching." },
+        { "id": "r8", "type": "translate", "prompt": "Before coming to Canada, I had never studied French.", "accept": ["Avant de venir au Canada, je n'avais jamais étudié le français.", "Avant d'arriver au Canada, je n'avais jamais étudié le français.", "Je n'avais jamais étudié le français avant de venir au Canada.", "Je n'avais jamais étudié le français avant d'arriver au Canada.", "Avant de venir au Canada, je n'avais jamais appris le français.", "Avant d'arriver au Canada, je n'avais jamais appris le français."], "hint": "Not a gérondif: avant de + infinitive.",
+          "explain": "*Before + -ing* = [[avant de + infinitif]]; then the plus-que-parfait (unit 2)." },
+        { "id": "r9", "type": "dictation", "fr": "En étant régulier, on progresse vite.", "accept": ["En étant réguliers, on progresse vite."], "explain": "[[en étant]] is the irregular gérondif of [[être]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Answer the forum question “Comment avez-vous appris le français ?” Explain at least three methods you use, using the gérondif for how you learned and for actions you do at the same time. End with a piece of advice.", "promptFr": "Comment avez-vous appris le français ?",
+          "wordRange": [60, 120],
+          "checklist": ["At least four gérondifs (en + -ant)", "One for means: J'ai appris… en…", "One for simultaneity: Je… en…", "One irregular: en étant / en ayant / en sachant", "tout en + -ant", "Advice: Mon conseil : …"],
+          "models": [ { "label": "Model answer", "fr": "Moi, j'ai appris le français surtout en parlant avec mes collègues. Au début, je préparais mes phrases en prenant le bus. J'écoute aussi la radio en cuisinant le soir, et j'ai appris beaucoup d'expressions en regardant des émissions de cuisine québécoises. Tout en travaillant à temps plein, je fais trente minutes d'exercices en ligne chaque jour. Ce n'est pas toujours facile, mais en étant régulière, j'ai beaucoup progressé. Mon conseil : parlez le plus possible, même avec des erreurs !", "en": "I learned French mostly by talking with my colleagues. At first, I prepared my sentences while taking the bus. I also listen to the radio while cooking in the evening, and I learned lots of expressions by watching Québec cooking shows. While working full-time, I do thirty minutes of online exercises every day. It's not always easy, but by being consistent, I've made a lot of progress. My advice: speak as much as possible, even with mistakes!" } ] },
+        { "id": "s1", "type": "speak", "prompt": "Describe your typical morning, saying what you do at the same time as other things (for example: I check my phone while drinking my coffee). Use at least four gérondifs.", "seconds": 45,
+          "checklist": ["Reflexive verbs: je me lève, je m'habille…", "At least four en + -ant", "One irregular: en étant / en ayant", "Time words: d'abord, ensuite, puis"],
+          "models": [ { "label": "Model answer", "fr": "D'abord, je me lève à six heures et je regarde mes messages en buvant mon café. Ensuite, je m'habille en écoutant les nouvelles à la radio. Puis je prépare le dîner des enfants en parlant avec mon mari. En partant, je vérifie toujours la météo, parce qu'en hiver, à Québec, il faut bien s'habiller ! En étant organisée comme ça, je ne suis jamais en retard. Enfin, je révise mon vocabulaire en prenant l'autobus.", "en": "First, I get up at six and I check my messages while drinking my coffee. Then I get dressed while listening to the news on the radio. Next I prepare the children's lunch while talking with my husband. When I leave, I always check the weather, because in winter, in Québec City, you have to dress well! By being organized like this, I'm never late. Finally, I review my vocabulary while taking the bus." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form the gérondif from the [[nous]] form: [[parlons → en parlant]]; irregulars [[en étant]], [[en ayant]], [[en sachant]]\n- Use it for actions **at the same time** ([[en conduisant]]), for **how** you do something ([[en regardant des séries]]) and with [[tout en]]\n- Avoid it where English -ing needs another form: [[j'aime lire]], [[avant de partir]], [[sans parler]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed a dictation answer that sounds different (régulière). Added an irregular gérondif (en étant) to the speaking model, which its checklist required, and corrected the 'un truc' register note. Formation, irregulars and the same-subject rule checked." }
+}

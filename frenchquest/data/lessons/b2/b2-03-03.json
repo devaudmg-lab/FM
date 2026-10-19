@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-03-03",
+  "level": "b2",
+  "unit": "b2-03",
+  "title": "Impersonal structures",
+  "goal": "Make recommendations and judgments with impersonal structures: il faut que and il est important que + subjunctive, il est clair que + indicative, and il est important de + infinitive.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-necessite", "kind": "grammar", "fr": "il faut que / il est important, essentiel, nécessaire que + subjonctif", "en": "impersonal necessity and importance + subjunctive",
+      "drills": [
+        { "type": "cloze", "text": "Il est essentiel que la ville ___ les résidents avant de décider. (consulter)", "answers": [["consulte"]], "en": "It's essential that the city consult residents before deciding.", "explain": "Importance/necessity → subjunctive. Regular -er verb: [[qu'elle consulte]]." },
+        { "type": "cloze", "text": "Il faut que les nouveaux arrivants ___ accès aux cours le soir. (avoir)", "answers": [["aient"]], "en": "Newcomers need to have access to evening classes.", "explain": "[[il faut que]] + subjunctive: [[avoir]] → [[qu'ils aient]]." },
+        { "type": "translate", "prompt": "It is important that the process be faster.", "accept": ["Il est important que le processus soit plus rapide.", "C'est important que le processus soit plus rapide.", "Il est important que la procédure soit plus rapide.", "C'est important que la procédure soit plus rapide."], "explain": "[[il est important que]] + subjunctive: [[être]] → [[soit]]." }
+      ] },
+    { "id": "g-certitude", "kind": "grammar", "fr": "il est clair / évident / certain / vrai / probable que + indicatif", "en": "impersonal certainty + indicative",
+      "drills": [
+        { "type": "cloze", "text": "Il est clair que le projet ___ des avantages. (avoir)", "answers": [["a"]], "en": "It's clear that the project has advantages.", "explain": "Certainty → indicative: [[a]], not [[ait]]." },
+        { "type": "mcq", "prompt": "Choose the correct sentence.", "options": ["Il est probable que le projet sera adopté.", "Il est possible que le projet sera adopté.", "Il est évident que le projet soit adopté.", "Il est certain que le projet soit adopté."], "optionsFr": true, "answer": 0, "explain": "[[probable]] is close to certainty → indicative ([[sera]]). [[possible]] takes the subjunctive; [[évident]] and [[certain]] take the indicative." },
+        { "type": "cloze", "text": "Il n'est pas certain que la mesure ___ efficace. (être)", "answers": [["soit"]], "en": "It's not certain that the measure will be effective.", "explain": "Negative certainty becomes doubt → subjunctive: [[soit]]." }
+      ] },
+    { "id": "g-de-inf", "kind": "grammar", "fr": "il est important de + infinitif", "en": "impersonal structure with no specific person (it is important to…)",
+      "drills": [
+        { "type": "cloze", "text": "Il est nécessaire ___ consulter les résidents.", "answers": [["de"]], "en": "It's necessary to consult residents.", "explain": "No specific person → [[il est nécessaire de]] + infinitive." },
+        { "type": "mcq", "prompt": "“We have to act quickly” (general statement).", "options": ["Il faut agir vite.", "Il faut de agir vite.", "Il faut qu'agir vite.", "Il est faut agir vite."], "optionsFr": true, "answer": 0, "explain": "[[il faut]] + infinitive directly, without [[de]]." }
+      ] },
+    { "id": "indispensable", "kind": "phrase", "fr": "il est indispensable que", "en": "it is essential (absolutely necessary) that", "accept": ["il est essentiel que"], "note": "+ subjunctive" },
+    { "id": "vaut-mieux", "kind": "phrase", "fr": "il vaut mieux que", "en": "it is better that", "accept": ["il est préférable que"], "note": "+ subjunctive. With an infinitive: il vaut mieux attendre." },
+    { "id": "urgent", "kind": "phrase", "fr": "il est urgent d'agir", "en": "action is urgently needed", "accept": ["il est urgent d'agir"] },
+    { "id": "peu-probable", "kind": "phrase", "fr": "il est peu probable que", "en": "it is unlikely that", "accept": ["il est improbable que"], "note": "+ subjunctive (low probability = doubt)." },
+    { "id": "memoire", "kind": "vocab", "fr": "mémoire", "article": "un", "gender": "m", "en": "brief, written submission (to a public consultation)", "pos": "noun", "accept": ["le mémoire"],
+      "note": "Masculine here. La mémoire (feminine) = memory." },
+    { "id": "mesure", "kind": "vocab", "fr": "mesure", "article": "une", "gender": "f", "en": "measure (a policy action)", "pos": "noun", "accept": ["la mesure"] },
+    { "id": "mettre-en-place", "kind": "phrase", "fr": "mettre en place un programme", "en": "to set up a program", "accept": ["mettre sur pied un programme", "créer un programme"] },
+    { "id": "logement-abordable", "kind": "vocab", "fr": "logement abordable", "article": "un", "gender": "m", "en": "affordable housing (unit)", "pos": "noun", "accept": ["le logement abordable", "des logements abordables"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A brief to city council",
+      "intro": "Read the excerpt of a brief written by a community organization. Underline every sentence that starts with **il**. Notice which verbs come after: some look unusual (*soit, aient, puissent*).",
+      "blocks": [
+        { "type": "text", "title": "Brief from the Carrefour d'accueil de l'Outaouais (excerpt)",
+          "context": "An original, fictional brief submitted to a public consultation on a municipal plan to welcome newcomers.",
+          "fr": "Il est clair que notre ville a besoin des nouveaux arrivants : plusieurs employeurs de la région peinent à recruter, et de nombreuses familles choisissent de s'installer ici. Il est donc essentiel que la Ville se dote d'un plan d'accueil ambitieux.\nPremièrement, il faut que l'information soit plus accessible. Aujourd'hui, une famille qui arrive doit consulter une dizaine de sites différents. Il est nécessaire de mettre en place un guichet unique, en ligne et en personne.\nDeuxièmement, il est important que les cours de francisation soient offerts le soir et la fin de semaine, pour que les personnes qui travaillent puissent y assister. Il vaut mieux que ces cours aient lieu dans les quartiers, près des écoles et des bibliothèques.\nTroisièmement, il est urgent d'agir sur le logement. Il est évident qu'une intégration réussie commence par un toit. Il est peu probable que les familles restent dans la région si elles ne trouvent pas de logement abordable.\nEnfin, il n'est pas certain que ces mesures suffisent sans la participation des citoyens. C'est pourquoi il est indispensable que la Ville soutienne aussi les initiatives de jumelage entre résidents et nouveaux arrivants.",
+          "en": "It is clear that our city needs newcomers: several employers in the region are struggling to hire, and many families choose to settle here. It is therefore essential that the City adopt an ambitious welcome plan. First, information must be more accessible. Today, a family that arrives has to consult about ten different websites. It is necessary to set up a single window, online and in person. Second, it is important that French courses be offered in the evening and on weekends, so that people who work can attend. It is better that these courses take place in the neighbourhoods, near schools and libraries. Third, action on housing is urgently needed. It is obvious that successful integration begins with a roof. It is unlikely that families will stay in the region if they can't find affordable housing. Finally, it is not certain that these measures will be enough without citizens' participation. That is why it is essential that the City also support pairing initiatives between residents and newcomers." },
+        { "type": "dialogue", "title": "Before the hearing",
+          "context": "Karim and Lucie, two volunteers, rehearse their presentation.",
+          "lines": [
+            { "speaker": "Karim", "fr": "Bon, je relis l'introduction. « Il est clair que notre ville a besoin des nouveaux arrivants. » Ça te va ?", "en": "OK, I'm rereading the introduction. “It is clear that our city needs newcomers.” Is that OK with you?" },
+            { "speaker": "Lucie", "fr": "Oui, c'est direct. Mais pour le logement, je dirais plutôt « il est urgent que la Ville agisse ». C'est plus fort que « il serait bien de ».", "en": "Yes, it's direct. But for housing, I'd rather say “it is urgent that the City act.” It's stronger than “it would be good to.”" },
+            { "speaker": "Karim", "fr": "D'accord. Et pour les cours du soir, tu crois qu'ils vont dire oui ?", "en": "OK. And for evening classes, do you think they'll say yes?" },
+            { "speaker": "Lucie", "fr": "Il est possible qu'ils acceptent, mais il est probable qu'ils demanderont un financement du gouvernement. Il faut qu'on soit prêts à répondre là-dessus.", "en": "It's possible they'll accept, but they'll probably ask for government funding. We need to be ready to answer that." },
+            { "speaker": "Karim", "fr": "Alors il vaut mieux qu'on prépare deux scénarios : un avec financement, un sans.", "en": "Then it's better that we prepare two scenarios: one with funding, one without." },
+            { "speaker": "Lucie", "fr": "Parfait. Et surtout, il est important de rester concrets. Les élus aiment les exemples.", "en": "Perfect. And above all, it's important to stay concrete. Elected officials like examples." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "According to the brief, why is housing urgent?", "options": ["Families may not stay if they can't find affordable housing.", "There are too many empty apartments.", "Rents are falling quickly.", "Newcomers prefer to buy houses."], "answer": 0,
+          "explain": "[[Il est peu probable que les familles restent dans la région si elles ne trouvent pas de logement abordable.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "Why does Lucie prefer “il est urgent que la Ville agisse”?", "options": ["It sounds stronger than “il serait bien de”.", "It is more polite.", "It avoids the subjunctive.", "It is shorter."], "answer": 0,
+          "explain": "[[C'est plus fort que « il serait bien de »]]: the choice of impersonal adjective sets how strong your recommendation is." }
+      ] },
+    { "type": "understand", "title": "Impersonal structures: subjunctive or indicative?",
+      "intro": "Impersonal structures start with [[il]] that refers to nothing: like English *it* in “it is important”. The adjective decides what follows.",
+      "blocks": [
+        { "type": "table", "title": "The rule in one table",
+          "head": ["Meaning", "Expressions", "+ que …", "Example"],
+          "rows": [
+            ["necessity, importance, judgment", "il faut que, il est important / essentiel / nécessaire / indispensable / urgent que, il vaut mieux que", "subjonctif", "Il faut que la Ville agisse."],
+            ["possibility, doubt", "il est possible que, il se peut que, il est peu probable que, il n'est pas certain que", "subjonctif", "Il est possible qu'ils acceptent."],
+            ["certainty, strong probability", "il est clair / évident / certain / vrai / sûr / probable que", "indicatif", "Il est clair que la ville a besoin d'eux."]
+          ],
+          "frCols": [1, 3], "sayCol": false,
+          "note": "A trick: if the sentence states something as **real or almost sure**, use the indicative. If it states something **wanted, needed, or only possible**, use the subjunctive." },
+        { "type": "pattern", "title": "With a person or in general?",
+          "pattern": "il est important que + sujet + subjonctif  ↔  il est important de + infinitif",
+          "note": "When you mean **a specific person or group**, use [[que]] + subjunctive. When you mean **people in general**, use [[de]] + infinitive. With [[il faut]] and [[il vaut mieux]], the infinitive follows directly, with no [[de]].",
+          "examples": [
+            { "fr": "Il est important que les élus écoutent les citoyens.", "en": "It's important that elected officials listen to citizens." },
+            { "fr": "Il est important d'écouter les citoyens.", "en": "It's important to listen to citizens." },
+            { "fr": "Il faut que vous remplissiez ce formulaire.", "en": "You need to fill out this form." },
+            { "fr": "Il faut remplir ce formulaire.", "en": "This form needs to be filled out." },
+            { "fr": "Il vaut mieux attendre la décision.", "en": "It's better to wait for the decision." }
+          ] },
+        { "type": "table", "title": "Irregular subjunctives you will use constantly",
+          "head": ["Infinitive", "que je", "qu'il / elle", "que nous", "qu'ils / elles"],
+          "rows": [
+            ["être", "sois", "soit", "soyons", "soient"],
+            ["avoir", "aie", "ait", "ayons", "aient"],
+            ["faire", "fasse", "fasse", "fassions", "fassent"],
+            ["pouvoir", "puisse", "puisse", "puissions", "puissent"],
+            ["aller", "aille", "aille", "allions", "aillent"],
+            ["savoir", "sache", "sache", "sachions", "sachent"],
+            ["agir (regular -ir)", "agisse", "agisse", "agissions", "agissent"]
+          ],
+          "frCols": [1, 2, 3, 4], "sayCol": true,
+          "note": "Regular verbs: take the [[ils]] form of the present, drop [[-ent]], add [[-e, -es, -e, -ions, -iez, -ent]]: [[ils consultent]] → [[que je consulte]]." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Certainty + subjunctive:** [[Il est clair que le projet soit utile]] → [[Il est clair que le projet est utile]].\n- **probable ≠ possible:** [[il est probable que]] + indicative, but [[il est possible que]] + subjunctive. They look alike but behave differently.\n- **Negation flips certainty:** [[Il est certain qu'il viendra]] (indicative) but [[Il n'est pas certain qu'il vienne]] (subjunctive).\n- **il faut de:** [[Il faut d'agir]] → [[Il faut agir]].\n- **Overusing il faut que:** in a formal text, vary it: [[il est essentiel que]], [[il est indispensable que]], [[il serait souhaitable que]] (it would be desirable that)." },
+        { "type": "deepdive", "kind": "why", "title": "Why does the adjective decide?",
+          "body": "The subjunctive marks a fact that is **not presented as real**: something someone wants, needs, fears or considers possible. [[Il est clair que…]] presents a fact as real, so it keeps the indicative. [[Il est nécessaire que…]] presents something that **should** happen but hasn't yet. That is why the same pattern ([[il est]] + adjective + [[que]]) splits into two groups." },
+        { "type": "deepdive", "kind": "examples", "title": "Spoken vs written",
+          "body": "In everyday speech, [[c'est]] often replaces [[il est]]: [[C'est important que tu viennes]], [[C'est clair qu'il a raison]]. The mood rules stay the same. In a formal brief, a letter or an exam essay, prefer [[il est]].",
+          "examples": [
+            { "fr": "C'est sûr que ça va coûter cher.", "en": "It's sure to cost a lot. (spoken)" },
+            { "fr": "Il est certain que cette mesure aura un coût.", "en": "This measure will certainly have a cost. (written)" }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear the difference",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Many subjunctive forms are heard only by their stem. Exaggerate them at first.",
+          "lines": [
+            { "fr": "Il faut que la Ville agisse.", "en": "The City needs to act.", "tip": "agisse: you hear the s sound, unlike agit." },
+            { "fr": "Il est essentiel que l'information soit accessible.", "en": "It's essential that information be accessible.", "tip": "soit sounds like “swa”." },
+            { "fr": "Il est possible qu'ils fassent une exception.", "en": "It's possible that they'll make an exception.", "tip": "fassent: [fas], the -ent is silent." },
+            { "fr": "Il est clair que la ville a besoin d'eux.", "en": "It's clear that the city needs them." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Il n'est pas certain que le conseil puisse financer ce programme.", "en": "It's not certain that the council can fund this program.", "prompt": "How sure is the speaker?", "options": ["Not sure: it may not be possible.", "Completely sure it will happen.", "Sure it will never happen.", "The program is already funded."], "answer": 0,
+          "explain": "[[Il n'est pas certain que]] + [[puisse]] (subjunctive) expresses doubt." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il vaut mieux que les cours aient lieu près des écoles.", "en": "It's better if the classes take place near schools.", "prompt": "What does the speaker recommend?", "options": ["Holding classes near schools", "Cancelling the classes", "Moving schools", "Holding classes online only"], "answer": 0,
+          "explain": "[[Il vaut mieux que]] + subjunctive ([[aient lieu]]) gives a recommendation." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Decide each time: subjunctive, indicative or infinitive?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Il faut que nous ___ une décision avant juin. (prendre)", "answers": [["prenions"]], "en": "We need to make a decision before June.", "explain": "[[ils prennent]] → stem [[prenn-]], but [[nous]] uses the nous stem: [[que nous prenions]]." },
+        { "id": "r2", "type": "mcq", "prompt": "Il est évident que ce programme ___ utile.", "options": ["est", "soit", "être", "soient"], "optionsFr": true, "answer": 0, "explain": "[[évident]] = certainty → indicative: [[est]]. [[soit]] would be the subjunctive." },
+        { "id": "r3", "type": "cloze", "text": "Il est possible que la Ville ___ une exception. (faire)", "answers": [["fasse"]], "en": "It's possible that the City will make an exception.", "explain": "Possibility → subjunctive: [[faire]] → [[qu'elle fasse]]." },
+        { "id": "r4", "type": "cloze", "text": "Il est probable que les élus ___ le plan en septembre. (adopter, futur)", "answers": [["adopteront"]], "en": "The elected officials will probably adopt the plan in September.", "explain": "[[probable]] = strong likelihood → indicative, here the future: [[adopteront]]." },
+        { "id": "r5", "type": "translate", "prompt": "It is essential that families find affordable housing.", "accept": ["Il est essentiel que les familles trouvent un logement abordable.", "Il est essentiel que les familles trouvent des logements abordables.", "Il est indispensable que les familles trouvent un logement abordable.", "Il est indispensable que les familles trouvent des logements abordables.", "C'est essentiel que les familles trouvent un logement abordable.", "C'est essentiel que les familles trouvent des logements abordables."], "explain": "[[il est essentiel que]] + subjunctive; [[trouver]] → [[qu'elles trouvent]]." },
+        { "id": "r6", "type": "match", "prompt": "Match each expression to what follows it.", "pairs": [["il est clair que", "+ indicative"], ["il est nécessaire que", "+ subjunctive"], ["il est nécessaire de", "+ infinitive"], ["il faut", "+ infinitive (no de)"]] },
+        { "id": "r7", "type": "translate", "prompt": "It's important to set up a single window.", "accept": ["Il est important de mettre en place un guichet unique.", "Il est important de créer un guichet unique.", "C'est important de mettre en place un guichet unique.", "Il est important de mettre sur pied un guichet unique.", "C'est important de créer un guichet unique.", "C'est important de mettre sur pied un guichet unique."], "explain": "General statement → [[il est important de]] + infinitive." },
+        { "id": "r8", "type": "cloze", "text": "Bien que la mesure ___ coûteuse, il est clair qu'elle ___ nécessaire. (être, être)", "answers": [["soit"], ["est"]], "en": "Although the measure is expensive, it's clear that it is necessary.", "explain": "[[bien que]] → subjunctive [[soit]]; [[il est clair que]] → indicative [[est]]." },
+        { "id": "r9", "type": "dictation", "fr": "Il est peu probable que les familles restent sans logement abordable.", "accept": [], "explain": "[[peu probable]] = unlikely → subjunctive [[restent]] (same sound as the indicative here)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You have 90 seconds at a city council meeting. Make three recommendations to improve life in your neighbourhood (transit, housing, services for newcomers…). Vary your impersonal structures.", "seconds": 90,
+          "checklist": ["One certainty with il est clair que + indicative", "At least three different necessity expressions + subjunctive", "One general rule with il est important de + infinitive", "One possibility: il est possible que + subjunctive", "A polite closing"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonsoir. Il est clair que notre quartier a changé : il y a beaucoup de nouvelles familles. D'abord, il faut que les autobus passent plus souvent le matin. Ensuite, il est important que la bibliothèque soit ouverte le dimanche, pour les gens qui travaillent. Enfin, il est nécessaire de créer un parc pour les enfants. Il est possible que ça coûte cher, mais c'est un bon investissement. Merci de votre attention.", "en": "Good evening. It's clear that our neighbourhood has changed: there are many new families. First, buses need to run more often in the morning. Next, it's important that the library be open on Sundays, for people who work. Finally, it's necessary to create a park for children. It's possible this will be expensive, but it's a good investment. Thank you for your attention." },
+            { "label": "Stronger model answer", "fr": "Madame la mairesse, mesdames et messieurs les conseillers, bonsoir. Il est évident que notre quartier attire de plus en plus de jeunes familles, dont beaucoup viennent d'arriver au pays. C'est une chance, à condition que les services suivent. Premièrement, il est indispensable que la ligne d'autobus 33 passe toutes les dix minutes aux heures de pointe : aujourd'hui, les parents arrivent en retard au travail. Deuxièmement, il serait souhaitable que la bibliothèque offre des cafés-rencontres en français, pour que les nouveaux arrivants puissent pratiquer la langue. Troisièmement, il est urgent d'agir sur le logement abordable. Il est possible que ces mesures demandent un effort budgétaire ; toutefois, il est certain qu'elles coûteront moins cher que les départs de familles vers d'autres villes. Je vous remercie.", "en": "Madam Mayor, councillors, good evening. It is obvious that our neighbourhood attracts more and more young families, many of whom have just arrived in the country. It's an opportunity, provided that services keep up. First, it is essential that bus line 33 run every ten minutes at rush hour: today, parents arrive late for work. Second, it would be desirable for the library to offer French conversation cafés, so that newcomers can practise the language. Third, action on affordable housing is urgently needed. These measures may require a budgetary effort; however, they will certainly cost less than families leaving for other cities. Thank you." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write the recommendations section of a short brief (110–170 words) to your city on one issue: welcoming newcomers, public transit or affordable housing. Use at least five different impersonal structures.",
+          "wordRange": [110, 170],
+          "checklist": ["Opening with il est clair / évident que + indicative", "Three numbered recommendations (premièrement, deuxièmement…)", "At least three expressions + subjunctive", "At least one il est … de + infinitive", "One doubt: il n'est pas certain que / il est peu probable que + subjunctive", "Formal register (la Ville, les élus)"],
+          "models": [
+            { "label": "Model answer", "fr": "Il est clair que le transport collectif dans notre ville ne répond plus aux besoins des résidents. Nous proposons donc trois mesures.\nPremièrement, il faut que les autobus passent plus souvent dans les quartiers éloignés, surtout le matin et le soir. Aujourd'hui, beaucoup de travailleurs attendent plus de vingt minutes.\nDeuxièmement, il est important que les abribus soient chauffés en hiver. Il est difficile d'attendre dehors quand il fait moins vingt.\nTroisièmement, il est nécessaire de créer une voie réservée sur le boulevard principal, pour que les autobus évitent les bouchons.\nIl n'est pas certain que la Ville puisse tout financer cette année. Il vaut mieux que ces mesures soient introduites progressivement, mais il est urgent de commencer.", "en": "It is clear that public transit in our city no longer meets residents' needs. We therefore propose three measures. First, buses need to run more often in outlying neighbourhoods, especially in the morning and evening. Today, many workers wait more than twenty minutes. Second, it's important that bus shelters be heated in winter. It's hard to wait outside when it's minus twenty. Third, it's necessary to create a reserved lane on the main boulevard, so that buses avoid traffic jams. It's not certain that the City can fund everything this year. It's better if these measures are introduced gradually, but it's urgent to start." },
+            { "label": "Stronger model answer", "fr": "Il est évident que l'accès à un logement abordable conditionne la réussite de l'intégration : sans toit stable, il est difficile de suivre des cours de francisation ou de garder un emploi. Nous formulons donc trois recommandations.\nPremièrement, il est indispensable que la Ville exige une part de logements abordables dans chaque nouveau projet résidentiel.\nDeuxièmement, il serait souhaitable que les organismes d'accueil disposent d'un fonds d'urgence afin que les familles nouvellement arrivées puissent payer leur premier mois de loyer.\nTroisièmement, il est nécessaire de mieux informer les locataires de leurs droits, dans plusieurs langues.\nIl est peu probable que ces mesures règlent à elles seules la crise du logement. Toutefois, il est certain qu'elles faciliteront les premiers mois, souvent les plus difficiles. Il est donc urgent que la Ville agisse dès cette année.", "en": "It is obvious that access to affordable housing determines successful integration: without a stable roof, it's hard to attend French courses or keep a job. We therefore make three recommendations. First, it is essential that the City require a share of affordable housing in every new residential project. Second, it would be desirable for settlement organizations to have an emergency fund so that newly arrived families can pay their first month's rent. Third, it's necessary to better inform tenants of their rights, in several languages. These measures are unlikely to solve the housing crisis on their own. However, they will certainly make the first months, often the hardest, easier. It is therefore urgent that the City act this year." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Recommend with [[il faut que]], [[il est important / essentiel / nécessaire / indispensable que]] + subjunctive\n- State certainty with [[il est clair / évident / certain / probable que]] + indicative, and doubt with [[il n'est pas certain que]] or [[il est possible que]] + subjunctive\n- Make general statements with [[il est important de]] + infinitive and [[il faut]] + infinitive",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "French and mood rules (necessity/possibility + subjunctive, certainty/probable + indicative) checked; no errors found. Added accepted variants to the g-necessite translate drill and r5." }
+}

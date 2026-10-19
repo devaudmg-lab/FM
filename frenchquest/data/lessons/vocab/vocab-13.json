@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-13",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "People, trust and situations",
+  "band": "Everyday words 2000–4000",
+  "cefr": "b2",
+  "theme": "handling situations, relationships and trust",
+  "goal": "Recognise and use 20 frequent words for dealing with situations, relationships and trust.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "connaitre",
+      "kind": "vocab",
+      "fr": "connaître",
+      "en": "to know (a person, a place)",
+      "pos": "verb",
+      "example": {
+        "fr": "Tu connais un bon dentiste à Gatineau ?",
+        "en": "Do you know a good dentist in Gatineau?"
+      },
+      "note": "je connais, il connaît; past participle: connu."
+    },
+    {
+      "id": "sembler",
+      "kind": "vocab",
+      "fr": "sembler",
+      "en": "to seem",
+      "pos": "verb",
+      "example": {
+        "fr": "Tu sembles fatiguée aujourd'hui.",
+        "en": "You seem tired today."
+      }
+    },
+    {
+      "id": "paraitre",
+      "kind": "vocab",
+      "fr": "paraître",
+      "en": "to appear, to look (seem)",
+      "pos": "verb",
+      "example": {
+        "fr": "Il paraît qu'il va neiger demain.",
+        "en": "Apparently it's going to snow tomorrow."
+      },
+      "note": "il paraît que… = apparently, people say that…"
+    },
+    {
+      "id": "supposer",
+      "kind": "vocab",
+      "fr": "supposer",
+      "en": "to suppose, to assume",
+      "pos": "verb",
+      "example": {
+        "fr": "Je suppose que tu as faim après le voyage.",
+        "en": "I suppose you're hungry after the trip."
+      }
+    },
+    {
+      "id": "etre-cense",
+      "kind": "phrase",
+      "fr": "être censé",
+      "en": "to be supposed to",
+      "accept": [
+        "être censée",
+        "censé",
+        "censée"
+      ],
+      "example": {
+        "fr": "Tu es censé arriver à neuf heures.",
+        "en": "You're supposed to arrive at nine."
+      }
+    },
+    {
+      "id": "indice",
+      "kind": "vocab",
+      "fr": "indice",
+      "article": "l'",
+      "gender": "m",
+      "en": "clue, hint",
+      "pos": "noun",
+      "accept": [
+        "indice",
+        "un indice"
+      ],
+      "example": {
+        "fr": "Je ne trouve pas la réponse, donne-moi un indice !",
+        "en": "I can't find the answer, give me a hint!"
+      }
+    },
+    {
+      "id": "opportunite",
+      "kind": "vocab",
+      "fr": "opportunité",
+      "article": "l'",
+      "gender": "f",
+      "en": "opportunity",
+      "pos": "noun",
+      "accept": [
+        "opportunité",
+        "une opportunité",
+        "une occasion",
+        "l'occasion"
+      ],
+      "example": {
+        "fr": "C'est une belle opportunité de carrière.",
+        "en": "It's a great career opportunity."
+      }
+    },
+    {
+      "id": "surveiller",
+      "kind": "vocab",
+      "fr": "surveiller",
+      "en": "to keep an eye on, to watch over",
+      "pos": "verb",
+      "example": {
+        "fr": "Tu peux surveiller les enfants dix minutes ?",
+        "en": "Can you keep an eye on the kids for ten minutes?"
+      }
+    },
+    {
+      "id": "identifier",
+      "kind": "vocab",
+      "fr": "identifier",
+      "en": "to identify",
+      "pos": "verb",
+      "example": {
+        "fr": "Il faut d'abord identifier le problème.",
+        "en": "First we need to identify the problem."
+      }
+    },
+    {
+      "id": "affronter",
+      "kind": "vocab",
+      "fr": "affronter",
+      "en": "to face, to confront",
+      "pos": "verb",
+      "example": {
+        "fr": "Il faut affronter ses peurs.",
+        "en": "You have to face your fears."
+      }
+    },
+    {
+      "id": "resister",
+      "kind": "vocab",
+      "fr": "résister",
+      "en": "to resist",
+      "pos": "verb",
+      "example": {
+        "fr": "Je ne peux pas résister au chocolat.",
+        "en": "I can't resist chocolate."
+      }
+    },
+    {
+      "id": "liberer",
+      "kind": "vocab",
+      "fr": "libérer",
+      "en": "to free, to release; to vacate (a room)",
+      "pos": "verb",
+      "example": {
+        "fr": "Vous devez libérer la chambre avant midi.",
+        "en": "You must check out of the room before noon."
+      }
+    },
+    {
+      "id": "etre-force",
+      "kind": "phrase",
+      "fr": "être forcé de",
+      "en": "to be forced to, to have no choice but to",
+      "accept": [
+        "être forcée de",
+        "forcé de",
+        "forcée de"
+      ],
+      "example": {
+        "fr": "J'ai été forcé de travailler samedi.",
+        "en": "I was forced to work on Saturday."
+      }
+    },
+    {
+      "id": "rompre",
+      "kind": "vocab",
+      "fr": "rompre",
+      "en": "to break up (a relationship)",
+      "pos": "verb",
+      "example": {
+        "fr": "Nguyen et sa copine ont rompu la semaine dernière.",
+        "en": "Nguyen and his girlfriend broke up last week."
+      }
+    },
+    {
+      "id": "trahir",
+      "kind": "vocab",
+      "fr": "trahir",
+      "en": "to betray",
+      "pos": "verb",
+      "example": {
+        "fr": "Il a trahi ma confiance.",
+        "en": "He betrayed my trust."
+      }
+    },
+    {
+      "id": "se-venger",
+      "kind": "vocab",
+      "fr": "se venger",
+      "en": "to take revenge, to get even",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle ne veut pas se venger ; elle veut tourner la page.",
+        "en": "She doesn't want revenge; she wants to move on."
+      }
+    },
+    {
+      "id": "mensonge",
+      "kind": "vocab",
+      "fr": "mensonge",
+      "article": "le",
+      "gender": "m",
+      "en": "lie (an untruth)",
+      "pos": "noun",
+      "accept": [
+        "mensonge",
+        "un mensonge"
+      ],
+      "example": {
+        "fr": "C'est un mensonge, je n'ai jamais dit ça !",
+        "en": "That's a lie, I never said that!"
+      }
+    },
+    {
+      "id": "traitre",
+      "kind": "vocab",
+      "fr": "traître",
+      "article": "le",
+      "gender": "m",
+      "fem": "traîtresse",
+      "en": "traitor",
+      "pos": "noun",
+      "accept": [
+        "traître",
+        "un traître",
+        "la traîtresse",
+        "traîtresse"
+      ],
+      "example": {
+        "fr": "Dans le film, le traître est le meilleur ami du héros.",
+        "en": "In the movie, the traitor is the hero's best friend."
+      }
+    },
+    {
+      "id": "amant",
+      "kind": "vocab",
+      "fr": "amant",
+      "article": "l'",
+      "gender": "m",
+      "fem": "amante",
+      "en": "lover (in an affair)",
+      "pos": "noun",
+      "accept": [
+        "amant",
+        "un amant",
+        "l'amante",
+        "une amante"
+      ],
+      "example": {
+        "fr": "Dans le roman, elle quitte son mari pour son amant.",
+        "en": "In the novel, she leaves her husband for her lover."
+      }
+    },
+    {
+      "id": "fiance",
+      "kind": "vocab",
+      "fr": "fiancé",
+      "article": "le",
+      "gender": "m",
+      "fem": "fiancée",
+      "en": "future spouse (engaged to be married)",
+      "pos": "noun",
+      "accept": [
+        "fiancé",
+        "la fiancée",
+        "fiancée",
+        "mon fiancé",
+        "ma fiancée"
+      ],
+      "example": {
+        "fr": "Je te présente mon fiancé, Raj.",
+        "en": "Let me introduce my fiancé, Raj."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "Situations and relationships",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Knowing and seeming",
+          "itemIds": [
+            "connaitre",
+            "sembler",
+            "paraitre",
+            "supposer",
+            "etre-cense",
+            "indice",
+            "opportunite"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Handling situations",
+          "itemIds": [
+            "surveiller",
+            "identifier",
+            "affronter",
+            "resister",
+            "liberer",
+            "etre-force"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Relationships and trust",
+          "itemIds": [
+            "rompre",
+            "trahir",
+            "se-venger",
+            "mensonge",
+            "traitre",
+            "amant",
+            "fiance"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "[[Connaître]] = to know a person or place; [[savoir]] = to know a fact. [[Il paraît que…]] = apparently.\n\n[[Résister à]] and [[se venger de]] need their prepositions. [[Être censé]] agrees: [[elle est censée]]. Careful writers prefer [[une occasion]] to [[une opportunité]], which some see as an anglicism."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "lines": [
+            {
+              "fr": "Tu connais un bon dentiste à Gatineau ?",
+              "en": "Do you know a good dentist in Gatineau?"
+            },
+            {
+              "fr": "Il paraît qu'il va neiger demain.",
+              "en": "Apparently it's going to snow tomorrow."
+            },
+            {
+              "fr": "Tu es censé arriver à neuf heures.",
+              "en": "You're supposed to arrive at nine."
+            },
+            {
+              "fr": "Je suppose que tu as faim après le voyage.",
+              "en": "I suppose you're hungry after the trip."
+            },
+            {
+              "fr": "Tu peux surveiller les enfants dix minutes ?",
+              "en": "Can you keep an eye on the kids for ten minutes?"
+            },
+            {
+              "fr": "Il faut affronter ses peurs.",
+              "en": "You have to face your fears."
+            },
+            {
+              "fr": "Je ne peux pas résister au chocolat.",
+              "en": "I can't resist chocolate."
+            },
+            {
+              "fr": "Il a trahi ma confiance.",
+              "en": "He betrayed my trust."
+            },
+            {
+              "fr": "C'est un mensonge, je n'ai jamais dit ça !",
+              "en": "That's a lie, I never said that!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the verbs.",
+          "pairs": [
+            [
+              "surveiller",
+              "to keep an eye on"
+            ],
+            [
+              "trahir",
+              "to betray"
+            ],
+            [
+              "affronter",
+              "to face"
+            ],
+            [
+              "identifier",
+              "to identify"
+            ],
+            [
+              "rompre",
+              "to break up"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the nouns.",
+          "pairs": [
+            [
+              "le mensonge",
+              "lie"
+            ],
+            [
+              "l'indice",
+              "clue"
+            ],
+            [
+              "le fiancé",
+              "future spouse"
+            ],
+            [
+              "l'amant",
+              "lover"
+            ],
+            [
+              "le traître",
+              "traitor"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "Tu connais Gatineau ?",
+            "Tu sais Gatineau ?",
+            "Tu parais Gatineau ?"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "For a place or a person, use [[connaître]], not [[savoir]].",
+          "optionFeedback": [
+            null,
+            "Savoir is for facts: Tu sais où est Gatineau ?",
+            "Paraître means to seem or appear."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Your colleague says: “Il paraît que le directeur va partir.” What does she mean?",
+          "options": [
+            "Apparently the director is leaving.",
+            "The director appears at the door.",
+            "The director has to leave right now."
+          ],
+          "answer": 0,
+          "explain": "[[Il paraît que…]] reports something people are saying."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "You're supposed to arrive at nine. (to a friend)",
+          "accept": [
+            "Tu es censé arriver à neuf heures.",
+            "Tu es censée arriver à neuf heures.",
+            "Tu es censé arriver à 9 h.",
+            "Tu es censée arriver à 9 h.",
+            "Tu es censé arriver à 9 heures.",
+            "Tu es censée arriver à 9 heures.",
+            "Tu es supposé arriver à neuf heures.",
+            "Tu es supposée arriver à neuf heures."
+          ],
+          "hint": "être censé + infinitive",
+          "explain": "[[Être censé]] + infinitive = to be supposed to do something."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "He betrayed my trust.",
+          "accept": [
+            "Il a trahi ma confiance."
+          ],
+          "explain": "[[Trahir]] is a regular -ir verb: [[il a trahi]]."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Je ne peux pas ___ au chocolat.",
+          "answers": [
+            [
+              "résister"
+            ]
+          ],
+          "choices": [
+            "résister",
+            "affronter",
+            "surveiller"
+          ],
+          "en": "I can't resist chocolate.",
+          "explain": "[[Résister à]] quelque chose: à + le → au."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Nguyen et sa copine ont ___ la semaine dernière.",
+          "answers": [
+            [
+              "rompu"
+            ]
+          ],
+          "choices": [
+            "rompu",
+            "trahi",
+            "inventé"
+          ],
+          "en": "Nguyen and his girlfriend broke up last week.",
+          "explain": "The past participle of [[rompre]] is [[rompu]]."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Il faut d'abord identifier le problème.",
+          "accept": [],
+          "explain": "[[d'abord]] = first; [[identifier]] has no accent."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Vous devez libérer la chambre avant midi.",
+          "en": "You must check out of the room before noon.",
+          "prompt": "What must the hotel guest do before noon?",
+          "options": [
+            "Leave the room",
+            "Clean the room",
+            "Pay for the room"
+          ],
+          "answer": 0,
+          "explain": "[[Libérer la chambre]] = to vacate the room, to check out."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Use [[connaître]], [[sembler]], [[il paraît que…]] and [[être censé]]\n- Handle situations: [[surveiller, affronter, résister, libérer]]\n- Talk about trust: [[trahir, rompre, un mensonge, se venger]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Removed the wrong accepted answer 'venger' (= to avenge) from se venger; rewrote the fiancé gloss so it no longer contains the French word; accepted the common 'être supposé' variant in r5."
+  }
+}

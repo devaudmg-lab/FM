@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-09-06",
+  "level": "b1",
+  "unit": "b1-09",
+  "title": "Workshop: Write connected texts",
+  "goal": "Get extra practice reading and writing well-structured, well-linked texts: paragraphs, connectors, reference words and formal formulas, in new situations.",
+  "minutes": 20,
+  "items": [
+    { "id": "ainsi-que", "kind": "phrase", "fr": "ainsi que", "en": "as well as, and also (formal)",
+      "example": { "fr": "Les employés ainsi que les clients sont satisfaits.", "en": "The employees as well as the customers are satisfied." },
+      "note": "A more formal *et*. Don't confuse it with ainsi alone (thus, in this way)." },
+    { "id": "en-ce-qui-me-concerne", "kind": "phrase", "fr": "En ce qui me concerne, …", "en": "As far as I'm concerned, … / Personally, …",
+      "example": { "fr": "En ce qui me concerne, je suis plutôt pour.", "en": "As far as I'm concerned, I'm rather in favour." },
+      "note": "Same structure as En ce qui concerne le logement, but with me: it introduces your own position." },
+    { "id": "sans-compter-que", "kind": "phrase", "fr": "sans compter que", "en": "not to mention that (adds a final argument)",
+      "example": { "fr": "C'est moins cher, sans compter que c'est bon pour l'environnement.", "en": "It's cheaper, not to mention that it's good for the environment." },
+      "note": "Followed by a full sentence (subject + verb)." },
+    { "id": "de-meme", "kind": "phrase", "fr": "de même", "en": "likewise, in the same way",
+      "example": { "fr": "Les écoles ferment plus tôt. De même, les bibliothèques réduisent leurs horaires.", "en": "Schools are closing earlier. Likewise, libraries are reducing their hours." } },
+    { "id": "en-fin-de-compte", "kind": "phrase", "fr": "en fin de compte", "en": "in the end, ultimately (after weighing everything)",
+      "example": { "fr": "En fin de compte, c'est une question de choix.", "en": "Ultimately, it's a question of choice." },
+      "note": "Weighs up the arguments, unlike finalement, which often just means *in the end* in a story." },
+    { "id": "constater", "kind": "vocab", "fr": "constater", "en": "to note, to observe (a fact)", "pos": "verb",
+      "example": { "fr": "Nous avons constaté une baisse des absences.", "en": "We noted a drop in absences." },
+      "note": "A precise verb for writing: je constate que… instead of je vois que…" },
+    { "id": "rediger", "kind": "vocab", "fr": "rédiger", "en": "to write, to draft (a text, a letter)", "pos": "verb",
+      "example": { "fr": "J'ai rédigé ma lettre en trente minutes.", "en": "I wrote my letter in thirty minutes." },
+      "note": "Used for structured texts: rédiger un rapport, une lettre, un courriel. Nous rédigeons." },
+    { "id": "courrier-des-lecteurs", "kind": "vocab", "fr": "courrier des lecteurs", "article": "le", "gender": "m", "en": "letters to the editor (newspaper section)", "pos": "noun",
+      "example": { "fr": "Ma lettre a été publiée dans le courrier des lecteurs.", "en": "My letter was published in the letters to the editor." } },
+    { "id": "lecteur", "kind": "vocab", "fr": "lecteur", "article": "le", "gender": "m", "en": "reader (man, or in general)", "pos": "noun",
+      "accept": ["un lecteur", "la lectrice", "une lectrice"],
+      "example": { "fr": "Beaucoup de lecteurs ont réagi à l'article.", "en": "Many readers reacted to the article." },
+      "note": "Feminine: la lectrice." },
+    { "id": "virgule", "kind": "vocab", "fr": "virgule", "article": "la", "gender": "f", "en": "comma", "pos": "noun",
+      "accept": ["une virgule"],
+      "example": { "fr": "Mettez une virgule après « cependant ».", "en": "Put a comma after “cependant”." },
+      "note": "Also the decimal comma in prices: 2,50 $. The period at the end of a sentence is le point." },
+    { "id": "main-d-oeuvre", "kind": "vocab", "fr": "main-d'œuvre", "article": "la", "gender": "f", "en": "workforce, labour (workers available)", "pos": "noun",
+      "accept": ["la main-d'oeuvre"],
+      "example": { "fr": "Il manque de main-d'œuvre dans la région.", "en": "There's a labour shortage in the region." },
+      "note": "A very common word in Canadian news: la pénurie de main-d'œuvre (the labour shortage)." }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A letter to the editor",
+      "intro": "Olivier wrote to his local newspaper about a new project. Look at the **plan** (one idea per paragraph), the **connectors**, and the words he uses to **avoid repetition** (ce dernier, cette mesure, ce problème).",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "Courrier des lecteurs : « La semaine de quatre jours, une idée à essayer »",
+          "fr": "La Ville de Sherbrooke a annoncé qu'elle allait tester la semaine de quatre jours pour une partie de ses employés. Cette décision a fait réagir beaucoup de lecteurs. En ce qui me concerne, je suis convaincu que c'est une bonne idée, et je voudrais expliquer pourquoi.\nTout d'abord, une semaine plus courte permet aux employés de mieux équilibrer le travail et la vie familiale. En effet, avec un jour libre de plus, on peut s'occuper de ses enfants, faire ses courses ou aller chez le médecin sans demander de congé. C'est le cas de ma sœur, infirmière à Québec : depuis qu'elle travaille quatre jours par semaine, elle est moins fatiguée et plus efficace.\nDe plus, cette mesure pourrait aider les employeurs eux-mêmes. Plusieurs entreprises ont constaté que leurs employés étaient plus motivés et moins souvent malades. Par ailleurs, une semaine de quatre jours attire les jeunes travailleurs, ainsi que les parents qui cherchent un meilleur équilibre. Ce dernier point est essentiel dans une région où il manque de main-d'œuvre. Sans compter que moins de déplacements signifie aussi moins de pollution.\nCertes, ce modèle ne convient pas à tous les métiers. Un hôpital ou une épicerie, par exemple, doit rester ouvert tous les jours. Cependant, ce problème n'est pas impossible à résoudre : il suffit d'organiser les horaires autrement. De même, certains pensent que des journées de dix heures seraient trop longues. Pourtant, rien n'oblige à travailler dix heures : plusieurs entreprises ont simplement réduit le nombre total d'heures.\nEn somme, la semaine de quatre jours n'est pas une solution magique, mais elle mérite d'être essayée. C'est pourquoi j'encourage la Ville à aller jusqu'au bout de ce projet. En fin de compte, ce sont les résultats de l'essai qui nous diront si j'avais raison.\nOlivier Bouchard, Sherbrooke",
+          "en": "The City of Sherbrooke has announced that it is going to test the four-day week for some of its employees. This decision has made many readers react. As far as I'm concerned, I'm convinced it's a good idea, and I'd like to explain why.\nFirst of all, a shorter week allows employees to balance work and family life better. Indeed, with one more day off, you can look after your children, do your shopping or go to the doctor without asking for leave. That's the case for my sister, a nurse in Québec City: since she started working four days a week, she's less tired and more efficient.\nWhat's more, this measure could help the employers themselves. Several companies have noted that their employees were more motivated and less often sick. Besides, a four-day week attracts young workers, as well as parents looking for a better balance. This last point is essential in a region with a labour shortage. Not to mention that less commuting also means less pollution.\nAdmittedly, this model doesn't suit every job. A hospital or a grocery store, for example, has to stay open every day. However, this problem isn't impossible to solve: you just need to organize schedules differently. Likewise, some people think that ten-hour days would be too long. And yet nothing forces anyone to work ten hours: several companies have simply reduced the total number of hours.\nAll in all, the four-day week isn't a magic solution, but it deserves to be tried. That's why I encourage the City to see this project through. In the end, it's the results of the trial that will tell us whether I was right.\nOlivier Bouchard, Sherbrooke"
+        },
+        {
+          "id": "d1", "type": "mcq",
+          "prompt": "What is Olivier's position?",
+          "options": ["He supports testing the four-day week.", "He is against the four-day week.", "He hasn't decided yet.", "He wants a four-day week only in hospitals."],
+          "answer": 0,
+          "explain": "His position is in the first paragraph: [[En ce qui me concerne, je suis convaincu que c'est une bonne idée]]."
+        },
+        {
+          "id": "d2", "type": "mcq",
+          "prompt": "In paragraph 3, what does « Ce dernier point » refer to?",
+          "options": ["Attracting young workers and parents", "Employees being less often sick", "Less pollution", "Ten-hour days"],
+          "answer": 0,
+          "explain": "[[Ce dernier]] points back to the **last** idea mentioned: the four-day week attracts young workers and parents. That matters because of the labour shortage."
+        },
+        {
+          "id": "d3", "type": "mcq",
+          "prompt": "Which objection does Olivier admit (his concession)?",
+          "options": ["The model doesn't suit every job.", "Employees will be more tired.", "It will cost the City too much.", "Young workers don't want it."],
+          "answer": 0,
+          "explain": "[[Certes, ce modèle ne convient pas à tous les métiers]]: he admits the point, then answers it with [[Cependant…]]."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit at a glance, and new words",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit 9 at a glance",
+          "head": ["Tool", "Examples"],
+          "rows": [
+            ["A paragraph", "idée principale → explication → exemple → clôture"],
+            ["Add", "de plus, par ailleurs, en outre"],
+            ["Contrast", "cependant, pourtant, en revanche"],
+            ["Cause / consequence", "en effet, car · donc, c'est pourquoi"],
+            ["Concede / conclude", "certes… mais · en somme, pour conclure"],
+            ["Avoid repetition", "le, lui, en, y · ce dernier · cette mesure"]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "What makes Olivier's letter work",
+          "body": "Each paragraph has **one job**: position, argument 1, argument 2, concession, conclusion. Each one **opens with a connector** that tells the reader what is coming: [[Tout d'abord]], [[De plus]], [[Certes]], [[En somme]].\n\nHe never repeats *la semaine de quatre jours* too often: he says [[cette décision]], [[cette mesure]], [[ce modèle]], [[ce problème]], [[ce dernier point]]. And every argument has a **concrete example** (his sister, the hospital)."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for connected writing",
+          "itemIds": ["ainsi-que", "en-ce-qui-me-concerne", "sans-compter-que", "de-meme", "en-fin-de-compte", "constater", "rediger", "courrier-des-lecteurs", "lecteur", "virgule", "main-d-oeuvre"]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listening practice",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A radio column",
+          "context": "Lucie gives her weekly opinion on a community radio station in Ottawa.",
+          "fr": "Bonjour à tous ! Cette semaine, je voudrais parler des jardins communautaires. La Ville propose d'en créer dix nouveaux d'ici deux ans. À mon avis, c'est une excellente nouvelle. En effet, ces jardins permettent aux familles de cultiver leurs propres légumes, ce qui coûte moins cher qu'à l'épicerie. De plus, ils créent des liens entre voisins. J'ai constaté moi-même que dans mon quartier, des gens qui ne se parlaient jamais travaillent maintenant ensemble tous les samedis. Certes, ces projets demandent de l'argent et des bénévoles. Cependant, les résultats en valent la peine. Bref, si vous avez un petit coin de terre près de chez vous, n'hésitez pas : lancez-vous !",
+          "en": "Hello everyone! This week, I'd like to talk about community gardens. The City is proposing to create ten new ones within two years. In my opinion, it's excellent news. Indeed, these gardens allow families to grow their own vegetables, which costs less than at the grocery store. What's more, they create bonds between neighbours. I've noticed myself that in my neighbourhood, people who never used to talk to each other now work together every Saturday. Admittedly, these projects require money and volunteers. However, the results are worth it. In short, if you have a little patch of land near you, don't hesitate: go for it!"
+        },
+        {
+          "id": "h1", "type": "listen-mcq",
+          "fr": "En effet, ces jardins permettent aux familles de cultiver leurs propres légumes, ce qui coûte moins cher qu'à l'épicerie.",
+          "en": "Indeed, these gardens allow families to grow their own vegetables, which costs less than at the grocery store.",
+          "prompt": "What is the role of « En effet » here?",
+          "options": ["It introduces an explanation of her opinion.", "It introduces a contrast.", "It introduces the conclusion.", "It means “in fact, I was wrong”."],
+          "answer": 0,
+          "explain": "[[En effet]] explains or proves what was just said (*indeed*). It doesn't mean *in effect*, and it doesn't correct anything (that would be [[en fait]])."
+        },
+        {
+          "id": "h2", "type": "listen-mcq",
+          "fr": "J'ai constaté moi-même que dans mon quartier, des gens qui ne se parlaient jamais travaillent maintenant ensemble tous les samedis.",
+          "en": "I've noticed myself that in my neighbourhood, people who never used to talk to each other now work together every Saturday.",
+          "prompt": "What example does Lucie give?",
+          "options": ["Neighbours who didn't talk now garden together.", "Families save money every Saturday.", "Volunteers built ten gardens.", "Her neighbours sell vegetables."],
+          "answer": 0,
+          "explain": "[[des gens qui ne se parlaient jamais travaillent maintenant ensemble]]: her personal example of bonds between neighbours."
+        },
+        {
+          "id": "h3", "type": "listen-mcq",
+          "fr": "Certes, ces projets demandent de l'argent et des bénévoles. Cependant, les résultats en valent la peine.",
+          "en": "Admittedly, these projects require money and volunteers. However, the results are worth it.",
+          "prompt": "What is Lucie doing in these two sentences?",
+          "options": ["Admitting a drawback, then answering it", "Changing her opinion", "Giving a second example", "Concluding her column"],
+          "answer": 0,
+          "explain": "[[Certes…]] concedes a point; [[Cependant…]] brings back her position. That's a concession."
+        },
+        {
+          "type": "listen",
+          "title": "Feedback from a writing tutor",
+          "context": "Nguyen's French tutor, Marc, leaves her a voice message about her formal letter.",
+          "fr": "Bonjour Nguyen, c'est Marc. J'ai lu la lettre que vous avez rédigée pour le propriétaire. Dans l'ensemble, c'est très bien : l'objet est clair, et la formule finale est parfaite. J'ai seulement trois petites remarques. Premièrement, vous commencez deux phrases par « car » : il vaut mieux écrire « en effet ». Deuxièmement, vous répétez quatre fois « le problème » ; essayez « ce dernier » ou « cette situation ». Enfin, n'oubliez pas la virgule après « cependant ». Si vous corrigez ces trois points, votre lettre sera prête à envoyer. Bonne soirée !",
+          "en": "Hello Nguyen, it's Marc. I read the letter you wrote for the landlord. Overall, it's very good: the subject line is clear, and the closing formula is perfect. I just have three small comments. First, you start two sentences with “car”: it's better to write “en effet”. Second, you repeat “le problème” four times; try “ce dernier” or “cette situation”. Finally, don't forget the comma after “cependant”. If you correct these three points, your letter will be ready to send. Have a good evening!"
+        },
+        {
+          "id": "h4", "type": "listen-mcq",
+          "fr": "Premièrement, vous commencez deux phrases par « car » : il vaut mieux écrire « en effet ».",
+          "en": "First, you start two sentences with “car”: it's better to write “en effet”.",
+          "prompt": "What is Marc's first comment?",
+          "options": ["Don't start a sentence with car.", "Use car more often.", "Replace en effet with car.", "Don't use connectors in a formal letter."],
+          "answer": 0,
+          "explain": "In careful writing, don't start a sentence with [[car]]. To start a sentence with a cause, use [[En effet, …]]."
+        },
+        {
+          "id": "h5", "type": "listen-mcq",
+          "fr": "Deuxièmement, vous répétez quatre fois « le problème » ; essayez « ce dernier » ou « cette situation ».",
+          "en": "Second, you repeat “le problème” four times; try “ce dernier” or “cette situation”.",
+          "prompt": "What does Marc suggest for the repetition?",
+          "options": ["Use ce dernier or a summary noun like cette situation.", "Delete the paragraph.", "Write problème in capital letters.", "Use le problème even more often."],
+          "answer": 0,
+          "explain": "Two tools from the unit: [[ce dernier]] and a summary noun ([[cette situation]])."
+        },
+        {
+          "id": "h6", "type": "dictation",
+          "fr": "J'ai lu la lettre que vous avez rédigée pour le propriétaire.",
+          "accept": ["J'ai lu la lettre que vous avez rédigée pour le propriétaire"],
+          "explain": "Review of unit 7: [[que]] + passé composé with avoir → [[rédigée]] agrees with [[la lettre]]."
+        },
+        {
+          "id": "h7", "type": "dictation",
+          "fr": "Certes, ces projets demandent de l'argent. Cependant, les résultats en valent la peine.",
+          "accept": ["Certes ces projets demandent de l'argent. Cependant les résultats en valent la peine."],
+          "explain": "A comma after [[Certes]] and [[Cependant]] at the start of a sentence."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed recall",
+      "intro": "Twelve questions: most on connected writing, some on earlier B1 units (relative pronouns, complaints, the passive). Answer without looking back.",
+      "blocks": [
+        {
+          "id": "r1", "type": "cloze",
+          "text": "Ce projet coûte cher. ___, il pourrait faire économiser de l'argent à long terme.",
+          "answers": [["Cependant", "Pourtant", "Toutefois", "Néanmoins"]],
+          "choices": ["Cependant", "Donc", "En effet", "De plus"],
+          "en": "This project is expensive. However, it could save money in the long term.",
+          "explain": "The second sentence goes against the first → opposition: [[Cependant]]."
+        },
+        {
+          "id": "r2", "type": "cloze",
+          "text": "Les loyers ont beaucoup augmenté. ___, de nombreuses familles quittent le centre-ville.",
+          "answers": [["C'est pourquoi", "Par conséquent", "Donc", "Ainsi"]],
+          "choices": ["C'est pourquoi", "Cependant", "En effet", "Certes"],
+          "en": "Rents have gone up a lot. That's why many families are leaving downtown.",
+          "explain": "The second sentence is a **result** of the first → consequence: [[C'est pourquoi]] or [[Par conséquent]]."
+        },
+        {
+          "id": "r3", "type": "mcq",
+          "prompt": "Which sentence uses a connector correctly in writing?",
+          "options": ["Je suis contre ce projet. En effet, il coûte trop cher.", "Je suis contre ce projet. Car il coûte trop cher.", "Je suis contre ce projet. En fait, il coûte trop cher, pourtant.", "Je suis contre ce projet. Donc, car il coûte trop cher."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[En effet]] can start a sentence to give the reason. In careful writing, [[car]] doesn't start a sentence.",
+          "optionFeedback": [null, "In careful writing, car doesn't start a sentence: write …projet, car il coûte… or En effet, …", "Two contradictory connectors; pourtant expresses a surprising contrast.", "donc and car together make no sense."]
+        },
+        {
+          "id": "r4", "type": "match",
+          "prompt": "Match each connector with its function.",
+          "pairs": [["sans compter que", "adding a final argument"], ["certes", "conceding a point"], ["en effet", "explaining a cause"], ["par conséquent", "drawing a consequence"], ["en somme", "concluding"]]
+        },
+        {
+          "id": "r5", "type": "cloze",
+          "text": "J'ai écrit à la directrice et au comptable. ___ m'a répondu tout de suite, mais la directrice, non.",
+          "answers": [["Ce dernier", "Celui-ci"]],
+          "choices": ["Ce dernier", "Cette dernière", "Celle-ci", "Ceux-ci"],
+          "en": "I wrote to the director (a woman) and the accountant (a man). The latter answered me right away, but the director didn't.",
+          "explain": "[[ce dernier]] = the last person mentioned: [[le comptable]], masculine singular."
+        },
+        {
+          "id": "r6", "type": "translate",
+          "prompt": "As far as I'm concerned, this measure is a good idea.",
+          "accept": ["En ce qui me concerne, cette mesure est une bonne idée.", "En ce qui me concerne, cette mesure, c'est une bonne idée."],
+          "explain": "[[En ce qui me concerne]] introduces your position; [[cette mesure]] is a summary noun."
+        },
+        {
+          "id": "r7", "type": "reorder",
+          "prompt": "Looking forward to your reply, … (formal letter)",
+          "accept": ["Dans l'attente de votre réponse"],
+          "extra": ["pour", "vos"],
+          "explain": "A fixed formula from the formal letter, just before the closing: [[Dans l'attente de votre réponse, je vous prie d'agréer…]]"
+        },
+        {
+          "id": "r8", "type": "translate",
+          "prompt": "Ultimately, it's a question of money.",
+          "accept": ["En fin de compte, c'est une question d'argent.", "En fin de compte c'est une question d'argent."],
+          "explain": "[[en fin de compte]] = after weighing everything up."
+        },
+        {
+          "id": "r9", "type": "cloze",
+          "text": "Review (unit 7): C'est une mesure ___ on parle beaucoup et ___ beaucoup de lecteurs soutiennent.",
+          "answers": [["dont"], ["que"]],
+          "choices": ["dont", "que", "qui", "où"],
+          "en": "It's a measure people talk about a lot and that many readers support.",
+          "explain": "[[parler **de**]] → [[dont]]. A subject follows ([[beaucoup de lecteurs]]) → [[que]]."
+        },
+        {
+          "id": "r10", "type": "translate",
+          "prompt": "Review (unit 5): The letter was published in the letters to the editor.",
+          "accept": ["La lettre a été publiée dans le courrier des lecteurs."],
+          "hint": "The passive: être + past participle",
+          "explain": "Passive in the past: [[a été publiée]], agreeing with [[la lettre]]."
+        },
+        {
+          "id": "r11", "type": "mcq",
+          "prompt": "Review (unit 8): You've called three times and the problem continues. Which sentence fits a formal complaint?",
+          "options": ["Malgré mes trois appels, le problème n'est toujours pas réglé.", "Malgré de mes trois appels, le problème n'est pas encore réglé toujours.", "Même mes trois appels, le problème est toujours pas réglé.", "Depuis mes trois appels, le problème ne toujours pas réglé."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[malgré]] + noun (no *de*), and [[ne… toujours pas]] for *still not*."
+        },
+        {
+          "id": "r12", "type": "dictation",
+          "fr": "De même, les bibliothèques ainsi que les piscines réduisent leurs horaires.",
+          "accept": ["De même les bibliothèques ainsi que les piscines réduisent leurs horaires."],
+          "explain": "[[De même]] = likewise; [[ainsi que]] = as well as."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn: write and speak a connected opinion",
+      "intro": "Write first, then speak. Plan your paragraphs before you start, and vary your connectors.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "Your city wants to close the main street of downtown to cars every Sunday in summer. Write a letter for the letters-to-the-editor section of your local newspaper: give your position, two arguments with examples, a concession, and a conclusion.",
+          "promptFr": "La Ville veut fermer la rue principale aux voitures tous les dimanches d'été. Rédigez une lettre pour le courrier des lecteurs.",
+          "wordRange": [120, 180],
+          "checklist": [
+            "A first paragraph that gives your position",
+            "One paragraph per argument, each opening with a connector",
+            "A concrete example for each argument",
+            "A concession: Certes… Cependant… / Il est vrai que… mais…",
+            "At least two summary nouns or ce dernier to avoid repetition",
+            "A conclusion: En somme… / En fin de compte… / C'est pourquoi…",
+            "Your name and city at the end"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "La Ville veut fermer la rue Wellington aux voitures tous les dimanches d'été. En ce qui me concerne, je suis pour ce projet.\nTout d'abord, une rue sans voitures est plus agréable pour les familles. En effet, les enfants peuvent marcher ou faire du vélo sans danger. C'est le cas à Montréal, où plusieurs rues sont piétonnes l'été.\nDe plus, cette mesure peut aider les commerces. Les gens restent plus longtemps dans la rue, et ils achètent plus dans les cafés et les boutiques.\nCertes, certaines personnes auront plus de difficulté à se garer. Cependant, ce problème est facile à régler : il suffit d'ajouter des autobus le dimanche.\nEn somme, cette idée est bonne pour les habitants ainsi que pour les commerçants. C'est pourquoi j'espère que la Ville va l'essayer cet été.\nSofia Ramírez, Sherbrooke",
+              "en": "The City wants to close Wellington Street to cars every Sunday in summer. As far as I'm concerned, I'm in favour of this project. First of all, a street without cars is more pleasant for families. Indeed, children can walk or cycle safely. That's the case in Montréal, where several streets are pedestrian in summer. What's more, this measure can help businesses. People stay longer in the street, and they buy more in cafés and shops. Admittedly, some people will have more difficulty parking. However, this problem is easy to solve: you just need to add buses on Sundays. All in all, this idea is good for residents as well as for shopkeepers. That's why I hope the City will try it this summer. Sofia Ramírez, Sherbrooke"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Une rue pour les piétons : enfin !\nLa Ville a annoncé qu'elle allait fermer la rue principale aux voitures tous les dimanches d'été. Contrairement à certains lecteurs, je suis convaincu que c'est une excellente décision.\nTout d'abord, cette mesure rendrait le centre-ville plus vivant. En effet, quand les voitures disparaissent, les gens prennent le temps de se promener, de s'asseoir sur une terrasse ou d'écouter un musicien. J'ai constaté ce phénomène l'été dernier à Québec, sur la rue Saint-Jean.\nPar ailleurs, ce projet serait bon pour l'environnement ainsi que pour notre santé, sans compter qu'il ne coûterait presque rien.\nCertes, les commerçants craignent de perdre des clients. Pourtant, l'expérience d'autres villes montre le contraire : dans ces villes, les commerces voient souvent leurs ventes augmenter.\nEn fin de compte, il ne s'agit que d'un jour par semaine. C'est pourquoi j'invite mes concitoyens à soutenir ce projet.\nRaj Patel, Sherbrooke",
+              "en": "A street for pedestrians: at last! The City has announced that it is going to close the main street to cars every Sunday in summer. Unlike some readers, I'm convinced that it's an excellent decision. First of all, this measure would make downtown livelier. Indeed, when cars disappear, people take the time to stroll, to sit on a patio or to listen to a musician. I noticed this phenomenon last summer in Québec City, on Saint-Jean Street. Besides, this project would be good for the environment as well as for our health, not to mention that it would cost almost nothing. Admittedly, shopkeepers are afraid of losing customers. And yet the experience of other cities shows the opposite: in those cities, businesses often see their sales go up. Ultimately, it's only one day a week. That's why I invite my fellow citizens to support this project. Raj Patel, Sherbrooke"
+            }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "On a radio call-in show, the host asks: “Should children start learning a second language in kindergarten?” Give your opinion for about two minutes, as a spoken version of a connected text: position, two arguments with examples, a concession and a conclusion.",
+          "seconds": 120,
+          "checklist": [
+            "Give your position right away",
+            "Announce and develop two arguments with connectors (tout d'abord, de plus, par ailleurs)",
+            "Give a personal or concrete example for each one",
+            "Make a concession: Certes… mais… / Il est vrai que… cependant…",
+            "Avoid repeating the same noun: use pronouns or ce dernier",
+            "Conclude: en somme, en fin de compte, c'est pourquoi"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour ! En ce qui me concerne, je pense que oui, les enfants devraient apprendre une deuxième langue dès la maternelle. Tout d'abord, à cet âge, les enfants apprennent très vite. En effet, ils imitent les sons sans avoir peur de faire des erreurs. C'est le cas de mon fils : il a quatre ans, et il parle déjà français et anglais. De plus, au Canada, être bilingue est un vrai avantage pour trouver un emploi. Certes, certains parents pensent que c'est trop tôt et que les enfants vont mélanger les langues. Cependant, ce mélange ne dure pas longtemps. En somme, c'est une chance pour les enfants, et c'est pourquoi je suis pour.",
+              "en": "Hello! As far as I'm concerned, I think yes, children should learn a second language from kindergarten. First of all, at that age, children learn very fast. Indeed, they imitate sounds without being afraid of making mistakes. That's the case for my son: he's four, and he already speaks French and English. What's more, in Canada, being bilingual is a real advantage for finding a job. Admittedly, some parents think it's too early and that children will mix up the languages. However, this mixing doesn't last long. All in all, it's an opportunity for children, and that's why I'm in favour."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Merci de me donner la parole. Alors, pour moi, la réponse est clairement oui, et j'ai deux raisons principales. Tout d'abord, les jeunes enfants ont une capacité extraordinaire pour les langues. En effet, avant six ou sept ans, ils entendent et reproduisent des sons que les adultes ont beaucoup de mal à prononcer. Je l'ai constaté avec ma fille : elle est arrivée du Vietnam à trois ans, et aujourd'hui, elle parle français sans accent, alors que moi, j'ai encore du mal avec certains sons ! Par ailleurs, apprendre une langue tôt, ce n'est pas seulement une question de travail. C'est aussi une ouverture sur d'autres cultures, sans compter que ça développe la mémoire. Il est vrai que certains parents ont peur de la fatigue ou du mélange des langues. Cependant, les enfants s'adaptent très vite si les activités restent des jeux : des chansons, des histoires, des comptines. En fin de compte, on ne force pas un enfant à apprendre ; on lui donne simplement une chance de plus. C'est pourquoi, à mon avis, toutes les écoles devraient le proposer.",
+              "en": "Thank you for letting me speak. So, for me, the answer is clearly yes, and I have two main reasons. First of all, young children have an extraordinary ability with languages. Indeed, before the age of six or seven, they hear and reproduce sounds that adults have great difficulty pronouncing. I noticed it with my daughter: she arrived from Vietnam at three, and today she speaks French without an accent, whereas I still struggle with some sounds! Besides, learning a language early isn't only a question of work. It's also an opening onto other cultures, not to mention that it develops memory. It's true that some parents are afraid of tiredness or of the languages getting mixed up. However, children adapt very quickly if the activities stay games: songs, stories, nursery rhymes. Ultimately, you don't force a child to learn; you simply give them one more chance. That's why, in my opinion, all schools should offer it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Follow the plan of a letter to the editor and of a radio column: position, arguments, examples, concession, conclusion\n- Reuse the unit's connectors and reference words in new texts: [[en effet]], [[cependant]], [[certes]], [[ce dernier]], summary nouns\n- Add new tools for connected writing: [[ainsi que]], [[sans compter que]], [[de même]], [[en fin de compte]], [[En ce qui me concerne]], [[constater]], [[rédiger]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed an ambiguous ces derniers in the stronger writing model and softened the absolute rule about car. Added accepted connectors (Néanmoins, Ainsi, Celui-ci) and fixed the recall intro." }
+}

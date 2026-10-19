@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-02-01",
+  "level": "b2",
+  "unit": "b2-02",
+  "title": "Persuasive language",
+  "goal": "Recognize and use the main tools of persuasion in French: rhetorical questions, appeals to emotion, repetition and rhythm, striking figures and examples, and a clear call to action.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-et-si", "kind": "grammar", "fr": "Et si + imparfait ?", "en": "What if… ? / How about… ? (suggestion)",
+      "drills": [
+        { "type": "cloze", "text": "Et si chacun de nous ___ (donner) une heure par mois ?", "answers": [["donnait"]], "en": "What if each of us gave one hour a month?", "explain": "[[Et si + imparfait]] makes a gentle, inviting suggestion. No main clause is needed." },
+        { "type": "cloze", "text": "Et si on ___ (faire) quelque chose ensemble, pour une fois ?", "answers": [["faisait"]], "en": "How about doing something together, for once?", "explain": "[[faire]] → imparfait [[on faisait]]." },
+        { "type": "translate", "prompt": "What if we changed the world, one meal at a time?", "accept": ["Et si on changeait le monde, un repas à la fois ?", "Et si nous changions le monde, un repas à la fois ?", "Et si on changeait le monde, un repas après l'autre ?", "Et si nous changions le monde, un repas après l'autre ?", "Et si on changeait le monde, repas après repas ?", "Et si nous changions le monde, repas après repas ?"], "explain": "[[Et si + imparfait ?]] turns an idea into an invitation." }
+      ] },
+    { "id": "g-procedes", "kind": "grammar", "fr": "question rhétorique, anaphore, rythme ternaire, appel à l'action", "en": "the main persuasive devices",
+      "drills": [
+        { "type": "mcq", "prompt": "“Qui n'a jamais eu peur de manquer d'argent à la fin du mois ?” This is:", "options": ["a rhetorical question", "a real question expecting information", "a call to action", "a statistic"], "answer": 0, "explain": "The speaker doesn't expect an answer: everyone silently answers *nobody*, and feels concerned." },
+        { "type": "mcq", "prompt": "Which sentence uses a ternary rhythm (three elements)?", "options": ["Donnez du temps, donnez de l'argent, donnez de l'espoir.", "Donnez, s'il vous plaît.", "Nous avons besoin de vous.", "Merci beaucoup."], "optionsFr": true, "answer": 0, "explain": "Three parallel elements, here with the repetition of [[donnez]] (an anaphora): very memorable." },
+        { "type": "cloze", "text": "Ne ___ pas les bras croisés : agissons !", "answers": [["restons"]], "en": "Let's not stand idly by: let's act!", "explain": "The [[nous]] imperative ([[restons]], [[agissons]]) includes the speaker: *we're in this together*." }
+      ] },
+    { "id": "question-rhetorique", "kind": "vocab", "fr": "question rhétorique", "article": "une", "gender": "f", "en": "rhetorical question", "pos": "noun", "accept": ["la question rhétorique", "une question oratoire"] },
+    { "id": "qui-na-jamais", "kind": "phrase", "fr": "Qui n'a jamais… ?", "en": "Who has never… ? (rhetorical)", "example": { "fr": "Qui n'a jamais hésité avant de demander de l'aide ?", "en": "Who has never hesitated before asking for help?" } },
+    { "id": "imaginez", "kind": "phrase", "fr": "Imaginez un instant…", "en": "Imagine for a moment…", "accept": ["Imaginez…", "Imagine un instant…"] },
+    { "id": "mettez-vous-a-la-place", "kind": "phrase", "fr": "Mettez-vous à la place de…", "en": "Put yourself in the shoes of… (formal)" },
+    { "id": "vous-me-direz", "kind": "phrase", "fr": "Vous me direz que…", "en": "You'll tell me that… (anticipating an objection)", "accept": ["Tu me diras que…", "On me dira que…"] },
+    { "id": "les-bras-croises", "kind": "phrase", "fr": "rester les bras croisés", "en": "to stand idly by, to do nothing", "example": { "fr": "On ne peut pas rester les bras croisés.", "en": "We can't stand idly by." } },
+    { "id": "chaque-geste-compte", "kind": "phrase", "fr": "Chaque geste compte.", "en": "Every action counts, every little bit helps.", "accept": ["Chaque geste compte !"] },
+    { "id": "faire-la-difference", "kind": "phrase", "fr": "faire la différence", "en": "to make a difference", "example": { "fr": "Votre don peut faire la différence.", "en": "Your donation can make a difference." }, "note": "The idiom is [[faire la différence]]. [[Faire une différence]] is common, especially in Canada, but style guides treat it as an anglicism: avoid it in formal writing." },
+    { "id": "banque-alimentaire", "kind": "vocab", "fr": "banque alimentaire", "article": "une", "gender": "f", "en": "food bank", "pos": "noun", "accept": ["la banque alimentaire"] },
+    { "id": "don", "kind": "vocab", "fr": "don", "article": "un", "gender": "m", "en": "donation, gift", "pos": "noun", "accept": ["le don"], "example": { "fr": "Chaque don est important.", "en": "Every donation matters." }, "note": "[[faire un don]] = to donate. [[un don de sang]] = a blood donation." },
+    { "id": "sensibiliser", "kind": "vocab", "fr": "sensibiliser", "en": "to raise awareness (among)", "pos": "verb", "example": { "fr": "Nous voulons sensibiliser les jeunes à la pauvreté.", "en": "We want to raise young people's awareness of poverty." }, "note": "[[sensibiliser quelqu'un à quelque chose]]. Not *to sensitize* in everyday English." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A speech that moves people",
+      "intro": "Arguing (unit 1) appeals to **reason**. Persuading also appeals to **emotion** and makes people **act**. Read this speech twice: first as a guest at the event, then as a speechwriter, spotting each technique.",
+      "blocks": [
+        { "type": "text", "title": "« Personne ne devrait avoir faim à Moncton »",
+          "context": "Sofia Martel, volunteer coordinator of a food bank in Moncton, New Brunswick, speaks at the opening of the annual fundraising campaign.",
+          "fr": "Mesdames et messieurs, bonsoir.\n\nQui, dans cette salle, n'a jamais ouvert son réfrigérateur en se demandant ce qu'il allait manger ce soir ? Nous l'avons tous fait. Mais pour certaines familles de notre ville, la question n'est pas « quoi manger ? ». C'est « est-ce qu'on va manger ? ».\n\nImaginez un instant. Vous êtes une mère seule. Vous travaillez à temps plein. Vous payez le loyer, l'électricité, l'autobus. Et le 20 du mois, il ne reste plus rien pour remplir le frigo. Ce n'est pas une histoire inventée : c'est celle de Julie, qui vient chez nous chaque semaine avec ses deux enfants.\n\nL'an dernier, nous avons aidé plus de quatre mille personnes. Un tiers d'entre elles étaient des enfants. Un tiers ! Dans l'une des provinces les plus accueillantes du pays, peut-on vraiment rester les bras croisés ?\n\nVous me direz que la pauvreté est un problème trop grand pour nous. C'est vrai : nous ne réglerons pas tout ce soir. Mais je refuse de croire qu'on ne peut rien faire. Chaque boîte de conserve, chaque heure de bénévolat, chaque dollar fait la différence.\n\nDonner, ce n'est pas seulement nourrir. Donner, c'est dire à Julie : « Vous n'êtes pas seule. » Donner, c'est dire à ses enfants : « Votre ville pense à vous. »\n\nAlors, et si cette année, chacun de nous donnait un peu plus ? Un peu de temps, un peu d'argent, un peu d'espoir. Ce soir, ne repartez pas les mains vides : repartez avec la fierté d'avoir agi.\n\nEnsemble, faisons de Moncton une ville où personne n'a faim. Merci.",
+          "en": "Ladies and gentlemen, good evening.\n\nWho in this room has never opened their fridge wondering what they were going to eat tonight? We've all done it. But for some families in our city, the question isn't “what shall we eat?”. It's “are we going to eat?”.\n\nImagine for a moment. You're a single mother. You work full time. You pay the rent, the electricity, the bus. And on the 20th of the month, there's nothing left to fill the fridge. This isn't a made-up story: it's Julie's, who comes to us every week with her two children.\n\nLast year, we helped more than four thousand people. A third of them were children. A third! In one of the most welcoming provinces in the country, can we really stand idly by?\n\nYou'll tell me that poverty is too big a problem for us. It's true: we won't solve everything tonight. But I refuse to believe that nothing can be done. Every can of food, every hour of volunteering, every dollar makes a difference.\n\nGiving isn't just feeding. Giving is saying to Julie: “You're not alone.” Giving is saying to her children: “Your city is thinking of you.”\n\nSo, what if this year each of us gave a little more? A little time, a little money, a little hope. Tonight, don't leave empty-handed: leave with the pride of having acted.\n\nTogether, let's make Moncton a city where no one goes hungry. Thank you." },
+        { "type": "listen", "title": "A radio ad",
+          "context": "A 20-second public service announcement heard on a Montréal radio station.",
+          "fr": "Une heure. C'est le temps d'un film, d'un souper, d'une promenade. C'est aussi le temps qu'il faut pour sauver jusqu'à trois vies. Chaque jour, des patients attendent un don de sang. Et si le prochain donneur, c'était vous ? Prenez rendez-vous dès aujourd'hui. Une heure de votre temps, toute une vie pour quelqu'un d'autre.",
+          "en": "One hour. That's the length of a movie, a dinner, a walk. It's also the time it takes to save up to three lives. Every day, patients are waiting for a blood donation. What if the next donor were you? Make an appointment today. One hour of your time, a whole life for someone else." },
+        { "id": "d1", "type": "mcq", "prompt": "Why does Sofia tell Julie's story?", "options": ["To make the problem concrete and touch the audience's emotions", "To criticize Julie", "To give exact statistics", "To change the subject"], "answer": 0,
+          "explain": "A single real person ([[c'est celle de Julie]]) moves people more than a number. Sofia then adds a figure to support it." },
+        { "id": "d2", "type": "mcq", "prompt": "What does “Donner, ce n'est pas seulement nourrir. Donner, c'est dire…” illustrate?", "options": ["An anaphora: the same word repeated at the start of each sentence", "A counterargument", "A question to the audience", "A statistic"], "answer": 0,
+          "explain": "Repeating [[Donner]] creates rhythm and fixes the key idea in the audience's memory." }
+      ] },
+    { "type": "understand", "title": "The persuader's toolbox",
+      "intro": "Classical rhetoric distinguishes three levers: **logos** (reason: facts, figures), **pathos** (emotion: stories, images) and **ethos** (credibility: who you are). A good persuasive text uses all three.",
+      "blocks": [
+        { "type": "table", "title": "Persuasive devices",
+          "head": ["Device", "What it does", "Example"],
+          "rows": [
+            ["question rhétorique", "Makes listeners answer silently and feel involved", "Peut-on vraiment rester les bras croisés ?"],
+            ["appel aux émotions", "Creates empathy with an image or a story", "Imaginez un instant… / Mettez-vous à la place de…"],
+            ["anaphore", "Repeats a word at the start of sentences to hammer an idea", "Donner, c'est… Donner, c'est…"],
+            ["rythme ternaire", "Three elements: sounds complete and memorable", "Un peu de temps, un peu d'argent, un peu d'espoir."],
+            ["chiffre frappant", "Shocks with a precise figure", "Un tiers d'entre elles étaient des enfants. Un tiers !"],
+            ["objection anticipée", "Answers doubts before they're said", "Vous me direz que… C'est vrai. Mais…"],
+            ["appel à l'action", "Tells people exactly what to do", "Prenez rendez-vous dès aujourd'hui. / Ensemble, faisons…"]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "Notice the [[nous]] imperative ([[faisons]], [[agissons]]): it includes the speaker and sounds less bossy than the [[vous]] imperative." },
+        { "type": "pattern", "title": "Et si… ? The soft suggestion",
+          "pattern": "Et si + sujet + imparfait ?",
+          "note": "Unlike a B1 si-clause, there's no main clause: the question itself is the suggestion. It's softer than an order and invites people to imagine.",
+          "examples": [
+            { "fr": "Et si chacun de nous donnait un peu plus ?", "en": "What if each of us gave a little more?" },
+            { "fr": "Et si on essayait autre chose ?", "en": "How about trying something else?" },
+            { "fr": "Et si le prochain donneur, c'était vous ?", "en": "What if the next donor were you?" }
+          ] },
+        { "type": "explain", "title": "Rhetorical questions that work in French",
+          "body": "Some patterns are especially common in speeches and opinion pieces:\n\n- [[Qui n'a jamais… ?]] (Who has never…?) → creates complicity\n- [[Peut-on vraiment… ?]] (Can we really…?) → implies *no*\n- [[Comment rester indifférent face à… ?]] (How can we remain indifferent to…?)\n- [[Faut-il rappeler que… ?]] (Need I remind you that…?)\n- [[Que serait notre ville sans… ?]] (What would our city be without…?)\n\n**Tip:** one or two rhetorical questions per speech are powerful. Five in a row sound manipulative." },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["question-rhetorique", "qui-na-jamais", "imaginez", "mettez-vous-a-la-place", "vous-me-direz", "les-bras-croises", "chaque-geste-compte", "faire-la-difference", "banque-alimentaire", "don", "sensibiliser"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "When persuasion backfires",
+          "body": "- **Too much emotion, no facts.** A story without a figure sounds like manipulation. Pair them: Julie's story **and** [[plus de quatre mille personnes]].\n- **Guilt-tripping:** [[Vous devriez avoir honte !]] ✗ makes people defensive. Prefer pride and hope: [[repartez avec la fierté d'avoir agi]].\n- **A vague call to action.** [[Aidez-nous]] is weak; [[Prenez rendez-vous dès aujourd'hui]] or [[Donnez dix dollars ce soir]] is concrete.\n- [[faire une différence]] (anglicism, avoid in formal writing) → [[faire la différence]] ✓\n- [[sensibiliser les gens sur]] ✗ → [[sensibiliser les gens à]] ✓\n- [[Et si nous donnerions…]] ✗ → [[Et si nous donnions…]] ✓ (imparfait, never conditional after si)." },
+        { "type": "deepdive", "kind": "canada", "title": "Moncton, Acadie and community causes",
+          "body": "Moncton is in New Brunswick, Canada's only officially bilingual province, and close to the heart of [[l'Acadie]], the French-speaking communities of the Maritimes. You may hear Acadian features such as [[asteure]] (now, from *à cette heure*) or, in traditional informal speech, [[je parlons]] (= nous parlons).\n\nFood banks ([[banques alimentaires]]), blood drives ([[collectes de sang]]) and Christmas food drives ([[la guignolée]], in Québec) are part of Canadian community life. They're great **real** topics for persuasive tasks in the TEF and TCF." }
+      ] },
+    { "type": "hear", "title": "The voice of persuasion",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Persuasion lives in the voice: pause before the key word, stress the repeated words, and let your voice fall firmly at the end of a call to action.",
+          "lines": [
+            { "fr": "Qui n'a jamais hésité avant de demander de l'aide ?", "en": "Who has never hesitated before asking for help?" },
+            { "fr": "Imaginez un instant : vous êtes seule, avec deux enfants.", "en": "Imagine for a moment: you're alone, with two children." },
+            { "fr": "Un tiers d'entre elles étaient des enfants. Un tiers !", "en": "A third of them were children. A third!", "tip": "Repeat the figure louder and slower the second time." },
+            { "fr": "Donner, c'est dire : vous n'êtes pas seule.", "en": "Giving is saying: you're not alone." },
+            { "fr": "Un peu de temps, un peu d'argent, un peu d'espoir.", "en": "A little time, a little money, a little hope.", "tip": "Ternary rhythm: rise, rise, fall." },
+            { "fr": "Ensemble, faisons la différence.", "en": "Together, let's make a difference." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Vous me direz que vous n'avez pas le temps. Mais une heure par mois, est-ce vraiment trop demander ?", "en": "You'll tell me you don't have the time. But one hour a month, is that really too much to ask?", "prompt": "Which two techniques does the speaker combine?", "options": ["Anticipating an objection and a rhetorical question", "A statistic and a story", "A ternary rhythm and a call to action", "A personal story and a joke"], "answer": 0,
+          "explain": "[[Vous me direz que…]] anticipates the objection; [[est-ce vraiment trop demander ?]] is a rhetorical question (the implied answer is *no*)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Dans notre région, un enfant sur six arrive à l'école le ventre vide. Un sur six. Pensez à la classe de vos enfants.", "en": "In our region, one child in six arrives at school on an empty stomach. One in six. Think of your children's class.", "prompt": "What is the speaker trying to do?", "options": ["Make a figure feel personal", "Criticize teachers", "Give a precise budget", "Talk about school schedules"], "answer": 0,
+          "explain": "A striking figure, repeated, then made personal ([[Pensez à la classe de vos enfants]]): logos plus pathos." }
+      ] },
+    { "type": "recall", "title": "Persuade from memory",
+      "intro": "Eight questions, with some earlier grammar mixed in.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Et si nous ___ (organiser) une collecte dans notre immeuble ?", "answers": [["organisions"]], "en": "What if we organized a collection in our building?",
+          "explain": "[[Et si + imparfait]]: [[nous organisions]]." },
+        { "id": "r2", "type": "match", "prompt": "Match each sentence to the device it uses.", "pairs": [["Qui n'a jamais eu peur de l'avenir ?", "rhetorical question"], ["Imaginez un instant…", "appeal to emotion"], ["Un sur trois. Un sur trois !", "striking figure"], ["Vous me direz que c'est cher.", "anticipated objection"], ["Inscrivez-vous dès ce soir !", "call to action"]] },
+        { "id": "r3", "type": "translate", "prompt": "Your donation can make a difference. (formal)", "accept": ["Votre don peut faire la différence.", "Votre don peut faire toute la différence."],
+          "explain": "[[faire la différence]], with the definite article." },
+        { "id": "r4", "type": "translate", "prompt": "We can't stand idly by.", "accept": ["Nous ne pouvons pas rester les bras croisés.", "On ne peut pas rester les bras croisés."],
+          "explain": "[[rester les bras croisés]]: literally *to stay with crossed arms*." },
+        { "id": "r5", "type": "mcq", "prompt": "Which call to action is the most effective?", "options": ["Donnez dix dollars ce soir, à l'entrée de la salle.", "Aidez-nous un peu, si possible.", "Vous devriez avoir honte de ne rien faire.", "La pauvreté, c'est triste."], "optionsFr": true, "answer": 0,
+          "explain": "Concrete action, amount, time and place. The others are vague, guilt-tripping or not a call to action.",
+          "optionFeedback": [null, "Too vague: what, how much, when?", "Guilt makes people defensive.", "A statement, not a call to action."] },
+        { "id": "r6", "type": "reorder", "prompt": "Together, let's make Moncton a city where no one goes hungry.", "accept": ["Ensemble faisons de Moncton une ville où personne n'a faim"], "extra": ["faites", "que"],
+          "explain": "The [[nous]] imperative [[faisons]] + the relative [[où]] (B1) for a place." },
+        { "id": "r7", "type": "cloze", "text": "Nous voulons sensibiliser les jeunes ___ gaspillage alimentaire.", "answers": [["au"]], "en": "We want to raise young people's awareness of food waste.",
+          "explain": "[[sensibiliser quelqu'un à quelque chose]]: à + le = [[au]]." },
+        { "id": "r8", "type": "dictation", "fr": "Chaque boîte de conserve, chaque heure de bénévolat, chaque dollar fait la différence.", "accept": [], "explain": "A ternary rhythm with anaphora ([[chaque]] × 3). The verb is singular: [[fait]], because each item is taken one by one." }
+      ] },
+    { "type": "apply", "title": "Your turn: move your audience",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You volunteer for a community organization that teaches French to newcomers. In about one minute, give a short speech to convince people at a community centre to become volunteer conversation partners.", "promptFr": "Convainquez le public de devenir bénévole pour des ateliers de conversation en français.", "seconds": 60,
+          "checklist": ["A rhetorical question to open", "An appeal to emotion (Imaginez… / Mettez-vous à la place de…)", "A striking figure or a real example", "An anticipated objection (Vous me direz que…)", "A ternary rhythm or an anaphora", "A precise call to action"],
+          "models": [
+            { "label": "Model answer", "fr": "Qui n'a jamais eu peur de parler une langue étrangère ? Imaginez un instant : vous arrivez dans un nouveau pays, vous comprenez un peu, mais vous n'osez pas parler. C'est ce que vivent les quarante adultes inscrits à nos ateliers. Vous me direz que vous n'êtes pas professeur. Justement ! Ils n'ont pas besoin d'un professeur. Ils ont besoin d'une voix, d'une oreille, d'un sourire. Une heure par semaine, c'est tout ce que nous demandons. Et si vous commenciez jeudi prochain ? Inscrivez-vous ce soir, à la table près de l'entrée. Ensemble, faisons du français une langue qui accueille.", "en": "Who has never been afraid to speak a foreign language? Imagine for a moment: you arrive in a new country, you understand a little, but you don't dare speak. That's what the forty adults registered in our workshops are going through. You'll tell me you're not a teacher. Exactly! They don't need a teacher. They need a voice, an ear, a smile. One hour a week is all we ask. How about starting next Thursday? Sign up tonight at the table near the entrance. Together, let's make French a language that welcomes." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write an article for your building's newsletter persuading residents to take part in a winter clothing drive for families in need.", "promptFr": "Rédigez un article pour le bulletin de votre immeuble afin de convaincre les résidents de participer à une collecte de vêtements d'hiver.",
+          "wordRange": [140, 200],
+          "checklist": ["A catchy opening (rhetorical question or Imaginez…)", "A concrete example or a striking figure", "An anticipated objection and an answer", "At least one anaphora or ternary rhythm", "Et si + imparfait", "A precise call to action: what, where, when"],
+          "models": [
+            { "label": "Model answer", "fr": "Qui n'a jamais eu froid en attendant l'autobus en janvier ? Maintenant, imaginez un instant que vous n'avez pas de manteau chaud. C'est la réalité de nombreuses familles nouvellement arrivées dans notre quartier : elles découvrent l'hiver canadien sans bottes, sans tuque et sans mitaines.\n\nL'an dernier, l'organisme du quartier a reçu plus de deux cents demandes de vêtements d'hiver. Il a pu en satisfaire à peine la moitié.\n\nVous me direz que vous n'avez rien à donner. Ouvrez vos placards ! Un manteau trop petit pour votre fils, des bottes que vous ne portez plus, un foulard oublié : tout peut servir.\n\nEt si, cette année, notre immeuble devenait le plus généreux du quartier ? Déposez vos vêtements propres dans la boîte du hall d'entrée, du 1er au 15 novembre. Un geste simple, un hiver plus doux, une famille au chaud. Merci d'avance !", "en": "Who has never been cold waiting for the bus in January? Now imagine for a moment that you don't have a warm coat. That's the reality for many families newly arrived in our neighbourhood: they discover the Canadian winter without boots, without a toque and without mittens.\n\nLast year, the neighbourhood organization received more than two hundred requests for winter clothing. It was able to meet barely half of them.\n\nYou'll tell me you have nothing to give. Open your closets! A coat that's too small for your son, boots you no longer wear, a forgotten scarf: everything can be useful.\n\nWhat if, this year, our building became the most generous in the neighbourhood? Drop off your clean clothes in the box in the entrance hall, from November 1st to 15th. A simple gesture, a gentler winter, a warm family. Thank you in advance!" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Recognize and use persuasive devices: [[question rhétorique]], appeal to emotion ([[Imaginez un instant…]]), anaphora, ternary rhythm, striking figures\n- Anticipate objections with [[Vous me direz que…]]\n- Suggest gently with [[Et si + imparfait ?]]\n- End with a precise call to action, often with the [[nous]] imperative: [[Ensemble, faisons…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Softened the faire une différence rule (an anglicism to avoid, not an error), fixed the register of one item's accept list, and clarified the Acadian je parlons note. Minor English and date-format fixes." }
+}

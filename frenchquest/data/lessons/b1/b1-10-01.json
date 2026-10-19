@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-10-01",
+  "level": "b1",
+  "unit": "b1-10",
+  "title": "Organizing a monologue",
+  "goal": "Plan and deliver a short talk in three parts: an introduction that announces your plan, two or three developed points, and a clear conclusion.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-plan-oral", "kind": "grammar", "fr": "annoncer → développer → résumer", "en": "the three-part plan of a spoken talk",
+      "drills": [
+        { "type": "mcq", "prompt": "What should the introduction of a short talk do?", "options": ["Say the topic and announce the plan", "Give all the details at once", "Thank the audience and finish"], "answer": 0, "explain": "A listener can't go back like a reader. Tell them **where you are going**: [[Je vais vous parler de… Je voudrais aborder trois points.]]" },
+        { "type": "cloze", "text": "___ maintenant à mon deuxième point : le travail.", "answers": [["Passons"]], "en": "Let's now move on to my second point: work.", "explain": "[[Passons à…]] is the **nous** imperative of [[passer]]: *let's move on to*." },
+        { "type": "cloze", "text": "Pour ___, Moncton est une ville idéale pour les familles bilingues.", "answers": [["résumer", "conclure"]], "en": "To sum up, Moncton is an ideal city for bilingual families.", "explain": "[[Pour résumer]] / [[Pour conclure]] signals the end, so the listener knows you are wrapping up." },
+        { "type": "translate", "prompt": "I'd like to cover three points.", "accept": ["Je voudrais aborder trois points.", "J'aimerais aborder trois points.", "Je voudrais parler de trois points.", "J'aimerais parler de trois points."], "explain": "[[aborder]] = to tackle, to cover (a topic). The conditionnel ([[voudrais]], [[aimerais]]) sounds polite." }
+      ] },
+    { "id": "je-vais-vous-parler", "kind": "phrase", "fr": "Je vais vous parler de mon quartier.", "en": "I'm going to talk to you about my neighbourhood.", "accept": ["Je vais vous parler de mon quartier"] },
+    { "id": "aborder-trois-points", "kind": "phrase", "fr": "Je voudrais aborder trois points.", "en": "I'd like to cover three points.", "accept": ["J'aimerais aborder trois points."] },
+    { "id": "je-commencerai", "kind": "phrase", "fr": "Je commencerai par…", "en": "I'll start with…", "accept": ["Je vais commencer par…"] },
+    { "id": "premierement", "kind": "vocab", "fr": "premièrement", "en": "firstly", "pos": "adverb", "accept": ["en premier lieu"],
+      "example": { "fr": "Premièrement, la ville est bilingue.", "en": "Firstly, the city is bilingual." } },
+    { "id": "passons-a", "kind": "phrase", "fr": "Passons maintenant à…", "en": "Let's now move on to…", "accept": ["Passons à…"] },
+    { "id": "j-en-viens-a", "kind": "phrase", "fr": "J'en viens à mon dernier point.", "en": "That brings me to my last point.", "accept": ["J'en arrive à mon dernier point.", "J'en viens maintenant à mon dernier point."] },
+    { "id": "quant-a", "kind": "vocab", "fr": "quant à", "en": "as for, as regards", "pos": "preposition",
+      "note": "Contracts like à: quant au travail, quant aux enfants.",
+      "example": { "fr": "Quant au climat, il faut aimer la neige !", "en": "As for the climate, you have to like snow!" } },
+    { "id": "pour-resumer", "kind": "phrase", "fr": "Pour résumer, …", "en": "To sum up, …", "accept": ["En résumé, …"] },
+    { "id": "merci-attention", "kind": "phrase", "fr": "Merci de votre attention.", "en": "Thank you for your attention.", "accept": ["Je vous remercie de votre attention.", "Merci pour votre attention."] },
+    { "id": "expose", "kind": "vocab", "fr": "exposé", "article": "un", "gender": "m", "en": "presentation, talk (prepared)", "pos": "noun", "accept": ["l'exposé", "une présentation"],
+      "example": { "fr": "Mon exposé dure deux minutes.", "en": "My presentation lasts two minutes." } },
+    { "id": "partie", "kind": "vocab", "fr": "partie", "article": "une", "gender": "f", "en": "part, section", "pos": "noun", "accept": ["la partie"],
+      "example": { "fr": "Dans une première partie, je parlerai du logement.", "en": "In a first part, I'll talk about housing." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A two-minute talk",
+      "intro": "At a welcome evening for newcomers in Moncton, Olivier is asked to talk for two minutes about why he chose the city. Listen first, then read. Try to spot **where each part begins**.",
+      "blocks": [
+        { "type": "listen", "title": "Pourquoi j'ai choisi Moncton",
+          "context": "Olivier speaks in front of about thirty people.",
+          "fr": "Bonsoir à toutes et à tous. Ce soir, je vais vous parler de Moncton, la ville où j'habite depuis trois ans, et vous expliquer pourquoi je l'ai choisie. Je voudrais aborder trois points : la langue, le travail et la qualité de vie.\nPremièrement, la langue. Moncton est une ville vraiment bilingue : on entend le français et l'anglais partout, dans les magasins, au travail, à l'hôpital. Pour moi, qui suis arrivé de France avec un anglais moyen, c'était parfait. J'ai pu améliorer mon anglais sans perdre mon français.\nPassons maintenant au travail. Il y a beaucoup d'emplois dans les centres d'appels, la santé et l'enseignement. Ma femme, par exemple, a trouvé un poste d'infirmière en deux semaines seulement.\nJ'en viens à mon dernier point : la qualité de vie. Les loyers sont beaucoup moins chers qu'à Toronto ou à Vancouver, et la plage est à une demi-heure de route. Quant à l'hiver, oui, il est long… mais on s'y habitue !\nPour résumer, Moncton m'a offert un équilibre entre deux langues, un bon emploi pour ma famille et une vie plus calme. Voilà, c'est tout pour moi. Merci de votre attention !",
+          "en": "Good evening, everyone. Tonight, I'm going to talk to you about Moncton, the city where I've lived for three years, and explain why I chose it. I'd like to cover three points: language, work and quality of life. Firstly, language. Moncton is a truly bilingual city: you hear French and English everywhere, in stores, at work, at the hospital. For me, having arrived from France with average English, it was perfect. I was able to improve my English without losing my French. Let's now move on to work. There are many jobs in call centres, health care and teaching. My wife, for example, found a nursing job in only two weeks. That brings me to my last point: quality of life. Rents are much cheaper than in Toronto or Vancouver, and the beach is half an hour's drive away. As for winter, yes, it's long… but you get used to it! To sum up, Moncton has given me a balance between two languages, a good job for my family and a calmer life. That's all from me. Thank you for your attention!" },
+        { "id": "d1", "type": "mcq", "prompt": "What does Olivier do in his first two sentences?", "options": ["He gives the topic and announces his three points", "He tells a personal anecdote", "He gives his conclusion"], "answer": 0,
+          "explain": "[[Je vais vous parler de…]] (topic) + [[Je voudrais aborder trois points : …]] (plan). The listeners now know what to expect." },
+        { "id": "d2", "type": "mcq", "prompt": "Which phrase tells the audience that the talk is ending?", "options": ["Pour résumer", "Passons maintenant au travail", "Premièrement"], "optionsFr": true, "answer": 0,
+          "explain": "[[Pour résumer]] announces the conclusion, which **repeats the three points** in one sentence." },
+        { "id": "d3", "type": "mcq", "prompt": "Olivier says the three points twice (in the introduction and the conclusion). Why is this good in a spoken talk?", "options": ["Listeners can't reread, so repetition helps them follow", "Because he forgot what he said", "It's a mistake: he should avoid repetition"], "answer": 0,
+          "explain": "In writing, you avoid repetition (unit 9). In speech, **announcing and recapping** is a strength: it guides the listener." }
+      ] },
+    { "type": "understand", "title": "The spoken plan",
+      "blocks": [
+        { "type": "table", "title": "A two-minute talk, step by step",
+          "head": ["Part", "Time", "What you say", "Signposts"],
+          "rows": [
+            ["Introduction", "about 15 s", "Greet, give the topic, announce your 2–3 points", "Je vais vous parler de… / Je voudrais aborder trois points : … / Je commencerai par…"],
+            ["Point 1", "about 30 s", "One idea + an example or a personal experience", "Premièrement, … / Tout d'abord, … / Pour commencer, …"],
+            ["Point 2", "about 30 s", "A second idea + an example", "Passons maintenant à… / Deuxièmement, … / Ensuite, …"],
+            ["Point 3 (optional)", "about 30 s", "A third idea, or a limit (but…)", "J'en viens à mon dernier point : … / Enfin, … / Quant à…"],
+            ["Conclusion", "about 15 s", "Recap the points in one sentence, close politely", "Pour résumer, … / En conclusion, … / Voilà, c'est tout pour moi. Merci de votre attention."]
+          ],
+          "frCols": [3], "sayCol": false,
+          "note": "If you only have **two** points, give each one about 45 seconds. Two well-developed points are better than three thin ones." },
+        { "type": "explain", "title": "Speaking is not writing aloud",
+          "body": "A spoken talk follows the same plan as a written paragraph (unit 9), with three differences:\n\n- **Signpost more.** Say the plan, say where you are ([[Passons maintenant à…]]), and recap. Repeating your key words is helpful here.\n- **Shorter sentences.** One idea per sentence. Long relative clauses are hard to say and hard to follow.\n- **A lighter register.** Even in an exam, [[on]] is fine instead of [[nous]], and you can use [[en plus]] or [[par contre]]. But keep it polite: no [[genre]], no swearing.\n\n**Don't memorize a text.** Memorize your **plan**: three key words on a card (*langue – travail – qualité de vie*). Then speak from the key words." },
+        { "type": "pattern", "title": "Quant à: changing the focus",
+          "pattern": "Quant à + nom, …   (quant au / quant à la / quant à l' / quant aux)",
+          "note": "[[Quant à]] (*as for*) moves to a new aspect, often at the end of a point. It contracts like [[à]].",
+          "examples": [
+            { "fr": "Quant au logement, il est moins cher qu'à Toronto.", "en": "As for housing, it's cheaper than in Toronto." },
+            { "fr": "Quant aux enfants, ils adorent leur nouvelle école.", "en": "As for the children, they love their new school." }
+          ] },
+        { "type": "vocab", "title": "Phrases for this lesson", "itemIds": ["je-vais-vous-parler", "aborder-trois-points", "je-commencerai", "premierement", "passons-a", "j-en-viens-a", "quant-a", "pour-resumer", "merci-attention", "expose", "partie"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common monologue mistakes",
+          "body": "- **No plan announced:** starting with a detail ([[Alors, l'autre jour…]]) loses the listener. Announce the topic first.\n- **Reading a text:** it sounds flat, and you freeze if you lose your line. Speak from key words.\n- **Je vais parler à vous:** the pronoun goes before the infinitive: [[Je vais vous parler de…]]\n- **Passons au, not passons à le:** contractions still apply: [[Passons au travail]], [[Passons aux loisirs]].\n- **Ending with Voilà… and silence:** say a real closing sentence first ([[Pour résumer, …]]), then [[Voilà, c'est tout pour moi]].\n- **Spending 90 seconds on point 1:** watch the time. Practise with a timer." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: TCF Canada speaking, task 1",
+          "body": "In the TCF Canada speaking test, **task 1** (*entretien dirigé*) is a short interview of about **two minutes**, with no preparation time. The examiner asks you to talk about yourself: your background, your family, your work or studies, your interests, your plans.\n\nYou won't give a formal speech, but the same skill helps: **organize each answer**. Instead of one-sentence answers, use a mini-plan: an idea, a detail or example, a short link to the next topic.\n\n**Practice:** prepare a 60-second self-presentation in three parts, e.g. *qui je suis – mon parcours – mes projets au Canada*. Say it three times with a timer, never in exactly the same words. Always check the current official format before your exam." },
+        { "type": "deepdive", "kind": "canada", "title": "Moncton and Acadian French",
+          "body": "Moncton, in New Brunswick, is one of the most bilingual cities in Canada, and New Brunswick is the country's only officially bilingual province. Many francophones there are **Acadians**. You will hear Acadian expressions and, in southeastern New Brunswick, *chiac*, a local variety of French that mixes in many English words. It is a real part of regional identity; get used to hearing it, and use standard French in your own talks." }
+      ] },
+    { "type": "hear", "title": "Hear the signposts",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Signposts are said slowly and clearly, with a small pause after. Your voice goes **down** at the end of a point and **up** when you announce the next one.",
+          "lines": [
+            { "fr": "Ce soir, je vais vous parler de Moncton.", "en": "Tonight, I'm going to talk to you about Moncton.", "tip": "vous parler: say it as one group, with no pause." },
+            { "fr": "Je voudrais aborder trois points : la langue, le travail et la qualité de vie.", "en": "I'd like to cover three points: language, work and quality of life.", "tip": "Count the points with your voice: up, up, down." },
+            { "fr": "Passons maintenant au travail.", "en": "Let's now move on to work." },
+            { "fr": "J'en viens à mon dernier point.", "en": "That brings me to my last point.", "tip": "j'en viens: two nasal vowels, an and in." },
+            { "fr": "Pour résumer, Moncton m'a offert une vie plus calme.", "en": "To sum up, Moncton has given me a calmer life." },
+            { "fr": "Voilà, c'est tout pour moi. Merci de votre attention !", "en": "That's all from me. Thank you for your attention!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq",
+          "fr": "Bonjour à tous. Aujourd'hui, je vais vous parler du bénévolat. Je commencerai par mon expérience personnelle, puis je vous expliquerai comment trouver une association près de chez vous.",
+          "en": "Hello everyone. Today, I'm going to talk to you about volunteering. I'll start with my personal experience, then I'll explain how to find an organization near you.",
+          "prompt": "How many parts has the speaker announced?",
+          "options": ["Two", "Three", "One"], "answer": 0,
+          "explain": "[[Je commencerai par…]] (1) [[puis je vous expliquerai…]] (2): two parts." },
+        { "id": "h2", "type": "listen-mcq",
+          "fr": "J'en viens maintenant à mon dernier point : les transports.",
+          "en": "I'm now coming to my last point: transportation.",
+          "prompt": "Where is the speaker in the talk?",
+          "options": ["Starting the last point", "In the introduction", "Saying goodbye"], "answer": 0,
+          "explain": "[[J'en viens à mon dernier point]] = that brings me to my last point. The conclusion comes next." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Think like a listener: what do they need to hear to follow you?",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each phrase with its place in a talk.",
+          "pairs": [["Je vais vous parler de…", "Introduction"], ["Premièrement, …", "Start of point 1"], ["Passons maintenant à…", "Moving to the next point"], ["Pour résumer, …", "Conclusion"], ["Merci de votre attention.", "Closing"]] },
+        { "id": "r2", "type": "cloze", "text": "Je ___ ___ parler de mon parcours professionnel.", "answers": [["vais"], ["vous"]], "en": "I'm going to talk to you about my career path.",
+          "explain": "Futur proche [[je vais]] + pronoun before the infinitive: [[vous parler]]." },
+        { "id": "r3", "type": "cloze", "text": "Passons maintenant ___ loisirs.", "answers": [["aux"]], "choices": ["aux", "à les", "au", "des"], "en": "Let's now move on to leisure activities.",
+          "explain": "à + les = [[aux]]. [[les loisirs]] is plural." },
+        { "id": "r4", "type": "translate", "prompt": "That brings me to my last point.", "accept": ["J'en viens à mon dernier point.", "J'en arrive à mon dernier point.", "J'en viens maintenant à mon dernier point.", "Passons à mon dernier point."], "hint": "venir, with en",
+          "explain": "[[J'en viens à…]] is a fixed expression for moving to a new part. [[dernier]] goes before [[point]]." },
+        { "id": "r5", "type": "mcq", "prompt": "You have two minutes and three points. Which plan is best?", "options": ["Intro 15 s, three points of about 30 s, conclusion 15 s", "Intro 60 s, three points of 20 s", "No intro, point 1 for 90 s, then stop", "Three points of 40 s, no conclusion"], "answer": 0,
+          "explain": "Short introduction and conclusion, balanced points. The conclusion is what listeners remember." },
+        { "id": "r6", "type": "cloze", "text": "Quant ___ hiver, il est long, mais on s'y habitue.", "answers": [["à l'"]], "choices": ["à l'", "au", "à le", "de l'"], "en": "As for winter, it's long, but you get used to it.",
+          "explain": "[[hiver]] starts with a silent h: [[quant à l'hiver]]." },
+        { "id": "r7", "type": "reorder", "prompt": "I'd like to cover three points.", "accept": ["Je voudrais aborder trois points"], "extra": ["veux", "parler"],
+          "explain": "[[aborder]] = to cover a topic. The conditionnel [[voudrais]] is more polite than [[veux]]." },
+        { "id": "r8", "type": "translate", "prompt": "I'll start with my family. (futur simple)", "accept": ["Je commencerai par ma famille.", "Je vais commencer par ma famille."], "hint": "commencer par",
+          "explain": "Review (A2): futur simple [[je commencerai]] + [[par]]. Note: *start with* = [[commencer par]], not *commencer avec*." },
+        { "id": "r9", "type": "cloze", "text": "C'est la ville ___ j'habite depuis trois ans.", "answers": [["où"]], "choices": ["où", "que", "dont", "qui"], "en": "It's the city where I've lived for three years.",
+          "explain": "Review (B1 unit 7): place → [[où]]. And [[depuis]] + present for something still true (A2)." },
+        { "id": "r10", "type": "dictation", "fr": "Pour résumer, j'ai trouvé un bon emploi et une vie plus calme.", "accept": [],
+          "explain": "[[Pour résumer]] opens the conclusion. [[plus calme]] = calmer (comparative)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Give a short talk (about 90 seconds): “The city where I live (or lived)”. First write three key words on a piece of paper (one per point). Then speak from your key words only. Time yourself.", "seconds": 90,
+          "checklist": ["Introduction: Je vais vous parler de… + announce your points", "Point 1 with Premièrement / Tout d'abord + an example", "Point 2 with Passons maintenant à… + an example", "Optional point 3 with J'en viens à… or Quant à…", "Conclusion: Pour résumer, … (recap your points in one sentence)", "Closing: Voilà, c'est tout pour moi. Merci de votre attention.", "You spoke from key words, not from a written text"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour à tous. Je vais vous parler de Laval, la ville où j'habite depuis deux ans. Je voudrais aborder deux points : le logement et les services.\nPremièrement, le logement. À Laval, les appartements sont plus grands et un peu moins chers qu'à Montréal. Par exemple, nous avons un cinq et demie avec une cour pour les enfants.\nPassons maintenant aux services. Il y a beaucoup de parcs, de bibliothèques et de centres communautaires. Quant au transport, le métro va jusqu'à Montréal, donc c'est pratique pour aller au travail.\nPour résumer, Laval, c'est plus d'espace et de bons services pour les familles. Voilà, c'est tout pour moi. Merci de votre attention !",
+              "en": "Hello everyone. I'm going to talk to you about Laval, the city where I've lived for two years. I'd like to cover two points: housing and services. Firstly, housing. In Laval, apartments are bigger and a little cheaper than in Montréal. For example, we have a five-and-a-half (a 3-bedroom apartment) with a yard for the children. Let's now move on to services. There are lots of parks, libraries and community centres. As for transportation, the metro goes all the way to Montréal, so it's convenient for getting to work. To sum up, Laval means more space and good services for families. That's all from me. Thank you for your attention!" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Plan a short talk in three parts: an **introduction** that announces your points, **2–3 developed points**, and a **conclusion** that recaps them\n- Guide the listener with signposts: [[Je vais vous parler de…]], [[Je voudrais aborder trois points]], [[Passons maintenant à…]], [[J'en viens à…]], [[Quant à…]], [[Pour résumer, …]]\n- Speak from key words, not from a memorized text, and keep an eye on the time",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed the chiac example sentence and replaced it with a neutral description of chiac. 'la mer est à une heure de route' → 'la plage est à une demi-heure de route' (Moncton is about 25–30 min from the coast). Rewrote an unclear pronunciation tip." }
+}

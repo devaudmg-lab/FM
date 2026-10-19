@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-08-05",
+  "level": "a1",
+  "unit": "a1-08",
+  "title": "Talk about your work or studies",
+  "goal": "Introduce yourself to a new team in a Canadian workplace or class: your job or studies, your schedule, how you get there, and questions for your colleagues.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "bienvenue-equipe", "kind": "phrase", "fr": "Bienvenue dans l'équipe !", "en": "Welcome to the team!" },
+    { "id": "equipe", "kind": "vocab", "fr": "équipe", "article": "l'", "gender": "f", "pos": "noun", "en": "team", "accept": ["équipe", "une équipe"],
+      "example": { "fr": "L'équipe est très sympathique.", "en": "The team is very nice." } },
+    { "id": "gestionnaire", "kind": "vocab", "fr": "gestionnaire", "article": "un", "gender": "m", "pos": "noun", "en": "manager (m or f)", "accept": ["gestionnaire", "une gestionnaire"],
+      "example": { "fr": "Olivier est le gestionnaire de l'équipe.", "en": "Olivier is the team's manager." }, "note": "Same form for a woman: une gestionnaire. Very common in Québec workplaces." },
+    { "id": "nouveau-ici", "kind": "phrase", "fr": "Je suis nouveau ici.", "en": "I'm new here.", "accept": ["Je suis nouvelle ici."], "note": "A woman says: Je suis nouvelle ici." },
+    { "id": "premier-jour", "kind": "phrase", "fr": "C'est mon premier jour.", "en": "It's my first day.", "accept": ["C'est ma première journée."] },
+    { "id": "je-vous-presente", "kind": "phrase", "fr": "Je vous présente Camille.", "en": "This is Camille. / Let me introduce Camille.", "accept": ["Je te présente Camille."], "note": "To a friend: Je te présente…" },
+    { "id": "formation", "kind": "vocab", "fr": "formation", "article": "la", "gender": "f", "pos": "noun", "en": "training (at work)", "accept": ["formation", "une formation"],
+      "example": { "fr": "Aujourd'hui, je suis en formation.", "en": "Today, I'm in training." } },
+    { "id": "francisation", "kind": "vocab", "fr": "francisation", "article": "la", "gender": "f", "pos": "noun", "en": "French classes for newcomers (Québec)", "accept": ["francisation"],
+      "example": { "fr": "Le soir, je suis en francisation.", "en": "In the evening, I take French classes for newcomers." } },
+    { "id": "courriel", "kind": "vocab", "fr": "courriel", "article": "le", "gender": "m", "pos": "noun", "en": "email", "accept": ["courriel", "un courriel", "le mail", "un mail", "un e-mail", "l'e-mail"],
+      "example": { "fr": "J'écris un courriel à Camille.", "en": "I'm writing an email to Camille." }, "note": "The Canadian word. France: un mail, un e-mail." },
+    { "id": "au-plaisir", "kind": "phrase", "fr": "Au plaisir !", "en": "Looking forward to it! (friendly closing, common in Québec)", "note": "Common at the end of a courriel or a conversation in Québec." },
+    { "id": "on-se-tutoie", "kind": "phrase", "fr": "Ici, on se tutoie.", "en": "Here, we use tu with each other.", "accept": ["Ici, tout le monde se tutoie."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A first day in Montréal",
+      "blocks": [
+        { "type": "dialogue", "title": "Mei's first day as a developer",
+          "context": "Mei starts a new job in an office in downtown Montréal. Olivier, the manager, welcomes her.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Bonjour, Mei ! Bienvenue dans l'équipe ! Je suis Olivier, le gestionnaire.", "en": "Hello, Mei! Welcome to the team! I'm Olivier, the manager." },
+            { "speaker": "Mei", "fr": "Bonjour, Olivier. Enchantée ! C'est mon premier jour, et je suis un peu stressée.", "en": "Hello, Olivier. Nice to meet you! It's my first day, and I'm a bit stressed." },
+            { "speaker": "Olivier", "fr": "C'est normal ! Je vous présente Camille. Elle est développeuse aussi.", "en": "That's normal! This is Camille. She's a developer too." },
+            { "speaker": "Camille", "fr": "Salut, Mei ! Ici, tout le monde se tutoie. Tu habites où ?", "en": "Hi, Mei! Here, everybody uses tu. Where do you live?" },
+            { "speaker": "Mei", "fr": "J'habite à Verdun. Je prends le métro, la ligne verte.", "en": "I live in Verdun. I take the metro, the green line." },
+            { "speaker": "Camille", "fr": "Moi aussi ! Est-ce que tu travailles à temps plein ?", "en": "Me too! Do you work full-time?" },
+            { "speaker": "Mei", "fr": "Oui, du lundi au vendredi. Mais le mardi et le jeudi soir, j'ai mon cours de francisation.", "en": "Yes, Monday to Friday. But on Tuesday and Thursday evenings, I have my French class for newcomers." },
+            { "speaker": "Olivier", "fr": "Très bien. Alors, Mei, aujourd'hui, tu es en formation. À midi, on dîne ensemble !", "en": "Very good. So, Mei, today you're in training. At noon, we're having lunch together!" },
+            { "speaker": "Mei", "fr": "Super ! Et à quelle heure est-ce que je finis ?", "en": "Great! And what time do I finish?" },
+            { "speaker": "Olivier", "fr": "Aujourd'hui, tu finis à quinze heures. Bonne première journée !", "en": "Today you finish at 3 p.m. Have a good first day!" }
+          ] },
+        { "type": "text", "title": "A welcome email from Olivier",
+          "fr": "Objet : Bienvenue dans l'équipe !\n\nBonjour Mei,\n\nVoici ton horaire pour ta première semaine :\nLundi : formation, de 9 h à 15 h\nDu mardi au vendredi : de 9 h à 17 h\nLa pause du dîner est de 12 h à 13 h. La réunion d'équipe est le mercredi, à 10 h.\n\nAu plaisir,\nOlivier",
+          "en": "Subject: Welcome to the team!\n\nHello Mei,\n\nHere is your schedule for your first week:\nMonday: training, 9 a.m. to 3 p.m.\nTuesday to Friday: 9 a.m. to 5 p.m.\nThe lunch break is from noon to 1 p.m. The team meeting is on Wednesdays at 10 a.m.\n\nLooking forward to working with you,\nOlivier" },
+        { "type": "note", "tone": "info", "body": "This lesson is a **unit checkpoint**. Everything here comes from units 1 to 8: listen to the dialogue first and see how much you understand before tapping for the English." }
+      ] },
+    { "type": "understand", "title": "Your unit 8 toolkit",
+      "blocks": [
+        { "type": "table", "title": "Everything you need to present your work or studies",
+          "head": ["to say…", "French", "lesson"],
+          "rows": [
+            ["your job", "Je suis développeuse. / C'est une très bonne équipe.", "jobs"],
+            ["your studies", "Je suis étudiant. / Je suis en francisation.", "jobs"],
+            ["a question", "Tu travailles ici ? / Est-ce que… ? / Travaillez-vous… ?", "questions"],
+            ["“what?”", "Qu'est-ce que tu fais ?", "questions"],
+            ["actions", "Je finis à 17 h. J'apprends le français. Je prends le métro.", "-ir / -re verbs"],
+            ["your schedule", "du lundi au vendredi, de 9 h à 17 h, à temps plein", "schedules"]
+          ],
+          "frCols": [1], "sayCol": true,
+          "note": "Add what you already know: [[je m'appelle]], your nationality, [[j'habite à]], your family, transport ([[en métro]], [[à pied]])." },
+        { "type": "vocab", "title": "New words for the first day", "itemIds": ["bienvenue-equipe", "equipe", "gestionnaire", "nouveau-ici", "premier-jour", "je-vous-presente", "formation", "francisation", "courriel", "au-plaisir", "on-se-tutoie"] },
+        { "type": "deepdive", "kind": "canada", "title": "Francisation",
+          "body": "[[La francisation]] means French courses for immigrants. In Québec, the government offers French courses for newcomers through **Francisation Québec**, with full-time and part-time options.\n\nOutside Québec, the federal government funds language classes for newcomers; in French they are called **CLIC** ([[Cours de langue pour les immigrants au Canada]]).\n\nSo [[Je suis en francisation]] (I'm taking French classes for newcomers) is a sentence you will hear and say a lot. Programs, schedules and eligibility change, so check the official websites for current details." },
+        { "type": "deepdive", "kind": "canada", "title": "Writing a courriel to a colleague",
+          "body": "A friendly work email in Québec is short and simple:\n\n- **Objet** (subject): [[Objet : Bonjour !]]\n- **Greeting:** [[Bonjour Camille,]] is perfect. [[Chère Camille]] sounds more like a letter.\n- **Tu or vous?** Colleagues often use [[tu]], as Camille says: [[Ici, on se tutoie.]] With a manager you don't know yet, or a client, start with [[vous]] and follow their lead.\n- **Closing:** [[Au plaisir,]] (very Québec), [[Bonne journée !]], [[Merci !]] For a formal email: [[Cordialement,]]\n\nAnd remember: it's a [[courriel]], not a [[mail]], in most French-speaking Canadian offices.",
+          "examples": [ { "fr": "Bonjour Olivier, merci pour l'horaire ! Au plaisir, Mei", "en": "Hello Olivier, thanks for the schedule! Looking forward to it, Mei" } ] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Checkpoint traps",
+          "body": "- [[Je suis une développeuse]] → [[Je suis développeuse]] (no article after être).\n- [[J'ai 30 ans]] uses **avoir**, not être.\n- [[Est-ce que tu fais ?]] → [[Qu'est-ce que tu fais ?]] for *what*.\n- [[J'attends pour l'autobus]] → [[J'attends l'autobus]].\n- [[de le lundi à le vendredi]] → [[du lundi au vendredi]]: always contract.\n- [[Je commence 9 h]] → [[Je commence à 9 h]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "These are the sentences you will need for your own presentation.",
+          "lines": [
+            { "fr": "Bonjour, je suis nouvelle ici.", "en": "Hello, I'm new here. (woman)", "tip": "nouvelle: you hear the l. A man says nouveau (nou-vo)." },
+            { "fr": "C'est mon premier jour.", "en": "It's my first day." },
+            { "fr": "Je travaille à temps plein, du lundi au vendredi.", "en": "I work full-time, Monday to Friday." },
+            { "fr": "Le soir, je suis en francisation.", "en": "In the evening, I take French classes for newcomers." },
+            { "fr": "Est-ce que tu dînes au bureau ?", "en": "Do you have lunch at the office?", "tip": "In Québec, dîner = to have lunch." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je travaille à temps partiel, le lundi, le mercredi et le vendredi.", "en": "I work part-time, on Mondays, Wednesdays and Fridays.", "prompt": "When does this person work?", "options": ["Part-time: Mon, Wed, Fri", "Full-time: Mon to Fri", "Part-time: Tue and Thu"], "answer": 0, "explain": "[[à temps partiel]] + [[le lundi, le mercredi et le vendredi]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Qu'est-ce que tu fais dans la vie ?", "en": "What do you do for a living?", "prompt": "What is the person asking?", "options": ["What do you do for a living?", "Where do you live?", "Do you work here?"], "answer": 0, "explain": "[[Qu'est-ce que]] = what; [[dans la vie]] = for a living." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Elle est gestionnaire. Elle commence à huit heures.", "en": "She's a manager. She starts at eight.", "prompt": "What do you learn?", "options": ["She's a manager and starts at 8.", "She's a manager and finishes at 8.", "She's an engineer and starts at 8."], "answer": 0, "explain": "[[gestionnaire]] = manager; [[commence]] = starts." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: units 1 to 8",
+      "intro": "These questions mix everything you've learned so far. Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "You meet your new manager for the first time. She says « Bienvenue dans l'équipe ! ». What's the best reply?", "options": ["Merci beaucoup ! Enchanté.", "De rien !", "Salut, ça va ?", "Au revoir !"], "optionsFr": true, "answer": 0,
+          "explain": "Thank her and say you're pleased to meet her (enchanté, or enchantée if you're a woman).",
+          "optionFeedback": [null, "De rien answers merci; nobody thanked you.", "Salut is too informal for a manager you have just met.", "Au revoir is for leaving!"] },
+        { "id": "r2", "type": "translate", "prompt": "My colleague (a woman) is 30 years old.", "accept": ["Ma collègue a 30 ans.", "Ma collègue a trente ans."], "hint": "Age uses avoir.", "explain": "ma collègue (feminine) + avoir: elle a 30 ans." },
+        { "id": "r3", "type": "cloze", "text": "Je ___ le métro à Verdun. (prendre)", "answers": [["prends"]], "en": "I take the metro in Verdun.", "explain": "je → prends, with an s." },
+        { "id": "r4", "type": "cloze", "text": "Je travaille ___ lundi ___ vendredi, ___ 9 h ___ 17 h.", "answers": [["du"], ["au"], ["de"], ["à"]], "en": "I work from Monday to Friday, from 9 a.m. to 5 p.m.", "explain": "Days: du… au… Times: de… à…" },
+        { "id": "r5", "type": "translate", "prompt": "Do you work full-time? (formal)", "accept": ["Est-ce que vous travaillez à temps plein ?", "Vous travaillez à temps plein ?", "Travaillez-vous à temps plein ?", "Est-ce que vous travaillez à plein temps ?", "Vous travaillez à plein temps ?", "Travaillez-vous à plein temps ?"], "explain": "Any of the three question forms is correct; inversion is the most formal." },
+        { "id": "r6", "type": "mcq", "prompt": "Lunch with your team. How do you say “I'm having some soup”?", "options": ["Je prends de la soupe.", "Je prends du soupe.", "Je prends des soupe.", "Je prends de le soupe."], "optionsFr": true, "answer": 0,
+          "explain": "la soupe is feminine, so the partitive is de la.",
+          "optionFeedback": [null, "du is for masculine nouns; soupe is feminine.", "des is plural; soupe is singular here.", "de + le contracts to du, and soupe is feminine anyway."] },
+        { "id": "r7", "type": "listen-mcq", "fr": "Le bureau d'Olivier ? Tournez à droite. C'est à côté de la cuisine.", "en": "Olivier's office? Turn right. It's next to the kitchen.", "prompt": "Where is Olivier's office?", "options": ["On the right, next to the kitchen", "On the left, behind the kitchen", "Straight ahead, in front of the kitchen"], "answer": 0, "explain": "[[à droite]] = on the right; [[à côté de]] = next to." },
+        { "id": "r8", "type": "reorder", "prompt": "I get up at six o'clock.", "accept": ["Je me lève à six heures.", "À six heures, je me lève."], "extra": ["se"], "explain": "Reflexive verb: je me lève. Se goes with il / elle." },
+        { "id": "r9", "type": "dictation", "fr": "Ma sœur est infirmière à Ottawa.", "accept": ["Ma soeur est infirmière à Ottawa."], "explain": "No article before the job: [[est infirmière]]. Feminine: -ière." },
+        { "id": "r10", "type": "translate", "prompt": "The meeting finishes at eleven.", "accept": ["La réunion finit à onze heures.", "La réunion finit à 11 h.", "La réunion finit à 11 heures.", "La réunion se termine à onze heures.", "La réunion se termine à 11 h.", "La réunion se termine à 11 heures."], "explain": "finir → la réunion finit (the t is silent) + à onze heures." }
+      ] },
+    { "type": "apply", "title": "Your mission",
+      "intro": "Two real tasks for your first week. Take your time and use as much as you can from units 1 to 8.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Introduce yourself to your new team (or your new francisation class) for 45 to 60 seconds: name, origin, where you live, your job or studies, your schedule, how you get there, and one or two questions for the group.", "seconds": 60,
+          "checklist": ["Greeting and name", "Nationality and city (j'habite à…)", "Job or studies, with no article (je suis…)", "Schedule: du… au…, de… à…, temps plein / partiel", "Transport (je prends…)", "One or two questions (est-ce que, qu'est-ce que, or inversion)"],
+          "models": [
+            { "label": "Model answer (work)", "fr": "Bonjour à tous ! Je m'appelle Raj. Je suis indien et j'habite à Ottawa avec ma femme. Elle est médecin. Moi, je suis ingénieur. Je travaille à temps plein, du lundi au vendredi, de huit heures trente à seize heures trente. Je prends l'autobus le matin. Le lundi soir, j'apprends le français. Je comprends bien, mais je parle lentement ! Et vous, qu'est-ce que vous faites dans l'équipe ? Est-ce qu'il y a une réunion le lundi ?", "en": "Hello everyone! My name is Raj. I'm Indian and I live in Ottawa with my wife. She's a doctor. I'm an engineer. I work full-time, Monday to Friday, from 8:30 a.m. to 4:30 p.m. I take the bus in the morning. On Monday evenings, I learn French. I understand well, but I speak slowly! And you, what do you do in the team? Is there a meeting on Mondays?" },
+            { "label": "Model answer (studies)", "fr": "Bonjour ! Je m'appelle Sofia. Je suis mexicaine et j'habite à Montréal, dans le quartier Rosemont. Je suis en francisation à temps plein : j'ai des cours du lundi au vendredi, de huit heures trente à quinze heures. Je prends le métro, et après, je marche dix minutes. Mon mari est comptable et nous avons une fille. Le samedi, je travaille à temps partiel : je suis vendeuse dans une pharmacie. Et vous, est-ce que vous travaillez aussi ?", "en": "Hello! My name is Sofia. I'm Mexican and I live in Montréal, in the Rosemont neighbourhood. I'm in full-time francisation: I have classes Monday to Friday, from 8:30 a.m. to 3 p.m. I take the metro, and then I walk for ten minutes. My husband is an accountant and we have a daughter. On Saturdays, I work part-time: I'm a salesperson in a pharmacy. And you, do you work too?" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a courriel (60 to 90 words) to a new colleague to introduce yourself: who you are, your job, where you live, your schedule, and how you come to work. End with a question and a friendly closing.", "promptFr": "Écrivez un courriel (60 à 90 mots) à un nouveau collègue ou une nouvelle collègue pour vous présenter.", "wordRange": [60, 90],
+          "checklist": ["An Objet (subject line) and Bonjour + first name", "Your name, nationality and city", "Your job, with no article (je suis…)", "Your schedule with du… au… and de… à…", "How you come to work (je prends… / à pied)", "A question for your colleague", "A closing: Au plaisir, / Bonne journée !"],
+          "models": [
+            { "label": "Model answer", "fr": "Objet : Bonjour de la nouvelle développeuse\n\nBonjour Camille,\n\nJe m'appelle Mei Chen et je suis la nouvelle développeuse de l'équipe. Je suis chinoise et j'habite à Verdun avec mon mari. Je travaille à temps plein, du lundi au vendredi, de 9 h à 17 h. Le mardi et le jeudi soir, j'apprends le français : je suis en francisation. Je prends le métro tous les matins. Est-ce que tu dînes au bureau ? On dîne ensemble mercredi ?\n\nAu plaisir,\nMei", "en": "Subject: Hello from the new developer\n\nHello Camille,\n\nMy name is Mei Chen and I'm the team's new developer. I'm Chinese and I live in Verdun with my husband. I work full-time, Monday to Friday, from 9 a.m. to 5 p.m. On Tuesday and Thursday evenings, I learn French: I'm taking francisation classes. I take the metro every morning. Do you have lunch at the office? Shall we have lunch together on Wednesday?\n\nLooking forward to it,\nMei" },
+            { "label": "Model answer (part-time)", "fr": "Objet : Nouveau collègue\n\nBonjour Lucie,\n\nJe suis Karim, le nouveau cuisinier du restaurant. Je suis marocain et j'habite à Gatineau avec ma femme et mes deux enfants. Je travaille à temps partiel, le jeudi, le vendredi et le samedi, de 16 h à 23 h. Le matin, j'ai mon cours de francisation, de 9 h à midi. Je prends l'autobus pour aller au travail. Et toi, qu'est-ce que tu fais au restaurant ? Tu es cuisinière aussi ?\n\nBonne journée !\nKarim", "en": "Subject: New colleague\n\nHello Lucie,\n\nI'm Karim, the restaurant's new cook. I'm Moroccan and I live in Gatineau with my wife and my two children. I work part-time, on Thursdays, Fridays and Saturdays, from 4 to 11 p.m. In the morning, I have my francisation class, from 9 to noon. I take the bus to go to work. And you, what do you do at the restaurant? Are you a cook too?\n\nHave a good day!\nKarim" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Introduce yourself to a new team: name, origin, city, job or studies, schedule and transport\n- Ask colleagues questions in the right register: [[Tu travailles ici ?]], [[Est-ce que… ?]], [[Travaillez-vous… ?]]\n- Write a short, friendly [[courriel]] with an [[Objet]], [[Bonjour + prénom]] and [[Au plaisir]]\n- Understand Canadian workplace words: [[gestionnaire]], [[formation]], [[francisation]], [[la pause du dîner]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Francisation deep dive kept general, pointing to official sites. Dialogue no longer says training ends at noon, which clashed with the email's 9 h–15 h. Added missing accepted answers to r8 and r10." }
+}

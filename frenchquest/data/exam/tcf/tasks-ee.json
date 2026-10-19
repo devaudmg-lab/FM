@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "ability": "ee",
+  "tasks": [
+    {
+      "id": "tcf-ee-1-t1",
+      "section": "T1",
+      "title": "Housewarming invitation",
+      "level": "b1",
+      "prompt": "Vous venez d'emménager dans un nouvel appartement. Écrivez un message à votre ami(e) pour l'inviter à fêter votre installation. Précisez la date, l'heure et l'adresse, et décrivez ce que vous avez prévu. (60 mots minimum, 120 mots maximum)",
+      "promptEn": "You have just moved into a new apartment. Write a message to your friend inviting them to celebrate your move. Give the date, time and address, and describe what you have planned. (60 to 120 words)",
+      "minWords": 60,
+      "maxWords": 120,
+      "minutes": 15,
+      "checklist": [
+        "Opens and closes the message appropriately for a friend (Salut / Bonjour…, À bientôt / Je t'embrasse…)",
+        "Says why you are writing: you have moved and want to celebrate",
+        "Gives all three practical details: date, time and address",
+        "Describes what is planned (food, music, activities…)",
+        "Asks the friend to reply or confirm, ideally with a deadline",
+        "Uses tu consistently and stays within 60–120 words"
+      ],
+      "tips": [
+        "Tick off every element of the instruction (date, time, address, programme): a missing element costs more than a small grammar slip.",
+        "Use the futur proche (je vais préparer…) and the futur simple (il y aura…) to talk about the party.",
+        "One or two personal touches (a detail about the apartment, a question about the friend) make the message natural.",
+        "Spend 2 minutes planning, 10 writing and 3 rereading for agreements and accents."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Salut Karim,\n\nComment vas-tu ? J'ai une bonne nouvelle : j'ai enfin trouvé un appartement et j'ai emménagé la semaine dernière ! Il est situé au 245, rue Saint-Denis, au troisième étage. Pour fêter ça, j'organise une petite soirée le samedi 14 juin à partir de 19 heures. Je vais préparer des plats de mon pays et il y aura de la musique. Si tu veux, tu peux apporter une boisson. Est-ce que tu peux me confirmer ta présence avant jeudi ?\n\nÀ bientôt,\nSofia"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour Karim,\n\nJ'espère que tu vas bien et que ton nouveau poste te plaît toujours ! De mon côté, après des semaines de recherches, j'ai enfin posé mes valises dans un appartement lumineux, au 245, rue Saint-Denis (troisième étage, sans ascenseur, hélas !). Pour pendre la crémaillère, j'organise une soirée le samedi 14 juin, à partir de 19 heures. Au menu : un buffet de spécialités libanaises que je cuisinerai moi-même, puis un peu de musique sur le balcon si la météo le permet. Tu n'as besoin de rien apporter, mais si tu tiens à contribuer, un dessert serait parfait. Peux-tu me dire d'ici jeudi si tu seras des nôtres ?\n\nJe t'embrasse,\nSofia"
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-1-t2",
+      "section": "T2",
+      "title": "Blog post: my first months in Canada",
+      "level": "b1",
+      "prompt": "Vous vivez au Canada depuis quelques mois. Sur votre blogue, vous racontez votre arrivée : vos premières impressions, une difficulté que vous avez rencontrée et ce qui vous a aidé(e) à la surmonter. (120 mots minimum, 150 mots maximum)",
+      "promptEn": "You have been living in Canada for a few months. On your blog, you tell the story of your arrival: your first impressions, a difficulty you faced and what helped you overcome it. (120 to 150 words)",
+      "minWords": 120,
+      "maxWords": 150,
+      "minutes": 20,
+      "checklist": [
+        "Has a short title suited to a blog post",
+        "Covers all three points: first impressions, one difficulty, what helped",
+        "Narrates in the past with passé composé for events and imparfait for descriptions and feelings",
+        "Uses time markers to organize the story (d'abord, ensuite, heureusement, aujourd'hui…)",
+        "Includes concrete details (place, month, people) rather than generalities",
+        "Ends with a conclusion about the present or the future",
+        "Stays within 120–150 words"
+      ],
+      "tips": [
+        "Plan three short paragraphs, one per point of the instruction: it makes the structure obvious to the marker.",
+        "Check every passé composé: être or avoir, and past participle agreement (nous sommes arrivés, elle nous a aidés).",
+        "Describe feelings with the imparfait (j'avais peur, je me sentais seul) to show tense control.",
+        "Count your words at the end: 150 is a hard ceiling, so cut adjectives before cutting content."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Mes premiers mois au Québec\n\nJe suis arrivé à Montréal en novembre dernier avec ma femme et nos deux enfants. Mes premières impressions étaient très positives : les gens sont accueillants et la ville est calme et propre. Mais la première difficulté est arrivée très vite : l'hiver ! En décembre, il faisait moins vingt degrés et nous n'avions pas de vêtements adaptés. Les enfants ne voulaient pas sortir et moi, je glissais sur les trottoirs tous les matins.\n\nHeureusement, notre voisine, Mme Tremblay, nous a beaucoup aidés. Elle nous a expliqué où acheter des manteaux et des bottes pas trop chers, et elle nous a parlé d'un centre communautaire près de chez nous. Là-bas, nous avons rencontré d'autres familles immigrantes. Maintenant, nous aimons même faire du patin le dimanche !"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Six mois au Canada : ce que personne ne m'avait dit\n\nEn arrivant à Moncton en février, je me croyais prête : j'avais lu des dizaines d'articles et rempli tous mes formulaires sans erreur. Rien, pourtant, ne m'avait préparée au silence de la ville sous la neige, ni à la gentillesse de ses habitants.\n\nLa véritable difficulté a toutefois été professionnelle. Infirmière depuis dix ans en Tunisie, j'ai découvert que mon diplôme n'était pas reconnu automatiquement et que des mois de démarches m'attendaient. J'avoue avoir douté de mon choix.\n\nC'est un organisme d'aide aux nouveaux arrivants qui m'a remise sur les rails : une conseillère m'a aidée à constituer mon dossier, puis m'a présentée à une infirmière retraitée devenue ma marraine. Aujourd'hui, je travaille comme préposée aux soins en attendant mon permis, et j'ai retrouvé confiance."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-1-t3",
+      "section": "T3",
+      "title": "Should remote work become the norm?",
+      "level": "b2",
+      "prompt": "Le télétravail devrait-il devenir la norme ? Lisez les deux documents ci-dessous. Présentez les deux points de vue, puis donnez votre opinion en la justifiant. (120 mots minimum, 180 mots maximum)",
+      "promptEn": "Should remote work become the norm? Read the two documents below. Present both points of view, then give your own opinion and justify it. (120 to 180 words)",
+      "document": "Document 1\nDepuis que je travaille de chez moi trois jours par semaine, ma vie a changé. Je ne perds plus deux heures par jour dans les embouteillages, je dépense moins en essence et je suis plus concentrée, car personne ne vient m'interrompre toutes les cinq minutes. Mon employeur y gagne aussi : il loue des bureaux plus petits. Pour moi, le télétravail devrait être un droit pour tous ceux dont le poste le permet.\n— Nadia, comptable\n\nDocument 2\nOn présente le télétravail comme une liberté, mais c'est souvent une solitude. Dans mon équipe, les nouveaux employés apprennent beaucoup moins vite, parce qu'ils ne peuvent plus observer leurs collègues ni leur poser une question en passant. La frontière entre vie privée et vie professionnelle disparaît : on répond à ses courriels le soir, au milieu du salon. Le bureau reste un lieu d'échange irremplaçable.\n— Marc, chef d'équipe",
+      "minWords": 120,
+      "maxWords": 180,
+      "minutes": 25,
+      "checklist": [
+        "Introduces the debate in one sentence",
+        "Summarizes Document 1 accurately and neutrally, in your own words",
+        "Summarizes Document 2 accurately and neutrally, in your own words",
+        "Uses contrast connectors to link the two views (en revanche, au contraire, par contre…)",
+        "States a clear personal position, in a separate paragraph",
+        "Supports the position with at least one argument and a concrete example",
+        "Stays within 120–180 words and does not copy whole sentences from the documents"
+      ],
+      "tips": [
+        "Two paragraphs work well: (1) the two views, about 70–90 words; (2) your opinion, about 60–80 words.",
+        "Reformulate: replace the documents' words with synonyms (embouteillages → bouchons, solitude → isolement). Copying is penalized.",
+        "Name the authors and their roles (Nadia, comptable, estime que…) and use reporting verbs: affirme, souligne, déplore, rappelle.",
+        "A nuanced position (un modèle hybride) is fine, as long as it is clearly stated and justified."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Le télétravail est un sujet très discuté depuis quelques années. Dans le premier document, Nadia, une comptable, explique que travailler à la maison a beaucoup d'avantages. Elle gagne du temps parce qu'elle ne prend plus sa voiture, elle économise de l'argent et elle se concentre mieux. Selon elle, c'est aussi bon pour l'entreprise. Par contre, dans le deuxième document, Marc pense que le télétravail isole les employés. Les nouveaux apprennent moins bien et les gens travaillent aussi le soir, chez eux.\n\nÀ mon avis, les deux ont raison, mais je préfère une solution mixte. Par exemple, dans mon entreprise, nous travaillons deux jours au bureau et trois jours à la maison. Les jours au bureau, nous faisons les réunions et nous aidons les nouveaux collègues. Les autres jours, je travaille tranquillement chez moi. Je pense que c'est le meilleur équilibre pour tout le monde."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Le télétravail doit-il devenir la règle ? Les deux documents apportent des réponses opposées. Pour Nadia, comptable, travailler à domicile représente un progrès indéniable : fini les heures perdues dans les bouchons, les frais d'essence et les interruptions constantes. Elle souligne en outre que l'employeur y trouve son compte, puisqu'il réduit ses frais de location. Marc, chef d'équipe, en dresse au contraire un portrait plus sombre : selon lui, le télétravail isole les salariés, ralentit l'intégration des nouveaux venus et brouille la frontière entre vie privée et vie professionnelle.\n\nPour ma part, il me semble excessif d'en faire une norme absolue, mais tout aussi absurde d'y renoncer. L'expérience de mon ancienne entreprise l'illustre bien : lorsque nous sommes passés au télétravail complet, les échanges informels ont disparu et plusieurs recrues ont démissionné au bout de quelques mois. Le retour à deux jours de présence obligatoire a suffi à recréer une véritable cohésion. Un modèle hybride, bien encadré, me paraît donc le plus raisonnable."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-2-t1",
+      "section": "T1",
+      "title": "Favour for a neighbour",
+      "level": "b1",
+      "prompt": "Vous partez en vacances pendant deux semaines. Écrivez un message à votre voisin(e) pour lui demander de s'occuper de votre appartement pendant votre absence. Expliquez précisément ce qu'il faut faire et remerciez-le/la. (60 mots minimum, 120 mots maximum)",
+      "promptEn": "You are going on holiday for two weeks. Write a message to your neighbour asking them to look after your apartment while you are away. Explain exactly what needs to be done and thank them. (60 to 120 words)",
+      "minWords": 60,
+      "maxWords": 120,
+      "minutes": 15,
+      "checklist": [
+        "Uses a polite register suited to a neighbour (vous, Bonjour Madame/Monsieur…)",
+        "Gives the reason and the dates of your absence",
+        "Makes the request politely (conditional: pourriez-vous, accepteriez-vous…)",
+        "Explains clearly what to do (mail, plants, keys…) and when",
+        "Gives a way to contact you in case of a problem",
+        "Thanks the neighbour and closes politely",
+        "Stays within 60–120 words"
+      ],
+      "tips": [
+        "A request to a neighbour calls for vous and the conditional: Est-ce que vous pourriez… ? / Accepteriez-vous de… ?",
+        "Be practical and precise: days, times, where the key will be. Precision shows communicative control.",
+        "Offer something in return (je vous rendrai la pareille, un petit souvenir) to sound natural.",
+        "Watch the pronouns: les arroser, vous les rendre, m'écrire."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Bonjour Madame Gagnon,\n\nJe pars en vacances au Mexique du 3 au 17 mars et j'ai un petit service à vous demander. Est-ce que vous pourriez prendre mon courrier tous les deux ou trois jours ? Il y a aussi mes plantes : il faut les arroser une fois par semaine, le lundi par exemple. Je vais laisser une clé chez vous demain soir. Si vous avez un problème, vous pouvez m'écrire par texto au 514 555-0142. Merci beaucoup pour votre aide ! Je vais vous rapporter un petit souvenir.\n\nBonne journée,\nDaniel (appartement 4)"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour Madame Gagnon,\n\nJe me permets de vous solliciter, car je m'absente du 3 au 17 mars pour rendre visite à ma famille au Mexique. Accepteriez-vous de relever mon courrier deux ou trois fois par semaine ? Pourriez-vous également arroser mes plantes ? Un verre d'eau chacune le lundi suffit, sauf pour le grand ficus du salon, qui en demande un peu plus. Je déposerai un double de mes clés chez vous demain soir, vers 19 heures, si cela vous convient. En cas d'imprévu, vous pouvez me joindre par texto au 514 555-0142. Je vous remercie infiniment et je vous rendrai volontiers la pareille quand vous le souhaiterez !\n\nBien cordialement,\nDaniel, appartement 4"
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-2-t2",
+      "section": "T2",
+      "title": "Article: a volunteer day",
+      "level": "b1",
+      "prompt": "Le journal de votre quartier recherche des témoignages. Écrivez un article pour raconter une journée de bénévolat à laquelle vous avez participé : ce que vous avez fait, les personnes que vous avez rencontrées et ce que cette expérience vous a apporté. (120 mots minimum, 150 mots maximum)",
+      "promptEn": "Your local neighbourhood newspaper is looking for personal stories. Write an article about a volunteer day you took part in: what you did, the people you met and what the experience gave you. (120 to 150 words)",
+      "minWords": 120,
+      "maxWords": 150,
+      "minutes": 20,
+      "checklist": [
+        "Has a title that suits a newspaper article",
+        "Sets the scene: when, where, which organization",
+        "Recounts the activities in a clear chronological order",
+        "Describes at least one person met, with a concrete detail",
+        "Explains what the experience gave you (feelings, lessons, plans)",
+        "Uses past tenses accurately (passé composé / imparfait)",
+        "Stays within 120–150 words"
+      ],
+      "tips": [
+        "Readers of a local paper like concrete detail: a street name, a time, a first name.",
+        "Use chronological markers: le matin, ensuite, l'après-midi, à la fin de la journée.",
+        "A short anecdote about one person is the easiest way to make the article lively.",
+        "Finish with a call to action or a personal resolution (j'y retournerai, venez nous aider)."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Une journée à la banque alimentaire\n\nSamedi dernier, j'ai participé pour la première fois à une journée de bénévolat à la banque alimentaire de notre quartier. Nous étions une vingtaine de bénévoles. Le matin, nous avons trié les dons : des conserves, des pâtes, des fruits et des légumes. L'après-midi, j'ai aidé à préparer des paniers pour les familles, puis je les ai distribués.\n\nJ'ai rencontré des personnes très différentes : des étudiants, des retraités et même une famille arrivée de Colombie il y a trois mois. Une dame âgée m'a raconté qu'elle venait chaque semaine depuis la fermeture de son usine. Son histoire m'a beaucoup touché.\n\nCette expérience m'a appris que beaucoup de gens ont besoin d'aide, même dans un pays riche. Je vais y retourner le mois prochain et je vous invite à venir avec moi !"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Trier des conserves… et changer de regard\n\nJe l'avoue : je me suis inscrit à cette journée de bénévolat surtout pour étoffer mon CV. J'en suis reparti avec bien davantage.\n\nDès huit heures, une vingtaine de volontaires s'affairaient dans l'entrepôt de la banque alimentaire, rue Principale. On m'a confié le tri des denrées, puis la composition de paniers adaptés à chaque foyer : sans gluten pour l'un, avec du lait maternisé pour l'autre. L'après-midi, j'ai participé à la distribution.\n\nC'est là que j'ai rencontré Lucienne, une ancienne couturière septuagénaire qui vient ici depuis que sa pension ne suffit plus à payer son loyer. Elle m'a raconté son parcours sans amertume, avec un humour désarmant.\n\nCette journée m'a rappelé que la précarité peut avoir un visage inattendu. J'y retournerai, sans penser à mon CV cette fois."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-2-t3",
+      "section": "T3",
+      "title": "Phones at school: ban them?",
+      "level": "b2",
+      "prompt": "Faut-il interdire les téléphones cellulaires à l'école ? Lisez les deux documents ci-dessous. Présentez les deux points de vue, puis donnez votre opinion en la justifiant. (120 mots minimum, 180 mots maximum)",
+      "promptEn": "Should mobile phones be banned at school? Read the two documents below. Present both points of view, then give your own opinion and justify it. (120 to 180 words)",
+      "document": "Document 1\nDepuis que notre école a interdit les téléphones cellulaires, même pendant les récréations, l'ambiance a complètement changé. Les élèves discutent, jouent au ballon, se parlent vraiment. Les enseignants constatent qu'ils sont plus attentifs en classe, et les cas d'intimidation en ligne pendant les heures de cours ont presque disparu. Certains parents étaient sceptiques au début ; aujourd'hui, ils nous remercient. L'école doit rester un lieu protégé des écrans.\n— Isabelle, directrice d'une école secondaire\n\nDocument 2\nInterdire le téléphone, c'est refuser de préparer les jeunes au monde réel. Bien utilisé, il permet de faire une recherche, d'enregistrer un exposé ou de vérifier le sens d'un mot. Beaucoup de parents veulent aussi pouvoir joindre leur enfant en cas d'urgence. De toute façon, une fois sortis de l'école, les jeunes auront leur téléphone en poche toute la journée. Au lieu de punir, l'école devrait apprendre aux élèves à se servir de leur appareil de façon responsable.\n— Kevin, père de deux adolescents",
+      "minWords": 120,
+      "maxWords": 180,
+      "minutes": 25,
+      "checklist": [
+        "Introduces the question in one sentence",
+        "Reformulates Isabelle's arguments (social life, attention, less cyberbullying)",
+        "Reformulates Kevin's arguments (learning tool, emergencies, education rather than punishment)",
+        "Links the two views with contrast connectors",
+        "Gives a clear personal position, in a separate paragraph",
+        "Justifies it with structured arguments (d'abord, ensuite…) and/or a personal example",
+        "Stays within 120–180 words"
+      ],
+      "tips": [
+        "Do not give your opinion while summarizing: the first part must stay neutral.",
+        "You can answer an argument from the other side (Quant aux urgences, …): it shows real argumentation.",
+        "Useful structures: Si … n'est pas dénué de fondement, je … néanmoins / Certes …, mais …",
+        "Keep 5 minutes to reread: check subject–verb agreement and gender (une mesure, un outil, la cyberintimidation)."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Faut-il interdire les téléphones cellulaires à l'école ? Les deux documents donnent des opinions différentes. Dans le premier, Isabelle, une directrice, est pour l'interdiction. Elle explique que, depuis cette règle, les élèves se parlent plus, jouent ensemble et écoutent mieux en classe. Il y a aussi moins d'intimidation sur Internet. Dans le deuxième document, Kevin, un père, n'est pas d'accord. Pour lui, le téléphone est un outil utile pour apprendre, et les parents veulent pouvoir appeler leurs enfants. Il pense que l'école doit enseigner une bonne utilisation.\n\nPersonnellement, je suis plutôt d'accord avec Isabelle. Mon fils a quatorze ans et, avant, il passait toutes les pauses sur son téléphone. Maintenant, il joue au soccer avec ses amis et il est plus calme le soir. Mais je pense que les professeurs peuvent utiliser les tablettes de l'école pour les recherches. Comme ça, les élèves apprennent avec la technologie, mais sans distraction."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "L'interdiction du cellulaire à l'école divise parents et éducateurs, comme en témoignent les deux documents. Isabelle, directrice d'une école secondaire, se félicite de cette mesure : depuis son entrée en vigueur, les élèves renouent avec le jeu et la conversation, se montrent plus attentifs en classe, et la cyberintimidation pendant les cours a quasiment disparu. Kevin, père de deux adolescents, juge au contraire cette interdiction contre-productive. Selon lui, le téléphone constitue un outil pédagogique précieux et rassure les familles en cas d'urgence ; mieux vaudrait donc éduquer que sanctionner.\n\nSi l'argument de Kevin n'est pas dénué de fondement, je me range néanmoins du côté d'Isabelle. D'abord, l'école peut parfaitement initier les jeunes au numérique avec ses propres équipements, dans un cadre précis. Ensuite, la concentration est devenue une ressource rare : offrir aux adolescents quelques heures par jour à l'abri des notifications me semble un cadeau plutôt qu'une punition. Quant aux urgences, le secrétariat de l'école reste joignable à tout moment."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-3-t1",
+      "section": "T1",
+      "title": "Describing your neighbourhood",
+      "level": "b1",
+      "prompt": "Votre ami(e) va bientôt s'installer dans votre ville. Écrivez-lui un message pour lui décrire votre quartier (commerces, transports, loisirs) et lui donner quelques conseils. (60 mots minimum, 120 mots maximum)",
+      "promptEn": "Your friend is about to move to your city. Write them a message describing your neighbourhood (shops, transport, leisure) and giving some advice. (60 to 120 words)",
+      "minWords": 60,
+      "maxWords": 120,
+      "minutes": 15,
+      "checklist": [
+        "Greets the friend and reacts to the news of the move",
+        "Describes the neighbourhood's shops",
+        "Describes the transport options",
+        "Mentions leisure activities or places to go",
+        "Gives at least one piece of advice (imperative or il vaut mieux…)",
+        "Closes warmly and stays within 60–120 words"
+      ],
+      "tips": [
+        "The instruction lists three themes in brackets: cover each one, even briefly.",
+        "Use il y a, on trouve, on peut… for description, and the imperative (cherche, viens…) for advice.",
+        "Adjectives make a description: calme, animé, bordé d'arbres, bien desservi.",
+        "With tu, the imperative of -er verbs has no final s: cherche, privilégie, profite."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Salut Léa,\n\nSuper nouvelle pour ton déménagement à Québec ! Tu m'as demandé comment est mon quartier, Limoilou. Il est très agréable : il y a beaucoup d'arbres, de petits cafés et une grande épicerie sur la 3e Avenue. Pour aller au centre-ville, je prends l'autobus, c'est rapide : environ quinze minutes. La fin de semaine, on peut faire du vélo le long de la rivière ou aller au marché. Mon conseil : cherche un appartement près d'un arrêt d'autobus, parce qu'en hiver, c'est difficile de marcher longtemps. J'ai hâte de te voir !\n\nBises,\nAmina"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Salut Léa,\n\nQuelle joie d'apprendre que tu t'installes à Québec en septembre ! Tu me demandais à quoi ressemble Limoilou : je crois que tu vas l'adorer. C'est un quartier vivant mais paisible, avec ses rues bordées d'arbres, ses escaliers extérieurs typiques et une foule de petits cafés où il fait bon travailler. Tu trouveras tout ce qu'il te faut sur la 3e Avenue : épicerie, boulangerie, pharmacie et même une librairie indépendante. Côté transports, plusieurs lignes d'autobus rejoignent le centre-ville en un quart d'heure. Un conseil, toutefois : privilégie un logement proche d'un arrêt, car en janvier, la moindre marche devient une expédition ! Je pourrai t'accompagner à tes visites.\n\nBises,\nAmina"
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-3-t2",
+      "section": "T2",
+      "title": "Article: a winter festival",
+      "level": "b1",
+      "prompt": "Vous avez assisté à un festival dans votre région. Écrivez un article pour le site Internet de votre association de nouveaux arrivants : présentez l'événement, racontez ce que vous avez vu et fait, et dites si vous le recommandez. (120 mots minimum, 150 mots maximum)",
+      "promptEn": "You attended a festival in your region. Write an article for your newcomers' association website: present the event, describe what you saw and did, and say whether you recommend it. (120 to 150 words)",
+      "minWords": 120,
+      "maxWords": 150,
+      "minutes": 20,
+      "checklist": [
+        "Has a title and presents the festival (name, place, date, theme)",
+        "Recounts what you saw and did, in order, using past tenses",
+        "Includes sensory or emotional details (atmosphere, food, music…)",
+        "Gives a clear recommendation with reasons",
+        "Addresses the target readers (newcomers) at least once",
+        "Stays within 120–150 words"
+      ],
+      "tips": [
+        "Think about your readers: newcomers want to know why the festival is useful to them (language, friends, culture).",
+        "Mix passé composé (nous avons goûté) and imparfait (il faisait froid, tout le monde dansait).",
+        "End with a practical tip (bring warm boots, buy tickets online): it is natural in this type of article.",
+        "You may invent the festival or the details: what is marked is your French, not your general knowledge."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Mon premier Festival du Voyageur\n\nEn février, je suis allée au Festival du Voyageur, à Winnipeg, avec des amis de mon cours de français. C'est un grand festival d'hiver qui célèbre l'histoire et la culture des francophones du Manitoba.\n\nQuand nous sommes arrivés, il faisait très froid, mais l'ambiance était chaleureuse. Nous avons d'abord admiré les sculptures de neige : certaines étaient vraiment impressionnantes. Ensuite, nous sommes entrés dans une grande tente où des musiciens jouaient du violon. Tout le monde dansait, même les enfants ! J'ai aussi goûté la tire d'érable sur la neige pour la première fois. C'était délicieux, mais très sucré.\n\nJe recommande ce festival à tous les nouveaux arrivants. C'est une excellente occasion de découvrir la culture francophone, de pratiquer le français et de rencontrer des gens. N'oubliez pas vos bottes chaudes !"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Le Festival du Voyageur : quand l'hiver devient une fête\n\nJe redoutais février, ses nuits interminables et ses températures polaires. C'était avant de découvrir le Festival du Voyageur, grand rendez-vous hivernal de Winnipeg qui fait revivre l'époque des voyageurs et la culture franco-manitobaine.\n\nDès l'entrée du parc, à Saint-Boniface, le ton est donné : sculptures de neige monumentales, feux de camp et bénévoles en costume d'époque qui vous saluent d'un « Hé ho ! » retentissant. Nous avons passé la soirée sous une tente surchauffée, où des violoneux faisaient danser des centaines de personnes. Entre deux gigues, j'ai goûté ma première tire sur la neige, un moment que je ne suis pas près d'oublier.\n\nJe recommande vivement ce festival aux nouveaux arrivants : on y pratique son français, on s'y fait des amis et, surtout, on apprend enfin à aimer l'hiver."
+        }
+      ]
+    },
+    {
+      "id": "tcf-ee-3-t3",
+      "section": "T3",
+      "title": "Free public transit?",
+      "level": "b2",
+      "prompt": "Les transports en commun devraient-ils être gratuits dans les grandes villes ? Lisez les deux documents ci-dessous. Présentez les deux points de vue, puis donnez votre opinion en la justifiant. (120 mots minimum, 180 mots maximum)",
+      "promptEn": "Should public transit be free in large cities? Read the two documents below. Present both points of view, then give your own opinion and justify it. (120 to 180 words)",
+      "document": "Document 1\nRendre l'autobus et le métro gratuits, c'est d'abord une question de justice : pour une famille modeste, un abonnement mensuel représente une dépense importante. C'est aussi une mesure écologique. Dans plusieurs villes européennes qui ont adopté la gratuité, la fréquentation du réseau a augmenté, et certains automobilistes ont abandonné leur voiture. Une ville moderne doit encourager ses habitants à laisser leur voiture au garage.\n— Sophie, membre d'un comité de citoyens\n\nDocument 2\nRien n'est jamais vraiment gratuit. Si les usagers ne paient plus, ce sont tous les contribuables qui financeront le réseau par leurs impôts. Or, nos autobus sont déjà bondés aux heures de pointe et souvent en retard. Avant de parler de gratuité, il faudrait investir dans des véhicules plus nombreux et un service plus fiable. Sinon, la gratuité attirera surtout d'anciens piétons, pas des automobilistes.\n— Martin, économiste",
+      "minWords": 120,
+      "maxWords": 180,
+      "minutes": 25,
+      "checklist": [
+        "Introduces the debate briefly",
+        "Reformulates Sophie's two arguments (social justice, ecology)",
+        "Reformulates Martin's arguments (cost for taxpayers, saturated network, service quality first)",
+        "Keeps the summary neutral and links the views with contrast connectors",
+        "States a clear personal position",
+        "Justifies it with a reasoned argument and/or a concrete example",
+        "Stays within 120–180 words"
+      ],
+      "tips": [
+        "Identify the key argument of each document before writing: one sentence each in your head.",
+        "Reporting verbs avoid repetition: estime, rappelle, soutient, met en garde contre.",
+        "You can propose a middle ground (tarification sociale), but say clearly which side you lean towards.",
+        "Avoid copying Martin's or Sophie's sentences: transform them (bondés → saturés, en retard → peu ponctuels)."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Les transports en commun doivent-ils être gratuits ? Selon Sophie, membre d'un comité de citoyens, la réponse est oui. Elle pense que la gratuité aide les familles qui n'ont pas beaucoup d'argent. Elle ajoute que c'est bon pour l'environnement parce que, dans certaines villes d'Europe, plus de personnes prennent l'autobus et moins de gens utilisent leur voiture. Martin, un économiste, n'est pas du même avis. Il explique que ce sont les impôts qui vont payer le réseau et que les autobus sont déjà pleins et en retard. Pour lui, il faut d'abord améliorer le service.\n\nMoi, je suis d'accord avec Martin. Je prends l'autobus tous les jours pour aller au travail et, le matin, il est souvent impossible de trouver une place. Si c'est gratuit, ce sera encore pire. Je préfère payer mon billet et avoir un service rapide. Par contre, je pense que la ville pourrait offrir des tarifs réduits aux étudiants et aux personnes à faible revenu."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "La gratuité des transports en commun suscite un vif débat, dont les deux documents illustrent bien les enjeux. Sophie, qui siège à un comité de citoyens, y voit une mesure à la fois sociale et écologique : elle allégerait le budget des ménages modestes et, comme l'ont montré plusieurs villes européennes, inciterait les automobilistes à délaisser leur véhicule. Martin, économiste, se montre beaucoup plus sceptique. Il rappelle que la gratuité serait en réalité financée par l'ensemble des contribuables et estime qu'un réseau déjà saturé et peu ponctuel ne convaincra personne de renoncer à sa voiture.\n\nÀ mes yeux, l'objectif de Sophie est louable, mais c'est Martin qui fixe les bonnes priorités. Un automobiliste ne change pas ses habitudes parce que le billet ne coûte rien ; il le fait lorsque l'autobus est fréquent, rapide et confortable. Mieux vaudrait donc consacrer d'abord l'argent public à l'amélioration du service, tout en instaurant une tarification sociale pour les plus démunis. La gratuité pourrait venir ensuite, une fois le réseau à la hauteur."
+        }
+      ]
+    }
+  ]
+}

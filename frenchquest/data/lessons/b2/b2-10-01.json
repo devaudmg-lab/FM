@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-10-01",
+  "level": "b2",
+  "unit": "b2-10",
+  "title": "Introductions",
+  "goal": "Write the introduction of an argumentative text in four moves (hook, context, central question, plan) with correct indirect questions, and adapt it to the length of TEF and TCF writing tasks.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-question-indirecte", "kind": "grammar", "fr": "On peut se demander si… / ce que… / dans quelle mesure… (sans inversion, sans est-ce que)", "en": "indirect questions to state the central question",
+      "drills": [
+        { "type": "cloze", "text": "On peut se demander ___ le télétravail doit devenir la norme.", "answers": [["si"]], "en": "One may wonder whether remote work should become the norm.", "explain": "A yes/no question becomes [[si]] + normal word order. Never [[est-ce que]] after [[se demander]]." },
+        { "type": "cloze", "text": "Il faut se demander ___ les entreprises y gagnent vraiment.", "answers": [["ce que"]], "en": "We need to ask what companies really gain from it.", "explain": "[[Qu'est-ce que… ?]] becomes [[ce que]] in an indirect question." },
+        { "type": "mcq", "prompt": "Which central question is correct?", "options": ["On peut se demander si cette mesure est efficace.", "On peut se demander est-ce que cette mesure est efficace.", "On peut se demander si cette mesure est-elle efficace."], "optionsFr": true, "answer": 0, "explain": "Indirect question: [[si]] + subject + verb. No [[est-ce que]], no inversion." }
+      ] },
+    { "id": "accroche", "kind": "vocab", "fr": "accroche", "article": "l'", "gender": "f", "en": "hook, opening line (of an essay)", "pos": "noun", "accept": ["une accroche"] },
+    { "id": "problematique", "kind": "vocab", "fr": "problématique", "article": "la", "gender": "f", "en": "central question, problem statement (of an essay)", "pos": "noun", "accept": ["une problématique"], "note": "Not *problematic* (adjective) here: [[la problématique]] is the question your text answers." },
+    { "id": "annonce-du-plan", "kind": "vocab", "fr": "annonce du plan", "article": "l'", "gender": "f", "en": "outline of the plan (at the end of an introduction)", "pos": "noun", "accept": ["une annonce du plan", "l'annonce de plan"] },
+    { "id": "amener-le-sujet", "kind": "phrase", "fr": "amener le sujet", "en": "to lead into the topic (in an introduction)", "accept": ["introduire le sujet"] },
+    { "id": "a-l-heure-ou", "kind": "phrase", "fr": "À l'heure où…", "en": "At a time when…", "accept": ["Alors que…", "À une époque où…"], "example": { "fr": "À l'heure où le télétravail se généralise, la question mérite d'être posée.", "en": "At a time when remote work is becoming widespread, the question deserves to be asked." } },
+    { "id": "dans-quelle-mesure", "kind": "phrase", "fr": "dans quelle mesure", "en": "to what extent", "example": { "fr": "Dans quelle mesure le télétravail peut-il devenir la norme ?", "en": "To what extent can remote work become the norm?" } },
+    { "id": "des-lors", "kind": "phrase", "fr": "dès lors", "en": "that being so, therefore (formal)", "accept": ["par conséquent"], "example": { "fr": "Dès lors, on peut se demander si…", "en": "That being so, one may wonder whether…" } },
+    { "id": "nous-verrons", "kind": "phrase", "fr": "Nous verrons d'abord…, avant de…", "en": "We will first look at…, before… (announcing the plan)", "accept": ["Nous verrons d'abord…, puis…", "Dans un premier temps, nous verrons…"] },
+    { "id": "lieu-commun", "kind": "vocab", "fr": "lieu commun", "article": "le", "gender": "m", "en": "cliché, commonplace", "pos": "noun", "accept": ["un lieu commun", "le cliché", "un cliché"], "note": "Plural: [[des lieux communs]]." },
+    { "id": "susciter", "kind": "phrase", "fr": "susciter le débat", "en": "to spark debate", "accept": ["faire débat", "soulever le débat"], "example": { "fr": "Cette proposition suscite un vif débat.", "en": "This proposal is sparking heated debate." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Two introductions, one topic",
+      "intro": "Karim is preparing for the TEF writing test. His tutor, Lucie, compares his first draft with a revised version. Read both introductions before the conversation.",
+      "blocks": [
+        { "type": "text", "title": "Sujet : « Le télétravail devrait devenir la norme. » Qu'en pensez-vous ?",
+          "context": "Introduction A is Karim's first draft. Introduction B is the version he rewrote after his tutoring session: a full, classic introduction of about 85 words. For a 200–250-word exam text, Lucie explains below how to make it shorter.",
+          "fr": "**Introduction A**\n\nDepuis la nuit des temps, les hommes travaillent. Aujourd'hui, beaucoup de gens font du télétravail. Dans ce texte, je vais parler du télétravail. Est-ce que c'est bien ou pas ? On va voir.\n\n**Introduction B**\n\nIl y a quelques années, travailler en pyjama depuis sa cuisine relevait de l'anecdote ; c'est aujourd'hui le quotidien de nombreux salariés. Imposé par la pandémie, le télétravail s'est installé durablement dans plusieurs secteurs, au point que certains souhaitent en faire la règle plutôt que l'exception. Faut-il pour autant généraliser le travail à distance ? Nous verrons d'abord les avantages qu'il offre aux employés comme aux entreprises, avant d'en examiner les limites, notamment pour la vie d'équipe.",
+          "en": "**Introduction A**\n\nSince the dawn of time, humans have worked. Today, a lot of people work remotely. In this text, I'm going to talk about remote work. Is it good or not? We'll see.\n\n**Introduction B**\n\nA few years ago, working in your pyjamas from your kitchen was a curiosity; today it is the daily routine of many employees. Imposed by the pandemic, remote work has settled in for good in several sectors, to the point that some want to make it the rule rather than the exception. Should remote work therefore be generalized? We will first look at the advantages it offers employees and companies alike, before examining its limits, particularly for team life." },
+        { "type": "dialogue", "title": "The tutoring session",
+          "context": "Lucie, a French tutor, and Karim, who is preparing for the TEF Canada.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Alors, Karim, qu'est-ce qui te frappe quand tu compares les deux introductions ?", "en": "So, Karim, what strikes you when you compare the two introductions?" },
+            { "speaker": "Karim", "fr": "La première est… disons, un peu vide. « Depuis la nuit des temps », c'est un lieu commun, non ?", "en": "The first one is… let's say, a bit empty. “Since the dawn of time” is a cliché, isn't it?" },
+            { "speaker": "Lucie", "fr": "Exactement. Une bonne accroche doit donner envie de lire, et elle doit être liée au sujet. Ici, l'image du pyjama dans la cuisine fait sourire, et elle amène directement le télétravail.", "en": "Exactly. A good hook should make people want to read, and it must be linked to the topic. Here, the image of pyjamas in the kitchen makes you smile, and it leads straight into remote work." },
+            { "speaker": "Karim", "fr": "Et ensuite, il y a le contexte : la pandémie, les gens qui veulent en faire la règle…", "en": "And then there's the context: the pandemic, the people who want to make it the rule…" },
+            { "speaker": "Lucie", "fr": "Oui. Puis la problématique, la question à laquelle tout ton texte va répondre. « Est-ce que c'est bien ou pas ? », c'est trop vague. « Faut-il généraliser le travail à distance ? », c'est précis.", "en": "Yes. Then the central question, the question your whole text will answer. “Is it good or not?” is too vague. “Should remote work be generalized?” is precise." },
+            { "speaker": "Karim", "fr": "Et la dernière phrase annonce le plan. Mais à l'examen, je n'aurai que deux cent cinquante mots maximum. Est-ce que j'ai vraiment la place pour tout ça ?", "en": "And the last sentence announces the plan. But in the exam, I'll only have two hundred and fifty words maximum. Do I really have room for all that?" },
+            { "speaker": "Lucie", "fr": "Bonne question. Pour un texte court, trois ou quatre phrases suffisent. Tu peux même remplacer l'annonce du plan par ta position : « Je pense que oui, mais à certaines conditions. »", "en": "Good question. For a short text, three or four sentences are enough. You can even replace the outline with your position: “I think so, but under certain conditions.”" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "Why does Lucie criticize « Est-ce que c'est bien ou pas ? »", "options": ["It is too vague to guide the whole text.", "It contains a grammar mistake.", "It is too long.", "It gives the answer too early."], "answer": 0,
+          "explain": "A good problématique is **precise**: it names the issue ([[généraliser le travail à distance]]) so that every paragraph can answer it." },
+        { "id": "d2", "type": "mcq", "prompt": "According to Lucie, what can you do in a short exam text?", "options": ["Keep the introduction to 3–4 sentences and give your position instead of a full plan", "Skip the introduction completely", "Write a longer introduction to show your vocabulary", "Start directly with your first argument"], "answer": 0,
+          "explain": "In 200–250 words, the introduction should be about 35–50 words. Stating your position is often more useful than a detailed plan." }
+      ] },
+    { "type": "understand", "title": "The four moves of an introduction",
+      "blocks": [
+        { "type": "table", "title": "Accroche → contexte → problématique → annonce du plan",
+          "head": ["Move", "Its job", "Example (introduction B)"],
+          "rows": [
+            ["1. L'accroche", "catch the reader's attention, linked to the topic", "Il y a quelques années, travailler en pyjama depuis sa cuisine relevait de l'anecdote…"],
+            ["2. Le contexte (amener le sujet)", "explain why the question matters now", "Imposé par la pandémie, le télétravail s'est installé durablement…"],
+            ["3. La problématique", "ask the precise question the text answers", "Faut-il pour autant généraliser le travail à distance ?"],
+            ["4. L'annonce du plan (or your position)", "tell the reader where you're going", "Nous verrons d'abord…, avant d'en examiner les limites…"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "Length: about **15–20 %** of the text. A 200–250-word text does **not** need a long introduction: for TEF section B, 2–4 sentences (35–50 words), so introduction B above would need trimming. For TCF task 3 (120–180 words), 1–2 sentences (about 20 words) before you summarize the two documents." },
+        { "type": "table", "title": "Five kinds of hook",
+          "head": ["Type", "Example"],
+          "rows": [
+            ["A striking fact or figure", "Au Canada, un travailleur sur cinq travaille désormais de la maison au moins une partie de la semaine."],
+            ["A concrete image or anecdote", "Lundi, 8 h 55 : Mei allume son ordinateur sans quitter sa cuisine."],
+            ["A question", "Qui n'a jamais rêvé d'éviter les bouchons du matin ?"],
+            ["A paradox", "Jamais nous n'avons été aussi connectés, et jamais nous ne nous sommes sentis aussi seuls au travail."],
+            ["A saying, reworked", "« Loin des yeux, loin du cœur », dit le proverbe. Est-ce vrai pour une équipe ?"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "In an exam, **never invent precise statistics or quotations and present them as real**. A concrete image, a question or a paradox is safer. The figure above is only an illustration of the form." },
+        { "type": "pattern", "title": "Stating the central question",
+          "pattern": "question directe (inversion) · question indirecte (si / ce que / dans quelle mesure)",
+          "note": "A **direct** question uses inversion in writing ([[Faut-il… ?]], [[Le télétravail est-il… ?]]). An **indirect** question after [[se demander]] uses normal word order, with **no** [[est-ce que]] and **no** inversion.",
+          "examples": [
+            { "fr": "Faut-il généraliser le télétravail ?", "en": "Should remote work be generalized?" },
+            { "fr": "Le télétravail est-il une chance pour les employés ?", "en": "Is remote work an opportunity for employees?" },
+            { "fr": "On peut se demander si le télétravail favorise la productivité.", "en": "One may wonder whether remote work boosts productivity." },
+            { "fr": "Dès lors, il convient de se demander dans quelle mesure il peut devenir la norme.", "en": "That being so, we should ask to what extent it can become the norm." },
+            { "fr": "Il faut se demander ce que les entreprises y gagnent.", "en": "We need to ask what companies gain from it." }
+          ] },
+        { "type": "table", "title": "Announcing the plan",
+          "head": ["Two parts", "Three parts"],
+          "rows": [
+            ["Nous verrons d'abord…, avant de…", "Nous verrons d'abord…, puis…, avant de…"],
+            ["Dans un premier temps…, dans un second temps…", "Dans un premier temps…, ensuite…, enfin…"],
+            ["Si… , il n'en reste pas moins que… (thesis in one sentence)", "Après avoir montré…, nous examinerons…, pour enfin…"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "In a letter or forum post (TEF section B), replace the plan with a clear position: [[Je suis convaincu que…, à condition que…]] (unit 1)." },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["accroche", "problematique", "annonce-du-plan", "amener-le-sujet", "a-l-heure-ou", "dans-quelle-mesure", "des-lors", "nous-verrons", "lieu-commun", "susciter"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "What examiners don't want to see",
+          "body": "- **Clichés:** [[Depuis la nuit des temps…]], [[De nos jours, …]] (alone), [[Dans la société d'aujourd'hui…]]. They say nothing about *your* topic.\n- **Announcing the obvious:** [[Dans ce texte, je vais parler de…]]. Show it; don't say it.\n- **Indirect question errors:** [[On peut se demander est-ce que…]] ✗ → [[On peut se demander si…]] ✓. [[Je me demande qu'est-ce que…]] ✗ → [[Je me demande ce que…]] ✓.\n- **Copying the subject word for word.** Reformulate it: *« Le télétravail devrait devenir la norme »* → [[Faut-il généraliser le travail à distance ?]]\n- **An introduction longer than an argument.** Three sentences that work beat six that wander.\n- **[[la problématique]] ≠ *the problem*.** [[Le problème]] is a difficulty; [[la problématique]] is the question your essay explores." },
+        { "type": "deepdive", "kind": "why", "title": "Should the introduction give your answer?",
+          "body": "In the traditional French **dissertation**, the introduction asks the question but doesn't answer it: the answer comes in the conclusion. In the **argumentative texts** of the TEF and TCF, examiners want to see your position clearly, so it's perfectly acceptable, and often better, to state it at the end of the introduction.\n\nA safe formula for the exam: problématique + position. [[Faut-il généraliser le télétravail ? Je pense que oui, mais à certaines conditions.]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Essay writing in Québec schools",
+          "body": "Québec CEGEP students write a **[[dissertation critique]]** for the provincial French exam (the [[épreuve uniforme de français]]): introduction with [[sujet amené]], [[sujet posé]] and [[sujet divisé]]. These are exactly the moves of this lesson: [[sujet amené]] = hook + context, [[sujet posé]] = central question, [[sujet divisé]] = plan. If you study in Québec, you'll hear these three terms often." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: introductions in 45 words",
+          "body": "**Practice (not an official subject):** *« Les cours de français devraient être obligatoires pour tous les nouveaux arrivants. » Vous écrivez un message sur un forum pour donner votre opinion.* (TEF section B: 200–250 words in total)\n\nWrite **only the introduction**, in 35–50 words: one hook (no invented figures), one sentence of context, the central question as an indirect or direct question, and your position. Time yourself: **5 minutes maximum**. In the real exam, the introduction should be a short entry point, not the heart of your text: save your time and words for the arguments." }
+      ] },
+    { "type": "hear", "title": "Hear the moves",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In a spoken introduction (TCF speaking task 3), the same moves work: pause after the question.",
+          "lines": [
+            { "fr": "À l'heure où le télétravail se généralise, la question mérite d'être posée.", "en": "At a time when remote work is becoming widespread, the question deserves to be asked." },
+            { "fr": "On peut se demander si le télétravail favorise vraiment la productivité.", "en": "One may wonder whether remote work really boosts productivity." },
+            { "fr": "Dès lors, faut-il en faire la règle plutôt que l'exception ?", "en": "That being so, should it be made the rule rather than the exception?", "tip": "Rising intonation at the end of the question." },
+            { "fr": "Nous verrons d'abord ses avantages, avant d'en examiner les limites.", "en": "We will first look at its advantages, before examining its limits." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Qui n'a jamais rêvé d'éviter les bouchons du matin ? Pour beaucoup de salariés, le télétravail a rendu ce rêve possible.", "en": "Who has never dreamed of avoiding morning traffic jams? For many employees, remote work has made that dream possible.", "prompt": "What kind of hook does the speaker use?", "options": ["A question", "A statistic", "A quotation"], "answer": 0,
+          "explain": "[[Qui n'a jamais rêvé de… ?]] is a rhetorical question that involves the reader." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Dans un premier temps, nous verrons les avantages du télétravail pour les familles. Dans un second temps, nous examinerons ses effets sur la vie d'équipe.", "en": "First, we will look at the advantages of remote work for families. Second, we will examine its effects on team life.", "prompt": "Which part of the introduction is this?", "options": ["The plan", "The hook", "The central question"], "answer": 0,
+          "explain": "[[Dans un premier temps… Dans un second temps…]] announces the two parts of the text." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. One item brings back nominalization from unit 7.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each sentence with its move in the introduction.", "pairs": [["Qui n'a jamais rêvé d'éviter les bouchons ?", "hook"], ["Depuis la pandémie, le télétravail s'est installé dans plusieurs secteurs.", "context"], ["Faut-il en faire la norme ?", "central question"], ["Nous verrons d'abord ses avantages, puis ses limites.", "plan"]] },
+        { "id": "r2", "type": "cloze", "text": "On peut se demander ___ cette mesure est vraiment efficace.", "answers": [["si"]], "choices": ["si", "est-ce que", "que", "quoi"], "en": "One may wonder whether this measure is really effective.", "explain": "Yes/no indirect question → [[si]]. [[est-ce que]] never follows [[se demander]]." },
+        { "id": "r3", "type": "mcq", "prompt": "Which opening would an examiner consider a cliché?", "options": ["Depuis la nuit des temps, l'homme travaille.", "Lundi, 8 h 55 : Mei allume son ordinateur sans quitter sa cuisine.", "Jamais nous n'avons été aussi connectés, ni aussi seuls au travail.", "Qui n'a jamais rêvé d'éviter les bouchons du matin ?"], "optionsFr": true, "answer": 0, "explain": "[[Depuis la nuit des temps]] could start any essay on any subject. The other three are concrete and linked to the topic." },
+        { "id": "r4", "type": "translate", "prompt": "To what extent should remote work become the norm?", "accept": ["Dans quelle mesure le télétravail doit-il devenir la norme ?", "Dans quelle mesure le télétravail devrait-il devenir la norme ?", "Dans quelle mesure le travail à distance doit-il devenir la norme ?", "Dans quelle mesure le travail à distance devrait-il devenir la norme ?", "Dans quelle mesure faut-il que le télétravail devienne la norme ?"], "explain": "Direct question in writing: noun subject + verb + [[-il]] ([[le télétravail doit-il]]). This is complex inversion." },
+        { "id": "r5", "type": "cloze", "text": "Je me demande ___ les employés pensent vraiment du télétravail.", "answers": [["ce que"]], "en": "I wonder what employees really think of remote work.", "explain": "[[Qu'est-ce que les employés pensent… ?]] → indirect: [[Je me demande ce que…]]." },
+        { "id": "r6", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Il convient de se demander dans quelle mesure cette règle est juste.", "Il convient de se demander dans quelle mesure est cette règle juste.", "Il convient de se demander est-ce que cette règle est juste.", "Il convient de se demander qu'est-ce que cette règle change."], "optionsFr": true, "answer": 0, "explain": "Indirect questions keep normal word order: [[dans quelle mesure + sujet + verbe]]. The last one should be [[ce que cette règle change]]." },
+        { "id": "r7", "type": "reorder", "prompt": "We will first look at its advantages.", "accept": ["Nous verrons d'abord ses avantages", "D'abord nous verrons ses avantages"], "extra": ["voyons", "leurs"], "explain": "Plans are announced in the futur simple: [[voir]] → [[nous verrons]]." },
+        { "id": "r8", "type": "dictation", "fr": "À l'heure où le télétravail se généralise, la question mérite d'être posée.", "accept": [], "explain": "[[À l'heure où]] = at a time when; [[où]] has an accent (it's the relative pronoun of time and place)." },
+        { "id": "r9", "type": "cloze", "text": "Le télétravail se généralise. → La ___ du télétravail suscite le débat.", "answers": [["généralisation"]], "en": "The spread of remote work is sparking debate.", "explain": "Nominalization (unit 7): [[se généraliser]] → [[la généralisation]]. Nouns help you write a dense context sentence." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write the introduction for this topic: « Les cours de français devraient être obligatoires pour tous les nouveaux arrivants. » Include a hook, context, a central question (direct or indirect) and either a plan or your position.", "promptFr": "Rédigez l'introduction d'un texte argumentatif sur ce sujet.",
+          "wordRange": [35, 70],
+          "checklist": ["A hook linked to the topic (no cliché, no invented statistic)", "One sentence of context", "A precise central question, correctly formed", "A plan or your position", "No « Dans ce texte, je vais parler de… »"],
+          "models": [
+            { "label": "Model answer", "fr": "Commander un café, comprendre un bulletin scolaire, discuter avec un voisin : au Québec, tout passe par le français. C'est pourquoi certains proposent de rendre les cours obligatoires pour tous les nouveaux arrivants. On peut toutefois se demander si l'obligation est la meilleure façon d'apprendre. Je pense que ces cours sont essentiels, mais qu'il faut d'abord les rendre accessibles.", "en": "Ordering a coffee, understanding a report card, chatting with a neighbour: in Québec, everything goes through French. That's why some propose making courses compulsory for all newcomers. One may wonder, however, whether obligation is the best way to learn. I think these courses are essential, but they must first be made accessible." },
+            { "label": "Stronger model answer", "fr": "« Parlez-vous français ? » Pour un nouvel arrivant, cette question peut ouvrir une porte ou la fermer. À l'heure où la francisation est au cœur du débat public, certains souhaitent rendre les cours obligatoires. Dès lors, il convient de se demander dans quelle mesure la contrainte favorise réellement l'intégration. Nous verrons d'abord ce qu'une telle obligation pourrait apporter, avant d'en examiner les limites.", "en": "“Do you speak French?” For a newcomer, this question can open a door or close it. At a time when French-language training is at the heart of public debate, some want to make courses compulsory. That being so, we should ask to what extent constraint really encourages integration. We will first look at what such an obligation could bring, before examining its limits." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "TCF speaking task 3 style: the examiner asks « Pensez-vous que le télétravail devrait devenir la norme ? » Give a 30-second spoken introduction: a hook, the question in your own words, and your position.", "seconds": 30,
+          "checklist": ["A short hook (a question or a concrete image)", "The question reformulated", "Your position in one sentence"],
+          "models": [ { "label": "Model answer", "fr": "Qui n'a jamais rêvé d'éviter les bouchons du matin ? Avec la pandémie, ce rêve est devenu réalité pour beaucoup de gens. Mais faut-il pour autant en faire la règle pour tout le monde ? Personnellement, je pense que oui, mais seulement deux ou trois jours par semaine.", "en": "Who has never dreamed of avoiding morning traffic jams? With the pandemic, that dream became a reality for many people. But does that mean it should be the rule for everyone? Personally, I think so, but only two or three days a week." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Build an introduction in four moves: [[accroche]], context ([[amener le sujet]]), [[problématique]], [[annonce du plan]] or your position\n- Choose a hook linked to the topic; avoid clichés like [[Depuis la nuit des temps]] and invented figures\n- Form central questions correctly: [[Faut-il… ?]], [[On peut se demander si…]], [[ce que…]], [[dans quelle mesure…]] (no [[est-ce que]] in indirect questions)\n- Keep it short: 2–4 sentences (35–50 words) for a TEF section B text, 1–2 sentences for TCF task 3",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made the introduction-length advice consistent (the 85-word model introduction is flagged as too long for the exam; TCF task 3 is 1–2 sentences). Replaced the odd 'quarter of your writing time' advice. Added accepted answers to r4 and r7." }
+}

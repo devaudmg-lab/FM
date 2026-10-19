@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-04-03",
+  "level": "b2",
+  "unit": "b2-04",
+  "title": "Tone and implicit meaning",
+  "goal": "Recognize irony, implied meaning and connotation in texts and conversations, describe a writer's tone, and say what is really meant between the lines.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-connotation", "kind": "grammar", "fr": "un conducteur / un chauffard ; têtu / déterminé", "en": "connotation: neutral, positive or negative word choice",
+      "drills": [
+        { "type": "mcq", "prompt": "Which word is negative (pejorative)?", "options": ["un chauffard", "un conducteur", "un automobiliste", "un chauffeur"], "optionsFr": true, "answer": 0, "explain": "[[un chauffard]] = a reckless driver. The suffix [[-ard]] often adds a negative nuance." },
+        { "type": "mcq", "prompt": "A journalist who likes the mayor would describe her as…", "options": ["déterminée", "têtue", "entêtée", "obstinée"], "optionsFr": true, "answer": 0, "explain": "[[déterminée]] is positive; [[têtue]], [[entêtée]], [[obstinée]] are negative ways to describe the same behaviour." },
+        { "type": "cloze", "text": "Le mot « bureaucrate » a une connotation ___, contrairement à « fonctionnaire ».", "answers": [["péjorative", "négative"]], "en": "The word “bureaucrat” has a negative connotation, unlike “civil servant”.", "explain": "[[péjoratif / péjorative]] = with a negative connotation; the opposite is [[mélioratif]]." }
+      ] },
+    { "id": "g-ironie", "kind": "grammar", "fr": "Bravo ! / comme par hasard / évidemment / « entre guillemets »", "en": "signals of irony (saying the opposite of what you mean)",
+      "drills": [
+        { "type": "mcq", "prompt": "“Comme par hasard, le rapport a disparu juste avant l'enquête.” What does the speaker suggest?", "options": ["The report disappeared on purpose.", "It was pure luck.", "The report was never written.", "The investigation was cancelled."], "answer": 0, "explain": "[[Comme par hasard]] (as if by chance) is ironic: the speaker suggests it was **not** chance." },
+        { "type": "cloze", "text": "Trois heures de retard ? ___ ! Quelle efficacité !", "answers": [["Bravo", "Félicitations", "Génial", "Super"]], "en": "Three hours late? Bravo! What efficiency!", "explain": "Antiphrase: praise for something bad = irony." }
+      ] },
+    { "id": "ironie", "kind": "vocab", "fr": "ironie", "article": "l'", "gender": "f", "en": "irony", "pos": "noun", "accept": ["l'ironie"], "note": "Adjective: ironique." },
+    { "id": "sous-entendu", "kind": "vocab", "fr": "sous-entendu", "article": "un", "gender": "m", "en": "insinuation, something implied but not said", "pos": "noun", "accept": ["le sous-entendu", "les sous-entendus"] },
+    { "id": "sous-entendre", "kind": "vocab", "fr": "sous-entendre", "en": "to imply, to hint", "pos": "verb", "accept": ["laisser entendre", "insinuer"],
+      "example": { "fr": "Qu'est-ce que tu sous-entends ?", "en": "What are you implying?" } },
+    { "id": "connotation", "kind": "vocab", "fr": "connotation", "article": "une", "gender": "f", "en": "connotation", "pos": "noun", "accept": ["la connotation"] },
+    { "id": "pejoratif", "kind": "vocab", "fr": "péjoratif", "fem": "péjorative", "en": "pejorative, negative (word or tone)", "pos": "adjective", "accept": ["péjorative"], "note": "Opposite: mélioratif (positive)." },
+    { "id": "ton", "kind": "vocab", "fr": "ton", "article": "le", "gender": "m", "en": "tone (of a text or voice)", "pos": "noun", "accept": ["un ton"],
+      "example": { "fr": "Le ton de l'article est ironique.", "en": "The tone of the article is ironic." } },
+    { "id": "euphemisme", "kind": "vocab", "fr": "euphémisme", "article": "un", "gender": "m", "en": "euphemism", "pos": "noun", "accept": ["l'euphémisme"] },
+    { "id": "lire-entre", "kind": "phrase", "fr": "lire entre les lignes", "en": "to read between the lines" },
+    { "id": "pas-pire", "kind": "phrase", "fr": "C'est pas pire.", "en": "It's pretty good. (Québec, informal understatement)", "accept": ["Ce n'est pas pire.", "Pas pire."],
+      "note": "Québec litote: literally “not worse”, it actually means good." },
+    { "id": "avoir-bon-dos", "kind": "phrase", "fr": "La météo a bon dos.", "en": "The weather is a convenient excuse.", "accept": ["La météo a bon dos !"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A column full of irony",
+      "intro": "Read the column once. Does the author really admire the city's snow removal? Then find **three signals** that tell you the opposite.",
+      "blocks": [
+        { "type": "text", "title": "“Snow removal: a model for the whole world”",
+          "context": "An original, fictional humour column (billet d'humeur) in a local Québec newspaper, the morning after a snowstorm.",
+          "fr": "Il faut l'admettre : notre ville est championne du monde du déneigement. Mardi, la tempête s'est terminée à midi. Jeudi soir, ma rue était déjà presque dégagée. Quelle efficacité !\nCertains grincheux se plaignent. Une voisine a mis quarante minutes à sortir sa voiture ; elle n'a visiblement pas compris que pelleter est un excellent exercice, offert gratuitement par la Ville. Des parents n'ont pas pu se rendre au travail parce que les trottoirs étaient impraticables. Encore des gens qui ne voient que le négatif.\nLa Ville, elle, a une explication : il a neigé. Beaucoup. En plein hiver. Qui aurait pu prévoir une chose pareille au Québec ? La météo a bon dos.\nComme par hasard, la rue du maire a été déneigée dès mardi soir. Simple coïncidence, évidemment. Les chasse-neige ont sans doute un excellent sens de l'orientation.\nLors de la séance du conseil, un porte-parole a parlé de « défis opérationnels ». C'est une jolie façon de dire que les camions sont restés au garage. On attend avec impatience les « défis opérationnels » de la prochaine tempête. Elle est prévue pour samedi.",
+          "en": "We have to admit it: our city is the world champion of snow removal. On Tuesday, the storm ended at noon. On Thursday evening, my street was already almost cleared. What efficiency! Some grumps are complaining. A neighbour took forty minutes to get her car out; she obviously didn't understand that shovelling is excellent exercise, offered free of charge by the City. Some parents couldn't get to work because the sidewalks were impassable. More people who only see the negative. The City has an explanation: it snowed. A lot. In the middle of winter. Who could have foreseen such a thing in Québec? The weather is a convenient excuse. As if by chance, the mayor's street was cleared on Tuesday evening. Pure coincidence, of course. Snowplows probably have an excellent sense of direction. At the council meeting, a spokesperson spoke of “operational challenges”. That's a pretty way of saying the trucks stayed in the garage. We look forward to the “operational challenges” of the next storm. It is forecast for Saturday." },
+        { "type": "dialogue", "title": "“Is he serious?”",
+          "context": "Amira, who arrived in Québec last year, reads the column with her colleague Lucie.",
+          "lines": [
+            { "speaker": "Amira", "fr": "Lucie, je ne comprends pas. Il dit que la ville est championne du monde, mais il a l'air fâché.", "en": "Lucie, I don't understand. He says the city is world champion, but he seems angry." },
+            { "speaker": "Lucie", "fr": "C'est de l'ironie. Il dit le contraire de ce qu'il pense. Deux jours pour dégager une rue, ce n'est pas efficace du tout !", "en": "It's irony. He says the opposite of what he thinks. Two days to clear a street isn't efficient at all!" },
+            { "speaker": "Amira", "fr": "Ah, donc « Quelle efficacité ! », c'est une critique.", "en": "Ah, so “What efficiency!” is a criticism." },
+            { "speaker": "Lucie", "fr": "Exactement. Et regarde : « Comme par hasard, la rue du maire a été déneigée dès mardi soir. » Il ne le dit pas directement, mais il sous-entend que le maire a des privilèges.", "en": "Exactly. And look: “As if by chance, the mayor's street was cleared on Tuesday evening.” He doesn't say it directly, but he implies the mayor gets special treatment." },
+            { "speaker": "Amira", "fr": "Et les guillemets autour de « défis opérationnels » ?", "en": "And the quotation marks around “operational challenges”?" },
+            { "speaker": "Lucie", "fr": "Il se moque de l'expression. Pour lui, c'est un euphémisme, une façon de cacher un problème avec des mots compliqués.", "en": "He's mocking the expression. For him, it's a euphemism, a way to hide a problem with complicated words." },
+            { "speaker": "Amira", "fr": "C'est subtil ! Chez nous, on fait de l'ironie aussi, mais avec un autre ton. Ici, je ne sais jamais si les gens sont sérieux.", "en": "It's subtle! At home, we use irony too, but with a different tone. Here, I never know if people are serious." },
+            { "speaker": "Lucie", "fr": "Ça vient avec le temps. Par exemple, si je te dis que ton gâteau est « pas pire », c'est un compliment !", "en": "It comes with time. For example, if I tell you your cake is “pas pire”, it's a compliment!" },
+            { "speaker": "Amira", "fr": "« Pas pire » ? C'est un compliment, ça ? Bon. Je vais lire entre les lignes, alors.", "en": "“Not worse”? That's a compliment? OK. I'll read between the lines, then." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What is the author's real opinion?", "options": ["Snow removal in the city was slow and badly organized.", "The city's snow removal is excellent.", "Residents complain too much.", "Shovelling is good for your health."], "answer": 0,
+          "explain": "The praise ([[championne du monde]], [[Quelle efficacité !]]) is ironic: the facts (two days, impassable sidewalks) say the opposite." },
+        { "id": "d2", "type": "mcq", "prompt": "What does “la rue du maire a été déneigée dès mardi soir… simple coïncidence, évidemment” imply?", "options": ["The mayor's street was cleared first on purpose.", "It was really a coincidence.", "The mayor shovels his own street.", "The mayor lives far from downtown."], "answer": 0,
+          "explain": "[[Comme par hasard]] + [[évidemment]]: classic irony signals. The insinuation is favouritism." }
+      ] },
+    { "type": "understand", "title": "Reading between the lines",
+      "blocks": [
+        { "type": "vocab", "title": "Words to describe tone and meaning", "itemIds": ["ironie", "sous-entendu", "sous-entendre", "connotation", "pejoratif", "ton", "euphemisme", "lire-entre"] },
+        { "type": "table", "title": "Signals of irony",
+          "head": ["Signal", "Example", "What it means"],
+          "rows": [
+            ["Praise for something bad (antiphrase)", "Quelle efficacité !", "It was inefficient."],
+            ["Fake innocence", "Comme par hasard… Simple coïncidence, évidemment.", "It wasn't chance."],
+            ["Mocking quotation marks", "des « défis opérationnels »", "I don't accept this term."],
+            ["Exaggeration", "championne du monde du déneigement", "The opposite of the reality."],
+            ["Fake question", "Qui aurait pu prévoir une chose pareille ?", "Everyone could have predicted it."],
+            ["Very short sentences", "Il a neigé. Beaucoup. En plein hiver.", "This excuse is ridiculous."]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "Irony depends on **context**: the same words can be sincere in another text. Always compare what is said with the facts." },
+        { "type": "table", "title": "Describing a tone",
+          "head": ["Tone", "French", "Typical clues"],
+          "rows": [
+            ["neutral, factual", "neutre, informatif", "facts, sources, conditional"],
+            ["ironic", "ironique", "antiphrase, quotation marks, fake questions"],
+            ["critical, combative", "critique, polémique", "strong verbs, evaluative adjectives"],
+            ["full of praise", "élogieux", "remarquable, exemplaire, saluer"],
+            ["alarmist", "alarmiste", "catastrophe, menace, urgence, exclamations"],
+            ["humorous", "humoristique", "exaggeration, wordplay"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "Useful frame: [[Le ton de ce texte est… L'auteur emploie… pour…]] — [[Le ton est ironique : l'auteur emploie des éloges exagérés pour critiquer la Ville.]]" },
+        { "type": "pattern", "title": "Same reality, different words",
+          "pattern": "neutral word ↔ positive (mélioratif) ↔ negative (péjoratif)",
+          "note": "Journalists and politicians choose words that carry a **connotation**. Noticing the choice tells you the writer's position, even in a text that looks neutral.",
+          "examples": [
+            { "fr": "un conducteur → un chauffard", "en": "a driver → a reckless driver" },
+            { "fr": "un fonctionnaire → un bureaucrate", "en": "a civil servant → a bureaucrat" },
+            { "fr": "économe → avare", "en": "thrifty → stingy" },
+            { "fr": "déterminé → têtu", "en": "determined → stubborn" },
+            { "fr": "une réforme → un bouleversement", "en": "a reform → an upheaval" },
+            { "fr": "des mises à pied → une restructuration (euphémisme)", "en": "layoffs → a restructuring (euphemism)" }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Québec understatement and irony",
+          "body": "- [[C'est pas pire]] (literally *it's not worse*) is a Québec **litote**: it means *it's pretty good*.\n- [[Mets-en !]] (*put some in!*) means *you bet! absolutely!*\n- [[C'est ben beau, mais…]] (*that's all very nice, but…*) introduces a criticism.\n- Humour columns ([[billets d'humeur]]) about winter, potholes ([[les nids-de-poule]]) and snow removal are a Québec tradition. Expect irony!\n\nThese forms are informal: use them in conversation, not in an exam essay." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Taking irony literally:** in an exam, if the praise contradicts the facts, it's probably irony. Check the facts in the text.\n- **sous-entendu vs malentendu:** [[un sous-entendu]] is something implied; [[un malentendu]] is a misunderstanding.\n- **Spelling:** [[sous-entendre]] and [[un sous-entendu]] take a hyphen; plural [[des sous-entendus]].\n- **ironie ≠ sarcasme:** [[le sarcasme]] is harsher, meant to hurt; [[l'ironie]] can be light.\n- **Describing tone with one word only:** always add **evidence**: [[Le ton est ironique, comme le montre l'expression « Quelle efficacité ! ».]]" },
+        { "type": "deepdive", "kind": "culture", "title": "Implied meaning in everyday life",
+          "body": "Sous-entendus are not only in newspapers. At work or with neighbours, French speakers often hint instead of saying things directly.",
+          "examples": [
+            { "fr": "Ah, tu es déjà là ? (to someone who arrives late)", "en": "Oh, you're here already? (= you're late)" },
+            { "fr": "Il serait peut-être temps de ranger la cuisine…", "en": "Maybe it would be time to tidy the kitchen… (= tidy it now)" },
+            { "fr": "Intéressant, ton idée. On en reparlera.", "en": "Interesting idea. We'll talk about it again. (often = no)" }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear the tone",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In speech, irony often comes with a flat or exaggerated intonation. Try both: say it sincerely, then ironically.",
+          "lines": [
+            { "fr": "Quelle efficacité !", "en": "What efficiency!" },
+            { "fr": "Comme par hasard, la rue du maire a été déneigée en premier.", "en": "As if by chance, the mayor's street was cleared first.", "tip": "Slow down on comme par hasard." },
+            { "fr": "Qu'est-ce que tu sous-entends ?", "en": "What are you implying?" },
+            { "fr": "Le ton de ce texte est ironique.", "en": "The tone of this text is ironic." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Super, encore une réunion de deux heures pour décider de la date de la prochaine réunion.", "en": "Great, another two-hour meeting to decide the date of the next meeting.", "prompt": "How does the speaker feel?", "options": ["Annoyed: the meeting is a waste of time.", "Happy about the meeting.", "Confused about the date.", "Excited to meet colleagues."], "answer": 0,
+          "explain": "[[Super]] + an absurd situation = irony." },
+        { "id": "h2", "type": "listen-mcq", "fr": "L'entreprise parle d'une simple réorganisation, mais deux cents personnes perdront leur emploi.", "en": "The company speaks of a simple reorganization, but two hundred people will lose their jobs.", "prompt": "What does the speaker suggest about “réorganisation”?", "options": ["It's a euphemism hiding layoffs.", "It's a positive change.", "It means new jobs.", "It's a technical term with no hidden meaning."], "answer": 0,
+          "explain": "The speaker contrasts the soft word with the facts: [[une simple réorganisation]] is a euphemism." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Some questions bring back lessons 1 and 2 of this unit.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each word with its meaning.", "pairs": [["l'ironie", "saying the opposite of what you mean"], ["un sous-entendu", "something implied but not said"], ["un euphémisme", "a soft word that hides something unpleasant"], ["péjoratif", "with a negative connotation"], ["élogieux", "full of praise"]] },
+        { "id": "r2", "type": "mcq", "prompt": "“Bravo à la Ville : seulement trois semaines pour réparer un feu de circulation !” The tone is…", "options": ["ironique", "élogieux", "neutre", "alarmiste"], "optionsFr": true, "answer": 0, "explain": "Praise ([[Bravo]]) + a clearly bad fact (three weeks) = irony." },
+        { "id": "r3", "type": "translate", "prompt": "What are you implying? (to a friend)", "accept": ["Qu'est-ce que tu sous-entends ?", "Tu sous-entends quoi ?", "Qu'est-ce que tu insinues ?", "Tu insinues quoi ?", "Que sous-entends-tu ?", "Qu'insinues-tu ?"], "explain": "[[sous-entendre]] conjugates like [[entendre]]: [[tu sous-entends]]." },
+        { "id": "r4", "type": "cloze", "text": "Le ton est ironique, comme le ___ l'expression « Quelle efficacité ! ».", "answers": [["montre", "prouve", "souligne", "illustre"]], "en": "The tone is ironic, as the expression “What efficiency!” shows.", "explain": "[[comme le montre…]] introduces evidence; note the inversion after [[comme le]]." },
+        { "id": "r5", "type": "mcq", "prompt": "Which word is the neutral one?", "options": ["un fonctionnaire", "un bureaucrate", "un rond-de-cuir", "un paperassier"], "optionsFr": true, "answer": 0, "explain": "[[un fonctionnaire]] (civil servant) is neutral; the others are pejorative." },
+        { "id": "r6", "type": "reorder", "prompt": "You have to read between the lines.", "accept": ["Il faut lire entre les lignes"], "extra": ["de"], "explain": "[[il faut]] + infinitive, without [[de]] (unit 3)." },
+        { "id": "r7", "type": "cloze", "text": "Lucie m'a expliqué que « pas pire » ___ un compliment au Québec.", "answers": [["était", "est"]], "en": "Lucie explained to me that “pas pire” is a compliment in Québec.", "explain": "After a past reporting verb, use the imparfait ([[était]]); [[est]] is also possible because it's still true (lesson 4)." },
+        { "id": "r8", "type": "translate", "prompt": "The weather is a convenient excuse.", "accept": ["La météo a bon dos.", "Le temps a bon dos."], "explain": "[[avoir bon dos]] = to be a convenient excuse (to take the blame)." },
+        { "id": "r9", "type": "dictation", "fr": "Il ne le dit pas directement, mais il sous-entend que le maire a des privilèges.", "accept": [], "explain": "[[sous-entend]] with a hyphen and -d at the end; [[privilèges]] with è." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Explain the snow removal column to a friend who took it literally. In about 90 seconds, say what the tone is, give three signals of irony, explain one insinuation, and say what the author really thinks.", "seconds": 90,
+          "checklist": ["Name the tone (ironique, critique)", "Three signals with examples", "One sous-entendu explained (il sous-entend que…)", "The author's real opinion", "Your own view: is the irony effective?"],
+          "models": [
+            { "label": "Model answer", "fr": "En fait, le chroniqueur n'est pas content du tout. Le ton est ironique : il dit que la ville est « championne du monde », mais il a fallu deux jours pour déneiger sa rue. Il pose aussi une fausse question : « Qui aurait pu prévoir une chose pareille ? » Tout le monde sait qu'il neige en hiver ! Et il met « défis opérationnels » entre guillemets pour se moquer de l'expression. Quand il dit que la rue du maire a été déneigée en premier, il sous-entend que le maire a des privilèges. Moi, je trouve ça drôle et efficace.", "en": "Actually, the columnist isn't happy at all. The tone is ironic: he says the city is “world champion”, but it took two days to clear his street. He also asks a fake question: “Who could have foreseen such a thing?” Everyone knows it snows in winter! And he puts “operational challenges” in quotation marks to mock the expression. When he says the mayor's street was cleared first, he implies that the mayor has privileges. I find it funny and effective." },
+            { "label": "Stronger model answer", "fr": "Attention, il ne faut surtout pas prendre ce texte au premier degré ! C'est un billet d'humeur, et le ton est franchement ironique. L'auteur fait semblant d'admirer la Ville, mais chaque compliment est contredit par les faits. Par exemple, « Quelle efficacité ! » arrive juste après une phrase qui dit qu'il a fallu plus de deux jours pour dégager une rue. Ensuite, il utilise une fausse question, « Qui aurait pu prévoir une chose pareille au Québec ? », pour ridiculiser l'excuse de la météo. Troisième signal : les guillemets autour de « défis opérationnels », qui montrent qu'il considère cette expression comme un euphémisme. Le passage le plus fort, c'est celui sur la rue du maire : avec « comme par hasard » et « évidemment », il sous-entend du favoritisme, sans jamais l'affirmer. C'est habile, parce qu'il ne peut pas être accusé de mensonge. Au fond, il critique une Ville mal préparée qui se cache derrière des mots. Je trouve l'ironie efficace, même si elle peut sembler un peu injuste pour les employés qui ont travaillé toute la nuit.", "en": "Careful, you really mustn't take this text literally! It's a humour column, and the tone is clearly ironic. The author pretends to admire the City, but every compliment is contradicted by the facts. For example, “What efficiency!” comes right after a sentence saying it took more than two days to clear a street. Next, he uses a fake question, “Who could have foreseen such a thing in Québec?”, to ridicule the weather excuse. Third signal: the quotation marks around “operational challenges”, which show he considers this expression a euphemism. The strongest passage is the one about the mayor's street: with “as if by chance” and “of course”, he implies favouritism, without ever stating it. It's clever, because he can't be accused of lying. Basically, he's criticizing a poorly prepared City that hides behind words. I find the irony effective, even if it may seem a bit unfair to the employees who worked all night." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short ironic paragraph (75–130 words) about a small everyday problem in your city (potholes, a bus that's always late, endless construction, a broken elevator). Use at least three signals of irony. Then add one neutral sentence that states the real problem.",
+          "wordRange": [75, 130],
+          "checklist": ["At least one antiphrase (praise for something bad)", "One fake question", "One word in mocking quotation marks", "comme par hasard or évidemment", "One final neutral sentence with the real facts"],
+          "models": [
+            { "label": "Model answer", "fr": "Quelle chance d'habiter sur la rue Principale ! Depuis trois ans, nous avons droit à des travaux toute l'année. Le matin, les marteaux-piqueurs remplacent le réveil, et c'est gratuit. Les commerçants, eux, adorent : moins de clients, donc moins de travail. La Ville parle d'une « modernisation ». Qui pourrait être contre la modernisation ? Comme par hasard, les travaux s'arrêtent chaque fois qu'il fait beau.\nEn réalité, les travaux de la rue Principale durent depuis trois ans, et plusieurs commerces ont dû fermer.", "en": "How lucky to live on Main Street! For three years, we've been treated to construction all year round. In the morning, jackhammers replace the alarm clock, and it's free. Shop owners love it: fewer customers, so less work. The City talks about a “modernization”. Who could be against modernization? As if by chance, the work stops every time the weather is nice. In reality, the construction on Main Street has lasted three years, and several shops have had to close." },
+            { "label": "Stronger model answer", "fr": "Il faut saluer la créativité de notre société de transport. La ligne 12, officiellement « toutes les quinze minutes », offre désormais une expérience unique : le suspense. L'autobus viendra-t-il ? Ne viendra-t-il pas ? Personne ne le sait, pas même l'application, qui affiche fièrement « à l'heure » pendant qu'on gèle sous l'abribus. Les usagers en profitent pour faire connaissance, souvent pendant quarante minutes. Évidemment, la direction parle de « fluctuations ponctuelles ». Ce serait dommage de parler de retards : le mot est si négatif !\nPlus sérieusement, les usagers de la ligne 12 signalent depuis l'automne des attentes de trente à quarante minutes aux heures de pointe.", "en": "We must praise the creativity of our transit corporation. Line 12, officially “every fifteen minutes”, now offers a unique experience: suspense. Will the bus come? Won't it come? Nobody knows, not even the app, which proudly displays “on time” while we freeze in the bus shelter. Riders take the opportunity to get to know each other, often for forty minutes. Of course, management talks about “occasional fluctuations”. It would be a pity to talk about delays: the word is so negative! More seriously, line 12 riders have been reporting waits of thirty to forty minutes at rush hour since the fall." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Recognize irony from its signals: antiphrase, [[comme par hasard]], [[évidemment]], mocking quotation marks, fake questions\n- Explain implied meaning: [[il sous-entend que…]], [[un sous-entendu]], [[un euphémisme]], and connotation ([[péjoratif / mélioratif]])\n- Describe a tone with evidence: [[Le ton est ironique, comme le montre…]]\n- Understand Québec understatement like [[c'est pas pire]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed an unnatural sentence in the column (D'autres parents ont raté le travail → Des parents n'ont pas pu se rendre au travail) and a vague subject in the stronger write model (Viendra-t-elle → L'autobus viendra-t-il). Added accepted answers to r3 and r4; kept the C'est pas pire label." }
+}

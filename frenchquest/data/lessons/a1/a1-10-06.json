@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-10-06",
+  "level": "a1",
+  "unit": "a1-10",
+  "title": "Workshop: First conversations",
+  "goal": "Plan a party with a friend on the phone, understand replies and practical messages, and invite people with clear details.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "peut-etre",
+      "kind": "vocab",
+      "fr": "peut-être",
+      "en": "maybe, perhaps",
+      "pos": "adverb",
+      "example": {
+        "fr": "Peut-être samedi ?",
+        "en": "Maybe Saturday?"
+      }
+    },
+    {
+      "id": "bonne-idee",
+      "kind": "phrase",
+      "fr": "Bonne idée !",
+      "en": "Good idea!",
+      "accept": [
+        "C'est une bonne idée !"
+      ]
+    },
+    {
+      "id": "ca-depend",
+      "kind": "phrase",
+      "fr": "Ça dépend.",
+      "en": "It depends."
+    },
+    {
+      "id": "je-pense-que",
+      "kind": "phrase",
+      "fr": "Je pense que…",
+      "en": "I think (that)…",
+      "accept": [
+        "Je pense que"
+      ],
+      "note": "Je pense que c'est une bonne idée. / On est huit, je pense.",
+      "example": {
+        "fr": "Je pense que Karim est occupé.",
+        "en": "I think Karim is busy."
+      }
+    },
+    {
+      "id": "vraiment",
+      "kind": "vocab",
+      "fr": "vraiment",
+      "en": "really, truly",
+      "pos": "adverb",
+      "example": {
+        "fr": "C'est vraiment gentil !",
+        "en": "That's really kind!"
+      }
+    },
+    {
+      "id": "occupe",
+      "kind": "vocab",
+      "fr": "occupé",
+      "fem": "occupée",
+      "en": "busy (person, line, seat)",
+      "pos": "adjective",
+      "accept": [
+        "occupée"
+      ],
+      "example": {
+        "fr": "Tu es occupée ce soir ?",
+        "en": "Are you busy tonight? (to a woman)"
+      }
+    },
+    {
+      "id": "fete",
+      "kind": "vocab",
+      "fr": "fête",
+      "article": "la",
+      "gender": "f",
+      "en": "party, celebration",
+      "pos": "noun",
+      "note": "une fête surprise = a surprise party; faire une fête = to have a party.",
+      "example": {
+        "fr": "On fait une fête samedi.",
+        "en": "We're having a party on Saturday."
+      }
+    },
+    {
+      "id": "inviter",
+      "kind": "vocab",
+      "fr": "inviter",
+      "en": "to invite",
+      "pos": "verb",
+      "example": {
+        "fr": "Je vais inviter mes collègues.",
+        "en": "I'm going to invite my colleagues."
+      }
+    },
+    {
+      "id": "appeler",
+      "kind": "vocab",
+      "fr": "appeler",
+      "en": "to call (on the phone)",
+      "pos": "verb",
+      "note": "Double l when the ending is silent: j'appelle, tu appelles, ils appellent; but nous appelons, vous appelez.",
+      "example": {
+        "fr": "J'appelle Lucie ce soir.",
+        "en": "I'm calling Lucie tonight."
+      }
+    },
+    {
+      "id": "pas-grave",
+      "kind": "phrase",
+      "fr": "Ce n'est pas grave.",
+      "en": "It doesn't matter. / That's okay.",
+      "accept": [
+        "C'est pas grave.",
+        "Pas grave."
+      ],
+      "note": "In everyday speech: c'est pas grave."
+    },
+    {
+      "id": "pas-encore",
+      "kind": "phrase",
+      "fr": "Pas encore.",
+      "en": "Not yet."
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Planning a surprise",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "A phone call in Ottawa",
+          "context": "Raj calls Camille. It's Mei's birthday on Saturday, and Raj has an idea.",
+          "lines": [
+            {
+              "speaker": "Camille",
+              "fr": "Allô ?",
+              "en": "Hello?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Salut Camille, c'est Raj ! Tu es occupée ?",
+              "en": "Hi Camille, it's Raj! Are you busy?"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Non, pas vraiment. Pourquoi ?",
+              "en": "No, not really. Why?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Samedi, c'est l'anniversaire de Mei. On fait une fête surprise ?",
+              "en": "Saturday is Mei's birthday. Shall we have a surprise party?"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Bonne idée ! Où ?",
+              "en": "Good idea! Where?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Chez moi, je pense. Mon appartement est grand. Tu peux venir à quelle heure ?",
+              "en": "At my place, I think. My apartment is big. What time can you come?"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Ça dépend… Le samedi, je travaille jusqu'à seize heures. Je peux arriver vers dix-sept heures trente.",
+              "en": "It depends… On Saturdays, I work until four. I can arrive around five thirty."
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Parfait. On invite qui ?",
+              "en": "Perfect. Who do we invite?"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Karim, Lucie, Olivier… et peut-être Alex ?",
+              "en": "Karim, Lucie, Olivier… and maybe Alex?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Alex est en vacances. Mais je vais appeler Karim ce soir.",
+              "en": "Alex is on vacation. But I'm going to call Karim tonight."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Et le gâteau ? Qui va faire le gâteau ?",
+              "en": "And the cake? Who's going to make the cake?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Moi ! Je vais faire un gâteau au chocolat. Mei adore le chocolat.",
+              "en": "Me! I'm going to make a chocolate cake. Mei loves chocolate."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Super ! Moi, je vais acheter les boissons. On est combien ?",
+              "en": "Great! I'm going to buy the drinks. How many of us are there?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Huit, je pense. Nguyen va venir avec Mei à dix-neuf heures, mais elle ne sait pas !",
+              "en": "Eight, I think. Nguyen is going to come with Mei at seven, but she doesn't know!"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "C'est vrai ? Génial !",
+              "en": "Really? Awesome!"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Mais attention : tu ne dois pas parler de la fête à Mei !",
+              "en": "But careful: you must not talk about the party to Mei!"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Moi ? Je ne vais rien dire ! Tu peux m'envoyer ton adresse par texto ?",
+              "en": "Me? I'm not going to say anything! Can you send me your address by text?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Oui, bien sûr. À samedi !",
+              "en": "Yes, of course. See you Saturday!"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Notice how the two friends **react** ([[Bonne idée !]], [[C'est vrai ?]]) and **ask short questions** ([[Où ?]], [[On invite qui ?]]) to keep the call moving."
+        },
+        {
+          "id": "c1",
+          "type": "mcq",
+          "prompt": "What is the party for?",
+          "options": [
+            "Mei's birthday",
+            "Raj's new apartment",
+            "Camille's new job"
+          ],
+          "answer": 0,
+          "explain": "[[Samedi, c'est l'anniversaire de Mei. On fait une fête surprise ?]]"
+        },
+        {
+          "id": "c2",
+          "type": "mcq",
+          "prompt": "Why can't Camille come before 5:30?",
+          "options": [
+            "She works until 4 on Saturdays.",
+            "She has a French class.",
+            "She has to buy the cake."
+          ],
+          "answer": 0,
+          "explain": "[[Le samedi, je travaille jusqu'à seize heures]]: she works until 4 p.m."
+        },
+        {
+          "id": "c3",
+          "type": "mcq",
+          "prompt": "Who is going to do what?",
+          "options": [
+            "Raj makes the cake; Camille buys the drinks.",
+            "Camille makes the cake; Raj buys the drinks.",
+            "Nguyen makes the cake; Camille calls Karim."
+          ],
+          "answer": 0,
+          "explain": "Raj: [[Je vais faire un gâteau au chocolat]]. Camille: [[Je vais acheter les boissons]]."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 10 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit at a glance",
+          "head": [
+            "To…",
+            "French"
+          ],
+          "rows": [
+            [
+              "ask for information",
+              "où, quand, comment, pourquoi, combien, qui, quel"
+            ],
+            [
+              "ask in three registers",
+              "Tu vas où ? / Où est-ce que tu vas ? / Où vas-tu ?"
+            ],
+            [
+              "say can, want, must",
+              "pouvoir, vouloir, devoir + infinitive"
+            ],
+            [
+              "talk about plans",
+              "aller + infinitive: je vais appeler"
+            ],
+            [
+              "handle the phone",
+              "Allô ? C'est de la part de qui ? Rappelez-moi."
+            ],
+            [
+              "keep it going",
+              "Ah bon ? C'est vrai ? Moi aussi. Et toi ?"
+            ]
+          ],
+          "frCols": [
+            1
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Remember",
+          "body": "- **quel** agrees: [[quel jour]], [[quelle heure]].\n- Only the first verb changes: [[je peux venir]], [[je vais appeler]].\n- **ne… pas** goes around the conjugated verb: [[je ne vais pas venir]].\n- Answer, add a detail, ask back."
+        },
+        {
+          "type": "vocab",
+          "title": "New words: plans and reactions",
+          "itemIds": [
+            "peut-etre",
+            "bonne-idee",
+            "ca-depend",
+            "je-pense-que",
+            "vraiment",
+            "occupe",
+            "fete",
+            "inviter",
+            "appeler",
+            "pas-grave",
+            "pas-encore"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "culture",
+          "body": "**Soft answers.** A plain [[non]] can sound cold. To refuse or hesitate, French speakers add a softener: [[Ça dépend…]], [[Peut-être…]], [[Je pense que je ne peux pas.]] To accept warmly: [[Bonne idée !]], [[Avec plaisir !]] And if a friend can't come: [[Ce n'est pas grave !]] In everyday speech you will mostly hear [[c'est pas grave]], without *ne*.",
+          "examples": [
+            {
+              "fr": "Tu viens samedi ? — Peut-être. Ça dépend de mon horaire.",
+              "en": "Are you coming on Saturday? — Maybe. It depends on my schedule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Messages and replies",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "Karim's voicemail",
+          "context": "Raj calls Karim, but Karim doesn't answer. Later, Karim leaves a message for Raj.",
+          "fr": "Salut Raj, c'est Karim ! Merci pour l'invitation, c'est vraiment gentil. Samedi, je peux venir, mais je dois rentrer tôt, à vingt-deux heures : je travaille dimanche matin. Lucie ne peut pas venir, elle travaille à l'hôpital samedi soir. Ce n'est pas grave, elle va appeler Mei dimanche. Moi, je vais apporter de la musique et des chaises. Rappelle-moi ce soir ! Salut !",
+          "en": "Hi Raj, it's Karim! Thanks for the invitation, that's really kind. On Saturday I can come, but I have to go home early, at ten: I work on Sunday morning. Lucie can't come, she's working at the hospital on Saturday evening. That's okay, she's going to call Mei on Sunday. I'm going to bring music and chairs. Call me back tonight! Bye!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Samedi, je peux venir, mais je dois rentrer tôt, à vingt-deux heures.",
+          "en": "On Saturday I can come, but I have to go home early, at ten.",
+          "prompt": "What does Karim say about Saturday?",
+          "options": [
+            "He can come but has to leave at 10 p.m.",
+            "He can't come.",
+            "He can come and stay late."
+          ],
+          "answer": 0,
+          "explain": "[[je peux venir]] = I can come; [[je dois rentrer tôt]] = I have to go home early; [[vingt-deux heures]] = 10 p.m."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Lucie ne peut pas venir, elle travaille à l'hôpital samedi soir.",
+          "en": "Lucie can't come, she's working at the hospital on Saturday evening.",
+          "prompt": "Why can't Lucie come?",
+          "options": [
+            "She's working at the hospital.",
+            "She's on vacation.",
+            "She's sick."
+          ],
+          "answer": 0,
+          "explain": "[[elle travaille à l'hôpital samedi soir]]."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Moi, je vais apporter de la musique et des chaises.",
+          "en": "I'm going to bring music and chairs.",
+          "prompt": "What is Karim going to bring?",
+          "options": [
+            "Music and chairs",
+            "A cake and drinks",
+            "Chairs and a table"
+          ],
+          "answer": 0,
+          "explain": "[[apporter]] = to bring; [[des chaises]] = chairs."
+        },
+        {
+          "type": "listen",
+          "title": "A message for the conversation group",
+          "context": "Julie, who runs a French conversation group in Montréal, sends a voice message to the group.",
+          "fr": "Bonjour à tous, c'est Julie, du groupe de conversation ! Jeudi prochain, on ne va pas être à la bibliothèque. On va être au café Le Passage, en face du métro Laurier. On commence à dix-huit heures trente, pas à dix-neuf heures. Vous voulez venir avec un ami ? Pas de problème ! Le café, c'est trois dollars. Des questions ? Envoyez-moi un texto. À jeudi !",
+          "en": "Hello, everyone, it's Julie, from the conversation group! Next Thursday, we're not going to be at the library. We're going to be at the café Le Passage, opposite Laurier metro station. We start at six thirty, not at seven. Do you want to come with a friend? No problem! Coffee is three dollars. Any questions? Send me a text. See you Thursday!"
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "On va être au café Le Passage, en face du métro Laurier.",
+          "en": "We're going to be at the café Le Passage, opposite Laurier metro station.",
+          "prompt": "Where is the group going to meet?",
+          "options": [
+            "At a café opposite the metro",
+            "At the library",
+            "At a café next to the library"
+          ],
+          "answer": 0,
+          "explain": "[[en face du métro]] = opposite the metro. The library is the usual place, but not next Thursday."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "On commence à dix-huit heures trente, pas à dix-neuf heures.",
+          "en": "We start at six thirty, not at seven.",
+          "prompt": "What time does the group start?",
+          "options": [
+            "6:30 p.m.",
+            "7 p.m.",
+            "8:30 p.m."
+          ],
+          "answer": 0,
+          "explain": "[[dix-huit heures trente]] = 6:30 p.m.; [[pas à dix-neuf heures]] = not at 7."
+        },
+        {
+          "id": "h6",
+          "type": "dictation",
+          "fr": "Je vais appeler Karim ce soir.",
+          "accept": [],
+          "explain": "[[aller]] + infinitive: [[je vais appeler]]. [[appeler]] has a double p and one l in the infinitive."
+        },
+        {
+          "id": "h7",
+          "type": "dictation",
+          "fr": "Tu peux venir à quelle heure ?",
+          "accept": [
+            "Tu peux venir à quelle heure"
+          ],
+          "explain": "[[tu peux]] ends in -x; [[heure]] is feminine, so [[quelle]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most are about this unit, some bring back Units 4 to 9. Answer without scrolling back.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "— ___ est-ce que tu habites ? — À Laval.",
+          "answers": [
+            [
+              "Où"
+            ]
+          ],
+          "choices": [
+            "Où",
+            "Quand",
+            "Qui",
+            "Comment"
+          ],
+          "en": "— Where do you live? — In Laval.",
+          "explain": "The answer is a place, so the question word is [[où]] (with an accent: [[ou]] means *or*)."
+        },
+        {
+          "id": "r2",
+          "type": "mcq",
+          "prompt": "“What's your address?” (to a friend)",
+          "options": [
+            "Quelle est ton adresse ?",
+            "Quel est ton adresse ?",
+            "Qu'est-ce que est ton adresse ?",
+            "Quelles est ton adresse ?"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[adresse]] is feminine singular, so [[quelle]]. ([[Ton]] is used before a vowel even with a feminine noun.)",
+          "optionFeedback": [
+            null,
+            "Adresse is feminine: quelle.",
+            "Use quel/quelle + être to ask “what is…”.",
+            "Quelles is plural."
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "Désolée, je ne peux pas venir : je ___ travailler samedi.",
+          "answers": [
+            [
+              "dois"
+            ]
+          ],
+          "choices": [
+            "dois",
+            "doit",
+            "veux",
+            "devoir"
+          ],
+          "en": "Sorry, I can't come: I have to work on Saturday.",
+          "explain": "[[devoir]] → [[je dois]] + infinitive = I have to."
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "We're going to have a party on Saturday.",
+          "accept": [
+            "Nous allons faire une fête samedi.",
+            "On va faire une fête samedi.",
+            "Samedi, nous allons faire une fête.",
+            "Samedi, on va faire une fête."
+          ],
+          "hint": "aller + faire une fête",
+          "explain": "Near future: [[nous allons]] / [[on va]] + [[faire une fête]]. “On Saturday” for one specific day: [[samedi]], no article."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I'm not going to call Mei.",
+          "accept": [
+            "Je ne vais pas appeler Mei."
+          ],
+          "explain": "[[ne… pas]] goes around [[vais]], not around the infinitive: [[je ne vais pas appeler]]."
+        },
+        {
+          "id": "r6",
+          "type": "reorder",
+          "prompt": "What are you going to do tonight? (to a friend)",
+          "accept": [
+            "Qu'est-ce que tu vas faire ce soir ?",
+            "Ce soir, qu'est-ce que tu vas faire ?"
+          ],
+          "extra": [
+            "va"
+          ],
+          "explain": "[[tu vas]] + infinitive. [[va]] goes with il/elle/on."
+        },
+        {
+          "id": "r7",
+          "type": "match",
+          "prompt": "Match the reactions.",
+          "pairs": [
+            [
+              "Ah bon ?",
+              "Oh really?"
+            ],
+            [
+              "Bonne idée !",
+              "Good idea!"
+            ],
+            [
+              "Ça dépend.",
+              "It depends."
+            ],
+            [
+              "Peut-être.",
+              "Maybe."
+            ],
+            [
+              "Ce n'est pas grave.",
+              "It doesn't matter."
+            ]
+          ]
+        },
+        {
+          "id": "r8",
+          "type": "listen-mcq",
+          "fr": "Je ne peux pas venir ce soir, je dois finir mon travail.",
+          "en": "I can't come tonight, I have to finish my work.",
+          "prompt": "Why can't the speaker come?",
+          "options": [
+            "He has to finish his work.",
+            "He's on vacation.",
+            "He doesn't want to come."
+          ],
+          "answer": 0,
+          "explain": "[[je dois finir mon travail]] = I have to finish my work."
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "Mes enfants ___ l'été parce qu'il fait chaud. (préférer)",
+          "answers": [
+            [
+              "préfèrent"
+            ]
+          ],
+          "choices": [
+            "préfèrent",
+            "préférent",
+            "préfèrons",
+            "préfère"
+          ],
+          "en": "My children prefer summer because it's hot.",
+          "explain": "Unit 9: with ils/elles, the ending is silent, so [[é]] becomes [[è]]: [[préfèrent]]."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "Le cours de français ___ à vingt et une heures. (finir)",
+          "answers": [
+            [
+              "finit"
+            ]
+          ],
+          "choices": [
+            "finit",
+            "finis",
+            "finissent",
+            "fini"
+          ],
+          "en": "The French class ends at 9 p.m.",
+          "explain": "Unit 8: [[il / elle]] → [[finit]], with -t."
+        },
+        {
+          "id": "r11",
+          "type": "cloze",
+          "text": "Ma sœur est ___ et très sympathique. (grand)",
+          "answers": [
+            [
+              "grande"
+            ]
+          ],
+          "en": "My sister is tall and very nice.",
+          "explain": "Unit 4: the adjective agrees with [[ma sœur]] (feminine): [[grande]]."
+        },
+        {
+          "id": "r12",
+          "type": "dictation",
+          "fr": "Tournez à droite au coin de la rue.",
+          "accept": [],
+          "explain": "Unit 7: [[tournez]] (vous imperative), [[à droite]], [[au coin de la rue]] (à + le = au)."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "You are organizing a small party (a birthday, a new apartment, the end of your French class…). Write a message to invite your friends: what it is, the day and time, the place and how to get there, who is coming, what they can bring, and a question.",
+          "wordRange": [
+            40,
+            70
+          ],
+          "checklist": [
+            "What the party is for",
+            "Day and time",
+            "Place (and a direction or landmark)",
+            "Use aller + infinitive at least twice",
+            "Use pouvoir, vouloir or devoir",
+            "A question at the end"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut tout le monde ! Vendredi, c'est la fin du cours de français. On va faire une fête chez moi, à dix-neuf heures. J'habite au 25, rue Fabre, en face du parc. Camille va faire un gâteau. Vous pouvez apporter des boissons ? Et vous voulez venir avec vos enfants ? Pas de problème ! Qui va venir ?",
+              "en": "Hi, everyone! Friday is the end of the French class. We're going to have a party at my place, at seven. I live at 25 Rue Fabre, opposite the park. Camille is going to make a cake. Can you bring drinks? And do you want to come with your children? No problem! Who is coming?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour à tous ! J'ai un nouvel appartement, alors samedi, je vais faire une petite fête. Vous êtes disponibles vers dix-huit heures ? Prenez le métro jusqu'à Jean-Talon et tournez à gauche : c'est le deuxième immeuble. Je vais cuisiner des plats indiens. Pas besoin d'apporter de cadeau, mais si vous voulez, un dessert, c'est parfait ! Qui est végétarien ? Répondez avant jeudi, s'il vous plaît !",
+              "en": "Hello, everyone! I have a new apartment, so on Saturday I'm going to have a little party. Are you free around six? Take the metro to Jean-Talon and turn left: it's the second building. I'm going to cook Indian dishes. No need to bring a gift, but if you want, a dessert is perfect! Who is vegetarian? Please reply before Thursday!"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Call a friend (play your part only, and imagine the answers). Ask if they're busy, invite them to do something this weekend, give the day, time and place, react to their answers (Ah bon ? Bonne idée ! Ce n'est pas grave.), and agree on a plan.",
+          "seconds": 60,
+          "checklist": [
+            "Phone opening: Allô ? Salut, c'est…",
+            "A question: Tu es occupé(e) ? / Tu veux… ?",
+            "Day, time and place",
+            "At least two reactions",
+            "A plan with aller + infinitive",
+            "A closing: À samedi !"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Allô, Sofia ? Salut, c'est Karim ! Tu es occupée ? … Non ? Super. Samedi, je vais faire du vélo au parc de la Gatineau. Tu veux venir avec moi ? … Ah bon, tu travailles le matin ? Ce n'est pas grave. On peut faire du vélo l'après-midi, à quatorze heures ? … Bonne idée ! On a rendez-vous devant la bibliothèque. À samedi !",
+              "en": "Hello, Sofia? Hi, it's Karim! Are you busy? … No? Great. On Saturday, I'm going to go cycling in Gatineau Park. Do you want to come with me? … Oh really, you work in the morning? It doesn't matter. Can we go cycling in the afternoon, at two? … Good idea! Let's meet in front of the library. See you Saturday!"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Allô, Olivier ? C'est Amira. Tu as une minute ? … Merci ! Dimanche, il va faire beau, alors je vais aller au marché Jean-Talon avec ma fille. Tu veux venir avec nous ? … Ah, tu dois finir un travail ? Ce n'est pas grave : tu es disponible à midi ? … Génial ! Après le marché, on peut dîner ensemble. Je pense que le petit restaurant en face du métro est très bon. On a rendez-vous à midi, devant la station. Je t'envoie un texto. À dimanche !",
+              "en": "Hello, Olivier? It's Amira. Do you have a minute? … Thanks! On Sunday, the weather is going to be nice, so I'm going to go to the Jean-Talon market with my daughter. Do you want to come with us? … Oh, you have to finish some work? That's okay: are you available at noon? … Awesome! After the market, we can have lunch together. I think the little restaurant opposite the metro is very good. Let's meet at noon, in front of the station. I'll send you a text. See you Sunday!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Plan an event on the phone with question words, [[pouvoir / vouloir / devoir]] and [[aller]] + infinitive\n- React and soften your answers: [[Bonne idée !]], [[Ça dépend.]], [[Peut-être.]], [[Ce n'est pas grave.]]\n- Understand a reply to an invitation and a group message with a change of place and time\n- Write a clear invitation with day, time, place and a question",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Fixed 'Vous ne devez rien apporter' (reads as 'you must not bring anything') → 'Pas besoin d'apporter de cadeau', and replaced an illogical 'Ça dépend' in a speaking model."
+  }
+}

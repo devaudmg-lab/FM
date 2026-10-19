@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-08-05",
+  "level": "a2",
+  "unit": "a2-08",
+  "title": "Choose and justify a purchase",
+  "goal": "Compare several products, choose one and justify your choice with comparatives, superlatives and pronouns, then check the return policy.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-unit8-compare", "kind": "grammar", "fr": "plus… que / le plus… de / meilleur / mieux", "en": "comparing and choosing: comparatives and superlatives",
+      "drills": [
+        { "type": "cloze", "text": "Le manteau Polaire est ___ chaud ___ le manteau Sport.", "answers": [["plus"], ["que"]], "en": "The Polaire coat is warmer than the Sport coat.", "explain": "Comparative: [[plus]] + adjective + [[que]]." },
+        { "type": "cloze", "text": "C'est le manteau le ___ léger du magasin.", "answers": [["plus"]], "en": "It's the lightest coat in the store.", "explain": "Superlative after the noun: [[le manteau le plus léger]] + [[du magasin]]." },
+        { "type": "mcq", "prompt": "“It's the best choice for me.”", "options": ["C'est le meilleur choix pour moi.", "C'est le mieux choix pour moi.", "C'est le plus bon choix pour moi."], "optionsFr": true, "answer": 0, "explain": "With a noun ([[choix]]) → [[le meilleur]]." }
+      ] },
+    { "id": "g-unit8-pronouns", "kind": "grammar", "fr": "le / la / les avant le verbe", "en": "direct object pronouns: position (review)",
+      "drills": [
+        { "type": "cloze", "text": "Le manteau gris ? Je ___ prends.", "answers": [["le"]], "en": "The grey coat? I'll take it.", "explain": "[[le]] before the verb." },
+        { "type": "cloze", "text": "Les bottes ? Je ne vais pas ___ acheter aujourd'hui.", "answers": [["les"]], "en": "The boots? I'm not going to buy them today.", "explain": "Before the infinitive: [[les acheter]]." },
+        { "type": "translate", "prompt": "The toque? I don't want it.", "accept": ["La tuque ? Je ne la veux pas.", "Le bonnet ? Je ne le veux pas.", "La tuque ? Je la veux pas."], "explain": "[[ne]] + [[la]] + verb + [[pas]]." }
+      ] },
+    { "id": "capuchon", "kind": "vocab", "fr": "capuchon", "article": "le", "gender": "m", "en": "hood (of a coat)", "pos": "noun", "accept": ["la capuche", "un capuchon"],
+      "note": "Québec: le capuchon. France: la capuche.",
+      "example": { "fr": "Ce manteau a un capuchon amovible.", "en": "This coat has a removable hood." } },
+    { "id": "duvet", "kind": "vocab", "fr": "duvet", "article": "le", "gender": "m", "en": "down (feather filling)", "pos": "noun",
+      "example": { "fr": "Un manteau en duvet est très chaud.", "en": "A down coat is very warm." } },
+    { "id": "garantie", "kind": "vocab", "fr": "garantie", "article": "la", "gender": "f", "en": "warranty, guarantee", "pos": "noun", "accept": ["une garantie"],
+      "example": { "fr": "Le manteau a une garantie de deux ans.", "en": "The coat has a two-year warranty." } },
+    { "id": "budget", "kind": "vocab", "fr": "budget", "article": "le", "gender": "m", "en": "budget", "pos": "noun",
+      "example": { "fr": "Mon budget est de 250 $.", "en": "My budget is $250." } },
+    { "id": "je-l-ai-choisi", "kind": "phrase", "fr": "Je l'ai choisi parce que…", "en": "I chose it because… (a masculine item)", "note": "Learn it as a chunk: in the passé composé, the pronoun goes before avoir (previewed in lesson 3).", "accept": ["Je l'ai choisi, parce que…"] },
+    { "id": "ca-vaut-la-peine", "kind": "phrase", "fr": "Ça vaut la peine.", "en": "It's worth it.", "accept": ["Ça en vaut la peine.", "Ça vaut le coup."] },
+    { "id": "politique-retour", "kind": "phrase", "fr": "Quelle est votre politique de retour ?", "en": "What's your return policy? (formal)", "accept": ["C'est quoi, votre politique de retour ?", "Quelle est la politique de retour ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "The mission: a coat for the winter",
+      "blocks": [
+        { "type": "explain", "title": "Your mission",
+          "body": "Karim's old coat is finished: the zipper is broken and it isn't warm enough for Gatineau winters. His budget is **250 $**. He waits for the bus every morning, sometimes for 15 minutes, and walks his children to school.\n\nYou are going to:\n\n- **Read** a store flyer and **listen** to a salesperson\n- **Practise** everything from unit 8 (and some unit 7)\n- **Speak:** choose a coat in the store and justify your choice\n- **Write:** explain your choice to a friend\n\nThis is the unit 8 checkpoint: aim for **80%** in the graded part." },
+        { "type": "text", "title": "The store flyer",
+          "fr": "Manteaux d'hiver : trois modèles pour vous !\nLe Polaire, 349 $ : notre manteau le plus chaud, jusqu'à -35 °C. En duvet, avec un capuchon. Garantie de deux ans. C'est aussi le plus lourd.\nL'Urbain, 199 $, en solde à 139 $ : élégant et léger, jusqu'à -15 °C. Pas de capuchon. Attention : vente finale.\nLe Sport, 229 $ : imperméable et plus léger que le Polaire, jusqu'à -25 °C. Capuchon amovible. Retour possible pendant 30 jours.\nTaxes en sus.",
+          "en": "Winter coats: three models for you!\nThe Polaire, $349: our warmest coat, down to -35 °C. Down-filled, with a hood. Two-year warranty. It's also the heaviest.\nThe Urbain, $199, on sale at $139: elegant and light, down to -15 °C. No hood. Careful: final sale.\nThe Sport, $229: waterproof and lighter than the Polaire, down to -25 °C. Removable hood. Returns accepted for 30 days.\nTaxes extra." },
+        { "id": "d1", "type": "mcq", "prompt": "Which coat is the cheapest, and what's the catch?", "options": ["The Urbain: it's final sale and only warm down to -15 °C.", "The Sport: it has no hood.", "The Polaire: it has no warranty."], "answer": 0,
+          "explain": "[[en solde à 139 $]] makes the Urbain the cheapest, but [[vente finale]] (no returns) and [[jusqu'à -15 °C]]." },
+        { "id": "d2", "type": "mcq", "prompt": "Karim's budget is $250. Which coats are within his budget, before taxes?", "options": ["The Urbain and the Sport", "Only the Polaire", "All three"], "answer": 0,
+          "explain": "139 $ and 229 $ are under 250 $; the Polaire costs 349 $. Remember: [[taxes en sus]] (taxes extra), so 229 $ becomes a little more than 260 $ in Québec!" },
+        { "type": "dialogue", "title": "In the store",
+          "context": "Karim talks to the salesperson, Nadia.",
+          "lines": [
+            { "speaker": "Nadia", "fr": "Bonjour ! Vous cherchez un manteau ?", "en": "Hello! Are you looking for a coat?" },
+            { "speaker": "Karim", "fr": "Oui. J'attends l'autobus tous les matins, alors j'ai besoin d'un manteau chaud. J'hésite entre le Polaire et le Sport.", "en": "Yes. I wait for the bus every morning, so I need a warm coat. I'm hesitating between the Polaire and the Sport." },
+            { "speaker": "Nadia", "fr": "Le Polaire est le plus chaud, c'est sûr. Mais le Sport est plus léger et il est imperméable. Pour la pluie et la slush, c'est mieux.", "en": "The Polaire is the warmest, for sure. But the Sport is lighter and it's waterproof. For rain and slush, it's better." },
+            { "speaker": "Karim", "fr": "Le Polaire est trop cher pour mon budget. Je peux essayer le Sport ? Je fais du L.", "en": "The Polaire is too expensive for my budget. Can I try on the Sport? I'm a large." },
+            { "speaker": "Nadia", "fr": "Bien sûr, le voici. Alors ? Il vous va bien !", "en": "Of course, here it is. So? It fits you well!" },
+            { "speaker": "Karim", "fr": "Il est confortable, et le capuchon est pratique. Quelle est votre politique de retour ?", "en": "It's comfortable, and the hood is practical. What's your return policy?" },
+            { "speaker": "Nadia", "fr": "Vous pouvez le retourner pendant trente jours avec le reçu, s'il n'est pas porté.", "en": "You can return it within thirty days with the receipt, if it hasn't been worn." },
+            { "speaker": "Karim", "fr": "Parfait. Je le prends ! Il est moins chaud que le Polaire, mais il est meilleur pour mon budget.", "en": "Perfect. I'll take it! It's less warm than the Polaire, but it's better for my budget." }
+          ] }
+      ] },
+    { "type": "understand", "title": "Unit 8 at a glance",
+      "intro": "Everything from the unit on one page. Use it to prepare your missions.",
+      "blocks": [
+        { "type": "table", "title": "1. Comparing",
+          "head": ["Meaning", "Pattern", "Example"],
+          "rows": [
+            ["more… than", "plus + adj + que", "Le Polaire est plus chaud que le Sport."],
+            ["less… than", "moins + adj + que", "Le Sport est moins cher que le Polaire."],
+            ["as… as", "aussi + adj + que", "L'Urbain est aussi élégant que le Sport."],
+            ["better (adjective)", "meilleur(e)(s)", "La qualité est meilleure."],
+            ["better (adverb)", "mieux", "Pour la pluie, c'est mieux."]
+          ],
+          "frCols": [1, 2], "sayCol": false },
+        { "type": "table", "title": "2. The most, the best",
+          "head": ["Meaning", "Pattern", "Example"],
+          "rows": [
+            ["the most / -est", "le / la / les plus + adj (+ de)", "le manteau le plus chaud du magasin"],
+            ["the least", "le / la / les moins + adj", "le modèle le moins cher"],
+            ["the best", "le meilleur, la meilleure / le mieux", "le meilleur choix"],
+            ["the worst", "le pire, la pire", "la pire tempête de l'hiver"]
+          ],
+          "frCols": [1, 2], "sayCol": false },
+        { "type": "table", "title": "3. Pronouns le, la, l', les",
+          "head": ["Where", "Example"],
+          "rows": [
+            ["before the verb", "Je le prends."],
+            ["ne + pronoun + verb + pas", "Je ne la prends pas."],
+            ["before the infinitive", "Je vais l'essayer. Je peux les échanger ?"],
+            ["before avoir (passé composé)", "Je l'ai acheté hier."]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "table", "title": "4. In the store",
+          "head": ["Situation", "French"],
+          "rows": [
+            ["size", "Je fais du L. / Je chausse du 9."],
+            ["trying on", "Je peux l'essayer ? Ça me va bien."],
+            ["problems", "C'est trop petit. Il n'est pas assez chaud."],
+            ["returns", "Je voudrais retourner cet article. Je préfère un remboursement."],
+            ["policy", "Quelle est votre politique de retour ? Vente finale ?"]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "explain", "title": "Justifying a choice",
+          "body": "A good justification has three parts: **the need**, **the comparison**, **the decision**.\n\n- **Need:** [[J'ai besoin d'un manteau chaud parce que j'attends l'autobus.]]\n- **Comparison:** [[Le Polaire est le plus chaud, mais il est trop cher. Le Sport est moins chaud, mais il est imperméable.]]\n- **Decision:** [[Alors je l'ai choisi, parce que c'est le meilleur rapport qualité-prix.]]\n\nUseful connectors: [[parce que]], [[mais]], [[par contre]] (on the other hand), [[alors]], [[finalement]]." },
+        { "type": "vocab", "title": "New words for the mission", "itemIds": ["capuchon", "duvet", "garantie", "budget", "je-l-ai-choisi", "ca-vaut-la-peine", "politique-retour"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "The eight most common unit 8 errors",
+          "body": "- [[plus bon]] → [[meilleur]]\n- [[Il chante meilleur]] → [[Il chante mieux]]\n- [[les bottes plus chaudes]] (warmer) vs [[les bottes **les** plus chaudes]] (the warmest)\n- [[le plus grand magasin dans le Canada]] → [[du Canada]]\n- [[Je prends le]] → [[Je le prends]]\n- [[Je le vais acheter]] → [[Je vais l'acheter]]\n- [[chaud assez]] → [[assez chaud]]\n- [[échanger pour]] → [[échanger contre]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Before you buy",
+          "body": "- Prices are usually shown **before taxes** ([[taxes en sus]]). In Québec, TPS + TVQ add about 15%.\n- Read the **return policy** before paying, especially for sale items ([[vente finale]]).\n- For a winter coat, Canadians look at the temperature rating ([[jusqu'à -30 °C]]), the hood ([[le capuchon]]) and whether it's waterproof ([[imperméable]]).\n- [[La slush]] (melting snow and water) is informal Québec French; standard French says [[la neige fondante]].\n- A good winter coat is expensive, but many people say: [[Ça vaut la peine !]]" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Le Polaire est le plus chaud, mais il est trop cher.", "en": "The Polaire is the warmest, but it's too expensive." },
+            { "fr": "Le Sport est plus léger que le Polaire.", "en": "The Sport is lighter than the Polaire." },
+            { "fr": "Quelle est votre politique de retour ?", "en": "What's your return policy?" },
+            { "fr": "Je l'ai choisi parce que c'est le meilleur rapport qualité-prix.", "en": "I chose it because it's the best value for money." },
+            { "fr": "Ça vaut la peine.", "en": "It's worth it." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ce modèle-ci est en solde, mais c'est une vente finale. L'autre est un peu plus cher, mais vous pouvez le retourner pendant trente jours.", "en": "This model is on sale, but it's a final sale. The other one is a bit more expensive, but you can return it within thirty days.",
+          "prompt": "What's the advantage of the more expensive model?", "options": ["You can return it within 30 days.", "It's warmer.", "It's on sale."], "answer": 0,
+          "explain": "[[vous pouvez le retourner pendant trente jours]]; the cheaper one is [[vente finale]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Moi, j'ai acheté le manteau le plus cher, mais je ne le regrette pas : c'est le meilleur manteau de ma vie !", "en": "I bought the most expensive coat, but I don't regret it: it's the best coat of my life!",
+          "prompt": "How does the speaker feel about her purchase?", "options": ["Very happy", "She regrets it.", "She wants to return it."], "answer": 0,
+          "explain": "[[je ne le regrette pas]] = I don't regret it; [[le meilleur manteau de ma vie]]." },
+        { "id": "h3", "type": "dictation", "fr": "Je le prends, il est meilleur pour mon budget.", "accept": [],
+          "explain": "[[Je le prends]]: pronoun before the verb. [[Meilleur]] agrees with [[il]] (le manteau)." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Ten questions mixing unit 8, unit 7 and earlier A2 units.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le Sport est ___ cher ___ le Polaire, mais il est ___ chaud.", "answers": [["moins"], ["que"], ["moins"]], "choices": ["moins", "plus", "que", "de"], "en": "The Sport is cheaper than the Polaire, but it's less warm.",
+          "explain": "229 $ < 349 $ → [[moins cher que]]; -25 °C vs -35 °C → [[moins chaud]]." },
+        { "id": "r2", "type": "mcq", "prompt": "“It's the warmest coat in the store.”", "options": ["C'est le manteau le plus chaud du magasin.", "C'est le manteau plus chaud du magasin.", "C'est le plus chaud manteau dans le magasin.", "C'est le manteau le plus chaud que le magasin."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Repeat the article: [[le manteau **le** plus chaud]].", "[[chaud]] goes after the noun, and use [[du]] after a superlative.", "[[que]] is for comparatives; the superlative takes [[de / du]]."] },
+        { "id": "r3", "type": "translate", "prompt": "The coat? I'm going to try it on.", "accept": ["Le manteau ? Je vais l'essayer.", "Le manteau ? Je vais l'essayer maintenant."],
+          "explain": "Pronoun before the infinitive, with élision: [[l'essayer]]." },
+        { "id": "r4", "type": "cloze", "text": "Pour la slush, c'est ___ de prendre le Sport : il est imperméable.", "answers": [["mieux"]], "choices": ["mieux", "meilleur", "plus bon"], "en": "For slush, it's better to take the Sport: it's waterproof.",
+          "explain": "[[C'est mieux de]] + infinitive = it's better to… In this structure, French uses [[mieux]], not [[meilleur]]." },
+        { "id": "r5", "type": "match", "prompt": "Match the store words.", "pairs": [["taxes en sus", "taxes extra"], ["vente finale", "no returns"], ["la garantie", "the warranty"], ["le capuchon", "the hood"], ["en solde", "on sale"]] },
+        { "id": "r6", "type": "translate", "prompt": "I'd like to exchange it for a bigger size. (the coat)", "accept": ["Je voudrais l'échanger contre une taille plus grande.", "J'aimerais l'échanger contre une taille plus grande.", "Je voudrais l'échanger contre une plus grande taille.", "J'aimerais l'échanger contre une plus grande taille.", "Je voudrais l'échanger contre une taille au-dessus."],
+          "explain": "[[l'échanger]] (pronoun before infinitive) + [[contre]] + a comparative: [[une taille plus grande]]." },
+        { "id": "r7", "type": "cloze", "text": "J'ai ce manteau ___ trois ans, mais la fermeture éclair est brisée ___ une semaine.", "answers": [["depuis"], ["depuis"]], "choices": ["depuis", "il y a", "pendant"], "en": "I've had this coat for three years, but the zipper has been broken for a week.",
+          "explain": "Both situations are still true now → [[depuis]] + present (unit 7)." },
+        { "id": "r8", "type": "reorder", "prompt": "I'll take it: it's the best choice. (the coat)", "accept": ["Je le prends : c'est le meilleur choix."], "extra": ["mieux"],
+          "explain": "[[Je le prends]]: pronoun before the verb. [[Choix]] is a noun, so *the best* = [[le meilleur]], not [[le mieux]]." },
+        { "id": "r9", "type": "cloze", "text": "L'hiver prochain, j'___ besoin de bottes plus chaudes, alors j'___ mes bottes pendant les soldes.", "answers": [["aurai"], ["achèterai"]], "choices": ["aurai", "achèterai", "ai", "achète"], "en": "Next winter, I'll need warmer boots, so I'll buy my boots during the sales.",
+          "explain": "Futur simple: [[avoir]] → [[aur-]] → [[j'aurai]]; [[acheter]] → [[j'achèterai]] (with è)." },
+        { "id": "r10", "type": "dictation", "fr": "Quelle est votre politique de retour ?", "accept": [],
+          "explain": "[[Quelle]] agrees with [[politique]] (feminine)." }
+      ] },
+    { "type": "apply", "title": "Mission: choose and justify",
+      "intro": "Two missions. Prepare with the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        { "id": "s1", "type": "speak",
+          "prompt": "You're in the store with the three coats from the flyer (Polaire, Urbain, Sport). Tell the salesperson what you need, compare at least two coats, ask to try one on, ask about the return policy, and say which one you're taking and why.",
+          "promptFr": "Au magasin : choisissez un manteau et justifiez votre choix.",
+          "seconds": 60,
+          "checklist": [
+            "Your need: J'ai besoin d'un manteau… parce que…",
+            "Two comparatives (plus… que, moins… que, aussi… que)",
+            "One superlative (le plus…, le moins…, le meilleur)",
+            "Size and trying on: Je fais du… Je peux l'essayer ?",
+            "Return policy: Quelle est votre politique de retour ?",
+            "Decision with a pronoun: Je le prends parce que…"
+          ],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour. J'ai besoin d'un manteau chaud, parce que j'attends l'autobus le matin. Le Polaire est le plus chaud, mais il est trop cher pour moi. L'Urbain est moins cher, mais il n'est pas assez chaud. Je peux essayer le Sport ? Je fais du M. … Il est confortable. Quelle est votre politique de retour ? … Trente jours, parfait. Je le prends, parce qu'il est imperméable et moins cher que le Polaire.",
+              "en": "Hello. I need a warm coat because I wait for the bus in the morning. The Polaire is the warmest, but it's too expensive for me. The Urbain is cheaper, but it isn't warm enough. Can I try on the Sport? I'm a medium. … It's comfortable. What's your return policy? … Thirty days, perfect. I'll take it, because it's waterproof and cheaper than the Polaire." },
+            { "label": "Stronger model answer", "fr": "Bonjour, madame. Je cherche un manteau pour l'hiver. Mon vieux manteau n'est plus assez chaud, et je marche beaucoup : j'accompagne mes enfants à l'école tous les matins. Mon budget est de 250 $. Le Polaire est le meilleur, c'est sûr, mais il est beaucoup plus cher que les autres. L'Urbain est en solde, mais c'est une vente finale, et il n'a pas de capuchon. Le Sport est un bon compromis : il est plus léger que le Polaire et il est imperméable. Je peux l'essayer en L ? … Il me va bien. Et si je change d'idée, je peux le retourner ? … Pendant trente jours avec le reçu, d'accord. Alors je le prends. Ce n'est pas le plus chaud, mais c'est le meilleur rapport qualité-prix pour moi.",
+              "en": "Hello, madam. I'm looking for a coat for the winter. My old coat isn't warm enough anymore, and I walk a lot: I take my children to school every morning. My budget is $250. The Polaire is the best, for sure, but it's much more expensive than the others. The Urbain is on sale, but it's final sale, and it doesn't have a hood. The Sport is a good compromise: it's lighter than the Polaire and it's waterproof. Can I try it on in large? … It fits me well. And if I change my mind, can I return it? … For thirty days with the receipt, OK. Then I'll take it. It isn't the warmest, but it's the best value for money for me." }
+          ] },
+        { "id": "w1", "type": "write",
+          "prompt": "Write a message to a friend who is also looking for a winter coat. Explain which coat you bought, compare it with the other two, justify your choice, and give one piece of advice.",
+          "promptFr": "Écrivez un message à un ami : quel manteau avez-vous acheté et pourquoi ?",
+          "wordRange": [60, 100],
+          "checklist": [
+            "Salut + name",
+            "What you bought, when, and the price (passé composé)",
+            "Two comparatives and one superlative",
+            "meilleur or mieux used correctly",
+            "At least two pronouns (le, la, l', les)",
+            "Return policy or sale conditions",
+            "Advice: Tu devrais… / Il faut… / Le mieux, c'est de…",
+            "Closing: À bientôt ! + name"
+          ],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Raj !\nHier, j'ai acheté un nouveau manteau d'hiver : le Sport, à 229 $. J'ai aussi regardé le Polaire et l'Urbain. Le Polaire est le plus chaud, mais il est beaucoup plus cher. L'Urbain est le moins cher, mais il n'est pas assez chaud pour Gatineau ! Le Sport est plus léger que le Polaire et il est imperméable. Je l'adore ! Tu devrais l'essayer. Attention : les prix sont avant les taxes.\nÀ bientôt !\nKarim",
+              "en": "Hi Raj!\nYesterday I bought a new winter coat: the Sport, at $229. I also looked at the Polaire and the Urbain. The Polaire is the warmest, but it's a lot more expensive. The Urbain is the cheapest, but it isn't warm enough for Gatineau! The Sport is lighter than the Polaire and it's waterproof. I love it! You should try it on. Careful: the prices are before taxes.\nSee you soon!\nKarim" },
+            { "label": "Stronger model answer", "fr": "Salut Raj !\nTu cherches toujours un manteau ? Moi, j'ai enfin trouvé un manteau : je l'ai acheté hier au centre commercial. J'ai hésité entre trois modèles. Le Polaire est le meilleur, c'est vrai, mais à 349 $, il est trop cher pour mon budget. L'Urbain est en solde, mais c'est une vente finale et c'est le moins chaud des trois. Finalement, j'ai choisi le Sport : il est moins lourd que le Polaire, il est imperméable et il a un capuchon. Ce matin, j'ai attendu l'autobus pendant vingt minutes à -20 °C, et je n'ai pas eu froid !\nMon conseil : le mieux, c'est de lire la politique de retour avant de payer. Le Sport, tu peux le retourner pendant trente jours.\nÀ bientôt !\nKarim",
+              "en": "Hi Raj!\nAre you still looking for a coat? I finally found a coat: I bought it yesterday at the mall. I hesitated between three models. The Polaire is the best, it's true, but at $349 it's too expensive for my budget. The Urbain is on sale, but it's final sale and it's the least warm of the three. In the end, I chose the Sport: it's less heavy than the Polaire, it's waterproof and it has a hood. This morning I waited for the bus for twenty minutes at -20 °C, and I wasn't cold!\nMy advice: the best thing is to read the return policy before paying. The Sport, you can return it within thirty days.\nSee you soon!\nKarim" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- **Unit 8 complete!** You can compare products with [[plus / moins / aussi… que]], [[meilleur]] and [[mieux]]\n- You can pick the best option with superlatives: [[le plus chaud du magasin]], [[le meilleur rapport qualité-prix]]\n- You can avoid repetition with [[le, la, l', les]]: [[Je le prends.]] [[Je vais l'essayer.]]\n- You can ask about sizes, returns and policies, and justify a purchase out loud and in writing",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced r8, which tested pronoun placement in the passé composé (only previewed), with a present-tense pronoun + meilleur reorder, and marked Je l'ai choisi as a chunk. Gave r9 an object (j'achèterai mes bottes). Labelled la slush as informal Québec usage." }
+}

@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "ability": "eo",
+  "tasks": [
+    {
+      "id": "tef-eo-a5",
+      "section": "A",
+      "title": "Une place en service de garde",
+      "level": "b1",
+      "prompt": "Vous avez lu cette annonce et vous cherchez une place pour votre enfant. Vous téléphonez à la responsable du service de garde pour obtenir plus de renseignements. Posez-lui une dizaine de questions. L’examinateur joue le rôle de la responsable.",
+      "promptEn": "You read this ad and you are looking for a place for your child. You call the person who runs the daycare to get more information. Ask her about ten questions. The examiner plays the daycare provider.",
+      "document": "SERVICE DE GARDE EN MILIEU FAMILIAL « LES PETITS PINSONS »\n2 places disponibles dès septembre (enfants de 18 mois à 5 ans)\nRepas et collations maison inclus\nGrande cour clôturée, sorties au parc tous les jours\nDu lundi au vendredi, de 7 h à 17 h 30\nQuartier Limoilou – Appelez Nathalie au 418 555-0147",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Greets the provider, introduces yourself and your child (name, age) and says why you are calling.",
+        "Asks about ten different questions: availability, fees, group size, meals and allergies, daily activities, naps, illness policy, holidays, schedule flexibility, visit.",
+        "Uses vous consistently and polite forms (j’aimerais savoir, pourriez-vous, est-ce qu’il serait possible).",
+        "Varies question structures: est-ce que, inversion, question words, indirect questions.",
+        "Reacts to answers and asks follow-up questions linked to your child’s needs.",
+        "Asks for clarification or repetition when needed.",
+        "Ends politely with a concrete next step (a visit, documents to bring)."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour madame, je vous appelle au sujet de votre annonce pour le service de garde.",
+          "en": "Hello, I’m calling about your ad for the daycare."
+        },
+        {
+          "fr": "Est-ce qu’il vous reste encore des places pour septembre ?",
+          "en": "Do you still have places for September?"
+        },
+        {
+          "fr": "Ma fille a deux ans et demi.",
+          "en": "My daughter is two and a half."
+        },
+        {
+          "fr": "Quel est le tarif par jour ?",
+          "en": "What is the daily rate?"
+        },
+        {
+          "fr": "Combien d’enfants accueillez-vous en tout ?",
+          "en": "How many children do you look after in total?"
+        },
+        {
+          "fr": "Mon fils est allergique aux noix : est-ce que c’est un problème ?",
+          "en": "My son is allergic to nuts: is that a problem?"
+        },
+        {
+          "fr": "Comment se passe une journée type ?",
+          "en": "What does a typical day look like?"
+        },
+        {
+          "fr": "Que se passe-t-il si mon enfant est malade ?",
+          "en": "What happens if my child is sick?"
+        },
+        {
+          "fr": "Pendant quelles périodes êtes-vous fermée ?",
+          "en": "When are you closed?"
+        },
+        {
+          "fr": "Serait-il possible d’arriver un peu plus tôt le matin ?",
+          "en": "Would it be possible to arrive a little earlier in the morning?"
+        },
+        {
+          "fr": "Est-ce que je pourrais venir visiter avec mon enfant ?",
+          "en": "Could I come and visit with my child?"
+        },
+        {
+          "fr": "Merci beaucoup pour ces renseignements, je vous rappelle demain.",
+          "en": "Thank you very much for the information, I’ll call you back tomorrow."
+        }
+      ],
+      "examinerLines": [
+        "Oui, bonjour, c’est Nathalie. Oui, il me reste encore deux places pour septembre.",
+        "Le tarif est de 45 $ par jour, repas et collations compris. Je vous remets des reçus pour vos impôts.",
+        "J’accueille six enfants au total, et une assistante vient m’aider le matin.",
+        "Je cuisine tout ici. Il n’y a jamais d’arachides ni de noix dans la maison.",
+        "Le matin, on fait du bricolage, de la musique et une sortie au parc. Après le dîner, c’est la sieste jusqu’à 15 h.",
+        "Si l’enfant fait de la fièvre, je dois vous appeler et il doit rester à la maison au moins vingt-quatre heures.",
+        "Je ferme deux semaines pendant les vacances de la construction et une semaine à Noël.",
+        "Vous pouvez venir visiter avec votre enfant mercredi, vers 16 h 30, si ça vous convient."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour madame, je m’appelle Amina Diallo. Je vous appelle au sujet de votre annonce pour le service de garde Les Petits Pinsons. Est-ce qu’il vous reste encore des places pour septembre ?\nAh, tant mieux ! Ma fille, Inès, a deux ans et demi. J’aurais quelques questions, si vous avez un moment. D’abord, quel est le tarif par jour ?\nD’accord, 45 $, repas compris. Et vous me donnez des reçus pour l’impôt, c’est bien ça ?\nParfait. Combien d’enfants accueillez-vous en tout ? Vous travaillez seule ?\nJe vois, avec une assistante le matin, c’est rassurant. Pour les repas, c’est vous qui cuisinez ? Je vous pose la question parce qu’Inès est allergique aux noix.\nOh, très bien, ça me soulage beaucoup. Pourriez-vous me décrire une journée type ? Qu’est-ce que les enfants font le matin et l’après-midi ?\nEt la sieste, elle dure combien de temps, à peu près ?\nD’accord. Que se passe-t-il si ma fille est malade ? Est-ce qu’elle peut venir quand même si elle a juste un rhume ?\nJe comprends, c’est normal. Pendant quelles périodes êtes-vous fermée dans l’année ?\nLes vacances de la construction et une semaine à Noël, c’est noté. Autre chose : je commence à travailler à 7 h 30 au centre-ville. Serait-il possible d’arriver à 6 h 50, de temps en temps ?\nMerci, c’est gentil. Et si j’ai un imprévu le soir, est-ce qu’il y a des frais de retard après 17 h 30 ?\nTrès bien. Quels documents est-ce que je dois apporter pour l’inscription ? Le carnet de vaccination ?\nEnfin, est-ce que je pourrais venir visiter avec Inès avant de me décider ?\nMercredi à 16 h 30, c’est parfait. Pourriez-vous me donner l’adresse exacte, s’il vous plaît ?\nC’est noté. Merci beaucoup pour tous ces renseignements, madame. À mercredi, et bonne fin de journée !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-a6",
+      "section": "A",
+      "title": "Agent au service à la clientèle",
+      "level": "b2",
+      "prompt": "Vous avez lu cette offre d’emploi et le poste vous intéresse. Vous téléphonez au service des ressources humaines pour obtenir plus de renseignements. Posez une dizaine de questions. L’examinateur joue le rôle de la personne responsable du recrutement.",
+      "promptEn": "You read this job offer and you are interested in the position. You call the human resources department to get more information. Ask about ten questions. The examiner plays the recruiter.",
+      "document": "OFFRE D’EMPLOI\nAgent ou agente au service à la clientèle – bilingue (français-anglais)\nEntreprise de vente en ligne de matériel de plein air – Sherbrooke\nTemps plein, 37,5 h par semaine – Télétravail possible après la formation\nSalaire : à partir de 22 $ l’heure, plus primes\nAucune expérience exigée : formation payée de trois semaines\nRenseignements : Service des ressources humaines, 819 555-0193",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Introduces yourself professionally, names the position and briefly mentions your profile.",
+        "Asks about ten precise questions: tasks, communication channels, schedule and shifts, training, telework conditions, equipment, salary and bonuses, benefits, career prospects, application process.",
+        "Uses formal register and the conditional (j’aimerais savoir, serait-il possible, auriez-vous).",
+        "Links questions to your own situation (languages, availability, experience).",
+        "Reformulates answers to check understanding (si je comprends bien…).",
+        "Uses B2 connectors (en ce qui concerne, quant à, par ailleurs).",
+        "Closes by confirming how and when to apply."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour, je vous appelle au sujet de votre offre d’emploi d’agent au service à la clientèle.",
+          "en": "Hello, I’m calling about your customer service agent job offer."
+        },
+        {
+          "fr": "Le poste est-il toujours ouvert ?",
+          "en": "Is the position still open?"
+        },
+        {
+          "fr": "En quoi consisteraient exactement mes tâches ?",
+          "en": "What exactly would my duties be?"
+        },
+        {
+          "fr": "Les clients vous contactent-ils surtout par téléphone ou par clavardage ?",
+          "en": "Do customers contact you mostly by phone or by chat?"
+        },
+        {
+          "fr": "Quels seraient les horaires de travail ?",
+          "en": "What would the working hours be?"
+        },
+        {
+          "fr": "En ce qui concerne le télétravail, quelles sont les conditions ?",
+          "en": "As for telework, what are the conditions?"
+        },
+        {
+          "fr": "L’entreprise fournit-elle l’équipement informatique ?",
+          "en": "Does the company provide the computer equipment?"
+        },
+        {
+          "fr": "Pourriez-vous m’en dire plus sur les primes ?",
+          "en": "Could you tell me more about the bonuses?"
+        },
+        {
+          "fr": "Offrez-vous des avantages sociaux, comme une assurance collective ?",
+          "en": "Do you offer benefits, such as group insurance?"
+        },
+        {
+          "fr": "Y a-t-il des possibilités d’avancement ?",
+          "en": "Are there opportunities for promotion?"
+        },
+        {
+          "fr": "Si je comprends bien, la formation se fait entièrement sur place ?",
+          "en": "If I understand correctly, the training is entirely on site?"
+        },
+        {
+          "fr": "Comment dois-je poser ma candidature ?",
+          "en": "How should I apply?"
+        }
+      ],
+      "examinerLines": [
+        "Bonjour ! Oui, le poste est toujours ouvert. Nous recrutons cinq personnes pour le mois prochain.",
+        "Vous répondez aux clients par téléphone, par courriel et par clavardage : suivi des commandes, retours, conseils sur les produits.",
+        "Nos bureaux sont ouverts de 8 h à 20 h. Les quarts changent chaque semaine, et il y a un samedi sur trois.",
+        "La formation se fait au bureau, du lundi au vendredi, de 9 h à 17 h. Elle est payée au plein salaire.",
+        "Après la formation, vous pouvez travailler de la maison trois jours par semaine, si votre connexion Internet est assez rapide.",
+        "Nous vous fournissons l’ordinateur, le casque d’écoute et un deuxième écran.",
+        "Les primes dépendent de la satisfaction des clients. En général, c’est entre 100 $ et 300 $ par mois.",
+        "Envoyez votre CV par courriel avant le 15. Il y aura ensuite une courte entrevue en français et en anglais."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour madame. Je m’appelle Carlos Mendes. Je vous appelle au sujet de votre offre d’emploi pour un poste d’agent bilingue au service à la clientèle. Le poste est-il toujours ouvert ?\nTrès bien. Pour vous situer rapidement, je parle français, anglais et espagnol, et j’ai travaillé deux ans dans un magasin de sport. J’aimerais d’abord savoir en quoi consisteraient exactement mes tâches.\nD’accord. Et les clients vous contactent surtout par téléphone ou plutôt par écrit, par clavardage ?\nJe vois, un peu des deux. En ce qui concerne l’horaire, quels seraient les quarts de travail ? Est-ce qu’il faut travailler le soir ou la fin de semaine ?\nUn samedi sur trois, ça me convient. Quant à la formation, si je comprends bien, elle dure trois semaines. Elle se fait entièrement sur place, à Sherbrooke ?\nParfait, et elle est rémunérée au plein salaire, c’est une bonne nouvelle. Ensuite, pour le télétravail, quelles sont les conditions exactement ?\nEst-ce que l’entreprise fournit l’équipement informatique, ou est-ce que je dois utiliser mon propre ordinateur ?\nExcellent. Votre annonce parle d’un salaire de départ de 22 $ l’heure, plus des primes. Pourriez-vous m’en dire un peu plus sur ces primes ?\nC’est intéressant. Par ailleurs, offrez-vous des avantages sociaux, par exemple une assurance collective ou des congés de maladie ?\nEt à plus long terme, y a-t-il des possibilités d’avancement, comme devenir chef d’équipe ?\nTrès bien. Le fait que je parle espagnol, est-ce que ce serait un atout pour vous ?\nDernière question : comment dois-je poser ma candidature, et quelles sont les prochaines étapes ?\nSi je résume, j’envoie mon CV par courriel avant le 15, puis il y aura une entrevue dans les deux langues. Pourriez-vous me rappeler l’adresse courriel, s’il vous plaît ?\nC’est noté. Merci beaucoup pour votre temps, madame. Je vous envoie mon CV dès aujourd’hui. Bonne journée !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-a7",
+      "section": "A",
+      "title": "Une parcelle au jardin communautaire",
+      "level": "b1",
+      "prompt": "Vous avez vu cette affiche dans votre quartier et vous aimeriez cultiver vos propres légumes. Vous téléphonez au comité du jardin pour obtenir plus de renseignements. Posez une dizaine de questions. L’examinateur joue le rôle d’un membre du comité.",
+      "promptEn": "You saw this poster in your neighbourhood and you would like to grow your own vegetables. You call the garden committee to get more information. Ask about ten questions. The examiner plays a committee member.",
+      "document": "JARDIN COMMUNAUTAIRE DU PARC DES ÉRABLES\nParcelles à louer pour la saison (de mai à octobre)\nParcelle de 3 m × 6 m : 40 $ pour la saison\nEau, outils et compost fournis\nPriorité aux résidents du quartier\nSoirée d’information le 15 avril à 19 h\nRenseignements : Comité du jardin, 613 555-0126",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Greets the person, introduces yourself and explains why you are calling (you live nearby, you want to garden).",
+        "Asks about ten different questions: availability, registration, priority rules, opening hours, what you can grow, water and tools, rules and obligations, help for beginners, holidays, information evening.",
+        "Uses vous and polite question forms throughout.",
+        "Varies question types (est-ce que, inversion, combien, quand, comment, indirect questions).",
+        "Reacts naturally to answers and builds follow-up questions on them.",
+        "Asks for clarification or repetition when needed.",
+        "Closes politely with a clear next step (registration, coming to the information evening)."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour, je vous appelle au sujet des parcelles du jardin communautaire.",
+          "en": "Hello, I’m calling about the community garden plots."
+        },
+        {
+          "fr": "Est-ce qu’il reste encore des parcelles libres ?",
+          "en": "Are there still some free plots?"
+        },
+        {
+          "fr": "J’habite à deux rues du parc : est-ce que je suis prioritaire ?",
+          "en": "I live two streets from the park: do I have priority?"
+        },
+        {
+          "fr": "Comment est-ce qu’on s’inscrit ?",
+          "en": "How do you register?"
+        },
+        {
+          "fr": "Le jardin est ouvert à quelles heures ?",
+          "en": "What are the garden’s opening hours?"
+        },
+        {
+          "fr": "Est-ce qu’on peut cultiver tout ce qu’on veut ?",
+          "en": "Can you grow anything you like?"
+        },
+        {
+          "fr": "Quels outils sont fournis exactement ?",
+          "en": "Which tools are provided exactly?"
+        },
+        {
+          "fr": "Est-ce qu’il y a des règles à respecter ?",
+          "en": "Are there rules to follow?"
+        },
+        {
+          "fr": "Je n’ai jamais fait de jardinage : est-ce qu’on peut m’aider ?",
+          "en": "I’ve never gardened: can someone help me?"
+        },
+        {
+          "fr": "Qu’est-ce qui se passe si je pars en vacances en juillet ?",
+          "en": "What happens if I go on holiday in July?"
+        },
+        {
+          "fr": "La soirée d’information, est-ce qu’elle est obligatoire ?",
+          "en": "Is the information evening compulsory?"
+        },
+        {
+          "fr": "Pourriez-vous répéter, s’il vous plaît ? Je n’ai pas bien compris.",
+          "en": "Could you repeat, please? I didn’t understand well."
+        }
+      ],
+      "examinerLines": [
+        "Bonjour ! Oui, il nous reste une dizaine de parcelles, mais elles partent vite.",
+        "Pour s’inscrire, il faut remplir un formulaire et montrer une preuve d’adresse, comme un compte d’électricité.",
+        "Le jardin est ouvert tous les jours, de 7 h au coucher du soleil.",
+        "Vous pouvez cultiver des légumes, des fines herbes et des fleurs, mais les arbres fruitiers sont interdits.",
+        "On demande à chaque membre de donner deux heures par mois pour l’entretien des allées et du compost.",
+        "Les produits chimiques sont interdits : on fait seulement du jardinage biologique.",
+        "Si vous partez en vacances, vous devez demander à un autre membre d’arroser votre parcelle.",
+        "La soirée d’information n’est pas obligatoire, mais on y donne des conseils aux débutants et on distribue des semences."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8; informal Québec French: boyau d’arrosage = tuyau d’arrosage)",
+          "fr": "Bonjour monsieur. Je m’appelle Hugo Martel. Je vous appelle au sujet des parcelles à louer au jardin communautaire du parc des Érables. Est-ce qu’il reste encore des parcelles libres ?\nUne dizaine, d’accord. Alors je ne vais pas attendre ! Votre affiche dit qu’il y a une priorité pour les résidents du quartier. Moi, j’habite à deux rues du parc. Est-ce que c’est suffisant ?\nTrès bien. Et comment est-ce qu’on s’inscrit, concrètement ?\nUn formulaire et une preuve d’adresse, c’est noté. Le paiement de 40 $, est-ce que je peux le faire par virement ou seulement en argent comptant ?\nParfait. Le jardin est ouvert à quelles heures ? Je travaille le jour, alors j’aimerais surtout venir le soir.\nAh, jusqu’au coucher du soleil, c’est idéal en été. Est-ce qu’on peut cultiver tout ce qu’on veut ? Je pensais à des tomates, des courgettes et des fines herbes.\nD’accord, pas d’arbres fruitiers. Pour l’eau et les outils, qu’est-ce qui est fourni exactement ? Il y a des boyaux d’arrosage ?\nEt est-ce qu’il y a des règles à respecter, ou des obligations pour les membres ?\nDeux heures par mois, c’est raisonnable. Et les engrais, on peut en utiliser ?\nJe comprends, c’est seulement biologique. Une autre question : je pars deux semaines en juillet. Qu’est-ce qui se passe avec ma parcelle ?\nTrès bien, je vais demander à un voisin. Je dois vous avouer que je n’ai jamais fait de jardinage. Est-ce que quelqu’un peut m’aider au début ?\nLa soirée d’information du 15 avril, alors, elle est obligatoire ?\nJe vais venir, c’est sûr. Elle a lieu où, exactement ? Dans le chalet du parc ?\nMerci beaucoup, monsieur, vous avez été très clair. À bientôt, le 15 avril !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-a8",
+      "section": "A",
+      "title": "Réserver des déménageurs",
+      "level": "b2",
+      "prompt": "Vous allez déménager et vous avez trouvé cette publicité. Vous téléphonez à l’entreprise pour obtenir plus de renseignements avant de réserver. Posez une dizaine de questions. L’examinateur joue le rôle de l’employé de l’entreprise.",
+      "promptEn": "You are moving and you found this advertisement. You call the company to get more information before booking. Ask about ten questions. The examiner plays the company’s employee.",
+      "document": "DÉMÉNAGEMENTS DU VIEUX-PONT\nPetits et grands déménagements – Montréal et environs\nÉquipe de 2 ou 3 déménageurs, camion de 26 pieds\nTarif à l’heure ou forfait – Estimation gratuite\nEmballage et boîtes disponibles sur demande\nRéservez tôt pour le 1er juillet !\n514 555-0168",
+      "prepSeconds": 0,
+      "speakSeconds": 300,
+      "checklist": [
+        "Introduces yourself and describes your move precisely (date, size of apartment, from where to where, floors).",
+        "Asks about ten precise questions: availability, hourly rate vs. flat rate, what is included, travel fees, packing, boxes, insurance and damage, fragile or heavy items, payment and deposit, cancellation.",
+        "Uses formal register and the conditional (je voudrais savoir, serait-il possible, combien coûterait…).",
+        "Compares options and asks for justification (quelle formule me conseilleriez-vous ?).",
+        "Reformulates the information to check it (si je comprends bien…).",
+        "Uses B2 connectors and precise vocabulary (un dépôt, une assurance, un forfait, des frais de déplacement).",
+        "Ends by booking or arranging the free estimate."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Je vous appelle pour un déménagement prévu le 1er juillet.",
+          "en": "I’m calling about a move planned for July 1st."
+        },
+        {
+          "fr": "Avez-vous encore des disponibilités à cette date ?",
+          "en": "Do you still have availability on that date?"
+        },
+        {
+          "fr": "Je déménage d’un 4 ½ au troisième étage, sans ascenseur.",
+          "en": "I’m moving from a 4 ½ on the third floor, without an elevator."
+        },
+        {
+          "fr": "Quelle formule me conseilleriez-vous : à l’heure ou le forfait ?",
+          "en": "Which option would you recommend: hourly or flat rate?"
+        },
+        {
+          "fr": "Le temps de déplacement est-il facturé ?",
+          "en": "Is travel time charged?"
+        },
+        {
+          "fr": "Qu’est-ce qui est compris dans le prix ?",
+          "en": "What is included in the price?"
+        },
+        {
+          "fr": "Combien coûterait le service d’emballage ?",
+          "en": "How much would the packing service cost?"
+        },
+        {
+          "fr": "Que se passe-t-il si un meuble est endommagé ?",
+          "en": "What happens if a piece of furniture is damaged?"
+        },
+        {
+          "fr": "J’ai un piano : est-ce que vous le déménagez aussi ?",
+          "en": "I have a piano: do you move that too?"
+        },
+        {
+          "fr": "Faut-il verser un dépôt pour réserver ?",
+          "en": "Do I need to pay a deposit to book?"
+        },
+        {
+          "fr": "Si je comprends bien, l’estimation est gratuite et sans engagement ?",
+          "en": "If I understand correctly, the estimate is free and with no obligation?"
+        },
+        {
+          "fr": "Quelles sont vos conditions d’annulation ?",
+          "en": "What are your cancellation terms?"
+        }
+      ],
+      "examinerLines": [
+        "Pour le 1er juillet, il nous reste seulement deux créneaux : à 7 h le matin ou à 15 h.",
+        "Pour un 4 ½, je vous conseille trois déménageurs. C’est 165 $ l’heure, et ça prend environ cinq heures.",
+        "Le forfait est plus avantageux si vous avez beaucoup d’escaliers. On peut fixer un prix après l’estimation gratuite.",
+        "On facture une heure de déplacement, peu importe la distance dans Montréal.",
+        "Les couvertures, le ruban adhésif et le diable sont compris. Les boîtes coûtent 3 $ chacune.",
+        "Nous sommes assurés, mais pour les objets que vous avez emballés vous-même, on ne peut pas garantir le contenu des boîtes.",
+        "Pour le piano, il y a un supplément de 200 $, et il faut nous le dire à l’avance.",
+        "On demande un dépôt de 150 $. Il est remboursable si vous annulez au moins quatorze jours avant."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour monsieur. Je m’appelle Fatou Ndiaye. Je vous appelle au sujet d’un déménagement prévu le 1er juillet. Avez-vous encore des disponibilités à cette date ?\nDeux créneaux, d’accord. Je préférerais le matin, à 7 h, parce que je dois récupérer les clés du nouvel appartement à midi. Pour vous donner une idée, je déménage d’un 4 ½ au troisième étage, sans ascenseur, à Villeray, vers un 5 ½ au rez-de-chaussée, à Ahuntsic.\nTrois déménageurs, très bien. Votre publicité propose un tarif à l’heure ou un forfait. Quelle formule me conseilleriez-vous dans mon cas ?\nSi je comprends bien, avec tous ces escaliers, le forfait serait plus prudent. Et l’estimation est gratuite et sans engagement ?\nParfait. En ce qui concerne le déplacement du camion, est-ce qu’il est facturé en plus ?\nD’accord, une heure. Qu’est-ce qui est compris dans le prix, exactement ? Les couvertures pour protéger les meubles, par exemple ?\nTrès bien. Quant à l’emballage, je travaille beaucoup en ce moment. Combien coûterait le service d’emballage complet de la cuisine ?\nJe vais y réfléchir. Et si un meuble est endommagé pendant le transport, comment ça se passe ? Vous êtes assurés ?\nJe comprends, donc il vaut mieux que vos employés emballent la vaisselle. J’ai aussi un piano droit. Est-ce que vous le déménagez ?\nUn supplément de 200 $, c’est noté. Pour réserver, faut-il verser un dépôt ?\nEt quelles sont vos conditions d’annulation, au cas où la date changerait ?\nTrès bien, quatorze jours avant. Alors, est-ce qu’on pourrait fixer l’estimation gratuite cette semaine, par exemple jeudi soir ?\nJeudi à 18 h, parfait. Je vous donne mon adresse : 2150, rue des Ormes, appartement 6. Merci beaucoup pour vos explications, monsieur. Bonne journée !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b5",
+      "section": "B",
+      "title": "La grande corvée des berges",
+      "level": "b1",
+      "prompt": "Vous avez vu cette affiche au centre communautaire. Vous voulez convaincre un ami ou une amie de participer avec vous à cette corvée. Présentez-lui l’activité et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this poster at the community centre. You want to convince a friend to take part in this clean-up with you. Present the activity and answer their objections. The examiner plays your friend.",
+      "document": "GRANDE CORVÉE DES BERGES\nSamedi 27 avril, de 9 h à 13 h – Parc de la Rivière\nAidez-nous à ramasser les déchets laissés sur les rives après la fonte des neiges !\nGants, sacs et collation fournis\nActivité familiale, ouverte à tous dès 8 ans\nDîner communautaire offert aux participants\nInscription gratuite au centre communautaire",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Presents the event clearly (what, when, where, for whom) using the poster’s information.",
+        "Develops several arguments: environment, a cleaner park for everyone, meeting neighbours, a free family activity, the community lunch.",
+        "Answers each objection directly: acknowledges it, then counters it.",
+        "Uses tu and a warm, friendly tone throughout.",
+        "Uses persuasion structures (imperative, si + présent, si + imparfait + conditionnel, rhetorical questions).",
+        "Proposes practical solutions (bringing the children, a ride, leaving early if needed).",
+        "Asks for and tries to obtain a decision at the end."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Tu fais quelque chose samedi matin ?",
+          "en": "Are you doing anything on Saturday morning?"
+        },
+        {
+          "fr": "J’ai vu une affiche et j’ai pensé à toi.",
+          "en": "I saw a poster and thought of you."
+        },
+        {
+          "fr": "Ça te tenterait de venir avec moi ?",
+          "en": "Would you be up for coming with me?"
+        },
+        {
+          "fr": "Je te comprends, mais regarde le bon côté :",
+          "en": "I understand, but look on the bright side:"
+        },
+        {
+          "fr": "Ça ne prend que quatre heures.",
+          "en": "It only takes four hours."
+        },
+        {
+          "fr": "Tout est fourni, tu n’as rien à apporter.",
+          "en": "Everything is provided, you don’t need to bring anything."
+        },
+        {
+          "fr": "Pense à tes enfants : ils vont adorer.",
+          "en": "Think of your kids: they’ll love it."
+        },
+        {
+          "fr": "Si tout le monde disait ça, personne ne ferait rien.",
+          "en": "If everyone said that, nobody would do anything."
+        },
+        {
+          "fr": "En plus, c’est une belle occasion de rencontrer les voisins.",
+          "en": "Plus, it’s a great opportunity to meet the neighbours."
+        },
+        {
+          "fr": "Je passe te prendre, si tu veux.",
+          "en": "I’ll come and pick you up, if you want."
+        },
+        {
+          "fr": "Tu ne le regretteras pas, je te le promets.",
+          "en": "You won’t regret it, I promise."
+        },
+        {
+          "fr": "Alors, marché conclu ?",
+          "en": "So, it’s a deal?"
+        }
+      ],
+      "examinerLines": [
+        "Ramasser des déchets un samedi matin ? Franchement, ce n’est pas mon idée d’un bon week-end.",
+        "C’est à la Ville de nettoyer le parc, pas aux citoyens. On paie déjà des taxes pour ça.",
+        "Le samedi, c’est mon seul jour pour dormir un peu.",
+        "Et s’il pleut ? On va se geler au bord de l’eau.",
+        "Ça ne sert à rien : dans deux semaines, il y aura de nouveau des déchets partout.",
+        "J’ai mes deux enfants le samedi, je ne peux pas les laisser seuls.",
+        "Je ne connais personne là-bas, je vais me sentir mal à l’aise.",
+        "Bon… si tu m’offres le café après, je veux bien essayer."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8; informal Québec French: travailler fort, un beigne)",
+          "fr": "Salut Marc ! Dis-moi, tu fais quelque chose samedi matin, le 27 ? J’ai vu une affiche au centre communautaire et j’ai tout de suite pensé à toi. Il y a une grande corvée pour nettoyer les berges, au parc de la Rivière. Ça te tenterait de venir avec moi ?\nJe sais, ramasser des déchets, à première vue, ce n’est pas très excitant. Mais tu te plains toujours que le parc est sale au printemps. Là, on peut vraiment faire quelque chose ! Et ce n’est pas seulement du travail : il y a une collation et un dîner communautaire offert à la fin.\nC’est vrai, la Ville a ses responsabilités. Mais les employés ne peuvent pas être partout, et la plupart de ces déchets, ce sont des gens comme nous qui les ont laissés. Si tout le monde disait « ce n’est pas mon problème », personne ne ferait rien. Moi, je trouve ça plus satisfaisant d’agir que de se plaindre.\nJe te comprends, tu travailles fort toute la semaine. Mais ça commence à 9 h, pas à l’aube ! Tu peux dormir jusqu’à 8 h, je passe te prendre en voiture, et à 13 h, c’est fini. Il te restera tout l’après-midi pour te reposer.\nS’il pleut, on mettra nos imperméables. Et puis, fin avril, il fait souvent beau. De toute façon, on bouge tout le temps, alors on n’aura pas froid.\nTu dis que ça ne sert à rien, mais au contraire ! L’année passée, les bénévoles ont rempli plus de deux cents sacs. Et quand un endroit est propre, les gens hésitent beaucoup plus à jeter leurs déchets par terre.\nTes enfants ? Mais justement, amène-les ! C’est une activité familiale, ouverte dès 8 ans. Ils vont adorer chercher des « trésors » au bord de l’eau, et en plus, ils vont apprendre à respecter la nature. C’est mieux que de passer la matinée devant un écran, non ?\nTu ne connaîtras personne ? Mais tu me connais, moi ! Et c’est justement l’occasion de rencontrer des voisins. Pendant le dîner, tout le monde discute, l’ambiance est super.\nMarché conclu ! Je t’offre le café et même un beigne. Alors, je nous inscris tous les quatre au centre communautaire demain ? C’est gratuit, en plus !"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b6",
+      "section": "B",
+      "title": "Créer son site Web en six soirées",
+      "level": "b2",
+      "prompt": "Vous avez vu cette annonce à la bibliothèque. Vous voulez convaincre un ami ou une amie de suivre ces ateliers avec vous. Présentez-lui l’offre et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this notice at the library. You want to convince a friend to take these workshops with you. Present the offer and answer their objections. The examiner plays your friend.",
+      "document": "BIBLIOTHÈQUE MUNICIPALE – ATELIERS NUMÉRIQUES\n« Créez votre site Web en 6 soirées »\nLes mardis, de 18 h 30 à 20 h 30, à partir du 8 octobre\nAucune connaissance en programmation requise\nOrdinateurs fournis – Groupes de 12 personnes maximum\nIdéal pour présenter un projet, un petit commerce ou un portfolio\nGratuit pour les abonnés de la bibliothèque",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Presents the workshops precisely (dates, times, content, conditions) using the document.",
+        "Links the offer to the friend’s own situation (a side business, a job search, a hobby).",
+        "Develops several arguments: free, no prerequisites, small groups, useful skill for work, doing it together.",
+        "Answers each objection with a precise counter-argument or compromise rather than repeating the same idea.",
+        "Uses tu and a natural, friendly tone, with B2 persuasion structures (si + imparfait + conditionnel, ne… que, il suffit de).",
+        "Uses concessions and reformulations (je te l’accorde, c’est vrai, mais…, autrement dit…).",
+        "Obtains or asks for a clear decision at the end."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Tu te souviens, tu me disais que tu voulais vendre tes bijoux en ligne ?",
+          "en": "Remember, you told me you wanted to sell your jewellery online?"
+        },
+        {
+          "fr": "Regarde ce que j’ai trouvé à la bibliothèque.",
+          "en": "Look what I found at the library."
+        },
+        {
+          "fr": "Il n’est pas nécessaire de savoir programmer.",
+          "en": "You don’t need to know how to code."
+        },
+        {
+          "fr": "Il suffit d’avoir une carte de bibliothèque, et c’est gratuit.",
+          "en": "All you need is a library card, and it’s free."
+        },
+        {
+          "fr": "Je te l’accorde, mais…",
+          "en": "I’ll grant you that, but…"
+        },
+        {
+          "fr": "Autrement dit, tu n’as rien à perdre.",
+          "en": "In other words, you have nothing to lose."
+        },
+        {
+          "fr": "Ce ne sont que six soirées.",
+          "en": "It’s only six evenings."
+        },
+        {
+          "fr": "Si tu avais ton propre site, tu pourrais…",
+          "en": "If you had your own website, you could…"
+        },
+        {
+          "fr": "Ce serait un vrai plus sur ton CV.",
+          "en": "It would be a real plus on your CV."
+        },
+        {
+          "fr": "Avec des groupes de douze, l’animateur a le temps d’aider chacun.",
+          "en": "With groups of twelve, the instructor has time to help everyone."
+        },
+        {
+          "fr": "On pourrait s’entraider entre les ateliers.",
+          "en": "We could help each other between workshops."
+        },
+        {
+          "fr": "Allez, laisse-toi tenter !",
+          "en": "Come on, give it a try!"
+        }
+      ],
+      "examinerLines": [
+        "Un site Web ? Moi, je ne suis vraiment pas douée en informatique.",
+        "Les mardis soir, je suis épuisée après le travail.",
+        "Aujourd’hui, tout le monde vend sur les réseaux sociaux. Pourquoi est-ce que j’aurais besoin d’un site ?",
+        "Je pourrais apprendre seule avec des vidéos en ligne, gratuitement, quand je veux.",
+        "Gratuit… il doit y avoir un piège. Ce sera sûrement très basique.",
+        "Je ne suis même pas abonnée à la bibliothèque.",
+        "Et si j’ai un empêchement et que je rate une soirée ? Je serai perdue.",
+        "Bon, d’accord, mais si c’est ennuyeux, j’arrête après le deuxième atelier."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Salut Clara ! Tu te souviens, l’autre jour, tu me disais que tu voulais vendre tes bijoux en dehors des marchés de Noël ? Regarde ce que j’ai trouvé à la bibliothèque : des ateliers pour créer son propre site Web en six soirées, les mardis à partir du 8 octobre. Et c’est gratuit ! Ça te dirait qu’on s’inscrive ensemble ?\nJustement, l’annonce précise qu’aucune connaissance en programmation n’est requise. Autrement dit, c’est fait pour des gens comme toi et moi. Les outils d’aujourd’hui fonctionnent comme des blocs qu’on déplace avec la souris. Tu sais te servir d’un traitement de texte ? Alors tu es capable de faire un site.\nJe te l’accorde, le mardi soir, on est fatiguées. Mais ça commence à 18 h 30 et ça finit à 20 h 30 : ce ne sont que deux heures, pendant six semaines. On pourrait souper ensemble juste avant, ce serait notre petite sortie de la semaine.\nC’est vrai que les réseaux sociaux sont utiles, mais tu ne contrôles rien : un changement d’algorithme et plus personne ne voit tes photos. Si tu avais ton propre site, tu pourrais présenter toute ta collection, raconter ton histoire et recevoir des commandes directement. Ça fait beaucoup plus professionnel.\nLes vidéos en ligne, je les ai essayées. Le problème, c’est que personne ne répond à tes questions quand tu bloques. Avec des groupes de douze personnes maximum, l’animateur a vraiment le temps d’aider chacun. Et puis, avoue que seule, tu remettrais toujours ça à la semaine prochaine !\nIl n’y a pas de piège : c’est la bibliothèque municipale, son rôle, c’est justement d’offrir ce genre de services. Et même si c’est simple, c’est exactement ce qu’il te faut pour commencer.\nTu n’es pas abonnée ? Il suffit de passer au comptoir avec une preuve d’adresse ; pour les résidents, c’est gratuit. On peut y aller samedi, et tu en profiteras pour emprunter des livres.\nSi tu rates une soirée, ce n’est pas grave : je prendrai des notes pour toi et on rattrapera le retard ensemble. C’est l’avantage d’y aller à deux, on s’entraide.\nMarché conclu : si tu t’ennuies après deux ateliers, tu arrêtes. Mais je suis sûre que tu vas adorer voir ta boutique en ligne prendre forme. Je nous inscris ce soir ?"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b7",
+      "section": "B",
+      "title": "Une semaine au festival de cinéma",
+      "level": "b1",
+      "prompt": "Vous avez vu cette publicité dans le journal. Vous voulez convaincre un ami ou une amie d’acheter un passeport et d’aller au festival avec vous. Présentez-lui l’offre et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this advertisement in the newspaper. You want to convince a friend to buy a pass and go to the festival with you. Present the offer and answer their objections. The examiner plays your friend.",
+      "document": "FESTIVAL DU CINÉMA FRANCOPHONE DE LA VALLÉE\nDu 14 au 20 novembre – Cinéma du centre-ville et salle municipale\nPlus de 40 films du Québec, d’Acadie, de France, de Belgique, de Suisse et d’Afrique\nRencontres avec les réalisateurs après certaines projections\nPasseport 7 jours : 60 $ (au lieu de 12 $ par film)\nSous-titres en français pour tous les films\nSoirée d’ouverture avec spectacle musical",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Presents the festival and the pass clearly (dates, places, number of films, price, opening night).",
+        "Develops several arguments: price advantage, variety of countries, meeting directors, practising French, a shared outing.",
+        "Answers each objection directly with a counter-argument or a compromise.",
+        "Uses tu consistently and a warm, enthusiastic tone.",
+        "Uses persuasion structures (imperative, fais le calcul, si + imparfait + conditionnel, tu ne trouves pas que…).",
+        "Makes concrete proposals (choosing films together, a schedule, carpooling).",
+        "Ends by asking for a decision."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Tu as vu ? Il y a un festival de cinéma francophone en novembre !",
+          "en": "Did you see? There’s a French-language film festival in November!"
+        },
+        {
+          "fr": "Ça te dirait d’y aller avec moi ?",
+          "en": "Would you like to go with me?"
+        },
+        {
+          "fr": "Fais le calcul : à partir de cinq films, le passeport est rentable.",
+          "en": "Do the math: from five films on, the pass pays for itself."
+        },
+        {
+          "fr": "Il y en a pour tous les goûts.",
+          "en": "There’s something for every taste."
+        },
+        {
+          "fr": "Imagine : discuter avec le réalisateur après le film !",
+          "en": "Imagine: talking with the director after the film!"
+        },
+        {
+          "fr": "Les sous-titres en français, c’est parfait pour pratiquer.",
+          "en": "French subtitles are perfect for practising."
+        },
+        {
+          "fr": "Je comprends, mais justement…",
+          "en": "I understand, but that’s exactly why…"
+        },
+        {
+          "fr": "On n’est pas obligés de tout voir.",
+          "en": "We don’t have to see everything."
+        },
+        {
+          "fr": "Si on choisissait les films ensemble ?",
+          "en": "What if we chose the films together?"
+        },
+        {
+          "fr": "Ce serait une belle façon de sortir un peu en novembre.",
+          "en": "It would be a nice way to get out a bit in November."
+        },
+        {
+          "fr": "Et puis, en plus, …",
+          "en": "And on top of that, …"
+        },
+        {
+          "fr": "Alors, je réserve nos deux passeports ?",
+          "en": "So, shall I book our two passes?"
+        }
+      ],
+      "examinerLines": [
+        "Un festival de films ? Je préfère regarder des séries tranquillement chez moi.",
+        "60 $, c’est beaucoup d’argent d’un coup.",
+        "Les films d’auteur, je trouve ça souvent long et ennuyeux.",
+        "Les accents de Belgique ou d’Afrique, je risque de ne rien comprendre.",
+        "En novembre, il fait froid et noir à 17 h. Je n’ai pas envie de sortir le soir.",
+        "Je travaille toute la semaine, je ne pourrai pas voir sept jours de films.",
+        "Et les rencontres avec les réalisateurs, ce n’est pas un peu intimidant ?",
+        "Bon… si on va à la soirée d’ouverture et que ça me plaît, j’achète le passeport."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Salut Samir ! Tu as vu la publicité dans le journal ? Il y a un festival de cinéma francophone du 14 au 20 novembre, au cinéma du centre-ville et à la salle municipale. Plus de quarante films, de partout dans la francophonie ! J’aimerais beaucoup acheter un passeport. Ça te dirait de venir avec moi ?\nJe sais, les séries à la maison, c’est confortable. Mais voir un film sur grand écran, avec une salle pleine, ce n’est pas du tout la même chose. Et ces films, tu ne les trouveras probablement pas sur ta télé.\nC’est vrai que 60 $, ça paraît beaucoup. Mais fais le calcul : un film coûte 12 $. Si tu en vois cinq, le passeport est déjà rentabilisé, et tous les autres sont gratuits. C’est le prix de deux soupers au restaurant pour une semaine entière de sorties.\nTous les films ne sont pas des films d’auteur difficiles ! Il y a des comédies, des films d’animation, des thrillers… Il y en a vraiment pour tous les goûts. Si tu veux, on peut regarder le programme ensemble et tu choisis les films qui te tentent.\nJustement, c’est pour ça que j’ai pensé à toi. Tous les films ont des sous-titres en français. C’est parfait pour s’habituer aux différents accents, et ça nous fera pratiquer notre français pour l’examen. Tu vas voir, après deux films, ton oreille s’habitue.\nJe te comprends, en novembre, on a envie de rester sous les couvertures. Mais justement, c’est le meilleur moment pour sortir un peu et voir du monde. Et je peux passer te prendre en voiture, comme ça tu n’attends pas l’autobus dans le froid.\nOn n’est pas obligés de voir sept jours de films ! On peut choisir trois soirs en semaine et faire le marathon le samedi.\nLes rencontres avec les réalisateurs, ce n’est pas intimidant du tout : on écoute, et on pose une question seulement si on en a envie. Imagine : comprendre comment un film a été tourné, directement avec la personne qui l’a fait !\nD’accord, c’est un bon compromis ! On commence par la soirée d’ouverture, avec le spectacle musical. Je suis sûre que tu vas adorer. Alors, je réserve nos billets pour le 14 ?"
+        }
+      ]
+    },
+    {
+      "id": "tef-eo-b8",
+      "section": "B",
+      "title": "Donner du sang ensemble",
+      "level": "b2",
+      "prompt": "Vous avez vu cette affiche à l’entrée de votre épicerie. Vous voulez convaincre un ami ou une amie d’aller donner du sang avec vous. Présentez-lui l’événement et répondez à ses objections. L’examinateur joue le rôle de votre ami(e).",
+      "promptEn": "You saw this poster at the entrance of your grocery store. You want to convince a friend to go and give blood with you. Present the event and answer their objections. The examiner plays your friend.",
+      "document": "COLLECTE DE SANG DU QUARTIER\nJeudi 12 décembre, de 13 h 30 à 20 h – Gymnase de l’école secondaire du quartier\nUn don dure environ une heure, dont une dizaine de minutes de prélèvement\nUn seul don peut aider jusqu’à trois patients\nCollation offerte après le don\nAvec ou sans rendez-vous\nConditions principales : être en bonne santé et peser au moins 50 kg (d’autres critères s’appliquent)",
+      "prepSeconds": 0,
+      "speakSeconds": 600,
+      "checklist": [
+        "Presents the blood drive precisely (date, times, place, duration, conditions) using the document.",
+        "Develops several arguments: saving lives, little time needed, a quick check of your blood pressure and iron level, a shared good deed, the need in winter.",
+        "Answers fears and objections with empathy and precise information rather than pressure.",
+        "Uses tu and a friendly, respectful tone; accepts a valid medical reason if one is given.",
+        "Uses B2 persuasion structures (concession: je te l’accorde, certes; hypothesis: si jamais tu avais besoin…; emphasis: ce qui compte, c’est…).",
+        "Proposes concrete help (going together, booking a time, a meal before).",
+        "Concludes by obtaining a commitment or a clear answer."
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Tu as vu l’affiche pour la collecte de sang ?",
+          "en": "Did you see the poster for the blood drive?"
+        },
+        {
+          "fr": "Ça te dirait qu’on y aille ensemble jeudi ?",
+          "en": "How about we go together on Thursday?"
+        },
+        {
+          "fr": "Un seul don peut aider jusqu’à trois personnes.",
+          "en": "A single donation can help up to three people."
+        },
+        {
+          "fr": "Je te l’accorde, ce n’est pas très agréable, mais…",
+          "en": "I grant you it’s not very pleasant, but…"
+        },
+        {
+          "fr": "Ça ne dure qu’une dizaine de minutes.",
+          "en": "It only lasts about ten minutes."
+        },
+        {
+          "fr": "Ce qui compte, c’est que…",
+          "en": "What matters is that…"
+        },
+        {
+          "fr": "Si jamais quelqu’un de ta famille en avait besoin, tu serais content qu’il y ait des donneurs.",
+          "en": "If ever someone in your family needed it, you’d be glad there were donors."
+        },
+        {
+          "fr": "Je serai à côté de toi tout le temps.",
+          "en": "I’ll be next to you the whole time."
+        },
+        {
+          "fr": "Les infirmières sont habituées, elles vont te mettre à l’aise.",
+          "en": "The nurses are used to it, they’ll put you at ease."
+        },
+        {
+          "fr": "On pourrait prendre rendez-vous pour éviter d’attendre.",
+          "en": "We could book an appointment to avoid waiting."
+        },
+        {
+          "fr": "Tu ne risques rien : on vérifie ta santé avant.",
+          "en": "You don’t risk anything: they check your health first."
+        },
+        {
+          "fr": "Alors, je nous réserve une place ?",
+          "en": "So, shall I book us a spot?"
+        }
+      ],
+      "examinerLines": [
+        "Donner du sang ? J’ai une peur bleue des aiguilles !",
+        "Une heure, c’est long. Je travaille jusqu’à 17 h ce jeudi-là.",
+        "Il y a déjà plein de donneurs, ils n’ont sûrement pas besoin de moi.",
+        "Et si je me sens mal ? J’ai peur de m’évanouir devant tout le monde.",
+        "Je ne sais même pas si j’ai le droit de donner. J’ai voyagé l’été dernier.",
+        "Après, je vais être fatigué pour le reste de la soirée.",
+        "On ne va pas me payer pour ça, en plus ?",
+        "Bon… si tu viens avec moi et que tu me tiens la main, j’essaie."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8; informal Québec French: des niaiseries = des bêtises)",
+          "fr": "Salut Olivier ! Tu as vu l’affiche à l’entrée de l’épicerie ? Il y a une collecte de sang le jeudi 12 décembre, au gymnase de l’école secondaire, juste à côté de chez nous. J’ai décidé d’y aller, et je me disais qu’on pourrait y aller ensemble. Qu’est-ce que tu en penses ?\nJe te comprends, beaucoup de gens ont peur des aiguilles, moi aussi au début. Mais le prélèvement ne dure qu’une dizaine de minutes, et franchement, la piqûre ressemble à celle d’une prise de sang chez le médecin. Le truc, c’est de ne pas regarder : tu me parles, je te raconte des niaiseries, et c’est fini avant que tu t’en rendes compte.\nJustement, la collecte est ouverte jusqu’à 20 h. Si tu finis à 17 h, on a largement le temps. Et si on prend rendez-vous, on n’attendra presque pas. Ce n’est qu’une heure dans toute une année, pour un geste qui peut aider jusqu’à trois patients !\nC’est faux de croire qu’il y a assez de donneurs. En hiver, avec les fêtes, la grippe et les tempêtes, les réserves baissent souvent. Et pense à ça : si jamais quelqu’un de ta famille avait un accident, tu serais bien content qu’il y ait du sang disponible.\nSi tu te sens mal, tu seras entre de bonnes mains. Les infirmières voient ça tous les jours : on est allongé pendant le don, et elles surveillent tout le monde. En plus, ce qui aide beaucoup, c’est de bien manger et de boire beaucoup d’eau avant. On pourrait souper ensemble juste avant d’y aller.\nPour ton voyage, je ne peux pas te répondre, mais ça se vérifie facilement : on remplit un questionnaire et une infirmière te pose des questions avant le don. Si tu ne peux pas donner, ce n’est pas grave, au moins tu auras essayé.\nTu seras peut-être un peu fatigué, je te l’accorde, mais c’est pour ça qu’on offre une collation après. Et le lendemain, tu ne sentiras plus rien.\nNon, on n’est pas payé, c’est vrai. Mais ce qui compte, c’est le geste. Tu ne trouves pas que c’est une belle façon de finir l’année ? Et puis, les biscuits sont gratuits !\nPromis, je reste à côté de toi et je te tiens la main. Alors, je nous réserve deux places pour 18 h, après le souper ?"
+        }
+      ]
+    }
+  ]
+}

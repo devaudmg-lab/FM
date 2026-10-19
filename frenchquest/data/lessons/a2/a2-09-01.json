@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-09-01",
+  "level": "a2",
+  "unit": "a2-09",
+  "title": "Inviting someone",
+  "goal": "Invite friends and colleagues to do something, ask if they are free, suggest an activity and agree on a time and place.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-inviter", "kind": "grammar", "fr": "ça te dit de / tu veux / on pourrait + infinitif", "en": "inviting and suggesting + infinitive",
+      "drills": [
+        { "type": "cloze", "text": "Ça te dit ___ venir au cinéma ?", "answers": [["de"]], "en": "Do you feel like coming to the movies?", "explain": "[[Ça te dit]] is followed by **de** + infinitive." },
+        { "type": "cloze", "text": "On ___ aller au parc samedi.", "answers": [["pourrait"]], "en": "We could go to the park on Saturday.", "explain": "[[On pourrait]] + infinitive = we could… It is the softest way to suggest." },
+        { "type": "cloze", "text": "Et si on ___ au restaurant ? (aller)", "answers": [["allait"]], "en": "How about going to a restaurant?", "explain": "[[Et si on]] + **imparfait** = how about…? Here: [[allait]]." },
+        { "type": "translate", "prompt": "Do you want to come with us? (formal)", "accept": ["Voulez-vous venir avec nous ?", "Vous voulez venir avec nous ?", "Est-ce que vous voulez venir avec nous ?"], "explain": "[[vouloir]] + infinitive, with **vous** for a formal invitation." }
+      ] },
+    { "id": "ca-te-dit", "kind": "phrase", "fr": "Ça te dit de venir ?", "en": "Do you feel like coming? (to a friend)", "accept": ["Ça te tente de venir ?", "Ça te dirait de venir ?"] },
+    { "id": "ca-vous-dirait", "kind": "phrase", "fr": "Ça vous dirait de venir ?", "en": "Would you like to come? (formal)", "accept": ["Ça vous dit de venir ?", "Voulez-vous venir ?", "Est-ce que vous voulez venir ?"] },
+    { "id": "tu-es-libre", "kind": "phrase", "fr": "Tu es libre samedi soir ?", "en": "Are you free on Saturday evening? (to a friend)", "accept": ["Es-tu libre samedi soir ?", "Est-ce que tu es libre samedi soir ?"] },
+    { "id": "tu-fais-quoi", "kind": "phrase", "fr": "Tu fais quoi samedi ?", "en": "What are you doing on Saturday? (informal)", "accept": ["Qu'est-ce que tu fais samedi ?"] },
+    { "id": "on-pourrait", "kind": "phrase", "fr": "On pourrait aller au cinéma.", "en": "We could go to the movies.", "accept": ["Nous pourrions aller au cinéma."] },
+    { "id": "et-si-on", "kind": "phrase", "fr": "Et si on allait prendre un café ?", "en": "How about going for a coffee?", "accept": ["Et si on allait boire un café ?"] },
+    { "id": "je-t-invite", "kind": "phrase", "fr": "Je t'invite à souper.", "en": "I'm inviting you for supper (my treat). (to a friend)", "accept": ["Je t'invite à dîner."], "note": "In Québec, le souper is the evening meal; in France, le dîner." },
+    { "id": "on-se-retrouve", "kind": "phrase", "fr": "On se retrouve où ?", "en": "Where shall we meet?", "accept": ["Où est-ce qu'on se retrouve ?", "On se rejoint où ?"] },
+    { "id": "ca-t-arrange", "kind": "phrase", "fr": "Ça t'arrange ?", "en": "Does that work for you? (to a friend)", "accept": ["Ça te va ?"] },
+    { "id": "cinq-a-sept", "kind": "vocab", "fr": "5 à 7", "say": "cinq à sept", "article": "un", "gender": "m", "en": "after-work drinks (Québec)", "pos": "noun", "accept": ["un cinq à sept", "un 5 à 7"],
+      "example": { "fr": "Il y a un 5 à 7 jeudi pour l'anniversaire de Nguyen.", "en": "There are after-work drinks on Thursday for Nguyen's birthday." } },
+    { "id": "invitation", "kind": "vocab", "fr": "invitation", "article": "une", "gender": "f", "en": "invitation", "pos": "noun", "accept": ["l'invitation"],
+      "example": { "fr": "Merci pour l'invitation !", "en": "Thanks for the invitation!" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "An invitation at work",
+      "blocks": [
+        { "type": "dialogue", "title": "At the coffee machine, in an office in Montréal",
+          "context": "Camille invites her colleague Raj to an after-work event.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Salut Raj ! Dis, tu es libre jeudi après le travail ?", "en": "Hi Raj! Say, are you free on Thursday after work?" },
+            { "speaker": "Raj", "fr": "Jeudi ? Oui, je pense. Pourquoi ?", "en": "Thursday? Yes, I think so. Why?" },
+            { "speaker": "Camille", "fr": "On organise un 5 à 7 pour l'anniversaire de Nguyen. Ça te dit de venir ?", "en": "We're organizing after-work drinks for Nguyen's birthday. Do you feel like coming?" },
+            { "speaker": "Raj", "fr": "Un 5 à 7 ? Qu'est-ce que c'est, exactement ?", "en": "A “5 à 7”? What is that, exactly?" },
+            { "speaker": "Camille", "fr": "C'est un apéro après le travail, entre collègues. On va dans un bar près du bureau, on prend un verre et on jase un peu.", "en": "It's a drink after work, with colleagues. We go to a bar near the office, have a drink and chat a bit. (jaser = to chat, Québec)" },
+            { "speaker": "Raj", "fr": "Ah, c'est sympa ! Ça commence à quelle heure ? On se retrouve où ?", "en": "Oh, that's nice! What time does it start? Where do we meet?" },
+            { "speaker": "Camille", "fr": "Vers 17 h, au Bistro Saint-Denis. Tu peux arriver plus tard, si ça t'arrange.", "en": "Around 5 p.m., at the Bistro Saint-Denis. You can arrive later, if that works better for you." },
+            { "speaker": "Raj", "fr": "Parfait, je vais venir. Et samedi, on pourrait aller voir le spectacle au parc, non ?", "en": "Perfect, I'll come. And on Saturday, we could go and see the show in the park, couldn't we?" },
+            { "speaker": "Camille", "fr": "Bonne idée ! Et si on invitait aussi Amira ?", "en": "Good idea! How about inviting Amira too?" }
+          ] },
+        { "type": "text", "title": "Camille's email to the team",
+          "fr": "Bonjour à toutes et à tous,\nJeudi, Nguyen fête ses 30 ans ! Nous organisons un 5 à 7 au Bistro Saint-Denis, à partir de 17 h.\nÇa vous dirait de venir ? Vous êtes toutes et tous invités, et vous pouvez venir avec votre conjoint ou votre conjointe.\nPouvez-vous me confirmer votre présence d'ici mercredi ?\nMerci et à jeudi !\nCamille",
+          "en": "Hello everyone, On Thursday, Nguyen turns 30! We're organizing after-work drinks at the Bistro Saint-Denis, from 5 p.m. Would you like to come? You are all invited, and you can come with your partner. Can you confirm whether you're coming by Wednesday? Thanks, and see you Thursday! Camille" },
+        { "type": "note", "tone": "info", "body": "Compare the two: Camille says [[Ça te dit de venir ?]] to Raj face to face, and [[Ça vous dirait de venir ?]] in an email to the whole team. Same idea, different register." }
+      ] },
+    { "type": "understand", "title": "How to invite in French",
+      "blocks": [
+        { "type": "explain", "title": "Four steps of an invitation",
+          "body": "An invitation usually has four small steps:\n\n- **Check if the person is free:** [[Tu es libre jeudi ?]] [[Tu fais quoi samedi ?]]\n- **Invite or suggest:** [[Ça te dit de venir ?]] [[On pourrait aller au cinéma.]]\n- **Give the details:** what, when, where: [[Vers 17 h, au Bistro Saint-Denis.]]\n- **Agree on a place and time:** [[On se retrouve où ?]] [[Ça t'arrange ?]]\n\nYou already know most of the grammar: [[vouloir]] and [[pouvoir]] + infinitive, the futur proche, and questions with intonation, est-ce que or inversion." },
+        { "type": "table", "title": "Inviting: informal and formal",
+          "head": ["To do this", "With a friend (tu)", "Formal or a group (vous)"],
+          "rows": [
+            ["Ask if someone is free", "Tu es libre samedi ? / Tu fais quoi samedi ?", "Vous êtes libre samedi ? / Êtes-vous disponible samedi ?"],
+            ["Invite", "Ça te dit de venir ? / Tu veux venir ?", "Ça vous dirait de venir ? / Voulez-vous venir ?"],
+            ["Invite (my treat)", "Je t'invite à souper.", "Je vous invite à souper."],
+            ["Suggest", "On pourrait aller au parc. / Et si on allait au parc ?", "Nous pourrions aller au parc."],
+            ["Arrange", "On se retrouve où ? / Ça t'arrange ?", "Où est-ce qu'on se retrouve ? / Ça vous convient ?"]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "[[pourrait]], [[pourrions]] and [[dirait]] are a new tense, the *conditionnel*, which you will study at B1. For now, learn [[on pourrait]], [[nous pourrions]] and [[ça vous dirait]] as polite chunks: they mean *could* and *would*." },
+        { "type": "pattern", "title": "Ça te dit…?",
+          "pattern": "Ça te dit de + infinitif ?  /  Ça te dit, + nom ?",
+          "note": "Literally “does it say (something) to you?”, so: *do you feel like…?* It is friendly and very common. With **vous**: [[Ça vous dit…?]], or the extra-polite [[Ça vous dirait…?]]",
+          "examples": [
+            { "fr": "Ça te dit de venir au 5 à 7 ?", "en": "Do you feel like coming to the after-work drinks?" },
+            { "fr": "Ça te dit, un café ?", "en": "Fancy a coffee?" },
+            { "fr": "Ça vous dirait de souper avec nous ?", "en": "Would you like to have supper with us?" }
+          ] },
+        { "type": "pattern", "title": "Et si on…?",
+          "pattern": "Et si on + imparfait ?",
+          "note": "A very natural way to suggest something: *how about…? what if we…?* The verb is in the **imparfait**, but the meaning is about the future. Just learn the chunk.",
+          "examples": [
+            { "fr": "Et si on allait à la cabane à sucre ?", "en": "How about going to the sugar shack?" },
+            { "fr": "Et si on invitait Amira ?", "en": "What if we invited Amira?" },
+            { "fr": "Et si on faisait un repas-partage ?", "en": "How about doing a potluck?" }
+          ] },
+        { "type": "vocab", "title": "Useful phrases", "itemIds": ["ca-te-dit", "ca-vous-dirait", "tu-es-libre", "tu-fais-quoi", "on-pourrait", "et-si-on", "je-t-invite", "on-se-retrouve", "ca-t-arrange", "cinq-a-sept", "invitation"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Free = libre, not gratuit.** [[Tu es libre samedi ?]] = are you available? [[gratuit]] means *free of charge*: [[Le concert est gratuit.]] Saying *Tu es gratuit ?* is a classic (funny) mistake.\n- **Don't forget de:** [[Ça te dit de venir ?]], not *Ça te dit venir ?*\n- **Je t'invite means I'm paying.** [[Je t'invite au restaurant]] means *it's my treat*. To just ask someone along, say [[Tu veux venir avec nous ?]]\n- **On pourrait, not on peut, for a soft suggestion.** [[On peut aller au cinéma]] is correct but sounds more like a statement of what is possible. [[On pourrait…]] sounds like a friendly idea.\n- **Use à after inviter:** [[Je t'invite à mon anniversaire]], [[Je t'invite à souper]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Invitations in Québec",
+          "body": "- **Le 5 à 7** is a Québec institution: drinks and snacks after work, usually from about 5 to 7 p.m. It is also used for parties: [[un 5 à 7 de lancement]] (a launch party). In France, people say [[un afterwork]] or [[un apéro]].\n- **Ça te tente de…?** is the everyday Québec equivalent of *ça te dit de…?*: [[Ça te tente de venir ?]] In very informal speech you'll also hear [[Ça te tente-tu ?]] (the spoken *-tu* turns it into a yes/no question). Recognize it, but don't use it yourself, and never in writing.\n- **Souper / dîner:** in Québec, [[le dîner]] is lunch and [[le souper]] is the evening meal. In France, [[le déjeuner]] is lunch and [[le dîner]] is dinner. Check before you show up at noon!\n- **Jaser** (Québec) = to chat. In France: [[discuter]] or [[bavarder]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Invitations go **up** at the end, like a question. Smile: it really changes the sound.",
+          "lines": [
+            { "fr": "Tu es libre samedi soir ?", "en": "Are you free on Saturday evening?", "tip": "Tu es: two vowels side by side, no pause." },
+            { "fr": "Ça te dit de venir ?", "en": "Do you feel like coming?", "tip": "In fast speech: ça t'dit d'venir ?" },
+            { "fr": "On pourrait aller au cinéma.", "en": "We could go to the movies.", "tip": "pourrait sounds like pou-ré." },
+            { "fr": "Et si on allait prendre un café ?", "en": "How about going for a coffee?", "tip": "on allait: link the n to the a." },
+            { "fr": "Ça vous dirait de souper avec nous ?", "en": "Would you like to have supper with us?" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Salut Mei ! Tu fais quoi dimanche ? Ça te dit d'aller au marché Jean-Talon ? On pourrait se retrouver au métro vers 10 h.",
+          "en": "Hi Mei! What are you doing on Sunday? Do you feel like going to the Jean-Talon market? We could meet at the metro around 10 a.m.",
+          "prompt": "What is Mei invited to do, and when?",
+          "options": ["Go to a market on Sunday morning", "Go to the movies on Sunday evening", "Go to a market on Saturday morning"], "answer": 0,
+          "explain": "[[dimanche]] = Sunday; [[aller au marché]] = go to the market; [[vers 10 h]] = around 10 a.m." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Bonjour madame Tremblay. Nous organisons un souper d'équipe vendredi. Ça vous dirait de venir ?",
+          "en": "Hello Mrs. Tremblay. We're organizing a team supper on Friday. Would you like to come?",
+          "prompt": "Who is the speaker probably talking to?",
+          "options": ["Their manager or a senior colleague", "A close friend", "A child"], "answer": 0,
+          "explain": "[[madame Tremblay]] and [[vous]] with [[Ça vous dirait]]: this is a polite, formal invitation." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Pay attention to tu and vous.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Ça te dit ___ prendre un verre après le travail ?", "answers": [["de"]], "choices": ["de", "à", "pour", "—"], "en": "Do you feel like having a drink after work?",
+          "explain": "[[Ça te dit de]] + infinitive." },
+        { "id": "r2", "type": "mcq", "prompt": "You want to invite your new manager, Mr. Gagnon, to the team supper. What do you say?", "optionsFr": true,
+          "options": ["Monsieur Gagnon, ça vous dirait de venir au souper d'équipe ?", "Salut ! Ça te dit de venir au souper ?", "Monsieur Gagnon, tu es libre vendredi ?", "Monsieur Gagnon, vous êtes gratuit vendredi ?"], "answer": 0,
+          "optionFeedback": [null, "Salut and tu are too familiar for a new manager.", "Use vous with a manager, at least until he suggests tu.", "Gratuit means free of charge. Available = libre or disponible."] },
+        { "id": "r3", "type": "translate", "prompt": "Are you free on Saturday? (to a friend)", "accept": ["Tu es libre samedi ?", "Es-tu libre samedi ?", "Est-ce que tu es libre samedi ?", "T'es libre samedi ?"], "hint": "free = libre",
+          "explain": "[[libre]] = available. Days need no preposition: [[samedi]] = on Saturday." },
+        { "id": "r4", "type": "reorder", "prompt": "We could go to the sugar shack.", "accept": ["On pourrait aller à la cabane à sucre"], "extra": ["peut"],
+          "explain": "[[On pourrait]] + infinitive: a soft suggestion." },
+        { "id": "r5", "type": "translate", "prompt": "How about going for a coffee?", "accept": ["Et si on allait prendre un café ?", "Et si on allait boire un café ?", "On pourrait aller prendre un café ?", "Ça te dit de prendre un café ?", "Ça te dit d'aller prendre un café ?", "Et si on prenait un café ?"], "hint": "Et si on + imparfait…",
+          "explain": "[[Et si on allait…?]] is the most natural *how about…?*. [[prendre un café]] = to have a coffee." },
+        { "id": "r6", "type": "match", "prompt": "Match each phrase with its use.", "pairs": [["Tu fais quoi samedi ?", "Check if a friend is free"], ["Ça vous dirait de venir ?", "Invite politely"], ["On pourrait aller au parc.", "Suggest an idea"], ["On se retrouve où ?", "Agree on a meeting place"], ["Je t'invite.", "Say it's your treat"]] },
+        { "id": "r7", "type": "cloze", "text": "Et si on ___ Amira et Karim ? (inviter)", "answers": [["invitait"]], "en": "What if we invited Amira and Karim?",
+          "explain": "[[Et si on]] + imparfait: on → [[invitait]] (stem *invit-* from [[nous invitons]], + -ait)." },
+        { "id": "r8", "type": "mcq", "prompt": "Your friend says: « Je t'invite au restaurant ce soir. » What does this usually mean?", "options": ["Your friend is going to pay.", "You are going to pay.", "You will each pay for your own meal."], "answer": 0,
+          "explain": "[[Je t'invite]] usually means *it's on me*. To split the bill, people say [[on partage]] or [[chacun paie sa part]]." },
+        { "id": "r9", "type": "dictation", "fr": "Tu veux venir avec nous samedi soir ?", "accept": ["Tu veux venir avec nous, samedi soir ?"],
+          "explain": "[[vouloir]] + infinitive: [[tu veux venir]]. [[veux]] ends in -x with tu." },
+        { "id": "r10", "type": "cloze", "text": "Hier, Camille ___ invité toute l'équipe au 5 à 7.", "answers": [["a"]], "choices": ["a", "est", "ai"], "en": "Yesterday, Camille invited the whole team to the after-work drinks.",
+          "explain": "Review: [[inviter]] takes **avoir** in the passé composé: [[elle a invité]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Make two invitations. First, invite your manager (vous) to a team 5 à 7 on Thursday. Then invite a friend (tu) to do something on Saturday: check if they are free, suggest an activity, and agree on a time and place.", "seconds": 45,
+          "checklist": ["Vous with the manager: Ça vous dirait de… ?", "Tu with the friend: Tu es libre / Tu fais quoi samedi ?", "A suggestion: On pourrait… / Et si on allait… ?", "A time: vers 17 h, à 19 h…", "A place: On se retrouve…"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour madame Roy. Jeudi, nous organisons un 5 à 7 pour l'équipe, au bar à côté du bureau. Ça vous dirait de venir ? … Salut Karim ! Tu fais quoi samedi ? Et si on allait au Vieux-Port ? On pourrait se retrouver au métro Champ-de-Mars vers 14 h. Ça t'arrange ?", "en": "Hello Ms. Roy. On Thursday, we're organizing after-work drinks for the team, at the bar next to the office. Would you like to come? … Hi Karim! What are you doing on Saturday? How about going to the Old Port? We could meet at Champ-de-Mars metro around 2 p.m. Does that work for you?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a text message inviting a friend to a show, a market or a sugar shack this weekend. Ask if they are free, say what you want to do, and suggest a time and a meeting place.", "promptFr": "Écrivez un texto pour inviter un ami ou une amie.", "wordRange": [25, 60],
+          "checklist": ["A greeting with tu", "Tu es libre… ? or Tu fais quoi… ?", "Ça te dit de… ? or Et si on… ?", "A time and a meeting place", "A closing question: Ça t'arrange ?"],
+          "models": [ { "label": "Model answer", "fr": "Salut Sofia ! Tu es libre dimanche ? Ça te dit d'aller à la cabane à sucre avec Raj et moi ? On pourrait partir vers 10 h. On se retrouve devant chez moi ? Ça t'arrange ? Bisous !", "en": "Hi Sofia! Are you free on Sunday? Do you feel like going to the sugar shack with Raj and me? We could leave around 10 a.m. Shall we meet in front of my place? Does that work for you? Love!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Ask if someone is free: [[Tu es libre samedi ?]] [[Tu fais quoi samedi ?]]\n- Invite and suggest: [[Ça te dit de…?]], [[Ça vous dirait de…?]], [[On pourrait…]], [[Et si on allait…?]]\n- Agree on details: [[On se retrouve où ?]] [[Ça t'arrange ?]] — and remember: *free* = [[libre]], and [[je t'invite]] means it's your treat",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Labelled Ça te tente-tu as very informal, recognition only; replaced the defensible distractor avait (plus-que-parfait) with ai in r10; added an accepted answer to r5." }
+}

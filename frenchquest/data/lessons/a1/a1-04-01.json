@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-04-01",
+  "level": "a1",
+  "unit": "a1-04",
+  "title": "My family",
+  "goal": "Name the people in your family and say whose they are with mon, ma, mes, ton, ta, tes, son, sa, ses.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-possessifs", "kind": "grammar", "fr": "mon / ma / mes", "en": "my, your, his/her: possessive words (mon/ma/mes, ton/ta/tes, son/sa/ses)",
+      "drills": [
+        { "type": "cloze", "text": "___ sœur habite à Moncton. (my)", "answers": [["Ma"]], "en": "My sister lives in Moncton.", "explain": "sœur is feminine → ma." },
+        { "type": "cloze", "text": "Tu habites avec ___ parents ? (your)", "answers": [["tes"]], "en": "Do you live with your parents?", "explain": "parents is plural → tes." },
+        { "type": "cloze", "text": "Raj habite à Toronto avec ___ fille. (his)", "answers": [["sa"]], "en": "Raj lives in Toronto with his daughter.", "explain": "fille is feminine → sa, even though Raj is a man." },
+        { "type": "mcq", "prompt": "How do you say “my friend Sofia” (Sofia is a woman)?", "options": ["mon amie Sofia", "ma amie Sofia", "mes amie Sofia"], "optionsFr": true, "answer": 0, "explain": "Before a vowel, French uses mon even with a feminine word: mon amie." }
+      ] },
+    { "id": "mere", "kind": "vocab", "fr": "mère", "article": "la", "gender": "f", "en": "mother", "pos": "noun", "accept": ["mère", "ma mère"],
+      "example": { "fr": "Ma mère habite à Québec.", "en": "My mother lives in Québec City." } },
+    { "id": "pere", "kind": "vocab", "fr": "père", "article": "le", "gender": "m", "en": "father", "pos": "noun", "accept": ["père", "mon père"],
+      "example": { "fr": "Mon père parle arabe et français.", "en": "My father speaks Arabic and French." } },
+    { "id": "parents", "kind": "vocab", "fr": "parents", "article": "les", "gender": "m", "en": "parents", "pos": "noun", "accept": ["parents", "mes parents"],
+      "example": { "fr": "Mes parents habitent en Inde.", "en": "My parents live in India." }, "note": "Always plural here. In some contexts, les parents can also mean “relatives”." },
+    { "id": "frere", "kind": "vocab", "fr": "frère", "article": "le", "gender": "m", "en": "brother", "pos": "noun", "accept": ["frère", "mon frère"],
+      "example": { "fr": "J'ai deux frères.", "en": "I have two brothers." } },
+    { "id": "soeur", "kind": "vocab", "fr": "sœur", "article": "la", "gender": "f", "en": "sister", "pos": "noun", "accept": ["sœur", "soeur", "la sœur", "la soeur", "ma sœur", "ma soeur"],
+      "example": { "fr": "Ma sœur a vingt ans.", "en": "My sister is twenty." }, "note": "œ is two letters joined (o + e). If your keyboard has no œ, oe is accepted." },
+    { "id": "fils", "kind": "vocab", "fr": "fils", "article": "le", "gender": "m", "en": "son (male child)", "pos": "noun", "accept": ["fils", "mon fils"],
+      "example": { "fr": "Mon fils a cinq ans.", "en": "My son is five." }, "note": "Say [fis]: the l is silent and the s is pronounced. Same spelling in the plural: mes fils." },
+    { "id": "fille", "kind": "vocab", "fr": "fille", "article": "la", "gender": "f", "en": "daughter (also: girl)", "pos": "noun", "accept": ["fille", "ma fille"],
+      "example": { "fr": "Ma fille habite à Ottawa.", "en": "My daughter lives in Ottawa." }, "note": "ma fille = my daughter; une fille = a girl." },
+    { "id": "mari", "kind": "vocab", "fr": "mari", "article": "le", "gender": "m", "en": "husband", "pos": "noun", "accept": ["mari", "mon mari"],
+      "example": { "fr": "Mon mari s'appelle Karim.", "en": "My husband's name is Karim." } },
+    { "id": "femme", "kind": "vocab", "fr": "femme", "article": "la", "gender": "f", "en": "wife (also: woman)", "pos": "noun", "accept": ["femme", "ma femme"],
+      "example": { "fr": "Raj habite à Toronto avec sa femme.", "en": "Raj lives in Toronto with his wife." }, "note": "ma femme = my wife; une femme = a woman. Say it like “fam”." },
+    { "id": "enfant", "kind": "vocab", "fr": "enfant", "article": "l'", "gender": "m", "en": "child", "pos": "noun", "accept": ["enfant", "un enfant", "une enfant", "l'enfant"],
+      "example": { "fr": "J'ai trois enfants.", "en": "I have three children." }, "note": "un enfant (a boy, or a child in general), une enfant (a girl). Plural: les enfants, with liaison: mes‿enfants." },
+    { "id": "grands-parents", "kind": "vocab", "fr": "grands-parents", "article": "les", "gender": "m", "en": "grandparents", "pos": "noun", "accept": ["grands-parents", "mes grands-parents"],
+      "example": { "fr": "Mes grands-parents habitent en France.", "en": "My grandparents live in France." }, "note": "le grand-père (grandfather), la grand-mère (grandmother)." },
+    { "id": "partenaire", "kind": "vocab", "fr": "partenaire", "article": "le", "gender": "m", "en": "partner (in a couple)", "pos": "noun", "accept": ["la partenaire", "partenaire", "mon partenaire", "ma partenaire"],
+      "example": { "fr": "Ma partenaire est québécoise.", "en": "My partner is from Québec." }, "note": "Same word for a man or a woman: le partenaire, la partenaire." },
+    { "id": "conjoint", "kind": "vocab", "fr": "conjoint", "article": "le", "gender": "m", "en": "spouse or life partner (married or not)", "pos": "noun", "accept": ["la conjointe", "conjoint", "conjointe", "mon conjoint", "ma conjointe"],
+      "example": { "fr": "Ma sœur habite à Gatineau avec sa conjointe.", "en": "My sister lives in Gatineau with her partner." }, "note": "Feminine: la conjointe. Very common in Canada, in everyday life and on official forms." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Family photos",
+      "blocks": [
+        { "type": "dialogue", "title": "A coffee break at work in Montréal",
+          "context": "Amira shows Olivier a photo on her phone.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Oh, c'est ta famille, sur la photo ?", "en": "Oh, is that your family in the photo?" },
+            { "speaker": "Amira", "fr": "Oui ! C'est mon mari, Karim. Et ça, c'est ma fille, Lina. Elle a huit ans.", "en": "Yes! That's my husband, Karim. And that's my daughter, Lina. She's eight." },
+            { "speaker": "Olivier", "fr": "Et lui, c'est ton fils ?", "en": "And him, is he your son?" },
+            { "speaker": "Amira", "fr": "Oui, c'est mon fils, Adam. Il a cinq ans.", "en": "Yes, that's my son, Adam. He's five." },
+            { "speaker": "Olivier", "fr": "Et tes parents ? Ils habitent à Montréal aussi ?", "en": "And your parents? Do they live in Montréal too?" },
+            { "speaker": "Amira", "fr": "Non, mes parents habitent au Maroc, avec ma sœur. Mon frère habite à Toronto.", "en": "No, my parents live in Morocco, with my sister. My brother lives in Toronto." },
+            { "speaker": "Olivier", "fr": "Moi, j'ai deux frères et une sœur. Ma sœur habite à Gatineau avec sa conjointe.", "en": "I have two brothers and a sister. My sister lives in Gatineau with her partner." },
+            { "speaker": "Amira", "fr": "Et tes grands-parents ?", "en": "And your grandparents?" },
+            { "speaker": "Olivier", "fr": "Mes grands-parents habitent en France, à Lyon.", "en": "My grandparents live in France, in Lyon." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen first. Notice the little words before each family word: [[mon]], [[ma]], [[mes]], [[ta]], [[tes]], [[sa]]. They all mean *my*, *your* or *his/her*. Why so many? That is this lesson." }
+      ] },
+    { "type": "understand", "title": "Family words and “my, your, his, her”",
+      "blocks": [
+        { "type": "table", "title": "The family",
+          "head": ["French", "English"],
+          "rows": [
+            ["le père", "father"],
+            ["la mère", "mother"],
+            ["les parents", "parents"],
+            ["le frère", "brother"],
+            ["la sœur", "sister"],
+            ["le fils", "son"],
+            ["la fille", "daughter (also: girl)"],
+            ["le mari", "husband"],
+            ["la femme", "wife (also: woman)"],
+            ["l'enfant / les enfants", "child / children"],
+            ["les grands-parents", "grandparents"],
+            ["le / la partenaire", "partner (in a couple)"],
+            ["le conjoint / la conjointe", "spouse or life partner"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "Learn each word **with** its article: [[le]] for masculine, [[la]] for feminine, [[les]] for plural. [[L']] replaces le or la before a vowel." },
+        { "type": "explain", "title": "My, your, his/her: the noun decides",
+          "body": "In English, *his* or *her* depends on the **owner**. In French, the possessive word agrees with the **person or thing owned**: is that noun masculine, feminine or plural?\n\n- [[mon père]], [[ma mère]], [[mes parents]]\n- [[ton frère]], [[ta sœur]], [[tes enfants]]\n- [[son mari]], [[sa fille]], [[ses grands-parents]]\n\nUse [[ton / ta / tes]] with someone you call *tu*. (The *vous* forms come later.)" },
+        { "type": "table", "title": "Possessive words",
+          "head": ["", "masculine", "feminine", "plural"],
+          "rows": [
+            ["my", "mon", "ma", "mes"],
+            ["your (tu)", "ton", "ta", "tes"],
+            ["his / her", "son", "sa", "ses"]
+          ],
+          "frCols": [1, 2, 3], "sayCol": true,
+          "note": "The plural form is the same for masculine and feminine: [[mes frères]], [[mes sœurs]]." },
+        { "type": "pattern", "title": "son / sa = his OR her",
+          "pattern": "son + masculine noun · sa + feminine noun · ses + plural noun",
+          "note": "[[sa]] does **not** mean *her*, and [[son]] does **not** mean *his*. Look only at the noun that follows.",
+          "examples": [
+            { "fr": "Karim habite avec sa fille.", "en": "Karim lives with his daughter." },
+            { "fr": "Amira habite avec son fils.", "en": "Amira lives with her son." },
+            { "fr": "Lucie et son mari", "en": "Lucie and her husband" },
+            { "fr": "Raj et ses enfants", "en": "Raj and his children" }
+          ] },
+        { "type": "pattern", "title": "mon, ton, son before a vowel",
+          "pattern": "mon / ton / son + feminine noun starting with a vowel",
+          "note": "[[Ma amie]] is impossible to say smoothly, so French uses [[mon]], [[ton]], [[son]] instead, and links with a liaison: [[mon‿amie]]. The word itself stays feminine.",
+          "examples": [
+            { "fr": "Mon amie Sofia est mexicaine.", "en": "My friend Sofia is Mexican." },
+            { "fr": "Ton amie habite à Vancouver ?", "en": "Does your (female) friend live in Vancouver?" },
+            { "fr": "C'est son amie Mei.", "en": "That's his/her friend Mei." }
+          ] },
+        { "type": "pattern", "title": "Presenting with c'est",
+          "pattern": "C'est + mon / ma + person",
+          "note": "[[C'est]] means *this is*, *that's* or *it's*. Perfect for photos and introductions.",
+          "examples": [
+            { "fr": "C'est ma mère.", "en": "This is my mother." },
+            { "fr": "C'est ton fils ?", "en": "Is that your son?" }
+          ] },
+        { "type": "vocab", "title": "Family words in this lesson", "itemIds": ["mere", "pere", "parents", "frere", "soeur", "fils", "fille", "mari", "femme", "enfant", "grands-parents", "partenaire", "conjoint"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Copying English his/her:** Amira talking about her father says [[son père]], not [[sa père]]. Karim talking about his mother says [[sa mère]].\n- **ma before a vowel:** say [[mon amie]], not [[ma amie]].\n- **The English 's:** French has no *'s*. *Karim's wife* is [[la femme de Karim]]: “the wife of Karim”.\n- **One son, two sons:** [[fils]] never changes: [[mon fils]], [[mes fils]]. Only [[mon]] / [[mes]] tells you how many.",
+          "examples": [
+            { "fr": "la femme de Karim", "en": "Karim's wife" },
+            { "fr": "le frère de Mei", "en": "Mei's brother" }
+          ] },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "- [[fils]] sounds like *feess*: silent l, pronounced s. [[fille]] sounds like *fee-y*.\n- [[femme]] sounds like *fam*, not *fem*.\n- [[mes]], [[tes]], [[ses]] all rhyme with *é*. Before a vowel, the s becomes a *z* sound: [[mes‿enfants]], [[ses‿amis]].\n- [[frère]] and [[frères]] sound the same. In speech, you hear the difference only in [[mon]] (one) versus [[mes]] (several).",
+          "examples": [
+            { "fr": "mon frère — mes frères", "en": "my brother — my brothers" },
+            { "fr": "mes‿enfants", "en": "my children (z sound)" }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Partners in Canada",
+          "body": "[[Conjoint]] / [[conjointe]] is the everyday word for a partner in Québec, married or not. On Canadian immigration and tax forms in French you will see [[conjoint de fait]]: *common-law partner*.\n\nIn casual Québec French you will also hear (recognition only):\n\n- [[mon chum]]: my boyfriend (or simply a male friend)\n- [[ma blonde]]: my girlfriend, whatever her hair colour!\n\nIn France, people usually say [[mon copain]] / [[ma copine]] for boyfriend / girlfriend.",
+          "examples": [
+            { "fr": "C'est ma blonde, Sofia.", "en": "This is my girlfriend, Sofia. (Québec, informal)" },
+            { "fr": "C'est mon chum, Alex.", "en": "This is my boyfriend, Alex. (Québec, informal)" }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "mon père, ma mère, mes parents", "en": "my father, my mother, my parents", "tip": "mes rhymes with é." },
+            { "fr": "Mon fils a cinq ans.", "en": "My son is five.", "tip": "fils: “feess”, silent l." },
+            { "fr": "Ma fille habite à Ottawa.", "en": "My daughter lives in Ottawa.", "tip": "fille: “fee-y”." },
+            { "fr": "Mes enfants habitent à Gatineau.", "en": "My children live in Gatineau.", "tip": "Liaison: me-z‿enfants." },
+            { "fr": "J'ai deux frères et une sœur.", "en": "I have two brothers and a sister.", "tip": "No liaison in deux frères: frères starts with a consonant." },
+            { "fr": "C'est mon amie Sofia.", "en": "This is my friend Sofia.", "tip": "Liaison: mo-n‿amie." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Mes frères habitent à Vancouver.", "en": "My brothers live in Vancouver.", "prompt": "Who lives in Vancouver?", "options": ["Two or more brothers", "One brother", "One sister"], "answer": 0, "explain": "You hear [[mes]] (rhymes with é), so the noun is plural." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Mon fils a douze ans.", "en": "My son is twelve.", "prompt": "How old is the son?", "options": ["12", "2", "10"], "answer": 0, "explain": "[[douze]] = 12. [[deux]] = 2, [[dix]] = 10." },
+        { "id": "h3", "type": "listen-mcq", "fr": "C'est la femme de Raj.", "en": "That's Raj's wife.", "prompt": "Who is it?", "options": ["Raj's wife", "Raj's daughter", "Raj's mother"], "answer": 0, "explain": "[[la femme de Raj]] = Raj's wife. Daughter is [[fille]], mother is [[mère]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "C'est ___ mère.", "answers": [["ma"]], "choices": ["ma", "mon", "mes"], "en": "This is my mother.", "explain": "mère is feminine → ma." },
+        { "id": "r2", "type": "mcq", "prompt": "Talking about Sofia's husband: “That's her husband.”", "options": ["C'est son mari.", "C'est sa mari.", "C'est ses mari."], "optionsFr": true, "answer": 0,
+          "explain": "mari is masculine, so son. Sofia being a woman does not matter.",
+          "optionFeedback": [null, "sa would match Sofia, but French looks at the noun: mari is masculine.", "ses is for plural nouns."] },
+        { "id": "r3", "type": "translate", "prompt": "My parents live in Ottawa.", "accept": ["Mes parents habitent à Ottawa."], "hint": "Plural noun → mes.", "explain": "parents is plural → mes; ils → habitent." },
+        { "id": "r4", "type": "match", "prompt": "Match the family words.", "pairs": [["le fils", "son"], ["la fille", "daughter"], ["le mari", "husband"], ["la sœur", "sister"], ["les grands-parents", "grandparents"]] },
+        { "id": "r5", "type": "cloze", "text": "Raj habite à Toronto avec ___ femme et ___ enfants.", "answers": [["sa"], ["ses"]], "en": "Raj lives in Toronto with his wife and his children.", "explain": "femme is feminine → sa; enfants is plural → ses." },
+        { "id": "r6", "type": "mcq", "prompt": "Lina is talking about her friend Mei (a woman). Which is correct?", "options": ["mon amie Mei", "ma amie Mei", "mes amie Mei"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Before a vowel, ma becomes mon: mon amie.", "mes is for plural nouns."] },
+        { "id": "r7", "type": "translate", "prompt": "I have two brothers and a sister.", "accept": ["J'ai deux frères et une sœur.", "J'ai deux frères et une soeur."], "hint": "avoir: j'ai", "explain": "Use avoir for “have”; add -s to frères (silent)." },
+        { "id": "r8", "type": "reorder", "prompt": "My son is ten years old.", "accept": ["Mon fils a dix ans"], "extra": ["est", "ma"], "explain": "Age uses avoir: [[il a dix ans]]. fils is masculine → mon." },
+        { "id": "r9", "type": "dictation", "fr": "Mes enfants habitent à Gatineau.", "accept": [], "explain": "Listen for the liaison in [[mes‿enfants]] and the accent in [[à]]." },
+        { "id": "r10", "type": "cloze", "text": "Lucie, tu habites avec ___ conjoint ?", "answers": [["ton"]], "choices": ["ton", "ta", "son", "tes"], "en": "Lucie, do you live with your partner?", "explain": "You're talking to Lucie with tu → ton; conjoint is masculine." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Imagine you are showing a family photo to a colleague. Present three or four people: who they are, where they live, and maybe their age.", "seconds": 30,
+          "checklist": ["C'est mon / ma … (at least 3 people)", "Where one person lives: il / elle habite à …", "One age: il / elle a … ans", "Use mes for a plural (mes parents, mes enfants…)"],
+          "models": [ { "label": "Model answer", "fr": "Alors, c'est ma famille. C'est ma femme, Priya. Et ça, c'est mon fils, Arjun. Il a dix ans. Mes parents habitent en Inde, et ma sœur habite à Vancouver avec son mari.", "en": "So, this is my family. This is my wife, Priya. And that's my son, Arjun. He's ten. My parents live in India, and my sister lives in Vancouver with her husband." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write about your family in 4–5 short sentences: who is in your family, where they live, and how old one or two people are.", "wordRange": [25, 55],
+          "checklist": ["Use mon, ma and mes correctly", "Use son, sa or ses at least once", "Say where someone lives (habiter à / en / au)", "Give an age with avoir"],
+          "models": [ { "label": "Model answer", "fr": "Je m'appelle Raj. J'habite à Toronto avec ma femme et mes deux enfants. Mon fils a dix ans et ma fille a six ans. Mes parents habitent en Inde. J'ai une sœur. Elle habite à Vancouver avec son mari.", "en": "My name is Raj. I live in Toronto with my wife and my two children. My son is ten and my daughter is six. My parents live in India. I have a sister. She lives in Vancouver with her husband." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Name your family: [[le père, la mère, le frère, la sœur, le fils, la fille, le mari, la femme, les enfants, les grands-parents]]\n- Say *my, your, his/her* with [[mon/ma/mes, ton/ta/tes, son/sa/ses]], matching the noun, not the owner\n- Use [[mon]] before a feminine word starting with a vowel: [[mon amie]]\n- Present people with [[C'est ma sœur]] and [[J'ai deux frères]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Possessive drill moved from Karim (Amira's husband, in Montréal) to Raj for consistency. Removed the misspelling “grands parents” from accepts; added “la sœur”." }
+}

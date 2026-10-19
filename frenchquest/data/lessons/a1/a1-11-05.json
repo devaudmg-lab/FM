@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-11-05",
+  "level": "a1",
+  "unit": "a1-11",
+  "title": "Cumulative grammar review",
+  "goal": "Use all the main A1 grammar together: être and avoir, articles, possessives, adjectives, negation, questions, futur proche and reflexive verbs.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-etre-avoir", "kind": "grammar", "fr": "être / avoir", "en": "to be / to have (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Mon frère ___ 25 ans.", "answers": [["a"]], "en": "My brother is 25.", "explain": "Age uses avoir: il a 25 ans." },
+        { "type": "cloze", "text": "Nous ___ fatigués ce soir.", "answers": [["sommes"]], "en": "We are tired tonight.", "explain": "nous → sommes (être)." },
+        { "type": "mcq", "prompt": "How do you say “I'm hungry”?", "options": ["J'ai faim.", "Je suis faim.", "Je fais faim."], "optionsFr": true, "answer": 0, "explain": "Hunger, thirst, cold and age use avoir: j'ai faim." }
+      ] },
+    { "id": "g-articles", "kind": "grammar", "fr": "le / un / du", "en": "definite, indefinite and partitive articles",
+      "drills": [
+        { "type": "cloze", "text": "J'aime ___ café, alors je prends ___ café le matin.", "answers": [["le"], ["du"]], "en": "I like coffee, so I have (some) coffee in the morning.", "explain": "Likes use le/la/les (coffee in general); an amount you take uses du." },
+        { "type": "translate", "prompt": "I don't have a car.", "accept": ["Je n'ai pas de voiture.", "Je n'ai pas d'auto."], "explain": "After a negative, un/une/des become de: pas de voiture." },
+        { "type": "cloze", "text": "Tu veux ___ eau ?", "answers": [["de l'"]], "en": "Do you want (some) water?", "explain": "eau is feminine and starts with a vowel: de l'eau." }
+      ] },
+    { "id": "g-contractions", "kind": "grammar", "fr": "au / aux / du / des", "en": "à and de + le / les contractions",
+      "drills": [
+        { "type": "cloze", "text": "Ce soir, je vais ___ cinéma.", "answers": [["au"]], "en": "Tonight I'm going to the movies.", "explain": "à + le = au." },
+        { "type": "cloze", "text": "Je vais ___ pharmacie.", "answers": [["à la"]], "en": "I'm going to the pharmacy.", "explain": "à + la does not change: à la." },
+        { "type": "cloze", "text": "C'est le chat ___ voisins.", "answers": [["des"]], "en": "It's the neighbours' cat.", "explain": "de + les = des." }
+      ] },
+    { "id": "g-possessives", "kind": "grammar", "fr": "mon / ma / mes", "en": "possessive adjectives (my, your, his/her)",
+      "drills": [
+        { "type": "cloze", "text": "C'est ___ amie Sofia.", "answers": [["mon"]], "en": "This is my friend Sofia.", "explain": "Before a vowel, use mon even for a feminine noun: mon amie." },
+        { "type": "cloze", "text": "Karim et ___ femme habitent à Laval.", "answers": [["sa"]], "en": "Karim and his wife live in Laval.", "explain": "femme is feminine → sa. It agrees with the noun, not with Karim." },
+        { "type": "mcq", "prompt": "Lucie's brother is…", "options": ["son frère", "sa frère", "ses frère"], "optionsFr": true, "answer": 0, "explain": "frère is masculine singular → son, even though Lucie is a woman." }
+      ] },
+    { "id": "g-adjectives", "kind": "grammar", "fr": "grand / grande / grands / grandes", "en": "adjective agreement and position",
+      "drills": [
+        { "type": "cloze", "text": "Ma voisine est ___. (canadien)", "answers": [["canadienne"]], "en": "My neighbour (woman) is Canadian.", "explain": "-ien → -ienne in the feminine." },
+        { "type": "cloze", "text": "J'ai une ___ maison. (petit)", "answers": [["petite"]], "en": "I have a small house.", "explain": "petit goes before the noun and agrees: une petite maison." },
+        { "type": "mcq", "prompt": "a big apartment", "options": ["un grand appartement", "un appartement grand", "une grande appartement"], "optionsFr": true, "answer": 0, "explain": "grand goes before the noun; appartement is masculine." }
+      ] },
+    { "id": "g-negation", "kind": "grammar", "fr": "ne… pas / ne… jamais / ne… plus", "en": "negation",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ parle ___ russe.", "answers": [["ne"], ["pas"]], "en": "I don't speak Russian.", "explain": "ne before the verb, pas after it." },
+        { "type": "translate", "prompt": "I never eat meat.", "accept": ["Je ne mange jamais de viande."], "explain": "ne… jamais = never; after it, de viande." },
+        { "type": "cloze", "text": "Il ___ habite plus à Montréal.", "answers": [["n'"]], "en": "He doesn't live in Montréal anymore.", "explain": "ne → n' before a vowel: il n'habite plus." }
+      ] },
+    { "id": "g-questions", "kind": "grammar", "fr": "est-ce que / inversion / intonation", "en": "asking questions",
+      "drills": [
+        { "type": "translate", "prompt": "Do you speak English? (formal)", "accept": ["Parlez-vous anglais ?", "Vous parlez anglais ?", "Est-ce que vous parlez anglais ?"], "explain": "Three ways: intonation, est-ce que, or inversion." },
+        { "type": "cloze", "text": "___ est-ce que tu fais samedi ?", "answers": [["Qu'"]], "en": "What are you doing on Saturday?", "explain": "Qu'est-ce que = what (as the object)." },
+        { "type": "cloze", "text": "Tu habites ___ ?", "answers": [["où"]], "en": "Where do you live?", "explain": "où = where (with an accent; ou = or)." }
+      ] },
+    { "id": "g-futur-proche", "kind": "grammar", "fr": "aller + infinitif", "en": "futur proche (going to + verb)",
+      "drills": [
+        { "type": "cloze", "text": "Nous ___ visiter Québec en juillet.", "answers": [["allons"]], "en": "We're going to visit Québec City in July.", "explain": "nous → allons + infinitive." },
+        { "type": "translate", "prompt": "She is going to work tomorrow.", "accept": ["Elle va travailler demain.", "Demain, elle va travailler.", "Elle va au travail demain."], "explain": "elle va + infinitive." },
+        { "type": "cloze", "text": "Je ___ vais ___ sortir demain.", "answers": [["ne"], ["pas"]], "en": "I'm not going to go out tomorrow.", "explain": "The negation goes around aller: je ne vais pas sortir." }
+      ] },
+    { "id": "g-reflexives", "kind": "grammar", "fr": "se lever", "en": "reflexive verbs (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ lève à sept heures.", "answers": [["me"]], "en": "I get up at seven.", "explain": "je → me." },
+        { "type": "cloze", "text": "Nous ___ couchons tard.", "answers": [["nous"]], "en": "We go to bed late.", "explain": "nous → nous couchons: the pronoun repeats." },
+        { "type": "cloze", "text": "Tu ___ habilles ?", "answers": [["t'"]], "en": "Are you getting dressed?", "explain": "te → t' before a vowel or silent h." }
+      ] },
+    { "id": "pas-de-viande", "kind": "phrase", "fr": "Je ne mange pas de viande.", "en": "I don't eat meat." },
+    { "id": "tu-vas-faire", "kind": "phrase", "fr": "Qu'est-ce que tu vas faire samedi ?", "en": "What are you going to do on Saturday? (to a friend)", "accept": ["Tu vas faire quoi samedi ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "All of A1 in one email",
+      "intro": "This email uses almost all the grammar you learned at A1. Read it once for the meaning, then once to spot the grammar.",
+      "blocks": [
+        { "type": "text", "title": "An email from Vancouver",
+          "context": "Mei writes to her friend Olivier in Québec City.",
+          "fr": "Salut Olivier !\nMerci pour ton message. Ici, à Vancouver, tout va bien !\nMon appartement est petit, mais il est joli et il n'est pas cher. Il y a une grande fenêtre et un petit balcon.\nLe matin, je me lève à six heures et je prends le bus pour aller au travail. Je travaille dans une banque au centre-ville. À midi, je mange une salade et je prends un thé. Je ne mange jamais de viande !\nSamedi, ma sœur Lin arrive de Toronto avec ses deux enfants. Ils sont très gentils, mais ils n'aiment pas la pluie ! Nous allons faire une promenade au parc Stanley, et dimanche, nous allons manger au restaurant du quartier.\nEt toi ? Qu'est-ce que tu vas faire samedi ? Est-ce que tu as des photos de ta nouvelle maison ?\nÀ bientôt,\nMei",
+          "en": "Hi Olivier! Thanks for your message. Here in Vancouver, everything is fine! My apartment is small, but it's pretty and it isn't expensive. There's a big window and a small balcony. In the morning, I get up at six and I take the bus to go to work. I work in a bank downtown. At noon, I eat a salad and I have a tea. I never eat meat! On Saturday, my sister Lin is arriving from Toronto with her two children. They're very nice, but they don't like the rain! We're going to go for a walk in Stanley Park, and on Sunday, we're going to eat at the neighbourhood restaurant. What about you? What are you going to do on Saturday? Do you have photos of your new house? See you soon, Mei" },
+        { "id": "d1", "type": "mcq", "prompt": "Which phrase from the email is a reflexive verb?", "options": ["je me lève", "je prends", "je travaille", "il y a"], "optionsFr": true, "answer": 0,
+          "explain": "[[se lever]] has the extra pronoun [[me]]: [[je me lève]]." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does Mei write “de viande” and not “de la viande”?", "options": ["Because of the negative (ne… jamais)", "Because viande is masculine", "Because it's plural"], "answer": 0,
+          "explain": "After a negative ([[ne… pas]], [[ne… jamais]], [[ne… plus]]), [[du / de la / des]] become [[de]]." },
+        { "id": "d3", "type": "mcq", "prompt": "Why “ses deux enfants” and not “sa deux enfants”?", "options": ["Because enfants is plural", "Because Lin is a woman", "Because enfants starts with a vowel"], "answer": 0,
+          "explain": "Possessives agree with the **thing owned**: plural [[enfants]] → [[ses]]. Lin being a woman doesn't matter." }
+      ] },
+    { "type": "understand", "title": "Your A1 grammar map",
+      "intro": "Everything on one page. Use it as a reference whenever you're unsure.",
+      "blocks": [
+        { "type": "table", "title": "1. Être and avoir",
+          "head": ["", "être (to be)", "avoir (to have)"],
+          "rows": [
+            ["je / j'", "suis", "ai"],
+            ["tu", "es", "as"],
+            ["il / elle / on", "est", "a"],
+            ["nous", "sommes", "avons"],
+            ["vous", "êtes", "avez"],
+            ["ils / elles", "sont", "ont"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "**Être**: nationality, job, description, where you are. **Avoir**: age, possessions, family, and [[avoir faim / froid / besoin de]]. Listen: [[ils sont]] has an *s* sound, [[ils‿ont]] has a *z* sound." },
+        { "type": "table", "title": "2. Which article?",
+          "head": ["Article", "When", "Example"],
+          "rows": [
+            ["un, une, des", "one (or several) of many: *a, some*", "J'ai un frère et des amis."],
+            ["le, la, l', les", "a specific thing, or things in general (likes)", "J'aime le café. La banque est fermée."],
+            ["du, de la, de l', des", "an amount of something: *some*", "Je prends du pain et de l'eau."],
+            ["de, d'", "after a negative, instead of un, une, des, du, de la, de l' (le, la, les don't change)", "Je n'ai pas de voiture. Pas d'eau."]
+          ],
+          "frCols": [0, 2], "sayCol": false },
+        { "type": "table", "title": "3. À and de with le and les",
+          "head": ["", "+ le", "+ la", "+ l'", "+ les"],
+          "rows": [
+            ["à", "au", "à la", "à l'", "aux"],
+            ["de", "du", "de la", "de l'", "des"]
+          ],
+          "frCols": [0, 1, 2, 3, 4], "sayCol": false,
+          "note": "Only **le** and **les** combine: [[je vais au parc]], [[le chat des voisins]]. Never write *à le* or *de les*." },
+        { "type": "table", "title": "4. Possessives",
+          "head": ["", "masculine", "feminine", "plural"],
+          "rows": [
+            ["my", "mon frère", "ma sœur", "mes parents"],
+            ["your (tu)", "ton frère", "ta sœur", "tes parents"],
+            ["his / her", "son frère", "sa sœur", "ses parents"]
+          ],
+          "frCols": [1, 2, 3], "sayCol": false,
+          "note": "The possessive agrees with the **thing owned**, not the owner: [[Karim et sa femme]], [[Lucie et son frère]]. Before a vowel, use **mon / ton / son**: [[mon amie]]." },
+        { "type": "explain", "title": "5. Adjectives",
+          "body": "**Agreement:** add **-e** for feminine, **-s** for plural: [[grand, grande, grands, grandes]]. Some patterns: [[canadien → canadienne]], [[gentil → gentille]], [[sérieux → sérieuse]].\n\n**Position:** most adjectives go **after** the noun: [[une voiture rouge]], [[un ami canadien]]. A few short, common ones go **before**: [[grand, petit, jeune, vieux, beau, bon, nouveau]] — [[une petite maison]], [[un bon café]]." },
+        { "type": "explain", "title": "6. Negation",
+          "body": "[[ne]] before the verb, the second word after it: [[ne… pas]] (not), [[ne… jamais]] (never), [[ne… plus]] (not anymore).\n\n- [[ne]] → [[n']] before a vowel: [[Je n'aime pas]].\n- With a reflexive verb, ne goes before the pronoun: [[Je ne me lève pas tôt.]]\n- With futur proche, the negation goes around **aller**: [[Je ne vais pas travailler.]]\n- In casual speech, people often drop *ne*: [[J'aime pas ça]]. In writing, keep it." },
+        { "type": "table", "title": "7. Three ways to ask a question",
+          "head": ["Style", "Yes/no question", "With a question word"],
+          "rows": [
+            ["Intonation (casual)", "Vous habitez ici ?", "Vous habitez où ?"],
+            ["Est-ce que (neutral)", "Est-ce que vous habitez ici ?", "Où est-ce que vous habitez ?"],
+            ["Inversion (formal)", "Habitez-vous ici ?", "Où habitez-vous ?"]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "Question words: [[où, quand, comment, pourquoi, combien, qui, quel / quelle]], and [[qu'est-ce que]] (what)." },
+        { "type": "pattern", "title": "8. Futur proche",
+          "pattern": "aller (conjugated) + infinitif",
+          "note": "[[je vais, tu vas, il va, nous allons, vous allez, ils vont]] + infinitive. Nothing goes between them: no *à*.",
+          "examples": [
+            { "fr": "Je vais passer le TEF.", "en": "I'm going to take the TEF." },
+            { "fr": "Nous n'allons pas travailler demain.", "en": "We're not going to work tomorrow." }
+          ] },
+        { "type": "table", "title": "9. Reflexive verbs: se lever",
+          "head": ["", "se lever", "negative"],
+          "rows": [
+            ["je", "me lève", "je ne me lève pas"],
+            ["tu", "te lèves", "tu ne te lèves pas"],
+            ["il / elle / on", "se lève", "il ne se lève pas"],
+            ["nous", "nous levons", "nous ne nous levons pas"],
+            ["vous", "vous levez", "vous ne vous levez pas"],
+            ["ils / elles", "se lèvent", "ils ne se lèvent pas"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "[[me, te, se]] become [[m', t', s']] before a vowel: [[je m'habille]]." },
+        { "type": "deepdive", "kind": "mistakes", "title": "The ten most common A1 errors",
+          "body": "- [[Je suis 30 ans]] → [[J'ai 30 ans]]\n- [[Je suis un ingénieur]] → [[Je suis ingénieur]]\n- [[Je n'ai pas des enfants]] → [[Je n'ai pas d'enfants]]\n- [[Je vais à le parc]] → [[Je vais au parc]]\n- [[sa frère]] → [[son frère]] (masculine noun)\n- [[ma amie]] → [[mon amie]] (before a vowel)\n- [[une maison petite]] → [[une petite maison]]\n- [[Je ne aime pas]] → [[Je n'aime pas]]\n- [[Je vais à visiter]] → [[Je vais visiter]]\n- [[Je lève à 7 heures]] → [[Je me lève à 7 heures]] (you get yourself up)" },
+        { "type": "deepdive", "kind": "why", "title": "Why “j'aime le café” but “je prends du café”?",
+          "body": "With verbs of **liking** ([[aimer, adorer, détester, préférer]]), you talk about coffee **in general**, as a category: [[le café]].\n\nWith verbs of **taking, eating, buying** ([[prendre, manger, acheter, vouloir]]), you talk about **some** coffee, an amount: [[du café]].\n\nSo: [[J'adore le fromage, alors j'achète du fromage.]] — I love cheese, so I buy (some) cheese.",
+          "examples": [ { "fr": "Je déteste la pluie.", "en": "I hate rain." }, { "fr": "Tu veux de la soupe ?", "en": "Do you want some soup?" } ] }
+      ] },
+    { "type": "hear", "title": "Sounds that carry grammar",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat the contrasts",
+          "note": "In French, a single sound can be the difference between two grammar forms.",
+          "lines": [
+            { "fr": "Ils sont canadiens. Ils ont deux enfants.", "en": "They're Canadian. They have two children.", "tip": "sont = s sound; ils‿ont = z sound." },
+            { "fr": "Il est ici. Il a un chat.", "en": "He is here. He has a cat.", "tip": "est = è; a = a." },
+            { "fr": "le café, les cafés", "en": "the coffee, the coffees", "tip": "le = uh, les = é: the article tells you singular or plural." },
+            { "fr": "Je ne vais pas travailler demain.", "en": "I'm not going to work tomorrow." },
+            { "fr": "Est-ce que vous habitez ici ?", "en": "Do you live here?", "tip": "Est-ce que = ess-kuh; vous‿habitez with a z link." },
+            { "fr": "Je me lève à six heures.", "en": "I get up at six.", "tip": "six heures: si-zeur." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils ont froid.", "en": "They're cold.", "prompt": "Which verb did you hear?", "options": ["ont (avoir)", "sont (être)", "font (faire)"], "answer": 0,
+          "explain": "You heard a **z** sound: [[ils‿ont]]. Cold uses avoir: [[avoir froid]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je ne vais pas travailler demain.", "en": "I'm not going to work tomorrow.", "prompt": "Is the speaker going to work tomorrow?", "options": ["No", "Yes", "Yes, but only in the morning"], "answer": 0,
+          "explain": "[[ne… pas]] around [[vais]]: a negative futur proche." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Ten questions, all mixed up, like real life. Answer without looking at the grammar map, then check what you missed.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Mon frère ___ 25 ans et il ___ ingénieur.", "answers": [["a"], ["est"]], "choices": ["a", "est", "ai", "es"], "en": "My brother is 25 and he's an engineer.",
+          "explain": "Age → avoir ([[il a]]); job → être ([[il est]])." },
+        { "id": "r2", "type": "cloze", "text": "Le matin, je mange ___ pain et je prends ___ café.", "answers": [["du"], ["du"]], "choices": ["du", "de la", "le", "de"], "en": "In the morning, I eat (some) bread and I have (some) coffee.",
+          "explain": "An amount of something masculine → [[du]]: [[du pain]], [[du café]]." },
+        { "id": "r3", "type": "mcq", "prompt": "How do you say “I don't eat meat”?", "options": ["Je ne mange pas de viande.", "Je ne mange pas du viande.", "Je ne mange de viande pas.", "Je mange ne pas de viande."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "After a negative, use de: pas de viande.", "pas goes right after the verb.", "ne goes before the verb, pas after it."] },
+        { "id": "r4", "type": "cloze", "text": "Voici ___ amie Sofia et ___ parents.", "answers": [["mon"], ["mes"]], "choices": ["mon", "ma", "mes"], "en": "Here are my friend Sofia and my parents.",
+          "explain": "[[amie]] starts with a vowel → [[mon amie]]. [[parents]] is plural → [[mes]]." },
+        { "id": "r5", "type": "match", "prompt": "Match each noun with the right form of gentil.", "pairs": [["un ami", "gentil"], ["une amie", "gentille"], ["des amis", "gentils"], ["des amies", "gentilles"]] },
+        { "id": "r6", "type": "translate", "prompt": "Where do you live? (formal)", "accept": ["Où habitez-vous ?", "Vous habitez où ?", "Où est-ce que vous habitez ?"], "hint": "Three styles work.",
+          "explain": "Inversion ([[Où habitez-vous ?]]), est-ce que, or intonation ([[Vous habitez où ?]])." },
+        { "id": "r7", "type": "cloze", "text": "Je vais ___ parc avec les enfants ___ voisins.", "answers": [["au"], ["des"]], "choices": ["au", "à le", "des", "de les"], "en": "I'm going to the park with the neighbours' children.",
+          "explain": "à + le = [[au]]; de + les = [[des]]." },
+        { "id": "r8", "type": "translate", "prompt": "We are not going to work tomorrow.", "accept": ["Nous n'allons pas travailler demain.", "On ne va pas travailler demain.", "Demain, nous n'allons pas travailler.", "Demain, on ne va pas travailler.", "Nous n'allons pas au travail demain.", "On ne va pas au travail demain."], "hint": "Negation goes around aller.",
+          "explain": "[[nous n'allons pas]] + infinitive. [[n']] because [[allons]] starts with a vowel." },
+        { "id": "r9", "type": "reorder", "prompt": "I get up at seven o'clock.", "accept": ["Je me lève à sept heures", "À sept heures je me lève"], "extra": ["suis"],
+          "explain": "Reflexive verb: [[je me lève]]. No être here." },
+        { "id": "r10", "type": "dictation", "fr": "Ils ont deux enfants et ils sont très contents.", "accept": ["Ils ont 2 enfants et ils sont très contents."], "explain": "[[ils‿ont]] (z sound, avoir) vs [[ils sont]] (s sound, être)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Reply to Mei's email. Tell her about your home, your morning, what you eat or don't eat, someone in your family, and your plans for Saturday. End with a question for her.",
+          "promptFr": "Répondez au courriel de Mei.",
+          "wordRange": [40, 100],
+          "checklist": ["être and avoir (at least once each)", "An article or partitive: le / un / du", "A possessive: mon / ma / mes / son / sa / ses", "An adjective that agrees (petite, grandes…)", "A negative: ne… pas / jamais / plus", "A reflexive verb: je me lève…", "A plan with je vais / nous allons + infinitive", "A question to finish"],
+          "models": [
+            { "label": "Model answer (Olivier)", "fr": "Salut Mei !\nMerci pour ton courriel. Moi, j'habite maintenant dans une petite maison à Québec. Elle est vieille, mais elle est très jolie !\nLe matin, je me lève à sept heures et je prends du café avec du pain. Je ne mange pas de céréales : je déteste ça !\nMa mère arrive vendredi. Elle a soixante ans et elle est très active. Samedi, nous allons visiter le Vieux-Québec et nous allons manger au restaurant.\nEt ta sœur et ses enfants, est-ce qu'ils aiment Vancouver ?\nÀ bientôt,\nOlivier", "en": "Hi Mei! Thanks for your email. I now live in a small house in Québec City. It's old, but it's very pretty! In the morning, I get up at seven and I have coffee with bread. I don't eat cereal: I hate it! My mother arrives on Friday. She's sixty and she's very active. On Saturday, we're going to visit Old Québec and we're going to eat at a restaurant. And your sister and her children, do they like Vancouver? See you soon, Olivier" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Choose between **être** and **avoir**, and between **le / un / du / de**\n- Make possessives and adjectives agree, and use **au / aux / du / des**\n- Make negatives, ask questions three ways, talk about plans with **aller + infinitif** and routines with reflexive verbs",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed spoken-only answers (J'ai pas de voiture., On va pas travailler demain., Où vous habitez ?) from the accept lists. Added 'aller au travail' readings for the ambiguous 'going to work' prompts and a digit variant in the dictation. Made the article table say clearly which articles become de after a negative." }
+}

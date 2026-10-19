@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "ability": "eo",
+  "tasks": [
+    {
+      "id": "tcf-eo-t1-4",
+      "section": "T1",
+      "title": "Guided interview: daily life, food and habits",
+      "level": "b1",
+      "prompt": "Bonjour ! Pour commencer, parlez-moi un peu de vous et de votre vie quotidienne : votre journée type, vos habitudes, ce que vous aimez manger et cuisiner.",
+      "promptEn": "Hello! To begin, tell me a little about yourself and your daily life: a typical day, your habits, what you like to eat and cook.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "checklist": [
+        "Introduces yourself briefly, then develops the daily routine with times and details",
+        "Talks about food and cooking with precise vocabulary (dishes, ingredients, meals)",
+        "Compares habits here and in your home country, or before and now",
+        "Uses reflexive verbs correctly for the routine (je me lève, je me prépare)",
+        "Uses present, past (passé composé / imparfait) and future or conditional appropriately",
+        "Keeps talking fluently for the two minutes, with connectors (d'abord, ensuite, le soir, par contre)"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "En général, je me lève vers…",
+          "en": "Generally, I get up around…"
+        },
+        {
+          "fr": "Ma journée commence par…",
+          "en": "My day starts with…"
+        },
+        {
+          "fr": "Le midi, je mange sur le pouce / je prends un lunch",
+          "en": "At lunchtime, I grab a quick bite / I have a packed lunch"
+        },
+        {
+          "fr": "Mon plat préféré, c'est…",
+          "en": "My favourite dish is…"
+        },
+        {
+          "fr": "Chez nous, on a l'habitude de…",
+          "en": "At home / In my country, we usually…"
+        },
+        {
+          "fr": "Avant, je…, mais maintenant je…",
+          "en": "I used to…, but now I…"
+        },
+        {
+          "fr": "J'essaie de… / Je fais attention à…",
+          "en": "I try to… / I'm careful about…"
+        },
+        {
+          "fr": "La fin de semaine, c'est différent : …",
+          "en": "On weekends, it's different: …"
+        }
+      ],
+      "examinerLines": [
+        "Comment se passe une journée typique pour vous ?",
+        "À quelle heure vous levez-vous, en général ?",
+        "Comment allez-vous au travail ou à l'école ?",
+        "Qu'est-ce que vous mangez le midi ?",
+        "Est-ce que vous aimez cuisiner ? Quelle est votre spécialité ?",
+        "Quel est le plat typique de votre région d'origine ?",
+        "Vos habitudes alimentaires ont-elles changé depuis que vous êtes au Canada ?",
+        "Que faites-vous pour vous détendre le soir ?",
+        "Comment passez-vous vos fins de semaine ?",
+        "Y a-t-il une habitude que vous aimeriez changer ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour ! Je m'appelle Mariana Costa, j'ai vingt-neuf ans et je suis brésilienne. Je suis designer graphique et je travaille dans une petite agence de publicité.\n\nEn semaine, je me lève vers six heures et demie. D'abord, je bois un café très fort, comme au Brésil, et je fais quinze minutes de yoga. Ensuite, je prends le métro pour aller au bureau ; le trajet dure environ vingt-cinq minutes, alors j'en profite pour écouter des balados en français. Le midi, je mange souvent avec mes collègues dans un petit restaurant vietnamien à côté de l'agence.\n\nJ'adore cuisiner, surtout la fin de semaine. Ma spécialité, c'est la feijoada, un plat de haricots noirs avec de la viande. Ça prend presque quatre heures, donc je la prépare seulement quand j'invite des amis. Mes amis québécois y ont goûté et maintenant, ils me la demandent tout le temps !\n\nDepuis que j'habite ici, mes habitudes ont un peu changé. Au Brésil, on prenait le repas principal le midi et on soupait très tard, vers neuf heures. Ici, je soupe à six heures, comme tout le monde, et au début, c'était bizarre pour moi. J'ai aussi découvert la poutine, mais je n'en mange pas trop souvent, parce que c'est très lourd.\n\nLe soir, je me détends en lisant ou en regardant une série. Une habitude que j'aimerais changer, c'est de regarder mon téléphone avant de dormir. Je sais que ce n'est pas bon pour le sommeil, alors j'essaie de le laisser dans la cuisine."
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t1-5",
+      "section": "T1",
+      "title": "Guided interview: travel, languages and cultures",
+      "level": "b1",
+      "prompt": "Bonjour ! Nous allons faire connaissance. Présentez-vous, puis parlez-moi des langues que vous parlez, des voyages que vous avez faits et des cultures qui vous intéressent.",
+      "promptEn": "Hello! Let's get to know each other. Introduce yourself, then tell me about the languages you speak, the trips you have taken and the cultures that interest you.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "checklist": [
+        "Introduces yourself and states which languages you speak and at what level",
+        "Tells about at least one trip in the past with concrete details (place, date, activities)",
+        "Explains what you like or find difficult about learning languages",
+        "Uses passé composé and imparfait correctly when telling about a trip",
+        "Mentions a future project or wish with the futur simple or the conditional",
+        "Develops each answer with a reason or an example instead of short replies"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Ma langue maternelle est…",
+          "en": "My mother tongue is…"
+        },
+        {
+          "fr": "Je me débrouille en… / Je parle couramment…",
+          "en": "I get by in… / I speak… fluently"
+        },
+        {
+          "fr": "J'ai appris… à l'école / sur le tas",
+          "en": "I learned… at school / on the job"
+        },
+        {
+          "fr": "Le voyage qui m'a le plus marqué(e), c'est…",
+          "en": "The trip that marked me most was…"
+        },
+        {
+          "fr": "Ce qui m'a frappé(e), c'est que…",
+          "en": "What struck me was that…"
+        },
+        {
+          "fr": "Je rêve d'aller…",
+          "en": "I dream of going to…"
+        },
+        {
+          "fr": "Le plus difficile pour moi, c'est…",
+          "en": "The hardest thing for me is…"
+        },
+        {
+          "fr": "Si j'avais le temps, je…",
+          "en": "If I had the time, I would…"
+        }
+      ],
+      "examinerLines": [
+        "Pouvez-vous vous présenter rapidement ?",
+        "Quelles langues parlez-vous ?",
+        "Où avez-vous appris le français ?",
+        "Qu'est-ce qui est le plus difficile pour vous en français ?",
+        "Quel est le plus beau voyage que vous avez fait ?",
+        "Qu'est-ce qui vous a surpris dans ce pays ?",
+        "Préférez-vous voyager seul(e) ou en groupe ? Pourquoi ?",
+        "Avez-vous déjà visité d'autres provinces canadiennes ?",
+        "Quel pays aimeriez-vous découvrir, et pourquoi ?",
+        "Quelle autre langue aimeriez-vous apprendre ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour ! Je m'appelle Kofi Mensah, j'ai trente-sept ans et je viens du Ghana. Je suis comptable dans une compagnie d'assurances.\n\nJe parle plusieurs langues. Ma langue maternelle est le twi, mais à l'école, tout se passait en anglais, donc je le parle couramment. J'ai commencé le français au secondaire, parce que le Ghana est entouré de pays francophones. Ensuite, j'ai suivi des cours du soir pendant trois ans. Pour moi, le plus difficile, c'est la différence entre l'écrit et l'oral : on écrit beaucoup de lettres qu'on ne prononce pas !\n\nJ'aime beaucoup voyager. Le voyage qui m'a le plus marqué, c'est un séjour au Sénégal il y a cinq ans. J'y suis allé avec deux amis pour un mariage. Ce qui m'a frappé, c'est l'hospitalité des gens : une famille que nous ne connaissions pas nous a invités à partager le thiéboudiène, le plat national. C'était aussi la première fois que je devais parler français toute la journée, et j'ai fait beaucoup de progrès en deux semaines.\n\nAu Canada, j'ai déjà visité l'Ontario et le Québec. L'été prochain, je voudrais aller en Acadie, au Nouveau-Brunswick, parce que je m'intéresse à l'histoire des francophones hors du Québec.\n\nJe préfère voyager en petit groupe : c'est plus sécuritaire et on partage les souvenirs. Et si j'avais le temps, j'aimerais apprendre l'espagnol, parce que je rêve de visiter l'Amérique du Sud."
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t1-6",
+      "section": "T1",
+      "title": "Guided interview: career path and professional goals",
+      "level": "b1",
+      "prompt": "Bonjour ! Pour commencer, présentez-vous et parlez-moi de votre parcours : vos études, vos expériences professionnelles et vos objectifs pour l'avenir.",
+      "promptEn": "Hello! To begin, introduce yourself and tell me about your background: your studies, your work experience and your goals for the future.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "checklist": [
+        "Presents studies and jobs in chronological order with dates or durations",
+        "Describes at least one job concretely (tasks, responsibilities, colleagues)",
+        "Explains what you like in your field and what skills you have",
+        "Uses depuis, pendant, il y a correctly with past and present tenses",
+        "States professional goals with the futur simple, the conditional or j'aimerais / je compte",
+        "Speaks in developed answers for the full two minutes"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "J'ai fait des études de… à…",
+          "en": "I studied… at…"
+        },
+        {
+          "fr": "J'ai obtenu mon diplôme en…",
+          "en": "I got my degree in (year)…"
+        },
+        {
+          "fr": "J'ai travaillé pendant… ans comme…",
+          "en": "I worked for… years as…"
+        },
+        {
+          "fr": "Je suis responsable de… / Je m'occupe de…",
+          "en": "I am responsible for… / I take care of…"
+        },
+        {
+          "fr": "Mon point fort, c'est…",
+          "en": "My strong point is…"
+        },
+        {
+          "fr": "Je fais des démarches pour faire reconnaître mon diplôme",
+          "en": "I'm going through the process of getting my degree recognized"
+        },
+        {
+          "fr": "Je compte… / J'ai l'intention de…",
+          "en": "I plan to… / I intend to…"
+        },
+        {
+          "fr": "D'ici cinq ans, j'aimerais…",
+          "en": "Within five years, I would like to…"
+        }
+      ],
+      "examinerLines": [
+        "Pouvez-vous vous présenter ?",
+        "Quelles études avez-vous faites ?",
+        "Pourquoi avez-vous choisi ce domaine ?",
+        "Parlez-moi de votre emploi actuel ou de votre dernier emploi.",
+        "Quelles sont vos tâches principales ?",
+        "Qu'est-ce que vous aimez le plus dans votre métier ?",
+        "Quelle a été la plus grande difficulté dans votre carrière ?",
+        "Pensez-vous pouvoir exercer le même métier au Canada ?",
+        "Quels sont vos objectifs professionnels ?",
+        "Seriez-vous prêt(e) à reprendre des études ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour ! Je m'appelle Lucía Fernández, j'ai trente-deux ans et je viens de Bogota, en Colombie. Je suis mariée et nous n'avons pas encore d'enfants.\n\nJ'ai fait des études de génie civil à l'Université nationale de Colombie et j'ai obtenu mon diplôme en 2016. J'ai choisi ce domaine parce que mon père était entrepreneur en construction : quand j'étais petite, j'allais souvent avec lui sur les chantiers et ça me fascinait.\n\nAprès mes études, j'ai travaillé pendant sept ans pour une entreprise qui construisait des ponts et des routes. Au début, je faisais surtout des calculs au bureau, mais ensuite, je suis devenue responsable d'une équipe de quinze personnes sur le terrain. Ce que j'aime le plus, c'est voir un projet sortir de terre, du premier plan jusqu'à l'inauguration. La plus grande difficulté, c'était de respecter les délais quand il pleuvait pendant des semaines.\n\nJe suis arrivée au Canada il y a un an. Pour l'instant, je travaille comme technicienne dans un bureau d'études, parce que je n'ai pas encore le droit de signer des plans. Je fais des démarches auprès de l'Ordre des ingénieurs pour faire reconnaître mon diplôme, et je dois passer un examen professionnel.\n\nD'ici cinq ans, j'aimerais devenir ingénieure de projet et travailler sur des infrastructures adaptées au climat, par exemple des routes qui résistent mieux au gel. Et oui, je suis prête à suivre des cours si c'est nécessaire : on n'arrête jamais d'apprendre !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t2-4",
+      "section": "T2",
+      "title": "Interaction: registering a child for a summer day camp",
+      "level": "b1",
+      "prompt": "Vous voulez inscrire votre enfant de huit ans dans un camp de jour pour l'été. Vous téléphonez au camp. Posez des questions au responsable pour obtenir toutes les informations nécessaires (activités, horaires, encadrement, prix, repas, inscription, etc.). L'examinateur joue le rôle du responsable.",
+      "promptEn": "You want to register your eight-year-old child for a summer day camp. You phone the camp. Ask the person in charge questions to get all the information you need (activities, hours, supervision, price, meals, registration, etc.). The examiner plays the person in charge.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "checklist": [
+        "Greets the examiner, introduces yourself and states the purpose of the call",
+        "Asks many questions (8 or more) covering activities, hours, supervision, price, meals and registration",
+        "Varies question forms: est-ce que, inversion, interrogative words, indirect questions (j'aimerais savoir si…)",
+        "Reacts to the answers and asks follow-up questions linked to your child's needs (allergy, swimming level…)",
+        "Uses the polite register (vous, conditional)",
+        "Closes the call naturally with a decision or next step and thanks"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour, je vous appelle au sujet du camp de jour.",
+          "en": "Hello, I'm calling about the day camp."
+        },
+        {
+          "fr": "J'aimerais inscrire mon fils / ma fille de huit ans.",
+          "en": "I would like to register my eight-year-old son / daughter."
+        },
+        {
+          "fr": "Quelles activités les enfants font-ils pendant la journée ?",
+          "en": "What activities do the children do during the day?"
+        },
+        {
+          "fr": "À quelle heure faut-il déposer et venir chercher les enfants ?",
+          "en": "What time do you drop off and pick up the children?"
+        },
+        {
+          "fr": "Est-ce qu'il y a un service de garde avant et après le camp ?",
+          "en": "Is there before- and after-camp care?"
+        },
+        {
+          "fr": "Combien d'enfants y a-t-il par animateur ?",
+          "en": "How many children are there per counsellor?"
+        },
+        {
+          "fr": "Les animateurs ont-ils une formation en premiers soins ?",
+          "en": "Are the counsellors trained in first aid?"
+        },
+        {
+          "fr": "Est-ce que les repas sont fournis ou faut-il prévoir un lunch ?",
+          "en": "Are meals provided or do we need to pack a lunch?"
+        },
+        {
+          "fr": "Mon enfant a une allergie aux… : comment gérez-vous cela ?",
+          "en": "My child is allergic to…: how do you handle that?"
+        },
+        {
+          "fr": "Quel est le tarif à la semaine ? Y a-t-il un rabais pour…",
+          "en": "What is the weekly rate? Is there a discount for…"
+        },
+        {
+          "fr": "Comment se fait l'inscription ? Quels documents faut-il fournir ?",
+          "en": "How does registration work? What documents are needed?"
+        },
+        {
+          "fr": "Parfait, je vais réfléchir et je vous rappelle d'ici vendredi.",
+          "en": "Perfect, I'll think about it and call you back by Friday."
+        }
+      ],
+      "examinerLines": [
+        "Camp de jour Les Écureuils farceurs, bonjour ! Comment puis-je vous aider ?",
+        "Le camp accueille les enfants de 6 à 12 ans, du 30 juin au 22 août.",
+        "Il y a du sport, de la baignade, du bricolage, des jeux en forêt et une sortie spéciale chaque vendredi.",
+        "Le camp commence à 9 h et se termine à 16 h. Il y a un service de garde de 7 h 30 à 9 h et de 16 h à 17 h 30.",
+        "Nous avons un animateur pour dix enfants, et tous nos animateurs ont une formation en premiers soins.",
+        "La semaine coûte 185 dollars, et le service de garde, 35 dollars de plus. Pour le deuxième enfant, c'est 10 % de rabais.",
+        "Les parents doivent fournir un lunch froid et deux collations. Nous avons des micro-ondes, mais pas de cuisine.",
+        "Le camp est sans arachides. Pour les autres allergies, il faut remplir une fiche santé et nous donner l'auto-injecteur.",
+        "Pour la baignade, les enfants sont séparés selon leur niveau, et il y a toujours un sauveteur.",
+        "L'inscription se fait en ligne. Il faut la carte d'assurance maladie de l'enfant et un dépôt de 50 dollars.",
+        "Les places partent vite : il reste encore quelques places en juillet, mais août est presque complet."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Examinateur : Camp de jour Les Écureuils farceurs, bonjour ! Comment puis-je vous aider ?\nCandidate : Bonjour, monsieur. Je m'appelle Amina Diallo. Je vous appelle parce que je voudrais inscrire ma fille au camp de jour cet été. Elle a huit ans. Est-ce que je pourrais vous poser quelques questions ?\nExaminateur : Bien sûr, madame. Le camp accueille les enfants de 6 à 12 ans, du 30 juin au 22 août.\nCandidate : Très bien. Qu'est-ce que les enfants font pendant la journée ?\nExaminateur : Il y a du sport, de la baignade, du bricolage, des jeux en forêt et une sortie spéciale chaque vendredi.\nCandidate : Ah, la baignade, c'est bien, mais ma fille ne nage pas encore très bien. Comment est-ce que vous gérez ça ?\nExaminateur : Les enfants sont séparés selon leur niveau, et il y a toujours un sauveteur.\nCandidate : D'accord, ça me rassure. Et quels sont les horaires du camp ?\nExaminateur : Le camp commence à 9 h et se termine à 16 h.\nCandidate : Hum, c'est un problème pour moi, parce que je commence à travailler à huit heures. Est-ce qu'il y a un service de garde le matin ?\nExaminateur : Oui, de 7 h 30 à 9 h, et aussi de 16 h à 17 h 30.\nCandidate : Parfait. Et combien d'enfants y a-t-il par animateur ?\nExaminateur : Un animateur pour dix enfants, et ils ont tous une formation en premiers soins.\nCandidate : C'est important, parce que ma fille a une allergie aux noix. Qu'est-ce que vous faites dans ce cas ?\nExaminateur : Le camp est sans arachides. Pour les autres allergies, il faut remplir une fiche santé et nous donner l'auto-injecteur.\nCandidate : D'accord, elle a déjà son auto-injecteur. Est-ce que les repas sont fournis ?\nExaminateur : Non, les parents doivent fournir un lunch froid et deux collations.\nCandidate : Je vois. Et maintenant, la question du prix : combien coûte une semaine ?\nExaminateur : 185 dollars, et le service de garde, 35 dollars de plus.\nCandidate : Donc 220 dollars par semaine avec la garde. Est-ce qu'il y a un rabais si j'inscris aussi son petit frère de six ans ?\nExaminateur : Oui, pour le deuxième enfant, c'est 10 % de rabais.\nCandidate : Bon à savoir. Comment est-ce que je peux faire l'inscription ?\nExaminateur : En ligne. Il faut la carte d'assurance maladie de l'enfant et un dépôt de 50 dollars.\nCandidate : Et il reste encore des places ?\nExaminateur : Il reste quelques places en juillet, mais août est presque complet.\nCandidate : Alors je vais inscrire mes deux enfants ce soir pour les trois premières semaines de juillet. Merci beaucoup pour toutes ces informations, monsieur. Bonne journée !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t2-5",
+      "section": "T2",
+      "title": "Interaction: buying a used car",
+      "level": "b1",
+      "prompt": "Vous avez vu l'annonce ci-dessous et vous voulez acheter cette voiture. Vous téléphonez au vendeur. Posez-lui des questions pour obtenir toutes les informations nécessaires (état du véhicule, entretien, prix, essai, paiement, etc.). L'examinateur joue le rôle du vendeur.",
+      "promptEn": "You saw the ad below and want to buy this car. You phone the seller. Ask questions to get all the information you need (condition of the vehicle, maintenance, price, test drive, payment, etc.). The examiner plays the seller.",
+      "document": "À VENDRE — Berline compacte 2019, grise, 4 portes\n86 000 km · Transmission automatique · 4 pneus d'hiver inclus\nUn seul propriétaire, non-fumeur\n13 900 $ · Particulier, secteur est de la ville\nAppelez Stéphane après 17 h",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "checklist": [
+        "Greets the seller, refers to the ad and states your interest",
+        "Asks many questions (8 or more) about history, condition, maintenance, price, test drive and payment",
+        "Varies question forms, including indirect questions and the conditional",
+        "Reacts to the answers (comments, reformulation, follow-up questions)",
+        "Negotiates politely on the price or conditions, with arguments",
+        "Closes with a concrete arrangement (appointment, next step) and thanks"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour, je vous appelle au sujet de votre annonce pour la berline.",
+          "en": "Hello, I'm calling about your ad for the sedan."
+        },
+        {
+          "fr": "Est-ce que la voiture est toujours à vendre ?",
+          "en": "Is the car still for sale?"
+        },
+        {
+          "fr": "Pourquoi est-ce que vous la vendez ?",
+          "en": "Why are you selling it?"
+        },
+        {
+          "fr": "A-t-elle déjà eu un accident ?",
+          "en": "Has it ever been in an accident?"
+        },
+        {
+          "fr": "Avez-vous les factures d'entretien ?",
+          "en": "Do you have the maintenance receipts?"
+        },
+        {
+          "fr": "Y a-t-il de la rouille ou des réparations à prévoir ?",
+          "en": "Is there any rust or repairs to expect?"
+        },
+        {
+          "fr": "Est-ce que je pourrais faire un essai routier ?",
+          "en": "Could I take it for a test drive?"
+        },
+        {
+          "fr": "Accepteriez-vous que je la fasse inspecter par un mécanicien ?",
+          "en": "Would you agree to me having it inspected by a mechanic?"
+        },
+        {
+          "fr": "Le prix est-il négociable ?",
+          "en": "Is the price negotiable?"
+        },
+        {
+          "fr": "Vu le kilométrage, seriez-vous prêt à baisser un peu le prix ?",
+          "en": "Given the mileage, would you be willing to lower the price a little?"
+        },
+        {
+          "fr": "Comment préférez-vous être payé ?",
+          "en": "How would you prefer to be paid?"
+        },
+        {
+          "fr": "Alors, on se donne rendez-vous… ?",
+          "en": "So, shall we meet… ?"
+        }
+      ],
+      "examinerLines": [
+        "Allô, oui, Stéphane à l'appareil.",
+        "Oui, elle est toujours à vendre. Je la vends parce que je pars travailler à l'étranger.",
+        "Non, elle n'a jamais eu d'accident. Je l'ai achetée neuve chez le concessionnaire.",
+        "J'ai toutes les factures. J'ai fait les vidanges d'huile tous les 8 000 km, et les freins ont été changés l'automne dernier.",
+        "Il y a une petite égratignure sur la portière arrière, mais pas de rouille.",
+        "Les pneus d'hiver sont presque neufs : ils ont seulement deux hivers.",
+        "Vous pouvez faire un essai routier, bien sûr. Et si vous voulez la faire inspecter, ça ne me dérange pas.",
+        "Le prix est un peu négociable. Je pourrais descendre à 13 400 dollars, mais pas plus bas.",
+        "Je préfère un virement bancaire ou une traite bancaire. Pas d'argent comptant pour un tel montant.",
+        "Je suis disponible samedi toute la journée, ou en semaine après 17 h.",
+        "Elle consomme environ 7 litres aux 100 km en ville."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Examinateur : Allô, oui, Stéphane à l'appareil.\nCandidat : Bonjour, monsieur. Je m'appelle Tomás. Je vous appelle au sujet de votre annonce pour la berline grise de 2019. Est-ce qu'elle est toujours à vendre ?\nExaminateur : Oui, elle est toujours disponible.\nCandidat : Super. D'abord, est-ce que je peux vous demander pourquoi vous la vendez ?\nExaminateur : Je pars travailler à l'étranger, donc je n'en aurai plus besoin.\nCandidat : D'accord. Vous êtes le seul propriétaire, c'est ça ? Est-ce que la voiture a déjà eu un accident ?\nExaminateur : Non, jamais. Je l'ai achetée neuve chez le concessionnaire.\nCandidat : Très bien. Et pour l'entretien, est-ce que vous avez les factures ?\nExaminateur : J'ai toutes les factures. Les vidanges ont été faites tous les 8 000 km, et les freins ont été changés l'automne dernier.\nCandidat : Parfait, c'est rassurant. Est-ce qu'il y a de la rouille ou des dommages sur la carrosserie ?\nExaminateur : Il y a une petite égratignure sur la portière arrière, mais pas de rouille.\nCandidat : Une égratignure, ce n'est pas grave. Et les pneus d'hiver, ils sont en bon état ?\nExaminateur : Presque neufs, ils ont seulement deux hivers.\nCandidat : Bien. Je fais beaucoup de route pour aller au travail. Elle consomme combien d'essence, à peu près ?\nExaminateur : Environ 7 litres aux 100 km en ville.\nCandidat : C'est raisonnable. Est-ce que je pourrais faire un essai routier ? Et, si vous êtes d'accord, je voudrais aussi la faire inspecter par mon mécanicien.\nExaminateur : Pas de problème pour les deux.\nCandidat : Merci. Maintenant, le prix : 13 900 dollars, c'est un peu au-dessus de mon budget. Avec 86 000 kilomètres et l'égratignure, est-ce que vous accepteriez 13 000 dollars ?\nExaminateur : Je pourrais descendre à 13 400, mais pas plus bas.\nCandidat : Hum… D'accord, 13 400, si l'inspection ne montre pas de problème. Comment est-ce que vous préférez être payé ?\nExaminateur : Par virement ou par traite bancaire. Pas d'argent comptant.\nCandidat : Aucun problème, je vais demander une traite à ma banque. Quand est-ce que je pourrais venir voir la voiture ?\nExaminateur : Samedi toute la journée, ou en semaine après 17 h.\nCandidat : Alors samedi à dix heures, ça vous va ? Je viendrai avec mon mécanicien. Pourriez-vous m'envoyer votre adresse exacte par texto ?\nExaminateur : Oui, je vous l'envoie tout de suite.\nCandidat : Merci beaucoup, monsieur. À samedi, alors !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t2-6",
+      "section": "T2",
+      "title": "Interaction: renting a cottage for a weekend",
+      "level": "b1",
+      "prompt": "Vous voulez louer un chalet pour une fin de semaine avec des amis. Vous téléphonez à une entreprise de location de chalets. Posez des questions à l'employé(e) pour obtenir toutes les informations nécessaires (logement, équipements, activités, prix, conditions de réservation, etc.). L'examinateur joue le rôle de l'employé(e).",
+      "promptEn": "You want to rent a cottage for a weekend with friends. You phone a cottage-rental company. Ask the employee questions to get all the information you need (accommodation, equipment, activities, price, booking conditions, etc.). The examiner plays the employee.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "checklist": [
+        "Greets the examiner, states the purpose of the call and the key facts (dates, number of people)",
+        "Asks many questions (8 or more) covering accommodation, equipment, activities, price and booking conditions",
+        "Varies question forms and uses the conditional for polite requests",
+        "Reacts to the answers and adapts the questions to the group's needs",
+        "Checks or reformulates important information (price, dates, deposit)",
+        "Closes the call with a decision or next step and thanks"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Je voudrais louer un chalet pour la fin de semaine du…",
+          "en": "I'd like to rent a cottage for the weekend of…"
+        },
+        {
+          "fr": "Nous serions six adultes.",
+          "en": "There would be six adults."
+        },
+        {
+          "fr": "Combien de chambres y a-t-il ?",
+          "en": "How many bedrooms are there?"
+        },
+        {
+          "fr": "Est-ce que le chalet est équipé d'un spa / d'un foyer ?",
+          "en": "Does the cottage have a hot tub / a fireplace?"
+        },
+        {
+          "fr": "Faut-il apporter les draps et les serviettes ?",
+          "en": "Do we need to bring sheets and towels?"
+        },
+        {
+          "fr": "Qu'est-ce qu'on peut faire dans les environs ?",
+          "en": "What can we do in the surrounding area?"
+        },
+        {
+          "fr": "Les animaux sont-ils acceptés ?",
+          "en": "Are pets allowed?"
+        },
+        {
+          "fr": "Quel est le prix pour deux nuits, taxes comprises ?",
+          "en": "What is the price for two nights, taxes included?"
+        },
+        {
+          "fr": "Faut-il verser un dépôt ?",
+          "en": "Do we need to pay a deposit?"
+        },
+        {
+          "fr": "Quelles sont les conditions d'annulation ?",
+          "en": "What are the cancellation conditions?"
+        },
+        {
+          "fr": "À quelle heure peut-on arriver et à quelle heure faut-il partir ?",
+          "en": "What time can we arrive and what time do we have to leave?"
+        },
+        {
+          "fr": "Si je comprends bien, …",
+          "en": "If I understand correctly, …"
+        }
+      ],
+      "examinerLines": [
+        "Chalets Le Huard Doré, bonjour !",
+        "Pour six personnes, je vous propose le chalet du Sommet : trois chambres, deux salles de bain, au bord d'un lac.",
+        "Il y a un foyer au bois, un spa extérieur et une cuisine tout équipée. Le bois de chauffage est fourni.",
+        "Les draps sont fournis, mais il faut apporter vos serviettes.",
+        "Il y a un sentier de randonnée juste derrière le chalet, et des kayaks et des canots sont à votre disposition gratuitement.",
+        "Le chalet coûte 320 dollars la nuit, avec un minimum de deux nuits, plus les taxes et 90 dollars de frais de ménage.",
+        "Les animaux ne sont pas acceptés dans ce chalet, désolé.",
+        "L'arrivée se fait à partir de 16 h et le départ avant 11 h.",
+        "Il faut verser un dépôt de 30 % à la réservation.",
+        "Vous pouvez annuler sans frais jusqu'à quatorze jours avant l'arrivée. Après, le dépôt n'est pas remboursé.",
+        "Le chemin est déneigé en hiver, mais je vous conseille des pneus d'hiver : la côte est raide."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Examinatrice : Chalets Le Huard Doré, bonjour !\nCandidat : Bonjour, madame. Je vous appelle parce que je voudrais louer un chalet pour la fin de semaine du 14 février. Nous serions six adultes, trois couples d'amis.\nExaminatrice : Pour six personnes, je vous propose le chalet du Sommet : trois chambres, deux salles de bain, au bord d'un lac.\nCandidat : Ça a l'air parfait. Et qu'est-ce qu'il y a comme équipements ? Est-ce qu'il y a un foyer ?\nExaminatrice : Oui, un foyer au bois, un spa extérieur et une cuisine tout équipée. Le bois est fourni.\nCandidat : Un spa en février, c'est génial ! Est-ce qu'on doit apporter les draps et les serviettes ?\nExaminatrice : Les draps sont fournis, mais il faut apporter vos serviettes.\nCandidat : D'accord, c'est noté. Qu'est-ce qu'on peut faire dans les environs ? On aime bien marcher.\nExaminatrice : Il y a un sentier de randonnée juste derrière le chalet, et des kayaks et des canots sont à votre disposition.\nCandidat : En février, le lac sera gelé, je pense, mais on pourra faire de la raquette sur le sentier. Est-ce que la route est accessible en hiver ?\nExaminatrice : Le chemin est déneigé, mais je vous conseille des pneus d'hiver : la côte est raide.\nCandidat : Pas de problème, on a tous des pneus d'hiver. Une autre question : mes amis ont un petit chien. Est-ce qu'il peut venir ?\nExaminatrice : Désolée, les animaux ne sont pas acceptés dans ce chalet.\nCandidat : Ah, dommage. Ils le feront garder. Et quel est le prix ?\nExaminatrice : 320 dollars la nuit, minimum deux nuits, plus les taxes et 90 dollars de frais de ménage.\nCandidat : Donc, si je comprends bien, pour deux nuits, ça fait 730 dollars avant les taxes. Divisé par six, c'est raisonnable. À quelle heure est-ce qu'on peut arriver le vendredi ?\nExaminatrice : À partir de 16 h, et le départ se fait avant 11 h.\nCandidat : Très bien. Comment se passe la réservation ? Faut-il verser un dépôt ?\nExaminatrice : Oui, un dépôt de 30 % à la réservation.\nCandidat : Et si l'un de nous tombe malade, quelles sont les conditions d'annulation ?\nExaminatrice : Vous pouvez annuler sans frais jusqu'à quatorze jours avant l'arrivée. Après, le dépôt n'est pas remboursé.\nCandidat : D'accord. Je vais en parler à mes amis ce soir et je vous rappelle demain pour réserver. Merci beaucoup, madame, bonne fin de journée !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t3-4",
+      "section": "T3",
+      "title": "Point of view: should voting be compulsory?",
+      "level": "b2",
+      "prompt": "Selon vous, le vote devrait-il être obligatoire ?",
+      "promptEn": "In your opinion, should voting be compulsory?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "checklist": [
+        "States a clear opinion at the start",
+        "Develops two or three distinct arguments, each explained",
+        "Gives at least one concrete example (a country, an election, personal experience)",
+        "Acknowledges the opposite view and answers it (certes…, mais…)",
+        "Responds to the examiner's challenges without losing the thread, nuancing if needed",
+        "Uses opinion structures with the subjunctive (il faut que, je ne crois pas que) and varied connectors",
+        "Ends with a short conclusion"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Je suis convaincu(e) que… / Je ne crois pas que… (+ subjonctif)",
+          "en": "I am convinced that… / I don't believe that…"
+        },
+        {
+          "fr": "Le premier argument, c'est que…",
+          "en": "The first argument is that…"
+        },
+        {
+          "fr": "Prenons l'exemple de…",
+          "en": "Let's take the example of…"
+        },
+        {
+          "fr": "Le taux de participation",
+          "en": "The turnout rate"
+        },
+        {
+          "fr": "C'est un droit, mais aussi un devoir.",
+          "en": "It is a right, but also a duty."
+        },
+        {
+          "fr": "Certes, …, mais il n'en reste pas moins que…",
+          "en": "Admittedly, …, but the fact remains that…"
+        },
+        {
+          "fr": "Je vois ce que vous voulez dire, cependant…",
+          "en": "I see what you mean, however…"
+        },
+        {
+          "fr": "Ce serait une erreur de…",
+          "en": "It would be a mistake to…"
+        },
+        {
+          "fr": "À condition que… (+ subjonctif)",
+          "en": "Provided that…"
+        },
+        {
+          "fr": "Une solution intermédiaire serait de…",
+          "en": "A middle-ground solution would be to…"
+        },
+        {
+          "fr": "En résumé, …",
+          "en": "In short, …"
+        }
+      ],
+      "examinerLines": [
+        "Mais forcer les gens à voter, ce n'est pas contraire à la liberté ?",
+        "Si quelqu'un ne s'intéresse pas du tout à la politique, son vote a-t-il vraiment de la valeur ?",
+        "Faudrait-il donner une amende à ceux qui ne votent pas ?",
+        "Le problème ne vient-il pas plutôt des politiciens, qui ne donnent plus envie de voter ?",
+        "Et le vote en ligne, est-ce que ce ne serait pas une meilleure solution ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Candidate : Alors, c'est une question difficile, mais personnellement, je suis plutôt pour le vote obligatoire. Je vais vous expliquer pourquoi.\n\nLe premier argument, c'est la participation. Dans beaucoup de pays, et au Canada aussi, le taux de participation baisse, surtout aux élections municipales. Parfois, seulement un tiers des électeurs vote. Alors, le maire est élu par une petite minorité, et je ne pense pas que ce soit vraiment démocratique.\n\nDeuxièmement, je crois que voter, c'est un droit, mais aussi un devoir. Dans mon pays d'origine, mes grands-parents n'avaient pas le droit de voter librement. Pour eux, c'est quelque chose de précieux. Quand je pense à ça, je trouve dommage que des gens ne se déplacent pas.\n\nExaminateur : Mais forcer les gens à voter, ce n'est pas contraire à la liberté ?\n\nCandidate : Je comprends votre point de vue. Mais on a déjà des obligations : payer ses impôts, envoyer ses enfants à l'école… Et puis, l'obligation, c'est d'aller au bureau de vote, pas de choisir un parti. On pourrait voter blanc, si on n'aime aucun candidat.\n\nExaminateur : Si quelqu'un ne s'intéresse pas du tout à la politique, son vote a-t-il vraiment de la valeur ?\n\nCandidate : C'est vrai que c'est un risque. Mais je pense que si les gens savent qu'ils doivent voter, ils vont s'informer un peu plus. Par exemple, en Australie, le vote est obligatoire depuis longtemps, et je crois que les citoyens suivent davantage la politique.\n\nExaminateur : Faudrait-il donner une amende à ceux qui ne votent pas ?\n\nCandidate : Oui, mais une petite amende, symbolique. Il ne faut pas que ce soit une punition pour les personnes pauvres. Et il faut aussi que voter soit facile : plus de bureaux de vote, le vote par anticipation, peut-être le vote en ligne.\n\nEn résumé, je pense que le vote obligatoire peut renforcer la démocratie, à condition qu'on laisse la possibilité de voter blanc et qu'on facilite l'accès au vote pour tout le monde."
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t3-5",
+      "section": "T3",
+      "title": "Point of view: big city or small town?",
+      "level": "b2",
+      "prompt": "Selon vous, vaut-il mieux s'installer dans une grande ville ou dans une petite ville en région quand on arrive au Canada ?",
+      "promptEn": "In your opinion, is it better to settle in a big city or in a small town in the regions when you arrive in Canada?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "checklist": [
+        "States a clear preference at the start, possibly with a condition",
+        "Develops at least two arguments (jobs, housing, community, services, language…) with explanations",
+        "Gives a concrete example from your own life or from someone you know",
+        "Compares the two options with comparative structures (plus… que, moins de… que, aussi… que)",
+        "Answers the examiner's challenges and nuances the position if needed",
+        "Uses varied connectors and at least one hypothetical structure (si j'avais…, je…)",
+        "Ends with a short conclusion"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Tout dépend de…",
+          "en": "It all depends on…"
+        },
+        {
+          "fr": "Pour un nouvel arrivant, le plus important, c'est…",
+          "en": "For a newcomer, the most important thing is…"
+        },
+        {
+          "fr": "Le coût du logement est beaucoup plus élevé à…",
+          "en": "The cost of housing is much higher in…"
+        },
+        {
+          "fr": "Il y a davantage de… / moins de… qu'en région",
+          "en": "There are more… / fewer… than in the regions"
+        },
+        {
+          "fr": "On s'intègre plus facilement quand…",
+          "en": "It's easier to fit in when…"
+        },
+        {
+          "fr": "La pénurie de main-d'œuvre",
+          "en": "The labour shortage"
+        },
+        {
+          "fr": "Un de mes amis s'est installé à… et…",
+          "en": "One of my friends settled in… and…"
+        },
+        {
+          "fr": "D'un côté…, de l'autre…",
+          "en": "On the one hand…, on the other…"
+        },
+        {
+          "fr": "Je reconnais que… mais…",
+          "en": "I admit that… but…"
+        },
+        {
+          "fr": "Si c'était à refaire, je…",
+          "en": "If I had to do it again, I would…"
+        },
+        {
+          "fr": "Au bout du compte, …",
+          "en": "At the end of the day, …"
+        }
+      ],
+      "examinerLines": [
+        "Mais dans une petite ville, il y a moins d'emplois qualifiés, non ?",
+        "Et les communautés culturelles ? Un nouvel arrivant ne risque-t-il pas de se sentir isolé en région ?",
+        "Sans transport en commun, comment fait-on sans voiture ?",
+        "Pour les enfants, l'offre scolaire n'est-elle pas meilleure en ville ?",
+        "Le gouvernement devrait-il encourager les immigrants à s'installer en région ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Candidat : Alors, à mon avis, tout dépend de la situation de la personne, mais je pense que, pour beaucoup de nouveaux arrivants, une petite ville en région est un meilleur choix. Je vais donner trois raisons.\n\nD'abord, le logement. Dans les grandes villes comme Toronto ou Vancouver, les loyers sont devenus très chers. Une famille peut payer plus de la moitié de son salaire pour un appartement. En région, on peut louer une maison avec un jardin pour le même prix qu'un petit trois et demie en ville.\n\nEnsuite, l'intégration. Dans une petite ville, les gens se connaissent, on rencontre ses voisins à l'épicerie, à l'aréna… Et au Québec, en région, on est obligé de parler français tous les jours, alors on progresse plus vite. Un de mes amis s'est installé à Rimouski il y a deux ans, et aujourd'hui, il parle français beaucoup mieux que moi !\n\nEnfin, il y a beaucoup d'emplois en région à cause de la pénurie de main-d'œuvre, surtout dans la santé, la construction et l'industrie.\n\nExaminateur : Mais dans une petite ville, il y a moins d'emplois qualifiés, non ?\n\nCandidat : Je reconnais que c'est vrai pour certains métiers. Si on est spécialiste en finance ou en intelligence artificielle, c'est plus facile de trouver un poste à Montréal. Mais les hôpitaux et les écoles en région cherchent du personnel qualifié. Et avec le télétravail, beaucoup de gens travaillent pour une entreprise en ville tout en habitant ailleurs.\n\nExaminateur : Et les communautés culturelles ? Un nouvel arrivant ne risque-t-il pas de se sentir isolé ?\n\nCandidat : Oui, c'est le point faible. En ville, on trouve facilement des gens de son pays, des restaurants, des épiceries de chez nous. En région, on peut se sentir seul au début. Mais beaucoup de petites villes ont maintenant des organismes d'accueil qui organisent des activités.\n\nExaminateur : Sans transport en commun, comment fait-on sans voiture ?\n\nCandidat : C'est vrai, en région, il faut presque toujours une voiture, surtout en hiver. C'est une dépense importante, mais avec un loyer moins cher, le budget reste souvent plus équilibré.\n\nAu bout du compte, je dirais que la grande ville est plus rassurante au début, mais la région offre souvent une meilleure qualité de vie et une intégration plus rapide. Si c'était à refaire, je choisirais probablement une petite ville."
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t3-6",
+      "section": "T3",
+      "title": "Point of view: AI for homework?",
+      "level": "b2",
+      "prompt": "Selon vous, faut-il autoriser les élèves à utiliser l'intelligence artificielle pour faire leurs devoirs ?",
+      "promptEn": "In your opinion, should students be allowed to use artificial intelligence to do their homework?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "checklist": [
+        "States a clear position at the start (for, against, or for under conditions)",
+        "Develops two or three arguments about learning, fairness or the future of work",
+        "Illustrates with a concrete example (your children, your studies, your job)",
+        "Acknowledges the risks or benefits raised by the other side and responds",
+        "Handles the examiner's objections calmly, reformulating or nuancing",
+        "Uses the subjunctive after il faut que / bien que / pour que, and varied connectors",
+        "Ends with a short conclusion"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Je suis pour, à condition que… (+ subjonctif)",
+          "en": "I'm in favour, provided that…"
+        },
+        {
+          "fr": "Il ne faut pas que les élèves… (+ subjonctif)",
+          "en": "Students must not…"
+        },
+        {
+          "fr": "C'est un outil, pas une solution miracle.",
+          "en": "It's a tool, not a miracle solution."
+        },
+        {
+          "fr": "Apprendre à s'en servir de façon critique",
+          "en": "Learn to use it critically"
+        },
+        {
+          "fr": "Le risque, c'est que…",
+          "en": "The risk is that…"
+        },
+        {
+          "fr": "Ça revient à… / Ça équivaut à…",
+          "en": "That amounts to…"
+        },
+        {
+          "fr": "Bien que ce soit… (+ subjonctif)",
+          "en": "Although it is…"
+        },
+        {
+          "fr": "Prenons le cas de…",
+          "en": "Let's take the case of…"
+        },
+        {
+          "fr": "Vous avez raison sur ce point, mais…",
+          "en": "You are right on that point, but…"
+        },
+        {
+          "fr": "De toute façon, …",
+          "en": "In any case, …"
+        },
+        {
+          "fr": "Pour conclure, …",
+          "en": "To conclude, …"
+        }
+      ],
+      "examinerLines": [
+        "Mais si l'intelligence artificielle fait le travail, l'élève n'apprend rien, non ?",
+        "Comment un enseignant peut-il savoir qui a vraiment fait le devoir ?",
+        "Tous les élèves n'ont pas accès à ces outils à la maison. N'est-ce pas injuste ?",
+        "Ne faudrait-il pas tout simplement supprimer les devoirs à la maison ?",
+        "Est-ce que vous l'utilisez vous-même pour apprendre le français ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Candidate : Pour moi, il ne faut pas interdire l'intelligence artificielle, parce que de toute façon, les élèves vont l'utiliser. Je pense qu'il faut plutôt leur apprendre à s'en servir intelligemment. Je suis donc pour, mais avec des règles claires.\n\nD'abord, c'est un outil qui fait déjà partie de notre vie. Dans mon travail, par exemple, j'utilise un assistant pour résumer des documents ou corriger mes courriels. Si l'école ignore ces outils, les jeunes ne seront pas préparés au marché du travail.\n\nEnsuite, l'intelligence artificielle peut aider les élèves qui ont des difficultés. Mon fils a quatorze ans et il a du mal en mathématiques. Quand il ne comprend pas un exercice, il demande à l'outil de lui expliquer étape par étape, comme un tuteur. Moi, je ne peux pas toujours l'aider, parce que je travaille tard.\n\nExaminatrice : Mais si l'intelligence artificielle fait le travail, l'élève n'apprend rien, non ?\n\nCandidate : Vous avez raison sur ce point : si l'élève copie simplement la réponse, ça ne sert à rien. C'est pour ça qu'il faut que les enseignants changent un peu les devoirs. Par exemple, ils peuvent demander aux élèves d'expliquer leur raisonnement à l'oral, ou de critiquer une réponse produite par la machine.\n\nExaminatrice : Comment un enseignant peut-il savoir qui a vraiment fait le devoir ?\n\nCandidate : C'est difficile, je le reconnais. Mais les enseignants connaissent leurs élèves. Si un élève écrit mal en classe et rend un texte parfait à la maison, on le voit tout de suite. Et les évaluations importantes peuvent se faire en classe, sans ordinateur.\n\nExaminatrice : Tous les élèves n'ont pas accès à ces outils à la maison. N'est-ce pas injuste ?\n\nCandidate : Oui, c'est un vrai problème. Justement, l'école doit donner accès à ces outils à tous, dans les bibliothèques ou en classe, pour que les élèves de familles modestes ne soient pas désavantagés.\n\nPour conclure, je dirais que l'intelligence artificielle est comme la calculatrice autrefois : au début, on avait peur, et maintenant, on l'utilise normalement. Ce qui compte, c'est que l'élève continue à réfléchir par lui-même."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-02-01",
+  "level": "b1",
+  "unit": "b1-02",
+  "title": "The plus-que-parfait",
+  "goal": "Form the plus-que-parfait and use it to say what had already happened before another past event.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-pqp", "kind": "grammar", "fr": "j'avais fini / j'étais parti", "en": "plus-que-parfait: imparfait of avoir or être + past participle (had done)",
+      "drills": [
+        { "type": "cloze", "text": "Quand je suis arrivé, le film ___ déjà commencé.", "answers": [["avait"]], "en": "When I arrived, the film had already started.", "explain": "[[commencer]] takes avoir: [[il avait commencé]]." },
+        { "type": "cloze", "text": "Nous ___ déjà mangé quand Raj a téléphoné.", "answers": [["avions"]], "en": "We had already eaten when Raj called.", "explain": "nous → [[avions]] + [[mangé]]." },
+        { "type": "cloze", "text": "Le train ___ déjà parti.", "answers": [["était"]], "en": "The train had already left.", "explain": "[[partir]] takes être: [[il était parti]]." },
+        { "type": "translate", "prompt": "I had forgotten my wallet.", "accept": ["J'avais oublié mon portefeuille."], "explain": "[[j'avais]] + [[oublié]]." }
+      ] },
+    { "id": "g-pqp-etre", "kind": "grammar", "fr": "elle était partie / ils s'étaient trompés", "en": "plus-que-parfait with être: the participle agrees with the subject",
+      "drills": [
+        { "type": "cloze", "text": "Mei ___ ___ à Montréal en novembre. (arriver)", "answers": [["était"], ["arrivée"]], "en": "Mei had arrived in Montréal in November.", "explain": "[[arriver]] takes être, and Mei is a woman: [[elle était arrivée]]." },
+        { "type": "cloze", "text": "Mes amis s'___ trompés de rue.", "answers": [["étaient"]], "en": "My friends had got the wrong street.", "explain": "Reflexive verbs take être: [[ils s'étaient trompés]], with -s for the plural." },
+        { "type": "mcq", "prompt": "Sofia and Lucie had left. Which is correct?", "options": ["Elles étaient parties.", "Elles avaient parties.", "Elles étaient parti.", "Elles avaient parti."], "optionsFr": true, "answer": 0, "explain": "[[partir]] uses être, so the participle agrees: feminine plural [[parties]]." }
+      ] },
+    { "id": "deja", "kind": "vocab", "fr": "déjà", "en": "already", "pos": "adverb",
+      "example": { "fr": "Le train était déjà parti.", "en": "The train had already left." }, "note": "With compound tenses, déjà goes between the auxiliary and the participle." },
+    { "id": "pas-encore", "kind": "phrase", "fr": "Il n'était pas encore arrivé.", "en": "He hadn't arrived yet.", "accept": ["Il n'était pas encore là."] },
+    { "id": "jamais-vu", "kind": "phrase", "fr": "Je n'avais jamais vu de neige.", "en": "I had never seen snow.", "accept": ["Je n'avais jamais vu la neige."] },
+    { "id": "javais-oublie", "kind": "phrase", "fr": "J'avais oublié.", "en": "I had forgotten." },
+    { "id": "se-tromper", "kind": "vocab", "fr": "se tromper", "en": "to be wrong, to make a mistake", "pos": "verb",
+      "example": { "fr": "J'ai compris que je m'étais trompée.", "en": "I realized I had been wrong. (woman speaking)" }, "note": "se tromper de + noun = to get the wrong…: se tromper de rue (to get the wrong street)." },
+    { "id": "portefeuille", "kind": "vocab", "fr": "portefeuille", "article": "le", "gender": "m", "en": "wallet", "pos": "noun", "accept": ["un portefeuille"] },
+    { "id": "auberge", "kind": "vocab", "fr": "auberge", "article": "une", "gender": "f", "en": "inn, small hotel", "pos": "noun", "accept": ["l'auberge"] },
+    { "id": "tuque", "kind": "vocab", "fr": "tuque", "article": "la", "gender": "f", "en": "winter hat, toque (Québec)", "pos": "noun", "accept": ["une tuque", "le bonnet", "un bonnet"], "note": "In France: le bonnet." },
+    { "id": "mitaine", "kind": "vocab", "fr": "mitaines", "article": "les", "gender": "f", "en": "mittens (Québec)", "pos": "noun", "accept": ["des mitaines", "les moufles", "des moufles"], "note": "In France: les moufles." },
+    { "id": "avec-retard", "kind": "phrase", "fr": "Le bus est parti avec deux heures de retard.", "en": "The bus left two hours late.", "accept": ["L'autobus est parti avec deux heures de retard.", "Le bus est parti avec 2 heures de retard."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A weekend that went wrong",
+      "intro": "Listen for the moments when Karim jumps **further back** in time to explain what went wrong.",
+      "blocks": [
+        { "type": "dialogue", "title": "Monday morning, in an office in Gatineau",
+          "context": "Amira asks her colleague Karim about his weekend in Québec City with his wife Sofia.",
+          "lines": [
+            { "speaker": "Amira", "fr": "Alors, Karim, ta fin de semaine à Québec, c'était comment ?", "en": "So, Karim, how was your weekend in Québec City?" },
+            { "speaker": "Karim", "fr": "Franchement, ça a mal commencé. Quand on est arrivés à la gare, le train était déjà parti.", "en": "Honestly, it started badly. When we got to the station, the train had already left." },
+            { "speaker": "Amira", "fr": "Non ! Vous étiez en retard ?", "en": "No! Were you late?" },
+            { "speaker": "Karim", "fr": "Oui. Sofia avait oublié son portefeuille, et on était retournés à la maison pour le chercher.", "en": "Yes. Sofia had forgotten her wallet, and we had gone back home to get it." },
+            { "speaker": "Amira", "fr": "Et qu'est-ce que vous avez fait ?", "en": "And what did you do?" },
+            { "speaker": "Karim", "fr": "On a pris l'autobus de midi. Mais à l'hôtel, il y avait un autre problème : je n'avais pas confirmé la réservation, et ils avaient donné notre chambre à un autre couple.", "en": "We took the noon bus. But at the hotel there was another problem: I hadn't confirmed the reservation, and they had given our room to another couple." },
+            { "speaker": "Amira", "fr": "Oh là là ! Vous avez trouvé une autre chambre ?", "en": "Oh dear! Did you find another room?" },
+            { "speaker": "Karim", "fr": "Oui, dans une petite auberge du Vieux-Québec. Et tu sais quoi ? C'était encore mieux. La propriétaire avait préparé des muffins maison pour le déjeuner.", "en": "Yes, in a small inn in Old Québec. And you know what? It was even better. The owner had made homemade muffins for breakfast." },
+            { "speaker": "Amira", "fr": "Donc ce n'était pas un désastre complet !", "en": "So it wasn't a complete disaster!" },
+            { "speaker": "Karim", "fr": "Non… sauf dimanche. Il avait neigé toute la nuit, et notre autobus est parti avec deux heures de retard.", "en": "No… except Sunday. It had snowed all night, and our bus left two hours late." },
+            { "speaker": "Amira", "fr": "Bon, la prochaine fois, tu vas tout vérifier deux fois !", "en": "Well, next time you'll check everything twice!" },
+            { "speaker": "Karim", "fr": "Promis. J'ai bien appris ma leçon !", "en": "Promise. I've really learned my lesson!" }
+          ] },
+        { "type": "text", "title": "Mei's blog: my first winter in Montréal",
+          "fr": "Je suis arrivée à Montréal en novembre. Avant mon départ de Shanghai, j'avais lu beaucoup d'articles sur l'hiver québécois et j'avais acheté un gros manteau. Je pensais que j'étais prête !\nMais le premier matin de janvier, quand je suis sortie de mon appartement, j'ai compris que je m'étais trompée. Il faisait moins 25 degrés ! Mon manteau n'était pas assez chaud et je n'avais pas encore acheté de bottes d'hiver.\nHeureusement, ma voisine Lucie était là. Elle avait vu mes petites chaussures de ville par la fenêtre et elle avait bien ri. L'après-midi, nous sommes allées ensemble dans un magasin de sport. Là, j'ai découvert trois mots essentiels : les bottes, les mitaines et la tuque. Avant ce jour-là, je n'avais jamais entendu le mot « tuque » !\nAujourd'hui, j'adore l'hiver. J'ai appris à patiner et à faire de la raquette. Mais je n'oublie pas ce premier matin glacial…",
+          "en": "I arrived in Montréal in November. Before leaving Shanghai, I had read lots of articles about the Québec winter and I had bought a big coat. I thought I was ready! But on the first morning of January, when I went out of my apartment, I realized I had been wrong. It was minus 25 degrees! My coat wasn't warm enough and I hadn't bought winter boots yet. Luckily, my neighbour Lucie was there. She had seen my little city shoes through the window and she had laughed a lot. In the afternoon, we went to a sports store together. There I discovered three essential words: boots, mittens and the tuque. Before that day, I had never heard the word “tuque”! Today, I love winter. I've learned to skate and to snowshoe. But I don't forget that first freezing morning…" },
+        { "id": "d1", "type": "mcq", "prompt": "In Karim's story, what happened first?", "options": ["Sofia forgot her wallet.", "They arrived at the station.", "They took the noon bus.", "They found an inn."], "answer": 0,
+          "explain": "[[Sofia avait oublié son portefeuille]] is in the plus-que-parfait: it happened **before** they arrived at the station." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does Mei write “j'avais acheté un gros manteau”?", "options": ["She bought it before arriving, earlier than the rest of the story.", "She bought it every winter.", "She is going to buy it.", "She bought it on the first morning of January."], "answer": 0,
+          "explain": "The plus-que-parfait takes us back to a time **before** the main story (her arrival in Montréal)." }
+      ] },
+    { "type": "understand", "title": "One step further back in the past",
+      "blocks": [
+        { "type": "explain", "title": "What the plus-que-parfait does",
+          "body": "You already tell stories with the **passé composé** (events) and the **imparfait** (background). The **plus-que-parfait** adds a third layer: something that had **already** happened **before** the moment you are talking about.\n\nIt is exactly like English *had + past participle*: [[Le train était déjà parti]] = *The train had already left*.\n\nGood news: there is nothing new to memorize. You know the imparfait of avoir and être, and you know your past participles." },
+        { "type": "pattern", "title": "Formation",
+          "pattern": "imparfait de avoir / être + participe passé",
+          "note": "The **same verbs** that take être in the passé composé take être here (aller, venir, partir, arriver, rester, naître, mourir… and all reflexive verbs). With être, the participle **agrees** with the subject.",
+          "examples": [
+            { "fr": "J'ai fini. → J'avais fini.", "en": "I finished. → I had finished." },
+            { "fr": "Elle est partie. → Elle était partie.", "en": "She left. → She had left." },
+            { "fr": "Nous nous sommes trompés. → Nous nous étions trompés.", "en": "We got it wrong. → We had got it wrong." }
+          ] },
+        { "type": "table", "title": "Two model verbs",
+          "head": ["", "finir (avoir)", "partir (être)"],
+          "rows": [
+            ["je / j'", "avais fini", "étais parti"],
+            ["tu", "avais fini", "étais parti"],
+            ["il / elle / on", "avait fini", "était parti"],
+            ["nous", "avions fini", "étions partis"],
+            ["vous", "aviez fini", "étiez partis"],
+            ["ils / elles", "avaient fini", "étaient partis"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "With être, add **-e** for a woman and **-s** for the plural: [[elle était partie]], [[elles étaient parties]]. Negation goes around the auxiliary: [[je n'avais pas fini]], [[il n'était pas encore parti]]." },
+        { "type": "table", "title": "When to use it",
+          "head": ["Use", "Example", "English"],
+          "rows": [
+            ["An action finished before another past action", "Quand je suis arrivé, le film avait commencé.", "When I arrived, the film had started."],
+            ["Explaining the cause of a past situation", "J'étais fatigué : j'avais mal dormi.", "I was tired: I had slept badly."],
+            ["With déjà, jamais, pas encore", "Je n'avais jamais vu de neige.", "I had never seen snow."],
+            ["A past thought about an earlier event", "J'ai compris que je m'étais trompée.", "I realized I had been wrong."]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "vocab", "title": "Words from the stories", "itemIds": ["deja", "se-tromper", "portefeuille", "auberge", "tuque", "mitaine"] },
+        { "type": "deepdive", "kind": "why", "title": "Why not just use the passé composé?",
+          "body": "Compare:\n\n- [[Quand je suis arrivé, le film a commencé.]] → I arrived, **then** the film started (I saw the beginning).\n- [[Quand je suis arrivé, le film avait commencé.]] → the film started **before** I arrived (I missed the beginning).\n\nIn casual English, *had* is sometimes dropped, but French is stricter: if the order matters, use the plus-que-parfait. Think of a timeline: **PQP** → **PC** → now.",
+          "examples": [
+            { "fr": "Quand Lucie a appelé, j'étais déjà sorti.", "en": "When Lucie called, I had already gone out." },
+            { "fr": "Il avait plu, alors la route était glissante.", "en": "It had rained, so the road was slippery." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Passé composé of the auxiliary:** [[j'ai eu fini]] → [[j'avais fini]]. In the plus-que-parfait, the auxiliary is always in the **imparfait**.\n- **Wrong auxiliary:** [[il avait parti]] → [[il était parti]]. If the verb takes être in the passé composé, it takes être here too.\n- **Forgetting agreement with être:** [[Mei était arrivé]] → [[Mei était arrivée]].\n- **Position of déjà:** [[j'avais fini déjà]] → [[j'avais déjà fini]]. Short adverbs (déjà, jamais, bien, encore) go **between** the auxiliary and the participle.\n- **Overusing it:** a simple sequence of events in order ([[Je suis rentré, j'ai mangé, je me suis couché]]) needs only the passé composé." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "Mei's story uses three Québec winter words: [[une tuque]] (France: *un bonnet*), [[des mitaines]] (France: *des moufles*; in France *mitaines* are fingerless gloves) and [[faire de la raquette]] (to go snowshoeing). Karim says [[la fin de semaine]] (France: *le week-end*) and [[le déjeuner]] for breakfast (France: *le petit-déjeuner*). In Québec, [[l'autobus]] is very common; [[le bus]] is understood everywhere." }
+      ] },
+    { "type": "hear", "title": "Hear the difference",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "[[j'avais]], [[il avait]] and [[ils avaient]] all end in the same *è* sound. Only [[nous avions]] and [[vous aviez]] sound different.",
+          "lines": [
+            { "fr": "Le train était déjà parti.", "en": "The train had already left." },
+            { "fr": "J'avais oublié mon portefeuille.", "en": "I had forgotten my wallet.", "tip": "j'avais oublié: link the two vowels smoothly, without a pause." },
+            { "fr": "Ils avaient donné notre chambre.", "en": "They had given our room away.", "tip": "Make the liaison: ils‿avaient sounds like il-za-vè." },
+            { "fr": "Je n'avais jamais vu de neige.", "en": "I had never seen snow." },
+            { "fr": "Nous étions déjà rentrés.", "en": "We had already come home.", "tip": "nous‿étions: z sound." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Quand nous sommes arrivés, le concert avait commencé.", "en": "When we arrived, the concert had started.", "prompt": "Did they see the beginning of the concert?", "options": ["No, it had started before they arrived.", "Yes, it started when they arrived.", "Yes, they arrived early."], "answer": 0,
+          "explain": "[[avait commencé]] is plus-que-parfait: the concert started **before** they arrived." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'avais réservé une table pour huit heures.", "en": "I had booked a table for eight o'clock.", "prompt": "Which verb form did you hear?", "options": ["j'avais réservé (had booked)", "j'ai réservé (booked)", "je réservais (was booking)"], "answer": 0,
+          "explain": "You heard [[avais]] + participle: the plus-que-parfait." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Ask yourself each time: did this happen **before** another past event?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Quand Raj est arrivé au bureau, la réunion ___ déjà ___. (commencer)", "answers": [["avait"], ["commencé"]], "en": "When Raj got to the office, the meeting had already started.",
+          "explain": "The meeting started before Raj arrived: [[avait commencé]]. [[déjà]] goes between the two words." },
+        { "id": "r2", "type": "cloze", "text": "Nous ___ partis quand il a commencé à neiger.", "answers": [["étions"]], "choices": ["étions", "avions", "sommes", "étaient"], "en": "We had left when it started to snow.",
+          "explain": "[[partir]] takes être; nous → [[étions]]." },
+        { "id": "r3", "type": "mcq", "prompt": "“I was hungry because I hadn't eaten.” Which is correct?", "options": ["J'avais faim parce que je n'avais pas mangé.", "J'avais faim parce que je n'ai pas mangé.", "J'ai eu faim parce que je n'étais pas mangé.", "J'avais faim parce que je ne mangeais pas."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Not eating happened before being hungry: use the plus-que-parfait.", "manger takes avoir, never être.", "The imparfait describes a habit or background, not an earlier finished action."] },
+        { "id": "r4", "type": "translate", "prompt": "The train had already left.", "accept": ["Le train était déjà parti."], "hint": "partir takes être.", "explain": "[[était]] + [[parti]], with [[déjà]] in the middle." },
+        { "id": "r5", "type": "cloze", "text": "Lucie ___ ___ de rue, alors elle était en retard. (se tromper)", "answers": [["s'était"], ["trompée"]], "en": "Lucie had got the wrong street, so she was late.",
+          "explain": "Reflexive verbs take être, and Lucie is a woman: [[elle s'était trompée]]." },
+        { "id": "r6", "type": "reorder", "prompt": "I had never seen snow.", "accept": ["Je n'avais jamais vu de neige"], "extra": ["ai", "pas"],
+          "explain": "[[ne]] before the auxiliary, [[jamais]] after it; after a negative, [[de neige]]." },
+        { "id": "r7", "type": "match", "prompt": "Match each passé composé with its plus-que-parfait.", "pairs": [["j'ai vu", "j'avais vu"], ["elle est venue", "elle était venue"], ["nous avons pris", "nous avions pris"], ["ils se sont levés", "ils s'étaient levés"], ["tu as fait", "tu avais fait"]] },
+        { "id": "r8", "type": "translate", "prompt": "When I arrived in Toronto, my brother had already found an apartment.", "accept": ["Quand je suis arrivé à Toronto, mon frère avait déjà trouvé un appartement.", "Quand je suis arrivée à Toronto, mon frère avait déjà trouvé un appartement.", "Lorsque je suis arrivé à Toronto, mon frère avait déjà trouvé un appartement.", "Lorsque je suis arrivée à Toronto, mon frère avait déjà trouvé un appartement.", "Quand je suis arrivé à Toronto, mon frère avait déjà trouvé un logement.", "Quand je suis arrivée à Toronto, mon frère avait déjà trouvé un logement."],
+          "hint": "Arrival = passé composé; the earlier action = plus-que-parfait.", "explain": "Your arrival is the main event ([[je suis arrivé]]); finding the apartment came before ([[avait déjà trouvé]])." },
+        { "id": "r9", "type": "dictation", "fr": "Il avait neigé toute la nuit.", "accept": [], "explain": "[[avait]] ends in -t for il; [[neigé]] has an é." },
+        { "id": "r10", "type": "cloze", "text": "Il ___ froid, et je n'___ pas encore acheté de bottes.", "answers": [["faisait"], ["avais"]], "choices": ["faisait", "a fait", "avais", "ai"], "en": "It was cold, and I hadn't bought boots yet.",
+          "explain": "Weather in the background → imparfait ([[il faisait]]); an action not done before that moment → plus-que-parfait ([[je n'avais pas encore acheté]])." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Tell a friend about a day when you arrived somewhere and something had already happened (the bus had left, the store had closed, the party had started…). Explain why you were late.", "seconds": 60,
+          "checklist": ["Set the scene (when, where)", "What you found when you arrived (plus-que-parfait)", "Why you were late (plus-que-parfait)", "What you did then (passé composé)", "How it ended"],
+          "models": [ { "label": "Model answer", "fr": "L'année dernière, j'avais un rendez-vous à la banque. Mais quand je suis arrivé, à neuf heures, la conseillère était déjà partie en réunion ! En fait, je m'étais trompé d'heure : mon rendez-vous était à huit heures. Je n'avais pas bien lu le courriel. Alors j'ai téléphoné et j'ai pris un autre rendez-vous. Maintenant, je vérifie toujours la date deux fois !", "en": "Last year, I had an appointment at the bank. But when I arrived, at nine, the advisor had already left for a meeting! In fact, I had got the wrong time: my appointment was at eight. I hadn't read the email properly. So I called and made another appointment. Now I always check the date twice!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short blog post about your first days in a new city or country. Say what you had done or imagined before you arrived, and what you discovered.", "promptFr": "Racontez vos premiers jours dans une nouvelle ville.",
+          "wordRange": [60, 110],
+          "checklist": ["At least three verbs in the plus-que-parfait", "At least one with être and the right agreement", "déjà, jamais or pas encore", "Passé composé for the main events and imparfait for descriptions", "A short conclusion about today"],
+          "models": [ { "label": "Model answer", "fr": "Je suis arrivé à Vancouver en septembre. Avant mon départ, j'avais regardé beaucoup de vidéos sur la ville et j'avais trouvé une chambre sur Internet. Mais quand je suis arrivé, la chambre était très petite et très chère ! Heureusement, un collègue m'avait donné le numéro d'une amie. Elle m'a aidé à trouver un appartement près du travail. Je n'avais jamais vu autant de pluie, mais aujourd'hui, j'adore Vancouver.", "en": "I arrived in Vancouver in September. Before leaving, I had watched lots of videos about the city and I had found a room online. But when I arrived, the room was very small and very expensive! Luckily, a colleague had given me a friend's number. She helped me find an apartment near work. I had never seen so much rain, but today I love Vancouver." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form the **plus-que-parfait**: imparfait of [[avoir]] or [[être]] + past participle ([[j'avais fini]], [[elle était partie]])\n- Use it for what had **already** happened before another past event, or to explain a past situation\n- Place [[déjà]], [[jamais]] and [[pas encore]] correctly, and make participles agree with être",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Checked plus-que-parfait formation and agreement (correct); fixed an illogical model story (bank closed / wrong day); removed an accept that dropped déjà; clarified two explanation lines."}
+}

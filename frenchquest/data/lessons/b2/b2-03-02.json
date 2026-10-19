@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-03-02",
+  "level": "b2",
+  "unit": "b2-03",
+  "title": "Environment debates",
+  "goal": "Debate a local environmental policy (public transit, urban sprawl, energy transition), present the arguments of each camp and state a goal with pour que + subjunctive.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-pour-que", "kind": "grammar", "fr": "pour que / afin que + subjonctif ; pour / afin de + infinitif", "en": "expressing a goal (so that, in order to)",
+      "drills": [
+        { "type": "cloze", "text": "La ville ajoute des autobus pour que les gens ___ laisser leur voiture à la maison. (pouvoir)", "answers": [["puissent"]], "en": "The city is adding buses so that people can leave their car at home.", "explain": "Two different subjects (la ville / les gens) → [[pour que]] + subjunctive: [[puissent]]." },
+        { "type": "cloze", "text": "Nous prenons le vélo ___ réduire nos émissions.", "answers": [["pour", "afin de"]], "en": "We take the bike to reduce our emissions.", "explain": "Same subject (nous… nous) → [[pour]] or [[afin de]] + infinitive, no [[que]]." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Il faut des pistes cyclables afin que le vélo soit plus sûr.", "Il faut des pistes cyclables afin que le vélo est plus sûr.", "Il faut des pistes cyclables afin de le vélo soit plus sûr.", "Il faut des pistes cyclables pour le vélo est plus sûr."], "optionsFr": true, "answer": 0, "explain": "[[afin que]] + subjunctive: [[soit]]. [[afin de]] is only followed by an infinitive." }
+      ] },
+    { "id": "transition", "kind": "vocab", "fr": "transition énergétique", "article": "la", "gender": "f", "en": "energy transition (moving away from fossil fuels)", "pos": "noun", "accept": ["la transition énergétique"] },
+    { "id": "transport-collectif", "kind": "vocab", "fr": "transport collectif", "article": "le", "gender": "m", "en": "public transit (Québec term)", "pos": "noun", "accept": ["le transport collectif", "les transports en commun", "le transport en commun"],
+      "note": "France: les transports en commun. Québec: le transport collectif or le transport en commun." },
+    { "id": "etalement", "kind": "vocab", "fr": "étalement urbain", "article": "l'", "gender": "m", "en": "urban sprawl", "pos": "noun", "accept": ["l'étalement urbain"] },
+    { "id": "ges", "kind": "vocab", "fr": "gaz à effet de serre", "article": "les", "gender": "m", "en": "greenhouse gases", "pos": "noun", "accept": ["les gaz à effet de serre", "les GES", "des gaz à effet de serre"],
+      "note": "Often shortened to les GES in Canada, said letter by letter." },
+    { "id": "auto-solo", "kind": "vocab", "fr": "auto solo", "article": "l'", "gender": "f", "en": "driving alone (one person per car)", "pos": "noun", "accept": ["l'auto solo", "l'autosolo"],
+      "note": "Québec term, also written l'autosolo. In France: l'autosolisme or rouler seul en voiture." },
+    { "id": "voie-reservee", "kind": "vocab", "fr": "voie réservée", "article": "une", "gender": "f", "en": "reserved lane (for buses, taxis, carpools)", "pos": "noun", "accept": ["la voie réservée", "une voie réservée"] },
+    { "id": "densification", "kind": "vocab", "fr": "densification", "article": "la", "gender": "f", "en": "densification (building more housing on less land)", "pos": "noun", "accept": ["la densification"] },
+    { "id": "partisans", "kind": "phrase", "fr": "les partisans du projet", "en": "the supporters of the project", "accept": ["les défenseurs du projet"] },
+    { "id": "opposants", "kind": "phrase", "fr": "les opposants au projet", "en": "the opponents of the project", "accept": ["les détracteurs du projet"],
+      "note": "un opposant à (opposed to) but un partisan de (a supporter of)." },
+    { "id": "faire-valoir", "kind": "phrase", "fr": "faire valoir que", "en": "to argue that, to point out that", "accept": ["soutenir que"] },
+    { "id": "craindre", "kind": "phrase", "fr": "Ils craignent que les commerces perdent des clients.", "en": "They fear that the shops will lose customers.", "accept": ["Ils ont peur que les commerces perdent des clients.", "Ils craignent que les commerces ne perdent des clients."],
+      "note": "craindre que / avoir peur que + subjunctive. In formal writing you may also see an optional ne with no negative meaning: craignent que les commerces ne perdent…" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A public consultation",
+      "intro": "First read the short article to understand the project. Then follow the consultation and note **who supports** the project, **who opposes** it, and **why**.",
+      "blocks": [
+        { "type": "text", "title": "A reserved bus lane on boulevard des Érables?",
+          "context": "An original article in a (fictional) local newspaper of a suburb near Gatineau.",
+          "fr": "La Ville de Beauval présentera mardi soir son projet de voie réservée aux autobus sur le boulevard des Érables. Selon l'administration municipale, le projet permettrait de réduire les embouteillages aux heures de pointe et de diminuer les émissions de gaz à effet de serre liées au transport.\nLe plan prévoit le retrait d'une voie de circulation et d'une partie du stationnement sur rue. En échange, les autobus passeraient plus souvent, et une piste cyclable protégée serait aménagée.\nLe projet ne fait pas l'unanimité. Les partisans font valoir que la ville doit s'engager dans la transition énergétique et freiner l'étalement urbain. Ses opposants, notamment certains commerçants, craignent que la perte de stationnement fasse fuir leurs clients. La consultation publique est ouverte à tous.",
+          "en": "The City of Beauval will present on Tuesday evening its project for a bus lane on boulevard des Érables. According to the municipal administration, the project would reduce traffic jams at rush hour and lower greenhouse gas emissions linked to transportation. The plan includes removing one traffic lane and part of the street parking. In exchange, buses would run more often, and a protected bike lane would be built. The project is not unanimously supported. Supporters argue that the city must commit to the energy transition and curb urban sprawl. Its opponents, including some shop owners, fear that the loss of parking will drive their customers away. The public consultation is open to everyone." },
+        { "type": "dialogue", "title": "At the microphone",
+          "context": "At the consultation, residents speak in turn. Camille Roy, an urban planner for the city, answers.",
+          "lines": [
+            { "speaker": "Karim", "fr": "Bonsoir. J'habite dans un quartier éloigné et je travaille à Ottawa. Aujourd'hui, l'autobus met presque une heure. Pour moi, ce n'est pas une question d'idéologie : si le service était plus rapide, je laisserais mon auto à la maison demain matin.", "en": "Good evening. I live in an outlying neighbourhood and I work in Ottawa. Today, the bus takes almost an hour. For me, it's not a question of ideology: if the service were faster, I'd leave my car at home tomorrow morning." },
+            { "speaker": "Nguyen", "fr": "Moi, je tiens une boulangerie sur le boulevard depuis quinze ans. Je ne suis pas contre l'environnement, au contraire. Mais beaucoup de mes clients viennent en voiture. Si on enlève le stationnement, j'ai peur qu'ils aillent ailleurs, dans les grands centres commerciaux.", "en": "I've run a bakery on the boulevard for fifteen years. I'm not against the environment, quite the opposite. But many of my customers come by car. If you remove the parking, I'm afraid they'll go elsewhere, to the big shopping malls." },
+            { "speaker": "Camille", "fr": "Merci, monsieur. C'est une crainte qu'on entend souvent. Plusieurs villes qui ont mené des projets semblables ont observé que les piétons et les cyclistes dépensent aussi dans les commerces de proximité. Toutefois, nous allons étudier des solutions, comme des places de livraison ou un stationnement à proximité.", "en": "Thank you, sir. It's a concern we hear often. Several cities that carried out similar projects have observed that pedestrians and cyclists also spend money in local shops. However, we're going to study solutions, such as delivery spots or parking nearby." },
+            { "speaker": "Mei", "fr": "Je voudrais élargir le débat. Le vrai problème, c'est l'étalement urbain. Tant qu'on construira des quartiers où l'on ne peut rien faire sans voiture, l'auto solo restera la norme. La densification autour des lignes d'autobus est essentielle.", "en": "I'd like to broaden the debate. The real problem is urban sprawl. As long as we build neighbourhoods where you can't do anything without a car, driving alone will remain the norm. Densification around bus lines is essential." },
+            { "speaker": "Raj", "fr": "Je suis d'accord, mais attention : la transition énergétique doit être juste. Les familles qui vivent loin n'ont pas toujours le choix. Il faut améliorer le transport collectif pour qu'elles aient une vraie solution de rechange, et pas seulement leur imposer des contraintes.", "en": "I agree, but careful: the energy transition has to be fair. Families who live far away don't always have a choice. Public transit has to improve so that they have a real alternative, instead of just imposing restrictions on them." },
+            { "speaker": "Camille", "fr": "C'est exactement l'objectif. Nous ne voulons pas forcer les gens, nous voulons que l'autobus devienne le choix le plus pratique. Avec la voie réservée, les autobus éviteraient les bouchons.", "en": "That's exactly the goal. We don't want to force people; we want the bus to become the most practical choice. With the reserved lane, buses would avoid traffic jams." },
+            { "speaker": "Nguyen", "fr": "D'accord. Si la ville prévoit des places de livraison et un stationnement pas trop loin, je pourrais accepter le projet. Mais je veux que les commerçants soient consultés à chaque étape.", "en": "All right. If the city plans delivery spots and parking not too far away, I could accept the project. But I want shop owners to be consulted at every step." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What would make Karim leave his car at home?", "options": ["A faster bus service", "Cheaper parking downtown", "A new highway", "Working from home"], "answer": 0,
+          "explain": "[[si le service était plus rapide, je laisserais mon auto à la maison]]: a si clause (B1) with his condition." },
+        { "id": "d2", "type": "mcq", "prompt": "What is Raj's main point?", "options": ["The transition must be fair: people far away need a real alternative.", "The project should be cancelled.", "Cars should be banned everywhere.", "Shops are more important than the environment."], "answer": 0,
+          "explain": "[[la transition énergétique doit être juste]]; transit must improve [[pour qu'elles aient une vraie solution de rechange]]." }
+      ] },
+    { "type": "understand", "title": "Vocabulary and the language of camps",
+      "blocks": [
+        { "type": "vocab", "title": "Environment and city vocabulary", "itemIds": ["transition", "transport-collectif", "etalement", "ges", "auto-solo", "voie-reservee", "densification"] },
+        { "type": "table", "title": "Presenting the camps in a debate",
+          "head": ["To say…", "French", "Followed by"],
+          "rows": [
+            ["Supporters argue that…", "Les partisans du projet font valoir que…", "indicative"],
+            ["According to its defenders…", "Selon ses défenseurs, …", "a sentence"],
+            ["Opponents fear that…", "Ses opposants craignent que…", "subjunctive"],
+            ["Some believe that…, others that…", "Certains estiment que…, d'autres que…", "indicative"],
+            ["The project divides opinion.", "Le projet ne fait pas l'unanimité.", "—"],
+            ["The project is meant to…", "Le projet vise à…", "infinitive"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[estimer que]], [[faire valoir que]], [[soutenir que]] state a belief → indicative. [[craindre que]] and [[avoir peur que]] express fear → subjunctive." },
+        { "type": "pattern", "title": "Stating a goal",
+          "pattern": "pour / afin de + infinitif (same subject) — pour que / afin que + subjonctif (new subject)",
+          "note": "In policy debates you constantly explain **what a measure is for**. If the person doing the action and the person who benefits are the same, use the infinitive. If there is a **new subject** after the goal word, use [[que]] + subjunctive. [[Afin de / afin que]] are slightly more formal than [[pour / pour que]].",
+          "examples": [
+            { "fr": "La ville crée une voie réservée pour réduire les bouchons.", "en": "The city is creating a reserved lane to reduce traffic jams." },
+            { "fr": "La ville crée une voie réservée pour que les autobus soient plus rapides.", "en": "The city is creating a reserved lane so that buses are faster." },
+            { "fr": "Il faut améliorer le service afin que les familles aient une solution de rechange.", "en": "Service must improve so that families have an alternative." },
+            { "fr": "Nous consulterons les commerçants afin qu'ils puissent proposer des solutions.", "en": "We'll consult shop owners so that they can suggest solutions." }
+          ] },
+        { "type": "table", "title": "Subjunctive forms you need most here",
+          "head": ["Infinitive", "que + il / elle", "que + ils / elles"],
+          "rows": [
+            ["être", "qu'il soit", "qu'ils soient"],
+            ["avoir", "qu'il ait", "qu'ils aient"],
+            ["pouvoir", "qu'il puisse", "qu'ils puissent"],
+            ["aller", "qu'il aille", "qu'ils aillent"],
+            ["prendre", "qu'il prenne", "qu'ils prennent"],
+            ["devenir", "qu'il devienne", "qu'ils deviennent"],
+            ["perdre", "qu'il perde", "qu'ils perdent"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Regular verbs take the stem of [[ils]] in the present: [[ils perdent]] → [[qu'il perde]]. The full system comes back in unit 6." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec vs France",
+          "body": "- **Transit:** Québec uses [[le transport collectif]] (official) and [[le transport en commun]]; France says [[les transports en commun]].\n- **Car:** Québec often says [[l'auto]] or [[le char]] (very informal); France says [[la voiture]]. [[L'auto solo]] is a common term in Québec traffic planning.\n- **Parking:** [[le stationnement]] in Québec, [[le parking]] in France.\n- **Traffic jams:** [[les bouchons]] (Québec and France), also [[la congestion routière]] in news reports.\n- [[Une solution de rechange]] (an alternative) is preferred in Québec over the anglicism [[une alternative]] used in that sense." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **pour que + indicative:** [[pour que les gens peuvent]] → [[pour que les gens puissent]].\n- **pour que with the same subject:** [[Je prends le vélo pour que je réduise…]] → [[Je prends le vélo pour réduire…]].\n- **afin de + subject:** [[afin de les autobus soient…]] is impossible; use [[afin que]].\n- **Prepositions of camps:** [[un partisan de]], but [[un opposant à]]: [[les opposants au projet]].\n- **gaz:** [[les gaz à effet de serre]] is masculine plural and [[gaz]] doesn't change in the plural." },
+        { "type": "deepdive", "kind": "examples", "title": "Useful arguments, both sides",
+          "body": "Learn a few ready-made arguments, then adapt them.",
+          "examples": [
+            { "fr": "Le transport collectif réduit la congestion et les émissions.", "en": "Public transit reduces congestion and emissions." },
+            { "fr": "L'étalement urbain rend les ménages dépendants de la voiture.", "en": "Urban sprawl makes households dependent on the car." },
+            { "fr": "Ces mesures risquent de pénaliser les familles qui vivent loin.", "en": "These measures risk penalizing families who live far away." },
+            { "fr": "Sans solution de rechange, on ne peut pas demander aux gens de changer leurs habitudes.", "en": "Without an alternative, you can't ask people to change their habits." }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "la transition énergétique", "en": "the energy transition", "tip": "Five clear syllables in énergétique: é-ner-gé-ti-que." },
+            { "fr": "l'étalement urbain", "en": "urban sprawl", "tip": "urbain ends in a nasal vowel, like “vin”." },
+            { "fr": "Ses opposants craignent que les commerces perdent des clients.", "en": "Its opponents fear that the shops will lose customers.", "tip": "craignent: the gn sounds like the ny in “canyon”." },
+            { "fr": "Il faut améliorer le service pour que les familles aient une solution de rechange.", "en": "Service must improve so that families have an alternative.", "tip": "aient sounds exactly like ait: [ɛ]." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Les opposants au projet craignent que la perte de stationnement fasse fuir les clients.", "en": "The project's opponents fear that the loss of parking will drive customers away.", "prompt": "What do the opponents fear?", "options": ["Customers will go elsewhere.", "Buses will be too slow.", "Taxes will rise.", "The bike lane will be dangerous."], "answer": 0,
+          "explain": "[[faire fuir les clients]] = to drive customers away." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Tant qu'on construira des quartiers sans services, l'auto solo restera la norme.", "en": "As long as we build neighbourhoods without services, driving alone will remain the norm.", "prompt": "What is the speaker's argument?", "options": ["Urban planning makes people depend on cars.", "People love driving alone.", "Cars will soon disappear.", "Neighbourhoods have too many services."], "answer": 0,
+          "explain": "[[Tant que…]] (as long as) links sprawl and car dependence." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some items bring back the previous lesson and unit 1.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match the French and the English.", "pairs": [["l'étalement urbain", "urban sprawl"], ["les gaz à effet de serre", "greenhouse gases"], ["une voie réservée", "a reserved lane"], ["la densification", "building more densely"], ["l'auto solo", "driving alone"]] },
+        { "id": "r2", "type": "cloze", "text": "On construit des pistes cyclables pour que les enfants ___ aller à l'école à vélo. (pouvoir)", "answers": [["puissent"]], "en": "We are building bike lanes so that children can go to school by bike.", "explain": "New subject after the goal → [[pour que]] + subjunctive: [[les enfants puissent]]." },
+        { "id": "r3", "type": "mcq", "prompt": "“Its opponents fear that the shops will close.”", "options": ["Ses opposants craignent que les commerces ferment.", "Ses opposants craignent que les commerces vont fermer.", "Ses partisans craignent que les commerces ferment.", "Ses opposants craignent de les commerces fermer."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "craindre que takes the subjunctive, not the future.", "partisans are supporters, not opponents.", "With a new subject, use craindre que + subjunctive."] },
+        { "id": "r4", "type": "translate", "prompt": "The project does not have unanimous support.", "accept": ["Le projet ne fait pas l'unanimité.", "Ce projet ne fait pas l'unanimité.", "Le projet ne fait pas consensus.", "Ce projet ne fait pas consensus.", "Le projet ne fait pas l'objet d'un consensus.", "Le projet n'est pas soutenu à l'unanimité."], "explain": "[[faire l'unanimité]] = to be unanimously supported; negative: [[ne fait pas l'unanimité]]." },
+        { "id": "r5", "type": "cloze", "text": "Les partisans du projet font valoir que la ville ___ freiner l'étalement urbain. (devoir, present)", "answers": [["doit"]], "en": "The project's supporters argue that the city must curb urban sprawl.", "explain": "[[faire valoir que]] states a belief → indicative: [[doit]]." },
+        { "id": "r6", "type": "reorder", "prompt": "Public transit reduces emissions.", "accept": ["Le transport collectif réduit les émissions"], "extra": ["réduisent"], "explain": "Singular subject [[le transport collectif]] → [[réduit]]." },
+        { "id": "r7", "type": "translate", "prompt": "Admittedly, the bus is slow, but a reserved lane would make it faster.", "accept": ["Certes, l'autobus est lent, mais une voie réservée le rendrait plus rapide.", "Certes, le bus est lent, mais une voie réservée le rendrait plus rapide.", "Il est vrai que l'autobus est lent, mais une voie réservée le rendrait plus rapide.", "Il est vrai que le bus est lent, mais une voie réservée le rendrait plus rapide.", "Certes, l'autobus est lent ; toutefois, une voie réservée le rendrait plus rapide.", "Certes, le bus est lent ; toutefois, une voie réservée le rendrait plus rapide."], "hint": "rendre + adjective = to make (something) + adjective.", "explain": "Concession with [[certes… mais]] (previous lesson); [[rendrait]] is the conditionnel of [[rendre]]." },
+        { "id": "r8", "type": "dictation", "fr": "La transition énergétique doit être juste pour tout le monde.", "accept": [], "explain": "[[énergétique]] has two é accents; [[tout le monde]] = everybody." },
+        { "id": "r9", "type": "cloze", "text": "Bien que le projet ___ des avantages, il inquiète les commerçants. (avoir)", "answers": [["ait"]], "en": "Although the project has advantages, it worries shop owners.", "explain": "[[bien que]] + subjunctive: [[avoir]] → [[qu'il ait]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You speak at a public consultation about a project in your city (a reserved bus lane, a tramway, a new housing development, or fewer parking spaces downtown). For about 2 minutes, present the two camps, then give your own position and one condition.", "seconds": 120,
+          "checklist": ["Introduce the project in one or two sentences", "Les partisans font valoir que… (indicative)", "Les opposants craignent que… (subjunctive)", "Your position, with certes… mais", "A goal with pour que / afin que + subjunctive", "A condition: si…"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonsoir. La ville propose de remplacer une partie du stationnement du centre-ville par une piste cyclable. Les partisans du projet font valoir que le vélo réduit les émissions et la congestion. Les opposants, eux, craignent que les clients aillent ailleurs. Personnellement, je suis plutôt pour. Certes, certains commerçants vont perdre des places, mais beaucoup de clients viennent à pied ou à vélo. Je demande seulement que la ville garde quelques places pour que les personnes âgées puissent venir en voiture. Si c'est le cas, j'appuie le projet.", "en": "Good evening. The city is proposing to replace part of the downtown parking with a bike lane. Supporters of the project argue that cycling reduces emissions and congestion. Opponents fear that customers will go elsewhere. Personally, I'm rather in favour. Admittedly, some shop owners will lose spaces, but many customers come on foot or by bike. I only ask the city to keep a few spaces so that older people can come by car. If that's the case, I support the project." },
+            { "label": "Stronger model answer", "fr": "Bonsoir à tous. Je m'appelle Sofia et j'habite le quartier depuis six ans. Le projet de tramway dont on parle ce soir ne fait pas l'unanimité, et je comprends pourquoi. Ses partisans font valoir qu'il réduirait les gaz à effet de serre et qu'il freinerait l'étalement urbain, puisqu'on pourrait construire des logements autour des stations. Ses opposants, de leur côté, craignent que les travaux durent des années et que les petits commerces ne survivent pas à cette période. Ces deux points de vue sont légitimes. Certes, les travaux vont déranger tout le monde ; toutefois, si on ne fait rien, l'auto solo restera la seule solution pour des milliers de familles. Je suis donc favorable au projet, mais à une condition : que la ville crée un fonds d'aide afin que les commerçants puissent traverser la période des travaux. Une transition énergétique réussie, c'est une transition qui n'oublie personne.", "en": "Good evening, everyone. My name is Sofia and I've lived in the neighbourhood for six years. The tramway project we're discussing tonight doesn't have unanimous support, and I understand why. Its supporters argue that it would reduce greenhouse gases and curb urban sprawl, since housing could be built around the stations. Its opponents, for their part, fear that the construction will last years and that small shops won't survive that period. Both points of view are legitimate. Admittedly, the construction will disturb everyone; however, if we do nothing, driving alone will remain the only option for thousands of families. So I'm in favour of the project, but on one condition: that the city create an assistance fund so that shop owners can get through the construction period. A successful energy transition is one that leaves no one behind." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short comment (100–160 words) on a news site about an environmental measure in your city. Present both camps, give your opinion and state at least one goal with pour que or afin que.",
+          "wordRange": [100, 160],
+          "checklist": ["The measure in one sentence", "Supporters' argument (font valoir que / estiment que)", "Opponents' fear (craignent que + subjunctive)", "Your opinion with a concession", "pour que / afin que + subjunctive", "At least five words from this lesson"],
+          "models": [
+            { "label": "Model answer", "fr": "La ville veut réduire le nombre de places de stationnement au centre-ville pour encourager le transport collectif. Les partisans de cette mesure estiment qu'elle diminuera les embouteillages et les gaz à effet de serre. Les opposants craignent que les clients aillent dans les centres commerciaux, où le stationnement est gratuit.\nÀ mon avis, la mesure est bonne, mais elle arrive trop tôt. Certes, il faut réduire l'auto solo ; toutefois, aujourd'hui, les autobus ne passent pas assez souvent dans les quartiers éloignés. Il faudrait d'abord améliorer le service, pour que les gens aient une vraie solution de rechange. Ensuite, on pourrait réduire le stationnement sans pénaliser personne.", "en": "The city wants to reduce the number of parking spaces downtown to encourage public transit. Supporters of this measure believe it will reduce traffic jams and greenhouse gases. Opponents fear that customers will go to shopping malls, where parking is free. In my opinion, the measure is good, but it comes too early. Admittedly, driving alone must be reduced; however, today buses don't run often enough in outlying neighbourhoods. The service should first improve, so that people have a real alternative. Then parking could be reduced without penalizing anyone." },
+            { "label": "Stronger model answer", "fr": "Le conseil municipal a adopté la semaine dernière un plan de densification autour des futures stations de tramway. L'idée ne fait pas l'unanimité. Ses partisans font valoir qu'il s'agit du meilleur moyen de freiner l'étalement urbain : plus de logements près du transport collectif, c'est moins de déplacements en voiture. Ses opposants craignent au contraire que des tours remplacent les maisons du quartier et que les loyers augmentent.\nCes inquiétudes sont compréhensibles. Pourtant, je crois que la densification est indispensable à la transition énergétique, à condition d'être bien encadrée. La ville devrait imposer une part de logements abordables afin que les familles du quartier puissent y rester, et limiter la hauteur des immeubles pour que le quartier garde son caractère. Densifier, oui, mais pas n'importe comment.", "en": "Last week, the city council adopted a densification plan around the future tramway stations. The idea is not unanimously supported. Its supporters argue that it's the best way to curb urban sprawl: more housing near public transit means fewer car trips. Its opponents, on the contrary, fear that towers will replace the neighbourhood's houses and that rents will rise. These concerns are understandable. Yet I believe densification is essential to the energy transition, provided it is well regulated. The city should require a share of affordable housing so that local families can stay, and limit building heights so that the neighbourhood keeps its character. Densify, yes, but not any old way." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Talk about environmental policy: [[la transition énergétique]], [[le transport collectif]], [[l'étalement urbain]], [[les gaz à effet de serre]], [[l'auto solo]]\n- Present the camps: [[les partisans font valoir que]] + indicative, [[les opposants craignent que]] + subjunctive\n- State a goal with [[pour / afin de]] + infinitive or [[pour que / afin que]] + subjunctive",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "French checked; no language errors found. Added accepted variants to r4 and r7 (consensus, toutefois); noted the spelling autosolo." }
+}

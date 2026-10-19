@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-07-04",
+  "level": "b1",
+  "unit": "b1-07",
+  "title": "Describing in detail",
+  "goal": "Give a detailed, well-organized description of a place and a person, combining precise adjectives, relative clauses and comparisons.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-adjectifs-description", "kind": "grammar", "fr": "une jolie petite rue calme et verdoyante", "en": "combining adjectives in a description (position and agreement)",
+      "drills": [
+        { "type": "mcq", "prompt": "“a pretty little house”", "options": ["une jolie petite maison", "une maison jolie petite", "une jolie maison petite"], "optionsFr": true, "answer": 0, "explain": "[[joli]] and [[petit]] both go before the noun. The usual order is [[jolie petite]], as in English." },
+        { "type": "cloze", "text": "C'est une rue calme et ___. (verdoyant)", "answers": [["verdoyante"]], "en": "It's a quiet, leafy street.", "explain": "Two adjectives after the noun are joined with [[et]], and both agree: [[rue]] is feminine → [[verdoyante]]." },
+        { "type": "cloze", "text": "C'est un ___ parc qui est très animé. (grand)", "answers": [["grand"]], "en": "It's a big park that's very lively.", "explain": "[[grand]] goes before the noun; the relative clause [[qui est très animé]] comes after it." }
+      ] },
+    { "id": "g-aux-cheveux", "kind": "grammar", "fr": "une femme aux cheveux gris", "en": "describing with à + le/la/les + feature (a woman with grey hair)",
+      "drills": [
+        { "type": "cloze", "text": "C'est un homme ___ yeux bleus.", "answers": [["aux"]], "en": "He's a man with blue eyes.", "explain": "[[à + les yeux]] → [[aux yeux bleus]]. It's a compact, slightly written style." },
+        { "type": "cloze", "text": "J'habite dans une maison ___ volets verts.", "answers": [["aux"]], "en": "I live in a house with green shutters.", "explain": "It works for things too: [[à + les volets]] → [[aux volets verts]]." },
+        { "type": "translate", "prompt": "She has short curly hair.", "accept": ["Elle a les cheveux courts et frisés.", "Elle a les cheveux frisés et courts.", "Elle a les cheveux courts et bouclés.", "Elle a les cheveux bouclés et courts."], "explain": "Use [[avoir **les** cheveux…]] with the definite article, not *des*." }
+      ] },
+    { "id": "bien-desservi", "kind": "vocab", "fr": "bien desservi", "fem": "bien desservie", "en": "well served by public transit", "pos": "adjective", "accept": ["bien desservie"],
+      "example": { "fr": "Le quartier est très bien desservi : il y a trois lignes d'autobus.", "en": "The neighbourhood is very well served: there are three bus lines." } },
+    { "id": "abordable", "kind": "vocab", "fr": "abordable", "en": "affordable", "pos": "adjective",
+      "example": { "fr": "Les loyers sont encore abordables ici.", "en": "Rents are still affordable here." } },
+    { "id": "verdoyant", "kind": "vocab", "fr": "verdoyant", "fem": "verdoyante", "en": "green, leafy (full of trees and plants)", "pos": "adjective", "accept": ["verdoyante"] },
+    { "id": "bruyant", "kind": "vocab", "fr": "bruyant", "fem": "bruyante", "en": "noisy", "pos": "adjective", "accept": ["bruyante"] },
+    { "id": "espace-vert", "kind": "vocab", "fr": "espace vert", "article": "un", "gender": "m", "en": "green space (park, garden)", "pos": "noun", "accept": ["l'espace vert"] },
+    { "id": "transports-en-commun", "kind": "vocab", "fr": "transports en commun", "article": "les", "gender": "m", "en": "public transit", "pos": "noun",
+      "example": { "fr": "Je prends les transports en commun pour aller au travail.", "en": "I take public transit to get to work." } },
+    { "id": "avoir-l-air", "kind": "phrase", "fr": "Elle a l'air sympathique.", "en": "She seems nice.", "accept": ["Elle a l'air sympa.", "Elle semble sympathique."], "note": "avoir l'air + adjective = to look, to seem. The adjective usually agrees with the person: elle a l'air fatiguée." },
+    { "id": "de-taille-moyenne", "kind": "phrase", "fr": "Il est de taille moyenne.", "en": "He's of average height.", "accept": ["Il est de taille moyenne"] },
+    { "id": "souriant", "kind": "vocab", "fr": "souriant", "fem": "souriante", "en": "smiling, cheerful", "pos": "adjective", "accept": ["souriante"] },
+    { "id": "debrouillard", "kind": "vocab", "fr": "débrouillard", "fem": "débrouillarde", "en": "resourceful (good at managing on your own)", "pos": "adjective", "accept": ["débrouillarde"],
+      "example": { "fr": "C'est une femme très débrouillarde : elle voyage seule partout.", "en": "She's a very resourceful woman: she travels everywhere on her own." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A place and a person",
+      "intro": "First, a blog post describing a Montréal neighbourhood. Then, a phone call describing a person. Notice how each description goes from the **general** to the **details**.",
+      "blocks": [
+        { "type": "text", "title": "« Verdun, mon coin de paradis », Alex's blog",
+          "fr": "J'habite à Verdun, un quartier situé dans le sud-ouest de Montréal, au bord du fleuve Saint-Laurent. C'est un ancien quartier ouvrier qui est devenu très populaire auprès des jeunes familles. Ce qui frappe d'abord, ce sont les rues bordées d'arbres et les fameux escaliers extérieurs des maisons.\nLe quartier est très bien desservi par les transports en commun : il y a plusieurs stations de métro, et on peut aller au centre-ville en vingt minutes. L'été, une partie de la rue Wellington, la rue principale, devient piétonne : on y trouve des cafés, des boutiques et des terrasses toujours animées.\nCe que je préfère, c'est la longue promenade verdoyante au bord de l'eau, où on peut faire du vélo, pique-niquer et même se baigner : Verdun a une petite plage urbaine !\nLes loyers sont un peu plus abordables qu'au Plateau, mais ils augmentent vite. Le seul inconvénient ? Le manque de stationnement : le soir, trouver une place, c'est mission impossible !",
+          "en": "I live in Verdun, a neighbourhood located in the south-west of Montréal, on the banks of the Saint Lawrence River. It's a former working-class neighbourhood that has become very popular with young families. What strikes you first are the tree-lined streets and the famous outdoor staircases on the houses. The neighbourhood is very well served by public transit: there are several metro stations, and you can get downtown in twenty minutes. In summer, part of Wellington Street, the main street, becomes pedestrian-only: you'll find cafés, shops and patios that are always lively. What I like best is the long, green promenade by the water, where you can cycle, have a picnic and even swim: Verdun has a little urban beach! Rents are a bit more affordable than in the Plateau, but they're rising fast. The only drawback? The lack of parking: in the evening, finding a spot is mission impossible!" },
+        { "type": "dialogue", "title": "How will I recognize her?",
+          "context": "Mei finishes work late tomorrow. She calls Alex to ask him to pick up her aunt at Montréal-Trudeau airport.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Alex, tu pourrais aller chercher ma tante à l'aéroport demain soir ? Je finis trop tard.", "en": "Alex, could you pick up my aunt at the airport tomorrow evening? I finish too late." },
+            { "speaker": "Alex", "fr": "Bien sûr. Mais comment je vais la reconnaître ? Je ne l'ai jamais vue.", "en": "Of course. But how will I recognize her? I've never seen her." },
+            { "speaker": "Mei", "fr": "Elle a une soixantaine d'années, elle est plutôt petite et mince. Elle a les cheveux courts et gris, et elle porte des lunettes rondes.", "en": "She's about sixty, she's rather small and slim. She has short grey hair, and she wears round glasses." },
+            { "speaker": "Alex", "fr": "D'accord. Et elle a l'air comment ? Sérieuse ? Timide ?", "en": "OK. And what does she seem like? Serious? Shy?" },
+            { "speaker": "Mei", "fr": "Elle a l'air un peu sévère, mais en fait, elle est très souriante et vraiment drôle. Et c'est une femme très débrouillarde : elle voyage seule partout dans le monde.", "en": "She looks a bit stern, but actually she's very cheerful and really funny. And she's a very resourceful woman: she travels alone all over the world." },
+            { "speaker": "Alex", "fr": "Tu sais ce qu'elle va porter ?", "en": "Do you know what she'll be wearing?" },
+            { "speaker": "Mei", "fr": "Elle m'a dit qu'elle porterait un manteau rouge et qu'elle aurait une grosse valise verte.", "en": "She told me she would be wearing a red coat and that she would have a big green suitcase." },
+            { "speaker": "Alex", "fr": "Parfait. Une petite dame aux cheveux gris, avec un manteau rouge et une valise verte. Impossible de la rater !", "en": "Perfect. A small lady with grey hair, in a red coat, with a green suitcase. Impossible to miss her!" },
+            { "speaker": "Mei", "fr": "Merci, tu es un ange !", "en": "Thanks, you're an angel!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "According to Alex, what is the only drawback of Verdun?", "options": ["It's hard to find parking.", "It's too far from downtown.", "Rents are very high."], "answer": 0,
+          "explain": "[[Le manque de stationnement]]: the lack of parking. Downtown is only twenty minutes away, and rents are [[un peu plus abordables]]." },
+        { "id": "d2", "type": "mcq", "prompt": "What is Mei's aunt like, really?", "options": ["She looks stern but is cheerful and funny.", "She is serious and shy.", "She is stern and doesn't travel much."], "answer": 0,
+          "explain": "[[Elle a l'air un peu sévère, mais en fait, elle est très souriante]]: [[avoir l'air]] = appearance; [[en fait]] = in reality." }
+      ] },
+    { "type": "understand", "title": "How to build a description",
+      "blocks": [
+        { "type": "explain", "title": "From general to specific",
+          "body": "A good description, spoken or written, has a clear order. That is what examiners look for at B1.\n\n**A place:**\n- **Where it is:** [[un quartier situé dans le sud-ouest de Montréal, au bord du fleuve]]\n- **General impression:** [[un ancien quartier ouvrier qui est devenu populaire]]\n- **Details:** streets, services, transit, shops, green spaces\n- **Your opinion:** [[Ce que je préfère, c'est…]] [[Le seul inconvénient, c'est…]]\n\n**A person:**\n- **General:** age, height, build: [[une soixantaine d'années, plutôt petite et mince]]\n- **Details:** hair, eyes, glasses, clothes\n- **Personality:** [[Elle a l'air sévère, mais en fait elle est souriante.]]\n- **An example** that proves it: [[elle voyage seule partout dans le monde]]\n\nUse relative clauses to pack in details without making short, choppy sentences." },
+        { "type": "table", "title": "Describing a place",
+          "head": ["Topic", "Useful words"],
+          "rows": [
+            ["Location", "situé au bord de… / à deux pas de… / en plein centre-ville / en banlieue"],
+            ["Atmosphere", "animé, calme, bruyant, tranquille, branché, populaire"],
+            ["Transit and services", "bien desservi, les transports en commun, les commerces de proximité"],
+            ["Nature", "verdoyant, un espace vert, une rue bordée d'arbres, une promenade"],
+            ["Housing", "un loyer abordable / élevé, un immeuble, une maison, un appartement"],
+            ["Pros and cons", "l'avantage, c'est… / le seul inconvénient, c'est…"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[à deux pas de]] = a stone's throw from. [[branché]] = trendy. [[en banlieue]] = in the suburbs." },
+        { "type": "table", "title": "Describing a person",
+          "head": ["Topic", "Useful words"],
+          "rows": [
+            ["Age", "Il a une trentaine d'années. / Elle a une soixantaine d'années."],
+            ["Height and build", "grand, petit, de taille moyenne, mince, costaud"],
+            ["Hair", "Il a les cheveux courts / longs / bruns / gris / frisés. Il est chauve."],
+            ["Face", "Elle a les yeux bleus / marron. Il porte des lunettes. Il a une barbe."],
+            ["Personality", "souriant, chaleureux, débrouillard, timide, drôle, patient, sévère"],
+            ["Impression", "Il a l'air fatigué. / Elle a l'air sympathique."]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[une trentaine]] = about thirty. [[costaud]] = sturdy, well-built. [[chauve]] = bald. [[marron]] never changes: [[des yeux marron]]." },
+        { "type": "pattern", "title": "Adjectives: where do they go?",
+          "pattern": "(beau, petit, grand, jeune, vieux, bon, joli…) + nom + (other adjectives) + qui / que / où…",
+          "note": "Short common adjectives of beauty, age, goodness and size go **before**. Most others (colour, shape, nationality, longer adjectives) go **after**, joined by [[et]] if there are two. A relative clause comes last.",
+          "examples": [
+            { "fr": "une jolie petite maison", "en": "a pretty little house" },
+            { "fr": "une rue calme et verdoyante", "en": "a quiet, leafy street" },
+            { "fr": "un grand parc qui est très animé le dimanche", "en": "a big park that's very lively on Sundays" },
+            { "fr": "un vieil immeuble que les voisins ont rénové", "en": "an old building that the neighbours have renovated" }
+          ] },
+        { "type": "pattern", "title": "The compact style: à + feature",
+          "pattern": "nom + au / à la / aux + trait + adjectif",
+          "note": "It means *with*. It sounds a little literary, which is perfect for written descriptions. In speech, people more often use [[qui a…]]: [[un homme qui a les yeux bleus]].",
+          "examples": [
+            { "fr": "une petite dame aux cheveux gris", "en": "a small lady with grey hair" },
+            { "fr": "un homme à la barbe rousse", "en": "a man with a red beard" },
+            { "fr": "une maison aux volets bleus", "en": "a house with blue shutters" }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["bien-desservi", "abordable", "verdoyant", "bruyant", "espace-vert", "transports-en-commun", "avoir-l-air", "de-taille-moyenne", "souriant", "debrouillard"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Les cheveux, not des cheveux:** *Elle a des cheveux longs* ✗ → [[Elle a les cheveux longs]]. Same for eyes: [[Il a les yeux verts]].\n- **Height uses mesurer:** *Il est un mètre quatre-vingts* ✗ → [[Il mesure un mètre quatre-vingts]].\n- **Marron and orange don't agree:** [[des yeux marron]], [[des chaussures orange]].\n- **Vieux → vieil before a vowel:** [[un vieil immeuble]], [[un bel appartement]], [[un nouvel emploi]].\n- **Affordable** = [[abordable]] (or [[pas cher]] in speech), never *affordable*.\n- **Avoir l'air:** the adjective usually agrees with the person: [[Elle a l'air fatiguée]]. Don't say *Elle regarde fatiguée* — *regarder* means *to look at*." },
+        { "type": "deepdive", "kind": "canada", "title": "Describing a Montréal neighbourhood",
+          "body": "- **Les escaliers extérieurs:** outdoor staircases on *duplex* and *triplex* buildings are a Montréal trademark.\n- **Le stationnement** (Québec) = **le parking** (France). [[Trouver une place]] = to find a parking spot.\n- **Le dépanneur** (Québec) = the corner store. In France: [[l'épicerie du coin]], [[la supérette]].\n- **Le Plateau, Verdun, Rosemont, Villeray:** Montréalers often compare neighbourhoods by rent, transit and parks. It's a great small-talk topic!\n- **Une terrasse** is a café or restaurant patio." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In long descriptions, group words into blocks and breathe between them: **un quartier situé dans le sud-ouest | au bord du fleuve.**",
+          "lines": [
+            { "fr": "C'est un quartier très bien desservi par les transports en commun.", "en": "It's a neighbourhood very well served by public transit.", "tip": "transports‿en commun: link the s with a z sound." },
+            { "fr": "Il y a une longue promenade verdoyante au bord de l'eau.", "en": "There's a long, green promenade by the water." },
+            { "fr": "Elle a une soixantaine d'années.", "en": "She's about sixty." },
+            { "fr": "Il a les cheveux courts et il porte des lunettes.", "en": "He has short hair and he wears glasses.", "tip": "les cheveux: lé, not le." },
+            { "fr": "Elle a l'air sévère, mais en fait, elle est très souriante.", "en": "She looks stern, but actually she's very cheerful.", "tip": "en fait: pronounce the t, an-fett." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Mon nouveau collègue a une quarantaine d'années. Il est grand et costaud, il a une barbe et il est presque chauve. Il a l'air timide, mais il est très drôle.", "en": "My new colleague is about forty. He's tall and well-built, he has a beard and he's almost bald. He seems shy, but he's very funny.",
+          "prompt": "Which description matches the colleague?", "options": ["About 40, tall, bearded, almost bald, funny", "About 40, small, long hair, shy", "About 40, short and slim, no beard"], "answer": 0,
+          "explain": "[[une quarantaine]] = about forty; [[grand et costaud]] = tall and well-built; [[presque chauve]] = almost bald; [[il a l'air timide, mais il est très drôle]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'habite dans un quartier tranquille, à deux pas d'un grand parc. Par contre, il est mal desservi : il faut prendre deux autobus pour aller au centre-ville.", "en": "I live in a quiet neighbourhood, a stone's throw from a big park. However, it's poorly served by transit: you have to take two buses to get downtown.",
+          "prompt": "What is the problem with this neighbourhood?", "options": ["Public transit is not good.", "It's noisy.", "There are no parks."], "answer": 0,
+          "explain": "[[mal desservi]] is the opposite of [[bien desservi]]: transit is poor." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Description vocabulary, adjective position, and the relative pronouns from this unit.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each adjective with its meaning.",
+          "pairs": [["bien desservi", "well served by transit"], ["abordable", "affordable"], ["verdoyant", "green, leafy"], ["bruyant", "noisy"], ["débrouillard", "resourceful"]] },
+        { "id": "r2", "type": "cloze", "text": "Ma sœur a ___ yeux verts et ___ cheveux longs.", "answers": [["les"], ["les"]], "choices": ["les", "des", "de"], "en": "My sister has green eyes and long hair.",
+          "explain": "For physical features after [[avoir]], use the definite article: [[les yeux]], [[les cheveux]]." },
+        { "id": "r3", "type": "mcq", "prompt": "How do you say “an old building that the neighbours renovated”?", "optionsFr": true,
+          "options": ["un vieil immeuble que les voisins ont rénové", "un vieux immeuble que les voisins ont rénové", "un immeuble vieil que les voisins ont rénové", "un vieil immeuble qui les voisins ont rénové"], "answer": 0,
+          "optionFeedback": [null, "Before a vowel, vieux becomes vieil.", "vieux goes before the noun.", "A subject (les voisins) follows: use que."] },
+        { "id": "r4", "type": "translate", "prompt": "He looks tired.", "accept": ["Il a l'air fatigué.", "Il semble fatigué.", "Il a l'air d'être fatigué."], "hint": "avoir l'air + adjective",
+          "explain": "[[avoir l'air]] + adjective = to look, to seem. Not *il regarde fatigué*." },
+        { "id": "r5", "type": "cloze", "text": "C'est un quartier ___ est bien desservi, ___ les loyers sont abordables et ___ j'aimerais habiter un jour.", "answers": [["qui"], ["où"], ["où"]], "choices": ["qui", "que", "où", "dont"], "en": "It's a neighbourhood that is well served by transit, where rents are affordable and where I'd like to live one day.",
+          "explain": "[[qui est]]: subject. [[où les loyers…]], [[où j'aimerais habiter]]: a place → où." },
+        { "id": "r6", "type": "translate", "prompt": "She's of average height and she wears glasses.", "accept": ["Elle est de taille moyenne et elle porte des lunettes.", "Elle est de taille moyenne et porte des lunettes."], "hint": "taille, porter",
+          "explain": "[[de taille moyenne]] = of average height. *To wear* = [[porter]]." },
+        { "id": "r7", "type": "cloze", "text": "J'aime ma rue : elle est calme et ___. (verdoyant)", "answers": [["verdoyante"]], "en": "I love my street: it's quiet and leafy.",
+          "explain": "[[rue]] is feminine → [[verdoyante]]." },
+        { "id": "r8", "type": "reorder", "prompt": "a small lady with grey hair", "accept": ["une petite dame aux cheveux gris"], "extra": ["des"],
+          "explain": "[[petite]] before the noun; [[aux cheveux gris]] = with grey hair." },
+        { "id": "r9", "type": "cloze", "text": "Ici, les loyers sont ___ chers qu'au centre-ville, et les écoles sont ___ que là-bas. (less / better)", "answers": [["moins"], ["meilleures"]], "en": "Here, rents are less expensive than downtown, and the schools are better than there.",
+          "explain": "Review: [[moins + adjective + que]]. The comparative of [[bon]] is [[meilleur]], which agrees with [[les écoles]] (feminine plural) → [[meilleures]]." },
+        { "id": "r10", "type": "dictation", "fr": "Ma tante a l'air sévère, mais elle est très souriante.", "accept": ["Ma tante a l'air sévère mais elle est très souriante."],
+          "explain": "[[a l'air sévère]]: appearance. [[souriante]]: feminine of souriant." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Describe a person who is important to you, as if you were showing their photo to a friend. Start with their appearance, then their personality, and give an example that shows what they're like.", "seconds": 75,
+          "checklist": ["Age: une trentaine / une cinquantaine d'années", "Height, build, hair, eyes or glasses", "avoir l'air + adjective", "Two personality adjectives that agree", "An example with a relative clause", "A logical order: general → details → personality"],
+          "models": [ { "label": "Model answer", "fr": "Sur cette photo, c'est mon grand-père. Il a maintenant quatre-vingts ans. Il est grand et mince, il a les cheveux tout blancs et une petite moustache. Il porte toujours une casquette qu'il a achetée à Paris il y a trente ans ! Il a l'air sérieux, mais en fait, c'est l'homme le plus drôle de la famille. Il est aussi très débrouillard : c'est quelqu'un qui répare tout, les vélos, les radios, les chaises… Quand j'étais petit, c'est lui qui m'a appris à faire du vélo.", "en": "In this photo, it's my grandfather. He's eighty now. He's tall and slim, he has completely white hair and a small moustache. He always wears a cap he bought in Paris thirty years ago! He looks serious, but actually he's the funniest man in the family. He's also very resourceful: he's someone who repairs everything, bikes, radios, chairs… When I was little, he was the one who taught me to ride a bike." } ] },
+        { "id": "w1", "type": "write", "prompt": "You want to exchange apartments with a French-speaking family for the summer. Write the description of your neighbourhood for the exchange website: location, atmosphere, transit, green spaces, shops, one drawback, and what you like best.", "promptFr": "Décrivez votre quartier pour un site d'échange d'appartements.", "wordRange": [100, 150],
+          "checklist": ["Where it is (situé…, à deux pas de…)", "A general impression", "Transit (bien / mal desservi)", "At least two relative clauses (qui, que, où, dont)", "Ce que je préfère, c'est… / Le seul inconvénient, c'est…", "Adjectives that agree, in the right position"],
+          "models": [ { "label": "Model answer", "fr": "Notre appartement se trouve dans un petit quartier tranquille de Moncton, situé à deux pas de la rivière Petitcodiac. C'est un quartier résidentiel aux rues calmes et verdoyantes, où il y a beaucoup de jolies maisons anciennes. Il est assez bien desservi : l'arrêt d'autobus est au coin de la rue, et on peut aller au centre-ville à pied en quinze minutes. Il y a un grand parc qui est parfait pour les enfants, une épicerie et une boulangerie dont les croissants sont délicieux. Ce que nous préférons, c'est le marché du samedi matin, où on trouve des produits locaux. Le seul inconvénient, c'est le bruit des camions sur la rue principale.", "en": "Our apartment is in a small, quiet neighbourhood of Moncton, a stone's throw from the Petitcodiac River. It's a residential neighbourhood with quiet, leafy streets, where there are lots of pretty old houses. It's quite well served by transit: the bus stop is on the corner, and you can walk downtown in fifteen minutes. There's a big park that's perfect for children, a grocery store and a bakery whose croissants are delicious. What we like best is the Saturday morning market, where you can find local products. The only drawback is the noise of the trucks on the main street." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Organize a description from general to specific, and end with your opinion: [[Ce que je préfère, c'est…]] [[Le seul inconvénient, c'est…]]\n- Describe places ([[bien desservi]], [[abordable]], [[verdoyant]]) and people ([[une soixantaine d'années]], [[les cheveux courts]], [[avoir l'air…]])\n- Place adjectives correctly and use the compact style: [[une jolie petite maison]], [[une dame aux cheveux gris]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced a defensible mcq distractor (une petite jolie maison); hedged the Wellington Street claim and removed an uncertain place name (Vieux-Moncton); tidied accept lists and the 'affordable' mistake note." }
+}

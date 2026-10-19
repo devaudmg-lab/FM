@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-02-02",
+  "level": "a1",
+  "unit": "a1-02",
+  "title": "Être and nationality",
+  "goal": "Say your nationality with the verb être, and ask other people theirs.",
+  "minutes": 12,
+  "items": [
+    { "id": "g-etre", "kind": "grammar", "fr": "être", "en": "to be (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Nous ___ à Montréal.", "answers": [["sommes"]], "en": "We are in Montreal.", "explain": "nous → sommes" },
+        { "type": "cloze", "text": "Tu ___ canadienne ?", "answers": [["es"]], "en": "Are you Canadian?", "explain": "tu → es (the s is silent)" },
+        { "type": "cloze", "text": "Ils ___ mexicains.", "answers": [["sont"]], "en": "They are Mexican.", "explain": "ils → sont" },
+        { "type": "translate", "prompt": "You are French (formal).", "accept": ["Vous êtes français.", "Vous êtes française.", "Vous êtes françaises.", "Vous êtes français."], "explain": "vous → êtes" }
+      ] },
+    { "id": "g-nationality-gender", "kind": "grammar", "fr": "canadien / canadienne", "en": "nationality adjectives: masculine and feminine",
+      "drills": [
+        { "type": "cloze", "text": "Elle est ___. (français)", "answers": [["française"]], "en": "She is French.", "explain": "Add -e for the feminine: français → française." },
+        { "type": "cloze", "text": "Il est ___. (indienne)", "answers": [["indien"]], "en": "He is Indian.", "explain": "The masculine drops -ne: indienne → indien." },
+        { "type": "mcq", "prompt": "Amira is Canadian. Which is right?", "options": ["Amira est canadienne.", "Amira est canadien.", "Amira es canadienne."], "optionsFr": true, "answer": 0, "explain": "Amira is a woman → canadienne; elle → est." }
+      ] },
+    { "id": "je-suis", "kind": "phrase", "fr": "je suis", "en": "I am" },
+    { "id": "vous-etes", "kind": "phrase", "fr": "vous êtes", "en": "you are (formal or plural)" },
+    { "id": "canadien", "kind": "vocab", "fr": "canadien", "fem": "canadienne", "en": "Canadian", "pos": "adjective", "accept": ["canadienne"],
+      "example": { "fr": "Lucie est canadienne.", "en": "Lucie is Canadian." } },
+    { "id": "francais", "kind": "vocab", "fr": "français", "fem": "française", "en": "French", "pos": "adjective", "accept": ["française"],
+      "example": { "fr": "Olivier est français.", "en": "Olivier is French." } },
+    { "id": "indien", "kind": "vocab", "fr": "indien", "fem": "indienne", "en": "Indian", "pos": "adjective", "accept": ["indienne"] },
+    { "id": "mexicain", "kind": "vocab", "fr": "mexicain", "fem": "mexicaine", "en": "Mexican", "pos": "adjective", "accept": ["mexicaine"] },
+    { "id": "chinois", "kind": "vocab", "fr": "chinois", "fem": "chinoise", "en": "Chinese", "pos": "adjective", "accept": ["chinoise"] },
+    { "id": "marocain", "kind": "vocab", "fr": "marocain", "fem": "marocaine", "en": "Moroccan", "pos": "adjective", "accept": ["marocaine"] },
+    { "id": "nationalite-q", "kind": "phrase", "fr": "Tu es de quelle nationalité ?", "en": "What's your nationality? (to a friend)", "accept": ["Quelle est ta nationalité ?", "Tu es de quelle nationalité"] },
+    { "id": "et-toi", "kind": "phrase", "fr": "Et toi ?", "en": "And you? (to a friend)" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Meet the group",
+      "blocks": [
+        { "type": "dialogue", "title": "A welcome evening for newcomers in Montréal",
+          "context": "Camille, a volunteer, chats with Raj and Amira.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Bonsoir ! Je suis Camille. Je suis québécoise.", "en": "Good evening! I'm Camille. I'm from Québec." },
+            { "speaker": "Raj", "fr": "Enchanté, Camille. Moi, je suis Raj. Je suis indien.", "en": "Nice to meet you, Camille. I'm Raj. I'm Indian." },
+            { "speaker": "Camille", "fr": "Et toi, Amira ? Tu es de quelle nationalité ?", "en": "And you, Amira? What's your nationality?" },
+            { "speaker": "Amira", "fr": "Je suis marocaine. Mais maintenant, je suis à Montréal !", "en": "I'm Moroccan. But now I'm in Montréal!" },
+            { "speaker": "Raj", "fr": "Nous sommes tous à Montréal maintenant.", "en": "We're all in Montréal now." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen first. Try to understand before you tap a line to see the English." }
+      ] },
+    { "type": "understand", "title": "The verb être",
+      "blocks": [
+        { "type": "explain", "title": "Être means “to be”",
+          "body": "[[Être]] is the most common verb in French, and it is **irregular**: each form has to be learned. Use it to say who you are, your nationality, your job, and where you are right now.\n\nFor now, learn the six forms as sound chunks. Several are pronounced the same way." },
+        { "type": "table", "title": "Être in the present",
+          "head": ["", "être", "English"],
+          "rows": [
+            ["je", "suis", "I am"],
+            ["tu", "es", "you are (one friend)"],
+            ["il / elle / on", "est", "he / she / we (informal) is"],
+            ["nous", "sommes", "we are"],
+            ["vous", "êtes", "you are (formal, or more than one person)"],
+            ["ils / elles", "sont", "they are"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[es]] and [[est]] sound exactly the same: like the letter *é* in English “hay” without the *y*." },
+        { "type": "pattern", "title": "Saying your nationality",
+          "pattern": "sujet + être + nationalité",
+          "note": "In French, nationality adjectives take **no capital letter** and **change for women**. Usually you add **-e**; words ending in **-ien** double the n: **-ienne**.",
+          "examples": [
+            { "fr": "Je suis canadien. / Je suis canadienne.", "en": "I'm Canadian. (man / woman)" },
+            { "fr": "Il est français. / Elle est française.", "en": "He is French. / She is French." },
+            { "fr": "Je suis indien. / Je suis indienne.", "en": "I'm Indian. (man / woman)" },
+            { "fr": "Nous sommes mexicains.", "en": "We are Mexican." }
+          ] },
+        { "type": "vocab", "title": "Nationalities in this lesson", "itemIds": ["canadien", "francais", "indien", "mexicain", "chinois", "marocain"] },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "The added **-e** is silent, but it makes the consonant before it **heard**:\n\n- [[français]] ends in a vowel sound; [[française]] ends with a *z* sound.\n- [[canadien]] ends in a nasal vowel; in [[canadienne]] you hear the *n*.\n- [[chinois]] → [[chinoise]]: the *z* sound appears.\n\nSo listen for that final consonant: it tells you the speaker is talking about a woman.",
+          "examples": [ { "fr": "français — française", "en": "French (m) — French (f)" }, { "fr": "canadien — canadienne", "en": "Canadian (m) — Canadian (f)" } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Capital letters:** [[Je suis Canadien]] is wrong; write [[Je suis canadien]]. Capitals are used only for the *people* as nouns: [[les Canadiens]] (the Canadians).\n- **Avoir instead of être:** English speakers sometimes say [[J'ai canadien]]. Nationality always uses **être**.\n- **No article:** say [[Je suis français]], not [[Je suis un français]]." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "In Québec, many people describe themselves as [[québécois]] / [[québécoise]] rather than (or as well as) [[canadien]]. Both are normal; it is about identity as much as citizenship. You will also hear [[On est à Montréal]] for “we are in Montréal” — [[on]] is the everyday way to say *we*." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Je suis canadien.", "en": "I'm Canadian. (man)", "tip": "suis sounds like “swee”." },
+            { "fr": "Je suis canadienne.", "en": "I'm Canadian. (woman)", "tip": "Now you hear the n at the end." },
+            { "fr": "Vous êtes française ?", "en": "Are you French? (formal, to a woman)", "tip": "Link the words: vou-z‿êtes." },
+            { "fr": "Nous sommes à Montréal.", "en": "We are in Montréal." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Elle est chinoise.", "en": "She's Chinese.", "prompt": "Who is the speaker talking about?", "options": ["A Chinese woman", "A Chinese man", "A Canadian woman"], "answer": 0, "explain": "[[chinoise]] — you hear the z sound, so it is feminine." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il est canadien.", "en": "He's Canadian.", "prompt": "Who is it?", "options": ["A Canadian man", "A Canadian woman", "An Indian man"], "answer": 0, "explain": "[[canadien]] ends in a nasal vowel, no n sound: masculine." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ___ indienne.", "answers": [["suis"]], "choices": ["suis", "es", "est", "sommes"], "en": "I'm Indian.", "explain": "je → suis" },
+        { "id": "r2", "type": "mcq", "prompt": "Olivier is French. Which sentence is correct?", "options": ["Olivier est français.", "Olivier est française.", "Olivier es français.", "Olivier est Français."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "française is the feminine form; Olivier is a man.", "es goes with tu. With il/elle or a name, use est.", "No capital letter for nationality adjectives."] },
+        { "id": "r3", "type": "translate", "prompt": "We are Canadian.", "accept": ["Nous sommes canadiens.", "Nous sommes canadiennes.", "On est canadiens.", "On est canadiennes.", "On est canadien."], "hint": "nous + sommes; add -s for plural.", "explain": "With nous, use sommes, and make the adjective plural: canadiens (or canadiennes for a group of women)." },
+        { "id": "r4", "type": "match", "prompt": "Match each form to its subject.", "pairs": [["je suis", "I am"], ["tu es", "you are (friend)"], ["nous sommes", "we are"], ["vous êtes", "you are (formal)"], ["ils sont", "they are"]] },
+        { "id": "r5", "type": "cloze", "text": "Amira est ___. (marocain)", "answers": [["marocaine"]], "en": "Amira is Moroccan.", "explain": "Amira is a woman: marocain + e = marocaine." },
+        { "id": "r6", "type": "reorder", "prompt": "What's your nationality? (to a friend)", "accept": ["Tu es de quelle nationalité ?"], "extra": ["est"], "explain": "Tu es de quelle nationalité ? is the friendly, spoken way to ask." },
+        { "id": "r7", "type": "translate", "prompt": "She is Mexican.", "accept": ["Elle est mexicaine."], "explain": "elle → est; mexicain + e → mexicaine." },
+        { "id": "r8", "type": "dictation", "fr": "Vous êtes chinois ?", "accept": ["Vous êtes chinoise ?", "Vous êtes chinoises ?"], "explain": "[[êtes]] has a circumflex: ê." },
+        { "id": "r9", "type": "cloze", "text": "Raj et Karim ___ indiens.", "answers": [["sont"]], "choices": ["sont", "sommes", "êtes", "est"], "en": "Raj and Karim are Indian.", "explain": "Two people = ils → sont." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Introduce yourself at the welcome evening: say hello, your name, your nationality, and ask someone else theirs.", "seconds": 20,
+          "checklist": ["Greeting (Bonjour / Bonsoir)", "Je suis + your name", "Je suis + your nationality", "A question: Et toi ? / Tu es de quelle nationalité ?"],
+          "models": [ { "label": "Model answer", "fr": "Bonsoir ! Je suis Mei. Je suis chinoise, et maintenant je suis à Vancouver. Et toi ? Tu es de quelle nationalité ?", "en": "Good evening! I'm Mei. I'm Chinese, and now I'm in Vancouver. And you? What's your nationality?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write 3 short sentences: your nationality, the nationality of someone in your family, and a question for a new friend.", "wordRange": [10, 35],
+          "checklist": ["Use je suis", "Use il est or elle est with the right ending", "End with a question"],
+          "models": [ { "label": "Model answer", "fr": "Je suis indien. Ma femme est indienne aussi. Et toi, tu es de quelle nationalité ?", "en": "I'm Indian. My wife is Indian too. And you, what's your nationality?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate **être** in the present: [[je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont]]\n- Say your nationality with the right masculine or feminine ending\n- Ask [[Tu es de quelle nationalité ?]] and [[Et toi ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai (lead author self-check)", "notes": "Reference lesson for CONTENT-GUIDE.md" }
+}

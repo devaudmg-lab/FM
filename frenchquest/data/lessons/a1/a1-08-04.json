@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-08-04",
+  "level": "a1",
+  "unit": "a1-08",
+  "title": "Schedules and timetables",
+  "goal": "Read a simple work schedule or class timetable, and say when you work or study: days, hours, breaks, full-time or part-time.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-du-au", "kind": "grammar", "fr": "du lundi au vendredi, de 9 h à 17 h", "en": "from… to… with days and times",
+      "drills": [
+        { "type": "cloze", "text": "Je travaille ___ lundi ___ vendredi.", "answers": [["du"], ["au"]], "en": "I work from Monday to Friday.", "explain": "de + le lundi → du lundi; à + le vendredi → au vendredi." },
+        { "type": "cloze", "text": "Le magasin est ouvert ___ 10 h ___ 18 h.", "answers": [["de"], ["à"]], "en": "The store is open from 10 a.m. to 6 p.m.", "explain": "With times: de… à…, no article." },
+        { "type": "translate", "prompt": "from Tuesday to Saturday", "accept": ["du mardi au samedi"], "explain": "du + first day, au + last day." }
+      ] },
+    { "id": "g-commencer-finir", "kind": "grammar", "fr": "commencer à / finir à + heure", "en": "start at / finish at + a time",
+      "drills": [
+        { "type": "cloze", "text": "Je commence ___ huit heures.", "answers": [["à"]], "en": "I start at eight.", "explain": "commencer à + time: à means *at* here." },
+        { "type": "cloze", "text": "Nous ___ à neuf heures. (commencer)", "answers": [["commençons"]], "en": "We start at nine.", "explain": "nous commençons: ç keeps the soft s sound before o." },
+        { "type": "translate", "prompt": "The class finishes at noon.", "accept": ["Le cours finit à midi.", "Le cours se termine à midi."], "explain": "finir → le cours finit (from lesson 3) + à midi." }
+      ] },
+    { "id": "horaire", "kind": "vocab", "fr": "horaire", "article": "l'", "gender": "m", "pos": "noun", "en": "schedule, timetable", "accept": ["horaire", "un horaire", "l'emploi du temps", "emploi du temps"],
+      "example": { "fr": "Voici mon horaire de travail.", "en": "Here's my work schedule." }, "note": "Masculine: un horaire, mon horaire. In France, a personal or school timetable is often l'emploi du temps." },
+    { "id": "pause", "kind": "vocab", "fr": "pause", "article": "la", "gender": "f", "pos": "noun", "en": "break (at work or school)", "accept": ["pause", "une pause"],
+      "example": { "fr": "La pause est à dix heures.", "en": "The break is at ten." }, "note": "prendre une pause = to take a break" },
+    { "id": "cours", "kind": "vocab", "fr": "cours", "article": "le", "gender": "m", "pos": "noun", "en": "class, course", "accept": ["cours", "un cours"],
+      "example": { "fr": "J'ai un cours de français le lundi.", "en": "I have a French class on Mondays." }, "note": "Same in the plural: les cours. The s is silent." },
+    { "id": "commencer", "kind": "vocab", "fr": "commencer", "en": "to start, to begin", "pos": "verb",
+      "example": { "fr": "Je commence à neuf heures.", "en": "I start at nine." }, "note": "Regular -er verb, but nous commençons." },
+    { "id": "temps-plein", "kind": "phrase", "fr": "à temps plein", "en": "full-time", "accept": ["à plein temps"],
+      "example": { "fr": "Raj travaille à temps plein.", "en": "Raj works full-time." } },
+    { "id": "temps-partiel", "kind": "phrase", "fr": "à temps partiel", "en": "part-time",
+      "example": { "fr": "Je travaille à temps partiel.", "en": "I work part-time." } },
+    { "id": "lundi-vendredi", "kind": "phrase", "fr": "du lundi au vendredi", "en": "from Monday to Friday" },
+    { "id": "neuf-a-cinq", "kind": "phrase", "fr": "de 9 h à 17 h", "en": "from 9 a.m. to 5 p.m.", "accept": ["de neuf heures à dix-sept heures", "de 9 heures à 17 heures"], "say": "de neuf heures à dix-sept heures" },
+    { "id": "pause-diner", "kind": "phrase", "fr": "la pause du dîner", "en": "lunch break (Québec)", "accept": ["la pause du midi", "la pause déjeuner", "la pause-déjeuner", "la pause-dîner"], "note": "In Québec, le dîner is lunch. In France: la pause déjeuner." },
+    { "id": "jour-conge", "kind": "phrase", "fr": "un jour de congé", "en": "a day off", "accept": ["une journée de congé", "un congé"],
+      "example": { "fr": "Le dimanche, c'est mon jour de congé.", "en": "Sunday is my day off." } },
+    { "id": "fin-de-semaine", "kind": "vocab", "fr": "fin de semaine", "article": "la", "gender": "f", "pos": "noun", "en": "the weekend (Québec)", "accept": ["fin de semaine", "le week-end", "le weekend"],
+      "example": { "fr": "Je travaille la fin de semaine.", "en": "I work on weekends." }, "note": "In France: le week-end." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "When do you work?",
+      "blocks": [
+        { "type": "dialogue", "title": "Coffee break in Gatineau",
+          "context": "Lucie and Raj compare their schedules.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Tu travailles à temps plein, Raj ?", "en": "Do you work full-time, Raj?" },
+            { "speaker": "Raj", "fr": "Oui, je travaille du lundi au vendredi, de huit heures trente à seize heures trente.", "en": "Yes, I work Monday to Friday, from 8:30 a.m. to 4:30 p.m." },
+            { "speaker": "Lucie", "fr": "Et la pause du dîner ?", "en": "And the lunch break?" },
+            { "speaker": "Raj", "fr": "Je prends une heure, à midi. Et toi ?", "en": "I take an hour, at noon. And you?" },
+            { "speaker": "Lucie", "fr": "Moi, je travaille à temps partiel à l'hôpital, le mardi, le jeudi et le samedi. Je commence à sept heures et je finis à quinze heures.", "en": "I work part-time at the hospital, on Tuesdays, Thursdays and Saturdays. I start at 7 a.m. and finish at 3 p.m." },
+            { "speaker": "Raj", "fr": "Le samedi aussi ?", "en": "Saturdays too?" },
+            { "speaker": "Lucie", "fr": "Oui. Mais le dimanche, c'est mon jour de congé ! Et le lundi soir, j'ai mon cours de français, de dix-huit heures à vingt et une heures.", "en": "Yes. But Sunday is my day off! And on Monday evenings I have my French class, from 6 to 9 p.m." }
+          ] },
+        { "type": "text", "title": "A class timetable",
+          "fr": "Cours de francisation — niveau 1\nÀ temps partiel : 6 heures par semaine\nLundi et mercredi : de 18 h 30 à 21 h 30\nPause : de 20 h à 20 h 15\nDébut des cours : le lundi 8 septembre",
+          "en": "French course for newcomers — level 1\nPart-time: 6 hours a week\nMonday and Wednesday: 6:30 p.m. to 9:30 p.m.\nBreak: 8:00 to 8:15 p.m.\nClasses start: Monday, September 8" }
+      ] },
+    { "type": "understand", "title": "Days, hours and schedules",
+      "blocks": [
+        { "type": "pattern", "title": "From… to…",
+          "pattern": "du + jour au + jour   •   de + heure à + heure",
+          "note": "With days: [[du]] (de + le) and [[au]] (à + le), the same contractions you learned for places in town. With times: just [[de]] and [[à]].",
+          "examples": [
+            { "fr": "du lundi au vendredi", "en": "from Monday to Friday" },
+            { "fr": "du mardi au samedi", "en": "from Tuesday to Saturday" },
+            { "fr": "de 9 h à 17 h", "en": "from 9 a.m. to 5 p.m." },
+            { "fr": "de 8 h 30 à 12 h", "en": "from 8:30 a.m. to noon" }
+          ] },
+        { "type": "pattern", "title": "Start and finish",
+          "pattern": "commencer à + heure   •   finir à + heure",
+          "note": "[[commencer]] is a regular -er verb, but with nous you write **ç**: [[nous commençons]]. [[finir]] is the -ir verb from the last lesson.",
+          "examples": [
+            { "fr": "Je commence à huit heures.", "en": "I start at eight." },
+            { "fr": "Le cours finit à vingt et une heures trente.", "en": "The class finishes at 9:30 p.m." },
+            { "fr": "Nous commençons le 8 septembre.", "en": "We start on September 8." }
+          ] },
+        { "type": "explain", "title": "Le lundi or lundi?",
+          "body": "A small word makes a big difference:\n\n- [[lundi]] = this Monday, one time: [[Je travaille lundi.]] (I'm working on Monday.)\n- [[le lundi]] = every Monday: [[Je travaille le lundi.]] (I work on Mondays.)\n\nSchedules are about habits, so you will see [[le]] a lot: [[le samedi]], [[le mardi et le jeudi]], [[le soir]] (in the evening)." },
+        { "type": "explain", "title": "Reading times in a schedule",
+          "body": "Written schedules use the **24-hour clock**, with **h** instead of a colon:\n\n- [[8 h 30]] → *huit heures trente* (8:30 a.m.)\n- [[17 h]] → *dix-sept heures* (5 p.m.)\n- [[21 h 15]] → *vingt et une heures quinze* (9:15 p.m.)\n\nAnd two useful words: [[à temps plein]] (full-time) and [[à temps partiel]] (part-time). [[La pause]] is a break; [[un jour de congé]] is a day off." },
+        { "type": "vocab", "title": "Words for schedules", "itemIds": ["horaire", "pause", "cours", "commencer", "temps-plein", "temps-partiel", "lundi-vendredi", "neuf-a-cinq", "pause-diner", "jour-conge", "fin-de-semaine"] },
+        { "type": "deepdive", "kind": "canada", "title": "Schedules, Québec style",
+          "body": "- **L'horaire:** in Québec, your work or class timetable is [[mon horaire]]: [[J'ai un horaire de jour]] (I work days). In France, a personal timetable is more often [[mon emploi du temps]].\n- **Le dîner:** in Québec, [[le déjeuner]] is breakfast, [[le dîner]] is lunch and [[le souper]] is supper. So the lunch break is [[la pause du dîner]] (France: [[la pause déjeuner]]).\n- **La fin de semaine:** Québec says [[la fin de semaine]]; France says [[le week-end]].\n- **Le quart de travail:** a *shift* in a hospital, factory or store is [[un quart]]: [[le quart de soir]], [[le quart de nuit]].\n- **Temps plein:** you will see [[poste à temps plein]] or [[emploi à temps partiel]] in job ads. In casual speech you may hear some people drop the [[à]] ([[Je travaille temps plein]]). Just recognize it; say and write [[à temps plein]].\n\nIn conversation, people often use the 12-hour clock: [[Je travaille de neuf à cinq]]. Written schedules use the 24-hour clock." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- [[Je commence 9 h]] → [[Je commence à 9 h]]. You need [[à]] before the time.\n- [[de le lundi à le vendredi]] → [[du lundi au vendredi]]. Always contract.\n- [[en temps plein]] → [[à temps plein]].\n- [[Je travaille les lundis]] is possible, but the usual way is [[le lundi]] (singular) for every Monday.\n- [[nous commencons]] → [[nous commençons]], with the cedilla." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "du lundi au vendredi", "en": "from Monday to Friday", "tip": "Glide from du to au without a pause." },
+            { "fr": "de neuf heures à dix-sept heures", "en": "from 9 a.m. to 5 p.m.", "tip": "neuf heures: the f sounds like v, neu-v‿heures." },
+            { "fr": "Je travaille à temps partiel.", "en": "I work part-time.", "tip": "In partiel, the t sounds like s: par-siel." },
+            { "fr": "Je commence à huit heures.", "en": "I start at eight.", "tip": "Link: hui-t‿heures." },
+            { "fr": "Le dimanche, c'est mon jour de congé.", "en": "Sunday is my day off." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je travaille du lundi au jeudi.", "en": "I work from Monday to Thursday.", "prompt": "Which days does the speaker work?", "options": ["Monday to Thursday", "Monday to Friday", "Tuesday to Thursday"], "answer": 0, "explain": "[[du lundi au jeudi]]: from Monday to Thursday." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le cours commence à dix-huit heures trente.", "en": "The class starts at 6:30 p.m.", "prompt": "When does the class start?", "options": ["6:30 p.m.", "8:30 p.m.", "6:00 p.m."], "answer": 0, "explain": "[[dix-huit heures trente]] = 18 h 30 = 6:30 p.m." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Elle travaille à temps partiel, la fin de semaine.", "en": "She works part-time, on weekends.", "prompt": "What do you learn about her job?", "options": ["Part-time, on weekends", "Full-time, on weekends", "Part-time, from Monday to Friday"], "answer": 0, "explain": "[[à temps partiel]] = part-time; [[la fin de semaine]] = on weekends." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "First read Amira's schedule, then answer. The schedule stays here for the reading questions; the rest is from memory.",
+      "blocks": [
+        { "type": "text", "title": "Amira's work schedule",
+          "fr": "Horaire de travail — Amira (vendeuse, temps partiel)\nLundi : congé\nMardi : de 9 h à 17 h (pause du dîner : de 12 h à 13 h)\nMercredi : de 13 h à 21 h\nJeudi : congé\nVendredi : de 9 h à 17 h\nSamedi : de 10 h à 16 h\nDimanche : congé",
+          "en": "Work schedule — Amira (salesperson, part-time)\nMonday: day off\nTuesday: 9 a.m. to 5 p.m. (lunch break: noon to 1 p.m.)\nWednesday: 1 p.m. to 9 p.m.\nThursday: day off\nFriday: 9 a.m. to 5 p.m.\nSaturday: 10 a.m. to 4 p.m.\nSunday: day off" },
+        { "id": "r1", "type": "mcq", "prompt": "When does Amira start work on Wednesday?", "options": ["At 1 p.m.", "At 9 a.m.", "At 9 p.m.", "At 10 a.m."], "answer": 0, "explain": "Mercredi : de 13 h à 21 h. 13 h = 1 p.m.", "optionFeedback": [null, "9 h is her start time on Tuesday and Friday.", "21 h (9 p.m.) is when she finishes on Wednesday.", "10 h is her start time on Saturday."] },
+        { "id": "r2", "type": "mcq", "prompt": "Which days are Amira's days off?", "options": ["Monday, Thursday and Sunday", "Monday and Tuesday", "Saturday and Sunday"], "answer": 0, "explain": "congé = day off: lundi, jeudi, dimanche." },
+        { "id": "r3", "type": "mcq", "prompt": "Which sentence is true?", "options": ["Amira travaille à temps partiel.", "Amira travaille à temps plein.", "Amira travaille du lundi au vendredi.", "Amira finit à 17 h le samedi."], "optionsFr": true, "answer": 0,
+          "explain": "The schedule says temps partiel: part-time.",
+          "optionFeedback": [null, "temps plein = full-time; the schedule says temps partiel.", "She has Monday and Thursday off, and works on Saturday.", "On Saturday she finishes at 16 h."] },
+        { "id": "r4", "type": "cloze", "text": "Je travaille ___ lundi ___ vendredi.", "answers": [["du"], ["au"]], "en": "I work from Monday to Friday.", "explain": "du (de + le) lundi, au (à + le) vendredi." },
+        { "id": "r5", "type": "cloze", "text": "Le cours commence ___ 18 h 30.", "answers": [["à"]], "choices": ["à", "de", "au"], "en": "The class starts at 6:30 p.m.", "explain": "commencer à + time." },
+        { "id": "r6", "type": "translate", "prompt": "I work part-time.", "accept": ["Je travaille à temps partiel."], "explain": "à temps partiel = part-time; à temps plein = full-time." },
+        { "id": "r7", "type": "translate", "prompt": "The meeting finishes at 3 p.m.", "accept": ["La réunion finit à 15 h.", "La réunion finit à quinze heures.", "La réunion finit à 15 heures.", "La réunion se termine à 15 h.", "La réunion se termine à quinze heures.", "La réunion se termine à 15 heures.", "La réunion finit à trois heures."], "hint": "Use the 24-hour clock.", "explain": "la réunion → finit; 3 p.m. = 15 h in a schedule." },
+        { "id": "r8", "type": "reorder", "prompt": "We take a break at noon.", "accept": ["Nous prenons une pause à midi.", "À midi, nous prenons une pause."], "extra": ["prennent"], "explain": "nous → prenons (one n). prennent goes with ils / elles." },
+        { "id": "r9", "type": "dictation", "fr": "Je travaille le samedi, de dix heures à seize heures.", "accept": ["Je travaille le samedi, de 10 h à 16 h.", "Je travaille le samedi de dix heures à seize heures.", "Je travaille le samedi de 10 h à 16 h.", "Je travaille le samedi, de 10 heures à 16 heures.", "Je travaille le samedi de 10 heures à 16 heures."], "explain": "[[le samedi]] = every Saturday; [[de… à…]] with times." },
+        { "id": "r10", "type": "mcq", "prompt": "Lucie says: « Le dimanche, je ne travaille pas. » What does she mean?", "options": ["She doesn't work on Sundays.", "She isn't working this Sunday only.", "She works every Sunday."], "answer": 0, "explain": "[[le dimanche]] with le = every Sunday, a habit." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Describe your weekly schedule for work or classes: full-time or part-time, which days, what time you start and finish, your break, and your day off.", "seconds": 40,
+          "checklist": ["à temps plein or à temps partiel", "du… au… for days", "commencer à / finir à + times", "la pause (du dîner)", "your day off or the weekend"],
+          "models": [ { "label": "Model answer", "fr": "Je travaille à temps plein, du lundi au vendredi. Je commence à huit heures et je finis à seize heures. La pause du dîner est à midi. Le mardi soir, j'ai un cours de français, de dix-huit heures à vingt et une heures. La fin de semaine, je suis en congé !", "en": "I work full-time, Monday to Friday. I start at 8 and I finish at 4 p.m. The lunch break is at noon. On Tuesday evenings, I have a French class from 6 to 9 p.m. On weekends, I'm off!" } ] },
+        { "id": "w1", "type": "write", "prompt": "A friend wants to have coffee with you. Write a short message with your schedule this week: when you work or study, and when you are free (libre).", "wordRange": [25, 60],
+          "checklist": ["Greet your friend", "Give your work or class hours with de… à…", "Use le + day for a habit", "Say when you are free (je suis libre…)", "Ask a question at the end"],
+          "models": [ { "label": "Model answer", "fr": "Salut Sofia ! Cette semaine, je travaille du lundi au jeudi, de 9 h à 17 h. Le vendredi, j'ai mon cours de francisation de 13 h à 16 h. Je suis libre vendredi soir et samedi. Est-ce que tu es libre samedi matin ?", "en": "Hi Sofia! This week I'm working Monday to Thursday, 9 a.m. to 5 p.m. On Fridays I have my French class from 1 to 4 p.m. I'm free Friday evening and Saturday. Are you free Saturday morning?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Say days and hours with [[du lundi au vendredi]] and [[de 9 h à 17 h]]\n- Use [[commencer à]] and [[finir à]] + a time, and [[le lundi]] for every Monday\n- Read a work schedule or class timetable in the 24-hour clock\n- Talk about [[à temps plein]], [[à temps partiel]], [[la pause du dîner]] and [[un jour de congé]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Hedged “Je travaille temps plein” as casual, recognition only. Added missing accepted answers to r7, r8 (À midi, nous prenons une pause) and r9 (digits with heures)." }
+}

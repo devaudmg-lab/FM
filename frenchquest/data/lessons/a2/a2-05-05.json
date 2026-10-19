@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-05-05",
+  "level": "a2",
+  "unit": "a2-05",
+  "title": "Plan a trip in Québec",
+  "goal": "Plan a week-long trip in Québec: choose transport, buy tickets, book a room, follow announcements, ask for help and share your plan.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-plan-futur", "kind": "grammar", "fr": "nous prendrons / on pourrait / ça te dit de…", "en": "making travel plans: futur simple and suggestions",
+      "drills": [
+        { "type": "cloze", "text": "Lundi, nous ___ le train pour Québec. (prendre)", "answers": [["prendrons"]], "en": "On Monday, we'll take the train to Québec City.", "explain": "prendre → prendr- + ons = [[prendrons]]." },
+        { "type": "cloze", "text": "On ___ louer une voiture à Rimouski.", "answers": [["pourrait"]], "en": "We could rent a car in Rimouski.", "explain": "[[On pourrait]] + infinitive makes a suggestion (unit 4)." },
+        { "type": "mcq", "prompt": "“We'll go to the Gaspésie in July.”", "options": ["Nous irons en Gaspésie en juillet.", "Nous allerons en Gaspésie en juillet.", "Nous irons à la Gaspésie en juillet."], "optionsFr": true, "answer": 0, "explain": "aller has the future stem ir-: [[nous irons]]. Regions like the Gaspésie take [[en]]." }
+      ] },
+    { "id": "g-polite-review", "kind": "grammar", "fr": "Pourriez-vous… ? / Auriez-vous… ? / Savez-vous si… ?", "en": "polite requests when travelling",
+      "drills": [
+        { "type": "translate", "prompt": "Could you tell me where the bus stop is? (formal)", "accept": ["Pourriez-vous me dire où se trouve l'arrêt d'autobus ?", "Pourriez-vous me dire où est l'arrêt d'autobus ?", "Pourriez-vous me dire où est l'arrêt de bus ?", "Est-ce que vous pourriez me dire où est l'arrêt d'autobus ?", "Est-ce que vous pourriez me dire où se trouve l'arrêt d'autobus ?"], "explain": "[[Pourriez-vous me dire]] + où + est / se trouve…" },
+        { "type": "cloze", "text": "___ une chambre pour ce soir ?", "answers": [["Auriez-vous", "Est-ce que vous auriez", "Vous auriez"]], "en": "Would you have a room for tonight?", "explain": "[[Auriez-vous]] + noun = would you have…?" },
+        { "type": "mcq", "prompt": "“Do you know if the bus is direct?”", "options": ["Savez-vous si l'autobus est direct ?", "Savez-vous que l'autobus est direct ?", "Connaissez-vous si l'autobus est direct ?"], "optionsFr": true, "answer": 0, "explain": "“If / whether” = [[si]]; with information, use [[savoir]]." }
+      ] },
+    { "id": "itineraire", "kind": "vocab", "fr": "itinéraire", "article": "l'", "gender": "m", "en": "itinerary (route plan)", "pos": "noun", "accept": ["un itinéraire"],
+      "example": { "fr": "Voici notre itinéraire pour la semaine.", "en": "Here's our itinerary for the week." } },
+    { "id": "trajet", "kind": "vocab", "fr": "trajet", "article": "le", "gender": "m", "en": "journey (from A to B)", "pos": "noun", "accept": ["un trajet"],
+      "example": { "fr": "Le trajet dure environ quatre heures.", "en": "The journey takes about four hours." } },
+    { "id": "sejour", "kind": "vocab", "fr": "séjour", "article": "le", "gender": "m", "en": "stay (on a trip)", "pos": "noun", "accept": ["un séjour"],
+      "example": { "fr": "Bon séjour à Québec !", "en": "Enjoy your stay in Québec City!" } },
+    { "id": "louer-voiture", "kind": "phrase", "fr": "louer une voiture", "en": "to rent a car", "accept": ["louer une auto", "louer un char"], "note": "[[un char]] is very informal Québec French for a car." },
+    { "id": "dure", "kind": "phrase", "fr": "Ça dure combien de temps ?", "en": "How long does it take?", "accept": ["Le trajet dure combien de temps ?", "Combien de temps dure le trajet ?"] },
+    { "id": "faire-le-tour", "kind": "phrase", "fr": "faire le tour de la Gaspésie", "en": "to go around the Gaspé Peninsula" },
+    { "id": "on-pourrait-passer", "kind": "phrase", "fr": "On pourrait passer deux nuits à Québec.", "en": "We could spend two nights in Québec City.", "accept": ["Nous pourrions passer deux nuits à Québec."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "The mission: a week in Québec",
+      "blocks": [
+        { "type": "explain", "title": "Your mission",
+          "body": "Amira and Raj have one week of vacation in July. They want to see **Québec City**, **Charlevoix** and the **Gaspésie**. In this checkpoint you will:\n\n- read their itinerary and listen to the announcements and calls on the way\n- answer **10 graded questions** that mix the whole unit with the past and future tenses from units 1 to 4\n- **call** to book part of the trip, then **write** your own trip plan\n\nAim for **80%**. Read each document once carefully, and play each recording no more than twice." },
+        { "type": "text", "title": "Amira's email to Raj",
+          "fr": "Salut Raj !\nJ'ai préparé un itinéraire pour notre semaine de vacances. Tu aimes mon plan ?\nLundi matin, nous prendrons le train à la gare Centrale. Le trajet jusqu'à Québec dure un peu plus de trois heures. On pourrait passer deux nuits dans le Vieux-Québec : j'ai trouvé un petit hôtel à 165 $ la nuit, déjeuner compris. Mardi, on visitera la vieille ville et la chute Montmorency. Elle est plus haute que les chutes Niagara !\nMercredi, nous louerons une voiture pour aller dans Charlevoix. Il y a seulement une heure et quart de route jusqu'à Baie-Saint-Paul. L'an dernier, je suis allée là-bas avec ma sœur, et c'était magnifique.\nJeudi, on partira tôt pour la Gaspésie. C'est long, alors on dormira à Rimouski. Vendredi et samedi, on fera le tour de la Gaspésie jusqu'à Percé. Là-bas, on pourra voir le rocher Percé et faire une excursion en bateau à l'île Bonaventure.\nDimanche, nous laisserons la voiture et nous rentrerons en autobus. Ça te dit ?\nAmira",
+          "en": "Hi Raj! I've prepared an itinerary for our vacation week. Do you like my plan? On Monday morning, we'll take the train at Central Station. The journey to Québec City takes a little more than three hours. We could spend two nights in Old Québec: I found a small hotel at $165 a night, breakfast included. On Tuesday, we'll visit the old city and Montmorency Falls. It's higher than Niagara Falls! On Wednesday, we'll rent a car to go to Charlevoix. It's only an hour and a quarter by road to Baie-Saint-Paul. Last year, I went there with my sister, and it was magnificent. On Thursday, we'll leave early for the Gaspésie. It's long, so we'll sleep in Rimouski. On Friday and Saturday, we'll drive around the Gaspé Peninsula to Percé. There, we'll be able to see Percé Rock and take a boat trip to Bonaventure Island. On Sunday, we'll drop off the car and come back by bus. What do you think? Amira" },
+        { "id": "d1", "type": "mcq", "prompt": "How will Amira and Raj travel from Montréal to Québec City?", "options": ["By train", "By rented car", "By bus", "By plane"], "answer": 0,
+          "explain": "[[Lundi matin, nous prendrons le train à la gare Centrale.]] The car comes on Wednesday." },
+        { "id": "d2", "type": "mcq", "prompt": "Why will they sleep in Rimouski on Thursday?", "options": ["Because the drive to the Gaspésie is long", "Because the hotel in Percé is full", "Because Amira's sister lives there"], "answer": 0,
+          "explain": "[[C'est long, alors on dormira à Rimouski.]] [[alors]] = so." },
+        { "type": "note", "tone": "info", "body": "Montmorency Falls really are higher than Niagara Falls: about 83 m, against about 51 m for Niagara. The Gaspésie is huge: going all the way around the peninsula is more than 800 km. Many travellers spend a week or more there. Amira's plan is a fast version!" }
+      ] },
+    { "type": "understand", "title": "Unit 5 at a glance",
+      "intro": "A quick map of everything you need for this mission.",
+      "blocks": [
+        { "type": "table", "title": "1. Tickets",
+          "head": ["You want…", "Say…"],
+          "rows": [
+            ["a one-way or round-trip ticket", "Je voudrais un aller simple / un aller-retour pour Québec."],
+            ["the times", "À quelle heure part le prochain train ? Il arrive à quelle heure ?"],
+            ["the length of the trip", "Ça dure combien de temps ?"],
+            ["a discount", "Il y a une réduction pour les étudiants ?"]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "table", "title": "2. Announcements",
+          "head": ["Slot", "Listen for…"],
+          "rows": [
+            ["where to / from", "à destination de, en provenance de"],
+            ["what happens", "à l'heure, retardé, annulé, embarquement immédiat"],
+            ["where", "voie 14, porte 52, correspondance avec la ligne verte"],
+            ["when", "partira à…, le départ est prévu à…"]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "table", "title": "3. Polite requests",
+          "head": ["Opener", "Request"],
+          "rows": [
+            ["Excusez-moi de vous déranger…", "Pourriez-vous m'aider ?"],
+            ["Pardon, madame…", "Savez-vous où se trouve la gare ?"],
+            ["Bonjour, monsieur…", "Auriez-vous un plan de la ville ?"]
+          ],
+          "frCols": [0, 1], "sayCol": true },
+        { "type": "table", "title": "4. Hotels",
+          "head": ["You want…", "Say…"],
+          "rows": [
+            ["to book", "Je voudrais réserver une chambre double pour deux nuits, du 12 au 14 juillet."],
+            ["to know what's included", "Est-ce que le déjeuner est compris ? Les taxes sont comprises ?"],
+            ["to check in", "J'ai une réservation au nom de…"]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "pattern", "title": "5. Talking about the trip: three time frames",
+          "pattern": "passé composé + imparfait (before) · futur simple / futur proche (plans) · on pourrait (suggestions)",
+          "note": "A good trip plan uses all the tenses of A2 so far: the **future** for the plan, a **suggestion** with [[on pourrait]] or [[ça te dit de]], and a **memory** from a past trip with the passé composé and the imparfait.",
+          "examples": [
+            { "fr": "Nous prendrons le train lundi.", "en": "We'll take the train on Monday." },
+            { "fr": "On pourrait louer une voiture à Québec.", "en": "We could rent a car in Québec City." },
+            { "fr": "L'an dernier, nous sommes allés à Percé. Il faisait beau et la mer était calme.", "en": "Last year, we went to Percé. The weather was nice and the sea was calm." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Six mistakes to avoid on this mission",
+          "body": "- [[un billet à Québec]] → [[un billet pour Québec]]\n- [[Je pars Montréal]] → [[Je pars de Montréal]] or [[Je quitte Montréal]]\n- [[Pourriez-vous aider moi ?]] → [[Pourriez-vous m'aider ?]]\n- [[les taxes sont compris]] → [[les taxes sont comprises]]\n- [[nous allerons]] → [[nous irons]]\n- [[nous avons allé]] → [[nous sommes allés]] (aller takes être)" },
+        { "type": "deepdive", "kind": "canada", "title": "En, au, à or dans?",
+          "body": "With Québec places, the little word changes:\n\n- **Cities:** [[à Québec, à Percé, à Baie-Saint-Paul]]\n- **Feminine regions and provinces, or ones starting with a vowel:** [[en Gaspésie, en Colombie-Britannique, en Ontario]]; masculine ones take [[au]]: [[au Québec, au Manitoba]]\n- **Charlevoix:** the usual form is [[dans Charlevoix]]. In speech you will also often hear [[à Charlevoix]]; [[en Charlevoix]] exists but is rare. Some regions take [[dans les]]: [[dans les Laurentides]].\n- **Islands:** [[à l'île Bonaventure]]; for the île d'Orléans you hear both [[à l'île d'Orléans]] and [[sur l'île d'Orléans]].\n\nDon't worry if you hesitate: everyone will understand you. Just keep [[à]] + city." }
+      ] },
+    { "type": "hear", "title": "On the road",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Lundi, nous prendrons le train pour Québec.", "en": "On Monday, we'll take the train to Québec City." },
+            { "fr": "On pourrait passer deux nuits dans le Vieux-Québec.", "en": "We could spend two nights in Old Québec." },
+            { "fr": "Ça dure combien de temps ?", "en": "How long does it take?", "tip": "dure: round your lips for the French u." },
+            { "fr": "Nous ferons le tour de la Gaspésie.", "en": "We'll go around the Gaspé Peninsula.", "tip": "Gaspésie: *gas-pé-zi*." }
+          ] },
+        { "type": "listen", "title": "At the car rental counter in Québec City",
+          "context": "Wednesday morning. Raj picks up the car.",
+          "fr": "Alors, la voiture est réservée du mercredi au dimanche. L'assurance de base est comprise. Vous pourrez laisser la voiture à notre bureau de Gaspé dimanche matin, avant 10 h. Le réservoir est plein : vous devrez rendre la voiture avec le réservoir plein aussi.",
+          "en": "So, the car is reserved from Wednesday to Sunday. Basic insurance is included. You'll be able to leave the car at our Gaspé office on Sunday morning, before 10 a.m. The tank is full: you'll have to return the car with a full tank too." },
+        { "id": "h1", "type": "listen-mcq", "fr": "Vous pourrez laisser la voiture à notre bureau de Gaspé dimanche matin, avant 10 h.", "en": "You'll be able to leave the car at our Gaspé office on Sunday morning, before 10 a.m.",
+          "prompt": "Where and when must Raj return the car?", "options": ["In Gaspé, on Sunday before 10 a.m.", "In Québec City, on Sunday before 10 a.m.", "In Gaspé, on Saturday before 10 p.m."], "answer": 0,
+          "explain": "[[à notre bureau de Gaspé]] = at our Gaspé office; [[dimanche matin, avant 10 h]]." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: on the road",
+      "intro": "Ten questions in the order of the trip. They mix the whole unit with the past and the future.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je voudrais deux ___ pour Québec : nous reviendrons dimanche.", "answers": [["allers-retours"]], "choices": ["allers-retours", "allers simples", "départs"], "en": "I'd like two round-trip tickets to Québec City: we'll come back on Sunday.",
+          "explain": "They come back, so they need round trips. Plural: [[deux allers-retours]] (both parts take an -s)." },
+        { "id": "r2", "type": "listen-mcq", "fr": "Mesdames et messieurs, le train 22 à destination de Québec partira avec vingt minutes de retard, à 9 h 35, de la voie 12.", "en": "Ladies and gentlemen, train 22 to Québec City will leave twenty minutes late, at 9:35, from track 12.",
+          "prompt": "Monday morning at Gare Centrale. What's the news?", "options": ["The train will leave 20 minutes late, at 9:35, from track 12.", "The train will leave at 9:15 from track 22.", "The train is cancelled; take the 12:00 train."], "answer": 0,
+          "explain": "[[avec vingt minutes de retard]] = 20 minutes late; [[à neuf heures trente-cinq]]; [[voie douze]]. 22 is the train number." },
+        { "id": "r3", "type": "mcq", "prompt": "In Québec City, you can't find your hotel. What do you say to a passer-by?", "options": ["Excusez-moi de vous déranger, savez-vous où se trouve l'hôtel Champlain ?", "Hé ! Où est l'hôtel Champlain ?", "Je cherche. Hôtel Champlain. Vite !", "Tu sais où est l'hôtel Champlain ?"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Too abrupt with a stranger.", "Very rude, and not a sentence.", "tu is too familiar with a stranger."] },
+        { "id": "r4", "type": "cloze", "text": "À l'hôtel, le déjeuner est ___, mais les taxes ne sont pas ___.", "answers": [["compris"], ["comprises"]], "choices": ["compris", "comprise", "comprises"], "en": "At the hotel, breakfast is included, but taxes are not included.",
+          "explain": "[[déjeuner]] (m) → [[compris]]; [[taxes]] (f pl) → [[comprises]]." },
+        { "id": "r5", "type": "translate", "prompt": "On Wednesday, we'll rent a car and we'll go to Charlevoix.", "accept": ["Mercredi, nous louerons une voiture et nous irons dans Charlevoix.", "Mercredi, nous louerons une voiture et nous irons à Charlevoix.", "Mercredi, nous louerons une auto et nous irons dans Charlevoix.", "Mercredi, nous louerons une auto et nous irons à Charlevoix.", "Mercredi, nous allons louer une voiture et nous allons aller dans Charlevoix.", "Mercredi, nous allons louer une voiture et nous allons aller à Charlevoix.", "Mercredi, nous allons louer une auto et nous allons aller dans Charlevoix.", "Mercredi, nous allons louer une auto et nous allons aller à Charlevoix.", "Mercredi, on louera une voiture et on ira dans Charlevoix.", "Mercredi, on louera une voiture et on ira à Charlevoix.", "Mercredi, on louera une auto et on ira dans Charlevoix.", "Mercredi, on louera une auto et on ira à Charlevoix.", "Mercredi, on va louer une voiture et on va aller dans Charlevoix.", "Mercredi, on va louer une voiture et on va aller à Charlevoix.", "Mercredi, on va louer une auto et on va aller dans Charlevoix.", "Mercredi, on va louer une auto et on va aller à Charlevoix.", "Mercredi, nous louerons une voiture pour aller dans Charlevoix.", "Mercredi, on louera une voiture pour aller dans Charlevoix.", "Mercredi, nous louerons une voiture pour aller à Charlevoix.", "Mercredi, on louera une voiture pour aller à Charlevoix."],
+          "hint": "louer → louerons; aller → irons", "explain": "Futur simple: [[nous louerons]] (regular), [[nous irons]] (irregular stem ir-). Québec usage: [[dans Charlevoix]]." },
+        { "id": "r6", "type": "reorder", "prompt": "Could you tell me how long the trip takes?", "accept": ["Pourriez-vous me dire combien de temps dure le trajet ?"], "extra": ["est"],
+          "explain": "Start with the chunk [[Pourriez-vous me dire]]. After [[combien de temps]], the verb can come before the subject: [[dure le trajet]]." },
+        { "id": "r7", "type": "listen-mcq", "fr": "Auberge du Rocher, bonjour ! Pour vendredi, je suis désolée, nous sommes complets. Mais il me reste une chambre pour samedi, avec vue sur la mer.", "en": "Auberge du Rocher, hello! For Friday, I'm sorry, we're fully booked. But I still have one room for Saturday, with a sea view.",
+          "prompt": "Amira calls an inn in Percé. What does the receptionist say?", "options": ["Full on Friday; one room with a sea view on Saturday", "One room on Friday, full on Saturday", "Full on both nights"], "answer": 0,
+          "explain": "[[nous sommes complets]] for Friday; [[il me reste une chambre pour samedi]]." },
+        { "id": "r8", "type": "match", "prompt": "Match the travel words.", "pairs": [["le trajet", "journey"], ["le séjour", "stay"], ["l'itinéraire", "itinerary"], ["la correspondance", "connection"], ["la réduction", "discount"]] },
+        { "id": "r9", "type": "translate", "prompt": "Last year, my sister and I went to Percé. It was beautiful and the sea was calm.", "accept": ["L'année dernière, ma sœur et moi, nous sommes allées à Percé. C'était beau et la mer était calme.", "L'année dernière, ma sœur et moi, nous sommes allées à Percé. C'était magnifique et la mer était calme.", "L'année dernière, ma sœur et moi, nous sommes allées à Percé. C'était très beau et la mer était calme.", "L'année dernière, ma sœur et moi, nous sommes allés à Percé. C'était beau et la mer était calme.", "L'année dernière, ma sœur et moi, nous sommes allés à Percé. C'était magnifique et la mer était calme.", "L'année dernière, ma sœur et moi, nous sommes allés à Percé. C'était très beau et la mer était calme.", "L'année dernière, ma sœur et moi sommes allées à Percé. C'était beau et la mer était calme.", "L'année dernière, ma sœur et moi sommes allées à Percé. C'était magnifique et la mer était calme.", "L'année dernière, ma sœur et moi sommes allées à Percé. C'était très beau et la mer était calme.", "L'année dernière, ma sœur et moi sommes allés à Percé. C'était beau et la mer était calme.", "L'année dernière, ma sœur et moi sommes allés à Percé. C'était magnifique et la mer était calme.", "L'année dernière, ma sœur et moi sommes allés à Percé. C'était très beau et la mer était calme.", "L'année dernière, ma sœur et moi, on est allées à Percé. C'était beau et la mer était calme.", "L'année dernière, ma sœur et moi, on est allées à Percé. C'était magnifique et la mer était calme.", "L'année dernière, ma sœur et moi, on est allées à Percé. C'était très beau et la mer était calme.", "L'année dernière, ma sœur et moi, on est allés à Percé. C'était beau et la mer était calme.", "L'année dernière, ma sœur et moi, on est allés à Percé. C'était magnifique et la mer était calme.", "L'année dernière, ma sœur et moi, on est allés à Percé. C'était très beau et la mer était calme.", "L'an dernier, ma sœur et moi, nous sommes allées à Percé. C'était beau et la mer était calme.", "L'an dernier, ma sœur et moi, nous sommes allées à Percé. C'était magnifique et la mer était calme.", "L'an dernier, ma sœur et moi, nous sommes allées à Percé. C'était très beau et la mer était calme.", "L'an dernier, ma sœur et moi, nous sommes allés à Percé. C'était beau et la mer était calme.", "L'an dernier, ma sœur et moi, nous sommes allés à Percé. C'était magnifique et la mer était calme.", "L'an dernier, ma sœur et moi, nous sommes allés à Percé. C'était très beau et la mer était calme.", "L'an dernier, ma sœur et moi sommes allées à Percé. C'était beau et la mer était calme.", "L'an dernier, ma sœur et moi sommes allées à Percé. C'était magnifique et la mer était calme.", "L'an dernier, ma sœur et moi sommes allées à Percé. C'était très beau et la mer était calme.", "L'an dernier, ma sœur et moi sommes allés à Percé. C'était beau et la mer était calme.", "L'an dernier, ma sœur et moi sommes allés à Percé. C'était magnifique et la mer était calme.", "L'an dernier, ma sœur et moi sommes allés à Percé. C'était très beau et la mer était calme.", "L'an dernier, ma sœur et moi, on est allées à Percé. C'était beau et la mer était calme.", "L'an dernier, ma sœur et moi, on est allées à Percé. C'était magnifique et la mer était calme.", "L'an dernier, ma sœur et moi, on est allées à Percé. C'était très beau et la mer était calme.", "L'an dernier, ma sœur et moi, on est allés à Percé. C'était beau et la mer était calme.", "L'an dernier, ma sœur et moi, on est allés à Percé. C'était magnifique et la mer était calme.", "L'an dernier, ma sœur et moi, on est allés à Percé. C'était très beau et la mer était calme."],
+          "hint": "aller takes être; descriptions take the imparfait.", "explain": "[[nous sommes allées]] for the event ([[allés]] if one of you is a man); [[c'était]] and [[la mer était]] (imparfait) for the description." },
+        { "id": "r10", "type": "dictation", "fr": "Dimanche, nous laisserons la voiture et nous rentrerons en autobus.", "accept": ["Dimanche, nous laisserons la voiture et nous rentrerons en bus."],
+          "explain": "Two regular futures: [[laisserons]], [[rentrerons]]: infinitive + -ons." }
+      ] },
+    { "type": "apply", "title": "Your mission: book and plan",
+      "intro": "Two final missions. Use the checklists, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        { "id": "s1", "type": "speak",
+          "prompt": "Call an inn in Percé (60 seconds). Greet politely, book a room for two people for two nights with dates, ask the price and what is included, ask politely how to get to the inn from the bus stop, give your name and spell it, and thank the receptionist.",
+          "promptFr": "Vous téléphonez à une auberge de Percé pour réserver une chambre.",
+          "seconds": 60,
+          "checklist": [
+            "Polite greeting: Bonjour, madame / monsieur",
+            "The booking: Je voudrais réserver une chambre double pour deux nuits, du… au…",
+            "The price: C'est combien la nuit ?",
+            "What's included: Est-ce que le déjeuner est compris ? Les taxes… ?",
+            "A polite request: Pourriez-vous me dire comment aller à l'auberge depuis l'arrêt d'autobus ?",
+            "If needed: Pourriez-vous répéter plus lentement ?",
+            "Your name, spelled: C'est au nom de…",
+            "Thanks: Merci beaucoup, c'est très gentil."
+          ],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour, madame. Je voudrais réserver une chambre double pour deux nuits, du vendredi 18 au dimanche 20 juillet. C'est combien la nuit ? … D'accord. Est-ce que le déjeuner est compris ? … Très bien. Nous arriverons en autobus. Pourriez-vous me dire comment aller à l'auberge depuis l'arrêt ? … Pourriez-vous répéter plus lentement, s'il vous plaît ? … Merci. C'est au nom de Haddad, H-A-D-D-A-D. Merci beaucoup, bonne journée !",
+              "en": "Hello, madam. I'd like to book a double room for two nights, from Friday July 18 to Sunday July 20. How much is it per night? … OK. Is breakfast included? … Very good. We'll arrive by bus. Could you tell me how to get to the inn from the stop? … Could you repeat more slowly, please? … Thank you. It's under the name Haddad, H-A-D-D-A-D. Thank you very much, have a good day! (The … mark the receptionist's answers.)" },
+            { "label": "Stronger model answer", "fr": "Bonjour, madame. Excusez-moi de vous appeler si tard. Je voudrais réserver une chambre pour deux personnes, du vendredi 18 au dimanche 20 juillet, si possible avec vue sur la mer. … Ah, vendredi, vous êtes complets ? Dommage. Et pour samedi, auriez-vous encore quelque chose ? … Parfait, alors nous prendrons la chambre samedi et dimanche. Est-ce que le déjeuner et les taxes sont compris dans le prix ? … D'accord, merci. Autre chose : nous n'aurons pas de voiture. Savez-vous si l'auberge est loin de l'arrêt d'autobus ? … Cinq minutes à pied, super. La réservation est au nom de Raj Sharma, S-H-A-R-M-A. L'année dernière, des amis sont venus chez vous et ils ont adoré. Merci beaucoup, et à samedi !",
+              "en": "Hello, madam. Sorry for calling so late. I'd like to book a room for two people, from Friday July 18 to Sunday July 20, with a sea view if possible. … Oh, you're fully booked on Friday? Too bad. And for Saturday, would you still have something? … Perfect, so we'll take the room on Saturday and Sunday. Are breakfast and taxes included in the price? … OK, thanks. One more thing: we won't have a car. Do you know if the inn is far from the bus stop? … Five minutes on foot, great. The reservation is under the name Raj Sharma, S-H-A-R-M-A. Last year, some friends stayed with you and they loved it. Thank you very much, and see you on Saturday! (The … mark the receptionist's answers.)" }
+          ] },
+        { "id": "w1", "type": "write",
+          "prompt": "Reply to a friend who wants to visit Québec with you. Propose a 3- to 5-day itinerary: where you will go, how you will travel (tickets, car, bus), where you could stay and what is included, and one activity per place. Add a memory from a past trip and end with a question.",
+          "promptFr": "Proposez un itinéraire de voyage au Québec à un ami ou à une amie.",
+          "wordRange": [80, 130],
+          "checklist": [
+            "Salut + name",
+            "At least four verbs in the futur simple: nous prendrons, on ira, nous dormirons…",
+            "Transport: un aller-retour, louer une voiture, en autobus…",
+            "Where to stay: On pourrait réserver… déjeuner compris",
+            "One activity per place",
+            "A memory in the past: L'an dernier, je suis allé… / je suis allée… c'était…",
+            "Connectors: d'abord, ensuite, puis, enfin, alors",
+            "A question: Ça te dit ? / Qu'est-ce que tu en penses ?"
+          ],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Olivier !\nJ'ai une idée pour nos vacances. D'abord, nous prendrons le train pour Québec. On pourrait réserver un hôtel dans le Vieux-Québec, déjeuner compris. Le premier jour, on visitera la vieille ville. Ensuite, nous louerons une voiture et nous irons dans Charlevoix. Là-bas, on fera une randonnée. Enfin, nous rentrerons à Montréal en autobus.\nL'année dernière, je suis allée à Baie-Saint-Paul avec ma famille. Il faisait très beau et c'était magnifique !\nÇa te dit ?\nCamille",
+              "en": "Hi Olivier! I have an idea for our vacation. First, we'll take the train to Québec City. We could book a hotel in Old Québec, breakfast included. On the first day, we'll visit the old city. Then we'll rent a car and go to Charlevoix. There, we'll go hiking. Finally, we'll come back to Montréal by bus. Last year, I went to Baie-Saint-Paul with my family. The weather was great and it was magnificent! What do you think? Camille" },
+            { "label": "Stronger model answer", "fr": "Salut Mei !\nJ'ai regardé les horaires et j'ai préparé un petit itinéraire. Vendredi matin, nous partirons de Montréal en train : j'achèterai deux allers-retours, parce que c'est moins cher. Nous arriverons à Québec vers midi. On pourrait dormir dans une petite auberge près du Château Frontenac : la chambre double coûte 170 $ la nuit, déjeuner compris, mais les taxes ne sont pas comprises.\nSamedi, nous irons voir la chute Montmorency, puis nous ferons le tour de l'île d'Orléans à vélo. Dimanche, si tu veux, on pourrait louer une voiture pour passer la journée dans Charlevoix.\nQuand j'étais étudiant, je suis allé à l'île d'Orléans en septembre : il y avait des pommes partout et les gens étaient très accueillants.\nQu'est-ce que tu en penses ? Tu es libre ?\nKarim",
+              "en": "Hi Mei! I looked at the schedules and prepared a little itinerary. On Friday morning, we'll leave Montréal by train: I'll buy two round-trip tickets, because it's cheaper. We'll arrive in Québec City around noon. We could stay in a small inn near the Château Frontenac: the double room costs $170 a night, breakfast included, but taxes aren't included. On Saturday, we'll go and see Montmorency Falls, then we'll cycle around Île d'Orléans. On Sunday, if you want, we could rent a car to spend the day in Charlevoix. When I was a student, I went to Île d'Orléans in September: there were apples everywhere and people were very welcoming. What do you think? Are you free? Karim" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Plan a trip with the futur simple and suggestions: [[nous prendrons, nous irons, on pourrait…]]\n- Buy tickets, follow announcements and ask for help politely on the way\n- Book a room and check what is included: [[déjeuner compris, taxes en sus]]\n- Tell a travel memory with the passé composé and the imparfait",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the allers-retours plural rule and the en/au rule (Ontario is masculine but starts with a vowel), explained dans/à/en Charlevoix accurately, and added the Montmorency/Niagara heights. Removed the moi distractor from r6 (pronouns come in unit 8) and widened r5/r9 accept." }
+}

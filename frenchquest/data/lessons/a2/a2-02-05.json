@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-02-05",
+  "level": "a2",
+  "unit": "a2-02",
+  "title": "Recount a trip",
+  "goal": "Tell the full story of a trip in order, mixing avoir, être and reflexive verbs with correct agreement, negatives and time markers.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    {
+      "id": "g-pc-full",
+      "kind": "grammar",
+      "fr": "j'ai visité, je suis allée, on s'est promenés",
+      "en": "passé composé: avoir, être and reflexive verbs together",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Samedi, Lucie ___ ___ à Québec et elle a ___ le Château Frontenac. (aller, voir)",
+          "answers": [
+            [
+              "est"
+            ],
+            [
+              "allée"
+            ],
+            [
+              "vu"
+            ]
+          ],
+          "en": "On Saturday Lucie went to Québec City and saw the Château Frontenac.",
+          "explain": "aller → être + agreement (allée); voir → avoir + vu (no agreement)."
+        },
+        {
+          "type": "cloze",
+          "text": "Nous ne ___ ___ pas couchés tard.",
+          "answers": [
+            [
+              "nous"
+            ],
+            [
+              "sommes"
+            ]
+          ],
+          "en": "We didn't go to bed late.",
+          "explain": "Reflexive negative: ne + nous + sommes + pas + couchés."
+        },
+        {
+          "type": "translate",
+          "prompt": "They (women) stayed three days.",
+          "accept": [
+            "Elles sont restées trois jours.",
+            "Elles sont restées pendant trois jours."
+          ],
+          "explain": "rester → être; elles → restées."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "Elle est partie tôt et elle a pris le train.",
+            "Elle a partie tôt et elle est pris le train.",
+            "Elle est parti tôt et elle a prise le train."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "partir → être (partie, agrees); prendre → avoir (pris, no agreement)."
+        }
+      ]
+    },
+    {
+      "id": "en-voiture",
+      "kind": "phrase",
+      "fr": "Nous sommes partis en voiture.",
+      "en": "We left by car. (use nous; a mixed group)",
+      "accept": [
+        "Nous sommes partis en voiture.",
+        "Nous sommes partis en auto."
+      ]
+    },
+    {
+      "id": "auberge",
+      "kind": "vocab",
+      "fr": "auberge",
+      "article": "une",
+      "gender": "f",
+      "en": "inn, small hotel",
+      "pos": "noun",
+      "accept": [
+        "l'auberge"
+      ],
+      "example": {
+        "fr": "On a dormi dans une petite auberge.",
+        "en": "We slept in a small inn."
+      }
+    },
+    {
+      "id": "chute",
+      "kind": "vocab",
+      "fr": "chute",
+      "article": "la",
+      "gender": "f",
+      "en": "waterfall",
+      "pos": "noun",
+      "accept": [
+        "les chutes"
+      ],
+      "example": {
+        "fr": "Nous sommes allés à la chute Montmorency.",
+        "en": "We went to Montmorency Falls."
+      }
+    },
+    {
+      "id": "quel-voyage",
+      "kind": "phrase",
+      "fr": "Quel beau voyage !",
+      "en": "What a lovely trip!",
+      "accept": [
+        "Quel beau voyage !",
+        "Quel super voyage !"
+      ]
+    },
+    {
+      "id": "tu-es-alle-ou",
+      "kind": "phrase",
+      "fr": "Tu es allé où en vacances ?",
+      "en": "Where did you go on vacation? (to a friend)",
+      "accept": [
+        "Tu es allé où en vacances ?",
+        "Tu es allée où en vacances ?",
+        "Où est-ce que tu es allé en vacances ?",
+        "Où est-ce que tu es allée en vacances ?",
+        "Où es-tu allé en vacances ?",
+        "Où es-tu allée en vacances ?",
+        "Où tu es allé en vacances ?",
+        "Où tu es allée en vacances ?"
+      ]
+    },
+    {
+      "id": "malheureusement",
+      "kind": "vocab",
+      "fr": "malheureusement",
+      "en": "unfortunately",
+      "pos": "adverb"
+    },
+    {
+      "id": "heureusement",
+      "kind": "vocab",
+      "fr": "heureusement",
+      "en": "luckily, fortunately",
+      "pos": "adverb"
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A long weekend in Québec City",
+      "intro": "Read the email, then listen to the voice message. Look for the helper verbs.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "An email from Lucie",
+          "context": "Lucie writes to her colleague Amira after a long weekend in Québec City with her partner Marc.",
+          "fr": "Salut Amira !\nMarc et moi, nous sommes enfin allés à Québec pour l'Action de grâce. D'abord, nous sommes partis de Montréal vendredi à midi, en voiture. Malheureusement, il y a eu beaucoup de circulation et nous sommes arrivés seulement à 17 h !\nSamedi matin, on s'est levés tôt et on s'est promenés dans le Vieux-Québec. Ensuite, nous sommes montés sur les plaines d'Abraham. Il a fait froid, mais les couleurs des arbres sont magnifiques en octobre ! Vers midi, nous avons mangé une tourtière dans un petit restaurant, puis nous avons visité le Musée de la civilisation.\nDimanche, nous sommes allés à la chute Montmorency. Je suis montée par l'escalier, mais Marc a pris le téléphérique : il n'aime pas les escaliers ! Après ça, nous avons pris le traversier pour Lévis. Heureusement, il n'a pas plu.\nNous avons dormi dans une petite auberge près du Château Frontenac. Nous ne nous sommes pas couchés tard, et nous avons très bien dormi.\nEnfin, lundi, nous sommes rentrés à Montréal. Quel beau voyage ! Et toi, tu es déjà allée à Québec ?\nBises,\nLucie",
+          "en": "Hi Amira! Marc and I finally went to Québec City for Thanksgiving. First, we left Montréal on Friday at noon, by car. Unfortunately, there was a lot of traffic and we only arrived at 5 p.m.! On Saturday morning we got up early and walked around Old Québec. Next, we went up to the Plains of Abraham. It was cold, but the colours of the trees are amazing in October! Around noon, we ate a tourtière (meat pie) in a little restaurant, then we visited the Museum of Civilization. On Sunday, we went to Montmorency Falls. I went up by the stairs, but Marc took the cable car: he doesn't like stairs! After that, we took the ferry to Lévis. Luckily, it didn't rain. We slept in a small inn near the Château Frontenac. We didn't go to bed late, and we slept very well. Finally, on Monday, we came back to Montréal. What a lovely trip! And you, have you ever been to Québec City? Love, Lucie"
+        },
+        {
+          "type": "listen",
+          "title": "Amira's voice message",
+          "context": "Amira answers Lucie.",
+          "fr": "Salut Lucie ! Merci pour ton courriel. Oui, je suis déjà allée à Québec, l'hiver dernier, pour le Carnaval. Mes enfants ont adoré : ils ont vu le Bonhomme et ils ont glissé sur la neige toute la journée. Moi, je suis tombée deux fois sur la glace ! Mais je ne suis pas allée à la chute Montmorency. La prochaine fois, peut-être. Bonne semaine !",
+          "en": "Hi Lucie! Thanks for your email. Yes, I've already been to Québec City, last winter, for the Carnival. My kids loved it: they saw Bonhomme and went sledding on the snow all day. I fell twice on the ice! But I didn't go to Montmorency Falls. Next time, maybe. Have a good week!"
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "Why did Lucie and Marc arrive late on Friday?",
+          "options": [
+            "There was a lot of traffic.",
+            "They left Montréal late at night.",
+            "They took the ferry first."
+          ],
+          "answer": 0,
+          "explain": "[[Malheureusement, il y a eu beaucoup de circulation et nous sommes arrivés seulement à 17 h !]]"
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 2 in one page",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Which helper verb?",
+          "head": [
+            "Type of verb",
+            "Helper",
+            "Agreement with the subject?",
+            "Example"
+          ],
+          "rows": [
+            [
+              "most verbs",
+              "avoir",
+              "no",
+              "Elle a visité le musée."
+            ],
+            [
+              "house of être (aller, partir, rester…)",
+              "être",
+              "yes",
+              "Elle est partie vendredi."
+            ],
+            [
+              "reflexive verbs (se lever…)",
+              "être",
+              "yes",
+              "Elle s'est levée tôt."
+            ]
+          ],
+          "frCols": [
+            3
+          ],
+          "sayCol": true,
+          "note": "Agreement after être: **-e** feminine, **-s** plural, **-es** feminine plural. A mixed group → masculine plural."
+        },
+        {
+          "type": "table",
+          "title": "Word order with être",
+          "head": [
+            "Type",
+            "Example"
+          ],
+          "rows": [
+            [
+              "affirmative",
+              "Nous sommes arrivés à 17 h."
+            ],
+            [
+              "negative",
+              "Je ne suis pas allée à la chute."
+            ],
+            [
+              "reflexive negative",
+              "Nous ne nous sommes pas couchés tard."
+            ],
+            [
+              "question",
+              "Tu es allé où ? Est-ce que vous êtes restés longtemps ?"
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "How to tell a great trip story",
+          "body": "A good A2 trip story answers: **where, when, with whom, how, what you did, what went wrong, and how it ended**.\n\n- **Frame:** [[Le mois dernier, je suis allé à Québec avec…]]\n- **Transport and timing:** [[Nous sommes partis en voiture vendredi à midi.]]\n- **Order:** [[D'abord… Ensuite… Puis… Après ça… Enfin…]]\n- **A problem and its outcome:** [[Malheureusement, il a plu, mais heureusement, …]] / [[…mais finalement, …]]\n- **A reaction and a question back:** [[Quel beau voyage ! Et toi, tu es déjà allé à… ?]]\n\nNotice that Lucie writes [[les couleurs sont magnifiques]] in the **present**: they are still beautiful. Descriptions of *what it was like* in the past ([[c'était]], [[il faisait]]) come in Unit 3."
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "title": "Unit 2 checklist",
+          "body": "- [[J'ai allé]] → [[Je suis allé]].\n- [[Je m'ai levé]] → [[Je me suis levé]].\n- Woman speaking: [[je suis allée]], [[je me suis levée]].\n- With avoir, no agreement: [[elle a mangé]], not [[elle a mangée]].\n- Mixed group: [[Marc et Lucie sont partis]].\n- Negative with être: [[je ne suis pas allé]]; with a reflexive: [[je ne me suis pas levé]].\n- [[à Québec]] = the city; [[au Québec]] = the province.\n- [[enfin]] = the last step; [[finalement]] = in the end, after a change."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Québec City through the year",
+          "body": "- [[L'Action de grâce]] (Thanksgiving) in Canada is the second Monday of October, the best time for fall colours.\n- [[Le Carnaval de Québec]] is in February; its mascot is [[le Bonhomme]] (Carnaval), a snowman.\n- [[La tourtière]] is a traditional Québec meat pie.\n- [[La chute Montmorency]] is higher than Niagara Falls; you can go up by the stairs or by [[le téléphérique]] (cable car).\n- In casual Québec speech, a car is often [[un char]] and to drive is [[chauffer]] (informal). Write [[une voiture]] or [[une auto]], and [[conduire]]."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listen closely",
+      "blocks": [
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Oui, je suis déjà allée à Québec, l'hiver dernier, pour le Carnaval. Mes enfants ont adoré : ils ont vu le Bonhomme et ils ont glissé sur la neige toute la journée.",
+          "en": "Yes, I've already been to Québec City, last winter, for the Carnival. My kids loved it: they saw Bonhomme and went sledding on the snow all day.",
+          "prompt": "When did Amira go to Québec City?",
+          "options": [
+            "Last winter, for the Carnival",
+            "Last fall, for Thanksgiving",
+            "She has never been there"
+          ],
+          "answer": 0,
+          "explain": "[[l'hiver dernier, pour le Carnaval]]. Lucie went for Thanksgiving."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Moi, je suis tombée deux fois sur la glace ! Mais je ne suis pas allée à la chute Montmorency.",
+          "en": "I fell twice on the ice! But I didn't go to Montmorency Falls.",
+          "prompt": "What did Amira NOT do?",
+          "options": [
+            "Go to Montmorency Falls",
+            "Fall on the ice",
+            "Go to the Carnival"
+          ],
+          "answer": 0,
+          "explain": "[[je ne suis pas allée à la chute Montmorency]]: the negation wraps around [[suis]]."
+        },
+        {
+          "type": "repeat",
+          "title": "Say it smoothly",
+          "lines": [
+            {
+              "fr": "Nous sommes partis vendredi à midi.",
+              "en": "We left on Friday at noon."
+            },
+            {
+              "fr": "On s'est promenés dans le Vieux-Québec.",
+              "en": "We walked around Old Québec."
+            },
+            {
+              "fr": "Malheureusement, il y a eu beaucoup de circulation.",
+              "en": "Unfortunately, there was a lot of traffic."
+            },
+            {
+              "fr": "Heureusement, il n'a pas plu.",
+              "en": "Luckily, it didn't rain."
+            },
+            {
+              "fr": "Quel beau voyage !",
+              "en": "What a lovely trip!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Checkpoint: mixed practice",
+      "intro": "Units 1 and 2, mixed with A1. Aim for 80%.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "In Lucie's email, how did Marc get to the top of Montmorency Falls?",
+          "options": [
+            "By cable car",
+            "By the stairs",
+            "By car"
+          ],
+          "answer": 0,
+          "explain": "[[Marc a pris le téléphérique : il n'aime pas les escaliers !]] Lucie took the stairs."
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "D'abord, nous ___ ___ de Montréal à midi. (partir)",
+          "answers": [
+            [
+              "sommes"
+            ],
+            [
+              "partis"
+            ]
+          ],
+          "en": "First, we left Montréal at noon. (a mixed group)",
+          "explain": "partir → être; mixed group → partis."
+        },
+        {
+          "id": "r3",
+          "type": "translate",
+          "prompt": "I went up by the stairs. (woman speaking)",
+          "accept": [
+            "Je suis montée par l'escalier.",
+            "Je suis montée par les escaliers.",
+            "Je suis montée à pied par l'escalier.",
+            "Je suis montée à pied par les escaliers."
+          ],
+          "explain": "monter → être; woman speaking → [[montée]]."
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Nous ___ ___ dans une petite auberge. (dormir)",
+          "answers": [
+            [
+              "avons"
+            ],
+            [
+              "dormi"
+            ]
+          ],
+          "choices": [
+            "avons",
+            "sommes",
+            "dormi",
+            "dormis"
+          ],
+          "en": "We slept in a small inn.",
+          "explain": "dormir is not an être verb: [[nous avons dormi]]."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "We didn't go to bed late. (use nous)",
+          "accept": [
+            "Nous ne nous sommes pas couchés tard.",
+            "Nous ne nous sommes pas couchées tard."
+          ],
+          "hint": "ne + nous + sommes + pas",
+          "explain": "Reflexive negative: [[ne nous sommes pas couchés]]."
+        },
+        {
+          "id": "r6",
+          "type": "reorder",
+          "prompt": "Have you ever been to Québec City? (to a friend, a woman)",
+          "accept": [
+            "Tu es déjà allée à Québec ?"
+          ],
+          "extra": [
+            "as",
+            "au"
+          ],
+          "explain": "[[Tu es déjà allée]]: aller → être; déjà between être and the participle. City → [[à Québec]]."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Mes enfants ont ___ le Bonhomme et ils ont ___ ! (voir, adorer)",
+          "answers": [
+            [
+              "vu"
+            ],
+            [
+              "adoré"
+            ]
+          ],
+          "en": "My kids saw Bonhomme and they loved it!",
+          "explain": "Unit 1: voir → vu (irregular), adorer → adoré."
+        },
+        {
+          "id": "r8",
+          "type": "match",
+          "prompt": "Match the sentences to their meaning.",
+          "pairs": [
+            [
+              "Malheureusement, il a plu.",
+              "Unfortunately, it rained."
+            ],
+            [
+              "Heureusement, il n'a pas plu.",
+              "Luckily, it didn't rain."
+            ],
+            [
+              "Il y a eu beaucoup de circulation.",
+              "There was a lot of traffic."
+            ],
+            [
+              "Finalement, on est restés.",
+              "In the end, we stayed."
+            ],
+            [
+              "Enfin, on est rentrés.",
+              "Finally, we went home."
+            ]
+          ]
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Lundi, nous sommes rentrés à Montréal.",
+          "accept": [],
+          "explain": "rentrer → être; [[rentrés]] with -s for the couple (mixed group)."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "La semaine ___, ma sœur ___ venue me voir et nous ___ fait du vélo.",
+          "answers": [
+            [
+              "dernière"
+            ],
+            [
+              "est"
+            ],
+            [
+              "avons"
+            ]
+          ],
+          "choices": [
+            "dernière",
+            "dernier",
+            "est",
+            "a",
+            "avons",
+            "sommes"
+          ],
+          "en": "Last week my sister came to see me and we went cycling.",
+          "explain": "semaine → dernière; venir → être (venue); faire → avoir."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Mission: recount a trip",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "A colleague asks: « Tu es allé où en vacances ? » Tell the story of a trip (real or imagined) in about one minute: where and when, with whom, how you travelled, what you did in order, one problem, how it ended, and a question back.",
+          "promptFr": "Racontez un voyage à un ou une collègue.",
+          "seconds": 60,
+          "checklist": [
+            "Where, when, with whom: Le mois dernier, je suis allé / allée à…",
+            "Transport: on a pris… / nous sommes partis en…",
+            "At least four connectors: d'abord, ensuite, puis, après ça, enfin",
+            "Verbs with avoir, with être (agreement!) and one reflexive verb",
+            "A problem: malheureusement… / mais finalement…",
+            "A negative: je ne suis pas allé / allée…",
+            "A reaction and a question back"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Le mois dernier, je suis allé à Ottawa avec ma femme. Nous sommes partis en autobus samedi matin. D'abord, nous avons visité le Parlement. Ensuite, nous avons mangé au Marché By. Malheureusement, il a plu l'après-midi, alors nous sommes allés au musée. Nous ne sommes pas restés longtemps : nous sommes rentrés dimanche. Et toi, tu es allée où ?",
+              "en": "(A man speaking.) Last month I went to Ottawa with my wife. We left by bus on Saturday morning. First, we visited Parliament. Next, we ate at the ByWard Market. Unfortunately, it rained in the afternoon, so we went to the museum. We didn't stay long: we came back on Sunday. And you, where did you go?"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Cet été, je suis allée à Tadoussac avec deux amies. Nous sommes parties de Montréal en voiture à six heures du matin. Nous avons pris le traversier à Baie-Sainte-Catherine, et nous sommes arrivées vers midi. D'abord, nous nous sommes installées dans un petit chalet, puis nous avons mangé sur une terrasse. Le lendemain, nous avons fait une croisière pour voir les baleines. Malheureusement, il y a eu beaucoup de brouillard et nous n'avons rien vu pendant une heure ! Mais finalement, deux baleines sont arrivées juste à côté du bateau. Après ça, on s'est promenées sur la plage. Enfin, nous sommes rentrées dimanche soir, très fatiguées mais tellement contentes ! Et toi, tu as déjà vu des baleines ?",
+              "en": "(A woman speaking.) This summer I went to Tadoussac with two friends. We left Montréal by car at six in the morning. We took the ferry at Baie-Sainte-Catherine, and we arrived around noon. First, we settled into a little cottage, then we ate on a patio. The next day, we went on a cruise to see the whales. Unfortunately, there was a lot of fog and we saw nothing for an hour! But in the end, two whales came right next to the boat. After that, we walked on the beach. Finally, we came home on Sunday evening, very tired but so happy! And you, have you ever seen whales?"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Reply to Lucie with an email about a trip you took (60–100 words). Tell it in order, include a problem and how it ended, and end with a question.",
+          "promptFr": "Répondez au courriel de Lucie : racontez un voyage.",
+          "wordRange": [
+            60,
+            100
+          ],
+          "checklist": [
+            "A greeting and a closing: Salut Lucie ! … À bientôt,",
+            "Where, when, with whom and how you travelled",
+            "At least four connectors",
+            "At least three être verbs with correct agreement",
+            "At least one reflexive verb",
+            "At least three avoir verbs, including two irregular participles",
+            "A negative and a time marker (il y a…, l'été dernier…)",
+            "A question to finish"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Lucie !\nMerci pour ton courriel. Moi, l'été dernier, je suis allé à Toronto avec mon frère. Nous sommes partis en train vendredi. D'abord, nous sommes montés à la tour CN. Ensuite, nous avons pris le traversier pour les îles de Toronto. Samedi, il a plu, alors nous sommes restés à l'hôtel et nous avons regardé un film. Dimanche, nous nous sommes levés tôt et nous sommes allés aux chutes Niagara. Enfin, nous sommes rentrés lundi. Tu as déjà vu les chutes ?\nÀ bientôt,\nKarim",
+              "en": "(A man writing.) Hi Lucie! Thanks for your email. Last summer I went to Toronto with my brother. We left by train on Friday. First, we went up the CN Tower. Next, we took the ferry to the Toronto Islands. On Saturday it rained, so we stayed at the hotel and watched a movie. On Sunday we got up early and went to Niagara Falls. Finally, we came back on Monday. Have you ever seen the falls? See you soon, Karim"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Salut Lucie !\nQuel beau voyage ! Moi, il y a deux semaines, je suis partie à Moncton chez ma cousine. J'ai pris l'avion jeudi soir, mais malheureusement, ma valise n'est pas arrivée avec moi ! Heureusement, ma cousine m'a prêté des vêtements. Vendredi, nous sommes allées voir la baie de Fundy et nous avons marché sur le fond de la mer à marée basse. Samedi, nous nous sommes reposées, puis nous avons mangé du homard. Finalement, ma valise est arrivée… dimanche, le jour de mon départ ! Je ne suis pas restée longtemps, mais j'ai adoré. Tu es déjà allée dans les Maritimes ?\nBises,\nMei",
+              "en": "(A woman writing.) Hi Lucie! What a lovely trip! Two weeks ago I went to Moncton to my cousin's place. I took the plane on Thursday evening, but unfortunately my suitcase didn't arrive with me! Luckily, my cousin lent me some clothes. On Friday we went to see the Bay of Fundy and we walked on the sea floor at low tide. On Saturday we rested, then we ate lobster. In the end, my suitcase arrived… on Sunday, the day I left! I didn't stay long, but I loved it. Have you ever been to the Maritimes? Love, Mei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Tell a full trip story in order: [[d'abord, ensuite, puis, après ça, enfin]]\n- Mix **avoir**, **être** and **reflexive** verbs, with agreement after être\n- Add a problem and its outcome: [[malheureusement, heureusement, finalement]]\n- **Unit 2 complete.** Next: the **imparfait**, to describe what things were like",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Removed the informal Québec “en char” from the accepted answers (it stays recognition-only in the deep dive) and a dictation accept in a different word order. Fixed the order of events in the Tadoussac model (the ferry comes before arriving). Facts checked: Montmorency is higher than Niagara; Thanksgiving is the second Monday of October."
+  }
+}

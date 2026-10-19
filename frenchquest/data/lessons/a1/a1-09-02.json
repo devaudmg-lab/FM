@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-09-02",
+  "level": "a1",
+  "unit": "a1-09",
+  "title": "Negation",
+  "goal": "Say what you don't do, never do and don't do anymore with ne… pas, ne… jamais and ne… plus, and use pas de correctly.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-ne-pas", "kind": "grammar", "fr": "ne + verbe + pas", "en": "negation: ne… pas around the conjugated verb",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ travaille ___ le samedi.", "answers": [["ne"], ["pas"]], "en": "I don't work on Saturdays.", "explain": "ne goes before the verb, pas right after it." },
+        { "type": "translate", "prompt": "I don't like cooking.", "accept": ["Je n'aime pas cuisiner.", "Je n'aime pas faire la cuisine."], "explain": "ne → n' before a vowel. The negation goes around aimer, the conjugated verb: je n'aime pas + infinitive." },
+        { "type": "mcq", "prompt": "“I don't get up early.” Which is correct?", "options": ["Je ne me lève pas tôt.", "Je me ne lève pas tôt.", "Je ne me pas lève tôt."], "optionsFr": true, "answer": 0, "explain": "With a reflexive verb, ne goes before the pronoun (me) and pas after the verb." }
+      ] },
+    { "id": "g-pas-de", "kind": "grammar", "fr": "pas de / pas d'", "en": "un, une, des, du, de la → de after a negation",
+      "drills": [
+        { "type": "cloze", "text": "Il n'y a pas ___ bus ici.", "answers": [["de"]], "en": "There's no bus here.", "explain": "un, une, des, du, de la become de after a negation." },
+        { "type": "mcq", "prompt": "“I don't have children.” Which is correct?", "options": ["Je n'ai pas d'enfants.", "Je n'ai pas des enfants.", "Je n'ai pas de enfants."], "optionsFr": true, "answer": 0, "explain": "des → de after pas, and de → d' before a vowel: pas d'enfants." },
+        { "type": "cloze", "text": "Je n'aime pas ___ thé.", "answers": [["le"]], "choices": ["le", "de", "du"], "en": "I don't like tea.", "explain": "le, la, les never change. After aimer you keep le: je n'aime pas le thé." }
+      ] },
+    { "id": "ne-jamais", "kind": "phrase", "fr": "ne… jamais", "en": "never", "accept": ["jamais", "ne jamais", "ne...jamais"],
+      "example": { "fr": "Je ne mange jamais de viande.", "en": "I never eat meat." } },
+    { "id": "ne-plus", "kind": "phrase", "fr": "ne… plus", "en": "not anymore, no longer", "accept": ["ne plus", "ne...plus"],
+      "example": { "fr": "Elle ne travaille plus à Ottawa.", "en": "She doesn't work in Ottawa anymore." } },
+    { "id": "ne-rien", "kind": "phrase", "fr": "ne… rien", "en": "nothing, not… anything", "accept": ["rien", "ne rien", "ne...rien"],
+      "example": { "fr": "Je ne fais rien le dimanche.", "en": "I don't do anything on Sundays." } },
+    { "id": "pas-du-tout", "kind": "phrase", "fr": "pas du tout", "en": "not at all",
+      "example": { "fr": "Je n'aime pas du tout le froid.", "en": "I don't like the cold at all." } },
+    { "id": "je-n-aime-pas-ca", "kind": "phrase", "fr": "Je n'aime pas ça.", "en": "I don't like that.", "accept": ["Je n'aime pas ça"] },
+    { "id": "ce-n-est-pas-un-probleme", "kind": "phrase", "fr": "Ce n'est pas un problème.", "en": "It's not a problem.", "accept": ["Ce n'est pas un problème"] },
+    { "id": "plus-de-lait", "kind": "phrase", "fr": "Il n'y a plus de lait.", "en": "There's no more milk.", "accept": ["Il n'y a plus de lait"] },
+    { "id": "moi-non-plus", "kind": "phrase", "fr": "Moi non plus.", "en": "Me neither.",
+      "example": { "fr": "Je n'aime pas le rap. — Moi non plus.", "en": "I don't like rap. — Me neither." } },
+    { "id": "si", "kind": "phrase", "fr": "Si !", "en": "Yes! (contradicting a negative question)",
+      "example": { "fr": "Tu n'aimes pas le café ? — Si, j'adore ça !", "en": "You don't like coffee? — Yes I do, I love it!" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "No meat, no fish, no milk",
+      "blocks": [
+        { "type": "dialogue", "title": "Planning a supper in Moncton",
+          "context": "Olivier and his roommate Mei are inviting friends for supper on Saturday. In Canada (Québec and Acadie), the evening meal is le souper.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Mei, samedi soir, on fait un souper avec Karim et Lucie. Tu manges de la viande ?", "en": "Mei, on Saturday evening we're having a supper with Karim and Lucie. Do you eat meat?" },
+            { "speaker": "Mei", "fr": "Non, je ne mange pas de viande. Je suis végétarienne.", "en": "No, I don't eat meat. I'm vegetarian." },
+            { "speaker": "Olivier", "fr": "Pas de problème ! Et le poisson ?", "en": "No problem! And fish?" },
+            { "speaker": "Mei", "fr": "Je ne mange jamais de poisson. Je n'aime pas ça.", "en": "I never eat fish. I don't like it." },
+            { "speaker": "Olivier", "fr": "D'accord. Et Karim ne prend plus de café le soir.", "en": "OK. And Karim doesn't have coffee in the evening anymore." },
+            { "speaker": "Mei", "fr": "Et Lucie ? Elle n'aime pas le fromage ?", "en": "And Lucie? She doesn't like cheese?" },
+            { "speaker": "Olivier", "fr": "Si ! Elle adore le fromage. Ce n'est pas un problème.", "en": "Yes, she does! She loves cheese. It's not a problem." },
+            { "speaker": "Olivier", "fr": "Bon… Il n'y a plus de lait. Je vais à l'épicerie.", "en": "Right… There's no more milk. I'm going to the grocery store." },
+            { "speaker": "Mei", "fr": "Moi, je ne fais rien aujourd'hui. Je vais à l'épicerie avec toi !", "en": "I'm not doing anything today. I'll go to the grocery store with you!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for the two small words around each verb: [[ne]] before it, and [[pas]], [[jamais]], [[plus]] or [[rien]] after it." }
+      ] },
+    { "type": "understand", "title": "How negation works",
+      "blocks": [
+        { "type": "explain", "title": "Ne… pas: a sandwich around the verb",
+          "body": "To make a sentence negative, put [[ne]] **before** the conjugated verb and [[pas]] **right after** it. The verb is the filling of the sandwich.\n\nBefore a vowel or a silent h, [[ne]] becomes [[n']]: [[je n'aime pas]], [[il n'habite pas]], [[je n'ai pas]].\n\nWhen there are two verbs ([[aimer]] + infinitive), the sandwich goes around the **first**, conjugated verb: [[Je n'aime pas cuisiner.]]" },
+        { "type": "pattern", "title": "The basic pattern",
+          "pattern": "sujet + ne (n') + verbe + pas",
+          "examples": [
+            { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish." },
+            { "fr": "Elle n'habite pas à Toronto.", "en": "She doesn't live in Toronto." },
+            { "fr": "Nous ne travaillons pas le dimanche.", "en": "We don't work on Sundays." },
+            { "fr": "Je n'aime pas cuisiner.", "en": "I don't like cooking." }
+          ] },
+        { "type": "table", "title": "Other negations: same position",
+          "head": ["", "example", "English"],
+          "rows": [
+            ["ne… pas", "Je ne mange pas le matin.", "I don't eat in the morning."],
+            ["ne… jamais", "Je ne mange jamais le matin.", "I never eat in the morning."],
+            ["ne… plus", "Je ne mange plus le matin.", "I don't eat in the morning anymore."],
+            ["ne… rien", "Je ne mange rien le matin.", "I don't eat anything in the morning."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[Jamais]], [[plus]] and [[rien]] simply take the place of [[pas]]. Learn [[ne… rien]] for recognition for now. In [[ne… plus]], the s of [[plus]] is **silent**: “plu”." },
+        { "type": "pattern", "title": "Reflexive verbs: the pronoun stays inside",
+          "pattern": "sujet + ne + me / te / se / nous / vous + verbe + pas",
+          "note": "The reflexive pronoun is glued to its verb, so [[ne]] goes **before the pronoun**.",
+          "examples": [
+            { "fr": "Je ne me lève pas tôt le dimanche.", "en": "I don't get up early on Sundays." },
+            { "fr": "Tu ne te couches pas ?", "en": "Aren't you going to bed?" },
+            { "fr": "Il ne s'habille jamais en noir.", "en": "He never dresses in black." }
+          ] },
+        { "type": "explain", "title": "Pas de: un, une, des, du, de la become de",
+          "body": "After a negation, **un, une, des** and the partitive **du, de la, de l'** all become [[de]] ([[d']] before a vowel). It means “no / not any”.\n\n- [[J'ai une voiture.]] → [[Je n'ai pas de voiture.]]\n- [[Je mange du pain.]] → [[Je ne mange pas de pain.]]\n- [[Il y a des bus.]] → [[Il n'y a pas de bus.]]\n- [[J'ai des enfants.]] → [[Je n'ai pas d'enfants.]]\n\nThe same rule works with [[jamais]] and [[plus]]: [[Je ne mange jamais de viande.]] [[Il n'y a plus de lait.]]" },
+        { "type": "explain", "title": "But le, la, les never change, and être keeps its article",
+          "body": "Two important exceptions:\n\n**1. The definite article stays.** With [[aimer]], [[adorer]], [[détester]] you use le / la / les, and the negation does not change them: [[J'aime le café.]] → [[Je n'aime pas le café.]]\n\n**2. After être, nothing changes.** [[C'est un problème.]] → [[Ce n'est pas un problème.]] [[C'est du thé.]] → [[Ce n'est pas du thé, c'est du café !]]\n\nAnd with jobs there is no article at all: [[Je ne suis pas médecin.]]" },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["ne-jamais", "ne-plus", "ne-rien", "pas-du-tout", "je-n-aime-pas-ca", "ce-n-est-pas-un-probleme", "plus-de-lait", "moi-non-plus", "si"] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Spoken French drops ne",
+          "body": "In everyday speech, French speakers very often **leave out [[ne]]** and keep only [[pas]], [[jamais]] or [[plus]]:\n\n- [[J'aime pas ça.]] = [[Je n'aime pas ça.]]\n- [[C'est pas grave.]] = [[Ce n'est pas grave.]] (It doesn't matter.)\n- [[Je mange jamais de viande.]] = [[Je ne mange jamais de viande.]]\n\nSo **listen for pas, jamais, plus**: they carry the negative meaning. But when you **write**, and in exams like the TEF and TCF, always use the full form with [[ne]].",
+          "examples": [ { "fr": "Y a plus de lait !", "en": "There's no more milk! (very relaxed speech for Il n'y a plus de lait.)" } ] },
+        { "type": "deepdive", "kind": "examples", "title": "Answering: si and moi non plus",
+          "body": "To say **yes** to a **negative** question, French uses [[si]], not [[oui]]:\n\n- [[Tu n'aimes pas le café ? — Si, j'adore ça !]] (You don't like coffee? — Yes I do, I love it!)\n\nTo agree with a negative sentence, say [[moi non plus]] (me neither). To agree with a positive one, you already know [[moi aussi]].\n\n- [[Je n'aime pas le rap. — Moi non plus.]]\n- [[J'aime le jazz. — Moi aussi !]]" },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Wrong order:** [[Je ne pas aime]] is wrong. The verb goes between: [[Je n'aime pas]].\n- **Forgetting the élision:** [[Je ne aime pas]] is wrong. Write [[Je n'aime pas]].\n- **Keeping un / du after pas:** [[Je n'ai pas une voiture]] → [[Je n'ai pas de voiture]].\n- **Changing le after aimer:** [[Je n'aime pas de café]] is wrong. Keep le: [[Je n'aime pas le café]].\n- **Pronoun outside:** [[Je me ne lève pas]] is wrong. Write [[Je ne me lève pas]].\n- **Writing the spoken form:** [[J'aime pas]] is fine in conversation, but write [[Je n'aime pas]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Pantoute!",
+          "body": "In Québec, [[ne]] is rarely heard in casual conversation, so train your ear to catch [[pas]]. You will also hear [[pantoute]], a very informal Québec word for [[pas du tout]] (not at all): [[J'aime pas ça pantoute !]] (I don't like that at all!). Understand it, but use [[pas du tout]] yourself.\n\n**Le souper:** in Québec and in Acadie (Moncton, New Brunswick), the evening meal is [[le souper]] and the midday meal is [[le dîner]]. [[On fait un souper]] = we're having people over for supper. In France, the evening meal is [[le dîner]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud. Pronounce the full form with ne.",
+          "lines": [
+            { "fr": "Je ne parle pas chinois.", "en": "I don't speak Chinese.", "tip": "[[ne]] is very short: “nuh”." },
+            { "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "tip": "[[n'aime]] is one sound: “nem”." },
+            { "fr": "Je ne mange jamais de viande.", "en": "I never eat meat.", "tip": "[[jamais]] sounds like “zha-meh”." },
+            { "fr": "Il n'y a plus de lait.", "en": "There's no more milk.", "tip": "[[plus]] here is “plu”, with no s sound." },
+            { "fr": "Je ne me lève pas tôt.", "en": "I don't get up early.", "tip": "[[ne me]] together: “nuh-muh”." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "J'aime pas le sport.", "en": "I don't like sport.", "prompt": "Does the speaker like sport?", "options": ["No, they don't like it.", "Yes, they like it.", "Yes, they love it."], "answer": 0, "explain": "The speaker drops [[ne]], as people often do in speech, but [[pas]] is there: it is negative." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je ne travaille plus à Ottawa.", "en": "I don't work in Ottawa anymore.", "prompt": "What does the speaker say?", "options": ["They don't work in Ottawa anymore.", "They never work in Ottawa.", "They work more in Ottawa."], "answer": 0, "explain": "[[ne… plus]] = not anymore. Here [[plus]] is pronounced “plu”." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Write the full form, with ne.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ___ parle ___ espagnol.", "answers": [["ne"], ["pas"]], "en": "I don't speak Spanish.", "explain": "ne before the verb, pas after it." },
+        { "id": "r2", "type": "mcq", "prompt": "“She doesn't live in Québec City.” Which sentence is correct in writing?", "options": ["Elle n'habite pas à Québec.", "Elle ne habite pas à Québec.", "Elle n'habite à Québec pas.", "Elle habite pas à Québec."], "optionsFr": true, "answer": 0,
+          "explain": "ne → n' before a vowel or silent h, and pas comes right after the verb.",
+          "optionFeedback": [null, "ne becomes n' before habite (silent h).", "pas goes right after the verb, not at the end.", "This is spoken French. In writing, keep ne: n'habite pas."] },
+        { "id": "r3", "type": "translate", "prompt": "I don't have a car.", "accept": ["Je n'ai pas de voiture.", "Je n'ai pas d'auto."], "hint": "une becomes de after pas.", "explain": "J'ai une voiture → Je n'ai pas de voiture: une becomes de after a negation." },
+        { "id": "r4", "type": "cloze", "text": "Mei ne mange pas ___ viande.", "answers": [["de"]], "choices": ["de", "de la", "la", "du"], "en": "Mei doesn't eat meat.", "explain": "de la (some meat) becomes de after a negation." },
+        { "id": "r5", "type": "cloze", "text": "Je n'aime pas ___ café.", "answers": [["le"]], "choices": ["le", "de", "du"], "en": "I don't like coffee.", "explain": "After aimer, the definite article le stays, even in the negative." },
+        { "id": "r6", "type": "reorder", "prompt": "I don't get up early on Sundays.", "accept": ["Je ne me lève pas tôt le dimanche.", "Le dimanche je ne me lève pas tôt."], "explain": "ne goes before the reflexive pronoun me, pas after the verb lève." },
+        { "id": "r7", "type": "translate", "prompt": "She doesn't work in Toronto anymore.", "accept": ["Elle ne travaille plus à Toronto."], "hint": "not anymore = ne… plus", "explain": "ne… plus around the verb: elle ne travaille plus." },
+        { "id": "r8", "type": "match", "prompt": "Match each negation to its meaning.", "pairs": [["ne… pas", "not"], ["ne… jamais", "never"], ["ne… plus", "not anymore"], ["ne… rien", "nothing"], ["pas du tout", "not at all"]] },
+        { "id": "r9", "type": "mcq", "prompt": "How do you say “It's not a problem”?", "options": ["Ce n'est pas un problème.", "Ce n'est pas de problème.", "Ce ne pas est un problème."], "optionsFr": true, "answer": 0,
+          "explain": "After être, the article does not change: c'est un problème → ce n'est pas un problème.",
+          "optionFeedback": [null, "un only becomes de with verbs like avoir or manger, not after être.", "The verb est goes between ne and pas."] },
+        { "id": "r10", "type": "dictation", "fr": "Nous ne mangeons jamais de poisson.", "accept": [], "explain": "ne… jamais around the verb, and de after the negation. [[mangeons]] keeps an e after the g." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write 4 or 5 sentences about yourself: two things you don't do, one thing you never do, and one thing you don't do anymore. Use the full form with ne.", "wordRange": [20, 50],
+          "checklist": ["Two sentences with ne… pas", "One sentence with ne… jamais", "One sentence with ne… plus", "At least one pas de / jamais de / plus de"],
+          "models": [ { "label": "Model answer", "fr": "Je ne parle pas espagnol et je n'ai pas de voiture. Je ne mange jamais de viande. Je ne travaille plus à Vancouver : maintenant, j'habite à Montréal. Le dimanche, je ne me lève pas tôt !", "en": "I don't speak Spanish and I don't have a car. I never eat meat. I don't work in Vancouver anymore: now I live in Montréal. On Sundays, I don't get up early!" } ] },
+        { "id": "s1", "type": "speak", "prompt": "A friend invites you for supper and asks what you eat. Say two things you don't eat or drink, one thing you never eat, and one thing you love.", "seconds": 30,
+          "checklist": ["Je ne mange pas de…", "Je ne mange jamais de…", "Je n'aime pas + le / la / les…", "J'adore…"],
+          "models": [ { "label": "Model answer", "fr": "Merci pour l'invitation ! Alors, je ne mange pas de porc et je ne prends pas de café le soir. Je ne mange jamais de fromage : je n'aime pas ça. Mais j'adore le poulet !", "en": "Thanks for the invitation! So, I don't eat pork and I don't have coffee in the evening. I never eat cheese: I don't like it. But I love chicken!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Make a sentence negative with **ne… pas** around the conjugated verb: [[Je n'aime pas cuisiner]], [[Je ne me lève pas tôt]]\n- Say “never”, “not anymore” and recognize “nothing”: [[ne… jamais]], [[ne… plus]], [[ne… rien]]\n- Use **pas de** instead of un / une / des / du / de la ([[Je n'ai pas de voiture]]), but keep le / la / les and the article after être ([[Je n'aime pas le café]], [[Ce n'est pas un problème]])\n- Understand spoken [[J'aime pas]], and answer with [[si]] and [[moi non plus]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Labelled le souper as Québec/Acadian usage; softened the claim about ne in Québec speech; added missing accepted answers (faire la cuisine, d'auto, fronted le dimanche)." }
+}

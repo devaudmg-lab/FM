@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-02-03",
+  "level": "b1",
+  "unit": "b1-02",
+  "title": "Before and after",
+  "goal": "Order the steps of a story with avant de + infinitive and après avoir / après être + past participle.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-avant-de", "kind": "grammar", "fr": "avant de + infinitif", "en": "before doing something (same subject)",
+      "drills": [
+        { "type": "cloze", "text": "J'ai vérifié mon passeport avant ___ partir.", "answers": [["de"]], "en": "I checked my passport before leaving.", "explain": "[[avant de]] + infinitive. Never *avant partir*." },
+        { "type": "cloze", "text": "Lave-toi les mains avant ___ manger.", "answers": [["de"]], "en": "Wash your hands before eating.", "explain": "[[avant de manger]]: de + infinitive." },
+        { "type": "translate", "prompt": "Before going to bed, I read a little.", "accept": ["Avant de me coucher, je lis un peu.", "Je lis un peu avant de me coucher.", "Avant d'aller au lit, je lis un peu.", "Je lis un peu avant d'aller au lit.", "Avant d'aller me coucher, je lis un peu.", "Je lis un peu avant d'aller me coucher."], "explain": "With a reflexive verb, the pronoun matches the subject: [[avant de me coucher]]." }
+      ] },
+    { "id": "g-apres-avoir", "kind": "grammar", "fr": "après avoir / après être + participe passé", "en": "after doing something (past infinitive, same subject)",
+      "drills": [
+        { "type": "cloze", "text": "Après ___ mangé, nous sommes sortis.", "answers": [["avoir"]], "en": "After eating, we went out.", "explain": "[[manger]] takes avoir: [[après avoir mangé]]." },
+        { "type": "cloze", "text": "Après ___ arrivée, Mei a appelé sa mère.", "answers": [["être"]], "en": "After arriving, Mei called her mother.", "explain": "[[arriver]] takes être; Mei is a woman, so [[arrivée]]." },
+        { "type": "cloze", "text": "Après nous ___ installés, nous avons commandé une pizza.", "answers": [["être"]], "en": "After settling in, we ordered a pizza.", "explain": "Reflexive verb: [[après nous être installés]]: the pronoun matches the subject nous." },
+        { "type": "mcq", "prompt": "“After finishing his work, Karim went home.”", "options": ["Après avoir fini son travail, Karim est rentré.", "Après finir son travail, Karim est rentré.", "Après avoir finir son travail, Karim est rentré.", "Après être fini son travail, Karim est rentré."], "optionsFr": true, "answer": 0, "explain": "après + avoir + **past participle**: [[après avoir fini]]." }
+      ] },
+    { "id": "avant-de-partir", "kind": "phrase", "fr": "avant de partir", "en": "before leaving" },
+    { "id": "apres-avoir-mange", "kind": "phrase", "fr": "après avoir mangé", "en": "after eating, after having eaten" },
+    { "id": "apres-etre-arrive", "kind": "phrase", "fr": "après être arrivé", "en": "after arriving, after having arrived", "accept": ["après être arrivée", "après être arrivés", "après être arrivées"] },
+    { "id": "demenagement", "kind": "vocab", "fr": "déménagement", "article": "le", "gender": "m", "en": "move (to a new home)", "pos": "noun", "accept": ["un déménagement"],
+      "example": { "fr": "Le jour du déménagement, il pleuvait.", "en": "On moving day, it was raining." } },
+    { "id": "camion", "kind": "vocab", "fr": "camion", "article": "un", "gender": "m", "en": "truck", "pos": "noun", "accept": ["le camion"] },
+    { "id": "locataire", "kind": "vocab", "fr": "locataire", "article": "le", "gender": "m", "en": "tenant", "pos": "noun", "accept": ["la locataire", "un locataire", "une locataire"], "note": "Same form for a man or a woman: le locataire / la locataire." },
+    { "id": "a-l-avance", "kind": "phrase", "fr": "à l'avance", "en": "in advance", "accept": ["d'avance"],
+      "note": "Not the same as en avance (early): Je suis en avance = I'm early." },
+    { "id": "convocation", "kind": "vocab", "fr": "convocation", "article": "la", "gender": "f", "en": "official notice to attend (exam, interview)", "pos": "noun", "accept": ["une convocation"] },
+    { "id": "monter-meubles", "kind": "phrase", "fr": "monter les meubles", "en": "to put the furniture together, to assemble the furniture" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "First this, then that",
+      "intro": "Listen for [[avant de]] and [[après avoir]] / [[après être]]: they put the steps of the day in order.",
+      "blocks": [
+        { "type": "dialogue", "title": "Nguyen's TEF exam day",
+          "context": "Nguyen tells his friend Mei how his TEF Canada exam went last Saturday, in Montréal.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Alors, ton examen ? Raconte-moi tout !", "en": "So, your exam? Tell me everything!" },
+            { "speaker": "Nguyen", "fr": "Bon, je me suis levé à six heures. Après m'être douché, j'ai relu mes notes pendant une heure.", "en": "Well, I got up at six. After showering, I reread my notes for an hour." },
+            { "speaker": "Mei", "fr": "Tu as mangé avant de partir, j'espère ?", "en": "You ate before leaving, I hope?" },
+            { "speaker": "Nguyen", "fr": "Oui, un bon déjeuner. Et avant de prendre le métro, j'ai vérifié trois fois ma convocation et mon passeport.", "en": "Yes, a good breakfast. And before taking the metro, I checked my exam notice and my passport three times." },
+            { "speaker": "Mei", "fr": "Ha, comme moi l'année dernière ! Et une fois là-bas ?", "en": "Ha, like me last year! And once you were there?" },
+            { "speaker": "Nguyen", "fr": "Après être arrivé au centre, j'ai attendu vingt minutes dans le couloir. J'étais super stressé.", "en": "After arriving at the centre, I waited twenty minutes in the hallway. I was super stressed." },
+            { "speaker": "Mei", "fr": "C'est normal. Qu'est-ce qui t'a aidé ?", "en": "That's normal. What helped you?" },
+            { "speaker": "Nguyen", "fr": "Une autre candidate m'a donné un bon conseil : « Avant de répondre, lis toutes les questions. »", "en": "Another candidate gave me some good advice: “Before answering, read all the questions.”" },
+            { "speaker": "Mei", "fr": "Elle a raison. Et l'oral ?", "en": "She's right. And the speaking test?" },
+            { "speaker": "Nguyen", "fr": "Avant de commencer, j'ai regardé l'examinatrice : elle m'a souri, et ça m'a calmé. Après avoir parlé deux minutes, j'avais complètement oublié mon stress !", "en": "Before starting, I looked at the examiner: she smiled at me, and that calmed me down. After speaking for two minutes, I had completely forgotten my stress!" },
+            { "speaker": "Mei", "fr": "Bravo ! Et après l'examen ?", "en": "Well done! And after the exam?" },
+            { "speaker": "Nguyen", "fr": "Après avoir quitté le centre, je suis allé fêter ça au restaurant avec des amis.", "en": "After leaving the centre, I went to celebrate at a restaurant with friends." },
+            { "speaker": "Mei", "fr": "Tu as reçu tes résultats ?", "en": "Have you got your results?" },
+            { "speaker": "Nguyen", "fr": "Pas encore. Et en attendant, je ne veux pas y penser !", "en": "Not yet. And in the meantime, I don't want to think about it!" }
+          ] },
+        { "type": "text", "title": "July 1st: moving day in Québec",
+          "context": "Sofia writes about her family's move for a newcomers' newsletter.",
+          "fr": "Au Québec, le premier juillet, des milliers de familles déménagent le même jour. L'année dernière, c'était notre tour.\nAvant de déménager, nous avions tout organisé : nous avions réservé un camion trois mois à l'avance et nous avions mis toutes nos affaires dans des boîtes. Le matin, avant de partir, Karim a vérifié chaque pièce de l'ancien appartement.\nAprès avoir chargé le camion, nous sommes partis vers notre nouveau quartier, à Rosemont. Mais après être arrivés, nous avons eu une mauvaise surprise : les anciens locataires n'étaient pas encore partis ! Nous avons attendu deux heures sur le trottoir, sous un soleil très fort, avec le chat dans sa cage de transport.\nFinalement, après nous être installés, nous avons commandé une pizza. Après le souper, et avant de nous coucher, nous avons monté les lits. Nous étions épuisés, mais contents.\nMon conseil : avant de signer un bail, demandez la date exacte du départ des locataires !",
+          "en": "In Québec, on July 1st, thousands of families move on the same day. Last year it was our turn. Before moving, we had organized everything: we had booked a truck three months in advance and we had put all our things in boxes. In the morning, before leaving, Karim checked every room of the old apartment. After loading the truck, we left for our new neighbourhood, Rosemont. But after arriving, we had a bad surprise: the former tenants hadn't left yet! We waited two hours on the sidewalk, under a very strong sun, with the cat in its carrier. Finally, after settling in, we ordered a pizza. After supper, and before going to bed, we put the beds together. We were exhausted, but happy. My advice: before signing a lease, ask for the exact date the tenants are leaving!" },
+        { "id": "d1", "type": "mcq", "prompt": "What did Nguyen do right after showering?", "options": ["He reread his notes.", "He took the metro.", "He checked his passport.", "He waited in the hallway."], "answer": 0,
+          "explain": "[[Après m'être douché, j'ai relu mes notes.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "What was the bad surprise at the new apartment?", "options": ["The former tenants were still there.", "The truck was too small.", "The cat had escaped.", "There were no beds."], "answer": 0,
+          "explain": "[[Les anciens locataires n'étaient pas encore partis]]: they hadn't left yet." }
+      ] },
+    { "type": "understand", "title": "Avant de… / Après avoir…",
+      "blocks": [
+        { "type": "explain", "title": "Two ways to put actions in order",
+          "body": "English says *before leaving* and *after leaving* with *-ing*. French never uses an *-ant* form here. Instead:\n\n- **before** → [[avant de]] + **present infinitive**: [[avant de partir]]\n- **after** → [[après]] + **past infinitive** ([[avoir]] or [[être]] + past participle): [[après être parti]], [[après avoir mangé]]\n\nWhy a *past* infinitive after [[après]]? Because the action is finished before the next one starts: *after having eaten*.\n\nBoth structures work only when **the same person** does both actions: [[Avant de partir, Karim a vérifié l'appartement]] (Karim leaves, Karim checks)." },
+        { "type": "table", "title": "The pattern",
+          "head": ["", "Structure", "Example"],
+          "rows": [
+            ["before + verb", "avant de + infinitif", "Avant de partir, j'ai tout vérifié."],
+            ["before + noun", "avant + nom", "Avant l'examen, j'étais stressé."],
+            ["after + verb (avoir)", "après avoir + participe", "Après avoir mangé, nous sommes sortis."],
+            ["after + verb (être)", "après être + participe", "Après être arrivée, elle a appelé sa mère."],
+            ["after + noun", "après + nom", "Après le souper, nous avons monté les lits."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "[[de]] becomes [[d']] before a vowel: [[avant d'arriver]], [[avant d'entrer]]." },
+        { "type": "pattern", "title": "With être and reflexive verbs",
+          "pattern": "après être + participe accordé / après me, te, se, nous, vous + être + participe",
+          "note": "With être, the participle agrees with the subject of the sentence. With reflexive verbs, the pronoun changes to match the subject, both after [[avant de]] and after [[après]].",
+          "examples": [
+            { "fr": "Après être arrivés, nous avons eu une surprise.", "en": "After arriving, we had a surprise." },
+            { "fr": "Après m'être douché, j'ai relu mes notes.", "en": "After showering, I reread my notes." },
+            { "fr": "Avant de nous coucher, nous avons monté les lits.", "en": "Before going to bed, we put the beds together." },
+            { "fr": "Après s'être installée, Mei a cherché du travail.", "en": "After settling in, Mei looked for work." }
+          ] },
+        { "type": "pattern", "title": "Pronouns with avant de and après",
+          "pattern": "avant de le faire / après l'avoir fait",
+          "note": "Object pronouns and y / en go **before the infinitive** (or before avoir / être).",
+          "examples": [
+            { "fr": "Lis le contrat avant de le signer.", "en": "Read the contract before signing it." },
+            { "fr": "Après l'avoir lu, je l'ai signé.", "en": "After reading it, I signed it." },
+            { "fr": "Après y être allés, nous avons tout compris.", "en": "After going there, we understood everything." }
+          ] },
+        { "type": "vocab", "title": "Words from the stories", "itemIds": ["demenagement", "camion", "locataire", "a-l-avance", "convocation", "monter-meubles"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Forgetting de:** [[avant partir]] → [[avant de partir]].\n- **Present infinitive after après:** [[après manger]] → [[après avoir mangé]]. (You will hear the fixed phrase *après manger* in casual speech, but in writing and in exams, use the past infinitive.)\n- **Infinitive instead of participle:** [[après avoir finir]] → [[après avoir fini]].\n- **Wrong auxiliary:** [[après avoir arrivé]] → [[après être arrivé]].\n- **Reflexive pronoun that doesn't match:** [[avant de se coucher, je lis]] → [[avant de me coucher, je lis]].\n- **Two different subjects:** [[Avant de partir, le propriétaire nous a donné les clés]] means the *landlord* was leaving! If the subjects are different, say it another way: [[Avant notre départ, le propriétaire nous a donné les clés.]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Le 1er juillet",
+          "body": "In Québec, most leases ([[les baux]], singular [[le bail]]) end on **June 30**, so **July 1st** is the unofficial *jour du déménagement*: streets fill with trucks, sofas on sidewalks and stressed families. It is also Canada Day ([[la fête du Canada]]). If you rent in Québec, book a truck or movers ([[des déménageurs]]) well [[à l'avance]]. A Québec apartment is described by its rooms: a [[4 et demi]] has a kitchen, a living room, two bedrooms, and the bathroom is the *half*." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "[[avoir]] and [[être]] are short and unstressed here: keep the rhythm flowing to the participle.",
+          "lines": [
+            { "fr": "Avant de partir, j'ai tout vérifié.", "en": "Before leaving, I checked everything." },
+            { "fr": "Après avoir mangé, nous sommes sortis.", "en": "After eating, we went out.", "tip": "a-prè-za-vwar: liaison after après is optional; both are fine." },
+            { "fr": "Après être arrivés, nous avons attendu.", "en": "After arriving, we waited.", "tip": "être‿arrivés: link with the r." },
+            { "fr": "Après m'être douché, j'ai relu mes notes.", "en": "After showering, I reread my notes." },
+            { "fr": "Avant d'entrer, respirez profondément.", "en": "Before going in, breathe deeply." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Après avoir signé le bail, Karim a appelé Sofia.", "en": "After signing the lease, Karim called Sofia.", "prompt": "What did Karim do first?", "options": ["He signed the lease.", "He called Sofia.", "He did both at the same time."], "answer": 0,
+          "explain": "[[Après avoir signé]]: the signing came first, then the call." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Avant de répondre, lisez toutes les questions.", "en": "Before answering, read all the questions.", "prompt": "What is the advice?", "options": ["Read all the questions first, then answer.", "Answer quickly, then read the questions.", "Answer only some of the questions."], "answer": 0,
+          "explain": "[[Avant de répondre]] = before answering: reading comes first." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Watch out for de, avoir or être, and the agreement.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Avant ___ entrer dans la salle, éteignez votre téléphone.", "answers": [["d'"]], "choices": ["d'", "de", "à", "pour"], "en": "Before entering the room, turn off your phone.",
+          "explain": "[[de]] → [[d']] before a vowel: [[avant d'entrer]]." },
+        { "id": "r2", "type": "cloze", "text": "Après ___ ___ le camion, nous sommes partis. (charger)", "answers": [["avoir"], ["chargé"]], "en": "After loading the truck, we left.",
+          "explain": "[[charger]] takes avoir: [[après avoir chargé]]." },
+        { "id": "r3", "type": "cloze", "text": "Après être ___, Sofia et Lucie ont mangé. (rentrer)", "answers": [["rentrées"]], "en": "After coming home, Sofia and Lucie ate.",
+          "explain": "[[rentrer]] takes être; two women → feminine plural [[rentrées]]." },
+        { "id": "r4", "type": "mcq", "prompt": "“Before going to bed, I always read.” (I = a woman)", "options": ["Avant de me coucher, je lis toujours.", "Avant de se coucher, je lis toujours.", "Avant me coucher, je lis toujours.", "Avant de m'être couchée, je lis toujours."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "The pronoun must match je: me coucher.", "avant needs de before an infinitive.", "After avant de, use the present infinitive."] },
+        { "id": "r5", "type": "translate", "prompt": "After finishing my work, I went home.", "accept": ["Après avoir fini mon travail, je suis rentré.", "Après avoir fini mon travail, je suis rentrée.", "Après avoir terminé mon travail, je suis rentré.", "Après avoir terminé mon travail, je suis rentrée.", "Après avoir fini mon travail, je suis rentré à la maison.", "Après avoir fini mon travail, je suis rentrée à la maison.", "Après avoir fini mon travail, je suis retourné à la maison.", "Après avoir fini mon travail, je suis retournée à la maison.", "Après avoir fini mon travail, je suis allé à la maison.", "Après avoir fini mon travail, je suis allée à la maison.", "Après avoir terminé mon travail, je suis rentré à la maison.", "Après avoir terminé mon travail, je suis rentrée à la maison.", "Après avoir fini mon travail, je suis rentré chez moi.", "Après avoir fini mon travail, je suis rentrée chez moi.", "Après avoir terminé mon travail, je suis rentré chez moi.", "Après avoir terminé mon travail, je suis rentrée chez moi."],
+          "hint": "après + avoir + past participle.", "explain": "[[Après avoir fini]], then the main verb in the passé composé." },
+        { "id": "r6", "type": "reorder", "prompt": "Read the contract before signing it. (formal)", "accept": ["Lisez le contrat avant de le signer"], "extra": ["signé", "à"],
+          "explain": "The pronoun [[le]] goes right before the infinitive: [[avant de le signer]]." },
+        { "id": "r7", "type": "match", "prompt": "Match the halves.", "pairs": [["Avant de me coucher,", "je lis toujours un peu."], ["Après être arrivée,", "elle a appelé sa mère."], ["Après nous être installés,", "nous avons commandé une pizza."], ["Avant de vous coucher,", "éteignez vos écrans."]] },
+        { "id": "r8", "type": "cloze", "text": "Après ___ ___ ___, j'ai relu mes notes. (se doucher)", "answers": [["m'"], ["être"], ["douché", "douchée"]], "en": "After showering, I reread my notes.",
+          "explain": "Reflexive → être, and the pronoun matches je: [[après m'être douché]] (or [[douchée]] for a woman)." },
+        { "id": "r9", "type": "dictation", "fr": "Avant de déménager, nous avions réservé un camion.", "accept": [], "explain": "[[avant de]] + infinitive ([[déménager]], -er); [[nous avions réservé]] is the plus-que-parfait from lesson 1." },
+        { "id": "r10", "type": "translate", "prompt": "After arriving in Canada, she looked for an apartment.", "accept": ["Après être arrivée au Canada, elle a cherché un appartement.", "Après être arrivée au Canada, elle a cherché un logement.", "Après son arrivée au Canada, elle a cherché un appartement.", "Après son arrivée au Canada, elle a cherché un logement."],
+          "hint": "arriver takes être, and she is a woman.", "explain": "[[Après être arrivée]] (feminine agreement) + [[au Canada]] (masculine country → au)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Describe an important day step by step: a move, an exam, an interview, your arrival in Canada. Use avant de and après avoir / après être at least twice each.", "seconds": 90,
+          "checklist": ["When and where", "avant de + infinitive (twice)", "après avoir / être + participle (twice)", "One feeling (imparfait): j'étais stressé, content…", "How the day ended"],
+          "models": [ { "label": "Model answer", "fr": "Le jour de mon arrivée au Canada, j'étais très fatigué. Avant de quitter l'aéroport, j'ai acheté une carte SIM et j'ai changé de l'argent. Après avoir pris un taxi, je suis arrivé chez mon cousin, à Laval. Après m'être reposé un peu, nous sommes allés au supermarché. Avant de me coucher, j'ai téléphoné à mes parents. Après avoir entendu leur voix, je me suis senti beaucoup mieux.", "en": "On the day I arrived in Canada, I was very tired. Before leaving the airport, I bought a SIM card and changed some money. After taking a taxi, I arrived at my cousin's place in Laval. After resting a little, we went to the supermarket. Before going to bed, I called my parents. After hearing their voices, I felt much better." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write advice for a newcomers' newsletter about one big task (moving, an exam, a job interview). Tell what you did, then give two tips with avant de.", "promptFr": "Donnez des conseils pour une étape importante.",
+          "wordRange": [80, 140],
+          "checklist": ["Tell your experience in the past (PC + imparfait)", "At least two après avoir / après être", "At least two avant de", "One plus-que-parfait", "Two tips for the reader (vous)"],
+          "models": [ { "label": "Model answer", "fr": "L'année dernière, j'ai passé un entretien d'embauche dans une banque à Ottawa. Avant de partir, j'avais imprimé trois copies de mon CV. Après être arrivée, j'ai attendu dans une petite salle. J'étais nerveuse, mais j'étais prête : la veille, j'avais préparé des réponses aux questions classiques. Après avoir parlé avec la directrice pendant quarante minutes, je suis sortie avec le sourire. Une semaine plus tard, ils m'ont offert le poste !\nMes conseils : avant de passer un entretien, renseignez-vous sur l'entreprise. Et avant d'entrer, éteignez votre téléphone et respirez profondément !", "en": "Last year, I had a job interview at a bank in Ottawa. Before leaving, I had printed three copies of my CV. After arriving, I waited in a small room. I was nervous, but I was ready: the day before, I had prepared answers to the classic questions. After talking with the director for forty minutes, I came out smiling. A week later, they offered me the job! My tips: before an interview, find out about the company. And before going in, turn off your phone and breathe deeply!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Say *before doing* with [[avant de]] + infinitive: [[avant de partir]], [[avant de me coucher]]\n- Say *after doing* with [[après avoir]] / [[après être]] + past participle: [[après avoir mangé]], [[après être arrivée]]\n- Keep the same subject for both actions, and make reflexive pronouns and être participles agree",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed a dialogue line that broke the lesson's own same-subject rule (Avant de commencer, l'examinatrice m'a souri); added accepts (rentré chez moi, après son arrivée). Avant de / après avoir-être rules and agreement checked."}
+}

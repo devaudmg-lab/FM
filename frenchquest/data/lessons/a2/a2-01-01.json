@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-01-01",
+  "level": "a2",
+  "unit": "a2-01",
+  "title": "What did you do?",
+  "goal": "Say what you did with the passé composé (avoir + a participle in -é), and ask a colleague about their weekend.",
+  "minutes": 13,
+  "items": [
+    {
+      "id": "g-pc-avoir",
+      "kind": "grammar",
+      "fr": "avoir + participe passé",
+      "en": "passé composé with avoir (I worked, I have worked)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Samedi, nous ___ travaillé tard.",
+          "answers": [
+            [
+              "avons"
+            ]
+          ],
+          "en": "On Saturday, we worked late.",
+          "explain": "nous → avons + participle."
+        },
+        {
+          "type": "cloze",
+          "text": "Tu ___ regardé le match ?",
+          "answers": [
+            [
+              "as"
+            ]
+          ],
+          "en": "Did you watch the game?",
+          "explain": "tu → as + participle."
+        },
+        {
+          "type": "translate",
+          "prompt": "They (men) called their mother.",
+          "accept": [
+            "Ils ont appelé leur mère.",
+            "Ils ont téléphoné à leur mère."
+          ],
+          "explain": "ils → ont + appelé. Appeler keeps one l in the participle."
+        },
+        {
+          "type": "mcq",
+          "prompt": "How do you say “I ate at the restaurant”?",
+          "options": [
+            "J'ai mangé au restaurant.",
+            "Je mangé au restaurant.",
+            "J'ai manger au restaurant."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "You need both parts: avoir (j'ai) + the participle with é (mangé)."
+        }
+      ]
+    },
+    {
+      "id": "g-participe-er",
+      "kind": "grammar",
+      "fr": "parler → parlé",
+      "en": "past participle of -er verbs (-er → -é)",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Hier, j'ai ___ une pizza. (manger)",
+          "answers": [
+            [
+              "mangé"
+            ]
+          ],
+          "en": "Yesterday I ate a pizza.",
+          "explain": "manger → mangé: drop -er, add -é."
+        },
+        {
+          "type": "cloze",
+          "text": "Ils ont ___ le Vieux-Québec. (visiter)",
+          "answers": [
+            [
+              "visité"
+            ]
+          ],
+          "en": "They visited Old Québec.",
+          "explain": "visiter → visité."
+        },
+        {
+          "type": "cloze",
+          "text": "Elle a ___ à Toronto. (voyager)",
+          "answers": [
+            [
+              "voyagé"
+            ]
+          ],
+          "en": "She travelled to Toronto.",
+          "explain": "voyager → voyagé: the e after g is not needed before é."
+        }
+      ]
+    },
+    {
+      "id": "tu-as-fait",
+      "kind": "phrase",
+      "fr": "Qu'est-ce que tu as fait en fin de semaine ?",
+      "en": "What did you do on the weekend? (to a friend)",
+      "accept": [
+        "Qu'est-ce que tu as fait en fin de semaine ?",
+        "Qu'est-ce que tu as fait ce week-end ?",
+        "Qu'est-ce que tu as fait cette fin de semaine ?",
+        "Qu'est-ce que tu as fait le week-end dernier ?",
+        "Qu'est-ce que tu as fait la fin de semaine dernière ?",
+        "Tu as fait quoi en fin de semaine ?",
+        "Tu as fait quoi ce week-end ?"
+      ],
+      "note": "fait is the participle of faire. You will learn it properly in the next lesson; for now, learn the question as a chunk."
+    },
+    {
+      "id": "j-ai-travaille",
+      "kind": "phrase",
+      "fr": "J'ai travaillé samedi.",
+      "en": "I worked on Saturday.",
+      "accept": [
+        "Samedi, j'ai travaillé."
+      ]
+    },
+    {
+      "id": "j-ai-passe",
+      "kind": "phrase",
+      "fr": "J'ai passé une belle fin de semaine.",
+      "en": "I had a nice weekend.",
+      "accept": [
+        "J'ai passé une belle fin de semaine.",
+        "J'ai passé une bonne fin de semaine.",
+        "J'ai passé une très belle fin de semaine.",
+        "J'ai passé un beau week-end.",
+        "J'ai passé un bon week-end."
+      ],
+      "note": "Literally “I spent a nice weekend”. Passer + a period of time = to spend time."
+    },
+    {
+      "id": "fin-de-semaine",
+      "kind": "vocab",
+      "fr": "fin de semaine",
+      "article": "la",
+      "gender": "f",
+      "en": "weekend",
+      "pos": "noun",
+      "accept": [
+        "le week-end",
+        "la fin de semaine",
+        "le weekend"
+      ],
+      "note": "Québec usage. In France: le week-end.",
+      "example": {
+        "fr": "Bonne fin de semaine !",
+        "en": "Have a good weekend!"
+      }
+    },
+    {
+      "id": "feter",
+      "kind": "vocab",
+      "fr": "fêter",
+      "en": "to celebrate",
+      "pos": "verb",
+      "example": {
+        "fr": "Nous avons fêté l'anniversaire de Lucie.",
+        "en": "We celebrated Lucie's birthday."
+      }
+    },
+    {
+      "id": "rencontrer",
+      "kind": "vocab",
+      "fr": "rencontrer",
+      "en": "to meet (someone new)",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai rencontré mes nouveaux voisins.",
+        "en": "I met my new neighbours."
+      }
+    },
+    {
+      "id": "ranger",
+      "kind": "vocab",
+      "fr": "ranger",
+      "en": "to tidy up, to put away",
+      "pos": "verb",
+      "example": {
+        "fr": "Dimanche, j'ai rangé mon appartement.",
+        "en": "On Sunday, I tidied my apartment."
+      }
+    },
+    {
+      "id": "gagner",
+      "kind": "vocab",
+      "fr": "gagner",
+      "en": "to win (also: to earn)",
+      "pos": "verb",
+      "example": {
+        "fr": "Les Canadiens ont gagné !",
+        "en": "The Canadiens won!"
+      }
+    },
+    {
+      "id": "match",
+      "kind": "vocab",
+      "fr": "match",
+      "article": "le",
+      "gender": "m",
+      "en": "game, match (sports)",
+      "pos": "noun",
+      "accept": [
+        "le match",
+        "la partie"
+      ],
+      "example": {
+        "fr": "On a regardé le match de hockey.",
+        "en": "We watched the hockey game."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Monday morning at the office",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "By the coffee machine, Monday 9 a.m.",
+          "context": "Raj and Camille work for a small software company in Montréal. Amira, a new colleague, joins them.",
+          "lines": [
+            {
+              "speaker": "Camille",
+              "fr": "Salut Raj ! Ça va ? Qu'est-ce que tu as fait en fin de semaine ?",
+              "en": "Hi Raj! How are you? What did you do on the weekend?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Ça va bien, merci. Samedi matin, j'ai travaillé un peu, et l'après-midi, j'ai rangé mon appartement.",
+              "en": "Fine, thanks. On Saturday morning I worked a bit, and in the afternoon I tidied my apartment."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Ce n'est pas très amusant !",
+              "en": "That's not much fun!"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Non, mais le soir, j'ai invité des amis. On a mangé une poutine et on a regardé le match des Canadiens.",
+              "en": "No, but in the evening I invited some friends over. We ate poutine and watched the Canadiens game."
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Ah oui ! Ils ont gagné, non ?",
+              "en": "Oh yes! They won, didn't they?"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Oui, quatre à deux ! Et toi ?",
+              "en": "Yes, four–two! And you?"
+            },
+            {
+              "speaker": "Camille",
+              "fr": "Moi, dimanche, nous avons fêté l'anniversaire de ma sœur. Mes parents et moi, nous avons préparé un gros brunch pour toute la famille.",
+              "en": "Me, on Sunday we celebrated my sister's birthday. My parents and I made a big brunch for the whole family."
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Bonjour ! Vous parlez de la fin de semaine ? Moi, j'ai passé une très belle fin de semaine. J'ai rencontré mes nouveaux voisins, et on a joué aux cartes jusqu'à minuit !",
+              "en": "Hello! Are you talking about the weekend? I had a really nice weekend. I met my new neighbours, and we played cards until midnight!"
+            },
+            {
+              "speaker": "Raj",
+              "fr": "Super ! Bienvenue dans le quartier, alors.",
+              "en": "Great! Welcome to the neighbourhood, then."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Listen first. Many verbs here are about the past: [[j'ai travaillé]], [[j'ai rangé]], [[on a mangé]]. Can you spot the two parts in each one?"
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "What did Raj do on Saturday evening?",
+          "options": [
+            "He had friends over, ate poutine and watched hockey",
+            "He tidied his apartment",
+            "He went to a birthday brunch"
+          ],
+          "answer": 0,
+          "explain": "[[J'ai invité des amis. On a mangé une poutine et on a regardé le match.]] He tidied his apartment in the afternoon."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "The passé composé with avoir",
+      "blocks": [
+        {
+          "type": "explain",
+          "title": "Two parts: avoir + participle",
+          "body": "To say what you **did** (a finished action), French uses the **passé composé**, a “compound past”. It has **two parts**:\n\n- the verb **avoir** in the present: [[j'ai, tu as, il a…]] (you already know it)\n- the **past participle** of the main verb: [[travaillé, mangé, regardé]]\n\nSo [[j'ai travaillé]] is literally “I have worked”, but it covers all of these in English: *I worked, I have worked, I did work*. One French form, three English ones."
+        },
+        {
+          "type": "table",
+          "title": "Regarder in the passé composé",
+          "head": [
+            "",
+            "avoir",
+            "participle",
+            "English"
+          ],
+          "rows": [
+            [
+              "j'",
+              "ai",
+              "regardé",
+              "I watched"
+            ],
+            [
+              "tu",
+              "as",
+              "regardé",
+              "you watched (one friend)"
+            ],
+            [
+              "il / elle / on",
+              "a",
+              "regardé",
+              "he / she / we (informal) watched"
+            ],
+            [
+              "nous",
+              "avons",
+              "regardé",
+              "we watched"
+            ],
+            [
+              "vous",
+              "avez",
+              "regardé",
+              "you watched (formal or plural)"
+            ],
+            [
+              "ils / elles",
+              "ont",
+              "regardé",
+              "they watched"
+            ]
+          ],
+          "frCols": [
+            0,
+            1,
+            2
+          ],
+          "sayCol": true,
+          "note": "Only **avoir** changes. The participle [[regardé]] stays the same for every person. Watch the liaison: [[nous‿avons]], [[vous‿avez]], [[ils‿ont]], [[elles‿ont]] all link with a *z* sound."
+        },
+        {
+          "type": "pattern",
+          "title": "Making the participle of an -er verb",
+          "pattern": "parler → parl- → parlé",
+          "note": "Every **-er** verb (the biggest verb family) follows the same rule: take off **-er**, add **-é**. Spelling changes from the present disappear: [[appeler → appelé]] (one l), [[commencer → commencé]] (no ç), [[manger → mangé]] (no extra e).",
+          "examples": [
+            {
+              "fr": "J'ai parlé à mon gestionnaire.",
+              "en": "I spoke to my manager."
+            },
+            {
+              "fr": "Tu as acheté un manteau ?",
+              "en": "Did you buy a coat?"
+            },
+            {
+              "fr": "Nous avons commencé à neuf heures.",
+              "en": "We started at nine."
+            },
+            {
+              "fr": "Elles ont appelé un taxi.",
+              "en": "They (women) called a taxi."
+            },
+            {
+              "fr": "On a joué au soccer dimanche.",
+              "en": "We played soccer on Sunday."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "New words",
+          "itemIds": [
+            "fin-de-semaine",
+            "feter",
+            "rencontrer",
+            "ranger",
+            "gagner",
+            "match"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "why",
+          "title": "Why “j'ai mangé” can mean “I ate” and “I have eaten”",
+          "body": "English has two past forms: *I ate yesterday* (simple past) and *I have eaten already* (present perfect). Spoken French uses the **passé composé** for both.\n\n- [[Hier, j'ai mangé une poutine.]] = Yesterday I **ate** a poutine.\n- [[J'ai déjà mangé.]] = I **have** already **eaten**.\n\nSo don't look for a “did” in French questions: [[Tu as mangé ?]] = *Did you eat?* / *Have you eaten?*"
+        },
+        {
+          "type": "deepdive",
+          "kind": "pronunciation",
+          "title": "Je mange or j'ai mangé?",
+          "body": "This is the most important sound difference in this unit:\n\n- [[je mange]] (present): *je* sounds like *zhuh*\n- [[j'ai mangé]] (past): *j'ai* sounds like *zhay*, and there is a second *é* at the end\n\nAlso, [[mangé]], [[manger]] and [[mangez]] all sound **exactly the same**. When you hear avoir before it, write **-é**: [[j'ai mangé]]. When you hear another verb before it, write the infinitive: [[je vais manger]].",
+          "examples": [
+            {
+              "fr": "Je parle à Camille.",
+              "en": "I'm talking to Camille. (present)"
+            },
+            {
+              "fr": "J'ai parlé à Camille.",
+              "en": "I talked to Camille. (past)"
+            }
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Forgetting avoir:** [[Je mangé]] is wrong. You always need both parts: [[J'ai mangé]].\n- **Infinitive instead of participle:** [[J'ai manger]] sounds right but is spelled wrong. After avoir: **-é**.\n- **Using être:** [[Je suis mangé]] means “I am eaten”! Most verbs use avoir. (A small group uses être; that is Unit 2.)\n- **Translating “did”:** there is no extra word for *did*. “Did you eat?” is simply [[Tu as mangé ?]]\n- **Forgetting élision:** [[je ai]] → [[j'ai]]."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Weekend talk in Québec",
+          "body": "On Monday at work in Québec, you will hear [[Pis, ta fin de semaine ?]] (So, how was your weekend? *Pis* is a very informal spoken form of *puis*, “and then / so”). In France, people say [[le week-end]]; in Québec, [[la fin de semaine]] is standard, though [[le weekend]] is also heard.\n\nIn speech, [[on a…]] is much more common than [[nous avons…]]: [[On a mangé une poutine]]. Both mean *we*. Use **nous** in formal writing.\n\nThe hockey team is [[le Canadien de Montréal]], and fans talk about [[les Canadiens]] or *the Habs*."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear the past",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Say each line out loud. Feel the two parts: avoir, then the participle.",
+          "lines": [
+            {
+              "fr": "J'ai travaillé samedi.",
+              "en": "I worked on Saturday.",
+              "tip": "j'ai = zhay; travaillé ends in a clear é."
+            },
+            {
+              "fr": "Tu as regardé le match ?",
+              "en": "Did you watch the game?",
+              "tip": "Rising voice at the end for a question."
+            },
+            {
+              "fr": "On a mangé une poutine.",
+              "en": "We ate poutine.",
+              "tip": "on a: the n links to a: o-na."
+            },
+            {
+              "fr": "Nous avons fêté l'anniversaire de ma sœur.",
+              "en": "We celebrated my sister's birthday.",
+              "tip": "Link: nou-zavons."
+            },
+            {
+              "fr": "Ils ont gagné quatre à deux.",
+              "en": "They won four–two.",
+              "tip": "Link: il-zont. Without the z it would be ils sont (they are)."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "J'ai parlé à Camille.",
+          "en": "I talked to Camille.",
+          "prompt": "Is this about now or about the past?",
+          "options": [
+            "The past",
+            "Now",
+            "The future"
+          ],
+          "answer": 0,
+          "explain": "You heard [[j'ai]] (zhay) + [[parlé]]: avoir + participle = passé composé. The present would be [[je parle]]."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Ils ont regardé un film.",
+          "en": "They watched a movie.",
+          "prompt": "What did you hear?",
+          "options": [
+            "They watched a movie.",
+            "They are watching a movie.",
+            "They are going to watch a movie."
+          ],
+          "answer": 0,
+          "explain": "[[ils‿ont]] with a *z* sound + [[regardé]]: past. The future would be [[ils vont regarder]]."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Je mange avec Amira.",
+          "en": "I'm eating with Amira.",
+          "prompt": "Is this about now or about the past?",
+          "options": [
+            "Now",
+            "The past"
+          ],
+          "answer": 0,
+          "explain": "[[je]] (zhuh) and no second part: present tense. The past would be [[j'ai mangé avec Amira]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Two parts every time: avoir + participle.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Samedi, j'___ travaillé et nous ___ regardé un film.",
+          "answers": [
+            [
+              "ai"
+            ],
+            [
+              "avons"
+            ]
+          ],
+          "choices": [
+            "ai",
+            "avons",
+            "as",
+            "ont"
+          ],
+          "en": "On Saturday, I worked and we watched a movie.",
+          "explain": "j' → ai, nous → avons. The participle never changes."
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Tu as ___ ton gestionnaire ? (appeler)",
+          "answers": [
+            [
+              "appelé"
+            ]
+          ],
+          "en": "Did you call your manager?",
+          "explain": "appeler → appelé, with one l (the double l of j'appelle is only in the present)."
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence means “We visited Ottawa”?",
+          "options": [
+            "Nous avons visité Ottawa.",
+            "Nous visitons Ottawa.",
+            "Nous allons visiter Ottawa.",
+            "Nous avons visiter Ottawa."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "That is the present: we visit / we are visiting.",
+            "That is the futur proche: we are going to visit.",
+            "After avoir, use the participle with é: visité."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "translate",
+          "prompt": "I ate at the restaurant with Raj.",
+          "accept": [
+            "J'ai mangé au restaurant avec Raj.",
+            "J'ai mangé dans un restaurant avec Raj."
+          ],
+          "hint": "j'ai + participle of manger",
+          "explain": "manger → mangé. In English it's “ate”, in French [[j'ai mangé]]."
+        },
+        {
+          "id": "r5",
+          "type": "match",
+          "prompt": "Match each infinitive with its participle.",
+          "pairs": [
+            [
+              "acheter",
+              "acheté"
+            ],
+            [
+              "commencer",
+              "commencé"
+            ],
+            [
+              "appeler",
+              "appelé"
+            ],
+            [
+              "voyager",
+              "voyagé"
+            ],
+            [
+              "gagner",
+              "gagné"
+            ]
+          ]
+        },
+        {
+          "id": "r6",
+          "type": "reorder",
+          "prompt": "What did you do on the weekend? (to a friend)",
+          "accept": [
+            "Qu'est-ce que tu as fait en fin de semaine ?",
+            "En fin de semaine, qu'est-ce que tu as fait ?"
+          ],
+          "extra": [
+            "es"
+          ],
+          "explain": "tu + **as** (avoir) + fait. Not tu es."
+        },
+        {
+          "id": "r7",
+          "type": "translate",
+          "prompt": "They (women) celebrated Sofia's birthday on Sunday.",
+          "accept": [
+            "Elles ont fêté l'anniversaire de Sofia dimanche.",
+            "Dimanche, elles ont fêté l'anniversaire de Sofia."
+          ],
+          "explain": "elles → ont + fêté. Days take no preposition: [[dimanche]] = on Sunday."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "Vous avez gagné le match ?",
+          "accept": [],
+          "explain": "vous → [[avez]], and gagné ends in é. Hear the link: vou-zavez."
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "Demain, je vais ___ ma mère. Hier, j'ai ___ mon père. (appeler)",
+          "answers": [
+            [
+              "appeler"
+            ],
+            [
+              "appelé"
+            ]
+          ],
+          "en": "Tomorrow I'm going to call my mother. Yesterday I called my father.",
+          "explain": "After aller (future), keep the infinitive: [[appeler]]. After avoir (past), use the participle: [[appelé]]. They sound the same!"
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "It's Monday morning. A colleague asks what you did on the weekend. Answer with three things you did (use -er verbs), then ask the question back.",
+          "seconds": 30,
+          "checklist": [
+            "Three verbs in the passé composé with avoir",
+            "At least one with on a or nous avons",
+            "A day: samedi, dimanche",
+            "The question back: Et toi, qu'est-ce que tu as fait ?"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Samedi, j'ai travaillé le matin. L'après-midi, j'ai acheté un manteau au centre-ville. Dimanche, j'ai invité des amis et on a mangé une raclette. Et toi, qu'est-ce que tu as fait ?",
+              "en": "On Saturday I worked in the morning. In the afternoon I bought a coat downtown. On Sunday I invited some friends and we ate raclette. And you, what did you do?"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a short message to a friend about your weekend: four sentences in the passé composé with avoir, using four different -er verbs.",
+          "wordRange": [
+            25,
+            50
+          ],
+          "checklist": [
+            "Four different -er verbs with the participle in -é",
+            "avoir conjugated correctly (j'ai, on a, nous avons…)",
+            "Saturday and Sunday",
+            "A friendly opening and closing"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Karim ! J'ai passé une belle fin de semaine. Samedi, j'ai joué au soccer avec mes collègues et on a gagné ! Dimanche, j'ai rangé mon appartement et j'ai téléphoné à mes parents. À bientôt, Nguyen",
+              "en": "Hi Karim! I had a nice weekend. On Saturday I played soccer with my colleagues and we won! On Sunday I tidied my apartment and called my parents. See you soon, Nguyen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Form the **passé composé** with avoir: [[j'ai, tu as, il a, nous avons, vous avez, ils ont]] + participle\n- Make the participle of any **-er** verb: [[parler → parlé]]\n- Hear the difference between [[je mange]] and [[j'ai mangé]]\n- Ask [[Qu'est-ce que tu as fait en fin de semaine ?]] and answer in three sentences",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Language and answer keys checked; no errors found. Added the fronted word order as an accepted answer in reorder r6."
+  }
+}

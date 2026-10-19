@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-06-01",
+  "level": "b2",
+  "unit": "b2-06",
+  "title": "The subjonctif: forms",
+  "goal": "Form the present subjonctif of regular and irregular verbs, use it after il faut que and after pour que, avant que, bien que, à moins que and sans que, and know when to use an infinitive instead.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-subj-formation", "kind": "grammar", "fr": "que je parle, que nous parlions (radical de ils + -e, -es, -e, -ions, -iez, -ent)", "en": "forming the present subjonctif of regular verbs",
+      "drills": [
+        { "type": "cloze", "text": "Il faut que tu ___ ce formulaire avant vendredi. (remplir)", "answers": [["remplisses"]], "en": "You need to fill out this form before Friday.", "explain": "ils remplissent → stem [[rempliss-]] + -es → [[que tu remplisses]]." },
+        { "type": "cloze", "text": "Il faut que vous ___ votre réponse par courriel. (envoyer)", "answers": [["envoyiez"]], "en": "You need to send your answer by email.", "explain": "nous/vous take the stem of the [[nous]] form: nous envoyons → [[que vous envoyiez]] (like the imparfait)." },
+        { "type": "cloze", "text": "Il faut qu'ils ___ la réponse de l'université. (attendre)", "answers": [["attendent"]], "en": "They have to wait for the university's answer.", "explain": "ils attendent → stem [[attend-]] + -ent: same as the present." }
+      ] },
+    { "id": "g-subj-irreguliers", "kind": "grammar", "fr": "être, avoir, aller, faire, pouvoir, savoir, vouloir au subjonctif", "en": "irregular verbs in the subjonctif",
+      "drills": [
+        { "type": "cloze", "text": "Il faut que nous ___ à l'heure demain. (être)", "answers": [["soyons"]], "en": "We have to be on time tomorrow.", "explain": "être → [[que nous soyons]] (no i after y)." },
+        { "type": "cloze", "text": "Il faut que j'___ à la banque cet après-midi. (aller)", "answers": [["aille"]], "en": "I have to go to the bank this afternoon.", "explain": "aller → [[que j'aille]], but [[que nous allions]]." },
+        { "type": "mcq", "prompt": "Il faut que tu ___ patience.", "options": ["aies", "as", "ais", "est"], "optionsFr": true, "answer": 0, "explain": "avoir → [[que j'aie, que tu aies, qu'il ait]]." }
+      ] },
+    { "id": "g-subj-conjonctions", "kind": "grammar", "fr": "pour que, avant que, bien que, à moins que, sans que + subjonctif", "en": "conjunctions followed by the subjonctif",
+      "drills": [
+        { "type": "cloze", "text": "Je t'explique tout pour que tu ___ le dossier. (comprendre)", "answers": [["comprennes"]], "en": "I'm explaining everything so that you understand the file.", "explain": "[[pour que]] + subjonctif; ils comprennent → [[que tu comprennes]]." },
+        { "type": "mcq", "prompt": "Same subject: “I'll call you before I leave.”", "options": ["Je t'appelle avant de partir.", "Je t'appelle avant que je parte.", "Je t'appelle avant que je pars.", "Je t'appelle avant partir."], "optionsFr": true, "answer": 0, "explain": "When the subject is the same, use the infinitive: [[avant de]] + infinitive." },
+        { "type": "cloze", "text": "On fera le pique-nique, à moins qu'il ___ . (pleuvoir)", "answers": [["pleuve"]], "en": "We'll have the picnic, unless it rains.", "explain": "[[à moins que]] + subjonctif: [[qu'il pleuve]]." }
+      ] },
+    { "id": "que-je-sois", "kind": "phrase", "fr": "que je sois", "en": "subjonctif of être (je): that I be", "note": "[[sois, sois, soit, soyons, soyez, soient]]" },
+    { "id": "que-jaie", "kind": "phrase", "fr": "que j'aie", "en": "subjonctif of avoir (je): that I have", "note": "[[aie, aies, ait, ayons, ayez, aient]]" },
+    { "id": "que-jaille", "kind": "phrase", "fr": "que j'aille", "en": "subjonctif of aller (je): that I go", "note": "[[aille, ailles, aille, allions, alliez, aillent]]" },
+    { "id": "que-je-fasse", "kind": "phrase", "fr": "que je fasse", "en": "subjonctif of faire (je): that I do / make", "note": "[[fasse, fasses, fasse, fassions, fassiez, fassent]]" },
+    { "id": "que-je-puisse", "kind": "phrase", "fr": "que je puisse", "en": "subjonctif of pouvoir (je): that I can", "note": "[[puisse, puisses, puisse, puissions, puissiez, puissent]]" },
+    { "id": "que-je-sache", "kind": "phrase", "fr": "que je sache", "en": "subjonctif of savoir (je): that I know", "note": "[[sache, saches, sache, sachions, sachiez, sachent]]. Also a fixed phrase: [[pas que je sache]] = not as far as I know." },
+    { "id": "pour-que", "kind": "phrase", "fr": "pour que", "en": "so that (+ subjonctif)", "accept": ["afin que"], "example": { "fr": "Je parle lentement pour que tu comprennes.", "en": "I speak slowly so that you understand." } },
+    { "id": "avant-que", "kind": "phrase", "fr": "avant que", "en": "before (+ subjonctif, different subject)", "example": { "fr": "Rentrons avant qu'il fasse nuit.", "en": "Let's go home before it gets dark." } },
+    { "id": "a-moins-que", "kind": "phrase", "fr": "à moins que", "en": "unless (+ subjonctif)", "example": { "fr": "Je viendrai, à moins que tu aies besoin de la voiture.", "en": "I'll come, unless you need the car." } },
+    { "id": "sans-que", "kind": "phrase", "fr": "sans que", "en": "without (someone doing something) (+ subjonctif)", "example": { "fr": "Il est parti sans que personne le voie.", "en": "He left without anyone seeing him." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Moving day",
+      "intro": "You've already met the subjonctif after [[bien que]], [[je doute que]] and [[il faut que]]. This unit puts it in order. First, notice the verb forms after **que** in this conversation.",
+      "blocks": [
+        { "type": "dialogue", "title": "The night before the move",
+          "context": "Nguyen and his wife Lucie are moving to a bigger apartment in Laval. Their son Minh, 16, is not very motivated.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Bon, les déménageurs arrivent demain à 8 h. Il faut que tout soit prêt ce soir.", "en": "OK, the movers arrive tomorrow at 8. Everything has to be ready tonight." },
+            { "speaker": "Nguyen", "fr": "Minh, il faut que tu finisses tes boîtes avant le souper. Et il faut que tu vides ton placard !", "en": "Minh, you need to finish your boxes before supper. And you need to empty your closet!" },
+            { "speaker": "Minh", "fr": "Oui, oui… Mais il faut vraiment que je vienne demain ? J'ai un match de soccer.", "en": "Yeah, yeah… But do I really have to come tomorrow? I have a soccer game." },
+            { "speaker": "Lucie", "fr": "Oui, il faut que tu sois là, au moins le matin. On a besoin de bras ! Tu iras au match après, à moins qu'on ait encore beaucoup de travail.", "en": "Yes, you need to be there, at least in the morning. We need hands! You'll go to the game afterwards, unless we still have a lot of work." },
+            { "speaker": "Nguyen", "fr": "Et je vais appeler Hydro-Québec avant qu'ils coupent l'électricité ici. Il faut qu'on puisse avoir le courant dans le nouvel appartement dès demain.", "en": "And I'm going to call Hydro-Québec before they cut off the electricity here. We need to be able to have power in the new apartment from tomorrow." },
+            { "speaker": "Lucie", "fr": "Bonne idée. Moi, je prépare des sandwichs pour que les déménageurs aient quelque chose à manger.", "en": "Good idea. I'm making sandwiches so that the movers have something to eat." },
+            { "speaker": "Minh", "fr": "Bien que ce soit le pire jour de l'année, je vais vous aider. Mais il faut que vous me promettiez une pizza demain soir !", "en": "Even though it's the worst day of the year, I'll help you. But you have to promise me a pizza tomorrow night!" },
+            { "speaker": "Nguyen", "fr": "Marché conclu. Et va dormir tôt : il faut qu'on se lève à 6 h.", "en": "Deal. And go to bed early: we have to get up at 6." }
+          ] },
+        { "type": "text", "title": "A note from the daycare",
+          "context": "The next week, Lucie receives this message from the CPE (daycare centre) of their younger daughter.",
+          "fr": "Chers parents,\n\nLa sortie au parc de la Rivière-des-Mille-Îles aura lieu le jeudi 5 juin. Pour que la journée se passe bien, il est important que chaque enfant ait une bouteille d'eau, un chapeau et de la crème solaire.\n\nIl faut aussi que vous remplissiez le formulaire d'autorisation avant que nous partions. Sans ce formulaire, nous ne pourrons pas emmener votre enfant.\n\nLe départ est prévu à 9 h. Nous vous demandons d'arriver un peu plus tôt, à moins que votre enfant soit inscrit au service de garde du matin.\n\nMerci de votre collaboration !\n\nL'équipe du CPE Les Petits Pas",
+          "en": "Dear parents,\n\nThe outing to Rivière-des-Mille-Îles park will take place on Thursday, June 5. So that the day goes well, it is important that each child has a water bottle, a hat and sunscreen.\n\nYou also need to fill out the authorization form before we leave. Without this form, we won't be able to take your child.\n\nDeparture is planned for 9 a.m. We ask you to arrive a little earlier, unless your child is registered for the morning childcare service.\n\nThank you for your cooperation!\n\nThe CPE Les Petits Pas team" },
+        { "id": "d1", "type": "mcq", "prompt": "In “il faut que tu finisses tes boîtes”, what does finisses show?", "options": ["It's a subjonctif form, required after il faut que", "It's the present tense of finir", "It's a mistake for finis"], "answer": 0,
+          "explain": "The present would be [[tu finis]]. After [[il faut que]], French requires the subjonctif: [[que tu finisses]]." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does the CPE ask parents to arrive early?", "options": ["Because departure is at 9 a.m., unless the child is already at the morning childcare service", "Because the park closes early", "To fill out the form with the team"], "answer": 0,
+          "explain": "[[Nous vous demandons d'arriver un peu plus tôt, à moins que votre enfant soit inscrit au service de garde du matin.]]" }
+      ] },
+    { "type": "understand", "title": "How the subjonctif works",
+      "blocks": [
+        { "type": "explain", "title": "A mood, not a tense",
+          "body": "The **subjonctif** is not a time (past, present, future). It's a **mood**: a way of presenting an action not as a fact, but as something **necessary, wanted, felt or uncertain**.\n\nCompare: [[Tu es là.]] (a fact) and [[Il faut que tu sois là.]] (a necessity: you aren't there yet).\n\nIt almost always appears **after que**, in a second part of the sentence, and only when something in the first part **triggers** it. This lesson: necessity and five conjunctions. Next lesson: emotions, wishes and doubt." },
+        { "type": "table", "title": "Regular formation: ils-stem + endings",
+          "head": ["", "parler (ils parlent)", "finir (ils finissent)", "attendre (ils attendent)"],
+          "rows": [
+            ["que je", "parle", "finisse", "attende"],
+            ["que tu", "parles", "finisses", "attendes"],
+            ["qu'il / elle / on", "parle", "finisse", "attende"],
+            ["que nous", "parlions", "finissions", "attendions"],
+            ["que vous", "parliez", "finissiez", "attendiez"],
+            ["qu'ils / elles", "parlent", "finissent", "attendent"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": true,
+          "note": "**Recipe:** take the [[ils]] form of the present, remove [[-ent]], add [[-e, -es, -e, -ions, -iez, -ent]]. For [[nous]] and [[vous]], the forms look like the imparfait: [[que nous parlions]], [[que vous parliez]]." },
+        { "type": "table", "title": "Two-stem verbs: nous and vous are different",
+          "head": ["Verb", "que je / tu / il / ils", "que nous / vous"],
+          "rows": [
+            ["venir", "que je vienne, qu'ils viennent", "que nous venions, que vous veniez"],
+            ["prendre", "que je prenne, qu'ils prennent", "que nous prenions, que vous preniez"],
+            ["boire", "que je boive, qu'ils boivent", "que nous buvions, que vous buviez"],
+            ["devoir", "que je doive, qu'ils doivent", "que nous devions, que vous deviez"],
+            ["voir", "que je voie, qu'ils voient", "que nous voyions, que vous voyiez"]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "The same logic applies: [[je, tu, il, ils]] come from [[ils viennent]]; [[nous]] and [[vous]] come from [[nous venons]]. Same for [[comprendre]], [[apprendre]], [[recevoir]] ([[que je reçoive]], [[que nous recevions]])." },
+        { "type": "table", "title": "The irregulars: learn them by heart",
+          "head": ["", "être", "avoir", "aller", "faire"],
+          "rows": [
+            ["que je / j'", "sois", "aie", "aille", "fasse"],
+            ["que tu", "sois", "aies", "ailles", "fasses"],
+            ["qu'il / elle", "soit", "ait", "aille", "fasse"],
+            ["que nous", "soyons", "ayons", "allions", "fassions"],
+            ["que vous", "soyez", "ayez", "alliez", "fassiez"],
+            ["qu'ils / elles", "soient", "aient", "aillent", "fassent"]
+          ],
+          "frCols": [0, 1, 2, 3, 4], "sayCol": true },
+        { "type": "table", "title": "More irregulars",
+          "head": ["", "pouvoir", "savoir", "vouloir"],
+          "rows": [
+            ["que je", "puisse", "sache", "veuille"],
+            ["que tu", "puisses", "saches", "veuilles"],
+            ["qu'il / elle", "puisse", "sache", "veuille"],
+            ["que nous", "puissions", "sachions", "voulions"],
+            ["que vous", "puissiez", "sachiez", "vouliez"],
+            ["qu'ils / elles", "puissent", "sachent", "veuillent"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": true,
+          "note": "Two impersonal verbs only exist with [[il]]: **falloir** → [[qu'il faille]], **valoir** → [[qu'il vaille]] ([[Je ne pense pas qu'il faille attendre.]] [[Bien que ça en vaille la peine…]])." },
+        { "type": "pattern", "title": "Trigger 1: necessity",
+          "pattern": "il faut que / il est nécessaire que / il est important que + subjonctif",
+          "note": "Unit 3 introduced [[il est important que]]. All impersonal expressions of necessity and importance work the same way.",
+          "examples": [
+            { "fr": "Il faut que vous preniez rendez-vous en ligne.", "en": "You have to book an appointment online." },
+            { "fr": "Il est nécessaire que chaque enfant ait un chapeau.", "en": "Each child must have a hat." },
+            { "fr": "Il est important qu'on sache la vérité.", "en": "It's important that we know the truth." },
+            { "fr": "Il vaut mieux que tu partes tôt.", "en": "It's better if you leave early." }
+          ] },
+        { "type": "table", "title": "Trigger 2: five conjunctions",
+          "head": ["Conjunction", "Meaning", "Example"],
+          "rows": [
+            ["pour que / afin que", "so that", "Je répète pour que tout le monde comprenne."],
+            ["avant que", "before", "Appelle-moi avant que la réunion commence."],
+            ["bien que", "although", "Bien qu'il soit tard, je continue."],
+            ["à moins que", "unless", "On sort, à moins que tu sois trop fatigué."],
+            ["sans que", "without", "Elle est partie sans que je la voie."]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "Careful: [[après que]] takes the **indicative** in standard French ([[après qu'il est parti]]), even though many people use the subjonctif by analogy with [[avant que]]." },
+        { "type": "table", "title": "Same subject? Use the infinitive",
+          "head": ["Two different subjects: que + subjonctif", "Same subject: infinitive"],
+          "rows": [
+            ["Je travaille pour que mes enfants puissent étudier.", "Je travaille pour pouvoir étudier."],
+            ["J'appelle avant que tu partes.", "J'appelle avant de partir."],
+            ["Il est parti sans que je le sache.", "Il est parti sans le savoir."],
+            ["Je viendrai, à moins que tu sois occupé.", "Je viendrai, à moins d'être occupé."],
+            ["Il faut que tu fasses tes boîtes.", "Il faut faire les boîtes."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[Je travaille pour que je puisse étudier]] ✗ sounds wrong to a French ear. Same subject → [[pour]], [[avant de]], [[sans]], [[à moins de]] + infinitive. With [[il faut]], the infinitive gives a general rule; [[que]] + subjonctif says who must do it." },
+        { "type": "vocab", "title": "Forms and conjunctions for this lesson", "itemIds": ["que-je-sois", "que-jaie", "que-jaille", "que-je-fasse", "que-je-puisse", "que-je-sache", "pour-que", "avant-que", "a-moins-que", "sans-que"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Subjonctif traps",
+          "body": "- **[[Il faut que je vais]]** ✗ → [[Il faut que j'aille]] ✓. The irregulars are where most mistakes happen: drill [[aille, fasse, puisse, sache, soit, ait]].\n- **[[que j'aie]]** with an **e**, [[que tu aies]], [[qu'il ait]]. Don't write [[qu'il est]] or [[qu'il aie]]: they sound the same, but they're wrong.\n- **[[que nous soyons]], [[que vous ayez]]**: no i after the y. But [[que nous voyions]], [[que nous envoyions]] do have *yi*, because the stem ends in y.\n- **[[que nous allions]], [[que nous voulions]]**: the nous/vous forms of [[aller]] and [[vouloir]] are regular, not [[aillions]] ✗ or [[veuillions]] ✗.\n- **[[après que]] + subjonctif** is extremely common, but it's still considered incorrect in careful writing: [[après qu'elle est arrivée]].\n- **[[bien que]] vs [[même si]]:** [[bien que]] + subjonctif, [[même si]] + indicative. [[Même si il soit]] ✗ → [[Même s'il est]] ✓.\n- **Same subject:** [[Je veux que je parte]] ✗, [[pour que je puisse]] ✗ (with the same subject) → infinitive." },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Can you hear the subjonctif?",
+          "body": "For most **-er** verbs, [[que je parle]] sounds exactly like [[je parle]]. So in speech the subjonctif is mostly heard in:\n\n- **-ir and -re verbs** where a consonant appears: [[que je finisse]] (*s* sound), [[qu'il attende]] (you hear the *d*), [[qu'elle parte]] (the *t*).\n- **two-stem verbs**: [[qu'il vienne]], [[qu'il prenne]] (a nasal vowel becomes *è + n*).\n- **the irregulars**: [[soit]] (*swa*), [[aille]] (*aï*), [[fasse]], [[puisse]], [[sache]].\n\nThat's why native speakers rarely make mistakes on [[parle]], but you hear [[il faut que je vais]] from learners: train your ear on the irregulars." },
+        { "type": "deepdive", "kind": "examples", "title": "The “ne” that isn't negative",
+          "body": "In formal French, you'll often see a small **[[ne]]** after [[avant que]] and [[à moins que]]. It is **not** a negation; it's called the *ne explétif*, and it's optional. You only need to recognize it, not produce it.",
+          "examples": [
+            { "fr": "Rentrons avant qu'il ne pleuve.", "en": "Let's go home before it rains. (not “before it doesn't rain”)" },
+            { "fr": "Nous partirons à 9 h, à moins que le temps ne soit mauvais.", "en": "We'll leave at 9, unless the weather is bad." },
+            { "fr": "Rentrons avant qu'il pleuve.", "en": "Let's go home before it rains. (same meaning, everyday style)" }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Faut que…: the subjonctif in everyday speech",
+          "body": "In casual speech, in Québec as in France, the [[il]] of [[il faut que]] often disappears: [[Faut que j'y aille !]] (I have to go!), [[Faut qu'on se parle.]] (We need to talk.) Use [[Il faut que je sois…]] in writing and in exams, but recognize the casual forms when you hear them." }
+      ] },
+    { "type": "hear", "title": "Hear the subjonctif",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Focus on the irregular forms: they're the ones people notice.",
+          "lines": [
+            { "fr": "Il faut que tu sois là à 8 h.", "en": "You have to be there at 8." },
+            { "fr": "Il faut que j'aille à la banque.", "en": "I have to go to the bank.", "tip": "[[aille]] sounds like *aï*." },
+            { "fr": "Il faut qu'on fasse les boîtes ce soir.", "en": "We have to pack the boxes tonight." },
+            { "fr": "Je répète pour que tout le monde comprenne.", "en": "I'm repeating so that everyone understands." },
+            { "fr": "Appelle-moi avant que le film commence.", "en": "Call me before the film starts." },
+            { "fr": "Il faut que vous preniez rendez-vous.", "en": "You have to make an appointment." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Il faut que vous veniez avec deux pièces d'identité et que vous sachiez votre numéro d'assurance sociale par cœur.", "en": "You need to come with two pieces of ID and know your social insurance number by heart.", "prompt": "What must the person do?", "options": ["Bring two IDs and know their SIN", "Send their SIN by email", "Come with two people"], "answer": 0,
+          "explain": "[[que vous veniez avec deux pièces d'identité]] and [[que vous sachiez votre numéro]]: two subjonctifs after [[il faut que]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "On fera la fête dans le jardin, à moins qu'il fasse trop froid.", "en": "We'll have the party in the garden, unless it's too cold.", "prompt": "When will the party NOT be in the garden?", "options": ["If it's too cold", "If it's too hot", "If nobody comes"], "answer": 0,
+          "explain": "[[à moins que]] = unless; [[qu'il fasse]] is the subjonctif of [[faire]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back unit 5 vocabulary.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Il faut que je ___ le devis à Mme Bouchard. (envoyer)", "answers": [["envoie"]], "en": "I have to send the quote to Ms. Bouchard.", "explain": "ils envoient → [[que j'envoie]]." },
+        { "id": "r2", "type": "cloze", "text": "Il faut que nous ___ le train de 7 h et que nous ___ à l'heure. (prendre, être)", "answers": [["prenions"], ["soyons"]], "en": "We have to take the 7 o'clock train and be on time.", "explain": "nous prenons → [[que nous prenions]]; être → [[que nous soyons]]." },
+        { "id": "r3", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Il faut que tu fasses attention.", "Il faut que tu fais attention.", "Il faut que tu faises attention.", "Il faut que tu fassais attention."], "optionsFr": true, "answer": 0, "explain": "faire → [[que tu fasses]], a fully irregular stem." },
+        { "id": "r4", "type": "match", "prompt": "Match each infinitive to its subjonctif (je).", "pairs": [["aller", "que j'aille"], ["avoir", "que j'aie"], ["pouvoir", "que je puisse"], ["savoir", "que je sache"], ["vouloir", "que je veuille"], ["boire", "que je boive"]] },
+        { "id": "r5", "type": "translate", "prompt": "I'm speaking slowly so that you understand. (to a friend)", "accept": ["Je parle lentement pour que tu comprennes.", "Je parle lentement afin que tu comprennes.", "Je parle doucement pour que tu comprennes.", "Je parle lentement pour que tu me comprennes.", "Je parle lentement afin que tu me comprennes."], "explain": "Two different subjects (je / tu): [[pour que]] + subjonctif → [[que tu comprennes]]." },
+        { "id": "r6", "type": "mcq", "prompt": "Same subject: “I'm working to be able to buy a house.”", "options": ["Je travaille pour pouvoir acheter une maison.", "Je travaille pour que je puisse acheter une maison.", "Je travaille pour que je peux acheter une maison.", "Je travaille afin que pouvoir acheter une maison."], "optionsFr": true, "answer": 0, "explain": "Same subject → [[pour]] + infinitive. [[pour que]] needs a different subject." },
+        { "id": "r7", "type": "cloze", "text": "Envoyez-moi le compte rendu avant que la directrice ___ . (partir)", "answers": [["parte"]], "choices": ["parte", "part", "partira", "partirait"], "en": "Send me the minutes before the director leaves.", "explain": "[[avant que]] + subjonctif: ils partent → [[qu'elle parte]]." },
+        { "id": "r8", "type": "reorder", "prompt": "Although it's late, I'm continuing.", "accept": ["Bien qu'il soit tard je continue"], "extra": ["est", "même"], "explain": "[[bien que]] + subjonctif: [[qu'il soit]]. With [[même si]], it would be [[même s'il est tard]]." },
+        { "id": "r9", "type": "dictation", "fr": "Il faut que vous remplissiez le formulaire avant que nous partions.", "accept": [], "explain": "Two subjonctifs: [[que vous remplissiez]] (necessity) and [[que nous partions]] (after [[avant que]])." },
+        { "id": "r10", "type": "cloze", "text": "Elle est partie sans que personne ne la ___ . (voir)", "answers": [["voie"]], "en": "She left without anyone seeing her.", "explain": "[[sans que]] + subjonctif: ils voient → [[qu'il voie]]. The [[ne]] here is optional and not negative." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "A friend is arriving in Canada next month and will stay with you. Write them a message with practical instructions: what they must do before arriving and in the first week, and why. Use at least five subjonctifs, including two irregular verbs and two conjunctions, and one infinitive with the same subject.", "promptFr": "Écrivez un message à un ami qui arrive au Canada.",
+          "wordRange": [80, 130],
+          "checklist": ["At least three il faut que + subjonctif", "Two irregular verbs (être, avoir, aller, faire, pouvoir, savoir)", "Two conjunctions (pour que, avant que, à moins que, sans que, bien que)", "One same-subject infinitive (pour + inf., avant de + inf.)", "A friendly tone (tu)"],
+          "models": [ { "label": "Model answer", "fr": "Salut Karim !\n\nJe suis tellement content que tu arrives bientôt ! Quelques conseils pratiques. D'abord, il faut que tu prennes des vêtements chauds : en novembre, il fait déjà froid à Montréal. Il faut aussi que tu aies tous tes documents dans ton bagage à main, pas dans ta valise, pour que l'agent d'immigration puisse les voir facilement.\n\nLa première semaine, il faudra que tu ailles à Service Canada pour demander ton numéro d'assurance sociale. Je viendrai avec toi, à moins que mon patron ait besoin de moi. Avant de chercher un emploi, il faut aussi que tu fasses ton CV à la canadienne : je t'aiderai.\n\nÀ bientôt !\n\nRaj", "en": "Hi Karim!\n\nI'm so happy you're arriving soon! A few practical tips. First, you need to bring warm clothes: in November, it's already cold in Montréal. You also need to have all your documents in your carry-on bag, not in your suitcase, so that the immigration officer can see them easily.\n\nThe first week, you'll need to go to Service Canada to apply for your social insurance number. I'll come with you, unless my boss needs me. Before looking for a job, you also need to do your CV the Canadian way: I'll help you.\n\nSee you soon!\n\nRaj" } ] },
+        { "id": "s1", "type": "speak", "prompt": "You're organizing a party or an event. Tell your family or your team what everyone must do before the day. Use il faut que with at least four different people and verbs, and one conjunction.", "seconds": 45,
+          "checklist": ["Il faut que + four different subjects", "At least two irregular verbs", "One conjunction: avant que / pour que / à moins que", "A deadline: avant samedi, d'ici jeudi"],
+          "models": [ { "label": "Model answer", "fr": "Bon, pour la fête de samedi, il faut que tout le monde aide un peu. Minh, il faut que tu ailles chercher les chaises chez ta tante. Lucie et moi, il faut qu'on fasse les courses jeudi soir. Mei, il faut que tu prennes le gâteau à la pâtisserie avant que la boutique ferme, à 18 h. Et vous, les enfants, il faut que vous soyez prêts à 14 h, pour qu'on puisse accueillir les invités ensemble.", "en": "OK, for Saturday's party, everyone needs to help a bit. Minh, you need to go and get the chairs at your aunt's. Lucie and I need to do the shopping on Thursday evening. Mei, you need to pick up the cake at the bakery before the shop closes at 6 p.m. And you, kids, you need to be ready at 2 p.m., so that we can welcome the guests together." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form the present subjonctif: [[ils]] stem + [[-e, -es, -e, -ions, -iez, -ent]]; nous/vous from the [[nous]] stem ([[que je vienne / que nous venions]])\n- Know the irregulars: [[sois, aie, aille, fasse, puisse, sache, veuille]], [[qu'il faille]], [[qu'il vaille]]\n- Use it after [[il faut que]] and after [[pour que]], [[avant que]], [[bien que]], [[à moins que]], [[sans que]]\n- With the same subject, use an infinitive: [[pour pouvoir]], [[avant de partir]], [[sans le savoir]]",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the writing model, which used à moins que with the same subject (against the lesson's own rule). Added accepted answers with me comprennes."}
+}

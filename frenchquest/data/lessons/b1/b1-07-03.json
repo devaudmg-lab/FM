@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-07-03",
+  "level": "b1",
+  "unit": "b1-07",
+  "title": "Ce qui, ce que",
+  "goal": "Highlight what you like, miss or find surprising with ce qui… c'est / ce que… c'est, and say “what” in the middle of a sentence (je ne sais pas ce que tu veux).",
+  "minutes": 14,
+  "items": [
+    { "id": "g-ce-qui-que", "kind": "grammar", "fr": "ce qui / ce que / ce dont", "en": "what (= the thing that), in the middle of a sentence",
+      "drills": [
+        { "type": "cloze", "text": "Je ne comprends pas ___ il dit.", "answers": [["ce qu'"]], "en": "I don't understand what he's saying.", "explain": "A subject ([[il]]) follows → object → [[ce que]], shortened to [[ce qu']] before a vowel." },
+        { "type": "cloze", "text": "Dites-moi ___ ne va pas.", "answers": [["ce qui"]], "en": "Tell me what's wrong.", "explain": "A verb follows ([[ne va pas]]) → subject → [[ce qui]]." },
+        { "type": "mcq", "prompt": "“Tell me what you want.” (to a friend)", "options": ["Dis-moi ce que tu veux.", "Dis-moi qu'est-ce que tu veux.", "Dis-moi que tu veux.", "Dis-moi quoi tu veux."], "optionsFr": true, "answer": 0, "explain": "In the middle of a sentence, *what* = [[ce que]]. [[Qu'est-ce que]] is only for direct questions." }
+      ] },
+    { "id": "g-mise-en-relief", "kind": "grammar", "fr": "Ce qui…, c'est… / Ce que…, c'est…", "en": "emphasis: What I like is… / What surprises me is…",
+      "drills": [
+        { "type": "cloze", "text": "___ me plaît ici, c'est la nature.", "answers": [["Ce qui"]], "en": "What I like here is the nature.", "explain": "[[me plaît]] is a verb: the gap is its subject → [[Ce qui]]." },
+        { "type": "cloze", "text": "___ je préfère, c'est l'automne.", "answers": [["Ce que"]], "en": "What I prefer is the fall.", "explain": "[[je]] follows: the gap is the object of [[préfère]] → [[Ce que]]." },
+        { "type": "translate", "prompt": "What I need is time.", "accept": ["Ce dont j'ai besoin, c'est de temps.", "Ce dont j'ai besoin, c'est du temps."], "explain": "[[avoir besoin **de**]] → [[ce dont]]. Careful style repeats de: [[c'est **de** temps]]." }
+      ] },
+    { "id": "ce-qui-me-plait", "kind": "phrase", "fr": "Ce qui me plaît, c'est…", "en": "What appeals to me is…", "accept": ["Ce qui me plaît, c'est"] },
+    { "id": "ce-que-j-aime", "kind": "phrase", "fr": "Ce que j'aime, c'est…", "en": "What I like is…", "accept": ["Ce que j'aime, c'est"] },
+    { "id": "ce-qui-me-manque", "kind": "phrase", "fr": "Ce qui me manque, c'est ma famille.", "en": "What I miss is my family.", "accept": ["Ma famille me manque."] },
+    { "id": "ce-qui-m-etonne", "kind": "phrase", "fr": "Ce qui m'étonne, c'est…", "en": "What surprises me is…", "accept": ["Ce qui me surprend, c'est…", "Ce qui m'étonne, c'est"] },
+    { "id": "ce-que-tu-veux-dire", "kind": "phrase", "fr": "Je ne sais pas ce que tu veux dire.", "en": "I don't know what you mean. (to a friend)", "accept": ["Je ne sais pas ce que vous voulez dire."] },
+    { "id": "ce-qui-ne-va-pas", "kind": "phrase", "fr": "Dites-moi ce qui ne va pas.", "en": "Tell me what's wrong. (formal)", "accept": ["Dis-moi ce qui ne va pas."] },
+    { "id": "tout-ce-dont", "kind": "phrase", "fr": "tout ce dont j'ai besoin", "en": "everything I need" },
+    { "id": "plaire", "kind": "vocab", "fr": "plaire à", "en": "to appeal to, to be liked by", "pos": "verb",
+      "example": { "fr": "Ce quartier me plaît beaucoup.", "en": "I really like this neighbourhood. (literally: it appeals to me)" }, "note": "The thing you like is the subject: ça me plaît, ces cours me plaisent. Passé composé: ça m'a plu." },
+    { "id": "manquer", "kind": "vocab", "fr": "manquer à", "en": "to be missed by (X me manque = I miss X)", "pos": "verb",
+      "example": { "fr": "Mes parents me manquent.", "en": "I miss my parents." }, "note": "Back to front compared with English: the person or thing you miss is the subject. Tu me manques = I miss you." },
+    { "id": "etonner", "kind": "vocab", "fr": "étonner", "en": "to surprise, to amaze", "pos": "verb",
+      "example": { "fr": "Sa patience m'étonne toujours.", "en": "Her patience always amazes me." }, "note": "Être étonné = to be surprised. Ça m'étonne = that surprises me." },
+    { "id": "rythme-de-vie", "kind": "vocab", "fr": "rythme de vie", "article": "le", "gender": "m", "en": "pace of life", "pos": "noun", "accept": ["un rythme de vie"],
+      "example": { "fr": "Ici, le rythme de vie est plus calme.", "en": "Here, the pace of life is calmer." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "One year in Québec City",
+      "intro": "Sofia has been living in Québec City for a year. Notice how she puts what matters at the **start** of her sentences with **ce qui** and **ce que**.",
+      "blocks": [
+        { "type": "dialogue", "title": "Lunch break at work",
+          "context": "Olivier, a colleague from Québec City, asks Sofia, who comes from Guadalajara, how her first year went.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Alors, Sofia, ça fait un an que tu es ici ! Qu'est-ce qui te plaît le plus à Québec ?", "en": "So, Sofia, you've been here for a year! What do you like most about Québec City?" },
+            { "speaker": "Sofia", "fr": "Ce qui me plaît, c'est le rythme de vie. Tout est plus calme qu'à Guadalajara. Et ce que j'adore, c'est le fleuve : je me promène sur la terrasse Dufferin presque tous les soirs.", "en": "What I like is the pace of life. Everything is calmer than in Guadalajara. And what I love is the river: I walk on the Dufferin Terrace almost every evening." },
+            { "speaker": "Olivier", "fr": "Et l'hiver ? Ce n'était pas trop difficile ?", "en": "And the winter? It wasn't too hard?" },
+            { "speaker": "Sofia", "fr": "Ce que je trouve difficile, ce n'est pas le froid, c'est le manque de lumière. En décembre, il fait nuit à quatre heures et demie !", "en": "What I find hard isn't the cold, it's the lack of light. In December, it's dark at half past four!" },
+            { "speaker": "Olivier", "fr": "C'est vrai. Et qu'est-ce qui t'a étonnée, en arrivant ?", "en": "That's true. And what surprised you when you arrived?" },
+            { "speaker": "Sofia", "fr": "Ce qui m'a étonnée, c'est de voir que tout le monde dit bonjour et merci au chauffeur d'autobus. Au Mexique, on ne fait pas ça !", "en": "What surprised me was seeing that everybody says hello and thank you to the bus driver. In Mexico, we don't do that!" },
+            { "speaker": "Olivier", "fr": "Et qu'est-ce qui te manque ?", "en": "And what do you miss?" },
+            { "speaker": "Sofia", "fr": "Ce qui me manque, c'est ma famille, évidemment. Et la vraie cuisine mexicaine ! Ici, je ne trouve pas tout ce dont j'ai besoin pour faire des tamales.", "en": "What I miss is my family, obviously. And real Mexican food! Here, I can't find everything I need to make tamales." },
+            { "speaker": "Olivier", "fr": "Je ne sais pas ce que c'est, des tamales, mais ça a l'air bon !", "en": "I don't know what tamales are, but they sound good!" },
+            { "speaker": "Sofia", "fr": "Viens souper chez moi samedi, et tu vas voir ce que c'est !", "en": "Come for supper at my place on Saturday, and you'll see what they are!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "According to Sofia, what is the hardest thing about winter?", "options": ["The lack of light", "The cold", "The snow on the sidewalks"], "answer": 0,
+          "explain": "[[Ce que je trouve difficile, ce n'est pas le froid, c'est le manque de lumière.]] The structure puts the contrast in the spotlight." },
+        { "id": "d2", "type": "mcq", "prompt": "Olivier asks “Qu'est-ce qui te manque ?” and Sofia answers “Ce qui me manque, c'est ma famille.” What changes?", "options": ["In the question it's qu'est-ce qui; in the statement it becomes ce qui", "Nothing: they're interchangeable", "Ce qui is more informal"], "answer": 0,
+          "explain": "Direct question: [[Qu'est-ce qui…?]] / [[Qu'est-ce que…?]]. Inside a statement: [[ce qui]] / [[ce que]]." },
+        { "id": "d3", "type": "mcq", "prompt": "“Ce qui me manque, c'est ma famille.” Who misses whom?", "options": ["Sofia misses her family.", "Her family misses Sofia.", "Sofia is missing from her family photos."], "answer": 0,
+          "explain": "With [[manquer à]], the thing you miss is the subject: [[ma famille me manque]] = I miss my family." }
+      ] },
+    { "type": "understand", "title": "What = ce qui / ce que",
+      "blocks": [
+        { "type": "explain", "title": "Ce qui and ce que: qui and que without a noun",
+          "body": "You know [[qui]] and [[que]] after a noun: [[la chose qui me plaît]], [[la chose que j'aime]]. When there is **no noun**, French uses [[ce]] (*the thing*) as the antecedent:\n\n- [[ce qui me plaît]] = the thing that appeals to me → *what I like*\n- [[ce que j'aime]] = the thing that I like → *what I like*\n- [[ce dont j'ai besoin]] = the thing I need → *what I need*\n\nSame test as before: a verb after the gap → [[ce qui]]; a subject after the gap → [[ce que]]; a verb with *de* → [[ce dont]]." },
+        { "type": "table", "title": "The three forms",
+          "head": ["Form", "Role", "Example"],
+          "rows": [
+            ["ce qui", "subject of the next verb", "Ce qui m'intéresse, c'est l'histoire."],
+            ["ce que / ce qu'", "object of the next verb", "Ce que je cherche, c'est un trois et demie."],
+            ["ce dont", "replaces de + thing", "Ce dont j'ai besoin, c'est d'un peu de calme."]
+          ],
+          "frCols": [0, 2], "sayCol": true },
+        { "type": "pattern", "title": "Putting something in the spotlight",
+          "pattern": "Ce qui / Ce que… , c'est + nom / infinitif / que + phrase",
+          "note": "This structure is everywhere in spoken French, and it's ideal for exams: it lets you **announce** what is important before you say it. After a plural noun, careful style uses [[ce sont]]: [[Ce que j'aime, ce sont les festivals.]] In everyday speech, [[c'est les festivals]] is very common.",
+          "examples": [
+            { "fr": "Ce qui me plaît, c'est le calme.", "en": "What I like is the quiet." },
+            { "fr": "Ce que je voudrais, c'est trouver un emploi dans mon domaine.", "en": "What I'd like is to find a job in my field." },
+            { "fr": "Ce qui est pratique, c'est que les magasins ouvrent le dimanche.", "en": "What's handy is that shops open on Sundays." },
+            { "fr": "Ce que je trouve difficile, c'est de comprendre les gens au téléphone.", "en": "What I find hard is understanding people on the phone." }
+          ] },
+        { "type": "table", "title": "Direct question or inside a sentence?",
+          "head": ["Direct question", "Inside a sentence"],
+          "rows": [
+            ["Qu'est-ce qui se passe ?", "Je ne sais pas ce qui se passe."],
+            ["Qu'est-ce qui ne va pas ?", "Dites-moi ce qui ne va pas."],
+            ["Qu'est-ce que tu veux ?", "Dis-moi ce que tu veux."],
+            ["Qu'est-ce qu'il dit ?", "Je ne comprends pas ce qu'il dit."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[Qu'est-ce qui]] asks about the **subject** (*what is happening?*); [[qu'est-ce que]] asks about the **object** (*what do you want?*). When the question goes inside a sentence, [[qu'est-ce]] becomes [[ce]]." },
+        { "type": "explain", "title": "Tout ce qui, tout ce que",
+          "body": "Add [[tout]] to say *everything that / all that*:\n\n- [[Tout ce qui est ici est à vendre.]] — Everything (that is) here is for sale.\n- [[Tu peux prendre tout ce que tu veux.]] — You can take whatever you want.\n- [[J'ai tout ce dont j'ai besoin.]] — I have everything I need." },
+        { "type": "vocab", "title": "New words and chunks", "itemIds": ["ce-qui-me-plait", "ce-que-j-aime", "ce-qui-me-manque", "ce-qui-m-etonne", "ce-que-tu-veux-dire", "ce-qui-ne-va-pas", "tout-ce-dont", "plaire", "manquer", "etonner", "rythme-de-vie"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Not qu'est-ce que inside a sentence:** *Je ne sais pas qu'est-ce que tu veux* ✗ → [[Je ne sais pas ce que tu veux]]. You'll hear the first one in casual speech, but it's not standard.\n- **Not quoi either:** *Dis-moi quoi tu veux* ✗ → [[Dis-moi ce que tu veux]].\n- **Don't forget ce:** *Que j'aime, c'est…* ✗ → [[Ce que j'aime, c'est…]]\n- **Manquer is back to front:** *I miss my family* = [[Ma famille me manque]], not *Je manque ma famille* ([[manquer]] + a direct object means to miss a bus, a train or a class). With plural: [[Mes amis me manquent]].\n- **Plaire too:** [[Ce quartier me plaît]] (the neighbourhood appeals to me); plural [[Ces cours me plaisent]]." },
+        { "type": "deepdive", "kind": "examples", "title": "Ready-made openers for opinions and exams",
+          "body": "These openers make your speaking sound organized. Use them for TEF/TCF speaking and writing tasks.",
+          "examples": [
+            { "fr": "Ce qui est important pour moi, c'est la sécurité.", "en": "What is important to me is safety." },
+            { "fr": "Ce que je veux dire, c'est que les loyers sont trop chers.", "en": "What I mean is that rents are too expensive." },
+            { "fr": "Ce qui est sûr, c'est que je vais rester ici.", "en": "What's certain is that I'm going to stay here." },
+            { "fr": "Ce que je ne comprends pas, c'est pourquoi le service est si lent.", "en": "What I don't understand is why the service is so slow." }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Québec City details",
+          "body": "- **La terrasse Dufferin** is the long boardwalk beside the Château Frontenac, above the Saint Lawrence River.\n- **Un trois et demie** (Québec) is an apartment with a bedroom, a living room and a kitchen (the *demie* is the bathroom).\n- **Dire bonjour au chauffeur:** in many Canadian cities, people really do greet and thank the bus driver: [[Bonjour !]] when they get on, [[Merci, bonne journée !]] when they get off." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Pause slightly after the first part, then say the important part with energy: **Ce qui me plaît, … c'est le calme.**",
+          "lines": [
+            { "fr": "Ce qui me plaît, c'est le rythme de vie.", "en": "What I like is the pace of life.", "tip": "ce qui: skee in fast speech." },
+            { "fr": "Ce que j'adore, c'est le fleuve.", "en": "What I love is the river.", "tip": "ce que j'adore: skuh-jadore." },
+            { "fr": "Ce qui me manque, c'est ma famille.", "en": "What I miss is my family." },
+            { "fr": "Ce qui m'étonne, c'est la politesse des gens.", "en": "What surprises me is how polite people are." },
+            { "fr": "Je ne sais pas ce qu'il veut.", "en": "I don't know what he wants.", "tip": "ce qu'il = skil." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Tu me manques beaucoup.", "en": "I miss you a lot.", "prompt": "What does the speaker mean?", "options": ["I miss you a lot.", "You miss me a lot.", "You're missing a lot."], "answer": 0,
+          "explain": "With [[manquer à]], the subject is the person who is missed: [[tu me manques]] = *you are missing to me* → I miss you." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ce qui m'inquiète, ce n'est pas le prix, c'est la distance.", "en": "What worries me isn't the price, it's the distance.", "prompt": "What is the speaker worried about?", "options": ["The distance", "The price", "Both the price and the distance"], "answer": 0,
+          "explain": "[[Ce n'est pas X, c'est Y]] puts a contrast in the spotlight: the problem is Y, the distance." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Je ne comprends pas ce qu'il dit, il parle trop vite.", "en": "I don't understand what he's saying, he's talking too fast.", "prompt": "Why doesn't the speaker understand?", "options": ["The man is speaking too fast.", "The man is speaking too quietly.", "The man speaks another language."], "answer": 0,
+          "explain": "[[il parle trop vite]] = he's speaking too fast. [[ce qu'il dit]] = what he's saying." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Same test as always: verb next → **ce qui**; subject next → **ce que**; a verb with *de* → **ce dont**.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "___ m'intéresse dans ce poste, c'est le contact avec le public.", "answers": [["Ce qui"]], "choices": ["Ce qui", "Ce que", "Ce dont", "Qu'est-ce qui"], "en": "What interests me in this position is the contact with the public.",
+          "explain": "[[m'intéresse]] is a verb: the gap is its subject → [[Ce qui]]." },
+        { "id": "r2", "type": "cloze", "text": "___ je cherche, c'est un appartement près du métro.", "answers": [["Ce que"]], "choices": ["Ce qui", "Ce que", "Ce dont", "Qu'est-ce que"], "en": "What I'm looking for is an apartment near the metro.",
+          "explain": "[[je]] follows: the gap is the object of [[cherche]] → [[Ce que]]." },
+        { "id": "r3", "type": "cloze", "text": "« Qu'est-ce qu'elle veut ? » → Je ne sais pas ___ elle veut.", "answers": [["ce qu'"]], "en": "“What does she want?” → I don't know what she wants.",
+          "explain": "Inside a sentence, [[qu'est-ce que]] becomes [[ce que]], here [[ce qu']] before [[elle]]." },
+        { "id": "r4", "type": "mcq", "prompt": "How do you say “Tell me what's wrong” (formal)?", "optionsFr": true,
+          "options": ["Dites-moi ce qui ne va pas.", "Dites-moi qu'est-ce qui ne va pas.", "Dites-moi ce que ne va pas.", "Dites-moi quoi ne va pas."], "answer": 0,
+          "optionFeedback": [null, "qu'est-ce qui is for direct questions only.", "A verb follows the gap, so it's the subject: ce qui.", "quoi can't introduce this clause."] },
+        { "id": "r5", "type": "translate", "prompt": "What I miss is the sun.", "accept": ["Ce qui me manque, c'est le soleil.", "Le soleil me manque."], "hint": "manquer à: the sun is the subject.",
+          "explain": "[[Ce qui me manque]]: the sun is what is *missing to me*, so it's the subject → [[ce qui]]." },
+        { "id": "r6", "type": "translate", "prompt": "I have everything I need.", "accept": ["J'ai tout ce dont j'ai besoin.", "J'ai tout ce qu'il me faut."], "hint": "avoir besoin de…",
+          "explain": "[[avoir besoin **de**]] → [[tout ce dont j'ai besoin]]. ([[tout ce qu'il me faut]] also works.)" },
+        { "id": "r7", "type": "match", "prompt": "Match each opener with its meaning.",
+          "pairs": [["Ce qui m'étonne, c'est…", "What surprises me is…"], ["Ce qui me manque, c'est…", "What I miss is…"], ["Ce que je trouve difficile, c'est…", "What I find hard is…"], ["Ce dont j'ai besoin, c'est…", "What I need is…"], ["Ce qui me plaît, c'est…", "What appeals to me is…"]] },
+        { "id": "r8", "type": "reorder", "prompt": "What I like is winter.", "accept": ["Ce que j'aime c'est l'hiver"], "extra": ["qui"],
+          "explain": "[[Ce que]] + subject + verb, then [[c'est]] + the thing in the spotlight." },
+        { "id": "r9", "type": "cloze", "text": "Ce que j'aimerais, c'est habiter dans un quartier ___ il y a des parcs, avec des voisins ___ je connais.", "answers": [["où"], ["que"]], "choices": ["où", "que", "qui", "dont"], "en": "What I'd like is to live in a neighbourhood where there are parks, with neighbours I know.",
+          "explain": "Review: a place → [[où]]; a subject follows ([[je]]) → [[que]]. And [[j'aimerais]] is the polite conditionnel." },
+        { "id": "r10", "type": "dictation", "fr": "Ce qui m'étonne, c'est la gentillesse des chauffeurs d'autobus.", "accept": [],
+          "explain": "[[Ce qui m'étonne]]: subject of [[étonne]]. [[c'est]] + the thing in the spotlight. [[des chauffeurs]]: plural, the s is written but silent." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend in your home country asks: “So, how is life there?” Answer for about a minute. Say what you like, what surprised you, what you find difficult, what you miss, and what you need now.", "seconds": 60,
+          "checklist": ["Ce qui me plaît, c'est…", "Ce qui m'a étonné / étonnée, c'est…", "Ce que je trouve difficile, c'est…", "Ce qui me manque, c'est… / X me manque", "Ce dont j'ai besoin, c'est…", "One contrast: ce n'est pas…, c'est…"],
+          "models": [ { "label": "Model answer", "fr": "Ce qui me plaît ici, c'est la sécurité : je peux marcher seul le soir sans problème. Ce qui m'a étonné, c'est de voir les gens attendre l'autobus en ligne, très calmement. Ce que je trouve difficile, ce n'est pas la langue, c'est l'accent : au début, je ne comprenais pas ce que les gens disaient ! Ce qui me manque, c'est la mer, et bien sûr mes amis. Maintenant, ce dont j'ai besoin, c'est d'un emploi dans mon domaine.", "en": "What I like here is the safety: I can walk alone at night without any problem. What surprised me was seeing people wait for the bus in line, very calmly. What I find hard isn't the language, it's the accent: at first, I didn't understand what people were saying! What I miss is the sea, and of course my friends. Now, what I need is a job in my field." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a post for a newcomers' forum: “My first months in Canada.” Use at least five sentences with ce qui, ce que or ce dont.", "promptFr": "Écrivez un message pour un forum de nouveaux arrivants : « Mes premiers mois au Canada ».", "wordRange": [80, 140],
+          "checklist": ["A short introduction (who you are, where you live)", "At least two sentences with ce qui", "At least two sentences with ce que", "One sentence with ce dont or tout ce dont", "manquer à used correctly", "A question to the other forum members"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour à tous ! Je m'appelle Raj et j'habite à Gatineau depuis six mois. Ce qui me plaît ici, c'est la nature : il y a des parcs magnifiques à dix minutes de chez moi. Ce que j'apprécie aussi, c'est la gentillesse des gens. Par contre, ce qui m'a étonné, c'est le prix des loyers ! Et ce que je trouve encore difficile, c'est de comprendre mes collègues quand ils parlent vite. Ma famille et la cuisine de ma mère me manquent beaucoup. Ce dont j'ai besoin maintenant, c'est de pratiquer mon français. Est-ce que vous connaissez un bon groupe de conversation ?", "en": "Hello everyone! My name is Raj and I've lived in Gatineau for six months. What I like here is the nature: there are magnificent parks ten minutes from my place. What I also appreciate is how kind people are. On the other hand, what surprised me is the price of rent! And what I still find hard is understanding my colleagues when they talk fast. I really miss my family and my mother's cooking. What I need now is to practise my French. Do you know a good conversation group?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Put what matters in the spotlight: [[Ce qui me plaît, c'est…]], [[Ce que je trouve difficile, c'est…]], [[Ce dont j'ai besoin, c'est…]]\n- Say *what* inside a sentence: [[Je ne sais pas ce que tu veux.]] [[Dites-moi ce qui ne va pas.]] (not *qu'est-ce que*)\n- Use [[manquer à]] and [[plaire à]] the French way round: [[Ma famille me manque.]] [[Ce quartier me plaît.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed every 'Ce qui m'étonne, c'est que…' (subjunctive in careful French) in favour of c'est + noun / de voir que; fixed the manquer explanation; removed an accept that changed the meaning (adore vs aime)." }
+}

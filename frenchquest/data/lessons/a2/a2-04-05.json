@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-04-05",
+  "level": "a2",
+  "unit": "a2-04",
+  "title": "My plans for next year",
+  "goal": "Present your plans for next year (work, studies, citizenship, travel), explain what you will do when things happen, and invite someone to share a plan.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-futur-review", "kind": "grammar", "fr": "je vais commencer / je commencerai / quand j'aurai…", "en": "talking about the future: futur proche, futur simple, quand + futur",
+      "drills": [
+        { "type": "cloze", "text": "En janvier, je ___ commencer un nouveau travail.", "answers": [["vais"]], "en": "In January, I'm going to start a new job.", "explain": "futur proche: je vais + infinitive." },
+        { "type": "cloze", "text": "Ce ___ difficile, mais je réussirai. (être)", "answers": [["sera"]], "en": "It will be hard, but I will succeed.", "explain": "être → ser-: ce sera." },
+        { "type": "cloze", "text": "Quand j'___ mon titre, je pourrai travailler comme comptable. (avoir)", "answers": [["aurai"]], "en": "When I have my designation, I'll be able to work as an accountant.", "explain": "quand + futur: j'aurai." }
+      ] },
+    { "id": "g-three-times", "kind": "grammar", "fr": "avant je travaillais / maintenant je travaille / l'année prochaine je travaillerai", "en": "past, present and future of the same verb",
+      "drills": [
+        { "type": "mcq", "prompt": "“Before, I worked in a bank.”", "options": ["Avant, je travaillais dans une banque.", "Avant, je travaillerai dans une banque.", "Avant, je travaille dans une banque."], "optionsFr": true, "answer": 0, "explain": "avant + imparfait for a past situation." },
+        { "type": "cloze", "text": "L'année prochaine, nous ___ à Calgary. (habiter)", "answers": [["habiterons"]], "en": "Next year, we will live in Calgary.", "explain": "habiter + -ons = nous habiterons." }
+      ] },
+    { "id": "projet", "kind": "vocab", "fr": "projet", "article": "le", "gender": "m", "en": "plan, project", "pos": "noun", "accept": ["un projet", "les projets"],
+      "example": { "fr": "Quels sont tes projets pour l'année prochaine ?", "en": "What are your plans for next year?" } },
+    { "id": "faire-une-demande", "kind": "phrase", "fr": "faire une demande de citoyenneté", "en": "to apply for citizenship", "accept": ["demander la citoyenneté"] },
+    { "id": "suivre-cours", "kind": "phrase", "fr": "suivre des cours du soir", "en": "to take evening classes", "accept": ["suivre des cours le soir"], "note": "Future: je suivrai." },
+    { "id": "comptable", "kind": "vocab", "fr": "comptable", "article": "un", "gender": "m", "en": "accountant", "pos": "noun", "accept": ["une comptable", "le comptable", "la comptable"], "note": "Same form for a man and a woman: un / une comptable." },
+    { "id": "felicitations", "kind": "phrase", "fr": "Félicitations !", "en": "Congratulations!", "accept": ["Bravo !"] },
+    { "id": "d-abord", "kind": "phrase", "fr": "d'abord… ensuite… enfin", "en": "first… then… finally" },
+    { "id": "programme", "kind": "phrase", "fr": "Quel beau programme !", "en": "What a great plan! (lit. programme)" },
+    { "id": "ca-me-va", "kind": "phrase", "fr": "Jeudi, ça me va.", "en": "Thursday works for me." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A year full of plans",
+      "intro": "This conversation mixes everything from the unit, plus a little imparfait from unit 3.",
+      "blocks": [
+        { "type": "dialogue", "title": "At a newcomers' centre in Vancouver",
+          "context": "Camille, a volunteer, meets Mei for her yearly check-in.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Alors, Mei, quels sont tes projets pour l'année prochaine ?", "en": "So, Mei, what are your plans for next year?" },
+            { "speaker": "Mei", "fr": "Beaucoup de choses ! D'abord, en janvier, je vais commencer un nouveau travail dans un cabinet comptable.", "en": "Lots of things! First, in January, I'm going to start a new job at an accounting firm." },
+            { "speaker": "Camille", "fr": "Félicitations ! Tu travaillais déjà comme comptable en Chine, non ?", "en": "Congratulations! You already worked as an accountant in China, didn't you?" },
+            { "speaker": "Mei", "fr": "Oui, à Shanghai, je travaillais dans une grande banque. Mais ici, je devrai passer des examens pour avoir mon titre de comptable canadien.", "en": "Yes, in Shanghai I worked in a big bank. But here, I'll have to take exams to get my Canadian accounting designation." },
+            { "speaker": "Camille", "fr": "Et tu suivras des cours ?", "en": "And will you take classes?" },
+            { "speaker": "Mei", "fr": "Oui, des cours du soir, deux fois par semaine. Ce sera difficile, mais quand j'aurai mon titre, je pourrai travailler comme comptable ici aussi.", "en": "Yes, evening classes, twice a week. It'll be hard, but when I have my designation, I'll be able to work as an accountant here too." },
+            { "speaker": "Camille", "fr": "Et la citoyenneté ?", "en": "And citizenship?" },
+            { "speaker": "Mei", "fr": "Ensuite, en mars, je ferai ma demande de citoyenneté. J'ai déjà tous mes documents.", "en": "Then, in March, I'll apply for citizenship. I already have all my documents." },
+            { "speaker": "Camille", "fr": "Et pour le plaisir ?", "en": "And for fun?" },
+            { "speaker": "Mei", "fr": "Enfin, cet été, mes parents viendront de Chine et nous irons à Banff ensemble. Quand j'étais petite, mon père rêvait de voir les montagnes Rocheuses !", "en": "Finally, this summer, my parents will come from China and we'll go to Banff together. When I was little, my father dreamed of seeing the Rocky Mountains!" },
+            { "speaker": "Camille", "fr": "Quel beau programme ! Ça te dit de venir au café-rencontre jeudi ? On pourrait parler de tes projets en français avec le groupe.", "en": "What a great plan! Do you feel like coming to the conversation café on Thursday? We could talk about your plans in French with the group." },
+            { "speaker": "Mei", "fr": "Avec plaisir ! Jeudi, ça me va.", "en": "With pleasure! Thursday works for me." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What will Mei have to do to work as an accountant in Canada?", "options": ["Take exams and evening classes", "Apply for citizenship first", "Go back to work in Shanghai"], "answer": 0,
+          "explain": "[[je devrai passer des examens]] and [[des cours du soir, deux fois par semaine]]." },
+        { "id": "d2", "type": "mcq", "prompt": "Put Mei's plans in order: what comes first?", "options": ["Her new job in January", "Her citizenship application in March", "Her parents' visit in the summer"], "answer": 0,
+          "explain": "[[D'abord, en janvier…]], [[Ensuite, en mars…]], [[Enfin, cet été…]]: three connectors you learned in unit 2." },
+        { "id": "d3", "type": "mcq", "prompt": "Why is “mon père rêvait” in the imparfait?", "options": ["It's a wish he had for a long time in the past", "It's a single event yesterday", "It's a future plan"], "answer": 0,
+          "explain": "A long-lasting wish or state in the past → imparfait (unit 3)." }
+      ] },
+    { "type": "understand", "title": "Your unit 4 map",
+      "intro": "Everything about the future on one page.",
+      "blocks": [
+        { "type": "table", "title": "1. Three ways to talk about the future",
+          "head": ["Form", "Example", "Typical use"],
+          "rows": [
+            ["present + time marker", "Je commence lundi.", "fixed plans, very common in speech"],
+            ["futur proche: aller + infinitive", "Je vais commencer un nouveau travail.", "intentions, near future, conversation"],
+            ["futur simple", "Je commencerai le 3 mars.", "writing, formal messages, predictions, promises, further away"]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "table", "title": "2. Futur simple: endings and stems",
+          "head": ["regular", "irregular stems"],
+          "rows": [
+            ["parler → je parlerai", "être → je serai, avoir → j'aurai"],
+            ["finir → tu finiras", "aller → j'irai, faire → je ferai"],
+            ["prendre → il prendra", "pouvoir → je pourrai, vouloir → je voudrai"],
+            ["partir → nous partirons", "devoir → je devrai, venir → je viendrai"],
+            ["attendre → vous attendrez", "voir → je verrai, savoir → je saurai"],
+            ["choisir → ils choisiront", "falloir → il faudra"]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "Endings for every verb: [[-ai, -as, -a, -ons, -ez, -ont]]. Every future stem ends in **r**." },
+        { "type": "explain", "title": "3. Quand + futur, and making plans",
+          "body": "**Quand + futur:** if the action will happen, use the future after quand: [[Quand j'aurai mon titre, je pourrai travailler ici.]]\n\n**Making plans together:**\n- suggest: [[Ça te dit de… ?]], [[On pourrait…]], [[si tu veux]], [[Et si on allait… ?]]\n- answer: [[Avec plaisir !]], [[Ça marche !]], [[Désolé, je ne peux pas. Une autre fois ?]]\n- details: [[On se retrouve où ?]], [[Ça te va ?]], [[On verra.]]" },
+        { "type": "table", "title": "4. Before, now, later",
+          "head": ["Avant (imparfait)", "Maintenant (présent)", "L'année prochaine (futur)"],
+          "rows": [
+            ["Je travaillais dans une banque.", "J'étudie le soir.", "Je travaillerai comme comptable."],
+            ["J'habitais à Shanghai.", "J'habite à Vancouver.", "Je ferai ma demande de citoyenneté."],
+            ["Mon père rêvait de voir les Rocheuses.", "Mes parents sont en Chine.", "Ils viendront cet été."]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "This *before / now / later* structure is a great plan for many speaking tasks." },
+        { "type": "deepdive", "kind": "mistakes", "title": "The eight most common unit 4 errors",
+          "body": "- [[je vais à étudier]] → [[je vais étudier]]\n- [[je prenderai]] → [[je prendrai]]\n- [[j'allerai]] → [[j'irai]]\n- [[je pourai]] → [[je pourrai]] (two r's)\n- [[Quand je suis citoyenne, je voterai]] → [[Quand je serai citoyenne, je voterai]]\n- [[Je vais passer l'examen]] means *take*, not *pass*: to pass is [[réussir]]\n- [[Ça te dit aller…]] → [[Ça te dit d'aller…]]\n- [[Et si on va…]] → [[Et si on allait…]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Plans in a Canadian context",
+          "body": "Mei's plans are typical of many newcomers:\n\n- **Regulated professions** (accountants, nurses, engineers…) often require Canadian exams or courses before you can use your title. Each province and professional body has its own rules.\n- **Citizenship:** you apply ([[faire une demande]]) once you meet the requirements, including time lived in Canada. Check the official IRCC website for current rules.\n- A [[café-rencontre]] is an informal conversation group, often free, at libraries and community centres: perfect for practising your French." }
+      ] },
+    { "type": "hear", "title": "Hear the future",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "En janvier, je vais commencer un nouveau travail.", "en": "In January, I'm going to start a new job." },
+            { "fr": "Je devrai passer des examens.", "en": "I'll have to take exams." },
+            { "fr": "Quand j'aurai mon titre, je pourrai travailler ici.", "en": "When I have my designation, I'll be able to work here." },
+            { "fr": "Mes parents viendront et nous irons à Banff.", "en": "My parents will come and we'll go to Banff." },
+            { "fr": "Ça te dit de venir jeudi ?", "en": "Do you feel like coming on Thursday?" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "À Shanghai, je travaillais dans une banque.", "en": "In Shanghai, I worked in a bank.", "prompt": "Past, present or future?", "options": ["Past", "Present", "Future"], "answer": 0,
+          "explain": "[[travaillais]]: no r, open *è*: imparfait." },
+        { "id": "h2", "type": "listen-mcq", "fr": "À Vancouver, je travaillerai dans un cabinet comptable.", "en": "In Vancouver, I will work in an accounting firm.", "prompt": "Past, present or future?", "options": ["Future", "Past", "Present"], "answer": 0,
+          "explain": "[[travaillerai]]: you hear an **r** before the final *é*: futur simple." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Ten questions mixing unit 4 with units 1, 2 and 3. Answer without looking at the map.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Demain, je ___ me lever tôt.", "answers": [["vais"]], "choices": ["vais", "serai", "suis"], "en": "Tomorrow I'm going to get up early.",
+          "explain": "futur proche with a reflexive verb: [[je vais me lever]]." },
+        { "id": "r2", "type": "cloze", "text": "L'année prochaine, nous ___ une maison et nous ___ à Laval. (acheter, habiter)", "answers": [["achèterons"], ["habiterons"]], "en": "Next year, we will buy a house and we'll live in Laval.",
+          "explain": "[[acheter]] takes an accent in the future: [[nous achèterons]]. [[habiter]] is regular: [[nous habiterons]]." },
+        { "id": "r3", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Quand j'aurai le temps, je ferai du sport.", "Quand j'ai le temps, je ferai du sport.", "Quand j'aurai le temps, je fais du sport demain.", "Quand j'avoirai le temps, je ferai du sport."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "After quand, a future action needs the future: j'aurai.", "Both actions are in the future: je ferai.", "avoir has an irregular stem: aur-."] },
+        { "id": "r4", "type": "match", "prompt": "Match each future form with its infinitive.", "pairs": [["je serai", "être"], ["je saurai", "savoir"], ["j'irai", "aller"], ["je verrai", "voir"], ["je devrai", "devoir"], ["je viendrai", "venir"]] },
+        { "id": "r5", "type": "translate", "prompt": "I'm going to take the citizenship test next month.", "accept": ["Je vais passer le test de citoyenneté le mois prochain.", "Le mois prochain, je vais passer le test de citoyenneté.", "Je vais passer l'examen de citoyenneté le mois prochain.", "Le mois prochain, je vais passer l'examen de citoyenneté.", "Je passerai le test de citoyenneté le mois prochain.", "Le mois prochain, je passerai le test de citoyenneté."],
+          "hint": "take an exam = passer", "explain": "[[passer un test]] = to take it. [[le mois prochain]] = next month." },
+        { "id": "r6", "type": "cloze", "text": "Avant, je ___ en Colombie. Maintenant, j'habite à Québec. L'année prochaine, j'___ à l'Université Laval. (habiter, étudier)", "answers": [["habitais"], ["étudierai"]], "en": "Before, I lived in Colombia. Now I live in Québec City. Next year, I'll study at Université Laval.",
+          "explain": "avant → imparfait (unit 3); l'année prochaine → future: [[j'étudierai]] keeps the e of the infinitive." },
+        { "id": "r7", "type": "translate", "prompt": "Do you feel like coming on Saturday? (to a friend)", "accept": ["Ça te dit de venir samedi ?", "Ça te dirait de venir samedi ?", "Tu veux venir samedi ?", "Est-ce que tu veux venir samedi ?", "Ça te tente de venir samedi ?"],
+          "explain": "[[Ça te dit de]] + infinitive. In Québec you'll also hear [[ça te tente de…]]." },
+        { "id": "r8", "type": "reorder", "prompt": "When I'm a citizen, I'll vote. (woman speaking)", "accept": ["Quand je serai citoyenne, je voterai.", "Je voterai quand je serai citoyenne."], "extra": ["suis"],
+          "explain": "Future in both parts: [[quand je serai]], [[je voterai]]." },
+        { "id": "r9", "type": "cloze", "text": "La semaine dernière, nous ___ allés au café-rencontre. Jeudi prochain, nous ___ au cinéma. (aller, aller)", "answers": [["sommes"], ["irons"]], "en": "Last week, we went to the conversation café. Next Thursday, we will go to the movies.",
+          "explain": "Past event → passé composé with être ([[nous sommes allés]], unit 2). Future → [[nous irons]] (aller → ir-)." },
+        { "id": "r10", "type": "dictation", "fr": "Ce sera difficile, mais je réussirai.", "accept": [],
+          "explain": "[[ce sera]] = it will be; [[je réussirai]] = I will succeed / pass." }
+      ] },
+    { "type": "apply", "title": "Mission: present your plans",
+      "intro": "Two missions. Use the checklists, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "At the conversation café, present your plans for next year for about 60–90 seconds: at least three plans (work, studies, citizenship, family, travel), in order, with what you will do when one of them happens. Add one thing about your past to explain a plan.", "promptFr": "Présentez vos projets pour l'année prochaine.",
+          "seconds": 90,
+          "checklist": ["Connectors: d'abord, ensuite, enfin", "futur proche at least once: je vais…", "futur simple at least three times, with two irregular stems", "quand + futur: Quand j'aurai…, je…", "One past link: Avant, je travaillais… / Quand j'étais petit…", "A feeling: Ce sera difficile, mais…"],
+          "models": [
+            { "label": "Model answer", "fr": "L'année prochaine, j'ai beaucoup de projets. D'abord, je vais chercher un nouveau travail. Avant, j'étais infirmière au Maroc, alors je travaillerai peut-être dans un hôpital ici. Ensuite, je suivrai des cours de français le soir. Enfin, en été, j'irai à Québec avec mes enfants. Quand j'aurai un nouveau travail, je serai très contente !",
+              "en": "Next year, I have lots of plans. First, I'm going to look for a new job. Before, I was a nurse in Morocco, so maybe I'll work in a hospital here. Then, I'll take French classes in the evening. Finally, in summer, I'll go to Québec City with my children. When I have a new job, I'll be very happy!" },
+            { "label": "Stronger model answer", "fr": "L'année prochaine sera une année importante pour moi. D'abord, en février, je vais passer le test de citoyenneté. Je lis le guide tous les soirs ! Quand je serai citoyen, je pourrai voter et j'aurai un passeport canadien. Ensuite, je commencerai une formation d'électricien. Au Mexique, je travaillais déjà comme électricien, mais ici, je devrai avoir un diplôme québécois. Ce sera difficile, parce que je travaille aussi le jour. Enfin, quand j'aurai mon passeport, j'irai voir ma famille à Puebla. Ma mère sera tellement fière ! Et vous, qu'est-ce que vous ferez l'année prochaine ?",
+              "en": "Next year will be an important year for me. First, in February, I'm going to take the citizenship test. I read the guide every evening! When I'm a citizen, I'll be able to vote and I'll have a Canadian passport. Then I'll start electrician training. In Mexico, I already worked as an electrician, but here I'll need a Québec diploma. It'll be hard, because I also work during the day. Finally, when I have my passport, I'll go see my family in Puebla. My mother will be so proud! And you, what will you do next year?" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write an email to a friend (80–120 words). Give your news, present three plans for next year with the reasons, say what you will do when one of them happens, and suggest meeting up to celebrate or to talk about it.", "promptFr": "Écrivez un courriel à un ami ou à une amie : vos projets pour l'année prochaine.",
+          "wordRange": [80, 120],
+          "checklist": ["A friendly greeting and a question: Salut… ! Comment vas-tu ?", "Three plans with d'abord, ensuite, enfin", "futur proche and futur simple, including at least three irregular stems", "quand + futur", "A link with the past (passé composé or imparfait)", "A suggestion: Ça te dit de… ? / On pourrait…", "A closing: À bientôt ! / Bises,"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Lucie !\nComment vas-tu ? Moi, j'ai des nouvelles ! L'année prochaine, j'ai trois grands projets. D'abord, je vais commencer un nouveau travail dans une école. Ensuite, je suivrai des cours d'anglais le soir, parce que je devrai parler anglais au travail. Enfin, je ferai ma demande de citoyenneté en mai. Quand je serai citoyen, je ferai une grande fête !\nÇa te dit de prendre un café samedi ? On pourrait parler de tout ça.\nÀ bientôt,\nKarim",
+              "en": "Hi Lucie!\nHow are you? I have news! Next year I have three big plans. First, I'm going to start a new job in a school. Then I'll take English classes in the evening, because I'll have to speak English at work. Finally, I'll apply for citizenship in May. When I'm a citizen, I'll throw a big party!\nDo you feel like having a coffee on Saturday? We could talk about all that.\nSee you soon,\nKarim" },
+            { "label": "Stronger model answer", "fr": "Salut Olivier !\nJ'espère que tu vas bien. Moi, j'ai une grande nouvelle : j'ai réussi mon examen d'infirmière ! Alors, l'année prochaine sera très chargée.\nD'abord, en janvier, je vais commencer à l'hôpital de Sherbrooke. Au Brésil, je travaillais la nuit, mais ici, je travaillerai le jour : ce sera pratique avec les enfants. Ensuite, nous déménagerons dans un grand appartement, près de l'hôpital. Enfin, quand j'aurai mes premières vacances, nous irons voir ma mère à Recife.\nEt toi, quels sont tes projets ? Si tu veux, on pourrait souper ensemble vendredi pour fêter ça. Ça te va ?\nBises,\nSofia",
+              "en": "Hi Olivier!\nI hope you're well. I have big news: I passed my nursing exam! So next year will be very busy.\nFirst, in January, I'm going to start at the Sherbrooke hospital. In Brazil, I worked nights, but here I'll work days: it'll be practical with the kids. Then we'll move to a big apartment, near the hospital. Finally, when I have my first vacation, we'll go see my mother in Recife.\nAnd you, what are your plans? If you want, we could have dinner together on Friday to celebrate. Does that work for you?\nLove,\nSofia" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- **Bravo, unit 4 is complete!** You can talk about the future with the **futur proche** and the **futur simple**, including the key irregular stems\n- Say what you will do **when** something happens: [[Quand j'aurai mon titre, je pourrai…]]\n- Present your plans in order ([[d'abord, ensuite, enfin]]), link them to your past, and invite someone to share them: [[Ça te dit de… ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced awkward 'je voudrai travailler' in a model; electrician training no longer placed at the cégep; capitalized Université Laval." }
+}

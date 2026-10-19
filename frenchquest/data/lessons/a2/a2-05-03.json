@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-05-03",
+  "level": "a2",
+  "unit": "a2-05",
+  "title": "Asking for help politely",
+  "goal": "Ask strangers and staff for help politely when you travel: interrupt, make a request, ask for information and thank them.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-pourriez-vous", "kind": "grammar", "fr": "Pourriez-vous + infinitif ?", "en": "Could you…? (very polite request)",
+      "drills": [
+        { "type": "cloze", "text": "___ répéter plus lentement, s'il vous plaît ?", "answers": [["Pourriez-vous", "Pouvez-vous", "Vous pourriez", "Est-ce que vous pourriez"]], "en": "Could you repeat more slowly, please?", "explain": "[[Pourriez-vous]] + infinitive is the most polite way to ask." },
+        { "type": "translate", "prompt": "Could you repeat, please? (formal)", "accept": ["Pourriez-vous répéter, s'il vous plaît ?", "Est-ce que vous pourriez répéter, s'il vous plaît ?", "Vous pourriez répéter, s'il vous plaît ?", "Pouvez-vous répéter, s'il vous plaît ?"], "explain": "[[Pourriez-vous]] + infinitive: [[répéter]] stays in the infinitive." },
+        { "type": "mcq", "prompt": "Which request is the most polite?", "options": ["Pourriez-vous m'aider ?", "Aidez-moi !", "Tu peux m'aider ?"], "optionsFr": true, "answer": 0, "explain": "[[Pourriez-vous]] (could you) is softer than the imperative or [[tu peux]]." }
+      ] },
+    { "id": "pourriez-dire", "kind": "phrase", "fr": "Pourriez-vous me dire où est la sortie ?", "en": "Could you tell me where the exit is? (formal)", "accept": ["Pourriez-vous me dire où se trouve la sortie ?", "Est-ce que vous pourriez me dire où est la sortie ?", "Vous pourriez me dire où est la sortie ?", "Pouvez-vous me dire où est la sortie ?"], "note": "Learn [[Pourriez-vous me dire…]] as a chunk. You will study pronouns like [[me]] in unit 8." },
+    { "id": "excusez-deranger", "kind": "phrase", "fr": "Excusez-moi de vous déranger.", "en": "Sorry to bother you. (formal)", "accept": ["Excusez-moi de vous déranger", "Je m'excuse de vous déranger."] },
+    { "id": "pourriez-aider", "kind": "phrase", "fr": "Pourriez-vous m'aider, s'il vous plaît ?", "en": "Could you help me, please? (formal)", "accept": ["Est-ce que vous pourriez m'aider, s'il vous plaît ?", "Vous pourriez m'aider, s'il vous plaît ?"] },
+    { "id": "auriez-vous", "kind": "phrase", "fr": "Auriez-vous un plan de la ville ?", "en": "Would you have a map of the city? (very polite)", "accept": ["Est-ce que vous auriez un plan de la ville ?", "Vous auriez un plan de la ville ?"] },
+    { "id": "savez-vous-ou", "kind": "phrase", "fr": "Savez-vous où se trouve l'arrêt d'autobus ?", "en": "Do you know where the bus stop is? (formal)", "accept": ["Est-ce que vous savez où se trouve l'arrêt d'autobus ?", "Savez-vous où est l'arrêt d'autobus ?", "Vous savez où est l'arrêt d'autobus ?", "Savez-vous où est l'arrêt de bus ?"] },
+    { "id": "savez-vous-si", "kind": "phrase", "fr": "Savez-vous si le train est direct ?", "en": "Do you know if the train is direct? (formal)", "accept": ["Est-ce que vous savez si le train est direct ?", "Vous savez si le train est direct ?"] },
+    { "id": "perdu", "kind": "phrase", "fr": "Je me suis perdu.", "en": "I got lost.", "accept": ["Je me suis perdue.", "Je suis perdu.", "Je suis perdue."] },
+    { "id": "manque-train", "kind": "phrase", "fr": "J'ai manqué mon train.", "en": "I missed my train.", "accept": ["J'ai raté mon train."], "note": "[[manquer]] is common in Québec; [[rater]] is common in France. Both are understood everywhere." },
+    { "id": "valise", "kind": "vocab", "fr": "valise", "article": "la", "gender": "f", "en": "suitcase", "pos": "noun", "accept": ["une valise"],
+      "example": { "fr": "Ma valise est très lourde.", "en": "My suitcase is very heavy." } },
+    { "id": "bagages", "kind": "vocab", "fr": "bagages", "article": "les", "gender": "m", "en": "luggage", "pos": "noun", "accept": ["des bagages"],
+      "example": { "fr": "Où est-ce que je peux laisser mes bagages ?", "en": "Where can I leave my luggage?" }, "note": "Plural in French: [[les bagages]]." },
+    { "id": "tres-gentil", "kind": "phrase", "fr": "C'est très gentil de votre part.", "en": "That's very kind of you. (formal)", "accept": ["C'est gentil de votre part.", "C'est très gentil."] },
+    { "id": "de-rien", "kind": "phrase", "fr": "De rien.", "en": "You're welcome.", "accept": ["Il n'y a pas de quoi.", "Je vous en prie.", "Bienvenue !", "Ça me fait plaisir."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Lost in Québec City",
+      "intro": "Nguyen and Mei arrive in Québec City by train for the weekend. Nothing goes quite as planned.",
+      "blocks": [
+        { "type": "dialogue", "title": "At the information desk, Gare du Palais",
+          "context": "Nguyen talks to a station employee.",
+          "lines": [
+            { "speaker": "Nguyen", "fr": "Bonjour, monsieur. Excusez-moi de vous déranger. Pourriez-vous m'aider, s'il vous plaît ?", "en": "Hello, sir. Sorry to bother you. Could you help me, please?" },
+            { "speaker": "Employé", "fr": "Bien sûr. Qu'est-ce que je peux faire pour vous ?", "en": "Of course. What can I do for you?" },
+            { "speaker": "Nguyen", "fr": "Nous avons une réservation dans un hôtel près de l'Université Laval. Pourriez-vous me dire comment aller là-bas ?", "en": "We have a reservation at a hotel near Université Laval. Could you tell me how to get there?" },
+            { "speaker": "Employé", "fr": "Le plus simple, c'est l'autobus. L'arrêt est juste en face de la gare, de l'autre côté de la rue.", "en": "The simplest is the bus. The stop is right across from the station, on the other side of the street." },
+            { "speaker": "Nguyen", "fr": "Savez-vous si je peux payer dans l'autobus ?", "en": "Do you know if I can pay on the bus?" },
+            { "speaker": "Employé", "fr": "Oui, mais vous devez avoir le montant exact en monnaie. Le chauffeur ne rend pas la monnaie.", "en": "Yes, but you must have the exact amount in coins. The driver doesn't give change." },
+            { "speaker": "Nguyen", "fr": "D'accord. Et auriez-vous un plan de la ville ?", "en": "OK. And would you have a map of the city?" },
+            { "speaker": "Employé", "fr": "Tenez, voilà. Je vous montre : la gare est ici, et votre hôtel est là.", "en": "Here you go. I'll show you: the station is here, and your hotel is there." },
+            { "speaker": "Nguyen", "fr": "Merci beaucoup, c'est très gentil de votre part.", "en": "Thank you very much, that's very kind of you." },
+            { "speaker": "Employé", "fr": "Ça me fait plaisir. Bon séjour à Québec !", "en": "My pleasure. Enjoy your stay in Québec City!" }
+          ] },
+        { "type": "dialogue", "title": "The next day, in Old Québec",
+          "context": "Mei went for a walk alone and got lost. She stops a woman in the street.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Pardon, madame, excusez-moi de vous déranger. Je me suis perdue. Savez-vous où se trouve le Château Frontenac ?", "en": "Excuse me, madam, sorry to bother you. I got lost. Do you know where the Château Frontenac is?" },
+            { "speaker": "Passante", "fr": "Vous n'êtes pas loin ! Montez la côte, puis tournez à droite au coin de la rue, et vous allez voir le château.", "en": "You're not far! Go up the hill, then turn right at the corner, and you'll see it." },
+            { "speaker": "Mei", "fr": "Excusez-moi, je ne parle pas très bien français. Pourriez-vous répéter plus lentement ?", "en": "Sorry, I don't speak French very well. Could you repeat more slowly?" },
+            { "speaker": "Passante", "fr": "Pas de problème. Vous montez la rue. Au coin, vous tournez à droite. C'est à cinq minutes.", "en": "No problem. You go up the street. At the corner, you turn right. It's five minutes away." },
+            { "speaker": "Mei", "fr": "Merci beaucoup, madame !", "en": "Thank you very much, madam!" },
+            { "speaker": "Passante", "fr": "Bienvenue ! Et vous parlez très bien, hein !", "en": "You're welcome! And you speak very well, you know!" }
+          ] }
+      ] },
+    { "type": "understand", "title": "The politeness ladder",
+      "blocks": [
+        { "type": "table", "title": "From direct to very polite",
+          "head": ["Request", "Tone", "Use it with"],
+          "rows": [
+            ["Aide-moi !", "direct (imperative)", "close friends, emergencies"],
+            ["Tu peux m'aider ?", "friendly", "friends, family, colleagues you say tu to"],
+            ["Vous pouvez m'aider ?", "polite, everyday", "staff, strangers"],
+            ["Pouvez-vous m'aider ?", "polite, a bit formal", "staff, strangers"],
+            ["Pourriez-vous m'aider ?", "very polite", "strangers, service desks, formal situations"],
+            ["Est-ce que vous pourriez m'aider ?", "very polite, easy to build", "same, and very common in speech"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "With a friend, the very polite version is [[Tu pourrais m'aider ?]]" },
+        { "type": "explain", "title": "Pourriez, auriez, voudrais: the “would” forms",
+          "body": "[[Pourriez-vous]] (could you), [[auriez-vous]] (would you have) and [[je voudrais]] (I would like) all come from the **conditional**, the French “would / could”. You will study it properly later. For now, learn these as **ready-made chunks**:\n\n- [[Pourriez-vous]] + infinitive: [[Pourriez-vous répéter ?]]\n- [[Auriez-vous]] + noun: [[Auriez-vous un plan de la ville ?]]\n- [[Je voudrais]] + noun or infinitive: [[Je voudrais laisser ma valise ici.]]\n\nThey sound softer than the present tense, which is exactly why people use them with strangers." },
+        { "type": "pattern", "title": "Polite openers",
+          "pattern": "Excusez-moi (de vous déranger) + request",
+          "note": "Start with an opener, then ask. [[Excusez-moi de vous déranger]] (sorry to bother you) is perfect when someone is busy. [[Pardon]] alone is shorter and also polite.",
+          "examples": [
+            { "fr": "Excusez-moi de vous déranger, savez-vous où se trouve la sortie ?", "en": "Sorry to bother you, do you know where the exit is?" },
+            { "fr": "Pardon, monsieur, savez-vous si ce train va à Québec ?", "en": "Excuse me, sir, do you know if this train goes to Québec City?" },
+            { "fr": "Excusez-moi, est-ce que vous pourriez garder ma place ?", "en": "Excuse me, could you save my seat?" }
+          ] },
+        { "type": "table", "title": "Savez-vous… ? Asking for information",
+          "head": ["Pattern", "Example", "English"],
+          "rows": [
+            ["Savez-vous où… ?", "Savez-vous où se trouve l'arrêt d'autobus ?", "Do you know where the bus stop is?"],
+            ["Savez-vous si… ?", "Savez-vous si le train est direct ?", "Do you know if the train is direct?"],
+            ["Savez-vous à quelle heure… ?", "Savez-vous à quelle heure ferme la gare ?", "Do you know what time the station closes?"],
+            ["Pourriez-vous me dire… ?", "Pourriez-vous me dire où sont les toilettes ?", "Could you tell me where the washrooms are?"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[si]] here means *whether / if*. [[se trouver]] means *to be located*: [[Où se trouve la gare ?]] = Where is the station?" },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Learn the chunks whole:** [[Pourriez-vous aider moi ?]] → [[Pourriez-vous m'aider ?]] In these chunks, [[me]] / [[m']] comes **before** the infinitive. You will study these pronouns in unit 8.\n- **Don't forget the opener:** in French, starting with a question with no [[Bonjour]] or [[Excusez-moi]] can sound abrupt. Always say [[Bonjour]] first to staff.\n- **Pourriez vs pouvez:** [[pouvez-vous]] is not rude, just less soft. With a busy stranger, [[pourriez-vous]] is safer.\n- **“I'm lost”:** say [[Je me suis perdu]] or [[Je me suis perdue]] (I got lost), or [[Je suis perdu]] / [[Je suis perdue]] (I'm lost). Not [[J'ai perdu]] alone, which means *I lost (something)*: [[J'ai perdu mon billet]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Bienvenue! and ça me fait plaisir",
+          "body": "In Québec, people often answer [[merci]] with [[Bienvenue !]] (you're welcome), a calque of English. You'll also hear [[Ça me fait plaisir]] (my pleasure) and [[Pas de problème]]. In France, people say [[De rien]], [[Je vous en prie]] or [[Il n'y a pas de quoi]]. All of them are understood everywhere.\n\nYou'll also hear [[Je m'excuse]] for *I'm sorry*, very common in Québec; [[Excusez-moi]] is the safe choice everywhere. In Québec City, [[la côte]] means a steep street: the old town has many of them!" }
+      ] },
+    { "type": "hear", "title": "Polite intonation",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Politeness is also in the voice: a soft, rising tone at the end of the question.",
+          "lines": [
+            { "fr": "Excusez-moi de vous déranger.", "en": "Sorry to bother you.", "tip": "déranger: *dé-ran-jé*, the g is soft like in *beige*." },
+            { "fr": "Pourriez-vous m'aider, s'il vous plaît ?", "en": "Could you help me, please?", "tip": "pourriez: *pou-rié*, two syllables, with a clear r." },
+            { "fr": "Auriez-vous un plan de la ville ?", "en": "Would you have a map of the city?", "tip": "auriez: *o-rié*." },
+            { "fr": "Savez-vous si le train est direct ?", "en": "Do you know if the train is direct?", "tip": "direct: you hear the final ct." },
+            { "fr": "C'est très gentil de votre part.", "en": "That's very kind of you." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Excusez-moi, est-ce que vous pourriez garder ma valise deux minutes ? Je vais acheter un café.", "en": "Excuse me, could you watch my suitcase for two minutes? I'm going to buy a coffee.",
+          "prompt": "What is the traveller asking?", "options": ["To watch their suitcase for two minutes", "To buy them a coffee", "To help them carry their suitcase"], "answer": 0,
+          "explain": "[[garder ma valise]] = watch / keep my suitcase. The coffee is what the traveller is going to do." },
+        { "id": "h2", "type": "listen-mcq", "fr": "La consigne ? Elle est au sous-sol, à côté des toilettes. Prenez l'ascenseur, là-bas.", "en": "Luggage storage? It's in the basement, next to the washrooms. Take the elevator, over there.",
+          "prompt": "Where is the luggage storage?", "options": ["In the basement, next to the washrooms", "On the first floor, next to the exit", "Outside, across the street"], "answer": 0,
+          "explain": "[[au sous-sol]] = in the basement; [[à côté des toilettes]] = next to the washrooms. [[La consigne]] is luggage storage." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "A station employee is busy on the phone. What is the best way to start?", "options": ["Excusez-moi de vous déranger…", "Hé ! Aide-moi !", "Tu peux m'aider ?", "Je veux une information."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Far too direct with a stranger.", "tu is too familiar with staff you don't know.", "Je veux sounds demanding; use je voudrais."] },
+        { "id": "r2", "type": "cloze", "text": "___-vous à quelle heure part le dernier autobus ?", "answers": [["Savez"]], "choices": ["Savez", "Auriez", "Excusez"], "en": "Do you know what time the last bus leaves?",
+          "explain": "“Do you know…?” = [[Savez-vous…]] + question word. [[Auriez-vous]] is followed by a noun (would you have…)." },
+        { "id": "r3", "type": "translate", "prompt": "Sorry to bother you, do you know where the exit is? (formal)", "accept": ["Excusez-moi de vous déranger, savez-vous où se trouve la sortie ?", "Excusez-moi de vous déranger, savez-vous où est la sortie ?", "Excusez-moi de vous déranger, est-ce que vous savez où est la sortie ?", "Excusez-moi de vous déranger, est-ce que vous savez où se trouve la sortie ?", "Excusez-moi de vous déranger, vous savez où est la sortie ?", "Excusez-moi de vous déranger, vous savez où se trouve la sortie ?"],
+          "hint": "Excusez-moi de… + savez-vous où…", "explain": "Opener + [[savez-vous où se trouve…]] or [[où est…]]." },
+        { "id": "r4", "type": "reorder", "prompt": "Would you have a map of the metro?", "accept": ["Auriez-vous un plan du métro ?"], "extra": ["avez"],
+          "explain": "[[Auriez-vous]] (would you have) + noun. [[du métro]] = de + le métro." },
+        { "id": "r5", "type": "translate", "prompt": "I missed my train. Do you know what time the next train leaves? (formal)", "accept": ["J'ai manqué mon train. Savez-vous à quelle heure part le prochain train ?", "J'ai manqué mon train. Est-ce que vous savez à quelle heure part le prochain train ?", "J'ai manqué mon train. Vous savez à quelle heure part le prochain train ?", "J'ai manqué mon train. Savez-vous quand part le prochain train ?", "J'ai manqué mon train. Est-ce que vous savez quand part le prochain train ?", "J'ai manqué mon train. Savez-vous à quelle heure le prochain train part ?", "J'ai raté mon train. Savez-vous à quelle heure part le prochain train ?", "J'ai raté mon train. Est-ce que vous savez à quelle heure part le prochain train ?", "J'ai raté mon train. Vous savez à quelle heure part le prochain train ?", "J'ai raté mon train. Savez-vous quand part le prochain train ?", "J'ai raté mon train. Est-ce que vous savez quand part le prochain train ?", "J'ai raté mon train. Savez-vous à quelle heure le prochain train part ?"],
+          "explain": "Passé composé with avoir: [[j'ai manqué]] (Québec) or [[j'ai raté]] (France). Then [[Savez-vous à quelle heure part…]]" },
+        { "id": "r6", "type": "match", "prompt": "Match each request with its meaning.", "pairs": [["Pourriez-vous répéter ?", "Could you repeat?"], ["Savez-vous si… ?", "Do you know whether…?"], ["Auriez-vous… ?", "Would you have…?"], ["Pourriez-vous me dire… ?", "Could you tell me…?"], ["Excusez-moi de vous déranger.", "Sorry to bother you."]] },
+        { "id": "r7", "type": "cloze", "text": "Hier, je me suis ___ dans le Vieux-Québec, mais une dame m'a aidée.", "answers": [["perdue"]], "choices": ["perdue", "perdu", "perdre"], "en": "Yesterday I got lost in Old Québec, but a lady helped me. (Mei speaking)",
+          "explain": "Reflexive verbs take être in the passé composé, so the participle agrees: Mei is a woman → [[perdue]]." },
+        { "id": "r8", "type": "listen-mcq", "fr": "Désolé, je ne suis pas d'ici. Mais vous pouvez demander au comptoir d'information, juste là, à gauche.", "en": "Sorry, I'm not from here. But you can ask at the information counter, right there, on the left.",
+          "prompt": "What does the man answer?", "options": ["He doesn't know; ask at the information counter on the left.", "The information counter is closed.", "He works at the information counter."], "answer": 0,
+          "explain": "[[je ne suis pas d'ici]] = I'm not from here. [[au comptoir d'information, juste là, à gauche]] = at the info counter, right there on the left." },
+        { "id": "r9", "type": "dictation", "fr": "Pourriez-vous répéter plus lentement, s'il vous plaît ?", "accept": [],
+          "explain": "[[Pourriez]] is spelled with two r's." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You missed your bus to Québec City and your suitcase is heavy. Go to the information counter. Interrupt politely, explain the problem, ask when the next bus leaves, ask if there is luggage storage, and thank the employee.", "seconds": 45,
+          "checklist": ["Bonjour + Excusez-moi de vous déranger", "The problem in the past: J'ai manqué mon autobus…", "Pourriez-vous me dire à quelle heure… ?", "Savez-vous si… / Auriez-vous… ?", "If needed: Pourriez-vous répéter ?", "C'est très gentil de votre part."],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, madame. Excusez-moi de vous déranger. J'ai manqué mon autobus pour Québec : il est parti à 12 h et je suis arrivée à 12 h 05 ! Pourriez-vous me dire à quelle heure part le prochain ? … À 14 h ? D'accord. Et savez-vous s'il y a une consigne ici ? Ma valise est très lourde. … Au sous-sol, à côté des toilettes ? Merci, c'est très gentil de votre part.", "en": "Hello, madam. Sorry to bother you. I missed my bus to Québec City: it left at 12 and I arrived at 12:05! Could you tell me what time the next one leaves? … At 2 p.m.? OK. And do you know if there's luggage storage here? My suitcase is very heavy. … In the basement, next to the washrooms? Thank you, that's very kind of you. (The … mark the employee's answers.)" } ] },
+        { "id": "w1", "type": "write", "prompt": "You are staying in a rented apartment in Québec City. Write a short, polite message to the owner: apologize for bothering them, explain a small problem (you can't find the key box, the Wi-Fi password, the parking…), and make two polite requests.", "wordRange": [30, 60],
+          "checklist": ["Bonjour madame / monsieur + name", "Excusez-moi de vous déranger.", "The problem: Je ne trouve pas… / Je n'ai pas…", "Two requests: Pourriez-vous… ? Auriez-vous… ? Savez-vous si… ?", "Merci beaucoup + your name"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour madame Gagnon, excusez-moi de vous déranger. Nous sommes arrivés à l'appartement, mais je ne trouve pas le mot de passe du wifi. Pourriez-vous m'envoyer le mot de passe par texto ? Et savez-vous si nous pouvons laisser la voiture dans la rue ce soir ? Merci beaucoup et bonne soirée ! Nguyen", "en": "Hello Mrs. Gagnon, sorry to bother you. We've arrived at the apartment, but I can't find the Wi-Fi password. Could you send me the password by text? And do you know if we can leave the car on the street tonight? Thank you very much and have a good evening! Nguyen" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Interrupt politely: [[Excusez-moi de vous déranger]], [[Pardon]]\n- Climb the politeness ladder: [[Tu peux… ? → Pouvez-vous… ? → Pourriez-vous… ?]]\n- Ask for information: [[Savez-vous où / si… ?]], [[Pourriez-vous me dire… ?]], [[Auriez-vous… ?]]\n- Thank people and answer thanks: [[C'est très gentil de votre part]], [[Bienvenue !]] (Québec), [[De rien]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Object pronouns are not taught until unit 8, so the g-me-infinitif drills and the me/moi cloze (r2) were replaced with a chunk item and a Savez-vous cloze; r5 no longer hinges on m'aider. Fixed the pourriez/auriez syllable tips." }
+}

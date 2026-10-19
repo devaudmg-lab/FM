@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-06-03",
+  "level": "a2",
+  "unit": "a2-06",
+  "title": "Giving advice",
+  "goal": "Give and understand health advice with il faut, tu devrais / vous devriez and il vaut mieux, and get help from a pharmacist or 811.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-il-faut", "kind": "grammar", "fr": "il faut / il ne faut pas + infinitif", "en": "you have to / you must not (general rule)",
+      "drills": [
+        { "type": "cloze", "text": "Quand on a la grippe, il ___ se reposer.", "answers": [["faut"]], "en": "When you have the flu, you have to rest.", "explain": "[[il faut]] + infinitive: a general necessity. It only exists with [[il]]." },
+        { "type": "translate", "prompt": "You must not take antibiotics for a cold. (general rule)", "accept": ["Il ne faut pas prendre d'antibiotiques pour un rhume.", "Il ne faut pas prendre d'antibiotiques contre un rhume.", "Il ne faut pas prendre d'antibiotiques pour le rhume."], "explain": "[[il ne faut pas]] = you must not. After the negative, [[des]] becomes [[de]] / [[d']]: [[pas d'antibiotiques]]." },
+        { "type": "mcq", "prompt": "What does “Il ne faut pas venir” mean?", "options": ["You must not come.", "You don't have to come.", "It's not necessary to come early."], "answer": 0, "explain": "[[il ne faut pas]] is a prohibition: *must not*. “Don't have to” is [[ce n'est pas nécessaire de]] or [[pas besoin de]]." }
+      ] },
+    { "id": "g-devrais", "kind": "grammar", "fr": "tu devrais / vous devriez + infinitif", "en": "you should (advice)",
+      "drills": [
+        { "type": "cloze", "text": "Tu ___ rester au lit aujourd'hui.", "answers": [["devrais"]], "en": "You should stay in bed today.", "explain": "tu → [[devrais]], like [[je voudrais]]: the polite “would” form of devoir." },
+        { "type": "cloze", "text": "Vous ___ voir un médecin, madame.", "answers": [["devriez"]], "en": "You should see a doctor, madam.", "explain": "vous → [[devriez]]." },
+        { "type": "translate", "prompt": "You should drink lots of water. (to a friend)", "accept": ["Tu devrais boire beaucoup d'eau.", "Tu devrais boire beaucoup d'eau !"], "explain": "[[tu devrais]] + infinitive. [[beaucoup d'eau]]: [[de]] after a quantity word." }
+      ] },
+    { "id": "g-vaut-mieux", "kind": "grammar", "fr": "il vaut mieux + infinitif", "en": "it's better to (advice, comparing options)",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ mieux appeler le 811 avant d'aller à l'urgence.", "answers": [["vaut"]], "en": "It's better to call 811 before going to the ER.", "explain": "Fixed chunk: [[il vaut mieux]] + infinitive." },
+        { "type": "cloze", "text": "Il vaut mieux ___ pas sortir avec cette fièvre.", "answers": [["ne"]], "en": "It's better not to go out with this fever.", "explain": "With an infinitive, both negative words go **before** it: [[ne pas sortir]]." },
+        { "type": "mcq", "prompt": "“It's better to stay at home.”", "options": ["Il vaut mieux rester à la maison.", "Il vaut mieux de rester à la maison.", "Il est mieux rester à la maison."], "optionsFr": true, "answer": 0, "explain": "No [[de]] after [[il vaut mieux]]: the infinitive comes straight after." }
+      ] },
+    { "id": "se-reposer", "kind": "vocab", "fr": "se reposer", "en": "to rest", "pos": "verb",
+      "example": { "fr": "Repose-toi bien !", "en": "Get some good rest!" } },
+    { "id": "rester-lit", "kind": "phrase", "fr": "rester au lit", "en": "to stay in bed" },
+    { "id": "boire-eau", "kind": "phrase", "fr": "boire beaucoup d'eau", "en": "to drink lots of water", "accept": ["boire beaucoup d'eau"] },
+    { "id": "pharmacien", "kind": "vocab", "fr": "pharmacien", "fem": "pharmacienne", "article": "le", "gender": "m", "en": "pharmacist", "pos": "noun", "accept": ["la pharmacienne", "un pharmacien", "une pharmacienne"],
+      "example": { "fr": "Demande conseil au pharmacien.", "en": "Ask the pharmacist for advice." } },
+    { "id": "sirop", "kind": "vocab", "fr": "sirop contre la toux", "article": "le", "gender": "m", "en": "cough syrup", "pos": "noun", "accept": ["un sirop contre la toux", "le sirop pour la toux", "un sirop"],
+      "example": { "fr": "Ce sirop contre la toux est pour les adultes.", "en": "This cough syrup is for adults." } },
+    { "id": "conseil", "kind": "vocab", "fr": "conseil", "article": "un", "gender": "m", "en": "piece of advice", "pos": "noun", "accept": ["un conseil", "le conseil", "des conseils"],
+      "example": { "fr": "Je peux te donner un conseil ?", "en": "Can I give you a piece of advice?" }, "note": "[[un conseil]] is countable: [[des conseils]] = some advice." },
+    { "id": "ca-va-passer", "kind": "phrase", "fr": "Ça va passer.", "en": "It'll go away. (reassuring)", "accept": ["Ça va passer"] },
+    { "id": "prends-soin", "kind": "phrase", "fr": "Prends soin de toi !", "en": "Take care of yourself! (to a friend)", "accept": ["Prends soin de toi"] },
+    { "id": "laver-mains", "kind": "phrase", "fr": "se laver les mains", "en": "to wash your hands" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Everybody has advice",
+      "intro": "Raj has caught the cold that is going around his office. He goes to the pharmacy, and his friends send him advice.",
+      "blocks": [
+        { "type": "dialogue", "title": "At the pharmacy",
+          "context": "Raj talks to the pharmacist at the counter.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Bonjour, madame. J'ai le rhume : je tousse, j'ai mal à la gorge et j'ai le nez bouché. Qu'est-ce que vous me conseillez ?", "en": "Hello. I have a cold: I'm coughing, I have a sore throat and a stuffy nose. What do you recommend?" },
+            { "speaker": "Pharmacienne", "fr": "Vous avez de la fièvre ?", "en": "Do you have a fever?" },
+            { "speaker": "Raj", "fr": "Non, je ne pense pas.", "en": "No, I don't think so." },
+            { "speaker": "Pharmacienne", "fr": "Vous prenez d'autres médicaments ? Vous avez des problèmes de santé ?", "en": "Do you take any other medication? Do you have any health problems?" },
+            { "speaker": "Raj", "fr": "Non, rien.", "en": "No, nothing." },
+            { "speaker": "Pharmacienne", "fr": "Alors, pour la toux, vous pourriez prendre ce sirop, le soir. Pour la gorge, il vaut mieux boire des boissons chaudes, du thé avec du miel par exemple. Et il faut boire beaucoup d'eau.", "en": "Then for the cough, you could take this syrup in the evening. For your throat, it's better to have hot drinks, tea with honey for example. And you have to drink lots of water." },
+            { "speaker": "Raj", "fr": "Est-ce que je dois prendre des antibiotiques ?", "en": "Do I need to take antibiotics?" },
+            { "speaker": "Pharmacienne", "fr": "Non, il ne faut pas prendre d'antibiotiques pour un rhume : c'est un virus. Vous devriez vous reposer. Normalement, ça va passer en une semaine. Si vous avez de la fièvre ou si vous n'allez pas mieux dans dix jours, vous devriez voir un médecin.", "en": "No, you must not take antibiotics for a cold: it's a virus. You should rest. Normally, it'll go away in a week. If you get a fever or if you don't feel better in ten days, you should see a doctor." },
+            { "speaker": "Raj", "fr": "Merci beaucoup pour vos conseils.", "en": "Thank you very much for your advice." }
+          ] },
+        { "type": "text", "title": "Messages from Raj's friends",
+          "fr": "Amira : Oh non, pauvre toi ! Tu devrais rester au lit aujourd'hui. Prends soin de toi !\nOlivier : Il faut manger de la soupe ! Ma grand-mère disait toujours ça. 😄\nCamille : Tu ne devrais pas aller au bureau demain. Il vaut mieux travailler de la maison : tes collègues vont te remercier !\nKarim : Et lave-toi souvent les mains. On ne veut pas tous être malades !",
+          "en": "Amira: Oh no, poor you! You should stay in bed today. Take care of yourself! Olivier: You have to eat soup! My grandmother always used to say that. Camille: You shouldn't go to the office tomorrow. It's better to work from home: your colleagues will thank you! Karim: And wash your hands often. We don't all want to get sick!" }
+      ] },
+    { "type": "understand", "title": "Three ways to give advice",
+      "blocks": [
+        { "type": "table", "title": "From general to personal",
+          "head": ["Structure", "Meaning", "Example"],
+          "rows": [
+            ["il faut + infinitif", "you have to (a rule for everyone)", "Il faut boire beaucoup d'eau."],
+            ["il ne faut pas + infinitif", "you must not", "Il ne faut pas prendre d'antibiotiques pour un rhume."],
+            ["tu devrais / vous devriez + infinitif", "you should (personal advice)", "Tu devrais rester au lit."],
+            ["tu ne devrais pas + infinitif", "you shouldn't", "Vous ne devriez pas aller travailler."],
+            ["il vaut mieux + infinitif", "it's better to (the best option)", "Il vaut mieux appeler le 811."],
+            ["il vaut mieux ne pas + infinitif", "it's better not to", "Il vaut mieux ne pas sortir."]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "All three are followed directly by an **infinitive**, with no [[de]] or [[à]]." },
+        { "type": "explain", "title": "Il faut: impersonal",
+          "body": "[[Il faut]] has no real subject: the [[il]] means *it*, like in [[il pleut]]. You can't say [[je faut]] or [[tu faut]]. Use it for **rules and necessities**: what everybody has to do.\n\nIt also works with a noun: [[Il faut du repos.]] (Rest is needed.)\n\nIn the past and future you already know the forms: [[il fallait]] (imparfait) and [[il faudra]] (futur simple): [[Il faudra prendre ce médicament pendant sept jours.]]" },
+        { "type": "explain", "title": "Tu devrais / vous devriez: a softer devoir",
+          "body": "You know [[devoir]] from A1: [[tu dois]] = you must. [[Tu devrais]] is the **conditional**, like [[je voudrais]] and [[pourriez-vous]]: it means *you should*. It's friendlier, because it's advice, not an order.\n\n- [[Tu dois voir un médecin.]] = You must see a doctor. (strong)\n- [[Tu devrais voir un médecin.]] = You should see a doctor. (advice)\n\nFor now, learn two forms: [[tu devrais]] (to a friend) and [[vous devriez]] (formal or plural). You'll also hear [[je devrais]] (I should)." },
+        { "type": "pattern", "title": "Advice with a condition",
+          "pattern": "Si + présent, + il faut / tu devrais / impératif",
+          "note": "To say *if this happens, do that*, use [[si]] + present tense.",
+          "examples": [
+            { "fr": "Si tu as de la fièvre, tu devrais rester à la maison.", "en": "If you have a fever, you should stay at home." },
+            { "fr": "Si vous avez du mal à respirer, il faut appeler le 911.", "en": "If you have trouble breathing, you have to call 911." },
+            { "fr": "Si ça ne va pas mieux, appelle le 811.", "en": "If it doesn't get better, call 811." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["se-reposer", "rester-lit", "boire-eau", "pharmacien", "sirop", "conseil", "laver-mains"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Il ne faut pas ≠ you don't have to.** [[Il ne faut pas venir]] = you must **not** come. To say *you don't have to*, use [[Ce n'est pas nécessaire de venir]] or, casually, [[Pas besoin de venir]].\n- **No de after il vaut mieux:** [[Il vaut mieux de rester]] → [[Il vaut mieux rester]].\n- **Negative infinitive:** [[Il vaut mieux ne pas sortir]], with [[ne pas]] together before the verb. With devoir, the negation goes around the conjugated verb: [[Tu ne devrais pas sortir.]]\n- **Reflexive verbs keep their pronoun:** [[Tu devrais te reposer]], [[Vous devriez vous reposer]]. The pronoun matches the person.\n- **Conseil is countable:** [[Merci pour vos conseils]] (plural) = thanks for your advice." },
+        { "type": "deepdive", "kind": "canada", "title": "Pharmacists and 811",
+          "body": "- **Pharmacists** in Canada are a great first stop for minor problems such as a cold, a sore throat or a small rash. Advice is free. In Québec and Ontario, pharmacists can also prescribe some medications for certain minor conditions. Ask: [[Qu'est-ce que vous me conseillez ?]]\n- **811 Info-Santé (Québec):** call **811**, free, 24 hours a day, to talk to a nurse about a health problem. The nurse can tell you whether you should rest at home, see a pharmacist, go to a clinic or go to the emergency room. Ontario has a similar free service, **Health811**, also reached by dialing 811.\n- **911** is for emergencies only: chest pain, serious trouble breathing, a bad injury, signs of a stroke.\n\nService details can change; check your province's official health website." },
+        { "type": "deepdive", "kind": "culture",
+          "body": "In French, it's normal to give advice to friends quite directly, with the imperative: [[Repose-toi !]] [[Bois de l'eau !]] With strangers or professionals, people soften it: [[Vous devriez peut-être…]], [[Il vaudrait mieux…]] (it would be better). And the classic answer to someone who is sick: [[Bon rétablissement !]] (Get well soon!)" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Il faut boire beaucoup d'eau.", "en": "You have to drink lots of water.", "tip": "faut sounds like *fo*." },
+            { "fr": "Tu devrais te reposer.", "en": "You should rest.", "tip": "devrais: *de-vrè*." },
+            { "fr": "Vous devriez voir un médecin.", "en": "You should see a doctor.", "tip": "devriez: *de-vri-yé*." },
+            { "fr": "Il vaut mieux rester à la maison.", "en": "It's better to stay at home.", "tip": "vaut sounds like *vo*; mieux like *myeu*." },
+            { "fr": "Bon rétablissement !", "en": "Get well soon!" }
+          ] },
+        { "type": "listen", "title": "Calling 811 Info-Santé",
+          "context": "Amira's daughter has a fever at night. Amira calls 811 and talks to a nurse.",
+          "fr": "D'accord, madame. Votre fille a 38,4 de fièvre, mais elle boit et elle joue un peu. Ce n'est pas une urgence. Vous pouvez lui donner de l'acétaminophène pour enfants, selon son poids, comme indiqué sur la boîte. Il faut aussi lui donner souvent à boire. Il vaut mieux garder votre fille à la maison demain. Si elle a du mal à respirer, ou si elle devient très endormie, il faut appeler le 911.",
+          "en": "OK, madam. Your daughter has a fever of 38.4, but she's drinking and playing a little. It's not an emergency. You can give her (lui = to her) children's acetaminophen, according to her weight, as shown on the box. You also have to give her something to drink often. It's better to keep your daughter at home tomorrow. If she has trouble breathing, or if she becomes very drowsy, you have to call 911." },
+        { "id": "h1", "type": "listen-mcq", "fr": "Il vaut mieux garder votre fille à la maison demain.", "en": "It's better to keep your daughter at home tomorrow.",
+          "prompt": "What does the nurse recommend for tomorrow?", "options": ["Keep the girl at home", "Take her to the emergency room", "Send her to school"], "answer": 0,
+          "explain": "[[Il vaut mieux garder votre fille à la maison]] = it's better to keep your daughter at home." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Si elle a du mal à respirer, ou si elle devient très endormie, il faut appeler le 911.", "en": "If she has trouble breathing, or if she becomes very drowsy, you have to call 911.",
+          "prompt": "When should Amira call 911?", "options": ["If her daughter has trouble breathing or becomes very drowsy", "If the fever is above 38", "If her daughter doesn't want to eat"], "answer": 0,
+          "explain": "[[du mal à respirer]] = trouble breathing; [[très endormie]] = very drowsy. These are warning signs." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Tu as l'air fatigué. Tu ___ te reposer.", "answers": [["devrais"]], "choices": ["devrais", "devriez", "faut", "vaut"], "en": "You look tired. You should rest.",
+          "explain": "Personal advice to a friend: [[tu devrais]] + infinitive." },
+        { "id": "r2", "type": "mcq", "prompt": "Your colleague says “Il ne faut pas venir demain.” What does it mean?", "options": ["You must not come tomorrow.", "You don't need to come tomorrow.", "You should come tomorrow."], "answer": 0,
+          "explain": "[[il ne faut pas]] = must not. *Don't need to* would be [[pas besoin de]] or [[ce n'est pas nécessaire de]]." },
+        { "id": "r3", "type": "translate", "prompt": "It's better to call 811.", "accept": ["Il vaut mieux appeler le 811.", "Il vaut mieux appeler le huit cent onze.", "Il vaut mieux téléphoner au 811.", "C'est mieux d'appeler le 811.", "Il vaut mieux appeler au 811.", "Il vaut mieux téléphoner au huit cent onze."],
+          "hint": "il vaut mieux + infinitive", "explain": "No [[de]] after [[il vaut mieux]]. In speech, you'll also hear [[c'est mieux d'appeler]]." },
+        { "id": "r4", "type": "cloze", "text": "Madame, vous ___ voir un médecin si la fièvre ne baisse pas.", "answers": [["devriez"]], "choices": ["devriez", "devrais", "devez être"], "en": "Madam, you should see a doctor if the fever doesn't go down.",
+          "explain": "Formal advice: [[vous devriez]]." },
+        { "id": "r5", "type": "reorder", "prompt": "It's better not to go out.", "accept": ["Il vaut mieux ne pas sortir"], "extra": ["de"],
+          "explain": "[[ne pas]] goes together before the infinitive. No [[de]]." },
+        { "id": "r6", "type": "match", "prompt": "Match each advice structure with its meaning.", "pairs": [["il faut", "you have to"], ["il ne faut pas", "you must not"], ["tu devrais", "you should"], ["il vaut mieux", "it's better to"], ["pas besoin de", "no need to"]] },
+        { "id": "r7", "type": "listen-mcq", "fr": "Pour votre mal de gorge, vous pourriez prendre des pastilles. Mais si vous avez de la fièvre demain, il faut consulter un médecin.", "en": "For your sore throat, you could take lozenges. But if you have a fever tomorrow, you need to see a doctor.",
+          "prompt": "What does the pharmacist say?", "options": ["Take lozenges; see a doctor if you have a fever tomorrow.", "See a doctor today.", "Take antibiotics for your throat."], "answer": 0,
+          "explain": "[[des pastilles]] = lozenges. [[Si vous avez de la fièvre demain, il faut consulter]] = if you have a fever tomorrow, you must see a doctor." },
+        { "id": "r8", "type": "translate", "prompt": "When I was a child, my mother always said: you have to eat soup!", "accept": ["Quand j'étais enfant, ma mère disait toujours : il faut manger de la soupe !", "Quand j'étais petit, ma mère disait toujours : il faut manger de la soupe !", "Quand j'étais petite, ma mère disait toujours : il faut manger de la soupe !", "Quand j'étais enfant, ma mère disait toujours qu'il faut manger de la soupe.", "Quand j'étais petit, ma mère disait toujours qu'il faut manger de la soupe.", "Quand j'étais petite, ma mère disait toujours qu'il faut manger de la soupe.", "Quand j'étais enfant, ma mère disait toujours qu'il fallait manger de la soupe.", "Quand j'étais petit, ma mère disait toujours qu'il fallait manger de la soupe.", "Quand j'étais petite, ma mère disait toujours qu'il fallait manger de la soupe."],
+          "hint": "A habit in the past → imparfait.", "explain": "[[j'étais]], [[disait toujours]]: imparfait for habits. [[il faut manger de la soupe]]: partitive [[de la]]." },
+        { "id": "r9", "type": "dictation", "fr": "Si tu as de la fièvre, tu devrais rester au lit.", "accept": [],
+          "explain": "[[Si]] + present, then the advice with [[tu devrais]] + infinitive." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend calls you: they have the flu and an important exam on Friday. Give them at least four pieces of advice using il faut, tu devrais, il vaut mieux and one negative. Add one piece of advice with si, and wish them well.", "seconds": 45,
+          "checklist": ["React: Oh non, pauvre toi !", "il faut + infinitive", "tu devrais + infinitive", "il vaut mieux + infinitive", "A negative: il ne faut pas / tu ne devrais pas…", "A condition: Si…, …", "Bon rétablissement ! / Prends soin de toi !"],
+          "models": [ { "label": "Model answer", "fr": "Oh non, pauvre toi ! Bon, d'abord, tu devrais rester au lit aujourd'hui et demain. Il faut boire beaucoup d'eau et dormir. Tu ne devrais pas étudier toute la nuit : il vaut mieux étudier un peu chaque jour. Si la fièvre ne baisse pas, appelle le 811 ou va voir le pharmacien. Et pour l'examen, tu pourrais écrire à ton professeur. Prends soin de toi et bon rétablissement !", "en": "Oh no, poor you! OK, first, you should stay in bed today and tomorrow. You have to drink lots of water and sleep. You shouldn't study all night: it's better to study a little each day. If the fever doesn't go down, call 811 or go and see the pharmacist. And for the exam, you could write to your teacher. Take care of yourself and get well soon!" } ] },
+        { "id": "w1", "type": "write", "prompt": "A new colleague from abroad asks you: “What should I do if I get sick in Canada?” Write a short message with at least four pieces of advice (pharmacist, 811, health card, walk-in clinic, 911).", "wordRange": [40, 80],
+          "checklist": ["Salut + name", "il faut… / il ne faut pas…", "tu devrais…", "il vaut mieux…", "One condition: Si…", "A friendly closing"],
+          "models": [ { "label": "Model answer", "fr": "Salut Nguyen ! Bonne question. D'abord, il faut toujours avoir ta carte d'assurance maladie avec toi. Pour un petit problème, comme un rhume, tu devrais demander conseil au pharmacien : c'est gratuit. Si tu ne sais pas quoi faire, il vaut mieux appeler le 811 : une infirmière va te répondre. Si tu n'as pas de médecin de famille, tu peux aller dans une clinique sans rendez-vous. Mais il faut arriver tôt ! Et en cas d'urgence, appelle le 911. Prends soin de toi ! Lucie", "en": "Hi Nguyen! Good question. First, you always have to have your health insurance card with you. For a small problem, like a cold, you should ask the pharmacist for advice: it's free. If you don't know what to do, it's better to call 811: a nurse will answer. If you don't have a family doctor, you can go to a walk-in clinic. But you have to arrive early! And in an emergency, call 911. Take care! Lucie" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Give general rules: [[Il faut boire beaucoup d'eau.]] [[Il ne faut pas prendre d'antibiotiques pour un rhume.]]\n- Give personal advice: [[Tu devrais te reposer.]] [[Vous devriez voir un médecin.]]\n- Recommend the best option: [[Il vaut mieux appeler le 811.]]\n- Know where to get help: the pharmacist, 811, a walk-in clinic, 911",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Made the 811 nurse's script natural (glossed lui instead of repeating 'votre fille', dose 'as shown on the box'), removed the incorrect 'pas des antibiotiques' accept, and widened r3 accept. Pharmacist and 811/Health811 facts checked and kept hedged." }
+}

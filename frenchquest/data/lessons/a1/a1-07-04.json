@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-07-04",
+  "level": "a1",
+  "unit": "a1-07",
+  "title": "Asking for directions",
+  "goal": "Ask the way politely and understand and give simple directions with tournez, allez, continuez, traversez and prenez.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-imperatif", "kind": "grammar", "fr": "tournez, allez, prenez…", "en": "the imperative for directions (vous form)",
+      "drills": [
+        { "type": "cloze", "text": "___ à droite au feu. (tourner)", "answers": [["Tournez"]], "en": "Turn right at the lights.", "explain": "Imperative = the [[vous]] form without [[vous]]: [[vous tournez]] → [[Tournez !]]" },
+        { "type": "cloze", "text": "___ la deuxième rue à gauche. (prendre)", "answers": [["Prenez"]], "en": "Take the second street on the left.", "explain": "[[vous prenez]] → [[Prenez]]." },
+        { "type": "cloze", "text": "___ tout droit. (aller)", "answers": [["Allez"]], "en": "Go straight ahead.", "explain": "[[vous allez]] → [[Allez]]." },
+        { "type": "translate", "prompt": "Cross the street. (to a stranger)", "accept": ["Traversez la rue.", "Vous traversez la rue."], "explain": "[[vous traversez]] → [[Traversez]]." }
+      ] },
+    { "id": "pour-aller", "kind": "phrase", "fr": "Excusez-moi, pour aller à la gare ?", "en": "Excuse me, how do I get to the train station?", "accept": ["Pardon, pour aller à la gare ?", "Excusez-moi, pour aller à la gare, s'il vous plaît ?", "Pour aller à la gare, s'il vous plaît ?", "Pardon, pour aller à la gare, s'il vous plaît ?"] },
+    { "id": "tournez", "kind": "vocab", "fr": "tournez", "en": "turn (direction to a stranger)", "pos": "verb" },
+    { "id": "allez", "kind": "vocab", "fr": "allez", "en": "go (direction to a stranger)", "pos": "verb" },
+    { "id": "continuez", "kind": "vocab", "fr": "continuez", "en": "keep going / continue (direction to a stranger)", "pos": "verb" },
+    { "id": "traversez", "kind": "vocab", "fr": "traversez", "en": "cross (direction to a stranger)", "pos": "verb" },
+    { "id": "prenez", "kind": "vocab", "fr": "prenez", "en": "take (direction to a stranger)", "pos": "verb" },
+    { "id": "tout-droit", "kind": "phrase", "fr": "tout droit", "en": "straight ahead" },
+    { "id": "a-gauche", "kind": "phrase", "fr": "à gauche", "en": "(on the) left, as a direction" },
+    { "id": "a-droite", "kind": "phrase", "fr": "à droite", "en": "(on the) right, as a direction" },
+    { "id": "rue", "kind": "vocab", "fr": "rue", "article": "la", "gender": "f", "en": "street", "pos": "noun", "accept": ["une rue", "la rue"] },
+    { "id": "au-coin", "kind": "phrase", "fr": "au coin de la rue", "en": "at the corner of the street" },
+    { "id": "au-feu", "kind": "phrase", "fr": "au feu", "en": "at the traffic lights", "accept": ["aux feux", "aux lumières", "au feu rouge"],
+      "note": "In Québec: [[aux lumières]]." },
+    { "id": "premiere-rue", "kind": "phrase", "fr": "la première rue à droite", "en": "the first street on the right", "accept": ["la première à droite"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Excuse me, where's…?",
+      "blocks": [
+        { "type": "dialogue", "title": "On the street in Gatineau",
+          "context": "Sofia is looking for the library. She stops a man on the street.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Excusez-moi, monsieur. Pour aller à la bibliothèque, s'il vous plaît ?", "en": "Excuse me, sir. How do I get to the library, please?" },
+            { "speaker": "Monsieur", "fr": "La bibliothèque ? C'est facile. Allez tout droit jusqu'au feu.", "en": "The library? It's easy. Go straight ahead as far as the lights." },
+            { "speaker": "Monsieur", "fr": "Au feu, traversez la rue et tournez à gauche.", "en": "At the lights, cross the street and turn left." },
+            { "speaker": "Sofia", "fr": "Je traverse et je tourne à gauche… D'accord. Et après ?", "en": "I cross and I turn left… OK. And then?" },
+            { "speaker": "Monsieur", "fr": "Prenez la deuxième rue à droite. Continuez tout droit. La bibliothèque est au coin de la rue, en face du parc.", "en": "Take the second street on the right. Keep going straight. The library is at the corner of the street, opposite the park." },
+            { "speaker": "Sofia", "fr": "C'est loin ?", "en": "Is it far?" },
+            { "speaker": "Monsieur", "fr": "Non, c'est à cinq minutes.", "en": "No, it's five minutes away." },
+            { "speaker": "Sofia", "fr": "Merci beaucoup, monsieur !", "en": "Thank you very much, sir!" },
+            { "speaker": "Monsieur", "fr": "De rien. Bonne journée !", "en": "You're welcome. Have a good day!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "New little words: [[jusqu'au feu]] (as far as the lights), [[après]] (after, then), [[C'est à cinq minutes]] (it's five minutes away). Notice how Sofia repeats the directions to check: a great habit!" }
+      ] },
+    { "type": "understand", "title": "Giving directions",
+      "blocks": [
+        { "type": "explain", "title": "Asking the way",
+          "body": "The simplest polite question is: [[Excusez-moi, pour aller à…, s'il vous plaît ?]] Literally “Excuse me, to go to…, please?” Add the place with the right form of [[à]]:\n\n- [[Pour aller au parc ?]]\n- [[Pour aller à la gare ?]]\n- [[Pour aller à l'hôpital ?]]\n\nYou can also use what you know: [[Où est la banque, s'il vous plaît ?]] or [[Il y a une pharmacie près d'ici ?]]" },
+        { "type": "explain", "title": "The imperative: telling someone what to do",
+          "body": "To give directions to a stranger, take the **vous** form of the verb and **drop [[vous]]**:\n\n- [[vous tournez]] → [[Tournez à gauche.]] (Turn left.)\n- [[vous allez]] → [[Allez tout droit.]] (Go straight ahead.)\n\nThat's it: no new endings to learn. In this lesson we use it only for directions; you'll meet it again later." },
+        { "type": "table", "title": "Direction verbs",
+          "head": ["vous…", "imperative", "English"],
+          "rows": [
+            ["vous tournez", "Tournez !", "Turn!"],
+            ["vous allez", "Allez !", "Go!"],
+            ["vous continuez", "Continuez !", "Keep going!"],
+            ["vous traversez", "Traversez !", "Cross!"],
+            ["vous prenez", "Prenez !", "Take!"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[prendre]] (to take) is irregular; you know it from [[je vais prendre]] at the café. Next lesson you'll learn more of its forms." },
+        { "type": "vocab", "title": "Direction words", "itemIds": ["tournez", "allez", "continuez", "traversez", "prenez", "tout-droit", "a-gauche", "a-droite", "rue", "au-coin", "au-feu", "premiere-rue"] },
+        { "type": "pattern", "title": "Which street?",
+          "pattern": "Prenez la première / deuxième / troisième rue à gauche / à droite.",
+          "note": "[[première]] (first) is feminine because [[rue]] is feminine. The others add **-ième** to the number: [[deux]] → [[deuxième]], [[trois]] → [[troisième]] (a final -e drops: [[quatre]] → [[quatrième]]). With a masculine noun: [[le premier feu]] (the first traffic light).",
+          "examples": [
+            { "fr": "Prenez la première rue à droite.", "en": "Take the first street on the right." },
+            { "fr": "Prenez la troisième rue à gauche.", "en": "Take the third street on the left." },
+            { "fr": "Au deuxième feu, tournez à droite.", "en": "At the second set of lights, turn right." },
+            { "fr": "La pharmacie est au coin de la rue.", "en": "The pharmacy is at the corner of the street." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Tout droit ≠ à droite:** [[tout droit]] (no -e) = straight ahead. [[à droite]] (with -e) = to the right. Listen for the *t* sound: you hear it in [[droite]], but the t of [[droit]] is silent.\n- **Vous forms in real life:** people often give directions with the normal present tense: [[Vous tournez à gauche, vous continuez tout droit…]] It means exactly the same thing.\n- **Au feu, not à le feu:** [[à + le]] → [[au]], as you learned last lesson." },
+        { "type": "deepdive", "kind": "examples", "title": "Talking to a friend: tu forms",
+          "body": "With a friend, use the **tu** form without [[tu]]. For -er verbs, drop the final **-s**:\n\n- [[tu tournes]] → [[Tourne à gauche !]]\n- [[tu continues]] → [[Continue tout droit !]]\n- [[tu vas]] → [[Va tout droit !]]\n- [[tu prends]] → [[Prends la première rue !]]\n\nFor now, just recognize these. Use the [[vous]] forms with strangers.",
+          "examples": [ { "fr": "Traverse la rue et tourne à droite.", "en": "Cross the street and turn right. (to a friend)" } ] },
+        { "type": "deepdive", "kind": "canada",
+          "body": "In everyday Québec French, traffic lights are very often [[les lumières]]: [[Tournez à droite aux lumières.]] The standard words [[le feu]] / [[les feux]] ([[au feu]], [[au feu rouge]]) are used in France and are also understood and used in Québec.\n\nYou will also hear street names with [[la rue]], [[le boulevard]] and [[l'avenue]]: [[le boulevard Saint-Laurent]], [[la rue Sainte-Catherine]] in Montréal, [[la rue Principale]] in many small towns.",
+          "examples": [ { "fr": "Aux lumières, prenez la rue Principale à gauche.", "en": "At the lights, turn left onto rue Principale (Main Street)." } ] }
+      ] },
+    { "type": "hear", "title": "Hear the directions",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud. Try to say them as one smooth phrase.",
+          "lines": [
+            { "fr": "Excusez-moi, pour aller à la gare ?", "en": "Excuse me, how do I get to the train station?", "tip": "Raise your voice on [[gare]]." },
+            { "fr": "Allez tout droit.", "en": "Go straight ahead.", "tip": "Link [[tout]] and [[droit]]: too-drwah. No t at the end." },
+            { "fr": "Tournez à droite.", "en": "Turn right.", "tip": "Now you hear the t: drwat." },
+            { "fr": "Traversez la rue au feu.", "en": "Cross the street at the lights.", "tip": "[[rue]] has the tight u sound." },
+            { "fr": "Prenez la deuxième rue à gauche.", "en": "Take the second street on the left.", "tip": "[[deuxième]] = duh-zyem." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Tournez à droite au feu.", "en": "Turn right at the lights.", "prompt": "What should you do?", "options": ["Turn right at the lights", "Turn left at the lights", "Go straight ahead at the lights"], "answer": 0, "explain": "You hear the t of [[droite]]: right." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Allez tout droit et tournez à gauche.", "en": "Go straight ahead and turn left.", "prompt": "What are the directions?", "options": ["Straight ahead, then left", "Right, then left", "Straight ahead, then right"], "answer": 0, "explain": "[[tout droit]] (no t sound) = straight ahead, then [[à gauche]] = left." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Prenez la deuxième rue à gauche.", "en": "Take the second street on the left.", "prompt": "Which street?", "options": ["The second street on the left", "The first street on the left", "The second street on the right"], "answer": 0, "explain": "[[deuxième]] = second; [[à gauche]] = on the left." },
+        { "id": "h4", "type": "listen-mcq", "fr": "La pharmacie est au coin de la rue, à droite.", "en": "The pharmacy is at the corner of the street, on the right.", "prompt": "Where is the pharmacy?", "options": ["At the corner, on the right", "At the lights, on the right", "At the corner, on the left"], "answer": 0, "explain": "[[au coin de la rue]] = at the corner; [[à droite]] = on the right." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Imagine you're on the street, giving directions.",
+      "blocks": [
+        { "id": "r1", "type": "listen-mcq", "fr": "Traversez la rue et continuez tout droit.", "en": "Cross the street and keep going straight ahead.", "prompt": "What are the directions?", "options": ["Cross the street and keep going straight", "Cross the street and turn right", "Take the street on the right"], "answer": 0, "explain": "[[traversez]] = cross; [[continuez tout droit]] = keep going straight." },
+        { "id": "r2", "type": "cloze", "text": "___ à gauche au coin de la rue.", "answers": [["Tournez"]], "choices": ["Tournez", "Tourner", "Tournes", "Tournons"], "en": "Turn left at the corner of the street. (to a stranger)", "explain": "Imperative with [[vous]]: [[vous tournez]] → [[Tournez]]." },
+        { "id": "r3", "type": "mcq", "prompt": "How do you say “straight ahead”?", "options": ["tout droit", "à droite", "tout droite", "à droit"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "À droite means “to the right”.", "No -e: tout droit.", "This doesn't exist: say à droite (right) or tout droit (straight)."] },
+        { "id": "r4", "type": "translate", "prompt": "Take the first street on the right. (to a stranger)", "accept": ["Prenez la première rue à droite.", "Vous prenez la première rue à droite."], "hint": "rue is feminine: première", "explain": "[[Prenez]] + [[la première rue]] + [[à droite]]." },
+        { "id": "r5", "type": "reorder", "prompt": "Excuse me, how do I get to the bank?", "accept": ["Excusez-moi, pour aller à la banque ?"], "extra": ["au"], "explain": "[[Pour aller à…]] is the quickest way to ask; [[banque]] is feminine: [[à la banque]]." },
+        { "id": "r6", "type": "match", "prompt": "Match the directions.", "pairs": [["tournez", "turn"], ["traversez", "cross"], ["continuez", "keep going"], ["prenez", "take"], ["allez", "go"]] },
+        { "id": "r7", "type": "cloze", "text": "La boulangerie est ___ coin de la rue.", "answers": [["au"]], "choices": ["au", "à la", "du", "à le"], "en": "The bakery is at the corner of the street.", "explain": "[[le coin]] is masculine: [[à + le]] → [[au coin]]." },
+        { "id": "r8", "type": "translate", "prompt": "Cross the street at the lights. (to a stranger)", "accept": ["Traversez la rue au feu.", "Traversez la rue aux feux.", "Traversez la rue aux lumières.", "Vous traversez la rue au feu.", "Vous traversez la rue aux lumières.", "Vous traversez la rue aux feux.", "Traversez la rue au feu rouge.", "Au feu, traversez la rue.", "Aux feux, traversez la rue.", "Aux lumières, traversez la rue."], "explain": "[[Traversez]] + [[la rue]] + [[au feu]] (Québec: [[aux lumières]])." },
+        { "id": "r9", "type": "cloze", "text": "Pour aller ___ supermarché, s'il vous plaît ?", "answers": [["au"]], "choices": ["au", "à la", "à l'", "aux"], "en": "How do I get to the supermarket, please?", "explain": "[[supermarché]] is masculine: [[au supermarché]]." },
+        { "id": "r10", "type": "dictation", "fr": "Allez tout droit et tournez à droite.", "accept": ["Allez tout droit et tournez à droite"], "explain": "[[droit]] (straight) and [[droite]] (right): only the second one has -e." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A stranger stops you outside your home: “Excusez-moi, pour aller à la pharmacie ?” Give them directions to a real place near you, in three or four steps.", "seconds": 40,
+          "checklist": ["Start politely (Oui, bien sûr / Alors…)", "At least three imperatives (allez, tournez, prenez…)", "One street number: la première / deuxième rue", "Where the place is at the end (au coin, en face de…)"],
+          "models": [ { "label": "Model answer", "fr": "Oui, alors… Allez tout droit jusqu'au feu. Au feu, tournez à gauche. Prenez la deuxième rue à droite. La pharmacie est au coin de la rue, à côté de la banque. C'est à dix minutes.", "en": "Yes, so… Go straight ahead as far as the lights. At the lights, turn left. Take the second street on the right. The pharmacy is at the corner of the street, next to the bank. It's ten minutes away." } ] },
+        { "id": "w1", "type": "write", "prompt": "Friends are coming to your place for a party. Write directions from the nearest bus stop or metro station to your door.", "wordRange": [25, 50],
+          "checklist": ["Start from the bus stop or station", "At least three steps with vous imperatives", "One landmark (en face du parc, à côté de la banque…)", "End with your door or building"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour à tous ! À l'arrêt d'autobus, traversez la rue et allez tout droit. Au coin de la rue, tournez à droite. Prenez la première rue à gauche. Mon appartement est en face du parc, au numéro 12. À samedi ! Raj", "en": "Hi everyone! At the bus stop, cross the street and go straight ahead. At the corner of the street, turn right. Take the first street on the left. My apartment is opposite the park, at number 12. See you Saturday! Raj" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Ask the way: [[Excusez-moi, pour aller à la gare ?]]\n- Give directions with the imperative: [[Tournez, allez, continuez, traversez, prenez]]\n- Use [[tout droit, à gauche, à droite, au coin de la rue, au feu, la première rue]]\n- Understand short spoken directions",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed tu forms (tourne, va, prends…) from the accept lists of items glossed \"to a stranger\", added missing accepted answers to r8 and pour-aller, and corrected the ordinal note (quatre → quatrième). Made the droit/droite and Québec \"lumières vs feux\" notes accurate." }
+}

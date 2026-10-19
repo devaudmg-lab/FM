@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-07-02",
+  "level": "a2",
+  "unit": "a2-07",
+  "title": "Describing problems",
+  "goal": "Explain what's wrong in your apartment (it doesn't work, it's broken, it's leaking, there's an outage) and ask for a repair.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-ne-marche-pas", "kind": "grammar", "fr": "… ne marche pas / est en panne / est cassé", "en": "saying that something doesn't work or is broken",
+      "drills": [
+        { "type": "cloze", "text": "La laveuse ne ___ pas.", "answers": [["marche", "fonctionne"]], "en": "The washer doesn't work.", "explain": "[[marcher]] (to walk) also means *to work* for machines: [[ça ne marche pas]]." },
+        { "type": "cloze", "text": "L'ascenseur est en ___.", "answers": [["panne"]], "en": "The elevator is out of order.", "explain": "[[être en panne]] = to be out of order, broken down (machines, cars, systems)." },
+        { "type": "translate", "prompt": "The heating doesn't work.", "accept": ["Le chauffage ne marche pas.", "Le chauffage ne fonctionne pas.", "Le chauffage est en panne.", "Le chauffage marche pas."], "explain": "[[ne]] before the verb, [[pas]] after it. [[Le chauffage marche pas]] is common in speech, but keep [[ne]] when you write." }
+      ] },
+    { "id": "g-tomber-en-panne", "kind": "grammar", "fr": "tomber en panne (passé composé)", "en": "to break down (in the past): est tombé(e) en panne",
+      "drills": [
+        { "type": "cloze", "text": "La cuisinière est ___ en panne hier soir.", "answers": [["tombée"]], "en": "The stove broke down last night.", "explain": "[[tomber]] uses **être** in the passé composé, so the participle agrees: [[la cuisinière]] is feminine → [[tombée]]." },
+        { "type": "cloze", "text": "Le frigo ___ tombé en panne.", "answers": [["est"]], "en": "The fridge broke down.", "explain": "Être, not avoir: [[il est tombé]]." },
+        { "type": "mcq", "prompt": "“The washer and the dryer broke down.”", "options": ["La laveuse et la sécheuse sont tombées en panne.", "La laveuse et la sécheuse ont tombé en panne.", "La laveuse et la sécheuse sont tombés en panne."], "optionsFr": true, "answer": 0, "explain": "être + participle agreeing with two feminine nouns: [[sont tombées]]." }
+      ] },
+    { "id": "chauffage", "kind": "vocab", "fr": "chauffage", "article": "le", "gender": "m", "en": "heating", "pos": "noun",
+      "example": { "fr": "Le chauffage ne marche pas dans la chambre.", "en": "The heating doesn't work in the bedroom." } },
+    { "id": "fuite", "kind": "vocab", "fr": "fuite", "article": "une", "gender": "f", "en": "leak", "pos": "noun", "accept": ["la fuite", "une fuite d'eau"],
+      "example": { "fr": "Il y a une fuite sous l'évier.", "en": "There's a leak under the kitchen sink." } },
+    { "id": "panne", "kind": "vocab", "fr": "panne", "article": "une", "gender": "f", "en": "breakdown (a machine that stops working)", "pos": "noun", "accept": ["la panne"],
+      "example": { "fr": "La laveuse est en panne.", "en": "The washer is out of order." } },
+    { "id": "panne-de-courant", "kind": "phrase", "fr": "une panne de courant", "en": "a power outage", "accept": ["une panne d'électricité", "une panne électrique"] },
+    { "id": "robinet", "kind": "vocab", "fr": "robinet", "article": "le", "gender": "m", "en": "tap, faucet", "pos": "noun",
+      "example": { "fr": "Le robinet fuit.", "en": "The tap is leaking." } },
+    { "id": "evier", "kind": "vocab", "fr": "évier", "article": "l'", "gender": "m", "en": "kitchen sink", "pos": "noun", "accept": ["un évier"], "note": "The bathroom sink is le lavabo.",
+      "example": { "fr": "L'évier est bouché.", "en": "The kitchen sink is clogged." } },
+    { "id": "bouche", "kind": "vocab", "fr": "bouché", "fem": "bouchée", "en": "clogged, blocked", "pos": "adjective", "accept": ["bouchée"], "note": "La toilette is the usual word in Québec; in France, people say les toilettes.",
+      "example": { "fr": "La toilette est bouchée.", "en": "The toilet is clogged." } },
+    { "id": "casse", "kind": "vocab", "fr": "cassé", "fem": "cassée", "en": "broken", "pos": "adjective", "accept": ["cassée", "brisé", "brisée"], "note": "In Québec you also hear brisé(e).",
+      "example": { "fr": "La fenêtre de la cuisine est cassée.", "en": "The kitchen window is broken." } },
+    { "id": "reparer", "kind": "vocab", "fr": "réparer", "en": "to repair, to fix", "pos": "verb",
+      "example": { "fr": "Le plombier va réparer la fuite demain.", "en": "The plumber is going to fix the leak tomorrow." } },
+    { "id": "pas-eau-chaude", "kind": "phrase", "fr": "Il n'y a pas d'eau chaude.", "en": "There's no hot water." },
+    { "id": "envoyer-quelqu-un", "kind": "phrase", "fr": "Pourriez-vous envoyer quelqu'un ?", "en": "Could you send someone? (formal)", "accept": ["Est-ce que vous pourriez envoyer quelqu'un ?", "Vous pourriez envoyer quelqu'un ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Problems in the building",
+      "intro": "Amira has moved into her 4 ½ in Rosemont. It's November, and things are starting to go wrong.",
+      "blocks": [
+        { "type": "text", "title": "A notice in the lobby",
+          "fr": "Avis aux locataires\nLe mardi 18 novembre, de 9 h à 12 h, il y aura une coupure d'eau dans tout l'immeuble pour une réparation.\nLa laveuse de la salle de lavage est en panne. Un technicien va passer jeudi.\nMerci de votre compréhension.\nLa gestion",
+          "en": "Notice to tenants\nOn Tuesday, November 18, from 9 a.m. to 12 p.m., the water will be shut off in the whole building for a repair.\nThe washer in the laundry room is out of order. A technician is coming on Thursday.\nThank you for your understanding.\nThe management" },
+        { "id": "d1", "type": "mcq", "prompt": "What will happen on Tuesday morning?", "options": ["There will be no water in the building.", "There will be no electricity in the building.", "The washer will be repaired."], "answer": 0,
+          "explain": "[[une coupure d'eau]] = the water is cut off. [[Il y aura]] is the futur simple of [[il y a]]. The washer is repaired on Thursday." },
+        { "type": "dialogue", "title": "Amira calls the concierge",
+          "context": "In Québec, [[le concierge]] is the building's caretaker. Amira calls Mr. Gagnon on Saturday morning.",
+          "lines": [
+            { "speaker": "M. Gagnon", "fr": "Allô, Luc Gagnon, bonjour.", "en": "Hello, Luc Gagnon speaking." },
+            { "speaker": "Amira", "fr": "Bonjour, monsieur Gagnon. C'est Amira Benali, de l'appartement 6. J'ai plusieurs problèmes dans mon appartement.", "en": "Hello, Mr. Gagnon. It's Amira Benali, from apartment 6. I have several problems in my apartment." },
+            { "speaker": "M. Gagnon", "fr": "Ah bon ? Qu'est-ce qui se passe ?", "en": "Oh really? What's going on?" },
+            { "speaker": "Amira", "fr": "D'abord, il n'y a pas d'eau chaude ce matin. Ensuite, le robinet de la cuisine fuit : il y a de l'eau partout sous l'évier.", "en": "First, there's no hot water this morning. Then, the kitchen tap is leaking: there's water everywhere under the sink." },
+            { "speaker": "M. Gagnon", "fr": "Une fuite sous l'évier ? Ça, c'est urgent. Il faut fermer l'eau tout de suite : il y a une petite valve sous l'évier.", "en": "A leak under the sink? That's urgent. You need to turn off the water right away: there's a small valve under the sink." },
+            { "speaker": "Amira", "fr": "C'est déjà fait. Et aussi, le chauffage ne marche pas dans la chambre. Il fait très froid !", "en": "It's already done. And also, the heating doesn't work in the bedroom. It's very cold!" },
+            { "speaker": "M. Gagnon", "fr": "Le calorifère est peut-être brisé. Bon, je vais appeler un plombier. Il pourra venir lundi matin.", "en": "Maybe the radiator is broken. OK, I'm going to call a plumber. He'll be able to come on Monday morning." },
+            { "speaker": "Amira", "fr": "Lundi matin, je travaille. Est-ce que le plombier pourrait venir après 17 h ?", "en": "On Monday morning I work. Could the plumber come after 5 p.m.?" },
+            { "speaker": "M. Gagnon", "fr": "Je vais demander au plombier et je vous rappelle.", "en": "I'll ask the plumber and call you back." },
+            { "speaker": "Amira", "fr": "Merci beaucoup. Ah, une dernière chose : la sécheuse est aussi en panne ?", "en": "Thank you very much. Oh, one last thing: is the dryer out of order too?" },
+            { "speaker": "M. Gagnon", "fr": "Non, seulement la laveuse. Elle est tombée en panne mercredi. Le technicien va passer jeudi.", "en": "No, only the washer. It broke down on Wednesday. The technician is coming on Thursday." }
+          ] },
+        { "id": "d2", "type": "mcq", "prompt": "Which problem does Mr. Gagnon find urgent?", "options": ["The leak under the kitchen sink", "The broken washer", "The cold bedroom"], "answer": 0,
+          "explain": "[[Une fuite sous l'évier ? Ça, c'est urgent.]] Water can damage the apartment below, so the first step is [[fermer l'eau]]." }
+      ] },
+    { "type": "understand", "title": "How to describe a problem",
+      "blocks": [
+        { "type": "explain", "title": "Name the thing, then the problem",
+          "body": "To report a problem, start with the **thing**, then say **what's wrong**, and if you can, **where** and **since when**. Keep it simple and precise: the person on the phone needs to know who to send.\n\n[[Le chauffage]] + [[ne marche pas]] + [[dans la chambre]]." },
+        { "type": "table", "title": "Problem patterns",
+          "head": ["Pattern", "Example", "English"],
+          "rows": [
+            ["… ne marche pas", "Le chauffage ne marche pas.", "The heating doesn't work."],
+            ["… ne fonctionne pas", "La cuisinière ne fonctionne pas.", "The stove isn't working. (a bit more formal)"],
+            ["… est en panne", "L'ascenseur est en panne.", "The elevator is out of order."],
+            ["… est cassé(e)", "La fenêtre est cassée.", "The window is broken."],
+            ["… fuit / il y a une fuite", "Le robinet fuit.", "The tap is leaking."],
+            ["… est bouché(e)", "L'évier est bouché.", "The sink is clogged."],
+            ["il n'y a pas de / d'…", "Il n'y a pas d'eau chaude.", "There's no hot water."],
+            ["il y a une panne de…", "Il y a une panne de courant.", "There's a power outage."],
+            ["il y a des…", "Il y a des souris dans la cuisine.", "There are mice in the kitchen."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[Cassé(e)]] agrees like any adjective: [[le miroir est cassé]], [[la porte est cassée]]." },
+        { "type": "pattern", "title": "What happened: tomber en panne",
+          "pattern": "… est tombé(e) en panne",
+          "note": "To say something **broke down**, use [[tomber en panne]]. [[Tomber]] takes **être** in the passé composé (A2 unit 2), so the participle agrees with the subject.",
+          "examples": [
+            { "fr": "Le frigo est tombé en panne hier.", "en": "The fridge broke down yesterday." },
+            { "fr": "La laveuse est tombée en panne mercredi.", "en": "The washer broke down on Wednesday." },
+            { "fr": "Les deux ascenseurs sont tombés en panne.", "en": "Both elevators broke down." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["chauffage", "fuite", "panne", "panne-de-courant", "robinet", "evier", "bouche", "casse", "reparer", "pas-eau-chaude", "envoyer-quelqu-un"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Not *travailler*:** a machine [[marche]] or [[fonctionne]]. [[Le frigo ne travaille pas]] sounds like the fridge is on strike!\n- **Not *fixer*:** *to fix* is [[réparer]]. [[Fixer]] means to attach or to stare at.\n- **Pas de:** after a negative, [[de l'eau]] becomes [[d'eau]]: [[Il n'y a pas **d'**eau chaude]].\n- **Fuir** is irregular: [[le robinet fuit]], [[les robinets fuient]]. If you're unsure, say [[il y a une fuite]].\n- **Être with tomber:** [[la laveuse **est** tombée en panne]], never *a tombé*." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "[[fuite]] has the same vowel sound as [[huit]] and [[nuit]]: glide quickly from *u* to *i*, all in one syllable. Don't say *fu-ite* in two syllables.\n\n[[évier]] sounds like *é-vyé*: the i glides quickly into the final é. The final r is silent, like in [[premier]].",
+          "examples": [ { "fr": "une fuite d'eau", "en": "a water leak" }, { "fr": "sous l'évier", "en": "under the kitchen sink" } ] },
+        { "type": "deepdive", "kind": "canada", "title": "Québec words and your rights",
+          "body": "- Québec French has its own home vocabulary: [[la laveuse]] and [[la sécheuse]] (France: *le lave-linge*, *le sèche-linge*), [[le frigo]] or [[le frigidaire]], [[le calorifère]] (radiator), [[brisé]] (France: *cassé*), [[la toilette]] (France: *les toilettes*). Both sets are understood everywhere.\n- [[Le concierge]] lives in or near the building and handles small repairs. In bigger buildings, you call [[la gestion]] (the management company).\n- You'll also hear about [[les coquerelles]] (cockroaches, informal; standard: *les cafards*) and [[les punaises de lit]] (bedbugs). If you see them, tell your landlord quickly.\n- In general, a Québec landlord must keep the apartment in good condition and make the necessary repairs. If an important problem isn't fixed, tenants can turn to the **TAL** ([[Tribunal administratif du logement]]). The exact rules can change: check official sources such as [[tal.gouv.qc.ca]]. Always keep a written record of what you reported and when: you'll learn to write that message in lesson 4." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Le chauffage ne marche pas.", "en": "The heating doesn't work." },
+            { "fr": "Il y a une fuite sous l'évier.", "en": "There's a leak under the kitchen sink.", "tip": "fuite: one syllable, like huit." },
+            { "fr": "Il n'y a pas d'eau chaude.", "en": "There's no hot water.", "tip": "In fast speech: y a pas d'eau chaude." },
+            { "fr": "La laveuse est tombée en panne.", "en": "The washer broke down." },
+            { "fr": "Pourriez-vous envoyer quelqu'un, s'il vous plaît ?", "en": "Could you send someone, please?" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bonjour, ici Nguyen, appartement 4. L'évier de ma cuisine est bouché et l'eau ne descend plus. Pourriez-vous envoyer quelqu'un aujourd'hui ?",
+          "en": "Hello, it's Nguyen, apartment 4. My kitchen sink is clogged and the water isn't draining anymore. Could you send someone today?",
+          "prompt": "What is Nguyen's problem?", "options": ["The kitchen sink is clogged.", "The kitchen tap is leaking.", "There's no water in the kitchen."], "answer": 0,
+          "explain": "[[bouché]] = clogged; [[l'eau ne descend plus]] = the water doesn't go down anymore." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Attention : à cause de la tempête, il y a une panne de courant dans tout le quartier. Hydro-Québec travaille sur le problème.",
+          "en": "Attention: because of the storm, there's a power outage in the whole neighbourhood. Hydro-Québec is working on the problem.",
+          "prompt": "What's happening?", "options": ["There's no electricity in the neighbourhood.", "There's no water in the building.", "The heating is broken in one apartment."], "answer": 0,
+          "explain": "[[une panne de courant]] = a power outage. [[le courant]] here is the electric current." },
+        { "id": "h3", "type": "dictation", "fr": "Le robinet de la salle de bain fuit.", "accept": ["Le robinet de la salle de bains fuit."],
+          "explain": "[[fuit]]: the -t is silent. Both [[salle de bain]] and [[salle de bains]] are correct." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each problem to its meaning.", "pairs": [["Le robinet fuit.", "The tap is leaking."], ["L'évier est bouché.", "The sink is clogged."], ["L'ascenseur est en panne.", "The elevator is out of order."], ["La fenêtre est cassée.", "The window is broken."], ["Il y a une panne de courant.", "There's a power outage."]] },
+        { "id": "r2", "type": "translate", "prompt": "There's no hot water.", "accept": ["Il n'y a pas d'eau chaude.", "Il y a pas d'eau chaude.", "Je n'ai pas d'eau chaude.", "Il n'y a plus d'eau chaude."],
+          "explain": "[[pas de]] + noun after a negative: [[pas d'eau]] (d' before a vowel)." },
+        { "id": "r3", "type": "cloze", "text": "La sécheuse est ___ en panne mardi.", "answers": [["tombée"]], "choices": ["tombée", "tombé", "tombés", "tomber"], "en": "The dryer broke down on Tuesday.",
+          "explain": "Être + participle: it agrees with [[la sécheuse]] (feminine singular) → [[tombée]]." },
+        { "id": "r4", "type": "mcq", "prompt": "How do you say “The fridge doesn't work”?", "options": ["Le frigo ne marche pas.", "Le frigo ne travaille pas.", "Le frigo ne fixe pas.", "Le frigo n'est pas marche."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "[[Travailler]] is for people. Machines [[marchent]] or [[fonctionnent]].", "[[Fixer]] means to attach or to stare at.", "[[Marche]] is a verb here: [[ne marche pas]]."] },
+        { "id": "r5", "type": "cloze", "text": "Il y a une ___ d'eau dans la cuisine. Il faut appeler un ___.", "answers": [["fuite"], ["plombier"]], "choices": ["fuite", "panne", "plombier", "concierge"], "en": "There's a water leak in the kitchen. We need to call a plumber.",
+          "explain": "Water → [[une fuite]]; water problems → [[un plombier]]. [[Une panne]] is for machines." },
+        { "id": "r6", "type": "translate", "prompt": "Could you send a plumber, please? (formal)", "accept": ["Pourriez-vous envoyer un plombier, s'il vous plaît ?", "Est-ce que vous pourriez envoyer un plombier, s'il vous plaît ?", "Vous pourriez envoyer un plombier, s'il vous plaît ?", "Pouvez-vous envoyer un plombier, s'il vous plaît ?", "Est-ce que vous pouvez envoyer un plombier, s'il vous plaît ?"],
+          "explain": "[[Pourriez-vous]] + infinitive is the polite request you learned in the travel unit." },
+        { "id": "r7", "type": "reorder", "prompt": "The heating doesn't work in the bedroom.", "accept": ["Le chauffage ne marche pas dans la chambre.", "Dans la chambre, le chauffage ne marche pas."], "extra": ["travaille"],
+          "explain": "Thing + [[ne marche pas]] + place. Machines don't [[travailler]]." },
+        { "id": "r8", "type": "cloze", "text": "Vous ___ fermer l'eau tout de suite.", "answers": [["devriez"]], "choices": ["devriez", "devez être", "faut"], "en": "You should turn off the water right away.",
+          "explain": "Advice: [[vous devriez]] + infinitive (A2 unit 6). [[Il faut]] would need [[il]]: [[Il faut fermer l'eau]]." },
+        { "id": "r9", "type": "dictation", "fr": "L'ascenseur de l'immeuble est en panne.", "accept": [],
+          "explain": "[[en panne]] = out of order. [[L'immeuble]] = the (apartment) building." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Call your concierge. Say who you are and your apartment number, describe two problems (what, where), say which one is urgent, and ask when someone can come.", "seconds": 45,
+          "checklist": ["Greeting + C'est… de l'appartement…", "Problem 1 with a pattern (ne marche pas, est en panne, fuit…)", "Problem 2 with a place (dans la cuisine, sous l'évier…)", "What's urgent: C'est urgent / ce n'est pas urgent", "Request: Pourriez-vous envoyer quelqu'un ?", "Your availability: Je suis là après 17 h…"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour, monsieur. C'est Karim Haddad, de l'appartement 12. J'ai deux problèmes. D'abord, la toilette est bouchée. C'est urgent : nous sommes quatre dans l'appartement ! Ensuite, la fenêtre du salon est cassée, mais ce n'est pas urgent. Pourriez-vous envoyer quelqu'un aujourd'hui ? Je suis à la maison après 16 h. Merci beaucoup !",
+              "en": "Hello, sir. It's Karim Haddad, from apartment 12. I have two problems. First, the toilet is clogged. It's urgent: there are four of us in the apartment! Then, the living-room window is broken, but it's not urgent. Could you send someone today? I'm home after 4 p.m. Thank you very much!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short message to your concierge (through the building's app) about two problems. Use vous.", "wordRange": [25, 50],
+          "checklist": ["Bonjour + name", "Who you are: apartment number", "Two problems with the right patterns", "One thing in the passé composé (est tombé en panne, a commencé…)", "A polite request", "Merci + your name"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour monsieur Gagnon, ici Mei Chen, appartement 3. La cuisinière est tombée en panne hier soir et le robinet de la salle de bain fuit. Pourriez-vous envoyer quelqu'un cette semaine ? Je suis là le matin. Merci beaucoup, Mei Chen",
+              "en": "Hello Mr. Gagnon, this is Mei Chen, apartment 3. The stove broke down last night and the bathroom tap is leaking. Could you send someone this week? I'm home in the mornings. Thank you very much, Mei Chen" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Describe problems: [[… ne marche pas]], [[… est en panne]], [[… est cassé(e)]], [[… fuit]], [[… est bouché(e)]], [[Il n'y a pas d'eau chaude]]\n- Say what happened: [[La laveuse est tombée en panne]] (être + agreement)\n- Ask for help politely: [[Pourriez-vous envoyer quelqu'un ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the évier pronunciation note (two syllables, not three). Labelled la toilette as Québec usage and added a check-official-sources hedge to the TAL note. Added an accepted word order to r7." }
+}

@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-04-04",
+  "level": "b1",
+  "unit": "b1-04",
+  "title": "Comparing systems",
+  "goal": "Describe the Québec education system (école secondaire, cégep, formation professionnelle, université) and compare it with the system in your country using plus de / moins de, alors que and contrairement à.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-compare-nouns", "kind": "grammar", "fr": "plus de / moins de / autant de + nom (que)", "en": "comparing quantities",
+      "drills": [
+        { "type": "cloze", "text": "Ici, les élèves ont ___ devoirs que chez nous. (fewer)", "answers": [["moins de"]], "en": "Here, students have less homework than back home.", "explain": "Quantity + noun: [[moins de]] + noun + [[que]]. No article after [[de]]." },
+        { "type": "cloze", "text": "Au Québec, il y a ___ vacances qu'en France ? Non, il y en a moins.", "answers": [["autant de"]], "en": "In Québec, are there as many holidays as in France? No, there are fewer.", "explain": "*As much / as many* + noun = [[autant de]] + noun + [[que]]." },
+        { "type": "mcq", "prompt": "“University is more expensive in Ontario than in Québec.”", "options": ["L'université coûte plus cher en Ontario qu'au Québec.", "L'université coûte plus de cher en Ontario qu'au Québec.", "L'université coûte plus cher en Ontario que le Québec."], "optionsFr": true, "answer": 0, "explain": "[[coûter plus cher]] (adverb, no [[de]]); [[que]] + [[au Québec]] → [[qu'au Québec]]." }
+      ] },
+    { "id": "g-contrast", "kind": "grammar", "fr": "alors que / tandis que / contrairement à", "en": "contrasting two systems",
+      "drills": [
+        { "type": "cloze", "text": "Au Québec, le secondaire dure cinq ans, ___ en Ontario, il dure quatre ans.", "answers": [["alors qu'", "tandis qu'"]], "en": "In Québec, high school lasts five years, whereas in Ontario it lasts four years.", "explain": "[[alors que]] / [[tandis que]] + a full clause = *whereas*. [[que]] → [[qu']] before a vowel." },
+        { "type": "cloze", "text": "___ la France, le Québec a des cégeps.", "answers": [["Contrairement à"]], "en": "Unlike France, Québec has cégeps.", "explain": "[[contrairement à]] + noun = *unlike*. Watch the contractions: [[contrairement au Maroc]], [[aux États-Unis]]." },
+        { "type": "translate", "prompt": "Unlike my country, school is free here.", "accept": ["Contrairement à mon pays, l'école est gratuite ici.", "Contrairement à mon pays, ici, l'école est gratuite.", "Ici, contrairement à mon pays, l'école est gratuite."], "explain": "[[contrairement à]] + noun; [[gratuite]] agrees with [[l'école]] (feminine)." }
+      ] },
+    { "id": "cegep", "kind": "vocab", "fr": "cégep", "article": "le", "gender": "m", "en": "cégep (Québec college after high school)", "pos": "noun", "accept": ["un cégep", "le collège"],
+      "example": { "fr": "Après le secondaire, ma fille va au cégep.", "en": "After high school, my daughter is going to cégep." }, "note": "Collège d'enseignement général et professionnel. Say *sé-jèp*." },
+    { "id": "ecole-secondaire", "kind": "vocab", "fr": "école secondaire", "article": "l'", "gender": "f", "en": "high school (secondary school)", "pos": "noun", "accept": ["une école secondaire", "le secondaire", "le lycée"],
+      "example": { "fr": "Mon fils est en secondaire 3.", "en": "My son is in Secondary 3 (about grade 9)." } },
+    { "id": "baccalaureat", "kind": "vocab", "fr": "baccalauréat", "article": "le", "gender": "m", "en": "bachelor's degree (Québec meaning)", "pos": "noun", "accept": ["un baccalauréat", "le bac", "un bac"],
+      "example": { "fr": "Elle fait un baccalauréat en éducation à l'Université Laval.", "en": "She's doing a bachelor's in education at Université Laval." }, "note": "In France, [[le bac]] is the exam at the end of high school!" },
+    { "id": "formation-pro", "kind": "vocab", "fr": "formation professionnelle", "article": "la", "gender": "f", "en": "vocational training (trade school)", "pos": "noun", "accept": ["une formation professionnelle"],
+      "example": { "fr": "Il a choisi la formation professionnelle pour devenir électricien.", "en": "He chose vocational training to become an electrician." } },
+    { "id": "frais-scolarite", "kind": "vocab", "fr": "frais de scolarité", "article": "les", "gender": "m", "en": "tuition fees", "pos": "noun", "accept": ["des frais de scolarité"],
+      "example": { "fr": "Au Québec, les frais de scolarité sont parmi les plus bas au Canada.", "en": "In Québec, tuition fees are among the lowest in Canada." } },
+    { "id": "diplome", "kind": "vocab", "fr": "diplôme", "article": "un", "gender": "m", "en": "diploma (degree, qualification)", "pos": "noun", "accept": ["le diplôme"],
+      "example": { "fr": "Avec ce diplôme, on peut travailler tout de suite.", "en": "With this diploma, you can work right away." } },
+    { "id": "obligatoire", "kind": "vocab", "fr": "obligatoire", "en": "compulsory (mandatory)", "pos": "adjective",
+      "example": { "fr": "L'école est obligatoire jusqu'à 16 ans.", "en": "School is compulsory until age 16." } },
+    { "id": "gratuit", "kind": "vocab", "fr": "gratuit", "fem": "gratuite", "en": "free (of charge)", "pos": "adjective", "accept": ["gratuite"],
+      "example": { "fr": "L'école publique est gratuite.", "en": "Public school is free." } },
+    { "id": "la-bas", "kind": "vocab", "fr": "là-bas", "en": "over there (back there)", "pos": "adverb",
+      "example": { "fr": "Là-bas, l'école commence à six ans.", "en": "Back there, school starts at six." } },
+    { "id": "chez-nous", "kind": "phrase", "fr": "Chez nous, c'est différent.", "en": "Back home (in my country), it's different.", "accept": ["Dans mon pays, c'est différent."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Here and back home",
+      "intro": "First read a short guide to the Québec school system. Then listen to Amira, Raj and Olivier comparing it with the systems they grew up with.",
+      "blocks": [
+        { "type": "text", "title": "Le système scolaire québécois en bref",
+          "context": "From a welcome guide for immigrant families (simplified).",
+          "fr": "Au Québec, l'école est obligatoire de 6 à 16 ans. Avant, les enfants peuvent aller à la maternelle, à partir de 5 ans, et parfois dès 4 ans.\nL'école primaire dure six ans. Ensuite, l'école secondaire dure cinq ans, de secondaire 1 à secondaire 5. À la fin, les élèves obtiennent le diplôme d'études secondaires, vers 16 ou 17 ans.\nAprès le secondaire, il y a deux grandes possibilités. La première, c'est la formation professionnelle : en un ou deux ans, on apprend un métier, comme électricien, cuisinière ou mécanicien. La deuxième, c'est le cégep. Cette étape n'existe pas dans les autres provinces. Au cégep, les programmes préuniversitaires durent deux ans et préparent à l'université ; les programmes techniques durent trois ans et permettent de travailler tout de suite, par exemple en soins infirmiers ou en informatique.\nEnfin, à l'université, on fait un baccalauréat, en général en trois ou quatre ans, puis une maîtrise et un doctorat.\nBonne nouvelle : à l'école publique et au cégep public, il n'y a pas de frais de scolarité pour les résidents du Québec, seulement quelques frais.",
+          "en": "In Québec, school is compulsory from age 6 to 16. Before that, children can go to kindergarten from age 5, and sometimes from age 4. Elementary school lasts six years. Then high school lasts five years, from Secondary 1 to Secondary 5. At the end, students get their high school diploma, at around 16 or 17. After high school, there are two main options. The first is vocational training: in one or two years, you learn a trade, such as electrician, cook or mechanic. The second is cégep. This stage doesn't exist in the other provinces. At cégep, pre-university programs last two years and prepare you for university; technical programs last three years and let you work right away, for example in nursing or computer science. Finally, at university, you do a bachelor's degree, usually in three or four years, then a master's and a doctorate. Good news: at public school and public cégep, there are no tuition fees for Québec residents, only some small fees." },
+        { "type": "dialogue", "title": "Ici et là-bas",
+          "context": "During the Friday lunch at work, Olivier asks Amira and Raj about school in their countries.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Amira, ton fils commence le secondaire en septembre, non ? C'est différent du Maroc ?", "en": "Amira, your son starts high school in September, right? Is it different from Morocco?" },
+            { "speaker": "Amira", "fr": "Oui, assez. Chez nous, après le primaire, il y a le collège, puis le lycée, et à la fin, on passe le bac, comme en France. Alors quand ma collègue m'a dit qu'elle avait fait un bac en comptabilité à l'université, je n'ai rien compris !", "en": "Yes, quite. Back home, after elementary school, there's collège (middle school), then lycée, and at the end you take the bac, like in France. So when my colleague told me she had done a “bac” in accounting at university, I didn't understand at all!" },
+            { "speaker": "Olivier", "fr": "Ha ha ! Oui, ici, le bac, c'est le diplôme universitaire de premier cycle. Et le cégep, vous aviez quelque chose de semblable ?", "en": "Ha ha! Yes, here the bac is the undergraduate university degree. And cégep, did you have something similar?" },
+            { "speaker": "Amira", "fr": "Non, rien de semblable. Au Maroc, on va directement à l'université après le bac, alors qu'ici, il y a cette étape de deux ou trois ans. Au début, je trouvais ça long. Maintenant, je pense que c'est une bonne idée : les jeunes ont plus de temps pour choisir.", "en": "No, nothing similar. In Morocco, you go straight to university after the bac, whereas here there's this two- or three-year stage. At first I found it long. Now I think it's a good idea: young people have more time to choose." },
+            { "speaker": "Raj", "fr": "En Inde aussi, on va directement à l'université. Par contre, la pression est énorme. On passe de grands examens officiels en dixième et en douzième année, et les résultats décident presque de tout. Ici, les élèves ont moins de pression et moins de devoirs.", "en": "In India too, you go straight to university. On the other hand, the pressure is enormous. You take big official exams in tenth and twelfth grade, and the results decide almost everything. Here, students have less pressure and less homework." },
+            { "speaker": "Olivier", "fr": "C'est un avantage ou un inconvénient, selon toi ?", "en": "Is that an advantage or a disadvantage, in your opinion?" },
+            { "speaker": "Raj", "fr": "Les deux ! D'un côté, les enfants sont plus heureux. De l'autre, j'ai l'impression que ma fille fait moins de mathématiques que moi à son âge. Mais elle parle déjà trois langues, contrairement à moi à douze ans !", "en": "Both! On the one hand, kids are happier. On the other, I feel my daughter does less math than I did at her age. But she already speaks three languages, unlike me at twelve!" },
+            { "speaker": "Olivier", "fr": "Et l'argent ? Chez vous, les études coûtaient cher ?", "en": "And money? Back home, were studies expensive?" },
+            { "speaker": "Amira", "fr": "L'université publique est presque gratuite au Maroc. Ici, l'université coûte plus cher, mais pour les résidents du Québec, les frais de scolarité sont parmi les plus bas au Canada, et il y a des prêts et bourses.", "en": "Public university is almost free in Morocco. Here, university costs more, but for Québec residents, tuition fees are among the lowest in Canada, and there are student loans and grants." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "Why was Amira confused by her colleague's “bac en comptabilité”?", "options": ["In Morocco, the bac is the end-of-high-school exam.", "There is no accounting at Québec universities.", "Her colleague had studied in France."], "answer": 0,
+          "explain": "In Morocco and France, [[le bac]] ends high school. In Québec, [[le bac]] ([[baccalauréat]]) is a **bachelor's degree**." },
+        { "id": "d2", "type": "mcq", "prompt": "What's special about the cégep, according to the guide?", "options": ["It doesn't exist in the other provinces.", "It replaces university.", "It's only for vocational training."], "answer": 0,
+          "explain": "[[Cette étape n'existe pas dans les autres provinces.]] It comes between high school and university, or prepares you for a job." }
+      ] },
+    { "type": "understand", "title": "Describing and comparing",
+      "blocks": [
+        { "type": "table", "title": "The Québec system at a glance",
+          "head": ["Stage", "Typical age", "Length", "Diploma"],
+          "rows": [
+            ["la maternelle", "4–5 ans", "1–2 ans", "—"],
+            ["l'école primaire", "6–12 ans", "6 ans", "—"],
+            ["l'école secondaire", "12–17 ans", "5 ans", "le DES (diplôme d'études secondaires)"],
+            ["la formation professionnelle", "dès 16 ans, ou adulte", "1–2 ans", "le DEP (diplôme d'études professionnelles)"],
+            ["le cégep", "17–20 ans", "2 ans (préuniversitaire) ou 3 ans (technique)", "le DEC (diplôme d'études collégiales)"],
+            ["l'université", "dès 19 ans", "3–4 ans pour un baccalauréat", "le baccalauréat, la maîtrise, le doctorat"]
+          ],
+          "frCols": [0, 3], "sayCol": false,
+          "note": "Ages are approximate. Adults can also go back to school: [[l'éducation des adultes]], [[la formation professionnelle]] and the cégep all welcome adult learners." },
+        { "type": "table", "title": "Comparing",
+          "head": ["What you compare", "Structure", "Example"],
+          "rows": [
+            ["an adjective", "plus / moins / aussi + adjectif + que", "Le secondaire est plus long ici que chez nous."],
+            ["a quantity (noun)", "plus de / moins de / autant de + nom + que", "Ici, les élèves ont moins de devoirs."],
+            ["a verb", "verbe + plus / moins / autant + que", "En Inde, on étudie plus qu'ici."],
+            ["two facts in contrast", "alors que / tandis que + phrase", "Ici, il y a le cégep, alors qu'au Maroc, on va directement à l'université."],
+            ["difference with a noun", "contrairement à + nom", "Contrairement à la France, le Québec a des cégeps."],
+            ["similarity", "comme + nom ; le même… que", "Comme en France, on passe le bac au Maroc."]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "You learned [[plus… que]] and [[meilleur]] at A2. The new tools are **plus de / moins de / autant de** with nouns, and the contrast words **alors que**, **tandis que** and **contrairement à**." },
+        { "type": "vocab", "title": "New words", "itemIds": ["cegep", "ecole-secondaire", "baccalaureat", "formation-pro", "frais-scolarite", "diplome", "obligatoire", "gratuit", "la-bas", "chez-nous"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "School false friends and comparison errors",
+          "body": "- [[le bac]]: Québec = **bachelor's degree**; France and Morocco = **end-of-high-school exam**. Say [[un baccalauréat en…]] to be clear.\n- [[le collège]]: in France and Morocco, **middle school**; in Québec, it often means **the cégep** or a private school.\n- [[une faculté]] is a university **faculty** (a department), not the teaching staff ([[le corps professoral]]).\n- [[plus de devoirs que]], not [[plus des devoirs que]]: no article after [[plus de / moins de]].\n- [[Contrairement de la France]] → [[Contrairement à la France]].\n- [[alors que]] needs a full clause: [[alors qu'au Maroc, on va…]], not [[alors que le Maroc]] alone." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec and the rest of Canada",
+          "body": "- In most provinces, high school goes to **grade 12**, and students go straight to college or university. In Québec, secondary school ends at **Secondary 5** (about grade 11), and the cégep comes next.\n- Grades are [[1re année]], [[2e année]]… in elementary school, and [[secondaire 1]] to [[secondaire 5]] in high school.\n- [[un prêt]] (loan) and [[une bourse]] (grant, scholarship): Québec's student aid program is called [[l'Aide financière aux études]].\n- [[un CPE]] (centre de la petite enfance) is a subsidized daycare in Québec.\n- Public cégeps charge no tuition fees to Québec residents (only some other fees), and Québec university tuition for residents is among the lowest in Canada.\n- Rules and fees change: always check official sources (the school service centre, the institution or the government site)." },
+        { "type": "deepdive", "kind": "examples", "title": "Useful sentences to compare your country",
+          "body": "Use [[chez nous]], [[dans mon pays]] or [[là-bas]] for your country, and [[ici]] for Canada.",
+          "examples": [
+            { "fr": "Chez nous, l'école commence à sept ans, alors qu'ici, elle commence à six ans.", "en": "Back home, school starts at seven, whereas here it starts at six." },
+            { "fr": "Là-bas, les classes sont plus grandes : on était quarante élèves.", "en": "Over there, classes are bigger: there were forty of us." },
+            { "fr": "Contrairement à mon pays, les parents parlent souvent avec les enseignants ici.", "en": "Unlike in my country, parents often talk with teachers here." },
+            { "fr": "Comme au Mexique, les élèves portent souvent un uniforme dans les écoles privées.", "en": "As in Mexico, students often wear a uniform in private schools." }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Après le secondaire, ma fille va au cégep.", "en": "After high school, my daughter is going to cégep.", "tip": "cégep: sé-jèp, two syllables." },
+            { "fr": "Ici, les élèves ont moins de devoirs que chez nous.", "en": "Here, students have less homework than back home." },
+            { "fr": "Au Maroc, on va directement à l'université, alors qu'ici, il y a le cégep.", "en": "In Morocco, you go straight to university, whereas here there's cégep.", "tip": "alors qu'ici: a-lor-ki-si." },
+            { "fr": "Contrairement à la France, le Québec a des cégeps.", "en": "Unlike France, Québec has cégeps." },
+            { "fr": "L'école publique est gratuite.", "en": "Public school is free." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Au Mexique, j'ai fait une licence en quatre ans, alors qu'ici, mon baccalauréat dure trois ans.", "en": "In Mexico, I did a bachelor's in four years, whereas here my bachelor's lasts three years.", "prompt": "Where is the bachelor's degree shorter?", "options": ["Here, in Québec", "In Mexico", "They are the same length"], "answer": 0,
+          "explain": "[[alors qu'ici, mon baccalauréat dure trois ans]]: three years here vs four in Mexico." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Dans mon pays, il y a autant d'élèves par classe qu'ici, mais les vacances d'été sont plus courtes.", "en": "In my country, there are as many students per class as here, but summer holidays are shorter.", "prompt": "What is the same in both countries?", "options": ["The number of students per class", "The length of summer holidays", "Nothing"], "answer": 0,
+          "explain": "[[autant d'élèves… qu'ici]] = as many students as here." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Some questions bring back pros and cons and the gérondif.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match the Québec term with its meaning.", "pairs": [["le cégep", "college between high school and university"], ["le baccalauréat", "bachelor's degree"], ["la formation professionnelle", "vocational training"], ["les frais de scolarité", "tuition fees"], ["secondaire 5", "last year of high school"]] },
+        { "id": "r2", "type": "cloze", "text": "Ici, les élèves ont ___ devoirs, mais ___ activités sportives.", "answers": [["moins de"], ["plus d'"]], "choices": ["moins de", "plus d'", "moins des", "plus des"], "en": "Here, students have less homework, but more sports activities.", "explain": "[[moins de]] / [[plus de]] + noun, with no article; [[de]] → [[d']] before a vowel." },
+        { "id": "r3", "type": "translate", "prompt": "In my country, you go straight to university, whereas here there is cégep.", "accept": ["Dans mon pays, on va directement à l'université, alors qu'ici, il y a le cégep.", "Dans mon pays, on va directement à l'université, tandis qu'ici, il y a le cégep.", "Chez nous, on va directement à l'université, alors qu'ici, il y a le cégep.", "Chez nous, on va directement à l'université, tandis qu'ici, il y a le cégep.", "Dans mon pays, on va directement à l'université alors qu'ici il y a le cégep."], "hint": "alors que + clause",
+          "explain": "[[alors que]] / [[tandis que]] link two contrasting facts; [[qu'ici]] with elision." },
+        { "id": "r4", "type": "mcq", "prompt": "A French friend says “J'ai eu mon bac à 18 ans.” She means…", "options": ["She finished high school at 18.", "She got her bachelor's degree at 18.", "She started cégep at 18."], "answer": 0,
+          "explain": "In France, [[le bac]] is the end-of-high-school exam. In Québec, it would mean a bachelor's degree." },
+        { "id": "r5", "type": "cloze", "text": "___ la France, le Québec n'a pas de lycée.", "answers": [["Contrairement à"]], "choices": ["Contrairement à", "Contrairement de", "Alors que"], "en": "Unlike France, Québec has no lycée.", "explain": "[[contrairement à]] + noun. [[alors que]] would need a full clause." },
+        { "id": "r6", "type": "cloze", "text": "L'école publique est ___ et ___ jusqu'à 16 ans.", "answers": [["gratuite"], ["obligatoire"]], "choices": ["gratuite", "gratuit", "obligatoire"], "en": "Public school is free and compulsory until age 16.", "explain": "[[l'école]] is feminine → [[gratuite]]; [[obligatoire]] is the same in both genders." },
+        { "id": "r7", "type": "reorder", "prompt": "Back home, it's different.", "accept": ["Chez nous c'est différent", "C'est différent chez nous"], "extra": ["à"],
+          "explain": "[[chez nous]] = back home, in my country." },
+        { "id": "r8", "type": "translate", "prompt": "On the one hand, the children are happier. On the other hand, they do less math.", "accept": ["D'un côté, les enfants sont plus heureux. De l'autre, ils font moins de mathématiques.", "D'un côté, les enfants sont plus heureux. De l'autre côté, ils font moins de mathématiques.", "D'un côté, les enfants sont plus heureux. De l'autre, ils font moins de maths.", "D'un côté, les enfants sont plus heureux. De l'autre côté, ils font moins de maths."], "hint": "Last lesson: d'un côté…",
+          "explain": "[[d'un côté… de l'autre]]; [[plus heureux]] (adjective) and [[moins de mathématiques]] (noun)." },
+        { "id": "r9", "type": "dictation", "fr": "Au cégep, les programmes techniques durent trois ans.", "accept": ["Au cégep, les programmes techniques durent 3 ans."], "explain": "[[durent]]: the -ent is silent. [[cégep]] has an acute accent on the first e." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "A Québec friend asks: “Comment ça marche, l'école, dans ton pays ?” Write a reply comparing your country's system with Québec's: the stages, the ages, one big difference and one similarity, and your opinion of one difference.", "promptFr": "Comment ça marche, l'école, dans ton pays ?",
+          "wordRange": [90, 150],
+          "checklist": ["Stages and ages: d'abord, ensuite, puis", "plus de / moins de / autant de + noun", "alors que / tandis que", "contrairement à", "A similarity: comme…", "Your opinion: à mon avis / je trouve que + a reason"],
+          "models": [ { "label": "Model answer", "fr": "Salut Lucie !\nAu Mexique, d'abord, les enfants vont à l'école maternelle, puis à l'école primaire pendant six ans, comme au Québec. Ensuite, il y a trois ans de secundaria et trois ans de preparatoria, alors qu'ici, le secondaire dure cinq ans et il y a le cégep après. Contrairement au Québec, nous n'avons pas de cégep : on va directement à l'université, et une licence dure en général quatre ans.\nUne grande différence : là-bas, beaucoup d'élèves portent un uniforme, même à l'école publique. Ici, les élèves ont aussi moins de devoirs.\nÀ mon avis, le cégep est une bonne idée, parce que les jeunes ont plus de temps pour choisir leur métier.\nÀ bientôt,\nSofia", "en": "Hi Lucie! In Mexico, first, children go to kindergarten, then to elementary school for six years, like in Québec. Then there are three years of secundaria and three years of preparatoria, whereas here high school lasts five years and cégep comes after. Unlike Québec, we don't have cégep: you go straight to university, and a bachelor's usually lasts four years. One big difference: back there, many students wear a uniform, even in public school. Here, students also have less homework. In my opinion, cégep is a good idea, because young people have more time to choose their career. See you soon, Sofia" } ] },
+        { "id": "s1", "type": "speak", "prompt": "At a parents' meeting, another newcomer parent asks you to explain the Québec system after high school. Explain the options (formation professionnelle, cégep, université), then compare with your country in one or two sentences.", "seconds": 60,
+          "checklist": ["Après le secondaire, il y a deux possibilités…", "The length of each program", "permettre de + infinitive", "alors que / contrairement à", "A recommendation: À ta place… / Je pense que…"],
+          "models": [ { "label": "Model answer", "fr": "Après le secondaire, il y a deux grandes possibilités. La formation professionnelle dure un ou deux ans et permet d'apprendre un métier, par exemple plombier. Sinon, il y a le cégep : deux ans pour préparer l'université, ou trois ans pour un programme technique, comme les soins infirmiers. Après, on peut aller à l'université pour faire un baccalauréat. En Inde, on va directement à l'université après la douzième année, alors qu'ici, le cégep est une étape de plus. Je pense que c'est une bonne chose : les jeunes ont plus de temps pour réfléchir.", "en": "After high school, there are two main options. Vocational training lasts one or two years and lets you learn a trade, for example plumber. Otherwise, there's cégep: two years to prepare for university, or three years for a technical program, like nursing. After that, you can go to university to do a bachelor's degree. In India, you go straight to university after grade twelve, whereas here cégep is an extra stage. I think it's a good thing: young people have more time to think." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Describe the Québec system: [[école primaire]], [[école secondaire]], [[formation professionnelle]], [[cégep]], [[université]] and [[baccalauréat]]\n- Compare quantities with [[plus de / moins de / autant de + nom]] and adjectives with [[plus / moins / aussi… que]]\n- Contrast your country and Canada with [[alors que]], [[tandis que]], [[contrairement à]], [[chez nous]] and [[là-bas]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Softened 'lower than in the other provinces' to 'among the lowest in Canada' (residents) and 'examens nationaux' (India) to 'grands examens officiels'. Added a hedged tuition note pointing to official sources; added one reorder order." }
+}

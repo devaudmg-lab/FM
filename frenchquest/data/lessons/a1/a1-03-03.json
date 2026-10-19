@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-03-03",
+  "level": "a1",
+  "unit": "a1-03",
+  "title": "Days, months and dates",
+  "goal": "Name the days and months, say and ask today's date, and read dates the way they are written in France and Canada.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-days", "kind": "grammar", "fr": "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "en": "the days of the week",
+      "drills": [
+        { "type": "cloze", "text": "lundi, mardi, ___, jeudi", "answers": [["mercredi"]], "en": "Monday, Tuesday, Wednesday, Thursday", "explain": "The week starts on lundi: lundi, mardi, mercredi, jeudi…" },
+        { "type": "mcq", "prompt": "Which day comes after vendredi?", "options": ["samedi", "dimanche", "jeudi"], "optionsFr": true, "answer": 0, "explain": "vendredi (Friday) → samedi (Saturday) → dimanche (Sunday)." },
+        { "type": "translate", "prompt": "Sunday", "accept": ["dimanche"], "explain": "dimanche, with no capital letter." }
+      ] },
+    { "id": "g-months", "kind": "grammar", "fr": "janvier, février, mars… décembre", "en": "the months of the year",
+      "drills": [
+        { "type": "cloze", "text": "janvier, février, ___, avril", "answers": [["mars"]], "en": "January, February, March, April", "explain": "mars: the s is pronounced." },
+        { "type": "mcq", "prompt": "Which spelling is correct in a French sentence?", "options": ["le 14 mai", "le 14 Mai", "le 14 de mai"], "optionsFr": true, "answer": 0, "explain": "No capital letter for months, and no de between the number and the month." },
+        { "type": "translate", "prompt": "December", "accept": ["décembre"], "explain": "décembre, with é and no capital letter." }
+      ] },
+    { "id": "g-date", "kind": "grammar", "fr": "le + nombre + mois", "en": "saying a date: le 3 mars, le premier mai",
+      "drills": [
+        { "type": "cloze", "text": "Aujourd'hui, c'est le ___ mai. (May 1st)", "answers": [["premier", "1er"]], "en": "Today is May 1st.", "explain": "Only the 1st uses premier. All other days use the normal number: le 2 mai, le 3 mai…" },
+        { "type": "translate", "prompt": "March 8 (the date)", "accept": ["le 8 mars", "le huit mars", "8 mars", "huit mars"], "explain": "le + number + month. And no l' before huit: le huit mars." },
+        { "type": "mcq", "prompt": "How do you say “on the 11th of July”?", "options": ["le onze juillet", "l'onze juillet", "le onzième juillet"], "optionsFr": true, "answer": 0, "explain": "Use the normal number, and never l' before onze or huit." }
+      ] },
+    { "id": "aujourdhui", "kind": "vocab", "fr": "aujourd'hui", "en": "today", "pos": "adverb",
+      "example": { "fr": "Aujourd'hui, c'est lundi.", "en": "Today is Monday." } },
+    { "id": "demain", "kind": "vocab", "fr": "demain", "en": "tomorrow", "pos": "adverb",
+      "example": { "fr": "Demain, c'est mardi.", "en": "Tomorrow is Tuesday." } },
+    { "id": "hier", "kind": "vocab", "fr": "hier", "en": "yesterday", "pos": "adverb", "note": "Say “yair” (some people say “ee-yair”). You will use it in sentences when you learn the past tense." },
+    { "id": "date", "kind": "vocab", "fr": "date", "article": "la", "gender": "f", "en": "date (on the calendar)", "pos": "noun", "accept": ["date", "une date"] },
+    { "id": "semaine", "kind": "vocab", "fr": "semaine", "article": "la", "gender": "f", "en": "week", "pos": "noun", "accept": ["semaine", "une semaine"] },
+    { "id": "mois", "kind": "vocab", "fr": "mois", "article": "le", "gender": "m", "en": "month", "pos": "noun", "accept": ["mois", "un mois"], "note": "The s is silent: “mwa”." },
+    { "id": "anniversaire", "kind": "vocab", "fr": "anniversaire", "article": "l'", "gender": "m", "en": "birthday", "pos": "noun", "accept": ["anniversaire", "un anniversaire"],
+      "example": { "fr": "L'anniversaire de Camille, c'est le 29 avril.", "en": "Camille's birthday is April 29." } },
+    { "id": "premier-mai", "kind": "phrase", "fr": "le premier mai", "en": "May 1st (the first of May)", "accept": ["le 1er mai", "premier mai", "1er mai"] },
+    { "id": "date-q", "kind": "phrase", "fr": "Quelle est la date aujourd'hui ?", "en": "What's the date today?", "accept": ["On est le combien aujourd'hui ?", "On est le combien ?", "Quelle est la date d'aujourd'hui ?", "Quelle est la date ?", "On est le combien, aujourd'hui ?"] },
+    { "id": "on-est-le", "kind": "phrase", "fr": "On est le trois mars.", "en": "Today is March 3.", "accept": ["On est le 3 mars.", "Nous sommes le 3 mars.", "Nous sommes le trois mars.", "Aujourd'hui, c'est le 3 mars.", "Aujourd'hui, c'est le trois mars.", "C'est le 3 mars.", "C'est le trois mars."] },
+    { "id": "annee-2026", "kind": "phrase", "fr": "deux mille vingt-six", "en": "2026 (the year)", "accept": ["2026", "deux-mille-vingt-six"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What's the date?",
+      "blocks": [
+        { "type": "dialogue", "title": "Coffee break at work in Moncton",
+          "context": "Sofia and Nguyen are colleagues. Sofia suddenly remembers something.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Nguyen, on est le combien aujourd'hui ?", "en": "Nguyen, what's the date today?" },
+            { "speaker": "Nguyen", "fr": "Aujourd'hui ? On est mardi, le vingt-huit avril.", "en": "Today? It's Tuesday, April 28." },
+            { "speaker": "Sofia", "fr": "Oh là là ! Demain, c'est l'anniversaire de Camille !", "en": "Oh no! Tomorrow is Camille's birthday!" },
+            { "speaker": "Nguyen", "fr": "Mercredi, le vingt-neuf avril ? Ah oui, c'est vrai.", "en": "Wednesday, April 29? Oh yes, that's true." },
+            { "speaker": "Sofia", "fr": "Et toi, ton anniversaire, c'est quand ?", "en": "And you, when is your birthday?" },
+            { "speaker": "Nguyen", "fr": "Le premier décembre. Et toi ?", "en": "December 1st. And you?" },
+            { "speaker": "Sofia", "fr": "Moi, c'est le onze juillet.", "en": "Mine is July 11." }
+          ] },
+        { "type": "text", "title": "A notice at a community centre in Gatineau",
+          "fr": "Cours de français pour les nouveaux arrivants\nLe cours commence le lundi 14 septembre 2026.\nLes cours sont le lundi et le jeudi.\nLe dernier cours est le jeudi 10 décembre.",
+          "en": "French classes for newcomers\nThe course starts on Monday, September 14, 2026.\nClasses are on Mondays and Thursdays.\nThe last class is on Thursday, December 10." },
+        { "type": "note", "tone": "info", "body": "New chunks to understand: [[c'est quand ?]] = when is it?, [[ton anniversaire]] = your birthday (to a friend), [[mon anniversaire]] = my birthday, [[le dernier cours]] = the last class." }
+      ] },
+    { "type": "understand", "title": "Days, months and dates",
+      "blocks": [
+        { "type": "table", "title": "Les jours de la semaine (the days of the week)",
+          "head": ["English", "French"],
+          "rows": [
+            ["Monday", "lundi"],
+            ["Tuesday", "mardi"],
+            ["Wednesday", "mercredi"],
+            ["Thursday", "jeudi"],
+            ["Friday", "vendredi"],
+            ["Saturday", "samedi"],
+            ["Sunday", "dimanche"]
+          ],
+          "frCols": [1], "sayCol": true,
+          "note": "The French week starts on **Monday**. Days are masculine and take **no capital letter**." },
+        { "type": "table", "title": "Les mois (the months)",
+          "head": ["English", "French", "English", "French"],
+          "rows": [
+            ["January", "janvier", "July", "juillet"],
+            ["February", "février", "August", "août"],
+            ["March", "mars", "September", "septembre"],
+            ["April", "avril", "October", "octobre"],
+            ["May", "mai", "November", "novembre"],
+            ["June", "juin", "December", "décembre"]
+          ],
+          "frCols": [1, 3], "sayCol": true,
+          "note": "Months are masculine and also take **no capital letter**: [[en mars]], [[le 3 mars]]. You may see [[aout]] without the circumflex: that newer spelling is accepted too." },
+        { "type": "pattern", "title": "Saying a date",
+          "pattern": "le + (day) + number + month + (year)",
+          "note": "French uses the **normal number**, not “third” or “fourth”, and **no “of”**. The only exception is the 1st: [[le premier]] (written **1er**). Put the article [[le]] before the number, even with a day name: [[le lundi 14 septembre]].",
+          "examples": [
+            { "fr": "le trois mars", "en": "March 3 / the 3rd of March" },
+            { "fr": "le premier mai", "en": "May 1st" },
+            { "fr": "le lundi quatorze septembre", "en": "Monday, September 14" },
+            { "fr": "le huit août deux mille vingt-six", "en": "August 8, 2026" }
+          ] },
+        { "type": "explain", "title": "Asking and giving today's date",
+          "body": "Two ways to ask:\n\n- [[Quelle est la date aujourd'hui ?]] (neutral, fine everywhere)\n- [[On est le combien aujourd'hui ?]] (very common in conversation; literally “we are the how-many?”)\n\nTo answer, use [[on est]] or [[nous sommes]] (être, from Unit 2), or [[c'est]]:\n\n- [[On est le trois mars.]] / [[Nous sommes le trois mars.]]\n- [[Aujourd'hui, c'est lundi.]] / [[Demain, c'est mardi.]]\n\n[[Hier]] means *yesterday*. For now, just learn the word; you will use it in full sentences with the past tense in A2." },
+        { "type": "explain", "title": "Years",
+          "body": "Years from 2000 start with [[deux mille]] (two thousand). [[Mille]] never takes an *s*: [[deux mille vingt-six]] = 2026, [[deux mille trente]] = 2030.\n\nYou will also hear older years, like birth years. Just recognize them for now: 1990 = [[mille neuf cent quatre-vingt-dix]], literally “thousand nine hundred ninety”. In Québec you will also often hear [[dix-neuf cent quatre-vingt-dix]] (“nineteen hundred ninety”). To say “in 2026”, use [[en]]: [[en deux mille vingt-six]]." },
+        { "type": "vocab", "title": "New words", "itemIds": ["aujourdhui", "demain", "hier", "date", "semaine", "mois", "anniversaire", "premier-mai", "date-q", "on-est-le", "annee-2026"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Capitals:** [[le lundi 3 Mars]] is wrong. Write [[le lundi 3 mars]]. Days and months take a capital only at the start of a sentence.\n- **No “of”:** not [[le 3 de mars]], just [[le 3 mars]].\n- **No ordinals except 1st:** not [[le troisième mars]], just [[le trois mars]]. But [[le premier mai]], never [[le un mai]].\n- **No élision before huit and onze:** [[le huit mars]], [[le onze juillet]], not [[l'huit]] or [[l'onze]].\n- **Juin / juillet:** [[juin]] is one short syllable with a nasal vowel; [[juillet]] is two syllables, “jwee-yeh”." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "- [[mars]]: you hear the *s*.\n- [[août]]: you will hear both “oo” and “oot” (“oot” is very common in Québec). Both are correct.\n- [[septembre]]: the *p* is pronounced here, unlike in [[sept]].\n- [[mois]]: “mwa”, silent *s*.\n- [[aujourd'hui]]: “o-joor-dwee”, three short syllables.",
+          "examples": [ { "fr": "le premier août", "en": "August 1st" }, { "fr": "le vingt et un juin", "en": "June 21" } ] },
+        { "type": "deepdive", "kind": "canada", "title": "Writing dates in Canada",
+          "body": "In France, dates are written **day / month / year**: **28/04/2026**. In the US, **month / day / year**: 04/28/2026. Canada uses both, which can be confusing! Is **03/04/2026** March 4 or April 3?\n\nThat is why the international format **year-month-day** is often recommended in Canada and Québec: **2026-04-28**. On Québec forms you will often see the letters **AAAA-MM-JJ**: **a**nnée (year), **m**ois (month), **j**our (day). Always check which format a form asks for.\n\nTwo dates to know: [[le premier juillet]] is Canada Day, and in Québec it is also the traditional moving day, when many leases end. [[Le vingt-quatre juin]] is the Fête nationale du Québec. And in Québec, the weekend is often [[la fin de semaine]] instead of [[le week-end]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat the days, then the months, then the dates.",
+          "lines": [
+            { "fr": "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "en": "Monday to Sunday" },
+            { "fr": "janvier, février, mars, avril, mai, juin", "en": "January to June" },
+            { "fr": "juillet, août, septembre, octobre, novembre, décembre", "en": "July to December" },
+            { "fr": "On est le combien aujourd'hui ?", "en": "What's the date today?" },
+            { "fr": "On est le premier mai.", "en": "It's May 1st." },
+            { "fr": "le huit mars", "en": "March 8", "tip": "In dates, you usually hear the t: “luh weet mars”." },
+            { "fr": "deux mille vingt-six", "en": "2026" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "On est le premier mai.", "en": "It's May 1st.", "prompt": "What is the date?", "options": ["May 1", "May 21", "March 1"], "answer": 0, "explain": "[[premier]] = 1st, and [[mai]] = May. March is [[mars]], with an s." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Demain, c'est jeudi.", "en": "Tomorrow is Thursday.", "prompt": "What day is tomorrow?", "options": ["Thursday", "Tuesday", "Saturday"], "answer": 0, "explain": "[[jeudi]] = Thursday. Tuesday is [[mardi]]." },
+        { "id": "h3", "type": "listen-mcq", "fr": "C'est le onze juillet.", "en": "It's July 11.", "prompt": "Which date do you hear?", "options": ["July 11", "June 11", "July 1"], "answer": 0, "explain": "[[juillet]] has two syllables; [[juin]] has one. And [[onze]] = 11." },
+        { "id": "h4", "type": "dictation", "fr": "le huit mars", "accept": ["le 8 mars"], "explain": "No l' before huit, and no capital on mars. Digits are fine for the number." },
+        { "id": "h5", "type": "dictation", "fr": "le premier août", "accept": ["le 1er août", "le premier aout", "le 1er aout"], "explain": "The 1st is [[premier]], written 1er. [[Août]] keeps its circumflex in traditional spelling." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. In dictations, you can write numbers in words or digits.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "vendredi, ___, dimanche", "answers": [["samedi"]], "en": "Friday, Saturday, Sunday", "explain": "samedi = Saturday." },
+        { "id": "r2", "type": "mcq", "prompt": "How do you write “July 4” in French?", "options": ["le 4 juillet", "le 4 Juillet", "le quatrième juillet", "le 4 de juillet"], "optionsFr": true, "answer": 0,
+          "explain": "le + normal number + month, no capital.",
+          "optionFeedback": [null, "Months take no capital letter in French.", "French uses the normal number, except for the 1st.", "There is no de between the number and the month."] },
+        { "id": "r3", "type": "translate", "prompt": "Today is Friday.", "accept": ["Aujourd'hui, c'est vendredi.", "Aujourd'hui c'est vendredi.", "Aujourd'hui on est vendredi.", "On est vendredi.", "Nous sommes vendredi.", "Aujourd'hui, on est vendredi.", "Aujourd'hui, nous sommes vendredi.", "C'est vendredi aujourd'hui.", "On est vendredi aujourd'hui."], "explain": "[[Aujourd'hui, c'est…]] or [[On est…]], with no capital on vendredi." },
+        { "id": "r4", "type": "match", "prompt": "Match the months.", "pairs": [["juin", "June"], ["juillet", "July"], ["août", "August"], ["mars", "March"], ["mai", "May"]] },
+        { "id": "r5", "type": "dictation", "fr": "le premier janvier", "accept": ["le 1er janvier"], "explain": "The 1st is always [[premier]]." },
+        { "id": "r6", "type": "translate", "prompt": "What's the date today?", "accept": ["Quelle est la date aujourd'hui ?", "On est le combien aujourd'hui ?", "On est le combien ?", "Quelle est la date d'aujourd'hui ?", "On est le combien, aujourd'hui ?", "Quelle est la date ?", "Nous sommes le combien aujourd'hui ?"], "explain": "[[Quelle est la date aujourd'hui ?]] works everywhere; [[On est le combien ?]] is very common in speech." },
+        { "id": "r7", "type": "listen-mcq", "fr": "L'anniversaire de Lucie, c'est le vingt-quatre juin.", "en": "Lucie's birthday is June 24.", "prompt": "When is Lucie's birthday?", "options": ["June 24", "July 24", "June 14"], "answer": 0, "explain": "[[vingt-quatre]] = 24 and [[juin]] = June. June 24 is also the Fête nationale du Québec!" },
+        { "id": "r8", "type": "mcq", "prompt": "A Québec form asks for your date of birth as AAAA-MM-JJ. You were born on March 9, 1995. What do you write?", "options": ["1995-03-09", "09-03-1995", "1995-09-03"], "answer": 0, "explain": "AAAA = année (year), MM = mois (month), JJ = jour (day): year first, then month, then day." },
+        { "id": "r9", "type": "cloze", "text": "Le 3 mars, nous ___ à Toronto.", "answers": [["sommes"]], "choices": ["sommes", "sont", "êtes", "est"], "en": "On March 3, we are in Toronto.", "explain": "nous → sommes (être, from Unit 2)." },
+        { "id": "r10", "type": "dictation", "fr": "deux mille vingt-six", "accept": ["2026", "deux-mille-vingt-six"], "explain": "[[mille]] never takes an s." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Say today's date (day, number, month, year), what day it is tomorrow, and the date of your birthday.", "seconds": 30,
+          "checklist": ["On est + day + date", "Demain, c'est + day", "Mon anniversaire, c'est le…", "No “of”, and premier for the 1st"],
+          "models": [ { "label": "Model answer", "fr": "Aujourd'hui, on est samedi, le dix-sept octobre deux mille vingt-six. Demain, c'est dimanche. Mon anniversaire, c'est le premier février.", "en": "Today is Saturday, October 17, 2026. Tomorrow is Sunday. My birthday is February 1st." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short message to a new friend: give today's date, the date of your birthday, and the days of your French class.", "wordRange": [15, 40],
+          "checklist": ["Today's date with le + number + month", "Your birthday", "Two days of the week", "No capital letters on days and months"],
+          "models": [ { "label": "Model answer", "fr": "Salut Alex ! Aujourd'hui, c'est le 2 mars. Mon anniversaire, c'est le 12 mars ! Le cours de français est le mardi et le jeudi.", "en": "Hi Alex! Today is March 2. My birthday is March 12! The French class is on Tuesdays and Thursdays." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Name the days ([[lundi]]…[[dimanche]]) and months ([[janvier]]…[[décembre]]), without capitals\n- Say a date: [[le trois mars]], [[le premier mai]], [[deux mille vingt-six]]\n- Ask [[Quelle est la date aujourd'hui ?]] / [[On est le combien ?]] and answer [[On est le…]]\n- Use [[aujourd'hui]], [[demain]] and recognize [[hier]]; read Canadian dates in AAAA-MM-JJ format",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed syllable count of aujourd'hui and the hier/août pronunciation notes; hedged the AAAA-MM-JJ recommendation. Replaced a defensible distractor (le 14 Juillet, the French holiday) and corrected the capital-letter example." }
+}

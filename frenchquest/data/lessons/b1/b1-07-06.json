@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-07-06",
+  "level": "b1",
+  "unit": "b1-07",
+  "title": "Workshop: Describe and compare",
+  "goal": "Get extra practice describing and comparing places and people in new situations, with more reading, listening, mixed recall, writing and speaking.",
+  "minutes": 20,
+  "items": [
+    { "id": "paisible", "kind": "vocab", "fr": "paisible", "en": "peaceful (place, life)", "pos": "adjective",
+      "example": { "fr": "C'est un quartier paisible, loin du bruit.", "en": "It's a peaceful neighbourhood, far from the noise." },
+      "note": "Same form for masculine and feminine: une rue paisible, un village paisible." },
+    { "id": "pittoresque", "kind": "vocab", "fr": "pittoresque", "en": "picturesque, charming (place)", "pos": "adjective",
+      "example": { "fr": "Le Vieux-Québec est très pittoresque.", "en": "Old Québec is very picturesque." } },
+    { "id": "lumineux", "kind": "vocab", "fr": "lumineux", "fem": "lumineuse", "en": "bright, full of natural light (room, home)", "pos": "adjective",
+      "accept": ["lumineuse"],
+      "example": { "fr": "L'appartement est petit, mais très lumineux.", "en": "The apartment is small but very bright." },
+      "note": "Feminine: lumineuse (une cuisine lumineuse)." },
+    { "id": "etre-situe", "kind": "phrase", "fr": "être situé", "en": "to be located",
+      "accept": ["être située"],
+      "example": { "fr": "La bibliothèque est située en face du parc.", "en": "The library is located opposite the park." },
+      "note": "Situé agrees like an adjective: la maison est située…, les magasins sont situés…" },
+    { "id": "a-deux-pas", "kind": "phrase", "fr": "à deux pas de", "en": "a stone's throw from, very close to",
+      "example": { "fr": "J'habite à deux pas du métro.", "en": "I live a stone's throw from the metro." },
+      "note": "de + le → du, de + les → des: à deux pas du marché, à deux pas des magasins." },
+    { "id": "banlieue", "kind": "vocab", "fr": "banlieue", "article": "la", "gender": "f", "en": "the suburbs", "pos": "noun",
+      "accept": ["une banlieue"],
+      "example": { "fr": "Beaucoup de familles habitent en banlieue.", "en": "Lots of families live in the suburbs." },
+      "note": "Habiter en banlieue = to live in the suburbs. In France, la banlieue (especially les banlieues) often brings to mind lower-income housing estates; in Canada it tends to be neutral and simply means the suburbs." },
+    { "id": "patrimoine", "kind": "vocab", "fr": "patrimoine", "article": "le", "gender": "m", "en": "heritage (historic buildings, traditions)", "pos": "noun",
+      "accept": ["un patrimoine"],
+      "example": { "fr": "Cette église fait partie du patrimoine de la ville.", "en": "This church is part of the city's heritage." } },
+    { "id": "mode-de-vie", "kind": "vocab", "fr": "mode de vie", "article": "le", "gender": "m", "en": "lifestyle, way of life", "pos": "noun",
+      "accept": ["un mode de vie"],
+      "example": { "fr": "En banlieue, le mode de vie est très différent.", "en": "In the suburbs, the lifestyle is very different." },
+      "note": "Mode is masculine here: le mode de vie (la mode = fashion)." },
+    { "id": "point-commun", "kind": "vocab", "fr": "point commun", "article": "un", "gender": "m", "en": "something in common, a shared feature", "pos": "noun",
+      "accept": ["le point commun"],
+      "example": { "fr": "Les deux villes ont un point commun : la rivière.", "en": "The two cities have one thing in common: the river." } },
+    { "id": "se-ressembler", "kind": "vocab", "fr": "se ressembler", "en": "to look alike, to be similar (to each other)", "pos": "verb",
+      "example": { "fr": "Les deux sœurs se ressemblent beaucoup.", "en": "The two sisters look very much alike." },
+      "note": "Without se: ressembler à quelqu'un = to look like someone (Il ressemble à son père)." },
+    { "id": "barbu", "kind": "vocab", "fr": "barbu", "en": "bearded, with a beard", "pos": "adjective",
+      "example": { "fr": "C'est un grand homme barbu aux lunettes rondes.", "en": "He's a tall bearded man with round glasses." },
+      "note": "Or with avoir: il a une barbe (he has a beard)." }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "A river, two cities",
+      "intro": "Fatou wrote an article for her community centre's newsletter. She describes her neighbourhood and her neighbour, and compares Gatineau with Ottawa. Spot the **relative pronouns**, the **ce qui / ce que** openers and the **comparisons**.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "« Une rivière, deux villes », by Fatou Ndiaye",
+          "fr": "Il y a deux ans, j'ai quitté Dakar pour m'installer à Gatineau, une ville qui est située juste en face d'Ottawa, de l'autre côté de la rivière des Outaouais. Je travaille en Ontario, mais j'habite au Québec : c'est une situation que beaucoup de gens connaissent ici. Chaque matin, je traverse le pont à vélo, et en quinze minutes, je change de province !\nMon quartier, le Vieux-Hull, est un endroit paisible et verdoyant, à deux pas de la rivière. Dans les petites rues, il y a des maisons colorées dont beaucoup datent, paraît-il, du début du vingtième siècle. Ce que j'aime, c'est le petit marché du samedi, où les producteurs de la région vendent leurs fruits et leurs légumes. Ce qui me plaît aussi, c'est que tout le monde me parle en français, alors qu'à Ottawa, j'entends surtout l'anglais.\nMa voisine, Mme Charbonneau, est une dame d'environ soixante-dix ans aux cheveux blancs et aux lunettes rondes. C'est quelqu'un dont tout le monde parle dans la rue, parce qu'elle connaît l'histoire de chaque maison. Grâce à elle, j'ai découvert le patrimoine du quartier, et je me sens vraiment chez moi.\nPar rapport à Ottawa, Gatineau est plus petite et moins chère. Les loyers sont beaucoup plus abordables, et il y a autant d'espaces verts : le parc de la Gatineau, que je vous recommande en automne, est magnifique. Par contre, il y a moins de restaurants et de magasins, et le soir, les rues sont plus calmes. Contrairement à Ottawa, Gatineau n'a pas beaucoup de grands musées, mais elle en a un très connu : le Musée canadien de l'histoire.\nLes deux villes ne se ressemblent pas beaucoup, mais elles ont un point commun : on y trouve de plus en plus de nouveaux arrivants. Si je devais choisir, je resterais à Gatineau, où j'ai trouvé un mode de vie qui me convient : le calme du Québec et le travail en Ontario.",
+          "en": "Two years ago, I left Dakar to settle in Gatineau, a city that is located right opposite Ottawa, on the other side of the Ottawa River. I work in Ontario, but I live in Québec: it's a situation that lots of people here know. Every morning, I cross the bridge by bike, and in fifteen minutes, I change provinces!\nMy neighbourhood, Old Hull, is a peaceful, leafy place, a stone's throw from the river. In the little streets, there are colourful houses, many of which, apparently, date from the early twentieth century. What I love is the little Saturday market, where the region's growers sell their fruit and vegetables. What I also like is that everybody speaks to me in French, whereas in Ottawa I mostly hear English.\nMy neighbour, Mrs. Charbonneau, is a lady of about seventy with white hair and round glasses. She's someone everybody on the street talks about, because she knows the history of every house. Thanks to her, I've discovered the neighbourhood's heritage, and I really feel at home.\nCompared with Ottawa, Gatineau is smaller and cheaper. Rents are much more affordable, and there are as many green spaces: Gatineau Park, which I recommend in the fall, is magnificent. On the other hand, there are fewer restaurants and shops, and in the evening the streets are quieter. Unlike Ottawa, Gatineau doesn't have many big museums, but it has one very well-known one: the Canadian Museum of History.\nThe two cities aren't very similar, but they have one thing in common: you find more and more newcomers there. If I had to choose, I would stay in Gatineau, where I've found a lifestyle that suits me: the calm of Québec and work in Ontario."
+        },
+        {
+          "id": "d1", "type": "mcq",
+          "prompt": "Why does Fatou say “je change de province” every morning?",
+          "options": ["She lives in Québec and works in Ontario.", "She moves house often.", "She takes a plane to work.", "She works in two different provinces."],
+          "answer": 0,
+          "explain": "She lives in Gatineau (Québec) and crosses the bridge to work in Ottawa (Ontario).",
+          "optionFeedback": [null, "She has lived in the same neighbourhood for two years.", "She goes to work by bike, across a bridge.", "She works only in Ontario: [[Je travaille en Ontario]]."]
+        },
+        {
+          "id": "d2", "type": "mcq",
+          "prompt": "Why does everybody talk about Mrs. Charbonneau?",
+          "options": ["She knows the history of every house.", "She sells vegetables at the market.", "She is the oldest person in the city.", "She speaks only English."],
+          "answer": 0,
+          "explain": "[[C'est quelqu'un dont tout le monde parle… parce qu'elle connaît l'histoire de chaque maison]]: [[dont]] replaces *de* (parler **de** quelqu'un)."
+        },
+        {
+          "id": "d3", "type": "mcq",
+          "prompt": "According to Fatou, what is an advantage of Ottawa over Gatineau?",
+          "options": ["More restaurants and shops", "More green spaces", "Cheaper rents", "More French spoken in the street"],
+          "answer": 0,
+          "explain": "[[Par contre, il y a moins de restaurants et de magasins]] in Gatineau. Green spaces are equal ([[autant d'espaces verts]]), and rents are cheaper in Gatineau."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit at a glance, and new words",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit 7 at a glance",
+          "head": ["Tool", "Example", "Use it to…"],
+          "rows": [
+            ["qui / que", "une ville qui change · le quartier que je préfère", "add a detail (subject / object)"],
+            ["où / dont", "le jour où je suis arrivée · la voisine dont je parle", "add a place or time / replace de + noun"],
+            ["ce qui / ce que…, c'est…", "Ce qui me plaît, c'est le calme.", "put what matters in the spotlight"],
+            ["à + feature", "une dame aux cheveux blancs", "describe someone compactly"],
+            ["plus / moins / aussi… que", "Gatineau est moins chère qu'Ottawa.", "compare qualities"],
+            ["alors que, par rapport à", "par rapport à Ottawa, …", "contrast two places"]
+          ],
+          "frCols": [0, 1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "How the pieces fit together",
+          "body": "A good B1 description moves **from general to specific**: first the place ([[une ville qui est située…]]), then details with [[qui, que, où, dont]], then a person ([[une dame aux cheveux blancs]]), and finally your **opinion** with [[Ce que j'aime, c'est…]].\n\nA good comparison then takes **one aspect at a time** (housing, transport, atmosphere), uses [[plus / moins / autant de… que]], and contrasts with [[alors que]] or [[par contre]]. End with what the places have in common and a choice: [[Si je devais choisir, je…]]."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for describing places and people",
+          "itemIds": ["paisible", "pittoresque", "lumineux", "etre-situe", "a-deux-pas", "banlieue", "patrimoine", "mode-de-vie", "point-commun", "se-ressembler", "barbu"]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listening practice",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "A voicemail from a real-estate agent",
+          "context": "Mathieu, a real-estate agent in Longueuil, leaves a message for Raj about an apartment.",
+          "fr": "Bonjour monsieur Patel, c'est Mathieu Gagnon, de l'agence Rive-Sud. Je vous appelle au sujet de l'appartement dont on a parlé jeudi. Il est situé dans une rue paisible, à deux pas de la station de métro Longueuil. C'est un cinq et demie au deuxième étage, très lumineux, avec une grande cuisine que vous allez adorer. Ce qui est intéressant, c'est que le chauffage est inclus. Le loyer est de 1 650 $ par mois, c'est-à-dire un peu moins cher que l'appartement que vous avez visité à Montréal. Le propriétaire, que je connais bien, est quelqu'un de très sérieux. Si ça vous intéresse, rappelez-moi avant vendredi midi. Bonne journée !",
+          "en": "Hello Mr. Patel, it's Mathieu Gagnon from the Rive-Sud agency. I'm calling about the apartment we talked about on Thursday. It's located on a quiet street, a stone's throw from Longueuil metro station. It's a five-and-a-half on the second floor, very bright, with a big kitchen you're going to love. What's interesting is that heating is included. The rent is $1,650 a month, that is, a little cheaper than the apartment you visited in Montréal. The landlord, whom I know well, is a very reliable person. If you're interested, call me back before noon on Friday. Have a good day!"
+        },
+        {
+          "id": "h1", "type": "listen-mcq",
+          "fr": "Il est situé dans une rue paisible, à deux pas de la station de métro Longueuil.",
+          "en": "It's located on a quiet street, a stone's throw from Longueuil metro station.",
+          "prompt": "Where is the apartment?",
+          "options": ["On a quiet street, very close to the metro", "On a busy street, far from the metro", "Above the metro station"],
+          "answer": 0,
+          "explain": "[[paisible]] = peaceful, quiet; [[à deux pas de]] = very close to."
+        },
+        {
+          "id": "h2", "type": "listen-mcq",
+          "fr": "Ce qui est intéressant, c'est que le chauffage est inclus.",
+          "en": "What's interesting is that heating is included.",
+          "prompt": "What does the agent highlight?",
+          "options": ["Heating is included in the rent.", "The kitchen is new.", "Electricity is free.", "Parking is included."],
+          "answer": 0,
+          "explain": "[[Ce qui est intéressant, c'est que…]] puts the key point in the spotlight: [[le chauffage est inclus]]."
+        },
+        {
+          "id": "h3", "type": "listen-mcq",
+          "fr": "Le loyer est de 1 650 $ par mois, c'est-à-dire un peu moins cher que l'appartement que vous avez visité à Montréal.",
+          "en": "The rent is $1,650 a month, that is, a little cheaper than the apartment you visited in Montréal.",
+          "prompt": "How does this apartment compare with the one in Montréal?",
+          "options": ["It's a little cheaper.", "It's much more expensive.", "It's the same price.", "It's a little more expensive."],
+          "answer": 0,
+          "explain": "[[un peu moins cher que]] = a little cheaper than."
+        },
+        {
+          "type": "listen",
+          "title": "An announcement at a summer festival",
+          "context": "An announcement over the loudspeakers at a festival in Moncton.",
+          "fr": "Votre attention, s'il vous plaît. Nous cherchons les parents d'un petit garçon qui s'appelle Léo. Léo a environ cinq ans. C'est un enfant aux cheveux roux et bouclés, qui porte un t-shirt jaune et une casquette bleue. Il est actuellement au kiosque d'information, qui est situé à l'entrée principale, juste à côté de la grande roue. Une bénévole s'occupe de lui, et il va très bien. Ce qu'il veut maintenant, c'est retrouver sa maman ! Nous rappelons aussi aux parents que le kiosque où vous pouvez obtenir un bracelet pour votre enfant est ouvert jusqu'à 21 h. Merci et bonne soirée au festival.",
+          "en": "Your attention, please. We're looking for the parents of a little boy called Léo. Léo is about five. He's a child with curly red hair who's wearing a yellow T-shirt and a blue cap. He's currently at the information booth, which is located at the main entrance, right next to the big wheel. A volunteer is looking after him, and he's fine. What he wants now is to find his mom! We also remind parents that the booth where you can get a wristband for your child is open until 9 p.m. Thank you, and enjoy your evening at the festival."
+        },
+        {
+          "id": "h4", "type": "listen-mcq",
+          "fr": "C'est un enfant aux cheveux roux et bouclés, qui porte un t-shirt jaune et une casquette bleue.",
+          "en": "He's a child with curly red hair who's wearing a yellow T-shirt and a blue cap.",
+          "prompt": "What does Léo look like?",
+          "options": ["Curly red hair, yellow T-shirt, blue cap", "Straight brown hair, blue T-shirt, yellow cap", "Curly blond hair, red T-shirt, no cap"],
+          "answer": 0,
+          "explain": "[[aux cheveux roux et bouclés]] = with curly red hair. Careful: the cap is blue and the T-shirt is yellow."
+        },
+        {
+          "id": "h5", "type": "listen-mcq",
+          "fr": "Il est actuellement au kiosque d'information, qui est situé à l'entrée principale, juste à côté de la grande roue.",
+          "en": "He's currently at the information booth, which is located at the main entrance, right next to the big wheel.",
+          "prompt": "Where can the parents find Léo?",
+          "options": ["At the information booth, at the main entrance", "On the big wheel", "At the wristband booth, at the back of the site"],
+          "answer": 0,
+          "explain": "[[au kiosque d'information, qui est situé à l'entrée principale]]. Note: [[actuellement]] means *currently*, not *actually*."
+        },
+        {
+          "id": "h6", "type": "dictation",
+          "fr": "Le propriétaire, que je connais bien, est quelqu'un de très sérieux.",
+          "accept": ["Le propriétaire que je connais bien est quelqu'un de très sérieux."],
+          "explain": "[[que]]: a subject follows ([[je]]). [[quelqu'un de]] + adjective (masculine, no agreement)."
+        },
+        {
+          "id": "h7", "type": "dictation",
+          "fr": "Ce qu'il veut maintenant, c'est retrouver sa maman.",
+          "accept": ["Ce qu'il veut maintenant c'est retrouver sa maman."],
+          "explain": "[[Ce qu']] before [[il]]: object of [[veut]], then [[c'est]] + infinitive."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed recall",
+      "intro": "Twelve questions: most on this unit, some on earlier B1 units (narration, the passive, the conditionnel). Answer without looking back.",
+      "blocks": [
+        {
+          "id": "r1", "type": "cloze",
+          "text": "Moncton est une ville ___ me plaît, ___ je visite souvent et ___ j'ai beaucoup d'amis.",
+          "answers": [["qui"], ["que"], ["où"]],
+          "choices": ["qui", "que", "où", "dont"],
+          "en": "Moncton is a city that I like, that I often visit and where I have lots of friends.",
+          "explain": "[[qui me plaît]]: a verb follows (subject). [[que je visite]]: a subject follows (object). [[où j'ai…]]: a place."
+        },
+        {
+          "id": "r2", "type": "cloze",
+          "text": "C'est un quartier ___ je suis fier et ___ les habitants sont très chaleureux.",
+          "answers": [["dont"], ["dont"]],
+          "choices": ["dont", "que", "où", "qui"],
+          "en": "It's a neighbourhood I'm proud of and whose residents are very warm.",
+          "explain": "[[être fier **de**]] → [[dont]]. And *whose* = [[dont]] + [[les habitants]]."
+        },
+        {
+          "id": "r3", "type": "mcq",
+          "prompt": "Choose the correct sentence: “I don't know what she wants.”",
+          "options": ["Je ne sais pas ce qu'elle veut.", "Je ne sais pas qu'est-ce qu'elle veut.", "Je ne sais pas ce qui elle veut.", "Je ne sais pas quoi elle veut."],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Inside a sentence, *what* (object) is [[ce que / ce qu']], never [[qu'est-ce que]].",
+          "optionFeedback": [null, "qu'est-ce que is only for direct questions.", "A subject (elle) follows, so the object form ce que is needed.", "quoi doesn't work before a subject + verb here."]
+        },
+        {
+          "id": "r4", "type": "translate",
+          "prompt": "What I miss is the sea.",
+          "accept": ["Ce qui me manque, c'est la mer.", "Ce qui me manque c'est la mer."],
+          "hint": "manquer à: the thing you miss is the subject.",
+          "explain": "[[la mer me manque]] → [[Ce qui me manque, c'est la mer.]] [[Ce qui]], because it is the subject of [[manque]]."
+        },
+        {
+          "id": "r5", "type": "translate",
+          "prompt": "My apartment is located a stone's throw from the park.",
+          "accept": ["Mon appartement est situé à deux pas du parc.", "Mon appartement se trouve à deux pas du parc.", "Mon appartement se situe à deux pas du parc.","Mon appartement est à deux pas du parc."],
+          "hint": "à deux pas de + le → ?",
+          "explain": "[[être situé]] + [[à deux pas **du** parc]] (de + le = du)."
+        },
+        {
+          "id": "r6", "type": "reorder",
+          "prompt": "She's a woman with long black hair.",
+          "accept": ["C'est une femme aux longs cheveux noirs"],
+          "extra": ["avec", "des"],
+          "explain": "Compact style: [[aux]] + feature. [[longs]] goes before [[cheveux]], the colour [[noirs]] after."
+        },
+        {
+          "id": "r7", "type": "match",
+          "prompt": "Match the words with their meanings.",
+          "pairs": [["paisible", "peaceful"], ["pittoresque", "picturesque"], ["lumineux", "bright, full of light"], ["la banlieue", "the suburbs"], ["le patrimoine", "heritage"]]
+        },
+        {
+          "id": "r8", "type": "cloze",
+          "text": "Par rapport à Toronto, il y a ___ de neige à Gatineau, ___ les loyers sont moins chers.",
+          "answers": [["plus"], ["mais"]],
+          "choices": ["plus", "meilleur", "mais", "dont"],
+          "en": "Compared with Toronto, there's more snow in Gatineau, but rents are cheaper.",
+          "explain": "With a noun: [[plus de]] + noun (no article). [[mais]] links the contrasting fact."
+        },
+        {
+          "id": "r9", "type": "mcq",
+          "prompt": "Review (unit 2): choose the right tense. “When I arrived, my neighbour ___ the snow.” (she had already cleared it)",
+          "options": ["avait déjà enlevé", "a déjà enlevé", "enlevait déjà", "enlèvera"],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "An action completed **before** another past action → plus-que-parfait: [[avait déjà enlevé]].",
+          "optionFeedback": [null, "The passé composé doesn't show that it happened before your arrival.", "The imparfait describes an action in progress, not one already finished.", "This is the future."]
+        },
+        {
+          "id": "r10", "type": "translate",
+          "prompt": "Review (unit 6): If I lived in the suburbs, I would buy a car.",
+          "accept": ["Si j'habitais en banlieue, j'achèterais une voiture.", "Si je vivais en banlieue, j'achèterais une voiture.", "Si j'habitais en banlieue, j'achèterais une auto.", "Si je vivais en banlieue, j'achèterais une auto.", "J'achèterais une voiture si j'habitais en banlieue.", "J'achèterais une voiture si je vivais en banlieue.", "J'achèterais une auto si j'habitais en banlieue.", "J'achèterais une auto si je vivais en banlieue."],
+          "hint": "si + imparfait → conditionnel",
+          "explain": "[[si j'habitais]] (imparfait) → [[j'achèterais]] (conditionnel). In Québec, [[une auto]] is very common too."
+        },
+        {
+          "id": "r11", "type": "cloze",
+          "text": "Ce vieux pont ___ construit en 1901 et il a été rénové l'an dernier.",
+          "answers": [["a été", "fut"]],
+          "en": "Review (unit 5, the passive): This old bridge was built in 1901 and it was renovated last year.",
+          "explain": "Passive in the past: [[a été]] + past participle ([[construit]])."
+        },
+        {
+          "id": "r12", "type": "dictation",
+          "fr": "Les deux quartiers ne se ressemblent pas, mais ils ont un point commun.",
+          "accept": ["Les deux quartiers ne se ressemblent pas mais ils ont un point commun."],
+          "explain": "[[se ressembler]] = to look alike; negation around [[se ressemblent]]: [[ne se ressemblent pas]]."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn: describe and compare",
+      "intro": "Write first, then speak. Reuse the unit's tools and at least four of the new words.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "A French-speaking colleague is moving to your city and asks you which neighbourhood to choose. Write an email: describe two neighbourhoods you know (location, housing, atmosphere, services), describe one person they could contact there, compare the two neighbourhoods, and recommend one.",
+          "promptFr": "Un collègue francophone va s'installer dans votre ville. Écrivez-lui un courriel pour comparer deux quartiers et lui en recommander un.",
+          "wordRange": [120, 180],
+          "checklist": [
+            "A greeting and a sentence saying why you're writing",
+            "A description of each neighbourhood with relative pronouns (qui, que, où, dont)",
+            "A short description of a person with à + feature or avoir l'air",
+            "At least three comparisons (plus / moins / autant de… que)",
+            "A contrast: alors que, par contre or contrairement à",
+            "Ce qui… c'est / Ce que… c'est",
+            "A recommendation with Si j'étais toi… or Si je devais choisir…",
+            "A closing formula"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour Karim,\nTu m'as demandé dans quel quartier t'installer à Montréal. Je te propose deux quartiers que je connais bien.\nVerdun est un quartier paisible et verdoyant, situé au bord du fleuve. Les loyers y sont assez abordables, et c'est un endroit où il y a beaucoup de familles. Ce que j'aime, c'est la promenade le long de l'eau.\nLe Plateau, par contre, est plus animé et plus pittoresque, avec ses escaliers extérieurs. Il y a plus de restaurants qu'à Verdun, mais les loyers sont beaucoup plus chers.\nSi tu choisis Verdun, contacte mon amie Mei. C'est une jeune femme aux cheveux courts, très souriante, qui connaît tout le monde.\nSi j'étais toi, je choisirais Verdun, parce que c'est moins cher et bien desservi par le métro.\nÀ bientôt,\nSofia",
+              "en": "Hi Karim, You asked me which neighbourhood to settle in in Montréal. I suggest two neighbourhoods I know well. Verdun is a peaceful, leafy neighbourhood, located by the river. Rents there are fairly affordable, and it's a place where there are lots of families. What I like is the walk along the water. The Plateau, on the other hand, is livelier and more picturesque, with its outdoor staircases. There are more restaurants than in Verdun, but rents are much more expensive. If you choose Verdun, contact my friend Mei. She's a young woman with short hair, very cheerful, who knows everyone. If I were you, I'd choose Verdun, because it's cheaper and well served by the metro. See you soon, Sofia"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour Karim,\nQuelle bonne nouvelle, ton arrivée à Québec ! Voici deux quartiers dont je peux te parler, parce que j'ai habité dans les deux.\nSaint-Roch, où j'ai vécu deux ans, est un quartier jeune et dynamique, à deux pas du Vieux-Québec. On y trouve des cafés, des bureaux et beaucoup de petits commerces. Ce qui me plaisait, c'était de tout faire à pied. Par contre, les appartements sont souvent petits et assez chers.\nLimoilou, que je connais mieux maintenant, est plus paisible. Les logements y sont plus grands et plus lumineux, alors que les loyers restent raisonnables. Contrairement à Saint-Roch, c'est un quartier où vivent beaucoup de familles.\nSi tu choisis Limoilou, va voir mon voisin Olivier : c'est un grand homme barbu, qui a l'air sévère, mais qui est en réalité très gentil.\nSi j'étais toi, je choisirais Limoilou : on y trouve un mode de vie plus calme, et tout le monde se connaît.\nBonne installation !\nSofia",
+              "en": "Hi Karim, What great news, your move to Québec City! Here are two neighbourhoods I can tell you about, because I've lived in both. Saint-Roch, where I lived for two years, is a young, dynamic neighbourhood, a stone's throw from Old Québec. You find cafés, offices and lots of small shops there. What I liked was doing everything on foot. On the other hand, the apartments are often small and fairly expensive. Limoilou, which I know better now, is more peaceful. The homes there are bigger and brighter, whereas the rents remain reasonable. Unlike Saint-Roch, it's a neighbourhood where lots of families live. If you choose Limoilou, go and see my neighbour Olivier: he's a tall bearded man who looks stern but is actually very kind. If I were you, I'd choose Limoilou: you find a calmer lifestyle there, and everybody knows each other. Good luck with the move! Sofia"
+            }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "In a French conversation group, you're asked: “Describe the place where you grew up and compare it with where you live now.” Speak for about two minutes: describe both places, describe one person you remember, compare at least three aspects, and say which place you prefer and why.",
+          "seconds": 120,
+          "checklist": [
+            "Announce what you'll talk about",
+            "Describe the first place with qui, que, où or dont",
+            "Describe one person (age, appearance, personality)",
+            "Compare at least three aspects (climate, housing, pace of life…)",
+            "Use alors que, par contre or par rapport à",
+            "Use Ce qui me manque, c'est… or Ce que je préfère, c'est…",
+            "Conclude with your preference and a reason"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Je vais vous parler de Puebla, la ville où j'ai grandi, et de Toronto, où j'habite maintenant. Puebla est une ville pittoresque, avec des églises colorées qui font partie du patrimoine mexicain. Ce dont je me souviens surtout, c'est de ma grand-mère, une petite dame aux cheveux gris qui cuisinait toute la journée. Par rapport à Puebla, Toronto est beaucoup plus grande et plus moderne. L'hiver est plus froid, bien sûr, et le rythme de vie est plus rapide. Par contre, il y a plus d'espaces verts que je ne le pensais. Ce qui me manque, c'est le soleil et la cuisine de ma grand-mère. Mais je préfère vivre à Toronto pour le moment, parce que j'y ai trouvé un bon emploi.",
+              "en": "I'm going to talk to you about Puebla, the city where I grew up, and Toronto, where I live now. Puebla is a picturesque city, with colourful churches that are part of Mexican heritage. What I remember most is my grandmother, a small lady with grey hair who cooked all day long. Compared with Puebla, Toronto is much bigger and more modern. The winter is colder, of course, and the pace of life is faster. On the other hand, there are more green spaces than I thought (the *ne* in *que je ne le pensais* is an optional, formal \"ne\" after a comparison: it is not a negation). What I miss is the sun and my grandmother's cooking. But I prefer living in Toronto for now, because I've found a good job there."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Je voudrais comparer deux endroits qui ne se ressemblent pas du tout : Hué, au Vietnam, la ville où j'ai grandi, et Laval, en banlieue de Montréal, où j'habite depuis cinq ans. D'abord, Hué. C'est une ancienne capitale, une ville paisible au bord d'une rivière, dont le patrimoine est vraiment impressionnant. Le souvenir que je garde le plus, c'est mon professeur de français, un vieux monsieur barbu aux lunettes épaisses, qui nous lisait des poèmes. Ensuite, Laval. Par rapport à Hué, c'est un endroit beaucoup plus moderne, où tout le monde a une voiture. Les maisons sont plus grandes et plus lumineuses, alors qu'à Hué, on vivait à six dans un petit appartement. Le climat, évidemment, est complètement différent : ici, l'hiver dure presque six mois ! Ce qui me manque, c'est l'ambiance des marchés, le bruit, les odeurs. Mais ce que j'apprécie à Laval, c'est la tranquillité et l'espace. Alors, si je devais choisir, je dirais que Hué reste la ville de mon cœur, mais que Laval correspond mieux à mon mode de vie d'aujourd'hui.",
+              "en": "I'd like to compare two places that aren't at all alike: Huế, in Vietnam, the city where I grew up, and Laval, in the suburbs of Montréal, where I've lived for five years. First, Huế. It's a former capital, a peaceful city on a river, whose heritage is really impressive. The memory I treasure most is my French teacher, an old bearded man with thick glasses, who read us poems. Next, Laval. Compared with Huế, it's a much more modern place, where everybody has a car. The houses are bigger and brighter, whereas in Huế there were six of us living in a small apartment. The climate, obviously, is completely different: here, winter lasts almost six months! What I miss is the atmosphere of the markets, the noise, the smells. But what I appreciate in Laval is the peace and quiet and the space. So, if I had to choose, I'd say that Huế is still the city of my heart, but that Laval suits my lifestyle today better."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Read and understand a long description and comparison of two cities, and catch details in a voicemail and an announcement\n- Reuse **qui, que, où, dont**, **ce qui / ce que… c'est** and comparisons in new contexts\n- Describe places and people with new words: [[paisible]], [[pittoresque]], [[lumineux]], [[à deux pas de]], [[le patrimoine]], [[le mode de vie]], [[barbu]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Softened the banlieue connotation note and hedged the Vieux-Hull house dates; glossed the ne explétif in a speaking model. Completed accept lists (se situe, auto, fut), fixed the recall intro and a checklist line." }
+}

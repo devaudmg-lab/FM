@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-07-01",
+  "level": "a1",
+  "unit": "a1-07",
+  "title": "My home",
+  "goal": "Name the rooms and furniture in your home, and say what there is and isn't with il y a and il n'y a pas de.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-il-y-a", "kind": "grammar", "fr": "il y a / il n'y a pas de", "en": "there is / there are, and there isn't / there aren't any",
+      "drills": [
+        { "type": "cloze", "text": "Dans le salon, ___ un canapé et une table.", "answers": [["il y a"]], "en": "In the living room, there's a sofa and a table.", "explain": "[[Il y a]] means both “there is” and “there are”." },
+        { "type": "cloze", "text": "Il n'y a pas ___ balcon.", "answers": [["de"]], "en": "There's no balcony.", "explain": "After a negative, [[un]], [[une]] and [[des]] become [[de]]." },
+        { "type": "translate", "prompt": "There are two bedrooms.", "accept": ["Il y a deux chambres."], "explain": "[[Il y a]] never changes, even for plurals." },
+        { "type": "mcq", "prompt": "“There are no chairs in the kitchen.” Which is correct?", "options": ["Il n'y a pas de chaises dans la cuisine.", "Il n'y a pas des chaises dans la cuisine.", "Il y a pas les chaises dans la cuisine."], "optionsFr": true, "answer": 0, "explain": "Negative + [[de]]: [[il n'y a pas de chaises]]." }
+      ] },
+    { "id": "appartement", "kind": "vocab", "fr": "appartement", "article": "l'", "gender": "m", "en": "apartment", "pos": "noun", "accept": ["un appartement", "l'appartement"],
+      "example": { "fr": "J'habite dans un appartement de trois pièces.", "en": "I live in a three-room apartment." } },
+    { "id": "maison", "kind": "vocab", "fr": "maison", "article": "la", "gender": "f", "en": "house", "pos": "noun", "accept": ["une maison", "la maison"],
+      "example": { "fr": "Mes parents habitent dans une grande maison.", "en": "My parents live in a big house." } },
+    { "id": "piece", "kind": "vocab", "fr": "pièce", "article": "la", "gender": "f", "en": "room (any room in a home)", "pos": "noun", "accept": ["une pièce", "la pièce"],
+      "note": "The general word. A bedroom is [[une chambre]]." },
+    { "id": "cuisine", "kind": "vocab", "fr": "cuisine", "article": "la", "gender": "f", "en": "kitchen", "pos": "noun", "accept": ["une cuisine", "la cuisine"] },
+    { "id": "salle-de-bains", "kind": "vocab", "fr": "salle de bains", "article": "la", "gender": "f", "en": "bathroom (with a shower or bath)", "pos": "noun", "accept": ["salle de bain", "la salle de bain", "la salle de bains", "une salle de bains", "une salle de bain"],
+      "note": "Also written [[salle de bain]], especially in Québec." },
+    { "id": "chambre", "kind": "vocab", "fr": "chambre", "article": "la", "gender": "f", "en": "bedroom", "pos": "noun", "accept": ["une chambre", "la chambre"],
+      "example": { "fr": "Ma chambre est petite.", "en": "My bedroom is small." } },
+    { "id": "salon", "kind": "vocab", "fr": "salon", "article": "le", "gender": "m", "en": "living room", "pos": "noun", "accept": ["un salon", "le salon"] },
+    { "id": "toilettes", "kind": "vocab", "fr": "toilettes", "article": "les", "gender": "f", "en": "toilet (the room)", "pos": "noun", "accept": ["les toilettes", "la toilette", "toilette"],
+      "note": "For the room, France uses the plural [[les toilettes]]. In Québec, [[la toilette]] (singular) is very common: it means the toilet itself, and people also use it for the room." },
+    { "id": "balcon", "kind": "vocab", "fr": "balcon", "article": "le", "gender": "m", "en": "balcony", "pos": "noun", "accept": ["un balcon", "le balcon"] },
+    { "id": "lit", "kind": "vocab", "fr": "lit", "article": "le", "gender": "m", "en": "bed", "pos": "noun", "accept": ["un lit", "le lit"],
+      "note": "The t is silent: [[lit]] sounds like “lee”." },
+    { "id": "table", "kind": "vocab", "fr": "table", "article": "la", "gender": "f", "en": "table", "pos": "noun", "accept": ["une table", "la table"] },
+    { "id": "chaise", "kind": "vocab", "fr": "chaise", "article": "la", "gender": "f", "en": "chair", "pos": "noun", "accept": ["une chaise", "la chaise"] },
+    { "id": "canape", "kind": "vocab", "fr": "canapé", "article": "le", "gender": "m", "en": "sofa / couch", "pos": "noun", "accept": ["un canapé", "le canapé", "divan", "le divan", "sofa", "le sofa"],
+      "note": "In Québec, [[le divan]] is very common too." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A new apartment",
+      "blocks": [
+        { "type": "dialogue", "title": "Amira shows Lucie her new apartment in Montréal",
+          "context": "Amira has just moved. Her friend Lucie comes to visit.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Alors, voilà ton appartement !", "en": "So, here's your apartment!" },
+            { "speaker": "Amira", "fr": "Oui ! C'est un quatre et demie. Il y a une cuisine, un salon, deux chambres et une salle de bains.", "en": "Yes! It's a 4 ½. There's a kitchen, a living room, two bedrooms and a bathroom." },
+            { "speaker": "Lucie", "fr": "Il y a un balcon ?", "en": "Is there a balcony?" },
+            { "speaker": "Amira", "fr": "Oui, il y a un petit balcon. Mais il n'y a pas de canapé dans le salon !", "en": "Yes, there's a small balcony. But there's no sofa in the living room!" },
+            { "speaker": "Lucie", "fr": "Pas de canapé ? Et les toilettes ?", "en": "No sofa? And the toilet?" },
+            { "speaker": "Amira", "fr": "Les toilettes sont dans la salle de bains.", "en": "The toilet is in the bathroom." },
+            { "speaker": "Lucie", "fr": "Et ta chambre ?", "en": "And your bedroom?" },
+            { "speaker": "Amira", "fr": "Ma chambre est grande. Il y a un lit, une table et une chaise. C'est simple, mais j'aime beaucoup mon appartement.", "en": "My bedroom is big. There's a bed, a table and a chair. It's simple, but I really like my apartment." }
+          ] },
+        { "type": "text", "title": "Olivier's apartment in Lyon",
+          "fr": "J'habite à Lyon, en France. Mon appartement est petit : c'est un appartement de deux pièces. Il y a un salon, une chambre, une petite cuisine et une salle de bains. Il n'y a pas de balcon.",
+          "en": "I live in Lyon, in France. My apartment is small: it's a two-room apartment. There's a living room, a bedroom, a small kitchen and a bathroom. There's no balcony." },
+        { "type": "note", "tone": "info", "body": "Listen first. Count the rooms in each home. Amira says she has a “4 ½” and Olivier says “two rooms”: the deep dive in the next step explains why the numbers are so different." }
+      ] },
+    { "type": "understand", "title": "Rooms, furniture and il y a",
+      "blocks": [
+        { "type": "explain", "title": "Pièce or chambre?",
+          "body": "[[Une pièce]] is **any room** in a home: the kitchen, the living room, a bedroom. [[Une chambre]] is only a **bedroom**.\n\nSo [[un appartement de trois pièces]] is a three-room apartment, and [[Il y a deux chambres]] means there are two bedrooms. English speakers often say [[chambre]] for every room: try to avoid that." },
+        { "type": "vocab", "title": "Rooms", "itemIds": ["appartement", "maison", "piece", "cuisine", "salle-de-bains", "chambre", "salon", "toilettes", "balcon"] },
+        { "type": "vocab", "title": "Furniture", "itemIds": ["lit", "table", "chaise", "canape"] },
+        { "type": "pattern", "title": "There is, there are: il y a",
+          "pattern": "il y a + un / une / des + nom",
+          "note": "[[Il y a]] is a fixed chunk. It means **there is** and **there are**, and it never changes for plurals. To ask a question, just raise your voice at the end: [[Il y a un balcon ?]]",
+          "examples": [
+            { "fr": "Il y a une cuisine.", "en": "There's a kitchen." },
+            { "fr": "Il y a deux chambres.", "en": "There are two bedrooms." },
+            { "fr": "Il y a des chaises dans la cuisine.", "en": "There are chairs in the kitchen." },
+            { "fr": "Il y a un balcon ?", "en": "Is there a balcony?" }
+          ] },
+        { "type": "table", "title": "Saying what there isn't",
+          "head": ["il y a…", "il n'y a pas…", "English"],
+          "rows": [
+            ["Il y a un balcon.", "Il n'y a pas de balcon.", "There's no balcony."],
+            ["Il y a une table.", "Il n'y a pas de table.", "There's no table."],
+            ["Il y a des chaises.", "Il n'y a pas de chaises.", "There are no chairs."],
+            ["Il y a de l'eau.", "Il n'y a pas d'eau.", "There's no water."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "You know this from food: after a negative, [[un]], [[une]], [[des]] (and [[du]], [[de la]]) all become **[[de]]**, or **[[d']]** before a vowel. [[Ne]] becomes [[n']] before [[y]]: [[il n'y a pas]]." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Il y a does not change:** it has no plural form: [[Il y a trois chambres]], [[Il y a des chaises]].\n- **Il y a vs il a:** [[Il y a un lit]] = there is a bed. [[Il a un lit]] = he has a bed. The little [[y]] matters!\n- **Pas de, not pas un:** [[Il n'y a pas de canapé]], not [[Il n'y a pas un canapé]].\n- **Toilets are plural in France:** [[les toilettes sont…]], with a plural verb." },
+        { "type": "deepdive", "kind": "canada", "title": "What is a “4 ½”?",
+          "body": "In Québec, apartments are named by counting the rooms: the kitchen, the living room and each bedroom count as one, and the **bathroom counts as a half**. So:\n\n- [[un trois et demie]] (3 ½) = kitchen, living room, one bedroom, bathroom\n- [[un quatre et demie]] (4 ½) = kitchen, living room, two bedrooms, bathroom\n- [[un cinq et demie]] (5 ½) = kitchen, living room, three bedrooms, bathroom\n\nIn ads you see “4 ½” or “4 1/2”. Out loud, people say [[un quatre et demie]]; you will also see it written [[quatre et demi]]. Both spellings occur; this course uses [[demie]].\n\nIn France, people count only the main rooms (living room and bedrooms), not the kitchen or bathroom: [[un appartement de trois pièces]] or [[un trois-pièces]] has a living room and two bedrooms. So a Montréal 4 ½ and a Paris three-room apartment can be the same size!\n\nAlso in Québec: [[le divan]] for the sofa, [[la salle de bain]] (singular), and often [[la toilette]] (singular) for the toilet or the toilet room, where France says [[les toilettes]].",
+          "examples": [ { "fr": "J'habite dans un quatre et demie.", "en": "I live in a 4 ½ (two-bedroom apartment)." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Il y a une cuisine.", "en": "There's a kitchen.", "tip": "Say it as one quick chunk: “eel-yah”. In fast speech it often shrinks to “yah”." },
+            { "fr": "Il n'y a pas de balcon.", "en": "There's no balcony.", "tip": "Say “eel-nyah-pah-duh”. The n of balcon is nasal, not pronounced." },
+            { "fr": "la salle de bains", "en": "the bathroom", "tip": "[[bains]] rhymes with [[vin]]; the s is silent." },
+            { "fr": "les toilettes", "en": "the toilet", "tip": "Say “twah-let”." },
+            { "fr": "un appartement", "en": "an apartment", "tip": "Link the words: the n of un is heard, “un-nappartement”." },
+            { "fr": "J'habite dans un appartement de trois pièces.", "en": "I live in a three-room apartment." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Il y a trois chambres.", "en": "There are three bedrooms.", "prompt": "What does the speaker say?", "options": ["There are three bedrooms.", "There are three rooms.", "There's no bedroom."], "answer": 0, "explain": "[[chambres]] = bedrooms. A room in general is [[une pièce]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il n'y a pas de canapé dans le salon.", "en": "There's no sofa in the living room.", "prompt": "What's missing in the living room?", "options": ["A sofa", "A table", "A chair"], "answer": 0, "explain": "[[Il n'y a pas de canapé]]: there's no sofa." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Dans mon appartement, ___ deux chambres.", "answers": [["il y a"]], "choices": ["il y a", "il a", "il est", "ils sont"], "en": "In my apartment, there are two bedrooms.", "explain": "“There are” = [[il y a]], even for plurals." },
+        { "id": "r2", "type": "mcq", "prompt": "How do you say “There's no sofa”?", "options": ["Il n'y a pas de canapé.", "Il n'y a pas un canapé.", "Il n'a pas de canapé.", "Il n'est pas de canapé."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "After a negative, un becomes de.", "Il n'a pas de canapé means “he doesn't have a sofa”: the y is missing.", "Être is not used here: you need il y a."] },
+        { "id": "r3", "type": "match", "prompt": "Match the rooms.", "pairs": [["la cuisine", "kitchen"], ["la chambre", "bedroom"], ["le salon", "living room"], ["la salle de bains", "bathroom"], ["la pièce", "room (any room)"]] },
+        { "id": "r4", "type": "translate", "prompt": "There's a big bed in the bedroom.", "accept": ["Il y a un grand lit dans la chambre.", "Dans la chambre, il y a un grand lit."], "hint": "grand goes before lit.", "explain": "[[Il y a]] + [[un grand lit]]; [[grand]] comes before the noun, like [[petit]]." },
+        { "id": "r5", "type": "cloze", "text": "Il n'y a pas ___ chaises dans la cuisine.", "answers": [["de"]], "choices": ["de", "des", "les", "une"], "en": "There are no chairs in the kitchen.", "explain": "Negative + [[de]], even for plural nouns." },
+        { "id": "r6", "type": "reorder", "prompt": "I live in a three-room apartment.", "accept": ["J'habite dans un appartement de trois pièces."], "extra": ["à"], "explain": "[[un appartement de trois pièces]]: the number of rooms comes after [[de]]." },
+        { "id": "r7", "type": "mcq", "prompt": "Raj's bedroom is small. Which is correct?", "options": ["Sa chambre est petite.", "Son chambre est petite.", "Sa chambre est petit.", "Ses chambre est petite."], "optionsFr": true, "answer": 0,
+          "explain": "[[chambre]] is feminine: [[sa chambre]], and the adjective takes -e: [[petite]].",
+          "optionFeedback": [null, "Chambre is feminine: sa, not son.", "The adjective agrees with chambre (feminine): petite.", "Ses is for plural nouns."] },
+        { "id": "r8", "type": "translate", "prompt": "Is there a balcony?", "accept": ["Il y a un balcon ?", "Est-ce qu'il y a un balcon ?", "Y a-t-il un balcon ?"], "explain": "Use [[il y a]] with a rising voice: [[Il y a un balcon ?]]" },
+        { "id": "r9", "type": "dictation", "fr": "Il y a un canapé dans le salon.", "accept": ["Il y a un canapé dans le salon"], "explain": "[[canapé]] ends with é; the n of [[salon]] is nasal." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new friend asks about your home. Describe it: house or apartment, how many rooms, what there is, and one thing there isn't.", "seconds": 40,
+          "checklist": ["J'habite dans un appartement / une maison", "Il y a + at least three rooms", "One room with its furniture", "Il n'y a pas de…"],
+          "models": [ { "label": "Model answer", "fr": "J'habite dans un appartement à Gatineau. C'est un quatre et demie. Il y a une cuisine, un salon, deux chambres et une salle de bains. Dans ma chambre, il y a un grand lit et une chaise. Il y a un balcon, mais il n'y a pas de canapé !", "en": "I live in an apartment in Gatineau. It's a 4 ½. There's a kitchen, a living room, two bedrooms and a bathroom. In my bedroom there's a big bed and a chair. There's a balcony, but there's no sofa!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short message to a friend about your home: the type of home, the rooms, and what there is (and isn't) in one room.", "wordRange": [25, 50],
+          "checklist": ["Say where you live (J'habite dans…)", "List the rooms with il y a", "Use il n'y a pas de at least once", "Use mon / ma for your rooms"],
+          "models": [ { "label": "Model answer", "fr": "Salut Alex ! Maintenant, j'habite dans un quatre et demie à Montréal. Il y a une grande cuisine, un salon et deux chambres. Il n'y a pas de balcon. Ma chambre est petite, mais j'aime beaucoup mon appartement ! À bientôt, Mei", "en": "Hi Alex! Now I live in a 4 ½ in Montréal. There's a big kitchen, a living room and two bedrooms. There's no balcony. My bedroom is small, but I really like my apartment! See you soon, Mei" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Name the rooms of a home and the main furniture, with their gender\n- Say what there is with [[il y a]] and what there isn't with [[il n'y a pas de]]\n- Describe your home: [[J'habite dans un appartement de trois pièces.]]\n- Understand a Québec “4 ½”",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Clarified the 4 ½ deep dive (5 ½ rooms, demi/demie spelling note: course uses \"demie\") and made the Québec \"la toilette\" notes accurate. Fixed the il y a pronunciation tip and a non-example in the mistakes list; changed the Montréal model answer from \"appartement de trois pièces\" to \"un quatre et demie\"." }
+}

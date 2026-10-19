@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-05-03",
+  "level": "b2",
+  "unit": "b2-05",
+  "title": "Formal requests",
+  "goal": "Make formal requests at the right level of politeness, in writing and on the phone, with je vous saurais gré de…, je vous serais reconnaissant de…, auriez-vous l'amabilité de… and serait-il possible de….",
+  "minutes": 14,
+  "items": [
+    { "id": "g-requete", "kind": "grammar", "fr": "je vous saurais gré de / je vous serais reconnaissant de / auriez-vous l'amabilité de + infinitif", "en": "formal request structures (+ de + infinitive)",
+      "drills": [
+        { "type": "cloze", "text": "Je vous ___ gré de bien vouloir me faire parvenir ce document.", "answers": [["saurais"]], "choices": ["saurais", "serais", "aurais"], "en": "I would be grateful if you would send me this document.", "explain": "The expression is [[savoir gré]]: conditionnel of savoir → [[je vous saurais gré]]. [[Je vous serais gré]] is a classic mistake." },
+        { "type": "cloze", "text": "Auriez-vous l'amabilité ___ m'envoyer le formulaire ?", "answers": [["de"]], "en": "Would you be so kind as to send me the form?", "explain": "All these formulas are followed by [[de]] + infinitive." },
+        { "type": "mcq", "prompt": "Sofia (a woman) writes to the ministry. Which sentence is correct?", "options": ["Je vous serais reconnaissante de bien vouloir prolonger le délai.", "Je vous serais reconnaissant de bien vouloir prolonger le délai.", "Je vous saurais reconnaissante de prolonger le délai.", "Je vous serais reconnaissante si prolonger le délai."], "optionsFr": true, "answer": 0, "explain": "[[reconnaissant]] agrees with the writer: a woman writes [[reconnaissante]]. It goes with [[être]], not [[savoir]], and takes [[de]] + infinitive." }
+      ] },
+    { "id": "savoir-gre", "kind": "phrase", "fr": "Je vous saurais gré de bien vouloir…", "en": "I would be most grateful if you would… (very formal)", "accept": ["Je vous saurais gré de…"] },
+    { "id": "amabilite", "kind": "phrase", "fr": "Auriez-vous l'amabilité de… ?", "en": "Would you be so kind as to…?", "accept": ["Auriez-vous l'obligeance de… ?"] },
+    { "id": "serait-il-possible", "kind": "phrase", "fr": "Serait-il possible de… ?", "en": "Would it be possible to…?", "accept": ["Est-ce qu'il serait possible de… ?"] },
+    { "id": "souhaiterais-savoir", "kind": "phrase", "fr": "Je souhaiterais savoir si…", "en": "I would like to know whether… (formal)", "accept": ["J'aimerais savoir si…", "Je voudrais savoir si…"] },
+    { "id": "merci-de-bien-vouloir", "kind": "phrase", "fr": "Merci de bien vouloir…", "en": "Please kindly… (polite but firm instruction)", "accept": ["Veuillez…", "Je vous prie de…"] },
+    { "id": "je-vous-prie", "kind": "phrase", "fr": "Je vous prie de…", "en": "I kindly ask you to… (formal)", "accept": ["Je vous prierais de…"] },
+    { "id": "solliciter", "kind": "vocab", "fr": "solliciter", "en": "to request formally, to apply for", "pos": "verb", "accept": ["demander"],
+      "example": { "fr": "Je sollicite un congé sans solde de trois mois.", "en": "I am requesting three months' unpaid leave." } },
+    { "id": "conge-sans-solde", "kind": "vocab", "fr": "congé sans solde", "article": "un", "gender": "m", "en": "unpaid leave", "pos": "noun", "accept": ["le congé sans solde", "un congé non payé"] },
+    { "id": "prolongation", "kind": "vocab", "fr": "prolongation", "article": "une", "gender": "f", "en": "extension (of a deadline or a period)", "pos": "noun", "accept": ["la prolongation"],
+      "example": { "fr": "Je sollicite une prolongation du délai.", "en": "I am requesting an extension of the deadline." } },
+    { "id": "lettre-emploi", "kind": "vocab", "fr": "lettre d'emploi", "article": "une", "gender": "f", "en": "employment letter (proof of employment)", "pos": "noun", "accept": ["une attestation d'emploi", "une attestation de travail", "la lettre d'emploi"], "note": "Also [[une attestation d'emploi]] or, in France, [[une attestation employeur]]." },
+    { "id": "dans-la-mesure-du-possible", "kind": "phrase", "fr": "dans la mesure du possible", "en": "as far as possible, if at all possible" },
+    { "id": "compte-tenu-de", "kind": "phrase", "fr": "compte tenu de", "en": "given, in view of (formal)", "accept": ["étant donné", "vu"], "example": { "fr": "Compte tenu de la situation, je sollicite un report.", "en": "Given the situation, I'm requesting a postponement." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Three requests, three levels",
+      "intro": "The same need can be expressed at very different levels of formality. Read three requests written by people you know, and notice how the formula grows with the stakes.",
+      "blocks": [
+        { "type": "text", "title": "1. Mei asks HR for an employment letter",
+          "context": "Mei is applying for permanent residence and needs a letter from her employer, a clinic in Vancouver.",
+          "fr": "Objet : Demande de lettre d'emploi\n\nBonjour Madame Roy,\n\nDans le cadre de ma demande de résidence permanente, je dois fournir une lettre d'emploi récente. Auriez-vous l'amabilité de m'en préparer une ? Elle doit indiquer mon poste, mon salaire annuel, mon nombre d'heures par semaine et ma date d'embauche.\n\nDans la mesure du possible, j'en aurais besoin d'ici le 20 avril. Je vous remercie par avance de votre aide.\n\nBonne journée,\n\nMei Chen\nAdjointe administrative",
+          "en": "Subject: Request for an employment letter\n\nHello Ms. Roy,\n\nAs part of my application for permanent residence, I have to provide a recent employment letter. Would you be so kind as to prepare one for me? It must state my position, my annual salary, my number of hours per week and my hiring date.\n\nIf at all possible, I would need it by April 20. Thank you in advance for your help.\n\nHave a good day,\n\nMei Chen\nAdministrative Assistant" },
+        { "type": "text", "title": "2. Karim requests unpaid leave",
+          "context": "Karim writes to the director of his department in Gatineau. The stakes are higher, so the tone is more formal.",
+          "fr": "Objet : Demande de congé sans solde\n\nMonsieur le Directeur,\n\nJe me permets de vous écrire afin de solliciter un congé sans solde de trois mois, du 1er juillet au 30 septembre. Mon père, qui vit à Alger, doit subir une opération importante, et je souhaiterais être auprès de lui pendant sa convalescence.\n\nCompte tenu de cette période d'absence, j'ai déjà préparé, avec ma collègue Sofia, un plan pour assurer le suivi de mes dossiers. Je vous serais reconnaissant de bien vouloir examiner ma demande et de me faire part de votre décision avant la fin du mois de mai.\n\nJe reste à votre disposition pour en discuter.\n\nVeuillez agréer, Monsieur le Directeur, mes salutations distinguées.\n\nKarim Benali",
+          "en": "Subject: Request for unpaid leave\n\nDear Director,\n\nI am writing to request three months of unpaid leave, from July 1 to September 30. My father, who lives in Algiers, has to undergo a major operation, and I would like to be with him during his recovery.\n\nGiven this period of absence, I have already prepared, with my colleague Sofia, a plan to ensure my files are followed up. I would be grateful if you would kindly consider my request and let me know your decision before the end of May.\n\nI remain available to discuss it.\n\nYours sincerely,\n\nKarim Benali" },
+        { "type": "text", "title": "3. Sofia asks for an extension",
+          "context": "Sofia must send documents to a professional order to have her engineering diploma recognized. A document from her university in Colombia is late.",
+          "fr": "Objet : Dossier no 48-2210 – demande de prolongation du délai\n\nMadame, Monsieur,\n\nJ'ai bien reçu votre lettre du 3 mars, qui me demande de compléter mon dossier avant le 31 mars. Malheureusement, mon université n'a pas encore envoyé mon relevé de notes officiel, malgré mes nombreuses relances.\n\nJe vous saurais gré de bien vouloir m'accorder une prolongation de trente jours. Vous trouverez ci-joint la preuve de ma demande à l'université. Serait-il possible, par ailleurs, de vous envoyer une copie numérique en attendant l'original ?\n\nJe vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\nSofia Ramírez",
+          "en": "Subject: File no. 48-2210 – request for an extension of the deadline\n\nDear Sir or Madam,\n\nI have received your letter of March 3, which asks me to complete my file before March 31. Unfortunately, my university has not yet sent my official transcript, despite my many reminders.\n\nI would be most grateful if you would grant me a thirty-day extension. Please find attached proof of my request to the university. Would it also be possible to send you a digital copy while waiting for the original?\n\nYours faithfully,\n\nSofia Ramírez" },
+        { "id": "d1", "type": "mcq", "prompt": "Why is Karim's email more formal than Mei's?", "options": ["He writes to a director about a big request", "He doesn't know his director", "He is angry"], "answer": 0,
+          "explain": "Three months of unpaid leave is a big request to a senior person: [[Monsieur le Directeur]], [[solliciter]], [[je vous serais reconnaissant de bien vouloir…]] and a letter-style closing." },
+        { "id": "d2", "type": "mcq", "prompt": "What does Sofia ask for in addition to the extension?", "options": ["Permission to send a digital copy first", "A meeting", "A refund"], "answer": 0,
+          "explain": "[[Serait-il possible, par ailleurs, de vous envoyer une copie numérique en attendant l'original ?]]" }
+      ] },
+    { "type": "understand", "title": "The politeness ladder",
+      "blocks": [
+        { "type": "table", "title": "From direct to very formal",
+          "head": ["Level", "Formula", "Typical use"],
+          "rows": [
+            ["1", "Tu peux m'envoyer le document ?", "a colleague you're close to"],
+            ["2", "Pourriez-vous m'envoyer le document ?", "most professional situations"],
+            ["3", "Serait-il possible de m'envoyer le document ?", "softer: the request becomes impersonal"],
+            ["4", "Auriez-vous l'amabilité de m'envoyer le document ?", "a favour, someone outside your team"],
+            ["5", "Je vous serais reconnaissant de bien vouloir m'envoyer le document.", "formal emails and letters"],
+            ["6", "Je vous saurais gré de bien vouloir m'envoyer le document.", "very formal: administration, official letters"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "Levels 2 to 4 work well on the phone. Levels 5 and 6 are mainly written: said aloud, they can sound stiff unless the situation is very formal." },
+        { "type": "pattern", "title": "One structure: formula + de + infinitive",
+          "pattern": "formule + de (+ bien vouloir) + infinitif",
+          "note": "[[bien vouloir]] adds extra politeness and is very common in writing. Object pronouns go **before the infinitive**: [[de bien vouloir **me** l'envoyer]]. For a negative: [[de ne pas…]].",
+          "examples": [
+            { "fr": "Je vous saurais gré de bien vouloir me confirmer la date.", "en": "I would be most grateful if you would confirm the date." },
+            { "fr": "Je vous serais reconnaissante de me faire parvenir votre réponse avant le 15 mai.", "en": "I would be grateful if you sent me your answer before May 15. (woman writing)" },
+            { "fr": "Auriez-vous l'amabilité de transmettre ce message à votre directrice ?", "en": "Would you be so kind as to pass this message on to your director?" },
+            { "fr": "Serait-il possible de reporter notre rendez-vous ?", "en": "Would it be possible to postpone our appointment?" },
+            { "fr": "Merci de bien vouloir ne pas stationner devant l'entrée.", "en": "Please do not park in front of the entrance." }
+          ] },
+        { "type": "table", "title": "Why the conditionnel?",
+          "head": ["Direct", "Softened with the conditionnel"],
+          "rows": [
+            ["Pouvez-vous… ?", "Pourriez-vous… ?"],
+            ["Est-il possible de… ?", "Serait-il possible de… ?"],
+            ["Avez-vous l'amabilité de… ?", "Auriez-vous l'amabilité de… ?"],
+            ["Je vous suis reconnaissant.", "Je vous serais reconnaissant."],
+            ["Je souhaite savoir si…", "Je souhaiterais savoir si…"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "As you saw at B1, the conditionnel turns a demand into a hypothesis: *it would be possible*, *I would be grateful*. The reader feels free to say no, which makes them more likely to say yes." },
+        { "type": "vocab", "title": "Words and phrases for this lesson", "itemIds": ["savoir-gre", "amabilite", "serait-il-possible", "souhaiterais-savoir", "merci-de-bien-vouloir", "je-vous-prie", "solliciter", "conge-sans-solde", "prolongation", "lettre-emploi", "dans-la-mesure-du-possible", "compte-tenu-de"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Formal request traps",
+          "body": "- **[[Je vous serais gré]]** ✗ → [[Je vous saurais gré]] ✓. The expression is [[savoir gré à quelqu'un]] (to be grateful to someone). Many native speakers make this mistake, but examiners and HR managers notice it.\n- **[[Je vous saurais gré si vous pouviez…]]**: widely used, but careful writers prefer [[de]] + infinitive: [[Je vous saurais gré de bien vouloir…]]\n- **[[reconnaissant]] agrees with the writer.** A woman writes [[Je vous serais reconnaissante]]. Don't write “reconnaissant(e)” in your own email: choose the form that fits you.\n- **[[Je voudrais que vous m'envoyez…]]** ✗. After [[vouloir que]] you need the subjonctif: [[que vous m'envoyiez]] (reviewed in depth next unit). In formal requests, the safe structure is a formula + **de + infinitive**.\n- **[[demander pour un congé]]** ✗ (from “ask for”). [[demander un congé]] ✓, or [[solliciter un congé]] ✓.\n- **[[appliquer pour un poste]]** ✗. [[postuler à un poste]] ✓ or [[poser sa candidature]] ✓.\n- **[[s'il vous plaît]]** in a formal letter sounds a bit flat or impatient. Use [[je vous prie de…]], [[veuillez…]] or [[merci de bien vouloir…]]." },
+        { "type": "deepdive", "kind": "why", "title": "Where does “savoir gré” come from?",
+          "body": "[[Gré]] comes from Latin *gratum* (pleasing, welcome), the same root as [[gratitude]] and [[gratuit]]. [[Savoir gré à quelqu'un de quelque chose]] literally means “to know gratitude to someone for something”. You'll also recognize the root in [[de bon gré]] (willingly), [[contre son gré]] (against one's will) and [[au gré de]] (at the mercy of). Today [[savoir gré]] survives almost only in this request formula, which is why it feels so formal." },
+        { "type": "deepdive", "kind": "canada", "title": "Requests in Canadian administrations",
+          "body": "- For immigration files, the usual Canadian term is **[[une lettre d'emploi]]** (or [[une lettre de l'employeur]]). In France you'll see [[une attestation employeur]].\n- Québec public bodies often end their own letters with **[[Nous vous remercions de votre collaboration]]**. You can use it too when you ask someone to do something for you.\n- Signs and forms in Québec use **[[S.V.P.]]** a lot ([[Veuillez patienter, S.V.P.]]), but in a formal letter, prefer [[je vous prie de…]].\n- Professional orders (engineers, nurses, accountants) and ministries expect a **file number** ([[Dossier no 48-2210]]) in the subject line of every message: always include it." }
+      ] },
+    { "type": "hear", "title": "Request politely, out loud",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In speech, a rising tone at the end of [[Pourriez-vous…]] or [[Serait-il possible…]] makes the request sound friendly rather than demanding.",
+          "lines": [
+            { "fr": "Serait-il possible de reporter notre rendez-vous ?", "en": "Would it be possible to postpone our appointment?" },
+            { "fr": "Auriez-vous l'amabilité de m'envoyer le formulaire ?", "en": "Would you be so kind as to send me the form?" },
+            { "fr": "Je souhaiterais savoir si mon dossier est complet.", "en": "I would like to know whether my file is complete." },
+            { "fr": "Je vous saurais gré de bien vouloir me répondre avant vendredi.", "en": "I would be most grateful if you would answer me before Friday." },
+            { "fr": "Dans la mesure du possible, j'en aurais besoin cette semaine.", "en": "If at all possible, I would need it this week." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bonjour, ici Amira Haddad. J'ai un rendez-vous avec Maître Fortin jeudi à 10 h, mais j'ai un empêchement. Serait-il possible de le reporter à la semaine prochaine ? Vous pouvez me rappeler cet après-midi. Merci beaucoup.", "en": "Hello, this is Amira Haddad. I have an appointment with Maître Fortin on Thursday at 10, but something has come up. Would it be possible to move it to next week? You can call me back this afternoon. Thank you very much.", "prompt": "What does Amira want?", "options": ["To move her appointment to next week", "To cancel her file", "To get a document by Thursday"], "answer": 0,
+          "explain": "[[Serait-il possible de le reporter à la semaine prochaine ?]] [[le]] = the appointment. [[Un empêchement]] = something that prevents you from coming." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Madame, Monsieur, je vous serais reconnaissant de bien vouloir m'indiquer les documents nécessaires pour renouveler mon permis de travail.", "en": "Dear Sir or Madam, I would be grateful if you would let me know the documents needed to renew my work permit.", "prompt": "What is the writer asking for?", "options": ["The list of documents to renew a work permit", "A new job", "An appointment with a lawyer"], "answer": 0,
+          "explain": "[[m'indiquer les documents nécessaires pour renouveler mon permis de travail]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back the conditionnel and pronouns.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je vous ___ gré de bien vouloir me confirmer la date.", "answers": [["saurais"]], "choices": ["saurais", "serais", "aurais", "ferais"], "en": "I would be most grateful if you would confirm the date.", "explain": "[[savoir gré]] → [[je vous saurais gré]] (conditionnel of savoir)." },
+        { "id": "r2", "type": "translate", "prompt": "Would it be possible to postpone the meeting?", "accept": ["Serait-il possible de reporter la réunion ?", "Est-ce qu'il serait possible de reporter la réunion ?", "Serait-il possible de reporter la rencontre ?", "Est-ce qu'il serait possible de reporter la rencontre ?", "Serait-il possible de repousser la réunion ?", "Serait-il possible de remettre la réunion ?"], "explain": "[[Serait-il possible de]] + infinitive; [[reporter]] = to postpone (B1)." },
+        { "id": "r3", "type": "mcq", "prompt": "Rank check: which request is the MOST formal?", "options": ["Je vous saurais gré de bien vouloir m'envoyer le contrat.", "Pourriez-vous m'envoyer le contrat ?", "Vous pouvez m'envoyer le contrat ?", "Envoyez-moi le contrat, s'il vous plaît."], "optionsFr": true, "answer": 0, "explain": "[[Je vous saurais gré de bien vouloir…]] is the top of the ladder, typical of official letters." },
+        { "id": "r4", "type": "cloze", "text": "Lucie écrit : « Je vous serais ___ de bien vouloir examiner ma demande. »", "answers": [["reconnaissante"]], "en": "Lucie writes: “I would be grateful if you would consider my request.”", "explain": "Lucie is a woman: [[reconnaissante]]. The adjective agrees with the writer." },
+        { "id": "r5", "type": "match", "prompt": "Match each formula to its meaning.", "pairs": [["Auriez-vous l'amabilité de…", "Would you be so kind as to…"], ["Je souhaiterais savoir si…", "I would like to know whether…"], ["dans la mesure du possible", "if at all possible"], ["compte tenu de", "given, in view of"], ["Merci de bien vouloir…", "Please kindly…"]] },
+        { "id": "r6", "type": "translate", "prompt": "I am requesting three months' unpaid leave. (formal letter)", "accept": ["Je sollicite un congé sans solde de trois mois.", "Je sollicite trois mois de congé sans solde.", "Je demande un congé sans solde de trois mois.", "Je demande trois mois de congé sans solde.", "Je souhaiterais solliciter un congé sans solde de trois mois.", "Je me permets de solliciter un congé sans solde de trois mois."], "explain": "[[solliciter]] is the formal verb for requesting; [[un congé sans solde]] = unpaid leave." },
+        { "id": "r7", "type": "reorder", "prompt": "Would you be so kind as to send it to me?", "accept": ["Auriez-vous l'amabilité de me l'envoyer"], "extra": ["le", "moi"], "explain": "Formula + [[de]] + pronouns before the infinitive: [[me l'envoyer]] (the order [[me]] + [[le]] is studied next unit)." },
+        { "id": "r8", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["J'ai demandé un congé à mon directeur.", "J'ai demandé pour un congé à mon directeur.", "J'ai appliqué pour un congé.", "J'ai demandé mon directeur pour un congé."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "No [[pour]]: [[demander quelque chose à quelqu'un]].", "[[appliquer pour]] is an anglicism.", "The person takes [[à]]: [[demander à quelqu'un]]."] },
+        { "id": "r9", "type": "dictation", "fr": "Serait-il possible de m'accorder une prolongation du délai ?", "accept": [], "explain": "[[accorder]] = to grant; [[une prolongation]] is feminine; [[délai]] = deadline." },
+        { "id": "r10", "type": "cloze", "text": "Je vous écris afin ___ solliciter un report. ___ de la situation, il me faudrait trente jours.", "answers": [["de"], ["Compte tenu"]], "en": "I'm writing to request a postponement. Given the situation, I would need thirty days.", "explain": "[[afin de]] + infinitive (B1); [[compte tenu de]] = given, in view of." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a formal email to your employer's HR department or to an administration: you need an employment letter, a schedule change, or an extension of a deadline. Explain the context, make the request with two different formulas from this lesson, give a date, and close formally.", "promptFr": "Rédigez une demande formelle.",
+          "wordRange": [100, 150],
+          "checklist": ["A precise objet (with a file number if relevant)", "The context: Dans le cadre de… / J'ai bien reçu…", "Two different request formulas (saurais gré, serais reconnaissant(e), auriez-vous l'amabilité, serait-il possible)", "de + infinitive after each formula", "A date: d'ici le… / avant le…", "A formal closing"],
+          "models": [
+            { "label": "Model answer", "fr": "Objet : Demande de modification d'horaire\n\nBonjour Madame Lavoie,\n\nÀ partir du mois de septembre, mes deux enfants commenceront l'école primaire, et je devrai les y déposer chaque matin à 8 h 15. Je me permets donc de vous écrire afin de solliciter une modification de mon horaire de travail.\n\nSerait-il possible de commencer à 9 h au lieu de 8 h 30, et de terminer à 17 h 30 ? Mon nombre d'heures resterait le même, et ma gestionnaire, Mme Côté, est d'accord avec cette proposition.\n\nJe vous serais reconnaissant de bien vouloir me faire part de votre décision d'ici le 15 août, afin de pouvoir m'organiser.\n\nJe vous remercie par avance de votre compréhension.\n\nSalutations distinguées,\n\nNguyen Van Long", "en": "Subject: Request for a schedule change\n\nHello Ms. Lavoie,\n\nStarting in September, my two children will begin elementary school, and I will have to drop them off every morning at 8:15. I am therefore writing to request a change to my work schedule.\n\nWould it be possible to start at 9:00 instead of 8:30, and to finish at 5:30? My number of hours would stay the same, and my manager, Ms. Côté, agrees with this proposal.\n\nI would be grateful if you would let me know your decision by August 15, so that I can get organized.\n\nThank you in advance for your understanding.\n\nYours sincerely,\n\nNguyen Van Long" }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Call the reception of a government office. Introduce yourself, give your file number, explain that you're missing a document, and make two polite requests (for example, an extension and the possibility of sending a digital copy).", "seconds": 45,
+          "checklist": ["Bonjour, je m'appelle…, mon numéro de dossier est…", "The problem, with malheureusement", "Serait-il possible de… ?", "Auriez-vous l'amabilité de… ? / Pourriez-vous… ?", "Thanks: Je vous remercie beaucoup."],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, je m'appelle Raj Patel, mon numéro de dossier est le 48-3175. J'ai reçu votre lettre qui me demande d'envoyer mon certificat de naissance avant le 30 avril. Malheureusement, le document vient d'Inde et il n'est pas encore arrivé. Serait-il possible d'obtenir quelques semaines de plus ? Et auriez-vous l'amabilité de me dire si je peux envoyer une copie numérique en attendant l'original ? Je vous remercie beaucoup.", "en": "Hello, my name is Raj Patel, my file number is 48-3175. I received your letter asking me to send my birth certificate before April 30. Unfortunately, the document is coming from India and it hasn't arrived yet. Would it be possible to get a few more weeks? And would you be so kind as to tell me whether I can send a digital copy while waiting for the original? Thank you very much." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Climb the politeness ladder: [[Pourriez-vous…]] → [[Serait-il possible de…]] → [[Auriez-vous l'amabilité de…]] → [[Je vous serais reconnaissant de…]] (or [[reconnaissante]]) → [[Je vous saurais gré de…]]\n- Build every formula with **de (+ bien vouloir) + infinitive**, pronouns before the infinitive\n- Avoid [[je vous serais gré]] ✗, [[demander pour]] ✗ and [[appliquer pour]] ✗\n- Use formal vocabulary: [[solliciter]], [[une prolongation]], [[compte tenu de]], [[dans la mesure du possible]]",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed doubtful accepted answers (Serait-ce possible de, Pourriez-vous avoir l'amabilité de, un report for extension); vient de l'Inde → vient d'Inde; corrected the vouloir que note, since the subjonctif is already known."}
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-06-04",
+  "level": "a1",
+  "unit": "a1-06",
+  "title": "Quantities and prices",
+  "goal": "Buy food in specific quantities, ask how much things cost, and understand prices in dollars and euros.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-quantity-de", "kind": "grammar", "fr": "un kilo de, beaucoup de… + noun", "en": "quantity + de (no du, de la, des)",
+      "drills": [
+        { "type": "cloze", "text": "Je voudrais un kilo ___ pommes.", "answers": [["de"]], "en": "I'd like a kilo of apples.", "explain": "After a quantity, just [[de]]: [[un kilo de pommes]], not *des pommes*." },
+        { "type": "cloze", "text": "Il mange beaucoup ___ légumes.", "answers": [["de"]], "en": "He eats a lot of vegetables.", "explain": "[[beaucoup de]] + noun, with no article." },
+        { "type": "cloze", "text": "Une bouteille ___ eau, s'il vous plaît.", "answers": [["d'"]], "en": "A bottle of water, please.", "explain": "Before a vowel, [[de]] becomes [[d']]: [[une bouteille d'eau]]." },
+        { "type": "mcq", "prompt": "“A packet of pasta”", "options": ["un paquet de pâtes", "un paquet des pâtes", "un paquet pâtes"], "optionsFr": true, "answer": 0, "explain": "quantity + [[de]] + noun." }
+      ] },
+    { "id": "g-prices", "kind": "grammar", "fr": "2,50 $ = deux dollars cinquante", "en": "saying prices in dollars and euros",
+      "drills": [
+        { "type": "mcq", "prompt": "How do you say 2,50 $?", "options": ["deux dollars cinquante", "deux virgule cinquante dollars", "deux et cinquante dollars"], "optionsFr": true, "answer": 0, "explain": "Say the dollars, then the cents: [[deux dollars cinquante]]." },
+        { "type": "cloze", "text": "3,20 € = trois euros ___", "answers": [["vingt"]], "en": "€3.20", "explain": "euros first, then the cents: [[trois euros vingt]]." },
+        { "type": "cloze", "text": "12,75 $ = douze dollars ___", "answers": [["soixante-quinze"]], "en": "$12.75", "explain": "75 = [[soixante-quinze]] (60 + 15)." }
+      ] },
+    { "id": "un-kilo-de", "kind": "phrase", "fr": "un kilo de", "en": "a kilo of", "example": { "fr": "un kilo de pommes", "en": "a kilo of apples" } },
+    { "id": "cinq-cents-grammes", "kind": "phrase", "fr": "cinq cents grammes de", "en": "500 grams of", "accept": ["500 grammes de", "un demi-kilo de"],
+      "note": "Written [[500 g]]. [[cinq cents]] = five hundred.", "example": { "fr": "cinq cents grammes de fromage", "en": "500 grams of cheese" } },
+    { "id": "litre", "kind": "vocab", "fr": "litre", "article": "le", "gender": "m", "en": "litre", "pos": "noun", "accept": ["litre", "un litre"],
+      "example": { "fr": "un litre de lait", "en": "a litre of milk" } },
+    { "id": "bouteille", "kind": "vocab", "fr": "bouteille", "article": "la", "gender": "f", "en": "bottle", "pos": "noun", "accept": ["bouteille", "une bouteille"],
+      "example": { "fr": "une bouteille d'eau", "en": "a bottle of water" } },
+    { "id": "paquet", "kind": "vocab", "fr": "paquet", "article": "le", "gender": "m", "en": "packet, package (of food)", "pos": "noun", "accept": ["paquet", "un paquet"],
+      "example": { "fr": "un paquet de pâtes", "en": "a packet of pasta" } },
+    { "id": "tranche", "kind": "vocab", "fr": "tranche", "article": "la", "gender": "f", "en": "slice", "pos": "noun", "accept": ["tranche", "une tranche"],
+      "example": { "fr": "deux tranches de pain", "en": "two slices of bread" } },
+    { "id": "un-peu-de", "kind": "phrase", "fr": "un peu de", "en": "a little (of)", "example": { "fr": "un peu de lait", "en": "a little milk" } },
+    { "id": "beaucoup-de", "kind": "phrase", "fr": "beaucoup de", "en": "a lot of, lots of", "example": { "fr": "beaucoup de fruits", "en": "a lot of fruit" } },
+    { "id": "assez-de", "kind": "phrase", "fr": "assez de", "en": "enough (of)", "example": { "fr": "On a assez de pain ?", "en": "Do we have enough bread?" } },
+    { "id": "combien-coute", "kind": "phrase", "fr": "Combien coûte le fromage ?", "en": "How much does the cheese cost?", "accept": ["Le fromage coûte combien ?", "Ça coûte combien, le fromage ?", "C'est combien, le fromage ?"] },
+    { "id": "ca-fait", "kind": "phrase", "fr": "Ça fait combien ?", "en": "How much does that come to? (total)", "accept": ["Ça fait combien en tout ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "At the market",
+      "blocks": [
+        { "type": "dialogue", "title": "At the Jean-Talon market in Montréal",
+          "context": "Mei buys fruit and vegetables at a market stall.",
+          "lines": [
+            { "speaker": "Marchand", "fr": "Bonjour madame ! Qu'est-ce que je vous sers ?", "en": "Hello, madam! What can I get you?" },
+            { "speaker": "Mei", "fr": "Bonjour ! Combien coûtent les pommes ?", "en": "Hello! How much are the apples?" },
+            { "speaker": "Marchand", "fr": "Trois dollars cinquante le kilo.", "en": "Three dollars fifty a kilo." },
+            { "speaker": "Mei", "fr": "Je voudrais un kilo de pommes, s'il vous plaît. Et cinq cents grammes de tomates.", "en": "I'd like a kilo of apples, please. And 500 grams of tomatoes." },
+            { "speaker": "Marchand", "fr": "Voilà. Et avec ça ?", "en": "Here you go. Anything else?" },
+            { "speaker": "Mei", "fr": "C'est tout, merci. Ça fait combien ?", "en": "That's all, thank you. How much is that?" },
+            { "speaker": "Marchand", "fr": "Ça fait six dollars vingt-cinq.", "en": "That comes to six twenty-five." },
+            { "speaker": "Mei", "fr": "Voilà dix dollars.", "en": "Here's ten dollars." },
+            { "speaker": "Marchand", "fr": "Et voici trois dollars soixante-quinze. Merci, bonne journée !", "en": "And here's three seventy-five. Thanks, have a good day!" }
+          ] },
+        { "type": "text", "title": "Raj's grocery list",
+          "fr": "un litre de lait\ndeux bouteilles d'eau\nun paquet de pâtes\nun kilo de riz\nquatre tranches de fromage\nbeaucoup de fruits !",
+          "en": "a litre of milk\ntwo bottles of water\na packet of pasta\na kilo of rice\nfour slices of cheese\nlots of fruit!" },
+        { "type": "listen", "title": "At a bakery in Paris",
+          "context": "Olivier buys bread.",
+          "fr": "— Bonjour ! Une baguette et deux croissants, s'il vous plaît.\n— Voilà, monsieur. Ça fait trois euros quarante.\n— Merci, au revoir !",
+          "en": "— Hello! A baguette and two croissants, please.\n— Here you are, sir. That's three euros forty.\n— Thank you, goodbye!" }
+      ] },
+    { "type": "understand", "title": "How much?",
+      "blocks": [
+        { "type": "explain", "title": "After a quantity: just de",
+          "body": "When you give a **precise quantity** (a kilo, a bottle) or an **amount word** (a lot, a little, enough), French uses just [[de]] before the noun, with **no article**. [[de]] becomes [[d']] before a vowel.\n\n- [[du lait]] → [[un litre de lait]]\n- [[de l'eau]] → [[une bouteille d'eau]]\n- [[des fruits]] → [[beaucoup de fruits]]\n\nIt's the same little [[de]] as after a negative: [[pas de viande]]. Think of [[de]] as “of”: a kilo **of** apples, a lot **of** fruit." },
+        { "type": "table", "title": "Quantities",
+          "head": ["French", "English", "example"],
+          "rows": [
+            ["un kilo de", "a kilo of", "un kilo de pommes"],
+            ["cinq cents grammes de", "500 grams of", "cinq cents grammes de fromage"],
+            ["un litre de", "a litre of", "un litre de lait"],
+            ["une bouteille de", "a bottle of", "une bouteille d'eau"],
+            ["un paquet de", "a packet of", "un paquet de pâtes"],
+            ["une tranche de", "a slice of", "deux tranches de pain"],
+            ["un peu de", "a little", "un peu de lait"],
+            ["beaucoup de", "a lot of", "beaucoup de légumes"],
+            ["assez de", "enough", "assez de riz"]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "[[cinq cents]] = 500. You'll learn big numbers properly later; for now, learn [[cinq cents grammes]] as a chunk. You can also say [[un demi-kilo]]." },
+        { "type": "pattern", "title": "Asking the price",
+          "pattern": "Combien coûte + singular ? / Combien coûtent + plural ? / Ça fait combien ?",
+          "note": "[[coûter]] (to cost) is a regular -er verb: [[il coûte]], [[ils coûtent]]; both sound the same. [[C'est combien ?]] works for everything. [[Ça fait combien ?]] asks for the **total** at the till, and the answer is [[Ça fait…]].",
+          "examples": [
+            { "fr": "Combien coûte le fromage ?", "en": "How much does the cheese cost?" },
+            { "fr": "Combien coûtent les pommes ?", "en": "How much are the apples?" },
+            { "fr": "Ça fait combien ?", "en": "How much does it come to?" },
+            { "fr": "Ça fait douze dollars quarante.", "en": "That comes to $12.40." }
+          ] },
+        { "type": "table", "title": "Saying prices",
+          "head": ["written", "said"],
+          "rows": [
+            ["2,50 $", "deux dollars cinquante"],
+            ["1,99 $", "un dollar quatre-vingt-dix-neuf"],
+            ["14 $", "quatorze dollars"],
+            ["0,75 $", "soixante-quinze cents"],
+            ["3,20 €", "trois euros vingt"],
+            ["0,50 €", "cinquante centimes"]
+          ],
+          "frCols": [1], "sayCol": true,
+          "note": "Say the big unit, then the cents, with no “and”: [[deux dollars cinquante]]. Don't say the comma. In Canada, [[cents]] (coins) is said like “sent”." },
+        { "type": "vocab", "title": "Words to learn", "itemIds": ["un-kilo-de", "cinq-cents-grammes", "litre", "bouteille", "paquet", "tranche", "un-peu-de", "beaucoup-de", "assez-de", "combien-coute", "ca-fait"] },
+        { "type": "deepdive", "kind": "canada", "title": "Prices in Canada",
+          "body": "- **Writing prices:** in French, the dollar sign goes **after** the number, with a space, and you use a **comma** for cents: [[2,50 $]]. In English, it's $2.50. You'll see both in Canada.\n- **Taxes:** shelf prices don't include sales tax. At the till, the GST and (in Québec) the QST are added to taxable items: in French, [[la TPS]] and [[la TVQ]]. Basic groceries (fruit, vegetables, milk, bread) are usually not taxed, but snacks, soft drinks and restaurant meals are.\n- **Cents:** [[un cent]], [[des cents]]. In Canada, this [[cent]] is said like “sent”, not like [[cent]] (100). In everyday Québec French, you'll also hear [[un sou]] or, informally, [[une cenne]].\n- **Weights:** stores show prices per kilo **and** per pound ([[la livre]]): [[3,99 $ la livre]]. A pound is about 454 grams.",
+          "examples": [
+            { "fr": "Les pommes, c'est deux dollars quatre-vingt-dix-neuf la livre.", "en": "Apples are $2.99 a pound." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- [[un kilo des pommes]] is wrong: say [[un kilo de pommes]].\n- [[beaucoup des fruits]] is wrong: say [[beaucoup de fruits]].\n- [[deux dollars et cinquante]]: no [[et]] in prices. Say [[deux dollars cinquante]].\n- [[une bouteille de eau]]: elide before a vowel → [[une bouteille d'eau]].\n- Don't add -s to [[de]] in the plural: [[deux bouteilles de lait]]. Only the quantity word takes an -s." },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Liaison with euros",
+          "body": "[[euro]] starts with a vowel, so numbers ending in a silent consonant **link** to it:\n\n- [[un euro]]: “un‿n‿euro”\n- [[deux euros]], [[trois euros]]: a **z** sound: “deu‿z‿euros”\n- [[six euros]], [[dix euros]]: also a **z** sound\n- [[vingt euros]]: a **t** sound: “vin‿t‿euros”\n\n[[dollars]] starts with a consonant, so there's no liaison: [[deux dollars]] is “deu dollar”. The final s of [[dollars]] is silent." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Prices go fast in real life. Practise saying them smoothly, in one breath.",
+          "lines": [
+            { "fr": "un kilo de pommes", "en": "a kilo of apples", "tip": "de is short and soft: “kee-lo-d'pom”." },
+            { "fr": "cinq cents grammes de fromage", "en": "500 grams of cheese", "tip": "grammes: the final e and s are silent, say “gram”." },
+            { "fr": "une bouteille d'eau", "en": "a bottle of water", "tip": "bouteille: the ill sounds like the y in “yes”." },
+            { "fr": "Ça fait combien ?", "en": "How much is it altogether?" },
+            { "fr": "deux dollars cinquante", "en": "$2.50", "tip": "No liaison before dollars." },
+            { "fr": "trois euros vingt", "en": "€3.20", "tip": "Liaison: “trwa‿z‿euro”." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ça fait douze dollars quatre-vingts.", "en": "That's $12.80.", "prompt": "How much is it?", "options": ["12,80 $", "12,20 $", "2,80 $"], "answer": 0, "explain": "[[douze]] = 12, [[quatre-vingts]] = 80." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Les tomates, c'est trois euros le kilo.", "en": "Tomatoes are three euros a kilo.", "prompt": "What is the price of the tomatoes?", "options": ["€3 a kilo", "€3 for 500 grams", "€13 a kilo"], "answer": 0, "explain": "[[trois euros le kilo]]: [[le kilo]] = per kilo." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Je voudrais une bouteille de lait et un paquet de riz.", "en": "I'd like a bottle of milk and a packet of rice.", "prompt": "What does the customer want?", "options": ["Milk and rice", "Water and rice", "Milk and pasta"], "answer": 0, "explain": "[[une bouteille de lait]] + [[un paquet de riz]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Remember: quantity + de. And say prices without “and”.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je voudrais un kilo ___ pommes, s'il vous plaît.", "answers": [["de"]], "choices": ["de", "des", "du", "les"], "en": "I'd like a kilo of apples, please.", "explain": "After a quantity, just [[de]]." },
+        { "id": "r2", "type": "cloze", "text": "Karim boit beaucoup ___ café.", "answers": [["de"]], "choices": ["de", "du", "le", "des"], "en": "Karim drinks a lot of coffee.", "explain": "[[beaucoup de]] + noun: [[du]] becomes [[de]]." },
+        { "id": "r3", "type": "mcq", "prompt": "“We have a lot of fruit.”", "options": ["Nous avons beaucoup de fruits.", "Nous avons beaucoup des fruits.", "Nous avons beaucoup fruits.", "Nous avons beaucoup du fruits."], "optionsFr": true, "answer": 0,
+          "explain": "[[beaucoup de]] + noun, with no article.",
+          "optionFeedback": [null, "No article after beaucoup de.", "beaucoup needs de before a noun.", "No article after beaucoup de, and du is never used with a plural."] },
+        { "id": "r4", "type": "translate", "prompt": "How much does the cheese cost?", "accept": ["Combien coûte le fromage ?", "Le fromage coûte combien ?", "Ça coûte combien, le fromage ?", "C'est combien, le fromage ?"], "explain": "[[Combien coûte]] + singular noun. In speech, [[Le fromage coûte combien ?]] is also very common." },
+        { "id": "r5", "type": "translate", "prompt": "I'd like 500 grams of cheese, please.", "accept": ["Je voudrais cinq cents grammes de fromage, s'il vous plaît.", "Je voudrais 500 grammes de fromage, s'il vous plaît.", "Je voudrais 500 g de fromage, s'il vous plaît.", "Je voudrais un demi-kilo de fromage, s'il vous plaît."], "explain": "[[cinq cents grammes de]] + noun, with no article." },
+        { "id": "r6", "type": "match", "prompt": "Match the prices.", "pairs": [["deux dollars cinquante", "$2.50"], ["douze dollars", "$12"], ["un dollar quatre-vingt-dix-neuf", "$1.99"], ["cinq euros soixante", "€5.60"], ["un euro vingt", "€1.20"]] },
+        { "id": "r7", "type": "listen-mcq", "fr": "Les pommes coûtent quatre dollars le kilo.", "en": "Apples cost four dollars a kilo.", "prompt": "How much are the apples?", "options": ["$4 a kilo", "$4 each", "$14 a kilo"], "answer": 0, "explain": "[[quatre dollars le kilo]] = $4 per kilo." },
+        { "id": "r8", "type": "reorder", "prompt": "I'd like a packet of rice, please.", "accept": ["Je voudrais un paquet de riz, s'il vous plaît."], "extra": ["du"], "explain": "quantity + [[de]] + noun: [[un paquet de riz]]." },
+        { "id": "r9", "type": "cloze", "text": "Nous ne mangeons pas ___ viande, mais nous mangeons beaucoup ___ légumes.", "answers": [["de"], ["de"]], "en": "We don't eat meat, but we eat a lot of vegetables.", "explain": "Same [[de]] after a negative ([[pas de]]) and after a quantity ([[beaucoup de]])." },
+        { "id": "r10", "type": "dictation", "fr": "Ça fait neuf dollars quatre-vingt-dix.", "accept": ["Ça fait 9,90 $.", "Ça fait 9,90 dollars."], "explain": "90 = [[quatre-vingt-dix]]: no -s on vingt when another number follows." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You're at a market stall. Ask the price of one item, buy three things with quantities, and ask for the total.", "seconds": 40,
+          "checklist": ["Greeting", "Combien coûte… ? / Combien coûtent… ?", "Three items with a quantity + de", "Ça fait combien ?", "Merci, bonne journée !"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour ! Combien coûtent les tomates ? … Je voudrais un kilo de tomates, cinq cents grammes de fromage et une bouteille de jus d'orange, s'il vous plaît. C'est tout. Ça fait combien ? … Merci, bonne journée !", "en": "Hello! How much are the tomatoes? … I'd like a kilo of tomatoes, 500 grams of cheese and a bottle of orange juice, please. That's all. How much does it come to? … Thanks, have a good day!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a text message to your roommate: say what you need for dinner tonight (with quantities), and what you already have enough of.", "wordRange": [20, 45],
+          "checklist": ["On a besoin de… / J'ai besoin de…", "At least three quantities (un kilo de, une bouteille de, un paquet de…)", "On a assez de…", "Merci !"],
+          "models": [ { "label": "Model answer", "fr": "Salut Sofia ! Pour ce soir, on a besoin d'un paquet de pâtes, de cinq cents grammes de poulet et d'une bouteille d'eau. On a assez de fromage et de légumes. Merci !", "en": "Hi Sofia! For tonight, we need a packet of pasta, 500 grams of chicken and a bottle of water. We have enough cheese and vegetables. Thanks!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use quantity + [[de]]: [[un kilo de pommes, une bouteille d'eau, beaucoup de fruits]]\n- Ask [[Combien coûte… ?]], [[Ça fait combien ?]] and understand [[Ça fait…]]\n- Say prices: [[2,50 $]] = [[deux dollars cinquante]], [[3,20 €]] = [[trois euros vingt]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Corrected the tax note (basic groceries are usually zero-rated) and added the Canadian pronunciation of cent (coin) vs cent (100). Replaced the ambiguous “Pour le dîner” (lunch in Québec) with “Pour ce soir” in the model answer." }
+}

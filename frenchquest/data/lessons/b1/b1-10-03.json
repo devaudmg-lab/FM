@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-10-03",
+  "level": "b1",
+  "unit": "b1-10",
+  "title": "Handling follow-up questions",
+  "goal": "Deal with follow-up questions after a talk: check that you understood, ask for clarification, reformulate the question, buy time and answer with an example.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-relances", "kind": "grammar", "fr": "Si je comprends bien, vous voulez savoir si… / Pourriez-vous… ?", "en": "reformulating and clarifying a question",
+      "drills": [
+        { "type": "cloze", "text": "Si je comprends bien, vous voulez savoir ___ j'aime mon travail ?", "answers": [["si"]], "en": "If I understand correctly, you want to know whether I like my job?", "explain": "Review (B1 unit 2): a yes/no question becomes [[si]] in reported speech: [[vous voulez savoir si…]]" },
+        { "type": "cloze", "text": "Vous voulez savoir ___ je suis venu au Canada ?", "answers": [["pourquoi"]], "en": "You want to know why I came to Canada?", "explain": "A question word stays the same in an indirect question: [[Pourquoi êtes-vous venu ?]] → [[vous voulez savoir pourquoi je suis venu]]." },
+        { "type": "translate", "prompt": "Could you rephrase the question? (formal)", "accept": ["Pourriez-vous reformuler la question ?", "Est-ce que vous pourriez reformuler la question ?", "Vous pourriez reformuler la question ?"], "explain": "[[Pourriez-vous]] (conditionnel) + infinitive: the polite way to ask." },
+        { "type": "mcq", "prompt": "Someone asks you about « l'achalandage » and you don't know the word. What do you say?", "options": ["Qu'entendez-vous par « achalandage » ?", "Je ne sais pas.", "Répétez !"], "optionsFr": true, "answer": 0, "explain": "[[Qu'entendez-vous par…?]] = *what do you mean by…?* It's polite and shows you're engaged." }
+      ] },
+    { "id": "si-je-comprends-bien", "kind": "phrase", "fr": "Si je comprends bien, …", "en": "If I understand correctly, …", "accept": ["Si j'ai bien compris, …"] },
+    { "id": "vous-voulez-dire", "kind": "phrase", "fr": "Vous voulez dire que… ?", "en": "Do you mean that…? (formal)", "accept": ["Voulez-vous dire que… ?", "Est-ce que vous voulez dire que… ?"] },
+    { "id": "pourriez-vous-repeter", "kind": "phrase", "fr": "Pourriez-vous répéter la question ?", "en": "Could you repeat the question? (formal)", "accept": ["Pouvez-vous répéter la question ?", "Est-ce que vous pourriez répéter la question ?"] },
+    { "id": "reformuler", "kind": "vocab", "fr": "reformuler", "en": "to rephrase, to reformulate", "pos": "verb",
+      "example": { "fr": "Pourriez-vous reformuler votre question ?", "en": "Could you rephrase your question?" } },
+    { "id": "qu-entendez-vous", "kind": "phrase", "fr": "Qu'entendez-vous par… ?", "en": "What do you mean by…? (formal)", "accept": ["Qu'est-ce que vous entendez par… ?", "Qu'est-ce que vous voulez dire par… ?"] },
+    { "id": "pas-sur-compris", "kind": "phrase", "fr": "Je ne suis pas sûr d'avoir bien compris.", "en": "I'm not sure I understood correctly. (man speaking)", "accept": ["Je ne suis pas sûre d'avoir bien compris.", "Je ne suis pas certain d'avoir bien compris.", "Je ne suis pas certaine d'avoir bien compris."] },
+    { "id": "interessante", "kind": "phrase", "fr": "C'est une question intéressante.", "en": "That's an interesting question.", "accept": ["Question intéressante."] },
+    { "id": "jamais-pense", "kind": "phrase", "fr": "Je n'y ai jamais vraiment pensé, mais…", "en": "I've never really thought about it, but…", "accept": ["Je n'y avais jamais vraiment pensé, mais…"] },
+    { "id": "ca-depend", "kind": "phrase", "fr": "Ça dépend.", "en": "It depends.", "accept": ["Cela dépend.", "Tout dépend."] },
+    { "id": "comme-je-l-ai-dit", "kind": "phrase", "fr": "Comme je l'ai dit tout à l'heure, …", "en": "As I said earlier, …", "accept": ["Comme je l'ai dit plus tôt, …", "Comme je le disais, …"] },
+    { "id": "ce-que-je-veux-dire", "kind": "phrase", "fr": "Ce que je veux dire, c'est que…", "en": "What I mean is that…", "accept": ["Ce que je voulais dire, c'est que…"] },
+    { "id": "pour-etre-honnete", "kind": "phrase", "fr": "Pour être honnête, …", "en": "To be honest, …", "accept": ["Honnêtement, …", "Franchement, …"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "After the talk: questions from the audience",
+      "intro": "Raj has just given a short talk on working from home at a professional networking event in Ottawa. Now the audience asks questions. Notice what he does **before** each answer.",
+      "blocks": [
+        { "type": "dialogue", "title": "Période de questions",
+          "context": "Lucie and Nguyen ask Raj follow-up questions.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Merci pour votre présentation. Vous avez parlé de mode hybride. Est-ce que ça fonctionne aussi dans les petites entreprises ?", "en": "Thank you for your presentation. You talked about a hybrid model. Does it also work in small businesses?" },
+            { "speaker": "Raj", "fr": "C'est une question intéressante. Si je comprends bien, vous voulez savoir si une petite équipe peut s'organiser de la même façon ?", "en": "That's an interesting question. If I understand correctly, you want to know whether a small team can organize itself in the same way?" },
+            { "speaker": "Lucie", "fr": "Exactement.", "en": "Exactly." },
+            { "speaker": "Raj", "fr": "Eh bien, ça dépend du secteur. Pour un cabinet comptable, oui, sans problème. Prenons l'exemple de mon beau-frère : son équipe de quatre personnes se retrouve au bureau deux jours par semaine. Par contre, pour un restaurant ou un commerce, c'est presque impossible.", "en": "Well, it depends on the sector. For an accounting firm, yes, no problem. Let's take the example of my brother-in-law: his team of four people meets at the office two days a week. On the other hand, for a restaurant or a store, it's almost impossible." },
+            { "speaker": "Nguyen", "fr": "Et pour la cohésion d'équipe ? Vous n'avez pas peur de la perdre ?", "en": "And what about team cohesion? Aren't you afraid of losing it?" },
+            { "speaker": "Raj", "fr": "Pardon, je ne suis pas sûr d'avoir bien compris. Qu'entendez-vous par « cohésion » ? Les relations entre collègues ?", "en": "Sorry, I'm not sure I understood correctly. What do you mean by “cohesion”? Relationships between colleagues?" },
+            { "speaker": "Nguyen", "fr": "Oui, l'esprit d'équipe, le sentiment de travailler ensemble.", "en": "Yes, team spirit, the feeling of working together." },
+            { "speaker": "Raj", "fr": "D'accord. Pour être honnête, c'est le plus grand défi. Comme je l'ai dit tout à l'heure, certains collègues se sentent isolés. Ce que je veux dire, c'est que le mode hybride ne règle pas tout : il faut aussi organiser des moments informels, des dîners d'équipe, par exemple.", "en": "OK. To be honest, it's the biggest challenge. As I said earlier, some colleagues feel isolated. What I mean is that the hybrid model doesn't solve everything: you also have to organize informal moments, team lunches, for example." },
+            { "speaker": "Nguyen", "fr": "Merci, c'est très clair.", "en": "Thank you, that's very clear." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What does Raj do right after Lucie's question?", "options": ["He reformulates it to check he understood", "He answers immediately", "He asks her to repeat it"], "answer": 0,
+          "explain": "[[Si je comprends bien, vous voulez savoir si…]]: reformulating checks understanding **and** gives you time to think." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does Raj ask “Qu'entendez-vous par « cohésion » ?”", "options": ["He isn't sure what Nguyen means by that word", "He wants to change the subject", "He thinks the question is rude"], "answer": 0,
+          "explain": "Asking what a word means is not a weakness: it shows you want to give the right answer." },
+        { "id": "d3", "type": "mcq", "prompt": "How does Raj answer each question?", "options": ["A short answer, then a reason or an example", "Just yes or no", "With a new presentation"], "answer": 0,
+          "explain": "[[Ça dépend du secteur]] → an example ([[Prenons l'exemple de mon beau-frère]]). A follow-up answer is a **mini-paragraph**, like in unit 9." }
+      ] },
+    { "type": "understand", "title": "Four moves for any question",
+      "intro": "When a follow-up question arrives, you don't have to answer instantly. Use one of these four moves, then answer.",
+      "blocks": [
+        { "type": "table", "title": "The four moves",
+          "head": ["Move", "When", "Phrases"],
+          "rows": [
+            ["1. Ask for repetition", "You didn't hear or catch the question", "Pardon ? / Pourriez-vous répéter la question ? / Excusez-moi, je n'ai pas bien entendu."],
+            ["2. Ask for clarification", "You heard it, but a word or the idea is unclear", "Qu'entendez-vous par… ? / Vous voulez dire que… ? / Je ne suis pas sûr(e) d'avoir bien compris."],
+            ["3. Reformulate", "You think you understood: check it", "Si je comprends bien, vous voulez savoir si… / Autrement dit, vous me demandez si… ?"],
+            ["4. Buy time", "You understood, but you need a few seconds", "C'est une question intéressante. / Je n'y ai jamais vraiment pensé, mais… / Ça dépend…"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "Then **answer like a mini-paragraph**: a short direct answer, a reason, an example. Finish with a link back to your talk if you can: [[Comme je l'ai dit tout à l'heure, …]]" },
+        { "type": "pattern", "title": "Reformulating with an indirect question",
+          "pattern": "Vous voulez savoir + si / pourquoi / comment / où / ce que… + sujet + verbe",
+          "note": "You learned reported speech in B1 unit 2. Here it is in action: no inversion, no [[est-ce que]] after [[savoir]]. [[Qu'est-ce que…?]] becomes [[ce que]].",
+          "examples": [
+            { "fr": "Est-ce que ça marche ? → Vous voulez savoir si ça marche ?", "en": "Does it work? → You want to know whether it works?" },
+            { "fr": "Comment est-ce que vous vous organisez ? → Vous me demandez comment on s'organise ?", "en": "How do you organize yourselves? → You're asking me how we get organized?" },
+            { "fr": "Qu'est-ce que vous recommandez ? → Vous voulez savoir ce que je recommande ?", "en": "What do you recommend? → You want to know what I recommend?" }
+          ] },
+        { "type": "explain", "title": "When the question is hard or unexpected",
+          "body": "- **You don't know:** say so, then say something useful. [[Pour être honnête, je ne connais pas les chiffres exacts, mais je sais que…]]\n- **You disagree with the question:** stay polite. [[Je comprends votre point de vue. Cependant, …]] (B1 unit 1)\n- **The question is very personal:** you can redirect gently. [[Je préfère ne pas entrer dans les détails, mais en général…]]\n- **You already answered it in your talk:** don't say *I already said that*. Say [[Comme je l'ai dit tout à l'heure, …]] and add a new detail.\n- **You lost your idea:** [[Ce que je veux dire, c'est que…]] lets you restart cleanly." },
+        { "type": "vocab", "title": "Phrases for this lesson", "itemIds": ["si-je-comprends-bien", "vous-voulez-dire", "pourriez-vous-repeter", "reformuler", "qu-entendez-vous", "pas-sur-compris", "interessante", "jamais-pense", "ca-depend", "comme-je-l-ai-dit", "ce-que-je-veux-dire", "pour-etre-honnete"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Follow-up question mistakes",
+          "body": "- **Inversion after savoir:** *Vous voulez savoir pourquoi suis-je venu ?* is wrong. Write and say [[Vous voulez savoir pourquoi je suis venu ?]]\n- **Est-ce que after si:** *si est-ce que ça marche* → [[si ça marche]].\n- **Quoi for ce que:** *Vous voulez savoir quoi je recommande ?* is very informal. Say [[ce que je recommande]].\n- **Répétez !** alone sounds like an order. Say [[Pourriez-vous répéter, s'il vous plaît ?]]\n- **Answering only oui or non:** an examiner or a colleague wants a reason and an example.\n- **Tu or vous?** With an audience, a colleague you don't know or an examiner, use **vous**. Switch to **tu** only in a role-play where the examiner plays a friend (like TEF section B, below)." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: TEF Canada speaking, section B",
+          "body": "In **section B** of the TEF Canada speaking test (about **10 minutes**), you read a short document, often an ad, and you must **convince** the examiner, who plays a friend or a family member, to take part in something or to accept an idea. The examiner deliberately raises **objections** and asks follow-up questions: [[Mais c'est trop cher !]] [[Je n'ai pas le temps.]] [[Pourquoi tu penses que c'est utile ?]]\n\nEverything in this lesson applies, usually with **tu**:\n- **Reformulate the objection:** [[Si je comprends bien, tu trouves que c'est trop cher ?]]\n- **Accept, then answer:** [[C'est vrai, mais…]] / [[Je comprends, par contre…]]\n- **Give a concrete example or a number** from the document.\n- **Never let the conversation die:** if you need time, [[C'est une bonne question…]] or [[Laisse-moi réfléchir…]]\n\nAim to answer at least **five or six** different objections with different arguments. Always check the current official format before your exam." },
+        { "type": "deepdive", "kind": "canada", "title": "Période de questions",
+          "body": "In Canada, the question time after a talk is often called [[la période de questions]], close to the name of Question Period in Parliament ([[la période des questions]]). In France, people more often simply say [[les questions]] or [[le temps des questions]]. Everywhere, you'll hear [[Avez-vous des questions ?]] or [[Est-ce qu'il y a des questions ?]] at the end of almost every meeting." }
+      ] },
+    { "type": "hear", "title": "Hear the moves",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "When you reformulate, your voice rises at the end: you are checking, so it's a question.",
+          "lines": [
+            { "fr": "Si je comprends bien, vous voulez savoir si ça marche ?", "en": "If I understand correctly, you want to know whether it works?", "tip": "Rising voice on marche." },
+            { "fr": "Qu'entendez-vous par « cohésion » ?", "en": "What do you mean by “cohesion”?", "tip": "qu'entendez-vous: kan-tan-dé-vou." },
+            { "fr": "Je ne suis pas sûr d'avoir bien compris.", "en": "I'm not sure I understood correctly.", "tip": "In fast speech: j'suis pas sûr…" },
+            { "fr": "Je n'y ai jamais vraiment pensé, mais je dirais que oui.", "en": "I've never really thought about it, but I'd say yes." },
+            { "fr": "Comme je l'ai dit tout à l'heure, c'est le plus grand défi.", "en": "As I said earlier, it's the biggest challenge.", "tip": "tout à l'heure: tou-ta-leur." },
+            { "fr": "Ce que je veux dire, c'est que tout dépend du secteur.", "en": "What I mean is that it all depends on the sector." }
+          ] },
+        { "id": "h1", "type": "listen-mcq",
+          "fr": "Excusez-moi, je n'ai pas bien entendu. Pourriez-vous répéter la question, s'il vous plaît ?",
+          "en": "Excuse me, I didn't hear well. Could you repeat the question, please?",
+          "prompt": "What is the speaker's problem?",
+          "options": ["They didn't hear the question", "They don't understand one word", "They don't want to answer"], "answer": 0,
+          "explain": "[[je n'ai pas bien entendu]] = I didn't hear well → move 1: ask for repetition." },
+        { "id": "h2", "type": "listen-mcq",
+          "fr": "Autrement dit, vous me demandez ce que je ferais si je perdais mon emploi ?",
+          "en": "In other words, you're asking me what I would do if I lost my job?",
+          "prompt": "What was the original question about?",
+          "options": ["What the speaker would do after losing their job", "Why the speaker lost their job", "How to find a job quickly"], "answer": 0,
+          "explain": "The speaker reformulates with [[ce que je ferais si je perdais…]]: a hypothesis (B1 unit 6)." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Decide which move you need first: repeat, clarify, reformulate or buy time.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match each situation with the best phrase.",
+          "pairs": [["You didn't hear the question.", "Pourriez-vous répéter la question ?"], ["You don't know one word in the question.", "Qu'entendez-vous par… ?"], ["You want to check you understood.", "Si je comprends bien, …"], ["You need a few seconds to think.", "C'est une question intéressante."], ["You want to refer back to your talk.", "Comme je l'ai dit tout à l'heure, …"]] },
+        { "id": "r2", "type": "cloze", "text": "Si je comprends bien, vous voulez savoir ___ je recommande ?", "answers": [["ce que"]], "choices": ["ce que", "qu'est-ce que", "quoi", "que"], "en": "If I understand correctly, you want to know what I recommend?",
+          "explain": "In an indirect question, [[qu'est-ce que]] becomes [[ce que]] (B1 unit 7 and unit 2)." },
+        { "id": "r3", "type": "mcq", "prompt": "Which reformulation is correct?", "optionsFr": true,
+          "options": ["Vous voulez savoir pourquoi je suis venu à Ottawa ?", "Vous voulez savoir pourquoi suis-je venu à Ottawa ?", "Vous voulez savoir pourquoi est-ce que je suis venu à Ottawa ?", "Vous voulez savoir si pourquoi je suis venu à Ottawa ?"], "answer": 0,
+          "optionFeedback": [null, "No inversion in an indirect question.", "No est-ce que in an indirect question.", "Use si only for yes/no questions."] },
+        { "id": "r4", "type": "translate", "prompt": "I'm not sure I understood correctly. (woman speaking)", "accept": ["Je ne suis pas sûre d'avoir bien compris.", "Je ne suis pas certaine d'avoir bien compris."], "hint": "sûr + de + past infinitive",
+          "explain": "[[sûre]] agrees with a woman speaking; [[d'avoir compris]] is a past infinitive." },
+        { "id": "r5", "type": "cloze", "text": "Je n'___ ai jamais vraiment pensé, mais je dirais que oui.", "answers": [["y"]], "choices": ["y", "en", "le", "lui"], "en": "I've never really thought about it, but I'd say yes.",
+          "explain": "[[penser à quelque chose]] → [[y penser]]. The pronoun goes before the auxiliary: [[je n'y ai jamais pensé]]." },
+        { "id": "r6", "type": "translate", "prompt": "Could you repeat the question, please? (formal)", "accept": ["Pourriez-vous répéter la question, s'il vous plaît ?", "Pouvez-vous répéter la question, s'il vous plaît ?", "Est-ce que vous pourriez répéter la question, s'il vous plaît ?", "Vous pourriez répéter la question, s'il vous plaît ?", "Est-ce que vous pouvez répéter la question, s'il vous plaît ?"], "hint": "conditionnel of pouvoir",
+          "explain": "[[Pourriez-vous]] (conditionnel) is more polite than [[Pouvez-vous]]; both are fine." },
+        { "id": "r7", "type": "reorder", "prompt": "What I mean is that it depends.", "accept": ["Ce que je veux dire c'est que ça dépend"], "extra": ["qu'est-ce"],
+          "explain": "[[Ce que je veux dire, c'est que…]] restarts your idea clearly. [[ce que]] is the relative from B1 unit 7." },
+        { "id": "r8", "type": "cloze", "text": "Comme je l'___ dit tout à l'heure, le plus grand défi, c'est l'isolement.", "answers": [["ai"]], "choices": ["ai", "est", "suis", "a"], "en": "As I said earlier, the biggest challenge is isolation.",
+          "explain": "[[dire]] takes [[avoir]]: [[je l'ai dit]]. [[l']] refers to the idea already mentioned." },
+        { "id": "r9", "type": "mcq", "prompt": "In TEF speaking section B, your “friend” says: « C'est trop cher ! » What's the best first reaction?", "optionsFr": true,
+          "options": ["Si je comprends bien, tu trouves que c'est trop cher ? C'est vrai, mais…", "Non, tu as tort.", "Répétez !", "D'accord, alors on oublie."], "answer": 0,
+          "explain": "Reformulate the objection, accept part of it, then answer it with an argument. Never give up: your job is to **convince**." },
+        { "id": "r10", "type": "dictation", "fr": "Si je comprends bien, vous voulez savoir si ça fonctionne aussi ici ?", "accept": [],
+          "explain": "[[si je comprends bien]] (checking) + [[savoir si]] (indirect yes/no question)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You've just given a short talk about your city. Answer these three follow-up questions out loud (about 30 seconds each). For each one, use a different move before answering: (1) « Est-ce que c'est une bonne ville pour les familles ? » (2) « Et l'intégration, c'est facile ? » (unclear word: ask what they mean) (3) « Si vous pouviez changer une chose dans votre ville, qu'est-ce que ce serait ? »", "seconds": 90,
+          "checklist": ["Question 1: reformulate (Si je comprends bien, vous voulez savoir si…)", "Question 2: ask for clarification (Qu'entendez-vous par… ?), then answer", "Question 3: buy time (C'est une question intéressante… / Je n'y ai jamais vraiment pensé, mais…) + a conditionnel answer", "Each answer: a direct answer + a reason + an example", "At least one Comme je l'ai dit tout à l'heure… or Ce que je veux dire, c'est que…"],
+          "models": [
+            { "label": "Model answer", "fr": "(1) Si je comprends bien, vous voulez savoir si Laval convient aux familles ? Oui, tout à fait. Comme je l'ai dit tout à l'heure, il y a beaucoup de parcs et d'écoles. Mes enfants, par exemple, vont à l'école à pied.\n(2) Pardon, qu'entendez-vous par « intégration » ? Trouver du travail, ou se faire des amis ? … D'accord. Pour être honnête, se faire des amis prend du temps. Ce que je veux dire, c'est qu'il faut participer à des activités : moi, j'ai rencontré mes voisins grâce à la fête de quartier.\n(3) C'est une question intéressante… Je n'y ai jamais vraiment pensé, mais je dirais que j'ajouterais des pistes cyclables. Si c'était plus sécuritaire, je prendrais mon vélo tous les jours.",
+              "en": "(1) If I understand correctly, you want to know whether Laval suits families? Yes, absolutely. As I said earlier, there are lots of parks and schools. My children, for example, walk to school. (2) Sorry, what do you mean by “integration”? Finding work, or making friends? … OK. To be honest, making friends takes time. What I mean is that you have to take part in activities: I met my neighbours thanks to the neighbourhood party. (3) That's an interesting question… I've never really thought about it, but I'd say I would add bike lanes. If it were safer, I'd take my bike every day." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Choose a move before answering: **repeat** ([[Pourriez-vous répéter la question ?]]), **clarify** ([[Qu'entendez-vous par… ?]]), **reformulate** ([[Si je comprends bien, vous voulez savoir si…]]) or **buy time** ([[C'est une question intéressante]])\n- Reformulate with indirect questions: [[si]], [[pourquoi]], [[ce que]] + subject + verb, with no inversion\n- Answer like a mini-paragraph and refer back to your talk: [[Comme je l'ai dit tout à l'heure, …]], [[Ce que je veux dire, c'est que…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Corrected the Canada note (Parliament's French name is 'période des questions'; 'Est-ce qu'il y a des questions ?' is not specific to Québec). Removed a tu accept on a card marked formal and the 'cela' dictation accept that sounds different from 'ça'. Replaced the defensible 'avais' distractor in r8 with 'suis'." }
+}

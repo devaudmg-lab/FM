@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-04-03",
+  "level": "a2",
+  "unit": "a2-04",
+  "title": "Irregular futures",
+  "goal": "Use the most common irregular futures (je serai, j'aurai, j'irai, je ferai, je pourrai…) and say what you will do when something happens, with quand + futur.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-futur-irr-1", "kind": "grammar", "fr": "je serai, j'aurai, j'irai, je ferai", "en": "irregular futures: être, avoir, aller, faire",
+      "drills": [
+        { "type": "cloze", "text": "Dans deux semaines, je ___ canadienne. (être)", "answers": [["serai"]], "en": "In two weeks, I will be Canadian.", "explain": "être → ser- + -ai = je serai." },
+        { "type": "cloze", "text": "Nous ___ un passeport canadien. (avoir)", "answers": [["aurons"]], "en": "We will have a Canadian passport.", "explain": "avoir → aur- + -ons." },
+        { "type": "cloze", "text": "Cet été, ils ___ au Maroc. (aller)", "answers": [["iront"]], "en": "This summer, they will go to Morocco.", "explain": "aller → ir- + -ont = ils iront." },
+        { "type": "translate", "prompt": "I will do my homework tonight.", "accept": ["Je ferai mes devoirs ce soir.", "Ce soir, je ferai mes devoirs."], "explain": "faire → fer- + -ai = je ferai." }
+      ] },
+    { "id": "g-futur-irr-2", "kind": "grammar", "fr": "je pourrai, je voudrai, je devrai, je viendrai, je verrai, je saurai, il faudra", "en": "irregular futures: pouvoir, vouloir, devoir, venir, voir, savoir, falloir",
+      "drills": [
+        { "type": "cloze", "text": "Après la cérémonie, tu ___ voter. (pouvoir)", "answers": [["pourras"]], "en": "After the ceremony, you will be able to vote.", "explain": "pouvoir → pourr- (two r's) + -as." },
+        { "type": "cloze", "text": "Vous ___ arriver 30 minutes avant. (devoir)", "answers": [["devrez"]], "en": "You will have to arrive 30 minutes early.", "explain": "devoir → devr- + -ez." },
+        { "type": "cloze", "text": "Ma sœur ___ à la cérémonie. (venir)", "answers": [["viendra"]], "en": "My sister will come to the ceremony.", "explain": "venir → viendr- + -a." },
+        { "type": "mcq", "prompt": "“It will be necessary to bring two pieces of ID.”", "options": ["Il faudra apporter deux pièces d'identité.", "Il faudrai apporter deux pièces d'identité.", "Il fallera apporter deux pièces d'identité."], "optionsFr": true, "answer": 0, "explain": "falloir → il faudra. It only exists with il." }
+      ] },
+    { "id": "g-quand-futur", "kind": "grammar", "fr": "Quand je serai citoyenne, je voterai.", "en": "quand + futur (English uses the present after “when”)",
+      "drills": [
+        { "type": "cloze", "text": "Quand j'___ mon passeport, j'irai voir ma famille. (avoir)", "answers": [["aurai"]], "en": "When I have my passport, I'll go see my family.", "explain": "The action is in the future, so French uses the future after quand: j'aurai." },
+        { "type": "mcq", "prompt": "“When I'm a citizen, I'll vote.”", "options": ["Quand je serai citoyen, je voterai.", "Quand je suis citoyen, je voterai.", "Quand j'étais citoyen, je voterai."], "optionsFr": true, "answer": 0, "explain": "English says “when I am”, but French uses the future: quand je serai." }
+      ] },
+    { "id": "citoyen", "kind": "vocab", "fr": "citoyen", "fem": "citoyenne", "article": "le", "gender": "m", "en": "citizen", "pos": "noun", "accept": ["la citoyenne", "un citoyen", "une citoyenne"] },
+    { "id": "passeport", "kind": "vocab", "fr": "passeport", "article": "le", "gender": "m", "en": "passport", "pos": "noun" },
+    { "id": "voter", "kind": "vocab", "fr": "voter", "en": "to vote", "pos": "verb",
+      "example": { "fr": "Je voterai pour la première fois.", "en": "I will vote for the first time." } },
+    { "id": "preter-serment", "kind": "phrase", "fr": "prêter serment", "en": "to take the oath", "note": "Vous prêterez serment = you will take the oath." },
+    { "id": "ceremonie", "kind": "vocab", "fr": "cérémonie", "article": "la", "gender": "f", "en": "ceremony", "pos": "noun", "accept": ["une cérémonie"] },
+    { "id": "il-faudra", "kind": "phrase", "fr": "Il faudra apporter une pièce d'identité.", "en": "We'll have to bring a piece of ID. (it will be necessary)" },
+    { "id": "tu-verras", "kind": "phrase", "fr": "Tu verras.", "en": "You'll see. (to a friend)", "note": "Formal or plural: Vous verrez." },
+    { "id": "pour-la-premiere-fois", "kind": "phrase", "fr": "pour la première fois", "en": "for the first time" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "The big day",
+      "blocks": [
+        { "type": "text", "title": "Information sheet from a newcomers' centre",
+          "context": "Amira's community centre gives this sheet to people who are invited to a citizenship ceremony.",
+          "fr": "Votre cérémonie de citoyenneté\n- Vous devrez arriver 30 minutes avant le début de la cérémonie.\n- Il faudra apporter votre lettre d'invitation et deux pièces d'identité.\n- Votre famille et vos amis pourront venir avec vous.\n- Vous prêterez serment et vous chanterez l'hymne national.\n- Après la cérémonie, vous serez citoyen canadien ou citoyenne canadienne, et vous aurez votre certificat de citoyenneté.\nAttention : les règles peuvent changer. Lisez bien votre lettre d'invitation.",
+          "en": "Your citizenship ceremony\n- You will have to arrive 30 minutes before the start of the ceremony.\n- You will need to bring your invitation letter and two pieces of ID.\n- Your family and friends will be able to come with you.\n- You will take the oath and you will sing the national anthem.\n- After the ceremony, you will be a Canadian citizen, and you will have your citizenship certificate.\nNote: rules can change. Read your invitation letter carefully." },
+        { "type": "dialogue", "title": "Amira tells Sofia the news",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Alors, c'est bientôt le grand jour ?", "en": "So, the big day is coming soon?" },
+            { "speaker": "Amira", "fr": "Oui, dans deux semaines ! Je serai enfin canadienne.", "en": "Yes, in two weeks! I'll finally be Canadian." },
+            { "speaker": "Sofia", "fr": "Et qu'est-ce que tu feras après ?", "en": "And what will you do afterwards?" },
+            { "speaker": "Amira", "fr": "Quand j'aurai mon passeport, j'irai au Maroc voir ma famille. Ça fait trois ans !", "en": "When I have my passport, I'll go to Morocco to see my family. It's been three years!" },
+            { "speaker": "Sofia", "fr": "Et tu pourras voter !", "en": "And you'll be able to vote!" },
+            { "speaker": "Amira", "fr": "Oui ! Aux prochaines élections, je voterai pour la première fois. Tu viendras à la cérémonie ?", "en": "Yes! In the next election, I'll vote for the first time. Will you come to the ceremony?" },
+            { "speaker": "Sofia", "fr": "Bien sûr, je viendrai ! Il faudra prendre beaucoup de photos.", "en": "Of course I'll come! We'll have to take lots of pictures." },
+            { "speaker": "Amira", "fr": "Tu verras, ce sera très émouvant.", "en": "You'll see, it'll be very moving." },
+            { "speaker": "Sofia", "fr": "Et tu sauras chanter « Ô Canada » en français ?", "en": "And will you know how to sing “O Canada” in French?" },
+            { "speaker": "Amira", "fr": "J'apprends les paroles en ce moment. Le jour de la cérémonie, je saurai tout par cœur !", "en": "I'm learning the words right now. On the day of the ceremony, I'll know it all by heart!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What will Amira do when she has her passport?", "options": ["Go to Morocco to see her family", "Vote in the next election", "Learn the national anthem"], "answer": 0,
+          "explain": "[[Quand j'aurai mon passeport, j'irai au Maroc voir ma famille.]]" }
+      ] },
+    { "type": "understand", "title": "Irregular stems",
+      "blocks": [
+        { "type": "explain", "title": "Same endings, new stems",
+          "body": "About a dozen common verbs have an **irregular stem** in the future. The good news: the **endings never change** ([[-ai, -as, -a, -ons, -ez, -ont]]), and every stem still ends in **r**. Learn the stems as a list, and you can use all six persons right away." },
+        { "type": "table", "title": "The key irregular stems",
+          "head": ["infinitive", "stem", "je / j'", "example"],
+          "rows": [
+            ["être", "ser-", "je serai", "Je serai canadienne."],
+            ["avoir", "aur-", "j'aurai", "J'aurai un passeport."],
+            ["aller", "ir-", "j'irai", "J'irai au Maroc."],
+            ["faire", "fer-", "je ferai", "Je ferai une fête."],
+            ["pouvoir", "pourr-", "je pourrai", "Je pourrai voter."],
+            ["vouloir", "voudr-", "je voudrai", "Je voudrai rester ici."],
+            ["devoir", "devr-", "je devrai", "Je devrai arriver tôt."],
+            ["venir", "viendr-", "je viendrai", "Je viendrai à la cérémonie."],
+            ["voir", "verr-", "je verrai", "Je verrai ma famille."],
+            ["savoir", "saur-", "je saurai", "Je saurai les paroles."],
+            ["falloir", "faudr-", "il faudra", "Il faudra apporter deux pièces d'identité."]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": false,
+          "note": "Two r's in [[pourr-]] and [[verr-]]. [[Il faudra]] only exists with **il**: it means *it will be necessary, we'll have to*." },
+        { "type": "table", "title": "All persons: être and aller",
+          "head": ["", "être", "aller"],
+          "rows": [
+            ["je / j'", "serai", "irai"],
+            ["tu", "seras", "iras"],
+            ["il / elle / on", "sera", "ira"],
+            ["nous", "serons", "irons"],
+            ["vous", "serez", "irez"],
+            ["ils / elles", "seront", "iront"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "[[Ce sera]] = it will be: [[Ce sera très émouvant.]] It is the future of [[c'est]] (and [[c'était]] in the past)." },
+        { "type": "pattern", "title": "Quand + futur",
+          "pattern": "Quand + futur, futur",
+          "note": "When both actions are in the future, French uses the **future in both parts**. English uses the present after *when*, so this is a classic trap.",
+          "examples": [
+            { "fr": "Quand je serai citoyenne, je voterai.", "en": "When I'm a citizen, I'll vote." },
+            { "fr": "Quand j'aurai mon passeport, j'irai au Maroc.", "en": "When I have my passport, I'll go to Morocco." },
+            { "fr": "Quand tu viendras à Montréal, on ira au marché.", "en": "When you come to Montréal, we'll go to the market." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["citoyen", "passeport", "voter", "preter-serment", "ceremonie", "il-faudra", "tu-verras", "pour-la-premiere-fois"] },
+        { "type": "deepdive", "kind": "why", "title": "Why the future after quand?",
+          "body": "French is logical here: if the action **will** happen, it is in the future, whatever word comes before it. [[Quand je serai citoyenne]] is literally *when I will be a citizen*. The same goes for [[lorsque]] (a more formal *when*) and [[dès que]] (as soon as): [[Dès que j'aurai mon passeport, je réserverai mon billet.]]\n\nBut with [[si]] (if), French uses the **present**, like English: [[Si je réussis, je serai content.]]",
+          "examples": [ { "fr": "Si tu veux, tu viendras avec moi.", "en": "If you want, you'll come with me." } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Present after quand:** [[Quand je suis citoyenne, je voterai]] → [[Quand je serai citoyenne, je voterai]].\n- **One r instead of two:** [[je pourai]] → [[je pourrai]]; [[je verai]] → [[je verrai]].\n- **Regular stem for aller:** [[j'allerai]] → [[j'irai]].\n- **Serai or saurai?** [[je serai]] = I will be (être); [[je saurai]] = I will know (savoir).\n- **Il faudra with a person:** [[je faudrai]] doesn't exist. Say [[je devrai]] (I'll have to) or [[il faudra]].\n- **Ferai** is pronounced *fe-ré*, like the first syllable of [[faisait]], not *fai-ré*." },
+        { "type": "deepdive", "kind": "canada", "title": "Citizenship ceremonies",
+          "body": "At a citizenship ceremony, new citizens take the **oath of citizenship** ([[prêter serment]]), in English or French, and receive proof of citizenship. Family and friends can often attend. Procedures change (some ceremonies are online), so always follow your invitation letter and the official IRCC website.\n\nFun fact: the French lyrics of [[Ô Canada]] are **not a translation** of the English ones. They were written first, in 1880, by Adolphe-Basile Routhier (music by Calixa Lavallée), and the English words, written later, say quite different things." }
+      ] },
+    { "type": "hear", "title": "Hear the irregular futures",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je serai enfin canadienne.", "en": "I'll finally be Canadian." },
+            { "fr": "Quand j'aurai mon passeport, j'irai au Maroc.", "en": "When I have my passport, I'll go to Morocco.", "tip": "j'irai: zhi-ré, two syllables." },
+            { "fr": "Tu pourras voter.", "en": "You'll be able to vote.", "tip": "pourras: the double r is said as one r, pou-ra." },
+            { "fr": "Il faudra prendre des photos.", "en": "We'll have to take pictures." },
+            { "fr": "Tu verras, ce sera très émouvant.", "en": "You'll see, it'll be very moving." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Quand je serai à Toronto, je verrai mon frère.", "en": "When I'm in Toronto, I'll see my brother.", "prompt": "What will the speaker do in Toronto?", "options": ["See their brother", "Know their brother", "Be with their sister"], "answer": 0,
+          "explain": "[[je verrai]] = I will see (voir). [[Je saurai]] would be I will know." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il faudra arriver une demi-heure avant.", "en": "You'll have to arrive half an hour early.", "prompt": "What is the instruction?", "options": ["Arrive half an hour early", "Arrive half an hour late", "Leave after half an hour"], "answer": 0,
+          "explain": "[[Il faudra]] = it will be necessary. [[avant]] = before, early." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "L'année prochaine, nous ___ en vacances au Vietnam. (aller)", "answers": [["irons"]], "choices": ["irons", "allerons", "allons", "allions"], "en": "Next year, we will go on vacation to Vietnam.",
+          "explain": "aller → ir- + -ons. [[allerons]] doesn't exist." },
+        { "id": "r2", "type": "match", "prompt": "Match each infinitive with its future stem.", "pairs": [["être", "ser-"], ["avoir", "aur-"], ["faire", "fer-"], ["pouvoir", "pourr-"], ["venir", "viendr-"], ["voir", "verr-"]] },
+        { "id": "r3", "type": "cloze", "text": "Quand tu ___ à Ottawa, on visitera le Parlement. (venir)", "answers": [["viendras"]], "en": "When you come to Ottawa, we'll visit Parliament.",
+          "explain": "quand + future: [[tu viendras]], not *tu viens*." },
+        { "id": "r4", "type": "mcq", "prompt": "“When I have time, I'll go to the movies.” Which is correct?", "options": ["Quand j'aurai le temps, j'irai au cinéma.", "Quand j'ai le temps, j'irai au cinéma.", "Quand j'avais le temps, j'irai au cinéma."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "English uses the present, but French needs the future after quand: j'aurai.", "j'avais is the imparfait, a past tense."] },
+        { "id": "r5", "type": "translate", "prompt": "I will be able to vote for the first time.", "accept": ["Je pourrai voter pour la première fois.", "Pour la première fois, je pourrai voter."],
+          "hint": "pouvoir → pourr-", "explain": "[[je pourrai]] + infinitive." },
+        { "id": "r6", "type": "cloze", "text": "Vous ___ apporter votre lettre d'invitation. (devoir)", "answers": [["devrez"]], "choices": ["devrez", "devez", "deviez", "devoirez"], "en": "You will have to bring your invitation letter.",
+          "explain": "devoir → devr- + -ez. [[devez]] is the present, [[deviez]] the imparfait." },
+        { "id": "r7", "type": "translate", "prompt": "When I'm a citizen, I'll have a Canadian passport. (woman speaking)", "accept": ["Quand je serai citoyenne, j'aurai un passeport canadien.", "Quand je serai canadienne, j'aurai un passeport canadien.", "J'aurai un passeport canadien quand je serai citoyenne.", "Lorsque je serai citoyenne, j'aurai un passeport canadien.", "Quand je serai citoyenne canadienne, j'aurai un passeport canadien."],
+          "explain": "Future in both parts: [[quand je serai]], [[j'aurai]]." },
+        { "id": "r8", "type": "reorder", "prompt": "It will be very moving.", "accept": ["Ce sera très émouvant."], "extra": ["était"],
+          "explain": "[[ce sera]] = future of [[c'est]]. [[C'était]] is the past." },
+        { "id": "r9", "type": "cloze", "text": "Quand j'étais petite, je ___ devenir chanteuse. Bientôt, je ___ chanter l'hymne national ! (vouloir, savoir)", "answers": [["voulais"], ["saurai"]], "en": "When I was little, I wanted to become a singer. Soon I'll know how to sing the national anthem!",
+          "explain": "A past wish → imparfait ([[je voulais]], unit 3). A future ability → [[je saurai]] (savoir → saur-)." },
+        { "id": "r10", "type": "dictation", "fr": "Il faudra apporter deux pièces d'identité.", "accept": [],
+          "explain": "[[il faudra]] = we'll have to / it will be necessary. [[Une pièce d'identité]] = a piece of ID." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Imagine a big step in your future in Canada (citizenship, a diploma, a new job, buying a home). Write what you will do when it happens. Use quand + futur at least twice.", "promptFr": "Quand je serai…, je…",
+          "wordRange": [40, 80],
+          "checklist": ["Quand + futur, futur (at least twice)", "At least four different irregular stems: serai, aurai, irai, ferai, pourrai…", "Il faudra… for something you'll have to do", "One feeling: je serai content / contente, fier / fière"],
+          "models": [ { "label": "Model answer", "fr": "Quand je serai citoyen, je serai très fier. Il faudra fêter ça ! Je ferai une grande fête avec mes amis. Quand j'aurai mon passeport, j'irai en Inde avec mes enfants : ils verront la maison de mes parents. Et quand il y aura des élections, je pourrai voter pour la première fois.",
+            "en": "When I'm a citizen, I'll be very proud. We'll have to celebrate! I'll throw a big party with my friends. When I have my passport, I'll go to India with my children: they'll see my parents' house. And when there's an election, I'll be able to vote for the first time." } ] },
+        { "id": "s1", "type": "speak", "prompt": "A friend is nervous about their citizenship ceremony. Reassure them in about 30 seconds: say what will happen, what they will have to bring, and how they will feel.", "seconds": 30,
+          "checklist": ["Il faudra apporter…", "Tu devras / tu pourras…", "Ce sera…", "Quand tu seras citoyen / citoyenne, tu…"],
+          "models": [ { "label": "Model answer", "fr": "Tu verras, ce sera très facile ! Il faudra arriver un peu avant et apporter ta lettre. Tu prêteras serment et tu chanteras « Ô Canada ». Ta famille pourra venir avec toi. Et quand tu seras citoyenne, on fera une fête !",
+            "en": "You'll see, it'll be very easy! You'll need to arrive a little early and bring your letter. You'll take the oath and sing “O Canada”. Your family will be able to come with you. And when you're a citizen, we'll throw a party!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use the key irregular futures: [[je serai, j'aurai, j'irai, je ferai, je pourrai, je voudrai, je devrai, je viendrai, je verrai, je saurai, il faudra]]\n- Remember the endings never change, and every stem ends in **r**\n- Use the future after **quand**: [[Quand je serai citoyenne, je voterai.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed vous from an item glossed (to a friend); Ô Canada note now credits Routhier/Lavallée (1880); oath in English or French; fixed 'Maintenant + futur' in r9 and a pronunciation tip." }
+}

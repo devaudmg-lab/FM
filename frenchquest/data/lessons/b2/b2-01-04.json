@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-01-04",
+  "level": "b2",
+  "unit": "b2-01",
+  "title": "Certainty and doubt",
+  "goal": "Express degrees of certainty and doubt in an argument, using the indicative after certainty (je suis convaincu que) and the present subjunctive after doubt (je doute que, il est peu probable que).",
+  "minutes": 15,
+  "items": [
+    { "id": "g-subj-formation", "kind": "grammar", "fr": "que je parle, que nous parlions (subjonctif présent)", "en": "forming the present subjunctive (regular verbs)",
+      "drills": [
+        { "type": "cloze", "text": "Je doute qu'ils ___ (finir) à temps.", "answers": [["finissent"]], "en": "I doubt that they'll finish on time.", "explain": "Stem from [[ils finissent]] → [[finiss-]], + ending [[-ent]]: [[qu'ils finissent]]." },
+        { "type": "cloze", "text": "Il est peu probable que nous ___ (attendre) longtemps.", "answers": [["attendions"]], "en": "It's unlikely that we'll wait long.", "explain": "[[nous]] and [[vous]] look like the imparfait: [[que nous attendions]]." },
+        { "type": "cloze", "text": "Je ne pense pas qu'elle ___ (choisir) ce poste.", "answers": [["choisisse"]], "en": "I don't think she'll choose this job.", "explain": "[[ils choisissent]] → [[choisiss-]] + [[-e]]: [[qu'elle choisisse]]." }
+      ] },
+    { "id": "g-subj-irreguliers", "kind": "grammar", "fr": "être, avoir, faire, aller, pouvoir au subjonctif", "en": "five key irregular subjunctives",
+      "drills": [
+        { "type": "cloze", "text": "Je doute que ce ___ une bonne idée.", "answers": [["soit"]], "choices": ["soit", "est", "sera", "ait"], "en": "I doubt that it's a good idea.", "explain": "[[être]] → [[que ce soit]]." },
+        { "type": "cloze", "text": "Il est peu probable qu'un robot ___ remplacer une infirmière.", "answers": [["puisse"]], "en": "It's unlikely that a robot could replace a nurse.", "explain": "[[pouvoir]] → [[qu'il puisse]]." },
+        { "type": "cloze", "text": "Je ne suis pas sûr que l'IA ___ disparaître le travail.", "answers": [["fasse"]], "en": "I'm not sure AI will make work disappear.", "explain": "[[faire]] → [[qu'elle fasse]]." },
+        { "type": "cloze", "text": "Il se peut que nous ___ besoin de formation.", "answers": [["ayons"]], "en": "We may need training.", "explain": "[[avoir]] → [[que nous ayons]] (no i after y)." }
+      ] },
+    { "id": "g-certitude-doute", "kind": "grammar", "fr": "certitude + indicatif / doute + subjonctif", "en": "certainty takes the indicative, doubt takes the subjunctive",
+      "drills": [
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Je suis convaincue que l'IA va transformer nos métiers.", "Je suis convaincue que l'IA aille transformer nos métiers.", "Je doute que l'IA va transformer nos métiers."], "optionsFr": true, "answer": 0, "explain": "Certainty → indicative ([[va]]). Doubt → subjunctive: [[je doute qu'elle aille…]]." },
+        { "type": "mcq", "prompt": "“Il est probable que…” is followed by:", "options": ["the indicative", "the subjunctive", "an infinitive"], "answer": 0, "explain": "Surprise: [[il est probable que]] (likely) is close enough to certainty → indicative. Only [[il est peu probable que]] (unlikely) takes the subjunctive." }
+      ] },
+    { "id": "je-suis-convaincu-que", "kind": "phrase", "fr": "Je suis convaincu que…", "en": "I'm convinced that… (+ indicative)", "accept": ["Je suis convaincue que…", "Je suis persuadé que…", "Je suis persuadée que…"], "note": "Woman speaking: [[convaincue]]." },
+    { "id": "il-est-evident-que", "kind": "phrase", "fr": "Il est évident que…", "en": "It's obvious that… (+ indicative)", "accept": ["Il est clair que…", "Il va de soi que…"] },
+    { "id": "il-est-probable-que", "kind": "phrase", "fr": "Il est probable que…", "en": "It's likely that… (+ indicative)", "accept": ["Il est fort probable que…"] },
+    { "id": "je-doute-que", "kind": "phrase", "fr": "Je doute que…", "en": "I doubt that… (+ subjunctive)", "example": { "fr": "Je doute que ce soit possible.", "en": "I doubt that it's possible." } },
+    { "id": "il-est-peu-probable-que", "kind": "phrase", "fr": "Il est peu probable que…", "en": "It's unlikely that… (+ subjunctive)", "accept": ["Il est improbable que…"] },
+    { "id": "il-se-peut-que", "kind": "phrase", "fr": "Il se peut que…", "en": "It may be that…, it's possible that… (+ subjunctive)", "accept": ["Il est possible que…"],
+      "example": { "fr": "Il se peut que nous ayons besoin de formation.", "en": "We may need training." } },
+    { "id": "je-ne-suis-pas-sur-que", "kind": "phrase", "fr": "Je ne suis pas sûr que…", "en": "I'm not sure that… (+ subjunctive)", "accept": ["Je ne suis pas sûre que…", "Je ne suis pas certain que…", "Je ne suis pas certaine que…"] },
+    { "id": "sans-aucun-doute", "kind": "phrase", "fr": "sans aucun doute", "en": "without any doubt, undoubtedly", "accept": ["sans nul doute", "indéniablement"], "note": "Careful: [[sans doute]] alone means *probably*, not *without doubt*!" },
+    { "id": "intelligence-artificielle", "kind": "vocab", "fr": "intelligence artificielle", "article": "l'", "gender": "f", "en": "artificial intelligence (AI)", "pos": "noun", "accept": ["une intelligence artificielle", "l'IA"], "note": "Abbreviation: [[l'IA]] (pronounced [i.a])." },
+    { "id": "metier", "kind": "vocab", "fr": "métier", "article": "un", "gender": "m", "en": "trade, occupation, profession", "pos": "noun", "accept": ["le métier"],
+      "example": { "fr": "L'IA va transformer presque tous les métiers.", "en": "AI is going to transform almost every occupation." } },
+    { "id": "remplacer", "kind": "vocab", "fr": "remplacer", "en": "to replace", "pos": "verb",
+      "example": { "fr": "Les machines ne remplaceront pas les infirmières.", "en": "Machines won't replace nurses." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Will AI take our jobs?",
+      "intro": "A strong argument isn't 100 % certain about everything. It shows **how sure** you are about each claim. In this interview, watch the verb that follows each expression: something changes after doubt.",
+      "blocks": [
+        { "type": "text", "title": "« L'IA va-t-elle voler nos emplois ? »",
+          "context": "An interview in a Canadian business magazine with Catherine Lévesque, an economist who studies the job market.",
+          "fr": "— Beaucoup de travailleurs craignent de perdre leur emploi à cause de l'intelligence artificielle. Ont-ils raison ?\n\n— Je suis convaincue que l'IA va transformer presque tous les métiers. Par contre, je doute qu'elle fasse disparaître le travail lui-même. Chaque révolution technologique a détruit des emplois, mais elle en a aussi créé de nouveaux. Il est évident que certaines tâches répétitives, comme la saisie de données, vont être automatisées.\n\n— Quels métiers sont les plus menacés ?\n\n— Il est probable que les emplois de bureau seront touchés les premiers : service à la clientèle, traduction simple, comptabilité de base. À l'inverse, il est peu probable qu'un robot puisse remplacer une infirmière ou un électricien dans les prochaines années. Ces métiers demandent une présence physique, du jugement et de l'empathie.\n\n— Les entreprises vont-elles former leurs employés ?\n\n— Certaines le font déjà. Mais je ne suis pas sûre que toutes les entreprises choisissent cette voie : pour une PME, la formation coûte cher. Il se peut que les gouvernements aient un rôle important à jouer, et franchement, je ne pense pas qu'ils soient prêts.\n\n— Que conseillez-vous aux nouveaux arrivants ?\n\n— D'apprendre à utiliser ces outils plutôt que de les craindre. Je ne crois pas que la technologie aille plus vite que notre capacité d'adaptation, à condition de s'y préparer. Sans aucun doute, ceux qui sauront s'en servir auront un avantage sur le marché du travail.",
+          "en": "— Many workers fear losing their jobs because of artificial intelligence. Are they right?\n\n— I'm convinced that AI is going to transform almost every occupation. On the other hand, I doubt that it will make work itself disappear. Every technological revolution has destroyed jobs, but it has also created new ones. It is obvious that some repetitive tasks, like data entry, are going to be automated.\n\n— Which jobs are the most threatened?\n\n— It is likely that office jobs will be affected first: customer service, simple translation, basic accounting. On the other hand, it's unlikely that a robot could replace a nurse or an electrician in the coming years. These jobs require a physical presence, judgment and empathy.\n\n— Will companies train their employees?\n\n— Some already do. But I'm not sure that all companies will choose that path: for a small business, training is expensive. Governments may have an important role to play, and frankly, I don't think they're ready.\n\n— What do you advise newcomers?\n\n— To learn to use these tools rather than fear them. I don't believe technology is moving faster than our capacity to adapt, provided we prepare for it. Without any doubt, those who know how to use them will have an advantage on the job market." },
+        { "type": "dialogue", "title": "At the translation agency",
+          "context": "Alex, a translator in Montréal, has just read the interview. He talks with his colleague Mei during the coffee break.",
+          "lines": [
+            { "speaker": "Alex", "fr": "Tu as lu l'entrevue ? « Traduction simple » dans la liste des métiers menacés. Super pour le moral…", "en": "Did you read the interview? “Simple translation” in the list of threatened jobs. Great for morale…" },
+            { "speaker": "Mei", "fr": "Elle a dit « simple ». Je doute qu'une machine puisse traduire un contrat juridique sans erreur.", "en": "She said “simple”. I doubt that a machine can translate a legal contract without mistakes." },
+            { "speaker": "Alex", "fr": "Pour l'instant. Mais je suis sûr que les outils vont s'améliorer très vite.", "en": "For now. But I'm sure the tools are going to improve very fast." },
+            { "speaker": "Mei", "fr": "Sans doute. Mais il faudra toujours quelqu'un pour vérifier. Il est peu probable que les clients fassent confiance à une machine pour un document important.", "en": "Probably. But someone will always be needed to check. It's unlikely that clients will trust a machine with an important document." },
+            { "speaker": "Alex", "fr": "Tu es bien optimiste. Il se peut que les clients choisissent simplement l'option la moins chère.", "en": "You're very optimistic. Clients may simply choose the cheapest option." },
+            { "speaker": "Mei", "fr": "Certains, oui. Mais je ne pense pas que ce soit la fin de notre métier. Il est probable qu'on deviendra plutôt des réviseurs.", "en": "Some, yes. But I don't think it's the end of our profession. It's likely that we'll become revisers instead." },
+            { "speaker": "Alex", "fr": "Réviseur… Je ne suis pas sûr que ça me plaise autant.", "en": "Reviser… I'm not sure I'll like that as much." },
+            { "speaker": "Mei", "fr": "Alors suis le conseil de l'économiste : apprends à t'en servir avant les autres !", "en": "Then follow the economist's advice: learn to use it before the others do!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What is Catherine Lévesque certain about?", "options": ["AI will transform almost every occupation", "AI will make work disappear", "Robots will replace nurses soon", "Governments are ready"], "answer": 0,
+          "explain": "[[Je suis convaincue que l'IA va transformer…]]: certainty, so the indicative [[va]]." },
+        { "id": "d2", "type": "mcq", "prompt": "In “Je doute qu'elle fasse disparaître le travail”, why “fasse” and not “fait”?", "options": ["Because doubt is followed by the subjunctive", "Because it's in the past", "Because elle is feminine", "Because it's a question"], "answer": 0,
+          "explain": "[[douter que]] expresses uncertainty → subjunctive: [[fasse]] is the subjunctive of [[faire]]." }
+      ] },
+    { "type": "understand", "title": "Sure or not sure? Choose the mood",
+      "intro": "This lesson is your first real meeting with the **present subjunctive** (le subjonctif présent). You'll see it in full in unit 06; here you learn how to form it and when doubt triggers it.",
+      "blocks": [
+        { "type": "table", "title": "The certainty scale",
+          "head": ["Degree", "Expression", "Mood"],
+          "rows": [
+            ["100 %", "Je suis convaincu / certain / sûr que… — Il est évident / clair que…", "indicative"],
+            ["about 80 %", "Il est probable que… — Je pense / crois que…", "indicative"],
+            ["50 %", "Il est possible que… — Il se peut que…", "subjunctive"],
+            ["about 20 %", "Il est peu probable que… — Je ne pense pas / Je ne crois pas que…", "subjunctive"],
+            ["doubt", "Je doute que… — Je ne suis pas sûr que…", "subjunctive"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "The rule of thumb: **when you present something as real or almost certain → indicative. When you present it as uncertain → subjunctive.** Without que, you can also use adverbs: [[peut-être]], [[probablement]], [[sans doute]] (= probably), [[sans aucun doute]] (= certainly)." },
+        { "type": "pattern", "title": "Forming the present subjunctive (regular verbs)",
+          "pattern": "stem of ils (present) minus -ent + -e, -es, -e, -ions, -iez, -ent",
+          "note": "**parler** → ils parlent → [[que je parle, que tu parles, qu'il parle, que nous parlions, que vous parliez, qu'ils parlent]].\n\nFor [[je, tu, il, ils]], the subjunctive of **-er verbs** sounds exactly like the present. For [[nous]] and [[vous]], it looks like the imparfait. The difference is easiest to hear with **-ir** and **-re** verbs.",
+          "examples": [
+            { "fr": "finir → ils finissent → que je finisse", "en": "finish" },
+            { "fr": "attendre → ils attendent → que j'attende", "en": "wait" },
+            { "fr": "choisir → ils choisissent → que tu choisisses", "en": "choose" },
+            { "fr": "partir → ils partent → qu'il parte", "en": "leave" },
+            { "fr": "parler → nous parlions, vous parliez", "en": "speak (nous, vous)" }
+          ] },
+        { "type": "table", "title": "Five irregular verbs to know now",
+          "head": ["", "être", "avoir", "faire", "aller", "pouvoir"],
+          "rows": [
+            ["que je / j'", "sois", "aie", "fasse", "aille", "puisse"],
+            ["que tu", "sois", "aies", "fasses", "ailles", "puisses"],
+            ["qu'il / elle", "soit", "ait", "fasse", "aille", "puisse"],
+            ["que nous", "soyons", "ayons", "fassions", "allions", "puissions"],
+            ["que vous", "soyez", "ayez", "fassiez", "alliez", "puissiez"],
+            ["qu'ils / elles", "soient", "aient", "fassent", "aillent", "puissent"]
+          ],
+          "frCols": [0, 1, 2, 3, 4, 5], "sayCol": true,
+          "note": "[[aie]], [[aies]], [[ait]] and [[aient]] all sound the same: [ɛ]. [[soyons]] and [[ayons]] have **no i** after the y. [[aille]] sounds like [aj]." },
+        { "type": "explain", "title": "Negation and questions can change everything",
+          "body": "[[Je pense que]] and [[je crois que]] express belief → **indicative**. But when you **negate** them, you express doubt → **subjunctive**:\n\n- [[Je pense que c'est possible.]] (indicative)\n- [[Je ne pense pas que ce soit possible.]] (subjunctive)\n\nThe same goes for [[je suis sûr que]] → [[je ne suis pas sûr que]] + subjunctive.\n\nIn everyday speech, many French speakers use the indicative after [[je ne pense pas que]]. But in writing and in exams, the subjunctive shows a B2 level." },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["je-suis-convaincu-que", "il-est-evident-que", "il-est-probable-que", "je-doute-que", "il-est-peu-probable-que", "il-se-peut-que", "je-ne-suis-pas-sur-que", "sans-aucun-doute", "intelligence-artificielle", "metier", "remplacer"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Doubt traps",
+          "body": "- [[Il est probable qu'il vienne]] ✗ in careful French → [[Il est probable qu'il viendra]] ✓. Only **peu** probable takes the subjunctive.\n- [[sans doute]] = *probably*. [[Il viendra sans doute]] means “he'll probably come”, not “he'll certainly come”. For certainty: [[sans aucun doute]].\n- [[Je doute que]] + subjunctive, but [[Je me doute que]] (I suspect, I imagine) + **indicative**: [[Je me doutais que tu serais en retard.]]\n- [[peut-être que]] + **indicative**: [[Peut-être qu'il a raison.]] ✓, never [[peut-être qu'il ait raison]] ✗.\n- [[que nous soyions]] ✗ → [[que nous soyons]] ✓; [[que nous ayions]] ✗ → [[que nous ayons]] ✓.\n- Don't overuse the subjunctive: [[Je suis sûr qu'il soit là]] ✗ → [[Je suis sûr qu'il est là]] ✓." },
+        { "type": "deepdive", "kind": "why", "title": "Why does doubt need a different mood?",
+          "body": "The indicative presents an action as a **fact** in the real world. The subjunctive presents it as an **idea in someone's mind**: possible, wished for, feared, doubted, but not asserted as real.\n\nThat's why [[Je sais qu'il est là]] (I know: fact) uses the indicative, and [[Je doute qu'il soit là]] (I doubt: just an idea) uses the subjunctive. When you choose the mood, you're telling your listener how much you commit to the claim. In an argument, that's a powerful tool." },
+        { "type": "deepdive", "kind": "canada", "title": "IA, entrevue and Québec vocabulary",
+          "body": "Montréal is a world centre of AI research, so [[l'IA]] is everywhere in Québec media. Useful Québec terms: [[une entrevue]] (an interview; in France often [[une interview]]), [[un courriel]] (email), [[clavarder]] (to chat online; the Office québécois de la langue française proposes it, and [[clavardage]] is common).\n\nIn Canada, translators and revisers ([[réviseurs]]; in France you'll also hear [[relecteurs]]) are a big professional community because of official bilingualism: a very real example for a debate on AI and jobs." }
+      ] },
+    { "type": "hear", "title": "Hear the mood",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "With -ir and -re verbs, you can **hear** the subjunctive: [[ils finissent]] / [[qu'il finisse]] sounds different from [[il finit]].",
+          "lines": [
+            { "fr": "Je suis convaincue que l'IA va transformer nos métiers.", "en": "I'm convinced AI is going to transform our occupations." },
+            { "fr": "Je doute que ce soit la fin du travail.", "en": "I doubt that it's the end of work.", "tip": "[[soit]] [swa]: the t is silent." },
+            { "fr": "Il est peu probable qu'un robot puisse remplacer une infirmière.", "en": "It's unlikely that a robot could replace a nurse.", "tip": "[[puisse]] [pɥis]: the same [ɥi] as in [[huit]]." },
+            { "fr": "Il se peut que nous ayons besoin de formation.", "en": "We may need training.", "tip": "[[ayons]] [ɛ.jɔ̃]." },
+            { "fr": "Je ne pense pas qu'ils soient prêts.", "en": "I don't think they're ready." },
+            { "fr": "Je ne suis pas sûr qu'elle finisse à temps.", "en": "I'm not sure she'll finish on time." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Il est fort probable que les prix augmenteront l'an prochain, mais je doute que les salaires suivent.", "en": "It's very likely that prices will go up next year, but I doubt that salaries will follow.", "prompt": "What does the speaker believe?", "options": ["Prices will rise, salaries probably won't keep up", "Salaries will rise faster than prices", "Prices will fall", "Everything will stay the same"], "answer": 0,
+          "explain": "[[il est fort probable que… augmenteront]] (likely → indicative); [[je doute que… suivent]] (doubt → subjunctive)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Elle viendra sans doute, mais je ne suis pas certain qu'elle puisse rester tard.", "en": "She'll probably come, but I'm not sure she can stay late.", "prompt": "What is uncertain?", "options": ["Whether she can stay late", "Whether she will come", "Where she lives", "Nothing, everything is certain"], "answer": 0,
+          "explain": "[[sans doute]] = probably (she will come). [[je ne suis pas certain qu'elle puisse…]]: the doubt is about staying late." }
+      ] },
+    { "type": "recall", "title": "Choose your mood",
+      "intro": "Ten questions. For each one, ask yourself: is this presented as real, or as uncertain?",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je doute que le gouvernement ___ prêt.", "answers": [["soit"]], "choices": ["soit", "est", "sera", "a"], "en": "I doubt that the government is ready.",
+          "explain": "Doubt → subjunctive of [[être]]: [[soit]]." },
+        { "id": "r2", "type": "cloze", "text": "Je suis convaincu que la formation ___ (être) essentielle.", "answers": [["est", "sera"]], "en": "I'm convinced that training is essential.",
+          "explain": "Certainty → indicative: [[est]] (or [[sera]] for the future)." },
+        { "id": "r3", "type": "cloze", "text": "Il est peu probable qu'ils ___ (pouvoir) venir.", "answers": [["puissent"]], "en": "It's unlikely that they can come.",
+          "explain": "[[pouvoir]] → [[qu'ils puissent]]." },
+        { "id": "r4", "type": "mcq", "prompt": "Which sentence is correct in careful French?", "options": ["Il est probable qu'elle viendra.", "Il est probable qu'elle vienne.", "Il est peu probable qu'elle viendra.", "Peut-être qu'elle vienne."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Il est probable (likely) takes the indicative.", "Peu probable takes the subjunctive: qu'elle vienne.", "Peut-être que takes the indicative."] },
+        { "id": "r5", "type": "translate", "prompt": "I doubt that it's possible.", "accept": ["Je doute que ce soit possible.", "Je doute que cela soit possible.", "Je doute que ça soit possible."],
+          "explain": "[[douter que]] + [[ce soit]]." },
+        { "id": "r6", "type": "translate", "prompt": "I don't think they're ready.", "accept": ["Je ne pense pas qu'ils soient prêts.", "Je ne crois pas qu'ils soient prêts.", "Je ne pense pas qu'elles soient prêtes.", "Je ne crois pas qu'elles soient prêtes."], "hint": "Negated opinion → subjunctive.",
+          "explain": "[[je ne pense pas que]] + subjunctive: [[qu'ils soient]]." },
+        { "id": "r7", "type": "cloze", "text": "Il se peut que nous ___ (faire) une erreur.", "answers": [["fassions"]], "en": "We may be making a mistake.",
+          "explain": "[[faire]] → [[que nous fassions]]." },
+        { "id": "r8", "type": "match", "prompt": "Match each verb with its subjunctive (il/elle form).", "pairs": [["être", "qu'il soit"], ["avoir", "qu'il ait"], ["aller", "qu'il aille"], ["finir", "qu'il finisse"], ["pouvoir", "qu'il puisse"]] },
+        { "id": "r9", "type": "reorder", "prompt": "I'm not sure she'll finish on time. (man speaking)", "accept": ["Je ne suis pas sûr qu'elle finisse à temps"], "extra": ["finit", "sûre"],
+          "explain": "[[pas sûr que]] + subjunctive: [[finisse]], not [[finit]]." },
+        { "id": "r10", "type": "dictation", "fr": "Il est peu probable qu'un robot puisse remplacer une infirmière.", "accept": [], "explain": "[[peu probable]] → subjunctive [[puisse]]." }
+      ] },
+    { "type": "apply", "title": "Your turn: how sure are you?",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "TCF task 3 style: “Dans vingt ans, travaillerons-nous moins grâce à l'intelligence artificielle ?” Give your view in about 90 seconds, showing different degrees of certainty.", "promptFr": "Dans vingt ans, travaillerons-nous moins grâce à l'intelligence artificielle ?", "seconds": 90,
+          "checklist": ["One certainty with the indicative (je suis convaincu que, il est évident que)", "At least two doubts with the subjunctive (je doute que, il est peu probable que, je ne pense pas que)", "At least two different irregular subjunctives (soit, ait, fasse, aille, puisse)", "A concession from lesson 2", "A conclusion"],
+          "models": [
+            { "label": "Model answer", "fr": "C'est une question difficile. Il est évident que l'IA va changer notre façon de travailler : elle fait déjà beaucoup de tâches répétitives à notre place. Par contre, je doute que nous travaillions vraiment moins. Chaque fois qu'une technologie nous fait gagner du temps, les entreprises nous demandent d'en faire plus. Il est peu probable que les patrons offrent la semaine de trois jours simplement parce que l'IA est efficace. Certes, il se peut que certains pays fassent ce choix, mais je ne pense pas que ce soit la règle. En définitive, je suis convaincu que nous travaillerons autrement, mais pas forcément moins.", "en": "It's a difficult question. It's obvious that AI is going to change the way we work: it already does many repetitive tasks for us. On the other hand, I doubt we'll really work less. Every time a technology saves us time, companies ask us to do more. It's unlikely that bosses will offer a three-day week simply because AI is efficient. Admittedly, some countries may make that choice, but I don't think it will be the rule. Ultimately, I'm convinced we'll work differently, but not necessarily less." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write a comment under the interview with Catherine Lévesque. Say what you are certain of, what you doubt, and why.", "promptFr": "Réagissez à l'entrevue de Catherine Lévesque : de quoi êtes-vous sûr ? De quoi doutez-vous ?",
+          "wordRange": [120, 180],
+          "checklist": ["Refer to one idea from the interview", "Two certainties (indicative)", "Two doubts (subjunctive), including one negated opinion verb", "Peut-être que or sans doute used correctly", "A personal example"],
+          "models": [
+            { "label": "Model answer", "fr": "Merci pour cette entrevue très intéressante. Je suis d'accord avec Mme Lévesque sur un point : il est évident que l'IA va transformer nos métiers. Je travaille au service à la clientèle d'une banque, et un robot conversationnel répond déjà à la moitié des questions des clients.\n\nPar contre, je doute que les entreprises forment tous leurs employés. Dans ma banque, seuls les cadres ont reçu une formation. Je ne pense pas que ce soit juste, et il est peu probable que les choses changent sans l'aide du gouvernement.\n\nPeut-être que je suis trop pessimiste. L'économiste a sans doute raison quand elle dit qu'il faut apprendre à utiliser ces outils. C'est ce que je fais : je suis un cours en ligne le soir. Je suis convaincu que c'est la meilleure façon de garder mon emploi.", "en": "Thank you for this very interesting interview. I agree with Ms. Lévesque on one point: it's obvious that AI is going to transform our occupations. I work in customer service at a bank, and a chatbot already answers half of the customers' questions.\n\nOn the other hand, I doubt that companies will train all their employees. At my bank, only managers have received training. I don't think it's fair, and it's unlikely that things will change without government help.\n\nMaybe I'm too pessimistic. The economist is probably right when she says we must learn to use these tools. That's what I'm doing: I take an online course in the evening. I'm convinced it's the best way to keep my job." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Certainty → indicative: [[je suis convaincu que]], [[il est évident que]], [[il est probable que]]\n- Doubt → subjunctive: [[je doute que]], [[il est peu probable que]], [[il se peut que]], [[je ne pense pas que]]\n- Form the present subjunctive from the ils stem: [[qu'il finisse]], [[que nous attendions]]\n- Know [[soit]], [[ait]], [[fasse]], [[aille]], [[puisse]] (and their full forms); [[sans doute]] = probably",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Checked subjunctive forms, mood choices and answer keys; all correct. Only softened the réviseur/relecteur note." }
+}

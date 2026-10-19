@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-07-01",
+  "level": "b2",
+  "unit": "b2-07",
+  "title": "Reformulating",
+  "goal": "Rephrase an idea to make it clearer, more precise or shorter, with autrement dit, c'est-à-dire, en d'autres termes, à savoir and their cousins.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-reformulation", "kind": "grammar", "fr": "idée + reformulateur + idée plus claire", "en": "reformulation markers: saying the same thing in other words",
+      "drills": [
+        { "type": "cloze", "text": "Le bail se renouvelle automatiquement, ___, vous n'avez rien à signer.", "answers": [["autrement dit", "c'est-à-dire", "en d'autres termes"]], "choices": ["autrement dit", "à savoir", "pourtant"], "en": "The lease renews automatically; in other words, you have nothing to sign.", "explain": "[[autrement dit]] restates the idea in simpler terms. [[à savoir]] would need a list or a precise detail after it." },
+        { "type": "cloze", "text": "Deux documents sont exigés, ___ une pièce d'identité et une preuve d'adresse.", "answers": [["à savoir", "c'est-à-dire", "soit"]], "choices": ["à savoir", "bref", "or"], "en": "Two documents are required, namely an ID and a proof of address.", "explain": "[[à savoir]] announces the precise items of what you just mentioned." },
+        { "type": "mcq", "prompt": "Which sentence uses “soit” correctly, as a reformulation?", "options": ["Le contrat dure trois ans, soit 36 mois.", "Soit le contrat dure trois ans.", "Le contrat dure trois ans, soit que 36 mois.", "Le contrat soit dure trois ans."], "optionsFr": true, "answer": 0, "explain": "In formal writing, [[soit]] (pronounced [swa]) introduces an exact equivalent, often a number: [[trois ans, soit 36 mois]]." }
+      ] },
+    { "id": "autrement-dit", "kind": "phrase", "fr": "autrement dit", "en": "in other words (the everyday choice)", "accept": ["en d'autres termes", "c'est-à-dire"],
+      "example": { "fr": "Il faut répondre dans un mois. Autrement dit, vous avez jusqu'au 30 avril.", "en": "You have to reply within a month. In other words, you have until April 30." } },
+    { "id": "c-est-a-dire", "kind": "phrase", "fr": "c'est-à-dire", "en": "that is to say, i.e.", "accept": ["c'est-à-dire que", "c.-à-d."],
+      "note": "Always with two hyphens. Before a full clause: [[c'est-à-dire que…]]. Abbreviation: [[c.-à-d.]]" },
+    { "id": "en-d-autres-termes", "kind": "phrase", "fr": "en d'autres termes", "en": "to put it another way (more formal)", "accept": ["autrement dit"],
+      "note": "You'll also hear [[en d'autres mots]], especially in Canada. It's understood everywhere, but [[en d'autres termes]] is safer in formal writing." },
+    { "id": "a-savoir", "kind": "phrase", "fr": "à savoir", "en": "namely (before a list or a precise detail)", "accept": ["c'est-à-dire", "soit"],
+      "example": { "fr": "Trois villes sont candidates, à savoir Québec, Gatineau et Sherbrooke.", "en": "Three cities are candidates, namely Québec City, Gatineau and Sherbrooke." } },
+    { "id": "soit", "kind": "phrase", "fr": "soit", "en": "that is (before an exact equivalent, often a figure; formal)", "accept": ["c'est-à-dire"],
+      "example": { "fr": "Le loyer augmente de 60 $, soit 4 %.", "en": "The rent goes up by 60 dollars, that is 4 percent." },
+      "note": "Pronounced [swa] in this use, never [swat]." },
+    { "id": "ou-plutot", "kind": "phrase", "fr": "ou plutôt", "en": "or rather (to correct yourself)",
+      "example": { "fr": "C'est une augmentation, ou plutôt un ajustement.", "en": "It's an increase, or rather an adjustment." } },
+    { "id": "plus-precisement", "kind": "phrase", "fr": "plus précisément", "en": "more precisely", "accept": ["pour être plus précis", "pour être plus précise"] },
+    { "id": "bref", "kind": "phrase", "fr": "bref", "en": "in short (to sum up quickly)", "accept": ["en bref", "en somme", "en résumé"] },
+    { "id": "ce-que-je-veux-dire", "kind": "phrase", "fr": "Ce que je veux dire, c'est que…", "en": "What I mean is that…", "accept": ["Ce que je veux dire, c'est que", "Je veux dire que…"] },
+    { "id": "en-clair", "kind": "phrase", "fr": "en clair", "en": "to put it plainly", "accept": ["pour le dire simplement", "pour faire simple"] },
+    { "id": "je-m-explique", "kind": "phrase", "fr": "Je m'explique.", "en": "Let me explain. (before you clarify)", "accept": ["Je m'explique"] },
+    { "id": "reformuler", "kind": "vocab", "fr": "reformuler", "en": "to rephrase", "pos": "verb",
+      "example": { "fr": "Pourriez-vous reformuler votre question ?", "en": "Could you rephrase your question?" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Explaining a rule clearly",
+      "intro": "Precise writers don't only use precise words: they also **restate** a difficult idea in a second, clearer way. Read this column from a newcomers' newsletter in Montréal and spot every time the writer says the same thing twice.",
+      "blocks": [
+        { "type": "text", "title": "La question du mois : mon propriétaire peut-il augmenter mon loyer ?",
+          "context": "A column in a community newsletter. Lucie Gagnon, a housing advisor, answers a reader's question.",
+          "fr": "Chaque printemps, de nombreux locataires reçoivent un avis d'augmentation de loyer. Faut-il s'inquiéter ? Pas forcément. Je m'explique.\n\nAu Québec, la plupart des baux durent douze mois et se renouvellent automatiquement. Autrement dit, si personne ne fait rien, vous gardez votre logement aux mêmes conditions. Pour modifier le loyer, le propriétaire doit vous envoyer un avis écrit entre trois et six mois avant la fin du bail, c'est-à-dire entre le 1er janvier et le 31 mars pour un bail qui se termine le 30 juin.\n\nVous avez alors un mois pour répondre. Trois choix s'offrent à vous, à savoir accepter l'augmentation, la refuser tout en restant dans le logement, ou quitter le logement à la fin du bail. Attention : si vous ne répondez pas, vous êtes réputé avoir accepté. En d'autres termes, le silence vaut acceptation.\n\nPrenons un exemple. Votre loyer passe de 1 200 $ à 1 290 $, soit une hausse de 7,5 %. Vous trouvez cette hausse excessive, ou plutôt injustifiée, puisque rien n'a été rénové. Vous pouvez la refuser. Le propriétaire pourra alors demander au Tribunal administratif du logement (TAL) de fixer le loyer.\n\nBref, ne paniquez pas, mais ne laissez pas passer le délai. Et vérifiez toujours les règles à jour sur le site du TAL.",
+          "en": "Every spring, many tenants receive a notice of rent increase. Should you worry? Not necessarily. Let me explain.\n\nIn Québec, most leases last twelve months and renew automatically. In other words, if nobody does anything, you keep your apartment on the same terms. To change the rent, the landlord must send you a written notice between three and six months before the end of the lease, that is, between January 1 and March 31 for a lease that ends on June 30.\n\nYou then have one month to reply. You have three choices, namely accepting the increase, refusing it while staying in the apartment, or leaving the apartment at the end of the lease. Careful: if you don't reply, you are deemed to have accepted. To put it another way, silence means acceptance.\n\nLet's take an example. Your rent goes from 1,200 dollars to 1,290 dollars, that is, a 7.5 percent increase. You find this increase excessive, or rather unjustified, since nothing has been renovated. You can refuse it. The landlord can then ask the Tribunal administratif du logement (TAL, the housing tribunal) to set the rent.\n\nIn short, don't panic, but don't miss the deadline. And always check the current rules on the TAL website." },
+        { "type": "dialogue", "title": "After reading the column",
+          "context": "Karim and his neighbour Mei talk in the hallway of their building.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Tu as reçu la lettre du propriétaire, toi aussi ?", "en": "Did you get the landlord's letter too?" },
+            { "speaker": "Karim", "fr": "Oui. Il veut 90 $ de plus par mois, soit plus de 1 000 $ par année.", "en": "Yes. He wants 90 dollars more a month, that is more than 1,000 dollars a year." },
+            { "speaker": "Mei", "fr": "Et si on ne répond pas, qu'est-ce qui se passe ?", "en": "And if we don't reply, what happens?" },
+            { "speaker": "Karim", "fr": "On accepte, en fait. Autrement dit, il faut répondre avant le 15 avril.", "en": "We accept, actually. In other words, we have to reply before April 15." },
+            { "speaker": "Mei", "fr": "Ce que je ne comprends pas, c'est le refus. Ça veut dire qu'on doit partir ?", "en": "What I don't understand is refusing. Does that mean we have to leave?" },
+            { "speaker": "Karim", "fr": "Non, justement. Refuser, c'est-à-dire dire non à l'augmentation, ce n'est pas quitter le logement. On reste, et si le propriétaire insiste, c'est le tribunal qui décide.", "en": "No, that's exactly the point. Refusing, that is, saying no to the increase, isn't the same as leaving. We stay, and if the landlord insists, the tribunal decides." },
+            { "speaker": "Mei", "fr": "Bref, on a le droit de dire non.", "en": "In short, we have the right to say no." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "In the column, what does “En d'autres termes, le silence vaut acceptation” do?", "options": ["It restates the previous sentence in a short, memorable way", "It adds a new rule", "It contradicts the previous sentence"], "answer": 0,
+          "explain": "The writer has just said that no reply counts as acceptance. [[En d'autres termes]] repeats it as a short formula the reader will remember." },
+        { "id": "d2", "type": "mcq", "prompt": "In “1 290 $, soit une hausse de 7,5 %”, what does “soit” introduce?", "options": ["The same increase expressed another way (a percentage)", "A second, different increase", "A choice between two options"], "answer": 0,
+          "explain": "[[soit]] gives an exact equivalent: 90 dollars on 1,200 is 7.5 percent. It's very common with figures in formal texts." }
+      ] },
+    { "type": "understand", "title": "Five ways to say it again",
+      "blocks": [
+        { "type": "explain", "title": "Why reformulate?",
+          "body": "At B2, you are expected to make complex ideas **easy to follow**. Reformulating does three jobs:\n\n- **Clarify**: restate a technical idea in plain words ([[autrement dit]], [[en clair]]).\n- **Specify**: name exactly what you meant ([[à savoir]], [[plus précisément]], [[soit]]).\n- **Correct or sum up**: adjust a word ([[ou plutôt]]) or close a paragraph ([[bref]]).\n\nExaminers and readers notice it immediately: a text that reformulates sounds controlled and thoughtful, not repetitive." },
+        { "type": "table", "title": "Reformulation markers",
+          "head": ["Marker", "Job", "Register", "Example"],
+          "rows": [
+            ["autrement dit", "clarify, simplify", "all registers", "Autrement dit, vous n'avez rien à signer."],
+            ["c'est-à-dire (que)", "explain a word or give a definition", "all registers", "un bail, c'est-à-dire un contrat de location"],
+            ["en d'autres termes", "restate more formally", "formal", "En d'autres termes, le silence vaut acceptation."],
+            ["à savoir", "name the items you announced", "formal, written", "deux pièces, à savoir un passeport et un bail"],
+            ["soit", "give an exact equivalent (often a number)", "formal, written", "trois ans, soit 36 mois"],
+            ["plus précisément", "zoom in on a detail", "all registers", "au printemps, plus précisément en mars"],
+            ["ou plutôt", "correct yourself", "all registers", "une hausse, ou plutôt un ajustement"],
+            ["en clair / pour le dire simplement", "make it plain", "spoken, journalistic", "En clair : répondez avant le 15 avril."],
+            ["bref / en somme", "sum up", "bref: spoken; en somme: neutral", "Bref, ne paniquez pas."]
+          ],
+          "frCols": [0, 3], "sayCol": false,
+          "note": "Punctuation: most markers are framed by commas. After a colon, [[à savoir]] and [[c'est-à-dire]] are often unnecessary; choose one or the other: [[trois choix, à savoir…]] or [[trois choix : …]]." },
+        { "type": "pattern", "title": "Restating with a full clause",
+          "pattern": "c'est-à-dire que / ce que je veux dire, c'est que / je m'explique : + clause",
+          "note": "When the reformulation is a full sentence, add [[que]] after [[c'est-à-dire]]. In speech, [[Je m'explique.]] announces that a clarification is coming: it buys you time and keeps your listener with you.",
+          "examples": [
+            { "fr": "Le bail se renouvelle automatiquement, c'est-à-dire que vous gardez votre logement.", "en": "The lease renews automatically, which means you keep your apartment." },
+            { "fr": "Ce que je veux dire, c'est que le délai est très court.", "en": "What I mean is that the deadline is very short." },
+            { "fr": "Je ne suis pas contre l'augmentation. Je m'explique : je trouve seulement qu'elle arrive trop tôt.", "en": "I'm not against the increase. Let me explain: I just think it's coming too soon." },
+            { "fr": "Pourriez-vous reformuler ? Je ne suis pas sûre d'avoir bien compris.", "en": "Could you rephrase? I'm not sure I understood correctly." }
+          ] },
+        { "type": "vocab", "title": "Phrases for this lesson", "itemIds": ["autrement-dit", "c-est-a-dire", "en-d-autres-termes", "a-savoir", "soit", "ou-plutot", "plus-precisement", "bref", "ce-que-je-veux-dire", "en-clair", "je-m-explique", "reformuler"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common slips",
+          "body": "- **[[c'est à dire]]** ✗ → [[c'est-à-dire]] ✓: two hyphens, always.\n- **[[c'est-à-dire]] + full clause without [[que]]**: [[c'est-à-dire vous gardez votre logement]] ✗ → [[c'est-à-dire que vous gardez…]] ✓\n- **[[à savoir]] is not the verb [[savoir]]**: [[à savoir]] = namely. Don't confuse it with [[à vrai dire]] (to tell the truth).\n- **[[soit]] pronounced [swat]**: in this meaning it's always [swa]. The [swat] pronunciation is used when [[soit]] stands alone to mean “all right, so be it”: [[Soit.]]\n- **Repeating instead of reformulating**: [[Le délai est court. Autrement dit, le délai est court.]] ✗. The second version must add clarity: [[Autrement dit, vous avez quinze jours.]] ✓\n- **Too many markers**: one or two per paragraph is plenty. Five [[c'est-à-dire]] in a row sounds like you can't explain the first time." },
+        { "type": "deepdive", "kind": "why", "title": "Why does “soit” mean “that is”?",
+          "body": "[[Soit]] is the subjunctive of [[être]]: literally “let it be”. In mathematics, [[Soit un triangle ABC]] means “Let ABC be a triangle”. From there, it came to mean “that is to say” before an equivalent: [[trois ans, soit 36 mois]] = three years, let that be 36 months. The subjunctive you learned in Unit 06 is hiding in plain sight!" },
+        { "type": "deepdive", "kind": "canada", "title": "Reformulating in Québec",
+          "body": "- In everyday speech you'll constantly hear **[[genre]]** and **[[comme]]** (France and Québec), and in Québec **[[mettons]]**, used loosely to clarify or give an example: [[C'est cher, genre 1 300 $ par mois.]] / [[Mettons qu'on refuse…]] (let's say we refuse). They're informal: understand them, but keep them out of formal writing.\n- **[[en d'autres mots]]** is very common in Canada and widely accepted; in an exam or a formal letter, [[en d'autres termes]] or [[autrement dit]] is the safer choice.\n- In formal texts such as news reports and government documents, [[soit]] before amounts is very common: [[une aide de 500 $, soit 50 $ par mois]]." }
+      ] },
+    { "type": "hear", "title": "Hear the reformulation coming",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In speech, the voice usually drops slightly on the marker and rises again on the clearer version. Pause briefly after the marker.",
+          "lines": [
+            { "fr": "Autrement dit, vous avez jusqu'au 15 avril.", "en": "In other words, you have until April 15." },
+            { "fr": "Un bail, c'est-à-dire un contrat de location.", "en": "A lease, that is, a rental contract." },
+            { "fr": "En d'autres termes, le silence vaut acceptation.", "en": "To put it another way, silence means acceptance." },
+            { "fr": "Le loyer augmente de 60 $, soit 5 %.", "en": "The rent goes up by 60 dollars, that is 5 percent.", "tip": "Say [swa], with no t." },
+            { "fr": "Je m'explique.", "en": "Let me explain." },
+            { "fr": "Ce que je veux dire, c'est que le délai est court.", "en": "What I mean is that the deadline is short." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "La formation dure six semaines, autrement dit, vous aurez terminé avant la fin de l'été.", "en": "The training lasts six weeks; in other words, you'll have finished before the end of summer.", "prompt": "What does the reformulation tell you?", "options": ["The training will be over before the end of summer", "The training starts at the end of summer", "The training lasts all summer"], "answer": 0,
+          "explain": "After [[autrement dit]], the speaker translates “six weeks” into a practical consequence: [[vous aurez terminé avant la fin de l'été]] (future perfect)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Il nous manque deux documents, à savoir votre preuve de revenu et une copie de votre bail.", "en": "We're missing two documents, namely your proof of income and a copy of your lease.", "prompt": "Which documents are missing?", "options": ["Proof of income and a copy of the lease", "Passport and proof of address", "Lease and the landlord's notice"], "answer": 0,
+          "explain": "[[à savoir]] announces the exact list: [[votre preuve de revenu et une copie de votre bail]]." },
+        { "id": "h3", "type": "dictation", "fr": "Le délai est très court, c'est-à-dire que vous devez répondre cette semaine.", "accept": [],
+          "explain": "Two hyphens in [[c'est-à-dire]], and [[que]] before the full clause." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Some questions bring back concession and the subjunctive.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "You want to list the three conditions you just mentioned. Which marker fits best?", "options": ["Trois conditions sont nécessaires, à savoir…", "Trois conditions sont nécessaires, ou plutôt…", "Trois conditions sont nécessaires, bref…", "Trois conditions sont nécessaires, en clair…"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "[[ou plutôt]] corrects a word; it doesn't introduce a list.", "[[bref]] sums up at the end, it doesn't announce details.", "[[en clair]] simplifies an idea; for a list, use [[à savoir]]."] },
+        { "id": "r2", "type": "cloze", "text": "Le cours coûte 900 $, ___ 150 $ par mois pendant six mois.", "answers": [["soit", "c'est-à-dire"]], "choices": ["soit", "or", "bref"], "en": "The course costs 900 dollars, that is, 150 dollars a month for six months.", "explain": "[[soit]] introduces an exact equivalent, typically a figure." },
+        { "id": "r3", "type": "translate", "prompt": "In other words, you have nothing to sign.", "accept": ["Autrement dit, vous n'avez rien à signer.", "Autrement dit, tu n'as rien à signer.", "En d'autres termes, vous n'avez rien à signer.", "En d'autres termes, tu n'as rien à signer.", "En d'autres mots, vous n'avez rien à signer.", "En d'autres mots, tu n'as rien à signer.", "Autrement dit, il n'y a rien à signer.", "En d'autres termes, il n'y a rien à signer.", "C'est-à-dire que vous n'avez rien à signer.", "C'est-à-dire que tu n'as rien à signer."], "hint": "Autrement…", "explain": "[[Autrement dit]] is the most natural way to start a restatement." },
+        { "id": "r4", "type": "match", "prompt": "Match each marker to its job.", "pairs": [["à savoir", "names the items announced"], ["ou plutôt", "corrects a word"], ["bref", "sums up quickly"], ["plus précisément", "zooms in on a detail"], ["en clair", "puts it plainly"]] },
+        { "id": "r5", "type": "cloze", "text": "Le bail se renouvelle seul, c'est-à-dire ___ vous gardez votre logement.", "answers": [["que"]], "en": "The lease renews by itself, which means you keep your apartment.", "explain": "Before a full clause (subject + verb), [[c'est-à-dire]] needs [[que]]." },
+        { "id": "r6", "type": "reorder", "prompt": "What I mean is that the deadline is short.", "accept": ["Ce que je veux dire c'est que le délai est court"], "extra": ["qui", "dit"], "explain": "[[Ce que je veux dire, c'est que…]]: [[ce que]] because [[ce]] is the object of [[dire]]." },
+        { "id": "r7", "type": "cloze", "text": "Bien que le loyer ___ augmenté, je reste ici. Je m'___ : le quartier est parfait pour mes enfants.", "answers": [["ait"], ["explique"]], "choices": ["ait", "a", "explique", "explication"], "en": "Although the rent has gone up, I'm staying here. Let me explain: the neighbourhood is perfect for my children.", "explain": "[[bien que]] + subjunctive ([[ait augmenté]], Unit 01 and 06). [[Je m'explique]] announces the clarification." },
+        { "id": "r8", "type": "translate", "prompt": "It's an increase, or rather an adjustment.", "accept": ["C'est une augmentation, ou plutôt un ajustement.", "C'est une hausse, ou plutôt un ajustement.", "Il s'agit d'une augmentation, ou plutôt d'un ajustement.", "Il s'agit d'une hausse, ou plutôt d'un ajustement."], "explain": "[[ou plutôt]] corrects the word you've just used with a more precise one." },
+        { "id": "r9", "type": "dictation", "fr": "Bref, il faut que vous répondiez avant la fin du mois.", "accept": ["Bref, il faut que vous répondiez avant la fin du mois"], "explain": "[[Bref]] sums up; [[il faut que]] + subjunctive: [[vous répondiez]]." },
+        { "id": "r10", "type": "mcq", "prompt": "Which reformulation actually adds clarity?", "options": ["Le délai est d'un mois. Autrement dit, vous avez jusqu'au 15 avril.", "Le délai est d'un mois. Autrement dit, le délai est d'un mois.", "Le délai est d'un mois. Autrement dit, bref, c'est un mois.", "Le délai est d'un mois, à savoir un délai."], "optionsFr": true, "answer": 0,
+          "explain": "A good reformulation gives the reader something new: here, a concrete date instead of an abstract duration." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "A friend who just arrived in Canada asks you about a rule or procedure you know well (getting a health card, renewing a lease, registering a child at school, a work permit…). Explain it in a short paragraph and reformulate at least three times so it's crystal clear.", "promptFr": "Expliquez une règle ou une démarche à un ami nouvellement arrivé.",
+          "wordRange": [100, 150],
+          "checklist": ["Introduce the rule or procedure", "Autrement dit / en d'autres termes", "c'est-à-dire (que)", "à savoir or soit before a list or a figure", "A correction with ou plutôt or plus précisément", "A summary with bref or en somme"],
+          "models": [
+            { "label": "Model answer", "fr": "Pour avoir ta carte d'assurance maladie au Québec, tu dois t'inscrire à la RAMQ, c'est-à-dire la Régie de l'assurance maladie du Québec. Il faut fournir plusieurs documents, à savoir ton passeport, ton permis ou ta confirmation de résidence permanente, et une preuve d'adresse. Attention : selon ta situation, il peut y avoir un délai de carence, autrement dit une période pendant laquelle tu n'es pas encore couvert. Les règles changent et il y a des exceptions, alors vérifie sur le site de la RAMQ. En attendant, je te conseille de prendre une assurance privée, ou plutôt de vérifier d'abord si ton employeur en offre une. Bref, fais la demande dès ton arrivée.", "en": "To get your health insurance card in Québec, you have to register with the RAMQ, that is, the Régie de l'assurance maladie du Québec. You have to provide several documents, namely your passport, your permit or your permanent residence confirmation, and a proof of address. Careful: depending on your situation, there may be a waiting period, in other words a period during which you're not covered yet. The rules change and there are exceptions, so check the RAMQ website. In the meantime, I advise you to get private insurance, or rather to first check whether your employer offers one. In short, apply as soon as you arrive." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Someone asks you to explain a complicated idea from your job or studies to a non-specialist. Explain it for about a minute, then reformulate it twice in simpler words.", "seconds": 60,
+          "checklist": ["State the idea", "Je m'explique.", "Autrement dit, … / en clair, …", "An example with plus précisément", "Bref, … to close"],
+          "models": [ { "label": "Model answer", "fr": "Je travaille en cybersécurité. Je m'occupe de l'authentification à deux facteurs. Je m'explique : pour entrer dans votre compte, il ne suffit pas d'avoir le mot de passe, il faut aussi une deuxième preuve. Autrement dit, même si quelqu'un vole votre mot de passe, il ne peut pas entrer. Plus précisément, cette deuxième preuve, c'est souvent un code envoyé sur votre cellulaire. En clair, c'est comme avoir deux clés pour la même porte. Bref, mon travail, c'est de rendre la vie difficile aux voleurs.", "en": "I work in cybersecurity. I work on two-factor authentication. Let me explain: to get into your account, having the password isn't enough, you also need a second proof. In other words, even if someone steals your password, they can't get in. More precisely, this second proof is often a code sent to your cellphone. To put it plainly, it's like having two keys for the same door. In short, my job is to make life hard for thieves." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Restate an idea more clearly with [[autrement dit]], [[c'est-à-dire (que)]], [[en d'autres termes]]\n- Name precise items or figures with [[à savoir]] and [[soit]] ([[trois ans, soit 36 mois]])\n- Correct, zoom in or sum up with [[ou plutôt]], [[plus précisément]], [[bref]]\n- Buy time and clarify when speaking: [[Je m'explique.]] [[Ce que je veux dire, c'est que…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Hedged the TAL lease column (landlord \"pourra\" apply; check the TAL) and removed the precise RAMQ waiting-period figure from the model. Fixed a false cross-reference (Soit, mais…), softened Canada claims, cleaned translate accept lists." }
+}

@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-01-03",
+  "level": "a2",
+  "unit": "a2-01",
+  "title": "Time markers for the past",
+  "goal": "Say when something happened (hier, la semaine dernière, il y a deux jours…) and place words like déjà and beaucoup correctly in the passé composé.",
+  "minutes": 13,
+  "items": [
+    {
+      "id": "g-time-place",
+      "kind": "grammar",
+      "fr": "hier, la semaine dernière, il y a deux jours",
+      "en": "past time markers and where they go",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "J'ai fini le projet il ___ deux jours.",
+          "answers": [
+            [
+              "y a"
+            ]
+          ],
+          "en": "I finished the project two days ago.",
+          "explain": "ago = il y a + the amount of time."
+        },
+        {
+          "type": "cloze",
+          "text": "La semaine ___, nous avons rencontré le client.",
+          "answers": [
+            [
+              "dernière"
+            ]
+          ],
+          "en": "Last week, we met the client.",
+          "explain": "semaine is feminine → dernière, after the noun."
+        },
+        {
+          "type": "translate",
+          "prompt": "I moved last month.",
+          "accept": [
+            "J'ai déménagé le mois dernier.",
+            "Le mois dernier, j'ai déménagé.",
+            "J'ai déménagé le mois passé.",
+            "Le mois passé, j'ai déménagé."
+          ],
+          "explain": "mois is masculine → le mois dernier. The marker goes at the start or the end."
+        }
+      ]
+    },
+    {
+      "id": "g-adverb-place",
+      "kind": "grammar",
+      "fr": "j'ai déjà mangé, j'ai bien dormi",
+      "en": "short adverbs go between avoir and the participle",
+      "drills": [
+        {
+          "type": "mcq",
+          "prompt": "How do you say “I slept well”?",
+          "options": [
+            "J'ai bien dormi.",
+            "J'ai dormi bien.",
+            "Bien j'ai dormi."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Short adverbs (bien, mal, beaucoup, déjà, trop) go between avoir and the participle."
+        },
+        {
+          "type": "cloze",
+          "text": "J'ai ___ travaillé cette semaine ! (a lot)",
+          "answers": [
+            [
+              "beaucoup"
+            ]
+          ],
+          "en": "I worked a lot this week!",
+          "explain": "beaucoup goes between avoir and the participle."
+        },
+        {
+          "type": "translate",
+          "prompt": "Have you already eaten? (to a friend)",
+          "accept": [
+            "Tu as déjà mangé ?",
+            "Est-ce que tu as déjà mangé ?",
+            "As-tu déjà mangé ?"
+          ],
+          "explain": "déjà sits between as and mangé."
+        }
+      ]
+    },
+    {
+      "id": "hier",
+      "kind": "vocab",
+      "fr": "hier",
+      "en": "yesterday",
+      "pos": "adverb",
+      "example": {
+        "fr": "Hier, j'ai travaillé jusqu'à 18 h.",
+        "en": "Yesterday I worked until 6 p.m."
+      }
+    },
+    {
+      "id": "avant-hier",
+      "kind": "vocab",
+      "fr": "avant-hier",
+      "en": "the day before yesterday",
+      "pos": "adverb"
+    },
+    {
+      "id": "hier-soir",
+      "kind": "phrase",
+      "fr": "hier soir",
+      "en": "last night (yesterday evening)",
+      "note": "Not “hier nuit”. For the night itself: cette nuit or la nuit dernière."
+    },
+    {
+      "id": "semaine-derniere",
+      "kind": "phrase",
+      "fr": "la semaine dernière",
+      "en": "last week",
+      "accept": [
+        "la semaine passée"
+      ]
+    },
+    {
+      "id": "mois-dernier",
+      "kind": "phrase",
+      "fr": "le mois dernier",
+      "en": "last month",
+      "accept": [
+        "le mois passé"
+      ]
+    },
+    {
+      "id": "annee-derniere",
+      "kind": "phrase",
+      "fr": "l'année dernière",
+      "en": "last year",
+      "accept": [
+        "l'année passée",
+        "l'an dernier",
+        "l'an passé"
+      ]
+    },
+    {
+      "id": "il-y-a",
+      "kind": "phrase",
+      "fr": "il y a deux jours",
+      "en": "two days ago"
+    },
+    {
+      "id": "ce-matin",
+      "kind": "phrase",
+      "fr": "ce matin",
+      "en": "this morning"
+    },
+    {
+      "id": "deja",
+      "kind": "vocab",
+      "fr": "déjà",
+      "en": "already",
+      "pos": "adverb",
+      "example": {
+        "fr": "J'ai déjà répondu.",
+        "en": "I've already replied."
+      }
+    },
+    {
+      "id": "demenager",
+      "kind": "vocab",
+      "fr": "déménager",
+      "en": "to move (house)",
+      "pos": "verb",
+      "example": {
+        "fr": "Nous avons déménagé à Gatineau en 2023.",
+        "en": "We moved to Gatineau in 2023."
+      }
+    },
+    {
+      "id": "envoyer",
+      "kind": "vocab",
+      "fr": "envoyer",
+      "en": "to send",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai envoyé le rapport hier.",
+        "en": "I sent the report yesterday."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "The Tuesday team meeting",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "A weekly check-in, Montréal office",
+          "context": "Lucie, the team manager, asks Nguyen and Sofia what they did this week.",
+          "lines": [
+            {
+              "speaker": "Lucie",
+              "fr": "Bonjour tout le monde ! Alors, Nguyen, qu'est-ce que tu as fait cette semaine ?",
+              "en": "Hello everyone! So, Nguyen, what have you done this week?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "Lundi, j'ai rencontré le client de Laval. Avant-hier, j'ai fini la présentation, et hier, j'ai envoyé la présentation à l'équipe.",
+              "en": "On Monday I met the client from Laval. The day before yesterday I finished the presentation, and yesterday I sent the presentation to the team."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Parfait. Et le rapport de la semaine dernière ?",
+              "en": "Perfect. And last week's report?"
+            },
+            {
+              "speaker": "Nguyen",
+              "fr": "J'ai déjà corrigé le rapport. Ce matin, j'ai aussi répondu à trois courriels du client.",
+              "en": "I've already corrected the report. This morning I also replied to three emails from the client."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Super. Sofia ?",
+              "en": "Great. Sofia?"
+            },
+            {
+              "speaker": "Sofia",
+              "fr": "Moi, j'ai beaucoup travaillé sur le site web. Mais je suis un peu fatiguée : j'ai déménagé il y a deux jours et j'ai mal dormi !",
+              "en": "I worked a lot on the website. But I'm a little tired: I moved two days ago and I slept badly!"
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Ah, félicitations pour l'appartement ! Moi aussi, j'ai déménagé l'année dernière. C'est beaucoup de travail.",
+              "en": "Oh, congratulations on the apartment! I moved last year too. It's a lot of work."
+            }
+          ]
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "When did Sofia move?",
+          "options": [
+            "Two days ago",
+            "Last week",
+            "Last year"
+          ],
+          "answer": 0,
+          "explain": "[[J'ai déménagé il y a deux jours.]] It is Lucie who moved [[l'année dernière]] (last year)."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Saying when",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Past time markers",
+          "head": [
+            "French",
+            "English",
+            "Compare: future"
+          ],
+          "rows": [
+            [
+              "hier",
+              "yesterday",
+              "demain"
+            ],
+            [
+              "avant-hier",
+              "the day before yesterday",
+              "après-demain"
+            ],
+            [
+              "hier matin, hier soir",
+              "yesterday morning, last night",
+              "demain matin, demain soir"
+            ],
+            [
+              "ce matin",
+              "this morning",
+              "ce soir"
+            ],
+            [
+              "samedi dernier",
+              "last Saturday",
+              "samedi prochain"
+            ],
+            [
+              "la semaine dernière",
+              "last week",
+              "la semaine prochaine"
+            ],
+            [
+              "le mois dernier",
+              "last month",
+              "le mois prochain"
+            ],
+            [
+              "l'année dernière",
+              "last year",
+              "l'année prochaine"
+            ],
+            [
+              "il y a deux jours",
+              "two days ago",
+              "dans deux jours"
+            ],
+            [
+              "en 2022, le 3 mars",
+              "in 2022, on March 3",
+              ""
+            ]
+          ],
+          "frCols": [
+            0,
+            2
+          ],
+          "sayCol": true,
+          "note": "[[dernier]] agrees and goes **after** the noun: [[le mois dernier]], [[la semaine dernière]]. With a day or a date, there is no preposition: [[samedi]] = on Saturday, [[le 3 mars]] = on March 3."
+        },
+        {
+          "type": "pattern",
+          "title": "Ago = il y a + time",
+          "pattern": "passé composé + il y a + durée",
+          "note": "English puts *ago* after the time; French puts [[il y a]] **before** it. Yes, it is the same [[il y a]] as *there is*: the context tells you which one.",
+          "examples": [
+            {
+              "fr": "J'ai commencé ce travail il y a trois semaines.",
+              "en": "I started this job three weeks ago."
+            },
+            {
+              "fr": "Ils ont quitté le Maroc il y a deux ans.",
+              "en": "They left Morocco two years ago."
+            },
+            {
+              "fr": "Il y a une heure, Camille a appelé.",
+              "en": "An hour ago, Camille called."
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Where do the words go?",
+          "body": "**Time markers** ([[hier]], [[la semaine dernière]], [[il y a deux jours]]) usually go at the **start** or at the **end** of the sentence, never between avoir and the participle:\n\n- [[Hier, j'ai travaillé.]] / [[J'ai travaillé hier.]]\n\n**Short adverbs** ([[bien, mal, beaucoup, trop, déjà, enfin, souvent]]) go **between avoir and the participle**:\n\n- [[J'ai bien dormi.]] I slept well.\n- [[On a trop mangé !]] We ate too much!\n- [[Tu as déjà vu le Vieux-Québec ?]] Have you already seen Old Québec?"
+        },
+        {
+          "type": "vocab",
+          "title": "New words",
+          "itemIds": [
+            "hier",
+            "avant-hier",
+            "deja",
+            "demenager",
+            "envoyer"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- [[la dernière semaine]] means *the final week* (of a month, of a project). *Last week* is [[la semaine dernière]].\n- [[hier nuit]] is not used. Say [[hier soir]] (yesterday evening, last night) or [[cette nuit]] (during the night just past).\n- [[deux jours il y a]] is the English word order. Say [[il y a deux jours]].\n- [[J'ai dormi bien]] → [[J'ai bien dormi]]. Short adverbs go inside the passé composé.\n- [[J'ai hier travaillé]] → [[Hier, j'ai travaillé]]. Time markers go outside it."
+        },
+        {
+          "type": "deepdive",
+          "kind": "why",
+          "title": "Why “déjà” goes inside",
+          "body": "Think of [[avoir + participle]] as one verb in two pieces. Short, common adverbs ([[bien, beaucoup, déjà]]) say *how*, *how much* or *already*; they stay close to the verb, so they slip in between the two pieces. Longer time expressions describe the whole sentence, so they sit at its edges. Same logic in the present: [[Je travaille beaucoup.]] The adverb stays right next to the verb."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "body": "In Québec, [[la semaine passée]], [[le mois passé]] and [[l'an passé]] are very common, and fully correct (you hear them in France too). In casual Québec speech you may hear [[à matin]] for *ce matin*: understand it, but write [[ce matin]].\n\nUseful at work: [[la semaine dernière]] in a meeting, [[en date du 3 mars]] (as of March 3) in formal emails."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "When did it happen?",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "lines": [
+            {
+              "fr": "Hier soir, j'ai bien dormi.",
+              "en": "Last night I slept well."
+            },
+            {
+              "fr": "La semaine dernière, on a beaucoup travaillé.",
+              "en": "Last week we worked a lot.",
+              "tip": "dernière: two syllables, dèr-nyèr."
+            },
+            {
+              "fr": "J'ai déménagé il y a deux jours.",
+              "en": "I moved two days ago.",
+              "tip": "il y a sounds like i-lya, or just ya in fast speech."
+            },
+            {
+              "fr": "Tu as déjà envoyé le rapport ?",
+              "en": "Have you already sent the report?"
+            },
+            {
+              "fr": "L'année dernière, nous avons visité Québec.",
+              "en": "Last year we visited Québec City."
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Avant-hier, Karim a eu un entretien d'embauche.",
+          "en": "The day before yesterday, Karim had a job interview.",
+          "prompt": "When did Karim have his job interview?",
+          "options": [
+            "The day before yesterday",
+            "Yesterday",
+            "The day after tomorrow"
+          ],
+          "answer": 0,
+          "explain": "[[avant-hier]] = the day before yesterday. *The day after tomorrow* would be [[après-demain]], and it would need a future verb."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Mes parents ont acheté leur maison il y a dix ans.",
+          "en": "My parents bought their house ten years ago.",
+          "prompt": "When did the parents buy their house?",
+          "options": [
+            "Ten years ago",
+            "Two years ago",
+            "In ten years"
+          ],
+          "answer": 0,
+          "explain": "[[il y a dix ans]] = ten years ago. *In ten years* would be [[dans dix ans]]."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Time words go at the edges; short adverbs go inside.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the French and the English.",
+          "pairs": [
+            [
+              "hier",
+              "yesterday"
+            ],
+            [
+              "avant-hier",
+              "the day before yesterday"
+            ],
+            [
+              "la semaine dernière",
+              "last week"
+            ],
+            [
+              "il y a deux jours",
+              "two days ago"
+            ],
+            [
+              "hier soir",
+              "last night"
+            ],
+            [
+              "ce matin",
+              "this morning"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "translate",
+          "prompt": "I started this job three weeks ago.",
+          "accept": [
+            "J'ai commencé ce travail il y a trois semaines.",
+            "J'ai commencé ce job il y a trois semaines.",
+            "J'ai commencé cet emploi il y a trois semaines.",
+            "J'ai commencé ce poste il y a trois semaines.",
+            "Il y a trois semaines, j'ai commencé ce travail.",
+            "Il y a trois semaines, j'ai commencé ce job.",
+            "Il y a trois semaines, j'ai commencé cet emploi.",
+            "Il y a trois semaines, j'ai commencé ce poste."
+          ],
+          "hint": "il y a + time",
+          "explain": "ago = [[il y a]], placed before the time."
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "J'ai bien mangé hier.",
+            "J'ai mangé bien hier.",
+            "J'ai hier bien mangé.",
+            "Bien j'ai mangé hier."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "bien goes between avoir and the participle.",
+            "hier goes at the start or the end, not inside.",
+            "bien cannot start the sentence here."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "L'année ___, nous avons ___ à Gatineau. (dernier, déménager)",
+          "answers": [
+            [
+              "dernière"
+            ],
+            [
+              "déménagé"
+            ]
+          ],
+          "en": "Last year we moved to Gatineau.",
+          "explain": "année is feminine → dernière. déménager → déménagé."
+        },
+        {
+          "id": "r5",
+          "type": "cloze",
+          "text": "Tu as ___ vu le Vieux-Québec ? (already)",
+          "answers": [
+            [
+              "déjà"
+            ]
+          ],
+          "choices": [
+            "déjà",
+            "hier",
+            "dernier"
+          ],
+          "en": "Have you already seen Old Québec?",
+          "explain": "déjà sits between avoir and the participle."
+        },
+        {
+          "id": "r6",
+          "type": "reorder",
+          "prompt": "Last week, Raj took the train.",
+          "accept": [
+            "La semaine dernière Raj a pris le train.",
+            "Raj a pris le train la semaine dernière."
+          ],
+          "extra": [
+            "prendu"
+          ],
+          "explain": "prendre → pris. The time marker goes at the start or the end."
+        },
+        {
+          "id": "r7",
+          "type": "translate",
+          "prompt": "Yesterday evening, we watched the game. (use on)",
+          "accept": [
+            "Hier soir, on a regardé le match.",
+            "Hier soir, on a regardé la partie.",
+            "On a regardé le match hier soir.",
+            "On a regardé la partie hier soir."
+          ],
+          "explain": "on + a + regardé. [[hier soir]] = yesterday evening."
+        },
+        {
+          "id": "r8",
+          "type": "dictation",
+          "fr": "J'ai envoyé le courriel ce matin.",
+          "accept": [],
+          "explain": "envoyer → envoyé. [[ce matin]] = this morning."
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "Demain, je ___ appeler le client. Hier, j'___ appelé son assistante.",
+          "answers": [
+            [
+              "vais"
+            ],
+            [
+              "ai"
+            ]
+          ],
+          "choices": [
+            "vais",
+            "ai",
+            "suis"
+          ],
+          "en": "Tomorrow I'm going to call the client. Yesterday I called his assistant.",
+          "explain": "Future (demain) → aller + infinitive. Past (hier) → avoir + participle."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "At the Tuesday team meeting, your manager asks what you did this week. Give four actions, each with a different time marker.",
+          "seconds": 35,
+          "checklist": [
+            "Four different time markers (lundi, hier, avant-hier, ce matin…)",
+            "At least one short adverb inside: déjà, beaucoup, bien",
+            "At least one irregular participle",
+            "Polite tone with your manager"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Alors, lundi, j'ai eu une réunion avec l'équipe de Toronto. Avant-hier, j'ai fini le budget. Hier, j'ai écrit le rapport et ce matin, j'ai déjà envoyé le document au client. J'ai beaucoup travaillé cette semaine !",
+              "en": "So, on Monday, I had a meeting with the Toronto team. The day before yesterday, I finished the budget. Yesterday I wrote the report, and this morning I already sent the document to the client. I've worked a lot this week!"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Write a short timeline of your life in Canada (or your city) so far: five sentences with five different time markers (il y a…, l'année dernière, le mois dernier, la semaine dernière, hier).",
+          "wordRange": [
+            30,
+            60
+          ],
+          "checklist": [
+            "Five different time markers",
+            "il y a + time at least once",
+            "dernier / dernière agrees",
+            "Only avoir verbs for now (trouver, commencer, déménager, acheter…)"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "J'ai quitté l'Inde il y a deux ans. L'année dernière, j'ai trouvé un travail à Montréal. Le mois dernier, j'ai déménagé dans un appartement à Verdun. La semaine dernière, j'ai acheté un vélo. Hier, j'ai enfin rencontré mes voisins !",
+              "en": "I left India two years ago. Last year I found a job in Montréal. Last month I moved into an apartment in Verdun. Last week I bought a bike. Yesterday I finally met my neighbours!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Say when: [[hier, avant-hier, ce matin, la semaine dernière, le mois dernier, l'année dernière]]\n- Say *ago* with [[il y a]] + time: [[il y a deux jours]]\n- Put time markers at the edges and short adverbs inside: [[Hier, j'ai bien dormi.]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Fixed wrong accepts “ce emploi” → “cet emploi” (r2). Replaced the beaucoup MCQ, where “j'ai mangé beaucoup” is arguably acceptable, with bien. Softened the placement rule, fixed pronunciation tips, and removed an untaught object pronoun from a model."
+  }
+}

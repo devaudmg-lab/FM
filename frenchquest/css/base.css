@@ -1,0 +1,44 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; font-size: calc(100% * var(--text-scale, 1)); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: var(--fs-md);
+  line-height: var(--lh);
+  text-rendering: optimizeLegibility;
+}
+h1, h2, h3, h4 { font-family: var(--font-fr); font-weight: 600; line-height: 1.2; margin: 0 0 var(--s3); letter-spacing: -0.01em; }
+h1 { font-size: var(--fs-2xl); }
+h2 { font-size: var(--fs-xl); }
+h3 { font-size: var(--fs-lg); }
+h4 { font-size: var(--fs-md); }
+p { margin: 0 0 var(--s4); }
+a { color: var(--blue); text-underline-offset: 0.18em; }
+a:hover { color: var(--blue-ink); }
+img, svg { display: block; max-width: 100%; }
+button, input, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+[tabindex="-1"]:focus { outline: none; }
+::selection { background: var(--blue-soft); }
+hr { border: 0; border-top: 1px solid var(--line); margin: var(--s5) 0; }
+code, kbd { font-family: ui-monospace, Consolas, monospace; font-size: 0.88em; background: var(--paper-3); padding: 0.05em 0.35em; border-radius: 4px; }
+
+.fr { font-family: var(--font-fr); line-height: var(--lh-fr); }
+.en { color: var(--ink-muted); }
+.muted { color: var(--ink-muted); }
+.faint { color: var(--ink-faint); }
+.small { font-size: var(--fs-sm); }
+.xs { font-size: var(--fs-xs); }
+.nowrap { white-space: nowrap; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+@media (max-width: 640px) { .wide-only { display: none; } }
+.skip { position: absolute; left: var(--s3); top: -4rem; z-index: 100; background: var(--blue); color: var(--on-blue); padding: var(--s2) var(--s4); border-radius: var(--r-sm); }
+.skip:focus { top: var(--s3); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+:root[data-motion="reduce"] *, :root[data-motion="reduce"] *::before, :root[data-motion="reduce"] *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }

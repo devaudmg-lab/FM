@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-08-01",
+  "level": "b1",
+  "unit": "b1-08",
+  "title": "Making a complaint",
+  "goal": "Make a clear, polite and firm complaint by phone or email: identify yourself, describe the problem with facts and dates, and say what you want.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-malgre", "kind": "grammar", "fr": "malgré + nom", "en": "despite, in spite of (+ noun)",
+      "drills": [
+        { "type": "cloze", "text": "___ mes trois appels, le problème n'est pas réglé.", "answers": [["Malgré"]], "en": "Despite my three calls, the problem hasn't been solved.", "explain": "[[malgré]] + a noun: [[malgré mes appels]]." },
+        { "type": "translate", "prompt": "despite your promises (formal)", "accept": ["malgré vos promesses"], "explain": "[[malgré]] is followed directly by the noun, with no *de*." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Malgré la panne, j'ai payé la facture complète.", "Malgré que la panne, j'ai payé la facture complète.", "Malgré de la panne, j'ai payé la facture complète."], "optionsFr": true, "answer": 0, "explain": "[[malgré]] + noun, nothing in between. *Malgré que* is non-standard." }
+      ] },
+    { "id": "g-toujours-pas", "kind": "grammar", "fr": "ne… toujours pas", "en": "still not (the problem continues)",
+      "drills": [
+        { "type": "cloze", "text": "Le technicien n'est ___ venu.", "answers": [["toujours pas"]], "en": "The technician still hasn't come.", "explain": "[[ne… toujours pas]] = still not. In the passé composé, it goes around the auxiliary: [[n'est toujours pas venu]]." },
+        { "type": "cloze", "text": "La connexion ne fonctionne ___.", "answers": [["toujours pas"]], "en": "The connection still isn't working.", "explain": "Present tense: [[ne fonctionne toujours pas]]." },
+        { "type": "translate", "prompt": "I still haven't received my refund.", "accept": ["Je n'ai toujours pas reçu mon remboursement."], "explain": "[[ne]] before [[ai]], [[toujours pas]] after it, then the participle [[reçu]]." }
+      ] },
+    { "id": "souhaiterais-signaler", "kind": "phrase", "fr": "Je souhaiterais signaler un problème.", "en": "I would like to report a problem. (formal)", "accept": ["Je voudrais signaler un problème.", "J'aimerais signaler un problème."] },
+    { "id": "pas-satisfait", "kind": "phrase", "fr": "Je ne suis pas satisfait du service.", "en": "I'm not satisfied with the service. (man speaking)", "accept": ["Je ne suis pas satisfaite du service."], "note": "satisfait de, not avec. A woman says satisfaite." },
+    { "id": "au-sujet-de", "kind": "phrase", "fr": "Je vous appelle au sujet de ma facture.", "en": "I'm calling you about my bill.", "accept": ["Je vous appelle à propos de ma facture.", "Je vous appelle concernant ma facture."] },
+    { "id": "factures-deux-fois", "kind": "phrase", "fr": "On m'a facturé deux fois.", "en": "I was charged twice.", "accept": ["Vous m'avez facturé deux fois."], "note": "Facturer takes the thing as its object (facturer des frais à quelqu'un), so say on m'a facturé, not j'ai été facturé." },
+    { "id": "a-plusieurs-reprises", "kind": "phrase", "fr": "à plusieurs reprises", "en": "several times, repeatedly (formal)", "accept": ["plusieurs fois"] },
+    { "id": "facture", "kind": "vocab", "fr": "facture", "article": "la", "gender": "f", "en": "bill, invoice", "pos": "noun", "accept": ["une facture"],
+      "note": "In a restaurant, the bill is l'addition; in Québec you will also often hear la facture." },
+    { "id": "remboursement", "kind": "vocab", "fr": "remboursement", "article": "le", "gender": "m", "en": "refund", "pos": "noun", "accept": ["un remboursement"] },
+    { "id": "fournisseur", "kind": "vocab", "fr": "fournisseur", "article": "le", "gender": "m", "en": "provider, supplier", "pos": "noun", "accept": ["un fournisseur"],
+      "example": { "fr": "Je vais changer de fournisseur internet.", "en": "I'm going to switch internet providers." } },
+    { "id": "service-clientele", "kind": "vocab", "fr": "service à la clientèle", "article": "le", "gender": "m", "en": "customer service", "pos": "noun", "accept": ["le service client", "le service à la clientèle"], "note": "Service à la clientèle is the usual term in Québec; service client is more common in France." },
+    { "id": "numero-dossier", "kind": "vocab", "fr": "numéro de dossier", "article": "le", "gender": "m", "en": "file number, reference number", "pos": "noun", "accept": ["un numéro de dossier"] },
+    { "id": "plainte", "kind": "vocab", "fr": "plainte", "article": "une", "gender": "f", "en": "complaint", "pos": "noun", "accept": ["la plainte"],
+      "note": "Faire / déposer une plainte = to make / file a complaint. Porter plainte is for the police or the courts." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "No internet, again",
+      "intro": "Raj works from home, and his internet keeps cutting out. Listen to how he complains: **politely, but firmly**, with facts.",
+      "blocks": [
+        { "type": "dialogue", "title": "A call to customer service",
+          "context": "Raj calls his internet provider, Vidéonet, in Laval.",
+          "lines": [
+            { "speaker": "Agente", "fr": "Vidéonet, service à la clientèle, bonjour. Mon nom est Julie. Comment puis-je vous aider ?", "en": "Vidéonet, customer service, hello. My name is Julie. How can I help you?" },
+            { "speaker": "Raj", "fr": "Bonjour madame. Je m'appelle Raj Sharma, et je souhaiterais signaler un problème de connexion. C'est la troisième fois que j'appelle.", "en": "Hello. My name is Raj Sharma, and I would like to report a connection problem. This is the third time I've called." },
+            { "speaker": "Agente", "fr": "Je suis désolée de l'entendre. Avez-vous votre numéro de client ?", "en": "I'm sorry to hear that. Do you have your customer number?" },
+            { "speaker": "Raj", "fr": "Oui, c'est le 4 8 2 7 1 5. Depuis le 3 mars, la connexion coupe tous les soirs entre 18 h et 22 h. Je télétravaille, alors c'est vraiment un problème.", "en": "Yes, it's 482715. Since March 3rd, the connection has been cutting out every evening between 6 and 10 p.m. I work from home, so it's a real problem." },
+            { "speaker": "Agente", "fr": "Je vois. Un technicien devait passer chez vous la semaine dernière, c'est bien ça ?", "en": "I see. A technician was supposed to come to your place last week, is that right?" },
+            { "speaker": "Raj", "fr": "Oui, mais malgré deux rendez-vous, le technicien n'est toujours pas venu. J'ai attendu à la maison deux matinées entières pour rien.", "en": "Yes, but despite two appointments, the technician still hasn't come. I waited at home for two whole mornings for nothing." },
+            { "speaker": "Agente", "fr": "Je comprends votre frustration, monsieur.", "en": "I understand your frustration, sir." },
+            { "speaker": "Raj", "fr": "Et ce n'est pas tout : sur ma dernière facture, on m'a facturé deux fois les frais d'installation. Franchement, je ne suis pas satisfait du service.", "en": "And that's not all: on my last bill, I was charged the installation fee twice. Frankly, I'm not satisfied with the service." },
+            { "speaker": "Agente", "fr": "Je vais ouvrir un dossier. Qu'est-ce que vous souhaitez, exactement ?", "en": "I'm going to open a file. What exactly would you like?" },
+            { "speaker": "Raj", "fr": "Je voudrais trois choses : un rendez-vous confirmé avec un technicien cette semaine, le remboursement des frais facturés en double, et un crédit pour les jours sans connexion.", "en": "I'd like three things: a confirmed appointment with a technician this week, a refund of the fees charged twice, and a credit for the days without a connection." },
+            { "speaker": "Agente", "fr": "C'est noté. Votre numéro de dossier est le 7 7 3 0 9. Un superviseur va vous rappeler d'ici 48 heures.", "en": "Noted. Your file number is 77309. A supervisor will call you back within 48 hours." }
+          ] },
+        { "type": "text", "title": "Raj's follow-up email",
+          "fr": "Objet : Plainte – connexion internet et facturation (dossier 77309)\nMadame, Monsieur,\nJe vous écris au sujet de mon abonnement internet (numéro de client : 482715). Je souhaiterais signaler à nouveau un problème de connexion qui dure depuis le 3 mars : la connexion coupe tous les soirs entre 18 h et 22 h.\nMalgré trois appels à votre service à la clientèle et deux rendez-vous, le technicien n'est toujours pas venu. De plus, les frais d'installation m'ont été facturés deux fois sur ma facture de mars.\nJe ne suis pas satisfait de la façon dont mon dossier a été traité. Je vous demande donc de m'envoyer un technicien d'ici vendredi et de me rembourser les frais facturés en double. Je souhaiterais également obtenir un crédit pour les jours sans service.\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\nRaj Sharma",
+          "en": "Subject: Complaint – internet connection and billing (file no. 77309). Dear Sir or Madam, I am writing to you about my internet subscription (customer number: 482715). I would like to report once again a connection problem that has been going on since March 3rd: the connection cuts out every evening between 6 and 10 p.m. Despite three calls to your customer service and two appointments, the technician still hasn't come. In addition, the installation fee was charged twice on my March bill. I am not satisfied with the way my file has been handled. I therefore ask you to send me a technician by Friday and to refund the fees charged twice. I would also like to obtain a credit for the days without service. Looking forward to your reply, yours faithfully, Raj Sharma" },
+        { "id": "d1", "type": "mcq", "prompt": "What does Raj ask for?", "options": ["A technician this week, a refund of the double fee, and a credit", "A new modem and a discount on next month", "To cancel his contract immediately"], "answer": 0,
+          "explain": "[[un rendez-vous confirmé avec un technicien cette semaine, le remboursement des frais facturés en double, et un crédit]]." },
+        { "id": "d2", "type": "mcq", "prompt": "Why is Raj's complaint effective?", "options": ["He gives precise facts: dates, times, numbers, and a clear request", "He gets angry and raises his voice", "He threatens to call a lawyer"], "answer": 0,
+          "explain": "A strong complaint is factual: [[depuis le 3 mars]], [[entre 18 h et 22 h]], [[deux rendez-vous]], then a precise request." }
+      ] },
+    { "type": "understand", "title": "How to complain in French",
+      "blocks": [
+        { "type": "explain", "title": "The five steps of a complaint",
+          "body": "Whether you call or write, the structure is the same:\n\n- **1. Identify yourself and the subject:** [[Je m'appelle…, numéro de client…]] [[Je vous appelle au sujet de…]]\n- **2. State the problem:** [[Je souhaiterais signaler un problème de…]]\n- **3. Give the facts:** dates, duration, what you've already done: [[depuis le 3 mars]], [[ça fait deux semaines que…]], [[à plusieurs reprises]], [[malgré mes appels]]\n- **4. Explain the consequences:** [[Je télétravaille, alors…]] [[Je ne peux pas…]]\n- **5. Say what you want:** [[Je voudrais…]] [[Je vous demande de…]] [[Je souhaiterais obtenir…]]\n\nStay **calm and precise**. In French, a polite complaint is taken more seriously than an angry one." },
+        { "type": "table", "title": "Useful phrases, from softer to firmer",
+          "head": ["Step", "Phrases"],
+          "rows": [
+            ["Introduce the subject", "Je vous appelle au sujet de… / Je vous écris concernant…"],
+            ["Report", "Je souhaiterais signaler… / Je tiens à vous signaler…"],
+            ["Insist on facts", "C'est la troisième fois que j'appelle. / J'ai déjà contacté votre service à plusieurs reprises."],
+            ["Express dissatisfaction", "Je ne suis pas satisfait de… / Je suis très déçu de…"],
+            ["Ask for a solution", "Je voudrais… / Je vous demande de… / Je souhaiterais obtenir un remboursement."]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[Je tiens à]] + infinitive = I insist on, it's important for me to. [[déçu de]] = disappointed with." },
+        { "type": "pattern", "title": "Malgré + noun",
+          "pattern": "malgré + nom (+ phrase)",
+          "note": "[[malgré]] = *despite, in spite of*. It is followed by a **noun**, never by a verb. For a full sentence, use [[mais]] or [[pourtant]]: [[J'ai appelé trois fois, **pourtant** rien n'a changé.]]",
+          "examples": [
+            { "fr": "Malgré mes appels, rien n'a changé.", "en": "Despite my calls, nothing has changed." },
+            { "fr": "Malgré vos promesses, le technicien n'est pas venu.", "en": "Despite your promises, the technician didn't come." },
+            { "fr": "Le service est mauvais malgré le prix élevé.", "en": "The service is bad despite the high price." }
+          ] },
+        { "type": "table", "title": "Still, not yet, no longer",
+          "head": ["French", "Meaning", "Example"],
+          "rows": [
+            ["toujours", "still (continues)", "La connexion coupe toujours."],
+            ["ne… toujours pas", "still not", "Le technicien n'est toujours pas venu."],
+            ["ne… pas encore", "not yet (expected soon)", "Je n'ai pas encore reçu la facture."],
+            ["ne… plus", "no longer, not anymore", "Internet ne fonctionne plus."]
+          ],
+          "frCols": [0, 2], "sayCol": true,
+          "note": "[[ne… toujours pas]] sounds more impatient than [[ne… pas encore]]: it's perfect for a complaint." },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["souhaiterais-signaler", "pas-satisfait", "au-sujet-de", "factures-deux-fois", "a-plusieurs-reprises", "facture", "remboursement", "fournisseur", "service-clientele", "numero-dossier", "plainte"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Satisfait de, not avec:** *satisfait avec le service* ✗ → [[satisfait **du** service]].\n- **To charge = facturer, not charger:** [[charger]] means *to load* or *to charge a battery*. [[On m'a facturé deux fois.]] For a card: [[On a prélevé 80 $ sur ma carte.]]\n- **Complaint = une plainte,** not *une complainte* (which is an old sad song!).\n- **Malgré + noun only:** *malgré que j'ai appelé* ✗ → [[malgré mes appels]].\n- **Je veux… sounds blunt.** Prefer [[Je voudrais…]], [[Je souhaiterais…]] or [[Je vous demande de…]]. You can be firm *and* polite.\n- **Toujours alone means still:** [[Ça coupe toujours]] = it's still cutting out (not *always*, in this context)." },
+        { "type": "deepdive", "kind": "canada", "title": "Your rights as a consumer",
+          "body": "- In Québec, the **Office de la protection du consommateur (OPC)** informs consumers and answers questions about contracts, warranties and refunds.\n- For internet, phone and TV services anywhere in Canada, if your provider doesn't solve the problem, you can contact the **Commission des plaintes relatives aux services de télécom-télévision (CPRST)**.\n- **Always note your numéro de dossier**, the date and the name of the person you spoke to. It makes your follow-up much stronger: [[Le 12 mars, j'ai parlé avec Julie, dossier numéro…]]\n- On the phone in Québec you'll often hear [[Mon nom est…]] (often seen as influenced by English *My name is*). It's very common; [[Je m'appelle…]] is the everyday standard form." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "A firm complaint has a **calm, steady** voice: not too fast, falling at the end of each sentence.",
+          "lines": [
+            { "fr": "Je souhaiterais signaler un problème de connexion.", "en": "I would like to report a connection problem.", "tip": "souhaiterais: the ou glides into a w sound, swè-t'-rè." },
+            { "fr": "C'est la troisième fois que j'appelle.", "en": "It's the third time I've called." },
+            { "fr": "Malgré deux rendez-vous, le technicien n'est toujours pas venu.", "en": "Despite two appointments, the technician still hasn't come.", "tip": "n'est toujours pas: stress toujours." },
+            { "fr": "On m'a facturé deux fois les frais d'installation.", "en": "I was charged the installation fee twice." },
+            { "fr": "Je ne suis pas satisfaite du service.", "en": "I'm not satisfied with the service (woman speaking).", "tip": "satisfaite: say the final t." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Bonjour, j'appelle au sujet de ma facture d'avril. On m'a facturé un forfait de téléphone que je n'ai jamais demandé.", "en": "Hello, I'm calling about my April bill. I was charged for a phone plan I never asked for.", "prompt": "What is the caller's problem?", "options": ["The caller was billed for a plan they never ordered.", "The caller's phone doesn't work.", "The caller didn't receive the April bill."], "answer": 0,
+          "explain": "[[On m'a facturé un forfait… que je n'ai jamais demandé]]: the caller was charged for a plan they never asked for." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Votre numéro de dossier est le 5 2 0 4 1. Un technicien passera jeudi entre 8 h et midi.", "en": "Your file number is 52041. A technician will come on Thursday between 8 a.m. and noon.", "prompt": "When will the technician come?", "options": ["Thursday morning", "Tuesday afternoon", "Thursday evening"], "answer": 0,
+          "explain": "[[jeudi entre 8 h et midi]] = Thursday between 8 a.m. and noon. Note the futur simple: [[passera]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Polite, factual, firm. Answer without looking back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Bonjour, je souhaiterais ___ un problème avec ma connexion.", "answers": [["signaler"]], "choices": ["signaler", "signer", "charger", "plaindre"], "en": "Hello, I would like to report a problem with my connection.",
+          "explain": "[[signaler un problème]] = to report a problem. [[signer]] = to sign." },
+        { "id": "r2", "type": "cloze", "text": "Je ne suis pas satisfaite ___ service, et je suis très déçue ___ votre réponse.", "answers": [["du"], ["de"]], "choices": ["du", "de", "avec", "par"], "en": "I'm not satisfied with the service, and I'm very disappointed with your answer.",
+          "explain": "[[satisfait de]], [[déçu de]]: de + le service → [[du]]; [[de votre réponse]]." },
+        { "id": "r3", "type": "cloze", "text": "___ mes nombreux appels, personne ne m'a rappelé.", "answers": [["Malgré"]], "en": "Despite my many calls, nobody called me back.",
+          "explain": "[[Malgré]] + noun." },
+        { "id": "r4", "type": "cloze", "text": "J'ai payé il y a trois semaines, mais je n'ai ___ reçu ma commande.", "answers": [["toujours pas"]], "choices": ["toujours pas", "toujours", "pas toujours", "plus jamais"], "en": "I paid three weeks ago, but I still haven't received my order.",
+          "explain": "[[ne… toujours pas]] = still not. [[pas toujours]] would mean *not always*." },
+        { "id": "r5", "type": "mcq", "prompt": "Which is the best way to start a phone complaint?", "optionsFr": true,
+          "options": ["Bonjour, je vous appelle au sujet de ma facture. Je souhaiterais signaler une erreur.", "Allô, votre service est nul, je veux mon argent !", "Salut, t'as vu ma facture ? Y a un problème.", "Bonjour, je charge une plainte contre vous."], "answer": 0,
+          "optionFeedback": [null, "Too aggressive: you'll get a defensive answer.", "Far too informal for customer service.", "charger means to load; and porter plainte is for the police."] },
+        { "id": "r6", "type": "translate", "prompt": "I was charged twice this month.", "accept": ["On m'a facturé deux fois ce mois-ci.", "Vous m'avez facturé deux fois ce mois-ci.", "On m'a facturé deux fois ce mois."], "hint": "Use on + facturer.",
+          "explain": "[[On m'a facturé]]: [[facturer]] takes the thing as its object, so *j'ai été facturé* is avoided in careful French. Not *chargé* either." },
+        { "id": "r7", "type": "translate", "prompt": "I've been calling you for two weeks. (formal)", "accept": ["Ça fait deux semaines que je vous appelle.", "Je vous appelle depuis deux semaines.", "Cela fait deux semaines que je vous appelle.", "Ça fait deux semaines que je vous téléphone.", "Je vous téléphone depuis deux semaines."], "hint": "depuis or ça fait… que + present",
+          "explain": "Review: an action that started in the past and continues → **present tense** with [[depuis]] or [[ça fait… que]]." },
+        { "id": "r8", "type": "match", "prompt": "Match each word with its meaning.",
+          "pairs": [["la facture", "the bill"], ["le remboursement", "the refund"], ["le fournisseur", "the provider"], ["le numéro de dossier", "the file number"], ["à plusieurs reprises", "repeatedly"]] },
+        { "id": "r9", "type": "reorder", "prompt": "I'm calling you about my bill.", "accept": ["Je vous appelle au sujet de ma facture"], "extra": ["sur"],
+          "explain": "[[au sujet de]] = about, concerning. Not *sur*, which would sound like *on top of*." },
+        { "id": "r10", "type": "dictation", "fr": "Malgré vos promesses, la connexion ne fonctionne toujours pas.", "accept": ["Malgré vos promesses la connexion ne fonctionne toujours pas."],
+          "explain": "[[Malgré]] + noun; [[ne… toujours pas]] around the verb." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Call your internet or phone provider. Your service has been cutting out for ten days, a technician didn't come, and you were overcharged on your last bill. Follow the five steps and end with a clear request.", "seconds": 75,
+          "checklist": ["Identify yourself and give a customer number", "Je souhaiterais signaler…", "Facts: depuis…, à plusieurs reprises, ne… toujours pas", "Malgré + noun", "A consequence for you", "A clear, polite request: Je voudrais… / Je vous demande de…"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, je m'appelle Amira Haddad, numéro de client 3 0 9 1 8 4. Je vous appelle au sujet de mon service internet. Je souhaiterais signaler un problème : depuis dix jours, la connexion coupe plusieurs fois par jour. J'ai déjà appelé à plusieurs reprises, et malgré un rendez-vous confirmé, le technicien n'est jamais venu. Je suis étudiante et je suis des cours en ligne, alors c'est vraiment un problème pour moi. De plus, on m'a facturé 95 $ au lieu de 70 $ le mois dernier. Je voudrais un rendez-vous avec un technicien cette semaine et le remboursement de la différence, s'il vous plaît.", "en": "Hello, my name is Amira Haddad, customer number 309184. I'm calling you about my internet service. I would like to report a problem: for ten days, the connection has been cutting out several times a day. I've already called several times, and despite a confirmed appointment, the technician never came. I'm a student and I take classes online, so it's a real problem for me. In addition, I was charged $95 instead of $70 last month. I'd like an appointment with a technician this week and a refund of the difference, please." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a complaint email to your provider (internet, phone or electricity). Include a subject line, your customer number, the facts with dates, what you've already done, and your requests.", "promptFr": "Écrivez un courriel de plainte à votre fournisseur.", "wordRange": [100, 150],
+          "checklist": ["A subject line (Objet : …)", "Madame, Monsieur,", "Je vous écris au sujet de… + customer number", "Facts with dates and depuis", "malgré + noun and ne… toujours pas", "Je ne suis pas satisfait(e) de…", "Two precise requests", "A formal closing"],
+          "models": [ { "label": "Model answer", "fr": "Objet : Erreur de facturation – numéro de client 559102\nMadame, Monsieur,\nJe vous écris au sujet de ma facture de téléphone du mois de mai. Depuis le premier mai, mon forfait est de 45 $ par mois, mais vous m'avez facturé 75 $.\nJ'ai contacté votre service à la clientèle à deux reprises, le 6 et le 13 mai. Malgré ces appels et la promesse d'une correction, je n'ai toujours pas reçu de facture corrigée, et le montant complet a été prélevé sur ma carte.\nJe ne suis pas satisfaite de la façon dont mon dossier a été traité. Je vous demande donc de me rembourser la différence de 30 $ et de corriger mon forfait dès le mois prochain.\nJe vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\nSofia Ramírez", "en": "Subject: Billing error – customer no. 559102. Dear Sir or Madam, I am writing to you about my May phone bill. Since May 1st, my plan has been $45 a month, but you charged me $75. I contacted your customer service twice, on May 6th and 13th. Despite these calls and the promise of a correction, I still haven't received a corrected bill, and the full amount was taken from my card. I am not satisfied with the way my file has been handled. I therefore ask you to refund the $30 difference and to correct my plan from next month. Yours faithfully, Sofia Ramírez" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Structure a complaint in five steps: who you are, the problem, the facts, the consequences, your request\n- Use polite but firm phrases: [[Je souhaiterais signaler…]], [[Je ne suis pas satisfait du service.]], [[Je vous demande de…]]\n- Insist on facts with [[malgré + nom]], [[ne… toujours pas]], [[à plusieurs reprises]] and [[depuis]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed 'j'ai été facturé(e)' (facturer takes the thing, not the person) from accept lists and explanations; made h1 gender-neutral; hedged the OPC, 'Mon nom est' and l'addition/la facture notes; added téléphoner variants." }
+}

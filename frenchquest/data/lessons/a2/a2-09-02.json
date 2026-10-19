@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-09-02",
+  "level": "a2",
+  "unit": "a2-09",
+  "title": "Accepting and refusing politely",
+  "goal": "Accept an invitation with enthusiasm, hesitate, or refuse politely with a reason and a new suggestion.",
+  "minutes": 13,
+  "items": [
+    {
+      "id": "g-refuser",
+      "kind": "grammar",
+      "fr": "Merci, mais je ne peux pas : je dois…",
+      "en": "refusing politely: thanks + regret + reason",
+      "drills": [
+        {
+          "type": "cloze",
+          "text": "Désolé, je ne ___ pas samedi : je travaille.",
+          "answers": [
+            [
+              "peux"
+            ]
+          ],
+          "choices": [
+            "peux",
+            "peut",
+            "veux"
+          ],
+          "en": "Sorry, I can't on Saturday: I'm working.",
+          "explain": "[[pouvoir]]: je → [[peux]]. [[Je ne veux pas]] (I don't want to) would sound rude."
+        },
+        {
+          "type": "cloze",
+          "text": "Je ne peux pas, je ___ garder mes enfants.",
+          "answers": [
+            [
+              "dois"
+            ]
+          ],
+          "en": "I can't, I have to look after my kids.",
+          "explain": "[[devoir]] + infinitive gives a reason: [[je dois]] = I have to."
+        },
+        {
+          "type": "mcq",
+          "prompt": "Which refusal is the most polite?",
+          "options": [
+            "Merci, c'est gentil, mais je ne peux pas : j'ai déjà quelque chose de prévu.",
+            "Non, je ne veux pas.",
+            "Non. Ça ne me dit rien."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "A polite refusal has thanks, regret and a reason."
+        }
+      ]
+    },
+    {
+      "id": "avec-plaisir",
+      "kind": "phrase",
+      "fr": "Avec plaisir !",
+      "en": "With pleasure! / I'd love to!"
+    },
+    {
+      "id": "volontiers",
+      "kind": "vocab",
+      "fr": "volontiers",
+      "en": "gladly, willingly",
+      "pos": "adverb",
+      "example": {
+        "fr": "Un café ? Oui, volontiers !",
+        "en": "A coffee? Yes, gladly!"
+      }
+    },
+    {
+      "id": "ca-marche",
+      "kind": "phrase",
+      "fr": "Ça marche !",
+      "en": "Sounds good! / Deal! (informal)",
+      "accept": [
+        "D'accord !"
+      ]
+    },
+    {
+      "id": "c-est-gentil",
+      "kind": "phrase",
+      "fr": "C'est gentil !",
+      "en": "That's kind (of you)!",
+      "accept": [
+        "C'est gentil de ta part !",
+        "C'est gentil de votre part !"
+      ]
+    },
+    {
+      "id": "desole",
+      "kind": "vocab",
+      "fr": "désolé",
+      "fem": "désolée",
+      "en": "sorry",
+      "pos": "adjective",
+      "accept": [
+        "désolée"
+      ],
+      "example": {
+        "fr": "Je suis vraiment désolée, je ne peux pas venir.",
+        "en": "I'm really sorry, I can't come. (woman speaking)"
+      }
+    },
+    {
+      "id": "malheureusement",
+      "kind": "vocab",
+      "fr": "malheureusement",
+      "en": "unfortunately",
+      "pos": "adverb",
+      "example": {
+        "fr": "Malheureusement, je travaille ce soir-là.",
+        "en": "Unfortunately, I'm working that evening."
+      }
+    },
+    {
+      "id": "deja-prevu",
+      "kind": "phrase",
+      "fr": "J'ai déjà quelque chose de prévu.",
+      "en": "I already have plans."
+    },
+    {
+      "id": "une-autre-fois",
+      "kind": "phrase",
+      "fr": "Ce sera pour une autre fois !",
+      "en": "Maybe another time!",
+      "accept": [
+        "Une autre fois, peut-être !",
+        "Une prochaine fois !"
+      ]
+    },
+    {
+      "id": "je-vais-voir",
+      "kind": "phrase",
+      "fr": "Je vais voir, je te redis ça.",
+      "en": "I'll see, I'll get back to you. (to a friend)",
+      "accept": [
+        "Je vais voir, je te confirme demain."
+      ],
+      "note": "Informal, spoken. In a formal context, say: Je vous confirme demain."
+    },
+    {
+      "id": "pourquoi-pas",
+      "kind": "phrase",
+      "fr": "Pourquoi pas ?",
+      "en": "Why not?"
+    },
+    {
+      "id": "ca-depend",
+      "kind": "phrase",
+      "fr": "Ça dépend, c'est à quelle heure ?",
+      "en": "It depends, what time is it at?"
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Yes, maybe, no",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "Planning a Saturday",
+          "context": "Amira calls three friends to invite them to a show in the park on Saturday.",
+          "lines": [
+            {
+              "speaker": "Amira",
+              "fr": "Allô Karim ? Samedi, il y a un spectacle gratuit au parc Jarry. Ça te dit de venir ?",
+              "en": "Hello Karim? On Saturday, there's a free show in Jarry Park. Do you feel like coming?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Oh oui, avec plaisir ! C'est à quelle heure ?",
+              "en": "Oh yes, I'd love to! What time is it?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "À 20 h. On se retrouve devant l'entrée à 19 h 30 ?",
+              "en": "At 8 p.m. Shall we meet in front of the entrance at 7:30?"
+            },
+            {
+              "speaker": "Karim",
+              "fr": "Ça marche ! À samedi !",
+              "en": "Sounds good! See you Saturday!"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Salut Lucie ! Tu es libre samedi soir ? On va voir un spectacle au parc.",
+              "en": "Hi Lucie! Are you free on Saturday evening? We're going to see a show in the park."
+            },
+            {
+              "speaker": "Lucie",
+              "fr": "Samedi ? Pourquoi pas… Mais je ne suis pas sûre, je dois peut-être travailler. Je vais voir, je te redis ça demain, d'accord ?",
+              "en": "Saturday? Why not… But I'm not sure, I might have to work. I'll see, I'll get back to you tomorrow, OK?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Pas de problème !",
+              "en": "No problem!"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Bonjour Olivier ! Samedi soir, ça te dit de venir voir un spectacle avec nous ?",
+              "en": "Hi Olivier! On Saturday evening, do you feel like coming to see a show with us?"
+            },
+            {
+              "speaker": "Olivier",
+              "fr": "Ah, c'est gentil, merci ! Mais malheureusement, je ne peux pas : mes parents arrivent de Québec et on va souper ensemble. Ce sera pour une autre fois ! Et si on prenait un café la semaine prochaine ?",
+              "en": "Oh, that's kind, thanks! But unfortunately I can't: my parents are arriving from Québec City and we're having supper together. Maybe another time! How about having a coffee next week?"
+            },
+            {
+              "speaker": "Amira",
+              "fr": "Oui, volontiers ! Bonne soirée avec tes parents !",
+              "en": "Yes, gladly! Have a nice evening with your parents!"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "Three answers: Karim says **yes**, Lucie **hesitates**, Olivier **refuses**. Notice how long Olivier's refusal is compared with Karim's yes. That's normal in French."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Saying yes, maybe and no",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "From an enthusiastic yes to a polite no",
+          "head": [
+            "",
+            "French",
+            "English"
+          ],
+          "rows": [
+            [
+              "Yes!",
+              "Avec plaisir ! / Oui, volontiers ! / Super, bonne idée !",
+              "I'd love to! / Gladly! / Great idea!"
+            ],
+            [
+              "Yes (casual)",
+              "Ça marche ! / D'accord ! / Pourquoi pas ?",
+              "Sounds good! / OK! / Why not?"
+            ],
+            [
+              "Maybe",
+              "Ça dépend, c'est à quelle heure ? / Je ne suis pas sûr.",
+              "It depends, what time? / I'm not sure."
+            ],
+            [
+              "Not yet",
+              "Je vais voir, je te redis ça. / Je te confirme demain.",
+              "I'll see and get back to you (informal). / I'll confirm tomorrow."
+            ],
+            [
+              "No, sorry",
+              "Désolé, je ne peux pas. / Malheureusement, je ne suis pas libre.",
+              "Sorry, I can't. / Unfortunately, I'm not free."
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": true,
+          "note": "A woman writes [[désolée]] and [[sûre]]: the pronunciation is the same."
+        },
+        {
+          "type": "pattern",
+          "title": "A polite refusal in four parts",
+          "pattern": "merci + regret + raison + autre proposition",
+          "note": "In French, a bare *non* sounds cold. Thank the person, show regret ([[désolé]], [[malheureusement]], [[dommage]]), give a short reason, and if you can, suggest another time. The reason often uses **devoir**, **déjà**, or the futur proche.",
+          "examples": [
+            {
+              "fr": "C'est gentil, mais je ne peux pas : je dois travailler. Une autre fois ?",
+              "en": "That's kind, but I can't: I have to work. Another time?"
+            },
+            {
+              "fr": "Merci ! Malheureusement, j'ai déjà quelque chose de prévu ce soir-là.",
+              "en": "Thanks! Unfortunately, I already have plans that evening."
+            },
+            {
+              "fr": "Oh, dommage ! Je vais être à Ottawa toute la fin de semaine.",
+              "en": "Oh, too bad! I'm going to be in Ottawa all weekend."
+            },
+            {
+              "fr": "Désolée, ce soir je suis fatiguée. Et si on se voyait dimanche ?",
+              "en": "Sorry, I'm tired tonight. How about seeing each other on Sunday? (woman speaking)"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Common reasons",
+          "head": [
+            "Reason",
+            "French"
+          ],
+          "rows": [
+            [
+              "work",
+              "Je travaille ce soir-là. / J'ai une réunion."
+            ],
+            [
+              "family",
+              "Je dois garder les enfants. / Ma mère vient souper."
+            ],
+            [
+              "other plans",
+              "J'ai déjà quelque chose de prévu. / Je vais au mariage d'une amie."
+            ],
+            [
+              "not well",
+              "Je suis un peu malade. / Je suis très fatigué."
+            ],
+            [
+              "money",
+              "Ce mois-ci, je dois faire attention à mon budget."
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": true
+        },
+        {
+          "type": "vocab",
+          "title": "Useful phrases",
+          "itemIds": [
+            "avec-plaisir",
+            "volontiers",
+            "ca-marche",
+            "c-est-gentil",
+            "desole",
+            "malheureusement",
+            "deja-prevu",
+            "une-autre-fois",
+            "je-vais-voir",
+            "pourquoi-pas",
+            "ca-depend"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "mistakes",
+          "body": "- **Je ne peux pas, not je ne veux pas.** [[Je ne veux pas]] = I don't *want* to: it sounds rude. Always use [[je ne peux pas]] (I can't).\n- **Ça ne me dit rien** can mean *I don't feel like it*: honest but blunt. With a friend it can be OK if you add a reason; with a colleague, avoid it.\n- **Avec plaisir** answers an invitation. As an answer to *merci*, Québec speakers say [[Bienvenue !]] or [[De rien !]], and you'll also hear [[Avec plaisir !]]\n- **Désolé / désolée:** add -e if you're a woman, in writing only: [[Je suis désolée]].\n- **Quelque chose de prévu:** keep the **de**: [[j'ai quelque chose de prévu]], not *quelque chose prévu*."
+        },
+        {
+          "type": "deepdive",
+          "kind": "culture",
+          "title": "How direct can you be?",
+          "body": "French speakers rarely refuse with a single word. Even a short text usually has a reason: [[Désolé, je ne peux pas, je suis chez ma sœur ce soir !]]\n\nThe reason does not need to be detailed: [[J'ai déjà quelque chose de prévu]] is perfectly polite and stays private.\n\nIf you hesitate, say so and give a time: [[Je te confirme demain]]. And then do it — leaving people without an answer is seen as impolite."
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "In Québec you'll also hear",
+          "body": "- [[Ça me tente !]] = I'm up for it! and [[Ça me tente pas trop…]] = I don't really feel like it (informal, spoken).\n- [[Ça adonne mal]] = the timing is bad (informal, Québec). [[Ça adonne bien !]] = that works out well! (informal, Québec)\n- [[Je te reviens là-dessus]] = I'll get back to you on that (Québec usage, common at work; in France, people say [[je reviens vers toi]] or [[je te redis ça]]).\n- [[C'est correct]] = that's OK / fine. [[C'est pas grave]] = no worries."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Your tone matters as much as your words: warm for yes, gentle and a bit slower for no.",
+          "lines": [
+            {
+              "fr": "Oh oui, avec plaisir !",
+              "en": "Oh yes, I'd love to!",
+              "tip": "avec plaisir: stress the last syllable, -sir."
+            },
+            {
+              "fr": "Oui, volontiers !",
+              "en": "Yes, gladly!",
+              "tip": "vo-lon-tier: the final r is silent."
+            },
+            {
+              "fr": "C'est gentil, mais je ne peux pas.",
+              "en": "That's kind, but I can't.",
+              "tip": "In speech: j'peux pas."
+            },
+            {
+              "fr": "Malheureusement, j'ai déjà quelque chose de prévu.",
+              "en": "Unfortunately, I already have plans.",
+              "tip": "mal-heu-reu-se-ment: five syllables."
+            },
+            {
+              "fr": "Ce sera pour une autre fois !",
+              "en": "Maybe another time!"
+            }
+          ]
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Ah, merci pour l'invitation ! Mais vendredi, je ne peux pas : je dois aller chercher ma sœur à l'aéroport. Et samedi midi, tu es libre ?",
+          "en": "Ah, thanks for the invitation! But on Friday I can't: I have to pick up my sister at the airport. And Saturday lunchtime, are you free?",
+          "prompt": "What does the speaker answer?",
+          "options": [
+            "No for Friday, and suggests Saturday lunch",
+            "Yes for Friday",
+            "Maybe, they'll confirm on Saturday"
+          ],
+          "answer": 0,
+          "explain": "[[je ne peux pas]] + a reason (the airport), then a new suggestion: [[samedi midi]]."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Ça dépend… C'est à quelle heure ? Si c'est après 18 h, ça marche.",
+          "en": "It depends… What time is it? If it's after 6 p.m., that works.",
+          "prompt": "Will the speaker come?",
+          "options": [
+            "Only if it's after 6 p.m.",
+            "No, never",
+            "Yes, at any time"
+          ],
+          "answer": 0,
+          "explain": "[[Ça dépend]] = it depends; [[si c'est après 18 h, ça marche]] = if it's after 6 p.m., it works."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without looking. Think about the tone: is it friendly, polite, or too direct?",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "A colleague invites you to her 5 à 7. You can't go. Which answer is best?",
+          "optionsFr": true,
+          "options": [
+            "C'est gentil, merci ! Malheureusement, je ne peux pas : j'ai un rendez-vous chez le médecin.",
+            "Non, je ne veux pas.",
+            "Non merci.",
+            "Ça ne me dit rien."
+          ],
+          "answer": 0,
+          "optionFeedback": [
+            null,
+            "Je ne veux pas sounds like you don't want to: rude.",
+            "Correct, but very cold without a reason.",
+            "This means you don't feel like it: too blunt with a colleague."
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "translate",
+          "prompt": "Thanks, but I can't: I have to work.",
+          "accept": [
+            "Merci, mais je ne peux pas : je dois travailler.",
+            "Merci, mais je ne peux pas, je dois travailler.",
+            "Merci mais je peux pas, je dois travailler.",
+            "Merci, mais je ne peux pas parce que je dois travailler."
+          ],
+          "hint": "pouvoir, devoir + infinitive",
+          "explain": "[[je ne peux pas]] (can't) + [[je dois travailler]] (have to work)."
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "J'ai déjà quelque chose ___ prévu.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "choices": [
+            "de",
+            "à",
+            "—"
+          ],
+          "en": "I already have plans.",
+          "explain": "[[quelque chose de]] + adjective: [[quelque chose de prévu]], [[quelque chose de bon]]."
+        },
+        {
+          "id": "r4",
+          "type": "match",
+          "prompt": "Yes, maybe or no? Match each answer with its meaning.",
+          "pairs": [
+            [
+              "Avec plaisir !",
+              "Yes, I'd love to"
+            ],
+            [
+              "Ça marche !",
+              "OK, sounds good"
+            ],
+            [
+              "Je te redis ça.",
+              "I'll get back to you"
+            ],
+            [
+              "Ça dépend.",
+              "It depends"
+            ],
+            [
+              "Malheureusement, je ne peux pas.",
+              "Sadly, no"
+            ]
+          ]
+        },
+        {
+          "id": "r5",
+          "type": "reorder",
+          "prompt": "Maybe another time!",
+          "accept": [
+            "Ce sera pour une autre fois"
+          ],
+          "extra": [
+            "est"
+          ],
+          "explain": "[[Ce sera]] is the futur simple of [[c'est]]: *it will be for another time*."
+        },
+        {
+          "id": "r6",
+          "type": "cloze",
+          "text": "Lucie est ___, elle ne peut pas venir. (désolé)",
+          "answers": [
+            [
+              "désolée"
+            ]
+          ],
+          "en": "Lucie is sorry, she can't come.",
+          "explain": "Lucie is a woman: [[désolé]] + e = [[désolée]]."
+        },
+        {
+          "id": "r7",
+          "type": "translate",
+          "prompt": "Gladly! What time is it at?",
+          "accept": [
+            "Volontiers ! C'est à quelle heure ?",
+            "Volontiers ! À quelle heure ?",
+            "Avec plaisir ! C'est à quelle heure ?",
+            "Volontiers ! Ça commence à quelle heure ?",
+            "Volontiers ! À quelle heure est-ce que c'est ?"
+          ],
+          "explain": "[[Volontiers]] = gladly. In speech, [[C'est à quelle heure ?]] is the most natural question."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Désolé, samedi je ___ chez ma sœur à Gatineau. (aller, futur proche: je vais…)",
+          "answers": [
+            [
+              "vais aller",
+              "vais"
+            ]
+          ],
+          "en": "Sorry, on Saturday I'm going to go to my sister's in Gatineau.",
+          "explain": "Review: futur proche = [[aller]] + infinitive: [[je vais aller]]."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "C'est gentil, mais malheureusement, je ne suis pas libre.",
+          "accept": [
+            "C'est gentil mais malheureusement je ne suis pas libre."
+          ],
+          "explain": "[[malheureusement]] = [[malheureuse]] + [[-ment]]."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Oh, dommage ! Ce jour-là, je vais au mariage d'un ami à Sherbrooke. Mais je suis libre dimanche, si tu veux.",
+          "en": "Oh, too bad! That day I'm going to a friend's wedding in Sherbrooke. But I'm free on Sunday, if you want.",
+          "prompt": "Why can't the speaker come, and what do they offer?",
+          "options": [
+            "A wedding; they suggest Sunday",
+            "Work; they suggest Sunday",
+            "A wedding; they suggest next week"
+          ],
+          "answer": 0,
+          "explain": "[[je vais au mariage d’un ami]] = the reason; [[je suis libre dimanche]] = the new suggestion. This is the polite refusal pattern."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Make it yours",
+      "blocks": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Three friends invite you. Answer each one out loud: accept the first invitation (a sugar shack on Sunday), hesitate about the second (a hockey game on Friday), and refuse the third (a party on Saturday) politely with a reason and a new suggestion.",
+          "seconds": 45,
+          "checklist": [
+            "Yes: Avec plaisir ! / Volontiers ! + a question about the time",
+            "Maybe: Je vais voir… / Je te confirme demain.",
+            "No: merci + regret + reason + new suggestion",
+            "Use je ne peux pas, never je ne veux pas"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "La cabane à sucre dimanche ? Oh oui, avec plaisir ! On part à quelle heure ? … Le match de hockey vendredi ? Ça dépend, je dois peut-être travailler. Je te confirme demain, d'accord ? … Ta fête samedi ? C'est gentil, merci ! Mais malheureusement, je ne peux pas : je vais au mariage de ma cousine. Et si on prenait un café la semaine prochaine ?",
+              "en": "The sugar shack on Sunday? Oh yes, I'd love to! What time do we leave? … The hockey game on Friday? It depends, I might have to work. I'll confirm tomorrow, OK? … Your party on Saturday? That's kind, thanks! But unfortunately I can't: I'm going to my cousin's wedding. How about having a coffee next week?"
+            }
+          ]
+        },
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Your colleague Nguyen has invited you to his birthday 5 à 7 on Thursday. Write a short reply: refuse politely, give a reason, wish him a happy birthday and suggest something else.",
+          "promptFr": "Répondez à l'invitation de Nguyen.",
+          "wordRange": [
+            25,
+            60
+          ],
+          "checklist": [
+            "Thank him: Merci pour l'invitation !",
+            "Regret: Malheureusement / Désolé…",
+            "A reason: je dois… / j'ai déjà…",
+            "A wish: Bon anniversaire !",
+            "A new suggestion: Et si on… ? / On pourrait…"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Salut Nguyen ! Merci beaucoup pour l'invitation. Malheureusement, jeudi je ne peux pas : je dois aller chercher mes enfants à la garderie. Je suis vraiment désolée ! Bon anniversaire ! Et si on dînait ensemble vendredi midi ? Je t'invite ! Mei",
+              "en": "Hi Nguyen! Thank you very much for the invitation. Unfortunately, I can't on Thursday: I have to pick up my children at daycare. I'm really sorry! Happy birthday! How about having lunch together on Friday? My treat! Mei (dîner = to have lunch in Québec)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Accept warmly: [[Avec plaisir !]] [[Volontiers !]] [[Ça marche !]]\n- Hesitate and promise an answer: [[Ça dépend…]] [[Je vais voir, je te redis ça.]]\n- Refuse politely in four parts: thanks + regret + reason + new suggestion, always with [[je ne peux pas]], never *je ne veux pas*",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Labelled je te redis ça as informal, and je te reviens là-dessus and ça adonne as Québec usage. Disambiguated 'what time is it at?' in the ca-depend item and r7."
+  }
+}

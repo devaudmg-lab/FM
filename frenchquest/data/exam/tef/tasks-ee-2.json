@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "ability": "ee",
+  "tasks": [
+    {
+      "id": "tef-ee-a5",
+      "section": "A",
+      "title": "Un mariage dans le noir",
+      "level": "b1",
+      "prompt": "Vous avez lu le début de cet article dans un journal régional. Écrivez la suite de l’article (80 mots minimum). Racontez comment la fête a pu continuer malgré la panne et comment les gens du quartier ont aidé les mariés.",
+      "promptEn": "You read the beginning of this article in a regional newspaper. Write the rest of the article (at least 80 words). Tell how the party was able to go on despite the power outage and how people in the neighbourhood helped the newlyweds.",
+      "document": "TROIS-RIVIÈRES — Samedi soir, une panne d’électricité a plongé tout un secteur de la ville dans le noir pendant près de quatre heures. Dans la salle communautaire du quartier, une centaine d’invités venaient tout juste de s’asseoir pour le repas de noces de Sophie et Karim.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Picks up exactly where the opening stops (the guests at the table, the lights out) without retelling it.",
+        "Explains the concrete problem caused by the outage (no lights, no ovens, no music) and how it was solved.",
+        "Shows how neighbours or other people helped, with precise actions.",
+        "Includes a short quotation from the bride, the groom or a guest.",
+        "Uses passé composé for events and imparfait for background, in the third person.",
+        "Ends with a closing detail (power returning, the end of the party, a thank-you).",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "List the problems first (light, food, music), then give one solution for each: it gives you a ready-made plan.",
+        "Reuse the names Sophie and Karim and the four hours given in the opening so the story is coherent.",
+        "Use time markers (très vite, une demi-heure plus tard, vers minuit) to move the story forward.",
+        "Keep emotions in the quotation, not in your own comments: the journalist stays neutral."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Au début, les invités ont cru à une blague, mais très vite, ils ont compris que la panne allait durer. Le traiteur ne pouvait plus utiliser ses fours. Heureusement, les voisins de la salle ont réagi rapidement. Plusieurs familles ont apporté des lampes de poche, des bougies et même un petit barbecue au propane. Le repas a donc été servi dehors, sous les étoiles. Un adolescent du quartier a joué de la guitare pour remplacer le DJ. « C’était le plus beau mariage dont on pouvait rêver », a déclaré Sophie. Vers minuit, quand le courant est revenu, tout le monde dansait encore."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Loin de se décourager, les mariés ont aussitôt décidé que la fête continuerait, coûte que coûte. Privé de ses fours, le traiteur semblait désemparé, jusqu’à ce que les résidents des rues voisines, alertés par le père de la mariée, viennent prêter main-forte. En moins d’une demi-heure, ils avaient installé des lanternes, des bougies et deux barbecues au propane devant la salle. Le repas a finalement été servi en plein air, tandis qu’un adolescent du quartier, guitare à la main, remplaçait le DJ réduit au silence. « Nos invités s’en souviendront toute leur vie », s’est réjouie Sophie. Lorsque le courant est revenu, peu avant minuit, personne n’avait envie de rentrer."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-a6",
+      "section": "A",
+      "title": "Un orignal au centre-ville",
+      "level": "b1",
+      "prompt": "Vous avez lu le début de cet article sur le site d’un journal local. Écrivez la suite de l’article (80 mots minimum). Racontez comment l’animal a été pris en charge et comment les élèves et les habitants ont réagi.",
+      "promptEn": "You read the beginning of this article on a local newspaper’s website. Write the rest of the article (at least 80 words). Tell how the animal was dealt with and how the pupils and residents reacted.",
+      "document": "RIMOUSKI — Mercredi matin, les automobilistes de la rue principale ont dû freiner brusquement : un jeune orignal traversait tranquillement la chaussée, en plein centre-ville. L’animal s’est ensuite dirigé vers la cour d’une école primaire, quelques minutes avant la récréation.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Continues from the school yard and the coming recess, the last details of the opening.",
+        "Explains the safety measures taken (pupils kept inside, street closed, police or wildlife officers).",
+        "Tells how the moose was captured or guided away and where it was released.",
+        "Gives a plausible explanation for its presence in town (lost, followed the river, looking for food).",
+        "Reports the reactions of pupils and residents, with one short quotation.",
+        "Uses past tenses consistently and an impersonal, factual style.",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "Useful vocabulary: les agents de protection de la faune, une fléchette tranquillisante, relâcher, une zone boisée, par mesure de sécurité.",
+        "The pupils give you an easy human-interest ending: a drawing, a nickname, a class project.",
+        "Use the plus-que-parfait for what happened before the article (l’animal avait suivi la rivière).",
+        "Do not exaggerate: a fait divers stays realistic and precise (times, distances, number of people)."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "La directrice de l’école a immédiatement demandé aux élèves de rester à l’intérieur. Les enfants, très excités, regardaient l’orignal par les fenêtres. La police est arrivée quelques minutes plus tard et a fermé la rue pour éviter un accident. Ensuite, deux agents de la faune ont endormi l’animal avec une fléchette. Selon eux, le jeune orignal avait probablement suivi la rivière depuis la forêt. « Il était perdu et il avait peur », a expliqué l’un des agents. Vers midi, l’orignal a été transporté en camion dans un bois, à vingt kilomètres de la ville. Les élèves lui ont déjà donné un nom : Bouleau."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Par mesure de sécurité, la directrice a aussitôt ordonné aux quelque trois cents élèves de rester en classe, où beaucoup se sont collés aux fenêtres pour observer ce visiteur inattendu. Les policiers, arrivés rapidement sur les lieux, ont bloqué la circulation dans tout le secteur. Deux agents de protection de la faune ont ensuite réussi à endormir l’animal, qui s’était sans doute égaré en longeant la rivière depuis la forêt voisine. « Il était plus effrayé que dangereux », a tenu à préciser l’un d’eux. L’orignal a été relâché en début d’après-midi dans une zone boisée, loin des habitations. Les enfants, eux, l’ont déjà baptisé Bouleau."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-a7",
+      "section": "A",
+      "title": "Une facture de taxes à 99 999 $",
+      "level": "b2",
+      "prompt": "Vous avez lu le début de cet article dans le journal de votre région. Écrivez la suite de l’article (80 mots minimum). Expliquez l’origine de l’erreur, la réaction des résidents et les mesures prises par la municipalité.",
+      "promptEn": "You read the beginning of this article in your regional newspaper. Write the rest of the article (at least 80 words). Explain the cause of the error, how residents reacted and what the municipality did about it.",
+      "document": "SAINT-AUBIN-DES-LACS — Plusieurs centaines de propriétaires ont eu une mauvaise surprise lundi en ouvrant leur courrier : leur compte de taxes municipales affichait un montant de 99 999 $. Au service à la clientèle de la Ville, le téléphone n’a pas arrêté de sonner de la journée.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Gives a clear, plausible technical cause for the error (software update, data problem).",
+        "Names a source for the explanation (the mayor, the finance director, a press release).",
+        "Contrasts different reactions among residents (humour, anger, anxiety), with a quotation.",
+        "Describes the concrete measures announced (apology, corrected bills, extended deadline).",
+        "Uses reporting structures typical of the press, such as the conditional of unconfirmed information (aurait remplacé).",
+        "Keeps a neutral, factual tone and consistent past tenses.",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "The journalistic conditional (selon la Ville, l’erreur serait due à…) is an easy way to show B2 level.",
+        "Useful vocabulary: un logiciel de facturation, une mise à jour, un communiqué, présenter des excuses, un délai de paiement.",
+        "Organise in three short blocks that follow the prompt: cause, reactions, measures.",
+        "Stay inside 120 words: three or four sentences per block are enough."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Très vite, la mairie a publié un message sur son site Internet pour rassurer les citoyens. Selon le directeur des finances, l’erreur venait d’une mise à jour du nouveau logiciel de facturation. Le programme avait remplacé le montant réel de chaque compte par ce chiffre impossible. Certains résidents ont trouvé la situation drôle, mais d’autres ont eu très peur. « J’ai cru que j’allais perdre ma maison », a raconté une retraitée. La municipalité a présenté ses excuses et elle a promis d’envoyer de nouveaux comptes avant la fin du mois. Les citoyens auront aussi trente jours de plus pour payer."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "En fin d’après-midi, la mairie a finalement diffusé un communiqué pour calmer les esprits. D’après le directeur des finances, une mise à jour mal testée du nouveau logiciel de facturation aurait remplacé le montant réel par une valeur par défaut. Si certains contribuables ont pris l’incident avec humour, d’autres, en particulier des personnes âgées, ont vécu des heures d’angoisse. « J’ai passé la nuit à refaire mes calculs », a confié une retraitée, encore sous le choc. La mairesse a présenté des excuses officielles et annoncé que des comptes corrigés seraient expédiés d’ici deux semaines. Par ailleurs, le délai de paiement sera prolongé d’un mois, sans aucune pénalité."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-a8",
+      "section": "A",
+      "title": "Sauvé sur la patinoire",
+      "level": "b2",
+      "prompt": "Vous avez lu le début de cet article dans un journal local. Écrivez la suite de l’article (80 mots minimum). Racontez comment cette spectatrice a porté secours au joueur et ce qui s’est passé ensuite.",
+      "promptEn": "You read the beginning of this article in a local newspaper. Write the rest of the article (at least 80 words). Tell how this spectator came to the player’s rescue and what happened next.",
+      "document": "GATINEAU — Dimanche après-midi, un match de hockey amateur a failli tourner au drame à l’aréna du quartier : un joueur de 52 ans s’est effondré sur la glace en pleine partie. Dans les gradins, une spectatrice s’est aussitôt levée et a enjambé la bande.",
+      "minWords": 80,
+      "maxWords": 120,
+      "minutes": 25,
+      "checklist": [
+        "Explains who the spectator is and why she knew what to do.",
+        "Describes the rescue in a logical order (check, CPR, 911 call, defibrillator, ambulance).",
+        "Gives news of the player’s condition afterwards.",
+        "Includes a quotation from the rescuer, the player or a relative.",
+        "Ends with a consequence or follow-up (training, thanks, a new defibrillator).",
+        "Uses precise, accurate vocabulary and varied past tenses, including a participle clause.",
+        "Stays between 80 and 120 words."
+      ],
+      "tips": [
+        "Useful vocabulary: un massage cardiaque, la réanimation, un défibrillateur, les ambulanciers, hors de danger, composer le 911.",
+        "Participle clauses (Constatant que…, Transporté à l’hôpital, il…) make the style more journalistic and show B2+ control.",
+        "Use pendant que or tandis que to show two actions happening at the same time.",
+        "Keep the medical details simple and realistic; a fait divers is not a medical report."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "La spectatrice, Josée Lavoie, est une infirmière à la retraite. Elle a vu tout de suite que l’homme ne respirait plus. Elle a commencé un massage cardiaque pendant qu’un arbitre appelait le 911. Un employé de l’aréna est allé chercher le défibrillateur installé près de l’entrée. Après un choc, le cœur du joueur est reparti. Les ambulanciers sont arrivés dix minutes plus tard et ils l’ont transporté à l’hôpital. Le lendemain, les médecins ont annoncé qu’il était hors de danger. « J’ai seulement fait ce que j’ai appris », a dit Mme Lavoie. Ses coéquipiers veulent maintenant suivre une formation en premiers soins."
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Cette spectatrice, Josée Lavoie, est une infirmière retraitée qui a travaillé trente ans aux urgences. Constatant que le joueur ne respirait plus, elle a entrepris un massage cardiaque tandis qu’un arbitre composait le 911. Pendant ce temps, un employé de l’aréna courait chercher le défibrillateur fixé près de l’entrée, installé à peine six mois plus tôt. Un seul choc a suffi pour relancer le cœur du sportif. Transporté à l’hôpital par les ambulanciers, il est aujourd’hui hors de danger, selon sa famille. « Sans son sang-froid, mon mari ne serait plus là », a déclaré son épouse, très émue. Inspirés par ce geste, ses coéquipiers suivront bientôt une formation en réanimation."
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b5",
+      "section": "B",
+      "title": "Des immeubles dans les quartiers de maisons ?",
+      "level": "b2",
+      "prompt": "Vous avez lu cet article dans votre journal local. Vous écrivez une lettre au courrier des lecteurs pour donner votre opinion sur ce projet. Justifiez votre point de vue à l’aide d’au moins trois arguments illustrés d’exemples (200 mots minimum).",
+      "promptEn": "You read this article in your local newspaper. You write a letter to the editor to give your opinion on this project. Justify your point of view with at least three arguments illustrated with examples (at least 200 words).",
+      "document": "Pour répondre à la pénurie de logements, la Ville de Saint-Aubin-des-Lacs propose d’autoriser la construction d’immeubles de six étages dans certains quartiers de maisons unifamiliales. « Nous devons loger les familles et les travailleurs qui arrivent chez nous », explique la mairesse. Plusieurs résidents s’y opposent, craignant pour la tranquillité de leur rue et la valeur de leur maison.",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "Follows the format of a formal letter: Madame, Monsieur, a reference to the article, a formal closing formula and a signature.",
+        "States a clear position at the start (for, against, or for under conditions).",
+        "Develops at least three distinct arguments (housing shortage, neighbourhood life, transport, land use, quality of life).",
+        "Illustrates each argument with a concrete example (a relative, the local situation, a figure).",
+        "Answers the residents’ objection about tranquillity or property value.",
+        "Uses formal register and varied connectors (tout d’abord, par ailleurs, certes, en somme).",
+        "Concludes with a recommendation to the city."
+      ],
+      "tips": [
+        "A position « for, but under conditions » lets you use the residents’ fears as a concession and then propose solutions.",
+        "Useful vocabulary: la pénurie de logements, un loyer abordable, densifier, l’étalement urbain, les commerces de proximité.",
+        "Show B2 structures: revenir à + infinitive, faute de + noun, à condition que + subjunctive.",
+        "Plan five short paragraphs (introduction, three arguments, conclusion) to stay between 200 and 250 words."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Madame, Monsieur,\n\nJe vous écris au sujet du projet de la Ville d’autoriser des immeubles de six étages dans les quartiers de maisons unifamiliales. Personnellement, je suis plutôt favorable à cette idée, même si je comprends l’inquiétude de certains voisins.\n\nD’abord, nous manquons de logements. Aujourd’hui, beaucoup de jeunes et de familles ne trouvent pas d’appartement à un prix raisonnable. Par exemple, mon fils de vingt-cinq ans habite encore chez nous parce que les loyers sont trop chers. Si on construit plus de logements, les prix vont peut-être se stabiliser.\n\nEnsuite, ces immeubles peuvent rendre les quartiers plus vivants. Avec plus d’habitants, des commerces de proximité, comme une boulangerie ou une pharmacie, pourront s’installer et survivre. Les résidents feront donc moins de trajets en voiture.\n\nCependant, il faut écouter les citoyens. Un immeuble de six étages à côté d’une petite maison, ce n’est pas toujours beau. La Ville doit choisir des terrains près des grandes rues et des arrêts d’autobus, et prévoir aussi des parcs et des arbres.\n\nEn conclusion, je pense que ce projet est nécessaire pour l’avenir de notre ville, à condition qu’il soit bien organisé. Nous devons accepter de partager nos quartiers.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nNadia Bensaïd"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Madame, Monsieur,\n\nC’est avec intérêt que j’ai pris connaissance du projet municipal visant à autoriser des immeubles de six étages dans certains quartiers résidentiels. Contrairement à plusieurs de mes voisins, j’estime que cette mesure, si elle est bien encadrée, constitue une réponse responsable à la crise du logement.\n\nTout d’abord, la pénurie n’est plus une abstraction. Les loyers ont bondi ces dernières années, et de nombreux jeunes travailleurs, infirmières ou enseignants, renoncent à s’établir chez nous faute d’appartements abordables. Refuser de densifier revient à fermer la porte à ces nouveaux résidents dont notre ville a pourtant besoin.\n\nPar ailleurs, une densité plus élevée profite à tout le quartier. Elle rend viables les commerces de proximité et justifie un meilleur service d’autobus, ce qui réduit notre dépendance à l’automobile. À l’inverse, l’étalement urbain grignote les terres agricoles et alourdit les coûts d’infrastructures payés par tous les contribuables.\n\nCertes, les craintes des résidents sont légitimes : personne ne souhaite voir un immeuble bloquer le soleil de son jardin. C’est pourquoi la Ville devrait privilégier les grandes artères, imposer une architecture de qualité et consulter réellement les citoyens avant chaque projet.\n\nEn somme, il ne s’agit pas de sacrifier la tranquillité de nos rues, mais de bâtir une ville où chacun peut trouver sa place.\n\nJe vous prie d’agréer, Madame, Monsieur, l’expression de mes sentiments distingués.\n\nNadia Bensaïd"
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b6",
+      "section": "B",
+      "title": "Consulter son médecin par vidéo ?",
+      "level": "b1",
+      "prompt": "Vous avez lu ce message sur un forum consacré à la santé. Vous y répondez pour donner votre opinion. Justifiez votre point de vue à l’aide d’au moins trois arguments illustrés d’exemples (200 mots minimum).",
+      "promptEn": "You read this message on a health forum. You reply to give your opinion. Justify your point of view with at least three arguments illustrated with examples (at least 200 words).",
+      "document": "Forum « Santé et bien-être » — Message de Sylvie_QC : « Ma clinique propose maintenant presque uniquement des consultations par vidéo ou par téléphone. C’est pratique, d’accord, mais un médecin qui ne voit pas ses patients en personne, est-ce que c’est vraiment un bon médecin ? Qu’en pensez-vous ? »",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "Addresses Sylvie directly and answers her question clearly in the first lines.",
+        "Develops at least three arguments (time saved, access for remote regions, limits of a screen, choice for patients).",
+        "Gives a concrete example for each argument (personal experience, a relative, a situation).",
+        "Recognises the part of Sylvie’s concern that is valid before giving your own view (concession).",
+        "Uses connectors to organise the text (d’abord, ensuite, par contre, pour conclure).",
+        "Keeps a friendly forum register (tu is acceptable) without slang.",
+        "Ends with a conclusion or a piece of advice for Sylvie."
+      ],
+      "tips": [
+        "A balanced answer (useful for some cases, not for all) is easy to justify with strong examples.",
+        "Useful vocabulary: une téléconsultation, une ordonnance, une salle d’attente, un examen physique, le suivi, les urgences.",
+        "Canadian realities make good examples: long waits in emergency rooms, winter roads, villages far from a clinic.",
+        "Finish with advice using the conditional: tu pourrais…, tu devrais…"
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Bonjour Sylvie,\n\nTon message m’a fait réfléchir. À mon avis, les consultations à distance sont une bonne solution dans beaucoup de cas, mais elles ne peuvent pas remplacer complètement les rendez-vous en personne.\n\nD’abord, une consultation par téléphone ou par vidéo fait gagner beaucoup de temps. L’année dernière, j’ai eu une infection à l’oreille. J’ai parlé avec un médecin pendant quinze minutes et j’ai reçu mon ordonnance à la pharmacie le jour même. Je n’ai pas eu à attendre trois heures dans une salle d’attente.\n\nEnsuite, c’est très utile pour les personnes qui habitent loin. Mes parents vivent dans un petit village en Abitibi, à une heure de la clinique la plus proche. En hiver, sur les routes enneigées, une consultation par vidéo est plus sûre pour eux.\n\nPar contre, je suis d’accord avec toi sur un point : le médecin ne peut pas tout voir à l’écran. Pour un examen physique, une douleur au ventre ou un problème grave, il faut absolument rencontrer le patient.\n\nPour conclure, je pense que les cliniques devraient offrir les deux options et laisser le choix aux patients. Si tu as besoin de voir ton médecin, tu devrais demander un rendez-vous en personne.\n\nBonne journée !\nKevin"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour Sylvie,\n\nTa question est tout à fait légitime, mais je crois qu’il faut éviter d’opposer ces deux façons de soigner. À mes yeux, la téléconsultation est un progrès réel, à condition qu’elle reste un outil parmi d’autres et non une solution unique.\n\nD’une part, elle améliore nettement l’accès aux soins. Le mois dernier, mon fils avait une forte fièvre : en vingt minutes, une médecin l’a évalué par vidéo, nous a rassurés et nous a évité une nuit entière aux urgences. Multipliées par des milliers de patients, ces petites économies de temps désengorgent tout le réseau.\n\nD’autre part, pour les gens qui vivent en région ou qui ont du mal à se déplacer, c’est souvent la seule manière de consulter rapidement. Ma grand-mère, qui ne conduit plus, peut ainsi faire le suivi de son diabète sans dépendre de ses voisins.\n\nCela dit, tu as raison de t’inquiéter. Un écran ne permet ni d’ausculter ni de palper, et certains signes passent inaperçus. Une clinique qui refuse systématiquement de recevoir ses patients met donc leur santé en danger.\n\nBref, l’idéal serait un modèle hybride : la vidéo pour les suivis simples, le cabinet pour les examens. N’hésite pas à exiger une rencontre en personne quand tu la juges nécessaire.\n\nAu plaisir de te lire,\nKevin"
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b7",
+      "section": "B",
+      "title": "Des chansons francophones imposées en ligne ?",
+      "level": "b2",
+      "prompt": "Vous avez lu cet article sur le site d’un journal. Vous réagissez sur le forum des lecteurs pour donner votre opinion. Justifiez votre point de vue à l’aide d’au moins trois arguments illustrés d’exemples (200 mots minimum).",
+      "promptEn": "You read this article on a newspaper’s website. You react on the readers’ forum to give your opinion. Justify your point of view with at least three arguments illustrated with examples (at least 200 words).",
+      "document": "Le gouvernement envisage d’obliger les plateformes d’écoute de musique en ligne à inclure au moins 30 % de chansons francophones dans les recommandations qu’elles font à leurs abonnés canadiens. Pour les uns, c’est une mesure indispensable pour protéger la culture francophone ; pour les autres, c’est une atteinte à la liberté des auditeurs.",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "Takes a clear position on the proposed quota in the introduction.",
+        "Develops at least three arguments (role of algorithms, artists’ income, comparison with radio quotas, freedom of choice, quality).",
+        "Supports each argument with an example (a relative’s habits, a local artist, a known situation).",
+        "Refers to and answers the opposing view mentioned in the article (freedom of listeners or protection of culture).",
+        "Uses B2 argumentative structures (non seulement… mais, on objectera que…, or, pourtant).",
+        "Keeps a polite, public register suited to a readers’ forum.",
+        "Ends with a conclusion that restates the position."
+      ],
+      "tips": [
+        "Both positions can score well: what matters is how well you develop and illustrate your arguments.",
+        "Useful vocabulary: un algorithme, une liste de lecture, un auteur-compositeur, la diversité culturelle, un quota.",
+        "Anticipate the objection (On objectera que…) and refute it (Pourtant, …): this shows NCLC 8–9 argumentation.",
+        "Sign with a first name and a town, as readers usually do on newspaper forums."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Bonjour à tous,\n\nJ’ai lu cet article avec beaucoup d’intérêt. Pour ma part, je suis d’accord avec cette mesure, parce que je pense que la chanson francophone a besoin d’aide pour exister en ligne.\n\nPremièrement, sur les plateformes, ce sont des algorithmes qui choisissent la musique que nous écoutons. Ils proposent surtout des chansons très populaires, presque toujours en anglais. Par exemple, ma fille de quinze ans écoute de la musique tous les jours, mais elle ne connaît presque aucun artiste québécois ou acadien.\n\nDeuxièmement, les jeunes artistes francophones ont du mal à gagner leur vie. Si leurs chansons apparaissent plus souvent dans les recommandations, ils auront plus d’auditeurs et plus de revenus. C’est déjà le cas à la radio, où il y a des quotas depuis longtemps, et cela fonctionne bien : les auditeurs découvrent ainsi de nouveaux talents.\n\nBien sûr, certaines personnes diront que c’est une atteinte à la liberté. Mais personne ne sera obligé d’écouter ces chansons ! On pourra toujours passer à la chanson suivante ou chercher la musique qu’on préfère.\n\nEn conclusion, cette mesure est une bonne façon de protéger notre langue et notre culture, sans empêcher personne d’écouter ce qu’il aime.\n\nMathieu, Moncton"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Bonjour à tous,\n\nCet article soulève une question essentielle pour l’avenir de notre culture. Selon moi, imposer une part de contenus francophones dans les recommandations est non seulement légitime, mais urgent.\n\nEn premier lieu, nos choix d’écoute sont beaucoup moins libres qu’on ne le croit. Ce sont des algorithmes, conçus pour maximiser le temps d’écoute, qui décident de ce qui nous est proposé, et ils favorisent massivement les succès anglophones. Ma nièce, pourtant passionnée de musique, n’avait jamais entendu parler d’artistes acadiens avant d’assister à un spectacle ici, à Moncton.\n\nEn second lieu, c’est la survie de toute une industrie qui est en jeu. Un auteur-compositeur absent des listes de lecture n’a guère de chances de se faire connaître, ni de vivre de son art. Or, les quotas de chansons francophones imposés depuis longtemps à la radio ont, de l’avis de nombreux artistes, favorisé l’émergence de bien des carrières.\n\nOn objectera sans doute que l’État n’a pas à dicter nos goûts. Pourtant, il ne s’agit ni d’interdire ni de forcer quoi que ce soit : l’auditeur restera libre de passer à la piste suivante. On lui offrira simplement l’occasion de découvrir autre chose.\n\nPour toutes ces raisons, je souhaite que ce projet soit adopté rapidement, car une langue qu’on n’entend plus finit par disparaître.\n\nMathieu, Moncton"
+        }
+      ]
+    },
+    {
+      "id": "tef-ee-b8",
+      "section": "B",
+      "title": "Interdire les poêles à bois en ville ?",
+      "level": "b1",
+      "prompt": "Vous avez lu cet article dans votre journal. Vous écrivez une lettre au courrier des lecteurs pour donner votre opinion sur ce projet de règlement. Justifiez votre point de vue à l’aide d’au moins trois arguments illustrés d’exemples (200 mots minimum).",
+      "promptEn": "You read this article in your newspaper. You write a letter to the editor to give your opinion on this draft by-law. Justify your point of view with at least three arguments illustrated with examples (at least 200 words).",
+      "document": "Pour améliorer la qualité de l’air, la municipalité de Val-des-Pins veut interdire l’utilisation des foyers et des poêles à bois dans les maisons à partir de 2028, sauf pendant les pannes d’électricité. Les propriétaires devront remplacer leur appareil à leurs frais. « La fumée de bois est la première source de pollution de l’air en hiver dans notre ville », affirme le conseiller responsable de l’environnement.",
+      "minWords": 200,
+      "maxWords": 250,
+      "minutes": 35,
+      "checklist": [
+        "Follows the format of a formal letter (Madame, Monsieur, reference to the article, closing formula, signature).",
+        "States a clear position on the by-law early in the letter.",
+        "Develops at least three arguments (air quality and health, cost for families, safety during outages, practicality of the rule).",
+        "Supports the arguments with concrete examples (a neighbour, relatives, a past ice storm or power outage).",
+        "Takes the city’s argument about pollution into account (concession) before answering it.",
+        "Proposes an alternative solution or a compromise.",
+        "Uses formal register and full negations (ne… pas) throughout."
+      ],
+      "tips": [
+        "Useful vocabulary: la qualité de l’air, un poêle certifié, une subvention, une panne prolongée, le verglas, se chauffer au bois.",
+        "Quote or paraphrase the councillor’s argument to show you have read the article carefully.",
+        "Proposing a compromise (ban only old stoves, offer grants) makes a nuanced, convincing conclusion.",
+        "Reread for agreement: les foyers (m.), la fumée (f.), les pannes (f.)."
+      ],
+      "models": [
+        {
+          "label": "Model answer (about NCLC 7)",
+          "fr": "Madame, Monsieur,\n\nJ’ai lu avec attention votre article sur l’interdiction des foyers et des poêles à bois à Val-des-Pins. Je comprends l’objectif de la municipalité, mais je ne suis pas d’accord avec une interdiction totale.\n\nTout d’abord, je reconnais que la fumée pollue l’air. En hiver, quand il n’y a pas de vent, on sent l’odeur du bois brûlé dans tout le quartier. Mon voisin, qui a de l’asthme, a parfois du mal à respirer. Il faut donc agir.\n\nCependant, cette décision est injuste pour beaucoup de familles. Un nouvel appareil coûte cher, et certaines personnes n’ont pas les moyens de le remplacer. Par exemple, mes parents sont retraités et ils chauffent leur maison surtout au bois parce que c’est plus économique.\n\nDe plus, le bois est très utile pendant les tempêtes. Il y a trois ans, à cause du verglas, nous avons perdu l’électricité pendant quatre jours. Notre poêle nous a permis d’avoir chaud et de cuisiner.\n\nÀ mon avis, la Ville devrait plutôt interdire seulement les vieux appareils polluants et offrir une aide financière pour acheter des poêles certifiés, qui produisent beaucoup moins de fumée.\n\nJe vous prie d’agréer, Madame, Monsieur, mes salutations distinguées.\n\nJulie Côté"
+        },
+        {
+          "label": "Model answer (about NCLC 9)",
+          "fr": "Madame, Monsieur,\n\nVotre article sur le projet d’interdire les foyers et les poêles à bois à Val-des-Pins a suscité de vives discussions dans mon entourage. Si je partage l’objectif d’améliorer la qualité de l’air, je considère qu’une interdiction générale serait à la fois injuste et peu efficace.\n\nIl serait certes malhonnête de nier le problème. Les soirs d’hiver sans vent, un nuage de fumée stagne au-dessus de certaines rues, et les personnes asthmatiques, comme mon voisin, en paient le prix. Le statu quo n’est donc pas acceptable.\n\nToutefois, faire porter la totalité du coût aux propriétaires pénaliserait surtout les ménages modestes. Bon nombre de retraités, dont mes parents, se chauffent principalement au bois pour réduire une facture d’électricité devenue écrasante. Leur imposer un remplacement à leurs frais reviendrait à les fragiliser davantage.\n\nEn outre, le chauffage au bois représente une sécurité précieuse lors des pannes prolongées, de plus en plus fréquentes. L’exception prévue par le règlement est d’ailleurs difficilement applicable : comment vérifier qu’un foyer n’est allumé que pendant une coupure ?\n\nIl me semble donc plus judicieux de bannir uniquement les appareils anciens et de financer leur remplacement par des modèles certifiés, beaucoup moins polluants. La Ville atteindrait ainsi son objectif sans pénaliser personne.\n\nVeuillez agréer, Madame, Monsieur, l’expression de mes sentiments distingués.\n\nJulie Côté"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-10-02",
+  "level": "a2",
+  "unit": "a2-10",
+  "title": "Setting the scene",
+  "goal": "Set the scene of a story in the imparfait (time, weather, place, people, feelings) and bring in the event with quand + passé composé.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-scene-quand", "kind": "grammar", "fr": "Il faisait beau quand…", "en": "scene (imparfait) + quand + event (passé composé)",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ (pleuvoir) et la rue ___ (être) vide.", "answers": [["pleuvait"], ["était"]], "en": "It was raining and the street was empty.", "explain": "Weather and description = scene → imparfait." },
+        { "type": "cloze", "text": "Je marchais dans la rue quand j'___ (voir) un renard.", "answers": [["ai vu"]], "en": "I was walking down the street when I saw a fox.", "explain": "After the scene, [[quand]] + passé composé brings in the event: [[j'ai vu]]." },
+        { "type": "mcq", "prompt": "Which sentence describes the weather as the scene?", "options": ["Quand je suis arrivée, il neigeait.", "Quand je suis arrivée, il a neigé.", "Quand j'arrivais, il a neigé."], "optionsFr": true, "answer": 0, "explain": "The snow was already falling when I arrived: background → [[il neigeait]]." }
+      ] },
+    { "id": "g-en-train-de", "kind": "grammar", "fr": "j'étais en train de + infinitif", "en": "I was in the middle of (doing)",
+      "drills": [
+        { "type": "cloze", "text": "J'étais en train ___ souper quand tu as appelé.", "answers": [["de"]], "en": "I was (in the middle of) having supper when you called.", "explain": "[[être en train de]] + infinitive." },
+        { "type": "translate", "prompt": "We were in the middle of cooking when the power went out.", "accept": ["On était en train de cuisiner quand l'électricité a manqué.", "Nous étions en train de cuisiner quand l'électricité a manqué.", "On était en train de cuisiner quand il y a eu une panne d'électricité.", "Nous étions en train de cuisiner quand il y a eu une panne d'électricité.", "On était en train de cuisiner quand il y a eu une panne de courant.", "Nous étions en train de cuisiner quand il y a eu une panne de courant.", "On était en train de cuisiner quand le courant a manqué.", "Nous étions en train de cuisiner quand le courant a manqué."], "explain": "[[être]] in the imparfait + [[en train de]] + infinitive; the outage is the event (passé composé)." }
+      ] },
+    { "id": "c-etait-un", "kind": "phrase", "fr": "C'était un mardi soir de février.", "en": "It was a Tuesday evening in February." },
+    { "id": "il-etait", "kind": "phrase", "fr": "Il était presque 23 h.", "say": "Il était presque vingt-trois heures.", "en": "It was almost 11 p.m.", "accept": ["Il était presque 23 heures.", "Il était presque onze heures du soir."] },
+    { "id": "du-monde", "kind": "phrase", "fr": "Il y avait beaucoup de monde.", "en": "There were a lot of people.", "accept": ["Il y avait du monde."] },
+    { "id": "il-faisait-nuit", "kind": "phrase", "fr": "Il faisait nuit.", "en": "It was dark (night had fallen)." },
+    { "id": "la-rue-etait-vide", "kind": "phrase", "fr": "La rue était vide.", "en": "The street was empty." },
+    { "id": "avoir-hate", "kind": "phrase", "fr": "J'avais hâte de rentrer.", "en": "I couldn't wait to get home.", "accept": ["J'avais hâte de rentrer chez moi.", "J'avais hâte de rentrer à la maison."] },
+    { "id": "je-portais", "kind": "phrase", "fr": "Je portais un manteau rouge.", "en": "I was wearing a red coat." },
+    { "id": "verglas", "kind": "vocab", "fr": "verglas", "article": "le", "gender": "m", "en": "black ice, freezing rain", "pos": "noun",
+      "example": { "fr": "Attention, il y a du verglas sur le trottoir !", "en": "Careful, there's black ice on the sidewalk!" } },
+    { "id": "glisser", "kind": "vocab", "fr": "glisser", "en": "to slip, to slide", "pos": "verb",
+      "example": { "fr": "J'ai glissé sur le trottoir.", "en": "I slipped on the sidewalk." } },
+    { "id": "a-ce-moment-la", "kind": "phrase", "fr": "À ce moment-là", "en": "at that moment, just then" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "The night of the black ice",
+      "blocks": [
+        { "type": "text", "title": "Olivier tells a story",
+          "context": "Olivier writes a short story for his French class about a winter evening in Québec City.",
+          "fr": "C'était un mardi soir de février, à Québec. Il était presque 23 h. Il faisait nuit, il faisait très froid et il y avait du verglas partout. La rue était vide : il n'y avait personne.\nJe rentrais du travail à pied. J'étais fatigué et j'avais hâte de rentrer chez moi. Je portais mes vieilles chaussures, pas mes bottes d'hiver…\nQuand je suis arrivé devant chez moi, j'ai glissé et je suis tombé dans la neige ! À ce moment-là, ma voisine sortait ses poubelles. Elle m'a vu, elle a ri… et elle m'a aidé à me relever.",
+          "en": "It was a Tuesday evening in February, in Québec City. It was almost 11 p.m. It was dark, it was very cold and there was black ice everywhere. The street was empty: there was nobody. I was walking home from work. I was tired and I couldn't wait to get home. I was wearing my old shoes, not my winter boots… When I got in front of my place, I slipped and fell in the snow! Just then, my neighbour was taking out her garbage. She saw me, she laughed… and she helped me get up." },
+        { "id": "d1", "type": "mcq", "prompt": "Where does the action really start (the first event)?", "options": ["Quand je suis arrivé devant chez moi, j'ai glissé…", "Il faisait nuit…", "Je rentrais du travail à pied."], "optionsFr": true, "answer": 0,
+          "explain": "Everything before is the **scene** in the imparfait. [[j'ai glissé]] is the first event, in the passé composé." },
+        { "id": "d2", "type": "mcq", "prompt": "“À ce moment-là, ma voisine sortait ses poubelles.” Why the imparfait?", "options": ["She was already doing it when Olivier fell: background action", "It's something she did every day", "It's the most important event of the story"], "answer": 0,
+          "explain": "An action **in progress** at the moment of the event → imparfait: she *was taking out* the garbage." }
+      ] },
+    { "type": "understand", "title": "Building the scene",
+      "blocks": [
+        { "type": "explain", "title": "Who, where, when, what was it like?",
+          "body": "A good story starts by putting the listener **in the picture**. In French, this whole opening is in the **imparfait**. Then [[quand]] + passé composé (or a word like *soudain*, coming in the next lesson) starts the action.\n\nThink like a film director: first the setting and the atmosphere, then *action!*" },
+        { "type": "table", "title": "Your scene-setting toolkit (all in the imparfait)",
+          "head": ["Element", "French", "English"],
+          "rows": [
+            ["Day and time", "C'était un samedi matin. / Il était 8 h. / C'était en 2019.", "It was a Saturday morning. / It was 8 a.m. / It was in 2019."],
+            ["Weather", "Il faisait beau / froid / nuit. Il pleuvait. Il neigeait. Il y avait du vent.", "It was nice / cold / dark. It was raining. It was snowing. It was windy."],
+            ["Place", "J'étais à l'arrêt d'autobus. / La rue était vide.", "I was at the bus stop. / The street was empty."],
+            ["People", "Il y avait beaucoup de monde. / Il n'y avait personne.", "There were lots of people. / There was nobody."],
+            ["What was going on", "Des enfants jouaient. / Je rentrais du travail.", "Children were playing. / I was going home from work."],
+            ["Feelings and state", "J'étais fatigué. / J'avais faim. / J'avais hâte de partir.", "I was tired. / I was hungry. / I couldn't wait to leave."],
+            ["Appearance", "Je portais un manteau rouge. / Elle avait l'air inquiète.", "I was wearing a red coat. / She looked worried."]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "pattern", "title": "Scene + quand + event",
+          "pattern": "[imparfait : la scène]  quand  [passé composé : l'événement]",
+          "note": "The order can change: [[Quand je suis arrivé, il pleuvait.]] = [[Il pleuvait quand je suis arrivé.]] The **tenses** stay the same: the imparfait is always the background.",
+          "examples": [
+            { "fr": "Il faisait beau quand nous sommes partis.", "en": "The weather was nice when we left." },
+            { "fr": "J'attendais l'autobus quand une voiture s'est arrêtée.", "en": "I was waiting for the bus when a car stopped." },
+            { "fr": "Quand je suis entrée, tout le monde dormait.", "en": "When I came in, everyone was asleep. (woman speaking)" },
+            { "fr": "Nous étions en train de souper quand l'électricité a manqué.", "en": "We were (in the middle of) having supper when the power went out." }
+          ] },
+        { "type": "table", "title": "Timeline: what was going on, what happened",
+          "head": ["", "Background (imparfait)", "Event (passé composé)"],
+          "rows": [
+            ["The scene", "Il était 23 h. Il faisait froid. Je rentrais à pied.", "—"],
+            ["The event", "(still going on: the cold, the ice)", "Je suis arrivé devant chez moi. J'ai glissé."],
+            ["At the same moment", "Ma voisine sortait ses poubelles.", "—"],
+            ["What happened next", "—", "Elle m'a vu. Elle a ri. Elle m'a aidé."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "The background **continues** while the events happen. The neighbour's action started before the fall and was still going on when it happened." },
+        { "type": "table", "title": "Careful: the tense changes the story",
+          "head": ["French", "What it means"],
+          "rows": [
+            ["Quand je suis arrivé, il pleuvait.", "It was already raining when I arrived."],
+            ["Quand je suis arrivé, il a commencé à pleuvoir.", "It started raining when (just after) I arrived."],
+            ["Quand Lucie est entrée, on mangeait.", "We were already eating when Lucie came in."],
+            ["Quand Lucie est entrée, on a mangé.", "We started eating once Lucie came in."]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "vocab", "title": "Words and phrases", "itemIds": ["c-etait-un", "il-etait", "du-monde", "il-faisait-nuit", "la-rue-etait-vide", "avoir-hate", "je-portais", "verglas", "glisser", "a-ce-moment-la"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Weather in the passé composé as decor:** *Il a fait beau quand on est partis* → [[Il faisait beau quand on est partis]]. (Use the passé composé only to sum up a whole finished period: [[Il a fait beau toute la semaine.]])\n- **C'était, not ça a été,** to describe: [[C'était un samedi]], [[C'était super]].\n- **Il y avait, not il y a eu,** for the scene: [[Il y avait beaucoup de monde]]. [[Il y a eu]] means *there was* as an event: [[Il y a eu un accident.]]\n- **Être en train de needs de:** [[J'étais en train de cuisiner]], not *en train cuisiner*.\n- **Don't put the event in the imparfait:** *Je marchais quand je glissais* → [[Je marchais quand j'ai glissé]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Winter words for your stories",
+          "body": "Canadian winter gives you lots of scenes to set:\n\n- [[le verglas]] (black ice; freezing rain is also [[la pluie verglaçante]]). Many Québécois remember [[la crise du verglas]], the 1998 ice storm.\n- [[la poudrerie]] (Québec): blowing snow. [[la slush]] or [[la sloche]] (Québec, informal): slush.\n- [[une tempête de neige]]: a snowstorm. [[Il faisait moins trente]]: it was minus thirty.\n- [[pelleter]] (Québec: to shovel snow): [[Mon voisin pelletait son entrée.]] = My neighbour was shovelling his driveway." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "When you set the scene, slow down a little: you're painting a picture. Then speed up for the event.",
+          "lines": [
+            { "fr": "C'était un mardi soir de février.", "en": "It was a Tuesday evening in February." },
+            { "fr": "Il faisait nuit et il y avait du verglas partout.", "en": "It was dark and there was black ice everywhere.", "tip": "faisait: say fe-zè. The first ai sounds like the e of le." },
+            { "fr": "J'étais fatigué et j'avais hâte de rentrer.", "en": "I was tired and I couldn't wait to get home.", "tip": "hâte: the h is silent but there's no link: j'avais / hâte." },
+            { "fr": "Quand je suis arrivé, j'ai glissé.", "en": "When I arrived, I slipped." },
+            { "fr": "Nous étions en train de souper quand l'électricité a manqué.", "en": "We were having supper when the power went out." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "C'était un dimanche après-midi. Il faisait beau et il y avait beaucoup de monde au parc La Fontaine. Des enfants jouaient au ballon et nous, on faisait un pique-nique.",
+          "en": "It was a Sunday afternoon. The weather was nice and there were lots of people in La Fontaine Park. Children were playing ball and we were having a picnic.",
+          "prompt": "What did you hear?", "options": ["Only the scene: nothing has happened yet", "A list of events, one after the other", "Plans for next Sunday"], "answer": 0,
+          "explain": "All the verbs are in the imparfait ([[c'était, faisait, il y avait, jouaient, faisait]]): it's the scene. The listener is waiting for *quand…*" },
+        { "id": "h2", "type": "listen-mcq", "fr": "Quand je suis arrivée à la gare, il pleuvait et mon train partait.",
+          "en": "When I got to the station, it was raining and my train was leaving.",
+          "prompt": "What was happening when the speaker arrived?", "options": ["The train was (just) leaving and it was raining.", "The train had already left hours ago.", "It started to rain after the train left."], "answer": 0,
+          "explain": "[[mon train partait]] (imparfait): the train was in the middle of leaving at that moment." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "First the scene (imparfait), then the event (passé composé).",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "C'___ un samedi matin. Il ___ beau. (être, faire)", "answers": [["était"], ["faisait"]], "choices": ["était", "a été", "faisait", "a fait"], "en": "It was a Saturday morning. The weather was nice.",
+          "explain": "Time and weather in a scene → imparfait." },
+        { "id": "r2", "type": "cloze", "text": "J'attendais l'autobus quand une voiture ___ ___ arrêtée devant moi.", "answers": [["s'"], ["est"]], "en": "I was waiting for the bus when a car stopped in front of me.",
+          "explain": "Reflexive verb in the passé composé: [[elle s'est arrêtée]], with agreement (une voiture)." },
+        { "id": "r3", "type": "mcq", "prompt": "“There were a lot of people at the market.” (scene)", "optionsFr": true,
+          "options": ["Il y avait beaucoup de monde au marché.", "Il y a eu beaucoup de monde au marché.", "Il y a beaucoup de monde au marché."], "answer": 0,
+          "optionFeedback": [null, "Il y a eu is for an event (there was an accident), not for a description.", "This is the present."] },
+        { "id": "r4", "type": "translate", "prompt": "It was raining when I left work. (woman speaking)", "accept": ["Il pleuvait quand j'ai quitté le travail.", "Il pleuvait quand je suis sortie du travail.", "Quand j'ai quitté le travail, il pleuvait.", "Quand je suis sortie du travail, il pleuvait.", "Il pleuvait quand je suis partie du travail.", "Quand je suis partie du travail, il pleuvait."], "hint": "pleuvoir → il pleuvait",
+          "explain": "Rain = scene → [[il pleuvait]]; leaving = event → passé composé." },
+        { "id": "r5", "type": "reorder", "prompt": "I was in the middle of cooking.", "accept": ["J'étais en train de cuisiner"], "extra": ["ai", "à"],
+          "explain": "[[être]] (imparfait) + [[en train de]] + infinitive." },
+        { "id": "r6", "type": "match", "prompt": "Match each sentence with what it tells you.", "pairs": [["Il faisait nuit.", "time of day"], ["J'avais hâte de rentrer.", "a feeling"], ["Il n'y avait personne.", "people (none)"], ["Je portais un manteau rouge.", "appearance"], ["J'ai glissé.", "the event"]] },
+        { "id": "r7", "type": "cloze", "text": "Quand Lucie est entrée, nous ___ (manger) déjà.", "answers": [["mangions"]], "en": "When Lucie came in, we were already eating.",
+          "explain": "Already in progress → imparfait. Spelling: [[nous mangions]] (no e: the e of [[mangeons]] is only before o or a)." },
+        { "id": "r8", "type": "translate", "prompt": "It was almost midnight and the street was empty.", "accept": ["Il était presque minuit et la rue était vide.", "C'était presque minuit et la rue était vide."],
+          "explain": "Time and description: [[il était]], [[la rue était]]." },
+        { "id": "r9", "type": "dictation", "fr": "Il faisait très froid et il y avait du verglas partout.", "accept": [],
+          "explain": "[[faisait]] (faire, imparfait); [[il y avait]] (there was)." },
+        { "id": "r10", "type": "cloze", "text": "Ma voisine ? Je ___ ai dit merci. (to her)", "answers": [["lui"]], "choices": ["lui", "la", "y"], "en": "My neighbour? I said thank you to her.",
+          "explain": "Review: [[dire à quelqu'un]] → [[lui]], before [[ai]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Look back at a moment you remember well (a storm, a party, a trip, a first day at work). Set the scene in at least five sentences (time, weather, place, people, how you felt), then say “quand…” and give the first event.", "seconds": 45,
+          "checklist": ["C'était… / Il était…", "The weather: Il faisait… / Il pleuvait…", "The place and the people: J'étais… / Il y avait…", "A feeling: J'étais… / J'avais…", "Quand + passé composé for the event"],
+          "models": [ { "label": "Model answer", "fr": "C'était un vendredi soir de décembre, à Ottawa. Il était 18 h et il neigeait beaucoup. J'étais au centre commercial avec ma fille. Il y avait beaucoup de monde, parce que c'était juste avant Noël. Nous étions fatiguées et nous avions faim. Quand nous sommes sorties, l'autobus est parti juste devant nous !", "en": "It was a Friday evening in December, in Ottawa. It was 6 p.m. and it was snowing a lot. I was at the mall with my daughter. There were lots of people, because it was just before Christmas. We were tired and hungry. When we went out, the bus left right in front of us!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write the opening of a story (the scene, then the first event). Start with “C'était…” and end with a sentence using quand + passé composé.", "promptFr": "Écrivez le début d'une histoire.", "wordRange": [40, 80],
+          "checklist": ["Start with C'était…", "At least five verbs in the imparfait", "Weather, place, people, a feeling", "One action in progress: Je rentrais… / J'étais en train de…", "End with quand + passé composé"],
+          "models": [ { "label": "Model answer", "fr": "C'était un dimanche de juillet. Il faisait très chaud et le ciel était bleu. Nous étions sur une plage près de Tadoussac. Il n'y avait pas beaucoup de monde. Mes enfants jouaient dans le sable et moi, j'étais en train de lire. J'étais calme et heureuse. Quand j'ai levé la tête, j'ai vu une baleine !", "en": "It was a Sunday in July. It was very hot and the sky was blue. We were on a beach near Tadoussac. There weren't many people. My children were playing in the sand and I was reading. I was calm and happy. When I looked up, I saw a whale!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Set the scene in the imparfait: [[C'était…]], [[Il était…]], [[Il faisait…]], [[Il y avait…]], [[J'étais…]], [[Je portais…]]\n- Describe an action in progress with [[j'étais en train de]] + infinitive\n- Start the action with **quand + passé composé**: [[Il faisait nuit quand j'ai glissé.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Checked every tense choice: each item has one clearly correct tense. Added accepted answers to the en train de translation and the avoir-hate item." }
+}

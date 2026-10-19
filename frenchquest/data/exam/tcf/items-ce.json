@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "ability": "ce",
+  "sets": [
+    {
+      "id": "tcf-ce-s1",
+      "title": "Panneaux, notes et petites annonces",
+      "level": "a2",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "s1-d1",
+          "type": "affiche",
+          "title": "Piscine des Tilleuls",
+          "fr": "PISCINE DES TILLEULS — RÈGLEMENT\n• Bonnet de bain obligatoire pour tous.\n• Douche obligatoire avant d’entrer dans le bassin.\n• Il est interdit de courir autour du bassin.\n• Les enfants de moins de 10 ans doivent être accompagnés d’un adulte.\n• Nourriture et boissons interdites (sauf l’eau)."
+        },
+        {
+          "id": "s1-d2",
+          "type": "lettre",
+          "title": "Mot sur le frigo",
+          "fr": "Léa,\nJe rentre tard ce soir : j’ai une réunion jusqu’à 19 h. Il y a des pâtes dans le frigo, tu n’as qu’à les réchauffer deux minutes au micro-ondes. Fais tes devoirs avant de regarder la télé, et surtout, n’oublie pas de donner à manger au chat !\nBisous,\nPapa"
+        },
+        {
+          "id": "s1-d3",
+          "type": "annonce",
+          "title": "Vélo à vendre",
+          "fr": "À VENDRE — Vélo de ville pour femme, très bon état, 3 vitesses, panier et antivol inclus. Utilisé deux saisons seulement.\n120 $ (prix à discuter).\nDisponible à Laval, près du métro Montmorency.\nAppelez Sophie après 18 h en semaine, ou toute la journée la fin de semaine : 450 555-0187."
+        },
+        {
+          "id": "s1-d4",
+          "type": "horaire",
+          "title": "Bibliothèque du Parc — horaire des fêtes",
+          "fr": "BIBLIOTHÈQUE DU PARC — HORAIRE DES FÊTES\nDu 23 décembre au 2 janvier :\n• 24 et 31 décembre : de 10 h à 14 h\n• 25 et 26 décembre, 1er et 2 janvier : fermé\n• Autres jours : horaire habituel (de 10 h à 20 h)\nLa chute à livres reste accessible en tout temps. Les retards ne seront pas facturés pendant cette période."
+        },
+        {
+          "id": "s1-d5",
+          "type": "affiche",
+          "title": "Collecte des encombrants",
+          "fr": "AVIS AUX RÉSIDENTS — COLLECTE DES OBJETS ENCOMBRANTS\nLa prochaine collecte aura lieu le mardi 14 mai. Déposez vos meubles et vos gros objets sur le trottoir la veille, à partir de 19 h seulement.\nLes pneus, la peinture et les appareils électroniques ne sont pas acceptés : apportez-les à l’écocentre."
+        },
+        {
+          "id": "s1-d6",
+          "type": "publicité",
+          "title": "Studio Zen & Co",
+          "fr": "NOUVEAU AU STUDIO ZEN & CO !\nYoga pour débutants, tous les mercredis de 18 h 30 à 19 h 30.\nPremier cours gratuit !\nEnsuite : 12 € la séance ou 100 € les 10 séances.\nApportez votre tapis et une bouteille d’eau.\nInscription obligatoire sur notre site ou à l’accueil."
+        }
+      ],
+      "items": [
+        { "id": "tcf-ce-001", "docId": "s1-d1", "prompt": "D’après ce règlement, que doit faire un enfant de 8 ans ?",
+          "options": ["Porter des lunettes de natation.", "Rester dans le petit bassin.", "Venir avec un adulte.", "Apporter sa propre bouteille d’eau."], "answer": 2,
+          "explain": "\"Les enfants de moins de 10 ans doivent être accompagnés d’un adulte.\"", "microSkills": ["detail"] },
+        { "id": "tcf-ce-002", "docId": "s1-d2", "prompt": "Pourquoi le père rentre-t-il tard ?",
+          "options": ["Il a une réunion.", "Il fait des courses.", "Il va chez le vétérinaire.", "Il dîne au restaurant."], "answer": 0,
+          "explain": "\"Je rentre tard ce soir : j’ai une réunion jusqu’à 19 h.\"", "microSkills": ["detail"] },
+        { "id": "tcf-ce-003", "docId": "s1-d2", "prompt": "Que demande le père à Léa ?",
+          "options": ["D’acheter des pâtes.", "D’aller chercher le chat.", "De regarder la télé avec lui.", "De nourrir l’animal."], "answer": 3,
+          "explain": "\"N’oublie pas de donner à manger au chat\": feed the pet. The pasta is already in the fridge.", "microSkills": ["paraphrase", "intention"] },
+        { "id": "tcf-ce-004", "docId": "s1-d3", "prompt": "Que peut-on dire du prix ?",
+          "options": ["Il comprend la livraison.", "Il peut être négocié.", "Il est fixe.", "Il est payable en deux fois."], "answer": 1,
+          "explain": "\"120 $ (prix à discuter)\": the price is negotiable.", "microSkills": ["vocabulary", "paraphrase"] },
+        { "id": "tcf-ce-005", "docId": "s1-d3", "prompt": "Quand peut-on appeler Sophie un mardi ?",
+          "options": ["Seulement le matin.", "À midi.", "En soirée.", "À n’importe quelle heure."], "answer": 2,
+          "explain": "Tuesday is a weekday: \"Appelez Sophie après 18 h en semaine\". All day only applies to the weekend (\"la fin de semaine\").", "microSkills": ["numbers-dates", "inference"] },
+        { "id": "tcf-ce-006", "docId": "s1-d4", "prompt": "Le 31 décembre, la bibliothèque…",
+          "options": ["est fermée toute la journée.", "ouvre à 14 h.", "suit l’horaire habituel.", "ferme en début d’après-midi."], "answer": 3,
+          "explain": "\"24 et 31 décembre : de 10 h à 14 h\": it closes at 2 p.m.", "microSkills": ["numbers-dates"] },
+        { "id": "tcf-ce-007", "docId": "s1-d4", "prompt": "Que peut-on faire même quand la bibliothèque est fermée ?",
+          "options": ["Rendre des livres.", "Emprunter des livres.", "Payer ses frais de retard.", "Utiliser les ordinateurs."], "answer": 0,
+          "explain": "\"La chute à livres reste accessible en tout temps\": the book drop is for returning books.", "microSkills": ["vocabulary", "inference"] },
+        { "id": "tcf-ce-008", "docId": "s1-d5", "prompt": "Quand faut-il sortir ses meubles ?",
+          "options": ["Le mardi 14 mai, avant 7 h.", "Le lundi 13 mai, en soirée.", "Une semaine avant la collecte.", "Le mardi 14 mai, après 19 h."], "answer": 1,
+          "explain": "Collection is on Tuesday 14 May; put items out \"la veille, à partir de 19 h seulement\", i.e. Monday 13 May in the evening.", "microSkills": ["numbers-dates", "inference"] },
+        { "id": "tcf-ce-009", "docId": "s1-d6", "prompt": "Combien coûte le premier cours ?",
+          "options": ["12 €.", "10 €.", "Rien.", "100 €."], "answer": 2,
+          "explain": "\"Premier cours gratuit !\"", "microSkills": ["numbers-dates", "paraphrase"] },
+        { "id": "tcf-ce-010", "docId": "s1-d6", "prompt": "Que faut-il faire avant de venir ?",
+          "options": ["Acheter un tapis au studio.", "Payer dix séances.", "Avoir déjà fait du yoga.", "S’inscrire."], "answer": 3,
+          "explain": "\"Inscription obligatoire sur notre site ou à l’accueil.\" The class is for beginners, and you bring your own mat.", "microSkills": ["detail"] }
+      ]
+    },
+    {
+      "id": "tcf-ce-s2",
+      "title": "Courriels et documents pratiques",
+      "level": "b1",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "s2-d1",
+          "type": "courriel",
+          "title": "Coupure d’eau",
+          "fr": "Objet : Coupure d’eau – jeudi 12 juin\nMadame, Monsieur,\nNous vous informons que des travaux de remplacement des canalisations auront lieu dans l’immeuble le jeudi 12 juin. L’eau sera coupée de 8 h 30 à 16 h environ.\nNous vous conseillons de faire des réserves d’eau la veille. Par ailleurs, merci de laisser libre l’accès à votre salle de bain : un technicien devra peut-être passer dans certains appartements. Si vous êtes absent ce jour-là, vous pouvez déposer un double de vos clés auprès de la gardienne avant mercredi soir.\nNous vous remercions de votre compréhension.\nLe syndic de copropriété"
+        },
+        {
+          "id": "s2-d2",
+          "type": "courriel",
+          "title": "Votre premier jour",
+          "fr": "Objet : Votre premier jour chez Imprimeries Laurentides\nBonjour Madame Diallo,\nNous sommes ravis de vous accueillir lundi prochain au sein de notre service de comptabilité. Merci de vous présenter à la réception à 9 h (et non à 8 h 30 comme les autres jours) : Martin Paré, votre responsable, vous fera visiter les lieux.\nN’oubliez pas d’apporter un spécimen de chèque pour le dépôt de votre salaire ainsi que votre numéro d’assurance sociale. Votre carte d’accès vous sera remise sur place.\nLe dîner du premier jour vous est offert par l’équipe.\nAu plaisir,\nCaroline Bédard, Ressources humaines"
+        },
+        {
+          "id": "s2-d3",
+          "type": "affiche",
+          "title": "Opération déneigement",
+          "fr": "VILLE DE SAINT-AMBROISE — OPÉRATION DÉNEIGEMENT\nLorsque les feux orange clignotent au bout de votre rue, il est interdit de stationner dans la rue de 23 h à 7 h. Les véhicules non déplacés seront remorqués aux frais du propriétaire, et une amende de 75 $ sera imposée.\nPour être averti gratuitement par texto la veille de chaque opération, inscrivez-vous sur le site de la Ville.\nDes stationnements municipaux sont mis gratuitement à votre disposition pendant la nuit."
+        },
+        {
+          "id": "s2-d4",
+          "type": "lettre",
+          "title": "Sortie scolaire",
+          "fr": "Chers parents,\nLe vendredi 4 avril, les élèves de CM1 visiteront le muséum d’histoire naturelle. Le départ en car aura lieu à 8 h 45 devant l’école ; le retour est prévu vers 16 h 30.\nLa participation demandée est de 6 euros par enfant. Merci de prévoir un pique-nique, une gourde et des vêtements adaptés à la météo.\nL’autorisation ci-jointe doit être signée et rendue avec le paiement avant le vendredi 28 mars. Sans autorisation, l’enfant ne pourra pas participer à la sortie et sera accueilli dans une autre classe.\nNous recherchons également deux parents accompagnateurs : si vous êtes disponible, merci de l’indiquer sur le coupon.\nMme Girard, enseignante"
+        },
+        {
+          "id": "s2-d5",
+          "type": "annonce",
+          "title": "Renouveler votre carte d’assurance maladie",
+          "fr": "RENOUVELER VOTRE CARTE D’ASSURANCE MALADIE\nVotre carte expire bientôt ? Environ deux mois avant la date d’expiration, vous recevrez par la poste un avis de renouvellement.\n1. Remplissez le formulaire joint à l’avis.\n2. Faites prendre une photo récente dans un endroit reconnu : la liste figure au dos de l’avis.\n3. Retournez le tout dans l’enveloppe-réponse fournie. Aucun timbre n’est nécessaire.\nVous recevrez votre nouvelle carte dans un délai d’environ quatre semaines.\nAttention : si vous avez déménagé, vous devez d’abord signaler votre changement d’adresse, sinon l’avis ne vous parviendra pas."
+        }
+      ],
+      "items": [
+        { "id": "tcf-ce-011", "docId": "s2-d1", "prompt": "Pourquoi l’eau sera-t-elle coupée ?",
+          "options": ["Une fuite a été découverte.", "Des tuyaux vont être changés.", "Les charges n’ont pas été payées.", "Les salles de bain vont être rénovées."], "answer": 1,
+          "explain": "\"Des travaux de remplacement des canalisations\": the pipes are being replaced.", "microSkills": ["main-idea", "paraphrase"] },
+        { "id": "tcf-ce-012", "docId": "s2-d1", "prompt": "Que peuvent faire les résidents absents le 12 juin ?",
+          "options": ["Prévenir le technicien par téléphone.", "Laisser leur porte ouverte.", "Fermer leur robinet principal.", "Confier leurs clés à la gardienne."], "answer": 3,
+          "explain": "\"Si vous êtes absent ce jour-là, vous pouvez déposer un double de vos clés auprès de la gardienne.\"", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-ce-013", "docId": "s2-d2", "prompt": "À quelle heure Mme Diallo doit-elle arriver lundi ?",
+          "options": ["À 9 h.", "À 8 h 30.", "À midi.", "À 9 h 30."], "answer": 0,
+          "explain": "\"Merci de vous présenter à la réception à 9 h (et non à 8 h 30 comme les autres jours).\"", "microSkills": ["numbers-dates"] },
+        { "id": "tcf-ce-014", "docId": "s2-d2", "prompt": "Qu’est-ce que Mme Diallo doit apporter ?",
+          "options": ["Sa carte d’accès.", "Son repas du midi.", "Des documents pour recevoir son salaire.", "Une lettre de recommandation."], "answer": 2,
+          "explain": "\"Un spécimen de chèque pour le dépôt de votre salaire ainsi que votre numéro d’assurance sociale.\" The access card is given on site and lunch (\"le dîner\") is offered.", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-ce-015", "docId": "s2-d3", "prompt": "Quand le stationnement dans la rue est-il interdit ?",
+          "options": ["Tous les soirs d’hiver.", "La nuit, quand un signal lumineux l’indique.", "De 7 h à 23 h pendant les tempêtes.", "Le jour de la collecte des ordures."], "answer": 1,
+          "explain": "\"Lorsque les feux orange clignotent… il est interdit de stationner dans la rue de 23 h à 7 h.\"", "microSkills": ["detail", "numbers-dates"] },
+        { "id": "tcf-ce-016", "docId": "s2-d3", "prompt": "Que propose la Ville aux automobilistes ?",
+          "options": ["De recevoir une alerte sur leur téléphone.", "De payer leur amende en ligne.", "De faire remorquer leur voiture gratuitement.", "De louer une place de garage."], "answer": 0,
+          "explain": "\"Pour être averti gratuitement par texto la veille de chaque opération, inscrivez-vous.\" The municipal lots are free, not rented.", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-ce-017", "docId": "s2-d4", "prompt": "Que se passera-t-il pour un enfant dont l’autorisation n’est pas rendue ?",
+          "options": ["Il partira avec un parent.", "Il devra payer plus cher.", "Il restera à la maison.", "Il passera la journée à l’école."], "answer": 3,
+          "explain": "\"Sans autorisation, l’enfant ne pourra pas participer à la sortie et sera accueilli dans une autre classe.\"", "microSkills": ["detail", "inference"] },
+        { "id": "tcf-ce-018", "docId": "s2-d4", "prompt": "Que demande l’enseignante à certains parents ?",
+          "options": ["De préparer le pique-nique de la classe.", "De conduire les enfants en voiture.", "D’accompagner le groupe.", "De payer pour d’autres élèves."], "answer": 2,
+          "explain": "\"Nous recherchons également deux parents accompagnateurs.\"", "microSkills": ["intention"] },
+        { "id": "tcf-ce-019", "docId": "s2-d5", "prompt": "Que doit-on faire concernant la photo ?",
+          "options": ["L’envoyer par courriel.", "La faire faire dans un lieu autorisé.", "La prendre soi-même à la maison.", "Réutiliser celle de l’ancienne carte."], "answer": 1,
+          "explain": "\"Faites prendre une photo récente dans un endroit reconnu : la liste figure au dos de l’avis.\"", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-ce-020", "docId": "s2-d5", "prompt": "Pourquoi faut-il signaler un déménagement ?",
+          "options": ["Pour recevoir l’avis de renouvellement.", "Pour obtenir une carte gratuite.", "Pour ne pas avoir à payer le timbre.", "Pour raccourcir le délai d’attente."], "answer": 0,
+          "explain": "\"Si vous avez déménagé, vous devez d’abord signaler votre changement d’adresse, sinon l’avis ne vous parviendra pas.\"", "microSkills": ["inference"] }
+      ]
+    },
+    {
+      "id": "tcf-ce-s3",
+      "title": "Articles, critiques et forums",
+      "level": "b2",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "s3-d1",
+          "type": "article",
+          "title": "Emprunter une perceuse comme un roman",
+          "fr": "À Trois-Rivières, on emprunte désormais une perceuse comme on emprunte un roman. Ouverte l’automne dernier dans un ancien local commercial, la Remise du quartier propose plus de 600 objets : outils de jardinage, scies, échelles, mais aussi machines à coudre ou appareils à raclette.\nLe principe est simple : moyennant une cotisation annuelle de 40 $, les membres peuvent emprunter jusqu’à trois objets à la fois, pour une semaine. « Une perceuse ne sert que quelques minutes par année dans la plupart des foyers. Pourquoi chaque ménage devrait-il en posséder une ? », résume Jeanne Lacasse, l’une des fondatrices.\nLe succès a dépassé les attentes : près de 900 membres se sont inscrits en un an, alors que l’équipe en espérait 300. Revers de la médaille, les bénévoles peinent à suivre. Les réparations, notamment, s’accumulent : certains objets reviennent abîmés, et rares sont les membres qui savent les remettre en état.\nL’organisme cherche donc des bricoleurs prêts à donner quelques heures par mois. Il envisage aussi d’offrir des ateliers pour apprendre aux membres à entretenir eux-mêmes le matériel."
+        },
+        {
+          "id": "s3-d2",
+          "type": "article",
+          "title": "Critique — La Table de Margot",
+          "fr": "LA TABLE DE MARGOT ★★★☆☆\nDifficile de ne pas tomber sous le charme du décor : pierres apparentes, lumière tamisée, vaisselle chinée chez les antiquaires du quartier. Margot Lefort, qui a fait ses classes dans plusieurs grandes maisons lyonnaises, signe ici sa première adresse.\nCôté assiette, le bilan est plus contrasté. Le pâté en croûte servi en entrée est tout simplement remarquable, et la tarte au citron mérite à elle seule le déplacement. En revanche, le plat principal – un suprême de volaille – manquait cruellement d’assaisonnement, et la garniture, tiède, semblait avoir attendu en cuisine.\nLe service, souriant mais débordé, explique sans doute en partie ces faiblesses : deux personnes pour une salle de quarante couverts, c’est peu. À 48 euros le menu, on attend davantage de régularité. Une adresse prometteuse, à revoir dans quelques mois."
+        },
+        {
+          "id": "s3-d3",
+          "type": "forum",
+          "title": "Premier hiver à Québec, des conseils ?",
+          "fr": "Camille_37 : Bonjour à tous ! J’arrive de Tours en novembre avec mon conjoint pour un poste à Québec. On nous a tellement parlé du froid qu’on commence à paniquer. Faut-il tout acheter avant de partir ?\nJF_Limoilou : Surtout pas ! Les manteaux vendus en France ne sont généralement pas faits pour nos -25. Achetez sur place, et pas forcément dans les boutiques chics : les friperies et les ventes de garage d’automne regorgent de bons manteaux à petit prix. Et investissez dans de vraies bottes, c’est là que tout se joue.\nNadia.Q : Je confirme pour les bottes. Par contre, le plus dur pour moi, ça n’a pas été le froid, mais le manque de lumière en décembre. Sortez prendre l’air le midi, même dix minutes, ça change tout. Et inscrivez-vous à une activité d’hiver : patin, raquette… On finit par aimer la saison quand on cesse de la subir !"
+        },
+        {
+          "id": "s3-d4",
+          "type": "article",
+          "title": "Des potagers sur les toits de Paris",
+          "fr": "Vu de la rue, rien ne le laisse deviner. Pourtant, sur le toit de ce gymnase du XIe arrondissement poussent chaque été près de deux tonnes de tomates, de courgettes et d’herbes aromatiques. L’association qui gère cette ferme urbaine emploie quatre salariés et vend sa production en circuit court aux habitants et aux restaurants voisins.\nCe type de projet se multiplie dans la capitale, encouragé par la municipalité. Les avantages mis en avant sont nombreux : les toits végétalisés rafraîchissent les bâtiments en été, retiennent une partie des eaux de pluie et accueillent des insectes pollinisateurs.\nFaut-il pour autant y voir une solution pour nourrir les villes ? Les spécialistes restent prudents. « Même si l’on cultivait tous les toits plats de Paris, on ne couvrirait qu’une infime partie des besoins alimentaires de ses habitants », rappelle Antoine Mercier, agronome. Selon lui, l’intérêt de ces fermes est ailleurs : « Elles reconnectent les citadins avec la production de leur nourriture. Un enfant qui a vu pousser une tomate ne la regarde plus de la même façon. »\nReste la question du coût. Aménager un toit pour le rendre cultivable – étanchéité, renforcement de la structure, accès sécurisé – représente un investissement élevé, que peu de projets parviennent à rentabiliser sans subventions."
+        }
+      ],
+      "items": [
+        { "id": "tcf-ce-021", "docId": "s3-d1", "prompt": "Quel est le sujet principal de l’article ?",
+          "options": ["Un service de prêt d’objets du quotidien.", "L’ouverture d’une quincaillerie de quartier.", "Une bibliothèque qui manque de livres.", "Un atelier de réparation de vélos."], "answer": 0,
+          "explain": "\"On emprunte désormais une perceuse comme on emprunte un roman… plus de 600 objets\": a lending service for everyday objects.", "microSkills": ["main-idea"] },
+        { "id": "tcf-ce-022", "docId": "s3-d1", "prompt": "Quel argument Jeanne Lacasse avance-t-elle ?",
+          "options": ["Les outils coûtent de plus en plus cher.", "Les gens ne savent plus bricoler.", "Beaucoup d’objets servent très rarement.", "Les ménages manquent de place pour ranger."], "answer": 2,
+          "explain": "\"Une perceuse ne sert que quelques minutes par année dans la plupart des foyers.\"", "microSkills": ["paraphrase"] },
+        { "id": "tcf-ce-023", "docId": "s3-d1", "prompt": "Quel problème l’organisme rencontre-t-il ?",
+          "options": ["Il n’a pas assez de membres.", "Il doit quitter son local.", "Ses tarifs sont jugés trop élevés.", "Il manque de personnes capables d’entretenir le matériel."], "answer": 3,
+          "explain": "\"Les bénévoles peinent à suivre. Les réparations… s’accumulent\" and it is looking for \"des bricoleurs\". Membership is three times higher than expected.", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-ce-024", "docId": "s3-d2", "prompt": "Quel est l’avis général du critique ?",
+          "options": ["Il déconseille fortement ce restaurant.", "Il y voit du potentiel, mais relève des défauts.", "Il le considère comme la meilleure table du quartier.", "Il le recommande surtout pour son prix."], "answer": 1,
+          "explain": "\"Le bilan est plus contrasté\" and he concludes \"Une adresse prometteuse, à revoir dans quelques mois.\"", "microSkills": ["opinion-fact", "main-idea"] },
+        { "id": "tcf-ce-025", "docId": "s3-d2", "prompt": "Selon le critique, qu’est-ce qui explique en partie les faiblesses du repas ?",
+          "options": ["L’inexpérience de la cheffe.", "La qualité médiocre des produits.", "Le prix trop bas du menu.", "Le manque de personnel en salle."], "answer": 3,
+          "explain": "\"Le service, souriant mais débordé, explique sans doute en partie ces faiblesses : deux personnes pour une salle de quarante couverts.\"", "microSkills": ["detail"] },
+        { "id": "tcf-ce-026", "docId": "s3-d3", "prompt": "Que conseille JF_Limoilou à Camille ?",
+          "options": ["D’acheter ses vêtements en France.", "D’éviter les friperies.", "D’acheter des vêtements d’occasion sur place.", "D’attendre le printemps pour arriver."], "answer": 2,
+          "explain": "\"Achetez sur place… les friperies et les ventes de garage d’automne regorgent de bons manteaux à petit prix.\"", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-ce-027", "docId": "s3-d3", "prompt": "Selon Nadia.Q, qu’est-ce qui aide à mieux vivre l’hiver ?",
+          "options": ["Rester actif et profiter de la lumière du jour.", "Éviter de sortir quand il fait trop froid.", "Prendre des vacances en décembre.", "Acheter un manteau très chaud."], "answer": 0,
+          "explain": "\"Sortez prendre l’air le midi, même dix minutes… inscrivez-vous à une activité d’hiver.\"", "microSkills": ["main-idea", "paraphrase"] },
+        { "id": "tcf-ce-028", "docId": "s3-d4", "prompt": "Quels avantages des toits cultivés l’article mentionne-t-il ?",
+          "options": ["Ils permettent de nourrir toute la ville.", "Ils ont des effets positifs sur l’environnement urbain.", "Ils sont très rentables.", "Ils font baisser le prix des légumes."], "answer": 1,
+          "explain": "They \"rafraîchissent les bâtiments en été, retiennent une partie des eaux de pluie et accueillent des insectes pollinisateurs\". The text denies feeding the city and profitability.", "microSkills": ["detail"] },
+        { "id": "tcf-ce-029", "docId": "s3-d4", "prompt": "Selon Antoine Mercier, quel est le principal intérêt de ces fermes ?",
+          "options": ["Elles créent de nombreux emplois.", "Elles approvisionnent les restaurants.", "Elles sensibilisent les citadins à l’origine des aliments.", "Elles rafraîchissent les bâtiments."], "answer": 2,
+          "explain": "\"L’intérêt de ces fermes est ailleurs : « Elles reconnectent les citadins avec la production de leur nourriture. »\"", "microSkills": ["opinion-fact", "paraphrase"] },
+        { "id": "tcf-ce-030", "docId": "s3-d4", "prompt": "Que laisse entendre le dernier paragraphe ?",
+          "options": ["Les toits parisiens sont trop fragiles pour être cultivés.", "La municipalité refuse de financer ces projets.", "Les fermes urbaines vont bientôt disparaître.", "Ces projets dépendent souvent d’aides publiques."], "answer": 3,
+          "explain": "\"Un investissement élevé, que peu de projets parviennent à rentabiliser sans subventions.\"", "microSkills": ["inference"] }
+      ]
+    },
+    {
+      "id": "tcf-ce-s4",
+      "title": "Éditoriaux, essais et vulgarisation",
+      "level": "c1",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "s4-d1",
+          "type": "article",
+          "title": "Éditorial — Le droit de ne pas répondre",
+          "fr": "Il fut un temps où quitter le bureau signifiait quitter le travail. Ce temps-là, convenons-en, n’a sans doute jamais été aussi idyllique qu’on le prétend aujourd’hui ; mais il avait au moins le mérite de la clarté. Le téléphone intelligent a brouillé la frontière : un courriel reçu à 22 h appelle, croit-on, une réponse à 22 h 05.\nLes partisans du statu quo font valoir que cette disponibilité est aussi une liberté : celle de partir plus tôt pour aller chercher ses enfants, quitte à régler un dossier le soir. L’argument n’est pas sans fondement. Encore faut-il que cette souplesse profite réellement au salarié, et qu’elle ne serve pas de prétexte à une disponibilité permanente que personne n’a jamais négociée.\nCar le problème n’est pas technique, il est culturel. Une loi peut bien interdire l’envoi de messages après 18 h ; si le gestionnaire qui la respecte est perçu comme moins engagé que celui qui répond à minuit, rien ne changera. C’est d’abord aux dirigeants de donner l’exemple, en cessant de valoriser, même implicitement, l’épuisement comme preuve de dévouement.\nLe droit à la déconnexion ne sera pas un acquis tant qu’il restera un privilège que l’on s’accorde en culpabilisant."
+        },
+        {
+          "id": "s4-d2",
+          "type": "article",
+          "title": "Extrait de roman",
+          "fr": "Le village n’avait pas changé, ou si peu que cela revenait au même. La boulangerie avait simplement troqué son store rouge contre un store vert, et le banc devant l’église, où mon grand-père lisait son journal chaque matin, avait été repeint. Je m’attendais à une émotion forte, à ce pincement qu’on décrit dans les livres. Il ne vint pas.\nJe marchai jusqu’à la maison. Les nouveaux propriétaires avaient abattu le tilleul. À sa place s’étendait une pelouse impeccable, de celles qu’on tond le samedi en écoutant la radio. Je restai un long moment devant la grille, attendant toujours quelque chose. Une fenêtre s’ouvrit ; une femme me demanda si je cherchais quelqu’un.\n« Non, répondis-je. Je crois que je cherchais quelque chose, mais ce n’est plus là. »\nElle referma la fenêtre avec un sourire poli, de ceux qu’on adresse aux gens un peu étranges. Je repris la route sans me retourner, étonnée de me sentir plus légère qu’à l’aller."
+        },
+        {
+          "id": "s4-d3",
+          "type": "article",
+          "title": "Pourquoi n’aime-t-on pas sa voix enregistrée ?",
+          "fr": "Qui n’a jamais grimacé en entendant sa voix sur un message vocal ? Cette réaction, presque universelle, n’a rien de narcissique : elle s’explique en grande partie par la physique.\nQuand nous parlons, le son de notre voix nous parvient par deux chemins. Le premier est aérien : les ondes sortent de la bouche et atteignent nos oreilles, comme celles de n’importe quel autre son. Le second est interne : les vibrations des cordes vocales se propagent directement à travers les os du crâne jusqu’à l’oreille interne. Or, cette conduction osseuse favorise les fréquences graves. Résultat : la voix que nous entendons en parlant nous paraît plus grave, plus pleine, que celle que perçoivent les autres.\nL’enregistrement, lui, ne capte que le premier chemin. Il nous renvoie donc la voix telle que notre entourage l’entend depuis toujours, et qui nous semble, à nous, plus aiguë et plus fluette.\nLa physique n’explique pourtant pas tout. Plusieurs chercheurs soulignent une dimension psychologique : la voix enregistrée trahit des hésitations, des intonations ou un accent dont nous n’avons pas conscience, et elle contredit l’image que nous nous faisons de nous-mêmes. Les comédiens et les animateurs de radio, habitués à s’écouter, finissent d’ailleurs par ne plus éprouver ce malaise : preuve que l’oreille, comme le reste, s’éduque."
+        },
+        {
+          "id": "s4-d4",
+          "type": "article",
+          "title": "Essai — Le voyageur et son reflet",
+          "fr": "Le voyageur contemporain fuit le touriste, c’est-à-dire, bien souvent, son propre reflet. Il veut « sortir des sentiers battus », dîner « là où mangent les gens du coin », vivre une expérience « authentique ». Les plateformes de réservation l’ont bien compris, qui lui promettent désormais d’habiter « comme un local » dans un appartement que plus aucun local, justement, n’a les moyens de louer.\nLe paradoxe est cruel : la recherche d’authenticité, lorsqu’elle devient massive, détruit ce qu’elle convoite. Le petit café découvert par quelques curieux se retrouve dans tous les guides ; la carte s’adapte, les prix grimpent, les habitués s’en vont. On accuse volontiers les foules ; on oublie que chaque foule est faite de voyageurs persuadés de ne pas en faire partie.\nFaut-il pour autant renoncer à voyager ? Ce serait une réponse bien excessive. Peut-être suffirait-il de renoncer à l’illusion de la transparence : accepter d’être, ailleurs, un visiteur, avec ce que cela suppose de discrétion et de curiosité, plutôt que de prétendre se fondre dans un décor qui, en partie, se transforme à cause de nous."
+        }
+      ],
+      "items": [
+        { "id": "tcf-ce-031", "docId": "s4-d1", "prompt": "Quelle est la thèse principale de l’éditorialiste ?",
+          "options": ["Il faut interdire les téléphones intelligents au travail.", "La disponibilité permanente est une liberté pour les salariés.", "On travaillait dans de meilleures conditions autrefois.", "Le changement doit venir avant tout des mentalités et des dirigeants."], "answer": 3,
+          "explain": "\"Le problème n’est pas technique, il est culturel… C’est d’abord aux dirigeants de donner l’exemple.\"", "microSkills": ["main-idea"] },
+        { "id": "tcf-ce-032", "docId": "s4-d1", "prompt": "Comment l’auteur traite-t-il l’argument des « partisans du statu quo » ?",
+          "options": ["Il le rejette comme absurde.", "Il lui reconnaît une part de vérité tout en le nuançant.", "Il l’adopte sans réserve.", "Il le passe sous silence."], "answer": 1,
+          "explain": "\"L’argument n’est pas sans fondement. Encore faut-il que cette souplesse profite réellement au salarié…\": a concession followed by a qualification.", "microSkills": ["opinion-fact", "inference"] },
+        { "id": "tcf-ce-033", "docId": "s4-d1", "prompt": "Par la phrase « Ce temps-là […] n’a sans doute jamais été aussi idyllique qu’on le prétend aujourd’hui », l’auteur…",
+          "options": ["se méfie d’une vision nostalgique du passé.", "regrette profondément l’époque d’avant le téléphone.", "affirme que l’on travaillait davantage autrefois.", "reproche aux salariés de se plaindre."], "answer": 0,
+          "explain": "He warns that the past was not as \"idyllique\" as people claim: he distances himself from nostalgia, while granting it \"le mérite de la clarté\".", "microSkills": ["inference", "vocabulary"] },
+        { "id": "tcf-ce-034", "docId": "s4-d2", "prompt": "Qu’éprouve d’abord la narratrice en arrivant au village ?",
+          "options": ["Une profonde tristesse.", "De la colère contre les nouveaux propriétaires.", "Moins d’émotion qu’elle ne l’avait imaginé.", "Une grande joie de retrouver son enfance."], "answer": 2,
+          "explain": "\"Je m’attendais à une émotion forte, à ce pincement qu’on décrit dans les livres. Il ne vint pas.\"", "microSkills": ["inference"] },
+        { "id": "tcf-ce-035", "docId": "s4-d2", "prompt": "Que suggère la dernière phrase du texte ?",
+          "options": ["Cette visite l’a libérée d’un poids lié au passé.", "Elle regrette d’être revenue.", "Elle compte revenir bientôt.", "Elle est vexée par l’attitude de la femme."], "answer": 0,
+          "explain": "\"Je repris la route sans me retourner, étonnée de me sentir plus légère qu’à l’aller\": the visit has freed her from something.", "microSkills": ["inference"] },
+        { "id": "tcf-ce-036", "docId": "s4-d3", "prompt": "Pourquoi notre voix nous semble-t-elle plus grave quand nous parlons ?",
+          "options": ["Parce que nous parlons plus fort que les autres.", "Parce que notre bouche amplifie les sons graves.", "Parce que nos oreilles sont trop près de notre bouche.", "Parce qu’une partie du son nous parvient par les os."], "answer": 3,
+          "explain": "\"Les vibrations… se propagent directement à travers les os du crâne… Or, cette conduction osseuse favorise les fréquences graves.\"", "microSkills": ["detail", "paraphrase"] },
+        { "id": "tcf-ce-037", "docId": "s4-d3", "prompt": "Que capte un enregistrement ?",
+          "options": ["Les deux chemins du son.", "Uniquement le son transmis par l’air.", "Surtout les fréquences graves.", "Uniquement les vibrations internes."], "answer": 1,
+          "explain": "\"L’enregistrement, lui, ne capte que le premier chemin\", which is the \"aérien\" one.", "microSkills": ["detail"] },
+        { "id": "tcf-ce-038", "docId": "s4-d3", "prompt": "Que montre l’exemple des comédiens et des animateurs de radio ?",
+          "options": ["Leur voix est naturellement plus belle.", "Ils utilisent un meilleur matériel d’enregistrement.", "On peut s’habituer à entendre sa voix enregistrée.", "La conduction osseuse varie selon les métiers."], "answer": 2,
+          "explain": "\"Habitués à s’écouter, [ils] finissent… par ne plus éprouver ce malaise : preuve que l’oreille… s’éduque.\"", "microSkills": ["inference"] },
+        { "id": "tcf-ce-039", "docId": "s4-d4", "prompt": "Quel paradoxe l’auteur met-il en évidence ?",
+          "options": ["Les touristes voyagent de plus en plus loin.", "La quête d’authenticité, en se généralisant, fait disparaître ce qu’elle recherche.", "Les habitants préfèrent les touristes aux voyageurs.", "Les guides touristiques sont de moins en moins lus."], "answer": 1,
+          "explain": "\"La recherche d’authenticité, lorsqu’elle devient massive, détruit ce qu’elle convoite.\"", "microSkills": ["main-idea", "paraphrase"] },
+        { "id": "tcf-ce-040", "docId": "s4-d4", "prompt": "Quelle attitude l’auteur recommande-t-il ?",
+          "options": ["Assumer sa position de visiteur, avec discrétion.", "Cesser complètement de voyager.", "Choisir des destinations encore inconnues.", "Fréquenter uniquement les lieux les plus touristiques."], "answer": 0,
+          "explain": "\"Accepter d’être, ailleurs, un visiteur, avec ce que cela suppose de discrétion et de curiosité.\" He calls giving up travel \"une réponse bien excessive\".", "microSkills": ["main-idea", "intention"] }
+      ]
+    }
+  ]
+}

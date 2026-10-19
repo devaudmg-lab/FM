@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-04-01",
+  "level": "a2",
+  "unit": "a2-04",
+  "title": "Plans with aller + infinitive",
+  "goal": "Talk about your plans with aller + infinitive, including negatives, reflexive verbs and time markers like dans trois semaines.",
+  "minutes": 12,
+  "items": [
+    { "id": "g-futur-proche", "kind": "grammar", "fr": "aller + infinitif", "en": "futur proche: going to + verb",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ passer le test de citoyenneté en mai.", "answers": [["vais"]], "en": "I'm going to take the citizenship test in May.", "explain": "je → vais + infinitive." },
+        { "type": "cloze", "text": "Mes parents ___ venir du Mexique.", "answers": [["vont"]], "en": "My parents are going to come from Mexico.", "explain": "ils / elles → vont + infinitive." },
+        { "type": "translate", "prompt": "We are going to study every evening.", "accept": ["Nous allons étudier tous les soirs.", "On va étudier tous les soirs.", "Tous les soirs, nous allons étudier.", "Tous les soirs, on va étudier."], "explain": "nous allons / on va + infinitive." }
+      ] },
+    { "id": "g-futur-proche-neg", "kind": "grammar", "fr": "je ne vais pas étudier / je vais me reposer", "en": "futur proche: negative and reflexive verbs",
+      "drills": [
+        { "type": "cloze", "text": "Samedi, je ne ___ pas travailler.", "answers": [["vais"]], "en": "On Saturday, I'm not going to work.", "explain": "ne… pas goes around aller: je ne vais pas + infinitive." },
+        { "type": "cloze", "text": "Ce soir, je vais ___ coucher tôt.", "answers": [["me"]], "en": "Tonight I'm going to go to bed early.", "explain": "The reflexive pronoun goes before the infinitive and matches the subject: je vais me coucher." },
+        { "type": "mcq", "prompt": "“We're going to rest.”", "options": ["Nous allons nous reposer.", "Nous allons se reposer.", "Nous nous allons reposer."], "optionsFr": true, "answer": 0, "explain": "The pronoun matches nous and sits before the infinitive: nous allons nous reposer." }
+      ] },
+    { "id": "passer-examen", "kind": "phrase", "fr": "passer un examen", "en": "to take (sit) an exam", "accept": ["passer un test"], "note": "Careful: passer does NOT mean “to pass”. To pass = réussir." },
+    { "id": "reussir", "kind": "phrase", "fr": "réussir un examen", "en": "to pass an exam", "accept": ["réussir un test", "réussir l'examen"] },
+    { "id": "citoyennete", "kind": "vocab", "fr": "citoyenneté", "article": "la", "gender": "f", "en": "citizenship", "pos": "noun",
+      "example": { "fr": "Je vais passer le test de citoyenneté.", "en": "I'm going to take the citizenship test." } },
+    { "id": "dans-trois-semaines", "kind": "phrase", "fr": "dans trois semaines", "en": "in three weeks (from now)" },
+    { "id": "semaine-prochaine", "kind": "phrase", "fr": "la semaine prochaine", "en": "next week" },
+    { "id": "annee-prochaine", "kind": "phrase", "fr": "l'année prochaine", "en": "next year" },
+    { "id": "bientot", "kind": "vocab", "fr": "bientôt", "en": "soon", "pos": "adverb" },
+    { "id": "quoi-de-neuf", "kind": "phrase", "fr": "Quoi de neuf ?", "en": "What's new?" },
+    { "id": "nouvelle", "kind": "vocab", "fr": "nouvelle", "article": "une", "gender": "f", "en": "piece of news", "pos": "noun", "accept": ["la nouvelle"],
+      "example": { "fr": "J'ai une grande nouvelle !", "en": "I have big news!" } },
+    { "id": "droit", "kind": "vocab", "fr": "droit", "article": "le", "gender": "m", "en": "right (legal)", "pos": "noun", "accept": ["un droit"],
+      "example": { "fr": "les droits et les responsabilités des citoyens", "en": "the rights and responsibilities of citizens" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Big news",
+      "blocks": [
+        { "type": "dialogue", "title": "At the office in Winnipeg",
+          "context": "Sofia has just received good news. Her colleague Olivier wants to know more.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Salut Sofia ! Quoi de neuf ?", "en": "Hi Sofia! What's new?" },
+            { "speaker": "Sofia", "fr": "J'ai une grande nouvelle : je vais passer le test de citoyenneté !", "en": "I have big news: I'm going to take the citizenship test!" },
+            { "speaker": "Olivier", "fr": "Bravo ! C'est quand ?", "en": "Congratulations! When is it?" },
+            { "speaker": "Sofia", "fr": "Dans trois semaines, le 14 mai. Je vais étudier tous les soirs.", "en": "In three weeks, on May 14. I'm going to study every evening." },
+            { "speaker": "Olivier", "fr": "Tu vas étudier quoi, exactement ?", "en": "What are you going to study, exactly?" },
+            { "speaker": "Sofia", "fr": "L'histoire, la géographie, les droits et les responsabilités des citoyens… Je vais lire le guide « Découvrir le Canada » et je vais faire des tests en ligne.", "en": "History, geography, the rights and responsibilities of citizens… I'm going to read the guide “Discover Canada” and do practice tests online." },
+            { "speaker": "Olivier", "fr": "Et après le test ?", "en": "And after the test?" },
+            { "speaker": "Sofia", "fr": "Si je réussis, je vais avoir une cérémonie de citoyenneté. Ma mère va venir du Mexique !", "en": "If I pass, I'm going to have a citizenship ceremony. My mother is going to come from Mexico!" },
+            { "speaker": "Olivier", "fr": "Super ! Mais cette fin de semaine, tu ne vas pas étudier, j'espère ? On va au cinéma samedi ?", "en": "Great! But this weekend, you're not going to study, I hope? Shall we go to the movies on Saturday?" },
+            { "speaker": "Sofia", "fr": "Samedi, non : je vais me reposer. Mais dimanche, pourquoi pas !", "en": "Not Saturday: I'm going to rest. But Sunday, why not!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "You know this structure from A1: [[je vais passer]], [[je vais étudier]], [[ma mère va venir]]. This lesson adds more time markers, the negative and reflexive verbs, so you can talk about real plans with confidence." }
+      ] },
+    { "type": "understand", "title": "The futur proche",
+      "blocks": [
+        { "type": "table", "title": "Aller + infinitive",
+          "head": ["", "aller", "+ infinitive"],
+          "rows": [
+            ["je", "vais", "étudier"],
+            ["tu", "vas", "passer le test"],
+            ["il / elle / on", "va", "venir"],
+            ["nous", "allons", "lire le guide"],
+            ["vous", "allez", "réussir"],
+            ["ils / elles", "vont", "faire la fête"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Only **aller** is conjugated; the second verb stays in the infinitive. Nothing goes between them: no *à*, no *de*." },
+        { "type": "pattern", "title": "Negative and reflexive",
+          "pattern": "ne + aller + pas + infinitif / aller + me, te, se… + infinitif",
+          "note": "**ne… pas** goes around the conjugated verb, **aller**. A reflexive pronoun goes right before the infinitive and matches the subject.",
+          "examples": [
+            { "fr": "Je ne vais pas étudier samedi.", "en": "I'm not going to study on Saturday." },
+            { "fr": "Je vais me reposer.", "en": "I'm going to rest." },
+            { "fr": "Nous allons nous lever tôt.", "en": "We're going to get up early." },
+            { "fr": "Tu ne vas pas te coucher tard ?", "en": "You're not going to go to bed late, are you?" }
+          ] },
+        { "type": "table", "title": "When? Time markers for the future",
+          "head": ["French", "English"],
+          "rows": [
+            ["ce soir", "tonight"],
+            ["demain, après-demain", "tomorrow, the day after tomorrow"],
+            ["cette fin de semaine", "this weekend"],
+            ["la semaine prochaine", "next week"],
+            ["le mois prochain", "next month"],
+            ["l'année prochaine", "next year"],
+            ["dans trois semaines", "in three weeks (from now)"],
+            ["bientôt", "soon"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "Compare with the past (unit 1): [[la semaine dernière]] ↔ [[la semaine prochaine]], [[il y a trois semaines]] ↔ [[dans trois semaines]]." },
+        { "type": "vocab", "title": "New words", "itemIds": ["passer-examen", "reussir", "citoyennete", "dans-trois-semaines", "semaine-prochaine", "annee-prochaine", "bientot", "quoi-de-neuf", "nouvelle", "droit"] },
+        { "type": "deepdive", "kind": "why", "title": "Why not just the present?",
+          "body": "French often uses the **present** for planned events, especially with a time marker: [[Dimanche, on va au cinéma.]] [[Je commence lundi.]] That is normal and natural.\n\nThe **futur proche** adds the idea of *intention* or *something already on its way*: [[Je vais passer le test]] = it's decided, it's coming. In everyday conversation, it is the most common way to talk about the future. The next lesson adds a third option, the **futur simple**." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Passer ≠ pass:** [[Je vais passer l'examen]] = I'm going to *take* the exam. To pass it: [[réussir l'examen]]. To fail: [[rater]] or [[échouer à]] l'examen.\n- **Extra à:** [[Je vais à étudier]] → [[Je vais étudier]].\n- **Negative in the wrong place:** [[Je vais ne pas étudier]] is rare; say [[Je ne vais pas étudier]].\n- **Wrong reflexive pronoun:** [[Nous allons se reposer]] → [[Nous allons nous reposer]].\n- **Dans vs en:** [[dans trois semaines]] = three weeks from now. [[En trois semaines]] = within three weeks (how long it takes)." },
+        { "type": "deepdive", "kind": "canada", "title": "The citizenship test",
+          "body": "Sofia's plan is a real step for many newcomers. Today, adult applicants for Canadian citizenship (currently ages 18 to 54) usually take a **citizenship test** on Canada's history, geography, institutions, and the rights and responsibilities of citizens. The official study guide is called **Discover Canada** in English and [[Découvrir le Canada]] in French. Rules change, so always check the official IRCC website.\n\nAlso notice [[cette fin de semaine]]: in Québec and French Canada, *weekend* is usually [[la fin de semaine]]; in France, [[le week-end]]." }
+      ] },
+    { "type": "hear", "title": "Hear the plans",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je vais passer le test de citoyenneté.", "en": "I'm going to take the citizenship test." },
+            { "fr": "Dans trois semaines, le 14 mai.", "en": "In three weeks, on May 14." },
+            { "fr": "Je ne vais pas étudier samedi.", "en": "I'm not going to study on Saturday.", "tip": "vais pas: the s of vais is silent." },
+            { "fr": "Nous allons nous reposer.", "en": "We're going to rest.", "tip": "nous allons: link with a z sound, nou-za-lon." },
+            { "fr": "Ils vont venir l'année prochaine.", "en": "They're going to come next year." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je vais passer mon examen dans deux semaines.", "en": "I'm going to take my exam in two weeks.", "prompt": "When is the exam?", "options": ["In two weeks", "Two weeks ago", "In twelve weeks"], "answer": 0,
+          "explain": "[[dans deux semaines]] = two weeks from now. [[Il y a deux semaines]] would be two weeks ago." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ce soir, on ne va pas sortir. On va se coucher tôt.", "en": "Tonight we're not going to go out. We're going to go to bed early.", "prompt": "What are they going to do tonight?", "options": ["Go to bed early", "Go out", "Study late"], "answer": 0,
+          "explain": "[[on ne va pas sortir]] = not going out; [[on va se coucher tôt]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Nous ___ visiter Ottawa la semaine prochaine.", "answers": [["allons"]], "choices": ["allons", "allez", "vont", "avons"], "en": "We're going to visit Ottawa next week.",
+          "explain": "nous → allons + infinitive." },
+        { "id": "r2", "type": "mcq", "prompt": "Sofia is going to TAKE the test. Which sentence says she is going to PASS it?", "options": ["Elle va réussir le test.", "Elle va passer le test.", "Elle va aller au test."], "optionsFr": true, "answer": 0,
+          "explain": "[[passer un test]] = to take it; [[réussir un test]] = to pass it.", "optionFeedback": [null, "passer = to take (sit) the test, a false friend.", "This means going to the place, not passing."] },
+        { "id": "r3", "type": "translate", "prompt": "I'm not going to work tomorrow.", "accept": ["Je ne vais pas travailler demain.", "Demain, je ne vais pas travailler.", "Je vais pas travailler demain.", "Demain, je vais pas travailler."],
+          "explain": "ne… pas around [[vais]], then the infinitive." },
+        { "id": "r4", "type": "cloze", "text": "Ce soir, tu vas ___ reposer ?", "answers": [["te"]], "choices": ["te", "se", "me"], "en": "Are you going to rest tonight?",
+          "explain": "The pronoun matches tu: [[tu vas te reposer]]." },
+        { "id": "r5", "type": "match", "prompt": "Match past and future time markers.", "pairs": [["la semaine dernière", "la semaine prochaine"], ["il y a trois jours", "dans trois jours"], ["hier", "demain"], ["l'année dernière", "l'année prochaine"]] },
+        { "id": "r6", "type": "reorder", "prompt": "My mother is going to come in three weeks.", "accept": ["Ma mère va venir dans trois semaines.", "Dans trois semaines, ma mère va venir."], "extra": ["à"],
+          "explain": "No preposition between aller and the infinitive. [[Dans]] + duration = in … from now." },
+        { "id": "r7", "type": "translate", "prompt": "What are you going to do next year? (to a friend)", "accept": ["Qu'est-ce que tu vas faire l'année prochaine ?", "Tu vas faire quoi l'année prochaine ?", "L'année prochaine, qu'est-ce que tu vas faire ?", "Que vas-tu faire l'année prochaine ?", "L'année prochaine, tu vas faire quoi ?"],
+          "explain": "[[Qu'est-ce que]] + tu vas faire. Casual: [[Tu vas faire quoi ?]]" },
+        { "id": "r8", "type": "cloze", "text": "La semaine dernière, j'___ lu le guide. La semaine prochaine, je ___ faire des tests.", "answers": [["ai"], ["vais"]], "en": "Last week, I read the guide. Next week, I'm going to do some tests.",
+          "explain": "Past → passé composé ([[j'ai lu]], unit 1). Future → futur proche ([[je vais faire]])." },
+        { "id": "r9", "type": "cloze", "text": "Quand j'étais petite, je ___ devenir médecin. Maintenant, je vais étudier les soins infirmiers. (vouloir)", "answers": [["voulais"]], "en": "When I was little, I wanted to become a doctor. Now I'm going to study nursing.",
+          "explain": "From unit 3: a wish in the past is a state → imparfait, [[je voulais]]." },
+        { "id": "r10", "type": "dictation", "fr": "Nous allons nous reposer cette fin de semaine.", "accept": [],
+          "explain": "[[nous allons nous reposer]]: the pronoun repeats. [[Cette fin de semaine]] = this weekend." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend asks: “Quoi de neuf ?” Share one big plan (a test, a move, a new job, a trip) in about 30 seconds: what you are going to do, when, how you are going to prepare, and one thing you are NOT going to do.", "seconds": 30,
+          "checklist": ["J'ai une nouvelle : je vais…", "When: dans…, la semaine prochaine, en mai…", "How: je vais + infinitive (twice)", "A negative: je ne vais pas…", "A reflexive verb: je vais me reposer / me préparer"],
+          "models": [ { "label": "Model answer", "fr": "J'ai une grande nouvelle : je vais déménager à Halifax ! Je vais partir dans deux mois, en juillet. La semaine prochaine, je vais chercher un appartement en ligne. Je ne vais pas acheter de meubles ici : je vais tout acheter là-bas. Mais avant, je vais me reposer un peu !",
+            "en": "I have big news: I'm going to move to Halifax! I'm going to leave in two months, in July. Next week, I'm going to look for an apartment online. I'm not going to buy furniture here: I'm going to buy everything there. But first, I'm going to rest a little!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a text message to a friend about your plans for next week: three things you are going to do, one thing you are not going to do, and a question for your friend.", "promptFr": "Écrivez un texto : vos projets pour la semaine prochaine.",
+          "wordRange": [30, 60],
+          "checklist": ["Three plans with aller + infinitive", "One negative: je ne vais pas…", "Time markers: lundi, mercredi soir, la fin de semaine…", "A question: Et toi, qu'est-ce que tu vas faire ?"],
+          "models": [ { "label": "Model answer", "fr": "Salut Karim ! La semaine prochaine, je vais être très occupée. Lundi, je vais passer mon examen de français. Mercredi soir, je vais aller à la piscine avec ma sœur. Samedi, je vais me reposer : je ne vais pas sortir ! Et toi, qu'est-ce que tu vas faire dimanche ?",
+            "en": "Hi Karim! Next week I'm going to be very busy. On Monday, I'm going to take my French exam. On Wednesday evening, I'm going to go to the pool with my sister. On Saturday, I'm going to rest: I'm not going to go out! And you, what are you going to do on Sunday?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Talk about plans with **aller + infinitive**: [[je vais passer le test]]\n- Make it negative or reflexive: [[je ne vais pas sortir]], [[je vais me reposer]]\n- Place plans in time: [[dans trois semaines]], [[la semaine prochaine]], [[l'année prochaine]], [[bientôt]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed a dictation answer that sounds different (ce week-end); citizenship facts kept hedged with IRCC." }
+}

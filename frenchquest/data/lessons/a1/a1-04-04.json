@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-04-04",
+  "level": "a1",
+  "unit": "a1-04",
+  "title": "Être or avoir?",
+  "goal": "Describe people with the right verb: Il est grand, but Il a les yeux bleus and Elle a 40 ans.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-etre-avoir", "kind": "grammar", "fr": "être + adjectif / avoir + nom", "en": "être or avoir in descriptions",
+      "drills": [
+        { "type": "cloze", "text": "Ma sœur ___ grande et elle ___ les cheveux longs.", "answers": [["est"], ["a"]], "en": "My sister is tall and she has long hair.", "explain": "être + adjective (grande); avoir + noun (les cheveux)." },
+        { "type": "mcq", "prompt": "How do you say “He's 50”?", "options": ["Il a cinquante ans.", "Il est cinquante ans.", "Il a cinquante."], "optionsFr": true, "answer": 0, "explain": "Age uses avoir + number + ans." },
+        { "type": "cloze", "text": "Tu ___ soif ?", "answers": [["as"]], "en": "Are you thirsty?", "explain": "French “has” thirst: avoir soif. tu → as." },
+        { "type": "translate", "prompt": "They are married and they have three children.", "accept": ["Ils sont mariés et ils ont trois enfants.", "Elles sont mariées et elles ont trois enfants.", "Ils sont mariés, ils ont trois enfants.", "Elles sont mariées, elles ont trois enfants."], "explain": "Married is an adjective (être); children is a noun (avoir)." }
+      ] },
+    { "id": "cheveux", "kind": "vocab", "fr": "cheveux", "article": "les", "gender": "m", "en": "hair (on the head)", "pos": "noun", "accept": ["cheveux", "les cheveux"],
+      "example": { "fr": "Il a les cheveux courts.", "en": "He has short hair." }, "note": "Always plural in French: les cheveux. Adjectives after it take -s: les cheveux noirs." },
+    { "id": "yeux", "kind": "vocab", "fr": "yeux", "article": "les", "gender": "m", "en": "eyes", "pos": "noun", "accept": ["yeux", "les yeux"],
+      "example": { "fr": "Elle a les yeux bleus.", "en": "She has blue eyes." }, "note": "Singular: un œil (an eye). Liaison: les‿yeux sounds like “lay-zyeu”." },
+    { "id": "court", "kind": "vocab", "fr": "court", "fem": "courte", "en": "short (length, e.g. hair)", "pos": "adjective", "accept": ["courte", "courts", "courtes"],
+      "example": { "fr": "Mon père a les cheveux courts.", "en": "My father has short hair." }, "note": "For a short person, use petit." },
+    { "id": "long", "kind": "vocab", "fr": "long", "fem": "longue", "en": "long", "pos": "adjective", "accept": ["longue", "longs", "longues"],
+      "example": { "fr": "Lina a les cheveux longs.", "en": "Lina has long hair." } },
+    { "id": "bleu", "kind": "vocab", "fr": "bleu", "fem": "bleue", "en": "blue", "pos": "adjective", "accept": ["bleue", "bleus", "bleues"],
+      "example": { "fr": "Il a les yeux bleus.", "en": "He has blue eyes." } },
+    { "id": "noir", "kind": "vocab", "fr": "noir", "fem": "noire", "en": "black (for eyes: very dark)", "pos": "adjective", "accept": ["noire", "noirs", "noires"],
+      "example": { "fr": "Elle a les cheveux noirs.", "en": "She has black hair." } },
+    { "id": "marron", "kind": "vocab", "fr": "marron", "en": "brown (eyes; never changes)", "pos": "adjective",
+      "example": { "fr": "Mon fils a les yeux marron.", "en": "My son has brown eyes." }, "note": "marron never takes -e or -s: les yeux marron." },
+    { "id": "marie", "kind": "vocab", "fr": "marié", "fem": "mariée", "en": "married", "pos": "adjective", "accept": ["mariée", "mariés", "mariées"],
+      "example": { "fr": "Elle est mariée et elle a deux enfants.", "en": "She's married and she has two children." }, "note": "An adjective, so it uses être: je suis marié(e)." },
+    { "id": "avoir-ans", "kind": "phrase", "fr": "Elle a quarante ans.", "en": "She is forty (years old).", "accept": ["Elle a 40 ans."], "say": "Elle a quarante ans." },
+    { "id": "avoir-faim", "kind": "phrase", "fr": "J'ai faim.", "en": "I'm hungry." },
+    { "id": "avoir-soif", "kind": "phrase", "fr": "J'ai soif.", "en": "I'm thirsty." },
+    { "id": "avoir-froid", "kind": "phrase", "fr": "J'ai froid.", "en": "I'm cold (I feel cold)." },
+    { "id": "avoir-chaud", "kind": "phrase", "fr": "J'ai chaud.", "en": "I'm hot (I feel hot)." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Picking someone up at the airport",
+      "blocks": [
+        { "type": "dialogue", "title": "Raj's sister arrives in Canada",
+          "context": "Camille offers to pick up Raj's sister at the airport. She has never met her.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Ta sœur arrive à quelle heure ?", "en": "What time does your sister arrive?" },
+            { "speaker": "Raj", "fr": "À quinze heures. Merci, Camille, tu es très gentille !", "en": "At three p.m. Thank you, Camille, you're very kind!" },
+            { "speaker": "Camille", "fr": "De rien ! Elle est comment, ta sœur ?", "en": "You're welcome! What does your sister look like?" },
+            { "speaker": "Raj", "fr": "Elle est petite et brune. Elle a les cheveux longs et les yeux noirs.", "en": "She's short and dark-haired. She has long hair and dark eyes." },
+            { "speaker": "Camille", "fr": "Elle a quel âge ?", "en": "How old is she?" },
+            { "speaker": "Raj", "fr": "Elle a vingt-huit ans. Elle est mariée, et elle a un bébé.", "en": "She's twenty-eight. She's married, and she has a baby." },
+            { "speaker": "Camille", "fr": "Un bébé ! Il a quel âge ?", "en": "A baby! How old is he?" },
+            { "speaker": "Raj", "fr": "Il a six mois. Il est petit, mais il est très drôle !", "en": "He's six months old. He's small, but he's very funny!" },
+            { "speaker": "Camille", "fr": "Super ! Bon, moi, j'ai faim et j'ai soif. On mange ?", "en": "Great! Okay, I'm hungry and thirsty. Shall we eat?" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for two verbs: [[est]] (from être) and [[a]] (from avoir). Where English says *is* (she **is** 28, he **is** hungry), French sometimes says *has*." }
+      ] },
+    { "type": "understand", "title": "Is or has?",
+      "blocks": [
+        { "type": "explain", "title": "The basic rule",
+          "body": "- **être + adjective**: what someone *is*: [[Il est grand.]] [[Elle est mariée.]] [[Je suis canadienne.]]\n- **avoir + noun**: what someone *has*: [[Il a les cheveux courts.]] [[Elle a deux enfants.]] [[J'ai trente ans.]]\n\nThe surprise for English speakers: **age, hunger, thirst and feeling hot or cold** are things you *have* in French. You literally say “I have thirty years”, “I have hunger”." },
+        { "type": "table", "title": "Side by side",
+          "head": ["être", "avoir", "English"],
+          "rows": [
+            ["Il est grand.", "Il a les cheveux courts.", "He's tall. / He has short hair."],
+            ["Elle est brune.", "Elle a les yeux verts.", "She's dark-haired. / She has green eyes."],
+            ["Je suis jeune.", "J'ai vingt-cinq ans.", "I'm young. / I'm 25."],
+            ["Elle est mariée.", "Elle a deux enfants.", "She's married. / She has two children."],
+            ["Il est petit.", "Il a faim.", "He's small. / He's hungry."]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "Quick check: is the next word an **adjective** (grand, mariée…)? Use être. Is it a **noun** (les yeux, ans, faim…)? Use avoir." },
+        { "type": "table", "title": "Reminder: être and avoir",
+          "head": ["", "être", "avoir"],
+          "rows": [
+            ["je / j'", "suis", "ai"],
+            ["tu", "es", "as"],
+            ["il / elle / on", "est", "a"],
+            ["nous", "sommes", "avons"],
+            ["vous", "êtes", "avez"],
+            ["ils / elles", "sont", "ont"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true },
+        { "type": "pattern", "title": "Hair and eyes",
+          "pattern": "avoir + les cheveux / les yeux + adjective",
+          "note": "To describe someone, French says **les** (the), not *his* or *her*: [[Elle a les yeux bleus]], not [[Elle a ses yeux bleus]]. (You will still meet [[ses yeux]] elsewhere, e.g. [[J'aime ses yeux]] = I like his/her eyes: [[ses]] because [[yeux]] is plural.) The colour comes **after** and agrees with [[cheveux]] / [[yeux]] (masculine plural): add **-s**. Exception: [[marron]] never changes.",
+          "examples": [
+            { "fr": "Il a les cheveux noirs.", "en": "He has black hair." },
+            { "fr": "Elle a les cheveux blonds et courts.", "en": "She has short blond hair." },
+            { "fr": "J'ai les yeux marron.", "en": "I have brown eyes." },
+            { "fr": "Tu as les yeux verts ?", "en": "Do you have green eyes?" }
+          ] },
+        { "type": "pattern", "title": "Age",
+          "pattern": "avoir + number + ans",
+          "note": "Always say [[ans]] (years). [[J'ai trente]] alone is not enough. To ask: [[Tu as quel âge ?]] / [[Elle a quel âge ?]]",
+          "examples": [
+            { "fr": "Elle a quarante ans.", "en": "She's forty." },
+            { "fr": "Mon bébé a six mois.", "en": "My baby is six months old." }
+          ] },
+        { "type": "pattern", "title": "Feelings in the body (preview)",
+          "pattern": "avoir faim / soif / froid / chaud",
+          "note": "These are fixed expressions. Learn them as chunks for now.",
+          "examples": [
+            { "fr": "J'ai faim.", "en": "I'm hungry." },
+            { "fr": "Tu as soif ?", "en": "Are you thirsty?" },
+            { "fr": "On a froid !", "en": "We're cold!" },
+            { "fr": "Les enfants ont chaud.", "en": "The children are hot." }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["cheveux", "yeux", "court", "long", "bleu", "noir", "marron", "marie", "avoir-ans", "avoir-faim", "avoir-soif", "avoir-froid", "avoir-chaud"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "The classic English-speaker errors",
+          "body": "- [[Je suis trente ans]] → [[J'ai trente ans]].\n- [[Je suis faim]] → [[J'ai faim]].\n- [[Je suis froid]] → [[J'ai froid]]. With être, [[froid]] describes a person's **character**: [[Il est froid]] = he's cold, distant. [[Je suis chaud]] doesn't mean *I feel hot* either: in casual speech it means *I'm keen, I'm up for it*. To say you feel hot, use [[J'ai chaud]].\n- [[Elle a ses yeux bleus]] → [[Elle a les yeux bleus]].\n- [[Il a marié]] → [[Il est marié]]: married is an adjective.",
+          "examples": [
+            { "fr": "J'ai froid.", "en": "I'm cold. (I feel cold.)" },
+            { "fr": "Il est froid.", "en": "He's cold. (unfriendly)" }
+          ] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "ils ont or ils sont?",
+          "body": "These two sound very close, and the difference matters:\n\n- [[ils ont]] = they **have**: a **z** sound (*eel-zon*).\n- [[ils sont]] = they **are**: an **s** sound (*eel-son*).\n\nSo [[Ils ont froid]] (they feel cold) versus [[Ils sont blonds]] (they're blond). Listen for that z.",
+          "examples": [ { "fr": "Ils ont vingt ans.", "en": "They're twenty." }, { "fr": "Ils sont jeunes.", "en": "They're young." } ] },
+        { "type": "deepdive", "kind": "canada",
+          "body": "Winter in Canada means you will say [[J'ai froid !]] a lot. In casual Québec French you will also hear [[frette]] for *very cold*, most often in [[Il fait frette !]] (It's freezing out!). Recognise it, but say [[J'ai froid]] yourself." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Say each pair and feel the difference between est and a.",
+          "lines": [
+            { "fr": "Il est grand. Il a les yeux bleus.", "en": "He's tall. He has blue eyes.", "tip": "Liaison: le-z‿yeux." },
+            { "fr": "Elle a les cheveux longs.", "en": "She has long hair.", "tip": "No liaison: cheveux starts with a consonant." },
+            { "fr": "J'ai trente ans.", "en": "I'm thirty.", "tip": "The t of trente links to ans: “tran-tan”." },
+            { "fr": "Ils ont faim.", "en": "They're hungry.", "tip": "z sound: eel-zon." },
+            { "fr": "Ils sont grands.", "en": "They're tall.", "tip": "s sound: eel-son." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils ont froid.", "en": "They're cold.", "prompt": "Which verb do you hear?", "options": ["ils ont (avoir)", "ils sont (être)"], "answer": 0, "explain": "The z sound in *eel-zon* means [[ils ont]]: they feel cold." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ils sont blonds.", "en": "They're blond.", "prompt": "Which verb do you hear?", "options": ["ils ont (avoir)", "ils sont (être)"], "answer": 1, "explain": "The s sound in *eel-son* means [[ils sont]]: they're blond." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Elle a les yeux marron et les cheveux courts.", "en": "She has brown eyes and short hair.", "prompt": "Which description matches?", "options": ["Brown eyes, short hair", "Blue eyes, short hair", "Brown eyes, long hair"], "answer": 0, "explain": "[[marron]] = brown, [[courts]] = short." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Each answer needs a choice: être or avoir? Think before you type.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Mon père ___ grand et il ___ les cheveux courts.", "answers": [["est"], ["a"]], "en": "My father is tall and he has short hair.", "explain": "grand is an adjective → est; les cheveux is a noun → a." },
+        { "id": "r2", "type": "mcq", "prompt": "How do you say “I'm 30”?", "options": ["J'ai trente ans.", "Je suis trente ans.", "J'ai trente.", "Je suis trente."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Age uses avoir in French.", "You need ans (years) after the number.", "Age uses avoir, and you need ans."] },
+        { "id": "r3", "type": "translate", "prompt": "She has blue eyes.", "accept": ["Elle a les yeux bleus."], "hint": "les, not ses", "explain": "avoir + les yeux + colour with -s." },
+        { "id": "r4", "type": "cloze", "text": "Tu ___ faim ?", "answers": [["as"]], "choices": ["as", "es", "a", "est"], "en": "Are you hungry?", "explain": "Hunger uses avoir: tu → as." },
+        { "id": "r5", "type": "translate", "prompt": "My sister is married and she has two children.", "accept": ["Ma sœur est mariée et elle a deux enfants.", "Ma soeur est mariée et elle a deux enfants.", "Ma sœur est mariée, elle a deux enfants.", "Ma soeur est mariée, elle a deux enfants."], "explain": "mariée is an adjective (être, feminine -e); enfants is a noun (avoir)." },
+        { "id": "r6", "type": "mcq", "prompt": "It's −20 °C in Ottawa. You want to say you feel cold.", "options": ["J'ai froid.", "Je suis froid.", "Je suis froide.", "J'ai froide."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "This means you are a cold, distant person.", "This means you are a cold, distant person.", "In avoir froid, froid never changes."] },
+        { "id": "r7", "type": "match", "prompt": "Match the forms.", "pairs": [["ils ont", "they have"], ["ils sont", "they are"], ["vous avez", "you have (formal)"], ["vous êtes", "you are (formal)"], ["nous avons", "we have"]] },
+        { "id": "r8", "type": "reorder", "prompt": "Karim has short hair.", "accept": ["Karim a les cheveux courts"], "extra": ["est", "ses"], "explain": "avoir + les cheveux + courts (with -s). French says les, not ses." },
+        { "id": "r9", "type": "cloze", "text": "Les enfants de Mei ___ drôles et ils ___ les yeux noirs.", "answers": [["sont"], ["ont"]], "en": "Mei's children are funny and they have dark eyes.", "explain": "drôles is an adjective → sont; les yeux is a noun → ont." },
+        { "id": "r10", "type": "dictation", "fr": "Elle a quarante-deux ans.", "accept": ["Elle a 42 ans."], "explain": "Age: avoir + number + ans. Don't forget the hyphen in [[quarante-deux]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend will meet someone you know at the bus station. Describe that person so your friend can recognise them: age, appearance, and one personality trait.", "seconds": 30,
+          "checklist": ["Age: il / elle a … ans", "Appearance with être (grand, petit, brun…)", "Hair and eyes with avoir les cheveux / les yeux", "One personality adjective"],
+          "models": [ { "label": "Model answer", "fr": "C'est mon cousin, Karim. Il a vingt-cinq ans. Il est grand et brun. Il a les cheveux courts et les yeux marron. Il est un peu timide, mais il est très sympa.", "en": "It's my cousin, Karim. He's twenty-five. He's tall and dark-haired. He has short hair and brown eyes. He's a bit shy, but he's really nice." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short message to a friend who will pick up a family member of yours at the airport. Describe the person.", "wordRange": [30, 55],
+          "checklist": ["Use être at least twice", "Use avoir at least twice (age, hair, eyes, children…)", "Agree the colours: les yeux bleus, les cheveux noirs", "Check: no “est … ans”"],
+          "models": [ { "label": "Model answer", "fr": "Salut Alex ! Merci ! Ma mère arrive à dix-huit heures. Elle a soixante ans. Elle est petite et elle a les cheveux courts et blonds. Elle a les yeux bleus. Elle est très gentille, et elle parle un peu français.", "en": "Hi Alex! Thanks! My mother arrives at 6 p.m. She's sixty. She's short and she has short blond hair. She has blue eyes. She's very kind, and she speaks a little French." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use **être + adjective** ([[Il est grand]]) and **avoir + noun** ([[Il a les cheveux courts]])\n- Give age with avoir: [[Elle a quarante ans]], never *est … ans*\n- Describe hair and eyes: [[Elle a les yeux bleus]], with les, and [[marron]] that never changes\n- Recognise [[avoir faim / soif / froid / chaud]], and avoid [[Je suis froid]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Rewrote the Je suis chaud note (casual “I'm keen”; use J'ai chaud) and the Québec frette note (Il fait frette, recognition only). Fixed the trente ans tip (linking, not liaison); clarified ses yeux; added a missing elles accept." }
+}

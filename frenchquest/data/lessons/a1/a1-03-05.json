@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-03-05",
+  "level": "a1",
+  "unit": "a1-03",
+  "title": "Avoir: age, phone number, needs",
+  "goal": "Use avoir to give your age and phone number and say what you need, then combine everything from Units 1 to 3 to register for a class.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-avoir", "kind": "grammar", "fr": "avoir", "en": "to have (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Nous ___ un rendez-vous à midi.", "answers": [["avons"]], "en": "We have an appointment at noon.", "explain": "nous → avons (liaison: nou-z‿avons)." },
+        { "type": "cloze", "text": "Tu ___ un numéro de téléphone ?", "answers": [["as"]], "en": "Do you have a phone number?", "explain": "tu → as (the s is silent)." },
+        { "type": "cloze", "text": "Elles ___ vingt ans.", "answers": [["ont"]], "en": "They are twenty.", "explain": "elles → ont. Don't confuse with sont (être)." },
+        { "type": "translate", "prompt": "You have a French class. (formal)", "accept": ["Vous avez un cours de français."], "explain": "vous → avez" }
+      ] },
+    { "id": "g-age", "kind": "grammar", "fr": "avoir + nombre + ans", "en": "saying your age with avoir (j'ai 32 ans)",
+      "drills": [
+        { "type": "mcq", "prompt": "How do you say “I'm 32”?", "options": ["J'ai trente-deux ans.", "Je suis trente-deux ans.", "Je suis trente-deux."], "optionsFr": true, "answer": 0, "explain": "French uses avoir (to have) for age: “I have 32 years”." },
+        { "type": "cloze", "text": "Il a quarante ___.", "answers": [["ans"]], "en": "He is forty.", "explain": "Always say ans after the number." },
+        { "type": "translate", "prompt": "She is nineteen.", "accept": ["Elle a dix-neuf ans.", "Elle a 19 ans."], "explain": "elle → a, + number + ans. The f of neuf sounds like v: dix-neu-v‿ans." }
+      ] },
+    { "id": "j-ai", "kind": "phrase", "fr": "j'ai", "en": "I have", "note": "je + ai → j'ai (élision)." },
+    { "id": "vous-avez", "kind": "phrase", "fr": "vous avez", "en": "you have (formal or plural)" },
+    { "id": "ils-ont", "kind": "phrase", "fr": "ils ont", "en": "they have", "accept": ["elles ont"], "note": "z sound: il-z‿ont. Ils sont (they are) has an s sound." },
+    { "id": "age-tu", "kind": "phrase", "fr": "Tu as quel âge ?", "en": "How old are you? (to a friend)", "accept": ["Quel âge as-tu ?", "Quel âge tu as ?"] },
+    { "id": "age-vous", "kind": "phrase", "fr": "Vous avez quel âge ?", "en": "How old are you? (formal)", "accept": ["Quel âge avez-vous ?", "Quel âge vous avez ?"] },
+    { "id": "j-ai-32-ans", "kind": "phrase", "fr": "J'ai trente-deux ans.", "en": "I'm 32 (years old).", "accept": ["J'ai 32 ans."] },
+    { "id": "an", "kind": "vocab", "fr": "an", "article": "l'", "gender": "m", "en": "year (in ages: 32 ans)", "pos": "noun", "accept": ["an", "un an"] },
+    { "id": "age", "kind": "vocab", "fr": "âge", "article": "l'", "gender": "m", "en": "age", "pos": "noun", "accept": ["âge", "un âge"] },
+    { "id": "avoir-besoin", "kind": "phrase", "fr": "avoir besoin de", "en": "to need", "accept": ["avoir besoin d'"], "note": "de becomes d' before a vowel: j'ai besoin d'un…" },
+    { "id": "besoin-aide", "kind": "phrase", "fr": "J'ai besoin d'aide.", "en": "I need help." },
+    { "id": "numero-tel", "kind": "vocab", "fr": "numéro de téléphone", "article": "le", "gender": "m", "en": "phone number", "pos": "noun", "accept": ["numéro de téléphone", "un numéro de téléphone"] },
+    { "id": "formulaire", "kind": "vocab", "fr": "formulaire", "article": "le", "gender": "m", "en": "form (to fill in)", "pos": "noun", "accept": ["formulaire", "un formulaire"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Registering for a class",
+      "blocks": [
+        { "type": "dialogue", "title": "At a community centre in Laval",
+          "context": "Sofia wants to sign up for a French class. Olivier works at the reception desk.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Bonjour, madame. Vous avez besoin d'aide ?", "en": "Hello, ma'am. Do you need help?" },
+            { "speaker": "Sofia", "fr": "Oui, merci. J'ai besoin d'un formulaire pour le cours de français.", "en": "Yes, thank you. I need a form for the French class." },
+            { "speaker": "Olivier", "fr": "Voilà. Vous vous appelez comment ?", "en": "Here you are. What's your name?" },
+            { "speaker": "Sofia", "fr": "Sofia Hernández. H-E-R-N-A-N-D-E-Z, avec un accent aigu sur le a.", "en": "Sofia Hernández. H-E-R-N-A-N-D-E-Z, with an acute accent on the a." },
+            { "speaker": "Olivier", "fr": "Merci. Vous êtes mexicaine ?", "en": "Thank you. Are you Mexican?" },
+            { "speaker": "Sofia", "fr": "Oui, je suis mexicaine. J'habite à Laval maintenant.", "en": "Yes, I'm Mexican. I live in Laval now." },
+            { "speaker": "Olivier", "fr": "Et vous avez quel âge ?", "en": "And how old are you?" },
+            { "speaker": "Sofia", "fr": "J'ai trente-quatre ans.", "en": "I'm thirty-four." },
+            { "speaker": "Olivier", "fr": "Vous avez un numéro de téléphone ?", "en": "Do you have a phone number?" },
+            { "speaker": "Sofia", "fr": "Oui, c'est le quatre, cinq, zéro, cinq, cinq, cinq, soixante-sept, vingt et un.", "en": "Yes, it's 450-555-6721." },
+            { "speaker": "Olivier", "fr": "Parfait. Les cours sont le mardi et le jeudi, à dix-huit heures.", "en": "Perfect. Classes are on Tuesdays and Thursdays, at 6 p.m." },
+            { "speaker": "Sofia", "fr": "Super ! Merci beaucoup.", "en": "Great! Thank you very much." },
+            { "speaker": "Olivier", "fr": "Bienvenue, madame Hernández !", "en": "Welcome, Ms. Hernández!" }
+          ] },
+        { "type": "text", "title": "Sofia's form",
+          "fr": "Formulaire d'inscription — Cours de français\nNom : Hernández\nPrénom : Sofia\nNationalité : mexicaine\nVille : Laval\nÂge : 34 ans\nTéléphone : 450 555-6721\nDisponibilités : mardi et jeudi, 18 h",
+          "en": "Registration form — French class\nLast name: Hernández\nFirst name: Sofia\nNationality: Mexican\nCity: Laval\nAge: 34\nPhone: 450-555-6721\nAvailability: Tuesday and Thursday, 6 p.m." },
+        { "type": "note", "tone": "info", "body": "Everything in this conversation comes from Units 1 to 3: greetings, spelling, [[s'appeler]], [[être]], [[habiter]], numbers, days and times. The only new verb is [[avoir]] (to have): [[vous avez]], [[j'ai]]." }
+      ] },
+    { "type": "understand", "title": "The verb avoir",
+      "blocks": [
+        { "type": "explain", "title": "Avoir means “to have”",
+          "body": "[[Avoir]] is the second most important verb in French, after [[être]]. Like être, it is **irregular**, so learn its six forms as sound chunks.\n\nNotice the **élision** (from Unit 1): [[je]] + [[ai]] → [[j'ai]]. And notice the **liaisons**: [[nous‿avons]], [[vous‿avez]], [[ils‿ont]], [[elles‿ont]], all with a *z* sound." },
+        { "type": "table", "title": "Avoir in the present",
+          "head": ["", "avoir", "English"],
+          "rows": [
+            ["j'", "ai", "I have"],
+            ["tu", "as", "you have (one friend)"],
+            ["il / elle / on", "a", "he / she has, we have (informal)"],
+            ["nous", "avons", "we have"],
+            ["vous", "avez", "you have (formal, or more than one person)"],
+            ["ils / elles", "ont", "they have"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[as]] and [[a]] sound the same. [[ai]] sounds like *é*." },
+        { "type": "pattern", "title": "Age: avoir, not être",
+          "pattern": "sujet + avoir + nombre + ans",
+          "note": "In English you **are** 32. In French you **have** 32 years: [[J'ai trente-deux ans]]. Never forget the word [[ans]].",
+          "examples": [
+            { "fr": "J'ai trente-deux ans.", "en": "I'm 32." },
+            { "fr": "Tu as quel âge ?", "en": "How old are you? (to a friend)" },
+            { "fr": "Vous avez quel âge ?", "en": "How old are you? (formal)" },
+            { "fr": "Karim a vingt et un ans.", "en": "Karim is 21." }
+          ] },
+        { "type": "pattern", "title": "Saying what you need",
+          "pattern": "avoir besoin de + noun / verb",
+          "note": "[[Avoir besoin de]] means *to need* (literally “to have need of”). [[De]] becomes [[d']] before a vowel, so [[de un]] → [[d'un]], [[de une]] → [[d'une]].",
+          "examples": [
+            { "fr": "J'ai besoin d'aide.", "en": "I need help." },
+            { "fr": "J'ai besoin d'un formulaire.", "en": "I need a form." },
+            { "fr": "Nous avons besoin d'une date.", "en": "We need a date." },
+            { "fr": "J'ai besoin de parler français.", "en": "I need to speak French." }
+          ] },
+        { "type": "pattern", "title": "Phone numbers and appointments",
+          "pattern": "avoir + un numéro de téléphone / un rendez-vous",
+          "note": "Avoir also works like English *have* for things you have: a phone number, an appointment, a class.",
+          "examples": [
+            { "fr": "Vous avez un numéro de téléphone ?", "en": "Do you have a phone number?" },
+            { "fr": "J'ai un numéro de téléphone canadien.", "en": "I have a Canadian phone number." },
+            { "fr": "Tu as un rendez-vous à quelle heure ?", "en": "What time is your appointment?" }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["j-ai", "vous-avez", "ils-ont", "age-tu", "age-vous", "j-ai-32-ans", "an", "age", "avoir-besoin", "besoin-aide", "numero-tel", "formulaire"] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Ils sont or ils ont?",
+          "body": "These two are easy to confuse, and they mean different things:\n\n- [[ils sont]] (they **are**): you hear an **s** sound, “eel-son”.\n- [[ils ont]] (they **have**): you hear a **z** sound, “eel-z-on”.\n\nAge also brings back the liaisons from this unit: [[un an]] “u-n-an”, [[deux ans]] “duh-z-an”, [[six ans]] “see-z-an”, [[dix ans]] “dee-z-an”, [[vingt ans]] “van-t-an”, and [[neuf ans]] “nuh-v-an”.",
+          "examples": [
+            { "fr": "Ils sont canadiens.", "en": "They are Canadian." },
+            { "fr": "Ils ont vingt ans.", "en": "They are twenty (they have twenty years)." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Je suis 32 ans:** the most common mistake for English speakers. Say [[J'ai trente-deux ans]].\n- **Forgetting ans:** [[J'ai trente-deux]] alone sounds incomplete. Add [[ans]].\n- **Je ai:** always [[j'ai]].\n- **Forgetting de:** not [[J'ai besoin un formulaire]], but [[J'ai besoin d'un formulaire]].\n- **Être for nationality, avoir for age:** [[Je suis mexicaine. J'ai trente-quatre ans.]]" },
+        { "type": "deepdive", "kind": "why", "title": "Avoir where English uses “be”",
+          "body": "Age is not the only case. French uses [[avoir]] for several states where English uses *to be*. You will meet them later, but recognize them now:\n\n- [[avoir faim]] = to be hungry (to have hunger)\n- [[avoir soif]] = to be thirsty\n- [[avoir froid]] / [[avoir chaud]] = to be cold / hot\n\nSo if you say [[Je suis froid]], a French speaker hears something like “I am a cold person”! Say [[J'ai froid]]." },
+        { "type": "deepdive", "kind": "canada", "title": "Filling in forms in Canada",
+          "body": "Forms in Québec and French-speaking Canada often use these words:\n\n- [[Nom]] = last name, [[Prénom]] = first name\n- [[Date de naissance (AAAA-MM-JJ)]] = date of birth (year-month-day)\n- [[Adresse]], [[Code postal]] = address, postal code\n- [[Téléphone]], [[Courriel]] = phone, email. In Québec, [[courriel]] is the standard word; in France, people often say [[e-mail]] or [[mail]].\n- [[Disponibilités]] = when you are available\n\nAge is often asked with the date of birth instead of [[Âge]]. And on the phone, people may ask [[C'est quoi, votre numéro ?]], a very common spoken way to ask “What's your number?”" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Focus on the liaisons and on the difference between ils sont and ils ont.",
+          "lines": [
+            { "fr": "j'ai, tu as, il a, elle a", "en": "I have, you have, he has, she has" },
+            { "fr": "nous avons, vous avez, ils ont", "en": "we have, you have, they have", "tip": "nou-z‿avons, vou-z‿avez, il-z‿ont" },
+            { "fr": "Ils sont canadiens. Ils ont vingt ans.", "en": "They are Canadian. They are twenty.", "tip": "s sound in sont, z sound in ont." },
+            { "fr": "Tu as quel âge ?", "en": "How old are you? (to a friend)" },
+            { "fr": "J'ai trente-deux ans.", "en": "I'm 32." },
+            { "fr": "J'ai besoin d'aide.", "en": "I need help.", "tip": "Link d'aide into one word: “ded”." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils ont un numéro de téléphone canadien.", "en": "They have a Canadian phone number.", "prompt": "Which verb do you hear?", "options": ["ont (they have)", "sont (they are)", "avons (we have)"], "answer": 0, "explain": "You hear a z sound: il-z‿ont. [[Ils sont]] has an s sound." },
+        { "id": "h2", "type": "listen-mcq", "fr": "J'ai quarante et un ans.", "en": "I'm forty-one.", "prompt": "How old is the speaker?", "options": ["41", "31", "40"], "answer": 0, "explain": "[[quarante et un]] = 41. 31 is [[trente et un]]." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Vous avez quel âge ?", "en": "How old are you?", "prompt": "What is the person asking?", "options": ["Your age", "Your phone number", "The time"], "answer": 0, "explain": "[[quel âge]] = what age. The time would be [[Il est quelle heure ?]]." },
+        { "id": "h4", "type": "dictation", "fr": "Elle a dix-neuf ans.", "accept": ["Elle a 19 ans."], "explain": "[[dix-neuf ans]]: the f sounds like v. [[a]] has no accent here: it's the verb avoir." }
+      ] },
+    { "type": "recall", "title": "Unit checkpoint",
+      "intro": "This checkpoint mixes everything from Units 1 to 3. Answer without scrolling back. In dictations, numbers can be in words or digits.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Nous ___ besoin d'un formulaire.", "answers": [["avons"]], "choices": ["avons", "sommes", "avez", "ont"], "en": "We need a form.", "explain": "avoir besoin de: nous → avons." },
+        { "id": "r2", "type": "translate", "prompt": "I'm 32 years old.", "accept": ["J'ai trente-deux ans.", "J'ai 32 ans."], "explain": "Age uses avoir + ans: [[J'ai trente-deux ans]], never “je suis”." },
+        { "id": "r3", "type": "mcq", "prompt": "How do you ask a stranger's age politely?", "options": ["Vous avez quel âge ?", "Vous êtes quel âge ?", "Tu as quel âge ?", "Vous avez quel an ?"], "optionsFr": true, "answer": 0,
+          "explain": "Formal vous + avez + quel âge.",
+          "optionFeedback": [null, "Age uses avoir, not être.", "Tu is for friends; use vous with a stranger.", "The word for age is âge; an is used after a number."] },
+        { "id": "r4", "type": "cloze", "text": "Raj et Mei ___ canadiens et ils ___ vingt-neuf ans.", "answers": [["sont"], ["ont"]], "en": "Raj and Mei are Canadian and they are twenty-nine.", "explain": "Nationality → être (sont); age → avoir (ont)." },
+        { "id": "r5", "type": "dictation", "fr": "J'ai besoin d'aide.", "accept": [], "explain": "j' + ai, and de → d' before aide." },
+        { "id": "r6", "type": "listen-mcq", "fr": "Le rendez-vous est le jeudi cinq mars, à quinze heures.", "en": "The appointment is on Thursday, March 5, at 3 p.m.", "prompt": "When is the appointment?", "options": ["Thursday, March 5, 3 p.m.", "Tuesday, March 5, 3 p.m.", "Thursday, March 15, 5 p.m."], "answer": 0, "explain": "[[jeudi]] = Thursday, [[cinq mars]] = March 5, [[quinze heures]] = 3 p.m." },
+        { "id": "r7", "type": "translate", "prompt": "Do you have a phone number? (to a friend)", "accept": ["Tu as un numéro de téléphone ?", "Est-ce que tu as un numéro de téléphone ?", "As-tu un numéro de téléphone ?"], "explain": "tu → as. Intonation is enough to make it a question." },
+        { "id": "r8", "type": "reorder", "prompt": "Karim needs a French class.", "accept": ["Karim a besoin d'un cours de français."], "extra": ["est"], "explain": "avoir besoin de + noun: il a besoin d'un cours." },
+        { "id": "r9", "type": "match", "prompt": "Match the phrases from Units 1–3.", "pairs": [["Enchanté", "Nice to meet you"], ["Je m'appelle Karim.", "My name is Karim."], ["J'habite à Toronto.", "I live in Toronto."], ["Il est midi.", "It's noon."], ["J'ai vingt ans.", "I'm twenty."]] },
+        { "id": "r10", "type": "cloze", "text": "Tu ___ quel âge ? — J'___ vingt-six ans.", "answers": [["as"], ["ai"]], "en": "How old are you? — I'm twenty-six.", "explain": "tu → as; je → j'ai." }
+      ] },
+    { "type": "apply", "title": "Unit mission",
+      "intro": "Put the whole unit together: numbers, dates, time and avoir.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You call a French school to register. Greet the person, say and spell your name, give your nationality and city, your age, your phone number, and ask for an appointment on a day and time that suit you.", "seconds": 60,
+          "checklist": ["Greeting and Je m'appelle + spelling", "Je suis + nationality, J'habite à + city", "J'ai… ans", "Your phone number (Canadian style)", "J'ai besoin d'un rendez-vous + day + time"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour ! Je m'appelle Raj Patel : P-A-T-E-L. Je suis indien et j'habite à Toronto. J'ai trente-deux ans. Mon numéro de téléphone, c'est le quatre, un, six, cinq, cinq, cinq, douze, quatre-vingt-dix-huit. J'ai besoin d'un rendez-vous pour le cours de français. Mardi, à quatorze heures, c'est possible ?", "en": "Hello! My name is Raj Patel: P-A-T-E-L. I'm Indian and I live in Toronto. I'm 32. My phone number is 416-555-1298. I need an appointment for the French class. Is Tuesday at 2 p.m. possible?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Fill in a short registration message for a French class, like a form. Give your name, nationality, city, age, phone number and availability (days and times), and say what you need.", "wordRange": [25, 60],
+          "checklist": ["Nom / Prénom", "Nationality with être", "Age with avoir + ans", "Phone number", "Days and times (24-hour clock)", "J'ai besoin de / d'…"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour,\nJe m'appelle Mei Chen. Je suis chinoise et j'habite à Vancouver. J'ai vingt-neuf ans. Mon numéro de téléphone est le 604 555-3187. J'ai besoin d'un cours de français le samedi, à 10 h ou à 14 h.\nMerci !\nMei Chen", "en": "Hello,\nMy name is Mei Chen. I'm Chinese and I live in Vancouver. I'm 29. My phone number is 604-555-3187. I need a French class on Saturday, at 10 a.m. or 2 p.m.\nThank you!\nMei Chen" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Conjugate **avoir** in the present: [[j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont]]\n- Give your age with avoir: [[J'ai trente-deux ans.]] and ask [[Tu as quel âge ? / Vous avez quel âge ?]]\n- Say what you need: [[J'ai besoin d'aide.]], [[J'ai besoin d'un formulaire.]]\n- Combine Units 1–3 to register: name, nationality, city, age, phone number, day and time",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Checked all French, answer keys and facts; no language errors found. Added the spoken variant Quel âge vous avez ? to the accept list." }
+}

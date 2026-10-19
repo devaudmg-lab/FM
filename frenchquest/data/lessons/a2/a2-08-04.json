@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-08-04",
+  "level": "a2",
+  "unit": "a2-08",
+  "title": "Clothes, sizes and returns",
+  "goal": "Ask for your size, say what's wrong with an item, and return it: exchange, refund or store credit, with your receipt.",
+  "minutes": 15,
+  "items": [
+    { "id": "taille", "kind": "vocab", "fr": "taille", "article": "la", "gender": "f", "en": "size (clothes)", "pos": "noun",
+      "example": { "fr": "Vous faites quelle taille ?", "en": "What size are you?" } },
+    { "id": "pointure", "kind": "vocab", "fr": "pointure", "article": "la", "gender": "f", "en": "shoe size", "pos": "noun",
+      "example": { "fr": "Quelle est votre pointure ?", "en": "What's your shoe size?" } },
+    { "id": "retourner", "kind": "vocab", "fr": "retourner", "en": "to return (an item to a store)", "pos": "verb", "accept": ["rapporter"],
+      "note": "Also common: rapporter. In Québec, you'll hear both.",
+      "example": { "fr": "Je voudrais retourner ces bottes.", "en": "I'd like to return these boots." } },
+    { "id": "echanger", "kind": "vocab", "fr": "échanger", "en": "to exchange (for another item)", "pos": "verb",
+      "example": { "fr": "Je peux les échanger contre une autre pointure ?", "en": "Can I exchange them for another size?" } },
+    { "id": "rembourser", "kind": "vocab", "fr": "rembourser", "en": "to refund, to pay back", "pos": "verb",
+      "example": { "fr": "Le magasin a remboursé Sofia.", "en": "The store refunded Sofia." } },
+    { "id": "remboursement", "kind": "vocab", "fr": "remboursement", "article": "le", "gender": "m", "en": "refund", "pos": "noun", "accept": ["un remboursement"],
+      "example": { "fr": "Je voudrais un remboursement, s'il vous plaît.", "en": "I'd like a refund, please." } },
+    { "id": "recu", "kind": "vocab", "fr": "reçu", "article": "le", "gender": "m", "en": "receipt", "pos": "noun", "accept": ["un reçu", "la facture"],
+      "example": { "fr": "Vous avez votre reçu ?", "en": "Do you have your receipt?" } },
+    { "id": "facture", "kind": "vocab", "fr": "facture", "article": "la", "gender": "f", "en": "bill, invoice (in Québec, also a store receipt)", "pos": "noun", "accept": ["une facture"],
+      "example": { "fr": "Gardez votre facture pour les retours.", "en": "Keep your receipt for returns." } },
+    { "id": "vente-finale", "kind": "vocab", "fr": "vente finale", "article": "la", "gender": "f", "en": "final sale (no returns or exchanges)", "pos": "noun", "accept": ["une vente finale"],
+      "example": { "fr": "Les articles en solde sont en vente finale.", "en": "Sale items are final sale." } },
+    { "id": "credit", "kind": "vocab", "fr": "crédit en magasin", "article": "un", "gender": "m", "en": "store credit", "pos": "noun", "accept": ["le crédit en magasin", "une note de crédit"],
+      "example": { "fr": "On peut vous offrir un crédit en magasin.", "en": "We can offer you store credit." } },
+    { "id": "retourner-article", "kind": "phrase", "fr": "Je voudrais retourner cet article.", "en": "I'd like to return this item.", "accept": ["Je voudrais rapporter cet article.", "J'aimerais retourner cet article."] },
+    { "id": "ca-ne-me-va-pas", "kind": "phrase", "fr": "Ça ne me va pas.", "en": "It doesn't fit me. / It doesn't suit me.", "note": "Learn it as a fixed chunk: me (me) is a pronoun you'll study later.", "accept": ["Ça me va pas.", "Il ne me va pas.", "Elle ne me va pas."] },
+    { "id": "g-trop-assez", "kind": "grammar", "fr": "trop / pas assez + adjectif", "en": "too… / not… enough (+ adjective)",
+      "drills": [
+        { "type": "cloze", "text": "Ces bottes sont ___ petites : je dois les échanger.", "answers": [["trop"]], "en": "These boots are too small: I have to exchange them.", "explain": "[[trop]] + adjective = too…; the adjective agrees: [[petites]]." },
+        { "type": "cloze", "text": "Ce manteau n'est pas ___ chaud pour l'hiver.", "answers": [["assez"]], "en": "This coat isn't warm enough for winter.", "explain": "[[ne… pas assez]] + adjective = not… enough. [[Assez]] goes **before** the adjective, unlike English *enough*." },
+        { "type": "translate", "prompt": "The pants are too long.", "accept": ["Le pantalon est trop long.", "Les pantalons sont trop longs."], "explain": "[[le pantalon]] is singular in French: [[est trop long]]." }
+      ] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Sofia returns her boots",
+      "intro": "Sofia bought winter boots two weeks ago, but they hurt her feet. She goes back to the store with her receipt.",
+      "blocks": [
+        { "type": "text", "title": "The store's return policy",
+          "fr": "Politique de retour\nVous pouvez retourner ou échanger un article dans les 30 jours suivant l'achat, avec le reçu.\nL'article doit être neuf, non porté, avec ses étiquettes.\nRemboursement sur le mode de paiement original.\nArticles en solde : vente finale. Ni échange, ni remboursement.",
+          "en": "Return policy\nYou can return or exchange an item within 30 days of purchase, with the receipt.\nThe item must be new, unworn, with its tags.\nRefund to the original method of payment.\nSale items: final sale. No exchanges, no refunds." },
+        { "id": "d1", "type": "mcq", "prompt": "Sofia bought her boots at full price 14 days ago and kept the receipt. She has worn them once inside her apartment. What's the risk?", "options": ["The boots must be unworn, so the store could refuse.", "It's more than 30 days, so it's too late.", "Boots are always final sale."], "answer": 0,
+          "explain": "[[L'article doit être neuf, non porté]] = new, unworn. 14 days is within the 30 days, and only [[articles en solde]] are final sale." },
+        { "type": "dialogue", "title": "At customer service",
+          "context": "Sofia speaks to an employee, Camille, at the customer service desk ([[le service à la clientèle]]).",
+          "lines": [
+            { "speaker": "Camille", "fr": "Bonjour ! Qu'est-ce que je peux faire pour vous ?", "en": "Hello! What can I do for you?" },
+            { "speaker": "Sofia", "fr": "Bonjour. Je voudrais retourner ces bottes. Je les ai achetées il y a deux semaines, mais elles sont trop petites. J'ai mal aux pieds quand je les porte.", "en": "Hello. I'd like to return these boots. I bought them two weeks ago, but they're too small. My feet hurt when I wear them." },
+            { "speaker": "Camille", "fr": "D'accord. Vous avez votre reçu ?", "en": "OK. Do you have your receipt?" },
+            { "speaker": "Sofia", "fr": "Oui, le voici. Je les ai essayées une seule fois, dans mon appartement.", "en": "Yes, here it is. I only tried them on once, in my apartment." },
+            { "speaker": "Camille", "fr": "Elles sont comme neuves, pas de problème. Vous voulez les échanger contre une autre pointure ? Vous chaussez du combien ?", "en": "They're like new, no problem. Do you want to exchange them for another size? What size do you wear?" },
+            { "speaker": "Sofia", "fr": "J'ai pris du 7, mais je pense que je chausse du 8.", "en": "I took a 7, but I think I need an 8." },
+            { "speaker": "Camille", "fr": "Je regarde… Désolée, je n'ai plus de 8 dans ce modèle. Mais j'ai le modèle gris en 8. Il est aussi chaud, et il est un peu moins cher.", "en": "Let me look… Sorry, I don't have any 8s left in this model. But I have the grey model in 8. It's just as warm, and it's a bit cheaper." },
+            { "speaker": "Sofia", "fr": "Je peux l'essayer ?", "en": "Can I try it on?" },
+            { "speaker": "Camille", "fr": "Bien sûr. … Alors ?", "en": "Of course. … So?" },
+            { "speaker": "Sofia", "fr": "Elles sont plus confortables, mais je n'aime pas beaucoup la couleur. Je préfère un remboursement, s'il vous plaît.", "en": "They're more comfortable, but I don't really like the colour. I'd prefer a refund, please." },
+            { "speaker": "Camille", "fr": "Aucun problème. Vous avez payé par carte de crédit, alors je vais rembourser la carte. Ça prend quelques jours.", "en": "No problem. You paid by credit card, so I'll refund the card. It takes a few days." },
+            { "speaker": "Sofia", "fr": "Parfait. Merci beaucoup pour votre aide !", "en": "Perfect. Thank you very much for your help!" }
+          ] },
+        { "id": "d2", "type": "mcq", "prompt": "Why doesn't Sofia exchange the boots?", "options": ["Her size isn't available in that model, and she doesn't like the other colour.", "The store doesn't do exchanges.", "The grey boots are more expensive."], "answer": 0,
+          "explain": "[[Je n'ai plus de 8 dans ce modèle]]; the grey ones are comfortable, but [[je n'aime pas beaucoup la couleur]]. They're actually [[un peu moins cher]]." }
+      ] },
+    { "type": "understand", "title": "Sizes, problems and returns",
+      "blocks": [
+        { "type": "table", "title": "Talking about size",
+          "head": ["Question", "Answer", "English"],
+          "rows": [
+            ["Vous faites quelle taille ?", "Je fais du M. / Je fais du 38.", "What size are you? — I'm a medium. / I'm a 38."],
+            ["Quelle est votre pointure ? / Vous chaussez du combien ?", "Je chausse du 8. / Je fais du 39.", "What's your shoe size? — I wear an 8. / A 39."],
+            ["Vous l'avez en plus grand ?", "Oui, je l'ai en L.", "Do you have it in a bigger size? — Yes, I have it in large."],
+            ["Ça vous va ?", "Oui, ça me va bien. / Non, ça ne me va pas.", "Does it fit? — Yes, it fits well. / No, it doesn't fit."]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "[[Taille]] is for clothes, [[pointure]] for shoes. Use [[du]] before the size: [[je fais **du** M]], [[je chausse **du** 8]]." },
+        { "type": "table", "title": "What's wrong with it?",
+          "head": ["Problem", "Example"],
+          "rows": [
+            ["trop + adjective", "C'est trop petit. / Elles sont trop serrées. (too tight)"],
+            ["pas assez + adjective", "Il n'est pas assez chaud."],
+            ["it doesn't fit / suit", "Ça ne me va pas."],
+            ["it's damaged", "Il y a un trou. / La fermeture éclair est brisée. (zipper)"],
+            ["you changed your mind", "Finalement, je n'aime pas la couleur."]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "pattern", "title": "Returning an item",
+          "pattern": "Je voudrais + retourner / échanger + article · contre + autre article",
+          "note": "Pronouns from lesson 3 save you from repeating the item: [[Je voudrais **les** échanger.]] *Exchange for* = [[échanger **contre**]].",
+          "examples": [
+            { "fr": "Je voudrais retourner cet article.", "en": "I'd like to return this item." },
+            { "fr": "Je peux l'échanger contre une autre taille ?", "en": "Can I exchange it for another size?" },
+            { "fr": "Je préfère un remboursement, s'il vous plaît.", "en": "I'd prefer a refund, please." },
+            { "fr": "Est-ce que je peux avoir un crédit en magasin ?", "en": "Can I get store credit?" }
+          ] },
+        { "type": "vocab", "title": "New words", "itemIds": ["taille", "pointure", "retourner", "echanger", "rembourser", "remboursement", "recu", "facture", "vente-finale", "credit", "retourner-article", "ca-ne-me-va-pas"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Size:** clothes → [[la taille]]; shoes → [[la pointure]]. [[Ma grandeur]] is heard in informal Québec speech, but [[taille]] is standard.\n- **Enough goes first:** *warm enough* = [[assez chaud]], not *chaud assez*.\n- **Exchange for:** [[échanger **contre**]], not *pour*.\n- **Receipt:** not *la recette* (that's a recipe!). Say [[le reçu]] or, in Québec, [[la facture]].\n- **Ça me va:** it uses an indirect pronoun ([[me]]), which you'll study in unit 9. For now, learn [[Ça me va]] / [[Ça ne me va pas]] as chunks.\n- **Agreement in the past:** [[Les bottes ? Je les ai achetées.]] The participle agrees with [[les]] (feminine plural) because the pronoun comes before [[avoir]]. You can't hear it here, but it's correct in writing." },
+        { "type": "deepdive", "kind": "canada", "title": "Sizes and returns in Canada",
+          "body": "- **Sizes:** Canada mostly uses North American sizes. Clothes: [[S, M, L]] (in Québec, people say [[small, médium, large]] or [[petit, moyen, grand]]) or numbers like 6, 8, 10. Shoes (approximate, brands vary): a women's 8 is roughly a European 39; a men's 9 is roughly a 42–43. Always try on.\n- **Returns:** in Québec, stores are generally **not required by law** to take back an item that isn't defective (rules can differ by province), so the store's **return policy** decides. Read it before you buy, especially during [[les soldes]]: [[vente finale]] means no return at all.\n- **Defective items** are different: in Québec, the consumer protection law gives a legal warranty ([[la garantie légale]]), and the [[Office de la protection du consommateur]] (OPC) explains your rights. Check official sources such as [[opc.gouv.qc.ca]] for the details.\n- Refunds usually go back on the original payment: [[par carte de crédit]], [[par carte de débit]] (often called [[Interac]]) or [[comptant]] (cash)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "Je voudrais retourner ces bottes.", "en": "I'd like to return these boots." },
+            { "fr": "Elles sont trop petites.", "en": "They're too small." },
+            { "fr": "Vous l'avez en plus grand ?", "en": "Do you have it in a bigger size?" },
+            { "fr": "Je peux les échanger contre une autre pointure ?", "en": "Can I exchange them for another size?", "tip": "les échanger: z sound between the two words." },
+            { "fr": "Je préfère un remboursement, s'il vous plaît.", "en": "I'd prefer a refund, please." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Désolé, madame, cette robe était en solde. C'est une vente finale. Je ne peux pas vous rembourser, mais je peux vous offrir un crédit en magasin.", "en": "Sorry, madam, this dress was on sale. It's a final sale. I can't refund you, but I can offer you store credit.",
+          "prompt": "What can the customer get?", "options": ["Store credit", "A refund", "Nothing at all"], "answer": 0,
+          "explain": "[[Je ne peux pas vous rembourser, mais je peux vous offrir un crédit en magasin.]] This store is generous: [[vente finale]] often means nothing." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ce chandail ? Il est joli, mais il n'est pas assez chaud pour l'hiver. Vous l'avez en laine ?", "en": "This sweater? It's pretty, but it's not warm enough for winter. Do you have it in wool?",
+          "prompt": "What's the problem with the sweater?", "options": ["It isn't warm enough.", "It's too big.", "It's too expensive."], "answer": 0,
+          "explain": "[[pas assez chaud]] = not warm enough." },
+        { "id": "h3", "type": "dictation", "fr": "Vous avez votre reçu ?", "accept": [],
+          "explain": "[[reçu]]: c with a cedilla (ç) to keep the s sound before u." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match the words.", "pairs": [["la taille", "size (clothes)"], ["la pointure", "shoe size"], ["le reçu", "receipt"], ["le remboursement", "refund"], ["la vente finale", "no returns"]] },
+        { "id": "r2", "type": "translate", "prompt": "I'd like to return this coat.", "accept": ["Je voudrais retourner ce manteau.", "Je voudrais rapporter ce manteau.", "J'aimerais retourner ce manteau.", "J'aimerais rapporter ce manteau."],
+          "explain": "[[Je voudrais]] + infinitive: polite. [[ce manteau]] (masculine)." },
+        { "id": "r3", "type": "cloze", "text": "Ces bottes ? Je voudrais ___ échanger ___ une autre pointure.", "answers": [["les"], ["contre"]], "choices": ["les", "la", "contre", "pour"], "en": "These boots? I'd like to exchange them for another size.",
+          "explain": "Pronoun before the infinitive: [[les échanger]]; *for* = [[contre]]." },
+        { "id": "r4", "type": "mcq", "prompt": "“This coat isn't warm enough.”", "options": ["Ce manteau n'est pas assez chaud.", "Ce manteau n'est pas chaud assez.", "Ce manteau n'est pas trop chaud."], "optionsFr": true, "answer": 0,
+          "explain": "[[assez]] goes before the adjective. [[Pas trop chaud]] = not too warm, a different idea." },
+        { "id": "r5", "type": "cloze", "text": "Je fais ___ M, mais je chausse ___ 9.", "answers": [["du"], ["du"]], "en": "I'm a medium, but I wear a size 9 (shoe).",
+          "explain": "Sizes take [[du]]: [[je fais du M]], [[je chausse du 9]]." },
+        { "id": "r6", "type": "translate", "prompt": "The boots? I'm going to exchange them.", "accept": ["Les bottes ? Je vais les échanger.", "Les bottes, je vais les échanger."],
+          "explain": "Futur proche: the pronoun goes before the infinitive, [[je vais les échanger]] (lesson 3)." },
+        { "id": "r7", "type": "reorder", "prompt": "Do you have it in a bigger size? (formal)", "accept": ["Vous l'avez en plus grand ?"], "extra": ["le", "que"],
+          "explain": "[[l']] + [[avez]]; [[en plus grand]] = in a bigger size (a comparative)." },
+        { "id": "r8", "type": "mcq", "prompt": "The tag says “Vente finale”. What does it mean?", "options": ["You can't return or exchange it.", "It's the last item in stock.", "The price will go down at the end of the sales."], "answer": 0,
+          "explain": "[[vente finale]] = final sale: no return, no exchange (unless the store offers credit)." },
+        { "id": "r9", "type": "cloze", "text": "Le magasin va ___ Sofia dans quelques jours.", "answers": [["rembourser"]], "choices": ["rembourser", "remboursement", "remboursé"], "en": "The store is going to refund Sofia in a few days.",
+          "explain": "After [[va]] (futur proche), use the infinitive: [[rembourser]]." },
+        { "id": "r10", "type": "dictation", "fr": "Elles sont trop petites, je dois les échanger.", "accept": [],
+          "explain": "[[trop petites]] agrees with [[elles]]; [[les échanger]]: pronoun before the infinitive." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "At customer service: return an item you bought last week. Say what it is, when you bought it, what's wrong, that you have the receipt, and ask for an exchange. Then, because your size isn't available, ask for a refund or store credit.", "seconds": 50,
+          "checklist": ["Je voudrais retourner…", "When: Je l'ai / les ai acheté(e)(s) il y a…", "The problem: trop… / pas assez… / ça ne me va pas", "Voici mon reçu.", "Exchange: Je peux l'échanger contre… ?", "Plan B: un remboursement / un crédit en magasin"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour. Je voudrais retourner ce manteau. Je l'ai acheté il y a une semaine, mais il est trop grand. Voici mon reçu. Je peux l'échanger contre une taille plus petite ? Je fais du S. … Vous n'avez plus de S ? Alors je préfère un remboursement, s'il vous plaît. J'ai payé par carte de débit. Merci beaucoup !",
+              "en": "Hello. I'd like to return this coat. I bought it a week ago, but it's too big. Here's my receipt. Can I exchange it for a smaller size? I'm a small. … You don't have any smalls left? Then I'd prefer a refund, please. I paid by debit card. Thank you very much!" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "You bought a sweater online and it's too small. Write a short, polite message to the store's customer service to ask for an exchange or a refund.", "wordRange": [40, 80],
+          "checklist": ["Bonjour, / Madame, Monsieur,", "What you bought and when (order number if you want)", "The problem: trop… / pas assez…", "Your request: échanger contre… or un remboursement", "Merci d'avance. Cordialement, + name"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour,\nJ'ai acheté un chandail gris sur votre site le 3 décembre (commande n° 45812). Je l'ai reçu hier, mais il est trop petit. Je voudrais l'échanger contre une taille M. Si ce n'est pas possible, je préfère un remboursement.\nComment est-ce que je peux retourner l'article ?\nMerci d'avance.\nCordialement,\nMei Chen",
+              "en": "Hello,\nI bought a grey sweater on your website on December 3 (order no. 45812). I received it yesterday, but it's too small. I'd like to exchange it for a size M. If that's not possible, I'd prefer a refund.\nHow can I return the item?\nThank you in advance.\nKind regards,\nMei Chen" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Talk about size: [[Vous faites quelle taille ?]], [[Je chausse du 8]], [[Vous l'avez en plus grand ?]]\n- Say what's wrong: [[trop petit]], [[pas assez chaud]], [[Ça ne me va pas]]\n- Return an item: [[Je voudrais retourner cet article]], [[échanger contre]], [[un remboursement]], [[un crédit en magasin]], [[le reçu]], [[vente finale]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Replaced r6, which tested pronoun + passé composé agreement (only previewed for recognition), with a futur proche pronoun drill. Removed a dictation answer that sounds different. Marked size equivalences as approximate, scoped the returns rule to Québec with an official-sources hedge, and labelled ça ne me va pas as a chunk." }
+}

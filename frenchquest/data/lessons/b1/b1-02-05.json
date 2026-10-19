@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-02-05",
+  "level": "b1",
+  "unit": "b1-02",
+  "title": "Narrate an event",
+  "goal": "Narrate a real event from start to finish, out loud and in writing, with the three past tenses, before and after, and reported speech, including continuing a short news story in exam style.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-recit", "kind": "grammar", "fr": "imparfait + passé composé + plus-que-parfait", "en": "the three past tenses in one story",
+      "drills": [
+        { "type": "cloze", "text": "Il ___ moins 18 degrés et la neige tombait depuis le matin. (faire)", "answers": [["faisait"]], "en": "It was minus 18 degrees and the snow had been falling since morning.", "explain": "Weather in the scene → imparfait." },
+        { "type": "cloze", "text": "La vieille dame ___ ___ quelques heures plus tôt. (tomber)", "answers": [["était"], ["tombée"]], "en": "The old lady had fallen a few hours earlier.", "explain": "Earlier than the main events → plus-que-parfait; tomber takes être, feminine agreement." },
+        { "type": "mcq", "prompt": "Alex ___ des repas quand il a remarqué une porte ouverte.", "options": ["livrait", "a livré", "avait livré", "livre"], "optionsFr": true, "answer": 0, "explain": "An action in progress, interrupted by an event → imparfait." }
+      ] },
+    { "id": "g-ordre", "kind": "grammar", "fr": "avant de + infinitif / après avoir, être + participe", "en": "putting actions in order (before doing, after doing)",
+      "drills": [
+        { "type": "cloze", "text": "Après ___ appelé les secours, il est resté avec elle.", "answers": [["avoir"]], "en": "After calling emergency services, he stayed with her.", "explain": "[[appeler]] takes avoir: [[après avoir appelé]]." },
+        { "type": "cloze", "text": "Avant ___ ouvrir la porte, les agents ont bloqué la rue.", "answers": [["d'"]], "en": "Before opening the door, the officers blocked the street.", "explain": "[[avant de]] → [[avant d']] before a vowel." }
+      ] },
+    { "id": "g-discours", "kind": "grammar", "fr": "il a dit que… / il a demandé si…", "en": "reported speech in a past story",
+      "drills": [
+        { "type": "cloze", "text": "« Je ne suis pas un héros. » → Il a dit qu'il n'___ pas un héros.", "answers": [["était"]], "en": "He said he wasn't a hero.", "explain": "Present → imparfait after a past reporting verb." },
+        { "type": "cloze", "text": "« Vous pouvez bouger ? » → Je lui ai demandé ___ pouvait bouger.", "answers": [["s'il"]], "en": "I asked him if he could move.", "explain": "Yes/no question → [[si]]; [[si il]] → [[s'il]]." }
+      ] },
+    { "id": "fait-divers", "kind": "vocab", "fr": "fait divers", "article": "un", "gender": "m", "en": "short local news story (accident, rescue, theft…)", "pos": "noun", "accept": ["le fait divers"],
+      "note": "Plural: des faits divers." },
+    { "id": "temoin", "kind": "vocab", "fr": "témoin", "article": "un", "gender": "m", "en": "witness", "pos": "noun", "accept": ["le témoin"], "note": "Same word for a man or a woman: Elle est le seul témoin." },
+    { "id": "secours", "kind": "vocab", "fr": "secours", "article": "les", "gender": "m", "en": "emergency services, rescuers", "pos": "noun" },
+    { "id": "ambulancier", "kind": "vocab", "fr": "ambulancier", "article": "un", "gender": "m", "en": "paramedic", "pos": "noun", "accept": ["une ambulancière", "l'ambulancier", "l'ambulancière"] },
+    { "id": "blesse", "kind": "vocab", "fr": "blessé", "fem": "blessée", "en": "injured, hurt", "pos": "adjective", "accept": ["blessée"],
+      "example": { "fr": "Personne n'a été blessé.", "en": "Nobody was hurt." } },
+    { "id": "selon", "kind": "phrase", "fr": "selon la police", "en": "according to the police", "accept": ["d'après la police"] },
+    { "id": "alors-que", "kind": "phrase", "fr": "alors qu'une tempête frappait la région", "en": "while a storm was hitting the region", "note": "alors que + imparfait sets a scene in news style." },
+    { "id": "venir-en-aide", "kind": "phrase", "fr": "venir en aide à quelqu'un", "en": "to come to someone's aid", "accept": ["aider quelqu'un"] },
+    { "id": "plus-tot", "kind": "phrase", "fr": "quelques heures plus tôt", "en": "a few hours earlier", "accept": ["quelques heures avant"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A fait divers",
+      "intro": "Read the news story once for the facts. Then read it again and spot the **scene**, the **events**, the **flashbacks**, the **order words** and the **reported words**.",
+      "blocks": [
+        { "type": "text", "title": "Laval: a delivery driver comes to a neighbour's aid during the storm",
+          "context": "A short news story (a fictional *fait divers*) on a local news website.",
+          "fr": "Mardi soir, alors qu'une tempête de neige frappait la région de Montréal, un jeune livreur a probablement sauvé la vie d'une femme de 82 ans, à Laval.\nVers 21 h, Alex Martin, 24 ans, livrait des repas dans le quartier Chomedey quand il a remarqué une porte ouverte. Il faisait moins 18 degrés et la neige tombait depuis le matin. « J'ai trouvé ça bizarre, alors je me suis approché », a-t-il raconté.\nDans l'entrée, il a découvert Gisèle Roy par terre. La vieille dame était tombée quelques heures plus tôt et elle ne pouvait plus se relever. Son téléphone était resté dans la cuisine.\nAprès avoir appelé les secours, le jeune homme a couvert madame Roy avec son manteau et il est resté avec elle jusqu'à l'arrivée des ambulanciers.\nSelon les ambulanciers, la dame avait très froid, mais elle n'était pas gravement blessée. Elle a passé la nuit à l'hôpital et elle va bien. Sa fille a expliqué aux journalistes que sa mère voulait absolument remercier son « ange gardien ».\nQuant à Alex, il a dit qu'il n'était pas un héros. « J'ai juste ouvert les yeux », a-t-il ajouté avec un sourire.",
+          "en": "On Tuesday evening, while a snowstorm was hitting the Montréal area, a young delivery driver probably saved the life of an 82-year-old woman in Laval. Around 9 p.m., Alex Martin, 24, was delivering meals in the Chomedey neighbourhood when he noticed an open door. It was minus 18 degrees and snow had been falling since the morning. “I found it strange, so I went closer,” he said. In the entrance, he found Gisèle Roy on the floor. The elderly woman had fallen a few hours earlier and could no longer get up. Her phone had been left in the kitchen. After calling emergency services, the young man covered Mrs. Roy with his coat and stayed with her until the paramedics arrived. According to the paramedics, the woman was very cold, but she was not seriously injured. She spent the night in hospital and is doing well. Her daughter explained to journalists that her mother absolutely wanted to thank her “guardian angel.” As for Alex, he said he wasn't a hero. “I just kept my eyes open,” he added with a smile." },
+        { "type": "dialogue", "title": "Talking about the news",
+          "context": "The next day, Sofia and Karim discuss the story over breakfast.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Tu as lu l'histoire du livreur à Laval ?", "en": "Did you read the story about the delivery driver in Laval?" },
+            { "speaker": "Karim", "fr": "Oui ! Ma collègue m'en a parlé ce matin. Elle m'a dit que la dame était restée par terre pendant des heures.", "en": "Yes! My colleague told me about it this morning. She told me the lady had stayed on the floor for hours." },
+            { "speaker": "Sofia", "fr": "C'est terrible. Heureusement qu'il a remarqué la porte ouverte !", "en": "It's terrible. Lucky he noticed the open door!" },
+            { "speaker": "Karim", "fr": "À mon avis, c'est un vrai héros. Lui, il a dit qu'il n'était pas un héros, mais je ne suis pas d'accord.", "en": "In my opinion, he's a real hero. He said he wasn't a hero, but I don't agree." },
+            { "speaker": "Sofia", "fr": "Moi non plus. Beaucoup de gens ne regardent pas autour d'eux, surtout quand il fait moins 18 !", "en": "Me neither. Lots of people don't look around them, especially when it's minus 18!" },
+            { "speaker": "Karim", "fr": "C'est vrai. Ça me rappelle l'hiver dernier : un homme est tombé sur le verglas devant notre immeuble, tu te souviens ?", "en": "True. It reminds me of last winter: a man fell on the ice in front of our building, remember?" },
+            { "speaker": "Sofia", "fr": "Ah oui ! Tu ne m'as jamais vraiment raconté. Qu'est-ce que tu as fait ?", "en": "Oh yes! You never really told me. What did you do?" },
+            { "speaker": "Karim", "fr": "Avant d'appeler une ambulance, je lui ai demandé s'il pouvait bouger. Il m'a répondu qu'il avait très mal à la jambe.", "en": "Before calling an ambulance, I asked him if he could move. He answered that his leg hurt a lot." },
+            { "speaker": "Sofia", "fr": "Et après ?", "en": "And then?" },
+            { "speaker": "Karim", "fr": "Après l'avoir aidé à s'asseoir sur les marches, je suis resté avec lui jusqu'à l'arrivée des ambulanciers.", "en": "After helping him sit down on the steps, I stayed with him until the paramedics arrived." },
+            { "speaker": "Sofia", "fr": "Tu vois ? Toi aussi, tu es un héros !", "en": "You see? You're a hero too!" },
+            { "speaker": "Karim", "fr": "Mais non… J'ai juste fait mon devoir de voisin.", "en": "Oh, come on… I just did my duty as a neighbour." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "Why couldn't Gisèle Roy call for help?", "options": ["Her phone had stayed in the kitchen.", "Her phone had no battery.", "The power was out.", "She didn't know the number."], "answer": 0,
+          "explain": "[[Son téléphone était resté dans la cuisine]]: a flashback in the plus-que-parfait explains the situation." },
+        { "id": "d2", "type": "mcq", "prompt": "In the article, which sentence is reported speech (not a direct quote)?", "options": ["Il a dit qu'il n'était pas un héros.", "« J'ai juste ouvert les yeux », a-t-il ajouté.", "« J'ai trouvé ça bizarre, alors je me suis approché », a-t-il raconté.", "Elle a passé la nuit à l'hôpital."], "optionsFr": true, "answer": 0,
+          "explain": "[[Il a dit qu'il n'était pas…]]: reporting verb + [[que]] + tense shift. The others are direct quotes in « », or a plain event." }
+      ] },
+    { "type": "understand", "title": "Your unit toolkit for telling a story",
+      "intro": "Everything from this unit, organized as a plan you can reuse for any story, spoken or written.",
+      "blocks": [
+        { "type": "table", "title": "A five-part plan",
+          "head": ["Part", "Main tools", "Example"],
+          "rows": [
+            ["1. Situation: when, where, who", "imparfait, alors que", "Mardi soir, alors qu'une tempête frappait la région…"],
+            ["2. Trigger", "quand / soudain + passé composé", "…quand il a remarqué une porte ouverte."],
+            ["3. Explanation (flashback)", "plus-que-parfait, plus tôt, la veille", "La dame était tombée quelques heures plus tôt."],
+            ["4. Actions in order", "après avoir / être, avant de, ensuite, jusqu'à", "Après avoir appelé les secours, il est resté avec elle."],
+            ["5. Words and ending", "il a dit que, selon, quant à", "Selon les ambulanciers, elle n'était pas gravement blessée."]
+          ],
+          "frCols": [2], "sayCol": false },
+        { "type": "table", "title": "Personal story or news story?",
+          "head": ["", "Personal story (oral)", "News story (written)"],
+          "rows": [
+            ["Person", "je, on, nous", "il, elle, ils (third person)"],
+            ["Opening", "L'hiver dernier, j'étais…", "Mardi soir, à Laval, un jeune livreur…"],
+            ["People", "first names: mon voisin Karim", "full name + age: Alex Martin, 24 ans"],
+            ["Words", "Il m'a dit que…", "« … », a-t-il raconté. / Selon la police, …"],
+            ["Ending", "your feeling: J'ai eu tellement peur !", "consequences: Elle va bien. L'enquête continue."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "After a direct quote, news style inverts the verb: [[« … », a-t-il raconté]], [[« … », a expliqué sa fille]]. A [[-t-]] is added between two vowels: [[a-t-il]], [[a-t-elle]]." },
+        { "type": "explain", "title": "Connectors for a story",
+          "body": "**Time and order:** [[d'abord]], [[ensuite]], [[puis]], [[après avoir…]], [[avant de…]], [[une heure plus tard]], [[finalement]], [[jusqu'à]] (until)\n\n**Scene and surprise:** [[alors que]] (while), [[pendant que]], [[soudain]], [[tout à coup]]\n\n**Cause and result** (from unit 1): [[parce que]], [[car]], [[comme]], [[grâce à]], [[à cause de]], [[alors]], [[donc]]\n\n**News style:** [[selon]] (according to), [[quant à]] (as for), [[d'après les témoins]] (according to witnesses)" },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam focus: TEF Canada, written expression, section A",
+          "body": "In the **TEF Canada** writing test, the first task (section A) gives you the **beginning of a short news story** (a *fait divers*) and asks you to **write the rest**. You need **at least 80 words**. The whole writing test lasts 60 minutes for two tasks, so aim to spend about 25 minutes on this one (section B, an opinion text of at least 200 words, gets about 35 minutes).\n\nWhat examiners look for:\n\n- **Coherence with the start:** keep the same people, place and date. Don't contradict the facts you were given.\n- **News style:** third person, neutral tone, no personal opinion (save that for section B).\n- **Past tenses used well:** imparfait for the scene, passé composé for events, plus-que-parfait to explain causes.\n- **A clear progression:** what happened, why, what people did and said, and how it ended (consequences, outcome).\n- **Variety:** connectors, [[après avoir]], reported speech, a short quote, precise vocabulary.\n\n**Method in 5 minutes before you write:** underline who, where, when; decide the cause (flashback), three events, one quote, one ending. Then write, and keep 3 minutes to check agreements and tenses.\n\nTry it in the writing mission below.",
+          "examples": [
+            { "fr": "Selon les témoins, le conducteur avait perdu le contrôle de sa voiture.", "en": "According to witnesses, the driver had lost control of his car." },
+            { "fr": "« Je n'avais jamais vu ça », a raconté une voisine.", "en": "“I had never seen anything like it,” said a neighbour." }
+          ] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Checklist before you hand in a story",
+          "body": "- **Tense drift:** a story that slides into the present halfway through. Pick the past and stay there (except for today's consequences: [[Elle va bien]]).\n- **Everything in the passé composé:** add a scene in the imparfait and at least one flashback.\n- **Missing agreement with être:** [[elle était tombé]] → [[elle était tombée]]; [[après être arrivé]] → [[arrivés]] for a group.\n- **avant + infinitive:** [[avant appeler]] → [[avant d'appeler]].\n- **Reported speech without que or without the shift:** [[il a dit il est fatigué]] → [[il a dit qu'il était fatigué]].\n- **Repeating the same name:** use pronouns and synonyms: [[Alex]] → [[le jeune homme]] → [[il]]; [[Gisèle Roy]] → [[la vieille dame]] → [[elle]]." }
+      ] },
+    { "type": "hear", "title": "The rhythm of a story",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In storytelling, slow down slightly on the trigger and on the quote. It keeps your listener hooked.",
+          "lines": [
+            { "fr": "Il faisait moins 18 degrés et la neige tombait depuis le matin.", "en": "It was minus 18 degrees and snow had been falling since the morning." },
+            { "fr": "Soudain, il a remarqué une porte ouverte.", "en": "Suddenly, he noticed an open door." },
+            { "fr": "La vieille dame était tombée quelques heures plus tôt.", "en": "The old lady had fallen a few hours earlier." },
+            { "fr": "Après avoir appelé les secours, il est resté avec elle.", "en": "After calling emergency services, he stayed with her." },
+            { "fr": "J'ai juste ouvert les yeux, a-t-il ajouté.", "en": "I just kept my eyes open, he added.", "tip": "a-t-il: say a-til, smoothly." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Selon les témoins, le cycliste avait traversé au feu rouge.", "en": "According to witnesses, the cyclist had crossed on a red light.", "prompt": "What do the witnesses say?", "options": ["The cyclist had crossed on a red light earlier.", "The cyclist is crossing on a red light now.", "The cyclist was going to cross on a red light."], "answer": 0,
+          "explain": "[[avait traversé]]: plus-que-parfait, an action before the accident." },
+        { "id": "h2", "type": "listen-mcq", "fr": "La policière nous a demandé si nous avions vu la voiture.", "en": "The police officer asked us if we had seen the car.", "prompt": "What was the officer's question?", "options": ["« Vous avez vu la voiture ? »", "« Vous voyez la voiture ? »", "« Vous allez voir la voiture ? »"], "answer": 0,
+          "explain": "[[si nous avions vu]] (plus-que-parfait) comes from a passé composé: [[Vous avez vu… ?]]" }
+      ] },
+    { "type": "recall", "title": "Checkpoint: mixed practice",
+      "intro": "Everything from this unit, plus opinions and reasons from unit 1 and earlier grammar. Answer without looking back.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Quand les ambulanciers sont arrivés, Alex ___ déjà ___ la dame avec son manteau. (couvrir)", "answers": [["avait"], ["couvert"]], "en": "When the paramedics arrived, Alex had already covered the lady with his coat.",
+          "explain": "Covering her came before their arrival → plus-que-parfait. [[couvrir]] → [[couvert]]." },
+        { "id": "r2", "type": "mcq", "prompt": "Choose the best sentence for the start of a news story.", "options": ["Samedi matin, alors qu'il pleuvait, un camion a percuté un poteau à Moncton.", "Samedi matin, alors qu'il a plu, un camion percutait un poteau à Moncton.", "Samedi matin, alors qu'il pleut, un camion a percuté un poteau à Moncton.", "Samedi matin, alors qu'il avait plu, un camion percute un poteau à Moncton."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "The rain is the scene (imparfait) and the crash is the event (passé composé), not the other way around.", "Stay in the past: il pleuvait.", "The tenses are mixed up: the event needs the passé composé."], "explain": "Scene in the imparfait ([[il pleuvait]]), event in the passé composé ([[a percuté]] = crashed into)." },
+        { "id": "r3", "type": "cloze", "text": "___ ___ arrivés sur place, les pompiers ont fermé la rue.", "answers": [["Après"], ["être"]], "en": "After arriving at the scene, the firefighters closed the street.",
+          "explain": "[[Après être arrivés]]: arriver takes être, plural agreement with [[les pompiers]]." },
+        { "id": "r4", "type": "translate", "prompt": "He said he wasn't a hero.", "accept": ["Il a dit qu'il n'était pas un héros.", "Il a affirmé qu'il n'était pas un héros."],
+          "explain": "[[a dit que]] + imparfait. Don't drop [[que]]." },
+        { "id": "r5", "type": "cloze", "text": "« Vous avez froid ? » → Il lui a demandé ___ elle ___ froid.", "answers": [["si"], ["avait"]], "en": "He asked her if she was cold.",
+          "explain": "Yes/no question → [[si]] (no elision before elle); present → imparfait." },
+        { "id": "r6", "type": "match", "prompt": "Match the news-story expressions.", "pairs": [["alors que", "while (at the time when)"], ["quelques heures plus tôt", "a few hours earlier"], ["selon", "according to"], ["quant à", "as for"], ["jusqu'à l'arrivée de", "until the arrival of"]] },
+        { "id": "r7", "type": "cloze", "text": "___ son courage, la dame va bien aujourd'hui.", "answers": [["Grâce à"]], "choices": ["Grâce à", "À cause de", "Parce que", "Car"], "en": "Thanks to his courage, the lady is doing well today.",
+          "explain": "A positive cause + noun → [[grâce à]]. [[À cause de]] is for a negative cause; [[parce que]] and [[car]] need a full clause (unit 1)." },
+        { "id": "r8", "type": "mcq", "prompt": "“In my opinion, he's a real hero.”", "options": ["À mon avis, c'est un vrai héros.", "À mon avis, il est un vrai héros.", "Dans mon avis, c'est un vrai héros.", "Pour mon avis, c'est un vrai héros."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Before un/une + noun, use c'est: c'est un héros.", "The fixed phrase is à mon avis.", "The fixed phrase is à mon avis."] },
+        { "id": "r9", "type": "dictation", "fr": "Avant de partir, nous avions fermé toutes les fenêtres.", "accept": [], "explain": "[[avant de]] + infinitive; [[nous avions fermé]] (plus-que-parfait); [[toutes les fenêtres]] is feminine plural." },
+        { "id": "r10", "type": "translate", "prompt": "I was waiting for the bus when suddenly a cyclist fell in front of me.", "accept": ["J'attendais le bus quand soudain un cycliste est tombé devant moi.", "J'attendais l'autobus quand soudain un cycliste est tombé devant moi.", "J'attendais le bus quand, soudain, un cycliste est tombé devant moi.", "J'attendais l'autobus quand, soudain, un cycliste est tombé devant moi.", "J'attendais le bus quand tout à coup un cycliste est tombé devant moi.", "J'attendais l'autobus quand tout à coup un cycliste est tombé devant moi.", "J'attendais le bus quand, tout à coup, un cycliste est tombé devant moi.", "J'attendais l'autobus quand, tout à coup, un cycliste est tombé devant moi.", "J'attendais le bus lorsque soudain un cycliste est tombé devant moi.", "J'attendais l'autobus lorsque soudain un cycliste est tombé devant moi."],
+          "hint": "attendre has no preposition: attendre le bus.", "explain": "Background action → imparfait ([[j'attendais]]); the sudden event → passé composé ([[est tombé]])." }
+      ] },
+    { "type": "apply", "title": "Unit mission: tell it well",
+      "intro": "Two missions: one spoken, one written in exam style. Use the five-part plan.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Tell a friend about an event you witnessed or experienced (an accident, a rescue, a surprise, a problem during a trip). Follow the five-part plan and finish with your opinion about what happened.", "seconds": 120,
+          "checklist": ["Situation in the imparfait: when, where, weather, what you were doing", "A trigger: quand / soudain + passé composé", "A flashback with the plus-que-parfait", "Actions in order with après avoir / être and avant de", "What someone said or asked (reported speech)", "The ending, plus your opinion with a reason (à mon avis… parce que…)"],
+          "models": [
+            { "label": "Model answer", "fr": "Il y a deux ans, j'ai vu un accident de vélo à Ottawa. C'était un matin de juin et il faisait beau. J'attendais l'autobus quand, soudain, un cycliste est tombé devant moi. Un conducteur avait ouvert sa portière sans regarder. Je me suis approché et je lui ai demandé s'il allait bien. Il m'a répondu qu'il avait mal au bras. Après avoir appelé une ambulance, je suis resté avec lui. Finalement, ce n'était pas grave. À mon avis, les conducteurs doivent faire plus attention.", "en": "Two years ago, I saw a bike accident in Ottawa. It was a morning in June and the weather was nice. I was waiting for the bus when suddenly a cyclist fell in front of me. A driver had opened his door without looking. I went over and asked him if he was OK. He answered that his arm hurt. After calling an ambulance, I stayed with him. In the end, it wasn't serious. In my opinion, drivers need to be more careful." },
+            { "label": "Stronger model answer", "fr": "Je vais vous raconter un événement qui m'a marqué. Il y a deux ans, un matin de juin, j'attendais l'autobus sur la rue Rideau, à Ottawa. Il faisait beau, il y avait beaucoup de monde, et tout était calme. Soudain, j'ai entendu un grand bruit : un cycliste venait de tomber juste devant moi. En fait, un conducteur s'était garé et il avait ouvert sa portière sans regarder dans son rétroviseur. Avant de toucher le cycliste, je lui ai demandé s'il pouvait bouger. Il m'a répondu qu'il avait très mal au bras, mais qu'il pouvait parler normalement. Après avoir appelé les secours, je suis resté avec lui jusqu'à l'arrivée des ambulanciers. Le conducteur, lui, répétait qu'il était désolé et qu'il n'avait rien vu. Heureusement, le cycliste avait seulement le bras cassé. À mon avis, cette histoire montre qu'il faut plus de pistes cyclables protégées en ville, parce que ce genre d'accident arrive très souvent.", "en": "I'm going to tell you about an event that stayed with me. Two years ago, one morning in June, I was waiting for the bus on Rideau Street in Ottawa. The weather was nice, there were lots of people, and everything was calm. Suddenly I heard a loud noise: a cyclist had just fallen right in front of me. In fact, a driver had parked and had opened his door without looking in his mirror. Before touching the cyclist, I asked him if he could move. He answered that his arm hurt a lot, but that he could talk normally. After calling emergency services, I stayed with him until the paramedics arrived. The driver kept saying he was sorry and that he hadn't seen anything. Luckily, the cyclist only had a broken arm. In my opinion, this story shows that we need more protected bike lanes in the city, because this kind of accident happens very often." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Exam-style task (TEF section A). Continue this news story in the third person, in a neutral news style. Keep the facts given, explain what had happened, tell what people did and said, and give an ending. Start: “Gatineau. Samedi matin, quand Nicolas Lavoie a ouvert la porte de son garage, il a eu toute une surprise : un jeune orignal dormait tranquillement à côté de sa voiture.” (un orignal = a moose)",
+          "promptFr": "Continuez cet article. Samedi matin, quand Nicolas Lavoie a ouvert la porte de son garage, il a eu toute une surprise : un jeune orignal dormait tranquillement à côté de sa voiture.",
+          "wordRange": [80, 120],
+          "checklist": ["Same people, place and day as the start", "Third person, no personal opinion", "A cause in the plus-que-parfait", "Events in order with après avoir / être or avant de", "At least one reported sentence and one short quote", "A clear ending (outcome, consequences)", "Between 80 and 120 words"],
+          "models": [
+            { "label": "Model answer", "fr": "Selon monsieur Lavoie, l'animal était entré pendant la nuit, parce que la porte du garage était restée un peu ouverte. « Au début, j'ai pensé que c'était un gros chien ! », a-t-il raconté. Après avoir fermé la porte de la maison, il a appelé les agents de protection de la faune. Ils sont arrivés une heure plus tard. Avant d'ouvrir complètement la porte, ils ont demandé aux voisins de rester chez eux. L'orignal est sorti calmement et il est reparti vers la forêt. Personne n'a été blessé. Monsieur Lavoie a dit qu'il allait réparer sa porte dès lundi.", "en": "According to Mr. Lavoie, the animal had come in during the night, because the garage door had stayed slightly open. “At first, I thought it was a big dog!” he said. After closing the door to the house, he called the wildlife protection officers. They arrived an hour later. Before opening the door completely, they asked the neighbours to stay home. The moose came out calmly and went back to the forest. Nobody was hurt. Mr. Lavoie said he was going to repair his door first thing Monday." },
+            { "label": "Stronger model answer", "fr": "Selon le propriétaire, l'animal était probablement entré pendant la nuit : la veille, son fils avait oublié de fermer complètement la porte du garage. « Au début, je pensais que c'était un gros chien ! », a raconté monsieur Lavoie.\nAprès avoir mis ses enfants à l'abri, le père de famille a appelé les agents de protection de la faune. Au téléphone, les agents lui ont demandé si l'animal était blessé et ils lui ont dit de ne pas s'approcher. Une heure plus tard, ils ont bloqué la rue. L'orignal est sorti calmement avant de disparaître dans le boisé voisin.\nPersonne n'a été blessé. Quant à la famille Lavoie, elle a déjà trouvé un nom pour son visiteur : Gaston.", "en": "According to the owner, the animal had probably come in during the night: the evening before, his son had forgotten to close the garage door completely. “At first, I thought it was a big dog!” said Mr. Lavoie. After putting his children somewhere safe, the father called the wildlife protection officers. On the phone, the officers asked him if the animal was injured and told him not to go near it. An hour later, they blocked the street. The moose came out calmly before disappearing into the nearby woods. Nobody was hurt. As for the Lavoie family, they have already found a name for their visitor: Gaston." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Narrate an event with a clear plan: situation (imparfait), trigger and events (passé composé), explanations (plus-que-parfait)\n- Order actions with [[avant de]] and [[après avoir / être]], and report words with [[il a dit que]] and [[il a demandé si]]\n- Continue a short news story in neutral news style, as in TEF Canada writing section A",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "TEF EE facts aligned with format.json (section A 80–120 words, ~25 min; section B ≥200 words, ~35 min; 60 min total); TEF-style task word range set to 80–120 and the stronger model trimmed to fit; replaced unjustified plus-que-parfaits with the passé composé in the dialogue and plan table; removed a wrong noun accept."}
+}

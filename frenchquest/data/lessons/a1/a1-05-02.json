@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-05-02",
+  "level": "a1",
+  "unit": "a1-05",
+  "title": "Reflexive verbs",
+  "goal": "Describe your morning and evening routine with reflexive verbs like se lever and se coucher, and ask others about theirs.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-reflexive", "kind": "grammar", "fr": "je me, tu te, il se, nous nous, vous vous, ils se", "en": "reflexive pronouns before the verb",
+      "drills": [
+        { "type": "cloze", "text": "Vous ___ réveillez à quelle heure ?", "answers": [["vous"]], "en": "What time do you wake up?", "explain": "With vous, the pronoun is also vous: vous vous réveillez." },
+        { "type": "cloze", "text": "Ils ___ couchent à 22 heures.", "answers": [["se"]], "en": "They go to bed at 10 p.m.", "explain": "ils and elles take se, like il and elle." },
+        { "type": "mcq", "prompt": "Which is correct?", "options": ["Je m'habille.", "Je me habille.", "Je habille.", "Je m'habiller."], "optionsFr": true, "answer": 0, "explain": "me becomes m' before a vowel, and the verb is conjugated: je m'habille." }
+      ] },
+    { "id": "g-se-lever", "kind": "grammar", "fr": "je me lève, nous nous levons", "en": "se lever: è when the ending is silent",
+      "drills": [
+        { "type": "cloze", "text": "Tu te ___ à quelle heure ? (lever)", "answers": [["lèves"]], "en": "What time do you get up?", "explain": "The ending -es is silent, so the e before it becomes è: tu te lèves." },
+        { "type": "cloze", "text": "Nous nous ___ à 7 heures. (lever)", "answers": [["levons"]], "en": "We get up at 7 o'clock.", "explain": "The ending -ons is heard, so no accent: nous nous levons." },
+        { "type": "cloze", "text": "Elles se ___ tôt. (lever)", "answers": [["lèvent"]], "en": "They get up early.", "explain": "-ent is silent, so è: elles se lèvent." }
+      ] },
+    { "id": "se-lever", "kind": "vocab", "fr": "se lever", "en": "to get up", "pos": "verb",
+      "example": { "fr": "Je me lève à 6 heures.", "en": "I get up at 6 o'clock." }, "note": "je me lève, nous nous levons" },
+    { "id": "se-reveiller", "kind": "vocab", "fr": "se réveiller", "en": "to wake up", "pos": "verb",
+      "example": { "fr": "Tu te réveilles tôt ?", "en": "Do you wake up early?" } },
+    { "id": "se-laver", "kind": "vocab", "fr": "se laver", "en": "to wash (yourself), to get washed", "pos": "verb",
+      "example": { "fr": "Il se lave le matin.", "en": "He washes in the morning." } },
+    { "id": "se-doucher", "kind": "vocab", "fr": "se doucher", "en": "to shower, to take a shower", "pos": "verb",
+      "example": { "fr": "Elle se douche le soir.", "en": "She showers in the evening." } },
+    { "id": "s-habiller", "kind": "vocab", "fr": "s'habiller", "en": "to get dressed", "pos": "verb",
+      "example": { "fr": "Je m'habille à 7 heures.", "en": "I get dressed at 7 o'clock." }, "note": "je m'habille, tu t'habilles, il s'habille" },
+    { "id": "se-coucher", "kind": "vocab", "fr": "se coucher", "en": "to go to bed", "pos": "verb",
+      "example": { "fr": "Les enfants se couchent à 20 heures.", "en": "The children go to bed at 8 p.m." } },
+    { "id": "se-brosser-les-dents", "kind": "phrase", "fr": "se brosser les dents", "en": "to brush your teeth", "accept": ["se laver les dents"],
+      "example": { "fr": "Je me brosse les dents.", "en": "I brush my teeth." }, "note": "les dents, not mes dents" },
+    { "id": "tot", "kind": "vocab", "fr": "tôt", "en": "early", "pos": "adverb",
+      "example": { "fr": "Je me lève tôt.", "en": "I get up early." } },
+    { "id": "tard", "kind": "vocab", "fr": "tard", "en": "late", "pos": "adverb",
+      "example": { "fr": "Elle se couche tard.", "en": "She goes to bed late." }, "note": "The d is silent." },
+    { "id": "tu-te-leves", "kind": "phrase", "fr": "Tu te lèves à quelle heure ?", "en": "What time do you get up? (to a friend)", "accept": ["À quelle heure tu te lèves ?", "À quelle heure te lèves-tu ?", "À quelle heure est-ce que tu te lèves ?"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "One bathroom, three roommates",
+      "blocks": [
+        { "type": "dialogue", "title": "Planning the morning in a shared apartment in Montréal",
+          "context": "Lucie and Nguyen share an apartment with Olivier. They have only one bathroom.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Nguyen, tu te lèves à quelle heure le matin ?", "en": "Nguyen, what time do you get up in the morning?" },
+            { "speaker": "Nguyen", "fr": "Je me lève à 6 heures. Je me douche, je m'habille et je me brosse les dents. Je commence à 7 h 30.", "en": "I get up at 6. I shower, I get dressed and I brush my teeth. I start at 7:30." },
+            { "speaker": "Lucie", "fr": "Six heures ! C'est tôt ! Moi, je me réveille à 7 heures.", "en": "Six o'clock! That's early! Me, I wake up at 7." },
+            { "speaker": "Nguyen", "fr": "Alors, je me douche à 6 heures et toi, à 7 heures. D'accord ?", "en": "So I shower at 6 and you at 7. OK?" },
+            { "speaker": "Lucie", "fr": "D'accord ! Et le soir, tu te couches à quelle heure ?", "en": "OK! And in the evening, what time do you go to bed?" },
+            { "speaker": "Nguyen", "fr": "Je me couche à 22 heures. Et toi ?", "en": "I go to bed at 10 p.m. And you?" },
+            { "speaker": "Lucie", "fr": "Moi, je me couche tard, à minuit.", "en": "Me, I go to bed late, at midnight." },
+            { "speaker": "Nguyen", "fr": "Et Olivier ? Il se lève à quelle heure ?", "en": "And Olivier? What time does he get up?" },
+            { "speaker": "Lucie", "fr": "Olivier ? Il se réveille à 9 heures, il se lave, il s'habille… et il commence à 10 heures !", "en": "Olivier? He wakes up at 9, he washes, he gets dressed… and he starts at 10!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for the little words before each verb: [[je **me** lève]], [[tu **te** couches]], [[il **se** lave]]. They are the key to this lesson." }
+      ] },
+    { "type": "understand", "title": "Verbs you do to yourself",
+      "blocks": [
+        { "type": "explain", "title": "A reflexive verb has an extra pronoun",
+          "body": "Some French verbs describe an action you do **to yourself**. They have an extra little pronoun before the verb: [[me]], [[te]], [[se]], [[nous]], [[vous]], [[se]]. In the dictionary they are listed with [[se]]: [[se lever]], [[se coucher]].\n\nYou already know one! [[Je m'appelle Lucie]] literally means *I call myself Lucie*.\n\nThe verb part is a normal **-er** verb: same endings as [[travailler]]." },
+        { "type": "table", "title": "Se coucher (to go to bed)",
+          "head": ["", "pronoun", "verb", "English"],
+          "rows": [
+            ["je", "me", "couche", "I go to bed"],
+            ["tu", "te", "couches", "you go to bed (one friend)"],
+            ["il / elle / on", "se", "couche", "he / she goes, we go (informal)"],
+            ["nous", "nous", "couchons", "we go to bed"],
+            ["vous", "vous", "couchez", "you go to bed (formal or plural)"],
+            ["ils / elles", "se", "couchent", "they go to bed"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Yes, [[nous nous]] and [[vous vous]] really repeat the word. The first is the subject, the second is the reflexive pronoun." },
+        { "type": "table", "title": "Before a vowel: m', t', s'",
+          "head": ["", "s'habiller (to get dressed)"],
+          "rows": [
+            ["je", "m'habille"],
+            ["tu", "t'habilles"],
+            ["il / elle / on", "s'habille"],
+            ["nous", "nous habillons"],
+            ["vous", "vous habillez"],
+            ["ils / elles", "s'habillent"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[me]], [[te]], [[se]] drop their e before a vowel or a silent h, like [[je]] → [[j']]. [[Nous]] and [[vous]] don't change, but they link with a *z* sound: [[nous‿habillons]]." },
+        { "type": "table", "title": "Se lever: watch the accent",
+          "head": ["", "se lever (to get up)"],
+          "rows": [
+            ["je", "me lève"],
+            ["tu", "te lèves"],
+            ["il / elle / on", "se lève"],
+            ["nous", "nous levons"],
+            ["vous", "vous levez"],
+            ["ils / elles", "se lèvent"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "When the ending is silent (-e, -es, -ent), the e of the stem becomes **è** and sounds open, like *eh*. With -ons and -ez, no accent." },
+        { "type": "pattern", "title": "Word order and questions",
+          "pattern": "sujet + pronom + verbe (+ heure)",
+          "note": "The pronoun always sits **directly before the verb**. To ask a question, just raise your voice at the end, or put [[à quelle heure]] first.",
+          "examples": [
+            { "fr": "Je me réveille à 6 h 30.", "en": "I wake up at 6:30." },
+            { "fr": "Tu te lèves à quelle heure ?", "en": "What time do you get up? (to a friend)" },
+            { "fr": "À quelle heure vous vous couchez ?", "en": "What time do you go to bed? (formal)" },
+            { "fr": "Vous vous levez tôt ?", "en": "Do you get up early? (formal)" }
+          ] },
+        { "type": "vocab", "title": "Routine verbs", "itemIds": ["se-lever", "se-reveiller", "se-laver", "se-doucher", "s-habiller", "se-coucher", "se-brosser-les-dents", "tot", "tard"] },
+        { "type": "deepdive", "kind": "why", "title": "With or without the pronoun?",
+          "body": "Many of these verbs also exist **without** the pronoun. Then the action is done to **someone else**:\n\n- [[Je me réveille.]] = I wake up. / [[Je réveille ma fille.]] = I wake my daughter up.\n- [[Je me couche.]] = I go to bed. / [[Je couche le bébé.]] = I put the baby to bed.\n- [[Elle s'habille.]] = She gets dressed. / [[Elle habille son fils.]] = She dresses her son.\n\nSo the pronoun is not decoration: it changes the meaning." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Forgetting the pronoun:** [[Je lève à 7 heures]] ✗ → [[Je me lève à 7 heures]].\n- **Wrong pronoun with nous:** [[Nous se levons]] ✗ → [[Nous nous levons]]. (With [[on]], it is [[se]]: [[On se lève]].)\n- **No elision:** [[Je me habille]] ✗ → [[Je m'habille]].\n- **Possessive with the body:** [[Je me brosse mes dents]] ✗ → [[Je me brosse les dents]]. The pronoun already says whose teeth they are." },
+        { "type": "deepdive", "kind": "canada", "title": "What you will hear in Montréal",
+          "body": "In everyday speech, especially in Québec, the *e* of [[me]], [[te]] and [[se]] often disappears: [[je me lève]] sounds like *jm'lève*, [[tu te couches]] like *tu t'couches*. You will hear this in France too, but it is especially frequent in Québec.\n\nUnderstand it when you hear it, but always **write** the full forms. And in a polite question you may hear inversion: [[À quelle heure vous levez-vous ?]] It means the same as [[À quelle heure vous vous levez ?]]" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Say the pronoun and the verb as one word.",
+          "lines": [
+            { "fr": "Je me lève à 7 heures.", "en": "I get up at 7 o'clock.", "tip": "lève has an open è, like “eh”." },
+            { "fr": "Tu te réveilles tôt ?", "en": "Do you wake up early? (to a friend)", "tip": "réveilles ends in a y sound: ré-vèy." },
+            { "fr": "Nous nous habillons.", "en": "We get dressed.", "tip": "Link: nous nou-z‿habillons." },
+            { "fr": "Ils s'habillent.", "en": "They get dressed.", "tip": "Sounds exactly like il s'habille: listen to the context." },
+            { "fr": "Je me brosse les dents.", "en": "I brush my teeth.", "tip": "The t of dents is silent." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je me couche à 23 heures.", "en": "I go to bed at 11 p.m.", "prompt": "What time does the speaker go to bed?", "options": ["At 11 p.m.", "At 10 p.m.", "At 7 a.m."], "answer": 0, "explain": "[[vingt-trois heures]] = 23:00, which is 11 p.m." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Elle se douche le soir.", "en": "She showers in the evening.", "prompt": "When does she shower?", "options": ["In the evening", "In the morning", "At noon"], "answer": 0, "explain": "[[le soir]] = in the evening." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Watch the little pronoun every time.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ___ lève à 6 heures.", "answers": [["me"]], "choices": ["me", "te", "se", "nous"], "en": "I get up at 6 o'clock.", "explain": "je → me." },
+        { "id": "r2", "type": "cloze", "text": "Nous ___ couchons à 23 heures.", "answers": [["nous"]], "choices": ["nous", "se", "vous", "me"], "en": "We go to bed at 11 p.m.", "explain": "nous → nous: the word appears twice." },
+        { "id": "r3", "type": "mcq", "prompt": "Mei is getting dressed. Which sentence is correct?", "options": ["Mei s'habille.", "Mei se habille.", "Mei habille.", "Mei s'habiller."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "se becomes s' before a vowel.", "Without the pronoun, she is dressing someone else.", "The verb must be conjugated: s'habille."] },
+        { "id": "r4", "type": "translate", "prompt": "She gets up at 7 o'clock.", "accept": ["Elle se lève à 7 heures.", "Elle se lève à sept heures.", "Elle se lève à 7 h."], "hint": "se lever: silent ending → è", "explain": "elle → se; lève takes è because the ending is silent." },
+        { "id": "r5", "type": "translate", "prompt": "What time do you go to bed? (to a friend)", "accept": ["Tu te couches à quelle heure ?", "À quelle heure tu te couches ?", "À quelle heure te couches-tu ?", "À quelle heure est-ce que tu te couches ?"], "explain": "tu → te couches. The time question can go at the end or at the start." },
+        { "id": "r6", "type": "reorder", "prompt": "We wake up at six o'clock.", "accept": ["Nous nous réveillons à six heures."], "extra": ["se"], "explain": "Subject nous + pronoun nous + verb." },
+        { "id": "r7", "type": "match", "prompt": "Match each verb to its meaning.", "pairs": [["se lever", "to get up"], ["se réveiller", "to wake up"], ["se doucher", "to shower"], ["s'habiller", "to get dressed"], ["se coucher", "to go to bed"], ["se brosser les dents", "to brush your teeth"]] },
+        { "id": "r8", "type": "dictation", "fr": "Vous vous levez tôt ?", "accept": [], "explain": "levez has no accent: the -ez ending is heard. [[tôt]] has a circumflex." },
+        { "id": "r9", "type": "cloze", "text": "Mon fils ___ douze ans. Il ___ couche à 21 heures.", "answers": [["a"], ["se"]], "en": "My son is twelve. He goes to bed at 9 p.m.", "explain": "Age uses avoir (il a douze ans); il → se couche." },
+        { "id": "r10", "type": "translate", "prompt": "I brush my teeth and I get dressed.", "accept": ["Je me brosse les dents et je m'habille.", "Je me lave les dents et je m'habille."], "explain": "Use [[les dents]], not [[mes dents]], and [[me]] → [[m']] before habille." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new roommate wants to plan the bathroom schedule. Describe your morning with times, then ask about theirs.", "seconds": 30,
+          "checklist": ["Je me réveille / je me lève à…", "Two more reflexive verbs (je me douche, je m'habille…)", "Je me couche à… (tôt or tard)", "A question: Et toi, tu te lèves à quelle heure ?"],
+          "models": [ { "label": "Model answer", "fr": "Je me réveille à 6 h 30 et je me lève à 6 h 45. Je me douche à 7 heures, je m'habille et je me brosse les dents. Le soir, je me couche tôt, à 22 heures. Et toi, tu te lèves à quelle heure ?", "en": "I wake up at 6:30 and I get up at 6:45. I shower at 7, I get dressed and I brush my teeth. In the evening, I go to bed early, at 10. And you, what time do you get up?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short message to a new roommate about your routine and the routine of one other person (a partner, a child, a friend).", "wordRange": [25, 50],
+          "checklist": ["Use at least four reflexive verbs", "Use m' or s' before a vowel at least once", "Write one sentence with il, elle or ils", "Use tôt or tard"],
+          "models": [ { "label": "Model answer", "fr": "Salut Alex ! Moi, je me lève tôt, à 6 heures. Je me douche et je m'habille. Ma fille Sofia se réveille à 7 heures. Elle se lave et elle s'habille. Le soir, nous nous couchons à 22 heures. Et toi ?", "en": "Hi Alex! Me, I get up early, at 6. I shower and get dressed. My daughter Sofia wakes up at 7. She washes and gets dressed. In the evening, we go to bed at 10. And you?" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Use reflexive pronouns before the verb: [[je me, tu te, il se, nous nous, vous vous, ils se]], with [[m', t', s']] before a vowel\n- Describe your routine: [[je me réveille, je me lève, je me douche, je m'habille, je me couche]]\n- Ask [[Tu te lèves à quelle heure ?]] and answer with [[tôt]] or [[tard]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Language checked; only softened one claim in the Québec deep dive. Reflexive forms, accents (lève/levons) and answer keys were correct." }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-05-04",
+  "level": "a1",
+  "unit": "a1-05",
+  "title": "Faire and aller",
+  "goal": "Say what you do and where you go with the irregular verbs faire and aller, using au, à la, à l' and aux.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-faire", "kind": "grammar", "fr": "je fais, nous faisons, vous faites, ils font", "en": "faire (to do, to make) in the present",
+      "drills": [
+        { "type": "cloze", "text": "Nous ___ les courses le samedi.", "answers": [["faisons"]], "en": "We do the shopping on Saturdays.", "explain": "nous → faisons (said “fe-zon”)." },
+        { "type": "cloze", "text": "Vous ___ du sport ?", "answers": [["faites"]], "en": "Do you do sports?", "explain": "vous → faites, an irregular form (never “faisez”)." },
+        { "type": "cloze", "text": "Ils ___ le ménage.", "answers": [["font"]], "en": "They do the housework.", "explain": "ils → font, like ils sont, ils ont, ils vont." }
+      ] },
+    { "id": "g-aller", "kind": "grammar", "fr": "je vais, tu vas, il va, nous allons, vous allez, ils vont", "en": "aller (to go) in the present",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ au travail à 8 heures.", "answers": [["vais"]], "en": "I go to work at 8 o'clock.", "explain": "je → vais." },
+        { "type": "cloze", "text": "Tu ___ à la banque ?", "answers": [["vas"]], "en": "Are you going to the bank?", "explain": "tu → vas (the s is silent)." },
+        { "type": "mcq", "prompt": "“They go to school.” Which is correct?", "options": ["Ils vont à l'école.", "Ils allent à l'école.", "Ils vont à le école."], "optionsFr": true, "answer": 0, "explain": "aller is irregular: ils vont. Before a vowel, la/le become l': à l'école." }
+      ] },
+    { "id": "g-au-aux", "kind": "grammar", "fr": "au, à la, à l', aux", "en": "à + le = au, à + les = aux",
+      "drills": [
+        { "type": "cloze", "text": "Elle va ___ travail.", "answers": [["au"]], "choices": ["au", "à la", "à le", "aux"], "en": "She goes to work.", "explain": "le travail → à + le = au travail." },
+        { "type": "cloze", "text": "Nous allons ___ cours de français.", "answers": [["aux"]], "choices": ["aux", "au", "à les", "à la"], "en": "We go to French classes.", "explain": "les cours → à + les = aux cours." },
+        { "type": "translate", "prompt": "I'm going to the bank.", "accept": ["Je vais à la banque."], "explain": "la banque → à la banque: à + la does not change." }
+      ] },
+    { "id": "faire-la-cuisine", "kind": "phrase", "fr": "faire la cuisine", "en": "to do the cooking", "accept": ["cuisiner"],
+      "example": { "fr": "Le soir, je fais la cuisine.", "en": "In the evening, I do the cooking." } },
+    { "id": "faire-les-courses", "kind": "phrase", "fr": "faire les courses", "en": "to do the shopping (food, errands)", "accept": ["faire l'épicerie"],
+      "example": { "fr": "Nous faisons les courses le samedi.", "en": "We do the shopping on Saturdays." } },
+    { "id": "faire-du-sport", "kind": "phrase", "fr": "faire du sport", "en": "to do sports, to exercise",
+      "example": { "fr": "Tu fais du sport ?", "en": "Do you exercise?" } },
+    { "id": "faire-le-menage", "kind": "phrase", "fr": "faire le ménage", "en": "to do the housework, to clean the house",
+      "example": { "fr": "Il fait le ménage le dimanche.", "en": "He does the housework on Sundays." } },
+    { "id": "aller-au-travail", "kind": "phrase", "fr": "aller au travail", "en": "to go to work",
+      "example": { "fr": "Je vais au travail à 8 heures.", "en": "I go to work at 8 o'clock." } },
+    { "id": "aller-a-la-banque", "kind": "phrase", "fr": "aller à la banque", "en": "to go to the bank",
+      "example": { "fr": "Tu vas à la banque ?", "en": "Are you going to the bank?" } },
+    { "id": "aller-a-l-ecole", "kind": "phrase", "fr": "aller à l'école", "en": "to go to school",
+      "example": { "fr": "Les enfants vont à l'école.", "en": "The children go to school." } },
+    { "id": "aller-aux-cours", "kind": "phrase", "fr": "aller aux cours de français", "en": "to go to French classes", "accept": ["aller au cours de français"],
+      "example": { "fr": "Nous allons aux cours de français le mardi.", "en": "We go to French classes on Tuesdays." } },
+    { "id": "qu-est-ce-que-tu-fais", "kind": "phrase", "fr": "Qu'est-ce que tu fais ?", "en": "What do you do? / What are you doing? (to a friend)", "accept": ["Tu fais quoi ?"],
+      "example": { "fr": "Qu'est-ce que tu fais le samedi ?", "en": "What do you do on Saturdays?" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What do you do on Saturdays?",
+      "blocks": [
+        { "type": "dialogue", "title": "Friday afternoon at the office in Vancouver",
+          "context": "Olivier and Camille are colleagues. They talk about their Saturdays.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Camille, qu'est-ce que tu fais le samedi ?", "en": "Camille, what do you do on Saturdays?" },
+            { "speaker": "Camille", "fr": "Le matin, je fais du sport et je vais à la banque. Et toi ?", "en": "In the morning, I exercise and I go to the bank. And you?" },
+            { "speaker": "Olivier", "fr": "Moi, je fais les courses le matin et je fais le ménage l'après-midi.", "en": "Me, I do the shopping in the morning and I do the housework in the afternoon." },
+            { "speaker": "Camille", "fr": "L'après-midi, mon mari et moi, nous allons aux cours de français.", "en": "In the afternoon, my husband and I go to French classes." },
+            { "speaker": "Olivier", "fr": "Le samedi ? Vous allez à l'école le samedi !", "en": "On Saturdays? You go to school on Saturdays!" },
+            { "speaker": "Camille", "fr": "Eh oui ! Et le soir, on fait la cuisine pour les enfants.", "en": "Yes indeed! And in the evening, we do the cooking for the kids." },
+            { "speaker": "Olivier", "fr": "Et les enfants, qu'est-ce qu'ils font ?", "en": "And the kids, what do they do?" },
+            { "speaker": "Camille", "fr": "Ils font du sport le samedi. Le lundi, ils vont à l'école et moi, je vais au travail.", "en": "They do sports on Saturdays. On Mondays, they go to school and I go to work." },
+            { "speaker": "Olivier", "fr": "Bravo ! Moi, le samedi soir, je vais au cinéma.", "en": "Well done! Me, on Saturday evenings, I go to the movies." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Two very common verbs appear again and again: [[faire]] (*fais, font*) and [[aller]] (*vais, allons, vont*). Spot them before you look at the English." }
+      ] },
+    { "type": "understand", "title": "Two irregular everyday verbs",
+      "blocks": [
+        { "type": "explain", "title": "Faire: to do, to make",
+          "body": "[[Faire]] is irregular, like [[être]] and [[avoir]]. It means *to do* or *to make*, and French uses it for many everyday activities where English uses other verbs: *cook*, *shop*, *clean*, *exercise*." },
+        { "type": "table", "title": "Faire in the present",
+          "head": ["", "faire", "English"],
+          "rows": [
+            ["je", "fais", "I do"],
+            ["tu", "fais", "you do (one friend)"],
+            ["il / elle / on", "fait", "he / she does, we do (informal)"],
+            ["nous", "faisons", "we do"],
+            ["vous", "faites", "you do (formal or plural)"],
+            ["ils / elles", "font", "they do"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[fais]], [[fais]], [[fait]] all sound like *fay*. [[Faisons]] is said *fe-zon*, as if it were spelled *fesons*. [[Vous faites]] is irregular: never *faisez*." },
+        { "type": "pattern", "title": "Everyday chores with faire",
+          "pattern": "faire + la cuisine / les courses / le ménage / du sport",
+          "note": "Learn these as fixed chunks. The [[du]] in [[faire du sport]] is explained in Unit 6; for now, just copy it.",
+          "examples": [
+            { "fr": "Je fais la cuisine.", "en": "I do the cooking." },
+            { "fr": "Nous faisons les courses le samedi.", "en": "We do the shopping on Saturdays." },
+            { "fr": "Il fait le ménage.", "en": "He does the housework." },
+            { "fr": "Vous faites du sport ?", "en": "Do you exercise?" }
+          ] },
+        { "type": "table", "title": "Aller (to go) in the present",
+          "head": ["", "aller", "English"],
+          "rows": [
+            ["je", "vais", "I go / I'm going"],
+            ["tu", "vas", "you go (one friend)"],
+            ["il / elle / on", "va", "he / she goes, we go (informal)"],
+            ["nous", "allons", "we go"],
+            ["vous", "allez", "you go (formal or plural)"],
+            ["ils / elles", "vont", "they go"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "[[Aller]] ends in -er but it is **irregular**. Only [[nous allons]] and [[vous allez]] look like a normal -er verb. Link: [[nous‿allons]], [[vous‿allez]]." },
+        { "type": "table", "title": "Going somewhere: à + the article",
+          "head": ["the place", "à + article", "example"],
+          "rows": [
+            ["le travail", "au", "Je vais au travail."],
+            ["la banque", "à la", "Je vais à la banque."],
+            ["l'école", "à l'", "Je vais à l'école."],
+            ["les cours", "aux", "Je vais aux cours de français."]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "[[à + le]] always becomes [[au]] and [[à + les]] always becomes [[aux]]. [[À la]] and [[à l']] don't change. You already met [[au]] in [[au Canada]]. With a city, there is no article: [[Je vais à Toronto]]." },
+        { "type": "vocab", "title": "Chunks with faire and aller", "itemIds": ["faire-la-cuisine", "faire-les-courses", "faire-le-menage", "faire-du-sport", "aller-au-travail", "aller-a-la-banque", "aller-a-l-ecole", "aller-aux-cours", "qu-est-ce-que-tu-fais"] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Four look-alikes",
+          "body": "Four very common verbs end in **-ont** with ils/elles. Learn them together:\n\n- [[ils sont]] (être): *eel son*\n- [[ils‿ont]] (avoir): *eel zon*, with a z liaison\n- [[ils font]] (faire): *eel fon*\n- [[ils vont]] (aller): *eel von*\n\nThe only difference is the first sound: **s**, **z**, **f**, **v**. Listen carefully!",
+          "examples": [ { "fr": "Ils sont à la banque.", "en": "They are at the bank." }, { "fr": "Ils vont à la banque.", "en": "They are going to the bank." } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **à le, à les:** [[Je vais à le travail]] ✗ → [[Je vais au travail]]. [[à les cours]] ✗ → [[aux cours]].\n- **vous faisez:** ✗ → [[vous faites]].\n- **ils allent:** ✗ → [[ils vont]].\n- **Forgetting the article:** [[Je vais à banque]] ✗ → [[Je vais à la banque]]. With a city, no article: [[à Toronto]].\n- **Going home:** for *I'm going home*, use [[je rentre]] (Lesson 1). It is the most natural way to say it." },
+        { "type": "deepdive", "kind": "canada", "title": "Faire l'épicerie",
+          "body": "In Québec, people usually say [[faire l'épicerie]] for grocery shopping. [[L'épicerie]] is the grocery store, and also the groceries themselves. In France you will hear [[faire les courses]]. Both are understood everywhere.\n\nTwo more Québec words: [[magasiner]] (to go shopping for clothes and other things, an -er verb) and [[le dépanneur]] (the corner store). And many people in Québec bank at a [[caisse]] (a credit union), so you will hear [[Je vais à la caisse]].",
+          "examples": [ { "fr": "Je fais l'épicerie le jeudi soir.", "en": "I do my grocery shopping on Thursday evenings. (Québec)" }, { "fr": "Le samedi, on magasine.", "en": "On Saturdays, we go shopping. (Québec)" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line. Watch the first sound of sont / ont / font / vont.",
+          "lines": [
+            { "fr": "Nous faisons les courses.", "en": "We do the shopping.", "tip": "faisons sounds like “fe-zon”." },
+            { "fr": "Vous faites du sport ?", "en": "Do you exercise?", "tip": "faites rhymes with “bet”." },
+            { "fr": "Ils vont au travail.", "en": "They go to work.", "tip": "vont: a v sound and a nasal vowel, no t." },
+            { "fr": "Je vais à la banque.", "en": "I'm going to the bank.", "tip": "vais sounds like “vay”." },
+            { "fr": "Elles vont aux cours de français.", "en": "They go to French classes.", "tip": "aux sounds exactly like au." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils font le ménage.", "en": "They do the housework.", "prompt": "What are they doing?", "options": ["Cleaning the house", "Going to work", "Cooking"], "answer": 0, "explain": "[[faire le ménage]] = to do the housework. [[Font]] starts with an f sound: it is faire." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ils vont à la banque.", "en": "They're going to the bank.", "prompt": "What do you hear?", "options": ["They are going to the bank.", "They are at the bank.", "They have a bank."], "answer": 0, "explain": "[[vont]] starts with a v: aller. [[Ils sont]] (s) would mean *they are*; [[ils‿ont]] (z) would mean *they have*." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Remember: au and aux are just à + le and à + les.",
+      "blocks": [
+        { "id": "r2", "type": "cloze", "text": "Qu'est-ce que vous ___ le dimanche ?", "answers": [["faites"]], "choices": ["faites", "faisez", "faisons", "font"], "en": "What do you do on Sundays?", "explain": "vous → faites, one of only three verbs with a vous form not in -ez (êtes, faites, dites)." },
+        { "id": "r3", "type": "cloze", "text": "Je vais ___ travail à 8 heures.", "answers": [["au"]], "choices": ["au", "à la", "à le", "aux"], "en": "I go to work at 8 o'clock.", "explain": "le travail → à + le = au." },
+        { "id": "r4", "type": "cloze", "text": "Elles vont ___ cours de français le soir.", "answers": [["aux"]], "choices": ["aux", "au", "à les", "à la"], "en": "They go to French classes in the evening.", "explain": "les cours → à + les = aux." },
+        { "id": "r5", "type": "mcq", "prompt": "“They go to work.” Which is correct?", "options": ["Ils vont au travail.", "Ils font au travail.", "Ils sont au travail.", "Ils vont à le travail."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "font is faire (to do), not aller.", "Ils sont au travail means they ARE at work.", "à + le must become au."] },
+        { "id": "r6", "type": "translate", "prompt": "I do the housework on Saturdays.", "accept": ["Je fais le ménage le samedi.", "Le samedi, je fais le ménage.", "Le samedi je fais le ménage.", "Je fais le ménage tous les samedis."], "explain": "faire le ménage = do the housework; le samedi = every Saturday." },
+        { "id": "r7", "type": "translate", "prompt": "Are you going to the bank? (to a friend)", "accept": ["Tu vas à la banque ?", "Est-ce que tu vas à la banque ?", "Vas-tu à la banque ?"], "explain": "tu → vas; la banque → à la banque." },
+        { "id": "r8", "type": "reorder", "prompt": "We often go to French classes.", "accept": ["Nous allons souvent aux cours de français.", "Souvent nous allons aux cours de français."], "extra": ["au"], "explain": "souvent goes after the verb; à + les cours = aux cours." },
+        { "id": "r9", "type": "match", "prompt": "Match each chunk to its meaning.", "pairs": [["faire la cuisine", "to do the cooking"], ["faire les courses", "to do the shopping"], ["faire le ménage", "to do the housework"], ["faire du sport", "to exercise"], ["aller à l'école", "to go to school"]] },
+        { "id": "r10", "type": "dictation", "fr": "Elles font la cuisine le soir.", "accept": [], "explain": "[[font]]: f sound, so it is faire. Listen to the subject: [[elles]] (with an l sound) is not [[ils]]." },
+        { "id": "r11", "type": "translate", "prompt": "On Sundays, I get up late and I go to the movies.", "accept": ["Le dimanche, je me lève tard et je vais au cinéma.", "Le dimanche je me lève tard et je vais au cinéma.", "Je me lève tard le dimanche et je vais au cinéma."], "explain": "Reflexive [[je me lève]] + [[je vais au cinéma]] (à + le = au)." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A colleague asks: Qu'est-ce que tu fais le samedi ? Answer with at least two things you do and two places you go.", "seconds": 30,
+          "checklist": ["Two chunks with faire (les courses, le ménage, la cuisine, du sport)", "Two places with aller (au, à la, à l', aux)", "le matin / l'après-midi / le soir", "Ask back: Et toi ?"],
+          "models": [ { "label": "Model answer", "fr": "Le samedi matin, je fais les courses et je vais à la banque. L'après-midi, je fais le ménage. Le soir, je vais au cinéma avec ma sœur. Et toi, qu'est-ce que tu fais le samedi ?", "en": "On Saturday mornings, I do the shopping and I go to the bank. In the afternoon, I do the housework. In the evening, I go to the movies with my sister. And you, what do you do on Saturdays?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short text about who does what in your home and where everyone goes during the week.", "wordRange": [30, 60],
+          "checklist": ["Use faire with at least two different persons (je fais, il fait, nous faisons…)", "Use aller with at least two different persons", "Use au and one of à la / à l' / aux", "Add one frequency word (souvent, toujours, le samedi…)"],
+          "models": [ { "label": "Model answer", "fr": "À la maison, je fais la cuisine et mon mari fait le ménage. Le samedi, nous faisons les courses ensemble. Le lundi, je vais au travail à 8 heures et les enfants vont à l'école. Le mardi soir, nous allons aux cours de français.", "en": "At home, I do the cooking and my husband does the housework. On Saturdays, we do the shopping together. On Mondays, I go to work at 8 and the children go to school. On Tuesday evenings, we go to French classes." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate **faire** ([[je fais… nous faisons, vous faites, ils font]]) and **aller** ([[je vais… nous allons, vous allez, ils vont]])\n- Talk about chores: [[faire la cuisine, les courses, le ménage, du sport]]\n- Say where you go: [[au travail, à la banque, à l'école, aux cours]] (à + le = au, à + les = aux)",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed “Ils font” from the r10 dictation (audio is “Elles font”), corrected the “only cities take no article” rule, added accepted word orders in r6 and r8." }
+}

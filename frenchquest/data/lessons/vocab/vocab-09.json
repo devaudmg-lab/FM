@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-09",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Describing people",
+  "band": "Everyday words 2000–4000",
+  "cefr": "b1",
+  "theme": "character, qualities and reputation",
+  "goal": "Recognise and use 20 frequent words to describe someone's character, qualities and reputation.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "charmant",
+      "kind": "vocab",
+      "fr": "charmant",
+      "fem": "charmante",
+      "en": "charming",
+      "pos": "adjective",
+      "accept": [
+        "charmante"
+      ],
+      "example": {
+        "fr": "Ton nouveau voisin est vraiment charmant.",
+        "en": "Your new neighbour is really charming."
+      }
+    },
+    {
+      "id": "adorable",
+      "kind": "vocab",
+      "fr": "adorable",
+      "en": "lovely, cute",
+      "pos": "adjective",
+      "example": {
+        "fr": "Ta petite fille est adorable !",
+        "en": "Your little girl is adorable!"
+      }
+    },
+    {
+      "id": "romantique",
+      "kind": "vocab",
+      "fr": "romantique",
+      "en": "romantic",
+      "pos": "adjective",
+      "example": {
+        "fr": "On a fait un souper romantique dans le Vieux-Québec.",
+        "en": "We had a romantic dinner in Old Québec."
+      }
+    },
+    {
+      "id": "courageux",
+      "kind": "vocab",
+      "fr": "courageux",
+      "fem": "courageuse",
+      "en": "brave, courageous",
+      "pos": "adjective",
+      "accept": [
+        "courageuse"
+      ],
+      "example": {
+        "fr": "Amira est très courageuse : elle a recommencé sa vie au Canada.",
+        "en": "Amira is very brave: she started her life over in Canada."
+      }
+    },
+    {
+      "id": "sensible",
+      "kind": "vocab",
+      "fr": "sensible",
+      "en": "sensitive (emotionally)",
+      "pos": "adjective",
+      "example": {
+        "fr": "Karim est un homme très sensible ; il pleure au cinéma.",
+        "en": "Karim is a very sensitive man; he cries at the movies."
+      },
+      "note": "False friend: “sensible” in English is raisonnable."
+    },
+    {
+      "id": "egoiste",
+      "kind": "vocab",
+      "fr": "égoïste",
+      "en": "selfish",
+      "pos": "adjective",
+      "example": {
+        "fr": "Ne sois pas égoïste, partage avec ta sœur.",
+        "en": "Don't be selfish, share with your sister."
+      }
+    },
+    {
+      "id": "jaloux",
+      "kind": "vocab",
+      "fr": "jaloux",
+      "fem": "jalouse",
+      "en": "jealous",
+      "pos": "adjective",
+      "accept": [
+        "jalouse"
+      ],
+      "example": {
+        "fr": "Mon frère est jaloux de ma nouvelle voiture.",
+        "en": "My brother is jealous of my new car."
+      }
+    },
+    {
+      "id": "doue",
+      "kind": "vocab",
+      "fr": "doué",
+      "fem": "douée",
+      "en": "gifted, talented",
+      "pos": "adjective",
+      "accept": [
+        "douée"
+      ],
+      "example": {
+        "fr": "Mei est très douée pour les langues.",
+        "en": "Mei is very talented at languages."
+      },
+      "note": "doué pour + noun or verb: doué pour la cuisine, doué pour dessiner."
+    },
+    {
+      "id": "riche",
+      "kind": "vocab",
+      "fr": "riche",
+      "en": "rich, wealthy",
+      "pos": "adjective",
+      "example": {
+        "fr": "Il n'est pas riche, mais il est heureux.",
+        "en": "He isn't rich, but he's happy."
+      }
+    },
+    {
+      "id": "innocent",
+      "kind": "vocab",
+      "fr": "innocent",
+      "fem": "innocente",
+      "en": "not guilty, blameless",
+      "pos": "adjective",
+      "accept": [
+        "innocente"
+      ],
+      "example": {
+        "fr": "Je suis innocent, je n'ai rien fait !",
+        "en": "I'm innocent, I didn't do anything!"
+      }
+    },
+    {
+      "id": "menteur",
+      "kind": "vocab",
+      "fr": "menteur",
+      "article": "le",
+      "gender": "m",
+      "fem": "menteuse",
+      "en": "liar",
+      "pos": "noun",
+      "accept": [
+        "la menteuse",
+        "menteur",
+        "menteuse",
+        "un menteur",
+        "une menteuse"
+      ],
+      "example": {
+        "fr": "Je ne crois pas Alex : c'est un menteur.",
+        "en": "I don't believe Alex: he's a liar."
+      }
+    },
+    {
+      "id": "moche",
+      "kind": "vocab",
+      "fr": "moche",
+      "en": "ugly (informal)",
+      "pos": "adjective",
+      "example": {
+        "fr": "Ce manteau est moche, mais il est très chaud.",
+        "en": "This coat is ugly, but it's very warm."
+      }
+    },
+    {
+      "id": "chic",
+      "kind": "vocab",
+      "fr": "chic",
+      "en": "stylish, smart (well dressed)",
+      "pos": "adjective",
+      "example": {
+        "fr": "Tu es très chic ce soir ! Tu vas où ?",
+        "en": "You look very smart tonight! Where are you going?"
+      }
+    },
+    {
+      "id": "noble",
+      "kind": "vocab",
+      "fr": "noble",
+      "en": "honourable, high-minded",
+      "pos": "adjective",
+      "example": {
+        "fr": "Aider les nouveaux arrivants, c'est un geste noble.",
+        "en": "Helping newcomers is a noble gesture."
+      }
+    },
+    {
+      "id": "aveugle",
+      "kind": "vocab",
+      "fr": "aveugle",
+      "en": "blind",
+      "pos": "adjective",
+      "example": {
+        "fr": "Mon grand-père est presque aveugle.",
+        "en": "My grandfather is almost blind."
+      }
+    },
+    {
+      "id": "profond",
+      "kind": "vocab",
+      "fr": "profond",
+      "fem": "profonde",
+      "en": "deep",
+      "pos": "adjective",
+      "accept": [
+        "profonde"
+      ],
+      "example": {
+        "fr": "C'est une personne profonde ; elle réfléchit beaucoup.",
+        "en": "She's a deep person; she thinks a lot."
+      }
+    },
+    {
+      "id": "pur",
+      "kind": "vocab",
+      "fr": "pur",
+      "fem": "pure",
+      "en": "unpolluted, clean (air, water)",
+      "pos": "adjective",
+      "accept": [
+        "pure"
+      ],
+      "example": {
+        "fr": "À la campagne, l'air est plus pur.",
+        "en": "In the countryside, the air is purer."
+      }
+    },
+    {
+      "id": "personnalite",
+      "kind": "vocab",
+      "fr": "personnalité",
+      "article": "la",
+      "gender": "f",
+      "en": "personality",
+      "pos": "noun",
+      "accept": [
+        "personnalité",
+        "une personnalité"
+      ],
+      "example": {
+        "fr": "Sofia a une forte personnalité.",
+        "en": "Sofia has a strong personality."
+      }
+    },
+    {
+      "id": "reputation",
+      "kind": "vocab",
+      "fr": "réputation",
+      "article": "la",
+      "gender": "f",
+      "en": "good or bad name (how others see someone)",
+      "pos": "noun",
+      "accept": [
+        "réputation",
+        "une réputation"
+      ],
+      "example": {
+        "fr": "Ce restaurant a une très bonne réputation.",
+        "en": "This restaurant has a very good reputation."
+      }
+    },
+    {
+      "id": "instinct",
+      "kind": "vocab",
+      "fr": "instinct",
+      "article": "l'",
+      "gender": "m",
+      "en": "gut feeling, natural impulse",
+      "pos": "noun",
+      "accept": [
+        "instinct",
+        "un instinct"
+      ],
+      "example": {
+        "fr": "J'ai suivi mon instinct et j'ai accepté le poste.",
+        "en": "I followed my instinct and accepted the job."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "Words for people",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Good qualities",
+          "itemIds": [
+            "charmant",
+            "adorable",
+            "romantique",
+            "courageux",
+            "doue",
+            "chic",
+            "noble",
+            "sensible"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Less flattering",
+          "itemIds": [
+            "egoiste",
+            "jaloux",
+            "menteur",
+            "moche"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Other descriptions",
+          "itemIds": [
+            "riche",
+            "innocent",
+            "aveugle",
+            "profond",
+            "pur",
+            "personnalite",
+            "reputation",
+            "instinct"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "**False friend:** [[sensible]] means *sensitive*; “sensible” is [[raisonnable]].\n\n[[Doué]] takes *pour*: [[doué pour la musique]]. [[Moche]] is informal; the neutral word is [[laid]]. [[Chic]] usually stays the same in the feminine. Most of these adjectives go **after** the noun: [[une personne courageuse]]."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "lines": [
+            {
+              "fr": "Ton nouveau voisin est vraiment charmant.",
+              "en": "Your new neighbour is really charming."
+            },
+            {
+              "fr": "Amira est très courageuse : elle a recommencé sa vie au Canada.",
+              "en": "Amira is very brave: she started her life over in Canada."
+            },
+            {
+              "fr": "Karim est un homme très sensible ; il pleure au cinéma.",
+              "en": "Karim is a very sensitive man; he cries at the movies."
+            },
+            {
+              "fr": "Mon frère est jaloux de ma nouvelle voiture.",
+              "en": "My brother is jealous of my new car."
+            },
+            {
+              "fr": "Mei est très douée pour les langues.",
+              "en": "Mei is very talented at languages."
+            },
+            {
+              "fr": "Je suis innocent, je n'ai rien fait !",
+              "en": "I'm innocent, I didn't do anything!"
+            },
+            {
+              "fr": "Ce manteau est moche, mais il est très chaud.",
+              "en": "This coat is ugly, but it's very warm."
+            },
+            {
+              "fr": "Sofia a une forte personnalité.",
+              "en": "Sofia has a strong personality."
+            },
+            {
+              "fr": "J'ai suivi mon instinct et j'ai accepté le poste.",
+              "en": "I followed my instinct and accepted the job."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the adjectives.",
+          "pairs": [
+            [
+              "charmant",
+              "charming"
+            ],
+            [
+              "égoïste",
+              "selfish"
+            ],
+            [
+              "jaloux",
+              "jealous"
+            ],
+            [
+              "doué",
+              "gifted"
+            ],
+            [
+              "moche",
+              "ugly (informal)"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the words.",
+          "pairs": [
+            [
+              "la personnalité",
+              "personality"
+            ],
+            [
+              "la réputation",
+              "reputation"
+            ],
+            [
+              "aveugle",
+              "blind"
+            ],
+            [
+              "profond",
+              "deep"
+            ],
+            [
+              "pur",
+              "pure"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Karim cries at every movie. He is…",
+          "options": [
+            "sensible",
+            "raisonnable",
+            "égoïste",
+            "moche"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Sensible]] means emotionally sensitive. It is a false friend.",
+          "optionFeedback": [
+            null,
+            "Raisonnable means “sensible” in the English sense, not “sensitive”.",
+            "Égoïste means selfish.",
+            "Moche means ugly."
+          ]
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "Amira est douée pour la musique.",
+            "Amira est douée à la musique.",
+            "Amira est douée de la musique."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "The usual preposition after [[doué]] is [[pour]]."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "My neighbour (a woman) is very brave.",
+          "accept": [
+            "Ma voisine est très courageuse.",
+            "Ma voisine est vraiment courageuse."
+          ],
+          "hint": "Feminine: courageuse.",
+          "explain": "courageux → courageuse in the feminine."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "He is jealous of his brother.",
+          "accept": [
+            "Il est jaloux de son frère."
+          ],
+          "explain": "Use [[jaloux de]] + the person."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Ce restaurant a une très bonne ___.",
+          "answers": [
+            [
+              "réputation"
+            ]
+          ],
+          "choices": [
+            "réputation",
+            "personnalité",
+            "instinct"
+          ],
+          "en": "This restaurant has a very good reputation.",
+          "explain": "A place or a person can have [[une bonne réputation]]."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Elle est ___ : elle pense seulement à elle.",
+          "answers": [
+            [
+              "égoïste"
+            ]
+          ],
+          "choices": [
+            "égoïste",
+            "courageuse",
+            "adorable"
+          ],
+          "en": "She's selfish: she only thinks about herself.",
+          "explain": "Thinking only about yourself is being [[égoïste]]."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Sofia a une forte personnalité.",
+          "accept": [],
+          "explain": "[[personnalité]] has two n and ends in -é."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Je ne crois pas Alex : c'est un menteur.",
+          "en": "I don't believe Alex: he's a liar.",
+          "prompt": "What does the speaker think of Alex?",
+          "options": [
+            "He doesn't tell the truth.",
+            "He is very rich.",
+            "He is very brave."
+          ],
+          "answer": 0,
+          "explain": "[[Un menteur]] is someone who lies."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Describe qualities: [[charmant, courageux, doué, chic, sensible]]\n- Name flaws: [[égoïste, jaloux, menteur, moche]]\n- Talk about [[la personnalité]], [[la réputation]] and [[l'instinct]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Rewrote six English glosses that repeated the French word (adorable, innocent, noble, pur, réputation, instinct) so EN→FR cards don't give the answer away. French checked; no language errors found."
+  }
+}

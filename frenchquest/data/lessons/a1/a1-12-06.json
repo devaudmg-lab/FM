@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-12-06",
+  "level": "a1",
+  "unit": "a1-12",
+  "title": "Workshop: A1 mastery checkpoint",
+  "goal": "Review all of A1 in new situations: follow a radio interview, understand exam instructions and a friend's voicemail, and answer exam-style questions.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "consigne",
+      "kind": "vocab",
+      "fr": "consigne",
+      "article": "la",
+      "gender": "f",
+      "en": "instructions (for an exam task or exercise)",
+      "pos": "noun",
+      "note": "Lisez la consigne = Read the instructions.",
+      "example": {
+        "fr": "Lisez bien la consigne.",
+        "en": "Read the instructions carefully."
+      }
+    },
+    {
+      "id": "reponse",
+      "kind": "vocab",
+      "fr": "réponse",
+      "article": "la",
+      "gender": "f",
+      "en": "answer, reply",
+      "pos": "noun",
+      "example": {
+        "fr": "Cochez la bonne réponse.",
+        "en": "Tick the right answer."
+      }
+    },
+    {
+      "id": "cocher",
+      "kind": "vocab",
+      "fr": "cocher",
+      "en": "to tick, to check (a box)",
+      "pos": "verb",
+      "example": {
+        "fr": "Cochez une case.",
+        "en": "Tick one box."
+      }
+    },
+    {
+      "id": "vrai",
+      "kind": "vocab",
+      "fr": "vrai",
+      "fem": "vraie",
+      "en": "true",
+      "pos": "adjective",
+      "accept": [
+        "vraie"
+      ],
+      "example": {
+        "fr": "Vrai ou faux ?",
+        "en": "True or false?"
+      }
+    },
+    {
+      "id": "faux",
+      "kind": "vocab",
+      "fr": "faux",
+      "fem": "fausse",
+      "en": "false, wrong",
+      "pos": "adjective",
+      "accept": [
+        "fausse"
+      ],
+      "example": {
+        "fr": "C'est faux : le cours est le lundi.",
+        "en": "That's false: the class is on Monday."
+      }
+    },
+    {
+      "id": "resultat",
+      "kind": "vocab",
+      "fr": "résultat",
+      "article": "le",
+      "gender": "m",
+      "en": "result (of an exam or test)",
+      "pos": "noun",
+      "example": {
+        "fr": "Les résultats arrivent dans deux semaines.",
+        "en": "The results come in two weeks."
+      }
+    },
+    {
+      "id": "niveau",
+      "kind": "vocab",
+      "fr": "niveau",
+      "article": "le",
+      "gender": "m",
+      "en": "level",
+      "pos": "noun",
+      "note": "Plural: les niveaux.",
+      "example": {
+        "fr": "Je suis au niveau A1.",
+        "en": "I'm at level A1."
+      }
+    },
+    {
+      "id": "reussir",
+      "kind": "vocab",
+      "fr": "réussir",
+      "en": "to pass (an exam); to succeed",
+      "pos": "verb",
+      "note": "Like finir: je réussis, nous réussissons. réussir un examen = to pass an exam.",
+      "example": {
+        "fr": "Je vais réussir l'examen !",
+        "en": "I'm going to pass the exam!"
+      }
+    },
+    {
+      "id": "erreur",
+      "kind": "vocab",
+      "fr": "erreur",
+      "article": "l'",
+      "gender": "f",
+      "en": "mistake, error",
+      "pos": "noun",
+      "note": "faire une erreur = to make a mistake.",
+      "example": {
+        "fr": "Ce n'est pas grave, c'est une petite erreur.",
+        "en": "It doesn't matter, it's a small mistake."
+      }
+    },
+    {
+      "id": "relire",
+      "kind": "vocab",
+      "fr": "relire",
+      "en": "to reread, to read again",
+      "pos": "verb",
+      "example": {
+        "fr": "Relisez votre texte à la fin.",
+        "en": "Reread your text at the end."
+      }
+    },
+    {
+      "id": "bonne-chance",
+      "kind": "phrase",
+      "fr": "Bonne chance !",
+      "en": "Good luck!"
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "All of A1 in one interview",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "“Nouveaux voisins” on a community radio in Montréal",
+          "context": "Marc-André hosts a radio show about newcomers. Today he interviews Linh, who lives in Côte-des-Neiges.",
+          "lines": [
+            {
+              "speaker": "Marc-André",
+              "fr": "Bonjour et bienvenue à « Nouveaux voisins » ! Aujourd'hui, je suis avec Linh. Bonjour, Linh !",
+              "en": "Hello and welcome to “New Neighbours”! Today I'm with Linh. Hello, Linh!"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "Bonjour, Marc-André ! Merci pour l'invitation.",
+              "en": "Hello, Marc-André! Thanks for the invitation."
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Alors, Linh, vous êtes d'où ?",
+              "en": "So, Linh, where are you from?"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "Je suis vietnamienne, de Hanoï. Maintenant, j'habite à Côte-des-Neiges avec mon mari et notre fils.",
+              "en": "I'm Vietnamese, from Hanoi. Now I live in Côte-des-Neiges with my husband and our son."
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Il a quel âge ?",
+              "en": "How old is he?"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "Il a quatre ans, et il adore la neige !",
+              "en": "He's four, and he loves the snow!"
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Et qu'est-ce que vous faites dans la vie ?",
+              "en": "And what do you do for a living?"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "Je suis comptable. Je travaille dans une banque, du lundi au vendredi, de huit heures à seize heures.",
+              "en": "I'm an accountant. I work in a bank, Monday to Friday, from 8 a.m. to 4 p.m."
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Comment est-ce que vous allez au travail ?",
+              "en": "How do you get to work?"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "Je prends le métro, la ligne bleue. La station est à cinq minutes à pied de mon appartement.",
+              "en": "I take the metro, the blue line. The station is a five-minute walk from my apartment."
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Et votre appartement, il est comment ?",
+              "en": "And what's your apartment like?"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "C'est un quatre et demie, au deuxième étage. Il n'y a pas d'ascenseur, mais il y a un grand balcon.",
+              "en": "It's a four and a half, on the second floor. There's no elevator, but there's a big balcony."
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Vous parlez très bien français !",
+              "en": "You speak French very well!"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "Merci, mais pas encore très bien ! J'apprends le français le soir, et le jeudi, je vais à un groupe de conversation.",
+              "en": "Thank you, but not very well yet! I learn French in the evenings, and on Thursdays I go to a conversation group."
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Qu'est-ce que vous aimez faire la fin de semaine ?",
+              "en": "What do you like to do on weekends?"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "J'aime beaucoup cuisiner et faire des promenades au parc. Par contre, je n'aime pas du tout le froid !",
+              "en": "I really like cooking and going for walks in the park. On the other hand, I don't like the cold at all!"
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Et vos projets ?",
+              "en": "And your plans?"
+            },
+            {
+              "speaker": "Linh",
+              "fr": "Le mois prochain, je vais passer le TEF Canada. Et cet été, nous allons visiter la Gaspésie.",
+              "en": "Next month, I'm going to take the TEF Canada. And this summer, we're going to visit the Gaspé Peninsula."
+            },
+            {
+              "speaker": "Marc-André",
+              "fr": "Bonne chance, Linh ! Merci et à bientôt.",
+              "en": "Good luck, Linh! Thank you and see you soon."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "This interview uses every A1 unit: greetings, nationality, family and age, work and schedules, transport, home, likes, negation, questions and plans. Listen once without the English."
+        },
+        {
+          "id": "c1",
+          "type": "mcq",
+          "prompt": "What is true about Linh?",
+          "options": [
+            "She's an accountant and works Monday to Friday.",
+            "She's a teacher and works on weekends.",
+            "She's an accountant and works part-time on Thursdays."
+          ],
+          "answer": 0,
+          "explain": "[[Je suis comptable… du lundi au vendredi]]. Thursday is her conversation group."
+        },
+        {
+          "id": "c2",
+          "type": "mcq",
+          "prompt": "What is her apartment like?",
+          "options": [
+            "A 4 ½ on the second floor, with a big balcony and no elevator",
+            "A 4 ½ on the second floor, with an elevator",
+            "A 3 ½ on the fourth floor, with a big balcony"
+          ],
+          "answer": 0,
+          "explain": "[[un quatre et demie, au deuxième étage. Il n'y a pas d'ascenseur, mais il y a un grand balcon.]]"
+        },
+        {
+          "id": "c3",
+          "type": "mcq",
+          "prompt": "What is Linh going to do next month?",
+          "options": [
+            "Take the TEF Canada",
+            "Visit the Gaspé Peninsula",
+            "Start a new job"
+          ],
+          "answer": 0,
+          "explain": "[[Le mois prochain, je vais passer le TEF Canada.]] The Gaspé trip is this summer ([[cet été]])."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "A1 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "A1 at a glance",
+          "head": [
+            "Units",
+            "What you can do"
+          ],
+          "rows": [
+            [
+              "1–2",
+              "greet, spell, say your name, nationality, city, languages"
+            ],
+            [
+              "3–4",
+              "numbers, dates, times; avoir; family, possessives, adjectives"
+            ],
+            [
+              "5–6",
+              "routines, reflexive verbs, faire, aller; food, du / de la, ordering"
+            ],
+            [
+              "7–8",
+              "home, places, directions, transport; jobs, questions, schedules"
+            ],
+            [
+              "9–10",
+              "likes, negation, préférer; question words, pouvoir, vouloir, devoir, aller + infinitive"
+            ],
+            [
+              "11–12",
+              "read signs and forms, listen for key words, speak for a minute"
+            ]
+          ],
+          "frCols": []
+        },
+        {
+          "type": "explain",
+          "title": "Five checks",
+          "body": "Always check:\n- **être or avoir?** [[Il est comptable]], [[il a quatre ans]]\n- **gender:** [[une banque]], [[grande]]\n- **article:** [[j'aime le café]], [[je prends du café]], [[pas de café]]\n- **negation around the verb:** [[je ne vais pas venir]]\n- **accents and capitals:** [[français]], [[le lundi]]"
+        },
+        {
+          "type": "vocab",
+          "title": "New words: exams and tests",
+          "itemIds": [
+            "consigne",
+            "reponse",
+            "cocher",
+            "vrai",
+            "faux",
+            "resultat",
+            "niveau",
+            "reussir",
+            "erreur",
+            "relire",
+            "bonne-chance"
+          ]
+        },
+        {
+          "type": "deepdive",
+          "kind": "challenge",
+          "title": "Exam tips for TEF and TCF Canada",
+          "body": "- **Read the question first**, then the document. Look for the one detail you need: a day, a time, a price, a place.\n- **Listen for negatives:** [[pas]], [[jamais]], [[plus]] can change the whole answer.\n- **Watch for traps:** the document often mentions two times or two days. One is the old one, or the wrong one: [[à huit heures trente, pas à neuf heures]].\n- **Writing:** answer every point of the [[consigne]], count your words, and [[relisez]] for the five checks.\n- **Speaking:** if you don't understand, ask: [[Pouvez-vous répéter, s'il vous plaît ?]] That is not a mistake; it is a skill."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Listen: exam day and after",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "Instructions at the exam centre",
+          "context": "Linh is at the exam centre. An examiner speaks to the room before the listening test.",
+          "fr": "Bonjour à tous et bienvenue. L'examen de compréhension orale commence à neuf heures et finit à neuf heures quarante. Pour chaque question, écoutez le document, lisez les réponses et cochez la bonne réponse. Vous écoutez chaque document une seule fois. Les téléphones sont interdits dans la salle. Les toilettes sont à gauche, à côté de la sortie. Vous avez des questions ? Non ? Alors, bonne chance !",
+          "en": "Hello, everyone, and welcome. The listening comprehension exam starts at nine and finishes at nine forty. For each question, listen to the document, read the answers and tick the right answer. You hear each document only once. Phones are not allowed in the room. The washrooms are on the left, next to the exit. Any questions? No? Then, good luck!"
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "L'examen de compréhension orale commence à neuf heures et finit à neuf heures quarante.",
+          "en": "The listening comprehension exam starts at nine and finishes at nine forty.",
+          "prompt": "When does the listening exam finish?",
+          "options": [
+            "9:40",
+            "9:14",
+            "10:40"
+          ],
+          "answer": 0,
+          "explain": "[[neuf heures quarante]] = 9:40 ([[quatorze]] = 14)."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Vous écoutez chaque document une seule fois.",
+          "en": "You hear each document only once.",
+          "prompt": "How many times do candidates hear each document?",
+          "options": [
+            "Once",
+            "Twice",
+            "As many times as they want"
+          ],
+          "answer": 0,
+          "explain": "[[une seule fois]] = only once."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "Les téléphones sont interdits dans la salle.",
+          "en": "Phones are not allowed in the room.",
+          "prompt": "What does the examiner say about phones?",
+          "options": [
+            "They're not allowed in the room.",
+            "They must be on the table.",
+            "They're allowed but silent."
+          ],
+          "answer": 0,
+          "explain": "[[interdit]] = forbidden, not allowed."
+        },
+        {
+          "type": "listen",
+          "title": "A voicemail from a friend",
+          "context": "After the exam, Linh's friend Mathieu leaves her a message. He is from Québec.",
+          "fr": "Salut Linh, c'est Mathieu ! Bravo pour ton examen ! Samedi, on fait un souper chez nous pour fêter ça. Tu veux venir avec ton mari et ton fils ? C'est à dix-huit heures. On habite rue Saint-Denis, au troisième étage. Le métro Mont-Royal est juste à côté. Apporte un dessert, si tu veux ! Rappelle-moi tantôt. Bonne fin de semaine !",
+          "en": "Hi Linh, it's Mathieu! Well done on your exam! On Saturday, we're having a supper at our place to celebrate. Do you want to come with your husband and your son? It's at six. We live on Rue Saint-Denis, on the third floor. Mont-Royal metro station is right next door. Bring a dessert, if you want! Call me back later today. Have a good weekend!"
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "Samedi, on fait un souper chez nous pour fêter ça. C'est à dix-huit heures.",
+          "en": "On Saturday, we're having a supper at our place to celebrate. It's at six.",
+          "prompt": "What is Mathieu inviting Linh to?",
+          "options": [
+            "An evening meal on Saturday at 6 p.m.",
+            "Lunch on Saturday at noon",
+            "An evening meal on Sunday at 8 p.m."
+          ],
+          "answer": 0,
+          "explain": "In Québec, [[le souper]] is the evening meal; [[dix-huit heures]] = 6 p.m."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "Apporte un dessert, si tu veux ! Rappelle-moi tantôt.",
+          "en": "Bring a dessert, if you want! Call me back later today.",
+          "prompt": "What does Mathieu ask Linh to do?",
+          "options": [
+            "Bring a dessert and call him back later today",
+            "Bring drinks and send a text",
+            "Call him back tomorrow morning"
+          ],
+          "answer": 0,
+          "explain": "[[apporte]] = bring (to a friend); [[tantôt]] (Québec) = later today."
+        },
+        {
+          "id": "h6",
+          "type": "dictation",
+          "fr": "Lisez la consigne et cochez la bonne réponse.",
+          "accept": [],
+          "explain": "[[lisez]] and [[cochez]] are vous imperatives. [[réponse]] has an é."
+        },
+        {
+          "id": "h7",
+          "type": "dictation",
+          "fr": "On habite au troisième étage, à côté du métro.",
+          "accept": [
+            "On habite au 3e étage, à côté du métro."
+          ],
+          "explain": "[[troisième]] has an è; [[à côté du métro]] = à côté de + le métro."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "A1 mixed review",
+      "intro": "Twelve questions from all of A1, in unit order. The last two are exam-style questions, like in the TEF or TCF Canada.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "mcq",
+          "prompt": "Unit 1: The receptionist speaks too fast and you don't understand. What do you say?",
+          "options": [
+            "Pouvez-vous répéter, s'il vous plaît ?",
+            "Je ne sais pas.",
+            "Excusez-moi, au revoir.",
+            "Vous parlez français ?"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Ask politely for a repeat: [[Pouvez-vous répéter, s'il vous plaît ?]] You can add [[Plus lentement, s'il vous plaît.]]",
+          "optionFeedback": [
+            null,
+            "That means “I don't know”, not “I don't understand”.",
+            "That ends the conversation.",
+            "The receptionist is already speaking French!"
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Unit 2: Je suis indien, mais j'___ à Toronto.",
+          "answers": [
+            [
+              "habite"
+            ]
+          ],
+          "choices": [
+            "habite",
+            "habites",
+            "habiter",
+            "suis"
+          ],
+          "en": "I'm Indian, but I live in Toronto.",
+          "explain": "[[habiter]] is a regular -er verb: [[j'habite]] (with élision before the h)."
+        },
+        {
+          "id": "r3",
+          "type": "listen-mcq",
+          "fr": "Mon rendez-vous est le mercredi quinze mars, à quinze heures quarante-cinq.",
+          "en": "My appointment is on Wednesday, March 15th, at 3:45 p.m.",
+          "prompt": "Unit 3: When is the appointment?",
+          "options": [
+            "Wednesday, March 15th, 3:45 p.m.",
+            "Wednesday, March 5th, 3:45 p.m.",
+            "Monday, March 15th, 5:45 p.m."
+          ],
+          "answer": 0,
+          "explain": "[[mercredi]] = Wednesday; [[quinze]] = 15; [[quinze heures quarante-cinq]] = 3:45 p.m."
+        },
+        {
+          "id": "r4",
+          "type": "cloze",
+          "text": "Unit 4: Mes parents ___ les yeux bleus et ils ___ très gentils.",
+          "answers": [
+            [
+              "ont"
+            ],
+            [
+              "sont"
+            ]
+          ],
+          "en": "My parents have blue eyes and they are very nice.",
+          "explain": "Eyes use [[avoir]] ([[ils ont]]); personality uses [[être]] ([[ils sont]])."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "Unit 5: We go to the park on Sundays.",
+          "accept": [
+            "Nous allons au parc le dimanche.",
+            "On va au parc le dimanche.",
+            "Le dimanche, nous allons au parc.",
+            "Le dimanche, on va au parc.",
+            "Nous allons au parc tous les dimanches.",
+            "On va au parc tous les dimanches."
+          ],
+          "explain": "[[aller]]: [[nous allons]] / [[on va]]; [[à + le parc = au parc]]; every Sunday = [[le dimanche]]."
+        },
+        {
+          "id": "r6",
+          "type": "cloze",
+          "text": "Unit 6: Un café, mais je ne prends pas ___ sucre, merci.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "choices": [
+            "de",
+            "du",
+            "le",
+            "un"
+          ],
+          "en": "A coffee, but I don't take sugar, thanks.",
+          "explain": "After a negation, [[du]] becomes [[de]]: [[pas de sucre]]."
+        },
+        {
+          "id": "r7",
+          "type": "reorder",
+          "prompt": "Unit 7: Excuse me, how do I get to the train station?",
+          "accept": [
+            "Excusez-moi, pour aller à la gare ?"
+          ],
+          "extra": [
+            "au"
+          ],
+          "explain": "[[Pour aller à…]] is the simple way to ask for directions. [[la gare]] is feminine: [[à la gare]]."
+        },
+        {
+          "id": "r8",
+          "type": "match",
+          "prompt": "Exam words: match them.",
+          "pairs": [
+            [
+              "la consigne",
+              "instructions"
+            ],
+            [
+              "cocher",
+              "to tick"
+            ],
+            [
+              "vrai",
+              "true"
+            ],
+            [
+              "faux",
+              "false"
+            ],
+            [
+              "réussir",
+              "to pass (an exam)"
+            ]
+          ]
+        },
+        {
+          "id": "r9",
+          "type": "translate",
+          "prompt": "Units 8–10: I'm not going to work on Sunday.",
+          "accept": [
+            "Je ne vais pas travailler dimanche.",
+            "Dimanche, je ne vais pas travailler.",
+            "Je ne vais pas travailler ce dimanche."
+          ],
+          "explain": "Negative near future: [[ne… pas]] around [[vais]]: [[je ne vais pas travailler]]. One specific Sunday: [[dimanche]], no article."
+        },
+        {
+          "id": "r10",
+          "type": "dictation",
+          "fr": "Est-ce que vous pouvez parler plus lentement ?",
+          "accept": [
+            "Est-ce que vous pouvez parler plus lentement"
+          ],
+          "explain": "Unit 10: [[vous pouvez]] + infinitive; [[est-ce que]] makes it a question."
+        },
+        {
+          "id": "r11",
+          "type": "mcq",
+          "prompt": "Exam-style reading. Lisez le message.\n\n« Bonjour Madame Leblanc, je suis désolée, je ne peux pas venir au cours ce soir. Je dois rester à la maison avec mon fils. Je vais venir lundi. Lucie »\n\nPourquoi Lucie ne vient pas au cours ?",
+          "options": [
+            "Elle doit rester avec son fils.",
+            "Elle travaille ce soir.",
+            "Le cours est fini.",
+            "Elle est en vacances."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Je dois rester à la maison avec mon fils]]. In the exam, the right option often uses different words from the text ([[mon fils]] → [[son fils]]).",
+          "optionFeedback": [
+            null,
+            "The message doesn't talk about work.",
+            "The class is on; she is the one who can't come.",
+            "She is coming on Monday, so she's not on vacation."
+          ]
+        },
+        {
+          "id": "r12",
+          "type": "listen-mcq",
+          "fr": "Bonjour, ici la clinique du Parc. Votre rendez-vous avec le docteur Roy est demain, mardi, à onze heures, et pas à dix heures. Merci !",
+          "en": "Hello, this is the Clinique du Parc. Your appointment with Dr. Roy is tomorrow, Tuesday, at eleven, and not at ten. Thank you!",
+          "prompt": "Exam-style listening. Quand est le rendez-vous ?",
+          "options": [
+            "Mardi à 11 h",
+            "Mardi à 10 h",
+            "Jeudi à 11 h",
+            "Lundi à 11 h"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Two times are said: [[onze heures]] is the new time; [[pas à dix heures]] is the trap. [[mardi]] = Tuesday."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Show your A1",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "Exam-style writing. You are joining an A2 French class. Write a message to your new teacher: introduce yourself (name, origin, city, family), say what you do and your schedule, one thing you like and one you don't, why you learn French, and one plan.",
+          "promptFr": "Vous commencez un cours de français A2. Écrivez un message à votre professeur : présentez-vous et parlez de votre vie, de vos goûts et de vos projets.",
+          "wordRange": [
+            40,
+            70
+          ],
+          "checklist": [
+            "Formal greeting (Bonjour, Madame / Monsieur) and vous",
+            "Name, origin and city",
+            "Work or studies and schedule",
+            "One like and one dislike (with ne… pas)",
+            "Why you learn French: parce que…",
+            "One plan with aller + infinitive",
+            "Formal closing"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "Bonjour, Madame,\n\nJe m'appelle Karim. Je suis algérien et j'habite à Laval avec ma femme. Je suis cuisinier et je travaille du mardi au samedi. J'aime le soccer, mais je n'aime pas l'hiver. J'apprends le français parce que je travaille avec des clients québécois. L'année prochaine, je vais passer le TEF Canada.\n\nÀ bientôt,\nKarim",
+              "en": "Hello, Madam,\n\nMy name is Karim. I'm Algerian and I live in Laval with my wife. I'm a cook and I work Tuesday to Saturday. I like soccer, but I don't like winter. I'm learning French because I work with Québec customers. Next year, I'm going to take the TEF Canada.\n\nSee you soon,\nKarim"
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Bonjour, Monsieur,\n\nJe suis Sofia Morales, je suis mexicaine et j'habite à Gatineau avec mon mari et mes deux filles. Je suis développeuse à temps partiel, le lundi, le mercredi et le vendredi. J'adore la randonnée, mais je ne fais jamais de ski ! J'apprends le français parce que je veux travailler en français. Cet été, je vais faire un stage à Montréal.\n\nMerci et à lundi,\nSofia",
+              "en": "Hello, Sir,\n\nI'm Sofia Morales, I'm Mexican and I live in Gatineau with my husband and my two daughters. I'm a part-time developer, on Mondays, Wednesdays and Fridays. I love hiking, but I never go skiing! I'm learning French because I want to work in French. This summer, I'm going to do an internship in Montréal.\n\nThank you and see you Monday,\nSofia"
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Exam-style speaking. The examiner asks: “Parlez-moi de votre semaine : qu'est-ce que vous faites d'habitude, et qu'est-ce que vous allez faire la fin de semaine prochaine ?” Speak for about a minute.",
+          "seconds": 60,
+          "checklist": [
+            "Your weekday routine with reflexive verbs (je me lève…)",
+            "Times and days",
+            "Work or studies and transport",
+            "Something you like doing, with a reason",
+            "Two plans with aller + infinitive",
+            "One negation"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "D'habitude, je me lève à six heures et demie. Je prends le métro et je commence le travail à huit heures. Je travaille dans une pharmacie. Le soir, je fais mes devoirs de français. Je ne regarde pas la télé. La fin de semaine prochaine, je vais faire du vélo avec mon fils, et dimanche, je vais manger au restaurant avec des amis.",
+              "en": "Usually, I get up at six thirty. I take the metro and I start work at eight. I work in a pharmacy. In the evening, I do my French homework. I don't watch TV. Next weekend, I'm going to go cycling with my son, and on Sunday I'm going to eat at a restaurant with friends."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Alors, du lundi au vendredi, je me lève tôt, à six heures. Je me douche, je prends un café et je vais au bureau à vélo, parce que c'est rapide. Je suis comptable, et je finis à seize heures. Le mardi et le jeudi soir, j'ai mon cours de français. Je n'ai pas beaucoup de temps libre ! Mais la fin de semaine prochaine, je vais me reposer. Samedi, je vais faire une randonnée avec ma sœur, et dimanche, nous allons inviter des amis à souper.",
+              "en": "So, Monday to Friday, I get up early, at six. I shower, I have a coffee and I go to the office by bike, because it's fast. I'm an accountant, and I finish at four. On Tuesday and Thursday evenings, I have my French class. I don't have much free time! But next weekend, I'm going to rest. On Saturday, I'm going to go hiking with my sister, and on Sunday we're going to invite friends for supper."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Follow a longer interview that uses every A1 topic\n- Understand exam-day instructions and catch the trap in times and days\n- Use exam words: [[la consigne, cocher, vrai, faux, réussir, relire]]\n- Write and speak about your life, tastes and plans in exam-style tasks",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Removed a street number beyond A1 numbers (and geographically inaccurate) from a read-aloud voicemail, made two model sentences more natural (je travaille du mardi au samedi; mes devoirs), added 'tous les dimanches' variants and fixed a gendered feedback line."
+  }
+}

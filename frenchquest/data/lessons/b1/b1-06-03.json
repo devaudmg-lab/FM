@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-06-03",
+  "level": "b1",
+  "unit": "b1-06",
+  "title": "If I had…",
+  "goal": "Talk about imaginary or unlikely situations with si + imparfait → conditionnel, and avoid the classic error “si j'aurais”.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-si-imparfait", "kind": "grammar", "fr": "si + imparfait → conditionnel", "en": "imaginary conditions: if I had…, I would…",
+      "drills": [
+        { "type": "cloze", "text": "Si j'___ (avoir) plus de temps, j'apprendrais l'espagnol.", "answers": [["avais"]], "en": "If I had more time, I would learn Spanish.", "explain": "After [[si]], use the **imparfait**: [[si j'avais]]. The conditionnel goes in the other half." },
+        { "type": "cloze", "text": "Si nous gagnions à la loterie, nous ___ (acheter) une maison.", "answers": [["achèterions"]], "en": "If we won the lottery, we would buy a house.", "explain": "The result → conditionnel: [[nous achèterions]] (stem [[achèter-]])." },
+        { "type": "cloze", "text": "Qu'est-ce que tu ___ (faire) si tu étais ministre ?", "answers": [["ferais"]], "en": "What would you do if you were a minister?", "explain": "[[faire]] → [[fer-]] + [[-ais]]: [[tu ferais]]." }
+      ] },
+    { "id": "g-si-no-cond", "kind": "grammar", "fr": "si j'avais (jamais *si j'aurais*)", "en": "never the conditionnel after si",
+      "drills": [
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Si j'étais riche, je voyagerais.", "Si je serais riche, je voyagerais.", "Si j'étais riche, je voyageais."], "optionsFr": true, "answer": 0, "explain": "si + imparfait ([[j'étais]]), then conditionnel ([[je voyagerais]]). Never the conditionnel right after [[si]]." },
+        { "type": "cloze", "text": "Je t'aiderais ___ je pouvais.", "answers": [["si"]], "en": "I would help you if I could.", "explain": "The two halves can switch places: conditionnel first, then [[si]] + imparfait." },
+        { "type": "cloze", "text": "___ faisait beau, on irait à la plage.", "answers": [["S'il"]], "en": "If the weather were nice, we would go to the beach.", "explain": "[[si]] + [[il]] → [[s'il]]. But [[si elle]], [[si on]] don't change." }
+      ] },
+    { "id": "g-si-types", "kind": "grammar", "fr": "si + présent → futur / si + imparfait → conditionnel", "en": "likely vs imaginary conditions",
+      "drills": [
+        { "type": "cloze", "text": "S'il neige demain, je ___ (prendre) le métro.", "answers": [["prendrai", "vais prendre", "prends"]], "en": "If it snows tomorrow, I'll take the metro.", "explain": "A real possibility: si + **présent** → futur (or présent, futur proche). [[je prendrai]]." },
+        { "type": "mcq", "prompt": "“Si j'étais toi, j'accepterais.” Is the speaker really the other person?", "options": ["No, it's imaginary.", "Yes, it's a real situation.", "It will be true tomorrow."], "answer": 0, "explain": "si + imparfait = an **imaginary** or unlikely situation. You can't be someone else!" }
+      ] },
+    { "id": "si-javais-temps", "kind": "phrase", "fr": "Si j'avais le temps, …", "en": "If I had the time, …" },
+    { "id": "si-jetais-riche", "kind": "phrase", "fr": "Si j'étais riche, …", "en": "If I were rich, …" },
+    { "id": "que-ferais-tu", "kind": "phrase", "fr": "Qu'est-ce que tu ferais si… ?", "en": "What would you do if…? (to a friend)", "accept": ["Que ferais-tu si… ?", "Tu ferais quoi si… ?"] },
+    { "id": "que-feriez-vous", "kind": "phrase", "fr": "Que feriez-vous si… ?", "en": "What would you do if…? (formal)", "accept": ["Qu'est-ce que vous feriez si… ?"] },
+    { "id": "si-cetait-possible", "kind": "phrase", "fr": "Si c'était possible, …", "en": "If it were possible, …", "accept": ["Si c'était possible…"] },
+    { "id": "gagner-loterie", "kind": "phrase", "fr": "gagner à la loterie", "en": "to win the lottery", "accept": ["gagner le gros lot"] },
+    { "id": "pouvoir-choisir", "kind": "phrase", "fr": "si je pouvais choisir", "en": "if I could choose" },
+    { "id": "avoir-le-choix", "kind": "phrase", "fr": "Je n'ai pas le choix.", "en": "I have no choice." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What would you do with a million?",
+      "intro": "Karim and Sofia play a classic game: *what would you do if…?* Notice the two halves of each sentence: what tense comes after [[si]], and what tense comes in the other half?",
+      "blocks": [
+        { "type": "dialogue", "title": "In a café in Moncton",
+          "context": "Karim and Sofia are waiting for the results of a lottery draw.",
+          "lines": [
+            { "speaker": "Karim", "fr": "Bon, on a acheté nos billets. Si on gagnait le gros lot, qu'est-ce que tu ferais ?", "en": "OK, we bought our tickets. If we won the jackpot, what would you do?" },
+            { "speaker": "Sofia", "fr": "Facile ! Si j'avais un million de dollars, j'arrêterais de travailler pendant un an et je ferais le tour du monde.", "en": "Easy! If I had a million dollars, I'd stop working for a year and I'd travel around the world." },
+            { "speaker": "Karim", "fr": "Seulement un an ?", "en": "Only a year?" },
+            { "speaker": "Sofia", "fr": "Oui, parce que si je ne travaillais pas, je m'ennuierais. Et toi ?", "en": "Yes, because if I didn't work, I'd get bored. And you?" },
+            { "speaker": "Karim", "fr": "Moi, j'achèterais une maison pour mes parents au Maroc. Ils seraient tellement contents ! Et je donnerais une partie de l'argent à l'association de mon quartier : j'y fais du bénévolat.", "en": "I'd buy a house for my parents in Morocco. They'd be so happy! And I'd give part of the money to my neighbourhood association: I volunteer there." },
+            { "speaker": "Sofia", "fr": "C'est gentil. Mais si tu étais vraiment riche, tu garderais ton petit appartement ?", "en": "That's nice. But if you were really rich, would you keep your little apartment?" },
+            { "speaker": "Karim", "fr": "Non ! Si je pouvais choisir, j'habiterais au bord de la mer, à Shediac. Je mangerais du homard tous les jours.", "en": "No! If I could choose, I'd live by the sea, in Shediac. I'd eat lobster every day." },
+            { "speaker": "Sofia", "fr": "Bon… Les résultats sont en ligne. Alors ?", "en": "Well… The results are online. So?" },
+            { "speaker": "Karim", "fr": "Alors… on n'a rien gagné. Si on veut des vacances, on va devoir travailler !", "en": "So… we didn't win anything. If we want a vacation, we're going to have to work!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "New words: [[le gros lot]] = the jackpot; [[faire le tour du monde]] = to travel around the world; [[le bénévolat]] = volunteering; [[le homard]] = lobster (a speciality of Shediac, New Brunswick)." },
+        { "id": "d1", "type": "mcq", "prompt": "In “Si j'avais un million de dollars, j'arrêterais de travailler”, which tense follows si?", "options": ["The imparfait (j'avais)", "The conditionnel (j'aurais)", "The futur (j'aurai)"], "answer": 0,
+          "explain": "si + **imparfait** ([[j'avais]]); the result is in the **conditionnel** ([[j'arrêterais]])." },
+        { "id": "d2", "type": "mcq", "prompt": "Why would Sofia stop working for only one year?", "options": ["Because she'd get bored if she didn't work.", "Because a million isn't enough.", "Because her boss wouldn't agree."], "answer": 0,
+          "explain": "[[si je ne travaillais pas, je m'ennuierais]]: the negation goes around the imparfait verb." },
+        { "id": "d3", "type": "mcq", "prompt": "Karim's last sentence: “Si on veut des vacances, on va devoir travailler.” Why is it not in the imparfait?", "options": ["Because it's a real situation now, not an imaginary one.", "Because it's in the past.", "Because it's a polite request."], "answer": 0,
+          "explain": "Back to reality: si + **présent** → futur proche. The imaginary game is over!" }
+      ] },
+    { "type": "understand", "title": "Imaginary conditions",
+      "blocks": [
+        { "type": "pattern", "title": "The rule",
+          "pattern": "Si + imparfait, conditionnel · Conditionnel + si + imparfait",
+          "note": "The [[si]] half takes the **imparfait**; the result half takes the **conditionnel**. You can start with either half. Use a comma when [[si]] comes first.",
+          "examples": [
+            { "fr": "Si j'avais plus de temps, j'apprendrais l'espagnol.", "en": "If I had more time, I would learn Spanish." },
+            { "fr": "J'apprendrais l'espagnol si j'avais plus de temps.", "en": "I would learn Spanish if I had more time." },
+            { "fr": "Si elle habitait plus près, elle viendrait à pied.", "en": "If she lived closer, she would come on foot." },
+            { "fr": "Si on ne travaillait pas demain, on pourrait sortir ce soir.", "en": "If we didn't work tomorrow, we could go out tonight." }
+          ] },
+        { "type": "table", "title": "Two kinds of si",
+          "head": ["Situation", "si + …", "Result", "Example"],
+          "rows": [
+            ["Real, possible", "présent", "présent / futur / impératif", "S'il pleut, je resterai à la maison."],
+            ["Imaginary, unlikely, contrary to reality", "imparfait", "conditionnel", "S'il pleuvait, je resterais à la maison."]
+          ],
+          "frCols": [3], "sayCol": false,
+          "note": "Same idea, different distance from reality. [[S'il pleut]]: it might really rain. [[S'il pleuvait]]: just imagining. A third type, with the plus-que-parfait (*if I had known…*), comes at B2." },
+        { "type": "table", "title": "The most useful si clauses",
+          "head": ["si + imparfait", "English"],
+          "rows": [
+            ["si j'étais toi / si j'étais vous", "if I were you"],
+            ["si j'avais le temps", "if I had the time"],
+            ["si j'avais de l'argent", "if I had money"],
+            ["si je pouvais", "if I could"],
+            ["si je savais", "if I knew"],
+            ["si c'était possible", "if it were possible"],
+            ["s'il faisait beau", "if the weather were nice"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "Notice: English *if I were* = French [[si j'étais]] (imparfait of être)." },
+        { "type": "deepdive", "kind": "mistakes", "title": "The famous error: si j'aurais",
+          "body": "**Never put the conditionnel right after si** (when si means *if*).\n\n- [[Si j'aurais le temps]] → [[Si j'avais le temps]]\n- [[Si je serais riche]] → [[Si j'étais riche]]\n- [[Si tu pourrais venir]] → [[Si tu pouvais venir]]\n\nThe other common errors:\n\n- **Imparfait in both halves:** [[Si j'avais le temps, je venais]] → [[je viendrais]].\n- **Forgetting s':** [[Si il]] → [[S'il]], [[Si ils]] → [[S'ils]]. Only before il and ils!\n- **Mixing the two types:** [[S'il pleut, je resterais]] → [[S'il pleut, je resterai]] or [[S'il pleuvait, je resterais]].\n\nA classic French memory trick: [[Les scies n'aiment pas les raies]] (*saws don't like stripes*), which sounds like *si n'aime pas les -rais*: si doesn't like the -rais endings." },
+        { "type": "deepdive", "kind": "why", "title": "Why the imparfait after si?",
+          "body": "The imparfait is a past tense, but here it doesn't talk about the past. It creates **distance**: one step away from reality. [[Si j'avais un million]] says *in a world that is not this one*.\n\nEnglish does the same thing: *if I had* (past form) for a present situation. So if you'd use a past form after *if* in English, use the imparfait after [[si]] in French." },
+        { "type": "deepdive", "kind": "canada", "title": "“Si j'aurais” in real life",
+          "body": "You will hear [[si j'aurais]] in casual conversation, in Québec and in France. It's very common in spoken informal French. But it is considered **incorrect** in standard French: teachers correct it, and examiners will count it as an error in the TEF and TCF.\n\nSo: understand it when you hear it, never say or write it yourself.\n\nLottery words you'll hear in Canada: [[le gros lot]] (the jackpot) and [[gagner au 6/49]] (Lotto 6/49, a national lottery)." }
+      ] },
+    { "type": "hear", "title": "Hear the two halves",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "The si half rises a little; the result half falls at the end.",
+          "lines": [
+            { "fr": "Si j'avais plus de temps, j'apprendrais l'espagnol.", "en": "If I had more time, I'd learn Spanish.", "tip": "j'avais [ʒavɛ] / j'apprendrais: the r before -ais marks the conditionnel." },
+            { "fr": "Si j'étais toi, j'accepterais.", "en": "If I were you, I'd accept." },
+            { "fr": "S'il faisait beau, on irait à la plage.", "en": "If the weather were nice, we'd go to the beach.", "tip": "faisait: feu-zè." },
+            { "fr": "Qu'est-ce que tu ferais si tu gagnais à la loterie ?", "en": "What would you do if you won the lottery?" },
+            { "fr": "Je t'aiderais si je pouvais.", "en": "I'd help you if I could." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Si j'habitais à Montréal, je ne prendrais jamais la voiture.", "en": "If I lived in Montréal, I would never take the car.", "prompt": "Does the speaker live in Montréal?", "options": ["No", "Yes", "Yes, since last year"], "answer": 0,
+          "explain": "si + imparfait ([[si j'habitais]]) = imaginary. So the speaker does **not** live there." },
+        { "id": "h2", "type": "listen-mcq", "fr": "S'il pleut demain, on restera à la maison.", "en": "If it rains tomorrow, we'll stay home.", "prompt": "What kind of situation is this?", "options": ["A real possibility for tomorrow", "Something purely imaginary", "Something that happened yesterday"], "answer": 0,
+          "explain": "si + présent ([[s'il pleut]]) → futur ([[on restera]]): it might really happen." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Remember: imparfait after si, conditionnel in the other half. No -rais after si!",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Si j'___ (avoir) une voiture, j'___ (aller) voir mes amis à Québec.", "answers": [["avais"], ["irais"]], "en": "If I had a car, I would go and see my friends in Québec City.",
+          "explain": "si + imparfait ([[avais]]) → conditionnel ([[irais]], stem [[ir-]])." },
+        { "id": "r2", "type": "mcq", "prompt": "Choose the correct sentence.", "options": ["Si tu pouvais, tu viendrais ?", "Si tu pourrais, tu viendrais ?", "Si tu pouvais, tu venais ?", "Si tu pourrais, tu venais ?"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Never the conditionnel after si: pouvais.", "The result half needs the conditionnel: viendrais.", "Both halves are wrong: si tu pouvais, tu viendrais."] },
+        { "id": "r3", "type": "translate", "prompt": "If I were rich, I would buy a house by the sea.", "accept": ["Si j'étais riche, j'achèterais une maison au bord de la mer.", "J'achèterais une maison au bord de la mer si j'étais riche.", "Si j'étais riche, j'achèterais une maison près de la mer.", "J'achèterais une maison près de la mer si j'étais riche."],
+          "explain": "*If I were* = [[si j'étais]]. [[acheter]] → [[j'achèterais]]." },
+        { "id": "r4", "type": "cloze", "text": "___ il neigeait, les enfants ne pourraient pas aller à l'école.", "answers": [["S'"]], "choices": ["S'", "Si", "Ce"], "en": "If it snowed, the children couldn't go to school.",
+          "explain": "si + il → [[s'il]]." },
+        { "id": "r5", "type": "cloze", "text": "Nous ___ (partir) en voyage si nous ___ (avoir) plus de vacances.", "answers": [["partirions"], ["avions"]], "en": "We would go on a trip if we had more vacation.",
+          "explain": "Result first, then si: [[nous partirions]] (conditionnel) [[si nous avions]] (imparfait)." },
+        { "id": "r6", "type": "match", "prompt": "Match the beginnings and the endings.", "pairs": [["Si j'étais toi,", "j'accepterais ce poste."], ["S'il fait beau demain,", "on ira au parc."], ["Si vous avez des questions,", "n'hésitez pas à m'écrire."], ["Si tu as faim,", "il y a du pain dans la cuisine."]] },
+        { "id": "r7", "type": "translate", "prompt": "What would you do if you won the lottery? (to a friend)", "accept": ["Qu'est-ce que tu ferais si tu gagnais à la loterie ?", "Que ferais-tu si tu gagnais à la loterie ?", "Tu ferais quoi si tu gagnais à la loterie ?", "Si tu gagnais à la loterie, qu'est-ce que tu ferais ?", "Si tu gagnais à la loterie, que ferais-tu ?", "Qu'est-ce que tu ferais si tu gagnais le gros lot ?", "Si tu gagnais à la loterie, tu ferais quoi ?"],
+          "explain": "[[tu ferais]] (conditionnel) + [[si tu gagnais]] (imparfait)." },
+        { "id": "r8", "type": "mcq", "prompt": "Your friend says « Si j'aurais le temps, je viendrais. » In standard French, the si half should be…", "options": ["Si j'avais le temps", "Si j'aurai le temps", "Si j'ai eu le temps"], "optionsFr": true, "answer": 0,
+          "explain": "Never the conditionnel after si: si + imparfait ([[si j'avais]]), then the conditionnel ([[je viendrais]])." },
+        { "id": "r9", "type": "reorder", "prompt": "I would help you if I could.", "accept": ["Je t'aiderais si je pouvais", "Si je pouvais je t'aiderais"], "extra": ["pourrais"],
+          "explain": "Conditionnel ([[je t'aiderais]]) + si + imparfait ([[je pouvais]]). Never *si je pourrais*." },
+        { "id": "r10", "type": "dictation", "fr": "Si c'était possible, je travaillerais de la maison.", "accept": [], "explain": "[[c'était]] (imparfait) after si; [[travaillerais]] with -rais." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Answer two of these questions, with reasons: Qu'est-ce que vous feriez si vous gagniez à la loterie ? Si vous pouviez habiter n'importe où, où habiteriez-vous ? Si vous étiez maire de votre ville, qu'est-ce que vous changeriez ?", "seconds": 60,
+          "checklist": ["At least three si + imparfait clauses", "The conditionnel in each result", "A reason with parce que", "No “si j'aurais”!"],
+          "models": [ { "label": "Model answer", "fr": "Si je gagnais à la loterie, je ne quitterais pas mon travail, parce que j'aime mes collègues. Par contre, j'aiderais ma famille et je voyagerais au Japon. Et si j'étais maire de Gatineau, je changerais le transport en commun : il y aurait plus d'autobus le soir et le dimanche. Si les autobus étaient plus fréquents, les gens prendraient moins leur voiture.", "en": "If I won the lottery, I wouldn't leave my job, because I like my colleagues. On the other hand, I'd help my family and I'd travel to Japan. And if I were mayor of Gatineau, I'd change public transit: there would be more buses in the evening and on Sundays. If buses were more frequent, people would use their cars less." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short post for a forum: “Si je pouvais changer une chose dans ma vie…”. Say what you would change, what you would do differently, and how your life would be.",
+          "promptFr": "Si vous pouviez changer une chose dans votre vie, qu'est-ce que ce serait ?",
+          "wordRange": [60, 110],
+          "checklist": ["Start: Si je pouvais changer une chose…", "At least three si + imparfait → conditionnel sentences", "At least one sentence with the result first (Je serais… si…)", "One real condition with si + présent → futur", "Connectors: parce que, par contre, en plus…"],
+          "models": [
+            { "label": "Model answer", "fr": "Si je pouvais changer une chose dans ma vie, je travaillerais moins loin de chez moi. Aujourd'hui, je passe deux heures par jour dans l'autobus ! Si j'habitais près de mon bureau, j'irais au travail à vélo et j'aurais plus de temps pour ma famille. Le soir, je ferais la cuisine avec mes enfants. Je serais aussi moins fatigué si je dormais plus. Bon, ce n'est pas un rêve impossible : si je trouve un appartement plus proche cette année, je déménagerai !", "en": "If I could change one thing in my life, I would work closer to home. Today, I spend two hours a day on the bus! If I lived near my office, I'd cycle to work and I'd have more time for my family. In the evening, I'd cook with my kids. I'd also be less tired if I slept more. Well, it isn't an impossible dream: if I find a closer apartment this year, I'll move!" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Talk about imaginary situations with **si + imparfait → conditionnel**: [[Si j'avais le temps, j'apprendrais l'espagnol.]]\n- Contrast real conditions (**si + présent → futur**) with imaginary ones\n- Never use the conditionnel after si: [[si j'avais]], not *si j'aurais*",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed a cloze that duplicated \"il\", replaced the r8 item that tested the above-level \"si j'avais su\" with a \"si j'aurais le temps\" item, made the match exercise unambiguous, removed a non-homophone dictation accept, corrected \"au 6/49\"." }
+}

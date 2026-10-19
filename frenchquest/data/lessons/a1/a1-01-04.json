@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-01-04",
+  "level": "a1",
+  "unit": "a1-01",
+  "title": "Silent letters, liaison and élision",
+  "goal": "Know which final letters are silent, link words with liaison, and shorten je, le, la, de and ne before a vowel.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-elision", "kind": "grammar", "fr": "j', l', d', n', c'", "en": "élision: je, le, la, de, ne, ce lose their vowel before a vowel or silent h",
+      "drills": [
+        { "type": "cloze", "text": "C'est ___ami de Sofia.", "answers": [["l'"]], "choices": ["le", "la", "l'"], "en": "It's Sofia's friend.", "explain": "ami starts with a vowel, so le becomes l'." },
+        { "type": "cloze", "text": "___ai un enfant.", "answers": [["J'"]], "choices": ["Je", "J'"], "en": "I have a child.", "explain": "je + ai → j'ai. The apostrophe is required." },
+        { "type": "mcq", "prompt": "le + hôtel = ?", "options": ["l'hôtel", "le hôtel", "la hôtel"], "optionsFr": true, "answer": 0, "explain": "The h of hôtel is silent, so the word really starts with a vowel: l'hôtel." }
+      ] },
+    { "id": "g-liaison", "kind": "grammar", "fr": "liaison : les amis, vous êtes", "en": "liaison: a silent final consonant is pronounced before a vowel",
+      "drills": [
+        { "type": "mcq", "prompt": "In “vous êtes”, the s of vous sounds like…", "options": ["z", "s", "nothing: it stays silent"], "answer": 0, "explain": "In liaison, s and x sound like z: vou-z‿êtes." },
+        { "type": "mcq", "prompt": "Where do you hear a z sound?", "options": ["les amis", "les cafés", "les rues"], "optionsFr": true, "answer": 0, "explain": "Liaison only happens before a vowel sound: lé-z‿amis. Before a consonant, the s stays silent." },
+        { "type": "mcq", "prompt": "Which one has NO liaison?", "options": ["un café et un thé", "les enfants", "nous avons"], "optionsFr": true, "answer": 0, "explain": "Never make a liaison after et (and): et | un thé." }
+      ] },
+    { "id": "ami", "kind": "vocab", "fr": "ami", "fem": "amie", "article": "l'", "gender": "m", "en": "friend", "pos": "noun", "accept": ["ami", "amie", "l'amie", "un ami", "une amie"],
+      "example": { "fr": "C'est l'ami de Karim.", "en": "It's Karim's friend." },
+      "note": "ami and amie sound the same. Un‿ami: liaison with n." },
+    { "id": "les-enfants", "kind": "phrase", "fr": "les enfants", "en": "the children", "note": "Say lé-z‿enfants." },
+    { "id": "vous-etes", "kind": "phrase", "fr": "vous êtes", "en": "you are (formal)", "note": "Say vou-z‿êtes." },
+    { "id": "nous-avons", "kind": "phrase", "fr": "nous avons", "en": "we have", "note": "Say nou-z‿avons." },
+    { "id": "c-est", "kind": "phrase", "fr": "c'est", "en": "it is / this is", "example": { "fr": "C'est l'hôtel.", "en": "It's the hotel." } },
+    { "id": "j-ai", "kind": "phrase", "fr": "j'ai", "en": "I have", "example": { "fr": "J'ai un enfant.", "en": "I have a child." } },
+    { "id": "d-accord", "kind": "phrase", "fr": "d'accord", "en": "OK / agreed", "accept": ["D'accord !"], "example": { "fr": "Un café ? — D'accord !", "en": "A coffee? — OK!" } },
+    { "id": "ecole", "kind": "vocab", "fr": "école", "article": "l'", "gender": "f", "en": "school", "pos": "noun", "accept": ["école", "une école"] },
+    { "id": "hotel", "kind": "vocab", "fr": "hôtel", "article": "l'", "gender": "m", "en": "hotel", "pos": "noun", "accept": ["hôtel", "un hôtel"], "note": "Silent h, and the final l is pronounced." },
+    { "id": "parc", "kind": "vocab", "fr": "parc", "article": "le", "gender": "m", "en": "park", "pos": "noun", "accept": ["parc", "un parc"], "note": "The final c is pronounced." },
+    { "id": "avec", "kind": "vocab", "fr": "avec", "en": "with", "pos": "preposition", "example": { "fr": "un café avec Lucie", "en": "a coffee with Lucie" }, "note": "The final c is pronounced." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Words that link together",
+      "blocks": [
+        { "type": "dialogue", "title": "In a park in Ottawa",
+          "context": "Camille introduces her friends Karim and Amira to Olivier.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Olivier, ce sont mes amis, Karim et Amira.", "en": "Olivier, these are my friends, Karim and Amira." },
+            { "speaker": "Olivier", "fr": "Enchanté ! Vous êtes d'où ?", "en": "Nice to meet you! Where are you from?" },
+            { "speaker": "Amira", "fr": "Nous sommes de Montréal. Et toi ?", "en": "We're from Montréal. And you?" },
+            { "speaker": "Olivier", "fr": "Moi, j'habite ici, à Ottawa.", "en": "Me, I live here, in Ottawa." },
+            { "speaker": "Karim", "fr": "Et voilà les enfants !", "en": "And here are the children!" },
+            { "speaker": "Camille", "fr": "Allez, un café avec les enfants ?", "en": "Come on, a coffee with the kids?" },
+            { "speaker": "Karim", "fr": "D'accord ! Nous avons une heure.", "en": "OK! We have an hour." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for the places where two words **flow into one**: [[mes amis]] sounds like “mé-z‿amis”, [[vous êtes]] like “vou-z‿êtes”. And look at the little apostrophes: [[d'où]], [[j'habite]], [[d'accord]]." }
+      ] },
+    { "type": "understand", "title": "Three rules that change how French sounds",
+      "blocks": [
+        { "type": "explain", "title": "1. Most final consonants are silent",
+          "body": "At the end of a word, **s, t, d, x, z, p** are usually **not pronounced**: [[vous]], [[salut]], [[tout]], [[Paris]], [[deux]] (two). A final **-e** is silent too: [[madame]], [[rue]], [[école]].\n\nThis is why the plural **-s** is silent: [[le café]] and [[les cafés]] end with the same sound. You hear the plural in the little word in front: **le** vs **les**." },
+        { "type": "explain", "title": "The CaReFuL rule",
+          "body": "Four final consonants are **often pronounced**: **C, R, F, L**, as in the English word *careful*.\n\n- **c**: [[avec]] (with), [[parc]] (park)\n- **r**: [[bonjour]], [[pour]] (for), [[bonsoir]]\n- **f**: [[chef]] (boss, chef), [[neuf]] (nine)\n- **l**: [[il]] (he), [[hôtel]], [[Noël]]\n\n**Big exception:** the ending **-er** usually sounds like **é**, with a silent r: [[parler]] (to speak), [[premier]] (first). Also [[monsieur]]: the r is silent." },
+        { "type": "explain", "title": "2. Liaison: a silent letter wakes up",
+          "body": "When a word ending in a silent consonant is followed by a word starting with a **vowel sound** (or a silent h), the consonant is pronounced and **jumps onto the next word**. This is called **liaison**.\n\n- **s, x → z**: [[les amis]] (“lé-z‿amis”), [[vous êtes]], [[nous avons]], [[deux enfants]]\n- **n → n**: [[un ami]] (“un-n‿ami”), [[on a]] (we have)\n- **t → t**: [[c'est un ami]] (“c'est-t‿un”), [[Comment allez-vous ?]]\n\nLiaison is **required** inside tight groups: little word + noun ([[les amis]], [[un ami]]) and pronoun + verb ([[nous avons]], [[vous êtes]], [[ils ont]]). **Never after et** (and): [[un café et | un thé]]. After [[c'est]] it is very common but not compulsory." },
+        { "type": "table", "title": "Liaison in action",
+          "head": ["Written", "Said like", "English"],
+          "rows": [
+            ["les amis", "lé-z‿amis", "the friends"],
+            ["vous êtes", "vou-z‿êtes", "you are (formal)"],
+            ["nous avons", "nou-z‿avons", "we have"],
+            ["les enfants", "lé-z‿enfants", "the children"],
+            ["un ami", "un-n‿ami", "a friend"],
+            ["c'est un hôtel", "c'est-t‿un hôtel", "it's a hotel"]
+          ],
+          "frCols": [0], "sayCol": true },
+        { "type": "explain", "title": "3. Élision: the apostrophe",
+          "body": "Some very short words **drop their vowel** before a word starting with a vowel or a silent h. The vowel is replaced by an **apostrophe**, and the two words are said as one.\n\n- **je → j'**: [[j'ai]] (I have), [[j'habite]] (I live)\n- **le, la → l'**: [[l'ami]], [[l'école]], [[l'hôtel]]\n- **de → d'**: [[d'accord]] (OK), [[d'Ottawa]] (from Ottawa), [[d'où]] (from where)\n- **ne → n'**: [[Ce n'est pas l'hôtel.]] (It's not the hotel.)\n- also **ce → c'**: [[c'est]] (it is), and **si → s'** before *il*: [[s'il vous plaît]]!\n\nUnlike English *I'm* or *don't*, élision is **not optional**: [[je ai]] is always wrong, in speech and in writing." },
+        { "type": "table", "title": "Élision at a glance",
+          "head": ["Before a consonant", "Before a vowel or silent h", "English"],
+          "rows": [
+            ["je suis", "j'ai", "I am / I have"],
+            ["le parc", "l'hôtel", "the park / the hotel"],
+            ["la rue", "l'école", "the street / the school"],
+            ["de Montréal", "d'Ottawa", "from Montréal / from Ottawa"],
+            ["ce sont", "c'est", "these are / it is"]
+          ],
+          "frCols": [0, 1], "sayCol": true },
+        { "type": "vocab", "title": "Words and chunks", "itemIds": ["ami", "les-enfants", "vous-etes", "nous-avons", "c-est", "j-ai", "d-accord", "ecole", "hotel", "parc", "avec"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Je ai / le ami / la école:** always shorten: [[j'ai]], [[l'ami]], [[l'école]]. The app will flag this mistake.\n- **Pronouncing the plural s:** [[les cafés]] ends like [[café]]. Don't say “ca-fez”.\n- **Liaison after et:** say [[et | un thé]], never “é-t‿un”.\n- **A few h's block élision and liaison** (the “h aspiré”). You say [[le hockey]], not “l'hockey”, and [[les | haricots]] (the beans), with no z sound. Most h's (as in [[hôtel]], [[hôpital]]) are silent and allow both.\n- **Forgetting the CaReFuL letters:** [[avec]] is “a-vek”, not “a-vé”." },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "Even without liaison, French links words in speech: a pronounced final consonant runs into the next vowel. [[avec elle]] (with her) sounds like “a-vè-kel”, [[il a]] (he has) like “i-la”.\n\nThe result: spoken French sounds like one long stream of syllables. When you can't hear where a word starts, try moving the consonant: “lé-zami” is [[les amis]], “nou-zavons” is [[nous avons]].",
+          "examples": [ { "fr": "Nous avons un ami.", "en": "We have a friend. (nou-z‿avons un-n‿ami)" } ] },
+        { "type": "deepdive", "kind": "canada",
+          "body": "- **Provinces and élision:** [[l'Ontario]], [[l'Alberta]], [[l'Île-du-Prince-Édouard]] use l'; [[le Québec]], [[le Manitoba]], [[la Saskatchewan]] don't, because they start with a consonant.\n- **Hockey:** [[le hockey]] has an h that blocks élision. You'll hear it a lot in Canada!\n- **Casual speech:** in relaxed conversation, especially in Québec, people often drop more sounds: [[je suis]] can sound like “j'suis” or even “chu”. This is informal: learn it for recognition only, and keep saying [[je suis]].",
+          "examples": [ { "fr": "Je suis de l'Ontario.", "en": "I'm from Ontario." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Silent or CaReFuL?",
+          "note": "In the first line every final consonant is silent; in the second line, you hear them all.",
+          "lines": [
+            { "fr": "vous, salut, tout, Paris", "en": "you, hi, all, Paris", "tip": "All final letters silent." },
+            { "fr": "avec, bonjour, chef, hôtel", "en": "with, hello, boss, hotel", "tip": "c, r, f, l: pronounced." }
+          ] },
+        { "type": "repeat", "title": "Liaison and élision",
+          "note": "Link the words smoothly, as if they were one word.",
+          "lines": [
+            { "fr": "les amis", "en": "the friends", "tip": "lé-z‿amis" },
+            { "fr": "Vous êtes d'où ?", "en": "Where are you from? (formal)", "tip": "vou-z‿êtes. d'où sounds like “doo”." },
+            { "fr": "Nous avons un enfant.", "en": "We have a child.", "tip": "nou-z‿avons un-n‿enfant" },
+            { "fr": "J'ai un ami.", "en": "I have a friend.", "tip": "j'ai sounds like “zhay”." },
+            { "fr": "C'est l'école.", "en": "It's the school." },
+            { "fr": "D'accord !", "en": "OK!" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "les amis", "en": "the friends", "prompt": "Do you hear a z sound between the two words?", "options": ["Yes", "No"], "answer": 0, "explain": "[[les amis]]: the s is pronounced z because amis starts with a vowel." },
+        { "id": "h2", "type": "listen-mcq", "fr": "les cafés", "en": "the coffees", "prompt": "Singular or plural? How can you tell?", "options": ["Plural: you hear les", "Singular: you hear le", "Impossible to tell"], "answer": 0, "explain": "The final s of cafés is silent, so the plural is heard in [[les]] (lé), not in the noun." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Vous êtes d'Ottawa ?", "en": "Are you from Ottawa?", "prompt": "What is the question?", "options": ["Are you from Ottawa?", "Are you in Ottawa now?", "Do you like Ottawa?"], "answer": 0, "explain": "[[d'Ottawa]] = de + Ottawa: “from Ottawa”." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Watch the apostrophes. Élision is never optional.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "C'est ___école de Mei.", "answers": [["l'"]], "choices": ["le", "la", "l'"], "en": "It's Mei's school.", "explain": "école starts with a vowel: la → l'." },
+        { "id": "r2", "type": "cloze", "text": "___ai un ami à Moncton.", "answers": [["J'"]], "choices": ["Je", "J'"], "en": "I have a friend in Moncton.", "explain": "je + ai → j'ai." },
+        { "id": "r3", "type": "cloze", "text": "Vous êtes ___Ottawa ?", "answers": [["d'"]], "choices": ["de", "d'"], "en": "Are you from Ottawa?", "explain": "Ottawa starts with a vowel: de → d'." },
+        { "id": "r4", "type": "mcq", "prompt": "In which word is the final consonant pronounced?", "options": ["avec", "salut", "vous", "Paris"], "optionsFr": true, "answer": 0,
+          "explain": "c is one of the CaReFuL letters: avec = “a-vek”. In salut, vous and Paris, the final letter is silent." },
+        { "id": "r5", "type": "mcq", "prompt": "Where must you NOT make a liaison?", "options": ["un café et | un thé", "les | amis", "vous | êtes"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Here liaison is required: lé-z‿amis.", "Here liaison is required: vou-z‿êtes."] },
+        { "id": "r6", "type": "dictation", "fr": "C'est l'hôtel.", "accept": ["C'est l'hôtel"], "explain": "Two élisions: ce → c', le → l'. hôtel has ô." },
+        { "id": "r7", "type": "dictation", "fr": "Nous avons un enfant.", "accept": [], "explain": "You hear z after nous and n after un, but you write the words separately." },
+        { "id": "r8", "type": "dictation", "fr": "Vous êtes d'accord ?", "accept": [], "explain": "[[d'accord]] = OK, agreed. The d is followed by an apostrophe." },
+        { "id": "r9", "type": "translate", "prompt": "It's the school.", "accept": ["C'est l'école.", "C'est l'école"], "explain": "c'est + l'école: two apostrophes." },
+        { "id": "r10", "type": "listen-mcq", "fr": "les enfants", "en": "the children", "prompt": "What do you hear?", "options": ["the children", "the child", "a child"], "answer": 0, "explain": "The z sound (lé-z‿enfants) tells you it's [[les]]: plural." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Read the text aloud, making every liaison and élision. Then add one sentence about yourself with J'ai… or C'est…", "promptFr": "Bonjour ! Ce sont mes amis, Karim et Amira. Ils ont deux enfants. Nous avons une heure. Un café ? D'accord !", "seconds": 30,
+          "checklist": ["mes‿amis (z)", "ils‿ont and deux‿enfants (z)", "nous‿avons (z)", "D'accord (one word)", "Your own sentence with j' or c'"],
+          "models": [ { "label": "Model reading", "fr": "Bonjour ! Ce sont mes amis, Karim et Amira. Ils ont deux enfants. Nous avons une heure. Un café ? D'accord ! Moi, j'ai un enfant.", "en": "Hello! These are my friends, Karim and Amira. They have two children. We have an hour. A coffee? OK! Me, I have one child." } ] },
+        { "id": "w1", "type": "write", "prompt": "Write 3 or 4 short sentences that use élision: at least one j', one l' and one d' or c'.", "wordRange": [10, 35],
+          "checklist": ["j' before a vowel", "l' before a vowel or silent h", "d' or c'", "No « je ai » or « le ami »"],
+          "models": [ { "label": "Model answer", "fr": "J'ai un ami à Moncton. C'est l'ami de Lucie. Il est d'Ottawa. D'accord !", "en": "I have a friend in Moncton. He's Lucie's friend. He's from Ottawa. OK!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Leave most final consonants silent, but say the **CaReFuL** ones: [[avec, bonjour, chef, hôtel]]\n- Make liaisons: [[les amis, vous êtes, nous avons, un ami]], and never after [[et]]\n- Use élision every time: [[j'ai, l'école, d'accord, c'est]]",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Spelled out the obligatory liaisons (incl. ils‿ont), noted that liaison after c'est is optional, and added les | haricots as an h aspiré example. Marked chu as recognition only."}
+}

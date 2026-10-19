@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-05-04",
+  "level": "b1",
+  "unit": "b1-05",
+  "title": "Main idea and details in audio news",
+  "goal": "Follow a radio news bulletin: catch the main idea of each story first, then the key details (numbers, places, times, sources).",
+  "minutes": 14,
+  "items": [
+    { "id": "g-approx", "kind": "grammar", "fr": "environ, près de, plus de, une vingtaine de", "en": "approximate numbers in the news",
+      "drills": [
+        { "type": "cloze", "text": "Une ___ de personnes ont été évacuées.", "answers": [["dizaine"]], "en": "About ten people were evacuated.", "explain": "[[une dizaine de]] = about ten. Also [[une vingtaine]] (about 20), [[une centaine]] (about 100)." },
+        { "type": "mcq", "prompt": "“Près de 2 000 étudiants ont manifesté.” How many students?", "options": ["Almost 2,000", "More than 2,000", "Exactly 2,000"], "answer": 0, "explain": "[[près de]] = nearly, almost. [[plus de]] would be “more than”." },
+        { "type": "cloze", "text": "___ de 50 000 passagers prennent ce tramway chaque jour.", "answers": [["Plus"]], "en": "More than 50,000 passengers take this tram every day.", "explain": "[[plus de]] + number = more than. Before a number, use [[de]], not [[que]]." }
+      ] },
+    { "id": "g-news-signals", "kind": "grammar", "fr": "Voici les grands titres… Passons à… En terminant…", "en": "signposts in a news bulletin",
+      "drills": [
+        { "type": "mcq", "prompt": "The anchor says “Passons maintenant à la météo.” What happens next?", "options": ["A new section begins: the weather.", "The bulletin is over.", "The anchor repeats the headlines."], "answer": 0, "explain": "[[Passons à…]] = let's move on to… It announces a new story or section." },
+        { "type": "cloze", "text": "___ terminant, un mot sur la météo.", "answers": [["En"]], "en": "To finish, a word about the weather.", "explain": "[[En terminant]] (common in Canada) = to finish, finally. It signals the last item." }
+      ] },
+    { "id": "bulletin", "kind": "vocab", "fr": "bulletin de nouvelles", "article": "le", "gender": "m", "en": "news bulletin (radio or TV)", "pos": "noun", "accept": ["le bulletin d'information", "le bulletin d'informations", "le journal", "les nouvelles", "les infos"],
+      "example": { "fr": "J'écoute le bulletin de nouvelles de 8 h dans la voiture.", "en": "I listen to the 8 o'clock news in the car." }, "note": "In Québec: [[les nouvelles]], [[le bulletin de nouvelles]]. In France: [[les infos]], [[le journal]]." },
+    { "id": "grands-titres", "kind": "phrase", "fr": "Voici les grands titres.", "en": "Here are the headlines." },
+    { "id": "passons-meteo", "kind": "phrase", "fr": "Passons maintenant à la météo.", "en": "Now let's move on to the weather." },
+    { "id": "meteo", "kind": "vocab", "fr": "météo", "article": "la", "gender": "f", "en": "weather forecast", "pos": "noun", "accept": ["les prévisions météo"],
+      "example": { "fr": "Selon la météo, il va neiger demain.", "en": "According to the forecast, it's going to snow tomorrow." } },
+    { "id": "circulation", "kind": "vocab", "fr": "circulation", "article": "la", "gender": "f", "en": "traffic", "pos": "noun", "accept": ["le trafic"],
+      "example": { "fr": "La circulation est difficile sur le pont ce matin.", "en": "Traffic is heavy on the bridge this morning." } },
+    { "id": "porte-parole", "kind": "vocab", "fr": "porte-parole", "article": "un", "gender": "m", "en": "spokesperson", "pos": "noun", "accept": ["une porte-parole", "le porte-parole", "la porte-parole"],
+      "example": { "fr": "Selon une porte-parole de la Ville, les travaux vont durer un mois.", "en": "According to a City spokesperson, the work will last a month." }, "note": "Same form for a man or a woman; only the article changes." },
+    { "id": "manifestants", "kind": "vocab", "fr": "manifestants", "article": "les", "gender": "m", "en": "protesters", "pos": "noun", "accept": ["des manifestants", "les manifestantes"],
+      "example": { "fr": "Les manifestants ont marché jusqu'à l'hôtel de ville.", "en": "The protesters marched to city hall." } },
+    { "id": "environ", "kind": "vocab", "fr": "environ", "en": "about, approximately", "pos": "adverb", "accept": ["à peu près"],
+      "example": { "fr": "Environ vingt-cinq centimètres de neige sont tombés.", "en": "About twenty-five centimetres of snow fell." } },
+    { "id": "prevu", "kind": "vocab", "fr": "prévu", "fem": "prévue", "en": "planned, scheduled, expected", "pos": "adjective", "accept": ["prévue", "prévus", "prévues"],
+      "example": { "fr": "Une deuxième manifestation est prévue la semaine prochaine.", "en": "A second protest is planned for next week." } },
+    { "id": "averses", "kind": "vocab", "fr": "averses", "article": "les", "gender": "f", "en": "showers (short periods of rain or snow)", "pos": "noun", "accept": ["des averses", "une averse"],
+      "example": { "fr": "Quelques averses de neige sont prévues cet après-midi.", "en": "A few snow flurries are expected this afternoon." } },
+    { "id": "refroidissement", "kind": "vocab", "fr": "refroidissement éolien", "article": "le", "gender": "m", "en": "wind chill", "pos": "noun",
+      "example": { "fr": "Il fait moins huit, avec un refroidissement éolien de moins dix-huit.", "en": "It's minus eight, with a wind chill of minus eighteen." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "The 8 o'clock news",
+      "intro": "Listen to the whole bulletin **once** without reading. Don't try to catch every word. For each story, ask only: **what is it about?** Then answer the questions.",
+      "blocks": [
+        { "type": "listen", "title": "Le bulletin de 8 h",
+          "context": "A morning news bulletin on a (fictional) Canadian French-language radio station.",
+          "fr": "Bonjour, il est 8 h. Voici les grands titres.\nD'abord, la circulation est très difficile ce matin à Montréal après la première tempête de neige de l'hiver. Environ vingt-cinq centimètres de neige sont tombés pendant la nuit. Selon la Ville, les opérations de déneigement vont durer au moins trois jours. On demande aux automobilistes d'être patients et, si possible, de prendre le métro.\nÀ Québec, près de deux mille étudiants ont manifesté hier devant l'Assemblée nationale contre la hausse des droits de scolarité. Selon une porte-parole des étudiants, une deuxième manifestation est prévue la semaine prochaine.\nPassons maintenant à Toronto, où une nouvelle ligne de tramway a été inaugurée hier. Elle traverse la ville d'est en ouest et elle va transporter environ cinquante mille passagers par jour, selon la Ville.\nEn terminant, la météo : ciel nuageux avec quelques averses de neige. Maximum de moins huit, avec un refroidissement éolien de moins dix-huit.\nC'était le bulletin de 8 h. Bonne journée !",
+          "en": "Hello, it's 8 o'clock. Here are the headlines. First, traffic is very difficult this morning in Montréal after the first snowstorm of the winter. About twenty-five centimetres of snow fell overnight. According to the City, snow removal operations will last at least three days. Drivers are asked to be patient and, if possible, to take the metro. In Québec City, nearly two thousand students protested yesterday in front of the National Assembly against the increase in tuition fees. According to a student spokesperson, a second protest is planned for next week. Now let's move on to Toronto, where a new streetcar line was opened yesterday. It crosses the city from east to west and it will carry about fifty thousand passengers a day, according to the City. To finish, the weather: cloudy skies with a few snow flurries. High of minus eight, with a wind chill of minus eighteen. That was the 8 o'clock news. Have a good day!" },
+        { "id": "d1", "type": "listen-mcq", "fr": "D'abord, la circulation est très difficile ce matin à Montréal après la première tempête de neige de l'hiver.", "en": "First, traffic is very difficult this morning in Montréal after the first snowstorm of the winter.", "prompt": "Main idea of story 1?", "options": ["Snow is causing traffic problems in Montréal.", "The Montréal metro is closed.", "A storm is expected next week."], "answer": 0,
+          "explain": "The first sentence of each story usually **is** the main idea: [[la circulation est très difficile… après la première tempête]]." },
+        { "id": "d2", "type": "listen-mcq", "fr": "À Québec, près de deux mille étudiants ont manifesté hier devant l'Assemblée nationale contre la hausse des droits de scolarité.", "en": "In Québec City, nearly two thousand students protested yesterday in front of the National Assembly against the increase in tuition fees.", "prompt": "Main idea of story 2?", "options": ["Students protested against higher tuition fees.", "Students went on strike for better jobs.", "The National Assembly lowered tuition fees."], "answer": 0,
+          "explain": "Who? [[des étudiants]]. What? [[ils ont manifesté]]. Why? [[contre la hausse des droits de scolarité]] (tuition fees)." },
+        { "id": "d3", "type": "listen-mcq", "fr": "Passons maintenant à Toronto, où une nouvelle ligne de tramway a été inaugurée hier.", "en": "Now let's move on to Toronto, where a new streetcar line was opened yesterday.", "prompt": "Main idea of story 3?", "options": ["A new streetcar line opened in Toronto.", "A streetcar line closed in Toronto.", "Toronto is building a new airport."], "answer": 0,
+          "explain": "[[a été inaugurée]] (passive, last lesson) = was officially opened." }
+      ] },
+    { "type": "understand", "title": "How to listen to the news",
+      "blocks": [
+        { "type": "explain", "title": "Listen in layers",
+          "body": "Radio news is fast and dense. Nobody, not even native speakers, catches every word. Listen in **three layers**:\n\n1. **First listening, the main idea.** For each story: *who* and *what*? It's almost always in the **first sentence**. Write one keyword per story ([[neige]], [[étudiants]], [[tramway]]).\n2. **Second listening, the details.** Now hunt for **numbers, places, times and sources** ([[selon…]]). These are what exam questions ask about.\n3. **Third listening, check.** Does each detail fit your main idea? If a detail doesn't fit, you probably misheard a number or a negative.\n\nDon't stop on a word you don't know. Keep going: the next sentence often explains it." },
+        { "type": "table", "title": "Main idea or detail?",
+          "head": ["", "Main idea", "Details"],
+          "rows": [
+            ["Story 1", "La neige cause des problèmes de circulation à Montréal.", "25 cm ; au moins 3 jours ; prendre le métro"],
+            ["Story 2", "Des étudiants manifestent contre la hausse des droits de scolarité.", "près de 2 000 ; hier ; devant l'Assemblée nationale ; autre manifestation la semaine prochaine"],
+            ["Story 3", "Une nouvelle ligne de tramway est inaugurée à Toronto.", "hier ; d'est en ouest ; environ 50 000 passagers par jour"],
+            ["Weather", "Il fait froid et nuageux.", "averses de neige ; moins 8 ; refroidissement éolien moins 18"]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "A main idea is a full sentence that could be a headline. A detail is a number, a name, a place or a time." },
+        { "type": "table", "title": "Signposts: the map of the bulletin",
+          "head": ["Signpost", "What it tells you"],
+          "rows": [
+            ["Voici les grands titres.", "The list of stories is starting."],
+            ["D'abord, …", "Story 1."],
+            ["À Québec, … / Du côté de Toronto, …", "A new story in a new place."],
+            ["Passons maintenant à…", "Change of story or section."],
+            ["Par ailleurs, …", "Another, separate piece of information."],
+            ["En terminant, … / Enfin, …", "The last item (often the weather)."],
+            ["C'était le bulletin de 8 h.", "The end."]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "When you hear a signpost, **reset**: a new main idea is coming." },
+        { "type": "table", "title": "Approximate numbers",
+          "head": ["Expression", "Meaning", "Example"],
+          "rows": [
+            ["environ / à peu près", "about", "environ 25 centimètres"],
+            ["près de", "nearly, almost", "près de 2 000 étudiants"],
+            ["plus de / moins de", "more than / fewer than", "plus de 50 000 passagers"],
+            ["au moins", "at least", "au moins trois jours"],
+            ["une dizaine, une vingtaine, une centaine", "about 10, 20, 100", "une centaine de blessés"],
+            ["des milliers", "thousands", "des milliers de personnes"]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "These words change the meaning of a number, so they matter in exam questions: [[près de 2 000]] is *less* than 2 000." },
+        { "type": "vocab", "title": "News and weather words", "itemIds": ["bulletin", "meteo", "circulation", "porte-parole", "manifestants", "environ", "prevu", "averses", "refroidissement"] },
+        { "type": "deepdive", "kind": "pronunciation", "title": "Numbers at radio speed",
+          "body": "- [[deux mille]]: no s on [[mille]], ever. [[deux mille étudiants]] sounds like *deu-mil-étudiant*.\n- [[cent]] and [[sans]] (without) sound the same. Context decides.\n- [[vingt-cinq]]: the t of vingt is pronounced here: *vint-cinq*. In [[vingt]] alone, it is silent.\n- [[moins dix-huit]]: in weather reports, [[moins]] (minus) comes first. Don't miss it in a Canadian winter!\n- [[quinze]] (15) vs [[cinquante]] (50): listen for the end. *kenz* vs *sin-kant*." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Listening traps",
+          "body": "- **Stopping on one word.** If you lose one word, you lose the next sentence too. Let it go.\n- **près de vs plus de.** [[près de]] = almost (less), [[plus de]] = more than. They sound similar at speed: listen for the vowel. [[près]] has an open *è* [prɛ]; [[plus]] has the rounded *u* [ply], and its s is silent here.\n- **Missing the negative.** [[Le traversier ne fonctionnera pas]]: in fast speech the [[ne]] almost disappears. Listen for [[pas]], [[plus]], [[jamais]], [[personne]].\n- **Taking a source for a fact.** [[Selon la police…]], [[d'après une porte-parole…]] tell you **who says it**. Exam questions often ask exactly that: *who gave this information?*" },
+        { "type": "deepdive", "kind": "canada", "title": "Canadian weather words",
+          "body": "Words you'll hear in every Canadian winter forecast (some are used in France too, others are typically Canadian):\n\n- [[le refroidissement éolien]]: wind chill. [[Moins dix-huit avec le refroidissement éolien]] is how cold it **feels**.\n- [[la poudrerie]]: blowing snow (Québec).\n- [[le verglas]] / [[la pluie verglaçante]]: black ice / freezing rain.\n- [[le facteur humidex]]: the summer equivalent, how hot it feels.\n- [[une tempête]], [[une bordée de neige]] (Québec, informal): a big snowfall.\n\nAlso: the news is [[les nouvelles]] or [[le bulletin de nouvelles]] in Canada, and a radio host is [[un animateur]], [[une animatrice]]." }
+      ] },
+    { "type": "hear", "title": "More news, layer by layer",
+      "blocks": [
+        { "type": "repeat", "title": "Signposts out loud",
+          "note": "Say them like an anchor: clear, slightly slower, with a pause after.",
+          "lines": [
+            { "fr": "Bonjour, il est 8 h. Voici les grands titres.", "en": "Hello, it's 8 o'clock. Here are the headlines." },
+            { "fr": "Passons maintenant à la météo.", "en": "Now let's move on to the weather.", "tip": "Passons: pa-son, nasal on." },
+            { "fr": "Du côté de Vancouver, …", "en": "Over in Vancouver, …" },
+            { "fr": "Près de deux mille étudiants ont manifesté.", "en": "Nearly two thousand students protested.", "tip": "mille‿étudiants: link the l to the vowel." },
+            { "fr": "Maximum de moins huit, avec un refroidissement éolien de moins dix-huit.", "en": "High of minus eight, with a wind chill of minus eighteen.", "tip": "éolien: é-o-lyin." }
+          ] },
+        { "type": "listen", "title": "Story: housing in Vancouver",
+          "context": "Listen once for the main idea, then again for the numbers.",
+          "fr": "Du côté de Vancouver, la Ville a annoncé hier la construction de plus de trois mille logements abordables d'ici cinq ans. Les premiers immeubles seront construits dans le quartier de Mount Pleasant. Selon le maire, ces logements seront réservés aux familles et aux travailleurs à faible revenu. Le projet va coûter environ huit cents millions de dollars.",
+          "en": "Over in Vancouver, the City announced yesterday the construction of more than three thousand affordable housing units within five years. The first buildings will be built in the Mount Pleasant neighbourhood. According to the mayor, these units will be reserved for families and low-income workers. The project will cost about eight hundred million dollars." },
+        { "id": "h1", "type": "listen-mcq", "fr": "Du côté de Vancouver, la Ville a annoncé hier la construction de plus de trois mille logements abordables d'ici cinq ans.", "en": "Over in Vancouver, the City announced yesterday the construction of more than three thousand affordable housing units within five years.", "prompt": "What's the main idea?", "options": ["Vancouver will build affordable housing.", "Rents went down in Vancouver.", "Vancouver is closing a neighbourhood."], "answer": 0,
+          "explain": "[[la construction de… logements abordables]] = building affordable housing. The rest is detail." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Selon le maire, ces logements seront réservés aux familles et aux travailleurs à faible revenu. Le projet va coûter environ huit cents millions de dollars.", "en": "According to the mayor, these units will be reserved for families and low-income workers. The project will cost about eight hundred million dollars.", "prompt": "How much will the project cost?", "options": ["About 800 million dollars", "About 8 million dollars", "More than 3,000 dollars"], "answer": 0,
+          "explain": "[[environ huit cents millions de dollars]]. The 3 000 was the number of housing units, not dollars: always link a number to its noun." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Listen for the main idea first, then the detail the question asks for.",
+      "blocks": [
+        { "id": "r1", "type": "listen-mcq", "fr": "À Halifax, le traversier entre Halifax et Dartmouth ne fonctionnera pas aujourd'hui à cause des vents violents. Les passagers peuvent prendre l'autobus.", "en": "In Halifax, the ferry between Halifax and Dartmouth will not run today because of high winds. Passengers can take the bus.", "prompt": "What's the main idea?", "options": ["The Halifax ferry isn't running today.", "A new ferry is starting today.", "The buses are on strike in Halifax."], "answer": 0,
+          "explain": "[[ne fonctionnera pas]] = won't work, won't run. Listen for the negative [[pas]]. [[le traversier]] = the ferry." },
+        { "id": "r2", "type": "listen-mcq", "fr": "Le service va reprendre demain matin, si la météo le permet.", "en": "Service will resume tomorrow morning, if the weather allows.", "prompt": "When will the ferry run again?", "options": ["Tomorrow morning, if the weather is OK", "This afternoon", "Next week"], "answer": 0,
+          "explain": "[[reprendre]] = to resume. [[si la météo le permet]] = if the weather allows." },
+        { "id": "r3", "type": "listen-mcq", "fr": "Près de cinq cents personnes ont été évacuées hier soir à Sherbrooke à cause d'une inondation.", "en": "Nearly five hundred people were evacuated last night in Sherbrooke because of a flood.", "prompt": "How many people were evacuated?", "options": ["Almost 500", "More than 500", "About 50"], "answer": 0,
+          "explain": "[[près de cinq cents]] = almost 500. [[cinquante]] would be 50." },
+        { "id": "r4", "type": "cloze", "text": "Une ___ de manifestants étaient devant l'hôtel de ville.", "answers": [["centaine"]], "choices": ["centaine", "cent", "centième"], "en": "About a hundred protesters were in front of city hall.",
+          "explain": "[[une centaine de]] = about a hundred (approximate). [[cent]] alone would be exactly 100." },
+        { "id": "r5", "type": "match", "prompt": "Match each signpost with its role.", "pairs": [["Voici les grands titres.", "The bulletin starts."], ["Passons maintenant à…", "Change of story."], ["Par ailleurs, …", "Another separate fact."], ["En terminant, …", "The last item."], ["C'était le bulletin de 8 h.", "The end."]] },
+        { "id": "r6", "type": "mcq", "prompt": "“Selon une porte-parole des étudiants, une deuxième manifestation est prévue.” Who gives this information?", "options": ["A student spokesperson", "The police", "The journalist's own opinion"], "answer": 0,
+          "explain": "[[Selon…]] introduces the **source**. Exam questions often ask who said what." },
+        { "id": "r7", "type": "translate", "prompt": "About twenty centimetres of snow fell overnight.", "accept": ["Environ vingt centimètres de neige sont tombés pendant la nuit.", "Environ 20 centimètres de neige sont tombés pendant la nuit.", "Une vingtaine de centimètres de neige sont tombés pendant la nuit.", "Une vingtaine de centimètres de neige sont tombés cette nuit.", "Environ vingt centimètres de neige sont tombés cette nuit.", "Environ 20 centimètres de neige sont tombés cette nuit.", "Il est tombé environ vingt centimètres de neige pendant la nuit.", "Il est tombé environ 20 centimètres de neige pendant la nuit.", "À peu près vingt centimètres de neige sont tombés pendant la nuit."],
+          "explain": "[[environ]] or [[une vingtaine de]]. [[tomber]] takes être, agreeing with [[centimètres]]: [[sont tombés]]." },
+        { "id": "r8", "type": "dictation", "fr": "Voici les grands titres.", "accept": [], "explain": "[[grands titres]]: the d and the s of grands are silent, and there's no liaison because titres starts with a consonant. Both words take an s in writing." },
+        { "id": "r9", "type": "dictation", "fr": "Une deuxième manifestation est prévue la semaine prochaine.", "accept": ["Une 2e manifestation est prévue la semaine prochaine."], "explain": "[[prévue]] agrees with [[manifestation]] (feminine): add -e." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "A colleague missed the 8 o'clock bulletin. Send them a short message: for each of the three stories, give the main idea in one sentence and one or two important details. End with the weather.",
+          "promptFr": "Votre collègue a manqué le bulletin de 8 h. Résumez-lui les nouvelles.",
+          "wordRange": [50, 100],
+          "checklist": ["One main-idea sentence per story", "At least one number with environ / près de / plus de", "A source with selon", "A connector between stories (ensuite, à Québec, enfin…)", "The weather at the end"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Olivier ! Tu as manqué les nouvelles ce matin ? D'abord, il y a eu la première tempête de neige à Montréal : environ 25 cm. Selon la Ville, le déneigement va durer au moins trois jours, alors prends le métro ! Ensuite, à Québec, près de 2 000 étudiants ont manifesté contre la hausse des droits de scolarité. À Toronto, une nouvelle ligne de tramway a été inaugurée hier. Enfin, la météo : moins huit, mais moins dix-huit avec le refroidissement éolien. Habille-toi bien !", "en": "Hi Olivier! Did you miss the news this morning? First, there was the first snowstorm in Montréal: about 25 cm. According to the City, snow removal will last at least three days, so take the metro! Next, in Québec City, nearly 2,000 students protested against the tuition fee increase. In Toronto, a new streetcar line was opened yesterday. Finally, the weather: minus eight, but minus eighteen with the wind chill. Dress warmly!" }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Play the anchor. Present a 30-second news bulletin with two stories from your city (real or invented) and the weather. Use the signposts.", "seconds": 45,
+          "checklist": ["Opening: Bonjour, il est… Voici les grands titres.", "Two stories, each starting with its main idea", "One approximate number (environ, près de…)", "A signpost between stories (Passons maintenant à…)", "En terminant, la météo"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, il est 18 h. Voici les grands titres. D'abord, la piscine municipale de Moncton a été fermée aujourd'hui pour des réparations. Selon la Ville, elle va rouvrir dans environ deux semaines. Passons maintenant au sport : près de trois mille personnes ont participé au marathon de dimanche. En terminant, la météo : du soleil demain, avec un maximum de douze degrés. Bonne soirée !", "en": "Hello, it's 6 p.m. Here are the headlines. First, the Moncton municipal pool was closed today for repairs. According to the City, it will reopen in about two weeks. Now let's move on to sports: nearly three thousand people took part in Sunday's marathon. To finish, the weather: sunshine tomorrow, with a high of twelve degrees. Good evening!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Listen to the news **in layers**: main idea first (who, what), then details (numbers, places, times, sources)\n- Use signposts to follow the bulletin: [[Voici les grands titres]], [[Passons maintenant à…]], [[En terminant…]]\n- Understand approximate numbers: [[environ]], [[près de]], [[plus de]], [[une vingtaine de]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed a false pronunciation tip (plus de has no s sound), softened the \"won't hear in Paris\" claim, added accept variants." }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-07-03",
+  "level": "a2",
+  "unit": "a2-07",
+  "title": "Since, ago, for",
+  "goal": "Say how long something has been going on (depuis + present), when something happened (il y a + past) and how long something lasted (pendant).",
+  "minutes": 15,
+  "items": [
+    { "id": "g-depuis", "kind": "grammar", "fr": "depuis + présent", "en": "depuis + present tense: have been doing… for / since",
+      "drills": [
+        { "type": "cloze", "text": "J'habite à Montréal ___ deux ans.", "answers": [["depuis"]], "en": "I've been living in Montréal for two years.", "explain": "You still live there → [[depuis]] + present tense." },
+        { "type": "translate", "prompt": "I've been living here for three years.", "accept": ["J'habite ici depuis trois ans.", "Ça fait trois ans que j'habite ici.", "Il y a trois ans que j'habite ici.", "Je vis ici depuis trois ans.", "Ça fait trois ans que je vis ici."], "explain": "English uses *have been living*; French uses the **present**: [[j'habite ici depuis trois ans]]." },
+        { "type": "mcq", "prompt": "“The heating hasn't been working since Monday.”", "options": ["Le chauffage ne marche pas depuis lundi.", "Le chauffage n'a pas marché pendant lundi.", "Le chauffage ne marche pas il y a lundi."], "optionsFr": true, "answer": 0, "explain": "The problem is still going on → [[depuis]] + present. [[Depuis]] works with a duration (trois jours) or a starting point (lundi)." }
+      ] },
+    { "id": "g-il-y-a", "kind": "grammar", "fr": "il y a + durée", "en": "il y a + amount of time: … ago",
+      "drills": [
+        { "type": "cloze", "text": "J'ai appelé le propriétaire ___ deux jours.", "answers": [["il y a"]], "en": "I called the landlord two days ago.", "explain": "A finished action at a point in the past → passé composé + [[il y a]] (ago)." },
+        { "type": "translate", "prompt": "I arrived in Canada two years ago.", "accept": ["Je suis arrivé au Canada il y a deux ans.", "Je suis arrivée au Canada il y a deux ans.", "Il y a deux ans, je suis arrivé au Canada.", "Il y a deux ans, je suis arrivée au Canada."], "explain": "[[arriver]] takes être; [[il y a]] goes after the verb or at the start of the sentence." },
+        { "type": "mcq", "prompt": "Which sentence means “We moved six months ago”?", "options": ["Nous avons déménagé il y a six mois.", "Nous déménageons depuis six mois.", "Nous avons déménagé pendant six mois."], "optionsFr": true, "answer": 0, "explain": "One finished event, six months back → [[il y a six mois]]." }
+      ] },
+    { "id": "g-pendant", "kind": "grammar", "fr": "pendant + durée", "en": "pendant + amount of time: for (a period with a beginning and an end)",
+      "drills": [
+        { "type": "cloze", "text": "Avant, j'ai habité chez ma sœur ___ trois mois.", "answers": [["pendant"]], "en": "Before, I lived at my sister's for three months.", "explain": "A closed period, now over → [[pendant]] + passé composé." },
+        { "type": "translate", "prompt": "We will stay in Québec City for a week.", "accept": ["Nous resterons à Québec pendant une semaine.", "On restera à Québec pendant une semaine.", "Nous allons rester à Québec pendant une semaine.", "On va rester à Québec pendant une semaine.", "Nous resterons une semaine à Québec.", "On restera une semaine à Québec.", "Nous resterons pendant une semaine à Québec.", "Nous allons rester une semaine à Québec.", "On va rester une semaine à Québec."], "explain": "[[Pendant]] also works for the future: a period with a clear end." },
+        { "type": "cloze", "text": "Avec la tempête, nous n'avons pas eu d'électricité ___ trois heures.", "answers": [["pendant"]], "choices": ["pendant", "depuis", "il y a"], "en": "With the storm, we had no electricity for three hours.", "explain": "A finished period → [[pendant]]. With [[durer]], no pendant is needed: [[La panne a duré trois heures.]]" }
+      ] },
+    { "id": "depuis-combien", "kind": "phrase", "fr": "Depuis combien de temps habitez-vous ici ?", "en": "How long have you been living here? (formal)",
+      "accept": ["Depuis combien de temps est-ce que vous habitez ici ?", "Vous habitez ici depuis combien de temps ?", "Depuis quand habitez-vous ici ?", "Vous habitez ici depuis quand ?", "Ça fait combien de temps que vous habitez ici ?"] },
+    { "id": "depuis-quand", "kind": "phrase", "fr": "Depuis quand ?", "en": "Since when?" },
+    { "id": "ca-fait-que", "kind": "phrase", "fr": "Ça fait deux ans que j'habite ici.", "en": "I've lived here for two years now. (with ça fait… que)", "accept": ["J'habite ici depuis deux ans.", "Ça fait deux ans que je vis ici."] },
+    { "id": "emmenager", "kind": "vocab", "fr": "emménager", "en": "to move in (to a new home)", "pos": "verb",
+      "note": "déménager = to move (out of one place, to another); emménager = to move in.",
+      "example": { "fr": "J'ai emménagé ici il y a six mois.", "en": "I moved in here six months ago." } },
+    { "id": "durer", "kind": "vocab", "fr": "durer", "en": "to last (in time)", "pos": "verb",
+      "example": { "fr": "Les travaux ont duré deux semaines.", "en": "The work lasted two weeks." } },
+    { "id": "longtemps", "kind": "vocab", "fr": "longtemps", "en": "a long time", "pos": "adverb",
+      "example": { "fr": "Vous habitez ici depuis longtemps ?", "en": "Have you been living here long?" } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Meeting the neighbour",
+      "intro": "The heating in Amira's bedroom still doesn't work. She meets her neighbour, Mr. Nguyen, in the hallway.",
+      "blocks": [
+        { "type": "dialogue", "title": "In the hallway",
+          "context": "Neighbours often use vous at first, especially with an older person.",
+          "lines": [
+            { "speaker": "M. Nguyen", "fr": "Bonjour ! Vous êtes la nouvelle voisine de l'appartement 6 ?", "en": "Hello! Are you the new neighbour in apartment 6?" },
+            { "speaker": "Amira", "fr": "Oui, je m'appelle Amira. J'ai emménagé il y a quatre mois, le premier juillet. Et vous, vous habitez ici depuis longtemps ?", "en": "Yes, my name is Amira. I moved in four months ago, on July 1. And you, have you been living here long?" },
+            { "speaker": "M. Nguyen", "fr": "Depuis cinq ans. Je suis arrivé à Montréal il y a huit ans. Avant, j'ai habité à Laval pendant trois ans.", "en": "For five years. I arrived in Montréal eight years ago. Before that, I lived in Laval for three years." },
+            { "speaker": "Amira", "fr": "Dites-moi, vous avez du chauffage chez vous ? Dans ma chambre, le calorifère ne marche pas depuis samedi dernier.", "en": "Tell me, do you have heating at your place? In my bedroom, the radiator hasn't been working since last Saturday." },
+            { "speaker": "M. Nguyen", "fr": "Depuis samedi ? Ça fait une semaine ! Vous avez appelé le concierge ?", "en": "Since Saturday? That's a week! Did you call the concierge?" },
+            { "speaker": "Amira", "fr": "Oui, j'ai appelé monsieur Gagnon il y a une semaine. Il a dit : « Le plombier va passer lundi. » Mais personne n'est venu.", "en": "Yes, I called Mr. Gagnon a week ago. He said, “The plumber is going to come by on Monday.” But nobody came." },
+            { "speaker": "M. Nguyen", "fr": "C'est typique. L'hiver dernier, nous n'avons pas eu de chauffage pendant une semaine ! Il vaut mieux écrire au propriétaire. Un message écrit, c'est une preuve.", "en": "That's typical. Last winter, we had no heating for a week! It's better to write to the landlord. A written message is proof." },
+            { "speaker": "Amira", "fr": "Vous avez raison. Je vais écrire au propriétaire ce soir.", "en": "You're right. I'm going to write to the landlord tonight." }
+          ] },
+        { "type": "text", "title": "Amira's notes",
+          "context": "On Mr. Nguyen's advice, Amira writes down the history of the problem.",
+          "fr": "Samedi 1er novembre : le chauffage de la chambre ne marche plus. J'ai appelé le concierge. Il a promis un plombier pour lundi.\nLundi 3 novembre : personne n'est venu.\nAujourd'hui, samedi 8 novembre : toujours pas de chauffage. Le problème dure depuis une semaine. Pendant la nuit, il fait 15 degrés dans la chambre.",
+          "en": "Saturday, November 1: the bedroom heating stops working. I called the concierge. He promised a plumber for Monday.\nMonday, November 3: nobody came.\nToday, Saturday, November 8: still no heating. The problem has been going on for a week. During the night, it's 15 degrees in the bedroom." },
+        { "id": "d1", "type": "mcq", "prompt": "Does Mr. Nguyen still live in Laval?", "options": ["No: he lived there for three years, then moved.", "Yes: he has been living there for three years.", "Yes: he moved there three years ago."], "answer": 0,
+          "explain": "[[J'ai habité à Laval pendant trois ans]]: passé composé + pendant = a closed period. He has lived in this building [[depuis cinq ans]]." }
+      ] },
+    { "type": "understand", "title": "Three ways to talk about time",
+      "blocks": [
+        { "type": "explain", "title": "Is it still going on?",
+          "body": "Ask yourself one question: **is it still true now?**\n\n- **Yes, it's still going on** → [[depuis]] + **present**: [[J'habite ici depuis cinq ans.]] (I still live here.)\n- **No, it happened once, at a point in the past** → **passé composé** + [[il y a]]: [[J'ai emménagé il y a quatre mois.]] (*ago*)\n- **No, it lasted for a closed period** → [[pendant]]: [[J'ai habité à Laval pendant trois ans.]] (I don't live there anymore.)" },
+        { "type": "table", "title": "Depuis, il y a, pendant",
+          "head": ["Word", "English", "Tense", "Example"],
+          "rows": [
+            ["depuis + durée", "for (still going on)", "présent", "Le chauffage ne marche pas depuis cinq jours."],
+            ["depuis + point de départ", "since", "présent", "Le chauffage ne marche pas depuis lundi."],
+            ["il y a + durée", "… ago", "passé composé", "J'ai appelé le concierge il y a trois jours."],
+            ["pendant + durée", "for (closed period)", "passé composé, présent, futur", "Nous n'avons pas eu de chauffage pendant une semaine."]
+          ],
+          "frCols": [0, 3], "sayCol": false,
+          "note": "[[Il y a]] here is the same words as *there is*, but followed by an amount of time it means **ago**: [[il y a deux jours]] = two days ago." },
+        { "type": "pattern", "title": "Asking about time",
+          "pattern": "Depuis quand… ? · Depuis combien de temps… ? · Quand… ? · Pendant combien de temps… ?",
+          "note": "Match the question to the answer you want.",
+          "examples": [
+            { "fr": "Depuis quand le chauffage ne marche pas ? — Depuis lundi.", "en": "Since when has the heating not been working? — Since Monday." },
+            { "fr": "Depuis combien de temps habitez-vous ici ? — Depuis cinq ans.", "en": "How long have you been living here? — For five years." },
+            { "fr": "Quand est-ce que vous avez emménagé ? — Il y a quatre mois.", "en": "When did you move in? — Four months ago." },
+            { "fr": "Pendant combien de temps avez-vous habité à Laval ? — Pendant trois ans.", "en": "How long did you live in Laval? — For three years." }
+          ] },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["depuis-combien", "depuis-quand", "ca-fait-que", "emmenager", "durer", "longtemps"] },
+        { "type": "deepdive", "kind": "why", "title": "Why the present tense with depuis?",
+          "body": "English says *I **have been** living here for five years*: it looks back from today. French looks at the situation **as it is now**: I live here, and that has been true for five years. So the verb stays in the **present**: [[J'habite ici depuis cinq ans.]]\n\nThe same logic works for problems: [[L'évier fuit depuis hier.]] = The sink has been leaking since yesterday (and it's still leaking)." },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- [[J'ai habité ici depuis deux ans]] → [[J'habite ici depuis deux ans]] (still true → present).\n- [[J'habite à Laval pendant trois ans]] → if it's over, [[J'ai habité à Laval pendant trois ans]].\n- [[Il y a deux ans, j'habite au Canada]] → *ago* needs a finished action: [[Il y a deux ans, je suis arrivé au Canada]].\n- Don't translate *for* with [[pour]] in these sentences. [[Pour]] + time is mostly for plans with [[partir]] or [[aller]]: [[Je pars à Québec pour une semaine]] (I'm leaving for a week)." },
+        { "type": "deepdive", "kind": "examples", "title": "Depuis with a negative",
+          "body": "When something **has not happened** since a moment, French can use **ne… pas + passé composé** with [[depuis]]. Just recognize it for now:",
+          "examples": [
+            { "fr": "Je n'ai pas vu le propriétaire depuis un mois.", "en": "I haven't seen the landlord for a month." },
+            { "fr": "Personne n'est venu depuis mardi.", "en": "Nobody has come since Tuesday." },
+            { "fr": "Il n'y a pas d'eau chaude depuis ce matin.", "en": "There's been no hot water since this morning. (present: the problem is still going on)" }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Ça fait… que",
+          "body": "In everyday speech, especially in Québec, people love [[ça fait… que]]: [[Ça fait trois jours que j'ai pas de chauffage !]] (informal: *ne* is dropped). It means the same as [[depuis]]: [[Je n'ai pas de chauffage depuis trois jours.]]\n\nYou'll also hear [[Ça fait longtemps !]] when you meet a friend you haven't seen for a while: *Long time no see!*" }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "lines": [
+            { "fr": "J'habite ici depuis cinq ans.", "en": "I've been living here for five years.", "tip": "In cinq ans, the q is pronounced and links: cin-kan." },
+            { "fr": "J'ai emménagé il y a quatre mois.", "en": "I moved in four months ago.", "tip": "il y a often sounds like “ya” in fast speech." },
+            { "fr": "J'ai habité à Laval pendant trois ans.", "en": "I lived in Laval for three years." },
+            { "fr": "Depuis combien de temps habitez-vous ici ?", "en": "How long have you been living here?" },
+            { "fr": "Ça fait trois jours que le chauffage ne marche pas.", "en": "The heating hasn't been working for three days." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Moi, j'ai travaillé dans un restaurant à Toronto pendant deux ans.", "en": "I worked in a restaurant in Toronto for two years.",
+          "prompt": "Does the speaker still work in that restaurant?", "options": ["No", "Yes", "We can't know"], "answer": 0,
+          "explain": "[[j'ai travaillé… pendant deux ans]]: passé composé + pendant = a closed, finished period." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ma sœur travaille à l'hôpital Sainte-Justine depuis deux ans.", "en": "My sister has been working at Sainte-Justine hospital for two years.",
+          "prompt": "Does the speaker's sister still work at the hospital?", "options": ["Yes", "No", "She starts in two years"], "answer": 0,
+          "explain": "[[travaille… depuis deux ans]]: present + depuis = still true today." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Le technicien est passé il y a une heure.", "en": "The technician came by an hour ago.",
+          "prompt": "When did the technician come?", "options": ["An hour ago", "For an hour", "In an hour"], "answer": 0,
+          "explain": "[[il y a une heure]] = an hour ago. *In an hour* would be [[dans une heure]]." },
+        { "id": "h4", "type": "dictation", "fr": "Il n'y a pas d'eau chaude depuis hier soir.", "accept": [],
+          "explain": "[[depuis hier soir]] = since last night. The problem continues, so the verb is in the present." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Raj habite à Toronto ___ 2021, mais il est arrivé au Canada ___ cinq ans.", "answers": [["depuis"], ["il y a"]], "choices": ["depuis", "il y a", "pendant"], "en": "Raj has been living in Toronto since 2021, but he arrived in Canada five years ago.",
+          "explain": "Still living there → [[depuis]] + present; one finished event → [[il y a]] + passé composé." },
+        { "id": "r2", "type": "mcq", "prompt": "Sofia lived in Ottawa from 2019 to 2022. Now she lives in Gatineau. Which sentence is true?", "options": ["Elle a habité à Ottawa pendant trois ans.", "Elle habite à Ottawa depuis trois ans.", "Elle a habité à Ottawa il y a trois ans pendant."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Depuis + present would mean she still lives in Ottawa.", "Il y a and pendant don't go together like this."] },
+        { "id": "r3", "type": "translate", "prompt": "The tap has been leaking since Monday.", "accept": ["Le robinet fuit depuis lundi.", "Il y a une fuite depuis lundi."],
+          "hint": "Still leaking → present", "explain": "Present + [[depuis]] + starting point: [[Le robinet fuit depuis lundi.]]" },
+        { "id": "r4", "type": "cloze", "text": "J'ai ___ dans cet appartement il y a six mois.", "answers": [["emménagé"]], "choices": ["emménagé", "emménager", "emménage"], "en": "I moved into this apartment six months ago.",
+          "explain": "Passé composé with avoir: [[j'ai emménagé]] (-er verb → -é)." },
+        { "id": "r5", "type": "translate", "prompt": "How long have you been living in Canada? (formal)", "accept": ["Depuis combien de temps habitez-vous au Canada ?", "Depuis combien de temps est-ce que vous habitez au Canada ?", "Vous habitez au Canada depuis combien de temps ?", "Depuis quand habitez-vous au Canada ?", "Depuis quand est-ce que vous habitez au Canada ?", "Vous habitez au Canada depuis quand ?", "Depuis combien de temps vivez-vous au Canada ?", "Vous vivez au Canada depuis combien de temps ?", "Ça fait combien de temps que vous habitez au Canada ?"],
+          "explain": "[[Depuis combien de temps]] + present. Answer with [[depuis]] + duration: [[Depuis deux ans.]]" },
+        { "id": "r6", "type": "reorder", "prompt": "I called the concierge two days ago.", "accept": ["J'ai appelé le concierge il y a deux jours.", "Il y a deux jours j'ai appelé le concierge."], "extra": ["depuis"],
+          "explain": "A finished action + *ago* → passé composé + [[il y a]]." },
+        { "id": "r7", "type": "match", "prompt": "Match each French phrase to its meaning.", "pairs": [["depuis lundi", "since Monday"], ["depuis une semaine", "for a week (still going on)"],["pendant une semaine", "for a week (closed period)"], ["il y a une semaine", "a week ago"], ["dans une semaine", "in a week (from now)"]] },
+        { "id": "r8", "type": "cloze", "text": "L'été prochain, nous ___ au Maroc pendant un mois.", "answers": [["irons"]], "choices": ["irons", "allons allé", "sommes allés"], "en": "Next summer, we'll go to Morocco for a month.",
+          "explain": "Futur simple of [[aller]]: [[nous irons]] (irregular stem ir-). [[Pendant]] works for the future too." },
+        { "id": "r9", "type": "dictation", "fr": "Nous avons déménagé il y a deux ans.", "accept": [],
+          "explain": "[[déménager]] → [[nous avons déménagé]]; [[il y a deux ans]] = two years ago." },
+        { "id": "r10", "type": "mcq", "prompt": "Your neighbour asks: “Vous habitez ici depuis longtemps ?” What does she want to know?", "options": ["How long you've been living here", "When you are going to move", "If you lived here a long time ago"], "answer": 0,
+          "explain": "[[Depuis longtemps ?]] = for a long time (until now)? Answer with [[depuis]]: [[Depuis un an.]]" }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A new neighbour asks about your story. Say since when you've been living in your city, when you arrived (il y a), where you lived before and for how long (pendant), and ask them the same question.", "seconds": 45,
+          "checklist": ["depuis + present: J'habite à… depuis…", "il y a + passé composé: Je suis arrivé(e)… il y a…", "pendant: Avant, j'ai habité à… pendant…", "A question: Et vous, depuis combien de temps… ?"],
+          "models": [
+            { "label": "Model answer", "fr": "J'habite à Ottawa depuis trois ans. Je suis arrivée au Canada il y a quatre ans, avec mon mari. Avant, nous avons habité à Toronto pendant un an, chez mon frère. Maintenant, nous avons un quatre et demie près du centre-ville. Et vous, depuis combien de temps habitez-vous ici ?",
+              "en": "I've been living in Ottawa for three years. I arrived in Canada four years ago, with my husband. Before that, we lived in Toronto for a year, at my brother's. Now we have a two-bedroom apartment near downtown. And you, how long have you been living here?" }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write the history of a problem in your home, like Amira's notes: what doesn't work and since when, what you did and when, and what happened during that time.", "wordRange": [30, 60],
+          "checklist": ["The problem with depuis + present", "What you did with il y a + passé composé", "One sentence with pendant", "A pattern from lesson 2 (ne marche pas, fuit, est en panne…)"],
+          "models": [
+            { "label": "Model answer", "fr": "La laveuse de l'immeuble est en panne depuis dix jours. J'ai écrit à la gestion il y a une semaine, mais personne n'a répondu. Pendant le week-end, j'ai fait ma lessive dans une buanderie à côté. Ça coûte cher ! Je vais rappeler la gestion lundi.",
+              "en": "The building's washer has been out of order for ten days. I wrote to the management a week ago, but nobody answered. Over the weekend, I did my laundry at a laundromat nearby. It's expensive! I'm going to call the management again on Monday." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- **Still going on:** [[depuis]] + present: [[J'habite ici depuis cinq ans.]] [[Le chauffage ne marche pas depuis lundi.]]\n- **Ago:** passé composé + [[il y a]]: [[J'ai emménagé il y a quatre mois.]]\n- **A closed period:** [[pendant]]: [[J'ai habité à Laval pendant trois ans.]]\n- Ask [[Depuis quand… ?]] and [[Depuis combien de temps… ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed dictation answers that sound different from the audio (on a / nous avons; il y a / il n'y a). Added ça fait… que and futur proche variants to accept lists. Grammar of depuis / il y a / pendant checked and correct." }
+}

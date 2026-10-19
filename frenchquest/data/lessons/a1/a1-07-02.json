@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-07-02",
+  "level": "a1",
+  "unit": "a1-07",
+  "title": "Where is it?",
+  "goal": "Say where things are with prepositions of place, use du and des after de, and ask Où est… ? and Où sont… ?",
+  "minutes": 13,
+  "items": [
+    { "id": "g-de-contractions", "kind": "grammar", "fr": "de + le = du, de + les = des", "en": "contractions of de with le and les (à côté du lit)",
+      "drills": [
+        { "type": "cloze", "text": "La table est à côté ___ canapé.", "answers": [["du"]], "en": "The table is next to the sofa.", "explain": "[[de + le canapé]] → [[du canapé]]." },
+        { "type": "cloze", "text": "La chaise est près ___ table.", "answers": [["de la"]], "en": "The chair is near the table.", "explain": "[[de + la]] does not change: [[de la table]]." },
+        { "type": "cloze", "text": "Le chat est loin ___ chaises.", "answers": [["des"]], "en": "The cat is far from the chairs.", "explain": "[[de + les chaises]] → [[des chaises]]." },
+        { "type": "mcq", "prompt": "“Opposite the bed.” Which is correct?", "options": ["en face du lit", "en face de le lit", "en face des lit"], "optionsFr": true, "answer": 0, "explain": "[[de + le]] always becomes [[du]]." }
+      ] },
+    { "id": "ou-est", "kind": "phrase", "fr": "Où est la salle de bains ?", "en": "Where is the bathroom?", "accept": ["Où est la salle de bain ?", "La salle de bains est où ?", "La salle de bain est où ?"] },
+    { "id": "ou-sont", "kind": "phrase", "fr": "Où sont les toilettes ?", "en": "Where is the toilet? (asking in a home or café)", "accept": ["Les toilettes sont où ?", "Où est la toilette ?"] },
+    { "id": "sur", "kind": "vocab", "fr": "sur", "en": "on (on top of)", "pos": "preposition",
+      "example": { "fr": "Le téléphone est sur la table.", "en": "The phone is on the table." } },
+    { "id": "sous", "kind": "vocab", "fr": "sous", "en": "under", "pos": "preposition",
+      "example": { "fr": "Le chat est sous le lit.", "en": "The cat is under the bed." }, "note": "[[sous]] (ou) vs [[sur]] (u): listen carefully." },
+    { "id": "devant", "kind": "vocab", "fr": "devant", "en": "in front of", "pos": "preposition" },
+    { "id": "derriere", "kind": "vocab", "fr": "derrière", "en": "behind", "pos": "preposition" },
+    { "id": "entre", "kind": "vocab", "fr": "entre", "en": "between", "pos": "preposition",
+      "example": { "fr": "Le canapé est entre la table et le lit.", "en": "The sofa is between the table and the bed." } },
+    { "id": "a-cote-de", "kind": "vocab", "fr": "à côté de", "en": "next to", "pos": "preposition", "accept": ["à côté du", "à côté"] },
+    { "id": "en-face-de", "kind": "vocab", "fr": "en face de", "en": "opposite / across from", "pos": "preposition", "accept": ["en face du", "en face"] },
+    { "id": "pres-de", "kind": "vocab", "fr": "près de", "en": "near / close to", "pos": "preposition", "accept": ["près du", "près"] },
+    { "id": "loin-de", "kind": "vocab", "fr": "loin de", "en": "far from", "pos": "preposition", "accept": ["loin du", "loin"] },
+    { "id": "a-gauche-de", "kind": "vocab", "fr": "à gauche de", "en": "to the left of", "pos": "preposition", "accept": ["à gauche du"] },
+    { "id": "a-droite-de", "kind": "vocab", "fr": "à droite de", "en": "to the right of", "pos": "preposition", "accept": ["à droite du"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Where's my phone?",
+      "blocks": [
+        { "type": "dialogue", "title": "A busy morning in Ottawa",
+          "context": "Nguyen is late for work. He can't find anything. His partner Mei helps.",
+          "lines": [
+            { "speaker": "Nguyen", "fr": "Mei, où est mon téléphone ?", "en": "Mei, where's my phone?" },
+            { "speaker": "Mei", "fr": "Il est sur la table, dans la cuisine.", "en": "It's on the table, in the kitchen." },
+            { "speaker": "Nguyen", "fr": "Non, il n'est pas sur la table.", "en": "No, it's not on the table." },
+            { "speaker": "Mei", "fr": "Alors, il est peut-être sous le canapé.", "en": "Then maybe it's under the sofa." },
+            { "speaker": "Nguyen", "fr": "Ah oui, il est sous le canapé ! Et où sont mes clés ?", "en": "Oh yes, it's under the sofa! And where are my keys?" },
+            { "speaker": "Mei", "fr": "Tes clés ? Elles sont sur la chaise, à côté du lit.", "en": "Your keys? They're on the chair, next to the bed." },
+            { "speaker": "Nguyen", "fr": "Merci ! Et le chat ? Où est le chat ?", "en": "Thanks! And the cat? Where's the cat?" },
+            { "speaker": "Mei", "fr": "Le chat ? Il est derrière toi !", "en": "The cat? It's behind you!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "New words to understand here: [[les clés]] (keys), [[le chat]] (the cat), [[peut-être]] (maybe). Notice that the phone is [[il]] and the keys are [[elles]]: French uses il/elle for things too, following the noun's gender." }
+      ] },
+    { "type": "understand", "title": "Prepositions of place",
+      "blocks": [
+        { "type": "explain", "title": "Où est… ? Où sont… ?",
+          "body": "To ask where something is, use [[où]] (where) + [[être]]:\n\n- one thing: [[Où est le chat ?]]\n- more than one: [[Où sont mes clés ?]]\n\nIn everyday speech you also hear the question word at the end: [[Le chat est où ?]] Both are correct.\n\nIn the answer, replace the thing with [[il]] / [[elle]] / [[ils]] / [[elles]]: [[Il est sous le lit.]] [[Elles sont sur la chaise.]]" },
+        { "type": "vocab", "title": "Short prepositions", "itemIds": ["sur", "sous", "devant", "derriere", "entre"] },
+        { "type": "vocab", "title": "Prepositions with de", "itemIds": ["a-cote-de", "en-face-de", "pres-de", "loin-de", "a-gauche-de", "a-droite-de"] },
+        { "type": "table", "title": "De + the article",
+          "head": ["de + …", "becomes", "example"],
+          "rows": [
+            ["de + le", "du", "à côté du lit"],
+            ["de + la", "de la", "près de la table"],
+            ["de + l'", "de l'", "près de l'appartement"],
+            ["de + les", "des", "en face des toilettes"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": true,
+          "note": "Only **le** and **les** combine with [[de]]. [[De le]] and [[de les]] never appear in French. With a city or a name there is no article: [[loin de Montréal]], [[à côté de Karim]]." },
+        { "type": "pattern", "title": "Where is it?",
+          "pattern": "sujet + être + préposition + lieu",
+          "note": "When nothing follows, drop the [[de]]: [[La salle de bains est à côté.]] (The bathroom is right nearby.) [[C'est loin ?]] (Is it far?)",
+          "examples": [
+            { "fr": "Le téléphone est sur la table.", "en": "The phone is on the table." },
+            { "fr": "Les chaises sont devant le canapé.", "en": "The chairs are in front of the sofa." },
+            { "fr": "La cuisine est en face du salon.", "en": "The kitchen is opposite the living room." },
+            { "fr": "Mes parents habitent loin de Montréal.", "en": "My parents live far from Montréal." }
+          ] },
+        { "type": "deepdive", "kind": "why", "title": "Du and des again?",
+          "body": "You already know [[du]] and [[des]] from food: [[du pain]] (some bread). Here they are **the same contraction** of [[de + le]] and [[de + les]], but here [[de]] is part of the preposition ([[à côté de]], [[près de]]) and does not mean *some*.\n\n- [[Je mange du pain.]] = I eat some bread.\n- [[Le pain est à côté du fromage.]] = The bread is next to the cheese.\n\nThe form is the same; the meaning comes from the words around it.",
+          "examples": [ { "fr": "La table est à côté du canapé.", "en": "The table is next to the sofa." } ] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Sur vs sous:** [[sur]] (on) has the tight French *u*; [[sous]] (under) has *ou* like “soo”. Mixing them up puts your phone on the bed instead of under it!\n- **Forgetting de:** say [[à côté de la cuisine]], not [[à côté la cuisine]]. But [[sur]], [[sous]], [[devant]], [[derrière]], [[entre]] take no [[de]]: [[devant la table]].\n- **De le:** always [[du]]: [[près du salon]].\n- **With or without de:** [[La cuisine est à gauche du salon.]] (to the left of the living room) but [[La cuisine est à gauche.]] (on the left) when nothing follows." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "In everyday Québec French you will often hear [[en arrière de]] for [[derrière]] and [[en avant de]] for [[devant]]: [[Le chat est en arrière du divan.]] It's informal; understand it, but use [[derrière]] and [[devant]] when you write or speak in a formal situation.",
+          "examples": [ { "fr": "Le stationnement est en arrière de la maison.", "en": "The parking lot is behind the house." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud. Pay special attention to [[sur]] and [[sous]].",
+          "lines": [
+            { "fr": "sur la table", "en": "on the table", "tip": "Say “ee” with your lips rounded for the u." },
+            { "fr": "sous la table", "en": "under the table", "tip": "ou sounds like “soo”." },
+            { "fr": "à côté du lit", "en": "next to the bed", "tip": "[[du]] has the same u as [[sur]]." },
+            { "fr": "derrière le canapé", "en": "behind the sofa", "tip": "Two r sounds, one in the middle and one at the end: “dair-yair”, with the French r from the throat." },
+            { "fr": "Où sont mes clés ?", "en": "Where are my keys?", "tip": "[[où]] sounds like “oo”; the s of [[mes]] and [[clés]] is silent." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Le téléphone est sous le lit.", "en": "The phone is under the bed.", "prompt": "Where is the phone?", "options": ["Under the bed", "On the bed", "Next to the bed"], "answer": 0, "explain": "You hear [[sous]] (ou), not [[sur]] (u)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Les chaises sont derrière la table.", "en": "The chairs are behind the table.", "prompt": "Where are the chairs?", "options": ["Behind the table", "In front of the table", "On the table"], "answer": 0, "explain": "[[derrière]] = behind; [[devant]] = in front of." },
+        { "id": "h3", "type": "listen-mcq", "fr": "La salle de bains est en face de la cuisine.", "en": "The bathroom is opposite the kitchen.", "prompt": "Where is the bathroom?", "options": ["Opposite the kitchen", "Next to the kitchen", "Far from the kitchen"], "answer": 0, "explain": "[[en face de]] = opposite / across from." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Picture the room as you answer.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le chat est ___ le lit.", "answers": [["sous"]], "choices": ["sous", "sur", "entre", "à côté"], "en": "The cat is under the bed.", "explain": "[[sous]] = under; [[sur]] = on." },
+        { "id": "r2", "type": "cloze", "text": "Le canapé est à côté ___ table.", "answers": [["de la"]], "choices": ["de la", "du", "des", "de le"], "en": "The sofa is next to the table.", "explain": "[[table]] is feminine: [[de la]] stays as it is." },
+        { "id": "r3", "type": "cloze", "text": "La chaise est en face ___ lit.", "answers": [["du"]], "choices": ["du", "de le", "de la", "des"], "en": "The chair is opposite the bed.", "explain": "[[de + le lit]] → [[du lit]]." },
+        { "id": "r4", "type": "mcq", "prompt": "How do you say “near the toilets”?", "options": ["près des toilettes", "près de les toilettes", "près du toilettes", "près toilettes"], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "De + les always becomes des.", "Du is for masculine singular nouns.", "Près needs de."] },
+        { "id": "r5", "type": "match", "prompt": "Match each preposition to its meaning.", "pairs": [["devant", "in front of"], ["derrière", "behind"], ["près de", "near"], ["loin de", "far from"], ["en face de", "opposite"], ["entre", "between"]] },
+        { "id": "r6", "type": "translate", "prompt": "Where are the chairs?", "accept": ["Où sont les chaises ?", "Les chaises sont où ?"], "explain": "Plural: [[Où sont…]] with [[sont]], the plural of [[est]]." },
+        { "id": "r7", "type": "translate", "prompt": "The bathroom is next to the kitchen.", "accept": ["La salle de bains est à côté de la cuisine.", "La salle de bain est à côté de la cuisine."], "explain": "[[à côté de]] + [[la cuisine]]; [[de la]] doesn't contract." },
+        { "id": "r8", "type": "reorder", "prompt": "The sofa is between the table and the bed.", "accept": ["Le canapé est entre la table et le lit."], "extra": ["de"], "explain": "[[entre]] takes no [[de]]: [[entre la table et le lit]]." },
+        { "id": "r9", "type": "translate", "prompt": "My parents live far from Toronto.", "accept": ["Mes parents habitent loin de Toronto."], "hint": "habiter: ils habitent", "explain": "[[mes parents]] → [[habitent]]; a city takes no article: [[loin de Toronto]]." },
+        { "id": "r10", "type": "dictation", "fr": "Mon téléphone est sur la table.", "accept": ["Mon téléphone est sur la table"], "explain": "[[sur]] (on) with the u sound; [[téléphone]] has two é." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Look around the room you're in. Describe where four things are, using at least four different prepositions.", "seconds": 40,
+          "checklist": ["Four objects or pieces of furniture", "At least one preposition with de (à côté de, en face de…)", "One contraction: du or des", "One plural: … sont …"],
+          "models": [ { "label": "Model answer", "fr": "Je suis dans le salon. Le canapé est devant la table. Mon téléphone est sur le canapé. Les chaises sont à côté de la table, et le chat est sous une chaise. La cuisine est en face du salon.", "en": "I'm in the living room. The sofa is in front of the table. My phone is on the sofa. The chairs are next to the table, and the cat is under a chair. The kitchen is opposite the living room." } ] },
+        { "id": "w1", "type": "write", "prompt": "A friend is staying at your place while you're away. Write a note telling them where three or four things are (rooms, furniture, keys…).", "wordRange": [20, 45],
+          "checklist": ["At least three things and where they are", "Use du or des at least once", "Use où or a question if you like"],
+          "models": [ { "label": "Model answer", "fr": "Salut Sofia ! Bienvenue ! Les clés sont sur la table, dans la cuisine. Ta chambre est à côté de la salle de bains. Les toilettes sont en face du salon. Le chat est souvent sous le lit. Bonne semaine ! Karim", "en": "Hi Sofia! Welcome! The keys are on the table, in the kitchen. Your bedroom is next to the bathroom. The toilet is opposite the living room. The cat is often under the bed. Have a good week! Karim" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Say where things are with [[sur, sous, devant, derrière, entre, à côté de, en face de, près de, loin de, à gauche de, à droite de]]\n- Contract [[de + le = du]] and [[de + les = des]]: [[à côté du lit]]\n- Ask [[Où est… ?]] and [[Où sont… ?]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the gloss of \"à côté\" used alone (\"next door\" → \"right nearby\"), clarified that de in à côté du is part of the preposition, and rewrote the derrière pronunciation tip. French content was otherwise correct." }
+}

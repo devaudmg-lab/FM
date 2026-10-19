@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-05-06",
+  "level": "a2",
+  "unit": "a2-05",
+  "title": "Workshop: Travel and transport",
+  "goal": "Get more practice with tickets, announcements, polite requests and hotels in new situations: a lost suitcase in Halifax, an in-flight announcement and a call from a hotel.",
+  "minutes": 20,
+  "items": [
+    { "id": "carte-embarquement", "kind": "vocab", "fr": "carte d'embarquement", "article": "la", "gender": "f", "en": "boarding pass", "pos": "noun",
+      "example": { "fr": "Voici ma carte d'embarquement.", "en": "Here's my boarding pass." } },
+    { "id": "bagage-main", "kind": "vocab", "fr": "bagage à main", "article": "le", "gender": "m", "en": "carry-on bag", "pos": "noun",
+      "example": { "fr": "J'ai mes médicaments dans mon bagage à main.", "en": "I have my medication in my carry-on bag." } },
+    { "id": "escale", "kind": "vocab", "fr": "escale", "article": "l'", "gender": "f", "en": "stopover, layover", "pos": "noun",
+      "example": { "fr": "J'ai fait une escale à Montréal.", "en": "I had a layover in Montréal." }, "note": "[[un vol direct]] = a direct flight, with no stopover." },
+    { "id": "siege", "kind": "vocab", "fr": "siège", "article": "le", "gender": "m", "en": "seat", "pos": "noun",
+      "example": { "fr": "Je voudrais un siège côté hublot.", "en": "I'd like a window seat." } },
+    { "id": "douane", "kind": "vocab", "fr": "douane", "article": "la", "gender": "f", "en": "customs (at a border or airport)", "pos": "noun",
+      "example": { "fr": "Nous avons attendu une heure à la douane.", "en": "We waited an hour at customs." } },
+    { "id": "atterrir", "kind": "vocab", "fr": "atterrir", "en": "to land (a plane)", "pos": "verb",
+      "example": { "fr": "L'avion a atterri à 18 h.", "en": "The plane landed at 6 p.m." }, "note": "Like finir: j'atterris, l'avion a atterri." },
+    { "id": "decoller", "kind": "vocab", "fr": "décoller", "en": "to take off (a plane)", "pos": "verb",
+      "example": { "fr": "L'avion a décollé en retard.", "en": "The plane took off late." } },
+    { "id": "livrer", "kind": "vocab", "fr": "livrer", "en": "to deliver", "pos": "verb",
+      "example": { "fr": "Nous livrerons votre valise à l'hôtel.", "en": "We'll deliver your suitcase to the hotel." } },
+    { "id": "enregistrer-valise", "kind": "phrase", "fr": "enregistrer une valise", "en": "to check a suitcase (at the airport)",
+      "example": { "fr": "Je voudrais enregistrer cette valise.", "en": "I'd like to check this suitcase." } },
+    { "id": "a-l-heure", "kind": "phrase", "fr": "à l'heure", "en": "on time",
+      "example": { "fr": "Le train est arrivé à l'heure.", "en": "The train arrived on time." }, "note": "The opposite: [[en retard]] (late) or, in announcements, [[retardé]] (delayed)." }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Where is my suitcase?",
+      "intro": "Sofia lands in Halifax, but her suitcase doesn't. Read once for the problem and the solution, then find the polite requests and the futur simple.",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "At the baggage counter, Halifax airport",
+          "context": "Sofia flew from Winnipeg with a stopover in Montréal.",
+          "lines": [
+            { "speaker": "Agent", "fr": "Bonjour, madame. Je peux vous aider ?", "en": "Hello, ma'am. Can I help you?" },
+            { "speaker": "Sofia", "fr": "Bonjour, monsieur. Excusez-moi, ma valise n'est pas arrivée. J'ai attendu quarante minutes, mais elle n'est pas sortie.", "en": "Hello, sir. Excuse me, my suitcase didn't arrive. I waited forty minutes, but it didn't come out." },
+            { "speaker": "Agent", "fr": "Je suis désolé. Vous arrivez d'où ?", "en": "I'm sorry. Where are you arriving from?" },
+            { "speaker": "Sofia", "fr": "De Winnipeg, avec une escale à Montréal. Mon premier vol a décollé en retard, alors j'ai eu seulement vingt minutes pour ma correspondance.", "en": "From Winnipeg, with a stopover in Montréal. My first flight took off late, so I had only twenty minutes for my connection." },
+            { "speaker": "Agent", "fr": "Je comprends. Pourriez-vous me montrer votre carte d'embarquement et l'étiquette de votre valise ?", "en": "I understand. Could you show me your boarding pass and your baggage tag?" },
+            { "speaker": "Sofia", "fr": "Oui, voilà.", "en": "Yes, here you are." },
+            { "speaker": "Agent", "fr": "Merci… Votre valise est restée à Montréal. Elle arrivera par le prochain vol, ce soir à 21 h.", "en": "Thank you… Your suitcase stayed in Montréal. It will arrive on the next flight, tonight at 9 p.m." },
+            { "speaker": "Sofia", "fr": "Ce soir ? Mais toutes mes affaires sont dedans ! Heureusement, j'ai mes médicaments dans mon bagage à main.", "en": "Tonight? But all my things are in it! Luckily, I have my medication in my carry-on bag." },
+            { "speaker": "Agent", "fr": "Nous livrerons la valise à votre hôtel demain matin, avant 10 h. Vous restez où ?", "en": "We'll deliver the suitcase to your hotel tomorrow morning, before 10 a.m. Where are you staying?" },
+            { "speaker": "Sofia", "fr": "À l'hôtel Le Phare, près du port. J'ai une réservation pour trois nuits.", "en": "At the Le Phare hotel, near the harbour. I have a reservation for three nights." },
+            { "speaker": "Agent", "fr": "Parfait. Remplissez ce formulaire, s'il vous plaît. Et si vous devez acheter une brosse à dents ou des vêtements, gardez vos reçus : la compagnie paiera ces achats.", "en": "Perfect. Please fill in this form. And if you have to buy a toothbrush or clothes, keep your receipts: the airline will pay for these purchases." },
+            { "speaker": "Sofia", "fr": "Est-ce que je pourrais avoir un numéro pour suivre ma valise ?", "en": "Could I have a number to track my suitcase?" },
+            { "speaker": "Agent", "fr": "Bien sûr. Voici votre numéro de dossier. Vous pouvez aussi suivre la valise sur notre site web.", "en": "Of course. Here's your file number. You can also track the suitcase on our website." },
+            { "speaker": "Sofia", "fr": "Merci, c'est très gentil de votre part.", "en": "Thank you, that's very kind of you." },
+            { "speaker": "Agent", "fr": "Je vous en prie. Bon séjour à Halifax, malgré tout !", "en": "You're welcome. Enjoy your stay in Halifax, in spite of everything!" }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "[[l'étiquette]] = the (baggage) tag. [[mes affaires]] = my things. [[dedans]] = inside (it). [[un reçu]] = a receipt. [[suivre]] = to follow, to track. [[malgré tout]] = in spite of everything."
+        },
+        { "id": "c1", "type": "mcq", "prompt": "Why did Sofia's suitcase stay in Montréal?", "options": ["Her first flight was late, so her connection was very short.", "She forgot to check it.", "She took the wrong flight."], "answer": 0,
+          "explain": "[[Mon premier vol a décollé en retard]]: only twenty minutes for the connection. Sofia made it, but her suitcase didn't." },
+        { "id": "c2", "type": "mcq", "prompt": "When and where will Sofia get her suitcase?", "options": ["At her hotel, tomorrow before 10 a.m.", "At the airport, tonight at 9 p.m.", "At the airport, in three days"], "answer": 0,
+          "explain": "It arrives in Halifax tonight at 21 h, but [[nous livrerons la valise à votre hôtel demain matin, avant 10 h]]." },
+        { "id": "c3", "type": "mcq", "prompt": "What does the agent tell her to keep?", "options": ["Her receipts", "Her boarding pass", "Her medication"], "answer": 0,
+          "explain": "[[gardez vos reçus : la compagnie paiera ces achats]]." }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 5 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Travel French in one table",
+          "head": ["Situation", "Example"],
+          "rows": [
+            ["buying a ticket", "Je voudrais un aller-retour pour Halifax. À quelle heure part le prochain train ?"],
+            ["announcements", "Le vol 214 en provenance de Toronto est retardé. Embarquement à la porte 8."],
+            ["agreement", "Le vol est annulé. La correspondance est annulée. Les taxes sont comprises."],
+            ["polite requests", "Excusez-moi de vous déranger. Pourriez-vous m'aider ? Savez-vous où est la douane ?"],
+            ["hotels", "J'ai une réservation au nom de Reyes, pour trois nuits. Le déjeuner est compris ?"],
+            ["thanking", "C'est très gentil de votre part. — Je vous en prie. / Bienvenue !"]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "When something goes wrong",
+          "body": "Sofia's conversation is a good model for any travel problem:\n\n1. **Open politely:** [[Bonjour, monsieur. Excusez-moi…]]\n2. **Say the problem in the passé composé:** [[ma valise n'est pas arrivée]], [[j'ai manqué mon train]].\n3. **Explain why:** [[mon vol a décollé en retard, alors…]]\n4. **Ask for a solution:** [[Pourriez-vous… ? Est-ce que je pourrais… ?]]\n5. **Thank them:** [[C'est très gentil de votre part.]]\n\nStaff will answer with the futur simple: [[elle arrivera ce soir]], [[nous livrerons la valise]]."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for flying",
+          "itemIds": ["carte-embarquement", "bagage-main", "escale", "siege", "douane", "atterrir", "decoller", "livrer", "enregistrer-valise", "a-l-heure"]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Flying in Canada",
+          "body": "- At check-in you may hear: [[Côté hublot ou côté couloir ?]] (window or aisle?). You will also hear [[côté fenêtre]] and [[côté allée]]: both are common.\n- Bilingual announcements are normal on flights in Canada: listen to the French first, then check with the English.\n- In Canada, air passengers have rights when a flight is delayed or cancelled, or a bag is lost or damaged. Keep your boarding pass, your baggage tag and your receipts, and check the **Canadian Transportation Agency** ([[l'Office des transports du Canada]]) website for the current rules."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Two recordings",
+      "intro": "Listen to each recording first, then answer. Each question replays one part.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "1. On the plane",
+          "context": "The captain speaks to the passengers before landing.",
+          "fr": "Mesdames et messieurs, ici votre commandant de bord. Nous allons atterrir à Halifax dans vingt minutes, à l'heure prévue. À Halifax, il fait douze degrés et il pleut un peu. Veuillez retourner à votre siège et attacher votre ceinture. Les passagers en correspondance pour Saint-Jean de Terre-Neuve : votre vol partira de la porte 8, à 19 h 10. Merci d'avoir choisi notre compagnie, et bon séjour dans les Maritimes !",
+          "en": "Ladies and gentlemen, this is your captain. We are going to land in Halifax in twenty minutes, on schedule. In Halifax it's twelve degrees and it's raining a little. Please return to your seat and fasten your seatbelt. Passengers connecting to St. John's, Newfoundland: your flight will leave from gate 8 at 7:10 p.m. Thank you for choosing our airline, and enjoy your stay in the Maritimes!"
+        },
+        {
+          "type": "listen",
+          "title": "2. A message from the hotel",
+          "context": "The next morning, Sofia gets a voicemail from her hotel.",
+          "fr": "Bonjour, madame Reyes, ici Julie, de l'hôtel Le Phare. Bonne nouvelle : votre valise est arrivée ce matin à 9 h. Elle est à la réception. Autre chose : pour votre troisième nuit, vous avez demandé une chambre avec vue sur le port. Malheureusement, elle n'est pas disponible. Nous avons une autre chambre au cinquième étage, avec vue sur la ville, au même prix. Le déjeuner est toujours compris. Pourriez-vous nous rappeler au 902 555 0147 ? Merci et bonne journée !",
+          "en": "Hello, Ms. Reyes, this is Julie from the Le Phare hotel. Good news: your suitcase arrived this morning at 9 a.m. It's at the front desk. One more thing: for your third night, you asked for a room with a harbour view. Unfortunately, it isn't available. We have another room on the fifth floor, with a view of the city, for the same price. Breakfast is still included. Could you call us back at 902 555 0147? Thank you and have a good day!"
+        },
+        { "id": "h1", "type": "listen-mcq", "fr": "Nous allons atterrir à Halifax dans vingt minutes, à l'heure prévue.", "en": "We are going to land in Halifax in twenty minutes, on schedule.",
+          "prompt": "When will the plane land?", "options": ["In twenty minutes, on time", "In twenty minutes, late", "In two hours"], "answer": 0,
+          "explain": "[[dans vingt minutes, à l'heure prévue]]: à l'heure = on time; prévu = planned, scheduled." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Veuillez retourner à votre siège et attacher votre ceinture.", "en": "Please return to your seat and fasten your seatbelt.",
+          "prompt": "What must passengers do?", "options": ["Go back to their seat and fasten their seatbelt", "Get their carry-on bags ready", "Show their boarding pass"], "answer": 0,
+          "explain": "[[Veuillez]] is a very formal *please* + infinitive. [[la ceinture]] = the seatbelt." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Les passagers en correspondance pour Saint-Jean de Terre-Neuve : votre vol partira de la porte 8, à 19 h 10.", "en": "Passengers connecting to St. John's, Newfoundland: your flight will leave from gate 8 at 7:10 p.m.",
+          "prompt": "Where does the connecting flight to St. John's leave from?", "options": ["Gate 8", "Gate 19", "Gate 10"], "answer": 0,
+          "explain": "[[la porte 8]]; 19 h 10 is the time." },
+        { "id": "h4", "type": "listen-mcq", "fr": "Bonne nouvelle : votre valise est arrivée ce matin à 9 h. Elle est à la réception.", "en": "Good news: your suitcase arrived this morning at 9 a.m. It's at the front desk.",
+          "prompt": "Where is Sofia's suitcase now?", "options": ["At the hotel front desk", "In her room", "Still at the airport"], "answer": 0,
+          "explain": "[[Elle est à la réception]]. Note [[votre valise est arrivée]]: arriver takes être, and valise is feminine → arrivée." },
+        { "id": "h5", "type": "listen-mcq", "fr": "Malheureusement, elle n'est pas disponible. Nous avons une autre chambre au cinquième étage, avec vue sur la ville, au même prix.", "en": "Unfortunately, it isn't available. We have another room on the fifth floor, with a view of the city, for the same price.",
+          "prompt": "What does the hotel offer for the third night?", "options": ["A room with a city view, same price", "A free room with a harbour view", "A cheaper room without breakfast"], "answer": 0,
+          "explain": "[[avec vue sur la ville, au même prix]], and breakfast is [[toujours compris]]." },
+        { "id": "d1", "type": "dictation", "fr": "Nous allons atterrir à Halifax dans vingt minutes.", "accept": ["Nous allons atterrir à Halifax dans 20 minutes."],
+          "explain": "Futur proche: [[nous allons]] + infinitive [[atterrir]] (two t's, two r's)." },
+        { "id": "d2", "type": "dictation", "fr": "Votre valise est arrivée ce matin.", "accept": [],
+          "explain": "[[la valise]] is feminine, so [[arrivée]] takes an -e." }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most on Unit 5, some on Units 1 to 4. Aim for 80%.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je voudrais un ___ pour Halifax : je pars lundi et je reviens samedi.", "answers": [["aller-retour"]], "choices": ["aller-retour", "aller simple", "escale"], "en": "I'd like a round-trip ticket to Halifax: I'm leaving on Monday and coming back on Saturday.",
+          "explain": "You go and come back → [[un aller-retour]]. One way only → [[un aller simple]]." },
+        { "id": "r2", "type": "mcq", "prompt": "« Le vol 214 en provenance de Toronto est retardé. » What does this mean?", "options": ["The flight arriving from Toronto is delayed.", "The flight going to Toronto is delayed.", "The flight arriving from Toronto is cancelled."], "answer": 0,
+          "explain": "[[en provenance de]] = coming from; [[à destination de]] = going to. [[retardé]] = delayed; [[annulé]] = cancelled.",
+          "optionFeedback": [null, "Going to Toronto would be à destination de Toronto.", "Cancelled is annulé."] },
+        { "id": "r3", "type": "translate", "prompt": "Could you tell me where customs is? (formal)", "accept": ["Pourriez-vous me dire où est la douane ?", "Pourriez-vous me dire où se trouve la douane ?", "Est-ce que vous pourriez me dire où est la douane ?", "Est-ce que vous pourriez me dire où se trouve la douane ?", "Vous pourriez me dire où est la douane ?", "Vous pourriez me dire où se trouve la douane ?"], "hint": "Pourriez-vous me dire où… ?",
+          "explain": "Learn the chunk whole: [[Pourriez-vous me dire où…]]. [[me]] goes before the infinitive." },
+        { "id": "r4", "type": "cloze", "text": "La correspondance est ___ et les taxes ne sont pas ___. (annulé, compris)", "answers": [["annulée"], ["comprises"]], "en": "The connection is cancelled and taxes aren't included.",
+          "explain": "They agree like adjectives: [[la correspondance]] (f) → annulée; [[les taxes]] (f pl) → comprises." },
+        { "id": "r5", "type": "reorder", "prompt": "I'd like to check this suitcase.", "accept": ["Je voudrais enregistrer cette valise."], "extra": ["valises"],
+          "explain": "[[je voudrais]] + infinitive. [[enregistrer]] = to check (bags) at the airport." },
+        { "id": "r6", "type": "translate", "prompt": "The plane took off late.", "accept": ["L'avion a décollé en retard.", "L'avion a décollé avec du retard.", "L'avion est parti en retard.", "L'avion a décollé avec retard."], "hint": "décoller takes avoir",
+          "explain": "[[décoller]] is not in the house of être → [[a décollé]]." },
+        { "id": "r7", "type": "match", "prompt": "Match the new words.", "pairs": [["la carte d'embarquement", "boarding pass"], ["le bagage à main", "carry-on bag"], ["l'escale", "layover"], ["la douane", "customs"], ["le siège", "seat"], ["à l'heure", "on time"]] },
+        { "id": "r8", "type": "dictation", "fr": "Excusez-moi de vous déranger, ma valise n'est pas arrivée.", "accept": ["Excusez-moi de vous déranger. Ma valise n'est pas arrivée.", "Excusez-moi de vous déranger : ma valise n'est pas arrivée."],
+          "explain": "A polite opener, then the problem with être + agreement: [[n'est pas arrivée]]." },
+        { "id": "r9", "type": "cloze", "text": "Votre valise ___ par le prochain vol, et nous ___ la valise à votre hôtel. (arriver, livrer)", "answers": [["arrivera"], ["livrerons"]], "en": "Your suitcase will arrive on the next flight, and we'll deliver the suitcase to your hotel.",
+          "explain": "Unit 4: futur simple = infinitive + ending: [[arrivera]] (elle), [[livrerons]] (nous)." },
+        { "id": "r10", "type": "cloze", "text": "Sofia est ___ à Halifax à 18 h, mais sa valise est ___ à Montréal. (arriver, rester)", "answers": [["arrivée"], ["restée"]], "en": "Sofia arrived in Halifax at 6 p.m., but her suitcase stayed in Montréal.",
+          "explain": "Unit 2: arriver and rester use être; Sofia and la valise are feminine → -e." },
+        { "id": "r11", "type": "mcq", "prompt": "Quand je suis sortie de l'aéroport, il ___ froid et j'___ très fatiguée.", "options": ["faisait / étais", "a fait / ai été", "fait / suis", "était / avais"], "optionsFr": true, "answer": 0,
+          "explain": "Unit 3: the event is in the passé composé ([[je suis sortie]]); the weather and the feeling are the background → imparfait.",
+          "optionFeedback": [null, "Weather and feelings at that moment are background: imparfait.", "These are present forms.", "Weather uses faire, and a feeling with an adjective uses être."] },
+        { "id": "r12", "type": "translate", "prompt": "I haven't found my boarding pass yet.", "accept": ["Je n'ai pas encore trouvé ma carte d'embarquement.", "Je n'ai pas encore retrouvé ma carte d'embarquement."], "hint": "Unit 1: ne… pas encore",
+          "explain": "[[ne… pas encore]] around avoir: [[je n'ai pas encore trouvé]]." }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "A friend is flying to Montréal next week to visit you. Write them a message (60–100 words): how to get from the airport to your place (bus, metro), which ticket to buy and how much it costs, and what to do if the flight is late. (Prices in the models are examples: fares change, so check the STM website.)",
+          "promptFr": "Expliquez à un ami comment venir de l'aéroport jusqu'à chez vous.",
+          "wordRange": [60, 100],
+          "checklist": ["A greeting and your excitement", "Clear steps: d'abord, ensuite, puis", "The ticket: un aller simple, le titre…, the price", "At least three verbs in the futur simple (tu prendras, tu descendras…)", "One sentence with quand + futur", "A plan B: si ton vol est retardé, …"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Salut Diego ! J'ai hâte ! Quand tu arriveras à l'aéroport, tu prendras l'autobus 747. Le billet coûte environ 11 $ et il est valide 24 heures, dans l'autobus et dans le métro. Tu descendras à la station Lionel-Groulx et tu prendras le métro, ligne verte, jusqu'à Pie-IX. J'habite à cinq minutes à pied. Si ton vol est retardé, écris-moi : je viendrai à l'aéroport en voiture.",
+              "en": "Hi Diego! I can't wait! When you arrive at the airport, you'll take the 747 bus. The ticket costs about $11 and it's valid for 24 hours, on the bus and on the metro. You'll get off at Lionel-Groulx station and take the metro, green line, to Pie-IX. I live five minutes' walk away. If your flight is delayed, text me: I'll come to the airport by car." },
+            { "label": "Stronger model answer",
+              "fr": "Bonjour Ana ! J'ai vraiment hâte ! Voici mes conseils. D'abord, après la douane, cherche les panneaux « Autobus 747 ». Achète un titre 24 heures à la machine : il coûte environ 11 $, et tu pourras aussi prendre le métro avec ce billet. Ensuite, tu descendras à la station Berri-UQAM, puis tu prendras la ligne orange jusqu'à Laurier. Quand tu seras là, appelle-moi : j'habite juste à côté. Attention, si ton vol atterrit après minuit, prends un taxi. Et ne mets pas ton passeport dans ta valise : mets ton passeport dans ton bagage à main !",
+              "en": "Hello Ana! I really can't wait! Here's my advice. First, after customs, look for the “747 bus” signs. Buy a 24-hour pass at the machine: it costs about $11, and you'll be able to take the metro with this ticket too. Then you'll get off at Berri-UQAM station, and you'll take the orange line to Laurier. When you're there, call me: I live right next door. Careful: if your flight lands after midnight, take a taxi. And don't put your passport in your suitcase: put your passport in your carry-on bag!" }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "Your flight to Vancouver is cancelled. At the airline counter, speak for about a minute: open politely, explain the problem, ask for a new flight and for a hotel, and thank the agent.",
+          "promptFr": "Votre vol est annulé. Parlez à l'agent au comptoir de la compagnie.",
+          "seconds": 60,
+          "checklist": ["Bonjour, madame / monsieur. Excusez-moi de vous déranger…", "The problem: mon vol pour… est annulé", "Why it matters: j'ai une réunion / une réservation…", "Two polite requests: Pourriez-vous… ? Est-ce que je pourrais… ?", "A question with Savez-vous si… ?", "Thanks: C'est très gentil de votre part."],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Bonjour, madame. Excusez-moi de vous déranger. Mon vol pour Vancouver est annulé, mais j'ai une réunion demain matin. Pourriez-vous me trouver une place sur le prochain vol ? Savez-vous s'il y a un vol ce soir ? Et est-ce que je pourrais avoir une chambre d'hôtel ? Merci beaucoup, c'est très gentil de votre part.",
+              "en": "Hello, ma'am. Sorry to bother you. My flight to Vancouver is cancelled, but I have a meeting tomorrow morning. Could you find me a seat on the next flight? Do you know if there's a flight tonight? And could I have a hotel room? Thank you very much, that's very kind of you." },
+            { "label": "Stronger model answer",
+              "fr": "Bonjour, monsieur. Excusez-moi de vous déranger. J'ai vu sur l'écran que mon vol pour Vancouver est annulé, en raison du mauvais temps. Le problème, c'est que ma sœur se marie samedi, et je dois absolument arriver demain. Pourriez-vous vérifier s'il reste un siège sur le premier vol demain matin ? Si possible côté couloir. Ma valise est déjà enregistrée : savez-vous si elle partira avec moi ? Et est-ce que la compagnie paiera l'hôtel cette nuit ? Merci beaucoup, vous êtes très patient.",
+              "en": "Hello, sir. Sorry to bother you. I saw on the screen that my flight to Vancouver is cancelled because of bad weather. The problem is that my sister is getting married on Saturday, and I absolutely have to arrive tomorrow. Could you check if there's a seat left on the first flight tomorrow morning? An aisle seat if possible. My suitcase is already checked: do you know if it will leave with me? And will the airline pay for the hotel tonight? Thank you very much, you're very patient." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Explain a travel problem politely and understand the solution: [[ma valise n'est pas arrivée]], [[nous livrerons la valise à votre hôtel]]\n- Follow an in-flight announcement and a voicemail from a hotel\n- New words for flying: [[la carte d'embarquement, le bagage à main, l'escale, la douane, atterrir, décoller]]\n- Give a friend clear travel instructions with the futur simple",
+  "completion": { "threshold": 0.8 },
+  "meta": {"reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed the Québec-only claim for côté fenêtre, hedged the STM 747 fare as an example price, smoothed one model sentence, and completed accept lists (r3, r6, r8, r12, digits in d1)."}
+}

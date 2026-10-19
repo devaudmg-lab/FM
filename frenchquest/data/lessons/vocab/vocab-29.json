@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-29",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Verbs for people and situations",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "verbs for getting along, rules and decisions, and difficulties",
+  "goal": "Recognise and use 20 verbs for dealing with people, rules and difficult situations.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "mentir",
+      "kind": "vocab",
+      "fr": "mentir",
+      "en": "to lie (tell lies)",
+      "pos": "verb",
+      "example": {
+        "fr": "Il ment à ses parents.",
+        "en": "He lies to his parents."
+      },
+      "note": "Irregular: je mens, il ment, il a menti."
+    },
+    {
+      "id": "embeter",
+      "kind": "vocab",
+      "fr": "embêter",
+      "en": "to bother, to annoy",
+      "pos": "verb",
+      "example": {
+        "fr": "Arrête d'embêter ta sœur !",
+        "en": "Stop bothering your sister!"
+      }
+    },
+    {
+      "id": "se-meler-de",
+      "kind": "vocab",
+      "fr": "se mêler de",
+      "en": "to meddle in, to get involved in",
+      "pos": "verb",
+      "accept": [
+        "se mêler"
+      ],
+      "example": {
+        "fr": "Mêle-toi de tes affaires !",
+        "en": "Mind your own business!"
+      }
+    },
+    {
+      "id": "plaire",
+      "kind": "vocab",
+      "fr": "plaire",
+      "en": "to please; to be liked",
+      "pos": "verb",
+      "example": {
+        "fr": "Ce cadeau va te plaire.",
+        "en": "You're going to like this gift."
+      },
+      "note": "Ça me plaît = I like it."
+    },
+    {
+      "id": "impressionner",
+      "kind": "vocab",
+      "fr": "impressionner",
+      "en": "to impress",
+      "pos": "verb",
+      "example": {
+        "fr": "Sa présentation a impressionné le jury.",
+        "en": "Her presentation impressed the jury."
+      }
+    },
+    {
+      "id": "surprendre",
+      "kind": "vocab",
+      "fr": "surprendre",
+      "en": "to surprise; to catch (someone doing)",
+      "pos": "verb",
+      "example": {
+        "fr": "Ta réaction me surprend.",
+        "en": "Your reaction surprises me."
+      }
+    },
+    {
+      "id": "effrayer",
+      "kind": "vocab",
+      "fr": "effrayer",
+      "en": "to frighten, to scare",
+      "pos": "verb",
+      "example": {
+        "fr": "Le bruit de l'orage effraie le chat.",
+        "en": "The noise of the storm frightens the cat."
+      }
+    },
+    {
+      "id": "obeir",
+      "kind": "vocab",
+      "fr": "obéir",
+      "en": "to obey",
+      "pos": "verb",
+      "example": {
+        "fr": "Les enfants doivent obéir aux règles de l'école.",
+        "en": "Children must obey the school rules."
+      },
+      "note": "obéir à quelqu’un / à quelque chose"
+    },
+    {
+      "id": "ordonner",
+      "kind": "vocab",
+      "fr": "ordonner",
+      "en": "to order, to command",
+      "pos": "verb",
+      "example": {
+        "fr": "Le médecin lui a ordonné de se reposer.",
+        "en": "The doctor ordered him to rest."
+      }
+    },
+    {
+      "id": "cesser",
+      "kind": "vocab",
+      "fr": "cesser",
+      "en": "to stop, to cease",
+      "pos": "verb",
+      "example": {
+        "fr": "Il a cessé de fumer l'année dernière.",
+        "en": "He stopped smoking last year."
+      }
+    },
+    {
+      "id": "determiner",
+      "kind": "vocab",
+      "fr": "déterminer",
+      "en": "to determine, to work out",
+      "pos": "verb",
+      "example": {
+        "fr": "Il faut déterminer la cause du problème.",
+        "en": "We need to determine the cause of the problem."
+      }
+    },
+    {
+      "id": "rejeter",
+      "kind": "vocab",
+      "fr": "rejeter",
+      "en": "to reject",
+      "pos": "verb",
+      "example": {
+        "fr": "Ils ont rejeté ma demande de prêt.",
+        "en": "They rejected my loan application."
+      }
+    },
+    {
+      "id": "meriter",
+      "kind": "vocab",
+      "fr": "mériter",
+      "en": "to deserve",
+      "pos": "verb",
+      "example": {
+        "fr": "Tu mérites des vacances !",
+        "en": "You deserve a holiday!"
+      }
+    },
+    {
+      "id": "souffrir",
+      "kind": "vocab",
+      "fr": "souffrir",
+      "en": "to suffer, to be in pain",
+      "pos": "verb",
+      "example": {
+        "fr": "Elle souffre de migraines.",
+        "en": "She suffers from migraines."
+      },
+      "note": "Like ouvrir: je souffre, il a souffert."
+    },
+    {
+      "id": "vaincre",
+      "kind": "vocab",
+      "fr": "vaincre",
+      "en": "to defeat, to overcome",
+      "pos": "verb",
+      "example": {
+        "fr": "Il a vaincu sa peur de l'avion.",
+        "en": "He overcame his fear of flying."
+      }
+    },
+    {
+      "id": "ruiner",
+      "kind": "vocab",
+      "fr": "ruiner",
+      "en": "to ruin",
+      "pos": "verb",
+      "example": {
+        "fr": "La pluie a ruiné notre pique-nique.",
+        "en": "The rain ruined our picnic."
+      }
+    },
+    {
+      "id": "pieger",
+      "kind": "vocab",
+      "fr": "piéger",
+      "en": "to trap, to set up",
+      "pos": "verb",
+      "example": {
+        "fr": "Je me suis fait piéger par une fausse annonce.",
+        "en": "I got tricked by a fake ad."
+      }
+    },
+    {
+      "id": "tarder",
+      "kind": "vocab",
+      "fr": "tarder",
+      "en": "to delay, to be long (in coming)",
+      "pos": "verb",
+      "example": {
+        "fr": "Le bus tarde à arriver.",
+        "en": "The bus is taking a long time to come."
+      },
+      "note": "Il ne va pas tarder = he will be here soon."
+    },
+    {
+      "id": "se-concentrer",
+      "kind": "vocab",
+      "fr": "se concentrer",
+      "en": "to concentrate, to focus",
+      "pos": "verb",
+      "accept": [
+        "concentrer"
+      ],
+      "example": {
+        "fr": "Je n'arrive pas à me concentrer avec ce bruit.",
+        "en": "I can't concentrate with this noise."
+      }
+    },
+    {
+      "id": "puer",
+      "kind": "vocab",
+      "fr": "puer",
+      "en": "to stink (informal)",
+      "pos": "verb",
+      "example": {
+        "fr": "Ça pue dans le frigo !",
+        "en": "It stinks in the fridge!"
+      },
+      "note": "Informal. Neutral: sentir mauvais."
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Getting along with people",
+          "itemIds": [
+            "mentir",
+            "embeter",
+            "se-meler-de",
+            "plaire",
+            "impressionner",
+            "surprendre",
+            "effrayer"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Rules and decisions",
+          "itemIds": [
+            "obeir",
+            "ordonner",
+            "cesser",
+            "determiner",
+            "rejeter",
+            "meriter"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Facing difficulties",
+          "itemIds": [
+            "souffrir",
+            "vaincre",
+            "ruiner",
+            "pieger",
+            "tarder",
+            "se-concentrer",
+            "puer"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[Obéir à]] takes à: [[obéir aux règles]].\n- [[Cesser de]] + infinitive = [[arrêter de]].\n- [[Il ne va pas tarder]] = he'll be here soon.\n- [[Mentir]] is irregular: [[je mens, il a menti]].\n- [[Puer]] is informal; [[sentir mauvais]] is neutral.\n- Québec: [[écœurer]] often means *to annoy, to pester* ([[Arrête de m'écœurer !]]); everywhere it also means *to disgust*."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Il ment à ses parents.",
+              "en": "He lies to his parents."
+            },
+            {
+              "fr": "Arrête d'embêter ta sœur !",
+              "en": "Stop bothering your sister!"
+            },
+            {
+              "fr": "Mêle-toi de tes affaires !",
+              "en": "Mind your own business!"
+            },
+            {
+              "fr": "Ce cadeau va te plaire.",
+              "en": "You're going to like this gift."
+            },
+            {
+              "fr": "Il a cessé de fumer l'année dernière.",
+              "en": "He stopped smoking last year."
+            },
+            {
+              "fr": "Les enfants doivent obéir aux règles de l'école.",
+              "en": "Children must obey the school rules."
+            },
+            {
+              "fr": "Tu mérites des vacances !",
+              "en": "You deserve a holiday!"
+            },
+            {
+              "fr": "Elle souffre de migraines.",
+              "en": "She suffers from migraines."
+            },
+            {
+              "fr": "Le bus tarde à arriver.",
+              "en": "The bus is taking a long time to come."
+            },
+            {
+              "fr": "Je n'arrive pas à me concentrer avec ce bruit.",
+              "en": "I can't concentrate with this noise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the verbs.",
+          "pairs": [
+            [
+              "surprendre",
+              "to surprise"
+            ],
+            [
+              "mentir",
+              "to lie"
+            ],
+            [
+              "embêter",
+              "to annoy"
+            ],
+            [
+              "effrayer",
+              "to frighten"
+            ],
+            [
+              "impressionner",
+              "to impress"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the verbs.",
+          "pairs": [
+            [
+              "obéir",
+              "to obey"
+            ],
+            [
+              "rejeter",
+              "to reject"
+            ],
+            [
+              "mériter",
+              "to deserve"
+            ],
+            [
+              "vaincre",
+              "to overcome"
+            ],
+            [
+              "ruiner",
+              "to ruin"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "Your colleague asks where Karim is. He's parking and will arrive in a minute. You say:",
+          "options": [
+            "Il ne va pas tarder.",
+            "Il ne va pas cesser.",
+            "Il ne va pas mériter.",
+            "Il ne va pas obéir."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Il ne va pas tarder]] = he won’t be long."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "Les enfants obéissent à leurs parents.",
+            "Les enfants obéissent leurs parents.",
+            "Les enfants obéient à leurs parents.",
+            "Les enfants obéissent de leurs parents."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Obéir]] is like [[finir]] (ils obéissent) and takes [[à]]."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "You deserve a holiday! (to a friend)",
+          "accept": [
+            "Tu mérites des vacances !",
+            "Tu mérites des vacances.",
+            "Tu mérites un congé !"
+          ],
+          "explain": "[[Mériter]] is a regular -er verb: tu mérites."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "He stopped smoking.",
+          "accept": [
+            "Il a cessé de fumer.",
+            "Il a arrêté de fumer."
+          ],
+          "hint": "cesser de + infinitive",
+          "explain": "[[Cesser de]] + infinitive, like [[arrêter de]]."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Arrête d'___ ta sœur !",
+          "answers": [
+            [
+              "embêter"
+            ]
+          ],
+          "choices": [
+            "embêter",
+            "obéir",
+            "mériter",
+            "souffrir"
+          ],
+          "en": "Stop bothering your sister!",
+          "explain": "[[Arrêter de]] + infinitive: [[arrête d’embêter]]."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Elle ___ de maux de dos depuis son accident. (souffrir)",
+          "answers": [
+            [
+              "souffre"
+            ]
+          ],
+          "en": "She has been suffering from back pain since her accident.",
+          "explain": "[[Souffrir]] is conjugated like an -er verb in the present: elle souffre."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Je n'arrive pas à me concentrer avec ce bruit.",
+          "accept": [
+            "Je n’arrive pas à me concentrer avec ce bruit."
+          ],
+          "explain": "[[Se concentrer]]: the pronoun me changes with the subject."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Ils ont rejeté ma demande de prêt.",
+          "en": "They rejected my loan application.",
+          "prompt": "What happened to the loan application?",
+          "options": [
+            "It was rejected",
+            "It was accepted",
+            "It was delayed"
+          ],
+          "answer": 0,
+          "explain": "[[Rejeter]] = to reject."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Talk about getting along: [[mentir, embêter, se mêler de, plaire]]\n- Talk about rules and decisions: [[obéir à, cesser de, rejeter, mériter]]\n- Describe difficulties: [[souffrir, vaincre, tarder, se concentrer]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Added informal note for puer; made the Québec écœurer tip accurate."
+  }
+}

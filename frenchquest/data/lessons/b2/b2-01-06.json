@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-01-06",
+  "level": "b2",
+  "unit": "b2-01",
+  "title": "Workshop: Defend an argument",
+  "goal": "Get more practice defending an argument in new situations: read and hear structured opinions, concede and refute, show how certain you are, and write and speak at length on new questions.",
+  "minutes": 20,
+  "items": [
+    {
+      "id": "constat",
+      "kind": "vocab",
+      "fr": "constat",
+      "article": "un",
+      "gender": "m",
+      "en": "observation, finding (based on facts)",
+      "pos": "noun",
+      "accept": [
+        "le constat"
+      ],
+      "example": {
+        "fr": "Il faut partir d'un constat simple : les familles n'ont pas toutes le même temps.",
+        "en": "We have to start from a simple observation: families don't all have the same amount of time."
+      }
+    },
+    {
+      "id": "remettre-en-question",
+      "kind": "phrase",
+      "fr": "remettre en question",
+      "en": "to call into question, to challenge (an idea)",
+      "accept": [
+        "remettre en cause"
+      ],
+      "example": {
+        "fr": "Je ne remets pas en question la valeur du bénévolat.",
+        "en": "I'm not questioning the value of volunteering."
+      }
+    },
+    {
+      "id": "s-appuyer-sur",
+      "kind": "phrase",
+      "fr": "s'appuyer sur",
+      "en": "to draw on, to be based on (data, an example)",
+      "accept": [
+        "se fonder sur",
+        "se baser sur"
+      ],
+      "example": {
+        "fr": "Mon raisonnement s'appuie sur plusieurs études.",
+        "en": "My reasoning draws on several studies."
+      },
+      "note": "[[se baser sur]] is very common in speech but criticized by some style guides; in exam writing prefer [[s'appuyer sur]] or [[se fonder sur]]."
+    },
+    {
+      "id": "raisonnement",
+      "kind": "vocab",
+      "fr": "raisonnement",
+      "article": "un",
+      "gender": "m",
+      "en": "reasoning, line of argument",
+      "pos": "noun",
+      "accept": [
+        "le raisonnement"
+      ],
+      "example": {
+        "fr": "Ton raisonnement est clair, mais l'exemple est trop vague.",
+        "en": "Your reasoning is clear, but the example is too vague."
+      }
+    },
+    {
+      "id": "convaincant",
+      "kind": "vocab",
+      "fr": "convaincant",
+      "fem": "convaincante",
+      "en": "convincing",
+      "pos": "adjective",
+      "accept": [
+        "convaincante"
+      ],
+      "example": {
+        "fr": "Ces résultats sont peu convaincants.",
+        "en": "These results are not very convincing."
+      },
+      "note": "Feminine: [[convaincante]]. Spelled with **c** as an adjective; [[convainquant]] (with qu) is the present participle of [[convaincre]]."
+    },
+    {
+      "id": "avoir-tendance-a",
+      "kind": "phrase",
+      "fr": "avoir tendance à",
+      "en": "to tend to (+ verb)",
+      "accept": [],
+      "example": {
+        "fr": "Les employés fatigués ont tendance à faire plus d'erreurs.",
+        "en": "Tired employees tend to make more mistakes."
+      }
+    },
+    {
+      "id": "prejuge",
+      "kind": "vocab",
+      "fr": "préjugé",
+      "article": "un",
+      "gender": "m",
+      "en": "prejudice, preconceived idea",
+      "pos": "noun",
+      "accept": [
+        "le préjugé"
+      ],
+      "example": {
+        "fr": "C'est un préjugé tenace : plus de travail ne veut pas dire plus de réussite.",
+        "en": "It's a stubborn preconceived idea: more work doesn't mean more success."
+      }
+    },
+    {
+      "id": "argument-de-poids",
+      "kind": "phrase",
+      "fr": "un argument de poids",
+      "en": "a strong argument, a weighty argument",
+      "accept": [
+        "un argument solide",
+        "un argument fort"
+      ],
+      "example": {
+        "fr": "L'autonomie des enfants, c'est un argument de poids.",
+        "en": "Children's independence is a strong argument."
+      }
+    },
+    {
+      "id": "a-tort",
+      "kind": "phrase",
+      "fr": "à tort",
+      "en": "wrongly, mistakenly",
+      "accept": [],
+      "example": {
+        "fr": "On croit souvent, à tort, que l'obligation crée la générosité.",
+        "en": "People often wrongly believe that obligation creates generosity."
+      },
+      "note": "Opposite: [[à juste titre]] (rightly)."
+    },
+    {
+      "id": "etude",
+      "kind": "vocab",
+      "fr": "étude",
+      "article": "une",
+      "gender": "f",
+      "en": "study (a piece of research)",
+      "pos": "noun",
+      "accept": [
+        "l'étude"
+      ],
+      "example": {
+        "fr": "Selon une étude récente, les devoirs ont peu d'effet au primaire.",
+        "en": "According to a recent study, homework has little effect in elementary school."
+      }
+    },
+    {
+      "id": "a-l-inverse",
+      "kind": "phrase",
+      "fr": "à l'inverse",
+      "en": "conversely",
+      "accept": [
+        "inversement"
+      ],
+      "example": {
+        "fr": "À l'inverse, quinze minutes de lecture ont un effet réel.",
+        "en": "Conversely, fifteen minutes of reading have a real effect."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Homework in elementary school: a habit to question?",
+      "intro": "A new situation for the whole unit. A teacher takes a position in her school's newsletter. As you read, spot her thesis, her examples, the counterargument she answers, and how sure she is.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "« Les devoirs au primaire : une habitude à remettre en question »",
+          "context": "In the parents' newsletter of an elementary school in Sherbrooke, Isabelle Fortin, a Grade 4 teacher, gives her view.",
+          "fr": "Chaque automne, la même question revient dans notre école : faut-il continuer à donner des devoirs aux enfants du primaire ? Après vingt ans d'enseignement, ma position est claire : je suis favorable à une forte réduction des devoirs, sans pour autant les supprimer complètement.\n\nEn premier lieu, il faut partir d'un constat simple : les familles n'ont pas toutes le même temps ni les mêmes ressources. Certains parents rentrent du travail à 18 h 30 ; d'autres ne parlent pas encore bien français. Prenons l'exemple d'un de mes élèves, arrivé de Colombie l'an dernier : chaque soir, il faisait ses devoirs seul, pendant que ses parents suivaient des cours de francisation. Les devoirs avaient donc tendance à creuser les écarts au lieu de les réduire.\n\nPar ailleurs, mon raisonnement s'appuie sur la recherche : au primaire, les études qui montrent un effet des devoirs sur la réussite sont peu convaincantes. En effet, un enfant de neuf ans apprend surtout en classe, avec un adulte qui peut le corriger tout de suite.\n\nOn objectera que les devoirs développent l'autonomie et le sens des responsabilités. C'est un argument de poids, et je le prends au sérieux. Toutefois, il ne tient pas compte de la fatigue des enfants, qui passent déjà six heures par jour à l'école. On croit souvent, à tort, qu'un élève qui travaille plus réussit forcément mieux. C'est un préjugé tenace.\n\nCertes, la lecture du soir reste précieuse, et je continuerai à la recommander. Mais bien que ce soit une tradition bien ancrée, l'exercice de grammaire à la maison n'est pas toujours utile. À l'inverse, quinze minutes de lecture avec un parent, dans n'importe quelle langue, ont un effet réel sur le vocabulaire.\n\nJe doute que cette proposition fasse l'unanimité. Il est probable que certains parents la trouveront trop audacieuse. En définitive, je ne demande pas de supprimer le travail, mais de le remettre là où il est le plus efficace : en classe.",
+          "en": "Every autumn, the same question comes back in our school: should we keep giving homework to elementary school children? After twenty years of teaching, my position is clear: I'm in favour of greatly reducing homework, without abolishing it completely.\n\nIn the first place, we have to start from a simple observation: families don't all have the same time or the same resources. Some parents get home from work at 6:30 p.m.; others don't speak French well yet. Let's take the example of one of my students, who arrived from Colombia last year: every evening, he did his homework alone while his parents took French classes for newcomers. Homework therefore tended to widen the gaps instead of reducing them.\n\nFurthermore, my reasoning draws on research: in elementary school, the studies that show an effect of homework on success are not very convincing. Indeed, a nine-year-old learns mainly in class, with an adult who can correct them right away.\n\nSome will object that homework develops independence and a sense of responsibility. It's a strong argument, and I take it seriously. However, it doesn't take into account children's fatigue: they already spend six hours a day at school. People often wrongly believe that a student who works more necessarily does better. It's a stubborn preconceived idea.\n\nAdmittedly, evening reading remains precious, and I'll keep recommending it. But even though it's a deep-rooted tradition, the grammar exercise at home isn't always useful. Conversely, fifteen minutes of reading with a parent, in any language, has a real effect on vocabulary.\n\nI doubt that this proposal will win everyone's agreement. It's likely that some parents will find it too bold. Ultimately, I'm not asking to get rid of the work, but to put it back where it's most effective: in class."
+        },
+        {
+          "id": "d1",
+          "type": "mcq",
+          "prompt": "What is Isabelle Fortin's thesis?",
+          "options": [
+            "Homework should be greatly reduced, but not abolished",
+            "Homework should be abolished completely",
+            "Homework should be increased to prepare for high school",
+            "Parents should decide alone"
+          ],
+          "answer": 0,
+          "explain": "Her thesis comes in the first paragraph: [[une forte réduction des devoirs, sans pour autant les supprimer complètement]].",
+          "optionFeedback": [
+            null,
+            "[[sans pour autant les supprimer]]: she keeps evening reading.",
+            "She argues the opposite.",
+            "She never says this."
+          ]
+        },
+        {
+          "id": "d2",
+          "type": "mcq",
+          "prompt": "Why does she mention the student from Colombia?",
+          "options": [
+            "To show that homework can widen the gap between families",
+            "To complain about newcomer families",
+            "To show that he did better than the others",
+            "To introduce the counterargument"
+          ],
+          "answer": 0,
+          "explain": "It's the concrete example ([[Prenons l'exemple de…]]) for her first argument: [[les devoirs avaient tendance à creuser les écarts]]."
+        },
+        {
+          "id": "d3",
+          "type": "mcq",
+          "prompt": "How does she handle the argument that homework builds independence?",
+          "options": [
+            "She calls it strong, then shows what it ignores",
+            "She says it's ridiculous",
+            "She accepts it and changes her position",
+            "She doesn't mention it"
+          ],
+          "answer": 0,
+          "explain": "[[On objectera que…]] → [[C'est un argument de poids]] (acknowledge) → [[Toutefois, il ne tient pas compte de la fatigue des enfants]] (refute)."
+        }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit at a glance, and new words",
+      "intro": "A quick recap of the four tools from the unit, then words that make your arguments sound more precise.",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Unit 1 at a glance",
+          "head": [
+            "Tool",
+            "Key language"
+          ],
+          "rows": [
+            [
+              "Structure",
+              "thèse → en premier lieu, en effet, prenons l'exemple de → on objectera que, toutefois → en définitive"
+            ],
+            [
+              "Concession",
+              "certes… mais · même si + indicatif · bien que + subjonctif · malgré + nom · avoir beau + infinitif"
+            ],
+            [
+              "Refutation",
+              "si je vous comprends bien · c'est un argument recevable · il ne tient pas compte de · permettez-moi de nuancer"
+            ],
+            [
+              "Certainty and doubt",
+              "je suis convaincu que, il est probable que + indicatif · je doute que, il se peut que + subjonctif"
+            ]
+          ],
+          "frCols": [
+            1
+          ],
+          "sayCol": false
+        },
+        {
+          "type": "explain",
+          "title": "One check before you speak or write",
+          "body": "Does each paragraph do **one job**? Thesis first, then one argument per paragraph with a concrete example, then the other side, conceded and refuted, then a conclusion that nuances. And watch the mood: certainty → indicative, doubt → subjunctive."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for arguing",
+          "itemIds": [
+            "constat",
+            "remettre-en-question",
+            "s-appuyer-sur",
+            "raisonnement",
+            "convaincant",
+            "avoir-tendance-a",
+            "prejuge",
+            "argument-de-poids",
+            "a-tort",
+            "etude",
+            "a-l-inverse"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Two voices, two arguments",
+      "intro": "First, a radio column by Olivier Gagnon, the HR consultant from lesson 1. Then a voice message from Mei to Karim, her TCF study partner.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "La chronique travail d'Olivier Gagnon",
+          "context": "A weekly two-minute column on a Montréal radio station. Topic: should work emails be banned after 6 p.m.?",
+          "fr": "Bonjour à tous. Cette semaine, une question qui divise les milieux de travail : faut-il interdire les courriels professionnels après 18 h ? En Ontario, depuis 2022, les employeurs de vingt-cinq employés ou plus doivent avoir une politique écrite sur la déconnexion. Au Québec, le débat revient régulièrement. Certes, je comprends ceux qui craignent une perte de souplesse : une PME qui travaille avec l'Asie ne peut pas tout arrêter à 18 h. L'argument est recevable. Toutefois, il ne tient pas compte d'un constat que je fais chaque semaine en entreprise : les employés qui lisent leurs courriels le soir ont tendance à s'épuiser plus vite. Je doute qu'une loi trop rigide soit la solution. En revanche, je suis convaincu que chaque entreprise devrait se doter de règles claires. En somme : le cellulaire peut rester allumé, mais personne ne devrait être obligé de répondre.",
+          "en": "Hello everyone. This week, a question that divides workplaces: should work emails be banned after 6 p.m.? In Ontario, since 2022, employers with twenty-five or more employees must have a written policy on disconnecting from work. In Québec, the debate comes back regularly. Admittedly, I understand those who fear a loss of flexibility: a small business working with Asia can't stop everything at 6 p.m. The argument is valid. However, it doesn't take into account an observation I make every week in companies: employees who read their emails in the evening tend to burn out faster. I doubt that an overly rigid law is the solution. On the other hand, I'm convinced that every company should adopt clear rules. In short: the cellphone can stay on, but nobody should be obliged to answer."
+        },
+        {
+          "id": "h1",
+          "type": "listen-mcq",
+          "fr": "Certes, je comprends ceux qui craignent une perte de souplesse : une PME qui travaille avec l'Asie ne peut pas tout arrêter à 18 h. L'argument est recevable. Toutefois, il ne tient pas compte d'un constat que je fais chaque semaine en entreprise.",
+          "en": "Admittedly, I understand those who fear a loss of flexibility: a small business working with Asia can't stop everything at 6 p.m. The argument is valid. However, it doesn't take into account an observation I make every week in companies.",
+          "prompt": "What does Olivier do with the flexibility argument?",
+          "options": [
+            "He concedes it, then shows its limit",
+            "He rejects it immediately",
+            "He uses it as his thesis",
+            "He says it only concerns Asia"
+          ],
+          "answer": 0,
+          "explain": "[[Certes… L'argument est recevable]] (concession) + [[Toutefois, il ne tient pas compte de…]] (refutation)."
+        },
+        {
+          "id": "h2",
+          "type": "listen-mcq",
+          "fr": "Je doute qu'une loi trop rigide soit la solution. En revanche, je suis convaincu que chaque entreprise devrait se doter de règles claires.",
+          "en": "I doubt that an overly rigid law is the solution. On the other hand, I'm convinced that every company should adopt clear rules.",
+          "prompt": "What is Olivier's position?",
+          "options": [
+            "Each company should have clear rules, rather than a strict law",
+            "The government should ban evening emails by law",
+            "Nothing should change",
+            "Employees should switch off their phones"
+          ],
+          "answer": 0,
+          "explain": "Doubt about the law ([[je doute que… soit]]), certainty about company rules ([[je suis convaincu que… devrait]])."
+        },
+        {
+          "id": "h3",
+          "type": "listen-mcq",
+          "fr": "En Ontario, depuis 2022, les employeurs de vingt-cinq employés ou plus doivent avoir une politique écrite sur la déconnexion.",
+          "en": "In Ontario, since 2022, employers with twenty-five or more employees must have a written policy on disconnecting from work.",
+          "prompt": "What does the Ontario rule require?",
+          "options": [
+            "A written policy on disconnecting, for employers with 25+ employees",
+            "A ban on all emails after 6 p.m.",
+            "A policy for every company, whatever its size",
+            "Paid overtime for evening emails"
+          ],
+          "answer": 0,
+          "explain": "[[une politique écrite sur la déconnexion]], for [[les employeurs de vingt-cinq employés ou plus]]. It's a policy, not a ban. (This reflects Ontario's 2022 rule as we understand it; details can change, so check the current law.)"
+        },
+        {
+          "id": "hd1",
+          "type": "dictation",
+          "fr": "Je doute qu'une loi trop rigide soit la solution.",
+          "accept": [
+            "Je doute qu'une loi trop rigide soit la solution"
+          ],
+          "explain": "[[douter que]] + subjunctive: [[soit]], not [[est]]."
+        },
+        {
+          "type": "listen",
+          "title": "Mei's voice message",
+          "context": "Mei listened to the recording of Karim's practice presentation on homework. She leaves him a message.",
+          "fr": "Salut Karim, c'est Mei. J'ai écouté l'enregistrement de ta présentation sur les devoirs. Franchement, ton raisonnement est convaincant, et ta thèse arrive tout de suite, c'est parfait. Par contre, deux petites choses. D'abord, tu dis « en effet » pour corriger une idée : dans ce cas, il faut dire « en fait ». Ensuite, tu as dit « je doute que c'est utile » : n'oublie pas le subjonctif, « je doute que ce soit utile ». Sinon, ton exemple sur la bibliothèque de quartier est excellent, garde-le. On se voit jeudi pour la simulation d'examen ? Rappelle-moi ce soir si tu peux. À plus !",
+          "en": "Hi Karim, it's Mei. I listened to the recording of your presentation on homework. Honestly, your reasoning is convincing, and your thesis comes right away, that's perfect. But there are two little things. First, you say “en effet” to correct an idea: in that case, you need to say “en fait”. Then, you said “je doute que c'est utile”: don't forget the subjunctive, “je doute que ce soit utile”. Otherwise, your example about the neighbourhood library is excellent, keep it. See you Thursday for the mock exam? Call me back tonight if you can. Talk soon!"
+        },
+        {
+          "id": "h4",
+          "type": "listen-mcq",
+          "fr": "Franchement, ton raisonnement est convaincant, et ta thèse arrive tout de suite, c'est parfait.",
+          "en": "Honestly, your reasoning is convincing, and your thesis comes right away, that's perfect.",
+          "prompt": "What does Mei praise?",
+          "options": [
+            "His reasoning and the fact that his thesis comes early",
+            "His accent and his speed",
+            "His conclusion",
+            "His vocabulary about libraries"
+          ],
+          "answer": 0,
+          "explain": "[[ton raisonnement est convaincant]] + [[ta thèse arrive tout de suite]]."
+        },
+        {
+          "id": "h5",
+          "type": "listen-mcq",
+          "fr": "D'abord, tu dis « en effet » pour corriger une idée : dans ce cas, il faut dire « en fait ». Ensuite, tu as dit « je doute que c'est utile » : n'oublie pas le subjonctif.",
+          "en": "First, you say “en effet” to correct an idea: in that case, you need to say “en fait”. Then, you said “je doute que c'est utile”: don't forget the subjunctive.",
+          "prompt": "Which two mistakes does Mei point out?",
+          "options": [
+            "En effet used to correct, and the indicative after je doute que",
+            "Too many examples, and a missing conclusion",
+            "Tu instead of vous, and a wrong date",
+            "Bien que with the indicative, and a weak thesis"
+          ],
+          "answer": 0,
+          "explain": "Use [[en fait]] to correct and [[en effet]] to confirm; [[je doute que]] + subjunctive ([[ce soit]])."
+        },
+        {
+          "id": "hd2",
+          "type": "dictation",
+          "fr": "Ton raisonnement est convaincant, et ta thèse arrive tout de suite.",
+          "accept": [
+            "Ton raisonnement est convaincant et ta thèse arrive tout de suite."
+          ],
+          "explain": "[[convaincant]] with c (adjective); [[thèse]] with a grave accent."
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: eight on this unit, four on B1 grammar you'll need in every argument.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "cloze",
+          "text": "Le centre communautaire est toujours plein. En ___, c'est le seul endroit gratuit du quartier.",
+          "answers": [
+            [
+              "effet"
+            ]
+          ],
+          "choices": [
+            "effet",
+            "fait",
+            "somme",
+            "définitive"
+          ],
+          "en": "The community centre is always full. Indeed, it's the only free place in the neighbourhood.",
+          "explain": "The second sentence explains the first: [[en effet]]. [[En fait]] would correct it."
+        },
+        {
+          "id": "r2",
+          "type": "cloze",
+          "text": "Bien que le projet ___ (être) coûteux, la ville l'a adopté.",
+          "answers": [
+            [
+              "soit"
+            ]
+          ],
+          "en": "Even though the project is expensive, the city adopted it.",
+          "explain": "[[bien que]] + subjunctive: [[soit]]."
+        },
+        {
+          "id": "r3",
+          "type": "cloze",
+          "text": "Même si les parents ___ (être) d'accord, l'école ne changera rien cette année.",
+          "answers": [
+            [
+              "sont"
+            ]
+          ],
+          "en": "Even if the parents agree, the school won't change anything this year.",
+          "explain": "[[même si]] + indicative: [[sont]]. Never the subjunctive after [[même si]]."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "In a parents' meeting, someone says: “Les devoirs n'ont jamais fait de mal à personne.” Which reply refutes politely?",
+          "options": [
+            "Je comprends votre point de vue, mais cet argument ne tient pas compte de la fatigue des enfants.",
+            "C'est n'importe quoi.",
+            "Vous n'avez pas d'enfants, vous ne pouvez pas comprendre.",
+            "Bon, d'accord, si vous voulez."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Acknowledge, then show what the argument leaves out (lesson 3).",
+          "optionFeedback": [
+            null,
+            "Too blunt and informal for a meeting.",
+            "Attacks the person, not the argument.",
+            "Gives up without arguing."
+          ]
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "I doubt that this solution is enough.",
+          "accept": [
+            "Je doute que cette solution suffise.",
+            "Je doute que cette solution soit suffisante."
+          ],
+          "explain": "[[douter que]] + subjunctive: [[suffise]] (from [[ils suffisent]]) or [[soit suffisante]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "It's obvious that children are tired after school.",
+          "accept": [
+            "Il est évident que les enfants sont fatigués après l'école.",
+            "Il est clair que les enfants sont fatigués après l'école.",
+            "Il est évident que les enfants sont fatigués après les cours.",
+            "Il est clair que les enfants sont fatigués après les cours.",
+            "C'est évident que les enfants sont fatigués après l'école.",
+            "C'est évident que les enfants sont fatigués après les cours."
+          ],
+          "explain": "Certainty → indicative: [[sont]]."
+        },
+        {
+          "id": "r7",
+          "type": "match",
+          "prompt": "Match the new words to their meanings.",
+          "pairs": [
+            [
+              "un constat",
+              "an observation based on facts"
+            ],
+            [
+              "un raisonnement",
+              "a line of argument"
+            ],
+            [
+              "un préjugé",
+              "a preconceived idea"
+            ],
+            [
+              "à tort",
+              "wrongly"
+            ],
+            [
+              "à l'inverse",
+              "conversely"
+            ]
+          ]
+        },
+        {
+          "id": "r8",
+          "type": "reorder",
+          "prompt": "However hard she tries, she doesn't convince anyone.",
+          "accept": [
+            "Elle a beau essayer elle ne convainc personne"
+          ],
+          "extra": [
+            "malgré"
+          ],
+          "explain": "[[avoir beau + infinitif]]: the result clause comes after. [[convaincre]]: [[elle convainc]]."
+        },
+        {
+          "id": "r9",
+          "type": "cloze",
+          "text": "Si l'école ___ (supprimer) les devoirs, les parents ___ (avoir) plus de temps avec leurs enfants.",
+          "answers": [
+            [
+              "supprimait"
+            ],
+            [
+              "auraient"
+            ]
+          ],
+          "en": "If the school abolished homework, parents would have more time with their children.",
+          "explain": "B1 review: [[si + imparfait → conditionnel présent]]."
+        },
+        {
+          "id": "r10",
+          "type": "cloze",
+          "text": "C'est une étude ___ tout le monde parle en ce moment.",
+          "answers": [
+            [
+              "dont"
+            ]
+          ],
+          "choices": [
+            "dont",
+            "que",
+            "où",
+            "qui"
+          ],
+          "en": "It's a study everyone is talking about right now.",
+          "explain": "B1 review: [[parler de quelque chose]] → [[dont]]."
+        },
+        {
+          "id": "r11",
+          "type": "mcq",
+          "prompt": "Formal written report, standard sequence of tenses: Isabelle a dit : « Je réduirai les devoirs. » → Isabelle a dit qu’elle ___ les devoirs.",
+          "options": [
+            "réduirait",
+            "réduira",
+            "réduise",
+            "a réduit"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "B1 review: in a formal report after a past verb, the future becomes the conditional: [[réduirai]] → [[réduirait]]. (In everyday speech you will also hear the future kept when the action is still ahead: [[elle a dit qu’elle réduira…]].)",
+          "optionFeedback": [
+            null,
+            "Heard in speech when the action is still to come, but a formal report uses the conditional.",
+            "That's the subjunctive; nothing here triggers it.",
+            "That changes the meaning: she hasn't done it yet."
+          ]
+        },
+        {
+          "id": "r12",
+          "type": "dictation",
+          "fr": "Quand la réunion a commencé, les parents avaient déjà lu la lettre.",
+          "accept": [
+            "Quand la réunion a commencé les parents avaient déjà lu la lettre."
+          ],
+          "explain": "B1 review: the plus-que-parfait ([[avaient lu]]) shows an action finished before another past action."
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn: two new questions",
+      "intro": "Plan before you start: thesis, two arguments with examples, a concession, a refutation, a conclusion. Then compare with both models.",
+      "blocks": [
+        {
+          "id": "w1",
+          "type": "write",
+          "prompt": "A Montréal newspaper's readers' forum asks: “Faut-il, comme en Ontario, obliger les élèves du secondaire à faire du bénévolat pour obtenir leur diplôme ?” Write a reply in a formal register.",
+          "promptFr": "Faut-il, comme en Ontario, obliger les élèves du secondaire à faire du bénévolat pour obtenir leur diplôme ? Donnez votre opinion et argumentez.",
+          "wordRange": [
+            180,
+            250
+          ],
+          "checklist": [
+            "Introduction: the issue and a clear position",
+            "Two arguments, each with a concrete example",
+            "A concession (certes, il est vrai que, bien que, même si)",
+            "A counterargument stated fairly and refuted",
+            "One certainty + indicative and one doubt + subjunctive",
+            "At least two new words from this workshop (constat, à tort, convaincant…)",
+            "A conclusion that nuances; 180 to 250 words"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "En Ontario, les élèves doivent faire quarante heures de bénévolat pour obtenir leur diplôme d'études secondaires. Faut-il adopter la même règle au Québec ? Personnellement, je suis plutôt pour.\n\nEn premier lieu, le bénévolat permet aux jeunes de découvrir le monde du travail. Prenons l'exemple de mon neveu : il a fait du bénévolat dans une banque alimentaire à Toronto, et il veut maintenant étudier en travail social.\n\nPar ailleurs, le bénévolat crée des liens entre les générations. En effet, beaucoup de jeunes ne parlent presque jamais avec des personnes âgées, alors que les résidences manquent de visiteurs.\n\nOn objectera qu'un bénévolat obligatoire n'est plus vraiment du bénévolat. C'est un argument de poids. Toutefois, il ne tient pas compte du fait que beaucoup d'élèves n'osent pas faire le premier pas. Une obligation légère peut les aider à commencer.\n\nCertes, certains élèves travaillent déjà le soir ou s'occupent de leurs frères et sœurs. Il faudrait donc prévoir des solutions souples, par exemple des heures pendant la journée d'école.\n\nEn définitive, bien que cette règle ne soit pas parfaite, je suis convaincu qu'elle ferait plus de bien que de mal. Je doute que tous les jeunes aiment l'idée au début, mais il est probable que beaucoup d'entre eux garderaient cette habitude.",
+              "en": "In Ontario, students must do forty hours of volunteering to get their high school diploma. Should Québec adopt the same rule? Personally, I'm rather in favour.\n\nIn the first place, volunteering lets young people discover the world of work. Let's take the example of my nephew: he volunteered at a food bank in Toronto, and now he wants to study social work.\n\nFurthermore, volunteering creates links between generations. Indeed, many young people almost never talk with older people, while seniors' residences lack visitors.\n\nSome will object that compulsory volunteering is no longer really volunteering. It's a strong argument. However, it doesn't take into account the fact that many students don't dare take the first step. A light obligation can help them get started.\n\nAdmittedly, some students already work in the evening or look after their brothers and sisters. So we would need flexible solutions, for example hours during the school day.\n\nUltimately, even though this rule isn't perfect, I'm convinced it would do more good than harm. I doubt that all young people would like the idea at first, but it's likely that many of them would keep the habit."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Madame, Monsieur,\n\nDepuis la fin des années 1990, sauf erreur de ma part, les élèves ontariens doivent accomplir quarante heures de bénévolat pour obtenir leur diplôme. Faut-il importer cette règle au Québec ? À première vue, l'idée est généreuse ; je la crois pourtant mal conçue.\n\nEn premier lieu, il faut partir d'un constat : un engagement imposé perd une grande partie de son sens. En effet, de nombreux élèves remplissent leurs heures à la dernière minute, simplement pour cocher une case. On croit souvent, à tort, que l'obligation crée la générosité.\n\nEn second lieu, une telle règle pèserait surtout sur les jeunes les moins favorisés. Prenons l'exemple d'une élève qui travaille quinze heures par semaine dans une épicerie pour aider sa famille : où trouverait-elle le temps de faire du bénévolat ?\n\nOn objectera que, sans obligation, seuls les élèves déjà engagés participeraient. L'argument est recevable. Toutefois, il ne tient pas compte de solutions plus convaincantes : mentionner le bénévolat dans le bulletin, l'intégrer aux heures de cours ou reconnaître l'emploi étudiant comme une forme d'engagement.\n\nCertes, le bénévolat transforme souvent les jeunes, et je ne remets pas en question sa valeur. Je doute cependant qu'on puisse l'imposer sans le dénaturer.\n\nEn définitive, encourageons plutôt que d'obliger : c'est ainsi que l'on forme des citoyens réellement engagés.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.",
+              "en": "Dear Sir or Madam,\n\nSince the late 1990s, if I'm not mistaken, Ontario students have had to complete forty hours of volunteering to get their diploma. Should we import this rule into Québec? At first sight, the idea is generous; I nevertheless think it is badly designed.\n\nIn the first place, we have to start from an observation: imposed commitment loses much of its meaning. Indeed, many students fill their hours at the last minute, simply to tick a box. People often wrongly believe that obligation creates generosity.\n\nIn the second place, such a rule would weigh above all on the least privileged young people. Let's take the example of a student who works fifteen hours a week in a grocery store to help her family: where would she find the time to volunteer?\n\nSome will object that, without an obligation, only students who are already engaged would take part. The argument is valid. However, it doesn't take into account more convincing solutions: mentioning volunteering on the report card, building it into class time, or recognizing student jobs as a form of commitment.\n\nAdmittedly, volunteering often transforms young people, and I'm not questioning its value. I doubt, however, that it can be imposed without distorting it.\n\nUltimately, let's encourage rather than force: that is how we form truly engaged citizens.\n\nYours faithfully."
+            }
+          ]
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "prompt": "Québec's national parks are more and more crowded. Answer the question and defend your view for about two minutes: “Faut-il limiter le nombre de visiteurs dans les sites naturels les plus populaires ?”",
+          "promptFr": "Faut-il limiter le nombre de visiteurs dans les sites naturels les plus populaires ?",
+          "seconds": 120,
+          "checklist": [
+            "Take a clear position in the first 20 seconds",
+            "Two arguments, each with a concrete example",
+            "A concession (certes, il est vrai que…)",
+            "A refutation (on objectera que… toutefois…)",
+            "Certainty + indicative and doubt + subjunctive",
+            "A conclusion that nuances or opens"
+          ],
+          "models": [
+            {
+              "label": "Model answer",
+              "fr": "C'est une question importante, parce que les parcs sont de plus en plus fréquentés. À mon avis, il faut limiter les entrées, mais seulement dans les sites les plus populaires et pendant l'été.\n\nEn premier lieu, la nature souffre quand il y a trop de monde. Prenons l'exemple d'un sentier près de chez moi : l'été dernier, il y avait des déchets partout et on ne voyait plus d'animaux.\n\nPar ailleurs, la visite devient moins agréable. Quand on attend une heure pour se stationner, on ne profite pas vraiment de la montagne.\n\nCertes, une limite peut sembler injuste. Les familles qui ne réservent pas à l'avance risquent de ne pas pouvoir entrer. Toutefois, on peut garder des places pour les visiteurs de dernière minute.\n\nEn définitive, je suis convaincu qu'un système de réservation protège à la fois la nature et les visiteurs. Je doute que les gens soient contents au début, mais il est probable qu'ils s'habitueront.",
+              "en": "It's an important question, because parks are more and more crowded. In my opinion, entries should be limited, but only at the most popular sites and during the summer.\n\nIn the first place, nature suffers when there are too many people. Let's take the example of a trail near my home: last summer, there was garbage everywhere and you couldn't see animals any more.\n\nFurthermore, the visit becomes less pleasant. When you wait an hour to park, you don't really enjoy the mountain.\n\nAdmittedly, a limit can seem unfair. Families who don't book in advance risk not being able to get in. However, places can be kept for last-minute visitors.\n\nUltimately, I'm convinced that a reservation system protects both nature and visitors. I doubt people will be happy at first, but it's likely they'll get used to it."
+            },
+            {
+              "label": "Stronger model answer",
+              "fr": "Les parcs nationaux sont victimes de leur succès : depuis la pandémie, beaucoup de Québécois redécouvrent la nature, et certains sentiers ressemblent à des files d'attente. Faut-il pour autant limiter l'accès ? Je pense que oui, à condition que la mesure reste juste et bien expliquée.\n\nD'abord, il faut partir d'un constat : un milieu fragile ne peut pas accueillir un nombre illimité de visiteurs. Les sols s'abîment, les animaux s'éloignent, et les déchets s'accumulent. Prenons l'exemple de certains grands parcs américains, qui fonctionnent déjà avec des réservations aux heures de pointe : selon leurs gestionnaires, la pression sur les sentiers a diminué.\n\nEnsuite, la sécurité est en jeu. Quand des centaines de voitures se stationnent le long d'une route étroite, les ambulances ont du mal à passer.\n\nOn objectera que la nature appartient à tout le monde, et qu'un système de réservation favorise ceux qui sont à l'aise en ligne. C'est un argument de poids, et je le partage en partie. Toutefois, il ne tient pas compte de solutions simples : garder une partie des places pour les visiteurs sans réservation, ou offrir des journées gratuites aux familles à faible revenu.\n\nEn définitive, bien que la limite soit une contrainte, je suis convaincu qu'elle protège ce que nous aimons. Reste à savoir si les gouvernements investiront aussi dans de nouveaux sentiers, pour mieux répartir les visiteurs.",
+              "en": "National parks are victims of their own success: since the pandemic, many Quebecers have rediscovered nature, and some trails look like line-ups. Should access be limited for all that? I think so, provided the measure stays fair and well explained.\n\nFirst, we have to start from an observation: a fragile environment can't welcome an unlimited number of visitors. The ground gets damaged, animals move away, and garbage piles up. Let's take the example of some big American parks, which already work with reservations at peak times: according to their managers, the pressure on the trails has decreased.\n\nNext, safety is at stake. When hundreds of cars park along a narrow road, ambulances have trouble getting through.\n\nSome will object that nature belongs to everyone, and that a reservation system favours people who are comfortable online. It's a strong argument, and I partly share it. However, it doesn't take into account simple solutions: keeping some places for visitors without a reservation, or offering free days to low-income families.\n\nUltimately, even though the limit is a constraint, I'm convinced it protects what we love. It remains to be seen whether governments will also invest in new trails, to spread visitors out better."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "summary": "- Follow a structured opinion text and a radio column, and identify thesis, examples, concession and refutation\n- Use new words that make arguments precise: [[un constat]], [[un raisonnement]], [[s'appuyer sur]], [[à tort]], [[à l'inverse]], [[un argument de poids]]\n- Practise moods in context: [[même si]] + indicative, [[bien que]] and [[je doute que]] + subjunctive\n- Write a 180–250-word argued text and speak for two minutes on new questions",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Hedged the Ontario facts (40-hour volunteering since the late 1990s, 2022 disconnect-policy rule); 'il a aidé dans une banque alimentaire' → 'il a fait du bénévolat dans…'; added C'est évident que variants to r6."
+  }
+}

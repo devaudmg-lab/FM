@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-10-02",
+  "level": "a1",
+  "unit": "a1-10",
+  "title": "Can, want, must",
+  "goal": "Say what you can, want and have to do with pouvoir, vouloir and devoir, and make polite requests.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-pouvoir", "kind": "grammar", "fr": "pouvoir", "en": "can, to be able to (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Est-ce que je ___ payer par carte ?", "answers": [["peux"]], "en": "Can I pay by card?", "explain": "je → peux (with an x)." },
+        { "type": "cloze", "text": "Ils ne ___ pas travailler le dimanche.", "answers": [["peuvent"]], "en": "They can't work on Sundays.", "explain": "ils → peuvent; you hear the v." },
+        { "type": "translate", "prompt": "Can you repeat, please? (formal)", "accept": ["Pouvez-vous répéter, s'il vous plaît ?", "Pouvez-vous répéter s'il vous plaît ?", "Vous pouvez répéter, s'il vous plaît ?", "Vous pouvez répéter s'il vous plaît ?", "Est-ce que vous pouvez répéter, s'il vous plaît ?", "Est-ce que vous pouvez répéter s'il vous plaît ?"], "explain": "vous → pouvez, then the infinitive répéter." }
+      ] },
+    { "id": "g-vouloir", "kind": "grammar", "fr": "vouloir", "en": "to want (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Tu ___ un café ?", "answers": [["veux"]], "en": "Do you want a coffee?", "explain": "tu → veux (with an x)." },
+        { "type": "cloze", "text": "Nous ___ visiter Québec cet été.", "answers": [["voulons"]], "en": "We want to visit Québec City this summer.", "explain": "nous → voulons: the stem is voul-, like the infinitive." },
+        { "type": "mcq", "prompt": "Complete: Elles ___ manger au restaurant.", "options": ["veut", "veulent", "voulez"], "optionsFr": true, "answer": 1, "explain": "elles → veulent; you hear the l." }
+      ] },
+    { "id": "g-devoir", "kind": "grammar", "fr": "devoir", "en": "must, to have to (present tense)",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ travailler samedi.", "answers": [["dois"]], "en": "I have to work on Saturday.", "explain": "je → dois." },
+        { "type": "cloze", "text": "Vous ___ parler français au travail ?", "answers": [["devez"]], "en": "Do you have to speak French at work?", "explain": "vous → devez." },
+        { "type": "cloze", "text": "Les enfants ___ se coucher à huit heures.", "answers": [["doivent"]], "en": "The children have to go to bed at eight.", "explain": "ils → doivent. The reflexive verb stays in the infinitive: se coucher." }
+      ] },
+    { "id": "je-voudrais", "kind": "phrase", "fr": "Je voudrais un rendez-vous, s'il vous plaît.", "en": "I'd like an appointment, please.",
+      "accept": ["Je voudrais un rendez-vous s'il vous plaît.", "Je voudrais prendre un rendez-vous, s'il vous plaît."] },
+    { "id": "est-ce-que-je-peux", "kind": "phrase", "fr": "Est-ce que je peux payer par carte ?", "en": "Can I pay by card?",
+      "accept": ["Je peux payer par carte ?", "Puis-je payer par carte ?"] },
+    { "id": "pouvez-vous", "kind": "phrase", "fr": "Pouvez-vous parler plus lentement ?", "en": "Can you speak more slowly? (formal)",
+      "accept": ["Est-ce que vous pouvez parler plus lentement ?", "Vous pouvez parler plus lentement ?"] },
+    { "id": "je-dois-travailler", "kind": "phrase", "fr": "Je dois travailler.", "en": "I have to work." },
+    { "id": "je-veux-bien", "kind": "phrase", "fr": "Je veux bien.", "en": "I'd be glad to. / Yes, please.", "note": "A warm, polite way to accept an offer or an invitation." },
+    { "id": "je-ne-peux-pas", "kind": "phrase", "fr": "Désolé, je ne peux pas.", "en": "Sorry, I can't.", "accept": ["Désolée, je ne peux pas."], "note": "Woman speaking: désolée (same sound)." },
+    { "id": "dommage", "kind": "vocab", "fr": "dommage", "en": "too bad, what a shame", "pos": "interjection",
+      "example": { "fr": "Tu ne peux pas ? Dommage !", "en": "You can't? Too bad!" } },
+    { "id": "tot", "kind": "vocab", "fr": "tôt", "en": "early", "pos": "adverb",
+      "example": { "fr": "Je dois rentrer tôt.", "en": "I have to go home early." }, "note": "The opposite is tard (late)." },
+    { "id": "c-est-correct", "kind": "phrase", "fr": "C'est correct.", "en": "It's okay. / That's fine. (Québec)", "accept": ["C'est bon.", "Ça va."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Plans, problems and polite requests",
+      "blocks": [
+        { "type": "dialogue", "title": "At the office in Moncton",
+          "context": "Lucie invites her colleague Raj to lunch.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Raj, tu veux manger avec nous ce midi ?", "en": "Raj, do you want to eat with us at lunch today?" },
+            { "speaker": "Raj", "fr": "C'est gentil, mais je ne peux pas. Je dois finir mon travail avant deux heures.", "en": "That's kind, but I can't. I have to finish my work before two o'clock." },
+            { "speaker": "Lucie", "fr": "Dommage ! Et vendredi soir ? Karim et moi, nous voulons aller au restaurant.", "en": "Too bad! And Friday evening? Karim and I want to go to a restaurant." },
+            { "speaker": "Raj", "fr": "Vendredi, oui, je peux ! Mais je dois rentrer tôt : je travaille samedi.", "en": "Friday, yes, I can! But I have to go home early: I work on Saturday." },
+            { "speaker": "Lucie", "fr": "C'est correct ! On mange à six heures ?", "en": "That's fine! Shall we eat at six?" }
+          ] },
+        { "type": "dialogue", "title": "At the reception desk of a bank",
+          "context": "Later, Raj has an appointment at his bank.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Bonjour, je voudrais parler à Mme Tremblay, s'il vous plaît.", "en": "Hello, I'd like to speak to Ms. Tremblay, please." },
+            { "speaker": "Réceptionniste", "fr": "Elle est occupée. Vous pouvez attendre dix minutes ?", "en": "She's busy. Can you wait ten minutes?" },
+            { "speaker": "Raj", "fr": "Oui, bien sûr. Est-ce que je peux attendre ici ?", "en": "Yes, of course. Can I wait here?" },
+            { "speaker": "Réceptionniste", "fr": "Oui, pas de problème. Vous voulez un café ?", "en": "Yes, no problem. Would you like a coffee?" },
+            { "speaker": "Raj", "fr": "Non merci, c'est gentil.", "en": "No thank you, that's kind." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for three little verbs that come before another verb: [[veux]], [[peux]], [[dois]]." }
+      ] },
+    { "type": "understand", "title": "Pouvoir, vouloir, devoir",
+      "blocks": [
+        { "type": "explain", "title": "Three verbs + an infinitive",
+          "body": "- [[pouvoir]] = can, to be able to, and also *may* (permission)\n- [[vouloir]] = to want\n- [[devoir]] = must, to have to\n\nAll three are irregular, and all three are usually followed by a **second verb in the infinitive**, with **no little word in between**: [[Je peux payer.]] [[Tu veux manger ?]] [[Il doit travailler.]]\n\nOnly the first verb changes with the person. The second verb never changes." },
+        { "type": "table", "title": "The present tense",
+          "head": ["", "pouvoir (can)", "vouloir (want)", "devoir (must)"],
+          "rows": [
+            ["je", "peux", "veux", "dois"],
+            ["tu", "peux", "veux", "dois"],
+            ["il / elle / on", "peut", "veut", "doit"],
+            ["nous", "pouvons", "voulons", "devons"],
+            ["vous", "pouvez", "voulez", "devez"],
+            ["ils / elles", "peuvent", "veulent", "doivent"]
+          ],
+          "frCols": [0, 1, 2, 3], "sayCol": true,
+          "note": "The three verbs follow the same shape: [[nous]] and [[vous]] keep the stem of the infinitive (*pouv-, voul-, dev-*); the other four forms change. [[je]] and [[tu]] end in **-x** for *peux* and *veux*, but **-s** for *dois*." },
+        { "type": "pattern", "title": "Building the sentence",
+          "pattern": "sujet + pouvoir / vouloir / devoir + infinitif",
+          "note": "**Negation** goes around the first verb: [[je ne peux pas travailler]]. With a **reflexive** verb, the little pronoun still matches the subject: [[je dois me lever]], [[tu dois te lever]].",
+          "examples": [
+            { "fr": "Nous pouvons parler anglais ou français.", "en": "We can speak English or French." },
+            { "fr": "Mes enfants veulent faire du ski.", "en": "My children want to go skiing." },
+            { "fr": "Je ne peux pas manger avec vous.", "en": "I can't eat with you." },
+            { "fr": "Je dois me lever à six heures.", "en": "I have to get up at six." }
+          ] },
+        { "type": "explain", "title": "Polite requests",
+          "body": "Three chunks cover most polite requests:\n\n- **Asking for something:** [[Je voudrais…]] (I'd like…), softer than *je veux*: [[Je voudrais un rendez-vous, s'il vous plaît.]]\n- **Asking permission:** [[Est-ce que je peux… ?]] (Can I…? / May I…?): [[Est-ce que je peux fermer la fenêtre ?]]\n- **Asking someone to do something:** [[Pouvez-vous… ?]] or [[Vous pouvez… ?]]: [[Pouvez-vous parler plus lentement ?]]\n\nUseful answers: [[Bien sûr !]] (Of course!), [[Oui, je veux bien.]] (Yes, I'd be glad to.), [[Désolé(e), je ne peux pas.]] (Sorry, I can't.)" },
+        { "type": "vocab", "title": "Phrases in this lesson", "itemIds": ["je-voudrais", "est-ce-que-je-peux", "pouvez-vous", "je-dois-travailler", "je-veux-bien", "je-ne-peux-pas", "dommage", "tot", "c-est-correct"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **No preposition:** [[Je veux manger]], not *je veux à manger*; [[je peux payer]], not *je peux de payer*.\n- **Second verb in the infinitive:** [[Je dois travailler]], not *je dois travaille*.\n- **Negation around the first verb:** [[Je ne veux pas danser.]]\n- **“I want” to a server or a stranger sounds blunt.** Say [[Je voudrais…]] instead.\n- **devoir + a noun** means *to owe*: [[Je dois vingt dollars à Karim.]] (I owe Karim twenty dollars.)" },
+        { "type": "deepdive", "kind": "pronunciation",
+          "body": "- [[peux]], [[peut]] sound the same (the vowel of [[deux]]). So do [[veux]] and [[veut]], and [[dois]] / [[doit]] (*dwa*).\n- In the **ils/elles** form you hear a consonant at the end: [[peuvent]] (*v*), [[veulent]] (*l*), [[doivent]] (*v*). That is how you hear the difference between [[il peut]] and [[ils peuvent]].",
+          "examples": [ { "fr": "Il veut. — Ils veulent.", "en": "He wants. — They want." }, { "fr": "Elle doit. — Elles doivent.", "en": "She must. — They must." } ] },
+        { "type": "deepdive", "kind": "why",
+          "body": "[[Je voudrais]] is a special, softer form of *vouloir* (you will learn its tense, the conditional, later). For now, use it as a fixed polite chunk, like English “I would like”.\n\nIn formal writing you will also see [[Puis-je… ?]] (May I…?), a very formal way to say *Est-ce que je peux… ?* You can recognize it; you don't need to use it." },
+        { "type": "deepdive", "kind": "canada",
+          "body": "In Québec and Acadie, [[C'est correct]] does **not** mean “that's correct”. It means **it's okay, that's fine, no problem**. You'll hear it all the time:\n\n- [[Je peux payer par carte ? — Oui, c'est correct.]]\n- [[Désolé, je suis en retard ! — C'est correct.]]\n\nIn France people say [[C'est bon]] or [[Pas de problème]] in the same situations.",
+          "examples": [ { "fr": "Est-ce que je peux attendre ici ? — Oui, c'est correct.", "en": "Can I wait here? — Yes, that's fine." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Repeat each line out loud, then record yourself and compare.",
+          "lines": [
+            { "fr": "Je peux payer par carte ?", "en": "Can I pay by card?", "tip": "peux rhymes with deux." },
+            { "fr": "Je voudrais un rendez-vous, s'il vous plaît.", "en": "I'd like an appointment, please.", "tip": "vou-drais: the s is silent." },
+            { "fr": "Pouvez-vous parler plus lentement ?", "en": "Can you speak more slowly? (formal)" },
+            { "fr": "Je dois travailler demain.", "en": "I have to work tomorrow.", "tip": "dois = dwa." },
+            { "fr": "Ils veulent manger au restaurant.", "en": "They want to eat at a restaurant.", "tip": "You hear the l in veulent." },
+            { "fr": "Désolée, je ne peux pas.", "en": "Sorry, I can't. (woman speaking)" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ils peuvent attendre ici.", "en": "They can wait here.", "prompt": "How many people can wait here?", "options": ["More than one person", "One person", "Nobody"], "answer": 0, "explain": "You hear the v in [[peuvent]], so it's [[ils]], not [[il]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je voudrais parler à Mme Tremblay, s'il vous plaît.", "en": "I'd like to speak to Ms. Tremblay, please.", "prompt": "What does the speaker want?", "options": ["To speak to Ms. Tremblay", "To wait for Ms. Tremblay", "To pay Ms. Tremblay"], "answer": 0, "explain": "[[Je voudrais parler à…]] = I'd like to speak to…" }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Nous ___ travailler samedi.", "answers": [["devons"]], "choices": ["devons", "doivent", "devez", "dois"], "en": "We have to work on Saturday.", "explain": "nous → devons." },
+        { "id": "r2", "type": "cloze", "text": "Ils ___ un café.", "answers": [["veulent"]], "choices": ["veut", "veulent", "voulons", "veux"], "en": "They want a coffee.", "explain": "ils → veulent." },
+        { "id": "r3", "type": "translate", "prompt": "Can I pay by card?", "accept": ["Est-ce que je peux payer par carte ?", "Je peux payer par carte ?", "Puis-je payer par carte ?"], "hint": "pouvoir: je peux", "explain": "je peux + infinitive payer, with no preposition." },
+        { "id": "r4", "type": "translate", "prompt": "I have to work tomorrow.", "accept": ["Je dois travailler demain.", "Demain, je dois travailler.", "Demain je dois travailler."], "explain": "je dois + infinitive travailler." },
+        { "id": "r5", "type": "mcq", "prompt": "At a ticket counter, which is the most polite way to ask for a ticket?", "options": ["Je voudrais un billet, s'il vous plaît.", "Je veux un billet.", "Je dois un billet.", "Je peux un billet."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Correct French, but it sounds blunt to a stranger.", "Je dois un billet means “I owe a ticket”.", "pouvoir needs a verb after it: Je peux avoir… ?"] },
+        { "id": "r6", "type": "match", "prompt": "Match each form to its meaning.", "pairs": [["je peux", "I can"], ["tu veux", "you want"], ["il doit", "he must"], ["nous pouvons", "we can"], ["ils veulent", "they want"]] },
+        { "id": "r7", "type": "reorder", "prompt": "Can you speak more slowly? (formal)", "accept": ["Pouvez-vous parler plus lentement ?"], "extra": ["peux", "lent"], "explain": "Inversion: Pouvez-vous + infinitive." },
+        { "id": "r8", "type": "listen-mcq", "fr": "Désolée, je ne peux pas ce soir. Je dois travailler.", "en": "Sorry, I can't tonight. I have to work.", "prompt": "Why does she say no for tonight?", "options": ["She has to work", "She doesn't want to", "She is tired"], "answer": 0, "explain": "[[Je dois travailler]] = I have to work." },
+        { "id": "r9", "type": "cloze", "text": "Je ne ___ pas manger avec vous : je ___ finir mon travail.", "answers": [["peux"], ["dois"]], "en": "I can't eat with you: I have to finish my work.", "explain": "ne… pas goes around peux; dois + finir = have to finish." },
+        { "id": "r10", "type": "dictation", "fr": "Vous voulez un café ?", "accept": [], "explain": "vous → voulez, like the infinitive vouloir." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You are at the front desk of a clinic. Ask politely for an appointment, say one day you can't come and why, and ask the receptionist to repeat the time.", "seconds": 30,
+          "checklist": ["Je voudrais…", "Je ne peux pas… + parce que je dois…", "Est-ce que c'est possible… ?", "Pouvez-vous répéter… ?"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour, je voudrais un rendez-vous avec le docteur, s'il vous plaît. Je ne peux pas le lundi parce que je dois travailler. Est-ce que c'est possible mardi matin ? Pardon, pouvez-vous répéter l'heure, s'il vous plaît ?", "en": "Hello, I'd like an appointment with the doctor, please. I can't on Mondays because I have to work. Is Tuesday morning possible? Sorry, can you repeat the time, please?" } ] },
+        { "id": "w1", "type": "write", "prompt": "A friend invites you to the cinema on Saturday. Reply by text: thank them, say you can't and what you have to do, then suggest another day with tu veux… ?", "wordRange": [15, 40],
+          "checklist": ["Merci", "je ne peux pas", "je dois + infinitive", "A suggestion: tu veux + infinitive ?"],
+          "models": [ { "label": "Model answer", "fr": "Salut Camille ! Merci, mais je ne peux pas samedi : je dois travailler. Tu veux aller au cinéma dimanche ? Je suis libre l'après-midi.", "en": "Hi Camille! Thanks, but I can't on Saturday: I have to work. Do you want to go to the cinema on Sunday? I'm free in the afternoon." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate [[pouvoir, vouloir, devoir]] in the present and add an infinitive: [[je peux payer, tu veux manger, je dois travailler]]\n- Make polite requests: [[Je voudrais…]] [[Est-ce que je peux… ?]] [[Pouvez-vous… ?]]\n- Accept or refuse: [[Je veux bien.]] [[Désolé(e), je ne peux pas.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Dialogue: 'Je veux bien, mais je ne peux pas' -> 'C'est gentil, mais je ne peux pas' (je veux bien signals acceptance). Speaking model/checklist: 'Est-ce que mardi matin, c'est possible ?' -> 'Est-ce que c'est possible mardi matin ?'." }
+}

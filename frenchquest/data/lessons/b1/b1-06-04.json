@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-06-04",
+  "level": "b1",
+  "unit": "b1-06",
+  "title": "Giving advice",
+  "goal": "Give advice and recommendations with the right strength: tu devrais, tu pourrais, tu ferais mieux de, il vaudrait mieux, à ta place, si j'étais toi.",
+  "minutes": 14,
+  "items": [
+    { "id": "g-advice-cond", "kind": "grammar", "fr": "tu devrais / tu pourrais / tu ferais mieux de + infinitif", "en": "advice with the conditionnel",
+      "drills": [
+        { "type": "cloze", "text": "Tu ___ (devoir) parler à ton patron.", "answers": [["devrais"]], "en": "You should talk to your boss.", "explain": "[[devoir]] → [[tu devrais]] = you should." },
+        { "type": "cloze", "text": "Vous feriez mieux ___ réserver à l'avance.", "answers": [["de"]], "en": "You'd better book in advance.", "explain": "[[faire mieux de]] + infinitive. Don't forget [[de]]." },
+        { "type": "translate", "prompt": "You shouldn't drive in this storm. (to a friend)", "accept": ["Tu ne devrais pas conduire dans cette tempête.", "Tu ne devrais pas rouler dans cette tempête.", "Tu ne devrais pas prendre la voiture dans cette tempête.", "Tu ferais mieux de ne pas conduire dans cette tempête."], "explain": "Negative advice: [[ne]] + [[devrais]] + [[pas]] + infinitive." }
+      ] },
+    { "id": "g-a-ta-place", "kind": "grammar", "fr": "à ta place / si j'étais toi + conditionnel", "en": "advice by putting yourself in someone's place",
+      "drills": [
+        { "type": "cloze", "text": "À ta place, j'___ (accepter) cette offre.", "answers": [["accepterais"]], "en": "If I were you, I'd accept this offer.", "explain": "[[À ta place]] is followed by **je** + conditionnel: [[j'accepterais]]." },
+        { "type": "cloze", "text": "Si j'___ (être) vous, je prendrais des cours du soir.", "answers": [["étais"]], "en": "If I were you, I'd take evening classes.", "explain": "si + imparfait: [[si j'étais vous]] (lesson 3)." },
+        { "type": "mcq", "prompt": "“À votre place, …” is used…", "options": ["with someone you call vous", "only with friends", "only in writing"], "answer": 0, "explain": "[[à ta place]] (tu) / [[à votre place]] (vous)." }
+      ] },
+    { "id": "g-vaudrait-mieux", "kind": "grammar", "fr": "il vaudrait mieux + infinitif / je te conseille de + infinitif", "en": "impersonal advice and recommendations",
+      "drills": [
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Il vaudrait mieux partir tôt.", "Il vaudrait mieux de partir tôt.", "Il vaudrait mieux à partir tôt."], "optionsFr": true, "answer": 0, "explain": "[[il vaut mieux / il vaudrait mieux]] + infinitive, with **no** preposition." },
+        { "type": "cloze", "text": "Je te conseille ___ visiter le Vieux-Québec.", "answers": [["de"]], "en": "I advise you to visit Old Québec.", "explain": "[[conseiller à quelqu'un de]] + infinitive: [[je te conseille de…]]." }
+      ] },
+    { "id": "tu-devrais", "kind": "phrase", "fr": "Tu devrais…", "en": "You should… (to a friend)" },
+    { "id": "vous-devriez", "kind": "phrase", "fr": "Vous devriez…", "en": "You should… (formal)" },
+    { "id": "ferais-mieux", "kind": "phrase", "fr": "Tu ferais mieux de…", "en": "You'd better… (to a friend)" },
+    { "id": "a-ta-place", "kind": "phrase", "fr": "À ta place, je…", "en": "In your place, I… (to a friend)", "accept": ["Moi, à ta place, je…"] },
+    { "id": "si-jetais-toi", "kind": "phrase", "fr": "Si j'étais toi, …", "en": "If I were you, … (to a friend)", "accept": ["Si j'étais toi, je…"] },
+    { "id": "vaudrait-mieux", "kind": "phrase", "fr": "Il vaudrait mieux…", "en": "It would be better to…", "accept": ["Il vaut mieux…"] },
+    { "id": "je-te-conseille", "kind": "phrase", "fr": "Je te conseille de…", "en": "I advise you to… (to a friend)" },
+    { "id": "pourquoi-pas", "kind": "phrase", "fr": "Pourquoi tu n'essaies pas… ?", "en": "Why don't you try…? (to a friend)", "accept": ["Pourquoi ne pas essayer… ?", "Pourquoi n'essaies-tu pas… ?"] },
+    { "id": "conseil", "kind": "vocab", "fr": "conseil", "article": "un", "gender": "m", "en": "piece of advice", "pos": "noun", "accept": ["le conseil"],
+      "example": { "fr": "Est-ce que je peux te donner un conseil ?", "en": "Can I give you a piece of advice?" }, "note": "Countable in French: [[un conseil]], [[des conseils]] (English *advice* has no plural)." },
+    { "id": "lache-pas", "kind": "phrase", "fr": "Lâche pas !", "en": "Don't give up! (informal Québec)", "accept": ["Ne lâche pas !", "N'abandonne pas !"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Help on a newcomers' forum",
+      "intro": "Nguyen asks for advice on a forum for newcomers to Canada. Read his message and three replies. Each person gives advice in a different way: look at the verbs after the advice phrases.",
+      "blocks": [
+        { "type": "text", "title": "Forum Nouveaux arrivants – Message de Nguyen",
+          "context": "A post in the “Work and studies” section of a (fictional) online forum.",
+          "fr": "Bonjour à tous,\nJe suis arrivé à Québec il y a six mois avec ma femme. En ce moment, je travaille dans un entrepôt le soir, mais au Vietnam, j'étais comptable. J'ai un problème : mon français n'est pas encore assez bon pour travailler dans un bureau, et je n'ai pas le temps d'étudier parce que je travaille beaucoup. On m'a proposé un cours de francisation à temps plein, mais je devrais quitter mon emploi. Qu'est-ce que vous feriez à ma place ?\nMerci d'avance !\nNguyen",
+          "en": "Hello everyone, I arrived in Québec City six months ago with my wife. Right now, I work in a warehouse in the evenings, but in Vietnam I was an accountant. I have a problem: my French isn't good enough yet to work in an office, and I don't have time to study because I work a lot. I was offered a full-time French course for immigrants, but I would have to quit my job. What would you do in my place? Thanks in advance! Nguyen" },
+        { "type": "text", "title": "Réponses",
+          "fr": "Lucie : Si j'étais toi, j'accepterais le cours tout de suite ! Six mois, ça passe vite, et après, tu pourrais chercher un poste en comptabilité. En plus, il y a souvent une aide financière pour les étudiants en francisation. Tu devrais te renseigner.\nRaj : J'ai vécu la même chose. À ta place, je ne quitterais pas mon emploi trop vite. Il vaudrait mieux demander à ton patron si tu peux travailler seulement la fin de semaine. Comme ça, tu pourrais étudier la semaine et garder un salaire.\nCamille : Je te conseille de parler à un conseiller en emploi : c'est gratuit. Et pourquoi tu n'essaies pas de faire reconnaître ton diplôme de comptable ? Par contre, tu ferais mieux de ne pas attendre : les démarches sont longues. Lâche pas, Nguyen !",
+          "en": "Lucie: If I were you, I'd accept the course right away! Six months go by fast, and afterwards you could look for an accounting job. Plus, there's often financial help for students in French courses. You should find out. Raj: I went through the same thing. In your place, I wouldn't quit my job too quickly. It would be better to ask your boss if you can work only on weekends. That way, you could study during the week and keep a salary. Camille: I advise you to talk to an employment counsellor: it's free. And why don't you try to get your accounting degree recognized? But you'd better not wait: the paperwork takes a long time. Don't give up, Nguyen!" },
+        { "type": "note", "tone": "info", "body": "New words: [[la francisation]] = French classes for immigrants (Québec); [[se renseigner]] = to find out, get information; [[faire reconnaître un diplôme]] = to get a degree recognized; [[les démarches]] = the steps, the paperwork; [[un conseiller en emploi]] = an employment counsellor." },
+        { "id": "d1", "type": "mcq", "prompt": "Which person thinks Nguyen should keep his job?", "options": ["Raj", "Lucie", "Camille"], "answer": 0,
+          "explain": "[[À ta place, je ne quitterais pas mon emploi trop vite.]] Raj suggests working only on weekends." },
+        { "id": "d2", "type": "mcq", "prompt": "“Tu ferais mieux de ne pas attendre.” What does Camille mean?", "options": ["You'd better not wait.", "You should wait a bit.", "You could wait if you want."], "answer": 0,
+          "explain": "[[tu ferais mieux de]] = you'd better (strong advice). With a negative infinitive: [[de ne pas attendre]]." },
+        { "id": "d3", "type": "mcq", "prompt": "After “Si j'étais toi” and “À ta place”, which form do Lucie and Raj use?", "options": ["je + conditionnel (j'accepterais, je ne quitterais pas)", "tu + présent", "je + futur"], "answer": 0,
+          "explain": "These phrases put **you** in the other person's place, so the next verb is [[je]] + conditionnel." }
+      ] },
+    { "type": "understand", "title": "Advice, from soft to strong",
+      "blocks": [
+        { "type": "table", "title": "How strong is your advice?",
+          "head": ["Strength", "Expression", "Example"],
+          "rows": [
+            ["Soft suggestion", "tu pourrais / vous pourriez + inf.", "Tu pourrais essayer un cours en ligne."],
+            ["Soft suggestion", "pourquoi tu n'essaies pas… ? / pourquoi ne pas + inf. ?", "Pourquoi ne pas demander à ton patron ?"],
+            ["Normal advice", "tu devrais / vous devriez + inf.", "Tu devrais te renseigner."],
+            ["Normal advice", "je te conseille de / je vous conseille de + inf.", "Je vous conseille de réserver."],
+            ["Personal advice", "à ta place / si j'étais toi + je + conditionnel", "À ta place, j'accepterais."],
+            ["Strong advice", "il vaudrait mieux + inf.", "Il vaudrait mieux partir tout de suite."],
+            ["Strong, a little warning", "tu ferais mieux de / vous feriez mieux de + inf.", "Tu ferais mieux de ne pas attendre."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "You learned [[il faut]], [[tu devrais]] and [[il vaut mieux]] at A2. The conditionnel versions ([[il vaudrait mieux]], [[tu ferais mieux de]]) sound softer and more natural when you give advice." },
+        { "type": "pattern", "title": "Putting yourself in their place",
+          "pattern": "À ta place / À votre place / Si j'étais toi / Si j'étais vous, + je + conditionnel",
+          "note": "The subject changes to **je**: you say what **you** would do. A very common mistake is to continue with [[tu]].",
+          "examples": [
+            { "fr": "À ta place, je prendrais le cours.", "en": "In your place, I'd take the course." },
+            { "fr": "Si j'étais vous, j'appellerais le propriétaire.", "en": "If I were you, I'd call the landlord." },
+            { "fr": "Moi, à ta place, je ne dirais rien.", "en": "Me, in your place, I wouldn't say anything." }
+          ] },
+        { "type": "explain", "title": "Pronouns and negatives in advice",
+          "body": "The advice verb is followed by an **infinitive**. Object pronouns go **before the infinitive**:\n\n- [[Tu devrais l'appeler.]] (You should call him/her.)\n- [[Vous feriez mieux de leur écrire.]] (You'd better write to them.)\n- [[Il vaudrait mieux y aller tôt.]] (It would be better to go there early.)\n\nTwo kinds of negative, with different meanings:\n\n- [[Tu ne devrais pas partir.]] = You shouldn't leave. (negation around devrais)\n- [[Tu ferais mieux de ne pas partir.]] / [[Il vaudrait mieux ne pas partir.]] = You'd better not leave. (**ne pas** together, before the infinitive)" },
+        { "type": "deepdive", "kind": "mistakes", "title": "Advice traps",
+          "body": "- **Futur after à ta place:** [[À ta place, j'accepterai]] → [[j'accepterais]].\n- **Wrong subject:** [[À ta place, tu accepterais]] → [[À ta place, j'accepterais]].\n- **Extra de:** [[Il vaudrait mieux de partir]] → [[Il vaudrait mieux partir]]. [[Tu devrais de venir]] → [[Tu devrais venir]].\n- **Missing de:** [[Tu ferais mieux partir]] → [[Tu ferais mieux de partir]]; [[Je te conseille prendre]] → [[Je te conseille de prendre]].\n- **conseiller que:** [[Je te conseille que tu partes]] is possible but rare, and it needs the subjonctif (B2). Use [[Je te conseille de partir]].\n- **Countable advice:** [[des conseils]] is plural, [[un conseil]] is one piece of advice. [[Donner un avis]] means giving an *opinion*, not advice." },
+        { "type": "deepdive", "kind": "culture", "title": "Giving advice without sounding bossy",
+          "body": "Unrequested advice can sound like criticism. French speakers soften it with:\n\n- a question first: [[Je peux te donner un conseil ?]]\n- [[moi]] or [[personnellement]]: [[Moi, à ta place…]] (it's only my view)\n- [[peut-être]]: [[Tu pourrais peut-être en parler à ton patron.]]\n- a reason: [[…parce que les démarches sont longues.]]\n\n[[Tu dois]] and [[il faut]] are much stronger: use them for rules or real obligations, not for friendly advice." },
+        { "type": "deepdive", "kind": "canada", "title": "Québec encouragement",
+          "body": "- [[Lâche pas !]] (from [[lâcher]], to let go) is the classic Québec way to say *Don't give up! Keep going!* Informal, and very warm. Standard: [[Ne lâche pas !]] or [[Courage !]]\n- [[Inquiète-toi pas]] (informal) = [[Ne t'inquiète pas]] = Don't worry.\n- [[la francisation]] is the Québec government's free French program for immigrants, now offered through [[Francisation Québec]]. Asking for advice on a forum or at a [[Services Québec]] office is a normal first step." }
+      ] },
+    { "type": "hear", "title": "Advice out loud",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Friendly advice has a warm, slightly rising tone, not a commanding one.",
+          "lines": [
+            { "fr": "Tu devrais te renseigner.", "en": "You should find out.", "tip": "devrais: deu-vrè." },
+            { "fr": "Si j'étais toi, j'accepterais tout de suite.", "en": "If I were you, I'd accept right away." },
+            { "fr": "À ta place, je ne quitterais pas mon emploi.", "en": "In your place, I wouldn't quit my job." },
+            { "fr": "Il vaudrait mieux partir tôt.", "en": "It would be better to leave early.", "tip": "vaudrait: vô-drè." },
+            { "fr": "Tu ferais mieux de ne pas attendre.", "en": "You'd better not wait." },
+            { "fr": "Lâche pas !", "en": "Don't give up! (Québec, informal)" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Si j'étais vous, je réserverais un hôtel près du centre-ville. Il vaudrait mieux ne pas prendre la voiture.", "en": "If I were you, I'd book a hotel near downtown. It would be better not to take the car.", "prompt": "What does the speaker advise?", "options": ["Stay downtown and avoid the car", "Stay outside the city and drive", "Rent a car downtown"], "answer": 0,
+          "explain": "[[je réserverais un hôtel près du centre-ville]] + [[il vaudrait mieux ne pas prendre la voiture]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Tu pourrais peut-être en parler à ta directrice ?", "en": "Maybe you could talk to your manager about it?", "prompt": "How strong is this advice?", "options": ["Soft, a suggestion", "Very strong, a warning", "An obligation"], "answer": 0,
+          "explain": "[[tu pourrais]] + [[peut-être]] = a gentle suggestion." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Give advice at the right strength, with the right little words (de or nothing).",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Tu as de la fièvre ? Tu ___ (devoir) rester à la maison.", "answers": [["devrais"]], "choices": ["devrais", "devras", "devais", "dois de"], "en": "You have a fever? You should stay home.",
+          "explain": "Advice → conditionnel [[tu devrais]]. [[devras]] is the futur, [[devais]] the imparfait." },
+        { "id": "r2", "type": "cloze", "text": "À ta place, j'___ (appeler) le propriétaire aujourd'hui.", "answers": [["appellerais"]], "en": "In your place, I'd call the landlord today.",
+          "explain": "[[à ta place]] + **je** + conditionnel. [[appeler]] doubles the l: [[j'appellerais]]." },
+        { "id": "r3", "type": "mcq", "prompt": "Choose the correct sentence.", "options": ["Il vaudrait mieux prendre le métro.", "Il vaudrait mieux de prendre le métro.", "Tu ferais mieux prendre le métro.", "Je te conseille prendre le métro."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "No de after il vaut / vaudrait mieux.", "faire mieux needs de: tu ferais mieux de prendre.", "conseiller needs de: je te conseille de prendre."] },
+        { "id": "r4", "type": "translate", "prompt": "If I were you, I would accept this job. (to a friend)", "accept": ["Si j'étais toi, j'accepterais ce poste.", "Si j'étais toi, j'accepterais cet emploi.", "Si j'étais toi, j'accepterais ce travail.", "À ta place, j'accepterais ce poste.", "À ta place, j'accepterais cet emploi.", "À ta place, j'accepterais ce travail.", "J'accepterais ce poste si j'étais toi."],
+          "explain": "[[Si j'étais toi]] or [[À ta place]] + [[j'accepterais]]." },
+        { "id": "r5", "type": "translate", "prompt": "You'd better not wait. (formal)", "accept": ["Vous feriez mieux de ne pas attendre.", "Il vaudrait mieux ne pas attendre.", "Vous ne devriez pas attendre."],
+          "explain": "[[ne pas]] goes together before the infinitive: [[de ne pas attendre]]." },
+        { "id": "r6", "type": "match", "prompt": "Match each problem with the best advice.", "pairs": [["J'ai mal au dos.", "Tu devrais voir un physiothérapeute."], ["Mon loyer est trop cher.", "À ta place, je chercherais un colocataire."], ["Je ne comprends pas mon contrat.", "Je te conseille de le montrer à un avocat."], ["Il y a une tempête ce soir.", "Il vaudrait mieux ne pas sortir."]] },
+        { "id": "r7", "type": "cloze", "text": "Tu devrais ___ appeler : elle attend ta réponse.", "answers": [["l'"]], "choices": ["l'", "la", "lui"], "en": "You should call her: she's waiting for your answer.",
+          "explain": "The pronoun goes before the infinitive: [[l'appeler]] ([[appeler quelqu'un]] → direct object; [[la]] → [[l']] before a vowel)." },
+        { "id": "r8", "type": "reorder", "prompt": "Why don't you talk to your boss (a man)? (to a friend)", "accept": ["Pourquoi tu ne parles pas à ton patron"], "extra": ["parlerais"],
+          "explain": "[[Pourquoi tu ne…pas]] + present = a friendly suggestion." },
+        { "id": "r9", "type": "cloze", "text": "Si tu ___ (prendre) des cours du soir, tu pourrais garder ton emploi.", "answers": [["prenais"]], "en": "If you took evening classes, you could keep your job.",
+          "explain": "si + imparfait (lesson 3): [[tu prenais]]. Never *si tu prendrais*." },
+        { "id": "r10", "type": "dictation", "fr": "Je peux te donner un conseil ?", "accept": [], "explain": "[[un conseil]]: ends in -eil, like [[soleil]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Reply to Nguyen on the forum. Give him at least three pieces of advice of different strengths, explain why, and end with a word of encouragement.",
+          "promptFr": "Répondez au message de Nguyen sur le forum.",
+          "wordRange": [60, 110],
+          "checklist": ["À ta place / Si j'étais toi + je + conditionnel", "tu devrais or je te conseille de", "tu ferais mieux de or il vaudrait mieux (no extra de!)", "At least one reason (parce que, comme ça…)", "One negative piece of advice (tu ne devrais pas… / de ne pas…)", "Encouragement at the end"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Nguyen,\nMoi aussi, j'ai eu ce problème quand je suis arrivée à Montréal. À ta place, je prendrais le cours de francisation, parce que le français est la clé pour trouver un emploi de bureau. Par contre, tu ne devrais pas quitter ton emploi sans plan. Je te conseille de demander une aide financière avant. Il vaudrait mieux aussi commencer les démarches pour faire reconnaître ton diplôme pendant le cours. Comme ça, tu gagnerais du temps. Courage, et lâche pas !\nAmira", "en": "Hi Nguyen, I had this problem too when I arrived in Montréal. In your place, I'd take the French course, because French is the key to finding an office job. On the other hand, you shouldn't quit your job without a plan. I advise you to apply for financial help first. It would also be better to start the steps to get your degree recognized during the course. That way, you'd save time. Courage, and don't give up! Amira" }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "A friend tells you: « Je suis toujours fatigué, je dors mal et je travaille trop. » Give them three or four pieces of advice, from soft to strong.", "seconds": 45,
+          "checklist": ["A soft suggestion: tu pourrais… / pourquoi tu n'essaies pas…", "tu devrais…", "à ta place, je…", "tu ferais mieux de… or il vaudrait mieux…"],
+          "models": [ { "label": "Model answer", "fr": "Oh, ce n'est pas bon, ça ! Tu pourrais peut-être faire un peu de sport le soir. Et tu devrais arrêter de regarder ton téléphone au lit. Moi, à ta place, je parlerais à mon patron : tu ne peux pas travailler cinquante heures par semaine. Et si ça continue, tu ferais mieux de voir un médecin.", "en": "Oh, that's not good! Maybe you could do a bit of exercise in the evening. And you should stop looking at your phone in bed. Me, in your place, I'd talk to my boss: you can't work fifty hours a week. And if it continues, you'd better see a doctor." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Give advice at the right strength: [[tu pourrais]], [[tu devrais]], [[je te conseille de]], [[il vaudrait mieux]], [[tu ferais mieux de]]\n- Put yourself in someone's place: [[À ta place / Si j'étais toi, je + conditionnel]]\n- Place pronouns and negatives correctly: [[Tu devrais l'appeler]], [[Tu ferais mieux de ne pas attendre]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed vous accepts from items marked \"(to a friend)\", updated francisation info (Francisation Québec), removed a non-homophone dictation accept, small wording fixes." }
+}

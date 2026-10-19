@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-25",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "The body and health",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "body parts, injuries, illness and symptoms",
+  "goal": "Recognise and use 22 words for the body, injuries, illness and symptoms.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "poing",
+      "kind": "vocab",
+      "fr": "poing",
+      "article": "le",
+      "gender": "m",
+      "en": "fist",
+      "pos": "noun",
+      "accept": [
+        "un poing"
+      ],
+      "example": {
+        "fr": "Il a tapé du poing sur la table.",
+        "en": "He banged his fist on the table."
+      }
+    },
+    {
+      "id": "muscle",
+      "kind": "vocab",
+      "fr": "muscle",
+      "article": "le",
+      "gender": "m",
+      "en": "muscle",
+      "pos": "noun",
+      "accept": [
+        "un muscle"
+      ],
+      "example": {
+        "fr": "J'ai mal aux muscles après le sport.",
+        "en": "My muscles ache after exercise."
+      }
+    },
+    {
+      "id": "organe",
+      "kind": "vocab",
+      "fr": "organe",
+      "article": "l'",
+      "gender": "m",
+      "en": "organ (body)",
+      "pos": "noun",
+      "accept": [
+        "un organe"
+      ],
+      "example": {
+        "fr": "Le cœur est un organe vital.",
+        "en": "The heart is a vital organ."
+      }
+    },
+    {
+      "id": "cote",
+      "kind": "vocab",
+      "fr": "côte",
+      "article": "la",
+      "gender": "f",
+      "en": "rib",
+      "pos": "noun",
+      "accept": [
+        "une côte"
+      ],
+      "example": {
+        "fr": "Il s'est cassé une côte en tombant en ski.",
+        "en": "He broke a rib falling while skiing."
+      },
+      "note": "Also: coast (la côte Atlantique)."
+    },
+    {
+      "id": "respiration",
+      "kind": "vocab",
+      "fr": "respiration",
+      "article": "la",
+      "gender": "f",
+      "en": "breathing",
+      "pos": "noun",
+      "accept": [
+        "une respiration"
+      ],
+      "example": {
+        "fr": "Prenez une grande respiration.",
+        "en": "Take a deep breath."
+      },
+      "note": "Also: Inspirez profondément = breathe in deeply."
+    },
+    {
+      "id": "genetique",
+      "kind": "vocab",
+      "fr": "génétique",
+      "en": "genetic",
+      "pos": "adjective",
+      "example": {
+        "fr": "C'est une maladie génétique rare.",
+        "en": "It's a rare genetic disease."
+      }
+    },
+    {
+      "id": "maladie",
+      "kind": "vocab",
+      "fr": "maladie",
+      "article": "la",
+      "gender": "f",
+      "en": "illness, disease",
+      "pos": "noun",
+      "accept": [
+        "une maladie"
+      ],
+      "example": {
+        "fr": "Le diabète est une maladie fréquente.",
+        "en": "Diabetes is a common disease."
+      }
+    },
+    {
+      "id": "plaie",
+      "kind": "vocab",
+      "fr": "plaie",
+      "article": "la",
+      "gender": "f",
+      "en": "wound, cut",
+      "pos": "noun",
+      "accept": [
+        "une plaie"
+      ],
+      "example": {
+        "fr": "Il faut nettoyer la plaie avant de mettre un pansement.",
+        "en": "You need to clean the wound before putting on a bandage."
+      }
+    },
+    {
+      "id": "cicatrice",
+      "kind": "vocab",
+      "fr": "cicatrice",
+      "article": "la",
+      "gender": "f",
+      "en": "scar",
+      "pos": "noun",
+      "accept": [
+        "une cicatrice"
+      ],
+      "example": {
+        "fr": "J'ai une cicatrice au genou depuis mon accident de vélo.",
+        "en": "I have had a scar on my knee since my bike accident."
+      }
+    },
+    {
+      "id": "tumeur",
+      "kind": "vocab",
+      "fr": "tumeur",
+      "article": "la",
+      "gender": "f",
+      "en": "tumour",
+      "pos": "noun",
+      "accept": [
+        "une tumeur"
+      ],
+      "example": {
+        "fr": "Heureusement, la tumeur n'était pas grave.",
+        "en": "Luckily, the tumour wasn't serious."
+      }
+    },
+    {
+      "id": "immunite",
+      "kind": "vocab",
+      "fr": "immunité",
+      "article": "l'",
+      "gender": "f",
+      "en": "immunity",
+      "pos": "noun",
+      "accept": [
+        "une immunité"
+      ],
+      "example": {
+        "fr": "Le vaccin donne une bonne immunité.",
+        "en": "The vaccine gives good immunity."
+      }
+    },
+    {
+      "id": "infirmerie",
+      "kind": "vocab",
+      "fr": "infirmerie",
+      "article": "l'",
+      "gender": "f",
+      "en": "sick room, infirmary (school, work)",
+      "pos": "noun",
+      "accept": [
+        "une infirmerie"
+      ],
+      "example": {
+        "fr": "L'élève s'est senti mal et il est allé à l'infirmerie.",
+        "en": "The student felt sick and went to the sick room."
+      }
+    },
+    {
+      "id": "goutte",
+      "kind": "vocab",
+      "fr": "goutte",
+      "article": "la",
+      "gender": "f",
+      "en": "drop (of liquid)",
+      "pos": "noun",
+      "accept": [
+        "une goutte"
+      ],
+      "example": {
+        "fr": "Mettez deux gouttes dans chaque œil.",
+        "en": "Put two drops in each eye."
+      }
+    },
+    {
+      "id": "douloureux",
+      "kind": "vocab",
+      "fr": "douloureux",
+      "fem": "douloureuse",
+      "en": "painful",
+      "pos": "adjective",
+      "accept": [
+        "douloureuse"
+      ],
+      "example": {
+        "fr": "Mon épaule est encore douloureuse.",
+        "en": "My shoulder is still painful."
+      }
+    },
+    {
+      "id": "sourd",
+      "kind": "vocab",
+      "fr": "sourd",
+      "fem": "sourde",
+      "en": "deaf",
+      "pos": "adjective",
+      "accept": [
+        "sourde"
+      ],
+      "example": {
+        "fr": "Mon grand-père est un peu sourd ; parle plus fort.",
+        "en": "My grandfather is a bit deaf; speak louder."
+      }
+    },
+    {
+      "id": "sobre",
+      "kind": "vocab",
+      "fr": "sobre",
+      "en": "sober; plain, simple",
+      "pos": "adjective",
+      "example": {
+        "fr": "Il ne boit pas d'alcool : il est sobre depuis cinq ans.",
+        "en": "He doesn't drink alcohol: he has been sober for five years."
+      }
+    },
+    {
+      "id": "saigner",
+      "kind": "vocab",
+      "fr": "saigner",
+      "en": "to bleed",
+      "pos": "verb",
+      "example": {
+        "fr": "Je me suis coupé, ça saigne !",
+        "en": "I cut myself, it's bleeding!"
+      }
+    },
+    {
+      "id": "vomir",
+      "kind": "vocab",
+      "fr": "vomir",
+      "en": "to vomit, to throw up",
+      "pos": "verb",
+      "example": {
+        "fr": "Le bébé a vomi toute la nuit.",
+        "en": "The baby threw up all night."
+      }
+    },
+    {
+      "id": "avaler",
+      "kind": "vocab",
+      "fr": "avaler",
+      "en": "to swallow",
+      "pos": "verb",
+      "example": {
+        "fr": "J'ai du mal à avaler les pilules.",
+        "en": "I find it hard to swallow pills."
+      }
+    },
+    {
+      "id": "mordre",
+      "kind": "vocab",
+      "fr": "mordre",
+      "en": "to bite",
+      "pos": "verb",
+      "example": {
+        "fr": "Attention, ce chien mord !",
+        "en": "Careful, this dog bites!"
+      }
+    },
+    {
+      "id": "piquer",
+      "kind": "vocab",
+      "fr": "piquer",
+      "en": "to sting; to prick",
+      "pos": "verb",
+      "example": {
+        "fr": "Une guêpe m'a piqué au bras.",
+        "en": "A wasp stung me on the arm."
+      },
+      "note": "Also informal: to steal (piquer un portefeuille)."
+    },
+    {
+      "id": "avoir-bonne-mine",
+      "kind": "phrase",
+      "fr": "avoir bonne mine",
+      "en": "to look well, to look healthy",
+      "example": {
+        "fr": "Tu as bonne mine ! Tu as passé de bonnes vacances ?",
+        "en": "You look well! Did you have a good holiday?"
+      },
+      "note": "avoir mauvaise mine = to look unwell"
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "The body",
+          "itemIds": [
+            "poing",
+            "muscle",
+            "organe",
+            "cote",
+            "respiration",
+            "genetique"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Injuries and illness",
+          "itemIds": [
+            "maladie",
+            "plaie",
+            "cicatrice",
+            "tumeur",
+            "immunite",
+            "infirmerie",
+            "goutte",
+            "douloureux",
+            "sourd",
+            "sobre"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "What the body does",
+          "itemIds": [
+            "saigner",
+            "vomir",
+            "avaler",
+            "mordre",
+            "piquer",
+            "avoir-bonne-mine"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[Une côte]] is a rib and also a coast; [[un côté]] is a side.\n- [[Ça saigne]], [[ça pique]]: use [[ça]] for symptoms.\n- [[Mordre]] is like [[vendre]]: il mord, il a mordu.\n- [[Sobre]] also means *plain*: [[une robe sobre]].\n- Québec: [[se faire piquer par un maringouin]] = to get a mosquito bite."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Il a tapé du poing sur la table.",
+              "en": "He banged his fist on the table."
+            },
+            {
+              "fr": "Il s'est cassé une côte en tombant en ski.",
+              "en": "He broke a rib falling while skiing."
+            },
+            {
+              "fr": "Prenez une grande respiration.",
+              "en": "Take a deep breath."
+            },
+            {
+              "fr": "Il faut nettoyer la plaie avant de mettre un pansement.",
+              "en": "You need to clean the wound before putting on a bandage."
+            },
+            {
+              "fr": "Mettez deux gouttes dans chaque œil.",
+              "en": "Put two drops in each eye."
+            },
+            {
+              "fr": "Mon épaule est encore douloureuse.",
+              "en": "My shoulder is still painful."
+            },
+            {
+              "fr": "Mon grand-père est un peu sourd ; parle plus fort.",
+              "en": "My grandfather is a bit deaf; speak louder."
+            },
+            {
+              "fr": "Je me suis coupé, ça saigne !",
+              "en": "I cut myself, it's bleeding!"
+            },
+            {
+              "fr": "Attention, ce chien mord !",
+              "en": "Careful, this dog bites!"
+            },
+            {
+              "fr": "Tu as bonne mine ! Tu as passé de bonnes vacances ?",
+              "en": "You look well! Did you have a good holiday?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the body and health words.",
+          "pairs": [
+            [
+              "le poing",
+              "fist"
+            ],
+            [
+              "la côte",
+              "rib"
+            ],
+            [
+              "la cicatrice",
+              "scar"
+            ],
+            [
+              "la plaie",
+              "wound"
+            ],
+            [
+              "la goutte",
+              "drop"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the verbs.",
+          "pairs": [
+            [
+              "saigner",
+              "to bleed"
+            ],
+            [
+              "avaler",
+              "to swallow"
+            ],
+            [
+              "mordre",
+              "to bite"
+            ],
+            [
+              "vomir",
+              "to throw up"
+            ],
+            [
+              "piquer",
+              "to sting"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "The nurse wants you to breathe in deeply. She says:",
+          "options": [
+            "Prenez une grande respiration.",
+            "Prenez une grande cicatrice.",
+            "Prenez une grande plaie.",
+            "Prenez une grande côte."
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Prendre une grande respiration]] = to take a deep breath."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "A bee has just stung Mei. What does she say?",
+          "options": [
+            "Une abeille m’a piquée !",
+            "Une abeille m’a mordue !",
+            "Une abeille m’a avalée !",
+            "Une abeille m’a saignée !"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "Insects [[piquent]] (sting); dogs [[mordent]] (bite)."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "My shoulder is painful.",
+          "accept": [
+            "Mon épaule est douloureuse.",
+            "J'ai mal à l'épaule."
+          ],
+          "hint": "l'épaule is feminine",
+          "explain": "[[Épaule]] is feminine, so [[douloureuse]]."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "The dog bit me.",
+          "accept": [
+            "Le chien m'a mordu.",
+            "Le chien m'a mordue."
+          ],
+          "explain": "[[Mordre]] → past participle [[mordu]]."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Je me suis coupé, ça ___ !",
+          "answers": [
+            [
+              "saigne"
+            ]
+          ],
+          "choices": [
+            "saigne",
+            "avale",
+            "vomit",
+            "mord"
+          ],
+          "en": "I cut myself, it's bleeding!",
+          "explain": "[[Saigner]]: ça saigne = it is bleeding."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "Tu as bonne ___ aujourd'hui ! Tu as bien dormi ?",
+          "answers": [
+            [
+              "mine"
+            ]
+          ],
+          "en": "You look well today! Did you sleep well?",
+          "explain": "[[Avoir bonne mine]] = to look healthy and rested."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "J'ai une cicatrice au genou.",
+          "accept": [],
+          "explain": "[[Cicatrice]] = si-ca-trice: the first c sounds like s (before i), the second like k (before a)."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Mon grand-père est un peu sourd ; parle plus fort.",
+          "en": "My grandfather is a bit deaf; speak louder.",
+          "prompt": "Why should you speak louder?",
+          "options": [
+            "The grandfather doesn't hear well",
+            "The grandfather is asleep",
+            "The room is noisy"
+          ],
+          "answer": 0,
+          "explain": "[[Sourd]] = deaf, hard of hearing."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Name parts of the body: [[poing, muscle, côte, organe]]\n- Describe injuries and illness: [[plaie, cicatrice, maladie, douloureux]]\n- Say what happens to the body: [[saigner, vomir, avaler, mordre, piquer]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Fixed the false cicatrice spelling tip; neutral muscle example; added a note on inspirez profondément."
+  }
+}

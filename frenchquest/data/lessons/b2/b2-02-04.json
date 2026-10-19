@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-02-04",
+  "level": "b2",
+  "unit": "b2-02",
+  "title": "Negotiation phrases",
+  "goal": "Negotiate politely and effectively: make and counter offers, set conditions with à condition que / à condition de, offer something in return, and reach a compromise.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-a-condition", "kind": "grammar", "fr": "à condition que + subjonctif / à condition de + infinitif", "en": "provided that, on condition that",
+      "drills": [
+        { "type": "cloze", "text": "J'accepte ce salaire, à condition que vous ___ (pouvoir) m'offrir deux jours de télétravail.", "answers": [["puissiez"]], "en": "I accept this salary, provided that you can offer me two days of remote work.", "explain": "[[à condition que]] + subjunctive: [[que vous puissiez]] (unit 1, lesson 4)." },
+        { "type": "cloze", "text": "J'accepte, à condition ___ commencer en septembre.", "answers": [["de"]], "en": "I accept, provided I start in September.", "explain": "Same subject (*I* accept, *I* start) → [[à condition de + infinitif]]." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Nous signons, à condition que ce soit écrit dans le contrat.", "Nous signons, à condition que c'est écrit dans le contrat.", "Nous signons, à condition de ce soit écrit dans le contrat."], "optionsFr": true, "answer": 0, "explain": "Different subjects (nous / ce) → [[à condition que]] + subjunctive: [[ce soit]]." }
+      ] },
+    { "id": "terrain-dentente", "kind": "phrase", "fr": "trouver un terrain d'entente", "en": "to find common ground, to reach an agreement", "accept": ["trouver un accord", "trouver un compromis"],
+      "example": { "fr": "Je suis sûr que nous pouvons trouver un terrain d'entente.", "en": "I'm sure we can find common ground." } },
+    { "id": "je-vous-propose", "kind": "phrase", "fr": "Je vous propose…", "en": "I suggest…, I propose… (formal)", "example": { "fr": "Je vous propose un essai de trois mois.", "en": "I suggest a three-month trial." } },
+    { "id": "que-diriez-vous", "kind": "phrase", "fr": "Que diriez-vous de… ?", "en": "How about… ?, What would you say to… ? (formal)", "accept": ["Qu'est-ce que vous diriez de… ?"],
+      "example": { "fr": "Que diriez-vous d'une révision du salaire après six mois ?", "en": "How about a salary review after six months?" } },
+    { "id": "en-contrepartie", "kind": "phrase", "fr": "en contrepartie", "en": "in return, in exchange", "accept": ["en échange"],
+      "example": { "fr": "En contrepartie, je peux être disponible certains soirs.", "en": "In return, I can be available some evenings." } },
+    { "id": "faire-un-compromis", "kind": "phrase", "fr": "faire un compromis", "en": "to make a compromise", "accept": ["faire des compromis", "accepter un compromis"], "note": "Spelling: [[un compromis]], with an s even in the singular." },
+    { "id": "couper-la-poire", "kind": "phrase", "fr": "couper la poire en deux", "en": "to split the difference, to meet halfway", "note": "Literally *to cut the pear in two*." },
+    { "id": "seriez-vous-pret", "kind": "phrase", "fr": "Seriez-vous prêt à… ?", "en": "Would you be willing to… ? (formal, to a man)", "accept": ["Seriez-vous disposé à… ?"], "note": "To a woman: [[Seriez-vous prête à… ?]]" },
+    { "id": "envisageable", "kind": "phrase", "fr": "Ce serait envisageable si…", "en": "That could be considered if…", "accept": ["Ce serait possible si…", "Cela serait envisageable si…"], "note": "[[envisager]] = to consider. Followed by [[si + imparfait]] (B1 rule)." },
+    { "id": "en-dessous", "kind": "phrase", "fr": "Je ne peux pas descendre en dessous de…", "en": "I can't go below…", "accept": ["Je ne peux pas aller en dessous de…", "Je ne peux pas descendre sous…"] },
+    { "id": "derniere-offre", "kind": "phrase", "fr": "C'est notre dernière offre.", "en": "That's our final offer.", "accept": ["C'est ma dernière offre."], "note": "[[C'est à prendre ou à laisser]] (take it or leave it) is much more blunt." },
+    { "id": "marche-conclu", "kind": "phrase", "fr": "Marché conclu !", "en": "It's a deal!", "accept": ["Affaire conclue !", "C'est d'accord !", "Topez là !"] },
+    { "id": "salaire", "kind": "vocab", "fr": "salaire", "article": "le", "gender": "m", "en": "salary, wages", "pos": "noun", "accept": ["un salaire"],
+      "example": { "fr": "Le salaire annuel est de 72 000 $.", "en": "The annual salary is $72,000." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Negotiating a job offer",
+      "intro": "Negotiating is persuading **both ways**: each side gives a little to get what matters most. Read the tips first, then listen to Raj apply them in a real conversation.",
+      "blocks": [
+        { "type": "text", "title": "Négocier son salaire au Canada : cinq conseils",
+          "context": "A short article from a Canadian career website for newcomers.",
+          "fr": "Vous avez reçu une offre d'emploi ? Félicitations ! Mais avant de signer, sachez qu'au Canada, beaucoup d'employeurs s'attendent à une négociation. Voici cinq conseils pour la mener avec assurance.\n\n1. Renseignez-vous. Consultez les grilles salariales de votre secteur et de votre province. Un chiffre précis est beaucoup plus convaincant qu'une impression.\n\n2. Remerciez avant de négocier. Montrez votre enthousiasme pour le poste : votre interlocuteur doit sentir que vous voulez trouver un terrain d'entente, pas gagner une bataille.\n\n3. Ne négociez pas seulement le salaire. Les vacances, le télétravail, la formation ou la date de début peuvent compter autant. Si l'employeur ne peut pas augmenter le salaire, il pourra peut-être faire un geste ailleurs.\n\n4. Proposez des contreparties. Une négociation réussie est un échange : « Je peux commencer plus tôt, à condition que… » ou « En contrepartie, je serais disponible pour… ».\n\n5. Sachez où vous arrêter. Fixez-vous à l'avance un minimum en dessous duquel vous refuserez l'offre. Et une fois l'accord trouvé, demandez toujours une confirmation écrite.\n\nEnfin, n'oubliez pas : refuser poliment une offre insuffisante n'est pas une faute professionnelle. C'est souvent ce qui vous fera respecter.",
+          "en": "Have you received a job offer? Congratulations! But before signing, know that in Canada, many employers expect a negotiation. Here are five tips for conducting it with confidence.\n\n1. Do your research. Check the salary scales for your sector and your province. A precise figure is much more convincing than an impression.\n\n2. Say thank you before negotiating. Show your enthusiasm for the position: the other person must feel that you want to find common ground, not win a battle.\n\n3. Don't negotiate only the salary. Vacation, remote work, training or the start date can count just as much. If the employer can't raise the salary, they may be able to make a gesture elsewhere.\n\n4. Offer something in return. A successful negotiation is an exchange: “I can start earlier, provided that…” or “In return, I would be available for…”.\n\n5. Know where to stop. Set yourself, in advance, a minimum below which you will turn down the offer. And once the agreement is reached, always ask for written confirmation.\n\nFinally, don't forget: politely turning down an insufficient offer isn't a professional mistake. It's often what will earn you respect." },
+        { "type": "dialogue", "title": "The phone call",
+          "context": "Raj Patel, an IT project manager who recently moved to the Ottawa-Gatineau region, has received an offer: 72 000 $ a year, fully in the office. He calls Mme Lefebvre, the HR director.",
+          "lines": [
+            { "speaker": "Mme Lefebvre", "fr": "Bonjour Monsieur Patel. Alors, vous avez eu le temps d'étudier notre offre ?", "en": "Hello Mr. Patel. So, have you had time to look at our offer?" },
+            { "speaker": "Raj", "fr": "Oui, merci beaucoup. Le poste m'intéresse vraiment, et l'équipe m'a fait une excellente impression. J'aimerais toutefois discuter de deux points avant de signer.", "en": "Yes, thank you very much. I'm really interested in the position, and the team made an excellent impression on me. I would, however, like to discuss two points before signing." },
+            { "speaker": "Mme Lefebvre", "fr": "Je vous écoute.", "en": "I'm listening." },
+            { "speaker": "Raj", "fr": "D'abord, le salaire. D'après les grilles du secteur à Ottawa, un chargé de projet avec mon expérience gagne plutôt entre 80 000 et 85 000 $. Je vous propose donc 82 000 $.", "en": "First, the salary. According to the sector's pay scales in Ottawa, a project manager with my experience usually earns between $80,000 and $85,000. So I'm proposing $82,000." },
+            { "speaker": "Mme Lefebvre", "fr": "Je comprends votre raisonnement, mais notre budget pour ce poste est limité. Je ne peux pas aller au-delà de 75 000 $.", "en": "I understand your reasoning, but our budget for this position is limited. I can't go beyond $75,000." },
+            { "speaker": "Raj", "fr": "Je vois. Et si on coupait la poire en deux ? À 78 000 $, je serais prêt à signer dès cette semaine.", "en": "I see. And what if we split the difference? At $78,000, I'd be ready to sign this week." },
+            { "speaker": "Mme Lefebvre", "fr": "Ce serait envisageable si le salaire était révisé seulement après la période d'essai. Que diriez-vous de 76 000 $ au départ, puis 78 000 $ après six mois ?", "en": "That could be considered if the salary were reviewed only after the probation period. How about $76,000 to start, then $78,000 after six months?" },
+            { "speaker": "Raj", "fr": "C'est un compromis raisonnable. J'accepte, à condition que la révision soit écrite dans le contrat.", "en": "That's a reasonable compromise. I accept, provided the review is written into the contract." },
+            { "speaker": "Mme Lefebvre", "fr": "Cela ne pose aucun problème. Et votre deuxième point ?", "en": "That's no problem at all. And your second point?" },
+            { "speaker": "Raj", "fr": "Le télétravail. J'habite à Gatineau, et le trajet prend presque une heure. Seriez-vous prête à m'accorder deux jours de télétravail par semaine ?", "en": "Remote work. I live in Gatineau, and the commute takes almost an hour. Would you be willing to grant me two days of remote work a week?" },
+            { "speaker": "Mme Lefebvre", "fr": "Notre politique prévoit un jour par semaine. Je ne peux pas vous en offrir deux pendant la période d'essai : vous devez d'abord connaître l'équipe.", "en": "Our policy provides for one day a week. I can't offer you two during the probation period: you first need to get to know the team." },
+            { "speaker": "Raj", "fr": "C'est tout à fait compréhensible. Je vous propose un jour pendant l'essai, puis deux jours ensuite. En contrepartie, je serai au bureau tous les lundis pour les réunions d'équipe.", "en": "That's completely understandable. I suggest one day during the probation, then two days afterwards. In return, I'll be at the office every Monday for team meetings." },
+            { "speaker": "Mme Lefebvre", "fr": "Vous savez négocier, Monsieur Patel ! Très bien, je pense que nous avons trouvé un terrain d'entente. Je vous envoie le contrat modifié cet après-midi.", "en": "You know how to negotiate, Mr. Patel! Very well, I think we've found common ground. I'll send you the amended contract this afternoon." },
+            { "speaker": "Raj", "fr": "Parfait. Marché conclu ! Merci pour votre ouverture.", "en": "Perfect. It's a deal! Thank you for your openness." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What salary deal do they reach?", "options": ["76 000 $ to start, 78 000 $ after six months, in writing", "82 000 $ immediately", "75 000 $ with no review", "78 000 $ immediately"], "answer": 0,
+          "explain": "Mme Lefebvre proposes [[76 000 $ au départ, puis 78 000 $ après six mois]]; Raj accepts [[à condition que la révision soit écrite dans le contrat]]." },
+        { "id": "d2", "type": "mcq", "prompt": "What does Raj offer in return for more remote work?", "options": ["To be at the office every Monday for team meetings", "To accept a lower salary", "To work weekends", "To move to Ottawa"], "answer": 0,
+          "explain": "[[En contrepartie, je serai au bureau tous les lundis…]]: a negotiation is an exchange." }
+      ] },
+    { "type": "understand", "title": "The language of give and take",
+      "intro": "Notice how Raj never says *no* directly and never makes demands. He thanks, justifies with facts, proposes, sets conditions and offers something in return.",
+      "blocks": [
+        { "type": "table", "title": "Negotiation phrases by stage",
+          "head": ["Stage", "Useful French", "English"],
+          "rows": [
+            ["Open positively", "Le poste m'intéresse vraiment. J'aimerais toutefois discuter de…", "I'm really interested… I would, however, like to discuss…"],
+            ["Make an offer", "Je vous propose… / Que diriez-vous de… ?", "I suggest… / How about…?"],
+            ["Justify", "D'après les grilles du secteur… / Compte tenu de mon expérience…", "According to the pay scales… / Given my experience…"],
+            ["Resist politely", "Je comprends votre raisonnement, mais… / Je ne peux pas aller au-delà de…", "I understand your reasoning, but… / I can't go beyond…"],
+            ["Set a condition", "J'accepte, à condition que… / à condition de…", "I accept, provided that…"],
+            ["Give something", "En contrepartie, … / En échange, je serais prêt à…", "In return, … / In exchange, I'd be willing to…"],
+            ["Meet halfway", "Et si on coupait la poire en deux ? / C'est un compromis raisonnable.", "What if we split the difference? / That's a reasonable compromise."],
+            ["Close", "Je pense que nous avons trouvé un terrain d'entente. / Marché conclu !", "I think we've found common ground. / It's a deal!"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "The **conditional** (B1) is your best friend: [[je serais prêt à]], [[ce serait envisageable]], [[que diriez-vous]]. It turns demands into proposals." },
+        { "type": "pattern", "title": "À condition que / à condition de",
+          "pattern": "different subjects: à condition que + subjonctif — same subject: à condition de + infinitif",
+          "note": "Like [[bien que]], [[à condition que]] takes the **subjunctive**. Use the forms you learned in unit 1, lesson 4. Useful chunks: [[à condition que ce soit…]], [[à condition que vous puissiez…]], [[à condition que j'aie…]], [[à condition que nous fassions…]].",
+          "examples": [
+            { "fr": "J'accepte, à condition que la révision soit écrite dans le contrat.", "en": "I accept, provided the review is written into the contract." },
+            { "fr": "Je peux commencer lundi, à condition que vous puissiez m'envoyer le contrat avant.", "en": "I can start Monday, provided you can send me the contract before." },
+            { "fr": "Je peux commencer lundi, à condition de recevoir le contrat avant.", "en": "I can start Monday, provided I receive the contract before." },
+            { "fr": "On peut baisser le prix, à condition que vous payiez comptant.", "en": "We can lower the price, provided you pay cash." }
+          ] },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["terrain-dentente", "je-vous-propose", "que-diriez-vous", "en-contrepartie", "faire-un-compromis", "couper-la-poire", "seriez-vous-pret", "envisageable", "en-dessous", "derniere-offre", "marche-conclu", "salaire"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Negotiation traps",
+          "body": "- [[à condition que vous pouvez]] ✗ → [[à condition que vous puissiez]] ✓ (subjunctive)\n- [[J'accepte à condition que je commence en septembre]] (heavy: same subject) → [[J'accepte à condition de commencer en septembre]] ✓\n- [[Ce serait envisageable si vous augmenteriez…]] ✗ → [[si vous augmentiez…]] ✓ (no conditional after si)\n- [[un compromi]] ✗ → [[un compromis]] ✓\n- **Ultimatums too early:** [[C'est à prendre ou à laisser]] in the first minute ends the conversation. Keep it for the very end, if at all.\n- **Saying “I want”:** [[Je veux 82 000 $]] sounds like a demand. Prefer [[Je vous propose…]] or [[Je souhaiterais…]].\n- **Forgetting to thank:** start and end with [[merci]]; it costs nothing and builds goodwill." },
+        { "type": "deepdive", "kind": "canada", "title": "Salary talk in Canada",
+          "body": "In Canada, salaries are usually discussed as **annual** gross amounts ([[72 000 $ par année]]), and a counter-offer is normal and expected. Some provinces have pay-transparency rules: in British Columbia, for example, most public job postings have had to include a salary range since November 2023, which gives you a solid reference point.\n\nOther things often negotiated: [[les vacances]] (in many provinces the legal minimum for a new employee is two weeks, so a third week is a common request), [[le télétravail]] or [[le mode hybride]], [[la date d'entrée en fonction]], [[le remboursement de la formation]], and [[les avantages sociaux]] (benefits: dental, insurance).\n\nIn Ottawa-Gatineau, many people live in one province and work in the other: commute time is a very real argument." }
+      ] },
+    { "type": "hear", "title": "Sound firm but friendly",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In a negotiation, speak calmly and slowly when you give a figure: rushing sounds nervous.",
+          "lines": [
+            { "fr": "Le poste m'intéresse vraiment. J'aimerais toutefois discuter de deux points.", "en": "I'm really interested in the position. I would, however, like to discuss two points." },
+            { "fr": "Je vous propose 82 000 $.", "en": "I'm proposing $82,000." },
+            { "fr": "Et si on coupait la poire en deux ?", "en": "What if we split the difference?" },
+            { "fr": "J'accepte, à condition que ce soit écrit dans le contrat.", "en": "I accept, provided it's written into the contract." },
+            { "fr": "En contrepartie, je serai au bureau tous les lundis.", "en": "In return, I'll be at the office every Monday." },
+            { "fr": "Je pense que nous avons trouvé un terrain d'entente.", "en": "I think we've found common ground.", "tip": "[[entente]] [ɑ̃.tɑ̃t]: two nasal vowels." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je peux vous faire un prix de 900 $ pour le canapé, à condition que vous veniez le chercher vous-même samedi.", "en": "I can give you a price of $900 for the sofa, provided you come and pick it up yourself on Saturday.", "prompt": "What is the condition for the lower price?", "options": ["The buyer picks up the sofa on Saturday", "The buyer pays cash", "The buyer buys two sofas", "The seller delivers it"], "answer": 0,
+          "explain": "[[à condition que vous veniez le chercher]]: [[veniez]] is the subjunctive of [[venir]] (stem from [[ils viennent]] / [[nous venions]])." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je comprends vos contraintes, mais je ne peux pas descendre en dessous de 1 500 $ par mois. C'est déjà en dessous du prix du marché.", "en": "I understand your constraints, but I can't go below $1,500 a month. It's already below the market price.", "prompt": "What is the speaker doing?", "options": ["Refusing to lower the price further, politely", "Accepting a lower price", "Asking for a higher salary", "Ending the conversation rudely"], "answer": 0,
+          "explain": "[[Je comprends vos contraintes, mais…]] (acknowledge) + [[je ne peux pas descendre en dessous de…]] (firm limit) + a justification." }
+      ] },
+    { "type": "recall", "title": "Negotiate from memory",
+      "intro": "Nine questions, with unit 1 grammar mixed in.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "J'accepte, à condition que vous ___ (faire) un effort sur les vacances.", "answers": [["fassiez"]], "en": "I accept, provided you make an effort on vacation time.",
+          "explain": "[[faire]] → [[que vous fassiez]]." },
+        { "id": "r2", "type": "cloze", "text": "Je signe aujourd'hui, à condition ___ recevoir une confirmation écrite.", "answers": [["de"]], "en": "I'll sign today, provided I receive written confirmation.",
+          "explain": "Same subject (je… je) → [[à condition de + infinitif]]." },
+        { "id": "r3", "type": "translate", "prompt": "How about a salary review after six months? (formal)", "accept": ["Que diriez-vous d'une révision du salaire après six mois ?", "Que diriez-vous d'une révision salariale après six mois ?", "Qu'est-ce que vous diriez d'une révision du salaire après six mois ?", "Que diriez-vous d'une révision de salaire après six mois ?"],
+          "explain": "[[Que diriez-vous de + noun]]: [[de + une]] → [[d'une]]." },
+        { "id": "r4", "type": "mcq", "prompt": "The employer offers 70 000 $; you asked for 80 000 $. You want to meet halfway. You say:", "options": ["Et si on coupait la poire en deux, à 75 000 $ ?", "C'est à prendre ou à laisser.", "Je veux 80 000 $, point final.", "D'accord, 70 000 $, c'est parfait."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "An ultimatum, not a compromise.", "A demand that blocks the negotiation.", "You give up without negotiating."] },
+        { "id": "r5", "type": "match", "prompt": "Match each phrase to its function.", "pairs": [["Je vous propose…", "making an offer"], ["En contrepartie, …", "giving something in return"], ["Je ne peux pas aller au-delà de…", "setting a limit"], ["à condition que…", "setting a condition"], ["Marché conclu !", "closing the deal"]] },
+        { "id": "r6", "type": "translate", "prompt": "Would you be willing to grant me two days of remote work? (formal, to a woman)", "accept": ["Seriez-vous prête à m'accorder deux jours de télétravail ?", "Seriez-vous disposée à m'accorder deux jours de télétravail ?", "Seriez-vous prête à m'offrir deux jours de télétravail ?", "Seriez-vous prête à m'accorder deux journées de télétravail ?"],
+          "explain": "[[Seriez-vous prête à + infinitif]]: conditional + inversion; [[prête]] agrees with the woman you address." },
+        { "id": "r7", "type": "cloze", "text": "Ce serait envisageable si vous ___ (pouvoir) commencer plus tôt.", "answers": [["pouviez"]], "en": "That could be considered if you could start earlier.",
+          "explain": "After [[si]], never the conditional or subjunctive: imparfait [[pouviez]]." },
+        { "id": "r8", "type": "reorder", "prompt": "I think we've found common ground.", "accept": ["Je pense que nous avons trouvé un terrain d'entente"], "extra": ["terre", "accord"],
+          "explain": "[[trouver un terrain d'entente]] = to find common ground." },
+        { "id": "r9", "type": "dictation", "fr": "C'est un compromis raisonnable. J'accepte, à condition que ce soit écrit dans le contrat.", "accept": [], "explain": "[[un compromis]] (with s) + [[à condition que ce soit]] (subjunctive chunk)." }
+      ] },
+    { "type": "apply", "title": "Your turn: negotiate",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Role-play: your lease is up for renewal. Your landlord wants to raise the rent from 1 400 $ to 1 550 $ a month. Negotiate for about two minutes (imagine the landlord's answers): propose a smaller increase, set a condition, offer something in return, and reach an agreement.", "promptFr": "Négociez avec votre propriétaire l'augmentation de votre loyer.", "seconds": 120,
+          "checklist": ["Open positively (you like the apartment)", "Justify with a fact (market, condition of the apartment, your reliability)", "Make a counter-offer (Je vous propose… / Que diriez-vous de… ?)", "A condition with à condition que + subjunctive", "Something in return (En contrepartie…)", "Close with an agreement"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour Monsieur Tremblay. D'abord, je tiens à vous dire que nous nous plaisons beaucoup dans l'appartement, et nous aimerions rester. Par contre, une augmentation de 150 $ par mois, c'est beaucoup pour nous. D'après ce que j'ai vu, les loyers dans l'immeuble voisin ont augmenté d'environ 50 $. Je vous propose donc 1 460 $.\n\n(Le propriétaire refuse : il a des travaux à payer.)\n\nJe comprends vos contraintes. Que diriez-vous de couper la poire en deux, à 1 500 $ ? J'accepterais, à condition que la fenêtre de la chambre soit réparée avant l'hiver. En contrepartie, je peux signer un bail de deux ans : vous n'aurez pas à chercher de nouveaux locataires.\n\n(Le propriétaire accepte.)\n\nParfait, je pense que nous avons trouvé un terrain d'entente. Pourriez-vous m'envoyer le nouveau bail par courriel ? Merci beaucoup.", "en": "Hello Mr. Tremblay. First, I want to tell you that we really like the apartment, and we'd like to stay. However, an increase of $150 a month is a lot for us. From what I've seen, rents in the building next door have gone up by about $50. So I propose $1,460.\n\n(The landlord refuses: he has repairs to pay for.)\n\nI understand your constraints. How about splitting the difference, at $1,500? I would accept, provided the bedroom window is repaired before winter. In return, I can sign a two-year lease: you won't have to look for new tenants.\n\n(The landlord accepts.)\n\nPerfect, I think we've found common ground. Could you send me the new lease by email? Thank you very much." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "You've received a job offer by email. Reply to the HR manager: thank them, accept in principle, and negotiate two points (for example, salary and start date, or vacation and remote work).", "promptFr": "Répondez à une offre d'emploi en négociant deux points.",
+          "wordRange": [130, 190],
+          "checklist": ["Thank and show enthusiasm first", "Two points, each justified", "Je vous propose… or Que diriez-vous de… ?", "À condition que + subjunctive or à condition de + infinitive", "En contrepartie… or another concession", "Formal closing (Cordialement)"],
+          "models": [
+            { "label": "Model answer", "fr": "Objet : Votre offre pour le poste de technicienne comptable\n\nMadame Côté,\n\nJe vous remercie sincèrement pour votre offre. Le poste correspond parfaitement à mon profil, et je serais ravie de rejoindre votre équipe. Avant de signer, je souhaiterais toutefois aborder deux points.\n\nPremièrement, le salaire proposé, 52 000 $, est un peu inférieur à la moyenne du secteur à Québec pour un poste équivalent. Je vous propose 56 000 $, compte tenu de mes huit années d'expérience.\n\nDeuxièmement, j'ai déjà prévu un voyage familial du 2 au 13 juillet. Serait-il possible de commencer le 15 juillet ? En contrepartie, je pourrais suivre la formation en ligne dès maintenant, afin d'être opérationnelle dès mon arrivée.\n\nJe suis convaincue que nous pouvons trouver un terrain d'entente, et je reste à votre disposition pour en discuter.\n\nCordialement,\n\nMei Lin", "en": "Subject: Your offer for the accounting technician position\n\nMs. Côté,\n\nThank you sincerely for your offer. The position matches my profile perfectly, and I would be delighted to join your team. Before signing, however, I would like to raise two points.\n\nFirst, the proposed salary, $52,000, is slightly below the sector average in Québec City for an equivalent position. I propose $56,000, given my eight years of experience.\n\nSecond, I have already planned a family trip from July 2 to 13. Would it be possible to start on July 15? In return, I could take the online training right away, so as to be fully operational as soon as I arrive.\n\nI am convinced that we can find common ground, and I remain at your disposal to discuss it.\n\nKind regards,\n\nMei Lin" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Negotiate step by step: open positively, justify, propose ([[Je vous propose…]], [[Que diriez-vous de… ?]]), resist politely, close\n- Set conditions: [[à condition que + subjonctif]] (different subjects), [[à condition de + infinitif]] (same subject)\n- Give and take: [[en contrepartie]], [[couper la poire en deux]], [[faire un compromis]]\n- Soften with the conditional and reach [[un terrain d'entente]]: [[Marché conclu !]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed accept lists that broke the item's register or gender, hedged the BC pay-transparency and vacation facts, fixed the split-the-difference arithmetic and Raj's Ottawa/Gatineau inconsistency." }
+}

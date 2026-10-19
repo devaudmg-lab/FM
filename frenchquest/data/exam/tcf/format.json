@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "name": "TCF Canada",
+  "provider": "France Éducation international",
+  "verifiedOn": "2026-10-17",
+  "sourceUrl": "https://www.france-education-international.fr/test/tcf-canada",
+  "notes": [
+    "Total duration about 2 h 47.",
+    "Listening and reading are scored from 0 to 699; writing and speaking from 0 to 20.",
+    "Speaking per-task timings below are commonly reported; check the official candidate handbook before relying on them."
+  ],
+  "abilities": {
+    "co": { "name": "Compréhension orale", "en": "Listening", "minutes": 35, "items": 39, "format": "Multiple choice on recorded documents of increasing difficulty.", "maxPlays": 1,
+      "strategy": ["Questions get harder as you go: bank easy points early.", "Read the options before the audio and predict the topic.", "Listen for paraphrase: the right option rarely repeats the exact words."] },
+    "ce": { "name": "Compréhension écrite", "en": "Reading", "minutes": 60, "items": 39, "format": "Multiple choice on documents of increasing difficulty.",
+      "strategy": ["Difficulty rises through the test: keep time for the long texts at the end.", "Identify the document type and purpose first.", "Eliminate options that are true but do not answer the question."] },
+    "ee": { "name": "Expression écrite", "en": "Writing", "minutes": 60, "sections": [
+      { "id": "T1", "title": "Message", "en": "A short message (describe, explain, tell)", "minutes": 15, "minWords": 60, "maxWords": 120 },
+      { "id": "T2", "title": "Article / compte rendu", "en": "An article, letter or report on an experience", "minutes": 20, "minWords": 120, "maxWords": 150 },
+      { "id": "T3", "title": "Comparer deux points de vue", "en": "Present two opposing views, then take a position", "minutes": 25, "minWords": 120, "maxWords": 180 }
+    ], "strategy": ["Respect the word ranges: too short or too long costs points.", "Task 3: summarize BOTH documents neutrally first, then give your own reasoned opinion.", "Vary sentence structures and connectors; reread for agreement."] },
+    "eo": { "name": "Expression orale", "en": "Speaking", "minutes": 12, "sections": [
+      { "id": "T1", "title": "Entretien dirigé", "en": "Guided interview about yourself (no preparation)", "minutes": 2 },
+      { "id": "T2", "title": "Exercice en interaction", "en": "Interaction: ask the examiner questions to get information (5.5 min including 2 min preparation, so about 3.5 min speaking)", "minutes": 5.5, "prepMinutes": 2 },
+      { "id": "T3", "title": "Expression d’un point de vue", "en": "Give and justify your opinion on a topic", "minutes": 4.5 }
+    ], "strategy": ["Task 1: talk about yourself in detail — family, work, interests, plans.", "Task 2: ask many varied questions (who, what, when, how much…) and react to answers.", "Task 3: give a clear opinion, two or three arguments, and an example from your life."] }
+  }
+}

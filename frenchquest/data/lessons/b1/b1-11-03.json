@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-11-03",
+  "level": "b1",
+  "unit": "b1-11",
+  "title": "Writing tasks under time",
+  "goal": "Plan any TEF or TCF Canada writing task in five minutes, respect the word ranges, and write a news continuation or an opinion text with a clear structure.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-news-tenses", "kind": "grammar", "fr": "imparfait, passé composé, plus-que-parfait, passif", "en": "tenses in a news story (fait divers)",
+      "drills": [
+        { "type": "cloze", "text": "Les enfants ___ quand l'incendie a commencé. (dormir)", "answers": [["dormaient"]], "en": "The children were sleeping when the fire started.", "explain": "Background action in progress = imparfait: [[dormaient]]." },
+        { "type": "cloze", "text": "Quand les pompiers sont arrivés, la famille ___ déjà sortie.", "answers": [["était"]], "en": "When the firefighters arrived, the family had already got out.", "explain": "An action *before* another past action = plus-que-parfait: [[était sortie]]." },
+        { "type": "cloze", "text": "Le père a ___ transporté à l'hôpital.", "answers": [["été"]], "en": "The father was taken to hospital.", "explain": "Passive in the passé composé: [[a été]] + past participle. News stories use it a lot." }
+      ] },
+    { "id": "brouillon", "kind": "vocab", "fr": "brouillon", "article": "le", "gender": "m", "en": "the rough draft", "pos": "noun",
+      "example": { "fr": "Au brouillon, écris seulement ton plan.", "en": "On your scrap paper, write only your outline." } },
+    { "id": "relire", "kind": "vocab", "fr": "relire", "en": "to reread, to proofread", "pos": "verb",
+      "note": "Like lire: je relis, j'ai relu.",
+      "example": { "fr": "Garde trois minutes pour relire ton texte.", "en": "Keep three minutes to reread your text." } },
+    { "id": "nombre-de-mots", "kind": "vocab", "fr": "nombre de mots", "article": "le", "gender": "m", "en": "the word count", "pos": "noun",
+      "example": { "fr": "Respectez le nombre de mots demandé.", "en": "Respect the required word count." } },
+    { "id": "selon-temoins", "kind": "phrase", "fr": "selon les témoins", "en": "according to witnesses", "accept": ["d'après les témoins"] },
+    { "id": "secours", "kind": "vocab", "fr": "secours", "article": "les", "gender": "m", "en": "the emergency services", "pos": "noun",
+      "note": "Always plural in this meaning.",
+      "example": { "fr": "Les secours sont arrivés en huit minutes.", "en": "The emergency services arrived in eight minutes." } },
+    { "id": "personne-blesse", "kind": "phrase", "fr": "Personne n'a été blessé.", "en": "Nobody was injured.", "accept": ["Il n'y a pas eu de blessés.", "Il n'y a eu aucun blessé."] },
+    { "id": "enquete", "kind": "phrase", "fr": "Une enquête est en cours.", "en": "An investigation is under way." },
+    { "id": "d-une-part", "kind": "phrase", "fr": "d'une part…, d'autre part…", "en": "on the one hand…, on the other hand… (adding two points)" },
+    { "id": "c-est-pourquoi", "kind": "phrase", "fr": "C'est pourquoi je suis contre ce projet.", "en": "That's why I'm against this project.", "accept": ["C'est pour ça que je suis contre ce projet.", "Voilà pourquoi je suis contre ce projet."] },
+    { "id": "pour-conclure", "kind": "phrase", "fr": "Pour conclure", "en": "To conclude", "accept": ["En conclusion", "Pour finir"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Five minutes that save your text",
+      "blocks": [
+        { "type": "text", "title": "The start of a news article (like TEF section A)",
+          "fr": "GATINEAU — Une famille a vécu une nuit très agitée, dimanche, dans le quartier du Plateau. Vers 3 h du matin, un incendie s'est déclaré dans la cuisine de sa maison. Les quatre membres de la famille dormaient quand leur chien, Max, s'est mis à aboyer…",
+          "en": "GATINEAU — A family had a very eventful night on Sunday in the Plateau neighbourhood. Around 3 a.m., a fire broke out in the kitchen of their house. The four members of the family were sleeping when their dog, Max, started barking…" },
+        { "type": "text", "title": "Amira's plan, written in five minutes",
+          "fr": "Qui ? la famille Leblanc (les parents et deux enfants), Max, les pompiers\nQuoi ? Max réveille le père → tout le monde sort → appel au 911\nQuand et où ? vers 3 h 10, dans la rue ; pompiers arrivés en 8 minutes\nPourquoi ? un grille-pain resté branché (selon les pompiers)\nFin : personne n'a été blessé ; la famille dort chez des voisins ; « Max est notre héros »",
+          "en": "Who? the Leblanc family (the parents and two children), Max, the firefighters. What? Max wakes up the father → everyone gets out → 911 call. When and where? around 3:10 a.m., in the street; firefighters arrived in 8 minutes. Why? a toaster left plugged in (according to the firefighters). Ending: nobody was injured; the family is sleeping at neighbours' place; “Max is our hero”." },
+        { "type": "note", "tone": "info", "body": "Amira's plan is not sentences, just **notes**. It answers the journalist's five questions: **who, what, when, where, why**, plus an ending. With this, she can write 80 to 120 words without stopping to think." }
+      ] },
+    { "type": "understand", "title": "Know the task, plan, write, reread",
+      "blocks": [
+        { "type": "table", "title": "Writing at a glance",
+          "head": ["Exam", "Task", "Time", "Words"],
+          "rows": [
+            ["TEF Canada", "**A.** Continue a news article (Écrire la suite d'un article)", "25 min", "80–120"],
+            ["TEF Canada", "**B.** Express and justify a point of view", "35 min", "200–250"],
+            ["TCF Canada", "**T1.** A short message: describe, explain, tell", "15 min", "60–120"],
+            ["TCF Canada", "**T2.** An article, letter or report on an experience", "20 min", "120–150"],
+            ["TCF Canada", "**T3.** Present two opposing views, then take a position", "25 min", "120–180"]
+          ],
+          "frCols": [],
+          "note": "Each exam gives **60 minutes** in total for writing. The TEF has two long tasks; the TCF has three shorter ones. On both, **too short or too long costs points**." },
+        { "type": "explain", "title": "The five-minute plan",
+          "body": "**Minute 1: read the instructions.** Who are you writing to? What register (tu or vous)? What exactly must you do? How many words?\n\n**Minutes 2–3: find ideas.** For a news story: who, what, when, where, why, and the ending. For an opinion: your position, three arguments and one example for each.\n\n**Minutes 4–5: order them.** One line per paragraph, with the connector you will use: [[Tout d'abord]], [[De plus]], [[Cependant]], [[C'est pourquoi]], [[Pour conclure]].\n\nThen write without stopping, and **keep three minutes at the end to reread**: verb endings, agreements, accents, and the word count." },
+        { "type": "table", "title": "Your time budget",
+          "head": ["Task", "Plan", "Write", "Reread"],
+          "rows": [
+            ["TEF A (25 min)", "5 min", "17 min", "3 min"],
+            ["TEF B (35 min)", "5 min", "26 min", "4 min"],
+            ["TCF T1 (15 min)", "2 min", "11 min", "2 min"],
+            ["TCF T2 (20 min)", "3 min", "14 min", "3 min"],
+            ["TCF T3 (25 min)", "5 min", "17 min", "3 min"]
+          ],
+          "frCols": [],
+          "note": "These are suggestions, not official rules. Try them in practice and adjust to your own speed." },
+        { "type": "table", "title": "Tenses in a news story (TEF section A)",
+          "head": ["Use", "Tense", "Example"],
+          "rows": [
+            ["Background, situation, description", "imparfait", "Les enfants dormaient. Il faisait très froid."],
+            ["Events, one after another", "passé composé", "Max a aboyé, le père s'est réveillé et il a appelé le 911."],
+            ["Something that happened even earlier", "plus-que-parfait", "Quelqu'un avait oublié le grille-pain."],
+            ["What was done to someone (news style)", "passif", "Le père a été transporté à l'hôpital."],
+            ["Information not yet confirmed (news style)", "conditionnel", "L'incendie serait dû à un grille-pain."]
+          ],
+          "frCols": [2], "sayCol": 2,
+          "note": "Keep the **same tenses and the same third-person, factual style** as the start of the article. Don't suddenly write [[je]] or tell a story in the present." },
+        { "type": "pattern", "title": "An opinion text (TEF B, or the end of TCF T3)",
+          "pattern": "introduction + position → argument 1 + exemple → argument 2 + exemple → argument 3 + exemple → conclusion",
+          "note": "For **TEF B** (200–250 words): about 40 words of introduction, three paragraphs of about 50 words, and 30 words of conclusion.\n\nFor **TCF T3** (120–180 words): first **summarise both documents neutrally** (about 60 words, no opinion yet), then give **your** reasoned position (about 80–100 words).",
+          "examples": [
+            { "fr": "Beaucoup de villes veulent limiter les voitures au centre-ville. À mon avis, c'est une excellente idée.", "en": "Many cities want to limit cars downtown. In my opinion, it's an excellent idea." },
+            { "fr": "Tout d'abord, l'air serait moins pollué. Par exemple, à Montréal…", "en": "First of all, the air would be less polluted. For example, in Montréal…" },
+            { "fr": "Selon le premier document, le télétravail permet de gagner du temps. Le second, au contraire, insiste sur l'isolement.", "en": "According to the first document, remote work saves time. The second, on the contrary, stresses isolation." }
+          ] },
+        { "type": "vocab", "title": "Useful words and phrases", "itemIds": ["brouillon", "relire", "nombre-de-mots", "selon-temoins", "secours", "personne-blesse", "enquete", "d-une-part", "c-est-pourquoi", "pour-conclure"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "What loses points",
+          "body": "- **Switching style in section A:** writing [[je]], adding your opinion, or jumping to the present. Stay a journalist.\n- **Copying the start of the article** or the instructions: copied words show nothing about *your* French.\n- **Ignoring the word range:** 60 words for TEF A, or 300 for TEF B, is a clear penalty. Count roughly by lines: if one of your lines is about 10 words, 12 lines ≈ 120 words.\n- **No paragraphs:** one block of text hides your structure. Skip a line between paragraphs.\n- **Arguments without examples:** [[C'est bon pour l'environnement]] is a claim; add [[Par exemple…]] to make it an argument.\n- **TCF T3:** giving your opinion before summarising both documents, or summarising only the one you agree with." },
+        { "type": "deepdive", "kind": "examples", "title": "A small phrase bank",
+          "body": "For a news story, and for an opinion.",
+          "examples": [
+            { "fr": "Selon les témoins, la voiture roulait très vite.", "en": "According to witnesses, the car was going very fast." },
+            { "fr": "Les secours sont arrivés quelques minutes plus tard.", "en": "The emergency services arrived a few minutes later." },
+            { "fr": "Heureusement, personne n'a été blessé.", "en": "Fortunately, nobody was injured." },
+            { "fr": "Une enquête est en cours pour connaître les causes de l'accident.", "en": "An investigation is under way to find the causes of the accident." },
+            { "fr": "Il est vrai que cette mesure coûte cher, mais elle est nécessaire.", "en": "It's true that this measure is expensive, but it is necessary." },
+            { "fr": "D'une part, c'est pratique ; d'autre part, c'est économique.", "en": "On the one hand, it's practical; on the other hand, it's cheap." }
+          ] },
+        { "type": "deepdive", "kind": "canada", "title": "Canadian topics",
+          "body": "Exam topics are often close to daily life: winter and public transit, remote work, bilingualism, housing, volunteering, screens and children. Prepare **two or three examples from your own life in Canada**; they work for many subjects.\n\nIn a Canadian news story, the emergency number is [[le 911]], and news style often names the place first: [[GATINEAU —]], [[MONCTON —]]." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Saying these phrases aloud makes them come faster under time pressure.",
+          "lines": [
+            { "fr": "Heureusement, personne n'a été blessé.", "en": "Fortunately, nobody was injured." },
+            { "fr": "Selon les témoins, l'incendie a commencé dans la cuisine.", "en": "According to witnesses, the fire started in the kitchen." },
+            { "fr": "D'une part, c'est pratique ; d'autre part, c'est moins cher.", "en": "On the one hand, it's practical; on the other hand, it's cheaper." },
+            { "fr": "C'est pourquoi je suis contre ce projet.", "en": "That's why I'm against this project." },
+            { "fr": "Pour conclure, je pense que cette idée mérite d'être essayée.", "en": "To conclude, I think this idea deserves to be tried." }
+          ] },
+        { "id": "h1", "type": "dictation", "fr": "Une enquête est en cours.", "accept": [], "explain": "[[enquête]] has a circumflex on the ê. [[en cours]] = in progress." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without looking back.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "Which task asks you to continue a news article?",
+          "options": ["TEF Canada, section A", "TEF Canada, section B", "TCF Canada, task 3", "TCF Canada, task 1"], "answer": 0,
+          "explain": "TEF section A is [[Écrire la suite d'un article]] (80–120 words, 25 min). Section B is the opinion text; TCF task 3 compares two views." },
+        { "id": "r2", "type": "match", "prompt": "Match each task with its word range.",
+          "pairs": [["TEF A", "80–120 words"], ["TEF B", "200–250 words"], ["TCF T1", "60–120 words (a message)"], ["TCF T2", "120–150 words"], ["TCF T3", "120–180 words"]] },
+        { "id": "r3", "type": "cloze", "text": "Les enfants ___ quand le chien a commencé à aboyer. (dormir)", "answers": [["dormaient"]], "en": "The children were sleeping when the dog started barking.",
+          "explain": "Background in progress = imparfait. The event that interrupts it ([[a commencé]]) is in the passé composé." },
+        { "id": "r4", "type": "cloze", "text": "Quand les pompiers sont arrivés, toute la famille ___ déjà ___ de la maison. (sortir)", "answers": [["était"], ["sortie"]], "en": "When the firefighters arrived, the whole family had already got out of the house.",
+          "explain": "Plus-que-parfait = imparfait of être + participle. [[Sortir]] uses être, so the participle agrees with [[la famille]]: [[sortie]]." },
+        { "id": "r5", "type": "translate", "prompt": "Fortunately, nobody was injured.",
+          "accept": ["Heureusement, personne n'a été blessé.", "Heureusement, il n'y a pas eu de blessés.", "Heureusement, il n'y a eu aucun blessé.", "Heureusement personne n'a été blessé."],
+          "explain": "[[Personne]] as a subject takes [[ne]] before the verb, and no [[pas]]: [[Personne n'a été blessé]]." },
+        { "id": "r6", "type": "translate", "prompt": "On the one hand, it's practical; on the other hand, it's cheaper.",
+          "accept": ["D'une part, c'est pratique ; d'autre part, c'est moins cher.", "D'une part, c'est pratique, d'autre part, c'est moins cher.", "D'une part c'est pratique, d'autre part c'est moins cher.", "D'une part, c'est pratique ; d'autre part, c'est plus économique.", "D'une part, c'est pratique, d'autre part, c'est plus économique."],
+          "explain": "[[D'une part… d'autre part…]] adds two points in the same direction. To *oppose* two points, use [[d'un côté… de l'autre…]] or [[cependant]]." },
+        { "id": "r7", "type": "mcq", "prompt": "You have 25 minutes for TEF section A. How should you use them?",
+          "options": ["About 5 min to plan, 17 to write, 3 to reread", "No plan: write for 25 minutes", "15 min to plan, 10 to write"], "answer": 0,
+          "explain": "A short plan saves time while writing, and rereading catches agreement and accent errors. A 15-minute plan leaves too little time to write 80–120 words." },
+        { "id": "r8", "type": "mcq", "prompt": "In TCF task 3, what must you do first?",
+          "options": ["Summarise both documents neutrally", "Give your own opinion", "Summarise only the document you agree with"], "answer": 0,
+          "explain": "Task 3: first present **both** points of view without judging them, then take and justify your position." },
+        { "id": "r9", "type": "reorder", "prompt": "That's why I'm against this project.", "accept": ["C'est pourquoi je suis contre ce projet."], "extra": ["pour"],
+          "explain": "[[C'est pourquoi]] introduces a consequence, often in the conclusion of an argument." },
+        { "id": "r10", "type": "mcq", "prompt": "Which sentence fits the continuation of a news article?",
+          "options": ["Les pompiers sont arrivés vers 3 h 20 et ont maîtrisé le feu en une heure.", "Moi, je pense que les chiens sont plus intelligents que les chats.", "Demain, je vais acheter un nouveau grille-pain."], "optionsFr": true, "answer": 0,
+          "explain": "Section A keeps a factual, third-person style in the past. Personal opinions and [[je]] belong to section B, not to an article." }
+      ] },
+    { "type": "apply", "title": "Write under time",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "TCF task 1 style. Set a timer for **15 minutes** (2 to plan, 11 to write, 2 to reread). You have just joined a running club in your neighbourhood. Write a message to a friend (60–120 words): describe the club, explain why you joined, and invite your friend to come and try.",
+          "promptFr": "Vous venez de vous inscrire à un club de course à pied. Écrivez un message à un ami pour décrire le club et l'inviter à venir l'essayer. (60 à 120 mots)",
+          "wordRange": [60, 120],
+          "checklist": ["Tu throughout, with a friendly greeting and closing", "Describe the club: when, where, who, how much", "Explain why you joined (parce que, comme…)", "A clear invitation with a day, a time and a place", "At least two connectors (et puis, en plus, mais…)", "Between 60 and 120 words", "Reread: agreements, accents, verb endings"],
+          "models": [
+            { "label": "Model answer", "fr": "Salut Olivier !\nTu sais quoi ? Je me suis inscrite à un club de course à pied dans mon quartier. On court ensemble trois fois par semaine : le mardi et le jeudi soir, et le samedi matin au parc Jarry. L'inscription coûte seulement 40 $ pour l'année. Les gens sont très sympathiques et, en plus, ça me fait du bien après le travail. Tu veux venir essayer avec moi samedi ? Le rendez-vous est à 8 h devant le chalet du parc.\nRéponds-moi vite !\nSofia",
+              "en": "Hi Olivier! Guess what? I've joined a running club in my neighbourhood. We run together three times a week: on Tuesday and Thursday evenings, and on Saturday mornings in Jarry Park. Registration costs only $40 for the year. The people are very nice and, what's more, it does me good after work. Do you want to come and try with me on Saturday? We meet at 8 a.m. in front of the park chalet. Answer me soon! Sofia" },
+            { "label": "Stronger model answer", "fr": "Salut Olivier !\nJ'ai une nouvelle : depuis deux semaines, je fais partie d'un club de course à pied à Rosemont. Comme je passe toute la journée devant mon ordinateur, j'avais vraiment besoin de bouger, et je voulais aussi rencontrer des gens du quartier. Le groupe est très varié : il y a des débutants comme moi et des coureurs qui préparent le marathon de Montréal. On court le mardi soir et le samedi matin, et ce n'est pas cher. L'ambiance est géniale, même quand il fait froid ! Ça te dirait de venir essayer samedi prochain ? On se retrouve à 8 h devant le chalet du parc, et après, on prend un café ensemble.\nÀ bientôt !\nSofia",
+              "en": "Hi Olivier! I have news: for two weeks now I've been part of a running club in Rosemont. Since I spend all day in front of my computer, I really needed to move, and I also wanted to meet people from the neighbourhood. The group is very varied: there are beginners like me and runners who are training for the Montréal marathon. We run on Tuesday evenings and Saturday mornings, and it isn't expensive. The atmosphere is great, even when it's cold! Would you like to come and try next Saturday? We meet at 8 a.m. in front of the park chalet, and afterwards we have a coffee together. See you soon! Sofia" }
+          ] },
+        { "id": "w2", "type": "write", "prompt": "TEF section B: practise only the plan. Set a timer for **5 minutes**. The topic: « Faut-il interdire les voitures au centre-ville ? » Write your plan in note form: your position, three arguments with one example each, an objection you will answer, and your conclusion.",
+          "promptFr": "Faut-il interdire les voitures au centre-ville ? Écrivez seulement votre plan, en notes.",
+          "wordRange": [40, 90],
+          "checklist": ["A clear position (pour, contre, or pour avec des conditions)", "Three different arguments", "One concrete example for each argument", "One objection and your answer to it", "A connector planned for each paragraph", "Notes, not full sentences"],
+          "models": [
+            { "label": "Model answer", "fr": "Position : pour, mais pas tous les jours.\nIntro : beaucoup de villes en parlent ; à mon avis, bonne idée.\nTout d'abord : moins de pollution. Exemple : l'air de Montréal en été.\nDe plus : plus de sécurité pour les piétons et les cyclistes. Exemple : mes enfants à vélo.\nEnfin : le centre devient plus agréable. Exemple : la rue piétonne en été.\nObjection : les commerçants vont perdre des clients ? Non, les piétons achètent plus.\nPour conclure : commencer par les fins de semaine.",
+              "en": "Position: for, but not every day. Intro: many cities talk about it; in my opinion, a good idea. First: less pollution. Example: Montréal's air in summer. Also: more safety for pedestrians and cyclists. Example: my children on bikes. Finally: downtown becomes more pleasant. Example: the pedestrian street in summer. Objection: shops will lose customers? No, pedestrians buy more. To conclude: start with weekends." },
+            { "label": "Stronger model answer", "fr": "Position : plutôt contre une interdiction totale ; pour une limitation.\nIntro : question importante en hiver au Canada.\nD'une part : les personnes âgées ou handicapées ont besoin de leur voiture. Exemple : ma voisine de 80 ans.\nD'autre part : le transport en commun ne va pas partout. Exemple : banlieue, bus toutes les 30 minutes.\nCependant : trop de voitures = pollution et bouchons. Exemple : le pont aux heures de pointe.\nSolution : payer pour entrer, plus de bus, des rues piétonnes l'été.\nConclusion : limiter, oui ; interdire, non.",
+              "en": "Position: rather against a total ban; for a limit. Intro: an important question in winter in Canada. On the one hand: elderly or disabled people need their car. Example: my 80-year-old neighbour. On the other hand: public transit doesn't go everywhere. Example: suburbs, a bus every 30 minutes. However: too many cars = pollution and traffic jams. Example: the bridge at rush hour. Solution: pay to enter, more buses, pedestrian streets in summer. Conclusion: limit, yes; ban, no." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Know the writing tasks: **TEF** A (news continuation, 80–120 words, 25 min) and B (opinion, 200–250 words, 35 min); **TCF** T1 (60–120), T2 (120–150) and T3 (120–180, both views then yours)\n- Plan in five minutes: instructions, ideas, order; then keep three minutes to reread\n- Keep a factual news style with the right tenses: imparfait, passé composé, plus-que-parfait, passive\n- Use opinion structure: position, three arguments with examples, conclusion",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "No language errors found; task timings and word ranges checked against the TEF/TCF format files." }
+}

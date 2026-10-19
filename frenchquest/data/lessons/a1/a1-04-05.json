@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-04-05",
+  "level": "a1",
+  "unit": "a1-04",
+  "checkpoint": true,
+  "title": "Present someone you know",
+  "goal": "Present a family member or friend: name, age, nationality, city, work or studies, appearance and personality.",
+  "minutes": 15,
+  "items": [
+    { "id": "je-te-presente", "kind": "phrase", "fr": "Je te présente ma sœur.", "en": "Let me introduce my sister. (to a friend, tu)", "accept": ["Je te présente ma soeur."] },
+    { "id": "je-vous-presente", "kind": "phrase", "fr": "Je vous présente mon mari.", "en": "Let me introduce my husband. (formal, or to several people)" },
+    { "id": "il-s-appelle", "kind": "phrase", "fr": "Il s'appelle Karim.", "en": "His name is Karim.", "accept": ["Il s’appelle Karim."] },
+    { "id": "voici", "kind": "vocab", "fr": "voici", "en": "here is, this is (presenting someone or something)", "pos": "other",
+      "example": { "fr": "Voici mon collègue, Olivier.", "en": "This is my colleague, Olivier." } },
+    { "id": "collegue", "kind": "vocab", "fr": "collègue", "article": "le", "gender": "m", "en": "colleague, co-worker", "pos": "noun", "accept": ["la collègue", "un collègue", "une collègue", "collègue", "mon collègue", "ma collègue"],
+      "example": { "fr": "Ma collègue est très sympa.", "en": "My colleague is really nice." }, "note": "Same word for a man or a woman: un collègue, une collègue." },
+    { "id": "meilleur-ami", "kind": "phrase", "fr": "mon meilleur ami", "en": "my best friend (male)" },
+    { "id": "meilleure-amie", "kind": "phrase", "fr": "ma meilleure amie", "en": "my best friend (female)", "note": "Here it's ma, not mon: meilleure starts with a consonant." },
+    { "id": "voisin", "kind": "vocab", "fr": "voisin", "article": "le", "gender": "m", "en": "neighbour", "pos": "noun", "accept": ["la voisine", "voisine", "voisin", "mon voisin", "ma voisine", "un voisin", "une voisine"],
+      "example": { "fr": "Mon voisin a soixante-dix ans.", "en": "My neighbour is seventy." }, "note": "Feminine: la voisine." },
+    { "id": "celibataire", "kind": "vocab", "fr": "célibataire", "en": "single (not married, no partner)", "pos": "adjective", "accept": ["célibataires"],
+      "example": { "fr": "Ma collègue est célibataire.", "en": "My colleague is single." }, "note": "Same form for masculine and feminine." },
+    { "id": "etudiant", "kind": "vocab", "fr": "étudiant", "article": "un", "gender": "m", "en": "student (university or college)", "pos": "noun", "accept": ["étudiante", "une étudiante", "un étudiant", "étudiant"],
+      "example": { "fr": "Mon fils est étudiant à Toronto.", "en": "My son is a student in Toronto." }, "note": "Feminine: étudiante. After être, no article: il est étudiant." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Meet the people around Mei",
+      "blocks": [
+        { "type": "text", "title": "Mei writes about her best friend",
+          "fr": "Je vous présente ma meilleure amie, Sofia. Elle est mexicaine et elle a trente-quatre ans. Elle habite à Montréal avec son mari, Alex, et ses deux enfants.\nSofia est infirmière. Elle travaille à l'hôpital. Elle parle espagnol, anglais et français.\nElle est petite et brune, et elle a les yeux noirs. Elle est très drôle et très gentille. C'est une super amie !",
+          "en": "Let me introduce my best friend, Sofia. She's Mexican and she's thirty-four. She lives in Montréal with her husband, Alex, and her two children.\nSofia is a nurse. She works at the hospital. She speaks Spanish, English and French.\nShe's short and dark-haired, and she has dark eyes. She's very funny and very kind. She's a great friend!" },
+        { "type": "listen", "title": "Amira introduces a colleague",
+          "context": "At a welcome lunch for new employees in Montréal, Amira presents her colleague.",
+          "fr": "Bonjour à tous ! Voici mon collègue, Olivier. Il est français, et il habite à Montréal. Il a quarante ans. Il est marié et il a trois enfants. Il est grand et blond, et il a les yeux bleus. Il est un peu sérieux, mais il est très sympa !",
+          "en": "Hello everyone! This is my colleague, Olivier. He's French, and he lives in Montréal. He's forty. He's married and he has three children. He's tall and blond, and he has blue eyes. He's a bit serious, but he's really nice!" },
+        { "type": "note", "tone": "info", "body": "This lesson brings the whole unit together, plus units 1 to 3. Read and listen first: you know almost every word. [[infirmière]] = nurse, [[l'hôpital]] = the hospital." }
+      ] },
+    { "type": "understand", "title": "Build a presentation",
+      "blocks": [
+        { "type": "explain", "title": "Starting",
+          "body": "Choose the opening that fits the situation:\n\n- [[Je te présente…]] to one friend: *This is… / Meet…*\n- [[Je vous présente…]] formal, or to a group\n- [[Voici…]] neutral: *Here is… / This is…*\n- [[C'est…]] the simplest, perfect with a photo\n\nThen give the name: [[Il s'appelle Karim.]] / [[Elle s'appelle Lucie.]] (same verb as [[je m'appelle]])." },
+        { "type": "table", "title": "Your toolkit from units 1–4",
+          "head": ["To say…", "Use", "Example"],
+          "rows": [
+            ["who it is", "c'est + mon / ma / mes", "C'est ma cousine, Mei."],
+            ["name", "il / elle s'appelle", "Elle s'appelle Mei."],
+            ["age", "avoir + … ans", "Elle a vingt-six ans."],
+            ["nationality", "être + adjective", "Elle est chinoise."],
+            ["city", "habiter à", "Elle habite à Vancouver."],
+            ["work or studies", "être + job (no article) / travailler à", "Elle est étudiante."],
+            ["languages", "parler + language", "Elle parle chinois et anglais."],
+            ["family", "être marié(e) / célibataire, avoir … enfants", "Elle est célibataire."],
+            ["appearance", "être + adjective, avoir les cheveux / les yeux", "Elle est grande. Elle a les cheveux longs."],
+            ["personality", "être + (très / un peu) + adjective", "Elle est un peu timide."]
+          ],
+          "frCols": [2], "sayCol": true,
+          "note": "Jobs work like nationalities: no article after être. [[Il est étudiant.]] [[Elle est infirmière.]] You'll learn many more jobs in a later unit." },
+        { "type": "pattern", "title": "Linking your sentences",
+          "pattern": "et · mais · aussi · très · un peu",
+          "note": "Short sentences are fine at A1. Two or three links make them sound natural.",
+          "examples": [
+            { "fr": "Il est grand et il a les yeux bleus.", "en": "He's tall and he has blue eyes." },
+            { "fr": "Elle est timide, mais elle est très drôle.", "en": "She's shy, but she's very funny." },
+            { "fr": "Il parle anglais et français aussi.", "en": "He speaks English and French too." }
+          ] },
+        { "type": "vocab", "title": "New words for presenting", "itemIds": ["je-te-presente", "je-vous-presente", "il-s-appelle", "voici", "collegue", "meilleur-ami", "meilleure-amie", "voisin", "celibataire", "etudiant"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Unit 4 checklist",
+          "body": "Before you speak or write, check these five points:\n\n- **son / sa / ses** follow the noun: Sofia et [[son mari]], Raj et [[sa femme]].\n- **Agreement:** a woman is [[grande]], [[gentille]], [[sérieuse]], [[mariée]], [[canadienne]].\n- **être or avoir:** [[Il a quarante ans]], [[Il a les yeux bleus]], but [[Il est grand]].\n- **Articles:** [[un ami]], [[une personne]], [[le mari de Sofia]]; no article after être + nationality or job.\n- **Best friend:** [[mon meilleur ami]], [[ma meilleure amie]] (ma, because meilleure starts with a consonant)." },
+        { "type": "deepdive", "kind": "canada", "title": "Tu or vous when you introduce someone?",
+          "body": "In Québec workplaces, colleagues often switch to *tu* quickly, so [[Je te présente…]] is very common between co-workers. Use [[Je vous présente…]] with a group, a client, an older person or anyone you call *vous*. When in doubt, [[Voici…]] works everywhere.\n\nOn forms, you will see [[célibataire]] (single), [[marié(e)]] (married) and [[conjoint(e) de fait]] (common-law partner)." },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam tip: TEF / TCF Canada",
+          "body": "Speaking tests such as the TCF Canada begin with simple questions about you, your life and the people around you. A strong A1 answer is **6–8 short, correct sentences** covering different information (name, age, city, family, personality), with [[et]], [[mais]] and [[aussi]] to link them. Accuracy on être/avoir and agreement makes a big difference." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "These are the building blocks of your mission.",
+          "lines": [
+            { "fr": "Je te présente ma meilleure amie, Sofia.", "en": "This is my best friend, Sofia.", "tip": "meilleure: “may-yeur”." },
+            { "fr": "Elle s'appelle Lucie. Elle a trente ans.", "en": "Her name is Lucie. She's thirty.", "tip": "The t of trente links to ans: “tran-tan”." },
+            { "fr": "Il est étudiant à Toronto.", "en": "He's a student in Toronto.", "tip": "Liaison: est‿étudiant, the t is heard." },
+            { "fr": "Elle est grande et elle a les yeux verts.", "en": "She's tall and she has green eyes.", "tip": "les‿yeux: z sound." },
+            { "fr": "Il est un peu timide, mais très gentil.", "en": "He's a bit shy, but very kind." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Mon voisin a soixante-dix ans.", "en": "My neighbour is seventy.", "prompt": "How old is the neighbour?", "options": ["70", "60", "17"], "answer": 0, "explain": "[[soixante-dix]] = 60 + 10 = 70." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Ma collègue est célibataire.", "en": "My colleague is single.", "prompt": "What do we learn about the colleague?", "options": ["She's single.", "She's married.", "She's a student."], "answer": 0, "explain": "[[célibataire]] = single. Married is [[mariée]], student is [[étudiante]]." },
+        { "id": "h3", "type": "listen-mcq", "fr": "Je vous présente mon meilleur ami, Raj.", "en": "Let me introduce my best friend, Raj.", "prompt": "Who is Raj?", "options": ["The speaker's best friend", "The speaker's brother", "The speaker's neighbour"], "answer": 0, "explain": "[[mon meilleur ami]] = my best friend." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: units 1 to 4",
+      "intro": "This checkpoint mixes everything since unit 1. Answer without scrolling back.",
+      "blocks": [
+        { "id": "r1", "type": "mcq", "prompt": "Lucie introduces you to her grandmother. What do you say?", "options": ["Bonjour, madame. Enchanté(e).", "Salut ! Ça va ?", "Bonsoir, toi !"], "optionsFr": true, "answer": 0,
+          "explain": "With an older person you've just met, be polite: Bonjour + madame, and vous if you continue.",
+          "optionFeedback": [null, "Salut is for friends; too casual here.", "Toi is for friends; too casual here."] },
+        { "id": "r2", "type": "cloze", "text": "Mon collègue ___ quarante ans et il ___ indien.", "answers": [["a"], ["est"]], "en": "My colleague is forty and he's Indian.", "explain": "Age → avoir (a); nationality → être (est)." },
+        { "id": "r3", "type": "translate", "prompt": "This is my neighbour, Camille (a woman). She lives in Gatineau.", "accept": ["C'est ma voisine, Camille. Elle habite à Gatineau.", "Voici ma voisine, Camille. Elle habite à Gatineau.", "Je te présente ma voisine, Camille. Elle habite à Gatineau.", "Je vous présente ma voisine, Camille. Elle habite à Gatineau.", "C'est ma voisine Camille. Elle habite à Gatineau.", "Voici ma voisine Camille. Elle habite à Gatineau.", "Je te présente ma voisine Camille. Elle habite à Gatineau.", "Je vous présente ma voisine Camille. Elle habite à Gatineau."], "hint": "Feminine: la voisine.", "explain": "voisine is feminine → ma; habiter à + city." },
+        { "id": "r4", "type": "cloze", "text": "Ma meilleure amie est ___ et très ___. (canadien / sympa)", "answers": [["canadienne"], ["sympa"]], "en": "My best friend is Canadian and very nice.", "explain": "canadien → canadienne for a woman; sympa doesn't change in the feminine." },
+        { "id": "r5", "type": "reorder", "prompt": "Her husband speaks French and English.", "accept": ["Son mari parle français et anglais", "Son mari parle anglais et français"], "extra": ["sa", "parlent"], "explain": "mari is masculine → son (even for her husband). il → parle." },
+        { "id": "r6", "type": "dictation", "fr": "Mon collègue s'appelle Raj. Il a trente-cinq ans.", "accept": ["Mon collègue s'appelle Raj. Il a 35 ans."], "explain": "[[s'appelle]] has two l's; [[trente-cinq]] takes a hyphen." },
+        { "id": "r7", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Elle a les yeux verts.", "Elle est les yeux verts.", "Elle a ses yeux verts.", "Elle a les yeux vert."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Eyes are something you have: avoir.", "French uses les for hair and eyes, not ses.", "vert agrees with yeux (plural): verts."] },
+        { "id": "r8", "type": "translate", "prompt": "My son is a student in Toronto.", "accept": ["Mon fils est étudiant à Toronto."], "hint": "No article after être + job.", "explain": "Like nationalities, jobs and studies take no article after être: il est étudiant." },
+        { "id": "r9", "type": "match", "prompt": "Match. These come from units 1 to 4.", "pairs": [["le 3 mars", "March 3"], ["à huit heures", "at eight o'clock"], ["il a soif", "he's thirsty"], ["elle est timide", "she's shy"], ["mes grands-parents", "my grandparents"]] },
+        { "id": "r10", "type": "cloze", "text": "Lucie est ___ personne très gentille. ___ enfants de Lucie sont drôles.", "answers": [["une"], ["Les"]], "en": "Lucie is a very kind person. Lucie's children are funny.", "explain": "personne is feminine → une; specific children (Lucie's) → les." }
+      ] },
+    { "type": "apply", "title": "Mission: present someone you know",
+      "intro": "This is the unit mission. Choose a real person: a family member, a friend, a neighbour or a colleague.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "You're at a community event. Present someone you know to a new friend. Talk for about 45 seconds: who the person is, their name, age, nationality, city, work or studies, appearance and personality.", "seconds": 45,
+          "checklist": ["An opening: Je te présente… / Voici… / C'est…", "Name, age and nationality", "City (habiter à)", "Work, studies or family situation", "Appearance with être AND avoir", "Personality, with très or un peu", "At least two links: et, mais, aussi"],
+          "models": [ { "label": "Model answer", "fr": "Je te présente mon voisin, Nguyen. Il est vietnamien et il a cinquante-deux ans. Il habite à Moncton avec sa femme, Hoa, et ses enfants. Il travaille à l'hôpital. Il parle vietnamien, anglais et un peu français. Il est petit et brun, et il a les yeux noirs. Il est un peu sérieux, mais il est très gentil et très drôle !", "en": "This is my neighbour, Nguyen. He's Vietnamese and he's fifty-two. He lives in Moncton with his wife, Hoa, and his children. He works at the hospital. He speaks Vietnamese, English and a little French. He's short and dark-haired, and he has dark eyes. He's a bit serious, but he's very kind and very funny!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Write a short text presenting someone important to you, for a class newsletter. Include at least six pieces of information.", "promptFr": "Présentez une personne importante pour vous.", "wordRange": [40, 70],
+          "checklist": ["Who: relationship and name", "Age (avoir) and nationality (être)", "City and work or studies", "Appearance: one être sentence and one avoir sentence", "Personality: two adjectives with the right endings", "Possessives correct (son / sa / ses)", "Links: et, mais, aussi"],
+          "models": [
+            { "label": "Model answer", "fr": "Je vous présente mon frère, Karim. Il a trente-deux ans et il est marocain, comme moi. Il habite à Gatineau avec sa femme, Nadia, et ses deux enfants. Il travaille à Ottawa. Karim est grand et brun, et il a les yeux marron. Il est très drôle et très gentil. C'est aussi mon meilleur ami !", "en": "Let me introduce my brother, Karim. He's thirty-two and he's Moroccan, like me. He lives in Gatineau with his wife, Nadia, and his two children. He works in Ottawa. Karim is tall and dark-haired, and he has brown eyes. He's very funny and very kind. He's also my best friend!" },
+            { "label": "Model answer (about a woman)", "fr": "Voici ma collègue, Camille. Elle est québécoise et elle a vingt-neuf ans. Elle habite à Montréal. Elle est célibataire. Elle est étudiante, et elle travaille aussi dans un café. Elle est petite et blonde, et elle a les cheveux courts. Elle est sérieuse, mais elle est aussi très sympa.", "en": "This is my colleague, Camille. She's from Québec and she's twenty-nine. She lives in Montréal. She's single. She's a student, and she also works in a café. She's short and blond, and she has short hair. She's serious, but she's also very nice." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Introduce someone with [[Je te présente…]], [[Je vous présente…]], [[Voici…]] or [[C'est…]]\n- Give their name, age, nationality, city, work or studies, and family situation\n- Describe appearance with être **and** avoir, and personality with agreeing adjectives\n- Link short sentences with [[et]], [[mais]], [[aussi]], [[très]] and [[un peu]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Je te présente item gloss now distinct from C'est (“Let me introduce…”). Added missing accepts (comma-less présente variants, reversed language order); fixed trente ans tip; exam tip names TCF Canada. Model wives renamed (Linh/Lina were daughters elsewhere in the unit)." }
+}

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-08-05",
+  "level": "b1",
+  "unit": "b1-08",
+  "title": "Get what you need",
+  "goal": "Solve a real problem from start to finish in French: complain, ask for information, insist politely, negotiate a solution and confirm it, orally and in writing.",
+  "minutes": 15,
+  "checkpoint": true,
+  "items": [
+    { "id": "g-plainte-negociation", "kind": "grammar", "fr": "malgré… / ne… toujours pas / si + présent → futur", "en": "the grammar of complaints and deals (review of the unit)",
+      "drills": [
+        { "type": "cloze", "text": "___ deux réparations, l'appareil ne fonctionne ___.", "answers": [["Malgré"], ["toujours pas"]], "en": "Despite two repairs, the appliance still isn't working.", "explain": "[[Malgré]] + noun; [[ne… toujours pas]] = still not." },
+        { "type": "cloze", "text": "Si vous me remboursez aujourd'hui, je ___ pas de plainte. (déposer, futur)", "answers": [["ne déposerai"]], "en": "If you refund me today, I won't file a complaint.", "explain": "si + present → futur, with the negation around the verb: [[je ne déposerai pas]]." },
+        { "type": "mcq", "prompt": "Which is the most effective way to refuse an offer?", "options": ["Je comprends, mais ça ne me convient pas vraiment. Accepteriez-vous plutôt de… ?", "Non, ce n'est pas assez.", "Ça me convient."], "optionsFr": true, "answer": 0, "explain": "Acknowledge, refuse softly, and make a counter-offer with the conditionnel." }
+      ] },
+    { "id": "g-demandes-polies", "kind": "grammar", "fr": "Serait-il possible de… ? / Pourriez-vous me dire si… ?", "en": "polite and indirect requests (review of the unit)",
+      "drills": [
+        { "type": "cloze", "text": "Pourriez-vous me dire ___ le produit est encore sous garantie ?", "answers": [["si"]], "en": "Could you tell me if the product is still under warranty?", "explain": "Indirect yes/no question → [[si]]." },
+        { "type": "cloze", "text": "J'aimerais savoir ___ vous pouvez me proposer.", "answers": [["ce que"]], "en": "I'd like to know what you can offer me.", "explain": "[[Qu'est-ce que]] → [[ce que]] in an indirect question." },
+        { "type": "translate", "prompt": "Would it be possible to be refunded? (formal)", "accept": ["Serait-il possible d'être remboursé ?", "Serait-il possible d'être remboursée ?", "Est-ce qu'il serait possible d'être remboursé ?", "Est-ce qu'il serait possible d'être remboursée ?", "Serait-il possible de me rembourser ?"], "explain": "[[Serait-il possible de]] + infinitive; [[de]] → [[d']] before [[être]]." }
+      ] },
+    { "id": "etre-rembourse", "kind": "phrase", "fr": "Je souhaiterais être remboursé.", "en": "I would like to be refunded.", "accept": ["Je souhaiterais être remboursée.", "Je voudrais être remboursé.", "Je voudrais être remboursée.", "J'aimerais être remboursé.", "J'aimerais être remboursée."] },
+    { "id": "deuxieme-fois", "kind": "phrase", "fr": "C'est la deuxième fois que je viens.", "en": "This is the second time I've come.", "accept": ["C'est la seconde fois que je viens."] },
+    { "id": "si-je-comprends-bien", "kind": "phrase", "fr": "Donc, si je comprends bien…", "en": "So, if I understand correctly…", "accept": ["Si je comprends bien…"] },
+    { "id": "quelle-solution", "kind": "phrase", "fr": "Quelle solution pouvez-vous me proposer ?", "en": "What solution can you offer me? (formal)", "accept": ["Quelle solution pourriez-vous me proposer ?", "Qu'est-ce que vous pouvez me proposer ?"] },
+    { "id": "gerant", "kind": "vocab", "fr": "gérant", "article": "le", "gender": "m", "en": "store manager (man)", "pos": "noun", "accept": ["un gérant"], "note": "A woman: la gérante." },
+    { "id": "defectueux", "kind": "vocab", "fr": "défectueux", "fem": "défectueuse", "en": "defective, faulty", "pos": "adjective", "accept": ["défectueuse"] },
+    { "id": "garantie", "kind": "vocab", "fr": "garantie", "article": "la", "gender": "f", "en": "warranty, guarantee", "pos": "noun", "accept": ["une garantie"],
+      "example": { "fr": "Le produit est encore sous garantie.", "en": "The product is still under warranty." } },
+    { "id": "rembourser", "kind": "vocab", "fr": "rembourser", "en": "to refund, to pay back", "pos": "verb",
+      "example": { "fr": "Pouvez-vous me rembourser ?", "en": "Can you refund me?" } },
+    { "id": "echanger", "kind": "vocab", "fr": "échanger", "en": "to exchange (an item)", "pos": "verb",
+      "example": { "fr": "Je voudrais échanger cet article contre un autre modèle.", "en": "I'd like to exchange this item for another model." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A problem from start to finish",
+      "intro": "Olivier's new vacuum cleaner has broken twice. Watch him use **every tool from this unit**: complaint, questions, insistence, negotiation and confirmation.",
+      "blocks": [
+        { "type": "dialogue", "title": "At an electronics store in Sherbrooke",
+          "context": "Olivier bought a vacuum cleaner two months ago. It was repaired once, and it has broken again.",
+          "lines": [
+            { "speaker": "Olivier", "fr": "Bonjour madame. Je souhaiterais signaler un problème avec cet aspirateur, que j'ai acheté ici il y a deux mois. C'est la deuxième fois que je viens.", "en": "Hello. I'd like to report a problem with this vacuum cleaner, which I bought here two months ago. This is the second time I've come." },
+            { "speaker": "Vendeuse", "fr": "Qu'est-ce qui ne va pas ?", "en": "What's wrong?" },
+            { "speaker": "Olivier", "fr": "Il s'arrête après deux minutes. Malgré la réparation du mois dernier, il ne fonctionne toujours pas. Voici le reçu et le bon de réparation.", "en": "It stops after two minutes. Despite last month's repair, it still doesn't work. Here's the receipt and the repair slip." },
+            { "speaker": "Vendeuse", "fr": "Je vois. Nous pouvons le renvoyer chez le fabricant. Ça prend environ trois semaines.", "en": "I see. We can send it back to the manufacturer. It takes about three weeks." },
+            { "speaker": "Olivier", "fr": "Je comprends, mais ça ne me convient pas vraiment : c'est un appareil défectueux, et j'ai déjà attendu trois semaines la première fois. Je souhaiterais être remboursé.", "en": "I understand, but that doesn't really work for me: it's a defective appliance, and I already waited three weeks the first time. I'd like to be refunded." },
+            { "speaker": "Vendeuse", "fr": "Je regrette, mais après 30 jours, nous ne faisons pas de remboursement.", "en": "I'm sorry, but after 30 days, we don't give refunds." },
+            { "speaker": "Olivier", "fr": "Pourriez-vous me dire si le produit est encore sous garantie ?", "en": "Could you tell me if the product is still under warranty?" },
+            { "speaker": "Vendeuse", "fr": "Oui, il est garanti un an.", "en": "Yes, it has a one-year warranty." },
+            { "speaker": "Olivier", "fr": "Dans ce cas, je me permets d'insister. Je tiens à préciser que c'est la même panne. Serait-il possible de parler au gérant ?", "en": "In that case, I must insist. I'd like to point out that it's the same breakdown. Would it be possible to speak to the manager?" },
+            { "speaker": "Gérant", "fr": "Bonjour monsieur. Je ne peux pas vous rembourser, mais je pourrais vous échanger l'aspirateur contre un modèle neuf, tout de suite.", "en": "Hello. I can't refund you, but I could exchange the vacuum for a new model, right away." },
+            { "speaker": "Olivier", "fr": "Un modèle neuf, d'accord, mais à une condition : si celui-là tombe en panne aussi, vous me rembourserez.", "en": "A new model, OK, but on one condition: if that one breaks down too, you'll refund me." },
+            { "speaker": "Gérant", "fr": "Entendu. Je l'écris sur votre facture.", "en": "Agreed. I'll write it on your invoice." },
+            { "speaker": "Olivier", "fr": "Donc, si je comprends bien : un échange aujourd'hui, et un remboursement si le problème revient. Ça me convient. Je vous remercie de votre compréhension.", "en": "So, if I understand correctly: an exchange today, and a refund if the problem comes back. That works for me. Thank you for your understanding." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What agreement does Olivier get?", "options": ["An immediate exchange, and a refund if the new one breaks", "A full refund today", "A repair in three weeks"], "answer": 0,
+          "explain": "[[un échange aujourd'hui, et un remboursement si le problème revient]], written on the invoice." },
+        { "id": "d2", "type": "mcq", "prompt": "Which tool does Olivier use to check his rights before insisting?", "options": ["An indirect question about the warranty", "A threat to call the police", "A familiar register"], "answer": 0,
+          "explain": "[[Pourriez-vous me dire si le produit est encore sous garantie ?]] Getting information first makes his insistence stronger." },
+        { "id": "d3", "type": "mcq", "prompt": "Why does Olivier end with “Donc, si je comprends bien…”?", "options": ["To summarize and confirm the deal", "Because he didn't understand", "To start a new complaint"], "answer": 0,
+          "explain": "Summarizing the agreement avoids misunderstandings: always confirm, ideally in writing." }
+      ] },
+    { "type": "understand", "title": "Your problem-solving toolkit",
+      "intro": "Everything from the unit on one page.",
+      "blocks": [
+        { "type": "table", "title": "From problem to solution",
+          "head": ["Step", "Key phrases"],
+          "rows": [
+            ["1. Open and report", "Je vous appelle / Je viens au sujet de… / Je souhaiterais signaler un problème."],
+            ["2. Give the facts", "depuis…, ça fait… que…, c'est la deuxième fois que…, malgré…, ne… toujours pas"],
+            ["3. Get information", "Pourriez-vous me dire si… ? / Je voudrais savoir ce qui… / Y a-t-il… ?"],
+            ["4. Ask for a solution", "Je souhaiterais être remboursé. / Quelle solution pouvez-vous me proposer ?"],
+            ["5. Insist politely", "Je comprends, mais… / Serait-il possible de… ? / Je me permets d'insister."],
+            ["6. Negotiate", "Accepteriez-vous de… ? / Je serais prêt à… / Est-ce qu'on pourrait trouver un compromis ?"],
+            ["7. Set conditions", "D'accord, mais à une condition : si…, vous… (futur)"],
+            ["8. Confirm and close", "Donc, si je comprends bien… / Pourriez-vous me le confirmer par écrit ? / Je vous remercie de votre compréhension."]
+          ],
+          "frCols": [1], "sayCol": false },
+        { "type": "explain", "title": "Four classic situations",
+          "body": "- **Internet or phone provider:** billing errors, outages, technicians who don't come. Ask for a **numéro de dossier**, a **crédit** and a firm appointment.\n- **Landlord:** heating, repairs, noise. Propose a **réduction de loyer** and a deadline, and keep everything in writing.\n- **Store:** defective items, return policies. Ask about the **garantie**, then negotiate an **échange**, a **remboursement** or a **note de crédit**.\n- **Cancelled flight or train:** ask for a **vol de remplacement**, a hotel, **bons de repas**, and ask about **indemnisation**.\n\nIn every case: stay **factual**, **polite**, **firm**, and **confirm** the solution." },
+        { "type": "pattern", "title": "Two conditions, two tenses",
+          "pattern": "si + présent → futur (a real deal)  /  si + imparfait → conditionnel (a hypothesis)",
+          "note": "In a negotiation, use the first for firm conditions. Use the second to explore options gently.",
+          "examples": [
+            { "fr": "Si vous me remboursez aujourd'hui, je ne déposerai pas de plainte.", "en": "If you refund me today, I won't file a complaint." },
+            { "fr": "Si vous aviez un autre modèle, je l'accepterais volontiers.", "en": "If you had another model, I'd gladly accept it." }
+          ] },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["etre-rembourse", "deuxieme-fois", "si-je-comprends-bien", "quelle-solution", "gerant", "defectueux", "garantie", "rembourser", "echanger"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "The most common errors in this unit",
+          "body": "- *satisfait avec* → [[satisfait **de**]]\n- *On m'a chargé deux fois* → [[On m'a **facturé** deux fois]]\n- *malgré que j'ai appelé* → [[malgré mes appels]]\n- *Je voudrais savoir est-ce que…* → [[Je voudrais savoir **si**…]]\n- *Pourriez-vous me dire combien coûte-t-il ?* → [[Pourriez-vous me dire combien **ça coûte** ?]]\n- *Si vous réparerez…* → [[Si vous **réparez**…]]\n- *Je propose partager* → [[Je propose **de** partager]]\n- *Je me permets insister* → [[Je me permets **d'**insister]]\n- Switching to **tu** or familiar words in the middle of a formal exchange" },
+        { "type": "deepdive", "kind": "challenge", "title": "Exam link: problem-solving tasks",
+          "body": "Problem-solving situations appear in both TEF and TCF Canada:\n\n- **Speaking:** information calls (TEF section A, practised in lesson 3) and interactions where you must obtain something from the examiner.\n- **Writing:** short formal messages and letters to a company, a landlord or a service. The required length depends on the exam and the task (roughly 60 to 150 words for this kind of message).\n\nThe writing mission below follows that format. Time yourself: **20 minutes**, including 3 minutes to plan and 3 minutes to reread for agreement, accents and register." },
+        { "type": "deepdive", "kind": "canada", "title": "Where to turn if the business says no",
+          "body": "- **Store or contract (Québec):** Office de la protection du consommateur (OPC).\n- **Internet, phone, TV (all of Canada):** Commission des plaintes relatives aux services de télécom-télévision (CPRST).\n- **Housing (Québec):** Tribunal administratif du logement (TAL).\n- **Air travel (all of Canada):** Office des transports du Canada (OTC).\n\nMentioning them calmly can help: [[Si nous ne trouvons pas de solution, je contacterai l'Office de la protection du consommateur.]] But always try to negotiate first." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Practise the whole arc: calm opening, firm middle, warm closing.",
+          "lines": [
+            { "fr": "Je souhaiterais signaler un problème avec cet appareil.", "en": "I'd like to report a problem with this appliance." },
+            { "fr": "Malgré la réparation, il ne fonctionne toujours pas.", "en": "Despite the repair, it still doesn't work." },
+            { "fr": "Pourriez-vous me dire si le produit est encore sous garantie ?", "en": "Could you tell me if the product is still under warranty?" },
+            { "fr": "Je comprends, mais je me permets d'insister.", "en": "I understand, but I must insist." },
+            { "fr": "D'accord, mais à une condition.", "en": "OK, but on one condition." },
+            { "fr": "Donc, si je comprends bien, vous me rembourserez si le problème revient.", "en": "So, if I understand correctly, you'll refund me if the problem comes back." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Votre forfait sera réduit de 20 $ pendant trois mois, et le technicien passera vendredi entre 13 h et 17 h. Votre numéro de dossier est le 8 8 1 4 0.", "en": "Your plan will be reduced by $20 for three months, and the technician will come on Friday between 1 and 5 p.m. Your file number is 88140.", "prompt": "What has the provider agreed to?", "options": ["$20 off for three months and a technician on Friday afternoon", "$20 off for one month and a technician on Friday morning", "A full refund and a new modem"], "answer": 0,
+          "explain": "[[réduit de 20 $ pendant trois mois]]; [[vendredi entre 13 h et 17 h]] = Friday afternoon." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je comprends votre situation, madame. Si vous nous envoyez les reçus de l'hôtel, nous vous rembourserons d'ici trente jours.", "en": "I understand your situation, madam. If you send us the hotel receipts, we'll refund you within thirty days.", "prompt": "What must the customer do?", "options": ["Send the hotel receipts", "Wait thirty days and call back", "Book another hotel"], "answer": 0,
+          "explain": "[[Si vous nous envoyez les reçus…, nous vous rembourserons]]: a condition with si + present → future." }
+      ] },
+    { "type": "recall", "title": "Checkpoint: the whole unit",
+      "intro": "Ten questions mixing complaints, information, insistence, negotiation and earlier B1 grammar.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ne suis pas satisfaite ___ service, et ___ mes trois appels, le problème n'est ___ réglé.", "answers": [["du"], ["malgré"], ["toujours pas"]], "choices": ["du", "avec", "malgré", "toujours pas", "pas toujours"], "en": "I'm not satisfied with the service, and despite my three calls, the problem still hasn't been solved.",
+          "explain": "[[satisfait **de**]] + le → [[du]]; [[malgré]] + noun; [[ne… toujours pas]] = still not." },
+        { "id": "r2", "type": "cloze", "text": "Pourriez-vous me dire ___ est compris dans le forfait et ___ il y a des frais d'installation ?", "answers": [["ce qui"], ["s'"]], "en": "Could you tell me what is included in the plan and whether there are installation fees?",
+          "explain": "Indirect questions: [[qu'est-ce qui]] → [[ce qui]]; [[si + il]] → [[s'il]]." },
+        { "id": "r3", "type": "mcq", "prompt": "The landlord offers a $30 reduction; you think it's too little. What do you say?", "optionsFr": true,
+          "options": ["Je comprends, mais ça ne me convient pas vraiment. Est-ce qu'on pourrait trouver un compromis ?", "Trente dollars ? C'est ridicule !", "Ça me convient, merci.", "T'es pas sérieux, là ?"], "answer": 0,
+          "optionFeedback": [null, "Too aggressive: it closes the negotiation.", "That accepts the offer.", "Familiar register: tu and dropped ne."] },
+        { "id": "r4", "type": "translate", "prompt": "Would it be possible to speak to the manager? (formal)", "accept": ["Serait-il possible de parler au gérant ?", "Serait-il possible de parler à la gérante ?", "Serait-il possible de parler au responsable ?", "Serait-il possible de parler à un responsable ?", "Est-ce qu'il serait possible de parler au gérant ?", "Est-ce qu'il serait possible de parler à un responsable ?", "Est-ce qu'il serait possible de parler à la gérante ?", "Est-ce qu'il serait possible de parler au responsable ?"], "hint": "Serait-il…",
+          "explain": "[[Serait-il possible de]] + infinitive; [[parler **à** + le gérant]] → [[au gérant]]." },
+        { "id": "r5", "type": "cloze", "text": "Si vous ___ le chauffage avant vendredi, je ___ le loyer complet. (réparer / payer)", "answers": [["réparez"], ["paierai", "payerai"]], "en": "If you fix the heating before Friday, I'll pay the full rent.",
+          "explain": "si + **present** ([[réparez]]) → **futur** ([[paierai]])." },
+        { "id": "r6", "type": "match", "prompt": "Match each situation with the most useful phrase.",
+          "pairs": [["The first answer is no", "Je comprends, mais…"], ["You want to check your rights", "Pourriez-vous me dire si c'est sous garantie ?"], ["You accept, with a condition", "D'accord, mais à une condition."], ["You want to confirm the deal", "Donc, si je comprends bien…"], ["You close the conversation", "Je vous remercie de votre compréhension."]] },
+        { "id": "r7", "type": "translate", "prompt": "My flight was cancelled and I was charged for the hotel.", "accept": ["Mon vol a été annulé et on m'a facturé l'hôtel.", "Mon vol a été annulé et on m'a fait payer l'hôtel.", "Mon vol a été annulé et l'hôtel m'a été facturé."], "hint": "passive (annuler) + on m'a facturé…",
+          "explain": "[[a été annulé]]: passive. *To charge* = [[facturer]], not *charger*." },
+        { "id": "r8", "type": "reorder", "prompt": "What solution can you offer me?", "accept": ["Quelle solution pouvez-vous me proposer"], "extra": ["qu'est-ce"],
+          "explain": "[[Quelle]] + noun + inversion [[pouvez-vous]] + [[me proposer]]." },
+        { "id": "r9", "type": "cloze", "text": "C'est le technicien ___ devait venir lundi, et c'est le rendez-vous ___ je vous ai parlé.", "answers": [["qui"], ["dont"]], "choices": ["qui", "que", "dont", "où"], "en": "It's the technician who was supposed to come on Monday, and it's the appointment I told you about.",
+          "explain": "Unit 7 review: [[qui]] + verb (subject); [[parler **de**]] → [[dont]]." },
+        { "id": "r10", "type": "dictation", "fr": "Je me permets d'insister : il doit bien y avoir une solution.", "accept": ["Je me permets d'insister, il doit bien y avoir une solution.", "Je me permets d'insister. Il doit bien y avoir une solution."],
+          "explain": "[[se permettre **de**]]; [[il doit bien y avoir]] = there must be." }
+      ] },
+    { "type": "apply", "title": "Mission: get what you need",
+      "intro": "Choose one situation: internet provider, landlord, store, or cancelled flight. First, play the call or the meeting. Then write the follow-up letter.",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Role-play (about 2 minutes). Choose a situation: (a) your internet has cut out for a week and you were overcharged; (b) your landlord hasn't fixed a leak for a month; (c) a store refuses to refund a defective item; (d) your flight was cancelled. Report the problem, ask at least two questions to check your rights, insist politely when you hear no, negotiate a compromise, set a condition, and confirm the deal.", "seconds": 120,
+          "checklist": ["Opening: who you are and why you're calling or coming", "Facts: depuis / ça fait… que / malgré / ne… toujours pas", "Two information questions (Pourriez-vous me dire si… ? Y a-t-il… ?)", "Polite insistence: Je comprends, mais… / Je me permets d'insister", "A counter-offer with the conditionnel", "A condition: si + présent → futur", "Confirmation: Donc, si je comprends bien… / par écrit", "Neutral or formal register throughout"],
+          "models": [
+            { "label": "Model answer", "fr": "Bonjour, je m'appelle Nguyen Tran. Je vous appelle au sujet de mon service internet. Ça fait une semaine que la connexion ne fonctionne pas, et malgré deux appels, le problème n'est toujours pas réglé. De plus, on m'a facturé 20 $ de trop. Pourriez-vous me dire si un technicien peut venir cette semaine ? … Jeudi prochain ? Je comprends, mais c'est trop tard : je télétravaille. Serait-il possible d'avoir un rendez-vous plus tôt ? … D'accord pour mardi. Et pour la facture, je souhaiterais être remboursé, et avoir un crédit pour la semaine sans internet. … Si vous me remboursez les 20 $ et si le technicien vient mardi, ça me convient. Donc, si je comprends bien : technicien mardi, remboursement et crédit sur la prochaine facture. Pourriez-vous me le confirmer par courriel ? Merci beaucoup.", "en": "Hello, my name is Nguyen Tran. I'm calling about my internet service. The connection hasn't worked for a week, and despite two calls, the problem still hasn't been solved. In addition, I was overcharged $20. Could you tell me if a technician can come this week? … Next Thursday? I understand, but that's too late: I work from home. Would it be possible to have an earlier appointment? … OK for Tuesday. And for the bill, I'd like to be refunded, and to have a credit for the week without internet. … If you refund the $20 and the technician comes on Tuesday, that works for me. So, if I understand correctly: technician on Tuesday, refund and credit on the next bill. Could you confirm that by email? Thank you very much." },
+            { "label": "Stronger model answer", "fr": "Bonjour monsieur Lavoie, c'est Sofia Ramírez, du logement 6. Je vous appelle encore une fois au sujet de la fuite sous l'évier, que je vous ai signalée le 3 octobre. Ça fait maintenant un mois, et malgré vos promesses, personne n'est venu. L'eau a abîmé l'armoire, et je dois vider un seau tous les soirs. … Je comprends que les plombiers sont très occupés, mais je me permets d'insister : c'est un problème qui empire. Pourriez-vous me dire si votre assurance couvre ce genre de dégâts ? … D'accord. Alors je vous propose la solution suivante : un plombier avant vendredi, et une réduction de 70 $ sur le loyer de novembre. … Cinquante dollars ? Je regrette, mais ça ne me convient pas vraiment, vu la durée du problème. Est-ce qu'on pourrait couper la poire en deux ? Disons 60 $, mais à une condition : si le plombier ne vient pas avant vendredi, je contacterai le Tribunal administratif du logement. … Parfait. Donc, si je comprends bien : plombier jeudi matin, 60 $ de moins en novembre, et vous réparez l'armoire. Pourriez-vous me confirmer tout ça par écrit ? Je vous remercie de votre compréhension.", "en": "Hello Mr. Lavoie, it's Sofia Ramírez, from unit 6. I'm calling you once again about the leak under the sink, which I reported to you on October 3rd. It's now been a month, and despite your promises, nobody has come. The water has damaged the cupboard, and I have to empty a bucket every evening. … I understand that plumbers are very busy, but I must insist: it's a problem that is getting worse. Could you tell me if your insurance covers this kind of damage? … OK. Then I suggest the following solution: a plumber before Friday, and a $70 reduction on November's rent. … Fifty dollars? I'm sorry, but that doesn't really work for me, given how long the problem has lasted. Could we split the difference? Let's say $60, but on one condition: if the plumber doesn't come before Friday, I'll contact the Tribunal administratif du logement. … Perfect. So, if I understand correctly: plumber on Thursday morning, $60 off in November, and you repair the cupboard. Could you confirm all that in writing? Thank you for your understanding." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "Write the follow-up letter or email for the situation you chose. Summarize the problem with dates, mention what was said on the phone or in person, state the agreement you reached (or the solution you still want), and ask for written confirmation.", "promptFr": "Rédigez la lettre ou le courriel de suivi.", "wordRange": [120, 160],
+          "checklist": ["A subject line and Madame, Monsieur, (or the person's name)", "Je vous écris au sujet de… + reference number", "Facts with dates: depuis, le…, malgré…, ne… toujours pas", "What was agreed: Comme convenu lors de notre conversation du…", "A condition: si + présent → futur", "A polite request for confirmation", "A formal closing: Je vous prie d'agréer…", "Consistent formal register, no familiar words"],
+          "models": [
+            { "label": "Model answer", "fr": "Objet : Suivi de ma réclamation – aspirateur défectueux\nMadame, Monsieur,\nJe vous écris au sujet de l'aspirateur que j'ai acheté dans votre magasin le 5 septembre. Malgré une première réparation en octobre, l'appareil ne fonctionne toujours pas : il s'arrête après deux minutes.\nLe 14 novembre, je suis revenu au magasin et j'ai parlé avec votre gérant. Comme convenu, il a échangé l'aspirateur contre un modèle neuf. Il a aussi accepté de me rembourser si le nouvel appareil tombe en panne pendant la garantie.\nPourriez-vous me confirmer cet accord par écrit ? Si je reçois cette confirmation, je considérerai le dossier comme réglé.\nJe vous remercie de votre compréhension.\nJe vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\nOlivier Bouchard", "en": "Subject: Follow-up to my claim – defective vacuum cleaner. Dear Sir or Madam, I am writing to you about the vacuum cleaner I bought in your store on September 5th. Despite a first repair in October, the appliance still doesn't work: it stops after two minutes. On November 14th, I came back to the store and spoke with your manager. As agreed, he exchanged the vacuum for a new model. He also agreed to refund me if the new appliance breaks down during the warranty. Could you confirm this agreement in writing? If I receive this confirmation, I will consider the matter settled. Thank you for your understanding. Yours faithfully, Olivier Bouchard" },
+            { "label": "Stronger model answer", "fr": "Objet : Fuite d'eau – logement 6 – suivi de notre conversation du 4 novembre\nMonsieur Lavoie,\nJe me permets de vous écrire à la suite de notre conversation téléphonique d'hier, au sujet de la fuite sous l'évier de la cuisine, que je vous ai signalée pour la première fois le 3 octobre.\nComme vous le savez, malgré plusieurs appels de ma part, aucun plombier n'est encore venu, et l'eau a abîmé l'armoire sous l'évier. Je tiens à préciser que j'ai pris des photos des dégâts, que je joins à ce courriel.\nComme convenu, vous enverrez un plombier jeudi matin, vous ferez réparer l'armoire, et vous m'accorderez une réduction de 60 $ sur le loyer de novembre. Si la réparation n'est pas faite d'ici vendredi, je serai malheureusement obligée de contacter le Tribunal administratif du logement.\nPourriez-vous me confirmer ces points par retour de courriel ?\nJe vous remercie de votre compréhension et vous prie d'agréer, Monsieur, mes salutations distinguées.\nSofia Ramírez", "en": "Subject: Water leak – unit 6 – follow-up to our conversation of November 4th. Mr. Lavoie, I am taking the liberty of writing to you following our phone conversation yesterday, about the leak under the kitchen sink, which I first reported to you on October 3rd. As you know, despite several calls on my part, no plumber has come yet, and the water has damaged the cupboard under the sink. I would like to point out that I have taken photos of the damage, which I am attaching to this email. As agreed, you will send a plumber on Thursday morning, you will have the cupboard repaired, and you will grant me a $60 reduction on November's rent. If the repair is not done by Friday, I will unfortunately have to contact the Tribunal administratif du logement. Could you confirm these points by return email? Thank you for your understanding. Yours sincerely, Sofia Ramírez" }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ] }
+  ],
+  "summary": "- Solve a problem from start to finish: report it with facts, get information, insist politely, negotiate and confirm\n- Combine the unit's tools: [[Je souhaiterais signaler…]], [[malgré…]], [[ne… toujours pas]], [[Pourriez-vous me dire si…?]], [[Je me permets d'insister.]], [[D'accord, mais à une condition.]]\n- Write a formal follow-up that summarizes the agreement and asks for written confirmation",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed '(man speaking)' that contradicted feminine accepts; removed the r7 paraphrase 'j'ai payé l'hôtel' and fixed its hint; hedged exam word counts; 75 $ → 70 $ so that 'couper la poire en deux' lands on 60 $." }
+}

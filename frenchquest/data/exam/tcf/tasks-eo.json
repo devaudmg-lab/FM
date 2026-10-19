@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "ability": "eo",
+  "tasks": [
+    {
+      "id": "tcf-eo-t1-1",
+      "section": "T1",
+      "title": "Guided interview: you, your family and your work",
+      "level": "b1",
+      "prompt": "Bonjour ! Nous allons commencer par faire connaissance. Pouvez-vous vous présenter ? Parlez-moi de vous, de votre famille, de votre travail ou de vos études.",
+      "promptEn": "Hello! Let's start by getting to know each other. Could you introduce yourself? Tell me about yourself, your family, your work or your studies.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "checklist": [
+        "Answers in full sentences and develops each answer (reason, example, detail) instead of giving one-word replies",
+        "Covers several areas of personal life: identity, family, work or studies, free time, plans",
+        "Uses present, past (passé composé / imparfait) and future or conditional appropriately",
+        "Links ideas with connectors (parce que, mais, par exemple, en plus, ensuite)",
+        "Keeps talking fluently for the full two minutes, with natural self-corrections if needed",
+        "Pronunciation and vocabulary are clear enough to be understood without effort"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Je m'appelle… et je viens de…",
+          "en": "My name is… and I come from…"
+        },
+        {
+          "fr": "J'habite à… depuis…",
+          "en": "I have been living in… for…"
+        },
+        {
+          "fr": "Dans la vie, je suis… / Je travaille comme…",
+          "en": "For a living, I am… / I work as…"
+        },
+        {
+          "fr": "Ce qui me plaît dans…, c'est…",
+          "en": "What I like about… is…"
+        },
+        {
+          "fr": "Pendant mon temps libre, j'aime…",
+          "en": "In my free time, I like…"
+        },
+        {
+          "fr": "Quand j'étais petit(e), je…",
+          "en": "When I was little, I used to…"
+        },
+        {
+          "fr": "J'aimerais… / Mon projet, c'est de…",
+          "en": "I would like to… / My plan is to…"
+        },
+        {
+          "fr": "Pour vous donner un exemple, …",
+          "en": "To give you an example, …"
+        }
+      ],
+      "examinerLines": [
+        "Comment vous appelez-vous et d'où venez-vous ?",
+        "Pouvez-vous me parler de votre famille ?",
+        "Qu'est-ce que vous faites dans la vie ?",
+        "Qu'est-ce qui vous plaît dans votre travail ?",
+        "Comment se passe une journée typique pour vous ?",
+        "Que faites-vous pendant votre temps libre ?",
+        "Depuis combien de temps apprenez-vous le français ?",
+        "Pourquoi avez-vous choisi de vous installer au Canada ?",
+        "Quels sont vos projets pour les cinq prochaines années ?",
+        "Qu'est-ce qui vous manquerait le plus de votre pays ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour ! Je m'appelle Ravi Sharma, j'ai trente-quatre ans et je viens de Pune, une grande ville de l'ouest de l'Inde. Je suis marié et j'ai une fille de six ans, Anaya. Elle est en première année et elle adore dessiner. Ma femme est pharmacienne, elle travaille dans un hôpital.\n\nMoi, je suis ingénieur en informatique. Je travaille pour une entreprise qui développe des logiciels pour les banques. Ce qui me plaît dans mon travail, c'est de résoudre des problèmes et de travailler en équipe avec des collègues de plusieurs pays. Mes journées sont assez chargées : je commence à huit heures et demie et je finis souvent vers six heures. Le soir, j'aide ma fille à faire ses devoirs et, après le souper, j'étudie le français pendant une heure.\n\nJ'apprends le français depuis deux ans. Au début, c'était difficile, surtout la prononciation, mais maintenant, j'aime beaucoup cette langue. Je regarde des séries québécoises pour m'habituer à l'accent.\n\nPendant mon temps libre, je joue au cricket avec des amis le dimanche et je cuisine beaucoup. Nous voulons nous installer au Canada parce que nous cherchons une meilleure qualité de vie et un bon système scolaire pour notre fille. J'aimerais vivre à Montréal, car c'est une ville multiculturelle et francophone. Dans cinq ans, j'espère avoir un bon emploi là-bas et, peut-être, acheter une maison."
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t1-2",
+      "section": "T1",
+      "title": "Guided interview: where you live and your plans",
+      "level": "b1",
+      "prompt": "Bonjour. Pour commencer, j'aimerais que vous me parliez un peu de vous et de l'endroit où vous vivez.",
+      "promptEn": "Hello. To begin, I would like you to tell me a little about yourself and the place where you live.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "checklist": [
+        "Answers in full sentences and develops each answer (reason, example, detail) instead of giving one-word replies",
+        "Covers several areas of personal life: identity, family, work or studies, free time, plans",
+        "Uses present, past (passé composé / imparfait) and future or conditional appropriately",
+        "Links ideas with connectors (parce que, mais, par exemple, en plus, ensuite)",
+        "Keeps talking fluently for the full two minutes, with natural self-corrections if needed",
+        "Pronunciation and vocabulary are clear enough to be understood without effort"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Je m'appelle… et je viens de…",
+          "en": "My name is… and I come from…"
+        },
+        {
+          "fr": "J'habite à… depuis…",
+          "en": "I have been living in… for…"
+        },
+        {
+          "fr": "Dans la vie, je suis… / Je travaille comme…",
+          "en": "For a living, I am… / I work as…"
+        },
+        {
+          "fr": "Ce qui me plaît dans…, c'est…",
+          "en": "What I like about… is…"
+        },
+        {
+          "fr": "Pendant mon temps libre, j'aime…",
+          "en": "In my free time, I like…"
+        },
+        {
+          "fr": "Quand j'étais petit(e), je…",
+          "en": "When I was little, I used to…"
+        },
+        {
+          "fr": "J'aimerais… / Mon projet, c'est de…",
+          "en": "I would like to… / My plan is to…"
+        },
+        {
+          "fr": "Pour vous donner un exemple, …",
+          "en": "To give you an example, …"
+        }
+      ],
+      "examinerLines": [
+        "Où habitez-vous actuellement ?",
+        "Avec qui vivez-vous ?",
+        "Pouvez-vous me décrire votre logement ?",
+        "Qu'est-ce que vous aimez dans votre quartier ?",
+        "Y a-t-il quelque chose que vous aimeriez changer dans votre ville ?",
+        "Comment vous déplacez-vous au quotidien ?",
+        "Quel est votre métier ? Est-ce que c'est le même que dans votre pays d'origine ?",
+        "Aimeriez-vous rester dans cette ville à l'avenir ? Pourquoi ?",
+        "Comment imaginez-vous votre vie dans dix ans ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Alors, je m'appelle Lucía Fernández, je suis colombienne et j'habite à Gatineau depuis presque deux ans. Je vis avec mon mari et notre fils de trois ans dans un appartement de trois chambres, au deuxième étage d'un triplex. Ce n'est pas très grand, mais c'est lumineux et il y a un petit balcon où je fais pousser des tomates l'été.\n\nCe que j'aime dans mon quartier, c'est qu'il est calme et très vert. Il y a un grand parc juste à côté, avec des jeux pour les enfants et une patinoire en hiver. Les voisins sont sympathiques : on se dit toujours bonjour et, l'été dernier, on a même organisé une fête de rue. Par contre, si je pouvais changer une chose, ce serait le transport en commun. Le soir, l'autobus ne passe que toutes les trente minutes, alors on prend souvent la voiture.\n\nPour aller au travail, je prends quand même l'autobus jusqu'à Ottawa. Je travaille comme adjointe administrative dans un cabinet comptable. Ce n'est pas mon métier d'origine : en Colombie, j'étais avocate. Mon projet, c'est de faire reconnaître mes compétences et de retourner aux études, pour travailler dans le domaine juridique, peut-être comme technicienne juridique au début.\n\nOui, j'aimerais rester ici, parce que mon fils va commencer l'école et que nous avons de bons amis. Dans dix ans, je m'imagine propriétaire d'une maison avec un jardin, et j'espère parler français sans accent… enfin, presque !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t1-3",
+      "section": "T1",
+      "title": "Guided interview: studies, hobbies and memories",
+      "level": "b1",
+      "prompt": "Bonjour, installez-vous. Je vais vous poser quelques questions. Présentez-vous, puis parlez-moi de ce que vous aimez faire.",
+      "promptEn": "Hello, have a seat. I am going to ask you a few questions. Introduce yourself, then tell me about what you like doing.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "checklist": [
+        "Answers in full sentences and develops each answer (reason, example, detail) instead of giving one-word replies",
+        "Covers several areas of personal life: identity, family, work or studies, free time, plans",
+        "Uses present, past (passé composé / imparfait) and future or conditional appropriately",
+        "Links ideas with connectors (parce que, mais, par exemple, en plus, ensuite)",
+        "Keeps talking fluently for the full two minutes, with natural self-corrections if needed",
+        "Pronunciation and vocabulary are clear enough to be understood without effort"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Je m'appelle… et je viens de…",
+          "en": "My name is… and I come from…"
+        },
+        {
+          "fr": "J'habite à… depuis…",
+          "en": "I have been living in… for…"
+        },
+        {
+          "fr": "Dans la vie, je suis… / Je travaille comme…",
+          "en": "For a living, I am… / I work as…"
+        },
+        {
+          "fr": "Ce qui me plaît dans…, c'est…",
+          "en": "What I like about… is…"
+        },
+        {
+          "fr": "Pendant mon temps libre, j'aime…",
+          "en": "In my free time, I like…"
+        },
+        {
+          "fr": "Quand j'étais petit(e), je…",
+          "en": "When I was little, I used to…"
+        },
+        {
+          "fr": "J'aimerais… / Mon projet, c'est de…",
+          "en": "I would like to… / My plan is to…"
+        },
+        {
+          "fr": "Pour vous donner un exemple, …",
+          "en": "To give you an example, …"
+        }
+      ],
+      "examinerLines": [
+        "Parlez-moi de vos études : qu'avez-vous étudié, et où ?",
+        "Quels sont vos loisirs ?",
+        "Depuis quand pratiquez-vous cette activité ?",
+        "Préférez-vous passer vos week-ends à la maison ou à l'extérieur ?",
+        "Faites-vous du sport ?",
+        "Quel est le dernier voyage que vous avez fait ?",
+        "Quel souvenir gardez-vous de votre enfance ?",
+        "Quelle langue parlez-vous à la maison ?",
+        "Qu'est-ce que vous aimeriez apprendre dans les prochaines années ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Bonjour ! Je m'appelle Mehdi Benali, j'ai vingt-huit ans et je viens d'Oran, en Algérie. J'ai étudié la biologie à l'université d'Oran, puis j'ai fait un master en environnement. Aujourd'hui, je travaille dans un laboratoire qui analyse la qualité de l'eau.\n\nMes loisirs ? J'en ai beaucoup ! Ma grande passion, c'est la randonnée. J'ai commencé quand j'avais quinze ans, avec mon oncle, dans les montagnes près de chez nous. Depuis, je marche presque chaque week-end. Je préfère vraiment passer mes week-ends dehors : rester à la maison toute la journée, ça m'ennuie vite. Je joue aussi au football en salle avec des collègues le mardi soir.\n\nMon dernier voyage, c'était en Tunisie, l'été dernier, avec deux amis. Nous avons visité le désert près de Tozeur et nous avons dormi sous une tente. C'était magnifique : le ciel était plein d'étoiles. Mon meilleur souvenir d'enfance, d'ailleurs, ressemble un peu à ça : les nuits d'été sur la terrasse de mes grands-parents, quand toute la famille mangeait dehors.\n\nÀ la maison, nous parlons arabe et un peu français, comme beaucoup de familles en Algérie. Mais je veux améliorer mon français écrit et mon vocabulaire professionnel, alors je prends des cours deux fois par semaine.\n\nCe que j'aimerais apprendre dans les prochaines années ? Le ski ! Si je m'installe au Québec, je ne veux pas avoir peur de l'hiver. Je voudrais aussi apprendre à jouer de la guitare, mais je n'ai jamais le temps…"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t2-1",
+      "section": "T2",
+      "title": "Interaction: joining a sports club",
+      "level": "b1",
+      "prompt": "Vous voulez vous inscrire dans un club de sport près de chez vous. Vous téléphonez au club. Posez des questions à l'employé(e) pour obtenir toutes les informations nécessaires (activités, horaires, tarifs, inscription, etc.). L'examinateur joue le rôle de l'employé(e).",
+      "promptEn": "You want to join a sports club near your home. You phone the club. Ask the employee questions to get all the information you need (activities, opening hours, prices, registration, etc.). The examiner plays the employee.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "checklist": [
+        "Greets the examiner and states the purpose of the call or visit",
+        "Asks many questions (8 or more) covering all the points of the instruction",
+        "Varies question forms: est-ce que, inversion, interrogative words (quand, combien, comment…), indirect questions (je voudrais savoir si…)",
+        "Listens to the answers and reacts to them (follow-up questions, comments, reformulation)",
+        "Uses the polite register (vous, conditional: pourriez-vous, j'aimerais)",
+        "Closes the exchange naturally (decision, thanks, next step)"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour, je vous appelle parce que je voudrais des renseignements sur…",
+          "en": "Hello, I'm calling because I'd like some information about…"
+        },
+        {
+          "fr": "Pourriez-vous me dire… ?",
+          "en": "Could you tell me… ?"
+        },
+        {
+          "fr": "Quelles activités proposez-vous ?",
+          "en": "What activities do you offer?"
+        },
+        {
+          "fr": "Quels sont vos horaires d'ouverture ?",
+          "en": "What are your opening hours?"
+        },
+        {
+          "fr": "Combien coûte… ? / Quel est le tarif de… ?",
+          "en": "How much does… cost? / What is the price of… ?"
+        },
+        {
+          "fr": "Est-ce que le prix comprend… ?",
+          "en": "Does the price include… ?"
+        },
+        {
+          "fr": "Y a-t-il des réductions pour… ?",
+          "en": "Are there discounts for… ?"
+        },
+        {
+          "fr": "Est-ce qu'il est possible d'essayer avant de s'inscrire ?",
+          "en": "Is it possible to try before signing up?"
+        },
+        {
+          "fr": "Qu'est-ce qu'il faut faire pour s'inscrire ?",
+          "en": "What do I need to do to sign up?"
+        },
+        {
+          "fr": "Quels documents dois-je apporter ?",
+          "en": "What documents should I bring?"
+        },
+        {
+          "fr": "Je voudrais savoir si…",
+          "en": "I would like to know whether…"
+        },
+        {
+          "fr": "D'accord. Une dernière question : …",
+          "en": "All right. One last question: …"
+        }
+      ],
+      "examinerLines": [
+        "Club Énergie, bonjour ! Que puis-je faire pour vous ?",
+        "Nous proposons de la musculation, de la natation, du yoga et des cours de vélo en salle.",
+        "La salle est ouverte de 6 h à 22 h en semaine, et de 8 h à 18 h le week-end.",
+        "L'abonnement mensuel coûte 49 dollars, ou 480 dollars pour un an.",
+        "Les cours collectifs sont inclus, sauf l'aquaforme, qui coûte 5 dollars de plus par séance.",
+        "Il y a des frais d'inscription de 25 dollars, mais ce mois-ci, ils sont offerts.",
+        "Oui, nous offrons une semaine d'essai gratuite.",
+        "Nous avons un tarif famille : 15 % de réduction à partir de deux personnes.",
+        "Pour vous inscrire, il suffit de venir avec une pièce d'identité et une carte bancaire.",
+        "Il y a un stationnement gratuit derrière le bâtiment, et l'autobus 32 s'arrête juste devant."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Examinatrice : Club Énergie, bonjour ! Que puis-je faire pour vous ?\nCandidat : Bonjour, madame. Je vous appelle parce que je viens d'emménager dans le quartier et je voudrais m'inscrire dans un club de sport. Est-ce que vous pourriez me donner quelques renseignements ?\nExaminatrice : Bien sûr. Qu'est-ce que vous aimeriez savoir ?\nCandidat : D'abord, quelles activités est-ce que vous proposez ?\nExaminatrice : Nous proposons de la musculation, de la natation, du yoga et des cours de vélo en salle.\nCandidat : Ah, très bien, j'aime beaucoup nager. La piscine est ouverte tous les jours ?\nExaminatrice : Oui, la salle et la piscine sont ouvertes de 6 h à 22 h en semaine, et de 8 h à 18 h le week-end.\nCandidat : Parfait, parce que je travaille jusqu'à 17 h, donc je pourrais venir le soir. Et combien coûte l'abonnement ?\nExaminatrice : L'abonnement mensuel coûte 49 dollars, ou 480 dollars pour un an.\nCandidat : D'accord. Est-ce que les cours de yoga sont compris dans ce prix, ou il faut payer en plus ?\nExaminatrice : Les cours collectifs sont inclus, sauf l'aquaforme, qui coûte 5 dollars de plus par séance.\nCandidat : Je vois. Et y a-t-il des frais d'inscription ?\nExaminatrice : Normalement, 25 dollars, mais ce mois-ci, ils sont offerts.\nCandidat : C'est intéressant ! Ma femme voudrait peut-être s'inscrire aussi. Est-ce que vous avez un tarif pour les couples ou les familles ?\nExaminatrice : Oui, nous avons un tarif famille : 15 % de réduction à partir de deux personnes.\nCandidat : Super. Avant de prendre un abonnement d'un an, je voudrais savoir s'il est possible d'essayer.\nExaminatrice : Oui, nous offrons une semaine d'essai gratuite.\nCandidat : Excellent. Et qu'est-ce qu'il faut faire pour s'inscrire ? Je peux le faire en ligne ?\nExaminatrice : Il suffit de venir sur place avec une pièce d'identité et une carte bancaire.\nCandidat : D'accord. Une dernière question : je n'ai pas encore de voiture. Comment est-ce qu'on peut venir en transport en commun ?\nExaminatrice : L'autobus 32 s'arrête juste devant, et il y a aussi un stationnement gratuit derrière le bâtiment.\nCandidat : Très bien, l'autobus 32 passe près de chez moi. Alors je vais passer samedi matin avec ma femme pour commencer la semaine d'essai. Merci beaucoup pour toutes ces informations, madame. Bonne journée !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t2-2",
+      "section": "T2",
+      "title": "Interaction: renting an apartment",
+      "level": "b1",
+      "prompt": "Vous cherchez un appartement à louer. Vous avez vu l'annonce ci-dessous et vous appelez le propriétaire. Posez-lui des questions pour savoir si le logement vous convient (loyer, ce qui est inclus, superficie, disponibilité, quartier, etc.). L'examinateur joue le rôle du propriétaire.",
+      "promptEn": "You are looking for an apartment to rent. You saw the ad below and you call the landlord. Ask him questions to find out whether the place suits you (rent, what is included, size, availability, neighbourhood, etc.). The examiner plays the landlord.",
+      "document": "À LOUER – Rosemont\nAppartement de deux chambres, lumineux, 2e étage, près du métro.\nDisponible prochainement. Animaux : à discuter.\nMichel – 514 555-0187",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "checklist": [
+        "Greets the examiner and states the purpose of the call or visit",
+        "Asks many questions (8 or more) covering all the points of the instruction",
+        "Varies question forms: est-ce que, inversion, interrogative words (quand, combien, comment…), indirect questions (je voudrais savoir si…)",
+        "Listens to the answers and reacts to them (follow-up questions, comments, reformulation)",
+        "Uses the polite register (vous, conditional: pourriez-vous, j'aimerais)",
+        "Closes the exchange naturally (decision, thanks, next step)"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour, je vous appelle au sujet de votre annonce pour…",
+          "en": "Hello, I'm calling about your ad for…"
+        },
+        {
+          "fr": "Est-ce que l'appartement est toujours disponible ?",
+          "en": "Is the apartment still available?"
+        },
+        {
+          "fr": "À combien s'élève le loyer ?",
+          "en": "How much is the rent?"
+        },
+        {
+          "fr": "Qu'est-ce qui est compris dans le loyer ?",
+          "en": "What is included in the rent?"
+        },
+        {
+          "fr": "À partir de quand est-il libre ?",
+          "en": "From when is it available?"
+        },
+        {
+          "fr": "Quelle est la superficie ? / Combien de pièces y a-t-il ?",
+          "en": "How big is it? / How many rooms are there?"
+        },
+        {
+          "fr": "Est-ce qu'il y a… (une laveuse, un stationnement, un balcon) ?",
+          "en": "Is there… (a washer, parking, a balcony)?"
+        },
+        {
+          "fr": "Est-ce que les animaux sont acceptés ?",
+          "en": "Are pets allowed?"
+        },
+        {
+          "fr": "Comment est le quartier ? Y a-t-il des commerces à proximité ?",
+          "en": "What is the neighbourhood like? Are there shops nearby?"
+        },
+        {
+          "fr": "Le bail est de quelle durée ?",
+          "en": "How long is the lease?"
+        },
+        {
+          "fr": "Est-ce que vous demandez un dépôt ?",
+          "en": "Do you ask for a deposit?"
+        },
+        {
+          "fr": "Serait-il possible de le visiter… ?",
+          "en": "Would it be possible to visit it… ?"
+        }
+      ],
+      "examinerLines": [
+        "Allô, oui, c'est bien Michel. L'appartement est toujours disponible.",
+        "Le loyer est de mille quatre cent cinquante dollars par mois.",
+        "Le chauffage et l'eau chaude sont inclus, mais pas l'électricité.",
+        "Il est libre à partir du premier juillet.",
+        "Il fait à peu près 850 pieds carrés, avec un grand salon et une cuisine fermée.",
+        "Il y a une laveuse et une sécheuse au sous-sol, partagées avec les autres locataires.",
+        "Les chats sont acceptés, mais pas les chiens.",
+        "Le bail est d'un an, renouvelable.",
+        "Non, je ne demande pas de dépôt, seulement le premier mois de loyer à la signature du bail.",
+        "Le métro est à cinq minutes à pied, et il y a une école primaire au coin de la rue.",
+        "Vous pouvez le visiter samedi matin, si vous voulez."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Examinateur : Allô ?\nCandidate : Bonjour, monsieur. Je vous appelle au sujet de votre annonce pour l'appartement à Rosemont. Est-ce que je parle bien à Michel ?\nExaminateur : Oui, c'est bien moi.\nCandidate : Est-ce que l'appartement est toujours disponible ?\nExaminateur : Oui, il est toujours disponible.\nCandidate : Très bien. À partir de quand est-ce qu'il est libre ? Parce que nous devons quitter notre logement à la fin du mois de juin.\nExaminateur : Il est libre à partir du 1er juillet.\nCandidate : Ah, c'est parfait. Et à combien s'élève le loyer ?\nExaminateur : 1 450 dollars par mois.\nCandidate : Est-ce que le chauffage est compris ? Je sais qu'en hiver, ça peut coûter cher.\nExaminateur : Le chauffage et l'eau chaude sont inclus, mais pas l'électricité.\nCandidate : D'accord. L'annonce dit qu'il y a deux chambres. Quelle est la superficie totale ?\nExaminateur : À peu près 850 pieds carrés, avec un grand salon et une cuisine fermée.\nCandidate : Ça me semble bien pour nous. Nous sommes trois : mon mari, ma fille et moi. Est-ce qu'il y a une laveuse dans l'appartement ?\nExaminateur : Il y a une laveuse et une sécheuse au sous-sol, partagées avec les autres locataires.\nCandidate : Bon, ce n'est pas un problème. Et l'annonce dit « animaux à discuter » : nous avons un chat. Est-ce que c'est possible ?\nExaminateur : Les chats sont acceptés, mais pas les chiens.\nCandidate : Tant mieux, ma fille serait très triste sans son chat ! Justement, elle a sept ans : est-ce qu'il y a une école près de l'appartement ?\nExaminateur : Oui, il y a une école primaire au coin de la rue, et le métro est à cinq minutes à pied.\nCandidate : C'est vraiment pratique. Et le bail, il est de quelle durée ?\nExaminateur : Un an, renouvelable.\nCandidate : D'accord. Est-ce que vous demandez un dépôt ou des garanties ?\nExaminateur : Non, pas de dépôt, seulement le premier mois de loyer à la signature du bail.\nCandidate : Très bien. Je voudrais savoir s'il serait possible de visiter l'appartement avant de prendre une décision.\nExaminateur : Vous pouvez venir samedi matin, si vous voulez.\nCandidate : Samedi matin, vers dix heures, ça vous convient ? Je viendrai avec mon mari.\nExaminateur : Dix heures, c'est parfait.\nCandidate : Merci beaucoup, monsieur. Alors à samedi !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t2-3",
+      "section": "T2",
+      "title": "Interaction: planning a trip at a travel agency",
+      "level": "b1",
+      "prompt": "Vous voulez partir quelques jours en Gaspésie avec votre famille. Vous êtes dans une agence de voyages. Posez des questions à l'agent(e) pour organiser votre séjour (transport, hébergement, activités, prix, etc.). L'examinateur joue le rôle de l'agent(e) de voyages.",
+      "promptEn": "You want to spend a few days in the Gaspé Peninsula with your family. You are at a travel agency. Ask the agent questions to organize your stay (transport, accommodation, activities, prices, etc.). The examiner plays the travel agent.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "checklist": [
+        "Greets the examiner and states the purpose of the call or visit",
+        "Asks many questions (8 or more) covering all the points of the instruction",
+        "Varies question forms: est-ce que, inversion, interrogative words (quand, combien, comment…), indirect questions (je voudrais savoir si…)",
+        "Listens to the answers and reacts to them (follow-up questions, comments, reformulation)",
+        "Uses the polite register (vous, conditional: pourriez-vous, j'aimerais)",
+        "Closes the exchange naturally (decision, thanks, next step)"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "Bonjour, j'aimerais organiser un séjour en… avec…",
+          "en": "Hello, I would like to organize a trip to… with…"
+        },
+        {
+          "fr": "Qu'est-ce que vous me conseillez pour… ?",
+          "en": "What do you recommend for… ?"
+        },
+        {
+          "fr": "Quelles sont les options pour… ?",
+          "en": "What are the options for… ?"
+        },
+        {
+          "fr": "Combien de temps dure le trajet ?",
+          "en": "How long does the journey take?"
+        },
+        {
+          "fr": "Où est-ce qu'on serait logés ?",
+          "en": "Where would we be staying?"
+        },
+        {
+          "fr": "Est-ce que le prix comprend… ?",
+          "en": "Does the price include… ?"
+        },
+        {
+          "fr": "Y a-t-il un tarif réduit pour les enfants ?",
+          "en": "Is there a reduced rate for children?"
+        },
+        {
+          "fr": "Quelles activités peut-on faire sur place ?",
+          "en": "What activities can we do there?"
+        },
+        {
+          "fr": "Quelle est la meilleure période pour… ?",
+          "en": "What is the best time to… ?"
+        },
+        {
+          "fr": "Que se passe-t-il si nous devons annuler ?",
+          "en": "What happens if we have to cancel?"
+        },
+        {
+          "fr": "Est-ce qu'il faut tout payer maintenant ?",
+          "en": "Do we have to pay everything now?"
+        },
+        {
+          "fr": "Ça fait combien en tout ?",
+          "en": "How much is it altogether?"
+        }
+      ],
+      "examinerLines": [
+        "Bonjour, bienvenue ! Vous avez un projet de voyage ?",
+        "Nous avons un forfait de cinq jours et quatre nuits, au départ de Montréal.",
+        "Le trajet se fait en autocar, environ douze heures, ou en voiture de location si vous préférez.",
+        "La voiture de location coûte environ 300 dollars de plus pour les cinq jours.",
+        "Vous logerez dans un hôtel à Percé, avec vue sur le rocher.",
+        "Le forfait coûte 890 dollars par adulte et 450 dollars par enfant de moins de douze ans.",
+        "Le petit-déjeuner est compris, mais pas les autres repas.",
+        "Le forfait comprend une excursion en bateau jusqu'à l'île Bonaventure, pour observer les fous de Bassan.",
+        "La meilleure période, c'est de juin à septembre.",
+        "L'assurance annulation est en option : 60 dollars par personne.",
+        "Vous pouvez réserver aujourd'hui avec un acompte de 20 %."
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Examinateur : Bonjour, bienvenue ! Vous avez un projet de voyage ?\nCandidat : Bonjour, monsieur. Oui, j'aimerais partir quelques jours en Gaspésie cet été avec ma femme et nos deux enfants. On m'a dit que c'était magnifique. Qu'est-ce que vous me conseillez ?\nExaminateur : Nous avons un forfait de cinq jours et quatre nuits, au départ de Montréal.\nCandidat : Cinq jours, c'est exactement ce qu'on cherche. Comment est-ce qu'on voyage ? En avion ?\nExaminateur : Le trajet se fait en autocar, environ douze heures, ou en voiture de location si vous préférez.\nCandidat : Douze heures en autocar avec des enfants, ça risque d'être long… La voiture de location coûte combien de plus ?\nExaminateur : Environ 300 dollars pour les cinq jours.\nCandidat : D'accord, je vais y réfléchir. Et où est-ce qu'on serait logés ?\nExaminateur : Dans un hôtel à Percé, avec vue sur le rocher.\nCandidat : Oh, ça doit être superbe ! Est-ce que les repas sont compris ?\nExaminateur : Le petit-déjeuner est compris, mais pas les autres repas.\nCandidat : Bon, ce n'est pas grave, on pourra découvrir les restaurants de la région. Et quel est le prix du forfait ?\nExaminateur : 890 dollars par adulte et 450 dollars par enfant de moins de douze ans.\nCandidat : Mes enfants ont huit et dix ans, donc ils paient le tarif réduit. Ça fait… 2 680 dollars en tout, c'est bien ça ?\nExaminateur : Oui, c'est exact, sans la voiture de location.\nCandidat : Et quelles activités peut-on faire sur place ? Mes enfants adorent les animaux.\nExaminateur : Le forfait comprend une excursion en bateau jusqu'à l'île Bonaventure, pour observer les fous de Bassan.\nCandidat : Les fous de Bassan ? Ce sont des oiseaux, je crois ? Ils vont adorer ! Quelle est la meilleure période pour les voir ?\nExaminateur : De juin à septembre.\nCandidat : Parfait, nous pensions partir début août. Une autre question : si l'un de nous tombe malade et que nous devons annuler, est-ce qu'on est remboursés ?\nExaminateur : Il faut prendre l'assurance annulation, en option : 60 dollars par personne.\nCandidat : Je crois que c'est plus prudent de la prendre. Et est-ce que je dois tout payer aujourd'hui ?\nExaminateur : Non, vous pouvez réserver avec un acompte de 20 %.\nCandidat : Très bien. Pourriez-vous m'envoyer tous les détails par courriel ? Je vais en parler avec ma femme ce soir et je vous rappelle demain pour réserver. Merci beaucoup, monsieur !"
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t3-1",
+      "section": "T3",
+      "title": "Point of view: banning cars from city centres",
+      "level": "b2",
+      "prompt": "Selon vous, faut-il interdire les voitures en centre-ville ?",
+      "promptEn": "In your opinion, should cars be banned from city centres?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "checklist": [
+        "States a clear opinion at the start (introduction + position)",
+        "Develops two or three distinct arguments, each with an explanation",
+        "Illustrates at least one argument with a concrete example, ideally personal",
+        "Acknowledges the opposite view and responds to it (certes…, mais…)",
+        "Defends or nuances the position when the examiner objects, without losing the thread",
+        "Uses a range of connectors and opinion structures, including the subjunctive after il faut que / je ne pense pas que",
+        "Ends with a short conclusion"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "À mon avis, … / Selon moi, …",
+          "en": "In my opinion, …"
+        },
+        {
+          "fr": "Je suis plutôt pour / plutôt contre…, parce que…",
+          "en": "I am rather for / rather against…, because…"
+        },
+        {
+          "fr": "Je ne pense pas que ce soit… (+ subjonctif)",
+          "en": "I don't think that it is… (+ subjunctive)"
+        },
+        {
+          "fr": "Il faut que… (+ subjonctif)",
+          "en": "It is necessary that…"
+        },
+        {
+          "fr": "D'abord, … Ensuite, … Enfin, …",
+          "en": "First, … Then, … Finally, …"
+        },
+        {
+          "fr": "Par exemple, dans mon pays / dans ma ville, …",
+          "en": "For example, in my country / in my city, …"
+        },
+        {
+          "fr": "Certes, …, mais…",
+          "en": "Admittedly, …, but…"
+        },
+        {
+          "fr": "D'un côté, … De l'autre, …",
+          "en": "On the one hand, … On the other hand, …"
+        },
+        {
+          "fr": "Je comprends votre point de vue, mais…",
+          "en": "I understand your point of view, but…"
+        },
+        {
+          "fr": "Ce n'est pas tout à fait vrai, parce que…",
+          "en": "That is not quite true, because…"
+        },
+        {
+          "fr": "Cela dépend de…",
+          "en": "It depends on…"
+        },
+        {
+          "fr": "Pour conclure, je dirais que…",
+          "en": "To conclude, I would say that…"
+        }
+      ],
+      "examinerLines": [
+        "Mais les commerçants du centre-ville risquent de perdre des clients, non ?",
+        "Et les personnes âgées ou handicapées, comment feraient-elles ?",
+        "Dans un pays aussi froid que le Canada, est-ce réaliste de marcher ou de prendre le vélo en hiver ?",
+        "Est-ce que ce n'est pas une atteinte à la liberté individuelle ?",
+        "Qu'est-ce qui se passe dans votre ville, actuellement ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Candidat : Alors, à mon avis, il ne faut pas interdire complètement les voitures, mais il faut vraiment les limiter dans les centres-villes. Je vais expliquer pourquoi.\n\nD'abord, il y a la question de la pollution et du bruit. Dans le centre d'une grande ville, il y a beaucoup de circulation, et l'air est souvent mauvais. Par exemple, quand je suis allé à Paris, j'ai vu que plusieurs rues étaient devenues piétonnes, et c'était beaucoup plus agréable : les gens se promenaient, les enfants jouaient, on entendait les oiseaux.\n\nEnsuite, je pense que c'est une question de sécurité. Moins de voitures, c'est moins d'accidents, surtout pour les piétons et les cyclistes.\n\nExaminateur : Mais les commerçants du centre-ville risquent de perdre des clients, non ?\n\nCandidat : Oui, c'est vrai, c'est la crainte de beaucoup de commerçants. Mais je ne pense pas que ce soit forcément le cas. Quand une rue devient piétonne, les gens marchent plus lentement, ils regardent les vitrines et ils entrent dans les magasins. Dans ma ville, une rue commerçante a été fermée aux voitures l'été, et les restaurants ont eu plus de clients grâce aux terrasses.\n\nExaminateur : Et les personnes âgées ou handicapées, comment feraient-elles ?\n\nCandidat : C'est justement pour ça que je ne suis pas pour une interdiction totale. Il faut que les personnes à mobilité réduite, les taxis, les livraisons et les urgences puissent toujours circuler. Et il faut aussi que la ville améliore les transports en commun : plus d'autobus, des navettes gratuites, des stationnements à l'entrée du centre.\n\nExaminateur : Dans un pays aussi froid que le Canada, est-ce réaliste en hiver ?\n\nCandidat : Certes, l'hiver est difficile, mais à Montréal, par exemple, il y a le métro et toute une ville souterraine. Ça montre qu'on peut s'adapter si on investit dans les bonnes infrastructures.\n\nPour conclure, je dirais que l'interdiction totale serait trop brutale, mais qu'il faut donner la priorité aux piétons, aux vélos et aux transports en commun. Les centres-villes appartiennent d'abord aux gens qui y vivent et qui s'y promènent, pas aux voitures."
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t3-2",
+      "section": "T3",
+      "title": "Point of view: do social networks bring people together?",
+      "level": "b2",
+      "prompt": "Pensez-vous que les réseaux sociaux rapprochent les gens ou qu'au contraire, ils les isolent ?",
+      "promptEn": "Do you think social networks bring people together, or that, on the contrary, they isolate them?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "checklist": [
+        "States a clear opinion at the start (introduction + position)",
+        "Develops two or three distinct arguments, each with an explanation",
+        "Illustrates at least one argument with a concrete example, ideally personal",
+        "Acknowledges the opposite view and responds to it (certes…, mais…)",
+        "Defends or nuances the position when the examiner objects, without losing the thread",
+        "Uses a range of connectors and opinion structures, including the subjunctive after il faut que / je ne pense pas que",
+        "Ends with a short conclusion"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "À mon avis, … / Selon moi, …",
+          "en": "In my opinion, …"
+        },
+        {
+          "fr": "Je suis plutôt pour / plutôt contre…, parce que…",
+          "en": "I am rather for / rather against…, because…"
+        },
+        {
+          "fr": "Je ne pense pas que ce soit… (+ subjonctif)",
+          "en": "I don't think that it is… (+ subjunctive)"
+        },
+        {
+          "fr": "Il faut que… (+ subjonctif)",
+          "en": "It is necessary that…"
+        },
+        {
+          "fr": "D'abord, … Ensuite, … Enfin, …",
+          "en": "First, … Then, … Finally, …"
+        },
+        {
+          "fr": "Par exemple, dans mon pays / dans ma ville, …",
+          "en": "For example, in my country / in my city, …"
+        },
+        {
+          "fr": "Certes, …, mais…",
+          "en": "Admittedly, …, but…"
+        },
+        {
+          "fr": "D'un côté, … De l'autre, …",
+          "en": "On the one hand, … On the other hand, …"
+        },
+        {
+          "fr": "Je comprends votre point de vue, mais…",
+          "en": "I understand your point of view, but…"
+        },
+        {
+          "fr": "Ce n'est pas tout à fait vrai, parce que…",
+          "en": "That is not quite true, because…"
+        },
+        {
+          "fr": "Cela dépend de…",
+          "en": "It depends on…"
+        },
+        {
+          "fr": "Pour conclure, je dirais que…",
+          "en": "To conclude, I would say that…"
+        }
+      ],
+      "examinerLines": [
+        "Pourtant, beaucoup de jeunes passent des heures sur leur téléphone sans parler à personne.",
+        "Est-ce qu'une amitié en ligne est une vraie amitié ?",
+        "Et la désinformation ? Les réseaux sociaux ne divisent-ils pas la société ?",
+        "Faudrait-il interdire les réseaux sociaux aux moins de seize ans ?",
+        "Et vous, comment les utilisez-vous ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Candidate : C'est une question intéressante, parce que je crois que la réponse dépend surtout de la manière dont on les utilise. Personnellement, je pense que les réseaux sociaux peuvent rapprocher les gens, mais seulement s'ils restent un complément aux vraies relations.\n\nJe vais prendre mon exemple. Quand je suis arrivée au Canada, il y a trois ans, toute ma famille était restée au Maroc. Grâce aux réseaux sociaux, je voyais les photos de mes neveux, je parlais avec ma mère presque tous les jours en vidéo. Sans ça, je me serais sentie beaucoup plus seule. En plus, c'est sur un groupe Facebook de nouveaux arrivants que j'ai trouvé mon premier appartement et rencontré mes premières amies à Montréal.\n\nExaminateur : Pourtant, beaucoup de jeunes passent des heures sur leur téléphone sans parler à personne.\n\nCandidate : Oui, je suis d'accord, c'est le côté négatif. Quand on fait défiler des vidéos pendant des heures, on n'échange pas vraiment avec les autres, on consomme. Et puis, on compare sa vie à celle des autres, qui a l'air toujours parfaite. Ça peut rendre les jeunes anxieux ou tristes. Je le vois avec ma nièce de quinze ans : elle a des centaines d'« amis » en ligne, mais parfois, elle se sent seule.\n\nExaminateur : Faudrait-il interdire les réseaux sociaux aux moins de seize ans ?\n\nCandidate : Je ne pense pas qu'une interdiction soit vraiment efficace, parce que les adolescents trouvent toujours une solution pour contourner les règles. Je crois plutôt qu'il faut que les parents et l'école leur apprennent à les utiliser avec modération : limiter le temps d'écran, ne pas croire tout ce qu'on lit, protéger sa vie privée.\n\nExaminateur : Et la désinformation ?\n\nCandidate : C'est un vrai problème, c'est vrai. Les fausses nouvelles circulent très vite. Mais là aussi, la solution, c'est l'éducation et l'esprit critique, et peut-être des règles plus strictes pour les grandes entreprises.\n\nDonc, pour conclure, je dirais que les réseaux sociaux ne sont ni bons ni mauvais en eux-mêmes. C'est un outil. Ils rapprochent les gens qui sont loin, mais ils peuvent éloigner ceux qui sont tout près, par exemple autour d'une table, si chacun regarde son téléphone."
+        }
+      ]
+    },
+    {
+      "id": "tcf-eo-t3-3",
+      "section": "T3",
+      "title": "Point of view: the four-day work week",
+      "level": "b2",
+      "prompt": "À votre avis, les entreprises devraient-elles passer à la semaine de travail de quatre jours ?",
+      "promptEn": "In your opinion, should companies switch to a four-day work week?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "checklist": [
+        "States a clear opinion at the start (introduction + position)",
+        "Develops two or three distinct arguments, each with an explanation",
+        "Illustrates at least one argument with a concrete example, ideally personal",
+        "Acknowledges the opposite view and responds to it (certes…, mais…)",
+        "Defends or nuances the position when the examiner objects, without losing the thread",
+        "Uses a range of connectors and opinion structures, including the subjunctive after il faut que / je ne pense pas que",
+        "Ends with a short conclusion"
+      ],
+      "usefulPhrases": [
+        {
+          "fr": "À mon avis, … / Selon moi, …",
+          "en": "In my opinion, …"
+        },
+        {
+          "fr": "Je suis plutôt pour / plutôt contre…, parce que…",
+          "en": "I am rather for / rather against…, because…"
+        },
+        {
+          "fr": "Je ne pense pas que ce soit… (+ subjonctif)",
+          "en": "I don't think that it is… (+ subjunctive)"
+        },
+        {
+          "fr": "Il faut que… (+ subjonctif)",
+          "en": "It is necessary that…"
+        },
+        {
+          "fr": "D'abord, … Ensuite, … Enfin, …",
+          "en": "First, … Then, … Finally, …"
+        },
+        {
+          "fr": "Par exemple, dans mon pays / dans ma ville, …",
+          "en": "For example, in my country / in my city, …"
+        },
+        {
+          "fr": "Certes, …, mais…",
+          "en": "Admittedly, …, but…"
+        },
+        {
+          "fr": "D'un côté, … De l'autre, …",
+          "en": "On the one hand, … On the other hand, …"
+        },
+        {
+          "fr": "Je comprends votre point de vue, mais…",
+          "en": "I understand your point of view, but…"
+        },
+        {
+          "fr": "Ce n'est pas tout à fait vrai, parce que…",
+          "en": "That is not quite true, because…"
+        },
+        {
+          "fr": "Cela dépend de…",
+          "en": "It depends on…"
+        },
+        {
+          "fr": "Pour conclure, je dirais que…",
+          "en": "To conclude, I would say that…"
+        }
+      ],
+      "examinerLines": [
+        "Mais si on travaille moins, l'entreprise ne va-t-elle pas produire moins ?",
+        "Est-ce possible dans tous les métiers, par exemple dans les hôpitaux ou les commerces ?",
+        "Travailler dix heures par jour pendant quatre jours, ce n'est pas épuisant ?",
+        "Est-ce que les salaires devraient rester les mêmes ?",
+        "Et vous, aimeriez-vous travailler quatre jours par semaine ?"
+      ],
+      "models": [
+        {
+          "label": "Model performance (about NCLC 7–8)",
+          "fr": "Candidat : Alors, moi, je suis plutôt pour la semaine de quatre jours, mais à certaines conditions. Je vais vous donner mes raisons.\n\nPremièrement, je pense que ça améliore la qualité de vie des employés. Avec trois jours de repos, on a plus de temps pour sa famille, pour faire du sport, pour régler les choses pratiques, comme les rendez-vous chez le médecin. Et quand on est reposé, on est plus motivé au travail.\n\nDeuxièmement, des essais menés dans plusieurs pays, au Royaume-Uni par exemple, ont montré que la productivité ne baisse pas forcément. Souvent, les employés sont plus concentrés, ils font moins de pauses et les réunions sont plus courtes.\n\nExaminateur : Mais si on travaille moins, l'entreprise ne va-t-elle pas produire moins ?\n\nCandidat : C'est la question que tout le monde se pose. Bien sûr, si on supprime un jour sans rien changer à l'organisation, il y aura un problème. Mais si l'entreprise réorganise le travail, elle peut garder les mêmes résultats. Dans mon ancienne entreprise, nous avons testé le vendredi libre pendant six mois. Au début, j'avais peur de ne pas finir mes tâches, mais finalement, nous avons atteint nos objectifs, et il y avait beaucoup moins d'absences pour maladie.\n\nExaminateur : Est-ce possible dans tous les métiers, par exemple dans les hôpitaux ?\n\nCandidat : Non, là, je suis d'accord avec vous, ce n'est pas possible partout de la même façon. Dans un hôpital ou dans un magasin, il faut que quelqu'un soit présent tous les jours. Mais on peut organiser des horaires par rotation : chaque employé travaille quatre jours, mais pas les mêmes jours. Ça demande plus de planification, c'est vrai, et peut-être d'embaucher un peu plus de personnel.\n\nExaminateur : Travailler dix heures par jour, ce n'est pas épuisant ?\n\nCandidat : Si, c'est pour ça que je préfère le modèle où on travaille trente-deux heures, et non quarante heures en quatre jours. Sinon, on est trop fatigué et on perd l'avantage.\n\nPour conclure, je dirais que la semaine de quatre jours est une bonne idée pour l'avenir, à condition que chaque entreprise l'adapte à son secteur, et sans baisser les salaires."
+        }
+      ]
+    }
+  ]
+}

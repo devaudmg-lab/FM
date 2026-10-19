@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-09-03",
+  "level": "a1",
+  "unit": "a1-09",
+  "title": "I prefer",
+  "goal": "Say what you prefer with préférer and aimer mieux, choose between two options, and give a simple reason with parce que.",
+  "minutes": 13,
+  "items": [
+    { "id": "g-preferer", "kind": "grammar", "fr": "préférer", "en": "préférer in the present (é → è)",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ le thé. (préférer)", "answers": [["préfère"]], "en": "I prefer tea.", "explain": "With je, the ending is silent, so the second é becomes è: je préfère." },
+        { "type": "cloze", "text": "Nous ___ le train. (préférer)", "answers": [["préférons"]], "en": "We prefer the train.", "explain": "With nous and vous, the ending is pronounced, so both accents stay é: préférons." },
+        { "type": "mcq", "prompt": "Which form is correct for “they prefer”?", "options": ["ils préfèrent", "ils préférent", "ils préfèrons"], "optionsFr": true, "answer": 0, "explain": "The -ent ending is silent, so the accent is è, as with je, tu, il." }
+      ] },
+    { "id": "preferer", "kind": "vocab", "fr": "préférer", "en": "to prefer", "pos": "verb",
+      "example": { "fr": "Je préfère le cinéma.", "en": "I prefer the movies." } },
+    { "id": "aimer-mieux", "kind": "phrase", "fr": "aimer mieux", "en": "to like better (= to prefer)",
+      "example": { "fr": "J'aime mieux le thé.", "en": "I like tea better." } },
+    { "id": "parce-que", "kind": "phrase", "fr": "parce que", "en": "because", "accept": ["parce qu'"],
+      "example": { "fr": "J'aime lire parce que c'est relaxant.", "en": "I like reading because it's relaxing." },
+      "note": "parce que → parce qu' before a vowel: parce qu'il, parce qu'elle." },
+    { "id": "pourquoi", "kind": "phrase", "fr": "Pourquoi ?", "en": "Why?",
+      "example": { "fr": "Tu préfères le métro ? Pourquoi ?", "en": "You prefer the subway? Why?" } },
+    { "id": "plutot", "kind": "vocab", "fr": "plutôt", "en": "rather (preferably)", "pos": "adverb",
+      "example": { "fr": "Le thé ou le café ? — Plutôt le thé.", "en": "Tea or coffee? — Tea, rather." } },
+    { "id": "tu-preferes", "kind": "phrase", "fr": "Tu préfères le thé ou le café ?", "en": "Do you prefer tea or coffee? (to a friend)",
+      "accept": ["Est-ce que tu préfères le thé ou le café ?", "Tu aimes mieux le thé ou le café ?"] },
+    { "id": "preferer-a", "kind": "phrase", "fr": "Je préfère le thé au café.", "en": "I prefer tea to coffee.", "accept": ["J'aime mieux le thé que le café."] },
+    { "id": "relaxant", "kind": "phrase", "fr": "C'est relaxant.", "en": "It's relaxing." },
+    { "id": "ennuyeux", "kind": "phrase", "fr": "C'est ennuyeux.", "en": "It's boring." },
+    { "id": "fatigant", "kind": "phrase", "fr": "C'est fatigant.", "en": "It's tiring." },
+    { "id": "interessant", "kind": "phrase", "fr": "C'est intéressant.", "en": "It's interesting." },
+    { "id": "amusant", "kind": "phrase", "fr": "C'est amusant.", "en": "It's fun." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Movies or museum?",
+      "blocks": [
+        { "type": "dialogue", "title": "Planning Saturday in Québec City",
+          "context": "Karim and Lucie, two friends, are deciding what to do on Saturday.",
+          "lines": [
+            { "speaker": "Lucie", "fr": "Samedi, on va au cinéma ou au musée ?", "en": "On Saturday, shall we go to the movies or to the museum?" },
+            { "speaker": "Karim", "fr": "Hmm… je préfère le cinéma. Le musée, c'est intéressant, mais c'est un peu fatigant.", "en": "Hmm… I prefer the movies. The museum is interesting, but it's a bit tiring." },
+            { "speaker": "Lucie", "fr": "Ah bon ? Moi, j'aime mieux le musée, parce que j'adore l'art.", "en": "Really? I like the museum better, because I love art." },
+            { "speaker": "Karim", "fr": "Bon, le cinéma samedi et le musée dimanche ! Et le soir, tu préfères manger au restaurant ou à la maison ?", "en": "OK, the movies on Saturday and the museum on Sunday! And in the evening, do you prefer eating at a restaurant or at home?" },
+            { "speaker": "Lucie", "fr": "Plutôt à la maison. Le restaurant, c'est cher !", "en": "At home, rather. Restaurants are expensive!" },
+            { "speaker": "Karim", "fr": "D'accord, je cuisine. Tu préfères le poisson ou le poulet ?", "en": "OK, I'll cook. Do you prefer fish or chicken?" },
+            { "speaker": "Lucie", "fr": "Le poulet, s'il te plaît. Et après, du thé : je préfère le thé au café le soir.", "en": "Chicken, please. And afterwards, tea: I prefer tea to coffee in the evening." }
+          ] },
+        { "type": "note", "tone": "info", "body": "Listen for three ways to choose: [[je préfère]], [[j'aime mieux]] and [[plutôt]]. And one way to explain: [[parce que]]." }
+      ] },
+    { "type": "understand", "title": "Choosing and explaining",
+      "blocks": [
+        { "type": "explain", "title": "Préférer: a regular verb with an accent change",
+          "body": "[[Préférer]] has normal -er endings, but watch the **second accent**:\n\n- When the ending is **silent** (je, tu, il / elle / on, ils / elles), it becomes **è**: [[je préfère]].\n- When the ending is **pronounced** (nous, vous, and the infinitive), it stays **é**: [[nous préférons]], [[vous préférez]].\n\nThe first é never changes. Think of the forms as a “boot”: the four silent-ending forms change, the others do not." },
+        { "type": "table", "title": "Préférer in the present",
+          "head": ["", "préférer", "English"],
+          "rows": [
+            ["je", "préfère", "I prefer"],
+            ["tu", "préfères", "you prefer (one friend)"],
+            ["il / elle / on", "préfère", "he / she prefers, we prefer (informal)"],
+            ["nous", "préférons", "we prefer"],
+            ["vous", "préférez", "you prefer (formal or plural)"],
+            ["ils / elles", "préfèrent", "they prefer"]
+          ],
+          "frCols": [0, 1], "sayCol": true,
+          "note": "**è** sounds like the *e* in “bed”; **é** sounds like the *ay* in “day”, but shorter. Listen: [[préfère]] (pré-**fèr**) vs [[préférons]] (pré-fé-**ron**)." },
+        { "type": "pattern", "title": "What comes after préférer",
+          "pattern": "préférer + le / la / les + nom · préférer + infinitif · préférer A à B",
+          "note": "Exactly like [[aimer]]: the definite article or an infinitive. To compare, use **à** between the two things, with the usual contractions: à + le = **au**, à + les = **aux**.",
+          "examples": [
+            { "fr": "Je préfère la musique québécoise.", "en": "I prefer Québec music." },
+            { "fr": "Nous préférons voyager en train.", "en": "We prefer to travel by train." },
+            { "fr": "Je préfère le thé au café.", "en": "I prefer tea to coffee." },
+            { "fr": "Tu préfères le thé ou le café ?", "en": "Do you prefer tea or coffee?" }
+          ] },
+        { "type": "pattern", "title": "Aimer mieux and plutôt",
+          "pattern": "aimer mieux + le / la / les + nom (ou + infinitif) · Plutôt + choice.",
+          "note": "[[Aimer mieux]] means the same as [[préférer]] (literally “to like better”). [[Plutôt]] (rather) gives a short, relaxed answer to an either/or question.",
+          "examples": [
+            { "fr": "J'aime mieux le bus.", "en": "I like the bus better." },
+            { "fr": "Elle aime mieux cuisiner à la maison.", "en": "She'd rather cook at home." },
+            { "fr": "Le cinéma ou le musée ? — Plutôt le cinéma.", "en": "Movies or museum? — The movies, rather." },
+            { "fr": "Je prends le métro plutôt que le bus.", "en": "I take the subway rather than the bus." }
+          ] },
+        { "type": "pattern", "title": "Giving a reason: parce que",
+          "pattern": "… parce que + sujet + verbe",
+          "note": "[[Parce que]] is two words. Before a vowel it becomes [[parce qu']]: [[parce qu'il]], [[parce qu'elle]]. To ask for a reason, say [[Pourquoi ?]] (you will see more question words in the next unit).",
+          "examples": [
+            { "fr": "J'aime lire parce que c'est relaxant.", "en": "I like reading because it's relaxing." },
+            { "fr": "Je préfère le métro parce que c'est rapide.", "en": "I prefer the subway because it's fast." },
+            { "fr": "Je n'aime pas la télé parce que c'est ennuyeux.", "en": "I don't like TV because it's boring." },
+            { "fr": "J'aime bien Karim parce qu'il est sympa.", "en": "I like Karim because he's nice." }
+          ] },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["preferer", "aimer-mieux", "plutot", "parce-que", "pourquoi", "tu-preferes", "preferer-a", "relaxant", "ennuyeux", "fatigant", "interessant", "amusant"] },
+        { "type": "deepdive", "kind": "why", "title": "Why c'est beau, not c'est belle?",
+          "body": "When you give a reason with [[c'est]] + adjective, the adjective is **always masculine singular**, even if the thing is feminine or plural. [[C'est]] here means “it is (in general)”.\n\n- [[J'aime la musique parce que c'est beau.]] (not *belle*)\n- [[J'adore les films français parce que c'est intéressant.]] (not *intéressants*)\n\nBut with [[il]] / [[elle]], the adjective agrees as usual: [[La ville ? Elle est belle.]]" },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Wrong accent:** [[je préfére]] and [[nous préfèrons]] are wrong. It is [[je préfère]], [[nous préférons]].\n- **parce que in one word:** [[parceque]] is wrong. Write [[parce que]].\n- **No élision:** [[parce que il]] is wrong. Write [[parce qu'il]].\n- **“Prefer more”:** [[Je préfère plus le thé]] is wrong. [[Préférer]] already means “like more”: [[Je préfère le thé]].\n- **“than” after préférer:** [[Je préfère le thé que le café]] is wrong. Use **à**: [[Je préfère le thé au café]]." },
+        { "type": "deepdive", "kind": "canada", "title": "J'aime mieux ça!",
+          "body": "[[Aimer mieux]] is very common in Québec, often more common than [[préférer]] in conversation: [[J'aime mieux le hockey.]] [[J'aime mieux ça !]] (I like that better!)\n\nIn relaxed Québec speech, you will also hear questions with an extra **-tu**: [[Tu aimes-tu le café ?]] = [[Tu aimes le café ?]] This little [[tu]] just means “this is a yes/no question”. Recognize it, but use the forms you know when you speak and write.",
+          "examples": [ { "fr": "Tu aimes-tu le hockey ?", "en": "Do you like hockey? (relaxed Québec speech)" } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Pay attention to è vs é in préférer.",
+          "lines": [
+            { "fr": "Je préfère le cinéma.", "en": "I prefer the movies.", "tip": "pré-**fèr**: the last vowel is open, like in “bed”." },
+            { "fr": "Nous préférons le train.", "en": "We prefer the train.", "tip": "pré-fé-**ron**: two closed é sounds." },
+            { "fr": "J'aime mieux le thé.", "en": "I like tea better.", "tip": "[[mieux]] sounds like “myuh”, with rounded lips." },
+            { "fr": "Plutôt le café.", "en": "Coffee, rather.", "tip": "[[plutôt]]: “plu-toh”, the t at the end is silent." },
+            { "fr": "Parce que c'est ennuyeux.", "en": "Because it's boring.", "tip": "[[parce que]] sounds like “parss-kuh”; [[ennuyeux]] = “ahn-nwee-yuh”." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je préfère le thé au café.", "en": "I prefer tea to coffee.", "prompt": "What does the speaker prefer?", "options": ["Tea", "Coffee", "Both the same"], "answer": 0, "explain": "In [[préférer A à B]], A is the winner: [[le thé]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Elle préfère le métro parce que c'est rapide.", "en": "She prefers the subway because it's fast.", "prompt": "Why does she prefer the subway?", "options": ["Because it's fast", "Because it's cheap", "Because it's relaxing"], "answer": 0, "explain": "[[rapide]] = fast. The reason comes after [[parce que]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Answer without scrolling back. Watch the accents on préférer.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je ___ le thé. (préférer)", "answers": [["préfère"]], "choices": ["préfère", "préfére", "préférons", "préfèrent"], "en": "I prefer tea.", "explain": "je → silent ending → è: je préfère." },
+        { "id": "r2", "type": "cloze", "text": "Vous ___ voyager en train ou en avion ? (préférer)", "answers": [["préférez"]], "en": "Do you prefer to travel by train or by plane?", "explain": "vous → the ending -ez is pronounced, so both accents stay é: préférez." },
+        { "id": "r3", "type": "translate", "prompt": "Do you prefer tea or coffee? (to a friend)", "accept": ["Tu préfères le thé ou le café ?", "Est-ce que tu préfères le thé ou le café ?", "Préfères-tu le thé ou le café ?", "Tu aimes mieux le thé ou le café ?", "Est-ce que tu aimes mieux le thé ou le café ?"], "explain": "tu → préfères, then le thé ou le café, with the definite article." },
+        { "id": "r4", "type": "translate", "prompt": "I like reading because it's relaxing.", "accept": ["J'aime lire parce que c'est relaxant.", "J'aime bien lire parce que c'est relaxant."], "hint": "because = parce que", "explain": "aimer + infinitive, then parce que + c'est + adjective." },
+        { "id": "r5", "type": "reorder", "prompt": "I prefer tea to coffee.", "accept": ["Je préfère le thé au café."], "extra": ["à"], "explain": "préférer A à B, and à + le café = au café." },
+        { "id": "r6", "type": "cloze", "text": "Je n'aime pas le hockey parce ___ c'est fatigant.", "answers": [["que"]], "en": "I don't like hockey because it's tiring.", "explain": "parce que is two words. No élision here, because c'est starts with a consonant." },
+        { "id": "r7", "type": "match", "prompt": "Match each reason to its meaning.", "pairs": [["c'est relaxant", "it's relaxing"], ["c'est ennuyeux", "it's boring"], ["c'est fatigant", "it's tiring"], ["c'est intéressant", "it's interesting"], ["c'est cher", "it's expensive"]] },
+        { "id": "r8", "type": "mcq", "prompt": "Mei asks you: “Tu préfères le bus ou le métro ?” You prefer the subway. Which answer is correct?", "options": ["Plutôt le métro.", "Plutôt au métro.", "Je préfère de métro."], "optionsFr": true, "answer": 0,
+          "explain": "Plutôt + your choice, with the same article as in the question: le métro.",
+          "optionFeedback": [null, "No à here: just repeat the choice, le métro.", "préférer takes the definite article: je préfère le métro."] },
+        { "id": "r9", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["J'aime la musique parce que c'est beau.", "J'aime la musique parce que c'est belle.", "J'aime la musique parce c'est beau."], "optionsFr": true, "answer": 0,
+          "explain": "After c'est, the adjective is always masculine: c'est beau. And parce que needs que.",
+          "optionFeedback": [null, "After c'est, use the masculine form: beau.", "que is missing: parce que."] },
+        { "id": "r10", "type": "dictation", "fr": "Nous préférons manger à la maison.", "accept": [], "explain": "[[préférons]]: two é, because the ending -ons is pronounced." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "A friend asks you two questions: “Tu préfères le cinéma ou la télé ?” and “Tu préfères le bus ou le métro ?” Answer both and give a reason each time.", "seconds": 30,
+          "checklist": ["Je préfère… or J'aime mieux…", "parce que + a reason", "A second choice with a reason", "Ask back: Et toi ?"],
+          "models": [ { "label": "Model answer", "fr": "Je préfère le cinéma, parce que c'est amusant avec des amis. Et j'aime mieux le métro, parce que c'est rapide. Le bus, c'est un peu ennuyeux. Et toi ?", "en": "I prefer the movies, because it's fun with friends. And I like the subway better, because it's fast. The bus is a bit boring. And you?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Answer these three questions in full sentences, each with parce que: Tu préfères le thé ou le café ? Tu préfères lire ou regarder un film ? Tu préfères Montréal ou Toronto ?", "wordRange": [25, 50],
+          "checklist": ["Use préférer at least twice (je préfère)", "Use aimer mieux or plutôt once", "Give a reason with parce que each time", "Use c'est + a masculine adjective"],
+          "models": [ { "label": "Model answer", "fr": "Je préfère le thé au café, parce que c'est bon. J'aime mieux lire, parce que c'est relaxant. Je préfère Montréal, parce que j'adore parler français et la ville est belle.", "en": "I prefer tea to coffee, because it's good. I'd rather read, because it's relaxing. I prefer Montréal, because I love speaking French and the city is beautiful." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Conjugate **préférer** with the right accents: [[je préfère, nous préférons, vous préférez, ils préfèrent]]\n- Choose between two options: [[Tu préfères le thé ou le café ?]] [[J'aime mieux le thé.]] [[Plutôt le thé.]] [[Je préfère le thé au café.]]\n- Give a reason with [[parce que / parce qu']] + [[c'est relaxant, ennuyeux, fatigant, intéressant, amusant]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "No language errors found. Checked préférer accents, préférer A à B, and the Québec -tu question (labelled as recognition only)." }
+}

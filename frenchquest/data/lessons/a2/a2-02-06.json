@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-02-06",
+  "level": "a2",
+  "unit": "a2-02",
+  "title": "Workshop: Where I went",
+  "goal": "Get more practice telling trips and days out with the passé composé with être, agreement and reflexive verbs, in new places: Tadoussac, Niagara and Mont-Tremblant.",
+  "minutes": 20,
+  "items": [
+    { "id": "paysage", "kind": "vocab", "fr": "paysage", "article": "le", "gender": "m", "en": "landscape, scenery", "pos": "noun",
+      "example": { "fr": "Le paysage est magnifique dans Charlevoix.", "en": "The scenery is gorgeous in Charlevoix." } },
+    { "id": "vue", "kind": "vocab", "fr": "vue", "article": "la", "gender": "f", "en": "view (what you see from a place)", "pos": "noun",
+      "example": { "fr": "Quelle vue sur le fleuve !", "en": "What a view of the river!" } },
+    { "id": "route", "kind": "vocab", "fr": "route", "article": "la", "gender": "f", "en": "road (between towns)", "pos": "noun",
+      "example": { "fr": "La route est longue jusqu'à Tadoussac.", "en": "The road to Tadoussac is long." }, "note": "In a city, a street is [[une rue]]." },
+    { "id": "bateau", "kind": "vocab", "fr": "bateau", "article": "le", "gender": "m", "en": "boat", "pos": "noun",
+      "example": { "fr": "Nous avons pris un bateau pour voir les baleines.", "en": "We took a boat to see the whales." }, "note": "Plural: les bateaux." },
+    { "id": "coucher-soleil", "kind": "vocab", "fr": "coucher du soleil", "article": "le", "gender": "m", "en": "sunset", "pos": "noun",
+      "example": { "fr": "On a regardé le coucher du soleil.", "en": "We watched the sunset." }, "accept": ["le coucher de soleil"] },
+    { "id": "magnifique", "kind": "vocab", "fr": "magnifique", "en": "magnificent, gorgeous", "pos": "adjective",
+      "example": { "fr": "C'est une région magnifique.", "en": "It's a gorgeous region." }, "note": "Same form for masculine and feminine." },
+    { "id": "au-bord-de", "kind": "phrase", "fr": "au bord de", "en": "on the shore of, by (the water)",
+      "example": { "fr": "Nous avons dormi dans une auberge au bord du fleuve.", "en": "We slept in an inn by the river." }, "note": "[[au bord de + le]] → [[au bord du]]: au bord du lac, au bord de la mer." },
+    { "id": "s-arreter", "kind": "vocab", "fr": "s'arrêter", "en": "to stop (somewhere)", "pos": "verb",
+      "example": { "fr": "On s'est arrêtés à Québec pour un café.", "en": "We stopped in Québec City for a coffee." }, "note": "Reflexive, so être in the past: je me suis arrêté(e)." },
+    { "id": "se-baigner", "kind": "vocab", "fr": "se baigner", "en": "to go for a swim", "pos": "verb",
+      "example": { "fr": "Je me suis baignée dans le lac.", "en": "I went for a swim in the lake. (woman speaking)" } },
+    { "id": "s-installer", "kind": "vocab", "fr": "s'installer", "en": "to settle in (a room, a home, a city)", "pos": "verb",
+      "example": { "fr": "Nous nous sommes installés dans une petite auberge.", "en": "We settled into a small inn." } }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Whales and family",
+      "intro": "Mei tells her French class about a trip with her parents. Read once for the story, then look at every helper verb: **avoir** or **être**? And check the agreements.",
+      "blocks": [
+        {
+          "type": "text",
+          "title": "Mei's post on the class forum",
+          "fr": "Mes parents en visite : direction Tadoussac !\nLe mois dernier, mes parents sont arrivés de Shanghai pour trois semaines. C'est leur premier voyage au Canada ! Le deuxième samedi, nous sommes partis tous les trois à Tadoussac, sur la Côte-Nord.\nD'abord, on s'est levés à cinq heures et nous sommes partis en voiture à six heures. La route est longue : environ cinq heures. Vers neuf heures, on s'est arrêtés à Québec pour un café. Ensuite, nous sommes montés vers Charlevoix. Le paysage est magnifique : des montagnes, des forêts et le fleuve partout !\nNous sommes arrivés à Tadoussac vers midi, et nous avons pris un bateau pour voir les baleines. Ma mère a eu un peu peur, mais elle n'est pas restée à l'intérieur : elle est montée sur le pont avec nous. Nous avons vu trois baleines ! Mon père a pris cent photos.\nAprès ça, nous nous sommes installés dans une petite auberge au bord du fleuve. Je me suis baignée dans la piscine, et mes parents se sont reposés dans la chambre. Le soir, on a regardé le coucher du soleil sur la baie : quelle vue !\nDimanche, nous sommes rentrés à Montréal par la même route. Mes parents sont repartis en Chine la semaine dernière, mais ils parlent encore de Tadoussac tous les jours !",
+          "en": "My parents visiting: off to Tadoussac!\nLast month my parents arrived from Shanghai for three weeks. It's their first trip to Canada! On the second Saturday, the three of us left for Tadoussac, on the North Shore.\nFirst, we got up at five and left by car at six. The road is long: about five hours. Around nine, we stopped in Québec City for a coffee. Then we drove up towards Charlevoix. The scenery is gorgeous: mountains, forests and the river everywhere!\nWe arrived in Tadoussac around noon, and we took a boat to see the whales. My mother was a bit scared, but she didn't stay inside: she went up on deck with us. We saw three whales! My father took a hundred photos.\nAfter that, we settled into a small inn by the river. I went for a swim in the pool, and my parents rested in the room. In the evening we watched the sunset over the bay: what a view!\nOn Sunday we came back to Montréal on the same road. My parents went back to China last week, but they still talk about Tadoussac every day!"
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "[[une baleine]] = a whale. [[le pont]] of a boat = the deck. [[la Côte-Nord]] = the North Shore of the St. Lawrence. Notice [[on s'est levés]]: *on* = we (Mei and her parents), so the participle usually agrees: **-s**."
+        },
+        { "id": "c1", "type": "mcq", "prompt": "Why did the family stop in Québec City?", "options": ["For a coffee", "To sleep in an inn", "To take a boat"], "answer": 0,
+          "explain": "[[on s'est arrêtés à Québec pour un café]], around nine, on the way to Tadoussac." },
+        { "id": "c2", "type": "mcq", "prompt": "What did Mei's mother do on the boat?", "options": ["She went up on deck, even though she was a bit scared.", "She stayed inside the whole time.", "She took a hundred photos."], "answer": 0,
+          "explain": "[[elle n'est pas restée à l'intérieur : elle est montée sur le pont]]. It's the father who took the photos." },
+        { "id": "c3", "type": "mcq", "prompt": "What did Mei do at the inn while her parents rested?", "options": ["She went for a swim in the pool.", "She went for a walk on the road.", "She called her friends in Shanghai."], "answer": 0,
+          "explain": "[[Je me suis baignée dans la piscine]]: a woman speaking, so baignée with -e." }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 2 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The passé composé with être",
+          "head": ["What", "Example"],
+          "rows": [
+            ["house of être: movement and change", "Je suis parti. Elle est montée. Ils sont nés à Pune."],
+            ["agreement with the subject", "Mei est arrivée. Mes parents sont arrivés. Les filles sont arrivées."],
+            ["reflexive verbs: always être", "Je me suis levée. On s'est arrêtés. Ils se sont reposés."],
+            ["negative", "Elle n'est pas restée. Nous ne nous sommes pas baignés."],
+            ["avoir for everything else (no agreement)", "Nous avons pris un bateau. Elle a eu peur."],
+            ["telling it in order", "D'abord… Ensuite… Puis… Après ça… Enfin…"]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "The three-question check",
+          "body": "For every verb in your story, ask:\n\n1. **Reflexive?** ([[se lever, s'arrêter]]) → être.\n2. **In the house of être?** ([[aller, partir, arriver, monter, rester, rentrer, tomber…]]) → être.\n3. **Anything else** → avoir.\n\nWith **être**, add the agreement: **-e** for a woman, **-s** for a group, **-es** for a group of women. With **avoir**, no agreement with the subject: [[elle a pris]], not *elle a prise*."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for trips and days out",
+          "itemIds": ["paysage", "vue", "route", "bateau", "coucher-soleil", "magnifique", "au-bord-de", "s-arreter", "se-baigner", "s-installer"]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Tadoussac and the Côte-Nord",
+          "body": "Tadoussac is a village where the Saguenay fjord meets the St. Lawrence, about five hours from Montréal by car. It's one of the best places in Québec to see whales, mainly from about June to October. On the way, you cross the Saguenay on a free [[traversier]] (ferry) between Baie-Sainte-Catherine and Tadoussac.\n\nUseful: [[faire une croisière aux baleines]] (go on a whale-watching cruise), [[la Côte-Nord]] (the North Shore), [[le fjord]] (the fjord)."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Two recordings",
+      "intro": "Listen to each recording first, then answer. Each question replays one part.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "1. Raj's voice message",
+          "context": "Raj calls his friend Karim after a weekend in Ontario.",
+          "fr": "Salut Karim, c'est Raj. On est rentrés de Niagara hier soir ! Samedi, Priya et moi, nous sommes partis de Toronto à huit heures en autobus, et nous sommes arrivés aux chutes vers dix heures. On est montés dans un bateau, juste à côté des chutes : c'est impressionnant, et on a eu très froid ! Le soir, Priya s'est reposée à l'hôtel, mais moi, je suis sorti pour voir le feu d'artifice. Dimanche, on s'est promenés dans un petit village au bord du lac Ontario. Bref, une très belle fin de semaine ! Rappelle-moi.",
+          "en": "Hi Karim, it's Raj. We got back from Niagara last night! On Saturday, Priya and I left Toronto at eight by bus, and we arrived at the falls around ten. We got on a boat, right next to the falls: it's impressive, and we were really cold! In the evening, Priya rested at the hotel, but I went out to see the fireworks. On Sunday we went for a walk in a small village on the shore of Lake Ontario. In short, a really nice weekend! Call me back."
+        },
+        {
+          "type": "listen",
+          "title": "2. The tour guide on the way back",
+          "context": "A guide speaks to her group at the end of a day trip from Montréal.",
+          "fr": "Bon, mesdames et messieurs, nous sommes arrivés à la gare d'autobus de Montréal. Quelle journée ! Ce matin, nous sommes partis à 7 h. D'abord, nous nous sommes arrêtés à Saint-Sauveur pour le déjeuner. Ensuite, nous sommes montés au sommet du mont Tremblant, et vous avez vu le paysage : magnifique ! Puis, vous vous êtes promenés dans le village. Deux personnes se sont perdues, mais heureusement, elles sont revenues à l'autobus à l'heure. Attention : une dame a oublié un sac vert dans l'autobus. Il est ici, avec moi. Merci, et bonne soirée !",
+          "en": "Right, ladies and gentlemen, we've arrived at the Montréal bus station. What a day! This morning we left at 7 a.m. First, we stopped in Saint-Sauveur for breakfast. Then we went up to the top of Mont Tremblant, and you saw the scenery: gorgeous! Then you walked around the village. Two people got lost, but luckily they came back to the bus on time. Note: a lady forgot a green bag on the bus. It's here, with me. Thank you, and have a good evening!"
+        },
+        { "id": "h1", "type": "listen-mcq", "fr": "Samedi, Priya et moi, nous sommes partis de Toronto à huit heures en autobus, et nous sommes arrivés aux chutes vers dix heures.", "en": "On Saturday, Priya and I left Toronto at eight by bus, and we arrived at the falls around ten.",
+          "prompt": "How did Raj and Priya get to Niagara?", "options": ["By bus", "By car", "By train"], "answer": 0,
+          "explain": "[[nous sommes partis de Toronto… en autobus]]. The trip took about two hours." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Le soir, Priya s'est reposée à l'hôtel, mais moi, je suis sorti pour voir le feu d'artifice.", "en": "In the evening, Priya rested at the hotel, but I went out to see the fireworks.",
+          "prompt": "What did Raj do on Saturday evening?", "options": ["He went out to see the fireworks.", "He rested at the hotel.", "He took the boat again."], "answer": 0,
+          "explain": "[[je suis sorti pour voir le feu d'artifice]]; it was Priya who rested ([[s'est reposée]])." },
+        { "id": "h3", "type": "listen-mcq", "fr": "D'abord, nous nous sommes arrêtés à Saint-Sauveur pour le déjeuner.", "en": "First, we stopped in Saint-Sauveur for breakfast.",
+          "prompt": "Why did the group stop in Saint-Sauveur?", "options": ["For breakfast", "To see the fireworks", "To buy bus tickets"], "answer": 0,
+          "explain": "In Québec, [[le déjeuner]] is breakfast, which fits a 7 a.m. departure." },
+        { "id": "h4", "type": "listen-mcq", "fr": "Deux personnes se sont perdues, mais heureusement, elles sont revenues à l'autobus à l'heure.", "en": "Two people got lost, but luckily they came back to the bus on time.",
+          "prompt": "What happened to two people in the group?", "options": ["They got lost but came back on time.", "They missed the bus.", "They stayed in the village."], "answer": 0,
+          "explain": "[[se sont perdues]] (got lost), but [[elles sont revenues… à l'heure]] (on time)." },
+        { "id": "h5", "type": "listen-mcq", "fr": "Attention : une dame a oublié un sac vert dans l'autobus. Il est ici, avec moi.", "en": "Note: a lady forgot a green bag on the bus. It's here, with me.",
+          "prompt": "What did someone forget?", "options": ["A green bag", "A camera", "A coat"], "answer": 0,
+          "explain": "[[une dame a oublié un sac vert]]: oublier takes avoir." },
+        { "id": "d1", "type": "dictation", "fr": "Nous nous sommes arrêtés à Saint-Sauveur.", "accept": ["Nous nous sommes arrêtées à Saint-Sauveur."],
+          "explain": "Reflexive: [[nous nous sommes]]; the guide's group is mixed → [[arrêtés]] with -s ([[arrêtées]] sounds the same, for a group of women)." },
+        { "id": "d2", "type": "dictation", "fr": "Priya s'est reposée à l'hôtel.", "accept": [],
+          "explain": "Priya is a woman: [[reposée]] with -e. You can't hear it, so think before you write." }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most on Unit 2, some on Unit 1. Aim for 80%.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Ma mère est ___ sur le pont du bateau. (monter)", "answers": [["montée"]], "choices": ["montée", "monté", "montés", "montées"], "en": "My mother went up on the deck of the boat.",
+          "explain": "monter uses être; [[ma mère]] is one woman → [[montée]]." },
+        { "id": "r2", "type": "cloze", "text": "Mes parents se sont ___ dans la chambre. (se reposer)", "answers": [["reposés"]], "en": "My parents rested in the room.",
+          "explain": "Reflexive → être; [[mes parents]] (a man and a woman) → masculine plural [[reposés]]." },
+        { "id": "r3", "type": "mcq", "prompt": "Nous ___ pris un bateau, puis nous ___ arrivés à l'auberge.", "options": ["avons / sommes", "sommes / avons", "avons / avons", "sommes / sommes"], "optionsFr": true, "answer": 0,
+          "explain": "[[prendre]] isn't in the house of être → avoir. [[arriver]] is → être.",
+          "optionFeedback": [null, "Prendre takes avoir; arriver takes être.", "Arriver is a movement verb: nous sommes arrivés.", "Prendre takes avoir: nous avons pris."] },
+        { "id": "r4", "type": "translate", "prompt": "She stopped in Québec City for a coffee.", "accept": ["Elle s'est arrêtée à Québec pour un café.", "Elle s'est arrêtée à Québec pour prendre un café.", "Elle s'est arrêtée à Québec pour boire un café."], "hint": "s'arrêter → reflexive, être, agreement",
+          "explain": "[[elle s'est arrêtée]]: être + -e. Québec City = [[à Québec]]." },
+        { "id": "r5", "type": "reorder", "prompt": "We didn't go for a swim. (a mixed group, use nous)", "accept": ["Nous ne nous sommes pas baignés."], "extra": ["avons"],
+          "explain": "With a reflexive verb, [[ne… pas]] goes around the pronoun and être: [[nous ne nous sommes pas]]." },
+        { "id": "r6", "type": "translate", "prompt": "I left at six and arrived at noon. (woman speaking)", "accept": ["Je suis partie à six heures et je suis arrivée à midi.", "Je suis partie à 6 h et je suis arrivée à midi.", "Je suis partie à six heures et suis arrivée à midi.", "Je suis partie à 6 h et suis arrivée à midi.", "Je suis partie à 6 heures et je suis arrivée à midi.", "Je suis partie à 6 heures et suis arrivée à midi."], "hint": "partir, arriver → être + -e",
+          "explain": "Both verbs are in the house of être, and the speaker is a woman: [[partie]], [[arrivée]]." },
+        { "id": "r7", "type": "match", "prompt": "Match the new words.", "pairs": [["le paysage", "scenery"], ["la vue", "view"], ["la route", "road"], ["le bateau", "boat"], ["au bord de", "by (the water)"], ["le coucher du soleil", "sunset"]] },
+        { "id": "r8", "type": "cloze", "text": "___, nous sommes partis de Montréal. ___, nous nous sommes arrêtés à Québec. ___, nous sommes arrivés à Tadoussac.", "answers": [["D'abord"], ["Ensuite", "Puis", "Après ça"], ["Enfin", "Finalement"]], "choices": ["D'abord", "Ensuite", "Enfin"], "en": "First we left Montréal. Then we stopped in Québec City. Finally we arrived in Tadoussac.",
+          "explain": "[[D'abord]] opens the story, [[ensuite]] adds a new step, [[enfin]] closes it." },
+        { "id": "r9", "type": "cloze", "text": "Mon père a ___ cent photos. (prendre)", "answers": [["pris"]], "choices": ["pris", "prendu", "prit"], "en": "My father took a hundred photos.",
+          "explain": "Unit 1: prendre → [[pris]], with avoir. No agreement with the subject." },
+        { "id": "r10", "type": "translate", "prompt": "We have never seen a whale. (use nous)", "accept": ["Nous n'avons jamais vu de baleine.", "Nous n'avons jamais vu de baleines.", "Nous n'avons jamais vu une baleine."], "hint": "ne… jamais around avoir; voir → vu",
+          "explain": "Unit 1: [[n'avons jamais vu]]. After a negative, [[une]] usually becomes [[de]]: [[de baleine]]." },
+        { "id": "r11", "type": "dictation", "fr": "Il y a deux semaines, nous sommes allés à Tadoussac.", "accept": ["Il y a deux semaines nous sommes allés à Tadoussac.", "Il y a 2 semaines, nous sommes allés à Tadoussac.", "Il y a 2 semaines nous sommes allés à Tadoussac.", "Il y a deux semaines, nous sommes allées à Tadoussac.", "Il y a deux semaines nous sommes allées à Tadoussac.", "Il y a 2 semaines, nous sommes allées à Tadoussac.", "Il y a 2 semaines nous sommes allées à Tadoussac."],
+          "explain": "[[il y a deux semaines]] = two weeks ago (Unit 1). [[allés]]: a group → -s ([[allées]], for a group of women, sounds the same)." },
+        { "id": "r12", "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Elle n'est pas restée à l'intérieur.", "Elle n'est restée pas à l'intérieur.", "Elle n'a pas restée à l'intérieur.", "Elle ne s'est pas restée à l'intérieur."], "optionsFr": true, "answer": 0,
+          "explain": "[[rester]] uses être (it's not reflexive). [[ne… pas]] goes around être, and the participle agrees: [[restée]].",
+          "optionFeedback": [null, "Pas goes right after être, before the participle.", "Rester uses être, not avoir.", "Rester is not reflexive: no s'."] }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "Write a post for your French class forum (60–100 words) about a day out or a short trip, real or imagined: where you went, with whom, the steps in order, one problem and your favourite moment.",
+          "promptFr": "Racontez une sortie ou un petit voyage sur le forum de votre cours de français.",
+          "wordRange": [60, 100],
+          "checklist": ["Where, when and with whom", "At least four verbs with être, with correct agreement", "At least one reflexive verb (se lever, s'arrêter, se promener…)", "At least two verbs with avoir", "Three sequencing words: d'abord, ensuite, puis, après ça, enfin", "One problem: malheureusement, …", "Two new words: le paysage, la vue, au bord de…"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Samedi dernier, je suis allé au mont Tremblant avec mon fils. D'abord, nous sommes partis de Montréal à huit heures. Ensuite, nous sommes montés au sommet. Le paysage est magnifique ! Puis, on s'est promenés dans le village et on a mangé une crêpe. Malheureusement, mon fils est tombé dans l'escalier, mais il va bien. Enfin, nous sommes rentrés à la maison vers dix-neuf heures. Une très belle journée !",
+              "en": "(Karim writing.) Last Saturday I went to Mont Tremblant with my son. First, we left Montréal at eight. Then we went up to the top. The scenery is gorgeous! Then we walked around the village and ate a crepe. Unfortunately, my son fell on the stairs, but he's OK. Finally, we got home around 7 p.m. A really nice day!" },
+            { "label": "Stronger model answer",
+              "fr": "La fin de semaine dernière, ma sœur et moi, nous sommes parties en Gaspésie. Vendredi, nous nous sommes levées tôt et nous avons pris la route à cinq heures. Vers midi, on s'est arrêtées à Rimouski pour manger. Malheureusement, il a plu tout l'après-midi, alors nous ne sommes pas allées à la plage. Mais samedi, nous sommes arrivées à Percé et nous avons pris un bateau jusqu'à l'île Bonaventure. Après ça, nous nous sommes installées dans un petit chalet au bord de la mer. Mon moment préféré ? Le coucher du soleil sur le rocher Percé !",
+              "en": "(Sofia writing.) Last weekend my sister and I went to the Gaspé Peninsula. On Friday we got up early and hit the road at five. Around noon we stopped in Rimouski to eat. Unfortunately, it rained all afternoon, so we didn't go to the beach. But on Saturday we arrived in Percé and took a boat to Bonaventure Island. After that, we settled into a little cottage by the sea. My favourite moment? The sunset over Percé Rock!" }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "It's Monday at work. A colleague asks: « Tu es allé où en fin de semaine ? » Tell them about a day out for about a minute: when you left and arrived, two or three steps in order, one reflexive verb, and a reaction.",
+          "promptFr": "Racontez votre sortie de la fin de semaine à un ou une collègue.",
+          "seconds": 60,
+          "checklist": ["Where you went: Je suis allé(e) à…", "When you left and arrived: Je suis parti(e)… je suis arrivé(e)…", "Steps in order: d'abord, ensuite, après ça", "A reflexive verb: on s'est promenés, je me suis reposé(e)", "A reaction: Quelle vue ! / C'est magnifique ! / Quelle journée !"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Samedi, je suis allée à Québec avec une amie. Nous sommes parties à sept heures et nous sommes arrivées vers dix heures. D'abord, on s'est promenées dans le Vieux-Québec. Ensuite, nous avons pris le traversier pour Lévis. Quelle vue sur le château ! Après ça, nous sommes rentrées à Montréal. Je suis fatiguée, mais contente !",
+              "en": "(A woman speaking.) On Saturday I went to Québec City with a friend. We left at seven and arrived around ten. First we walked around Old Québec. Then we took the ferry to Lévis. What a view of the château! After that we went back to Montréal. I'm tired, but happy!" },
+            { "label": "Stronger model answer",
+              "fr": "Ah, j'ai eu une super fin de semaine ! Samedi matin, ma blonde et moi, nous sommes partis au lac Memphrémagog, en Estrie. On s'est arrêtés à Magog pour le déjeuner, puis nous sommes allés à la plage. Moi, je me suis baigné, mais ma blonde est restée sur la plage : l'eau est trop froide pour elle ! L'après-midi, on a loué un petit bateau. Le soir, on s'est installés sur une terrasse au bord du lac et on a regardé le coucher du soleil. Magnifique ! Et toi, tu es sorti ?",
+              "en": "(A man speaking. [[Ma blonde]] = my girlfriend, informal Québec French.) Oh, I had a great weekend! On Saturday morning my girlfriend and I left for Lake Memphrémagog, in the Eastern Townships. We stopped in Magog for breakfast, then we went to the beach. I went for a swim, but my girlfriend stayed on the beach: the water is too cold for her! In the afternoon we rented a small boat. In the evening we settled on a patio by the lake and watched the sunset. Gorgeous! And you, did you go out?" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Tell a longer trip story with être and avoir, with the right agreement: [[elle est montée, nous nous sommes installés, on s'est arrêtés]]\n- Follow a voice message and a tour guide's summary of a day out\n- Describe places on a trip: [[le paysage, la vue, au bord du fleuve, le coucher du soleil]]\n- Order your story with [[d'abord, ensuite, puis, après ça, enfin]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Added homophone (feminine plural) and digit variants to dictations, Finalement to r8, digit variant to r6; replaced an odd distractor in h3; softened two rules (on + agreement, avoir agreement) and the whale-season claim; glossed ma blonde." }
+}

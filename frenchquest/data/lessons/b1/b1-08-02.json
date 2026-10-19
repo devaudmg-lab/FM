@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-08-02",
+  "level": "b1",
+  "unit": "b1-08",
+  "title": "Negotiating a solution",
+  "goal": "Negotiate a solution to a problem: make and ask for proposals, accept, refuse politely, set conditions and reach a compromise.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-si-futur", "kind": "grammar", "fr": "si + présent → futur", "en": "setting a condition in a deal (if you do X, I will do Y)",
+      "drills": [
+        { "type": "cloze", "text": "Si vous réparez le chauffage avant jeudi, je ___ le loyer complet. (payer)", "answers": [["paierai", "payerai"]], "en": "If you fix the heating before Thursday, I'll pay the full rent.", "explain": "A real condition: [[si]] + **present** → **futur simple**: [[je paierai]]." },
+        { "type": "cloze", "text": "Si vous ___ le reçu, nous pourrons vous rembourser. (avoir)", "answers": [["avez"]], "en": "If you have the receipt, we'll be able to refund you.", "explain": "Never the future after [[si]]: [[si vous avez]], not *si vous aurez*." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Si vous acceptez, je signerai aujourd'hui.", "Si vous accepterez, je signerai aujourd'hui.", "Si vous acceptez, je signerais aujourd'hui."], "optionsFr": true, "answer": 0, "explain": "Firm offer: si + present → future. (Si + imparfait → conditionnel is for hypotheses: [[si vous acceptiez, je signerais]].)" }
+      ] },
+    { "id": "g-offres", "kind": "grammar", "fr": "Je serais prêt à… / Accepteriez-vous de… ?", "en": "making tentative offers with the conditionnel",
+      "drills": [
+        { "type": "cloze", "text": "Je ___ prête à attendre une semaine de plus. (être)", "answers": [["serais"]], "en": "I'd be willing to wait one more week.", "explain": "The conditionnel softens an offer: [[je serais prête à]] + infinitive." },
+        { "type": "cloze", "text": "___-vous de me faire un échange ? (accepter)", "answers": [["Accepteriez"]], "en": "Would you agree to give me an exchange?", "explain": "Conditionnel + inversion = a very polite request: [[Accepteriez-vous de…?]]" },
+        { "type": "translate", "prompt": "Would you agree to split the costs? (formal)", "accept": ["Accepteriez-vous de partager les frais ?", "Seriez-vous d'accord pour partager les frais ?", "Est-ce que vous accepteriez de partager les frais ?", "Vous accepteriez de partager les frais ?"], "explain": "[[accepter **de**]] + infinitive; [[être d'accord **pour**]] + infinitive." }
+      ] },
+    { "id": "vous-proposez", "kind": "phrase", "fr": "Qu'est-ce que vous proposez ?", "en": "What do you suggest? (formal)", "accept": ["Que proposez-vous ?", "Qu'est-ce que vous me proposez ?"] },
+    { "id": "je-vous-propose", "kind": "phrase", "fr": "Je vous propose de partager les frais.", "en": "I suggest we split the costs. (formal)", "accept": ["Je propose de partager les frais."] },
+    { "id": "ca-me-convient", "kind": "phrase", "fr": "Ça me convient.", "en": "That suits me. / That works for me.", "accept": ["Cela me convient.", "Ça me va."] },
+    { "id": "je-ne-peux-pas-accepter", "kind": "phrase", "fr": "Je regrette, mais je ne peux pas accepter.", "en": "I'm sorry, but I can't accept that.", "accept": ["Je suis désolé, mais je ne peux pas accepter.", "Je suis désolée, mais je ne peux pas accepter."] },
+    { "id": "trouver-compromis", "kind": "phrase", "fr": "Est-ce qu'on pourrait trouver un compromis ?", "en": "Could we find a compromise?", "accept": ["Pourrait-on trouver un compromis ?", "On pourrait trouver un compromis ?", "Est-ce que nous pourrions trouver un compromis ?"] },
+    { "id": "a-une-condition", "kind": "phrase", "fr": "D'accord, mais à une condition.", "en": "OK, but on one condition." },
+    { "id": "couper-la-poire", "kind": "phrase", "fr": "couper la poire en deux", "en": "to split the difference (idiom)", "note": "Literally: to cut the pear in two." },
+    { "id": "compromis", "kind": "vocab", "fr": "compromis", "article": "un", "gender": "m", "en": "compromise", "pos": "noun", "accept": ["le compromis"], "note": "The final s is silent." },
+    { "id": "reduction", "kind": "vocab", "fr": "réduction", "article": "une", "gender": "f", "en": "reduction, discount", "pos": "noun", "accept": ["la réduction"],
+      "example": { "fr": "Je demande une réduction de loyer pour ce mois-ci.", "en": "I'm asking for a rent reduction for this month." } },
+    { "id": "note-de-credit", "kind": "vocab", "fr": "note de crédit", "article": "une", "gender": "f", "en": "store credit", "pos": "noun", "accept": ["un avoir", "un crédit", "la note de crédit"], "note": "Québec: une note de crédit or un crédit. France: un avoir." },
+    { "id": "recu", "kind": "vocab", "fr": "reçu", "article": "le", "gender": "m", "en": "receipt", "pos": "noun", "accept": ["un reçu", "le ticket de caisse"], "note": "France also says le ticket de caisse." },
+    { "id": "geste-commercial", "kind": "vocab", "fr": "geste commercial", "article": "un", "gender": "m", "en": "goodwill gesture (from a business)", "pos": "noun", "accept": ["le geste commercial"] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Two negotiations",
+      "intro": "In both conversations, nobody gets everything they want at first. Listen to how they **propose**, **refuse politely** and **meet in the middle**.",
+      "blocks": [
+        { "type": "dialogue", "title": "No heating in January",
+          "context": "Karim's heating has been broken for six days. He calls his landlord, Mr. Tremblay.",
+          "lines": [
+            { "speaker": "Karim", "fr": "Bonjour monsieur Tremblay. Je vous appelle encore pour le chauffage. Ça fait six jours qu'il ne fonctionne pas, et il fait moins vingt dehors.", "en": "Hello Mr. Tremblay. I'm calling you again about the heating. It hasn't worked for six days, and it's minus twenty outside." },
+            { "speaker": "Tremblay", "fr": "Oui, je sais. Le technicien est très occupé en ce moment. Il peut passer lundi prochain.", "en": "Yes, I know. The technician is very busy at the moment. He can come next Monday." },
+            { "speaker": "Karim", "fr": "Je comprends, mais lundi, c'est trop tard. J'ai un petit garçon de deux ans. Est-ce qu'il serait possible d'appeler une autre entreprise ?", "en": "I understand, but Monday is too late. I have a two-year-old boy. Would it be possible to call another company?" },
+            { "speaker": "Tremblay", "fr": "Bon… Je vais voir. Et en attendant, qu'est-ce que vous proposez ?", "en": "Well… I'll see. And in the meantime, what do you suggest?" },
+            { "speaker": "Karim", "fr": "J'ai acheté deux radiateurs électriques. Je vous propose de me rembourser les radiateurs et de réduire le loyer de février de 200 $.", "en": "I bought two electric heaters. I suggest you reimburse me for the heaters and reduce February's rent by $200." },
+            { "speaker": "Tremblay", "fr": "Deux cents dollars ? Je regrette, mais je ne peux pas accepter. Je pourrais vous rembourser les radiateurs et vous faire une réduction de 50 $.", "en": "Two hundred dollars? I'm sorry, but I can't accept that. I could reimburse the heaters and give you a $50 reduction." },
+            { "speaker": "Karim", "fr": "Cinquante dollars, ça ne me convient pas vraiment : ça fait presque une semaine sans chauffage. Est-ce qu'on pourrait trouver un compromis ? Disons 150 $ ?", "en": "Fifty dollars doesn't really work for me: it's almost a week without heating. Could we find a compromise? Let's say $150?" },
+            { "speaker": "Tremblay", "fr": "On coupe la poire en deux : 100 $, et je fais venir un technicien demain.", "en": "Let's split the difference: $100, and I'll get a technician to come tomorrow." },
+            { "speaker": "Karim", "fr": "D'accord, mais à une condition : pourriez-vous me confirmer tout ça par écrit ? Si le technicien vient demain, je serai très content.", "en": "OK, but on one condition: could you confirm all that in writing? If the technician comes tomorrow, I'll be very happy." },
+            { "speaker": "Tremblay", "fr": "Entendu. Je vous envoie un courriel ce soir.", "en": "Agreed. I'll send you an email tonight." }
+          ] },
+        { "type": "dialogue", "title": "A coat with a broken zipper",
+          "context": "Lucie bought a winter coat 40 days ago. The zipper has broken. The store's return policy is 30 days.",
+          "lines": [
+            { "speaker": "Vendeur", "fr": "Je suis désolé, madame, notre politique de retour est de 30 jours. Je ne peux pas vous rembourser.", "en": "I'm sorry, madam, our return policy is 30 days. I can't refund you." },
+            { "speaker": "Lucie", "fr": "Je comprends, mais le manteau est défectueux : la fermeture éclair s'est brisée après un mois. Ce n'est pas normal pour un manteau de 300 $.", "en": "I understand, but the coat is defective: the zipper broke after a month. That's not normal for a $300 coat." },
+            { "speaker": "Vendeur", "fr": "C'est vrai. Je pourrais vous proposer une note de crédit.", "en": "That's true. I could offer you a store credit." },
+            { "speaker": "Lucie", "fr": "Accepteriez-vous plutôt de l'échanger contre le même modèle ? Ce manteau me plaît beaucoup.", "en": "Would you agree to exchange it for the same model instead? I really like this coat." },
+            { "speaker": "Vendeur", "fr": "Oui, ça, c'est possible. Et comme geste commercial, je vous offre une tuque.", "en": "Yes, that's possible. And as a goodwill gesture, I'll give you a winter hat." },
+            { "speaker": "Lucie", "fr": "Parfait, ça me convient. Merci beaucoup !", "en": "Perfect, that works for me. Thank you very much!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What compromise do Karim and Mr. Tremblay reach?", "options": ["$100 off the rent, the heaters reimbursed, and a technician tomorrow", "$200 off the rent and a technician on Monday", "$50 off the rent and nothing else"], "answer": 0,
+          "explain": "[[On coupe la poire en deux : 100 $, et je fais venir un technicien demain]], plus the heaters he had already offered to reimburse." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does Karim ask for confirmation in writing?", "options": ["To have proof of the agreement", "Because he doesn't understand French well", "Because the landlord asked him to"], "answer": 0,
+          "explain": "[[pourriez-vous me confirmer tout ça par écrit ?]] A written agreement protects both sides." },
+        { "id": "d3", "type": "mcq", "prompt": "What does Lucie finally get?", "options": ["An exchange for the same coat, plus a free hat", "A full refund", "A store credit"], "answer": 0,
+          "explain": "She refuses the credit politely and suggests an exchange: [[Accepteriez-vous plutôt de l'échanger ?]]" }
+      ] },
+    { "type": "understand", "title": "How to negotiate",
+      "blocks": [
+        { "type": "explain", "title": "The four moves of a negotiation",
+          "body": "- **1. State the problem and your need:** [[Ça fait six jours que…]] [[Lundi, c'est trop tard.]]\n- **2. Propose, or ask for a proposal:** [[Je vous propose de…]] [[Qu'est-ce que vous proposez ?]]\n- **3. React:** accept, accept with a condition, or refuse politely **and** make a counter-offer.\n- **4. Confirm the deal:** [[Pourriez-vous me le confirmer par écrit ?]] [[Donc, si je comprends bien, …]]\n\nThe golden rule: **never just say no**. Say *I understand*, give a reason, and offer something else." },
+        { "type": "table", "title": "Negotiation phrases",
+          "head": ["Move", "Phrases"],
+          "rows": [
+            ["Ask for a proposal", "Qu'est-ce que vous proposez ? / Quelle solution pouvez-vous me proposer ?"],
+            ["Propose", "Je vous propose de… / Je serais prêt à… / Et si on partageait les frais ?"],
+            ["Accept", "Ça me convient. / C'est une bonne solution. / Entendu. / Marché conclu !"],
+            ["Accept with a condition", "D'accord, mais à une condition : … / D'accord, si vous…"],
+            ["Refuse politely", "Je regrette, mais je ne peux pas accepter. / Ça ne me convient pas vraiment."],
+            ["Look for a compromise", "Est-ce qu'on pourrait trouver un compromis ? / On coupe la poire en deux ?"],
+            ["Confirm", "Donc, si je comprends bien… / Pourriez-vous me le confirmer par écrit ?"]
+          ],
+          "frCols": [1], "sayCol": false,
+          "note": "[[Marché conclu !]] = It's a deal! [[Entendu.]] = Agreed (a little formal)." },
+        { "type": "pattern", "title": "Firm conditions: si + présent → futur",
+          "pattern": "Si + présent, … futur simple",
+          "note": "Use it when you set a **real** condition: *if you do this, I will do that*. Never put the future or the conditionnel right after [[si]].",
+          "examples": [
+            { "fr": "Si vous réparez le chauffage demain, je ne demanderai pas plus.", "en": "If you fix the heating tomorrow, I won't ask for more." },
+            { "fr": "Si vous avez le reçu, nous vous rembourserons.", "en": "If you have the receipt, we'll refund you." },
+            { "fr": "Si le problème continue, je contacterai le Tribunal administratif du logement.", "en": "If the problem continues, I'll contact the housing tribunal." }
+          ] },
+        { "type": "pattern", "title": "Soft offers: the conditionnel",
+          "pattern": "Je pourrais… / Je serais prêt à… (prête à…) / Accepteriez-vous de… ? / Seriez-vous d'accord pour… ?",
+          "note": "The conditionnel turns a demand into an **offer**: it leaves room for the other person to answer. You studied these forms in unit 6.",
+          "examples": [
+            { "fr": "Je pourrais vous faire une réduction de 50 $.", "en": "I could give you a $50 reduction." },
+            { "fr": "Je serais prête à payer la moitié.", "en": "I'd be willing to pay half." },
+            { "fr": "Seriez-vous d'accord pour un échange ?", "en": "Would you agree to an exchange?" }
+          ] },
+        { "type": "vocab", "title": "New words and phrases", "itemIds": ["vous-proposez", "je-vous-propose", "ca-me-convient", "je-ne-peux-pas-accepter", "trouver-compromis", "a-une-condition", "couper-la-poire", "compromis", "reduction", "note-de-credit", "recu", "geste-commercial"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Proposer de + infinitive:** [[Je vous propose **de** partager]], not *je vous propose partager*.\n- **Accepter de, refuser de:** [[Il a accepté **de** réduire le loyer.]] [[Elle a refusé **de** me rembourser.]]\n- **Être d'accord pour + infinitive** (or [[d'accord avec]] + person): [[Je suis d'accord pour attendre.]] [[Je suis d'accord avec vous.]]\n- **No future after si:** *Si vous réparerez* ✗ → [[Si vous réparez]].\n- **Convenir à:** [[Ça **me** convient]] (it suits me), not *je conviens*.\n- **Avoid a flat non.** *Non, c'est pas assez* sounds rude. Try [[Je comprends, mais ça ne me convient pas vraiment. Est-ce qu'on pourrait…?]]" },
+        { "type": "deepdive", "kind": "canada", "title": "Tenants and shoppers in Québec",
+          "body": "- **A working heating system is the landlord's responsibility.** In Québec, the landlord must keep the dwelling in good repair and fit to live in, which includes heating that works. If a landlord doesn't act, tenants can turn to the **Tribunal administratif du logement (TAL)**, formerly called the *Régie du logement*.\n- **Store returns:** each store sets its own return policy ([[la politique de retour]]), but a product that breaks too early may still be covered by Québec's **legal warranty** ([[la garantie légale]]). Ask: [[Est-ce que c'est couvert par la garantie ?]]\n- **Québec words:** [[une note de crédit]] (France: [[un avoir]]), [[une fermeture éclair]] (a zipper; informally *un zipper* in Québec, *un zip* in France), [[brisé]], often used for *broken* (also [[cassé]], the usual word in France)." }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "When you refuse, start **softly** ([[Je comprends…]]) and make your counter-offer clearly.",
+          "lines": [
+            { "fr": "Qu'est-ce que vous proposez ?", "en": "What do you suggest?" },
+            { "fr": "Je regrette, mais je ne peux pas accepter.", "en": "I'm sorry, but I can't accept that.", "tip": "regrette: ruh-grett." },
+            { "fr": "Est-ce qu'on pourrait trouver un compromis ?", "en": "Could we find a compromise?", "tip": "compromis: the s is silent, kon-pro-mi." },
+            { "fr": "Accepteriez-vous de l'échanger ?", "en": "Would you agree to exchange it?", "tip": "Accepteriez: ak-sep-tuh-ri-yé." },
+            { "fr": "D'accord, mais à une condition.", "en": "OK, but on one condition." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je ne peux pas vous rembourser, mais je pourrais vous proposer un échange ou une note de crédit valable un an.", "en": "I can't refund you, but I could offer you an exchange or a store credit valid for one year.", "prompt": "What does the store offer?", "options": ["An exchange or a one-year store credit", "A full refund", "A discount on the next purchase"], "answer": 0,
+          "explain": "[[un échange ou une note de crédit valable un an]]. A refund is refused: [[je ne peux pas vous rembourser]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Bon, d'accord pour la réduction, mais seulement si vous payez le loyer à temps les trois prochains mois.", "en": "OK, agreed on the reduction, but only if you pay the rent on time for the next three months.", "prompt": "What is the landlord's condition?", "options": ["Paying the rent on time for three months", "Paying three months in advance", "Leaving in three months"], "answer": 0,
+          "explain": "[[seulement si vous payez le loyer à temps les trois prochains mois]]: accept with a condition." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Propose, react and set conditions.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Je vous propose ___ partager les frais de réparation.", "answers": [["de"]], "choices": ["de", "à", "pour", "—"], "en": "I suggest we split the repair costs.",
+          "explain": "[[proposer **de**]] + infinitive." },
+        { "id": "r2", "type": "cloze", "text": "Si vous me ___ le reçu, je vous rembourserai tout de suite. (montrer)", "answers": [["montrez"]], "en": "If you show me the receipt, I'll refund you right away.",
+          "explain": "[[si]] + present ([[montrez]]) → future ([[rembourserai]])." },
+        { "id": "r3", "type": "cloze", "text": "Je ___ prêt à attendre jusqu'à vendredi, mais pas plus. (être, conditionnel)", "answers": [["serais"]], "en": "I'd be willing to wait until Friday, but no longer.",
+          "explain": "Conditionnel of être: [[je serais]]. It turns your position into an offer." },
+        { "id": "r4", "type": "mcq", "prompt": "The store offers a credit, but you want an exchange. What do you say?", "optionsFr": true,
+          "options": ["Je comprends, mais accepteriez-vous plutôt de me faire un échange ?", "Non. Je veux un échange.", "Ça me convient, merci.", "Je ne suis pas d'accord avec la note de crédit, au revoir."], "answer": 0,
+          "optionFeedback": [null, "Too blunt: it closes the discussion.", "That means you accept the credit.", "You refuse without offering anything else."] },
+        { "id": "r5", "type": "match", "prompt": "Match each phrase with its function.",
+          "pairs": [["Qu'est-ce que vous proposez ?", "Ask for a proposal"], ["Ça me convient.", "Accept"], ["Je regrette, mais je ne peux pas accepter.", "Refuse politely"], ["On coupe la poire en deux ?", "Split the difference"], ["Pourriez-vous me le confirmer par écrit ?", "Confirm the deal"]] },
+        { "id": "r6", "type": "translate", "prompt": "Could we find a compromise?", "accept": ["Est-ce qu'on pourrait trouver un compromis ?", "Pourrait-on trouver un compromis ?", "On pourrait trouver un compromis ?", "Est-ce que nous pourrions trouver un compromis ?", "Pourrions-nous trouver un compromis ?"], "hint": "pouvoir in the conditionnel",
+          "explain": "[[pourrait]] / [[pourrions]]: the conditionnel makes it a suggestion, not a demand." },
+        { "id": "r7", "type": "translate", "prompt": "OK, but on one condition.", "accept": ["D'accord, mais à une condition.", "D'accord, mais à une seule condition.", "Entendu, mais à une condition."], "hint": "à…",
+          "explain": "[[à une condition]] = on one condition. Then explain it after a colon." },
+        { "id": "r8", "type": "cloze", "text": "Le propriétaire a accepté ___ réduire le loyer, mais il a refusé ___ payer l'hôtel.", "answers": [["de"], ["de"]], "choices": ["de", "à", "pour"], "en": "The landlord agreed to reduce the rent, but he refused to pay for the hotel.",
+          "explain": "[[accepter de]], [[refuser de]] + infinitive. Review: passé composé with avoir." },
+        { "id": "r9", "type": "reorder", "prompt": "That doesn't really suit me.", "accept": ["Ça ne me convient pas vraiment"], "extra": ["je"],
+          "explain": "[[Ça me convient]]: the thing is the subject; [[me]] goes before the verb, inside the negation." },
+        { "id": "r10", "type": "dictation", "fr": "Je pourrais vous faire une réduction de cinquante dollars.", "accept": ["Je pourrais vous faire une réduction de 50 dollars.", "Je pourrais vous faire une réduction de 50 $."],
+          "explain": "[[Je pourrais]]: conditionnel of pouvoir, a soft offer. [[faire une réduction]] = to give a reduction." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Role-play: you bought a laptop five weeks ago and the screen has stopped working. The store's return policy is 30 days, and the manager first offers to send it for repair (four weeks). You need a computer for work. Negotiate a better solution.", "seconds": 90,
+          "checklist": ["Explain the problem and your need", "Je comprends, mais…", "Refuse the first offer politely", "A counter-offer: Accepteriez-vous de… ? / Je vous propose de…", "A condition with si + présent → futur", "Accept a compromise and confirm it"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour. J'ai acheté cet ordinateur ici il y a cinq semaines, et l'écran ne fonctionne plus. Voici le reçu. … Je comprends que votre politique de retour est de 30 jours, mais l'appareil est défectueux. Une réparation de quatre semaines, ça ne me convient pas vraiment : je travaille à la maison et j'ai besoin d'un ordinateur tous les jours. Accepteriez-vous plutôt de me l'échanger contre le même modèle ? … Ah, vous n'en avez plus en magasin. Alors, est-ce qu'on pourrait trouver un compromis ? Si vous me prêtez un ordinateur pendant la réparation, j'accepterai d'attendre. … Parfait, ça me convient. Pourriez-vous me confirmer tout ça par écrit, s'il vous plaît ?", "en": "Hello. I bought this computer here five weeks ago, and the screen doesn't work anymore. Here's the receipt. … I understand that your return policy is 30 days, but the device is defective. A four-week repair doesn't really work for me: I work from home and I need a computer every day. Would you agree to exchange it for the same model instead? … Ah, you don't have any left in the store. Then could we find a compromise? If you lend me a computer during the repair, I'll agree to wait. … Perfect, that works for me. Could you confirm all that in writing, please?" } ] },
+        { "id": "w1", "type": "write", "prompt": "Your dishwasher has been broken for three weeks and your landlord keeps postponing the repair. Write an email proposing a solution: a repair date, a small rent reduction, and what you will do if the problem isn't solved.", "promptFr": "Écrivez un courriel à votre propriétaire pour proposer une solution.", "wordRange": [100, 150],
+          "checklist": ["A polite greeting (Bonjour monsieur / madame…)", "The problem and how long it has lasted (depuis / ça fait… que)", "Je vous propose de… / Je serais prêt(e) à…", "A condition with si + présent → futur", "A polite question: Seriez-vous d'accord pour… ?", "A request for written confirmation", "A polite closing"],
+          "models": [ { "label": "Model answer", "fr": "Bonjour madame Gagnon,\nJe me permets de vous écrire au sujet du lave-vaisselle de l'appartement 4. Ça fait maintenant trois semaines qu'il ne fonctionne plus, et la réparation a déjà été reportée deux fois.\nJe comprends que les techniciens sont très occupés, mais la situation devient difficile pour notre famille. Je vous propose donc la solution suivante : un rendez-vous ferme avant le 15 mars, et une réduction de 40 $ sur le loyer d'avril pour les semaines sans lave-vaisselle. Seriez-vous d'accord ? Si la réparation est faite avant cette date, je ne demanderai rien de plus.\nPourriez-vous me confirmer votre réponse par courriel ?\nMerci d'avance et bonne journée,\nMei Chen", "en": "Hello Mrs. Gagnon, I'm taking the liberty of writing to you about the dishwasher in apartment 4. It has now not worked for three weeks, and the repair has already been postponed twice. I understand that technicians are very busy, but the situation is becoming difficult for our family. I therefore suggest the following solution: a firm appointment before March 15th, and a $40 reduction on April's rent for the weeks without a dishwasher. Would you agree? If the repair is done before that date, I won't ask for anything more. Could you confirm your answer by email? Thanks in advance and have a good day, Mei Chen" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Ask for and make proposals: [[Qu'est-ce que vous proposez ?]] [[Je vous propose de…]] [[Accepteriez-vous de…?]]\n- React: [[Ça me convient.]] [[D'accord, mais à une condition.]] [[Je regrette, mais je ne peux pas accepter.]]\n- Reach a deal: [[Est-ce qu'on pourrait trouver un compromis ?]], set conditions with **si + présent → futur**, and confirm in writing",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed the arithmetic of 'couper la poire en deux' (counter-offer 120 → 150 $ so that 100 $ is the midpoint); removed the nonstandard 'd'accord de' accept; hedged the TAL/legal-warranty and Québec-word notes; 'de la maison' → 'à la maison'." }
+}

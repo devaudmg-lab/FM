@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "exam": "tcf",
+  "verifiedOn": "2026-10-17",
+  "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
+  "scoreBasis": "TCF Canada scores: listening and reading out of 699, writing and speaking out of 20",
+  "scale": { "eo": [0, 20], "co": [0, 699], "ce": [0, 699], "ee": [0, 20] },
+  "abilities": {
+    "eo": [ { "nclc": 10, "min": 16, "max": 20 }, { "nclc": 9, "min": 14, "max": 15 }, { "nclc": 8, "min": 12, "max": 13 }, { "nclc": 7, "min": 10, "max": 11 }, { "nclc": 6, "min": 7, "max": 9 }, { "nclc": 5, "min": 6, "max": 6 }, { "nclc": 4, "min": 4, "max": 5 } ],
+    "co": [ { "nclc": 10, "min": 549, "max": 699 }, { "nclc": 9, "min": 523, "max": 548 }, { "nclc": 8, "min": 503, "max": 522 }, { "nclc": 7, "min": 458, "max": 502 }, { "nclc": 6, "min": 398, "max": 457 }, { "nclc": 5, "min": 369, "max": 397 }, { "nclc": 4, "min": 331, "max": 368 } ],
+    "ce": [ { "nclc": 10, "min": 549, "max": 699 }, { "nclc": 9, "min": 524, "max": 548 }, { "nclc": 8, "min": 499, "max": 523 }, { "nclc": 7, "min": 453, "max": 498 }, { "nclc": 6, "min": 406, "max": 452 }, { "nclc": 5, "min": 375, "max": 405 }, { "nclc": 4, "min": 342, "max": 374 } ],
+    "ee": [ { "nclc": 10, "min": 16, "max": 20 }, { "nclc": 9, "min": 14, "max": 15 }, { "nclc": 8, "min": 12, "max": 13 }, { "nclc": 7, "min": 10, "max": 11 }, { "nclc": 6, "min": 7, "max": 9 }, { "nclc": 5, "min": 6, "max": 6 }, { "nclc": 4, "min": 4, "max": 5 } ]
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "exam": "tef",
+  "ability": "ce",
+  "sets": [
+    {
+      "id": "tef-ce-s1",
+      "title": "Signs, short ads, notices and emails",
+      "level": "a2",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "d1", "type": "affiche", "title": "Piscine municipale",
+          "fr": "PISCINE MUNICIPALE DES TILLEULS\n\nFermeture annuelle pour vidange et nettoyage des bassins du lundi 3 au dimanche 16 août inclus.\n\nRéouverture le lundi 17 août à 7 h.\n\nPendant la fermeture, les titulaires d'un abonnement annuel peuvent accéder gratuitement à la piscine Jean-Moulin (bus 12, arrêt Stade). Présentez simplement votre carte à l'accueil.\n\nMerci de votre compréhension."
+        },
+        {
+          "id": "d2", "type": "annonce", "title": "À vendre",
+          "fr": "À VENDRE — Vélo de montagne pour enfant\n\nRoues de 24 pouces, convient aux 8 à 12 ans. Très bon état : utilisé seulement deux étés, freins changés au printemps. Casque et cadenas inclus.\n\nPrix : 120 $ (négociable).\n\nÀ récupérer à Laval, en soirée seulement. Écrivez-moi par courriel à martin.l@exemple.ca — pas de textos, s.v.p. !"
+        },
+        {
+          "id": "d3", "type": "courriel", "title": "Départ de Claude",
+          "fr": "De : Sophie Marchand\nÀ : Équipe comptabilité\nObjet : Départ de Claude — chut !\n\nBonjour à tous,\n\nComme vous le savez, Claude part à la retraite à la fin du mois, après vingt-deux ans dans notre service. Pour fêter ça, nous organisons un pot le vendredi 28 à 16 h 30, dans la salle de réunion du 2e étage.\n\nPour le cadeau, une enveloppe circulera dans les bureaux jusqu'à mercredi : chacun donne ce qu'il veut.\n\nSurtout, ne dites rien à Claude : c'est une surprise !\n\nSophie"
+        },
+        {
+          "id": "d4", "type": "affiche", "title": "Avis aux locataires",
+          "fr": "AVIS AUX LOCATAIRES\n\nCoupure d'eau\n\nLe mardi 9 avril, de 9 h à 13 h, l'eau sera coupée dans tout l'immeuble afin de remplacer une conduite au sous-sol.\n\nNous vous conseillons de faire des réserves d'eau la veille. Merci de ne pas utiliser les toilettes pendant les travaux.\n\nPour toute question, contactez le concierge au poste 101.\n\nLa gestion de l'immeuble vous remercie de votre patience."
+        },
+        {
+          "id": "d5", "type": "publicité", "title": "Chez Léonie",
+          "fr": "CHEZ LÉONIE — Cuisine maison\n\nMenu du midi : 16,50 $\nSoupe du jour, plat au choix et café ou thé.\n\nOuvert du mardi au samedi, de 11 h à 21 h.\nFermé le dimanche et le lundi.\n\nApportez votre vin !\nTerrasse ouverte à partir du 1er juin.\n\n214, rue Saint-Jean"
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-ce-001", "docId": "d1",
+          "prompt": "Pourquoi la piscine ferme-t-elle ?",
+          "options": ["Pour des travaux d'agrandissement.", "Pour l'entretien de ses bassins.", "À cause d'un manque de personnel.", "Pour les vacances du personnel."],
+          "answer": 1,
+          "explain": "\"Fermeture annuelle pour vidange et nettoyage des bassins\": the pools are emptied and cleaned, i.e. maintenance. \"Annuelle\" means it happens every year, not that staff are on holiday; no enlargement or staff shortage is mentioned.",
+          "microSkills": ["main-idea", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-002", "docId": "d1",
+          "prompt": "Que peuvent faire les abonnés pendant la fermeture ?",
+          "options": ["Se faire rembourser leur abonnement.", "Prendre le bus gratuitement.", "Nager dans un autre établissement sans payer.", "Prolonger leur abonnement de deux semaines."],
+          "answer": 2,
+          "explain": "\"Les titulaires d'un abonnement annuel peuvent accéder gratuitement à la piscine Jean-Moulin.\" \"Gratuitement\" refers to the other pool, not to the bus (the bus line is only directions). No refund or extension is offered.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-003", "docId": "d2",
+          "prompt": "Comment faut-il contacter le vendeur ?",
+          "options": ["Par téléphone, en soirée.", "Par message électronique.", "Par texto.", "En se présentant chez lui à Laval."],
+          "answer": 1,
+          "explain": "\"Écrivez-moi par courriel [...] pas de textos.\" \"En soirée\" is when to pick up the bike, not when to call, and no phone number is given.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-004", "docId": "d2",
+          "prompt": "Qu'apprend-on sur le prix ?",
+          "options": ["Il comprend la livraison.", "Il est fixe.", "Il ne comprend pas le casque.", "Il peut être discuté."],
+          "answer": 3,
+          "explain": "\"120 $ (négociable)\". The buyer must collect the bike (\"À récupérer à Laval\"), so no delivery, and \"Casque et cadenas inclus\".",
+          "microSkills": ["vocabulary", "detail"]
+        },
+        {
+          "id": "tef-ce-005", "docId": "d3",
+          "prompt": "Pourquoi Sophie écrit-elle ce courriel ?",
+          "options": ["Pour annoncer l'arrivée d'un nouveau collègue.", "Pour organiser une réunion de travail.", "Pour inviter ses collègues à une fête en l'honneur d'un collègue.", "Pour informer Claude de la date de son départ."],
+          "answer": 2,
+          "explain": "\"Claude part à la retraite [...] nous organisons un pot.\" A \"pot\" is a small party; the meeting room is only the venue. Claude is not a recipient: \"ne dites rien à Claude\".",
+          "microSkills": ["intention", "main-idea"]
+        },
+        {
+          "id": "tef-ce-006", "docId": "d3",
+          "prompt": "Que demande-t-elle à ses collègues ?",
+          "options": ["De garder le projet secret.", "De donner une somme fixe pour le cadeau.", "D'apporter quelque chose à manger vendredi.", "De confirmer leur présence avant mercredi."],
+          "answer": 0,
+          "explain": "\"Surtout, ne dites rien à Claude : c'est une surprise !\" For the gift \"chacun donne ce qu'il veut\" (no fixed amount), and Wednesday is the deadline for the envelope, not for confirming attendance.",
+          "microSkills": ["intention", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-007", "docId": "d4",
+          "prompt": "Combien de temps l'eau sera-t-elle coupée ?",
+          "options": ["Quatre heures.", "Deux heures.", "Neuf heures.", "Toute la journée."],
+          "answer": 0,
+          "explain": "\"De 9 h à 13 h\" = four hours. \"Neuf heures\" confuses the start time with the duration.",
+          "microSkills": ["numbers-dates"]
+        },
+        {
+          "id": "tef-ce-008", "docId": "d4",
+          "prompt": "Que recommande-t-on aux locataires ?",
+          "options": ["Appeler le concierge avant mardi.", "Quitter l'immeuble pendant les travaux.", "Laisser leur porte ouverte.", "Mettre de l'eau de côté à l'avance."],
+          "answer": 3,
+          "explain": "\"Nous vous conseillons de faire des réserves d'eau la veille.\" Calling the concierge is only \"pour toute question\", not a recommendation; leaving the building or the door open is not mentioned.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-009", "docId": "d5",
+          "prompt": "Quand un client peut-il manger chez Léonie ?",
+          "options": ["Le dimanche midi.", "Le lundi soir.", "Le jeudi midi.", "Le mardi à 22 h."],
+          "answer": 2,
+          "explain": "Open \"du mardi au samedi, de 11 h à 21 h\", so Thursday at noon works. It is \"fermé le dimanche et le lundi\", and on Tuesday it closes at 21 h.",
+          "microSkills": ["numbers-dates", "detail"]
+        },
+        {
+          "id": "tef-ce-010", "docId": "d5",
+          "prompt": "Que signifie « Apportez votre vin » ?",
+          "options": ["Le restaurant vend du vin à emporter.", "Les clients peuvent venir avec leur propre bouteille.", "Le vin est offert avec le menu du midi.", "Les clients doivent acheter leur vin sur place."],
+          "answer": 1,
+          "explain": "\"Apportez votre vin\" (common in Québec restaurants without a liquor licence) means customers bring their own bottle. The lunch menu includes \"café ou thé\", not wine.",
+          "microSkills": ["vocabulary"]
+        }
+      ]
+    },
+    {
+      "id": "tef-ce-s2",
+      "title": "Emails, forums, schedules and articles",
+      "level": "b1",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "d1", "type": "courriel", "title": "Votre première journée",
+          "fr": "De : Geneviève Lavoie, Ressources humaines\nÀ : Ahmed Benali\nObjet : Votre première journée lundi\n\nBonjour Ahmed,\n\nToute l'équipe est heureuse de vous accueillir lundi prochain au sein du service à la clientèle. Voici quelques informations pour bien commencer.\n\nVotre journée débutera à 8 h 30, et non à 9 h comme ce sera le cas par la suite : nous en profiterons pour faire le tour des locaux et remplir les derniers documents administratifs. Pensez à apporter un spécimen de chèque pour le dépôt de votre paie ainsi que votre numéro d'assurance sociale.\n\nLe stationnement est réservé aux employés qui possèdent un permis, que vous ne recevrez qu'à la fin de la semaine. Lundi, je vous conseille donc de venir en transport en commun : l'arrêt d'autobus se trouve juste devant l'édifice.\n\nPour le dîner, la cafétéria du rez-de-chaussée est ouverte de 11 h 30 à 13 h 30. Lundi, c'est votre superviseur, Marc-André, qui vous invite.\n\nAu plaisir de vous rencontrer,\n\nGeneviève"
+        },
+        {
+          "id": "d2", "type": "forum", "title": "Pneus d'hiver, c'est vraiment obligatoire ?",
+          "fr": "Forum Nouveaux arrivants au Québec — Vie pratique\nSujet : Pneus d'hiver, c'est vraiment obligatoire ?\n\nLucas_Lyon : Bonjour à tous ! J'arrive de France en novembre et je vais acheter une voiture d'occasion. Le vendeur me dit que je dois prévoir des pneus d'hiver. C'est une vraie obligation ou une simple recommandation ? Ça coûte cher…\n\nJosée_QC : Salut Lucas ! C'est obligatoire, oui : si je me souviens bien, du 1er décembre au 15 mars, toutes les voitures immatriculées au Québec doivent en être équipées (vérifie quand même les dates sur le site du gouvernement). Mais franchement, même sans la loi, je ne roulerais pas sans eux : nos routes en janvier, ce n'est pas la Côte d'Azur ! Petit conseil : fais-les poser dès la fin octobre, sinon les garages sont débordés.\n\nKarim.M : Je confirme. Pour économiser, tu peux chercher des pneus usagés en bon état sur les sites de petites annonces. Moi, j'ai plutôt négocié avec le vendeur, et il m'a laissé un jeu de pneus d'hiver dans le prix de l'auto."
+        },
+        {
+          "id": "d3", "type": "horaire", "title": "Bibliothèque du Plateau",
+          "fr": "BIBLIOTHÈQUE DU PLATEAU — Horaire d'automne (du 3 septembre au 21 décembre)\n\nLundi : fermé\nMardi et jeudi : 12 h – 20 h\nMercredi : 10 h – 18 h\nVendredi : 12 h – 18 h\nSamedi et dimanche : 10 h – 17 h\n\nActivités gratuites (inscription obligatoire au comptoir ou en ligne)\n• Heure du conte (3 à 5 ans) : samedi, 10 h 30\n• Café-conversation en français pour nouveaux arrivants : mardi, 18 h 30, salle B\n• Aide aux devoirs (élèves du primaire) : mardi et jeudi, 16 h – 18 h\n\nRetour des documents : la chute à livres, à gauche de l'entrée principale, est accessible en tout temps."
+        },
+        {
+          "id": "d4", "type": "article", "title": "Les jardins collectifs font le plein",
+          "fr": "Les jardins collectifs font le plein\n\nÀ Val-des-Cèdres, les listes d'attente pour obtenir une parcelle dans un jardin communautaire n'ont jamais été aussi longues : près de 600 personnes espèrent une place cette année, deux fois plus qu'en 2019. Pour la Ville, ce succès s'explique d'abord par la hausse du prix des légumes, mais pas seulement.\n\n« Beaucoup de gens viennent pour les tomates et restent pour les voisins », résume Chantal Mercier, responsable du programme. Elle observe que les jardins attirent de plus en plus de familles immigrantes et de retraités qui cherchent à briser leur isolement.\n\nPour réduire l'attente, la Ville a annoncé l'aménagement de trois nouveaux jardins d'ici 2027. En attendant, elle encourage les jardiniers à partager leur parcelle avec une autre personne inscrite sur la liste."
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-ce-011", "docId": "d1",
+          "prompt": "Pourquoi Ahmed doit-il arriver plus tôt lundi ?",
+          "options": ["Pour suivre une formation sur la sécurité.", "Pour visiter les lieux et compléter des formalités.", "Parce que c'est l'horaire habituel du service.", "Pour rencontrer les premiers clients."],
+          "answer": 1,
+          "explain": "\"Nous en profiterons pour faire le tour des locaux et remplir les derniers documents administratifs.\" The usual start time is 9 h (\"et non à 9 h comme ce sera le cas par la suite\"); no training or clients are mentioned.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-012", "docId": "d1",
+          "prompt": "Pourquoi lui recommande-t-on de ne pas venir en voiture lundi ?",
+          "options": ["Il n'aura pas encore l'autorisation de se garer.", "Le stationnement est en travaux.", "L'autobus est gratuit pour les employés.", "Il n'y a pas de stationnement près de l'édifice."],
+          "answer": 0,
+          "explain": "\"Le stationnement est réservé aux employés qui possèdent un permis, que vous ne recevrez qu'à la fin de la semaine.\" There is a car park, it is not under repair, and the bus is only said to stop in front of the building.",
+          "microSkills": ["inference", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-013", "docId": "d1",
+          "prompt": "Qu'apprend-on sur le repas de midi lundi ?",
+          "options": ["Ahmed devra apporter son repas.", "La cafétéria sera fermée.", "Son repas lui sera offert par son supérieur.", "Il mangera avec l'équipe des ressources humaines."],
+          "answer": 2,
+          "explain": "\"Lundi, c'est votre superviseur, Marc-André, qui vous invite.\" (Québec: \"dîner\" = lunch; \"inviter\" here = to treat.) The cafeteria is open 11 h 30–13 h 30, and Geneviève (HR) is not the one inviting him.",
+          "microSkills": ["detail", "vocabulary"]
+        },
+        {
+          "id": "tef-ce-014", "docId": "d2",
+          "prompt": "Que veut savoir Lucas ?",
+          "options": ["Où acheter une voiture d'occasion.", "Comment conduire sur la neige.", "Quand les garages sont ouverts.", "Si la loi impose réellement des pneus d'hiver."],
+          "answer": 3,
+          "explain": "\"C'est une vraie obligation ou une simple recommandation ?\" He already has a seller; driving technique and garage hours are not his question.",
+          "microSkills": ["intention", "main-idea"]
+        },
+        {
+          "id": "tef-ce-015", "docId": "d2",
+          "prompt": "Quel conseil Josée donne-t-elle ?",
+          "options": ["Faire installer les pneus avant la période d'affluence.", "Attendre le 1er décembre pour installer les pneus.", "Ne pas acheter de voiture avant l'hiver.", "Éviter de conduire en janvier."],
+          "answer": 0,
+          "explain": "\"Fais-les poser dès la fin octobre, sinon les garages sont débordés.\" December 1st is the start of the legal period, not her advice; she says she would not drive without winter tyres, not that one should avoid driving.",
+          "microSkills": ["intention", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-016", "docId": "d2",
+          "prompt": "Comment Karim a-t-il obtenu ses pneus d'hiver ?",
+          "options": ["Il les a achetés d'occasion en ligne.", "Il les a loués pour l'hiver.", "Ils étaient compris dans l'achat de sa voiture.", "Il les a reçus d'un ami."],
+          "answer": 2,
+          "explain": "\"Moi, j'ai plutôt négocié avec le vendeur, et il m'a laissé un jeu de pneus d'hiver dans le prix de l'auto.\" Used tyres online are what he suggests to Lucas; \"plutôt\" shows he did something else.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-017", "docId": "d3",
+          "prompt": "Quand a lieu l'activité destinée aux personnes récemment installées ?",
+          "options": ["Le mercredi en fin de journée.", "Le mardi en soirée.", "Le samedi matin.", "Le jeudi après-midi."],
+          "answer": 1,
+          "explain": "\"Café-conversation en français pour nouveaux arrivants : mardi, 18 h 30.\" Saturday morning is the story hour for 3–5-year-olds; Tuesday and Thursday afternoons are homework help.",
+          "microSkills": ["numbers-dates", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-018", "docId": "d3",
+          "prompt": "Que peut-on faire lorsque la bibliothèque est fermée ?",
+          "options": ["S'inscrire aux activités au comptoir.", "Emprunter des livres sur place.", "Participer à l'aide aux devoirs.", "Rendre des documents."],
+          "answer": 3,
+          "explain": "\"La chute à livres [...] est accessible en tout temps.\" The counter and on-site borrowing require the library to be open, and homework help happens during opening hours.",
+          "microSkills": ["inference", "vocabulary"]
+        },
+        {
+          "id": "tef-ce-019", "docId": "d4",
+          "prompt": "Que montre la phrase « Beaucoup de gens viennent pour les tomates et restent pour les voisins » ?",
+          "options": ["Les jardiniers vendent leurs légumes à leurs voisins.", "Les tomates sont le légume le plus cultivé.", "Les voisins se plaignent des jardins.", "Les jardins favorisent les liens sociaux."],
+          "answer": 3,
+          "explain": "People come for vegetables but stay for the company; the next sentence confirms it: people \"qui cherchent à briser leur isolement\". Nothing is said about selling vegetables, the most common crop or complaints.",
+          "microSkills": ["inference", "main-idea"]
+        },
+        {
+          "id": "tef-ce-020", "docId": "d4",
+          "prompt": "Que propose la Ville en attendant les nouveaux jardins ?",
+          "options": ["Que deux personnes se partagent une même parcelle.", "Réduire la taille des parcelles.", "Augmenter le prix de l'inscription.", "Réserver les places aux familles."],
+          "answer": 0,
+          "explain": "\"Elle encourage les jardiniers à partager leur parcelle avec une autre personne inscrite sur la liste.\" Sharing is voluntary and is not the same as the City shrinking plots; prices and family priority are not mentioned.",
+          "microSkills": ["detail", "paraphrase"]
+        }
+      ]
+    },
+    {
+      "id": "tef-ce-s3",
+      "title": "Practical documents and short articles",
+      "level": "b1",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "d1", "type": "affiche", "title": "Politique d'échange et de remboursement",
+          "fr": "POLITIQUE D'ÉCHANGE ET DE REMBOURSEMENT\n\nVous avez changé d'avis ? Pas de problème ! Vous disposez de 30 jours à compter de la date d'achat pour nous retourner un article.\n\nConditions :\n• l'article doit être neuf, non porté et dans son emballage d'origine ;\n• le ticket de caisse est obligatoire ;\n• les sous-vêtements, maillots de bain et articles soldés ne sont ni repris ni échangés.\n\nLes articles achetés en ligne peuvent être retournés en magasin ou par la poste. Dans ce second cas, les frais d'envoi restent à votre charge, sauf si l'article est défectueux.\n\nLe remboursement s'effectue sur le moyen de paiement utilisé lors de l'achat, dans un délai de 10 jours. Les achats réglés en espèces sont remboursés sous forme d'avoir, valable un an."
+        },
+        {
+          "id": "d2", "type": "lettre", "title": "Changements à la collecte",
+          "fr": "Municipalité de Val-des-Cèdres — Service de l'environnement\n\nObjet : Changements à la collecte des matières résiduelles\n\nMadame, Monsieur,\n\nÀ compter du 1er mai, la collecte des ordures ménagères se fera aux deux semaines plutôt que chaque semaine. Cette décision vise à encourager l'utilisation du bac brun, dont la collecte, elle, deviendra hebdomadaire pendant toute la saison estivale.\n\nRappelons que près de la moitié du contenu de nos poubelles est composée de résidus alimentaires et de résidus verts qui pourraient être compostés. Moins enfouir, c'est aussi moins payer : le coût de l'enfouissement a augmenté de 30 % en cinq ans.\n\nVous n'avez pas encore de bac brun ? Il est gratuit et peut être commandé en ligne ou au comptoir de l'hôtel de ville.\n\nLe calendrier complet des collectes est joint à cette lettre.\n\nVeuillez agréer, Madame, Monsieur, nos salutations distinguées.\n\nLe Service de l'environnement"
+        },
+        {
+          "id": "d3", "type": "article", "title": "Écrans le soir",
+          "fr": "Écrans le soir : les ados dorment moins… mais pas pour la raison qu'on croit\n\nOn accuse souvent la lumière bleue des téléphones d'empêcher les adolescents de s'endormir. Une étude menée auprès de 2 000 élèves de 13 à 17 ans nuance pourtant cette idée. Selon les chercheurs, l'effet de la lumière sur l'endormissement existe, mais il reste modeste : quelques minutes tout au plus.\n\nLe vrai problème serait ailleurs. Les jeunes qui gardent leur téléphone dans leur chambre se couchent en moyenne 50 minutes plus tard que les autres, non pas parce qu'ils n'arrivent pas à dormir, mais parce qu'ils ne veulent pas arrêter : une conversation qui se prolonge, une vidéo qui en entraîne une autre…\n\nLes auteurs recommandent donc moins de filtres anti-lumière bleue et plus de règles simples, comme laisser le téléphone se recharger hors de la chambre. « Ce n'est pas une question de technologie, mais d'habitudes », conclut l'une des chercheuses."
+        },
+        {
+          "id": "d4", "type": "annonce", "title": "Offre d'emploi",
+          "fr": "OFFRE D'EMPLOI — Animateur ou animatrice de camp de jour\n\nLe Centre communautaire du Vieux-Moulin recherche cinq animateurs pour son camp de jour estival (enfants de 5 à 12 ans).\n\nPériode : du 23 juin au 15 août, 35 heures par semaine, du lundi au vendredi.\nSalaire : 17,50 $ de l'heure.\n\nProfil recherché :\n• avoir 16 ans ou plus ;\n• être disponible pour la formation obligatoire, qui aura lieu les deux premières fins de semaine de juin ;\n• une expérience auprès des enfants est un atout, mais n'est pas exigée ;\n• un certificat de secourisme est requis avant le début du camp (le Centre peut en rembourser les frais aux candidats retenus).\n\nEnvoyez votre CV avant le 30 avril à emplois@cc-vieuxmoulin.org."
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-ce-021", "docId": "d1",
+          "prompt": "Une cliente a acheté un maillot de bain il y a une semaine. Elle ne l'a jamais porté. Que peut-elle faire ?",
+          "options": ["L'échanger contre une autre taille.", "Se le faire rembourser en espèces.", "Le retourner gratuitement par la poste.", "Rien : cet article n'est ni repris ni échangé."],
+          "answer": 3,
+          "explain": "\"Les sous-vêtements, maillots de bain et articles soldés ne sont ni repris ni échangés.\" This exclusion applies even within 30 days and even if the item is unworn.",
+          "microSkills": ["detail", "inference"]
+        },
+        {
+          "id": "tef-ce-022", "docId": "d1",
+          "prompt": "Dans quel cas l'envoi postal d'un retour est-il gratuit ?",
+          "options": ["Si l'article a été acheté en ligne.", "Si l'article présente un défaut.", "Si le retour a lieu dans les 10 jours.", "Si le client a payé par carte."],
+          "answer": 1,
+          "explain": "\"Les frais d'envoi restent à votre charge, sauf si l'article est défectueux.\" Buying online is the condition for returning by post at all, not for free postage; 10 days is the refund delay.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-023", "docId": "d1",
+          "prompt": "Un client a payé en espèces. Comment sera-t-il remboursé ?",
+          "options": ["En espèces, sous 10 jours.", "Par virement bancaire.", "Par un bon d'achat utilisable pendant douze mois.", "Par chèque."],
+          "answer": 2,
+          "explain": "\"Les achats réglés en espèces sont remboursés sous forme d'avoir, valable un an.\" An \"avoir\" is a store credit, i.e. a voucher. The general rule (same means of payment) does not apply to cash.",
+          "microSkills": ["vocabulary", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-024", "docId": "d2",
+          "prompt": "Qu'est-ce qui change à partir du 1er mai ?",
+          "options": ["Les ordures seront ramassées moins souvent.", "Le bac brun deviendra payant.", "La collecte du recyclage sera supprimée.", "Les ordures seront ramassées deux fois par semaine."],
+          "answer": 0,
+          "explain": "\"La collecte des ordures ménagères se fera aux deux semaines plutôt que chaque semaine\" (Québec: \"aux deux semaines\" = every two weeks, not twice a week). The brown bin \"est gratuit\"; recycling is not mentioned.",
+          "microSkills": ["main-idea", "vocabulary"]
+        },
+        {
+          "id": "tef-ce-025", "docId": "d2",
+          "prompt": "Quel est l'objectif principal de cette mesure ?",
+          "options": ["Réduire le nombre d'employés municipaux.", "Inciter les citoyens à composter davantage.", "Financer l'achat de nouveaux bacs.", "Respecter une nouvelle loi provinciale."],
+          "answer": 1,
+          "explain": "\"Cette décision vise à encourager l'utilisation du bac brun\" (the compost bin), since nearly half of the garbage is food and garden waste \"qui pourraient être compostés\". Saving on landfill costs is a benefit, but staff, new bins and laws are not mentioned.",
+          "microSkills": ["intention", "main-idea"]
+        },
+        {
+          "id": "tef-ce-026", "docId": "d3",
+          "prompt": "Selon l'étude, quel est l'effet de la lumière des écrans sur l'endormissement ?",
+          "options": ["Il est faible.", "Il est inexistant.", "Il est la principale cause du manque de sommeil.", "Il est plus important chez les plus jeunes."],
+          "answer": 0,
+          "explain": "\"L'effet [...] existe, mais il reste modeste : quelques minutes tout au plus.\" \"Existe\" rules out \"inexistant\", and \"le vrai problème serait ailleurs\" rules out the main cause. No age difference is reported.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-027", "docId": "d3",
+          "prompt": "Pourquoi les adolescents qui gardent leur téléphone dans leur chambre se couchent-ils plus tard ?",
+          "options": ["Ils ont du mal à trouver le sommeil.", "Ils font leurs devoirs sur leur téléphone.", "Leurs parents se couchent tard.", "Ils ont du mal à interrompre leurs activités en ligne."],
+          "answer": 3,
+          "explain": "\"Non pas parce qu'ils n'arrivent pas à dormir, mais parce qu'ils ne veulent pas arrêter : une conversation qui se prolonge, une vidéo...\" Option A is explicitly rejected by the text.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-028", "docId": "d3",
+          "prompt": "Que recommandent les chercheurs ?",
+          "options": ["Installer des filtres sur les écrans.", "Interdire les téléphones aux moins de 17 ans.", "Laisser le téléphone dans une autre pièce pendant la nuit.", "Réduire la luminosité des écrans."],
+          "answer": 2,
+          "explain": "\"Laisser le téléphone se recharger hors de la chambre.\" They want \"moins de filtres anti-lumière bleue\", the opposite of A, and no ban is proposed: \"Ce n'est pas une question de technologie, mais d'habitudes.\"",
+          "microSkills": ["paraphrase", "main-idea"]
+        },
+        {
+          "id": "tef-ce-029", "docId": "d4",
+          "prompt": "Quelle condition est obligatoire pour obtenir ce poste ?",
+          "options": ["Avoir déjà travaillé avec des enfants.", "Être libre deux week-ends en juin.", "Avoir au moins 18 ans.", "Habiter près du centre."],
+          "answer": 1,
+          "explain": "\"Être disponible pour la formation obligatoire, qui aura lieu les deux premières fins de semaine de juin.\" Experience \"est un atout, mais n'est pas exigée\", the minimum age is 16, and no address condition is given.",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-030", "docId": "d4",
+          "prompt": "Qu'apprend-on sur le certificat de secourisme ?",
+          "options": ["Il n'est pas obligatoire.", "Les candidats doivent l'avoir avant d'envoyer leur CV.", "Il sera délivré pendant le camp.", "Ses frais peuvent être pris en charge par l'employeur."],
+          "answer": 3,
+          "explain": "\"Le Centre peut en rembourser les frais aux candidats retenus.\" It is \"requis avant le début du camp\": required, but only before the camp starts, not before applying, and not obtained during the camp.",
+          "microSkills": ["detail", "paraphrase"]
+        }
+      ]
+    },
+    {
+      "id": "tef-ce-s4",
+      "title": "Opinion articles and editorials",
+      "level": "b2",
+      "minutes": 15,
+      "docs": [
+        {
+          "id": "d1", "type": "article", "title": "Semaine de quatre jours : attention au mirage",
+          "fr": "Semaine de quatre jours : attention au mirage\n\nIl suffit d'évoquer la semaine de quatre jours pour que les sondages s'enflamment : huit salariés sur dix s'y disent favorables. Qui refuserait un week-end de trois jours ? Les entreprises pionnières, de leur côté, vantent une productivité en hausse et un absentéisme en baisse. Le tableau semble parfait. Il mérite pourtant d'être nuancé.\n\nD'abord, les expériences les plus médiatisées concernent surtout des entreprises de services, où le travail peut être réorganisé sans trop de difficultés. Allez donc proposer la semaine de quatre jours à une infirmière, à un chauffeur d'autobus ou à une boulangère : il faudra soit embaucher, soit allonger les journées. Or des journées de dix heures ne conviennent ni aux parents qui doivent aller chercher leurs enfants à la garderie, ni aux métiers physiquement exigeants.\n\nEnsuite, le risque est grand de créer une société à deux vitesses : d'un côté, des cadres qui profiteront de leur vendredi libre ; de l'autre, des travailleurs de première ligne pour qui rien ne changera, sinon le sentiment d'être oubliés.\n\nFaut-il pour autant rejeter l'idée ? Certainement pas. Mais plutôt que d'en faire un slogan, mieux vaudrait poser la vraie question : comment mieux répartir le temps de travail, secteur par secteur, sans que les uns paient la liberté des autres ?"
+        },
+        {
+          "id": "d2", "type": "article", "title": "Caisses libre-service : le client, cet employé bénévole",
+          "fr": "Caisses libre-service : le client, cet employé bénévole\n\nJe l'avoue : il m'arrive d'utiliser les caisses libre-service. Quand je n'ai qu'une bouteille de lait à payer et que la file d'attente s'étire jusqu'au rayon des surgelés, la machine me semble une alliée. Mais à force de scanner, de peser mes pommes et d'appeler un employé parce qu'un « article inattendu dans la zone d'ensachage » refuse de disparaître, je me suis posé une question : pour qui, au juste, est-ce plus pratique ?\n\nLes enseignes répondent en chœur : pour le client, qui gagne du temps. Curieusement, elles sont plus discrètes sur les économies réalisées en salaires. Car chaque caisse automatique, c'est un peu de travail que l'on transfère en douce au consommateur, sans réduction sur le ticket, bien entendu.\n\nIl y a aussi ce qu'on ne mesure pas. Pour certaines personnes âgées ou isolées, le petit échange avec la caissière était parfois la seule conversation de la journée. On ne remplace pas un « Bonne journée, madame Lebrun » par un bip.\n\nJe ne réclame pas l'interdiction de ces machines. Je demande seulement que l'on garde, dans chaque magasin, assez de caisses traditionnelles ouvertes pour que le libre-service reste un choix, et non une obligation déguisée."
+        },
+        {
+          "id": "d3", "type": "lettre", "title": "Musées gratuits : une fausse bonne idée ?",
+          "fr": "Lettre ouverte — Musées gratuits : une fausse bonne idée ?\n\nChaque année, la même proposition revient : rendre les musées gratuits pour tous. L'intention est généreuse, et je la partage. Qui pourrait être contre l'accès de tous à la culture ?\n\nPourtant, l'expérience de plusieurs villes devrait nous faire réfléchir. Là où la gratuité a été instaurée, la fréquentation a bel et bien augmenté… mais surtout parmi ceux qui fréquentaient déjà les musées. Les familles qui n'y mettaient jamais les pieds ne sont pas venues davantage. Le prix du billet n'était donc pas le principal obstacle : c'est le sentiment que « ce n'est pas pour nous » qui tient les gens à distance.\n\nPlutôt que de renoncer à des recettes dont nous avons besoin, investissons dans ce qui fonctionne : des médiateurs dans les quartiers, des visites conçues avec les écoles, des horaires adaptés à ceux qui travaillent. La gratuité ouvre les portes ; encore faut-il donner envie de les franchir.\n\nIsabelle Moreau, directrice d'un musée régional"
+        },
+        {
+          "id": "d4", "type": "article", "title": "« Le Dernier Hiver » : beau, mais vide",
+          "fr": "Critique — « Le Dernier Hiver » : beau, mais vide\n\nOn attendait beaucoup du nouveau film de Laurence Dubé, après le succès de son premier long métrage. Sur le papier, tout était réuni : un village de la Gaspésie isolé par la neige, une famille qui se déchire autour d'un héritage, des acteurs reconnus.\n\nDisons-le d'emblée : les images sont superbes. Chaque plan de la baie gelée pourrait être exposé dans une galerie. Mais à force de soigner le cadre, la réalisatrice semble avoir oublié ses personnages. Les dialogues, rares, sonnent faux, et l'on peine à croire aux conflits qui opposent les trois sœurs. Au bout de deux heures, on connaît par cœur le paysage, mais toujours pas ceux qui l'habitent.\n\nReste Mélanie Gagnon, bouleversante dans le rôle de la cadette, qui parvient à donner vie à un personnage pourtant mal écrit. C'est peu pour un film si ambitieux."
+        }
+      ],
+      "items": [
+        {
+          "id": "tef-ce-031", "docId": "d1",
+          "prompt": "Quelle est la position de l'auteur sur la semaine de quatre jours ?",
+          "options": ["Il y est totalement opposé.", "Il la juge intéressante, mais difficile à généraliser.", "Il souhaite qu'elle devienne obligatoire.", "Il considère que les salariés la rejettent."],
+          "answer": 1,
+          "explain": "\"Faut-il pour autant rejeter l'idée ? Certainement pas\" + the limits he lists for many sectors (\"il faudra soit embaucher, soit allonger les journées\"). He is not against it, proposes no obligation, and the polls show \"huit salariés sur dix\" in favour.",
+          "microSkills": ["opinion-fact", "main-idea"]
+        },
+        {
+          "id": "tef-ce-032", "docId": "d1",
+          "prompt": "Pourquoi l'auteur cite-t-il l'infirmière, le chauffeur d'autobus et la boulangère ?",
+          "options": ["Pour montrer que ces métiers manquent de personnel.", "Pour prouver que ces travailleurs sont hostiles à la réforme.", "Pour illustrer des métiers où ce modèle est plus difficile à mettre en place.", "Pour donner des exemples d'entreprises pionnières."],
+          "answer": 2,
+          "explain": "They contrast with service companies \"où le travail peut être réorganisé sans trop de difficultés\": \"Allez donc proposer [...] il faudra soit embaucher, soit allonger les journées.\" Their opinion is never given, and the pioneers are service companies.",
+          "microSkills": ["intention", "inference"]
+        },
+        {
+          "id": "tef-ce-033", "docId": "d1",
+          "prompt": "Que craint l'auteur ?",
+          "options": ["Un accroissement des inégalités entre catégories de travailleurs.", "Une baisse de la productivité.", "Une hausse de l'absentéisme.", "Une diminution des salaires."],
+          "answer": 0,
+          "explain": "\"Le risque est grand de créer une société à deux vitesses : d'un côté, des cadres [...] de l'autre, des travailleurs de première ligne.\" Productivity up and absenteeism down are the pioneers' claims, which he does not dispute; wages are not discussed.",
+          "microSkills": ["paraphrase", "inference"]
+        },
+        {
+          "id": "tef-ce-034", "docId": "d2",
+          "prompt": "Quelle est l'attitude de l'auteur envers les caisses libre-service ?",
+          "options": ["Il les rejette en bloc.", "Il y voit un progrès sans inconvénients.", "Il ne les a jamais utilisées.", "Il s'en sert à l'occasion, tout en dénonçant certains de leurs effets."],
+          "answer": 3,
+          "explain": "\"Je l'avoue : il m'arrive d'utiliser les caisses libre-service\" (he uses them sometimes) and then criticises the transfer of work and the loss of human contact. \"Je ne réclame pas l'interdiction\" rules out total rejection.",
+          "microSkills": ["opinion-fact", "intention"]
+        },
+        {
+          "id": "tef-ce-035", "docId": "d2",
+          "prompt": "Que sous-entend l'auteur à propos des enseignes ?",
+          "options": ["Elles installent ces caisses surtout pour réduire leurs dépenses de personnel.", "Elles baissent leurs prix grâce aux machines.", "Elles forment mal leurs employés.", "Elles cherchent avant tout à faire gagner du temps aux clients."],
+          "answer": 0,
+          "explain": "\"Curieusement, elles sont plus discrètes sur les économies réalisées en salaires\": the ironic \"curieusement\" suggests the real motive is savings. Option D is the official claim he questions; \"sans réduction sur le ticket\" rules out lower prices.",
+          "microSkills": ["inference", "intention"]
+        },
+        {
+          "id": "tef-ce-036", "docId": "d2",
+          "prompt": "Que demande l'auteur ?",
+          "options": ["L'interdiction des caisses automatiques.", "Une réduction de prix pour ceux qui utilisent les machines.", "Le maintien d'un nombre suffisant de caisses avec caissier.", "La formation des personnes âgées aux nouvelles technologies."],
+          "answer": 2,
+          "explain": "\"Je demande seulement que l'on garde [...] assez de caisses traditionnelles ouvertes.\" He explicitly does not ask for a ban; the remark on prices (\"sans réduction sur le ticket, bien entendu\") is irony, not a demand.",
+          "microSkills": ["main-idea", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-037", "docId": "d3",
+          "prompt": "Selon l'auteure, qu'a montré l'expérience de la gratuité dans certaines villes ?",
+          "options": ["Elle a fait baisser la fréquentation.", "Elle a surtout profité au public habituel des musées.", "Elle a attiré de nombreuses nouvelles familles.", "Elle a permis aux musées d'augmenter leurs recettes."],
+          "answer": 1,
+          "explain": "\"La fréquentation a bel et bien augmenté… mais surtout parmi ceux qui fréquentaient déjà les musées. Les familles qui n'y mettaient jamais les pieds ne sont pas venues davantage.\" Free entry means giving up revenue (\"renoncer à des recettes\").",
+          "microSkills": ["detail", "paraphrase"]
+        },
+        {
+          "id": "tef-ce-038", "docId": "d3",
+          "prompt": "Que signifie la dernière phrase : « La gratuité ouvre les portes ; encore faut-il donner envie de les franchir » ?",
+          "options": ["La gratuité ne suffit pas à attirer un nouveau public.", "Les musées devraient rester ouverts plus tard.", "Il faudrait faire payer les touristes.", "Les visiteurs ont du mal à trouver l'entrée des musées."],
+          "answer": 0,
+          "explain": "Removing the price barrier (\"ouvre les portes\") is not enough; people must also want to come (\"donner envie de les franchir\"), which echoes \"le prix du billet n'était donc pas le principal obstacle\". The other options read the metaphor literally or add ideas.",
+          "microSkills": ["inference", "vocabulary"]
+        },
+        {
+          "id": "tef-ce-039", "docId": "d4",
+          "prompt": "Quel reproche principal le critique fait-il au film ?",
+          "options": ["Ses images sont de mauvaise qualité.", "Il est trop court.", "Ses acteurs sont inconnus.", "Il néglige ses personnages au profit de l'esthétique."],
+          "answer": 3,
+          "explain": "\"À force de soigner le cadre, la réalisatrice semble avoir oublié ses personnages\" and \"on connaît par cœur le paysage, mais toujours pas ceux qui l'habitent\". The images are \"superbes\", it lasts two hours, and the actors are \"reconnus\".",
+          "microSkills": ["main-idea", "opinion-fact"]
+        },
+        {
+          "id": "tef-ce-040", "docId": "d4",
+          "prompt": "Comment le critique juge-t-il le travail de Mélanie Gagnon ?",
+          "options": ["Il la trouve décevante.", "Il pense qu'elle aurait dû jouer un autre rôle.", "Il estime qu'elle réussit à rendre vivant un rôle mal écrit.", "Il lui reproche la fausseté des dialogues."],
+          "answer": 2,
+          "explain": "\"Bouleversante [...] qui parvient à donner vie à un personnage pourtant mal écrit.\" The false dialogue is blamed on the writing, not on her; \"Reste...\" introduces the one thing that saves the film besides its images.",
+          "microSkills": ["opinion-fact", "paraphrase"]
+        }
+      ]
+    }
+  ]
+}

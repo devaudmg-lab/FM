@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-01-01",
+  "level": "b2",
+  "unit": "b2-01",
+  "title": "Structuring an argument",
+  "goal": "Build a structured argument the way French speakers expect it: a clear thesis, arguments supported by examples, a counterargument you answer, and a conclusion, linked with formal connectors.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-structure", "kind": "grammar", "fr": "thèse → arguments + exemples → contre-argument → conclusion", "en": "the structure of a formal argument",
+      "drills": [
+        { "type": "cloze", "text": "Le télétravail améliore la qualité de vie. En ___, il supprime le temps de transport.", "answers": [["effet"]], "en": "Remote work improves quality of life. Indeed, it removes commuting time.", "explain": "[[En effet]] confirms the previous sentence and explains it. It introduces a justification, not a contradiction." },
+        { "type": "mcq", "prompt": "Which sentence introduces a counterargument?", "options": ["On objectera que ce modèle coûte cher.", "Prenons l'exemple d'une PME de Laval.", "En premier lieu, la mesure réduit le stress.", "En définitive, c'est une bonne idée."], "optionsFr": true, "answer": 0, "explain": "[[On objectera que…]] announces what the other side will say. You then answer it, often with [[toutefois]]." },
+        { "type": "cloze", "text": "En premier lieu, … En second ___, … Par ___, …", "answers": [["lieu"], ["ailleurs"]], "en": "In the first place, … In the second place, … Furthermore, …", "explain": "[[En premier lieu / en second lieu]] number your arguments; [[par ailleurs]] adds a different one." }
+      ] },
+    { "id": "these", "kind": "vocab", "fr": "thèse", "article": "la", "gender": "f", "en": "thesis, the position you defend", "pos": "noun", "accept": ["une thèse"],
+      "example": { "fr": "Dès l'introduction, l'auteur annonce sa thèse.", "en": "From the introduction, the author states his thesis." }, "note": "In a debate, the opposite position is [[l'antithèse]]." },
+    { "id": "contre-argument", "kind": "vocab", "fr": "contre-argument", "article": "un", "gender": "m", "en": "counterargument", "pos": "noun", "accept": ["le contre-argument"],
+      "example": { "fr": "Un bon texte réfute au moins un contre-argument.", "en": "A good text refutes at least one counterargument." }, "note": "Plural: [[des contre-arguments]]." },
+    { "id": "en-premier-lieu", "kind": "phrase", "fr": "en premier lieu", "en": "in the first place, firstly (formal)", "accept": ["tout d'abord", "premièrement"],
+      "note": "Follow with [[en second lieu]] or [[en deuxième lieu]], then [[enfin]]. (Purists keep [[second]] for when there are only two points; in practice both are used.)" },
+    { "id": "par-ailleurs", "kind": "phrase", "fr": "par ailleurs", "en": "furthermore, in addition (formal)", "accept": ["en outre"],
+      "example": { "fr": "Par ailleurs, cette formule attire les jeunes talents.", "en": "Furthermore, this formula attracts young talent." } },
+    { "id": "en-effet", "kind": "phrase", "fr": "en effet", "en": "indeed (confirms and explains what you just said)",
+      "example": { "fr": "Les employés sont moins fatigués. En effet, ils ont un jour de repos de plus.", "en": "Employees are less tired. Indeed, they have one more day of rest." }, "note": "Not “in fact, actually” (that's [[en fait]], which often corrects)." },
+    { "id": "prenons-lexemple", "kind": "phrase", "fr": "Prenons l'exemple de…", "en": "Let's take the example of…", "accept": ["Prenons l'exemple de"] },
+    { "id": "a-titre-dexemple", "kind": "phrase", "fr": "à titre d'exemple", "en": "by way of example, as an illustration (formal)", "accept": ["par exemple"] },
+    { "id": "on-objectera", "kind": "phrase", "fr": "On objectera que…", "en": "Some will object that…", "accept": ["On pourrait objecter que…", "Certains diront que…"] },
+    { "id": "toutefois", "kind": "vocab", "fr": "toutefois", "en": "however (formal)", "pos": "adverb", "accept": ["cependant", "néanmoins"],
+      "example": { "fr": "L'objection est sérieuse. Toutefois, il existe des solutions.", "en": "The objection is serious. However, there are solutions." } },
+    { "id": "en-definitive", "kind": "phrase", "fr": "en définitive", "en": "ultimately, all things considered", "accept": ["en fin de compte", "au bout du compte"] },
+    { "id": "contrairement-a", "kind": "phrase", "fr": "contrairement à", "en": "contrary to, unlike",
+      "example": { "fr": "Contrairement à ce que l'on pourrait croire, la productivité ne baisse pas.", "en": "Contrary to what one might think, productivity doesn't drop." } },
+    { "id": "main-doeuvre", "kind": "vocab", "fr": "main-d'œuvre", "article": "la", "gender": "f", "en": "workforce, labour (workers available)", "pos": "noun", "accept": ["une main-d'œuvre"],
+      "example": { "fr": "Au Québec, la pénurie de main-d'œuvre touche presque tous les secteurs.", "en": "In Québec, the labour shortage affects almost every sector." } }
+  ],
+  "steps": [
+    { "type": "discover", "title": "An opinion piece",
+      "intro": "Welcome to B2. From now on, texts are longer and closer to what you will read in a newspaper or hear on the radio. Read this opinion piece once for the general idea, then a second time to spot **how it is built**: where is the thesis, where are the examples, where is the counterargument?",
+      "blocks": [
+        { "type": "text", "title": "La semaine de quatre jours : une utopie ?",
+          "context": "An opinion piece (une tribune) by Olivier Gagnon, an HR consultant, in a Québec online newspaper.",
+          "fr": "Depuis quelques années, plusieurs entreprises québécoises testent la semaine de quatre jours. Faut-il généraliser cette formule ? À mon sens, oui : bien organisée, la semaine de quatre jours profite autant aux employés qu'aux employeurs.\n\nEn premier lieu, elle améliore la santé des travailleurs. En effet, une journée de repos supplémentaire permet de récupérer, de passer du temps en famille et de réduire le stress. Prenons l'exemple d'une PME de Sherbrooke qui a adopté ce modèle il y a deux ans : en un an, les congés de maladie y ont diminué de près d'un tiers.\n\nEn second lieu, contrairement à ce que l'on pourrait croire, la productivité ne baisse pas forcément. Des employés reposés se concentrent mieux et perdent moins de temps dans des réunions inutiles. Plusieurs expériences menées en Europe vont dans ce sens.\n\nPar ailleurs, cette formule rend les entreprises plus attirantes. Dans un marché du travail où la main-d'œuvre manque, offrir un vendredi libre est un argument de recrutement redoutable.\n\nOn objectera sans doute que ce modèle ne convient pas à tous les secteurs : un hôpital ou une épicerie ne peut pas fermer un jour par semaine. L'objection est sérieuse. Toutefois, rien n'empêche d'organiser des horaires en rotation, comme le font déjà certains services publics.\n\nEn définitive, la semaine de quatre jours n'est ni une utopie ni une solution miracle. C'est un outil qui, s'il est adapté à chaque milieu, pourrait transformer notre rapport au travail. Reste à savoir si les gouvernements auront le courage de l'encourager.",
+          "en": "For a few years now, several Québec companies have been testing the four-day week. Should this formula be extended to everyone? In my view, yes: if it is well organized, the four-day week benefits employees as much as employers.\n\nIn the first place, it improves workers' health. Indeed, an extra day of rest makes it possible to recover, to spend time with family and to reduce stress. Let's take the example of a small business in Sherbrooke that adopted this model two years ago: in one year, sick leave there dropped by almost a third.\n\nIn the second place, contrary to what one might think, productivity doesn't necessarily drop. Rested employees concentrate better and waste less time in pointless meetings. Several experiments carried out in Europe point in the same direction.\n\nFurthermore, this formula makes companies more attractive. In a job market where workers are in short supply, offering a free Friday is a formidable recruiting argument.\n\nSome will no doubt object that this model doesn't suit every sector: a hospital or a grocery store can't close one day a week. The objection is serious. However, nothing prevents organizing rotating schedules, as some public services already do.\n\nUltimately, the four-day week is neither a utopia nor a miracle solution. It is a tool that, if it is adapted to each workplace, could transform our relationship with work. It remains to be seen whether governments will have the courage to encourage it." },
+        { "type": "dialogue", "title": "Breaking the text down",
+          "context": "Mei and Karim are preparing for the TCF together. They analyze Olivier Gagnon's text.",
+          "lines": [
+            { "speaker": "Mei", "fr": "Ce qui me frappe, c'est que tout est annoncé dès le premier paragraphe : la question, puis sa thèse.", "en": "What strikes me is that everything is announced in the first paragraph: the question, then his thesis." },
+            { "speaker": "Karim", "fr": "Oui, et ensuite il donne trois arguments, chacun dans un paragraphe. Le premier, c'est la santé, avec l'exemple de Sherbrooke.", "en": "Yes, and then he gives three arguments, each in a paragraph. The first one is health, with the Sherbrooke example." },
+            { "speaker": "Mei", "fr": "Le deuxième, la productivité, mais là, il ne donne pas vraiment d'exemple précis. Il parle juste d'expériences en Europe.", "en": "The second, productivity, but there he doesn't really give a precise example. He just talks about experiments in Europe." },
+            { "speaker": "Karim", "fr": "C'est vrai, c'est son argument le plus faible. Par contre, j'aime bien la façon dont il traite l'objection : il la reconnaît, puis il propose une solution.", "en": "True, it's his weakest argument. On the other hand, I like the way he deals with the objection: he acknowledges it, then he offers a solution." },
+            { "speaker": "Mei", "fr": "Et il termine par une question ouverte. Si je faisais ça à l'examen, je pense que l'examinateur apprécierait.", "en": "And he ends with an open question. If I did that in the exam, I think the examiner would appreciate it." },
+            { "speaker": "Karim", "fr": "Sans doute, à condition de ne pas oublier de répondre clairement à la question avant !", "en": "Probably, as long as you don't forget to answer the question clearly first!" }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "What is Olivier Gagnon's thesis?", "options": ["The four-day week, if well organized, benefits both employees and employers", "The four-day week is a utopia", "Only hospitals should adopt the four-day week", "Governments should forbid the five-day week"], "answer": 0,
+          "explain": "The thesis comes right after the question: [[À mon sens, oui : bien organisée, la semaine de quatre jours profite autant aux employés qu'aux employeurs.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "How does the author handle the objection about hospitals and grocery stores?", "options": ["He admits it is serious, then proposes rotating schedules", "He ignores it", "He says it is ridiculous", "He changes his thesis"], "answer": 0,
+          "explain": "[[L'objection est sérieuse. Toutefois, rien n'empêche d'organiser des horaires en rotation…]] Acknowledge, then answer: that is the core of a B2 argument." }
+      ] },
+    { "type": "understand", "title": "The architecture of an argument",
+      "intro": "At B1 you defended an opinion in five moves. At B2 the moves are the same, but each one is more developed, and the connectors are more precise and more formal.",
+      "blocks": [
+        { "type": "table", "title": "From B1 to B2: the five parts",
+          "head": ["Part", "Role", "B1 (you know)", "B2 (formal, written or exam)"],
+          "rows": [
+            ["Introduction + thèse", "Present the issue, then your position", "À mon avis…", "Faut-il… ? À mon sens, … / Je suis d'avis que…"],
+            ["Argument 1 + exemple", "Main reason, made concrete", "D'abord… Par exemple…", "En premier lieu, … En effet, … Prenons l'exemple de…"],
+            ["Argument 2 (and 3)", "Another, different reason", "Ensuite… De plus…", "En second lieu, … Par ailleurs, … À titre d'exemple, …"],
+            ["Contre-argument + réponse", "State the other side fairly, then answer it", "C'est vrai que…, mais…", "On objectera que… L'objection est sérieuse. Toutefois, …"],
+            ["Conclusion", "Sum up, restate, open", "Bref… Pour toutes ces raisons…", "En définitive, … Reste à savoir si…"]
+          ],
+          "frCols": [2, 3], "sayCol": false,
+          "note": "One argument = one paragraph = one idea + one explanation + one example. That simple rule makes any text clearer." },
+        { "type": "explain", "title": "En effet: the most misused connector",
+          "body": "[[En effet]] does **not** mean “in fact” or “actually”. It means “indeed, and here's why”: it **confirms** the previous sentence and **justifies** it.\n\n- [[Les loyers ont beaucoup augmenté. En effet, il manque de logements à Montréal.]] ✓ (explanation)\n- [[Je pensais que c'était loin. En fait, c'est à dix minutes.]] ✓ (correction: [[en fait]])\n- [[Je pensais que c'était loin. En effet, c'est à dix minutes.]] ✗\n\n**Tip:** if you could replace it with *because*, [[en effet]] is right. If you could replace it with *actually, but no*, use [[en fait]]." },
+        { "type": "pattern", "title": "Bringing in an example",
+          "pattern": "Prenons l'exemple de + noun : + concrete fact",
+          "note": "A strong example is **precise**: a place, a figure, a person, a date. [[Plusieurs études]] is vague; [[une PME de Sherbrooke]] is convincing. Other frames: [[À titre d'exemple, …]], [[C'est le cas de…]], [[Il suffit de penser à…]].",
+          "examples": [
+            { "fr": "Prenons l'exemple de la Finlande : les élèves y ont très peu de devoirs.", "en": "Let's take the example of Finland: students there have very little homework." },
+            { "fr": "À titre d'exemple, ma voisine a trouvé un emploi grâce au bénévolat.", "en": "By way of example, my neighbour found a job thanks to volunteering." },
+            { "fr": "C'est le cas de nombreuses villes, comme Gatineau ou Moncton.", "en": "That's the case in many cities, such as Gatineau or Moncton." },
+            { "fr": "Il suffit de penser aux files d'attente aux urgences.", "en": "You only have to think of the waiting lines in emergency rooms." }
+          ] },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["these", "contre-argument", "en-premier-lieu", "par-ailleurs", "en-effet", "prenons-lexemple", "a-titre-dexemple", "on-objectera", "toutefois", "en-definitive", "contrairement-a", "main-doeuvre"] },
+        { "type": "deepdive", "kind": "why", "title": "Why the French insist on structure",
+          "body": "In French schools, students learn very early to write a [[dissertation]] with a strict plan: introduction, development in two or three parts, conclusion. The habit stays for life: journalists, politicians and exam graders all expect to *see* the plan.\n\nThat's why French texts announce what is coming ([[Faut-il… ? À mon sens, oui.]]) and signal every step with a connector. In English, a text that says “firstly… secondly… in conclusion” can sound heavy. In French, it sounds **clear and organized**, which is exactly what TEF and TCF examiners reward." },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common B2 structure mistakes",
+          "body": "- **Thesis hidden at the end.** Readers should know your position after two or three sentences, not discover it in the conclusion.\n- **Connector salad.** [[En effet, par ailleurs, toutefois, en définitive]] in every sentence is too much. One connector per new idea is enough.\n- **En effet for “actually”.** See above: use [[en fait]] to correct.\n- **Strawman counterargument.** [[Certains pensent que le travail, c'est inutile]] is too easy to refute. Present the **real** objection fairly ([[L'objection est sérieuse]]), then answer it.\n- **Conclusion that adds a new argument.** The conclusion sums up and may open a question ([[Reste à savoir si…]]), but it doesn't start a new idea.\n- [[par ailleur]] ✗ → [[par ailleurs]] ✓ (always with -s)." },
+        { "type": "deepdive", "kind": "canada", "title": "PME, congés and the Québec job market",
+          "body": "[[Une PME]] (petite ou moyenne entreprise) is a small or medium business; a large share of Québec's private-sector workers are employed by one. [[Les congés de maladie]] are sick days, and in Québec you'll also hear [[les congés mobiles]] (floating days off) and [[un congé parental]].\n\nThe [[pénurie de main-d'œuvre]] (labour shortage) is a constant topic in Québec media. It's a great **real** example to use in an exam answer about work, immigration or the economy." }
+      ] },
+    { "type": "hear", "title": "Sound structured",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In a formal argument, pause slightly after each connector. It tells the listener: a new step is starting.",
+          "lines": [
+            { "fr": "Faut-il généraliser la semaine de quatre jours ?", "en": "Should the four-day week be extended to everyone?", "tip": "Rising tone on the question, then a pause." },
+            { "fr": "En premier lieu, elle améliore la santé des travailleurs.", "en": "In the first place, it improves workers' health." },
+            { "fr": "En effet, une journée de repos permet de récupérer.", "en": "Indeed, a day of rest makes it possible to recover.", "tip": "[[En effet]]: make the liaison with n, [ɑ̃.ne.fɛ]; the final t is silent." },
+            { "fr": "Prenons l'exemple d'une PME de Sherbrooke.", "en": "Let's take the example of a small business in Sherbrooke." },
+            { "fr": "Par ailleurs, cette formule rend les entreprises plus attirantes.", "en": "Furthermore, this formula makes companies more attractive.", "tip": "[[ailleurs]] [a.jœʁ]: the s is silent." },
+            { "fr": "En définitive, ce n'est ni une utopie ni une solution miracle.", "en": "Ultimately, it's neither a utopia nor a miracle solution." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Certains diront que les transports en commun gratuits coûteraient trop cher. L'argument mérite d'être entendu. Toutefois, il faut aussi calculer ce que coûtent les embouteillages.", "en": "Some will say that free public transit would cost too much. The argument deserves to be heard. However, we also have to calculate what traffic jams cost.", "prompt": "What is the speaker doing?", "options": ["Stating a counterargument, then answering it", "Giving a personal example", "Concluding the argument", "Agreeing completely with the critics"], "answer": 0,
+          "explain": "[[Certains diront que…]] = the other side; [[L'argument mérite d'être entendu]] = fair acknowledgment; [[Toutefois…]] = the answer." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Les jeunes lisent moins qu'avant. En effet, ils passent en moyenne trois heures par jour sur leur téléphone.", "en": "Young people read less than before. Indeed, they spend three hours a day on their phone on average.", "prompt": "What is the role of the second sentence?", "options": ["It explains and supports the first one", "It contradicts the first one", "It corrects a mistake", "It concludes the text"], "answer": 0,
+          "explain": "[[En effet]] introduces a justification of the previous claim." }
+      ] },
+    { "type": "recall", "title": "Build it from memory",
+      "intro": "Eight questions on structure and connectors, with some B1 grammar mixed in.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Les employés sont moins stressés. En ___, ils ont plus de temps pour leur famille.", "answers": [["effet"]], "choices": ["effet", "fait", "fin", "outre"], "en": "Employees are less stressed. Indeed, they have more time for their family.",
+          "explain": "The second sentence justifies the first: [[en effet]]. [[En fait]] would correct it." },
+        { "id": "r2", "type": "match", "prompt": "Match each phrase to its role in an argument.", "pairs": [["À mon sens, …", "stating the thesis"], ["Prenons l'exemple de…", "giving an example"], ["Par ailleurs, …", "adding another argument"], ["On objectera que…", "introducing a counterargument"], ["En définitive, …", "concluding"]] },
+        { "id": "r3", "type": "translate", "prompt": "Let's take the example of Montréal.", "accept": ["Prenons l'exemple de Montréal.", "Prenons l'exemple de la ville de Montréal."],
+          "explain": "[[Prenons]] is the nous imperative of [[prendre]]: *let's take*." },
+        { "id": "r4", "type": "mcq", "prompt": "Which sentence uses the connector correctly?", "options": ["Je croyais que le cours était difficile. En fait, il est assez facile.", "Je croyais que le cours était difficile. En effet, il est assez facile.", "Je croyais que le cours était difficile. Par ailleurs, il est assez facile.", "Je croyais que le cours était difficile. En définitive, il est assez facile."], "optionsFr": true, "answer": 0,
+          "explain": "The second sentence **corrects** a belief, so [[en fait]] (actually).",
+          "optionFeedback": [null, "En effet confirms the previous idea; here you are contradicting it.", "Par ailleurs adds a new, separate argument.", "En définitive is for a conclusion."] },
+        { "id": "r5", "type": "cloze", "text": "___ à ce que l'on pourrait croire, la productivité ne baisse pas.", "answers": [["Contrairement"]], "en": "Contrary to what one might think, productivity doesn't drop.",
+          "explain": "[[contrairement à ce que…]]: note [[ce que]], because [[croire]] takes a direct object (B1 relative pronouns)." },
+        { "id": "r6", "type": "reorder", "prompt": "The objection is serious. However, there are solutions.", "accept": ["L'objection est sérieuse toutefois il existe des solutions", "L'objection est sérieuse il existe toutefois des solutions"], "extra": ["en effet", "car"],
+          "explain": "Acknowledge ([[L'objection est sérieuse]]), then answer with [[toutefois]]." },
+        { "id": "r7", "type": "cloze", "text": "Si les entreprises ___ (offrir) la semaine de quatre jours, elles ___ (attirer) plus de candidats.", "answers": [["offraient"], ["attireraient"]], "en": "If companies offered the four-day week, they would attract more candidates.",
+          "explain": "B1 review: [[si + imparfait → conditionnel présent]], perfect for hypotheses in an argument." },
+        { "id": "r8", "type": "dictation", "fr": "Par ailleurs, cette formule rend les entreprises plus attirantes.", "accept": [], "explain": "[[par ailleurs]] always ends in -s; [[attirantes]] agrees with [[entreprises]] (feminine plural)." }
+      ] },
+    { "type": "apply", "title": "Your turn: build the plan",
+      "intro": "Write a short structured text. Before writing, jot down your plan in five lines: thesis, argument 1 + example, argument 2 + example, counterargument + answer, conclusion.",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "A city newspaper asks its readers: “Faut-il rendre les transports en commun gratuits ?” Write a structured opinion piece in a formal register.", "promptFr": "Faut-il rendre les transports en commun gratuits ? Rédigez un texte argumenté.",
+          "wordRange": [120, 200],
+          "checklist": ["The question and your thesis in the first paragraph", "Two arguments, each in its own paragraph, each with a precise example", "En effet used to justify (not to correct)", "A fair counterargument (On objectera que… / Certains diront que…) and an answer (Toutefois…)", "A conclusion that sums up without adding a new argument", "Formal register: no casual words"],
+          "models": [
+            { "label": "Model answer", "fr": "Faut-il rendre les transports en commun gratuits ? À mon sens, oui, c'est une mesure utile pour les villes.\n\nEn premier lieu, la gratuité aide les familles qui ont peu de moyens. En effet, un abonnement mensuel coûte cher. Prenons l'exemple d'une mère de trois enfants : elle pourrait économiser des centaines de dollars par année.\n\nPar ailleurs, la gratuité est bonne pour l'environnement. Si le bus était gratuit, beaucoup de gens laisseraient leur voiture à la maison, et il y aurait moins de pollution.\n\nOn objectera que cette mesure coûterait très cher aux villes. C'est vrai. Toutefois, les embouteillages et la pollution coûtent aussi beaucoup d'argent.\n\nEn définitive, je pense que la gratuité des transports est un bon investissement pour l'avenir.", "en": "Should public transit be made free? In my view, yes, it's a useful measure for cities.\n\nIn the first place, free transit helps families with limited means. Indeed, a monthly pass is expensive. Let's take the example of a mother of three: she could save hundreds of dollars a year.\n\nFurthermore, free transit is good for the environment. If the bus were free, many people would leave their car at home, and there would be less pollution.\n\nSome will object that this measure would cost cities a lot. That's true. However, traffic jams and pollution also cost a lot of money.\n\nUltimately, I think free transit is a good investment for the future." },
+            { "label": "Stronger model answer", "fr": "Plusieurs villes, notamment en Europe, ont déjà rendu leurs autobus gratuits. Faut-il suivre leur exemple ? Je suis d'avis que la gratuité est une bonne idée, si elle s'accompagne d'un meilleur service.\n\nEn premier lieu, la gratuité est une mesure de justice sociale. En effet, ce sont souvent les ménages les plus modestes qui dépendent du bus. À titre d'exemple, un étudiant qui paie plusieurs centaines de dollars par année en titres de transport retrouverait ainsi une somme importante.\n\nEn second lieu, c'est un levier contre la congestion. Contrairement à ce que l'on pourrait croire, le prix n'est pas un détail : quand le bus devient gratuit, l'automobile perd son principal avantage.\n\nOn objectera que les sociétés de transport perdraient une source de revenus essentielle. L'objection est sérieuse. Toutefois, ce manque à gagner pourrait être compensé par une taxe sur le stationnement au centre-ville.\n\nEn définitive, la gratuité n'est pas une solution miracle, mais un choix politique cohérent. Reste à savoir si les villes auront les moyens de leurs ambitions.", "en": "Several cities, particularly in Europe, have already made their buses free. Should we follow their example? I am of the opinion that free transit is a good idea, as long as it comes with better service.\n\nIn the first place, free transit is a measure of social justice. Indeed, it is often the lowest-income households that depend on the bus. By way of example, a student who pays several hundred dollars a year in transit fares would thus get back a significant sum.\n\nIn the second place, it's a lever against congestion. Contrary to what one might think, price is not a detail: when the bus becomes free, the car loses its main advantage.\n\nSome will object that transit companies would lose an essential source of revenue. The objection is serious. However, this loss of income could be offset by a tax on downtown parking.\n\nUltimately, free transit is not a miracle solution, but a coherent political choice. It remains to be seen whether cities will have the means to match their ambitions." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Build a formal argument: thèse, arguments with precise examples, contre-argument + réponse, conclusion\n- Number and link your ideas with [[en premier lieu]], [[en second lieu]], [[par ailleurs]], [[en définitive]]\n- Justify with [[en effet]] (not “actually”: that's [[en fait]]) and illustrate with [[Prenons l'exemple de…]]\n- Present the other side fairly with [[On objectera que…]], then answer with [[toutefois]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Clarified the en second / en deuxième lieu note, hedged the PME and transit-fare facts, and added an alternative word order to the reorder exercise." }
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-10-03",
+  "level": "a2",
+  "unit": "a2-10",
+  "title": "Story connectors",
+  "goal": "Link the steps of a story with d'abord, ensuite, pendant que, quand, soudain, tout à coup and finalement, and choose the right past tense after each one.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-pendant-que", "kind": "grammar", "fr": "pendant que + imparfait", "en": "while (something was going on)",
+      "drills": [
+        { "type": "cloze", "text": "Pendant que j'___ (attendre) le métro, j'ai entendu une annonce.", "answers": [["attendais"]], "en": "While I was waiting for the metro, I heard an announcement.", "explain": "[[pendant que]] introduces an action in progress → imparfait." },
+        { "type": "cloze", "text": "J'ai dormi ___ le film.", "answers": [["pendant"]], "choices": ["pendant", "pendant que"], "en": "I slept during the movie.", "explain": "[[pendant]] + a noun (*during*); [[pendant que]] + a subject and verb (*while*)." },
+        { "type": "translate", "prompt": "While the children were sleeping, we were watching a movie.", "accept": ["Pendant que les enfants dormaient, on regardait un film.", "Pendant que les enfants dormaient, nous regardions un film.", "On regardait un film pendant que les enfants dormaient.", "Nous regardions un film pendant que les enfants dormaient."], "explain": "Two actions in progress at the same time → two imparfaits." }
+      ] },
+    { "id": "g-soudain", "kind": "grammar", "fr": "soudain / tout à coup + passé composé", "en": "suddenly + passé composé",
+      "drills": [
+        { "type": "cloze", "text": "On marchait tranquillement. Soudain, il ___ (commencer) à pleuvoir.", "answers": [["a commencé"]], "en": "We were walking quietly. Suddenly, it started to rain.", "explain": "[[soudain]] announces a sudden event → passé composé." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Tout à coup, l'autobus s'est arrêté.", "Tout à coup, l'autobus s'arrêtait.", "Tout de suite, l'autobus s'arrêtait."], "optionsFr": true, "answer": 0, "explain": "A sudden event after [[tout à coup]] → passé composé. [[Tout de suite]] means *right away*." }
+      ] },
+    { "id": "d-abord", "kind": "phrase", "fr": "d'abord", "en": "first, first of all" },
+    { "id": "ensuite", "kind": "vocab", "fr": "ensuite", "en": "then, next", "pos": "adverb", "accept": ["puis", "après"] },
+    { "id": "au-debut", "kind": "phrase", "fr": "au début", "en": "at first, at the beginning" },
+    { "id": "pendant-que", "kind": "phrase", "fr": "pendant que", "en": "while" },
+    { "id": "soudain", "kind": "vocab", "fr": "soudain", "en": "suddenly", "pos": "adverb", "accept": ["tout à coup"] },
+    { "id": "tout-a-coup", "kind": "phrase", "fr": "tout à coup", "en": "all of a sudden", "accept": ["soudain"] },
+    { "id": "alors", "kind": "vocab", "fr": "alors", "en": "so (as a result)", "pos": "adverb", "accept": ["donc"] },
+    { "id": "finalement", "kind": "vocab", "fr": "finalement", "en": "in the end, finally", "pos": "adverb", "accept": ["à la fin"] },
+    { "id": "enfin", "kind": "vocab", "fr": "enfin", "en": "at last (after waiting)", "pos": "adverb" },
+    { "id": "heureusement", "kind": "vocab", "fr": "heureusement", "en": "fortunately, luckily", "pos": "adverb" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A crazy Monday morning",
+      "blocks": [
+        { "type": "text", "title": "Nguyen's story",
+          "context": "Nguyen tells his French conversation group about a Monday morning in Montréal.",
+          "fr": "Lundi dernier, j'ai eu une matinée incroyable. D'abord, je me suis réveillé en retard : mon réveil n'a pas sonné ! Ensuite, j'ai couru au métro. Pendant que j'attendais sur le quai, j'ai entendu une annonce : il y avait une panne sur la ligne orange. Alors, j'ai décidé de prendre l'autobus.\nAu début, tout allait bien. Mais soudain, l'autobus s'est arrêté au milieu de la rue : il y avait un accident devant nous. Pendant que le chauffeur parlait au téléphone, les passagers attendaient en silence.\nTout à coup, une dame âgée m'a demandé : « Vous allez où, jeune homme ? » Je lui ai expliqué mon problème. Elle m'a souri et elle m'a dit : « Mon fils va passer me prendre. Il va au centre-ville, venez avec nous ! »\nFinalement, je suis arrivé au bureau à 9 h 30, avec seulement trente minutes de retard. Et le plus drôle ? Cette dame, c'était la mère de ma nouvelle patronne !",
+          "en": "Last Monday, I had an incredible morning. First, I woke up late: my alarm didn't go off! Then I ran to the metro. While I was waiting on the platform, I heard an announcement: there was a breakdown on the orange line. So I decided to take the bus. At first, everything was going well. But suddenly, the bus stopped in the middle of the street: there was an accident in front of us. While the driver was talking on the phone, the passengers were waiting in silence. All of a sudden, an older lady asked me: “Where are you going, young man?” I explained my problem to her. She smiled at me and said: “My son is going to pick me up. He's going downtown, come with us!” In the end, I got to the office at 9:30, only thirty minutes late. And the funniest part? That lady was my new boss's mother!" },
+        { "id": "d1", "type": "mcq", "prompt": "Which words tell you that something unexpected is happening?", "options": ["soudain, tout à coup", "d'abord, ensuite", "au début, finalement"], "optionsFr": true, "answer": 0,
+          "explain": "[[soudain]] and [[tout à coup]] announce a surprise. The others order the steps of the story." },
+        { "id": "d2", "type": "mcq", "prompt": "After “pendant que”, which tense does Nguyen use?", "options": ["The imparfait (j'attendais, parlait)", "The passé composé", "The present"], "answer": 0,
+          "explain": "[[pendant que]] + an action **in progress** → imparfait." }
+      ] },
+    { "type": "understand", "title": "Connectors and tenses",
+      "blocks": [
+        { "type": "table", "title": "Story connectors by job",
+          "head": ["Job", "Connectors", "English"],
+          "rows": [
+            ["Start", "un jour, ce jour-là, au début, d'abord", "one day, that day, at first, first"],
+            ["Next step", "ensuite, puis, après, après ça", "then, next, after that"],
+            ["Consequence", "alors, donc", "so"],
+            ["At the same time", "pendant que, quand, à ce moment-là", "while, when, just then"],
+            ["Surprise", "soudain, tout à coup", "suddenly, all of a sudden"],
+            ["Comment", "heureusement, malheureusement, bizarrement", "luckily, unfortunately, strangely"],
+            ["End", "finalement, enfin, à la fin", "in the end, at last, at the end"]
+          ],
+          "frCols": [1], "sayCol": true },
+        { "type": "table", "title": "Which tense after which connector?",
+          "head": ["Connector", "Usual tense", "Example"],
+          "rows": [
+            ["d'abord, ensuite, puis, après", "passé composé (a sequence)", "D'abord, j'ai pris une douche, ensuite j'ai déjeuné."],
+            ["soudain, tout à coup", "passé composé (a sudden event)", "Soudain, la lumière s'est éteinte."],
+            ["pendant que", "imparfait (in progress)", "Pendant que je cuisinais, le chat dormait."],
+            ["quand (one moment)", "passé composé", "Quand je suis arrivé, tout le monde a applaudi."],
+            ["quand (= at the time when / whenever)", "imparfait", "Quand j'étais jeune, j'allais à l'école à pied."],
+            ["au début", "imparfait (situation) or passé composé (event)", "Au début, tout allait bien. / Au début, j'ai eu peur."],
+            ["finalement, enfin", "passé composé (the outcome)", "Finalement, nous sommes arrivés à minuit."]
+          ],
+          "frCols": [0, 2], "sayCol": false,
+          "note": "The connector gives a strong **hint**, but the meaning decides. Background stays in the imparfait, whatever connector is around it: [[Soudain, j'ai vu un ours. Il était énorme !]]" },
+        { "type": "table", "title": "Nguyen's morning on a timeline",
+          "head": ["Connector", "Background (imparfait)", "Event (passé composé)"],
+          "rows": [
+            ["D'abord", "—", "je me suis réveillé en retard"],
+            ["Ensuite", "—", "j'ai couru au métro"],
+            ["Pendant que", "j'attendais sur le quai", "j'ai entendu une annonce"],
+            ["Alors", "(il y avait une panne)", "j'ai décidé de prendre l'autobus"],
+            ["Au début", "tout allait bien", "—"],
+            ["Soudain", "(il y avait un accident)", "l'autobus s'est arrêté"],
+            ["Pendant que", "le chauffeur parlait, les passagers attendaient", "—"],
+            ["Tout à coup", "—", "une dame m'a demandé…"],
+            ["Finalement", "—", "je suis arrivé au bureau à 9 h 30"]
+          ],
+          "frCols": [0, 1, 2], "sayCol": false,
+          "note": "Notice the rhythm: event, event, background + event, and so on. Each connector pushes the story forward or zooms in on a moment." },
+        { "type": "pattern", "title": "Two backgrounds or a background and an event",
+          "pattern": "pendant que + imparfait, imparfait  |  pendant que + imparfait, passé composé",
+          "note": "Two actions going on at the same time: both in the imparfait. One action in progress interrupted by an event: imparfait + passé composé.",
+          "examples": [
+            { "fr": "Pendant que je faisais la vaisselle, mon mari couchait les enfants.", "en": "While I was doing the dishes, my husband was putting the kids to bed." },
+            { "fr": "Pendant que je faisais la vaisselle, j'ai cassé un verre.", "en": "While I was doing the dishes, I broke a glass." }
+          ] },
+        { "type": "vocab", "title": "Connectors", "itemIds": ["d-abord", "ensuite", "au-debut", "pendant-que", "soudain", "tout-a-coup", "alors", "finalement", "enfin", "heureusement"] },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Pendant vs pendant que:** [[pendant le film]] (+ noun) but [[pendant que je regardais le film]] (+ verb).\n- **Tout à coup ≠ tout de suite.** [[Tout à coup]] = suddenly; [[tout de suite]] = right away, immediately.\n- **Enfin vs finalement:** [[enfin]] suggests *at last!* after a long wait or effort: [[Enfin, l'autobus est arrivé !]] [[Finalement]] gives the outcome, sometimes a change of plan: [[Finalement, on est restés à la maison.]] (In the end, we stayed home.) In speech, [[enfin]] also means *well, I mean*.\n- **Alors is not always “then”.** In a story, [[alors]] usually means *so, as a result*: [[Il pleuvait, alors j'ai pris un taxi.]] For *then* in a sequence, use [[ensuite]] or [[puis]].\n- **Soudain + imparfait:** *Soudain, il pleuvait* → [[Soudain, il a commencé à pleuvoir]]." },
+        { "type": "deepdive", "kind": "examples", "title": "Same events, different stories",
+          "body": "The connectors and tenses change the **meaning**, not just the style:",
+          "examples": [
+            { "fr": "Quand le téléphone a sonné, je me suis réveillé.", "en": "When the phone rang, I woke up. (the ring woke me)" },
+            { "fr": "Quand le téléphone a sonné, je dormais.", "en": "When the phone rang, I was asleep. (background)" },
+            { "fr": "Pendant que je dormais, le téléphone a sonné.", "en": "While I was sleeping, the phone rang." },
+            { "fr": "Je dormais. Tout à coup, le téléphone a sonné.", "en": "I was sleeping. All of a sudden, the phone rang." },
+            { "fr": "Quand j'étais étudiant, le téléphone sonnait tout le temps.", "en": "When I was a student, the phone rang all the time. (habit)" }
+          ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Pause briefly after a connector: it helps the listener follow your story. Raise your voice a little on [[soudain]] and [[tout à coup]].",
+          "lines": [
+            { "fr": "D'abord, je me suis réveillé en retard.", "en": "First, I woke up late." },
+            { "fr": "Pendant que j'attendais, j'ai entendu une annonce.", "en": "While I was waiting, I heard an announcement." },
+            { "fr": "Soudain, l'autobus s'est arrêté.", "en": "Suddenly, the bus stopped.", "tip": "sou-dain: nasal vowel at the end, the n is not pronounced." },
+            { "fr": "Tout à coup, une dame m'a parlé.", "en": "All of a sudden, a lady spoke to me.", "tip": "Link the t: tou-ta-cou." },
+            { "fr": "Finalement, je suis arrivé à 9 h 30.", "en": "In the end, I arrived at 9:30." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Pendant que je faisais les courses, quelqu'un a pris mon vélo devant le magasin. Heureusement, un voisin a tout vu.",
+          "en": "While I was doing the shopping, someone took my bike in front of the store. Luckily, a neighbour saw everything.",
+          "prompt": "What happened?", "options": ["Someone took the speaker's bike while they were shopping.", "The speaker took a bike from a store.", "A neighbour lent the speaker a bike."], "answer": 0,
+          "explain": "[[pendant que je faisais les courses]] = background; [[quelqu'un a pris mon vélo]] = event; [[heureusement]] = luckily." },
+        { "id": "h2", "type": "listen-mcq", "fr": "On a attendu le traversier pendant une heure. Enfin, il est arrivé !",
+          "en": "We waited for the ferry for an hour. At last, it arrived!",
+          "prompt": "How did the speaker feel when the ferry arrived?", "options": ["Relieved: it had been a long wait", "Surprised: it came early", "Sad: they missed it"], "answer": 0,
+          "explain": "[[Enfin !]] = at last: it expresses relief after a long wait." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Choose the connector, then the tense.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "___ je cuisinais, les enfants jouaient dehors.", "answers": [["Pendant que"]], "choices": ["Pendant que", "Pendant", "Soudain", "D'abord"], "en": "While I was cooking, the kids were playing outside.",
+          "explain": "Two actions in progress → [[pendant que]] + imparfait." },
+        { "id": "r2", "type": "cloze", "text": "Nous regardions le match. Tout à coup, l'électricité ___ (manquer).", "answers": [["a manqué"]], "en": "We were watching the game. All of a sudden, the power went out.",
+          "explain": "[[tout à coup]] + a sudden event → passé composé." },
+        { "id": "r3", "type": "mcq", "prompt": "You waited two hours for the plumber. When he finally came, you say:", "optionsFr": true,
+          "options": ["Enfin, le plombier est arrivé !", "Tout à coup, le plombier arrivait.", "Pendant le plombier est arrivé.", "Tout de suite, le plombier est arrivé."], "answer": 0,
+          "optionFeedback": [null, "Tout à coup is for surprises, and an arrival is an event (passé composé).", "Pendant needs a noun, and doesn't fit here.", "Tout de suite = immediately: the opposite of a two-hour wait!"] },
+        { "id": "r4", "type": "reorder", "prompt": "First, I took a shower, then I had breakfast.", "accept": ["D'abord j'ai pris une douche ensuite j'ai déjeuné"], "extra": ["prenais"],
+          "explain": "A sequence of events → passé composé with [[d'abord]], [[ensuite]]. ([[déjeuner]] = to have breakfast in Québec; *to have lunch* in France.)" },
+        { "id": "r5", "type": "translate", "prompt": "It was raining, so I took a taxi.", "accept": ["Il pleuvait, alors j'ai pris un taxi.", "Il pleuvait, donc j'ai pris un taxi.", "Il pleuvait alors j'ai pris un taxi.", "Comme il pleuvait, j'ai pris un taxi."], "hint": "so = alors",
+          "explain": "Background ([[il pleuvait]]) + consequence ([[alors j'ai pris]])." },
+        { "id": "r6", "type": "match", "prompt": "Match each connector with its meaning.", "pairs": [["au début", "at first"], ["pendant que", "while"], ["soudain", "suddenly"], ["alors", "so, as a result"], ["finalement", "in the end"], ["tout de suite", "right away"]] },
+        { "id": "r7", "type": "cloze", "text": "Au début, tout ___ (aller) bien. Mais soudain, ma voiture ___ (tomber) en panne.", "answers": [["allait"], ["est tombée"]], "en": "At first, everything was going well. But suddenly, my car broke down.",
+          "explain": "Situation → [[allait]]; sudden event → [[est tombée]] (tomber + être, agreement with *voiture*)." },
+        { "id": "r8", "type": "translate", "prompt": "While I was waiting for the bus, I called my sister.", "accept": ["Pendant que j'attendais l'autobus, j'ai appelé ma sœur.", "Pendant que j'attendais le bus, j'ai appelé ma sœur.", "Pendant que j'attendais l'autobus, j'ai téléphoné à ma sœur.", "Pendant que j'attendais le bus, j'ai téléphoné à ma sœur.", "J'ai appelé ma sœur pendant que j'attendais l'autobus.", "J'ai appelé ma sœur pendant que j'attendais le bus.", "J'ai téléphoné à ma sœur pendant que j'attendais l'autobus.", "J'ai téléphoné à ma sœur pendant que j'attendais le bus."],
+          "explain": "[[attendre]] is direct (no *for*): [[j'attendais l'autobus]]." },
+        { "id": "r9", "type": "dictation", "fr": "Finalement, nous sommes arrivés à la maison à minuit.", "accept": ["Finalement, nous sommes arrivées à la maison à minuit."],
+          "explain": "[[arriver]] takes être: [[nous sommes arrivés]]." },
+        { "id": "r10", "type": "cloze", "text": "La dame m'a souri et elle m'a dit : « Venez avec nous ! » Je ___ ai dit merci.", "answers": [["lui"]], "choices": ["lui", "la", "leur"], "en": "The lady smiled at me and said: “Come with us!” I said thank you to her.",
+          "explain": "Review: [[dire à quelqu'un]] → [[lui]]." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Tell the story of a day when things didn't go as planned (transport, weather, an appointment). Use at least five connectors from the lesson.", "seconds": 50,
+          "checklist": ["Start: Un jour / La semaine dernière…", "A sequence: d'abord, ensuite", "Background with pendant que + imparfait", "A surprise: soudain / tout à coup + passé composé", "An ending: finalement / enfin"],
+          "models": [ { "label": "Model answer", "fr": "Samedi dernier, je voulais aller voir ma sœur à Québec. D'abord, je suis allé à la gare d'autobus. Ensuite, j'ai acheté mon billet et je me suis assis. Pendant que je lisais, l'autobus roulait sur l'autoroute. Soudain, il s'est arrêté : il y avait une tempête de neige ! Nous avons attendu pendant deux heures. Heureusement, j'avais un bon livre. Finalement, je suis arrivé à Québec à 22 h, très fatigué, mais content !", "en": "Last Saturday, I wanted to go and see my sister in Québec City. First, I went to the bus station. Then I bought my ticket and sat down. While I was reading, the bus was driving along the highway. Suddenly, it stopped: there was a snowstorm! We waited for two hours. Luckily, I had a good book. In the end, I arrived in Québec City at 10 p.m., very tired, but happy!" } ] },
+        { "id": "w1", "type": "write", "prompt": "Rewrite this list as a short story with connectors and the right tenses: wake up late — it is raining — run to the bus stop — wait — a car splashes you — arrive at work — your colleague laughs — she gives you a T-shirt.", "promptFr": "Racontez cette journée avec des connecteurs.", "wordRange": [40, 90],
+          "checklist": ["At least five connectors", "Background in the imparfait (weather, waiting)", "Events in the passé composé", "One pendant que", "One soudain or tout à coup", "An ending with finalement or heureusement"],
+          "models": [ { "label": "Model answer", "fr": "Mardi, je me suis réveillée en retard. Il pleuvait beaucoup. D'abord, j'ai couru à l'arrêt d'autobus. Pendant que j'attendais, je regardais mon téléphone. Tout à coup, une voiture est passée très vite et elle m'a éclaboussée ! J'étais toute mouillée. Ensuite, je suis arrivée au travail. Ma collègue Lucie a ri, mais heureusement, elle m'a prêté un t-shirt. Finalement, la journée a été bonne !", "en": "On Tuesday, I woke up late. It was raining a lot. First, I ran to the bus stop. While I was waiting, I was looking at my phone. All of a sudden, a car went by very fast and splashed me! I was all wet. Then I got to work. My colleague Lucie laughed, but luckily she lent me a T-shirt. In the end, the day was good! (éclabousser = to splash. The extra -e in éclaboussée agrees with me, a woman: that agreement rule comes at a later level.)" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Order a story with [[d'abord, ensuite, puis, alors, finalement]] (mostly passé composé)\n- Zoom in on a moment with [[pendant que]] + imparfait, and surprise the listener with [[soudain]] / [[tout à coup]] + passé composé\n- Know the traps: *pendant* vs *pendant que*, *tout à coup* vs *tout de suite*, *enfin* vs *finalement*",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed enfin from the accepted answers for finalement, which contradicted the lesson's enfin/finalement distinction. Added a gloss for éclaboussée (agreement with a preceding direct object is above level and is not tested)." }
+}

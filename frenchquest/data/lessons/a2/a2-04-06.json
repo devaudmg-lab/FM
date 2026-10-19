@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-04-06",
+  "level": "a2",
+  "unit": "a2-04",
+  "title": "Workshop: Future plans",
+  "goal": "Get more practice with the futur proche, the futur simple, quand + futur and making plans, in new situations: a baby on the way, a wedding trip and a retirement party.",
+  "minutes": 20,
+  "items": [
+    { "id": "conge-parental", "kind": "vocab", "fr": "congé parental", "article": "le", "gender": "m", "en": "parental leave", "pos": "noun",
+      "example": { "fr": "Je vais prendre un congé parental.", "en": "I'm going to take parental leave." }, "note": "Also [[le congé de maternité]] and [[le congé de paternité]]." },
+    { "id": "garderie", "kind": "vocab", "fr": "garderie", "article": "la", "gender": "f", "en": "daycare", "pos": "noun",
+      "example": { "fr": "Notre fils ira à la garderie en septembre.", "en": "Our son will go to daycare in September." } },
+    { "id": "retraite", "kind": "vocab", "fr": "retraite", "article": "la", "gender": "f", "en": "retirement", "pos": "noun",
+      "example": { "fr": "Elle prendra sa retraite en juin.", "en": "She will retire in June." }, "note": "[[prendre sa retraite]] = to retire; [[être à la retraite]] = to be retired." },
+    { "id": "economiser", "kind": "vocab", "fr": "économiser", "en": "to save (money)", "pos": "verb",
+      "example": { "fr": "Nous économisons pour acheter une maison.", "en": "We're saving to buy a house." } },
+    { "id": "organiser", "kind": "vocab", "fr": "organiser", "en": "to organize", "pos": "verb",
+      "example": { "fr": "Nous organiserons une fête jeudi.", "en": "We'll organize a party on Thursday." } },
+    { "id": "se-marier", "kind": "vocab", "fr": "se marier", "en": "to get married", "pos": "verb",
+      "example": { "fr": "Mon frère va se marier en août.", "en": "My brother is going to get married in August." }, "note": "[[se marier avec quelqu'un]] = to marry someone." },
+    { "id": "s-occuper-de", "kind": "phrase", "fr": "s'occuper de", "en": "to take care of, to look after",
+      "example": { "fr": "Je m'occuperai du bébé la nuit.", "en": "I'll take care of the baby at night." }, "note": "[[de + le]] → [[du]]: s'occuper du chat." },
+    { "id": "avoir-intention", "kind": "phrase", "fr": "avoir l'intention de", "en": "to intend to, to plan to",
+      "example": { "fr": "Nous avons l'intention de déménager.", "en": "We intend to move." } },
+    { "id": "j-espere-que", "kind": "phrase", "fr": "J'espère que…", "en": "I hope that…",
+      "example": { "fr": "J'espère que tu viendras.", "en": "I hope you'll come. (to a friend)" }, "note": "For the future, use the futur after [[j'espère que]]: [[j'espère qu'il fera beau]]." },
+    { "id": "a-l-avenir", "kind": "phrase", "fr": "à l'avenir", "en": "in the future (from now on)",
+      "example": { "fr": "À l'avenir, je partirai plus tôt.", "en": "In the future, I'll leave earlier." } }
+  ],
+  "steps": [
+    {
+      "type": "discover",
+      "title": "Big news at lunch",
+      "intro": "Raj has news for his colleague Olivier. Read once for the story, then find the three ways they talk about the future: present, **aller + infinitive** and the **futur simple**.",
+      "blocks": [
+        {
+          "type": "dialogue",
+          "title": "In the office kitchen, at lunchtime",
+          "context": "Raj and Olivier eat lunch together. Olivier has twins.",
+          "lines": [
+            { "speaker": "Raj", "fr": "Olivier, j'ai une grande nouvelle : Priya et moi, nous allons avoir un bébé !", "en": "Olivier, I have big news: Priya and I are going to have a baby!" },
+            { "speaker": "Olivier", "fr": "Félicitations ! C'est pour quand ?", "en": "Congratulations! When is it due?" },
+            { "speaker": "Raj", "fr": "Le bébé arrivera en mars, si tout va bien.", "en": "The baby will arrive in March, if all goes well." },
+            { "speaker": "Olivier", "fr": "Super ! Et vous allez rester dans votre appartement ?", "en": "Great! And are you going to stay in your apartment?" },
+            { "speaker": "Raj", "fr": "Non, il est trop petit. Nous avons l'intention de déménager l'été prochain. En ce moment, nous économisons pour acheter une maison à Laval.", "en": "No, it's too small. We intend to move next summer. Right now, we're saving to buy a house in Laval." },
+            { "speaker": "Olivier", "fr": "Et le travail ?", "en": "And work?" },
+            { "speaker": "Raj", "fr": "Priya prendra un congé de maternité, et moi, je vais prendre un congé de paternité de cinq semaines. Quand le bébé sera là, je m'occuperai de lui la nuit !", "en": "Priya will take maternity leave, and I'm going to take five weeks of paternity leave. When the baby is here, I'll take care of him at night!" },
+            { "speaker": "Olivier", "fr": "Bon courage ! Moi, avec les jumeaux, j'ai très mal dormi la première année.", "en": "Good luck! With the twins, I slept really badly the first year." },
+            { "speaker": "Raj", "fr": "Tu as des conseils ?", "en": "Do you have any advice?" },
+            { "speaker": "Olivier", "fr": "Oui : il faudra inscrire le bébé à la garderie tout de suite ! Au Québec, il y a souvent des listes d'attente.", "en": "Yes: you'll have to register the baby for daycare right away! In Québec, there are often waiting lists." },
+            { "speaker": "Raj", "fr": "Déjà ? Il n'est pas encore né !", "en": "Already? He isn't even born yet!" },
+            { "speaker": "Olivier", "fr": "Je sais ! Mais tu verras : le temps passe très vite. Dis, ça te dit de venir souper samedi avec Priya ? On pourrait parler de tout ça, et on a encore beaucoup de jouets pour le bébé.", "en": "I know! But you'll see: time goes by very fast. Hey, would you like to come for dinner on Saturday with Priya? We could talk about all this, and we still have lots of toys for the baby." },
+            { "speaker": "Raj", "fr": "Avec plaisir ! J'espère que Priya sera libre. On apportera le dessert.", "en": "With pleasure! I hope Priya will be free. We'll bring dessert." }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "body": "[[C'est pour quand ?]] = When is it due? (about a baby). [[les jumeaux]] = twins. [[inscrire]] = to register, to sign up. [[une liste d'attente]] = a waiting list. [[tout de suite]] = right away."
+        },
+        { "id": "c1", "type": "mcq", "prompt": "Why do Raj and Priya want to move?", "options": ["Their apartment is too small.", "They want to live near Olivier.", "Priya has a new job in Laval."], "answer": 0,
+          "explain": "[[il est trop petit]]: they [[ont l'intention de déménager l'été prochain]]." },
+        { "id": "c2", "type": "mcq", "prompt": "What will Raj do when the baby is born?", "options": ["Take five weeks of paternity leave and look after the baby at night", "Take maternity leave", "Stop working for a year"], "answer": 0,
+          "explain": "[[je vais prendre un congé de paternité de cinq semaines]] and [[je m'occuperai de lui la nuit]]." },
+        { "id": "c3", "type": "mcq", "prompt": "What is Olivier's advice?", "options": ["Register the baby for daycare right away.", "Buy a lot of toys.", "Stay in the apartment."], "answer": 0,
+          "explain": "[[il faudra inscrire le bébé à la garderie tout de suite]], because of the waiting lists." }
+      ]
+    },
+    {
+      "type": "understand",
+      "title": "Unit 4 at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Talking about the future",
+          "head": ["What", "Example"],
+          "rows": [
+            ["present + time marker", "On déménage l'été prochain."],
+            ["futur proche: aller + infinitive", "Je vais prendre un congé. Je ne vais pas rester ici."],
+            ["futur simple: infinitive + -ai, -as, -a, -ons, -ez, -ont", "Le bébé arrivera en mars. Priya prendra un congé."],
+            ["irregular stems", "je serai, j'aurai, j'irai, je ferai, je pourrai, je viendrai, tu verras, il faudra"],
+            ["quand + futur", "Quand le bébé sera là, je m'occuperai de lui."],
+            ["making plans", "Ça te dit de venir ? On pourrait parler. Et si on invitait Mei ?"]
+          ],
+          "frCols": [1],
+          "sayCol": true
+        },
+        {
+          "type": "explain",
+          "title": "Which future?",
+          "body": "All three are correct; the choice is about tone.\n\n- **Present** for a fixed plan: [[On déménage en juillet.]]\n- **Aller + infinitive** in conversation, for intentions: [[Je vais prendre un congé.]]\n- **Futur simple** for writing, promises and things further away: [[Le bébé arrivera en mars.]] [[On apportera le dessert.]]\n\nTwo rules never change: after **quand**, when you mean the future, use the future ([[quand il sera là]]), and after **et si on**, use the imparfait ([[et si on invitait…]])."
+        },
+        {
+          "type": "vocab",
+          "title": "New words for life plans",
+          "itemIds": ["conge-parental", "garderie", "retraite", "economiser", "organiser", "se-marier", "s-occuper-de", "avoir-intention", "j-espere-que", "a-l-avenir"]
+        },
+        {
+          "type": "deepdive",
+          "kind": "canada",
+          "title": "Parental leave and daycare",
+          "body": "- In most provinces, parental benefits come from **Employment Insurance** ([[l'assurance-emploi]]). Québec has its own plan, the **RQAP** ([[Régime québécois d'assurance parentale]]), which includes paternity leave just for the father or the other parent.\n- In Québec, many families want a place in a subsidized daycare, a **CPE** ([[centre de la petite enfance]]), and they often join the waiting list very early, sometimes even before the baby is born (in Québec, this is done online through **La Place 0-5**).\n\nRules and amounts change, so always check the official government websites."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Two recordings",
+      "intro": "Listen to each recording first, then answer. Each question replays one part.",
+      "blocks": [
+        {
+          "type": "listen",
+          "title": "1. Mei's voice message",
+          "context": "Mei calls her friend Camille with a request.",
+          "fr": "Salut Camille, c'est Mei ! Grande nouvelle : mon frère va se marier en août, à Vancouver ! Je partirai le 10 août et je resterai deux semaines là-bas. Mes parents viendront aussi de Shanghai, alors toute la famille sera ensemble. J'ai une question : est-ce que tu pourras t'occuper de mon chat pendant mon voyage ? Tu auras mes clés, bien sûr. Ça te dit de prendre un café jeudi ? On pourrait en parler. J'espère que tu seras libre ! Bisous !",
+          "en": "Hi Camille, it's Mei! Big news: my brother is going to get married in August, in Vancouver! I'll leave on August 10 and I'll stay there for two weeks. My parents will come from Shanghai too, so the whole family will be together. I have a question: will you be able to look after my cat during my trip? You'll have my keys, of course. Would you like to have a coffee on Thursday? We could talk about it. I hope you'll be free! Love!"
+        },
+        {
+          "type": "listen",
+          "title": "2. A speech at work",
+          "context": "A manager speaks to the team at a Monday meeting.",
+          "fr": "Bonjour tout le monde. Avant de commencer, une nouvelle un peu triste, mais aussi très belle : notre collègue Denise prendra sa retraite vendredi prochain. Denise a commencé ici en 1995 : elle connaît tout le monde ! Quand elle sera à la retraite, elle voyagera avec son mari et elle s'occupera de ses petits-enfants. Pour dire merci à Denise, nous organiserons une petite fête jeudi, à 16 h, dans la grande salle. Il y aura un gâteau, et toute l'équipe offrira un cadeau à Denise. J'espère que vous serez nombreux !",
+          "en": "Hello everyone. Before we start, some news that is a bit sad, but also very nice: our colleague Denise will retire next Friday. Denise started here in 1995: she knows everybody! When she's retired, she'll travel with her husband and take care of her grandchildren. To thank Denise, we'll organize a small party on Thursday at 4 p.m., in the main room. There will be a cake, and the whole team will give Denise a gift. I hope many of you will come!"
+        },
+        { "id": "h1", "type": "listen-mcq", "fr": "Grande nouvelle : mon frère va se marier en août, à Vancouver !", "en": "Big news: my brother is going to get married in August, in Vancouver!",
+          "prompt": "Why is Mei going to Vancouver?", "options": ["For her brother's wedding", "For a new job", "To visit her parents' new home"], "answer": 0,
+          "explain": "[[mon frère va se marier]]: futur proche of a reflexive verb, se marier = to get married." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je partirai le 10 août et je resterai deux semaines là-bas.", "en": "I'll leave on August 10 and I'll stay there for two weeks.",
+          "prompt": "How long will Mei stay in Vancouver?", "options": ["Two weeks", "Ten days", "All of August"], "answer": 0,
+          "explain": "[[je resterai deux semaines]]. The 10 is the date she leaves." },
+        { "id": "h3", "type": "listen-mcq", "fr": "J'ai une question : est-ce que tu pourras t'occuper de mon chat pendant mon voyage ? Tu auras mes clés, bien sûr.", "en": "I have a question: will you be able to look after my cat during my trip? You'll have my keys, of course.",
+          "prompt": "What does Mei ask Camille to do?", "options": ["Look after her cat", "Drive her to the airport", "Come to the wedding"], "answer": 0,
+          "explain": "[[t'occuper de mon chat]]: s'occuper de = to look after. [[tu pourras]] = you'll be able to." },
+        { "id": "h4", "type": "listen-mcq", "fr": "Quand elle sera à la retraite, elle voyagera avec son mari et elle s'occupera de ses petits-enfants.", "en": "When she's retired, she'll travel with her husband and take care of her grandchildren.",
+          "prompt": "What will Denise do when she's retired?", "options": ["Travel and take care of her grandchildren", "Work part-time with the team", "Move to Europe"], "answer": 0,
+          "explain": "[[elle voyagera]] and [[elle s'occupera de ses petits-enfants]]. Notice [[quand elle sera]]: future after quand." },
+        { "id": "h5", "type": "listen-mcq", "fr": "Pour dire merci à Denise, nous organiserons une petite fête jeudi, à 16 h, dans la grande salle.", "en": "To thank Denise, we'll organize a small party on Thursday at 4 p.m., in the main room.",
+          "prompt": "When is the party?", "options": ["Thursday at 4 p.m.", "Friday at 4 p.m.", "Monday morning"], "answer": 0,
+          "explain": "[[jeudi, à 16 h]]. Friday is her last day ([[vendredi prochain]])." },
+        { "id": "d1", "type": "dictation", "fr": "Je partirai le 10 août et je resterai deux semaines.", "accept": ["Je partirai le dix août et je resterai deux semaines."],
+          "explain": "Futur simple: [[partir → je partirai]], [[rester → je resterai]]: the whole infinitive + -ai." },
+        { "id": "d2", "type": "dictation", "fr": "Quand elle sera à la retraite, elle voyagera.", "accept": ["Quand elle sera à la retraite elle voyagera."],
+          "explain": "[[sera]]: irregular future of être, after quand. [[voyagera]]: regular." }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Mixed practice",
+      "intro": "Twelve questions: most on Unit 4, some on Units 1 to 3. Aim for 80%.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le bébé ___ en mars. (arriver, futur simple)", "answers": [["arrivera"]], "choices": ["arrivera", "arriverai", "arrivait", "est arrivé"], "en": "The baby will arrive in March.",
+          "explain": "il / elle → infinitive + -a: [[arrivera]]." },
+        { "id": "r2", "type": "cloze", "text": "Quand le bébé ___ là, je ___ de lui la nuit. (être, s'occuper)", "answers": [["sera"], ["m'occuperai", "vais m'occuper"]], "en": "When the baby is here, I'll take care of him at night.",
+          "explain": "Future after quand: [[sera]]. Then the futur simple of a reflexive verb: [[je m'occuperai]] ([[je vais m'occuper]] is also correct)." },
+        { "id": "r3", "type": "mcq", "prompt": "Quand je ___ à la retraite, je voyagerai.", "options": ["serai", "suis", "étais"], "optionsFr": true, "answer": 0,
+          "explain": "In English: *when I am retired*. In French, the action is in the future, so: [[quand je serai]].",
+          "optionFeedback": [null, "English uses the present after “when”; French uses the future.", "That's the imparfait: “when I was”."] },
+        { "id": "r4", "type": "translate", "prompt": "We intend to move next summer. (use nous)", "accept": ["Nous avons l'intention de déménager l'été prochain.", "L'été prochain, nous avons l'intention de déménager."], "hint": "avoir l'intention de + infinitive",
+          "explain": "[[avoir l'intention de]] + infinitive. [[l'été prochain]] = next summer." },
+        { "id": "r5", "type": "reorder", "prompt": "I hope you'll come. (to a friend)", "accept": ["J'espère que tu viendras."], "extra": ["viens"],
+          "explain": "[[j'espère que]] + futur for something that hasn't happened yet: [[tu viendras]] (venir → viendr-)." },
+        { "id": "r6", "type": "translate", "prompt": "We're going to save money for a house. (use nous)", "accept": ["Nous allons économiser pour une maison.", "Nous allons économiser de l'argent pour une maison.", "Nous allons économiser pour acheter une maison.", "Nous allons économiser de l'argent pour acheter une maison."], "hint": "aller + infinitive",
+          "explain": "Futur proche: [[nous allons]] + infinitive [[économiser]]." },
+        { "id": "r7", "type": "match", "prompt": "Match the new words.", "pairs": [["la garderie", "daycare"], ["la retraite", "retirement"], ["économiser", "to save (money)"], ["se marier", "to get married"], ["à l'avenir", "in the future"], ["s'occuper de", "to take care of"]] },
+        { "id": "r8", "type": "cloze", "text": "Ça te dit ___ venir souper samedi ? — Bonne idée ! Et si on ___ Mei aussi ? (inviter)", "answers": [["de"], ["invitait"]], "en": "Do you feel like coming for dinner on Saturday? — Good idea! What if we invited Mei too?",
+          "explain": "[[ça te dit de]] + infinitive. After [[et si on]], always the imparfait: [[invitait]]." },
+        { "id": "r9", "type": "dictation", "fr": "Avant, nous habitions à Montréal. L'année prochaine, nous habiterons à Laval.", "accept": ["Avant nous habitions à Montréal. L'année prochaine nous habiterons à Laval."],
+          "explain": "Unit 3 vs Unit 4: [[habitions]] (imparfait, -ions) and [[habiterons]] (futur, -ons). Listen for the **r**." },
+        { "id": "r10", "type": "cloze", "text": "Olivier, tes jumeaux sont ___ en quelle année ? (naître)", "answers": [["nés"]], "choices": ["nés", "né", "nées"], "en": "Olivier, what year were your twins born?",
+          "explain": "Unit 2: naître → être + participle that agrees. Twin boys (or a boy and a girl) → [[nés]]." },
+        { "id": "r11", "type": "mcq", "prompt": "La semaine dernière, nous ___ visité une maison. La semaine prochaine, nous ___ une offre.", "options": ["avons / ferons", "avons / avons fait", "ferons / avons", "sommes / ferons"], "optionsFr": true, "answer": 0,
+          "explain": "Past (Unit 1): [[nous avons visité]]. Future: faire → [[nous ferons]].",
+          "optionFeedback": [null, "La semaine prochaine needs the future.", "The tenses are the wrong way round.", "Visiter uses avoir: nous avons visité."] },
+        { "id": "r12", "type": "translate", "prompt": "When I was little, I wanted to be a doctor.", "accept": ["Quand j'étais petit, je voulais être médecin.", "Quand j'étais petite, je voulais être médecin.", "Quand j'étais petit, je voulais devenir médecin.", "Quand j'étais petite, je voulais devenir médecin.", "Quand j'étais petit, je voulais être docteur.", "Quand j'étais petite, je voulais être docteur."], "hint": "Unit 3: imparfait for states and wishes; no article before a job",
+          "explain": "A state and a wish in the past → imparfait: [[j'étais]], [[je voulais]]. No article: [[être médecin]]." }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Your turn",
+      "intro": "Two missions. Use the checklist, then compare with the **Model answer** and the **Stronger model answer**.",
+      "blocks": [
+        {
+          "id": "w1", "type": "write",
+          "prompt": "Write an email to a friend who lives far away (60–100 words). Announce a big plan for next year (a move, a baby, a wedding, studies, a new job, a retirement…): what will happen, when, what you will do, and invite your friend to something.",
+          "promptFr": "Écrivez un courriel à un ami : annoncez un grand projet pour l'année prochaine.",
+          "wordRange": [60, 100],
+          "checklist": ["A greeting and the news: J'ai une grande nouvelle !", "At least two verbs with aller + infinitive", "At least three verbs in the futur simple, including one irregular (serai, aurai, irai, ferai…)", "One sentence with quand + futur", "J'espère que… or avoir l'intention de…", "An invitation: Ça te dit de… ? / Tu viendras ?"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Salut Diego ! J'ai une grande nouvelle : l'année prochaine, je vais retourner aux études ! En septembre, je commencerai un programme en soins infirmiers à Ottawa. Je ne pourrai pas beaucoup travailler, alors je vais économiser cette année. Quand j'aurai mon diplôme, je travaillerai dans un hôpital. J'espère que tu viendras me voir à Ottawa. Ça te dit de venir en octobre ? On pourrait visiter le Parlement ensemble !",
+              "en": "Hi Diego! I have big news: next year I'm going back to school! In September I'll start a nursing program in Ottawa. I won't be able to work much, so I'm going to save money this year. When I have my diploma, I'll work in a hospital. I hope you'll come and see me in Ottawa. Would you like to come in October? We could visit Parliament together!" },
+            { "label": "Stronger model answer",
+              "fr": "Chère Ana, j'ai une très belle nouvelle : Marc et moi, nous allons nous marier ! La cérémonie aura lieu le 14 juin, à Québec, dans un petit jardin au bord du fleuve. Ce sera simple : une quarantaine d'invités et un grand souper. Avant ça, nous allons chercher un appartement plus grand, parce que nous avons l'intention d'avoir des enfants un jour. Quand la date sera plus proche, nous enverrons une vraie invitation à tout le monde. J'espère que tu pourras venir de Lisbonne ! Et si on prenait quelques jours de vacances ensemble après le mariage ?",
+              "en": "Dear Ana, I have wonderful news: Marc and I are going to get married! The ceremony will take place on June 14, in Québec City, in a small garden by the river. It will be simple: about forty guests and a big dinner. Before that, we're going to look for a bigger apartment, because we intend to have children one day. When the date is closer, we'll send a real invitation to everyone. I hope you'll be able to come from Lisbon! What if we took a few days of vacation together after the wedding?" }
+          ]
+        },
+        {
+          "id": "s1", "type": "speak",
+          "prompt": "Leave a voicemail for a friend (45–60 seconds). Tell them about a plan or an event coming up (a party, a trip, a family event), say what you will do, and suggest a day, a time and a place to meet.",
+          "promptFr": "Laissez un message vocal : parlez d'un projet et proposez un rendez-vous.",
+          "seconds": 60,
+          "checklist": ["Salut, c'est… + the news", "Two or three plans in the futur simple or with aller", "Quand + futur", "A suggestion: Ça te dit de… ? / On pourrait…", "Day, time and place: On se retrouve…", "Goodbye: Rappelle-moi ! / À bientôt !"],
+          "models": [
+            { "label": "Model answer",
+              "fr": "Salut Sofia, c'est Karim. Samedi prochain, j'organise une petite fête pour l'anniversaire de mon fils. Il aura six ans ! Il y aura des jeux et un gros gâteau. Ça te dit de venir avec tes filles ? On commencera vers 14 h, chez moi. Quand tu arriveras, appelle-moi : je descendrai ouvrir la porte. À bientôt !",
+              "en": "Hi Sofia, it's Karim. Next Saturday I'm organizing a little party for my son's birthday. He'll be six! There will be games and a big cake. Would you like to come with your daughters? We'll start around 2 p.m., at my place. When you arrive, call me: I'll come down and open the door. See you soon!" },
+            { "label": "Stronger model answer",
+              "fr": "Salut Nguyen, c'est Lucie ! Je t'appelle parce que j'ai enfin réservé mes vacances : je partirai en Gaspésie le 3 juillet, avec mon chum. On va louer une voiture à Québec et on fera le tour de la péninsule. Quand on sera à Percé, on prendra le bateau pour voir les fous de Bassan. Je suis tellement contente ! Dis, avant mon départ, ça te dit de souper ensemble ? On pourrait essayer le restaurant thaï près du bureau, jeudi vers 18 h. Ça te va ? Rappelle-moi !",
+              "en": "Hi Nguyen, it's Lucie! I'm calling because I've finally booked my vacation: I'll leave for the Gaspé Peninsula on July 3, with my boyfriend. We're going to rent a car in Québec City and we'll go around the peninsula. When we're in Percé, we'll take the boat to see the gannets. I'm so happy! Hey, before I leave, would you like to have dinner together? We could try the Thai restaurant near the office, Thursday around 6 p.m. Does that work for you? Call me back!" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 8 } ]
+    }
+  ],
+  "summary": "- Talk about big life plans with the present, [[aller + infinitif]] and the futur simple\n- Use [[quand + futur]], [[j'espère que + futur]] and [[avoir l'intention de]]\n- Follow a voice message about a trip and a retirement announcement at work\n- New words for life events: [[le congé parental, la garderie, la retraite, se marier, s'occuper de]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed an illogical sentence in the write model, completed accept lists (r2 futur proche, r9 commas, r12 docteur) and hedged the CPE waiting-list note with La Place 0-5." }
+}

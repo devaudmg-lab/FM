@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-05-03",
+  "level": "b1",
+  "unit": "b1-05",
+  "title": "The passive voice",
+  "goal": "Understand and use the passive voice (être + past participle, with par or de) in all the main tenses, and replace it with on when it sounds more natural.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-passive", "kind": "grammar", "fr": "être + participe passé", "en": "the passive voice: formation and agreement",
+      "drills": [
+        { "type": "cloze", "text": "Les écoles ont été ___ (fermer) à cause de la tempête.", "answers": [["fermées"]], "en": "The schools were closed because of the storm.", "explain": "In the passive, the past participle agrees with the subject: [[les écoles]] (feminine plural) → [[fermées]]." },
+        { "type": "cloze", "text": "La mairesse ___ réélue dimanche dernier.", "answers": [["a été"]], "en": "The mayor was re-elected last Sunday.", "explain": "Past event → passé composé of être: [[a été]] + participle. [[réélue]] agrees with [[la mairesse]]." },
+        { "type": "mcq", "prompt": "“The bridge will be officially opened on Saturday.”", "options": ["Le pont sera inauguré samedi.", "Le pont va inaugurer samedi.", "Le pont a inauguré samedi."], "optionsFr": true, "answer": 0, "explain": "Futur of être ([[sera]]) + past participle. The bridge doesn't do the opening: someone opens it." }
+      ] },
+    { "id": "g-passive-tenses", "kind": "grammar", "fr": "est / a été / était / sera + participe passé", "en": "the passive in different tenses",
+      "drills": [
+        { "type": "cloze", "text": "Deux suspects ___ ___ arrêtés hier soir.", "answers": [["ont"], ["été"]], "en": "Two suspects were arrested last night.", "explain": "Passé composé passive: [[ont été]] + participle. [[été]] never changes." },
+        { "type": "translate", "prompt": "The festival was cancelled.", "accept": ["Le festival a été annulé.", "On a annulé le festival."], "explain": "One finished event → passé composé of être: [[a été annulé]]." },
+        { "type": "cloze", "text": "Quand je suis arrivé, la route ___ déjà été ___ (fermer).", "answers": [["avait"], ["fermée"]], "en": "When I arrived, the road had already been closed.", "explain": "Plus-que-parfait passive: [[avait été]] + participle agreeing with [[la route]]: [[fermée]]." }
+      ] },
+    { "id": "g-par-de", "kind": "grammar", "fr": "par / de + agent", "en": "by whom: par (actions) or de (feelings, states)",
+      "drills": [
+        { "type": "cloze", "text": "Le maire a été élu ___ les citoyens.", "answers": [["par"]], "en": "The mayor was elected by the citizens.", "explain": "A concrete action (to elect) → [[par]]." },
+        { "type": "cloze", "text": "Le soir du concert, la salle était remplie ___ monde.", "answers": [["de"]], "en": "On the night of the concert, the hall was full of people.", "explain": "A state or description ([[rempli, couvert, entouré]]) → [[de]], with no article. Feelings ([[aimé, respecté]]) usually take [[de]] too." },
+        { "type": "mcq", "prompt": "“The car was covered with snow.”", "options": ["La voiture était couverte de neige.", "La voiture était couverte par neige.", "La voiture était couverte avec neige."], "optionsFr": true, "answer": 0, "explain": "A state or description ([[couvert, entouré, rempli]]) → [[de]], with no article." }
+      ] },
+    { "id": "g-on", "kind": "grammar", "fr": "on + actif", "en": "using on instead of the passive",
+      "drills": [
+        { "type": "translate", "prompt": "Rewrite with on: “La route a été fermée.”", "accept": ["On a fermé la route."], "explain": "Same tense (passé composé), but active, with [[on]] as the subject." },
+        { "type": "translate", "prompt": "I was told that the office is closed.", "accept": ["On m'a dit que le bureau est fermé.", "On m'a dit que le bureau était fermé."], "explain": "English “I was told” cannot be passive in French: [[on m'a dit]]." }
+      ] },
+    { "id": "elire", "kind": "vocab", "fr": "élire", "en": "to elect", "pos": "verb",
+      "example": { "fr": "Elle a été élue mairesse en 2021.", "en": "She was elected mayor in 2021." }, "note": "Past participle: [[élu]]." },
+    { "id": "annuler", "kind": "vocab", "fr": "annuler", "en": "to cancel", "pos": "verb",
+      "example": { "fr": "Le vol a été annulé à cause de la neige.", "en": "The flight was cancelled because of the snow." } },
+    { "id": "inaugurer", "kind": "vocab", "fr": "inaugurer", "en": "to officially open (a building, a bridge)", "pos": "verb",
+      "example": { "fr": "Le nouveau centre sera inauguré samedi.", "en": "The new centre will be officially opened on Saturday." } },
+    { "id": "evacuer", "kind": "vocab", "fr": "évacuer", "en": "to evacuate", "pos": "verb",
+      "example": { "fr": "L'école a été évacuée après une fuite de gaz.", "en": "The school was evacuated after a gas leak." } },
+    { "id": "maire", "kind": "vocab", "fr": "maire", "fem": "mairesse", "article": "le", "gender": "m", "en": "mayor", "pos": "noun", "accept": ["la mairesse", "la maire", "un maire"],
+      "example": { "fr": "La mairesse a inauguré le nouveau parc.", "en": "The mayor opened the new park." }, "note": "For a woman: [[la mairesse]] (common in Québec) or [[la maire]] (France)." },
+    { "id": "suspect", "kind": "vocab", "fr": "suspect", "fem": "suspecte", "article": "un", "gender": "m", "en": "suspect (person)", "pos": "noun", "accept": ["une suspecte", "le suspect"],
+      "example": { "fr": "Le suspect a été arrêté à Laval.", "en": "The suspect was arrested in Laval." } },
+    { "id": "spectacle-annule", "kind": "phrase", "fr": "Le spectacle a été annulé.", "en": "The show has been cancelled.", "accept": ["On a annulé le spectacle."] },
+    { "id": "on-ma-dit", "kind": "phrase", "fr": "On m'a dit que…", "en": "I was told that…" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "City news in brief",
+      "intro": "News writers love the passive: it puts the focus on **what happened to something**, not on who did it. Read these four short news items from Gatineau.",
+      "blocks": [
+        { "type": "text", "title": "Gatineau en bref",
+          "context": "Short news items from a (fictional) local news site.",
+          "fr": "Le nouveau centre communautaire du secteur Aylmer sera inauguré samedi par la mairesse. Le bâtiment a été construit en dix-huit mois.\nLe concert en plein air de dimanche a été annulé à cause des orages. Les billets seront remboursés d'ici vendredi.\nDeux hommes ont été arrêtés par la police mercredi soir dans le secteur Hull. Ils sont soupçonnés de plusieurs vols de vélos. On a retrouvé une trentaine de vélos dans un garage.\nUne école primaire a été évacuée jeudi matin après une fuite de gaz. Les élèves ont été accueillis dans le gymnase d'une école voisine. Personne n'a été blessé.",
+          "en": "The new community centre in the Aylmer sector will be officially opened on Saturday by the mayor. The building was built in eighteen months. Sunday's outdoor concert was cancelled because of the storms. Tickets will be refunded by Friday. Two men were arrested by the police on Wednesday evening in the Hull sector. They are suspected of several bicycle thefts. About thirty bikes were found in a garage. An elementary school was evacuated on Thursday morning after a gas leak. The students were taken in at the gym of a nearby school. Nobody was injured." },
+        { "type": "note", "tone": "info", "body": "New words: [[soupçonné de]] = suspected of; [[un vol]] = a theft (also a flight!); [[une fuite de gaz]] = a gas leak; [[accueillir]] = to welcome, take in; [[d'ici vendredi]] = by Friday." },
+        { "id": "d1", "type": "mcq", "prompt": "Who will open the community centre?", "options": ["The mayor", "The building workers", "The community centre"], "answer": 0,
+          "explain": "[[sera inauguré par la mairesse]]: the person who does the action comes after [[par]]." },
+        { "id": "d2", "type": "mcq", "prompt": "“Les billets seront remboursés”: when will this happen?", "options": ["In the future", "It already happened", "It happens every week"], "answer": 0,
+          "explain": "[[seront]] is the futur of être. The tense of être tells you the time of the passive." },
+        { "id": "d3", "type": "mcq", "prompt": "“On a retrouvé une trentaine de vélos.” What's another way to say this?", "options": ["Une trentaine de vélos ont été retrouvés.", "Une trentaine de vélos ont retrouvé.", "Une trentaine de vélos sont retrouvés par on."], "optionsFr": true, "answer": 0,
+          "explain": "[[On]] + active verb and the passive say the same thing. Never write *par on*." }
+      ] },
+    { "type": "understand", "title": "How the passive works",
+      "blocks": [
+        { "type": "explain", "title": "Active or passive?",
+          "body": "In an **active** sentence, the subject **does** the action: [[La police a arrêté deux hommes.]]\n\nIn a **passive** sentence, the subject **receives** the action: [[Deux hommes ont été arrêtés (par la police).]]\n\nThree steps to make a passive:\n\n1. The **object** of the active sentence becomes the **subject**: [[deux hommes]].\n2. Put **être** in the **same tense** as the active verb: [[a arrêté]] (passé composé) → [[ont été]] (passé composé).\n3. Add the **past participle**, agreeing with the new subject: [[arrêtés]]. The doer can follow with [[par]], but it's often left out." },
+        { "type": "table", "title": "The passive in each tense",
+          "head": ["Tense", "Active", "Passive"],
+          "rows": [
+            ["présent", "La police arrête le suspect.", "Le suspect est arrêté par la police."],
+            ["passé composé", "La police a arrêté le suspect.", "Le suspect a été arrêté par la police."],
+            ["imparfait", "La police arrêtait le suspect.", "Le suspect était arrêté par la police."],
+            ["plus-que-parfait", "La police avait arrêté le suspect.", "Le suspect avait été arrêté par la police."],
+            ["futur proche", "La police va arrêter le suspect.", "Le suspect va être arrêté par la police."],
+            ["futur simple", "La police arrêtera le suspect.", "Le suspect sera arrêté par la police."]
+          ],
+          "frCols": [1, 2], "sayCol": false,
+          "note": "Only **être** changes tense. The past participle stays the same and agrees with the subject. [[été]] itself **never** agrees: [[elles ont été]], never *ont étées*." },
+        { "type": "table", "title": "Agreement",
+          "head": ["Subject", "Passive (passé composé)"],
+          "rows": [
+            ["le suspect (m. sing.)", "Le suspect a été arrêté."],
+            ["la suspecte (f. sing.)", "La suspecte a été arrêtée."],
+            ["les suspects (m. pl.)", "Les suspects ont été arrêtés."],
+            ["les suspectes (f. pl.)", "Les suspectes ont été arrêtées."]
+          ],
+          "frCols": [0, 1], "sayCol": false,
+          "note": "Most of these endings are silent: [[arrêté]] and [[arrêtées]] sound the same. You have to **think** of agreement when you write." },
+        { "type": "pattern", "title": "Par or de?",
+          "pattern": "action → par + agent · feeling or state → de + agent",
+          "note": "**par** for a concrete action done by someone: [[élu par, construit par, arrêté par, inauguré par]]. **de** for feelings and for descriptions of a state: [[aimé de, respecté de, connu de, entouré de, couvert de, rempli de]]. With de, the article often disappears: [[couvert de neige]]. With feelings, [[par]] is also possible ([[aimé par tous]]), but [[de]] is more common.",
+          "examples": [
+            { "fr": "Le pont a été construit par une entreprise de Québec.", "en": "The bridge was built by a company from Québec City." },
+            { "fr": "Ce professeur est respecté de tous ses élèves.", "en": "This teacher is respected by all his students." },
+            { "fr": "Le parc est entouré d'arbres.", "en": "The park is surrounded by trees." },
+            { "fr": "Après la tempête, les rues étaient couvertes de neige.", "en": "After the storm, the streets were covered with snow." }
+          ] },
+        { "type": "explain", "title": "When to use the passive, and when to use on",
+          "body": "Use the passive when **what happened** matters more than **who did it**, or when you don't know who did it: [[Mon vélo a été volé.]] That's why it's everywhere in the news.\n\nIn everyday speech, French speakers often prefer **on + active verb**. It means exactly the same, and it sounds lighter:\n\n- [[Le concert a été annulé.]] → [[On a annulé le concert.]]\n- [[Les billets seront remboursés.]] → [[On remboursera les billets.]]\n\nAnd sometimes **on is the only option**. English can say *I was told*, *she was given a prize*, but French can't make a passive with [[dire à]], [[donner à]], [[demander à]]:\n\n- *I was told* → [[On m'a dit…]]\n- *She was given a prize* → [[On lui a donné un prix.]]\n- *We were asked to wait* → [[On nous a demandé d'attendre.]]" },
+        { "type": "vocab", "title": "Words from the news", "itemIds": ["elire", "annuler", "inaugurer", "evacuer", "maire", "suspect"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Passive traps",
+          "body": "- **Forgetting être:** [[Le concert a annulé]] means the concert cancelled something! → [[Le concert a été annulé]].\n- **Forgetting agreement:** [[La mairesse a été élu]] → [[La mairesse a été élue]].\n- **Making été agree:** [[Les élèves ont étés accueillis]] → [[ont été accueillis]].\n- **Copying English “I was told”:** [[J'ai été dit que…]] → [[On m'a dit que…]].\n- **Confusing it with the passé composé of être verbs:** [[Elle est partie]] is active (she left). [[Elle est invitée]] is passive (someone invites her). Test: can you add *par quelqu'un*? If yes, it's passive.\n- **par on:** never. If the doer is [[on]], use the active: [[On a retrouvé les vélos]]." },
+        { "type": "deepdive", "kind": "why", "title": "Why “est fermé” can be ambiguous",
+          "body": "[[Le magasin est fermé]] can mean two things: a **state** (*the store is closed*, right now) or a **present passive** (*the store is being closed*, by someone). Context almost always decides.\n\nTo show the **action** clearly, news writers use another tense or add an agent: [[Le magasin a été fermé par les inspecteurs]] (the inspectors closed it). To show a **state**, they add a time: [[Le magasin est fermé depuis lundi]]." },
+        { "type": "deepdive", "kind": "canada", "title": "The passive in city notices",
+          "body": "Canadian cities use the passive (or impersonal forms) in their notices. You'll see these on websites and in apps:\n\n- [[La collecte des ordures sera reportée à mardi.]] (Garbage collection will be moved to Tuesday.) In informal Québec French, garbage is often [[les vidanges]].\n- [[Le stationnement est interdit des deux côtés de la rue.]] (Parking is prohibited on both sides.)\n- [[Les rues seront déneigées pendant la nuit.]] (The streets will be cleared of snow overnight.)\n- [[Les véhicules mal stationnés seront remorqués.]] (Badly parked vehicles will be towed.) Take this one seriously in Montréal in winter!" }
+      ] },
+    { "type": "hear", "title": "Hearing the passive",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In the passive, [[été]] is short and unstressed. The stress falls on the participle at the end.",
+          "lines": [
+            { "fr": "Le concert a été annulé.", "en": "The concert was cancelled.", "tip": "a‿été: say it smoothly, without a stop: [a e te]." },
+            { "fr": "Deux hommes ont été arrêtés par la police.", "en": "Two men were arrested by the police.", "tip": "ont‿été: link with a t sound." },
+            { "fr": "Le centre sera inauguré samedi.", "en": "The centre will be officially opened on Saturday." },
+            { "fr": "Les élèves ont été accueillis dans le gymnase.", "en": "The students were taken in at the gym.", "tip": "accueillis: a-keu-yi." },
+            { "fr": "On m'a dit que le bureau était fermé.", "en": "I was told the office was closed." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Une conductrice a été blessée par un camion ce matin à Longueuil.", "en": "A driver was injured by a truck this morning in Longueuil.", "prompt": "Who was injured?", "options": ["A woman driver", "The truck driver", "Nobody"], "answer": 0,
+          "explain": "The subject of the passive ([[une conductrice]]) is the one who receives the action. The truck comes after [[par]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "La route 117 sera fermée jusqu'à vendredi pour des travaux.", "en": "Highway 117 will be closed until Friday for roadwork.", "prompt": "What will happen?", "options": ["The road will be closed until Friday.", "The road was closed last Friday.", "The road will open on Friday morning for the first time."], "answer": 0,
+          "explain": "[[sera fermée]]: futur of être + participle. [[jusqu'à vendredi]] = until Friday." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Tense of être, agreement, par or de, and on. Take your time.",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Le centre communautaire ___ inauguré samedi prochain.", "answers": [["sera", "va être"]], "choices": ["sera", "est", "a été", "était"], "en": "The community centre will be officially opened next Saturday.",
+          "explain": "[[samedi prochain]] = future → [[sera]] (or [[va être]]) + participle." },
+        { "id": "r2", "type": "cloze", "text": "Les élèves ont été ___ (évacuer) après une fuite de gaz.", "answers": [["évacués"]], "en": "The students were evacuated after a gas leak.",
+          "explain": "The participle agrees with [[les élèves]] (masculine plural, or mixed group): [[évacués]]." },
+        { "id": "r3", "type": "translate", "prompt": "The concert was cancelled because of the storms.", "accept": ["Le concert a été annulé à cause des orages.", "Le concert a été annulé en raison des orages.", "On a annulé le concert à cause des orages.", "On a annulé le concert en raison des orages.", "Le spectacle a été annulé à cause des orages.", "Le concert a été annulé à cause des tempêtes."],
+          "explain": "Passé composé passive: [[a été annulé]]. Or, more casually: [[On a annulé le concert]]." },
+        { "id": "r4", "type": "mcq", "prompt": "Make this passive: “La police a arrêté deux femmes.”", "options": ["Deux femmes ont été arrêtées par la police.", "Deux femmes ont été arrêté par la police.", "Deux femmes sont arrêtées par la police.", "Deux femmes ont arrêté par la police."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "The participle must agree: arrêtées (feminine plural).", "That's the present passive; the active verb was in the passé composé.", "Without été, the women are doing the arresting!"] },
+        { "id": "r5", "type": "cloze", "text": "La rue était couverte ___ neige quand le voleur a été arrêté ___ un policier.", "answers": [["de"], ["par"]], "choices": ["de", "par", "avec"], "en": "The street was covered with snow when the thief was arrested by a police officer.",
+          "explain": "A state ([[couverte]]) → [[de]]; a concrete action ([[arrêté]]) → [[par]]." },
+        { "id": "r6", "type": "translate", "prompt": "We were asked to wait. (use on)", "accept": ["On nous a demandé d'attendre.", "On nous a demandé d'attendre ici."],
+          "explain": "[[demander à quelqu'un de faire]] can't become passive in French. Use [[on]] + the pronoun [[nous]]." },
+        { "id": "r7", "type": "match", "prompt": "Match each passive form with its tense.", "pairs": [["il est arrêté", "présent"], ["il a été arrêté", "passé composé"], ["il était arrêté", "imparfait"], ["il sera arrêté", "futur simple"], ["il avait été arrêté", "plus-que-parfait"]] },
+        { "id": "r8", "type": "reorder", "prompt": "The bridge will be officially opened by the mayor (a woman).", "accept": ["Le pont sera inauguré par la mairesse"], "extra": ["est", "de"],
+          "explain": "[[sera]] (futur of être) + [[inauguré]] + [[par]] + agent." },
+        { "id": "r9", "type": "mcq", "prompt": "Which sentence is NOT a passive?", "options": ["Elle est partie à 8 h.", "Elle a été élue en juin.", "Elle est respectée de tous.", "Elle sera invitée au gala."], "optionsFr": true, "answer": 0,
+          "explain": "[[Elle est partie]] is the passé composé of [[partir]] (an être verb): she did the leaving. You can't add *par quelqu'un*." },
+        { "id": "r10", "type": "dictation", "fr": "Mon vélo a été volé devant la bibliothèque.", "accept": [], "explain": "[[a été volé]]: passé composé passive. [[volé]] agrees with [[mon vélo]] (masculine): no extra e." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a short “En bref” news column (3 or 4 items) about your neighbourhood or city: something built or opened, something cancelled, someone arrested or elected, a place evacuated or closed. Use the passive at least three times, in different tenses, and on at least once.",
+          "promptFr": "Rédigez une rubrique « En bref » sur votre quartier.",
+          "wordRange": [50, 100],
+          "checklist": ["At least three passives (est / a été / sera + participle)", "Participles that agree with the subject", "par or de at least once", "on + active verb at least once", "Neutral, journalistic tone"],
+          "models": [
+            { "label": "Model answer", "fr": "Une nouvelle piste cyclable sera inaugurée lundi sur la rue Rideau. Elle a été construite en six mois par la Ville.\nLa fête de quartier de samedi a été annulée à cause de la pluie. Elle sera organisée le samedi suivant.\nUne épicerie de la rue Bank a été cambriolée dans la nuit de mardi. On a volé de l'argent et des cigarettes. Le suspect a été arrêté le lendemain.\nLa piscine municipale est fermée depuis lundi : on répare le toit.", "en": "A new bike lane will be officially opened on Monday on Rideau Street. It was built in six months by the City. Saturday's neighbourhood party was cancelled because of the rain. It will be held the following Saturday. A grocery store on Bank Street was burgled on Tuesday night. Money and cigarettes were stolen. The suspect was arrested the next day. The municipal pool has been closed since Monday: the roof is being repaired." }
+          ] },
+        { "id": "s1", "type": "speak", "prompt": "Your neighbour has been away for a month. Tell them what has changed in the neighbourhood. Mix the passive and on.", "seconds": 45,
+          "checklist": ["At least two passives (a été construit, a été fermé…)", "At least one sentence with on (on a ouvert…, on m'a dit que…)", "A reaction (C'est dommage ! / Enfin !)"],
+          "models": [ { "label": "Model answer", "fr": "Tu ne vas pas le croire ! Le vieux dépanneur du coin a été fermé, et on va construire des condos à la place. Par contre, on a complètement rénové le parc : il y a de nouveaux jeux pour les enfants. Ah, et il paraît que la rue va être fermée tout l'été pour des travaux. Enfin, une bonne nouvelle : la bibliothèque est maintenant ouverte le dimanche !", "en": "You won't believe it! The old corner store was closed, and they're going to build condos instead. On the other hand, they completely renovated the park: there's new play equipment for the kids. Oh, and apparently the street is going to be closed all summer for roadwork. Finally, some good news: the library is now open on Sundays!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Form the passive with **être** in any tense + a **past participle** that agrees: [[Les écoles ont été fermées.]]\n- Introduce the doer with **par** (actions) or **de** (feelings and states): [[élu par les citoyens]], [[couvert de neige]]\n- Replace the passive with **on** in speech, and for English “I was told”: [[On m'a dit que…]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed the futur after a past reporting verb in the speaking model, fixed the split plus-que-parfait cloze, replaced the aimé de/par cloze (par is also correct) with remplie de, removed wrong accept \"être élu\", noted par is possible with feelings." }
+}

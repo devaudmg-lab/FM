@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "a2-04-04",
+  "level": "a2",
+  "unit": "a2-04",
+  "title": "Making plans together",
+  "goal": "Suggest an activity, accept or refuse it politely, and agree on the day, time and place with a friend.",
+  "minutes": 12,
+  "items": [
+    { "id": "g-proposer", "kind": "grammar", "fr": "Ça te dit de… ? / On pourrait… / Et si on… ?", "en": "making suggestions: ça te dit de + infinitive, on pourrait + infinitive, et si on + imparfait",
+      "drills": [
+        { "type": "cloze", "text": "Ça te dit ___ aller au cinéma ?", "answers": [["d'"]], "en": "Do you feel like going to the movies?", "explain": "ça te dit de + infinitive; de → d' before a vowel." },
+        { "type": "cloze", "text": "On ___ manger au restaurant. (we could)", "answers": [["pourrait"]], "en": "We could eat at a restaurant.", "explain": "on pourrait + infinitive = we could. Learn it as a chunk." },
+        { "type": "mcq", "prompt": "“How about going to the market?”", "options": ["Et si on allait au marché ?", "Et si on va au marché ?", "Et si on irait au marché ?"], "optionsFr": true, "answer": 0, "explain": "Et si on… ? is followed by the imparfait: et si on allait…" }
+      ] },
+    { "id": "ca-te-dit", "kind": "phrase", "fr": "Ça te dit d'aller au marché ?", "en": "Do you feel like going to the market? (to a friend)", "accept": ["Ça te dirait d'aller au marché ?"], "note": "Formal: Ça vous dit d'aller au marché ?" },
+    { "id": "on-pourrait", "kind": "phrase", "fr": "On pourrait partir l'après-midi.", "en": "We could leave in the afternoon." },
+    { "id": "si-tu-veux", "kind": "phrase", "fr": "si tu veux", "en": "if you want (to a friend)", "note": "Formal: si vous voulez." },
+    { "id": "bonne-idee", "kind": "phrase", "fr": "Bonne idée !", "en": "Good idea!", "accept": ["C'est une bonne idée !"] },
+    { "id": "ca-marche", "kind": "phrase", "fr": "Ça marche !", "en": "Sounds good! / Deal!", "accept": ["D'accord !"] },
+    { "id": "pourquoi-pas", "kind": "phrase", "fr": "Pourquoi pas ?", "en": "Why not?" },
+    { "id": "desole", "kind": "phrase", "fr": "Désolé, je ne peux pas.", "en": "Sorry, I can't.", "accept": ["Désolée, je ne peux pas.", "Désolé, je peux pas.", "Désolée, je peux pas."] },
+    { "id": "ca-te-va", "kind": "phrase", "fr": "Ça te va ?", "en": "Does that work for you? (to a friend)", "note": "Formal: Ça vous va ?" },
+    { "id": "on-se-retrouve", "kind": "phrase", "fr": "On se retrouve où ?", "en": "Where shall we meet?", "accept": ["Où est-ce qu'on se retrouve ?", "On se rejoint où ?"] },
+    { "id": "on-verra", "kind": "phrase", "fr": "On verra.", "en": "We'll see." },
+    { "id": "une-autre-fois", "kind": "phrase", "fr": "Une autre fois ?", "en": "Another time?" }
+  ],
+  "steps": [
+    { "type": "discover", "title": "What shall we do on Saturday?",
+      "blocks": [
+        { "type": "dialogue", "title": "A phone call between friends in Montréal",
+          "context": "Alex calls Camille to plan the weekend.",
+          "lines": [
+            { "speaker": "Alex", "fr": "Salut Camille ! Ça te dit d'aller au marché Jean-Talon samedi matin ?", "en": "Hi Camille! Do you feel like going to the Jean-Talon market on Saturday morning?" },
+            { "speaker": "Camille", "fr": "Bonne idée ! Mais samedi matin, je ne peux pas : je travaille jusqu'à midi.", "en": "Good idea! But I can't on Saturday morning: I work until noon." },
+            { "speaker": "Alex", "fr": "Pas de problème. On pourrait partir l'après-midi, alors ?", "en": "No problem. We could go in the afternoon, then?" },
+            { "speaker": "Camille", "fr": "Ça marche. Et après, si tu veux, on pourrait manger au petit restaurant vietnamien de ma rue. Il est super bon.", "en": "Sounds good. And afterwards, if you want, we could eat at the little Vietnamese restaurant on my street. It's really good." },
+            { "speaker": "Alex", "fr": "Avec plaisir ! On se retrouve où ?", "en": "With pleasure! Where shall we meet?" },
+            { "speaker": "Camille", "fr": "Devant la station de métro Jean-Talon, à 14 h. Ça te va ?", "en": "In front of Jean-Talon metro station, at 2 p.m. Does that work for you?" },
+            { "speaker": "Alex", "fr": "Parfait. Et si on invitait Raj aussi ?", "en": "Perfect. How about inviting Raj too?" },
+            { "speaker": "Camille", "fr": "Pourquoi pas ! Mais il travaille peut-être samedi. On verra.", "en": "Why not! But he might be working on Saturday. We'll see." },
+            { "speaker": "Alex", "fr": "J'écrirai à Raj ce soir. Et j'apporterai des sacs pour les légumes !", "en": "I'll write to Raj tonight. And I'll bring some bags for the vegetables!" },
+            { "speaker": "Camille", "fr": "Super. Alors, à samedi !", "en": "Great. See you Saturday, then!" }
+          ] },
+        { "type": "note", "tone": "info", "body": "Count the ways Alex and Camille suggest things: [[Ça te dit de…]], [[On pourrait…]], [[si tu veux]], [[Et si on…]]. And the ways they say yes: [[Bonne idée !]], [[Ça marche.]], [[Avec plaisir !]], [[Pourquoi pas !]]" }
+      ] },
+    { "type": "understand", "title": "Suggest, answer, decide",
+      "blocks": [
+        { "type": "table", "title": "Suggesting something",
+          "head": ["French", "English", "Grammar"],
+          "rows": [
+            ["Ça te dit d'aller au cinéma ?", "Do you feel like going to the movies?", "ça te dit de + infinitive"],
+            ["On pourrait aller au cinéma.", "We could go to the movies.", "on pourrait + infinitive"],
+            ["Si tu veux, on peut aller au cinéma.", "If you want, we can go to the movies.", "si tu veux, on peut + infinitive"],
+            ["Tu veux aller au cinéma ?", "Do you want to go to the movies?", "tu veux + infinitive"],
+            ["Et si on allait au cinéma ?", "How about going to the movies?", "et si on + imparfait"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "With someone you say **vous** to, change the pronoun: [[Ça vous dit de…]], [[si vous voulez]], [[Ça vous va ?]]" },
+        { "type": "table", "title": "Answering",
+          "head": ["Yes", "Maybe", "No"],
+          "rows": [
+            ["Bonne idée !", "Pourquoi pas ?", "Désolé, je ne peux pas."],
+            ["Avec plaisir !", "Peut-être. On verra.", "Samedi, ce n'est pas possible pour moi."],
+            ["Ça marche !", "Je ne sais pas encore.", "Une autre fois ?"],
+            ["Volontiers !", "Ça dépend.", "Merci, mais je suis déjà occupé."]
+          ],
+          "frCols": [0, 1, 2], "sayCol": false,
+          "note": "A polite **no** usually has three parts: an apology ([[désolé]] / [[désolée]]), a reason ([[je travaille]]), and a new idea ([[Dimanche, ça te va ?]] / [[Une autre fois ?]])." },
+        { "type": "table", "title": "Fixing the details",
+          "head": ["French", "English"],
+          "rows": [
+            ["On se retrouve où ?", "Where shall we meet?"],
+            ["On se retrouve à quelle heure ?", "What time shall we meet?"],
+            ["Devant le métro, à 14 h, ça te va ?", "In front of the metro, at 2 p.m., does that work for you?"],
+            ["J'apporterai le dessert.", "I'll bring dessert."],
+            ["À samedi !", "See you Saturday!"]
+          ],
+          "frCols": [0], "sayCol": true,
+          "note": "The **futur simple** is perfect for small promises when you plan: [[J'écrirai à Raj.]] [[J'apporterai des sacs.]]" },
+        { "type": "pattern", "title": "On pourrait: a polite chunk",
+          "pattern": "on pourrait / tu pourrais + infinitif",
+          "note": "[[Pourrait]] is a form of **pouvoir** in the *conditionnel* (would / could), a tense you'll study later. For now, learn [[on pourrait]] (we could) and [[tu pourrais]] (you could) as fixed chunks. They sound softer and friendlier than [[on peut]].",
+          "examples": [
+            { "fr": "On pourrait manger ensemble.", "en": "We could eat together." },
+            { "fr": "Tu pourrais venir à 18 h ?", "en": "Could you come at 6 p.m.?" }
+          ] },
+        { "type": "vocab", "title": "Useful phrases", "itemIds": ["ca-te-dit", "on-pourrait", "si-tu-veux", "bonne-idee", "ca-marche", "pourquoi-pas", "desole", "ca-te-va", "on-se-retrouve", "on-verra", "une-autre-fois"] },
+        { "type": "deepdive", "kind": "why", "title": "Why the imparfait in “Et si on allait… ?”",
+          "body": "[[Et si on allait au cinéma ?]] looks like the past, but it is a suggestion about now or the future. Here the imparfait makes the idea **hypothetical**: *what if we went…?* It's softer than a direct question. Always use the imparfait after [[et si on…]] for suggestions: [[Et si on mangeait ensemble ?]] [[Et si on invitait Raj ?]]" },
+        { "type": "deepdive", "kind": "mistakes",
+          "body": "- **Forgetting de:** [[Ça te dit aller au cinéma ?]] → [[Ça te dit d'aller au cinéma ?]]\n- **Adding à after pourrait:** [[On pourrait à partir]] → [[On pourrait partir]].\n- **Present after et si:** [[Et si on va au cinéma ?]] → [[Et si on allait au cinéma ?]]\n- **Tu or vous:** with your manager, say [[Ça vous dit de…]] and [[si vous voulez]].\n- **Agreement:** a woman says [[Désolée]] (same sound, extra e in writing).\n- **Just “non”:** a bare [[Non.]] sounds rude. Add a reason and a new idea." },
+        { "type": "deepdive", "kind": "canada", "title": "Making plans the Québec way",
+          "body": "You'll hear these very often in Québec:\n\n- [[Ça marche !]] and [[C'est correct.]] = OK, that's fine. (In Québec, [[c'est correct]] means *it's fine*, not *it's correct*.)\n- [[On se rejoint où ?]] = Where do we meet? (same as [[on se retrouve]])\n- [[Ça adonne bien !]] = That works out well (timing). Informal Québec French.\n- [[Je vais checker ça.]] = I'll check. Very informal anglicism; in writing, use [[je vais vérifier]].\n\nAnd don't forget that [[le dîner]] is lunch and [[le souper]] is dinner in Québec, so [[On soupe ensemble ?]] means *Shall we have dinner together?*" }
+      ] },
+    { "type": "hear", "title": "Hear the plans",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Make your voice rise at the end of suggestions: it sounds friendly.",
+          "lines": [
+            { "fr": "Ça te dit d'aller au marché ?", "en": "Do you feel like going to the market?", "tip": "Ça te dit: sa-t-di, the e of te almost disappears." },
+            { "fr": "On pourrait partir l'après-midi.", "en": "We could leave in the afternoon." },
+            { "fr": "Et si on invitait Raj ?", "en": "How about inviting Raj?" },
+            { "fr": "Désolé, je ne peux pas. Une autre fois ?", "en": "Sorry, I can't. Another time?" },
+            { "fr": "On se retrouve à quelle heure ?", "en": "What time shall we meet?" }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Ça te dit de souper ensemble vendredi ?", "en": "Do you feel like having dinner together on Friday?", "prompt": "What is the suggestion?", "options": ["Dinner together on Friday", "Lunch together on Friday", "Shopping on Friday"], "answer": 0,
+          "explain": "[[souper]] = to have dinner (Québec). Lunch would be [[dîner]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Samedi, je ne peux pas, je vais chez mes parents. Mais dimanche, si tu veux, on pourrait faire du vélo.", "en": "On Saturday I can't, I'm going to my parents'. But on Sunday, if you want, we could go cycling.",
+          "prompt": "What does the speaker suggest?", "options": ["Cycling on Sunday", "Cycling on Saturday", "Visiting the speaker's parents together"], "answer": 0,
+          "explain": "The speaker refuses Saturday ([[je ne peux pas]]) and suggests Sunday: [[dimanche… on pourrait faire du vélo]]." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "blocks": [
+        { "id": "r1", "type": "cloze", "text": "Ça te dit ___ faire du patin dimanche ?", "answers": [["de"]], "choices": ["de", "à", "pour"], "en": "Do you feel like going skating on Sunday?",
+          "explain": "[[ça te dit de]] + infinitive." },
+        { "id": "r2", "type": "mcq", "prompt": "Your friend suggests the movies on Saturday, but you work. What's the best answer?", "options": ["Désolé, samedi je travaille. Dimanche, ça te va ?", "Non.", "Ça marche, je travaille.", "Bonne idée, je ne peux pas."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Too abrupt: add an apology, a reason and a new idea.", "Ça marche means yes: it contradicts “I work”.", "Bonne idée is a yes, so it doesn't fit with je ne peux pas without “mais”."] },
+        { "id": "r3", "type": "cloze", "text": "Et si on ___ au restaurant ce soir ? (aller)", "answers": [["allait"]], "en": "How about going to a restaurant tonight?",
+          "explain": "[[Et si on]] + imparfait: on allait (on takes the il form)." },
+        { "id": "r4", "type": "translate", "prompt": "We could eat together. (use on)", "accept": ["On pourrait manger ensemble."],
+          "explain": "[[on pourrait]] + infinitive = we could." },
+        { "id": "r5", "type": "match", "prompt": "Match each phrase with its meaning.", "pairs": [["Ça marche !", "Sounds good!"], ["On verra.", "We'll see."], ["Une autre fois ?", "Another time?"], ["Ça te va ?", "Does that work for you?"], ["Pourquoi pas ?", "Why not?"]] },
+        { "id": "r6", "type": "reorder", "prompt": "Where shall we meet?", "accept": ["On se retrouve où ?", "Où on se retrouve ?"], "extra": ["va"],
+          "explain": "[[se retrouver]] = to meet up (reflexive). Casual question: [[On se retrouve où ?]]" },
+        { "id": "r7", "type": "translate", "prompt": "Do you feel like going to the market? (to your manager, formal)", "accept": ["Ça vous dit d'aller au marché ?", "Ça vous dirait d'aller au marché ?"],
+          "explain": "With vous: [[ça vous dit de]] + infinitive." },
+        { "id": "r8", "type": "cloze", "text": "D'accord ! J'___ le dessert. (apporter)", "answers": [["apporterai"]], "en": "OK! I'll bring dessert.",
+          "explain": "A small promise in the futur simple: [[j'apporterai]]." },
+        { "id": "r9", "type": "cloze", "text": "Si tu veux, on ___ voir un film quand tu ___ à Québec. (pouvoir, venir)", "answers": [["pourra"], ["viendras"]], "en": "If you want, we'll be able to see a movie when you come to Québec City.",
+          "explain": "Lesson 3: irregular futures ([[on pourra]], [[tu viendras]]) and the future after quand." },
+        { "id": "r10", "type": "dictation", "fr": "Désolée, je ne peux pas. Une autre fois ?", "accept": ["Désolé, je ne peux pas. Une autre fois ?"],
+          "explain": "[[Désolée]] (woman) or [[Désolé]] (man) sound the same." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "Call a friend to plan something this weekend (40 seconds). Suggest an activity, imagine that your friend can't do Saturday, suggest another day, then agree on the place and time and make one small promise.", "seconds": 40,
+          "checklist": ["A suggestion: Ça te dit de… ? / On pourrait…", "React to a no: Pas de problème. Et dimanche ?", "Et si on… + imparfait", "Place and time: On se retrouve… à… Ça te va ?", "A promise in the future: J'apporterai… / Je réserverai…", "Closing: À dimanche !"],
+          "models": [ { "label": "Model answer", "fr": "Salut Mei ! Ça te dit d'aller au parc samedi ? … Ah, tu travailles ? Pas de problème. Et si on allait au parc dimanche ? … Super ! On pourrait faire un pique-nique. On se retrouve devant la bibliothèque, à midi, ça te va ? … Parfait. J'apporterai des sandwichs et tu apporteras les boissons. À dimanche !",
+            "en": "Hi Mei! Do you feel like going to the park on Saturday? … Oh, you're working? No problem. How about going on Sunday? … Great! We could have a picnic. Let's meet in front of the library, at noon, does that work for you? … Perfect. I'll bring sandwiches and you'll bring the drinks. See you Sunday! (The … mark your friend's answers.)" } ] },
+        { "id": "w1", "type": "write", "prompt": "Your friend has texted: “Ça te dit de faire quelque chose ce week-end ?” Reply: accept, suggest an activity and a time, ask where to meet, and promise to do one thing.", "promptFr": "Répondez au texto de votre ami ou amie.",
+          "wordRange": [30, 60],
+          "checklist": ["Accept: Bonne idée ! / Avec plaisir !", "Suggest: On pourrait… / Et si on…", "A day and a time: samedi à 15 h", "A question: On se retrouve où ? / Ça te va ?", "A promise in the future: Je réserverai… / J'apporterai…"],
+          "models": [ { "label": "Model answer", "fr": "Avec plaisir ! On pourrait aller voir le nouveau film au cinéma, samedi à 19 h. Après, si tu veux, on pourrait manger une pizza. On se retrouve où ? Devant le cinéma, ça te va ? J'achèterai les billets en ligne ce soir.",
+            "en": "With pleasure! We could go see the new movie at the cinema, on Saturday at 7 p.m. Afterwards, if you want, we could eat a pizza. Where shall we meet? In front of the cinema, does that work for you? I'll buy the tickets online tonight." } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Suggest an activity: [[Ça te dit de… ?]], [[On pourrait…]], [[si tu veux]], [[Et si on allait… ?]]\n- Accept or refuse politely: [[Bonne idée !]], [[Ça marche !]], [[Désolé, je ne peux pas. Une autre fois ?]]\n- Fix the details and make small promises: [[On se retrouve où ?]], [[Ça te va ?]], [[J'apporterai le dessert.]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Removed 'Ça vous dit / si vous voulez / Ça vous va' from items glossed (to a friend), moved to notes; neutral listening prompt." }
+}

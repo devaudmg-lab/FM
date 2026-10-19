@@ -1,0 +1,311 @@
+{
+ "schemaVersion": 1,
+ "decks": [
+  {
+   "id": "vocab-01",
+   "title": "People and how they seem",
+   "band": "Everyday words 1–2000",
+   "cefr": "a2",
+   "theme": "talking about people: informal words and describing adjectives",
+   "count": 22,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-02",
+   "title": "Everyday verbs (1)",
+   "band": "Everyday words 1–2000",
+   "cefr": "a2",
+   "theme": "common verbs for beliefs, feelings and everyday actions",
+   "count": 20,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-03",
+   "title": "Things, places and big ideas",
+   "band": "Everyday words 1–2000",
+   "cefr": "b1",
+   "theme": "everyday nouns, abstract nouns and small linking words",
+   "count": 25,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-09",
+   "title": "Describing people",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b1",
+   "theme": "character, qualities and reputation",
+   "count": 20,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-10",
+   "title": "Feelings and reactions",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b1",
+   "theme": "emotions, reactions and attitudes",
+   "count": 21,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-11",
+   "title": "Informal everyday French",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b1",
+   "theme": "casual spoken French with friends",
+   "count": 22,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-12",
+   "title": "Action verbs",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b1",
+   "theme": "physical actions and movement",
+   "count": 20,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-13",
+   "title": "People, trust and situations",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b2",
+   "theme": "handling situations, relationships and trust",
+   "count": 20,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-14",
+   "title": "Animals, nature and matter",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b1",
+   "theme": "animals, plants, the sky and physical matter",
+   "count": 23,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-15",
+   "title": "Body, health and things",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b1",
+   "theme": "the body, medical care, objects and leisure",
+   "count": 21,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-16",
+   "title": "Society, law and power",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b2",
+   "theme": "justice, politics and the wider world",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-17",
+   "title": "Life, death and belief",
+   "band": "Everyday words 2000–4000",
+   "cefr": "b2",
+   "theme": "religion, death and mourning, legends",
+   "count": 20,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-19",
+   "title": "Feelings and inner states",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "emotions, moods and states of mind",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-20",
+   "title": "Love, family and loss",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "relationships, family life, mourning and faith",
+   "count": 23,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-21",
+   "title": "People: roles and character",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "jobs, social roles and personality",
+   "count": 23,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-22",
+   "title": "Arts, shows and going out",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "culture, entertainment and leisure",
+   "count": 23,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-23",
+   "title": "Describing words and -ment adverbs",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "adjectives for impressions and states; adverbs of manner and frequency",
+   "count": 23,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-24",
+   "title": "Society, law and institutions",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b2",
+   "theme": "public life, justice, institutions and values",
+   "count": 22,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-25",
+   "title": "The body and health",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "body parts, injuries, illness and symptoms",
+   "count": 22,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-26",
+   "title": "Things at home: objects and clothes",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "household objects, tools, clothes, jewellery and mess",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-27",
+   "title": "Food, nature and materials",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "food and drink, the natural world, materials and animals",
+   "count": 23,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-28",
+   "title": "Action verbs: moving and handling",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "verbs for movement, handling objects and changes of state",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-29",
+   "title": "Verbs for people and situations",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b1",
+   "theme": "verbs for getting along, rules and decisions, and difficulties",
+   "count": 20,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-30",
+   "title": "Abstract nouns and idioms",
+   "band": "Everyday words 4000–6000",
+   "cefr": "b2",
+   "theme": "abstract nouns for ideas, work, challenges and everyday idioms",
+   "count": 23,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-31",
+   "title": "Work and employment",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b1",
+   "theme": "the job market, careers and working conditions",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-32",
+   "title": "Immigration and integration",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b1",
+   "theme": "moving to a new country, immigration status and settling in",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-33",
+   "title": "Housing and city life",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b1",
+   "theme": "owning and renting, neighbourhoods and urban problems",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-34",
+   "title": "Health and well-being",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b1",
+   "theme": "healthy habits, mental health and the health care system",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-35",
+   "title": "Environment and climate",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b1",
+   "theme": "climate change, pollution, waste and nature",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-36",
+   "title": "Technology and the internet",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b1",
+   "theme": "digital tools, online safety and the impact of technology",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-37",
+   "title": "Education and training",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b1",
+   "theme": "the school system, studying, lifelong learning and paying for school",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-38",
+   "title": "Society, politics and citizenship",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b2",
+   "theme": "government and elections, rights and duties, social issues",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-39",
+   "title": "Media and information",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b2",
+   "theme": "news outlets, media coverage, press freedom and critical thinking",
+   "count": 24,
+   "minutes": 15
+  },
+  {
+   "id": "vocab-40",
+   "title": "Argumentation toolkit",
+   "band": "Exam themes (TEF/TCF)",
+   "cefr": "b2",
+   "theme": "verbs and nouns for cause, consequence, opinion, concession and nuance",
+   "count": 25,
+   "minutes": 15
+  }
+ ]
+}

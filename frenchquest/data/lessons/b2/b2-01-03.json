@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "b2-01-03",
+  "level": "b2",
+  "unit": "b2-01",
+  "title": "Counterarguments",
+  "goal": "Refute someone's argument politely and firmly: reformulate it, acknowledge what is valid, show its limits, and keep the floor in a lively debate.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-refuter", "kind": "grammar", "fr": "reformuler → reconnaître → réfuter → prouver", "en": "the four steps of a polite refutation",
+      "drills": [
+        { "type": "mcq", "prompt": "Your opponent says a tax would hurt poor families. Which reply follows the four steps?", "options": ["Si je vous comprends bien, la taxe pénaliserait les familles modestes. C'est un argument recevable, mais il ne tient pas compte de la prévention : dans certaines villes, par exemple, les revenus financent des fontaines d'eau dans les écoles.", "C'est faux, et vous le savez.", "Vous avez raison, je retire ce que j'ai dit.", "Je ne suis pas d'accord. Point final."], "optionsFr": true, "answer": 0, "explain": "Reformulate ([[Si je vous comprends bien…]]), acknowledge ([[C'est un argument recevable]]), refute ([[mais il ne tient pas compte de…]]), prove (an example)." },
+        { "type": "cloze", "text": "Votre argument est intéressant, mais il ne tient pas ___ du coût réel.", "answers": [["compte"]], "en": "Your argument is interesting, but it doesn't take the real cost into account.", "explain": "[[tenir compte de quelque chose]] = to take something into account." },
+        { "type": "cloze", "text": "Si je vous ___ bien, vous êtes contre toute forme de taxe ?", "answers": [["comprends"]], "en": "If I understand you correctly, you're against any form of tax?", "explain": "Reformulating first shows you listened, and lets you choose *which* part to refute." }
+      ] },
+    { "id": "je-comprends-votre-point-de-vue", "kind": "phrase", "fr": "Je comprends votre point de vue, mais…", "en": "I understand your point of view, but… (formal)", "accept": ["Je vois ce que vous voulez dire, mais…"] },
+    { "id": "je-ne-partage-pas", "kind": "phrase", "fr": "Je ne partage pas tout à fait cet avis.", "en": "I don't entirely share that view.", "accept": ["Je ne partage pas tout à fait votre avis.", "Je ne partage pas tout à fait ce point de vue."] },
+    { "id": "permettez-moi-de-nuancer", "kind": "phrase", "fr": "Permettez-moi de nuancer.", "en": "Allow me to qualify that. (formal)", "accept": ["Je me permets de nuancer."], "note": "[[nuancer]] = to add nuance, to qualify a statement that is too absolute." },
+    { "id": "argument-recevable", "kind": "phrase", "fr": "C'est un argument recevable.", "en": "That's a valid argument (worth considering).", "accept": ["C'est un argument valable.", "L'argument est recevable."] },
+    { "id": "ne-tient-pas-compte", "kind": "phrase", "fr": "Cet argument ne tient pas compte de…", "en": "This argument doesn't take into account…", "accept": ["Cet argument ne prend pas en compte…"] },
+    { "id": "ne-tient-pas", "kind": "phrase", "fr": "Cet argument ne tient pas.", "en": "That argument doesn't hold up.", "accept": ["Cet argument ne tient pas la route.", "Cet argument ne tient pas debout."], "note": "Firmer. [[ne tient pas la route]] is a little more informal." },
+    { "id": "ce-nest-pas-exact", "kind": "phrase", "fr": "Ce n'est pas tout à fait exact.", "en": "That's not quite accurate.", "accept": ["Ce n'est pas tout à fait juste.", "Ce n'est pas tout à fait vrai."], "note": "The polite way to say [[c'est faux]]." },
+    { "id": "si-je-vous-comprends-bien", "kind": "phrase", "fr": "Si je vous comprends bien, …", "en": "If I understand you correctly, … (formal)", "accept": ["Si je comprends bien, …", "Si je vous ai bien compris, …"] },
+    { "id": "laissez-moi-terminer", "kind": "phrase", "fr": "Laissez-moi terminer, s'il vous plaît.", "en": "Please let me finish. (formal)", "accept": ["Laissez-moi finir, s'il vous plaît.", "Permettez-moi de terminer."] },
+    { "id": "au-contraire", "kind": "phrase", "fr": "au contraire", "en": "on the contrary", "accept": ["bien au contraire"],
+      "example": { "fr": "La taxe n'a rien changé ? Au contraire, la consommation a baissé.", "en": "The tax changed nothing? On the contrary, consumption dropped." } },
+    { "id": "je-vous-rejoins", "kind": "phrase", "fr": "Je vous rejoins sur ce point.", "en": "I agree with you on that point. (formal)", "accept": ["Sur ce point, je vous rejoins."] },
+    { "id": "refuter", "kind": "vocab", "fr": "réfuter", "en": "to refute, to argue against", "pos": "verb",
+      "example": { "fr": "Elle a réfuté chaque argument avec des chiffres.", "en": "She refuted every argument with figures." } },
+    { "id": "boisson-gazeuse", "kind": "vocab", "fr": "boisson gazeuse", "article": "une", "gender": "f", "en": "soft drink, pop", "pos": "noun", "accept": ["la boisson gazeuse", "un soda", "une liqueur"], "note": "In France: [[un soda]]. In informal Québec French: [[une liqueur]]." }
+  ],
+  "steps": [
+    { "type": "discover", "title": "A radio debate",
+      "intro": "In a live debate, you can't just give your arguments: you have to **answer the other person's** without becoming rude. Listen to how both guests disagree firmly but politely. Notice the phrases they use just before they refute.",
+      "blocks": [
+        { "type": "dialogue", "title": "« Le débat du jeudi » : faut-il taxer les boissons sucrées ?",
+          "context": "A local radio show in Gatineau. The host, Sofia, has invited Amira Haddad, a nutritionist, and Nguyen Tran, who owns three convenience stores (dépanneurs) in the city.",
+          "lines": [
+            { "speaker": "Sofia", "fr": "Bonsoir et bienvenue au « Débat du jeudi ». Ce soir, une question qui divise : faut-il taxer les boissons sucrées ? Madame Haddad, vous êtes pour.", "en": "Good evening and welcome to “The Thursday Debate”. Tonight, a divisive question: should sugary drinks be taxed? Ms. Haddad, you're in favour." },
+            { "speaker": "Amira", "fr": "Tout à fait. Les boissons sucrées contribuent fortement à l'obésité chez les jeunes. Une taxe ferait baisser leur consommation, comme on l'a vu pour le tabac.", "en": "Absolutely. Sugary drinks contribute heavily to obesity among young people. A tax would reduce consumption, as we saw with tobacco." },
+            { "speaker": "Nguyen", "fr": "Je comprends votre point de vue, mais je ne partage pas du tout votre analyse. Comparer une canette de boisson gazeuse à une cigarette, c'est quand même exagéré.", "en": "I understand your point of view, but I don't share your analysis at all. Comparing a can of pop to a cigarette is a bit of an exaggeration." },
+            { "speaker": "Amira", "fr": "Je n'ai pas dit que c'était la même chose. J'ai dit que le mécanisme était le même : quand le prix augmente, la consommation diminue.", "en": "I didn't say it was the same thing. I said the mechanism was the same: when the price goes up, consumption goes down." },
+            { "speaker": "Nguyen", "fr": "Une taxe, ça n'a jamais changé les habitudes de personne.", "en": "A tax has never changed anyone's habits." },
+            { "speaker": "Amira", "fr": "Au contraire ! Au Mexique, plusieurs études ont associé la taxe de 2014 à une baisse des achats de boissons sucrées.", "en": "On the contrary! In Mexico, several studies have linked the 2014 tax to a drop in purchases of sugary drinks." },
+            { "speaker": "Sofia", "fr": "Monsieur Tran, quel est votre principal argument ?", "en": "Mr. Tran, what is your main argument?" },
+            { "speaker": "Nguyen", "fr": "Cette taxe pénaliserait d'abord les familles modestes. Ce sont elles qui achètent le plus ces produits, et ce sont elles qui paieraient la facture.", "en": "This tax would penalize low-income families first. They're the ones who buy these products the most, and they're the ones who would foot the bill." },
+            { "speaker": "Amira", "fr": "C'est un argument recevable. Toutefois, il ne tient pas compte d'un point essentiel : ces familles sont aussi les plus touchées par le diabète. Si l'argent de la taxe finançait des programmes de prévention dans leurs quartiers, elles en seraient les premières bénéficiaires.", "en": "That's a valid argument. However, it doesn't take into account an essential point: these families are also the most affected by diabetes. If the tax money funded prevention programs in their neighbourhoods, they would be the first to benefit." },
+            { "speaker": "Nguyen", "fr": "Si je vous comprends bien, vous voulez protéger les gens contre eux-mêmes ? Les adultes sont capables de choisir ce qu'ils boivent.", "en": "If I understand you correctly, you want to protect people from themselves? Adults are capable of choosing what they drink." },
+            { "speaker": "Amira", "fr": "Permettez-moi de nuancer. Il ne s'agit pas d'interdire, mais d'encourager de meilleurs choix. Personne ne vous empêchera d'acheter une boisson gazeuse.", "en": "Allow me to qualify that. It's not about banning, but about encouraging better choices. Nobody will stop you from buying a soft drink." },
+            { "speaker": "Nguyen", "fr": "Et les petits commerçants comme moi ? Mes clients iront faire leurs achats à Ottawa, de l'autre côté de la rivière.", "en": "And small shopkeepers like me? My customers will go shopping in Ottawa, on the other side of the river." },
+            { "speaker": "Amira", "fr": "Ce n'est pas tout à fait exact. Personne ne va traverser la rivière pour économiser quelques sous sur une canette.", "en": "That's not quite accurate. Nobody is going to cross the river to save a few cents on a can." },
+            { "speaker": "Nguyen", "fr": "Laissez-moi terminer, s'il vous plaît. Il ne s'agit pas d'une canette : il s'agit de toute l'épicerie de la semaine. Quand on traverse pour une chose, on achète tout le reste là-bas.", "en": "Please let me finish. It's not about one can: it's about the whole week's groceries. When you cross for one thing, you buy everything else over there." },
+            { "speaker": "Sofia", "fr": "Il nous reste une minute. Monsieur Tran, une proposition ?", "en": "We have one minute left. Mr. Tran, a proposal?" },
+            { "speaker": "Nguyen", "fr": "Plutôt qu'une taxe, je préférerais des campagnes d'éducation dans les écoles.", "en": "Rather than a tax, I'd prefer education campaigns in schools." },
+            { "speaker": "Amira", "fr": "Sur ce point, je vous rejoins : sans éducation, une taxe ne suffirait pas. Mais selon moi, les deux mesures se complètent.", "en": "On that point, I agree with you: without education, a tax wouldn't be enough. But in my view, the two measures complement each other." }
+          ] },
+        { "id": "d1", "type": "mcq", "prompt": "How does Amira answer the argument about low-income families?", "options": ["She accepts it is valid, then says it ignores their higher health risks", "She says it is completely false", "She changes the subject to tobacco", "She agrees and withdraws her proposal"], "answer": 0,
+          "explain": "[[C'est un argument recevable. Toutefois, il ne tient pas compte d'un point essentiel…]]: acknowledge, then show what is missing." },
+        { "id": "d2", "type": "mcq", "prompt": "Why does Nguyen say “Laissez-moi terminer”?", "options": ["Amira interrupted him before he could explain his real point", "He wants the show to end", "He's angry at the host", "He wants to change topic"], "answer": 0,
+          "explain": "Amira answered too quickly (about one can). Nguyen takes the floor back politely to clarify: it's the whole week's groceries." }
+      ] },
+    { "type": "understand", "title": "Refuting without offending",
+      "intro": "The secret of a polite refutation: **attack the argument, never the person**, and show you understood it before you answer it.",
+      "blocks": [
+        { "type": "table", "title": "The four steps",
+          "head": ["Step", "Purpose", "Useful French"],
+          "rows": [
+            ["1. Reformuler", "Show you listened; pick the point you'll answer", "Si je vous comprends bien, … / Vous dites que…"],
+            ["2. Reconnaître", "Admit what is valid", "C'est un argument recevable. / Je comprends votre point de vue. / Je vous rejoins sur ce point."],
+            ["3. Réfuter", "Show the limit or the error", "Mais il ne tient pas compte de… / Permettez-moi de nuancer. / Ce n'est pas tout à fait exact."],
+            ["4. Prouver", "Back it up", "Au contraire, … / Prenons l'exemple de… / Les chiffres montrent que…"]
+          ],
+          "frCols": [2], "sayCol": false,
+          "note": "You don't always need all four. But skipping step 2 makes you sound aggressive, and skipping step 4 makes you sound unconvincing." },
+        { "type": "table", "title": "From soft to firm",
+          "head": ["Strength", "Phrase", "Meaning"],
+          "rows": [
+            ["very soft", "Je vois ce que vous voulez dire, mais…", "I see what you mean, but…"],
+            ["soft", "Je ne partage pas tout à fait cet avis.", "I don't entirely share that view."],
+            ["neutral", "Permettez-moi de nuancer.", "Allow me to qualify that."],
+            ["neutral", "Ce n'est pas tout à fait exact.", "That's not quite accurate."],
+            ["firm", "Je ne partage pas du tout votre analyse.", "I don't share your analysis at all."],
+            ["very firm", "Cet argument ne tient pas.", "That argument doesn't hold up."]
+          ],
+          "frCols": [1], "sayCol": true,
+          "note": "[[tout à fait]] softens ([[pas tout à fait]] = not quite); [[du tout]] hardens ([[pas du tout]] = not at all). A tiny change, a big difference." },
+        { "type": "explain", "title": "Keeping the floor",
+          "body": "In French debates, people interrupt a lot. It isn't always rude: it's part of the culture of [[le débat]]. You need phrases to **keep** or **take back** the floor:\n\n- [[Laissez-moi terminer, s'il vous plaît.]] (Let me finish.)\n- [[Si vous me permettez de finir ma phrase…]] (If you'll let me finish my sentence…)\n- [[J'y viens.]] (I'm getting to that.)\n- [[Je reviens sur ce que vous avez dit.]] (Let me go back to what you said.)\n- [[Pardon de vous interrompre, mais…]] (Sorry to interrupt, but…)\n\nIn TEF and TCF speaking tests, the examiner may interrupt or challenge you on purpose. Calmly using one of these phrases shows B2 control." },
+        { "type": "vocab", "title": "Key words and phrases", "itemIds": ["je-comprends-votre-point-de-vue", "je-ne-partage-pas", "permettez-moi-de-nuancer", "argument-recevable", "ne-tient-pas-compte", "ne-tient-pas", "ce-nest-pas-exact", "si-je-vous-comprends-bien", "laissez-moi-terminer", "au-contraire", "je-vous-rejoins", "refuter", "boisson-gazeuse"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "When refuting goes wrong",
+          "body": "- **Attacking the person:** [[Vous ne connaissez rien au sujet.]] ✗ → [[Cet argument ne tient pas compte de…]] ✓\n- **Too blunt for the context:** [[C'est faux]], [[N'importe quoi !]], [[Vous avez tort]] ✗ in a formal debate. Use [[Ce n'est pas tout à fait exact]].\n- **Au contraire after agreement:** [[au contraire]] contradicts a statement; it can't answer [[On est d'accord ?]] with “yes”.\n- [[Je ne suis pas d'accord avec vous]] ✓ but [[Je ne suis pas d'accord de vous]] ✗.\n- [[tenir compte de]]: [[il ne tient pas compte du prix]] (de + le = du) ✓, never [[tenir compte le prix]] ✗.\n- **Refuting without evidence.** [[Ce n'est pas vrai]] alone convinces nobody: add [[Au contraire, …]] + a fact." },
+        { "type": "deepdive", "kind": "canada", "title": "Dépanneurs, liqueurs and the Ottawa River",
+          "body": "[[Un dépanneur]] (informal: [[un dep]]) is the Québec corner store. In France you'd say [[une épicerie de quartier]] or [[une supérette]].\n\nFor soft drinks, you'll hear [[une boisson gazeuse]] (standard in Canada), [[une liqueur]] (informal Québec) and [[un soda]] (France). Careful: in France, [[une liqueur]] is a sweet alcoholic drink!\n\nGatineau (Québec) and Ottawa (Ontario) face each other across the Ottawa River. Different provincial taxes and prices on each side are a classic real-life argument in debates about local taxes." }
+      ] },
+    { "type": "hear", "title": "Polite but firm",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "Politeness is also in the voice: keep a calm, even tone, and slow down slightly on the refutation.",
+          "lines": [
+            { "fr": "Je comprends votre point de vue, mais je ne partage pas cet avis.", "en": "I understand your point of view, but I don't share that view." },
+            { "fr": "C'est un argument recevable. Toutefois, il ne tient pas compte du coût.", "en": "That's a valid argument. However, it doesn't take the cost into account.", "tip": "[[tient]] [tjɛ̃], [[compte]] [kɔ̃t]: the p is silent." },
+            { "fr": "Permettez-moi de nuancer.", "en": "Allow me to qualify that." },
+            { "fr": "Ce n'est pas tout à fait exact.", "en": "That's not quite accurate.", "tip": "[[exact]]: you'll hear both [ɛɡ.zakt] and [ɛɡ.za]; [ɛɡ.zakt] is the more common today." },
+            { "fr": "Si je vous comprends bien, vous êtes contre toute taxe.", "en": "If I understand you correctly, you're against any tax." },
+            { "fr": "Laissez-moi terminer, s'il vous plaît.", "en": "Please let me finish." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Je vois ce que vous voulez dire, et je vous rejoins en partie. Mais votre exemple ne tient pas compte des régions rurales.", "en": "I see what you mean, and I partly agree with you. But your example doesn't take rural regions into account.", "prompt": "What is the speaker's attitude?", "options": ["Partly agrees, then points out a limit", "Agrees completely", "Rejects everything rudely", "Asks for more time"], "answer": 0,
+          "explain": "[[je vous rejoins en partie]] (acknowledge) + [[mais… ne tient pas compte de…]] (refute)." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Pardon, si vous me permettez de finir ma phrase : je n'ai jamais dit qu'il fallait interdire les voitures.", "en": "Sorry, if you'll let me finish my sentence: I never said cars had to be banned.", "prompt": "What is happening?", "options": ["The speaker was interrupted and is correcting a misunderstanding", "The speaker is apologizing for being late", "The speaker wants to ban cars", "The speaker agrees with the other guest"], "answer": 0,
+          "explain": "[[si vous me permettez de finir ma phrase]] takes back the floor; [[je n'ai jamais dit que…]] corrects a false reformulation." }
+      ] },
+    { "type": "recall", "title": "Refute from memory",
+      "intro": "Nine questions, with some earlier grammar mixed in.",
+      "blocks": [
+        { "id": "r1", "type": "translate", "prompt": "I don't entirely share that view.", "accept": ["Je ne partage pas tout à fait cet avis.", "Je ne partage pas tout à fait ce point de vue.", "Je ne partage pas tout à fait votre avis.", "Je ne partage pas tout à fait ton avis.", "Je ne partage pas entièrement cet avis.", "Je ne partage pas complètement cet avis."],
+          "explain": "[[pas tout à fait]] softens the disagreement." },
+        { "id": "r2", "type": "mcq", "prompt": "Which reply is the most polite in a formal debate?", "options": ["Ce n'est pas tout à fait exact.", "C'est complètement faux.", "N'importe quoi !", "Vous avez tort."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Too blunt for a formal debate.", "Rude and informal.", "Attacks the person, not the argument."] },
+        { "id": "r3", "type": "cloze", "text": "Votre exemple est intéressant, mais il ne tient pas compte ___ prix des logements.", "answers": [["du"]], "en": "Your example is interesting, but it doesn't take the price of housing into account.",
+          "explain": "[[tenir compte de]] + [[le prix]] → [[du prix]]." },
+        { "id": "r4", "type": "translate", "prompt": "If I understand you correctly, you're against the tax? (formal)", "accept": ["Si je vous comprends bien, vous êtes contre la taxe ?", "Si je comprends bien, vous êtes contre la taxe ?", "Si je vous comprends bien, vous êtes contre cette taxe ?", "Si je vous ai bien compris, vous êtes contre la taxe ?", "Si je vous comprends bien, vous vous opposez à la taxe ?"],
+          "explain": "Reformulating first is step 1 of a refutation." },
+        { "id": "r5", "type": "reorder", "prompt": "Allow me to qualify that.", "accept": ["Permettez-moi de nuancer"], "extra": ["laissez", "à"],
+          "explain": "[[Permettez-moi de + infinitif]]: a formal way to ask for permission to speak." },
+        { "id": "r6", "type": "match", "prompt": "Match each phrase to its function.", "pairs": [["Si je vous comprends bien…", "reformulating"], ["C'est un argument recevable.", "acknowledging"], ["Ce n'est pas tout à fait exact.", "correcting politely"], ["Laissez-moi terminer.", "keeping the floor"], ["Je vous rejoins sur ce point.", "agreeing partly"]] },
+        { "id": "r7", "type": "cloze", "text": "La nutritionniste ___ j'ai entendu l'interview a réfuté chaque argument.", "answers": [["dont"]], "choices": ["dont", "que", "qui", "où"], "en": "The nutritionist whose interview I heard refuted every argument.",
+          "explain": "B1 review: [[dont]] replaces [[de + noun]] ([[l'interview de la nutritionniste]])." },
+        { "id": "r8", "type": "cloze", "text": "— Une taxe ne change rien. — Au ___, la consommation a baissé de dix pour cent.", "answers": [["contraire"]], "en": "— A tax changes nothing. — On the contrary, consumption dropped by ten percent.",
+          "explain": "[[Au contraire]] contradicts a statement and introduces evidence." },
+        { "id": "r9", "type": "dictation", "fr": "C'est un argument recevable, mais il ne tient pas compte du coût réel.", "accept": ["C'est un argument recevable mais il ne tient pas compte du coût réel."], "explain": "[[recevable]] = acceptable, worth considering; [[du coût]]: de + le." }
+      ] },
+    { "type": "apply", "title": "Your turn: answer the other side",
+      "blocks": [
+        { "id": "s1", "type": "speak", "prompt": "In a debate, you defend more bike lanes in your city. Your opponent says: “Les pistes cyclables tuent les commerces, et personne ne fait de vélo l'hiver.” Answer in about 90 seconds, refuting both points politely.", "promptFr": "Répondez : « Les pistes cyclables tuent les commerces, et personne ne fait de vélo l'hiver. »", "seconds": 90,
+          "checklist": ["Reformulate your opponent's argument", "Acknowledge something valid", "Refute each of the two points with a different phrase", "At least one concrete example or figure", "Polite, formal tone (vous)"],
+          "models": [
+            { "label": "Model answer", "fr": "Si je vous comprends bien, vous pensez que les pistes cyclables font fuir les clients et qu'elles sont inutiles en hiver. Je comprends votre inquiétude, et je vous rejoins sur un point : il faut garder des places pour les livraisons. Mais permettez-moi de nuancer. D'abord, dans bien des quartiers, une grande partie des clients des commerces viennent à pied ou en autobus, pas en voiture. Ensuite, ce n'est pas tout à fait exact de dire que personne ne fait de vélo l'hiver. Prenons l'exemple de Montréal : des milliers de cyclistes roulent toute l'année, du moment que les pistes sont déneigées. Bref, je crois que votre argument ne tient pas compte de l'évolution des habitudes.", "en": "If I understand you correctly, you think bike lanes drive customers away and are useless in winter. I understand your concern, and I agree with you on one point: we need to keep spaces for deliveries. But allow me to qualify that. First, in many neighbourhoods, a large share of shop customers come on foot or by bus, not by car. Next, it's not quite accurate to say that nobody cycles in winter. Let's take the example of Montréal: thousands of cyclists ride all year round, as long as the lanes are cleared. In short, I think your argument doesn't take into account how habits are changing." }
+          ] },
+        { "id": "w1", "type": "write", "prompt": "A columnist wrote: “Apprendre le français ne sert à rien quand on vit à Toronto.” Write a reply for the newspaper's readers' page, refuting this claim politely.", "promptFr": "Un chroniqueur affirme : « Apprendre le français ne sert à rien quand on vit à Toronto. » Rédigez une réponse.",
+          "wordRange": [130, 200],
+          "checklist": ["Reformulate the columnist's claim", "Acknowledge what is partly true", "Refute with at least two arguments and examples", "At least three refutation phrases from this lesson", "A polite but firm conclusion"],
+          "models": [
+            { "label": "Model answer", "fr": "Dans sa dernière chronique, votre collaborateur affirme qu'apprendre le français ne sert à rien quand on vit à Toronto. Je comprends son point de vue : il est vrai qu'on peut vivre en Ontario sans parler français. Cependant, je ne partage pas du tout sa conclusion.\n\nEn premier lieu, cet argument ne tient pas compte du marché du travail. De nombreux emplois au gouvernement fédéral, dans les écoles ou dans le secteur de la santé exigent les deux langues officielles. À titre d'exemple, ma sœur a obtenu un poste à l'hôpital grâce à son français.\n\nPar ailleurs, Toronto compte une communauté francophone vivante, avec des écoles, un théâtre et des festivals. Il est donc inexact de dire que le français y est inutile.\n\nEn définitive, apprendre le français, c'est ouvrir des portes, même à Toronto.", "en": "In his latest column, your contributor claims that learning French is useless when you live in Toronto. I understand his point of view: it's true that you can live in Ontario without speaking French. However, I don't share his conclusion at all.\n\nIn the first place, this argument doesn't take the job market into account. Many jobs in the federal government, in schools or in the health sector require both official languages. By way of example, my sister got a position at the hospital thanks to her French.\n\nFurthermore, Toronto has a lively French-speaking community, with schools, a theatre and festivals. It is therefore inaccurate to say that French is useless there.\n\nUltimately, learning French means opening doors, even in Toronto." }
+          ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Refute in four steps: reformulate ([[Si je vous comprends bien…]]), acknowledge ([[C'est un argument recevable]]), refute ([[il ne tient pas compte de…]]), prove ([[Au contraire, …]])\n- Grade your disagreement: [[pas tout à fait]] (soft) vs [[pas du tout]] (firm), [[Ce n'est pas tout à fait exact]] instead of [[c'est faux]]\n- Keep the floor: [[Laissez-moi terminer]], [[J'y viens]]\n- Attack the argument, never the person",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Hedged the Mexico soda-tax and obesity claims, removed tu variants from items marked formal, and corrected the pronunciation tip for exact. Widened two accept lists." }
+}

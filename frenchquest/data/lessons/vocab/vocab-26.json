@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "id": "vocab-26",
+  "level": "vocab",
+  "unit": "vocab",
+  "title": "Things at home: objects and clothes",
+  "band": "Everyday words 4000–6000",
+  "cefr": "b1",
+  "theme": "household objects, tools, clothes, jewellery and mess",
+  "goal": "Recognise and use 24 words for everyday objects, tools, clothes and the mess at home.",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "oreiller",
+      "kind": "vocab",
+      "fr": "oreiller",
+      "article": "l'",
+      "gender": "m",
+      "en": "pillow",
+      "pos": "noun",
+      "accept": [
+        "un oreiller"
+      ],
+      "example": {
+        "fr": "Je dors mal sans mon oreiller.",
+        "en": "I sleep badly without my pillow."
+      }
+    },
+    {
+      "id": "baignoire",
+      "kind": "vocab",
+      "fr": "baignoire",
+      "article": "la",
+      "gender": "f",
+      "en": "bathtub",
+      "pos": "noun",
+      "accept": [
+        "une baignoire"
+      ],
+      "example": {
+        "fr": "L'appartement a une douche, mais pas de baignoire.",
+        "en": "The apartment has a shower but no bathtub."
+      }
+    },
+    {
+      "id": "savon",
+      "kind": "vocab",
+      "fr": "savon",
+      "article": "le",
+      "gender": "m",
+      "en": "soap",
+      "pos": "noun",
+      "accept": [
+        "un savon"
+      ],
+      "example": {
+        "fr": "Lave-toi les mains avec du savon.",
+        "en": "Wash your hands with soap."
+      }
+    },
+    {
+      "id": "poignee",
+      "kind": "vocab",
+      "fr": "poignée",
+      "article": "la",
+      "gender": "f",
+      "en": "handle; doorknob",
+      "pos": "noun",
+      "accept": [
+        "une poignée"
+      ],
+      "example": {
+        "fr": "La poignée de la porte est cassée.",
+        "en": "The door handle is broken."
+      }
+    },
+    {
+      "id": "sonnerie",
+      "kind": "vocab",
+      "fr": "sonnerie",
+      "article": "la",
+      "gender": "f",
+      "en": "ringtone; ring (bell, alarm)",
+      "pos": "noun",
+      "accept": [
+        "une sonnerie"
+      ],
+      "example": {
+        "fr": "J'ai changé la sonnerie de mon téléphone.",
+        "en": "I changed the ringtone on my phone."
+      }
+    },
+    {
+      "id": "feuille",
+      "kind": "vocab",
+      "fr": "feuille",
+      "article": "la",
+      "gender": "f",
+      "en": "sheet (of paper); leaf",
+      "pos": "noun",
+      "accept": [
+        "une feuille"
+      ],
+      "example": {
+        "fr": "Prenez une feuille et un crayon.",
+        "en": "Take a sheet of paper and a pencil."
+      }
+    },
+    {
+      "id": "tube",
+      "kind": "vocab",
+      "fr": "tube",
+      "article": "le",
+      "gender": "m",
+      "en": "tube; hit song (informal)",
+      "pos": "noun",
+      "accept": [
+        "un tube"
+      ],
+      "example": {
+        "fr": "Il n'y a plus de dentifrice dans le tube.",
+        "en": "There's no toothpaste left in the tube."
+      }
+    },
+    {
+      "id": "marteau",
+      "kind": "vocab",
+      "fr": "marteau",
+      "article": "le",
+      "gender": "m",
+      "en": "hammer",
+      "pos": "noun",
+      "accept": [
+        "un marteau"
+      ],
+      "example": {
+        "fr": "Passe-moi le marteau, s'il te plaît.",
+        "en": "Pass me the hammer, please."
+      }
+    },
+    {
+      "id": "planche",
+      "kind": "vocab",
+      "fr": "planche",
+      "article": "la",
+      "gender": "f",
+      "en": "board, plank",
+      "pos": "noun",
+      "accept": [
+        "une planche"
+      ],
+      "example": {
+        "fr": "Il coupe les légumes sur une planche en bois.",
+        "en": "He chops the vegetables on a wooden board."
+      }
+    },
+    {
+      "id": "pompe",
+      "kind": "vocab",
+      "fr": "pompe",
+      "article": "la",
+      "gender": "f",
+      "en": "pump",
+      "pos": "noun",
+      "accept": [
+        "une pompe"
+      ],
+      "example": {
+        "fr": "Il me faut une pompe pour gonfler les pneus du vélo.",
+        "en": "I need a pump to inflate the bike tyres."
+      }
+    },
+    {
+      "id": "plaque",
+      "kind": "vocab",
+      "fr": "plaque",
+      "article": "la",
+      "gender": "f",
+      "en": "plate, sign; licence plate",
+      "pos": "noun",
+      "accept": [
+        "une plaque"
+      ],
+      "example": {
+        "fr": "Note le numéro de la plaque de l'auto.",
+        "en": "Write down the car's licence plate number."
+      }
+    },
+    {
+      "id": "bidon",
+      "kind": "vocab",
+      "fr": "bidon",
+      "article": "le",
+      "gender": "m",
+      "en": "can, jerrycan (container)",
+      "pos": "noun",
+      "accept": [
+        "un bidon"
+      ],
+      "example": {
+        "fr": "On a un bidon d'essence dans le garage.",
+        "en": "We have a can of gas in the garage."
+      }
+    },
+    {
+      "id": "machin",
+      "kind": "vocab",
+      "fr": "machin",
+      "article": "le",
+      "gender": "m",
+      "en": "thingy, whatsit (informal)",
+      "pos": "noun",
+      "accept": [
+        "un machin",
+        "le truc",
+        "un truc"
+      ],
+      "example": {
+        "fr": "C'est quoi, ce machin sur la table ?",
+        "en": "What's this thingy on the table?"
+      },
+      "note": "Informal. Synonym: un truc."
+    },
+    {
+      "id": "desordre",
+      "kind": "vocab",
+      "fr": "désordre",
+      "article": "le",
+      "gender": "m",
+      "en": "mess, disorder",
+      "pos": "noun",
+      "accept": [
+        "un désordre"
+      ],
+      "example": {
+        "fr": "Excuse le désordre, je n'ai pas eu le temps de ranger.",
+        "en": "Sorry about the mess, I didn't have time to tidy up."
+      }
+    },
+    {
+      "id": "bazar",
+      "kind": "vocab",
+      "fr": "bazar",
+      "article": "le",
+      "gender": "m",
+      "en": "mess, clutter (informal)",
+      "pos": "noun",
+      "accept": [
+        "un bazar"
+      ],
+      "example": {
+        "fr": "Quel bazar dans ta chambre !",
+        "en": "What a mess your room is!"
+      },
+      "note": "Informal. Quel bazar ! = What a mess!"
+    },
+    {
+      "id": "salete",
+      "kind": "vocab",
+      "fr": "saleté",
+      "article": "la",
+      "gender": "f",
+      "en": "dirt, filth",
+      "pos": "noun",
+      "accept": [
+        "une saleté"
+      ],
+      "example": {
+        "fr": "Il y a de la saleté partout après les travaux.",
+        "en": "There's dirt everywhere after the renovations."
+      }
+    },
+    {
+      "id": "robe",
+      "kind": "vocab",
+      "fr": "robe",
+      "article": "la",
+      "gender": "f",
+      "en": "dress",
+      "pos": "noun",
+      "accept": [
+        "une robe"
+      ],
+      "example": {
+        "fr": "Elle porte une robe rouge pour le mariage.",
+        "en": "She's wearing a red dress for the wedding."
+      }
+    },
+    {
+      "id": "costume",
+      "kind": "vocab",
+      "fr": "costume",
+      "article": "le",
+      "gender": "m",
+      "en": "suit (man’s); costume",
+      "pos": "noun",
+      "accept": [
+        "un costume"
+      ],
+      "example": {
+        "fr": "Il a acheté un costume pour son entrevue.",
+        "en": "He bought a suit for his interview."
+      },
+      "note": "Québec also says un habit."
+    },
+    {
+      "id": "cravate",
+      "kind": "vocab",
+      "fr": "cravate",
+      "article": "la",
+      "gender": "f",
+      "en": "tie",
+      "pos": "noun",
+      "accept": [
+        "une cravate"
+      ],
+      "example": {
+        "fr": "Tu dois porter une cravate au bureau ?",
+        "en": "Do you have to wear a tie at the office?"
+      }
+    },
+    {
+      "id": "chaussette",
+      "kind": "vocab",
+      "fr": "chaussette",
+      "article": "la",
+      "gender": "f",
+      "en": "sock",
+      "pos": "noun",
+      "accept": [
+        "une chaussette"
+      ],
+      "example": {
+        "fr": "Je ne trouve jamais deux chaussettes pareilles.",
+        "en": "I can never find two matching socks."
+      },
+      "note": "Québec: un bas is also used for a sock (in France, des bas = stockings)."
+    },
+    {
+      "id": "culotte",
+      "kind": "vocab",
+      "fr": "culotte",
+      "article": "la",
+      "gender": "f",
+      "en": "panties, (women's) underpants",
+      "pos": "noun",
+      "accept": [
+        "une culotte"
+      ],
+      "example": {
+        "fr": "Les culottes sont dans le premier tiroir.",
+        "en": "The underpants are in the top drawer."
+      }
+    },
+    {
+      "id": "boucle-oreille",
+      "kind": "vocab",
+      "fr": "boucle d’oreille",
+      "article": "la",
+      "gender": "f",
+      "en": "earring",
+      "pos": "noun",
+      "accept": [
+        "une boucle d’oreille",
+        "boucle d'oreille",
+        "la boucle d'oreille",
+        "une boucle d'oreille"
+      ],
+      "example": {
+        "fr": "Elle a perdu une boucle d'oreille au restaurant.",
+        "en": "She lost an earring at the restaurant."
+      }
+    },
+    {
+      "id": "anneau",
+      "kind": "vocab",
+      "fr": "anneau",
+      "article": "l'",
+      "gender": "m",
+      "en": "ring (plain band)",
+      "pos": "noun",
+      "accept": [
+        "un anneau"
+      ],
+      "example": {
+        "fr": "Il porte un anneau en or.",
+        "en": "He wears a gold ring."
+      }
+    },
+    {
+      "id": "diamant",
+      "kind": "vocab",
+      "fr": "diamant",
+      "article": "le",
+      "gender": "m",
+      "en": "diamond",
+      "pos": "noun",
+      "accept": [
+        "un diamant"
+      ],
+      "example": {
+        "fr": "Sa bague de fiançailles a un petit diamant.",
+        "en": "Her engagement ring has a small diamond."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "type": "understand",
+      "title": "New words",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Around the house",
+          "itemIds": [
+            "oreiller",
+            "baignoire",
+            "savon",
+            "poignee",
+            "sonnerie",
+            "feuille",
+            "tube"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Tools, things and mess",
+          "itemIds": [
+            "marteau",
+            "planche",
+            "pompe",
+            "plaque",
+            "bidon",
+            "machin",
+            "desordre",
+            "bazar",
+            "salete"
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Clothes and jewellery",
+          "itemIds": [
+            "robe",
+            "costume",
+            "cravate",
+            "chaussette",
+            "culotte",
+            "boucle-oreille",
+            "anneau",
+            "diamant"
+          ]
+        },
+        {
+          "type": "explain",
+          "title": "Usage tips",
+          "body": "- [[Un anneau]] is a plain band; a ring with a stone is [[une bague]].\n- [[Un costume]] is a man's suit or a costume (disguise).\n- [[Machin]] and [[truc]] are informal for things you can't name.\n- Québec: [[des bas]] = socks (in France, stockings); [[un habit]] = a suit (France: [[un costume]])."
+        }
+      ]
+    },
+    {
+      "type": "hear",
+      "title": "Hear it, say it",
+      "blocks": [
+        {
+          "type": "repeat",
+          "title": "Listen and repeat",
+          "note": "Repeat each sentence out loud, then record yourself and compare.",
+          "lines": [
+            {
+              "fr": "Je dors mal sans mon oreiller.",
+              "en": "I sleep badly without my pillow."
+            },
+            {
+              "fr": "Lave-toi les mains avec du savon.",
+              "en": "Wash your hands with soap."
+            },
+            {
+              "fr": "La poignée de la porte est cassée.",
+              "en": "The door handle is broken."
+            },
+            {
+              "fr": "J'ai changé la sonnerie de mon téléphone.",
+              "en": "I changed the ringtone on my phone."
+            },
+            {
+              "fr": "Passe-moi le marteau, s'il te plaît.",
+              "en": "Pass me the hammer, please."
+            },
+            {
+              "fr": "C'est quoi, ce machin sur la table ?",
+              "en": "What's this thingy on the table?"
+            },
+            {
+              "fr": "Il a acheté un costume pour son entrevue.",
+              "en": "He bought a suit for his interview."
+            },
+            {
+              "fr": "Je ne trouve jamais deux chaussettes pareilles.",
+              "en": "I can never find two matching socks."
+            },
+            {
+              "fr": "Elle a perdu une boucle d'oreille au restaurant.",
+              "en": "She lost an earring at the restaurant."
+            },
+            {
+              "fr": "Excuse le désordre, je n'ai pas eu le temps de ranger.",
+              "en": "Sorry about the mess, I didn't have time to tidy up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recall",
+      "title": "Your turn",
+      "intro": "Answer without scrolling back. Getting something wrong now helps you remember it later.",
+      "blocks": [
+        {
+          "id": "r1",
+          "type": "match",
+          "prompt": "Match the household words.",
+          "pairs": [
+            [
+              "l'oreiller",
+              "pillow"
+            ],
+            [
+              "la baignoire",
+              "bathtub"
+            ],
+            [
+              "le savon",
+              "soap"
+            ],
+            [
+              "la poignée",
+              "handle"
+            ],
+            [
+              "le marteau",
+              "hammer"
+            ]
+          ]
+        },
+        {
+          "id": "r2",
+          "type": "match",
+          "prompt": "Match the clothes and jewellery.",
+          "pairs": [
+            [
+              "la robe",
+              "dress"
+            ],
+            [
+              "la cravate",
+              "tie"
+            ],
+            [
+              "la chaussette",
+              "sock"
+            ],
+            [
+              "le diamant",
+              "diamond"
+            ],
+            [
+              "le costume",
+              "suit"
+            ]
+          ]
+        },
+        {
+          "id": "r3",
+          "type": "mcq",
+          "prompt": "A friend arrives and your apartment is messy. What do you say?",
+          "options": [
+            "Excuse le désordre !",
+            "Excuse la sonnerie !",
+            "Excuse la planche !",
+            "Excuse le diamant !"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Excuse le désordre]] = sorry about the mess."
+        },
+        {
+          "id": "r4",
+          "type": "mcq",
+          "prompt": "You can't remember the name of an object. Which word helps (informal)?",
+          "options": [
+            "un machin",
+            "un bidon",
+            "un anneau",
+            "un tube"
+          ],
+          "optionsFr": true,
+          "answer": 0,
+          "explain": "[[Un machin]] (or [[un truc]]) = a thingy."
+        },
+        {
+          "id": "r5",
+          "type": "translate",
+          "prompt": "The door handle is broken.",
+          "accept": [
+            "La poignée de la porte est cassée.",
+            "La poignée de porte est cassée."
+          ],
+          "explain": "[[Poignée]] is feminine, so [[cassée]] takes -e."
+        },
+        {
+          "id": "r6",
+          "type": "translate",
+          "prompt": "She lost an earring.",
+          "accept": [
+            "Elle a perdu une boucle d'oreille."
+          ],
+          "explain": "[[Une boucle d’oreille]] is feminine."
+        },
+        {
+          "id": "r7",
+          "type": "cloze",
+          "text": "Lave-toi les mains avec du ___.",
+          "answers": [
+            [
+              "savon"
+            ]
+          ],
+          "choices": [
+            "savon",
+            "marteau",
+            "bazar",
+            "costume"
+          ],
+          "en": "Wash your hands with soap.",
+          "explain": "[[Du savon]]: soap is uncountable here."
+        },
+        {
+          "id": "r8",
+          "type": "cloze",
+          "text": "J'ai changé la ___ de mon cellulaire.",
+          "answers": [
+            [
+              "sonnerie"
+            ]
+          ],
+          "en": "I changed the ringtone on my cell phone.",
+          "explain": "[[La sonnerie]] comes from [[sonner]] (to ring)."
+        },
+        {
+          "id": "r9",
+          "type": "dictation",
+          "fr": "Je dors mal sans mon oreiller.",
+          "accept": [],
+          "explain": "[[Oreiller]] ends in -er but is a noun, pronounced like [[oreille]] + é."
+        },
+        {
+          "id": "r10",
+          "type": "listen-mcq",
+          "fr": "Il me faut une pompe pour gonfler les pneus du vélo.",
+          "en": "I need a pump to inflate the bike tyres.",
+          "prompt": "What does the speaker need?",
+          "options": [
+            "A bicycle pump",
+            "A hammer",
+            "A new bike"
+          ],
+          "answer": 0,
+          "explain": "[[Une pompe]] is used to inflate [[les pneus]]."
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "title": "Mix in older material",
+      "blocks": [
+        {
+          "type": "review-mix",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "summary": "- Name objects at home: [[oreiller, baignoire, savon, poignée, sonnerie]]\n- Name tools and things: [[marteau, planche, pompe, machin]]\n- Talk about clothes, jewellery and mess: [[robe, cravate, chaussette, boucle d’oreille, désordre]]",
+  "completion": {
+    "threshold": 0.8
+  },
+  "meta": {
+    "reviewStatus": "ai-verified",
+    "author": "ai",
+    "verifiedBy": "ai-verifier",
+    "notes": "Added informal notes for machin and bazar; Québec bas/habit notes now give the France meaning; removed the \"not a swimsuit\" claim (Québec says costume de bain); clarified culotte."
+  }
+}

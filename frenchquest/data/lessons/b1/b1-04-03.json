@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "b1-04-03",
+  "level": "b1",
+  "unit": "b1-04",
+  "title": "Pros and cons of technology",
+  "goal": "Present the advantages and disadvantages of a technology, balance them with d'un côté… de l'autre, par contre and en revanche, and give a nuanced conclusion.",
+  "minutes": 15,
+  "items": [
+    { "id": "g-balance", "kind": "grammar", "fr": "d'un côté… de l'autre / par contre / en revanche", "en": "balancing pros and cons",
+      "drills": [
+        { "type": "cloze", "text": "D'un côté, le télétravail fait gagner du temps. De ___, on se sent parfois seul.", "answers": [["l'autre", "l'autre côté"]], "en": "On the one hand, remote work saves time. On the other hand, you sometimes feel lonely.", "explain": "[[d'un côté… de l'autre (côté)]] = on the one hand… on the other hand." },
+        { "type": "cloze", "text": "L'avantage, c'est que c'est rapide. Le problème, ___ que c'est cher.", "answers": [["c'est"]], "en": "The advantage is that it's fast. The problem is that it's expensive.", "explain": "[[L'avantage, c'est que…]] / [[Le problème, c'est que…]]: a very natural spoken structure." },
+        { "type": "mcq", "prompt": "Which connector introduces a contrast?", "options": ["par contre", "parce que", "d'abord", "donc"], "optionsFr": true, "answer": 0, "explain": "[[par contre]] (common in speech) and [[en revanche]] (more formal) both mean *on the other hand*." }
+      ] },
+    { "id": "g-permettre-rendre", "kind": "grammar", "fr": "permettre de + infinitif / rendre + adjectif", "en": "saying what technology allows or makes",
+      "drills": [
+        { "type": "cloze", "text": "Les applications permettent ___ apprendre partout.", "answers": [["d'"]], "en": "Apps make it possible to learn anywhere.", "explain": "[[permettre de]] + infinitive; [[de]] → [[d']] before a vowel." },
+        { "type": "cloze", "text": "Les réseaux sociaux ___ certains jeunes dépendants. (rendre)", "answers": [["rendent"]], "en": "Social media makes some young people addicted.", "explain": "*Make + adjective* = [[rendre]] + adjective, not [[faire]]. [[les réseaux]] → [[rendent]]." },
+        { "type": "translate", "prompt": "Technology makes life easier.", "accept": ["La technologie rend la vie plus facile.", "La technologie facilite la vie.", "Les technologies rendent la vie plus facile.", "Les technologies facilitent la vie."], "explain": "[[rendre la vie plus facile]] or simply [[faciliter la vie]]." }
+      ] },
+    { "id": "avantage", "kind": "vocab", "fr": "avantage", "article": "un", "gender": "m", "en": "advantage (pro)", "pos": "noun", "accept": ["l'avantage"],
+      "example": { "fr": "Le grand avantage, c'est la flexibilité.", "en": "The big advantage is flexibility." } },
+    { "id": "inconvenient", "kind": "vocab", "fr": "inconvénient", "article": "un", "gender": "m", "en": "disadvantage (drawback, con)", "pos": "noun", "accept": ["l'inconvénient", "un désavantage"],
+      "example": { "fr": "Le principal inconvénient, c'est le prix.", "en": "The main drawback is the price." } },
+    { "id": "cellulaire", "kind": "vocab", "fr": "cellulaire", "article": "le", "gender": "m", "en": "cellphone (Québec term)", "pos": "noun", "accept": ["un cellulaire", "le cell", "le portable", "un portable", "le téléphone"],
+      "example": { "fr": "Les élèves laissent leur cellulaire dans leur casier.", "en": "Students leave their cellphones in their lockers." }, "note": "Québec: [[un cellulaire]], informal [[un cell]]. France: [[un portable]]." },
+    { "id": "temps-ecran", "kind": "vocab", "fr": "temps d'écran", "article": "le", "gender": "m", "en": "screen time", "pos": "noun",
+      "example": { "fr": "Il faut limiter le temps d'écran des enfants.", "en": "Children's screen time should be limited." } },
+    { "id": "ia", "kind": "vocab", "fr": "intelligence artificielle", "article": "l'", "gender": "f", "en": "artificial intelligence (AI)", "pos": "noun", "accept": ["l'IA", "une intelligence artificielle"],
+      "example": { "fr": "L'intelligence artificielle peut aider les élèves à réviser.", "en": "AI can help students review." }, "note": "Abbreviation: [[l'IA]], said *i-a*." },
+    { "id": "reseaux-sociaux", "kind": "vocab", "fr": "réseaux sociaux", "article": "les", "gender": "m", "en": "social media", "pos": "noun", "accept": ["des réseaux sociaux"],
+      "example": { "fr": "Je passe trop de temps sur les réseaux sociaux.", "en": "I spend too much time on social media." } },
+    { "id": "dependant", "kind": "vocab", "fr": "dépendant", "fem": "dépendante", "en": "addicted (dependent)", "pos": "adjective", "accept": ["dépendante", "accro"],
+      "example": { "fr": "Mon fils est un peu dépendant de son téléphone.", "en": "My son is a bit addicted to his phone." }, "note": "[[dépendant de]] something. Informal: [[être accro à]] something." },
+    { "id": "interdire", "kind": "vocab", "fr": "interdire", "en": "to ban (forbid)", "pos": "verb",
+      "example": { "fr": "L'école a interdit les cellulaires en classe.", "en": "The school banned cellphones in class." }, "note": "Present: [[vous interdisez]] (not *interdites*). Adjective: [[interdit]], banned." },
+    { "id": "pour-contre", "kind": "phrase", "fr": "le pour et le contre", "en": "the pros and cons", "accept": ["les avantages et les inconvénients"] },
+    { "id": "depend-usage", "kind": "phrase", "fr": "Ça dépend de l'usage.", "en": "It depends on how it's used.", "accept": ["Tout dépend de l'usage.", "Ça dépend de l'utilisation."] }
+  ],
+  "steps": [
+    { "type": "discover", "title": "Phones and AI at school: for or against?",
+      "intro": "A Montréal radio show asks listeners about technology at school. Lucie is a high school teacher; Karim works in IT and has two teenagers. Listen for how each speaker balances advantages and disadvantages.",
+      "blocks": [
+        { "type": "dialogue", "title": "Tribune téléphonique : la technologie à l'école",
+          "context": "Camille hosts a call-in show. Two listeners call in.",
+          "lines": [
+            { "speaker": "Camille", "fr": "Bonsoir et bienvenue ! Ce soir, on parle de la technologie à l'école : cellulaires, tablettes, intelligence artificielle. Pour ou contre ? Notre première auditrice est enseignante au secondaire. Bonsoir, Lucie !", "en": "Good evening and welcome! Tonight we're talking about technology at school: cellphones, tablets, artificial intelligence. For or against? Our first listener is a high school teacher. Good evening, Lucie!" },
+            { "speaker": "Lucie", "fr": "Bonsoir, Camille. Moi, je suis plutôt pour la technologie en classe, mais pas pour les cellulaires. Dans notre école, les cellulaires sont interdits en classe depuis deux ans, et franchement, les élèves sont plus concentrés. Ils se parlent même pendant la pause !", "en": "Good evening, Camille. I'm rather in favour of technology in class, but not of cellphones. In our school, cellphones have been banned in class for two years, and frankly, the students are more focused. They even talk to each other at break time!" },
+            { "speaker": "Camille", "fr": "Et les tablettes, l'intelligence artificielle ?", "en": "And tablets, artificial intelligence?" },
+            { "speaker": "Lucie", "fr": "D'un côté, ce sont des outils extraordinaires. Une tablette permet à un élève en difficulté de lire à son rythme, et l'IA peut expliquer un problème de mathématiques de trois façons différentes. De l'autre côté, certains élèves font faire leurs devoirs par l'IA sans rien apprendre. Pour moi, le problème, ce n'est pas l'outil : c'est l'usage.", "en": "On the one hand, they're extraordinary tools. A tablet allows a struggling student to read at their own pace, and AI can explain a math problem in three different ways. On the other hand, some students have AI do their homework without learning anything. For me, the problem isn't the tool: it's how it's used." },
+            { "speaker": "Camille", "fr": "Merci, Lucie. Un deuxième auditeur est en ligne : Karim, papa de deux ados. Bonsoir !", "en": "Thank you, Lucie. A second listener is on the line: Karim, dad of two teens. Good evening!" },
+            { "speaker": "Karim", "fr": "Bonsoir ! Je travaille en informatique, alors je ne suis pas contre la technologie, au contraire. L'avantage, c'est que mes enfants trouvent de l'information en quelques secondes et apprennent à programmer en s'amusant. Par contre, je trouve que les réseaux sociaux rendent les jeunes dépendants. Mon fils regardait son téléphone en mangeant, en faisant ses devoirs, même en marchant !", "en": "Good evening! I work in IT, so I'm not against technology, on the contrary. The advantage is that my kids find information in a few seconds and learn to code while having fun. On the other hand, I find that social media makes young people addicted. My son used to look at his phone while eating, while doing his homework, even while walking!" },
+            { "speaker": "Camille", "fr": "Et qu'est-ce que vous avez fait ?", "en": "And what did you do?" },
+            { "speaker": "Karim", "fr": "On a établi des règles en famille : pas d'écran pendant les repas, et tous les cellulaires dans la cuisine à 21 h. Au début, il était furieux ! Maintenant, il dort mieux et il a de meilleures notes. Bref, la technologie, c'est comme le sucre : un peu, c'est bon, mais trop, c'est dangereux.", "en": "We set rules as a family: no screens during meals, and all cellphones in the kitchen at 9 p.m. At first he was furious! Now he sleeps better and has better grades. In short, technology is like sugar: a little is good, but too much is dangerous." },
+            { "speaker": "Camille", "fr": "Belle comparaison ! Donc, si je comprends bien, vous êtes tous les deux d'accord : ça dépend de l'usage.", "en": "Nice comparison! So, if I understand correctly, you both agree: it depends on how it's used." }
+          ] },
+        { "type": "text", "title": "Le blogue d'Amira : le télétravail, deux ans plus tard",
+          "context": "Amira writes about working from home two days a week.",
+          "fr": "Il y a deux ans, j'étais très enthousiaste quand mon employeur a proposé le télétravail deux jours par semaine. Aujourd'hui, je vois mieux le pour et le contre.\nD'un côté, les avantages sont évidents. Je gagne une heure et demie de transport par jour, et c'est énorme en hiver. Je suis aussi plus concentrée pour les tâches longues, puisque personne ne vient me déranger.\nDe l'autre côté, il y a des inconvénients. Je vois moins mes collègues, et j'ai parfois l'impression de rater des informations importantes. En plus, comme mon bureau est dans le salon, j'ai du mal à arrêter de travailler le soir.\nÀ mon avis, la meilleure solution, c'est l'équilibre : deux jours à la maison pour se concentrer, trois jours au bureau pour garder le contact. En tout cas, je ne voudrais plus revenir en arrière !",
+          "en": "Two years ago, I was very enthusiastic when my employer offered remote work two days a week. Today I see the pros and cons more clearly. On the one hand, the advantages are obvious. I save an hour and a half of commuting a day, and that's huge in winter. I'm also more focused for long tasks, since nobody comes to disturb me. On the other hand, there are disadvantages. I see my colleagues less, and I sometimes feel I'm missing important information. Also, since my desk is in the living room, I find it hard to stop working in the evening. In my opinion, the best solution is balance: two days at home to concentrate, three days at the office to keep in touch. In any case, I wouldn't want to go back!" },
+        { "id": "d1", "type": "mcq", "prompt": "What is Lucie's main point?", "options": ["The problem is how the tools are used, not the tools.", "All technology should be banned from schools.", "Students should use AI for their homework."], "answer": 0,
+          "explain": "[[Pour moi, le problème, ce n'est pas l'outil : c'est l'usage.]]" },
+        { "id": "d2", "type": "mcq", "prompt": "Which is a disadvantage of remote work for Amira?", "options": ["She finds it hard to stop working in the evening.", "Her commute is longer.", "She can't concentrate on long tasks."], "answer": 0,
+          "explain": "[[j'ai du mal à arrêter de travailler le soir]], because her desk is in the living room." }
+      ] },
+    { "type": "understand", "title": "Weighing pros and cons",
+      "blocks": [
+        { "type": "table", "title": "Presenting advantages and disadvantages",
+          "head": ["Function", "Spoken", "Written / more formal"],
+          "rows": [
+            ["Introduce a pro", "L'avantage, c'est que…", "Le principal avantage est…"],
+            ["Introduce a con", "Le problème, c'est que…", "Le principal inconvénient est…"],
+            ["Balance two sides", "D'un côté… de l'autre…", "D'une part… d'autre part…"],
+            ["Contrast", "par contre, mais", "en revanche, cependant"],
+            ["Add a point", "en plus, et puis", "de plus, par ailleurs"],
+            ["Conclude", "bref, en tout cas", "en conclusion, en somme"]
+          ],
+          "frCols": [1, 2], "sayCol": true,
+          "note": "[[par contre]] is perfectly normal in speech and in most writing; in very formal writing, many people prefer [[en revanche]]. You'll study [[cependant]] and [[par ailleurs]] in unit 9." },
+        { "type": "pattern", "title": "What technology does",
+          "pattern": "permettre à quelqu'un de + infinitif · rendre + nom + adjectif · faciliter + nom",
+          "note": "English *make* + adjective is **rendre**, not faire: [[ça rend les gens dépendants]]. *Allow someone to* is [[permettre à quelqu'un de]].",
+          "examples": [
+            { "fr": "Une tablette permet à un élève de lire à son rythme.", "en": "A tablet allows a student to read at their own pace." },
+            { "fr": "Les réseaux sociaux rendent les jeunes dépendants.", "en": "Social media makes young people addicted." },
+            { "fr": "Les applications facilitent la communication.", "en": "Apps make communication easier." },
+            { "fr": "Le télétravail me fait gagner une heure par jour.", "en": "Remote work saves me an hour a day." }
+          ] },
+        { "type": "explain", "title": "A balanced paragraph in four moves",
+          "body": "1. **Position or question:** [[Le télétravail : bonne ou mauvaise idée ?]]\n2. **Advantages:** [[D'un côté, … L'avantage, c'est que…]] + an example\n3. **Disadvantages:** [[De l'autre côté, … Par contre, …]] + an example\n4. **Nuanced conclusion:** [[À mon avis, … Bref, ça dépend de…]]\n\nRe-use unit 1: [[je trouve que]], [[puisque]], [[comme]], [[plutôt]]; and the gérondif from the last lesson: [[en s'amusant]], [[en mangeant]]." },
+        { "type": "vocab", "title": "New words", "itemIds": ["avantage", "inconvenient", "cellulaire", "temps-ecran", "ia", "reseaux-sociaux", "dependant", "interdire", "pour-contre", "depend-usage"] },
+        { "type": "deepdive", "kind": "mistakes", "title": "Common errors",
+          "body": "- [[Ça fait les jeunes dépendants]] → [[Ça rend les jeunes dépendants]].\n- [[Ça permet de les élèves lire]] → [[Ça permet aux élèves de lire]]: [[à]] + person, [[de]] + infinitive.\n- [[Sur un côté… sur l'autre côté]] → [[D'un côté… de l'autre (côté)]].\n- [[Un désavantage]] exists, but [[un inconvénient]] is much more common.\n- *Social media* is plural in French: [[les réseaux sociaux sont…]], not [[le social media]].\n- [[Vous interdites]] → [[vous interdisez]]: unlike [[dire]] (vous dites), [[interdire]] is regular here." },
+        { "type": "deepdive", "kind": "canada", "title": "Tech talk in Canada",
+          "body": "- [[un cellulaire]] or [[un cell]] in Québec; [[un portable]] in France. A text message: [[un texto]].\n- [[clavarder]] = to chat online (Québec); [[un balado]] = a podcast.\n- Informal: [[être accro à son cell]] = to be hooked on your phone.\n- In recent years, several provinces, including Québec and Ontario, have restricted cellphone use in classrooms. Rules differ by province and by school and can change, so ask your children's school and check official sources.",
+          "examples": [ { "fr": "Envoie-moi un texto quand tu arrives.", "en": "Text me when you arrive." } ] }
+      ] },
+    { "type": "hear", "title": "Hear it, say it",
+      "blocks": [
+        { "type": "repeat", "title": "Listen and repeat",
+          "note": "In a balanced argument, your voice rises slightly on [[D'un côté…]] and falls on the conclusion.",
+          "lines": [
+            { "fr": "D'un côté, c'est très pratique. De l'autre, c'est un peu dangereux.", "en": "On the one hand, it's very practical. On the other, it's a bit dangerous." },
+            { "fr": "L'avantage, c'est que je gagne du temps.", "en": "The advantage is that I save time." },
+            { "fr": "Le problème, c'est que les jeunes deviennent dépendants.", "en": "The problem is that young people become addicted." },
+            { "fr": "Les réseaux sociaux rendent les gens moins patients.", "en": "Social media makes people less patient.", "tip": "rendent: the -ent is silent, ran-d'." },
+            { "fr": "Bref, ça dépend de l'usage.", "en": "In short, it depends on how it's used." }
+          ] },
+        { "id": "h1", "type": "listen-mcq", "fr": "Les cours en ligne, c'est pratique, puisqu'on peut étudier le soir. Par contre, on n'a pas beaucoup de contact avec le professeur.", "en": "Online courses are practical, since you can study in the evening. On the other hand, you don't have much contact with the teacher.", "prompt": "What disadvantage does the speaker mention?", "options": ["Little contact with the teacher", "You have to study in the evening", "They're expensive"], "answer": 0,
+          "explain": "After [[par contre]] comes the disadvantage: [[on n'a pas beaucoup de contact avec le professeur]]." },
+        { "id": "h2", "type": "listen-mcq", "fr": "Je suis plutôt contre l'intelligence artificielle à l'école, mais je comprends qu'elle peut aider certains élèves.", "en": "I'm rather against AI at school, but I understand it can help some students.", "prompt": "What is the speaker's opinion?", "options": ["Rather against, with a nuance", "Completely for", "Has no opinion"], "answer": 0,
+          "explain": "[[plutôt contre]] (unit 1 nuance) + [[mais je comprends que…]]: a nuanced position." }
+      ] },
+    { "type": "recall", "title": "Your turn",
+      "intro": "Some questions bring back the gérondif and unit 1 connectors.",
+      "blocks": [
+        { "id": "r1", "type": "match", "prompt": "Match the French with the English.", "pairs": [["un inconvénient", "a drawback"], ["le temps d'écran", "screen time"], ["les réseaux sociaux", "social media"], ["interdire", "to ban"], ["le pour et le contre", "the pros and cons"]] },
+        { "id": "r2", "type": "cloze", "text": "D'un ___, c'est pratique. De l'___, c'est cher.", "answers": [["côté"], ["autre"]], "en": "On the one hand, it's practical. On the other, it's expensive.", "explain": "[[d'un côté… de l'autre]]." },
+        { "id": "r3", "type": "translate", "prompt": "Social media makes young people addicted.", "accept": ["Les réseaux sociaux rendent les jeunes dépendants.", "Les réseaux sociaux rendent les jeunes accros.", "Les médias sociaux rendent les jeunes dépendants."], "hint": "make + adjective = rendre",
+          "explain": "[[rendre]] + noun + adjective. [[les réseaux]] (plural) → [[rendent]]." },
+        { "id": "r4", "type": "mcq", "prompt": "“A tablet allows a student to read at their own pace.”", "options": ["Une tablette permet à un élève de lire à son rythme.", "Une tablette permet un élève lire à son rythme.", "Une tablette permet de un élève à lire à son rythme."], "optionsFr": true, "answer": 0,
+          "optionFeedback": [null, "Missing à before the person and de before the infinitive.", "The order is permettre à + person + de + infinitive."] },
+        { "id": "r5", "type": "cloze", "text": "L'avantage, c'est que c'est rapide. ___, ça coûte cher.", "answers": [["Par contre", "En revanche", "Mais"]], "choices": ["Par contre", "Parce que", "D'abord"], "en": "The advantage is that it's fast. On the other hand, it's expensive.", "explain": "A contrast: [[par contre]] or [[en revanche]]." },
+        { "id": "r6", "type": "cloze", "text": "Mon fils regardait son téléphone en ___ (manger).", "answers": [["mangeant"]], "en": "My son used to look at his phone while eating.", "explain": "Last lesson: [[en mangeant]], with the e of [[nous mangeons]]." },
+        { "id": "r7", "type": "translate", "prompt": "Remote work saves me an hour a day.", "accept": ["Le télétravail me fait gagner une heure par jour.", "Avec le télétravail, je gagne une heure par jour.", "Grâce au télétravail, je gagne une heure par jour."], "hint": "faire gagner du temps",
+          "explain": "*Save time* = [[gagner du temps]]; *something saves me time* = [[ça me fait gagner du temps]]." },
+        { "id": "r8", "type": "reorder", "prompt": "In short, it depends on how it's used.", "accept": ["Bref ça dépend de l'usage"], "extra": ["du"],
+          "explain": "[[dépendre de]]; [[usage]] starts with a vowel → [[de l'usage]]." },
+        { "id": "r9", "type": "dictation", "fr": "Je suis plutôt pour, puisque ça permet d'apprendre partout.", "accept": [], "explain": "[[plutôt]] (nuance), [[puisque]] (reason, unit 1), [[permettre de]] + infinitive." }
+      ] },
+    { "type": "apply", "title": "Make it yours",
+      "blocks": [
+        { "id": "w1", "type": "write", "prompt": "Write a balanced paragraph: “Les cours en ligne : une bonne solution pour les adultes ?” Present at least two advantages and two disadvantages with examples, then give your nuanced opinion.", "promptFr": "Les cours en ligne : une bonne solution pour les adultes ?",
+          "wordRange": [100, 160],
+          "checklist": ["A question or position to start", "D'un côté… de l'autre", "L'avantage, c'est que… / Le problème, c'est que…", "permettre de + infinitive or rendre + adjective", "par contre / en revanche", "A reason with puisque / comme / parce que", "A gérondif", "A nuanced conclusion: À mon avis… Bref, ça dépend de…"],
+          "models": [ { "label": "Model answer", "fr": "Les cours en ligne : une bonne solution pour les adultes ? D'un côté, ils ont de grands avantages. Ils permettent d'étudier le soir, après le travail, et on ne perd pas de temps dans les transports. L'avantage, c'est aussi le prix : beaucoup de cours sont gratuits. Moi, par exemple, j'ai suivi un cours de comptabilité en gardant mes enfants à la maison.\nDe l'autre côté, il y a des inconvénients. Comme on est seul devant l'écran, on a moins de contact avec le professeur et les autres étudiants. En plus, il faut être très motivé, puisque personne ne vérifie si on travaille.\nÀ mon avis, les cours en ligne sont une bonne solution pour les adultes autonomes. Par contre, pour apprendre une langue, je préfère les cours en personne. Bref, ça dépend de la matière et de la personne.", "en": "Online courses: a good solution for adults? On the one hand, they have great advantages. They allow you to study in the evening, after work, and you don't waste time commuting. The price is an advantage too: many courses are free. I, for example, took an accounting course while looking after my children at home. On the other hand, there are disadvantages. As you're alone in front of the screen, you have less contact with the teacher and the other students. Also, you have to be very motivated, since nobody checks whether you're working. In my opinion, online courses are a good solution for independent adults. On the other hand, to learn a language, I prefer in-person classes. In short, it depends on the subject and the person." } ] },
+        { "id": "s1", "type": "speak", "prompt": "A radio host asks you: “Le cellulaire : un outil indispensable ou un problème ?” Give one minute of balanced opinion with a personal example.", "seconds": 60,
+          "checklist": ["Your position: Je suis plutôt pour / contre…", "D'un côté… de l'autre…", "L'avantage, c'est que… / Le problème, c'est que…", "A personal example (passé composé or imparfait)", "Bref, … to conclude"],
+          "models": [ { "label": "Model answer", "fr": "Pour moi, le cellulaire est plutôt un outil indispensable. D'un côté, il me permet de rester en contact avec ma famille au Maroc, et quand je suis arrivée à Montréal, j'ai trouvé mon chemin en utilisant les cartes en ligne. De l'autre côté, le problème, c'est qu'on le regarde tout le temps. Avant, je lisais les nouvelles en me réveillant, et ça me stressait. Maintenant, je laisse mon cellulaire dans la cuisine la nuit. Bref, c'est un très bon outil, mais il faut savoir l'éteindre !", "en": "For me, the cellphone is rather an essential tool. On the one hand, it allows me to stay in touch with my family in Morocco, and when I arrived in Montréal, I found my way by using online maps. On the other hand, the problem is that we look at it all the time. Before, I used to read the news as soon as I woke up, and it stressed me out. Now I leave my phone in the kitchen at night. In short, it's a very good tool, but you have to know how to turn it off!" } ] }
+      ] },
+    { "type": "review", "title": "Mix in older material",
+      "blocks": [ { "type": "review-mix", "count": 5 } ] }
+  ],
+  "summary": "- Present pros and cons with [[l'avantage, c'est que…]], [[le problème, c'est que…]], [[un avantage]], [[un inconvénient]]\n- Balance two sides with [[d'un côté… de l'autre]], [[par contre]], [[en revanche]], and conclude with [[bref, ça dépend de…]]\n- Say what technology does with [[permettre à quelqu'un de + infinitif]] and [[rendre + adjectif]]",
+  "completion": { "threshold": 0.8 },
+  "meta": { "reviewStatus": "ai-verified", "author": "ai", "verifiedBy": "ai-verifier", "notes": "Fixed 'dépendant à son téléphone' → 'dépendant de' and clarified the accro note. Added a check-official-sources hedge to the classroom cellphone note." }
+}
