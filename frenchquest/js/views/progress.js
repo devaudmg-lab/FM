@@ -17,6 +17,7 @@ export default async function progress({ tab = 'overview' }, root) {
   v.append(h('div', { class: 'page-head row between', style: { alignItems: 'flex-end' } },
     h('div', h('h1', 'Progress'), h('p', 'What you can do now, measured by recall — not by clicks.')),
     h('div', { class: 'row', style: { gap: '.4rem' } },
+      h('a', { class: 'btn sm', href: '#/sounds' }, icon('ear'), 'Sounds & alphabet'),
       h('a', { class: 'btn sm', href: '#/vocabulary' }, icon('book'), 'Vocabulary'),
       h('a', { class: 'btn sm', href: '#/resources' }, icon('map'), 'Resources'),
       h('a', { class: 'btn sm', href: '#/settings' }, icon('settings'), 'Settings'))));

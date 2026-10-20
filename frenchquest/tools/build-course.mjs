@@ -57,3 +57,29 @@ if (existsSync(vdir)) {
 }
 writeFileSync(join(root, 'data', 'vocab-decks.json'), JSON.stringify({ schemaVersion: 1, decks }, null, 1) + '\n');
 console.log(`vocab-decks.json: ${decks.length} decks published`);
+
+// Glossary for tap-to-hear (data/glossary.json): French form → short English meaning,
+// built from the vocabulary and phrase items of every published lesson and deck.
+const published = new Set([...course.levels.flatMap(l => l.units.flatMap(u => u.lessons.filter(x => x.status === 'published').map(x => x.id))), ...decks.map(d => d.id)]);
+const words = {};
+const key = s => String(s).normalize('NFC').toLowerCase().replace(/’/g, "'").replace(/[.!?…,;:«»"]+/g, '').replace(/\s+/g, ' ').trim();
+const ARTICLE = /^(le |la |les |l'|un |une |des |du |de la |de l')/;
+for (const dir of ['a1', 'a2', 'b1', 'b2', 'vocab']) {
+  const d = join(root, 'data', 'lessons', dir);
+  if (!existsSync(d)) continue;
+  for (const f of readdirSync(d).filter(x => x.endsWith('.json'))) {
+    let L; try { L = JSON.parse(readFileSync(join(d, f), 'utf8')); } catch { continue; }
+    if (!published.has(L.id)) continue;
+    for (const it of L.items || []) {
+      if (it.kind !== 'vocab' && it.kind !== 'phrase') continue;
+      const en = (Array.isArray(it.en) ? it.en[0] : it.en || '').trim();
+      if (!en) continue;
+      const forms = [it.fr, it.fem, it.article && (it.article.endsWith("'") ? it.article + it.fr : `${it.article} ${it.fr}`)].filter(Boolean).map(key);
+      for (const k of forms) {
+        for (const form of [k, k.replace(ARTICLE, '')]) if (form && !(form in words)) words[form] = en;
+      }
+    }
+  }
+}
+writeFileSync(join(root, 'data', 'glossary.json'), JSON.stringify({ schemaVersion: 1, words }) + '\n');
+console.log(`glossary.json: ${Object.keys(words).length} entries`);

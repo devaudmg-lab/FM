@@ -33,9 +33,10 @@ export function confirmDialog({ title, body, confirm = 'Confirm', cancel = 'Canc
 }
 
 // ---------- Audio button ----------
-export function sayButton(text, { audio, label = 'Listen', slow = false } = {}) {
-  const btn = h('button', { class: ['say', slow && 'slow'], type: 'button', 'aria-label': slow ? `${label} slowly` : label, title: slow ? 'Slower' : 'Listen' },
-    slow ? '0.7×' : icon('speaker'));
+/** One speaker button. Pass `slow: true` for the 0.7× version. */
+export function sayOne(text, { audio, label = 'Listen', slow = false } = {}) {
+  const btn = h('button', { class: ['say', slow && 'slow'], type: 'button', 'aria-label': slow ? `${label} slowly` : label, title: slow ? 'Listen slowly (0.7×)' : 'Listen' },
+    icon(slow ? 'turtle' : 'speaker'));
   btn.addEventListener('click', e => {
     e.stopPropagation();
     if (btn.classList.contains('playing')) { stop(); return; }
@@ -45,8 +46,14 @@ export function sayButton(text, { audio, label = 'Listen', slow = false } = {}) 
   return btn;
 }
 
+/** Normal + slow speaker buttons side by side. */
 export function sayPair(text, opts = {}) {
-  return h('span', { class: 'row', style: { gap: '4px', flexWrap: 'nowrap' } }, sayButton(text, opts), sayButton(text, { ...opts, slow: true }));
+  return h('span', { class: 'say-pair' }, sayOne(text, { ...opts, slow: false }), sayOne(text, { ...opts, slow: true }));
+}
+
+/** Default speaker control: normal and slow. `{ single: true }` gives just the normal button. */
+export function sayButton(text, opts = {}) {
+  return opts.single || opts.slow != null ? sayOne(text, opts) : sayPair(text, opts);
 }
 
 // ---------- Accent bar ----------

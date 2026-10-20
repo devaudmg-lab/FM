@@ -17,6 +17,11 @@ export default async function learn({ level }, root) {
     h('nav', { class: 'exam-switch', 'aria-label': 'Choose a level', style: { marginBottom: '2rem' } },
       [['', 'All'], ...course.levels.map(lv => [lv.id, lv.id.toUpperCase()])].map(([id, label]) =>
         h('a', { href: id ? `#/learn/${id}` : '#/learn', 'aria-current': (level || '') === id ? 'page' : null }, label))));
+  v.append(h('a', { class: 'panel tint sounds-cta', href: '#/sounds' },
+    h('span', { class: 'sounds-cta-ic', 'aria-hidden': 'true' }, 'Aa'),
+    h('span', { style: { flex: 1, minWidth: 0 } }, h('strong', 'Sounds & alphabet'),
+      h('span', { class: 'small muted', style: { display: 'block' } }, 'Letters, accents, numbers and every French sound, with English and Hindi comparisons and listening drills.')),
+    icon('next')));
 
   for (const lv of course.levels) {
     if (level && lv.id !== level) continue;

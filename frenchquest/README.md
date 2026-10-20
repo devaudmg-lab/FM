@@ -8,6 +8,8 @@ A structured French course from A1 to B2 for English-speaking adults, built arou
 - **Exam Lab:** separate TEF Canada and TCF Canada tracks with format-accurate timing, original practice sets and tasks, an honest NCLC *range* estimate, and an official-results log based on the IRCC tables. It has 474 listening and reading questions (including 8 full-length timed mocks) and 68 writing and speaking tasks.
 - **Vocabulary decks:** 34 extra decks (about 770 words) chosen by comparing the course with a 50,000-word frequency list, plus 10 exam-theme decks (work, immigration, housing, health, environment, technology, education, society, media, argumentation).
 - **Resources:** a curated, link-checked page of the best free YouTube channels, podcasts, news, exam-prep and practice sites.
+- **Sounds & alphabet:** the alphabet, accents, vowels, nasal sounds, consonants, silent letters and numbers, each compared with English and Hindi, with lip-shape pictures and listening drills for hard sound pairs.
+- **Tap to hear:** tap any French word for its sound and meaning; every speaker has a 🐢 slow button. In exercises, a wrong answer offers **Try again** (the first try still counts), and each lesson ends with a list of your mistakes and a one-tap redo round.
 - **Optional AI coach:** bring your own Anthropic API key to get rubric feedback on writing and speaking, and in-lesson answers. Without a key, "Ask about this" builds a detailed question you can paste into any AI assistant.
 
 No accounts, no tracking, no build step. Your progress stays in your browser, and you can download it as a backup file.
@@ -45,7 +47,7 @@ Offline support (the service worker) turns on automatically over HTTPS. After a 
 ## Content workflow
 
 - `CONTENT-GUIDE.md` is the lesson JSON contract, and `data/lessons/a1/a1-02-02.json` is the reference lesson.
-- `tools/AUTHOR-BRIEF.md`, `tools/WORKSHOP-BRIEF.md`, `tools/DECK-BRIEF.md` and `tools/VERIFIER-BRIEF.md` hold the two-pass AI workflow. One agent writes a lesson (`ai-draft`); a separate agent then checks the French, fixes it, and marks it `ai-verified`. Only verified lessons are published.
+- `tools/AUTHOR-BRIEF.md`, `tools/WORKSHOP-BRIEF.md`, `tools/DECK-BRIEF.md`, `tools/SOUNDS-BRIEF.md` and `tools/VERIFIER-BRIEF.md` hold the two-pass AI workflow. One agent writes a lesson (`ai-draft`); a separate agent then checks the French, fixes it, and marks it `ai-verified`. Only verified lessons are published.
 - Exam data and its schema live in `data/exam/` (see `SCHEMA.md`). `format.json` and `nclc.json` hold the official facts, with `verifiedOn` dates. Re-check them against the official pages before relying on them.
 - Audio: lessons use the device's French text-to-speech voice. Edge's "Natural" voices sound best. You can add recorded MP3 files later through the `audio` field, with no code changes.
 

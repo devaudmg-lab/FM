@@ -38,11 +38,20 @@ export function shuffle(arr, seed = Math.random()) {
 
 const RENDER = { mcq, 'listen-mcq': listenMcq, translate, cloze, reorder, match, dictation, write, speak };
 
+// Exercises that are not scored right/wrong never offer "Try again".
+const NO_RETRY = new Set(['write', 'speak']);
+
+/**
+ * Render one exercise. The first answer is reported through ctx.onResult (it is what
+ * counts); after a wrong or almost-right answer the learner can try again, and each
+ * later attempt is reported through ctx.onRetry.
+ */
 export function renderExercise(ex, ctx = {}) {
   const fn = RENDER[ex.type];
   if (!fn) return { el: h('div', { class: 'notice' }, `Unknown exercise type: ${ex.type}`), focus() {} };
-  const t0 = performance.now();
-  let reported = false;
+  let t0 = performance.now();
+  let attempt = 0;
+  let reported = false; // for the current attempt
   const shell = h('section', { class: 'ex', 'aria-label': KIND_LABEL[ex.type] || 'Exercise' });
   const fbHost = h('div', { 'aria-live': 'polite' });
   const state = { hintUsed: false };
@@ -50,21 +59,42 @@ export function renderExercise(ex, ctx = {}) {
     report(r) {
       if (reported) return;
       reported = true;
-      const result = { latencyMs: Math.round(performance.now() - t0), hintUsed: state.hintUsed, production: PRODUCTION.has(ex.type), ...r };
-      ctx.onResult?.(result, ex);
+      const result = { latencyMs: Math.round(performance.now() - t0), hintUsed: state.hintUsed, production: PRODUCTION.has(ex.type), attempt, ...r };
+      if (attempt === 0) ctx.onResult?.(result, ex);
+      else ctx.onRetry?.(result, ex);
+      if (r.status !== 'correct' && !NO_RETRY.has(ex.type) && !ctx.noRetry) offerRetry();
     },
     showFeedback(node) { clear(fbHost).append(node); if (ctx.continueLabel) fbHost.append(continueBtn()); },
     state,
   };
   const continueBtn = () => {
-    const b = h('button', { class: 'btn primary', style: { marginTop: '1rem' }, onclick: () => ctx.onContinue?.() }, ctx.continueLabel, icon('next'));
+    const b = h('button', { class: 'btn primary ex-continue', style: { marginTop: '1rem' }, onclick: () => ctx.onContinue?.() }, ctx.continueLabel, icon('next'));
     setTimeout(() => b.focus(), 30);
     return b;
   };
+  const offerRetry = () => {
+    const btn = h('button', { class: 'btn ex-retry', type: 'button', style: { marginTop: '1rem' }, onclick: retry }, icon('refresh'), 'Try again');
+    const note = attempt === 0 ? h('p', { class: 'small muted', style: { margin: '.75rem 0 0' } }, 'Your first answer is what counts for the score; trying again helps you remember.') : null;
+    const cont = fbHost.querySelector('.ex-continue');
+    const row = h('div', { class: 'row ex-after' }, btn, cont);
+    fbHost.append(note, row);
+    if (!cont) setTimeout(() => btn.focus(), 30);
+  };
+  const retry = () => {
+    attempt++;
+    reported = false;
+    state.hintUsed = false;
+    t0 = performance.now();
+    const fresh = fn(ex, { ...ctx, seed: Math.random() }, api);
+    body.el.replaceWith(fresh.el);
+    body = fresh;
+    clear(fbHost);
+    setTimeout(() => (body.focus || (() => shell.querySelector('input,textarea,button')?.focus()))(), 30);
+  };
   if (!ctx.hideKind) shell.append(h('div', { class: 'ex-kind' }, ctx.kindLabel || KIND_LABEL[ex.type]));
-  const body = fn(ex, ctx, api);
+  let body = fn(ex, ctx, api);
   shell.append(body.el, fbHost);
-  return { el: shell, focus: body.focus || (() => shell.querySelector('input,textarea,button')?.focus()) };
+  return { el: shell, focus: () => (body.focus || (() => shell.querySelector('input,textarea,button')?.focus()))() };
 }
 
 function hintButton(ex, api, host, fallback) {

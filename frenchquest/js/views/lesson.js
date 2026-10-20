@@ -82,6 +82,12 @@ export default async function lessonView({ id }, root) {
       continueLabel: hasMore ? 'Continue' : null,
       onContinue: onAnswered.next,
       ai: aiHooks(),
+      onRetry: (r) => {
+        const first = results[ex.id];
+        if (!first) return;
+        first.retries = (first.retries || 0) + 1;
+        if (r.status !== 'incorrect') first.fixed = true;
+      },
       onResult: async (r) => {
         results[ex.id] = r;
         onAnswered.done();
@@ -218,6 +224,11 @@ export default async function lessonView({ id }, root) {
     const index = await lessonIndex();
     const pos = index.findIndex(l => l.id === id);
     const nextL = pos < 0 ? null : index.slice(pos + 1).find(l => l.status === 'published' && !l.optional);
+    const missed = graded.filter(b => results[b.id].status === 'incorrect');
+    let redoScore = null;
+
+    const summary = () => {
+    const fixed = missed.filter(b => results[b.id].fixed).length;
     clear(top).append(h('a', { class: 'btn icon ghost', href: '#/learn', 'aria-label': 'Close lesson' }, icon('x')), h('div', { class: 't' }, lesson.title), h('span'));
     clear(foot);
     clear(page).append(h('section', { class: 'step' },
@@ -231,6 +242,7 @@ export default async function lessonView({ id }, root) {
         h('div', { class: 'stat' }, h('b', String(graded.length ? `${correct}/${graded.length}` : '—')), h('span', 'right on the first try')),
         h('div', { class: 'stat' }, h('b', String(added)), h('span', 'new review cards')),
         h('div', { class: 'stat' }, h('b', `+${xp}`), h('span', 'XP'))),
+      missed.length > 0 && mistakesPanel(missed, fixed),
       testedOut > 0 && h('div', { class: 'notice info', style: { marginBottom: '1.5rem' } }, icon('check'), h('div', `You tested out of ${testedOut} earlier lesson${testedOut > 1 ? 's' : ''} in this unit. Their words are in your review queue, so gaps will show up there.`)),
       lesson.summary && h('div', { class: 'panel tint', style: { marginBottom: '2rem' } }, h('h3', 'What you can do now'), md(lesson.summary)),
       h('div', { class: 'row' },
@@ -238,11 +250,71 @@ export default async function lessonView({ id }, root) {
         h('button', { class: ['btn', !strong && 'primary', 'lg'], onclick: () => lessonView({ id }, clear(root)) }, icon('refresh'), 'Practise again'),
         lesson.level === 'vocab' ? h('a', { class: 'btn ghost', href: '#/vocabulary' }, 'Back to Vocabulary') : h('a', { class: 'btn ghost', href: '#/' }, 'Back to Home'))));
     page.querySelector('h1').focus();
+    };
+
+    const mistakesPanel = (list, fixed) => h('div', { class: 'panel', style: { marginBottom: '2rem' } },
+      h('h3', { style: { marginTop: 0 } }, icon('alert'), ` Your mistakes (${list.length})`),
+      h('p', { class: 'small muted' }, [
+        fixed ? `You fixed ${fixed} of them on a retry.` : 'Look at the right answers, then redo just these questions.',
+        redoScore && ` In your last redo you got ${redoScore.right} of ${redoScore.total} right.`,
+      ].filter(Boolean).join('')),
+      h('ul', { class: 'mistakes' }, list.map(b => {
+        const r = results[b.id];
+        const typed = ['translate', 'cloze', 'dictation', 'reorder'].includes(b.type);
+        const frAnswer = typed || (b.type === 'mcq' && b.optionsFr);
+        return h('li',
+          h('div', { class: 'small muted' }, KIND_LABEL[b.type]),
+          h('div', promptOf(b)),
+          r.given && h('div', { class: 'small' }, typed ? 'You wrote: ' : 'You chose: ', h('span', { lang: frAnswer ? 'fr' : null, class: ['wrong', frAnswer && 'fr'] }, r.given)),
+          r.expected && h('div', { class: 'small' }, 'Answer: ', h('strong', { lang: frAnswer ? 'fr' : null, class: frAnswer ? 'fr' : null }, r.expected)));
+      })),
+      h('button', { class: 'btn primary', type: 'button', onclick: () => redo(list) }, icon('refresh'), `Redo my mistakes (${list.length})`));
+
+    // A short round of just the missed exercises. It helps memory but does not change the score.
+    const redo = (list) => {
+      stopAudio();
+      let i = 0, right = 0;
+      clear(foot);
+      clear(top).append(h('a', { class: 'btn icon ghost', href: '#/learn', 'aria-label': 'Close lesson' }, icon('x')), h('div', { class: 't' }, 'Redo your mistakes'), h('span', { class: 'small muted nowrap' }));
+      const host = h('div');
+      clear(page).append(h('section', { class: 'step' }, h('div', { class: 'step-kicker' }, 'Practice'), h('h1', { tabindex: -1 }, 'Redo your mistakes'),
+        h('p', { class: 'muted' }, 'Only the questions you missed. This round does not change your score.'), host));
+      const next = () => {
+        if (i >= list.length) {
+          redoScore = { right, total: list.length };
+          summary();
+          return;
+        }
+        const b = list[i++];
+        top.lastChild.textContent = `${i}/${list.length}`;
+        const handle = renderExercise(b, {
+          seed: Math.random(),
+          continueLabel: i < list.length ? 'Next' : 'See results',
+          onContinue: next,
+          onResult: r => { if (r.status !== 'incorrect') { right++; results[b.id].fixed = true; } },
+          onRetry: r => { if (r.status !== 'incorrect') results[b.id].fixed = true; },
+        });
+        clear(host).append(handle.el);
+        setTimeout(() => handle.focus(), 60);
+      };
+      next();
+    };
+
+    summary();
     if (strong && !wasDone) toast('Saved. New cards are waiting in Review.');
   }
 
   await renderStep();
   return () => { stopAudio(); document.body.classList.remove('in-lesson'); };
+}
+
+function promptOf(b) {
+  const strip = t => String(t || '').replace(/\[\[|\]\]|\*\*/g, '');
+  if (b.type === 'dictation') return 'Write what you hear.';
+  if (b.type === 'match') return strip(b.prompt) || 'Match the pairs.';
+  if (b.type === 'listen-mcq') return `${strip(b.prompt) || 'Listening'} (audio: “${b.fr}”)`;
+  if (b.type === 'cloze') return strip(b.text);
+  return strip(b.prompt || b.en || b.text);
 }
 
 function snippetOf(step) {

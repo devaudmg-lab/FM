@@ -13,7 +13,7 @@ export function inline(text) {
     if (m.index > last) out.push(text.slice(last, m.index));
     const t = m[0];
     if (t.startsWith('**')) out.push(h('strong', inline(t.slice(2, -2))));
-    else if (t.startsWith('[[')) out.push(h('span', { class: 'fr', lang: 'fr' }, t.slice(2, -2)));
+    else if (t.startsWith('[[')) out.push(h('span', { class: 'fr hl', lang: 'fr', tabindex: 0, role: 'button', title: 'Tap to hear' }, t.slice(2, -2)));
     else if (t.startsWith('`')) out.push(h('code', t.slice(1, -1)));
     else out.push(h('em', inline(t.slice(1, -1))));
     last = m.index + t.length;

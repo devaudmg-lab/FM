@@ -17,13 +17,16 @@ import settings from './views/settings.js';
 import welcome from './views/welcome.js';
 import resources from './views/resources.js';
 import vocabulary from './views/vocabulary.js';
+import sounds from './views/sounds.js';
+import { initWordTap } from './ui/wordtap.js';
 
 const NAV = [
   { path: '/', label: 'Home', icon: 'home', match: p => p === '/' },
-  { path: '/learn', label: 'Learn', icon: 'learn', match: p => p.startsWith('/learn') || p.startsWith('/lesson') },
+  { path: '/learn', label: 'Learn', icon: 'learn', match: p => p.startsWith('/learn') || p.startsWith('/lesson') || (p.startsWith('/sounds') && innerWidth < 960) },
   { path: '/review', label: 'Review', icon: 'review', match: p => p.startsWith('/review'), count: true },
   { path: '/exam', label: 'Exam Lab', short: 'Exam', icon: 'exam', match: p => p.startsWith('/exam') },
   { path: '/progress', label: 'Progress', short: 'Me', icon: 'progress', match: p => p.startsWith('/progress') || (/^\/(settings|resources|vocabulary)/.test(p) && innerWidth < 960) },
+  { path: '/sounds', label: 'Sounds & alphabet', icon: 'ear', match: p => p.startsWith('/sounds'), desktopOnly: true },
   { path: '/vocabulary', label: 'Vocabulary', icon: 'book', match: p => p.startsWith('/vocabulary'), desktopOnly: true },
   { path: '/resources', label: 'Resources', icon: 'map', match: p => p.startsWith('/resources'), desktopOnly: true },
   { path: '/settings', label: 'Settings', icon: 'settings', match: p => p.startsWith('/settings'), desktopOnly: true },
@@ -89,6 +92,8 @@ route('/progress/:tab', progress);
 route('/settings', settings);
 route('/resources', resources);
 route('/vocabulary', vocabulary);
+route('/sounds', sounds);
+route('/sounds/:section', sounds);
 fallback((p, root) => {
   root.append(h('div', { class: 'view narrow' }, h('h1', 'Page not found'), h('p', 'That address does not match any page.'), h('a', { class: 'btn primary', href: '#/' }, 'Go to Home')));
 });
@@ -106,6 +111,7 @@ onBeforeRender(async (path) => {
 async function boot() {
   applyPrefs();
   buildNav();
+  initWordTap();
   try {
     await db.openDB();
   } catch (e) {
