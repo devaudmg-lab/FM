@@ -1,11 +1,11 @@
 import { h, fr } from '../ui/h.js';
 import { icon } from '../ui/icons.js';
-import { bar, minutes, empty, sayButton } from '../ui/components.js';
+import { bar, minutes, empty, sayButton, confirmDialog, toast } from '../ui/components.js';
 import { pathStatus, skillScores, dailyRange, SKILL_LABEL } from '../engine/progress.js';
 import { cardStats } from '../engine/cards.js';
 import { streak, totalXP, BADGES, isActiveDay } from '../engine/gamification.js';
 import { getCourse } from '../engine/content.js';
-import { playBlob } from '../media/recorder.js';
+import { playBlob, deleteRecording } from '../media/recorder.js';
 import { renderFeedback } from '../ai/coach.js';
 import * as db from '../store/db.js';
 
@@ -84,7 +84,18 @@ async function portfolio(v) {
       e.self && h('p', { class: 'small muted' }, `Self-rating: ${Object.values(e.self).reduce((a, b) => a + b, 0)} / ${Object.keys(e.self).length * 3}`));
     if (e.recordingId) {
       const rec = await db.get('recordings', e.recordingId);
-      if (rec) card.append(h('button', { class: 'btn sm', onclick: () => playBlob(rec.blob) }, icon('play'), `Play recording (${Math.round(rec.ms / 1000)} s)`));
+      if (rec) {
+        const row = h('div', { class: 'row' },
+          h('button', { class: 'btn sm', onclick: () => playBlob(rec.blob) }, icon('play'), `Play recording (${Math.round(rec.ms / 1000)} s)`),
+          h('button', { class: 'btn ghost sm', 'aria-label': 'Delete this recording', onclick: async () => {
+            if (!(await confirmDialog({ title: 'Delete this recording?', body: 'The audio is removed from this browser. The task entry stays in your portfolio.', confirm: 'Delete', danger: true }))) return;
+            await deleteRecording(rec.id);
+            await db.put('portfolio', { ...e, recordingId: null });
+            row.replaceWith(h('p', { class: 'small muted' }, 'Recording deleted.'));
+            toast('Recording deleted.');
+          } }, icon('trash'), 'Delete recording'));
+        card.append(row);
+      }
     }
     if (e.ai) card.append(renderFeedback(e.ai));
     list.append(card);

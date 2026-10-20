@@ -83,6 +83,8 @@ export default async function settings(params, root) {
     catch (err) { toast(`Restore failed; nothing was changed. ${err.message}`, { ms: 8000 }); }
   } });
   let withRec = false;
+  const recs = await db.all('recordings');
+  const recMB = recs.reduce((n, r) => n + (r.blob?.size || 0), 0) / 1048576;
   v.append(h('section', { class: 'settings-group' }, h('h2', 'Your data'),
     h('p', { class: 'small muted' }, `Stored in this browser only${est ? ` · using ${(est.usage / 1048576).toFixed(1)} MB` : ''} · ${persisted ? 'protected from automatic clean-up' : 'the browser may clear it if space runs low'}.`),
     h('p', { class: 'small' }, lastExport ? `Last backup: ${new Date(lastExport).toLocaleDateString()}` : 'You have not made a backup yet. Back up regularly — clearing browser data deletes your progress.'),
@@ -91,6 +93,15 @@ export default async function settings(params, root) {
       h('button', { class: 'btn primary', onclick: async () => { const b = await exportAll({ includeRecordings: withRec }); download(b, `frenchquest-backup-${new Date().toISOString().slice(0, 10)}.json`); toast('Backup downloaded.'); } }, icon('download'), 'Download backup'),
       h('button', { class: 'btn', onclick: () => fileInput.click() }, icon('upload'), 'Restore from file'), fileInput),
     h('div', { style: { marginTop: '2rem' } },
+      h('p', { class: 'small' }, recs.length ? `Voice recordings: ${recs.length} (${recMB.toFixed(1)} MB)` : 'Voice recordings: none saved.'),
+      recs.length > 0 && h('button', { class: 'btn', style: { marginBottom: '1rem' }, onclick: async () => {
+        if (!(await confirmDialog({ title: `Delete all ${recs.length} recordings?`, body: 'Your lessons, review cards and written work stay. Only the saved audio is removed.', confirm: 'Delete recordings', danger: true }))) return;
+        await db.tx(['recordings'], t => recs.forEach(r => t.del('recordings', r.id)));
+        for (const e of await db.all('portfolio')) if (e.recordingId) await db.put('portfolio', { ...e, recordingId: null });
+        toast('All recordings deleted.');
+        settings(params, clear(root));
+      } }, icon('trash'), 'Delete all recordings'),
+      h('br'),
       h('button', { class: 'btn danger', onclick: async () => {
         const ok = await confirmDialog({ title: 'Erase all progress?', body: 'This deletes every lesson, review card, recording and setting in this browser. Download a backup first if you might want it back.', confirm: 'Erase everything', danger: true, typeToConfirm: 'RESET' });
         if (!ok) return;
